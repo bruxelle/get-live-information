@@ -1,0 +1,12 @@
+cat > .gitignore <<'EOF'
+.venv/
+.env
+.state/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+*.sqlite
+*.sqlite3
+EOF
+.state/notion-sheets-prep.sqlite
