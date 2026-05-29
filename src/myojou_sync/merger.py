@@ -1,9 +1,10 @@
 from __future__ import annotations
 
 from dataclasses import dataclass
+from datetime import datetime, timedelta, timezone
 from difflib import SequenceMatcher
 
-from .models import CanonicalEvent, EventFields, ExtractedEvent, SourceKind, source_summary_line, utc_now
+from .models import CanonicalEvent, EventFields, ExtractedEvent, PostClassification, SourceKind, TicketSalePeriod, source_summary_line, utc_now
 from .normalization import normalize_event_name, normalize_url, normalize_venue
 
 
@@ -20,6 +21,12 @@ MANUAL_PROTECTED_FIELDS = {
     "priority_ticket_name",
     "priority_ticket_price",
     "same_day_ticket_price",
+    "ticket_application_start_at",
+    "ticket_application_deadline_at",
+    "lottery_result_at",
+    "payment_deadline_at",
+    "ticket_sale_type",
+    "ticket_sales",
 }
 
 STRONG_MATCH_THRESHOLD = 0.72
@@ -55,8 +62,11 @@ class EventMerger:
         if match.event is None or match.confidence < WEAK_MATCH_THRESHOLD:
             event = CanonicalEvent.from_extracted(
                 extracted,
-                needs_review=extracted.extraction_confidence < 0.65 or (match.event is not None and match.confidence > 0),
+                needs_review=extracted.classification == PostClassification.NEEDS_REVIEW
+                or extracted.extraction_confidence < 0.65
+                or (match.event is not None and match.confidence > 0),
             )
+            derive_compatible_ticket_fields(event)
             events.append(event)
             return event, True, match.confidence
 
@@ -133,7 +143,12 @@ class EventMerger:
         return max(0.0, min(score, 1.0)), reasons
 
     def apply_update(self, event: CanonicalEvent, extracted: ExtractedEvent, *, cautious: bool = False) -> None:
+        targeted_ticket_status = self._is_targeted_ticket_status_update(extracted)
         for field_name in EventFields.model_fields:
+            if field_name == "ticket_sales":
+                continue
+            if field_name == "ticket_status" and targeted_ticket_status:
+                continue
             new_value = getattr(extracted, field_name)
             if new_value is None:
                 continue
@@ -146,11 +161,45 @@ class EventMerger:
                 continue
             setattr(event, field_name, new_value)
 
+        self.merge_ticket_sales(event, extracted)
+        derive_compatible_ticket_fields(event)
         self.update_source_tracking(event, extracted)
 
-        if extracted.extraction_confidence < 0.6:
+        if extracted.classification == PostClassification.NEEDS_REVIEW or extracted.extraction_confidence < 0.6:
+            event.needs_review = True
+        if extracted.source_kind == SourceKind.SOLD_OUT and not targeted_ticket_status:
             event.needs_review = True
         event.updated_at = utc_now()
+
+    def merge_ticket_sales(self, event: CanonicalEvent, extracted: ExtractedEvent) -> None:
+        if event.manual_override and "ticket_sales" in MANUAL_PROTECTED_FIELDS:
+            return
+        for period in extracted.ticket_sales:
+            existing = self._find_existing_period(event.ticket_sales, period)
+            if existing is None:
+                event.ticket_sales.append(period)
+            else:
+                _update_period(existing, period)
+
+    def _find_existing_period(
+        self,
+        existing_periods: list[TicketSalePeriod],
+        new_period: TicketSalePeriod,
+    ) -> TicketSalePeriod | None:
+        new_key = _period_identity(new_period)
+        for existing in existing_periods:
+            if _period_identity(existing) == new_key:
+                return existing
+        if new_period.status in {"完売", "販売終了"}:
+            for existing in existing_periods:
+                if _same_ticket_target(existing, new_period):
+                    return existing
+        return None
+
+    def _is_targeted_ticket_status_update(self, extracted: ExtractedEvent) -> bool:
+        if extracted.source_kind != SourceKind.SOLD_OUT:
+            return False
+        return any(period.status in {"完売", "販売終了"} and period.ticket_tier != "不明" for period in extracted.ticket_sales)
 
     def update_source_tracking(self, event: CanonicalEvent, extracted: ExtractedEvent) -> None:
         if extracted.source_url not in event.all_source_urls:
@@ -189,3 +238,96 @@ def _similarity(left: str, right: str) -> float:
     if left == right:
         return 1.0
     return SequenceMatcher(None, left, right).ratio()
+
+
+_JST = timezone(timedelta(hours=9))
+
+
+def derive_compatible_ticket_fields(event: CanonicalEvent, *, now: datetime | None = None) -> None:
+    if not event.ticket_sales:
+        return
+    selected = select_relevant_ticket_period(event.ticket_sales, now=now)
+    if selected is None or not any((selected.start_at, selected.deadline_at, selected.result_at, selected.payment_deadline_at)):
+        event.ticket_application_start_at = None
+        event.ticket_application_deadline_at = None
+        event.lottery_result_at = None
+        event.payment_deadline_at = None
+        event.ticket_sale_type = None
+        return
+    event.ticket_application_start_at = selected.start_at
+    event.ticket_application_deadline_at = selected.deadline_at
+    event.lottery_result_at = selected.result_at
+    event.payment_deadline_at = selected.payment_deadline_at
+    event.ticket_sale_type = selected.sale_type
+
+
+def select_relevant_ticket_period(periods: list[TicketSalePeriod], *, now: datetime | None = None) -> TicketSalePeriod | None:
+    dated = [period for period in periods if period.start_at or period.deadline_at]
+    if not dated:
+        return None
+    now = now or datetime.now(_JST)
+    active_or_upcoming = [period for period in dated if _period_phase(period, now) in {"active", "upcoming"}]
+    if active_or_upcoming:
+        lottery = [period for period in active_or_upcoming if period.sale_type == "抽選"]
+        if lottery:
+            return sorted(lottery, key=_period_deadline_sort_key)[0]
+        general = [period for period in active_or_upcoming if period.sale_type in {"一般", "先着"}]
+        if general:
+            return sorted(general, key=_period_deadline_sort_key)[0]
+        return sorted(active_or_upcoming, key=_period_deadline_sort_key)[0]
+    return sorted(dated, key=_period_deadline_sort_key)[0]
+
+
+def _period_phase(period: TicketSalePeriod, now: datetime) -> str:
+    if period.status in {"完売", "販売終了"}:
+        return "ended"
+    start = _as_jst(period.start_at)
+    deadline = _as_jst(period.deadline_at)
+    if deadline and deadline < now:
+        return "ended"
+    if start and start > now:
+        return "upcoming"
+    if deadline and deadline >= now:
+        return "active"
+    return "unknown"
+
+
+def _as_jst(value: datetime | None) -> datetime | None:
+    if value is None:
+        return None
+    if value.tzinfo is None:
+        return value.replace(tzinfo=_JST)
+    return value.astimezone(_JST)
+
+
+def _period_deadline_sort_key(period: TicketSalePeriod) -> tuple[str, str, str]:
+    return (
+        period.deadline_at.isoformat() if period.deadline_at else "9999-99-99T99:99:99",
+        period.start_at.isoformat() if period.start_at else "9999-99-99T99:99:99",
+        period.sale_type,
+    )
+
+
+def _period_identity(period: TicketSalePeriod) -> tuple[str, str, str, str]:
+    return (
+        period.sale_type,
+        period.ticket_name or period.ticket_tier or "",
+        period.start_at.isoformat() if period.start_at else "",
+        period.deadline_at.isoformat() if period.deadline_at else "",
+    )
+
+
+def _same_ticket_target(left: TicketSalePeriod, right: TicketSalePeriod) -> bool:
+    if right.ticket_tier != "不明" and left.ticket_tier == right.ticket_tier:
+        return True
+    if right.ticket_name and left.ticket_name and right.ticket_name in left.ticket_name:
+        return True
+    return False
+
+
+def _update_period(existing: TicketSalePeriod, new: TicketSalePeriod) -> None:
+    for field_name in TicketSalePeriod.model_fields:
+        value = getattr(new, field_name)
+        if value in (None, "", "不明"):
+            continue
+        setattr(existing, field_name, value)

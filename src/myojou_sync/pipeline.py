@@ -4,7 +4,7 @@ import logging
 from dataclasses import dataclass
 
 from .merger import EventMerger
-from .models import CanonicalEvent
+from .models import CanonicalEvent, PostClassification
 from .parser import PostParser
 from .state import SQLiteStateStore
 from .x_client import PostFetcher
@@ -61,10 +61,27 @@ class SyncPipeline:
                 result.already_processed_skipped += 1
                 continue
 
-            extracted = self.parser.parse_post(post)
+            classification = self.parser.classify_post(post)
+            if classification.classification == PostClassification.NON_EVENT:
+                result.skipped_posts += 1
+                result.non_event_skipped += 1
+                self.state.save_classified_source_post(
+                    post,
+                    classification,
+                    source_url=self.parser.source_url_for_post(post),
+                )
+                self._advance_last_seen(post.id)
+                continue
+
+            extracted = self.parser.parse_post(post, classification=classification)
             if extracted is None:
                 result.skipped_posts += 1
                 result.non_event_skipped += 1
+                self.state.save_classified_source_post(
+                    post,
+                    classification,
+                    source_url=self.parser.source_url_for_post(post),
+                )
                 self._advance_last_seen(post.id)
                 continue
 

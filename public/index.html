@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>myojou ライブ予定</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">myojou</p>
+          <h1>ライブ予定</h1>
+        </div>
+        <p id="eventCount" class="event-count"></p>
+      </header>
+
+      <nav class="filters" aria-label="日付フィルター">
+        <button class="filter-button is-active" type="button" data-filter="upcoming">今日以降</button>
+        <button class="filter-button" type="button" data-filter="week">今週</button>
+        <button class="filter-button" type="button" data-filter="month">今月</button>
+        <button class="filter-button" type="button" data-filter="missing-deadline">締切未取得</button>
+        <button class="filter-button" type="button" data-filter="all">すべて</button>
+      </nav>
+
+      <nav class="sort-controls" aria-label="並び替え">
+        <button class="sort-button is-active" type="button" data-sort="event-date">ライブ日順</button>
+        <button class="sort-button" type="button" data-sort="deadline">申込締切順</button>
+      </nav>
+
+      <section id="eventList" class="event-list" aria-live="polite"></section>
+      <p id="emptyState" class="empty-state" hidden>表示できる予定がありません。</p>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>

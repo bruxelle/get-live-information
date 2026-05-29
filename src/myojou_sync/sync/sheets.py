@@ -5,7 +5,7 @@ from typing import Any
 
 from myojou_sync.merger import MANUAL_PROTECTED_FIELDS
 from myojou_sync.models import CanonicalEvent
-from myojou_sync.public_output import SHEET_HEADERS, event_to_public_dict
+from myojou_sync.public_output import PUBLIC_COLUMN_LABELS, SHEET_HEADERS, event_to_public_dict
 
 
 class GoogleSheetsEventSink:
@@ -38,14 +38,19 @@ class GoogleSheetsEventSink:
 
     def sync_events(self, events: list[CanonicalEvent]) -> list[CanonicalEvent]:
         rows = self.worksheet.get_all_records()
-        event_id_to_row = {str(row.get("event_id")): index + 2 for index, row in enumerate(rows) if row.get("event_id")}
+        event_key_to_row = {
+            _sheet_key(row): index + 2
+            for index, row in enumerate(rows)
+            if _sheet_key(row)
+        }
 
         for event in events:
             values = _event_to_sheet_row(event)
-            row_number = event_id_to_row.get(event.event_id)
+            public = event_to_public_dict(event)
+            row_number = event_key_to_row.get(_sheet_key(public))
             if row_number:
                 existing = rows[row_number - 2]
-                if _truthy(existing.get("manual_override")):
+                if _truthy(existing.get("手動更新")):
                     event.manual_override = True
                     values = _merge_with_manual_override(existing, values)
                 self.worksheet.update([values], f"A{row_number}")
@@ -65,9 +70,10 @@ def _event_to_sheet_row(event: CanonicalEvent) -> list[Any]:
 def _merge_with_manual_override(existing: dict[str, Any], values: list[Any]) -> list[Any]:
     merged = dict(zip(SHEET_HEADERS, values, strict=False))
     for field_name in MANUAL_PROTECTED_FIELDS:
-        if field_name in existing:
-            merged[field_name] = existing[field_name]
-    merged["manual_override"] = True
+        label = PUBLIC_COLUMN_LABELS.get(field_name)
+        if label and label in existing:
+            merged[label] = existing[label]
+    merged["手動更新"] = True
     return [merged[header] for header in SHEET_HEADERS]
 
 
@@ -75,3 +81,12 @@ def _truthy(value: Any) -> bool:
     if isinstance(value, bool):
         return value
     return str(value).strip().casefold() in {"true", "yes", "1", "y"}
+
+
+def _sheet_key(row: dict[str, Any]) -> tuple[str, str, str] | None:
+    event_name = str(row.get("イベント名") or "").strip()
+    event_date = str(row.get("日付") or "").strip()
+    venue = str(row.get("会場") or "").strip()
+    if not event_name and not event_date and not venue:
+        return None
+    return event_date, event_name, venue

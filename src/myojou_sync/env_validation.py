@@ -17,30 +17,38 @@ class TargetValidation:
 
 
 def validate_targets(settings: Settings) -> list[TargetValidation]:
-    return [
-        TargetValidation(
-            name="notion",
-            required_variables=("NOTION_TOKEN", "NOTION_DATABASE_ID"),
-            missing_variables=tuple(
-                key
-                for key, value in (
-                    ("NOTION_TOKEN", settings.notion_token),
-                    ("NOTION_DATABASE_ID", settings.notion_database_id),
-                )
-                if not value
-            ),
+    notion = TargetValidation(
+        name="notion",
+        required_variables=("NOTION_TOKEN", "NOTION_DATABASE_ID"),
+        missing_variables=tuple(
+            key
+            for key, value in (
+                ("NOTION_TOKEN", settings.notion_token),
+                ("NOTION_DATABASE_ID", settings.notion_database_id),
+            )
+            if not value
         ),
+    )
+    sheets = TargetValidation(
+        name="sheets",
+        required_variables=("GOOGLE_SERVICE_ACCOUNT_JSON", "GOOGLE_SHEET_ID"),
+        missing_variables=tuple(
+            key
+            for key, value in (
+                ("GOOGLE_SERVICE_ACCOUNT_JSON", settings.google_service_account_json),
+                ("GOOGLE_SHEET_ID", settings.google_sheet_id),
+            )
+            if not value
+        ),
+    )
+    both_missing = tuple(dict.fromkeys((*notion.missing_variables, *sheets.missing_variables)))
+    return [
+        notion,
+        sheets,
         TargetValidation(
-            name="sheets",
-            required_variables=("GOOGLE_SERVICE_ACCOUNT_JSON", "GOOGLE_SHEET_ID"),
-            missing_variables=tuple(
-                key
-                for key, value in (
-                    ("GOOGLE_SERVICE_ACCOUNT_JSON", settings.google_service_account_json),
-                    ("GOOGLE_SHEET_ID", settings.google_sheet_id),
-                )
-                if not value
-            ),
+            name="both",
+            required_variables=(*notion.required_variables, *sheets.required_variables),
+            missing_variables=both_missing,
         ),
         TargetValidation(
             name="x",

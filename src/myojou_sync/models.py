@@ -23,6 +23,40 @@ class SourceKind(StrEnum):
     OTHER = "other"
 
 
+class PostClassification(StrEnum):
+    EVENT = "event"
+    NON_EVENT = "non_event"
+    NEEDS_REVIEW = "needs_review"
+
+
+class ClassificationConfidence(StrEnum):
+    HIGH = "high"
+    MEDIUM = "medium"
+    LOW = "low"
+
+
+class TicketSalePeriod(BaseModel):
+    sale_type: str = "不明"
+    ticket_name: str | None = None
+    ticket_tier: str = "不明"
+    price: int | None = None
+    start_at: datetime | None = None
+    deadline_at: datetime | None = None
+    result_at: datetime | None = None
+    payment_deadline_at: datetime | None = None
+    status: str = "不明"
+    source_url: str | None = None
+    source_post_id: str | None = None
+    notes: str | None = None
+
+
+class PostClassificationResult(BaseModel):
+    classification: PostClassification = PostClassification.NON_EVENT
+    confidence: ClassificationConfidence = ClassificationConfidence.LOW
+    reason: str = ""
+    source_kind: SourceKind = SourceKind.OTHER
+
+
 class XPost(BaseModel):
     id: str
     text: str
@@ -43,6 +77,12 @@ class EventFields(BaseModel):
     priority_ticket_name: str | None = None
     priority_ticket_price: int | None = None
     same_day_ticket_price: int | None = None
+    ticket_application_start_at: datetime | None = None
+    ticket_application_deadline_at: datetime | None = None
+    lottery_result_at: datetime | None = None
+    payment_deadline_at: datetime | None = None
+    ticket_sale_type: str | None = None
+    ticket_sales: list[TicketSalePeriod] = Field(default_factory=list)
     ticket_status: str | None = None
     notes: str | None = None
 
@@ -55,6 +95,9 @@ class SourceMetadata(BaseModel):
     source_text: str
     source_kind: SourceKind = SourceKind.OTHER
     extraction_confidence: float = Field(default=0.0, ge=0.0, le=1.0)
+    classification: PostClassification | str = PostClassification.EVENT
+    classification_confidence: ClassificationConfidence | str = ClassificationConfidence.MEDIUM
+    classification_reason: str | None = None
 
 
 class ExtractedEvent(EventFields, SourceMetadata):
@@ -83,6 +126,9 @@ class CanonicalEvent(EventFields):
     source_text: str | None = None
     source_kind: SourceKind | str | None = None
     extraction_confidence: float | None = None
+    classification: PostClassification | str | None = None
+    classification_confidence: ClassificationConfidence | str | None = None
+    classification_reason: str | None = None
 
     notion_page_id: str | None = None
     google_row_number: int | None = None
@@ -109,6 +155,9 @@ class CanonicalEvent(EventFields):
             source_text=extracted.source_text,
             source_kind=extracted.source_kind,
             extraction_confidence=extracted.extraction_confidence,
+            classification=extracted.classification,
+            classification_confidence=extracted.classification_confidence,
+            classification_reason=extracted.classification_reason,
         )
 
 

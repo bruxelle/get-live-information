@@ -1,0 +1,31 @@
+{
+  "data": [
+    {
+      "id": "real_sample_001",
+      "created_at": "2026-05-30T03:00:00+09:00",
+      "url": "https://x.com/info_myojou/status/real_sample_001",
+      "text": "【Next Live】\n6/15(月)『STARLIGHT LIVE vol.7』\n会場：渋谷Milkyway\n開場 18:00 / 開演 18:30\nチケット：https://t.livepocket.jp/e/starlight7",
+      "expected_classification": "event",
+      "expected_source_kind": "initial_announcement",
+      "notes": "date, event name, venue, open/start, and ticket URL are present"
+    },
+    {
+      "id": "real_sample_002",
+      "created_at": "2026-05-30T04:00:00+09:00",
+      "url": "https://x.com/info_myojou/status/real_sample_002",
+      "text": "新グッズ通販スタートしました！\nアクリルキーホルダーとランダム写真をチェックしてください。",
+      "expected_classification": "non_event",
+      "expected_source_kind": "other",
+      "notes": "goods and photo announcement without live schedule details"
+    },
+    {
+      "id": "real_sample_003",
+      "created_at": "2026-05-30T05:00:00+09:00",
+      "url": "https://x.com/info_myojou/status/real_sample_003",
+      "text": "本日はこちら！\nよろしくお願いします！",
+      "expected_classification": "needs_review",
+      "expected_source_kind": "same_day_reminder",
+      "notes": "event-like reminder where key details are likely image-only"
+    }
+  ]
+}

@@ -5,7 +5,7 @@ import sqlite3
 from pathlib import Path
 from typing import Any
 
-from .models import CanonicalEvent, ExtractedEvent
+from .models import CanonicalEvent, ExtractedEvent, PostClassificationResult, SourceKind, XPost
 
 
 class SQLiteStateStore:
@@ -42,6 +42,9 @@ class SQLiteStateStore:
                     source_text TEXT,
                     linked_event_id TEXT,
                     extraction_confidence REAL,
+                    classification TEXT,
+                    classification_confidence TEXT,
+                    classification_reason TEXT,
                     payload_json TEXT NOT NULL,
                     processed_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP
                 )
@@ -111,9 +114,12 @@ class SQLiteStateStore:
                     source_text,
                     linked_event_id,
                     extraction_confidence,
+                    classification,
+                    classification_confidence,
+                    classification_reason,
                     payload_json
                 )
-                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
                 ON CONFLICT(post_id) DO UPDATE SET
                     source_type = excluded.source_type,
                     source_post_id = excluded.source_post_id,
@@ -124,6 +130,9 @@ class SQLiteStateStore:
                     source_text = excluded.source_text,
                     linked_event_id = excluded.linked_event_id,
                     extraction_confidence = excluded.extraction_confidence,
+                    classification = excluded.classification,
+                    classification_confidence = excluded.classification_confidence,
+                    classification_reason = excluded.classification_reason,
                     payload_json = excluded.payload_json
                 """,
                 (
@@ -137,7 +146,78 @@ class SQLiteStateStore:
                     extracted.source_text,
                     linked_event_id,
                     extracted.extraction_confidence,
+                    str(extracted.classification),
+                    str(extracted.classification_confidence),
+                    extracted.classification_reason,
                     _dump_model(extracted),
+                ),
+            )
+
+    def save_classified_source_post(
+        self,
+        post: XPost,
+        classification: PostClassificationResult,
+        *,
+        source_url: str,
+        linked_event_id: str | None = None,
+    ) -> None:
+        payload = {
+            "id": post.id,
+            "text": post.text,
+            "created_at": post.created_at.isoformat(),
+            "raw": post.raw,
+            "classification": classification.model_dump(mode="json"),
+        }
+        with self.connect() as conn:
+            conn.execute(
+                """
+                INSERT INTO source_posts (
+                    post_id,
+                    source_type,
+                    source_post_id,
+                    source_url,
+                    source_kind,
+                    posted_at,
+                    source_posted_at,
+                    source_text,
+                    linked_event_id,
+                    extraction_confidence,
+                    classification,
+                    classification_confidence,
+                    classification_reason,
+                    payload_json
+                )
+                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                ON CONFLICT(post_id) DO UPDATE SET
+                    source_type = excluded.source_type,
+                    source_post_id = excluded.source_post_id,
+                    source_url = excluded.source_url,
+                    source_kind = excluded.source_kind,
+                    posted_at = excluded.posted_at,
+                    source_posted_at = excluded.source_posted_at,
+                    source_text = excluded.source_text,
+                    linked_event_id = excluded.linked_event_id,
+                    extraction_confidence = excluded.extraction_confidence,
+                    classification = excluded.classification,
+                    classification_confidence = excluded.classification_confidence,
+                    classification_reason = excluded.classification_reason,
+                    payload_json = excluded.payload_json
+                """,
+                (
+                    post.id,
+                    "x",
+                    post.id,
+                    source_url,
+                    str(classification.source_kind or SourceKind.OTHER),
+                    post.created_at.isoformat(),
+                    post.created_at.isoformat(),
+                    post.text,
+                    linked_event_id,
+                    0.0,
+                    str(classification.classification),
+                    str(classification.confidence),
+                    classification.reason,
+                    json.dumps(payload, ensure_ascii=False, sort_keys=True),
                 ),
             )
 
@@ -153,7 +233,10 @@ class SQLiteStateStore:
                     source_text,
                     source_kind,
                     linked_event_id,
-                    extraction_confidence
+                    extraction_confidence,
+                    classification,
+                    classification_confidence,
+                    classification_reason
                 FROM source_posts
                 ORDER BY posted_at, post_id
                 """
@@ -190,6 +273,9 @@ class SQLiteStateStore:
             "source_text": "TEXT",
             "linked_event_id": "TEXT",
             "extraction_confidence": "REAL",
+            "classification": "TEXT",
+            "classification_confidence": "TEXT",
+            "classification_reason": "TEXT",
         }
         with self.connect() as conn:
             existing = {

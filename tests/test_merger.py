@@ -1,10 +1,14 @@
 from __future__ import annotations
 
-from datetime import date
+from datetime import date, datetime, timedelta, timezone
 
 from myojou_sync.merger import EventMerger
+from myojou_sync.merger import derive_compatible_ticket_fields
 from myojou_sync.models import CanonicalEvent, ExtractedEvent, SourceKind
 from myojou_sync.parser import PostParser
+
+
+JST = timezone(timedelta(hours=9))
 
 
 def _parsed(post_id: str, mock_posts):
@@ -68,7 +72,7 @@ def test_same_day_reminder_updates_ticket_status(mock_posts):
     event, created, _ = merger.merge_into_collection(_parsed("180004", mock_posts), events)
 
     assert created is False
-    assert event.ticket_status == "same_day_available"
+    assert event.ticket_status == "same_day"
     assert event.latest_source_url == "https://x.com/info_myojou/status/180004"
 
 
@@ -80,7 +84,8 @@ def test_sold_out_post_updates_ticket_status(mock_posts):
     event, created, _ = merger.merge_into_collection(_parsed("180005", mock_posts), events)
 
     assert created is False
-    assert event.ticket_status == "sold_out"
+    assert any(period.ticket_tier == "優先" and period.status == "完売" for period in event.ticket_sales)
+    assert event.ticket_status != "sold_out"
     assert event.last_source_kind == SourceKind.SOLD_OUT
 
 
@@ -207,3 +212,120 @@ def test_source_url_preservation(mock_posts):
         "https://x.com/info_myojou/status/180003",
     ]
     assert event.source_post_ids == ["180001", "180002", "180003"]
+
+
+def test_lottery_post_followed_by_general_sale_merges_two_periods():
+    parser = PostParser()
+    merger = EventMerger()
+    events: list[CanonicalEvent] = []
+    lottery = parser.parse_post(
+        _xpost(
+            "sales-lottery",
+            "【ライブ出演情報】\n5/30(土)『SALES TEST LIVE』\n会場：渋谷DESEO\n"
+            "抽選受付：5/1 20:00〜5/10 23:59\nチケット：https://t.livepocket.jp/e/sales-test",
+            datetime(2026, 4, 30, 3, 0, tzinfo=JST),
+        )
+    )
+    general = parser.parse_post(
+        _xpost(
+            "sales-general",
+            "【チケット情報】\n5/30(土)『SALES TEST LIVE』\n会場：渋谷DESEO\n"
+            "一般販売：5/11 20:00〜5/30 23:59\nチケット：https://t.livepocket.jp/e/sales-test",
+            datetime(2026, 5, 10, 3, 0, tzinfo=JST),
+        )
+    )
+    assert lottery is not None
+    assert general is not None
+
+    merger.merge_into_collection(lottery, events)
+    event, created, _ = merger.merge_into_collection(general, events)
+
+    assert created is False
+    assert len(events) == 1
+    assert {period.sale_type for period in event.ticket_sales} == {"抽選", "一般"}
+
+
+def test_derived_deadline_prefers_general_after_lottery_ended():
+    event = CanonicalEvent(
+        event_name="SALES TEST LIVE",
+        ticket_sales=[
+            _period("抽選", datetime(2026, 5, 1, 20, 0, tzinfo=JST), datetime(2026, 5, 10, 23, 59, tzinfo=JST)),
+            _period("一般", datetime(2026, 5, 11, 20, 0, tzinfo=JST), datetime(2026, 5, 30, 23, 59, tzinfo=JST)),
+        ],
+    )
+
+    derive_compatible_ticket_fields(event, now=datetime(2026, 5, 20, 12, 0, tzinfo=JST))
+
+    assert event.ticket_sale_type == "一般"
+    assert event.ticket_application_deadline_at == datetime(2026, 5, 30, 23, 59, tzinfo=JST)
+
+
+def test_sold_out_priority_ticket_updates_only_priority_period():
+    event = CanonicalEvent(
+        event_name="SALES TEST LIVE",
+        event_date=date(2026, 5, 30),
+        venue="渋谷DESEO",
+        ticket_sales=[
+            _period("抽選", datetime(2026, 5, 1, 20, 0, tzinfo=JST), datetime(2026, 5, 10, 23, 59, tzinfo=JST), ticket_tier="優先"),
+            _period("一般", datetime(2026, 5, 11, 20, 0, tzinfo=JST), datetime(2026, 5, 30, 23, 59, tzinfo=JST), ticket_tier="一般"),
+        ],
+    )
+    sold_out = ExtractedEvent(
+        event_date=date(2026, 5, 30),
+        event_name="SALES TEST LIVE",
+        venue="渋谷DESEO",
+        ticket_status="sold_out",
+        ticket_sales=[
+            _period(
+                "不明",
+                None,
+                None,
+                ticket_tier="優先",
+                status="完売",
+                source_post_id="soldout-priority",
+            )
+        ],
+        source_url="https://x.com/info_myojou/status/soldout-priority",
+        source_post_id="soldout-priority",
+        source_posted_at=event.created_at,
+        source_text="優先チケットは完売しました",
+        source_kind=SourceKind.SOLD_OUT,
+        extraction_confidence=0.8,
+    )
+
+    EventMerger().apply_update(event, sold_out)
+
+    priority = next(period for period in event.ticket_sales if period.ticket_tier == "優先")
+    general = next(period for period in event.ticket_sales if period.ticket_tier == "一般")
+    assert priority.status == "完売"
+    assert general.status != "完売"
+    assert event.ticket_status != "sold_out"
+
+
+def _xpost(post_id: str, text: str, created_at: datetime):
+    from myojou_sync.models import XPost
+
+    return XPost(id=post_id, text=text, created_at=created_at)
+
+
+def _period(
+    sale_type: str,
+    start_at: datetime | None,
+    deadline_at: datetime | None,
+    *,
+    ticket_tier: str = "一般",
+    status: str = "不明",
+    source_post_id: str = "source",
+):
+    from myojou_sync.models import TicketSalePeriod
+
+    return TicketSalePeriod(
+        sale_type=sale_type,
+        ticket_tier=ticket_tier,
+        ticket_name=ticket_tier,
+        start_at=start_at,
+        deadline_at=deadline_at,
+        status=status,
+        source_url=f"https://x.com/info_myojou/status/{source_post_id}",
+        source_post_id=source_post_id,
+    )
