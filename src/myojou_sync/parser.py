@@ -449,6 +449,16 @@ class PostParser:
             if period.sale_type == "抽選":
                 period.result_at = period.result_at or lottery_result
                 period.payment_deadline_at = period.payment_deadline_at or payment_deadline
+            if period.price is None:
+                if period.ticket_tier in {"一般", "不明"} and general_price is not None:
+                    period.price = general_price
+                    if not period.ticket_name:
+                        period.ticket_name = "一般"
+                    if period.ticket_tier == "不明":
+                        period.ticket_tier = "一般"
+                elif period.ticket_tier in {"優先", "VIP", "SS", "前方"} and priority_price is not None:
+                    period.price = priority_price
+                    period.ticket_name = period.ticket_name or priority_name or period.ticket_tier
 
         if ticket_application_start or ticket_application_deadline or lottery_result or payment_deadline:
             base_type = ticket_sale_type or "不明"
@@ -538,6 +548,8 @@ class PostParser:
         ticket_tier = _ticket_tier(normalized)
         ticket_name = _ticket_name_from_line(normalized, ticket_tier)
         status = ticket_status_label_for_period(self.extract_ticket_status(normalized))
+        if not any((start_at, deadline_at, price)) and sale_type not in {"当日券", "無料"}:
+            return None
         if not any((start_at, deadline_at, price, ticket_name)) and sale_type not in {"当日券", "無料"}:
             return None
         return TicketSalePeriod(

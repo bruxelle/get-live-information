@@ -330,4 +330,6 @@ def _update_period(existing: TicketSalePeriod, new: TicketSalePeriod) -> None:
         value = getattr(new, field_name)
         if value in (None, "", "不明"):
             continue
+        if field_name == "sale_type" and existing.sale_type != "不明" and not (new.start_at or new.deadline_at):
+            continue
         setattr(existing, field_name, value)

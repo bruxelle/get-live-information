@@ -4,12 +4,34 @@ from datetime import date, datetime, timedelta, timezone
 
 from myojou_sync.models import SourceKind
 from myojou_sync.models import PostClassification
+from myojou_sync.models import TicketSalePeriod
 from myojou_sync.models import XPost
 from myojou_sync.parser import PostParser
 from myojou_sync.real_samples import evaluate_real_samples
 
 
 JST = timezone(timedelta(hours=9))
+
+
+def test_ticket_sale_period_model_accepts_required_fields():
+    period = TicketSalePeriod(
+        sale_type="抽選",
+        ticket_name="優先チケット",
+        ticket_tier="優先",
+        price=4000,
+        start_at=datetime(2026, 5, 1, 20, 0, tzinfo=JST),
+        deadline_at=datetime(2026, 5, 10, 23, 59, tzinfo=JST),
+        result_at=datetime(2026, 5, 11, 18, 0, tzinfo=JST),
+        payment_deadline_at=datetime(2026, 5, 13, 23, 59, tzinfo=JST),
+        status="販売中",
+        source_url="https://x.com/info_myojou/status/period001",
+        source_post_id="period001",
+        notes="manual fixture",
+    )
+
+    assert period.sale_type == "抽選"
+    assert period.ticket_tier == "優先"
+    assert period.price == 4000
 
 
 def test_initial_announcement_parsing(mock_posts):

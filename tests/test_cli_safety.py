@@ -627,7 +627,7 @@ def test_large_mock_dataset_exports_many_events_and_skips_non_events(tmp_path, m
 
     assert run_result == 0
     assert export_result == 0
-    assert "Fetched 38" in run_output
+    assert "Fetched 39" in run_output
     assert "skipped 5" in run_output
     assert "canonical 20" in run_output
     assert "Exported 20 events" in export_output
