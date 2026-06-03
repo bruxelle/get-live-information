@@ -29,6 +29,18 @@ MANUAL_PROTECTED_FIELDS = {
     "ticket_sales",
 }
 
+_STATUS_ONLY_PROTECTED_FIELDS = {
+    "general_ticket_price",
+    "priority_ticket_name",
+    "priority_ticket_price",
+    "same_day_ticket_price",
+    "ticket_application_start_at",
+    "ticket_application_deadline_at",
+    "lottery_result_at",
+    "payment_deadline_at",
+    "ticket_sale_type",
+}
+
 STRONG_MATCH_THRESHOLD = 0.72
 WEAK_MATCH_THRESHOLD = 0.45
 
@@ -149,6 +161,8 @@ class EventMerger:
                 continue
             if field_name == "ticket_status" and targeted_ticket_status:
                 continue
+            if extracted.ticket_status in {"sold_out", "ended"} and field_name in _STATUS_ONLY_PROTECTED_FIELDS:
+                continue
             new_value = getattr(extracted, field_name)
             if new_value is None:
                 continue
@@ -167,7 +181,7 @@ class EventMerger:
 
         if extracted.classification == PostClassification.NEEDS_REVIEW or extracted.extraction_confidence < 0.6:
             event.needs_review = True
-        if extracted.source_kind == SourceKind.SOLD_OUT and not targeted_ticket_status:
+        if extracted.ticket_status in {"sold_out", "ended"} and not targeted_ticket_status:
             event.needs_review = True
         event.updated_at = utc_now()
 
@@ -197,7 +211,7 @@ class EventMerger:
         return None
 
     def _is_targeted_ticket_status_update(self, extracted: ExtractedEvent) -> bool:
-        if extracted.source_kind != SourceKind.SOLD_OUT:
+        if extracted.ticket_status not in {"sold_out", "ended"}:
             return False
         return any(period.status in {"完売", "販売終了"} and period.ticket_tier != "不明" for period in extracted.ticket_sales)
 
@@ -244,21 +258,22 @@ _JST = timezone(timedelta(hours=9))
 
 
 def derive_compatible_ticket_fields(event: CanonicalEvent, *, now: datetime | None = None) -> None:
+    _derive_compatible_price_fields(event)
     if not event.ticket_sales:
         return
     selected = select_relevant_ticket_period(event.ticket_sales, now=now)
     if selected is None or not any((selected.start_at, selected.deadline_at, selected.result_at, selected.payment_deadline_at)):
-        event.ticket_application_start_at = None
-        event.ticket_application_deadline_at = None
-        event.lottery_result_at = None
-        event.payment_deadline_at = None
-        event.ticket_sale_type = None
+        _set_derived_field(event, "ticket_application_start_at", None)
+        _set_derived_field(event, "ticket_application_deadline_at", None)
+        _set_derived_field(event, "lottery_result_at", None)
+        _set_derived_field(event, "payment_deadline_at", None)
+        _set_derived_field(event, "ticket_sale_type", None)
         return
-    event.ticket_application_start_at = selected.start_at
-    event.ticket_application_deadline_at = selected.deadline_at
-    event.lottery_result_at = selected.result_at
-    event.payment_deadline_at = selected.payment_deadline_at
-    event.ticket_sale_type = selected.sale_type
+    _set_derived_field(event, "ticket_application_start_at", selected.start_at)
+    _set_derived_field(event, "ticket_application_deadline_at", selected.deadline_at)
+    _set_derived_field(event, "lottery_result_at", selected.result_at)
+    _set_derived_field(event, "payment_deadline_at", selected.payment_deadline_at)
+    _set_derived_field(event, "ticket_sale_type", selected.sale_type)
 
 
 def select_relevant_ticket_period(periods: list[TicketSalePeriod], *, now: datetime | None = None) -> TicketSalePeriod | None:
@@ -325,9 +340,54 @@ def _same_ticket_target(left: TicketSalePeriod, right: TicketSalePeriod) -> bool
     return False
 
 
+def _derive_compatible_price_fields(event: CanonicalEvent) -> None:
+    if not event.ticket_sales:
+        return
+    general = _best_price_period(event.ticket_sales, {"一般"}, sale_types={"一般", "先着", "抽選", "不明"})
+    priority = _best_price_period(event.ticket_sales, {"優先", "VIP", "SS", "前方", "カメラ"})
+    same_day = _best_price_period(event.ticket_sales, {"一般", "不明"}, sale_types={"当日券"})
+
+    if general and general.price is not None:
+        _set_derived_field(event, "general_ticket_price", general.price, only_if_empty=True)
+    if priority and priority.price is not None:
+        _set_derived_field(event, "priority_ticket_price", priority.price, only_if_empty=True)
+        _set_derived_field(event, "priority_ticket_name", priority.ticket_name or priority.ticket_tier, only_if_empty=True)
+    if same_day and same_day.price is not None:
+        _set_derived_field(event, "same_day_ticket_price", same_day.price, only_if_empty=True)
+
+
+def _best_price_period(
+    periods: list[TicketSalePeriod],
+    tiers: set[str],
+    *,
+    sale_types: set[str] | None = None,
+) -> TicketSalePeriod | None:
+    candidates = [
+        period
+        for period in periods
+        if period.price is not None
+        and period.ticket_tier in tiers
+        and (sale_types is None or period.sale_type in sale_types)
+    ]
+    if not candidates:
+        return None
+    return sorted(candidates, key=_period_deadline_sort_key)[0]
+
+
+def _set_derived_field(event: CanonicalEvent, field_name: str, value: object, *, only_if_empty: bool = False) -> None:
+    current = getattr(event, field_name)
+    if event.manual_override and current is not None:
+        return
+    if only_if_empty and current is not None:
+        return
+    setattr(event, field_name, value)
+
+
 def _update_period(existing: TicketSalePeriod, new: TicketSalePeriod) -> None:
     for field_name in TicketSalePeriod.model_fields:
         value = getattr(new, field_name)
         if value in (None, "", "不明"):
+            continue
+        if field_name == "sale_type" and existing.sale_type != "不明" and not (new.start_at or new.deadline_at):
             continue
         setattr(existing, field_name, value)

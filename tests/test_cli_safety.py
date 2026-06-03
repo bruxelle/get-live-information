@@ -627,11 +627,18 @@ def test_large_mock_dataset_exports_many_events_and_skips_non_events(tmp_path, m
 
     assert run_result == 0
     assert export_result == 0
-    assert "Fetched 38" in run_output
+    assert "Fetched 42" in run_output
     assert "skipped 5" in run_output
-    assert "canonical 20" in run_output
-    assert "Exported 20 events" in export_output
-    assert len(payload) == 20
+    assert "canonical 22" in run_output
+    assert "Exported 22 events" in export_output
+    assert len(payload) == 22
+    multi_tier = next(row for row in payload if row["event_name"] == "MULTI TIER NIGHT")
+    assert len(multi_tier["ticket_sales"]) == 5
+    assert {sale["ticket_tier"] for sale in multi_tier["ticket_sales"]} == {"一般", "VIP", "SS", "前方", "カメラ"}
+    assert any(sale["ticket_tier"] == "VIP" and sale["status"] == "完売" for sale in multi_tier["ticket_sales"])
+    basic = next(row for row in payload if row["event_name"] == "BASIC INFO ONLY")
+    assert basic["ticket_sales"] == []
+    assert basic["application_summary"] == "未取得"
     source_records = SQLiteStateStore(db_path).source_post_records()
     assert sum(1 for record in source_records if record["classification"] == "non_event") == 5
     assert {row["event_name"] for row in payload}.isdisjoint(

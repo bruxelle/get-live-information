@@ -265,6 +265,8 @@ def test_sold_out_priority_ticket_updates_only_priority_period():
         event_name="SALES TEST LIVE",
         event_date=date(2026, 5, 30),
         venue="渋谷DESEO",
+        priority_ticket_name="優先",
+        priority_ticket_price=4000,
         ticket_sales=[
             _period("抽選", datetime(2026, 5, 1, 20, 0, tzinfo=JST), datetime(2026, 5, 10, 23, 59, tzinfo=JST), ticket_tier="優先"),
             _period("一般", datetime(2026, 5, 11, 20, 0, tzinfo=JST), datetime(2026, 5, 30, 23, 59, tzinfo=JST), ticket_tier="一般"),
@@ -275,6 +277,7 @@ def test_sold_out_priority_ticket_updates_only_priority_period():
         event_name="SALES TEST LIVE",
         venue="渋谷DESEO",
         ticket_status="sold_out",
+        priority_ticket_name="優先チケットは完売しました。",
         ticket_sales=[
             _period(
                 "不明",
@@ -299,7 +302,184 @@ def test_sold_out_priority_ticket_updates_only_priority_period():
     general = next(period for period in event.ticket_sales if period.ticket_tier == "一般")
     assert priority.status == "完売"
     assert general.status != "完売"
+    assert event.priority_ticket_name == "優先"
+    assert event.priority_ticket_price == 4000
     assert event.ticket_status != "sold_out"
+
+
+def test_duplicate_sale_periods_are_not_added():
+    parser = PostParser()
+    merger = EventMerger()
+    events: list[CanonicalEvent] = []
+    first = parser.parse_post(
+        _xpost(
+            "general-1",
+            "【ライブ出演情報】\n5/30(土)『DUPLICATE PERIOD LIVE』\n会場：渋谷DESEO\n"
+            "一般販売：5/11 20:00〜5/30 23:59\nチケット：https://t.livepocket.jp/e/duplicate-period",
+            datetime(2026, 5, 10, 3, 0, tzinfo=JST),
+        )
+    )
+    duplicate = parser.parse_post(
+        _xpost(
+            "general-2",
+            "【一般販売のお知らせ】\n5/30(土)『DUPLICATE PERIOD LIVE』\n会場：渋谷DESEO\n"
+            "一般販売：5/11 20:00〜5/30 23:59\nチケット：https://t.livepocket.jp/e/duplicate-period",
+            datetime(2026, 5, 11, 3, 0, tzinfo=JST),
+        )
+    )
+    assert first is not None
+    assert duplicate is not None
+
+    merger.merge_into_collection(first, events)
+    event, created, _ = merger.merge_into_collection(duplicate, events)
+
+    assert created is False
+    assert len(event.ticket_sales) == 1
+    assert event.ticket_sales[0].source_post_id == "general-2"
+
+
+def test_unclear_sold_out_sets_event_status_and_needs_review():
+    event = CanonicalEvent(
+        event_name="SALES TEST LIVE",
+        event_date=date(2026, 5, 30),
+        venue="渋谷DESEO",
+        ticket_sales=[
+            _period("抽選", datetime(2026, 5, 1, 20, 0, tzinfo=JST), datetime(2026, 5, 10, 23, 59, tzinfo=JST), ticket_tier="優先"),
+            _period("一般", datetime(2026, 5, 11, 20, 0, tzinfo=JST), datetime(2026, 5, 30, 23, 59, tzinfo=JST), ticket_tier="一般"),
+        ],
+    )
+    sold_out = ExtractedEvent(
+        event_date=date(2026, 5, 30),
+        event_name="SALES TEST LIVE",
+        venue="渋谷DESEO",
+        ticket_status="sold_out",
+        source_url="https://x.com/info_myojou/status/soldout-unclear",
+        source_post_id="soldout-unclear",
+        source_posted_at=event.created_at,
+        source_text="チケットは完売しました",
+        source_kind=SourceKind.SOLD_OUT,
+        extraction_confidence=0.8,
+    )
+
+    EventMerger().apply_update(event, sold_out)
+
+    assert event.ticket_status == "sold_out"
+    assert event.needs_review is True
+    assert all(period.status != "完売" for period in event.ticket_sales)
+
+
+def test_unclear_sales_ended_sets_event_status_and_needs_review():
+    event = CanonicalEvent(
+        event_name="SALES TEST LIVE",
+        event_date=date(2026, 5, 30),
+        venue="渋谷DESEO",
+        ticket_sales=[_period("一般", datetime(2026, 5, 11, 20, 0, tzinfo=JST), datetime(2026, 5, 30, 23, 59, tzinfo=JST))],
+    )
+    ended = ExtractedEvent(
+        event_date=date(2026, 5, 30),
+        event_name="SALES TEST LIVE",
+        venue="渋谷DESEO",
+        ticket_status="ended",
+        source_url="https://x.com/info_myojou/status/ended-unclear",
+        source_post_id="ended-unclear",
+        source_posted_at=event.created_at,
+        source_text="チケット販売終了しました",
+        source_kind=SourceKind.TICKET_UPDATE,
+        extraction_confidence=0.8,
+    )
+
+    EventMerger().apply_update(event, ended)
+
+    assert event.ticket_status == "ended"
+    assert event.needs_review is True
+    assert event.ticket_sales[0].status != "販売終了"
+
+
+def test_general_sales_ended_updates_only_general_period_when_detectable():
+    event = CanonicalEvent(
+        event_name="SALES TEST LIVE",
+        event_date=date(2026, 5, 30),
+        venue="渋谷DESEO",
+        ticket_sales=[
+            _period("抽選", datetime(2026, 5, 1, 20, 0, tzinfo=JST), datetime(2026, 5, 10, 23, 59, tzinfo=JST), ticket_tier="優先"),
+            _period("一般", datetime(2026, 5, 11, 20, 0, tzinfo=JST), datetime(2026, 5, 30, 23, 59, tzinfo=JST), ticket_tier="一般"),
+        ],
+    )
+    ended = ExtractedEvent(
+        event_date=date(2026, 5, 30),
+        event_name="SALES TEST LIVE",
+        venue="渋谷DESEO",
+        ticket_status="ended",
+        ticket_sales=[
+            _period(
+                "不明",
+                None,
+                None,
+                ticket_tier="一般",
+                status="販売終了",
+                source_post_id="ended-general",
+            )
+        ],
+        source_url="https://x.com/info_myojou/status/ended-general",
+        source_post_id="ended-general",
+        source_posted_at=event.created_at,
+        source_text="一般チケット販売終了しました",
+        source_kind=SourceKind.TICKET_UPDATE,
+        extraction_confidence=0.8,
+    )
+
+    EventMerger().apply_update(event, ended)
+
+    priority = next(period for period in event.ticket_sales if period.ticket_tier == "優先")
+    general = next(period for period in event.ticket_sales if period.ticket_tier == "一般")
+    assert general.status == "販売終了"
+    assert priority.status != "販売終了"
+    assert event.ticket_status != "ended"
+
+
+def test_derived_backward_compatible_fields_include_prices_and_same_day():
+    event = CanonicalEvent(
+        event_name="SALES TEST LIVE",
+        ticket_sales=[
+            _period(
+                "抽選",
+                datetime(2026, 5, 1, 20, 0, tzinfo=JST),
+                datetime(2026, 5, 10, 23, 59, tzinfo=JST),
+                ticket_tier="VIP",
+                price=8000,
+                result_at=datetime(2026, 5, 11, 18, 0, tzinfo=JST),
+                payment_deadline_at=datetime(2026, 5, 13, 23, 59, tzinfo=JST),
+            ),
+            _period("一般", datetime(2026, 5, 11, 20, 0, tzinfo=JST), datetime(2026, 5, 30, 23, 59, tzinfo=JST), price=2500),
+            _period("当日券", datetime(2026, 5, 30, 10, 0, tzinfo=JST), None, price=3000),
+        ],
+    )
+
+    derive_compatible_ticket_fields(event, now=datetime(2026, 5, 5, 12, 0, tzinfo=JST))
+
+    assert event.ticket_sale_type == "抽選"
+    assert event.ticket_application_start_at == datetime(2026, 5, 1, 20, 0, tzinfo=JST)
+    assert event.ticket_application_deadline_at == datetime(2026, 5, 10, 23, 59, tzinfo=JST)
+    assert event.lottery_result_at == datetime(2026, 5, 11, 18, 0, tzinfo=JST)
+    assert event.payment_deadline_at == datetime(2026, 5, 13, 23, 59, tzinfo=JST)
+    assert event.general_ticket_price == 2500
+    assert event.priority_ticket_name == "VIP"
+    assert event.priority_ticket_price == 8000
+    assert event.same_day_ticket_price == 3000
+
+
+def test_only_same_day_period_can_drive_compatible_sale_type():
+    event = CanonicalEvent(
+        event_name="SAME DAY LIVE",
+        ticket_sales=[_period("当日券", datetime(2026, 5, 30, 10, 0, tzinfo=JST), None, price=3000)],
+    )
+
+    derive_compatible_ticket_fields(event, now=datetime(2026, 5, 30, 9, 0, tzinfo=JST))
+
+    assert event.ticket_sale_type == "当日券"
+    assert event.ticket_application_start_at == datetime(2026, 5, 30, 10, 0, tzinfo=JST)
+    assert event.ticket_application_deadline_at is None
+    assert event.same_day_ticket_price == 3000
 
 
 def _xpost(post_id: str, text: str, created_at: datetime):
@@ -314,7 +494,10 @@ def _period(
     deadline_at: datetime | None,
     *,
     ticket_tier: str = "一般",
+    price: int | None = None,
     status: str = "不明",
+    result_at: datetime | None = None,
+    payment_deadline_at: datetime | None = None,
     source_post_id: str = "source",
 ):
     from myojou_sync.models import TicketSalePeriod
@@ -323,8 +506,11 @@ def _period(
         sale_type=sale_type,
         ticket_tier=ticket_tier,
         ticket_name=ticket_tier,
+        price=price,
         start_at=start_at,
         deadline_at=deadline_at,
+        result_at=result_at,
+        payment_deadline_at=payment_deadline_at,
         status=status,
         source_url=f"https://x.com/info_myojou/status/{source_post_id}",
         source_post_id=source_post_id,
