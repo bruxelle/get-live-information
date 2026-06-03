@@ -90,9 +90,10 @@ class PostParser:
         ticket_application_start = self.extract_labeled_datetime(text, ("申込開始", "受付開始", "販売開始"), post.created_at)
         ticket_application_deadline = self.extract_labeled_datetime(text, ("申込締切", "受付締切", "販売終了"), post.created_at)
         lottery_result = self.extract_labeled_datetime(text, ("当落発表",), post.created_at)
-        payment_deadline = self.extract_labeled_datetime(text, ("支払期限", "入金期限"), post.created_at)
+        payment_deadline = self.extract_labeled_datetime(text, ("支払期限", "支払い期限", "入金期限"), post.created_at)
         ticket_sale_type = self.extract_ticket_sale_type(text)
         ticket_status = self.extract_ticket_status(text)
+        ticket_price_tiers = self.extract_ticket_price_tiers(text)
         notes = self.extract_notes(text, source_kind)
         source_url = self.source_url_for_post(post)
         ticket_sales = self.extract_ticket_sales(
@@ -106,6 +107,7 @@ class PostParser:
             priority_name=priority_name,
             priority_price=priority_price,
             same_day_price=same_day_price,
+            ticket_price_tiers=ticket_price_tiers,
             ticket_application_start=ticket_application_start,
             ticket_application_deadline=ticket_application_deadline,
             lottery_result=lottery_result,
@@ -389,13 +391,35 @@ class PostParser:
 
     def extract_priority_ticket(self, text: str) -> tuple[str | None, int | None]:
         for line in _lines(text):
-            if not any(label in _normalize(line) for label in ("優先", "前方", "Sチケット", "優先エリア")):
+            if not any(label in _normalize(line) for label in ("優先", "前方", "Sチケット", "優先エリア", "VIP", "SS", "カメラ")):
                 continue
             price = normalize_price(line)
-            name_match = re.search(r"(?P<name>(?:優先|前方|Sチケット|優先エリア)[^:：\d¥￥円]*)", line)
+            name_match = re.search(r"(?P<name>(?:優先|前方|Sチケット|優先エリア|VIP|SS|カメラ)[^:：\d¥￥円]*)", line)
             name = _clean_value(name_match.group("name")) if name_match else "優先"
             return name or "優先", price
         return None, None
+
+    def extract_ticket_price_tiers(self, text: str) -> list[TicketSalePeriod]:
+        tiers: list[TicketSalePeriod] = []
+        for line in _lines(text):
+            normalized = _normalize(line)
+            price = normalize_price(normalized)
+            if price is None:
+                continue
+            ticket_tier = _ticket_tier(normalized)
+            if ticket_tier == "不明":
+                continue
+            sale_type = "当日券" if any(word in normalized for word in ("当日券", "当日料金", "当日")) else "不明"
+            ticket_name = _ticket_name_from_line(normalized, ticket_tier)
+            tiers.append(
+                TicketSalePeriod(
+                    sale_type=sale_type,
+                    ticket_name=ticket_name or ticket_tier,
+                    ticket_tier=ticket_tier,
+                    price=price,
+                )
+            )
+        return _dedupe_ticket_periods(tiers)
 
     def extract_labeled_datetime(
         self,
@@ -434,6 +458,7 @@ class PostParser:
         priority_name: str | None,
         priority_price: int | None,
         same_day_price: int | None,
+        ticket_price_tiers: list[TicketSalePeriod],
         ticket_application_start: datetime | None,
         ticket_application_deadline: datetime | None,
         lottery_result: datetime | None,
@@ -445,52 +470,94 @@ class PostParser:
             if period:
                 periods.append(period)
 
+        periods = _expand_generic_dated_periods_with_price_tiers(periods, ticket_price_tiers)
         for period in periods:
             if period.sale_type == "抽選":
                 period.result_at = period.result_at or lottery_result
                 period.payment_deadline_at = period.payment_deadline_at or payment_deadline
             if period.price is None:
-                if period.ticket_tier in {"一般", "不明"} and general_price is not None:
+                tier_price = _matching_price_tier(period, ticket_price_tiers)
+                if tier_price:
+                    period.price = tier_price.price
+                    period.ticket_name = period.ticket_name or tier_price.ticket_name
+                    if period.ticket_tier == "不明":
+                        period.ticket_tier = tier_price.ticket_tier
+                elif period.ticket_tier in {"一般", "不明"} and general_price is not None:
                     period.price = general_price
                     if not period.ticket_name:
                         period.ticket_name = "一般"
                     if period.ticket_tier == "不明":
                         period.ticket_tier = "一般"
-                elif period.ticket_tier in {"優先", "VIP", "SS", "前方"} and priority_price is not None:
+                elif _is_priority_like_tier(period.ticket_tier) and priority_price is not None:
                     period.price = priority_price
                     period.ticket_name = period.ticket_name or priority_name or period.ticket_tier
 
         if ticket_application_start or ticket_application_deadline or lottery_result or payment_deadline:
             base_type = ticket_sale_type or "不明"
             status = ticket_status_label_for_period(ticket_status)
-            if priority_price is not None or priority_name:
-                periods.append(
-                    TicketSalePeriod(
-                        sale_type=base_type,
-                        ticket_name=priority_name or "優先",
-                        ticket_tier=_ticket_tier(priority_name or "優先"),
-                        price=priority_price,
-                        start_at=ticket_application_start,
-                        deadline_at=ticket_application_deadline,
-                        result_at=lottery_result,
-                        payment_deadline_at=payment_deadline,
-                        status=status,
-                        source_url=source_url,
-                        source_post_id=source_post_id,
+            dated_price_tiers = [period for period in ticket_price_tiers if period.sale_type != "当日券"]
+            if dated_price_tiers:
+                for tier in dated_price_tiers:
+                    periods.append(
+                        TicketSalePeriod(
+                            sale_type=base_type,
+                            ticket_name=tier.ticket_name,
+                            ticket_tier=tier.ticket_tier,
+                            price=tier.price,
+                            start_at=ticket_application_start,
+                            deadline_at=ticket_application_deadline,
+                            result_at=lottery_result,
+                            payment_deadline_at=payment_deadline,
+                            status=status,
+                            source_url=source_url,
+                            source_post_id=source_post_id,
+                        )
                     )
-                )
-            if general_price is not None or not periods:
+            else:
+                if priority_price is not None or priority_name:
+                    periods.append(
+                        TicketSalePeriod(
+                            sale_type=base_type,
+                            ticket_name=priority_name or "優先",
+                            ticket_tier=_ticket_tier(priority_name or "優先"),
+                            price=priority_price,
+                            start_at=ticket_application_start,
+                            deadline_at=ticket_application_deadline,
+                            result_at=lottery_result,
+                            payment_deadline_at=payment_deadline,
+                            status=status,
+                            source_url=source_url,
+                            source_post_id=source_post_id,
+                        )
+                    )
+                if general_price is not None or not periods:
+                    periods.append(
+                        TicketSalePeriod(
+                            sale_type=base_type,
+                            ticket_name="一般" if general_price is not None else None,
+                            ticket_tier="一般" if general_price is not None else "不明",
+                            price=general_price,
+                            start_at=ticket_application_start,
+                            deadline_at=ticket_application_deadline,
+                            result_at=lottery_result,
+                            payment_deadline_at=payment_deadline,
+                            status=status,
+                            source_url=source_url,
+                            source_post_id=source_post_id,
+                        )
+                    )
+
+        if not any(period.start_at or period.deadline_at for period in periods):
+            for tier in ticket_price_tiers:
+                if tier.sale_type == "当日券":
+                    continue
                 periods.append(
                     TicketSalePeriod(
-                        sale_type=base_type,
-                        ticket_name="一般" if general_price is not None else None,
-                        ticket_tier="一般" if general_price is not None else "不明",
-                        price=general_price,
-                        start_at=ticket_application_start,
-                        deadline_at=ticket_application_deadline,
-                        result_at=lottery_result,
-                        payment_deadline_at=payment_deadline,
-                        status=status,
+                        sale_type=ticket_sale_type or tier.sale_type,
+                        ticket_name=tier.ticket_name,
+                        ticket_tier=tier.ticket_tier,
+                        price=tier.price,
+                        status=ticket_status_label_for_period(ticket_status),
                         source_url=source_url,
                         source_post_id=source_post_id,
                     )
@@ -523,7 +590,9 @@ class PostParser:
         source_post_id: str,
     ) -> TicketSalePeriod | None:
         normalized = _normalize(line)
-        if any(label in normalized for label in ("当落発表", "支払期限", "入金期限")):
+        if any(label in normalized for label in ("当落発表", "支払期限", "支払い期限", "入金期限")):
+            return None
+        if _is_global_ticket_datetime_line(normalized):
             return None
         sale_type = _sale_type_from_text(normalized)
         if sale_type is None:
@@ -602,7 +671,7 @@ class PostParser:
             return "無料"
         if "当日券" in normalized:
             return "当日券"
-        if "一般販売" in normalized or "一般受付" in normalized:
+        if "一般販売" in normalized or "一般発売" in normalized or "一般受付" in normalized:
             return "一般"
         if "抽選" in normalized or "当落" in normalized:
             return "抽選"
@@ -688,13 +757,18 @@ def _sale_type_from_text(value: str) -> str | None:
         return "無料"
     if "当日券" in normalized:
         return "当日券"
-    if any(word in normalized for word in ("一般販売", "一般受付")):
+    if any(word in normalized for word in ("一般販売", "一般発売", "一般受付")):
         return "一般"
-    if any(word in normalized for word in ("抽選受付", "抽選販売", "先行抽選", "抽選", "当落")):
+    if any(word in normalized for word in ("抽選受付", "抽選販売", "抽選申込", "先行抽選", "抽選", "当落")):
         return "抽選"
-    if any(word in normalized for word in ("先着販売", "先着", "受付開始", "受付締切", "販売開始", "販売終了")):
+    if any(word in normalized for word in ("先着販売", "先着受付", "先着", "受付開始", "受付締切", "販売開始", "販売終了")):
         return "先着"
     return None
+
+
+def _is_global_ticket_datetime_line(value: str) -> bool:
+    normalized = _normalize(value)
+    return bool(re.match(r"^(?:申込開始|受付開始|販売開始|申込締切|受付締切|販売終了)\s*[:：]", normalized))
 
 
 def _ticket_tier(value: str | None) -> str:
@@ -714,6 +788,56 @@ def _ticket_tier(value: str | None) -> str:
     if "当日券" in normalized or "当日" in normalized:
         return "一般"
     return "不明"
+
+
+def _is_priority_like_tier(ticket_tier: str | None) -> bool:
+    return ticket_tier in {"優先", "VIP", "SS", "前方", "カメラ"}
+
+
+def _matching_price_tier(period: TicketSalePeriod, price_tiers: list[TicketSalePeriod]) -> TicketSalePeriod | None:
+    for tier in price_tiers:
+        if period.ticket_tier != "不明" and tier.ticket_tier == period.ticket_tier:
+            return tier
+        if period.ticket_name and tier.ticket_name and tier.ticket_name in period.ticket_name:
+            return tier
+    if period.ticket_tier in {"一般", "不明"}:
+        return next((tier for tier in price_tiers if tier.ticket_tier == "一般"), None)
+    if _is_priority_like_tier(period.ticket_tier):
+        return next((tier for tier in price_tiers if _is_priority_like_tier(tier.ticket_tier)), None)
+    return None
+
+
+def _expand_generic_dated_periods_with_price_tiers(
+    periods: list[TicketSalePeriod],
+    price_tiers: list[TicketSalePeriod],
+) -> list[TicketSalePeriod]:
+    priced_tiers = [tier for tier in price_tiers if tier.sale_type != "当日券"]
+    if not priced_tiers:
+        return periods
+
+    expanded: list[TicketSalePeriod] = []
+    for period in periods:
+        is_generic_dated_period = (
+            period.sale_type != "当日券"
+            and bool(period.start_at or period.deadline_at)
+            and period.ticket_tier == "不明"
+            and period.price is None
+            and period.ticket_name is None
+        )
+        if not is_generic_dated_period:
+            expanded.append(period)
+            continue
+        for tier in priced_tiers:
+            expanded.append(
+                period.model_copy(
+                    update={
+                        "ticket_name": tier.ticket_name,
+                        "ticket_tier": tier.ticket_tier,
+                        "price": tier.price,
+                    }
+                )
+            )
+    return expanded
 
 
 def _ticket_name_from_line(value: str, ticket_tier: str) -> str | None:
@@ -745,7 +869,16 @@ def ticket_status_label_for_period(status: str | None) -> str:
 def _dedupe_ticket_periods(periods: list[TicketSalePeriod]) -> list[TicketSalePeriod]:
     deduped: list[TicketSalePeriod] = []
     seen: set[tuple[str, str, str, str]] = set()
-    for period in periods:
+    ordered_periods = sorted(periods, key=lambda period: 0 if period.start_at or period.deadline_at else 1)
+    for period in ordered_periods:
+        if not (period.start_at or period.deadline_at):
+            existing = _find_dated_period_for_price_only_period(deduped, period)
+            if existing:
+                if existing.price is None:
+                    existing.price = period.price
+                if existing.status == "不明" and period.status != "不明":
+                    existing.status = period.status
+                continue
         key = (
             period.sale_type,
             period.ticket_name or period.ticket_tier or "",
@@ -757,6 +890,22 @@ def _dedupe_ticket_periods(periods: list[TicketSalePeriod]) -> list[TicketSalePe
         seen.add(key)
         deduped.append(period)
     return deduped
+
+
+def _find_dated_period_for_price_only_period(
+    periods: list[TicketSalePeriod],
+    price_only: TicketSalePeriod,
+) -> TicketSalePeriod | None:
+    for period in periods:
+        if not (period.start_at or period.deadline_at):
+            continue
+        if period.sale_type != price_only.sale_type:
+            continue
+        if period.ticket_tier == price_only.ticket_tier or (
+            period.ticket_name and price_only.ticket_name and period.ticket_name == price_only.ticket_name
+        ):
+            return period
+    return None
 
 
 def _lines(text: str) -> list[str]:
