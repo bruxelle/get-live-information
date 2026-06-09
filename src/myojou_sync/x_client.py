@@ -52,7 +52,9 @@ class XApiClient:
         user_id = self._get_user_id()
         params: dict[str, str | int] = {
             "max_results": max(5, min(max_results, 100)),
-            "tweet.fields": "created_at,entities",
+            "tweet.fields": "created_at,entities,attachments,referenced_tweets",
+            "expansions": "attachments.media_keys",
+            "media.fields": "media_key,type,url,preview_image_url,width,height,alt_text",
             "exclude": "retweets,replies",
         }
         if since_id:
@@ -65,7 +67,7 @@ class XApiClient:
         )
         response.raise_for_status()
         payload = response.json()
-        posts = [_post_from_payload(item) for item in payload.get("data", [])]
+        posts = _posts_from_response_payload(payload)
         self.last_fetch_metadata = FetchMetadata(
             posts_fetched=len(posts),
             estimated_post_read_count=len(posts),
@@ -139,15 +141,47 @@ class MockXClient:
 
 
 def _post_from_payload(item: dict) -> XPost:
-    created_at = item.get("created_at") or item.get("source_posted_at")
+    raw = _raw_post_payload(item)
+    created_at = item.get("created_at") or raw.get("created_at") or item.get("source_posted_at") or raw.get("source_posted_at")
     if isinstance(created_at, str):
         created_at = datetime.fromisoformat(created_at.replace("Z", "+00:00"))
     return XPost(
-        id=str(item["id"]),
-        text=item["text"],
+        id=str(item.get("id") or raw["id"]),
+        text=str(item.get("text") or raw["text"]),
         created_at=created_at,
-        raw=item,
+        raw=raw,
     )
+
+
+def _posts_from_response_payload(payload: dict[str, Any]) -> list[XPost]:
+    media_by_key = {
+        str(media.get("media_key")): _media_metadata(media)
+        for media in payload.get("includes", {}).get("media", [])
+        if media.get("media_key")
+    }
+    posts: list[XPost] = []
+    for item in payload.get("data", []):
+        raw = dict(item)
+        media_keys = raw.get("attachments", {}).get("media_keys", [])
+        media = [media_by_key[key] for key in media_keys if key in media_by_key]
+        if media:
+            raw["media"] = media
+        posts.append(_post_from_payload(raw))
+    return posts
+
+
+def _raw_post_payload(item: dict[str, Any]) -> dict[str, Any]:
+    embedded_raw = item.get("raw")
+    raw = dict(embedded_raw) if isinstance(embedded_raw, dict) else dict(item)
+    for key in ("id", "text", "created_at", "url", "entities", "attachments", "referenced_tweets", "media"):
+        if key in item and item[key] is not None:
+            raw[key] = item[key]
+    return raw
+
+
+def _media_metadata(media: dict[str, Any]) -> dict[str, Any]:
+    fields = ("media_key", "type", "url", "preview_image_url", "width", "height", "alt_text")
+    return {field: media[field] for field in fields if field in media}
 
 
 def _rate_limit_headers(headers: Any) -> dict[str, str]:

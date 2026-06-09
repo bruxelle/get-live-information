@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 from datetime import date, datetime, timedelta, timezone
+from pathlib import Path
 
 from myojou_sync.models import SourceKind
 from myojou_sync.models import CanonicalEvent
@@ -8,7 +9,11 @@ from myojou_sync.models import PostClassification
 from myojou_sync.models import TicketSalePeriod
 from myojou_sync.models import XPost
 from myojou_sync.parser import PostParser
+from myojou_sync.pipeline import SyncPipeline
 from myojou_sync.real_samples import evaluate_real_samples
+from myojou_sync.sample_capture import needs_review_reasons
+from myojou_sync.state import SQLiteStateStore
+from myojou_sync.x_client import MockXClient
 
 
 JST = timezone(timedelta(hours=9))
@@ -184,6 +189,34 @@ def test_vague_image_dependent_reminder_classifies_as_needs_review():
     assert result.source_kind == SourceKind.SAME_DAY_REMINDER
 
 
+def test_needs_review_reasons_include_real_world_extraction_gaps():
+    event = CanonicalEvent(
+        event_date=date(2026, 6, 15),
+        needs_review=True,
+        classification_reason="本日/明日 reminder appears image-dependent",
+    )
+
+    reasons = needs_review_reasons(event)
+
+    assert "missing event_name" in reasons
+    assert "missing venue" in reasons
+    assert "missing ticket deadline" in reasons
+    assert "likely image-dependent" in reasons
+
+
+def test_free_events_do_not_report_missing_ticket_deadline_reason():
+    event = CanonicalEvent(
+        event_name="FREE LIVE",
+        venue="渋谷Milkyway",
+        general_ticket_price=0,
+        ticket_sale_type="無料",
+    )
+
+    reasons = needs_review_reasons(event)
+
+    assert "missing ticket deadline" not in reasons
+
+
 def test_lottery_and_general_sale_periods_parse_from_one_post():
     parsed = PostParser().parse_post(
         XPost(
@@ -316,6 +349,77 @@ def test_real_sample_fixture_evaluation_helper_passes(mock_posts_dir):
 
     assert results
     assert all(result.passed for result in results)
+
+
+def test_info_myojou_first_fetch_parses_english_style_free_event_labels(mock_posts_dir):
+    posts = _real_first_fetch_posts(mock_posts_dir)
+    parsed = PostParser().parse_post(posts["2064018631219183632"])
+
+    assert parsed is not None
+    assert parsed.event_date == date(2026, 6, 9)
+    assert parsed.event_name == 'myojou oneman live "明夏"アフター特典会'
+    assert parsed.venue == "ふれあい貸し会議室 渋谷No.77"
+    assert parsed.start_time == "18:30"
+    assert parsed.general_ticket_price == 0
+    assert parsed.ticket_sale_type == "無料"
+    assert parsed.ticket_url is None
+    assert parsed.source_raw["media"][0]["url"].startswith("https://pbs.twimg.com/media/")
+
+
+def test_info_myojou_first_fetch_parses_place_and_open_start_labels(mock_posts_dir):
+    posts = _real_first_fetch_posts(mock_posts_dir)
+    parsed = PostParser().parse_post(posts["2064321642810294772"])
+
+    assert parsed is not None
+    assert parsed.event_name == "A Villa idol festival HOKKAIDO 2026"
+    assert parsed.event_date == date(2026, 8, 29)
+    assert parsed.venue == "安平町ときわ公園"
+    assert parsed.open_time == "09:00"
+    assert parsed.start_time == "10:00"
+    assert parsed.ticket_url is None
+
+
+def test_info_myojou_first_fetch_skips_thank_you_photo_post(mock_posts_dir):
+    posts = _real_first_fetch_posts(mock_posts_dir)
+    classification = PostParser().classify_post(posts["2064336515615121857"])
+
+    assert classification.classification == PostClassification.NON_EVENT
+    assert PostParser().parse_post(posts["2064336515615121857"], classification=classification) is None
+
+
+def test_info_myojou_first_fetch_pipeline_reduces_false_needs_review(tmp_path, mock_posts_dir):
+    state = SQLiteStateStore(tmp_path / "state.sqlite")
+    pipeline = SyncPipeline(
+        fetcher=MockXClient(mock_posts_dir / "real_samples" / "info_myojou_first_fetch.json"),
+        state=state,
+        parser=PostParser(),
+    )
+
+    events, result = pipeline.run_once(max_results=10)
+
+    assert result.fetched_posts == 4
+    assert result.parsed_events == 3
+    assert result.non_event_skipped == 1
+    assert result.created_events == 2
+    assert result.updated_events == 1
+    assert result.canonical_events == 2
+    afterparty = next(event for event in events if event.event_name == 'myojou oneman live "明夏"アフター特典会')
+    assert afterparty.venue == "ふれあい貸し会議室 渋谷No.77"
+    assert afterparty.general_ticket_price == 0
+    assert afterparty.ticket_sale_type == "無料"
+    assert afterparty.ticket_url is None
+    assert afterparty.needs_review is False
+    assert len(afterparty.all_source_urls) == 2
+    assert all(
+        "missing ticket deadline" not in record["needs_review_reasons"]
+        for record in result.x_sample_records
+        if record["id"] in {"2064018631219183632", "2064266242069004344"}
+    )
+
+
+def _real_first_fetch_posts(mock_posts_dir: Path):
+    client = MockXClient(mock_posts_dir / "real_samples" / "info_myojou_first_fetch.json")
+    return {post.id: post for post in client.fetch_recent_posts(max_results=10)}
 
 
 def test_timetable_update_parsing(mock_posts):

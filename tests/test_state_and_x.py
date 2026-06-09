@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+import json
+import sqlite3
 from pathlib import Path
 
 from myojou_sync.parser import PostParser
@@ -46,6 +48,55 @@ class FakeSession:
         )
 
 
+class FakeEntitySession:
+    def __init__(self):
+        self.params = []
+
+    def get(self, url, **kwargs):
+        self.params.append(kwargs.get("params", {}))
+        if "/users/by/username/" in url:
+            return FakeResponse({"data": {"id": "12345"}})
+        return FakeResponse(
+            {
+                "data": [
+                    {
+                        "id": "200002",
+                        "created_at": "2026-05-20T00:00:00Z",
+                        "text": (
+                            "6/15(月)『REAL ENTITY LIVE』\n"
+                            "会場：渋谷Milkyway\n"
+                            "OPEN 18:00 / START 18:30\n"
+                            "チケット：https://t.co/abc123"
+                        ),
+                        "entities": {
+                            "urls": [
+                                {
+                                    "url": "https://t.co/abc123",
+                                    "expanded_url": "https://t.livepocket.jp/e/real-entity-live",
+                                }
+                            ]
+                        },
+                        "attachments": {"media_keys": ["3_200002"]},
+                    }
+                ],
+                "includes": {
+                    "media": [
+                        {
+                            "media_key": "3_200002",
+                            "type": "photo",
+                            "url": "https://pbs.twimg.com/media/example.jpg",
+                            "preview_image_url": "https://pbs.twimg.com/media/example-preview.jpg",
+                            "width": 1200,
+                            "height": 800,
+                            "alt_text": "告知画像",
+                        }
+                    ]
+                },
+            },
+            headers={"x-rate-limit-remaining": "13"},
+        )
+
+
 def test_x_user_id_lookup_is_cached_in_sqlite(tmp_path):
     state = SQLiteStateStore(tmp_path / "state.sqlite")
     session = FakeSession()
@@ -62,6 +113,35 @@ def test_x_user_id_lookup_is_cached_in_sqlite(tmp_path):
     assert state.get_cached_x_user_id("info_myojou") == "12345"
     assert client.last_fetch_metadata.estimated_post_read_count == 1
     assert client.last_fetch_metadata.rate_limit_headers["x-rate-limit-remaining"] == "14"
+
+
+def test_x_client_preserves_expanded_urls_and_media_metadata(tmp_path):
+    state = SQLiteStateStore(tmp_path / "state.sqlite")
+    session = FakeEntitySession()
+    client = XApiClient("token", state=state, session=session)
+
+    posts = client.fetch_recent_posts(max_results=10)
+
+    assert session.params[-1]["tweet.fields"] == "created_at,entities,attachments,referenced_tweets"
+    assert session.params[-1]["expansions"] == "attachments.media_keys"
+    assert "alt_text" in session.params[-1]["media.fields"]
+    assert posts[0].raw["entities"]["urls"][0]["expanded_url"] == "https://t.livepocket.jp/e/real-entity-live"
+    assert posts[0].raw["media"] == [
+        {
+            "media_key": "3_200002",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/example.jpg",
+            "preview_image_url": "https://pbs.twimg.com/media/example-preview.jpg",
+            "width": 1200,
+            "height": 800,
+            "alt_text": "告知画像",
+        }
+    ]
+
+    parsed = PostParser().parse_post(posts[0])
+    assert parsed is not None
+    assert parsed.ticket_url == "https://t.livepocket.jp/e/real-entity-live"
+    assert parsed.source_raw["media"][0]["alt_text"] == "告知画像"
 
 
 def test_pipeline_source_posts_store_linked_event_metadata(tmp_path, mock_posts_dir: Path):
@@ -86,3 +166,101 @@ def test_pipeline_source_posts_store_linked_event_metadata(tmp_path, mock_posts_
     assert all(record["linked_event_id"] for record in records)
     assert all(record["extraction_confidence"] is not None for record in records)
     assert {record["linked_event_id"] for record in records}.issubset({event.event_id for event in events})
+
+
+def test_source_post_payload_preserves_raw_media_metadata(tmp_path):
+    fixture_path = tmp_path / "real_samples"
+    fixture_path.mkdir()
+    (fixture_path / "first_live_fetch.json").write_text(
+        json.dumps(
+            {
+                "captured_at": "2026-06-10T00:00:00+00:00",
+                "source": "x_api",
+                "data": [
+                    {
+                        "id": "real_media_001",
+                        "created_at": "2026-05-20T00:00:00+09:00",
+                        "url": "https://x.com/info_myojou/status/real_media_001",
+                        "text": (
+                            "6/15(月)『RAW MEDIA LIVE』\n"
+                            "会場：渋谷Milkyway\n"
+                            "OPEN 18:00 / START 18:30\n"
+                            "チケット：https://t.co/rawmedia"
+                        ),
+                        "entities": {
+                            "urls": [
+                                {
+                                    "url": "https://t.co/rawmedia",
+                                    "expanded_url": "https://t.livepocket.jp/e/raw-media-live",
+                                }
+                            ]
+                        },
+                        "media": [
+                            {
+                                "media_key": "3_raw_media",
+                                "type": "photo",
+                                "url": "https://pbs.twimg.com/media/raw.jpg",
+                                "width": 1000,
+                                "height": 1000,
+                                "alt_text": "ライブ告知",
+                            }
+                        ],
+                    }
+                ],
+            },
+            ensure_ascii=False,
+        ),
+        encoding="utf-8",
+    )
+    db_path = tmp_path / "state.sqlite"
+    state = SQLiteStateStore(db_path)
+    pipeline = SyncPipeline(fetcher=MockXClient(fixture_path), state=state, parser=PostParser())
+
+    events, result = pipeline.run_once(max_results=10)
+
+    assert result.parsed_events == 1
+    assert events[0].ticket_url == "https://t.livepocket.jp/e/raw-media-live"
+    with sqlite3.connect(db_path) as conn:
+        payload_json = conn.execute("SELECT payload_json FROM source_posts WHERE post_id = ?", ("real_media_001",)).fetchone()[0]
+    payload = json.loads(payload_json)
+    assert payload["source_raw"]["media"][0]["alt_text"] == "ライブ告知"
+    assert payload["source_raw"]["entities"]["urls"][0]["expanded_url"] == "https://t.livepocket.jp/e/raw-media-live"
+
+
+def test_saved_real_sample_json_can_be_loaded_as_mock_input(tmp_path):
+    fixture_path = tmp_path / "real_samples"
+    fixture_path.mkdir()
+    (fixture_path / "saved_sample.json").write_text(
+        json.dumps(
+            {
+                "captured_at": "2026-06-10T00:00:00+00:00",
+                "source": "x_api",
+                "data": [
+                    {
+                        "id": "saved_real_001",
+                        "created_at": "2026-05-20T00:00:00+09:00",
+                        "url": "https://x.com/info_myojou/status/saved_real_001",
+                        "text": "6/15(月)『SAVED SAMPLE LIVE』\n会場：渋谷Milkyway\nチケット：https://t.co/saved",
+                        "entities": {
+                            "urls": [
+                                {
+                                    "url": "https://t.co/saved",
+                                    "expanded_url": "https://ticketdive.com/event/saved-sample-live",
+                                }
+                            ]
+                        },
+                        "media": [{"media_key": "3_saved", "type": "photo", "alt_text": "保存サンプル"}],
+                    }
+                ],
+            },
+            ensure_ascii=False,
+        ),
+        encoding="utf-8",
+    )
+
+    posts = MockXClient(fixture_path).fetch_recent_posts(max_results=10)
+    parsed = PostParser().parse_post(posts[0])
+
+    assert posts[0].raw["media"][0]["alt_text"] == "保存サンプル"
+    assert parsed is not None
+    assert parsed.ticket_url == "https://ticketdive.com/event/saved-sample-live"

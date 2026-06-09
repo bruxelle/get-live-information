@@ -1,0 +1,727 @@
+{
+  "captured_at": "2026-06-09T17:37:57.399868+00:00",
+  "source": "x_api",
+  "metadata": {
+    "username": "info_myojou",
+    "max_results": 5,
+    "posts_fetched": 4,
+    "estimated_x_post_reads": 4,
+    "rate_limit_headers": {
+      "x-rate-limit-limit": "10000",
+      "x-rate-limit-remaining": "9999",
+      "x-rate-limit-reset": "1781027577"
+    },
+    "dry_run": true
+  },
+  "data": [
+    {
+      "id": "2064018631219183632",
+      "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「myojou oneman live \"明夏\"アフター特典会」\n\n⟣date：6/9（火）\n⟣place : ふれあい貸し会議室 渋谷No.77\n（東京都渋谷区渋谷2丁目22-6 幸話ビル3階）\n⟣start：18:30（18:25より整列）\n⟣price： ¥0\n\n#myojou https://t.co/iP8JfVotfr",
+      "created_at": "2026-06-08T16:16:03+00:00",
+      "url": "https://x.com/info_myojou/status/2064018631219183632",
+      "entities": {
+        "hashtags": [
+          {
+            "start": 158,
+            "end": 165,
+            "tag": "myojou"
+          }
+        ],
+        "urls": [
+          {
+            "start": 166,
+            "end": 189,
+            "url": "https://t.co/iP8JfVotfr",
+            "expanded_url": "https://x.com/info_myojou/status/2064018631219183632/photo/1",
+            "display_url": "pic.x.com/iP8JfVotfr",
+            "media_key": "3_2064018625124876289"
+          }
+        ]
+      },
+      "attachments": {
+        "media_keys": [
+          "3_2064018625124876289"
+        ]
+      },
+      "referenced_tweets": [],
+      "media": [
+        {
+          "media_key": "3_2064018625124876289",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HKTeAQBbwAEOqkV.jpg",
+          "width": 1240,
+          "height": 1754
+        }
+      ],
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "day_before_reminder"
+      },
+      "parsed_fields": {
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2064018631219183632",
+        "source_post_id": "2064018631219183632",
+        "source_posted_at": "2026-06-08T16:16:03Z",
+        "source_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「myojou oneman live \"明夏\"アフター特典会」\n\n⟣date：6/9（火）\n⟣place : ふれあい貸し会議室 渋谷No.77\n（東京都渋谷区渋谷2丁目22-6 幸話ビル3階）\n⟣start：18:30（18:25より整列）\n⟣price： ¥0\n\n#myojou https://t.co/iP8JfVotfr",
+        "source_raw": {
+          "entities": {
+            "hashtags": [
+              {
+                "start": 158,
+                "end": 165,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "start": 166,
+                "end": 189,
+                "url": "https://t.co/iP8JfVotfr",
+                "expanded_url": "https://x.com/info_myojou/status/2064018631219183632/photo/1",
+                "display_url": "pic.x.com/iP8JfVotfr",
+                "media_key": "3_2064018625124876289"
+              }
+            ]
+          },
+          "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「myojou oneman live \"明夏\"アフター特典会」\n\n⟣date：6/9（火）\n⟣place : ふれあい貸し会議室 渋谷No.77\n（東京都渋谷区渋谷2丁目22-6 幸話ビル3階）\n⟣start：18:30（18:25より整列）\n⟣price： ¥0\n\n#myojou https://t.co/iP8JfVotfr",
+          "id": "2064018631219183632",
+          "attachments": {
+            "media_keys": [
+              "3_2064018625124876289"
+            ]
+          },
+          "created_at": "2026-06-08T16:16:03.000Z",
+          "edit_history_tweet_ids": [
+            "2064018631219183632"
+          ],
+          "media": [
+            {
+              "media_key": "3_2064018625124876289",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HKTeAQBbwAEOqkV.jpg",
+              "width": 1240,
+              "height": 1754
+            }
+          ]
+        },
+        "source_kind": "day_before_reminder",
+        "extraction_confidence": 0.8,
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-06-09",
+        "event_name": "myojou oneman live \"明夏\"アフター特典会",
+        "venue": null,
+        "open_time": null,
+        "start_time": "18:30",
+        "myojou_performance_time": null,
+        "benefit_event_time": null,
+        "ticket_url": "https://x.com/info_myojou/status/2064018631219183632/photo/1",
+        "general_ticket_price": null,
+        "priority_ticket_name": null,
+        "priority_ticket_price": null,
+        "same_day_ticket_price": null,
+        "ticket_application_start_at": null,
+        "ticket_application_deadline_at": null,
+        "lottery_result_at": null,
+        "payment_deadline_at": null,
+        "ticket_sale_type": null,
+        "ticket_sales": [],
+        "ticket_status": null,
+        "notes": null
+      },
+      "linked_event_id": "evt_f62256d3289b420b80058cb7416855fc",
+      "needs_review": false,
+      "needs_review_reasons": [
+        "missing venue",
+        "missing ticket deadline",
+        "classification: live post has date and structured event fields"
+      ],
+      "already_processed": false,
+      "raw": {
+        "entities": {
+          "hashtags": [
+            {
+              "start": 158,
+              "end": 165,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "start": 166,
+              "end": 189,
+              "url": "https://t.co/iP8JfVotfr",
+              "expanded_url": "https://x.com/info_myojou/status/2064018631219183632/photo/1",
+              "display_url": "pic.x.com/iP8JfVotfr",
+              "media_key": "3_2064018625124876289"
+            }
+          ]
+        },
+        "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「myojou oneman live \"明夏\"アフター特典会」\n\n⟣date：6/9（火）\n⟣place : ふれあい貸し会議室 渋谷No.77\n（東京都渋谷区渋谷2丁目22-6 幸話ビル3階）\n⟣start：18:30（18:25より整列）\n⟣price： ¥0\n\n#myojou https://t.co/iP8JfVotfr",
+        "id": "2064018631219183632",
+        "attachments": {
+          "media_keys": [
+            "3_2064018625124876289"
+          ]
+        },
+        "created_at": "2026-06-08T16:16:03.000Z",
+        "edit_history_tweet_ids": [
+          "2064018631219183632"
+        ],
+        "media": [
+          {
+            "media_key": "3_2064018625124876289",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HKTeAQBbwAEOqkV.jpg",
+            "width": 1240,
+            "height": 1754
+          }
+        ]
+      }
+    },
+    {
+      "id": "2064266242069004344",
+      "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「myojou oneman live \"明夏\"アフター特典会」\n\n⟣date：6/9（火）\n⟣place : ふれあい貸し会議室 渋谷No.77\n（東京都渋谷区渋谷2丁目22-6 幸話ビル3階）\n⟣start：18:30（18:25より整列）\n⟣price： ¥0 https://t.co/wddTFHhzdY",
+      "created_at": "2026-06-09T08:39:58+00:00",
+      "url": "https://x.com/info_myojou/status/2064266242069004344",
+      "entities": {
+        "urls": [
+          {
+            "start": 157,
+            "end": 180,
+            "url": "https://t.co/wddTFHhzdY",
+            "expanded_url": "https://x.com/info_myojou/status/2064266242069004344/photo/1",
+            "display_url": "pic.x.com/wddTFHhzdY",
+            "media_key": "3_2064266194736300032"
+          },
+          {
+            "start": 157,
+            "end": 180,
+            "url": "https://t.co/wddTFHhzdY",
+            "expanded_url": "https://x.com/info_myojou/status/2064266242069004344/photo/1",
+            "display_url": "pic.x.com/wddTFHhzdY",
+            "media_key": "3_2064266194811772928"
+          },
+          {
+            "start": 157,
+            "end": 180,
+            "url": "https://t.co/wddTFHhzdY",
+            "expanded_url": "https://x.com/info_myojou/status/2064266242069004344/photo/1",
+            "display_url": "pic.x.com/wddTFHhzdY",
+            "media_key": "3_2064266194736369664"
+          }
+        ]
+      },
+      "attachments": {
+        "media_keys": [
+          "3_2064266194736300032",
+          "3_2064266194811772928",
+          "3_2064266194736369664"
+        ]
+      },
+      "referenced_tweets": [],
+      "media": [
+        {
+          "media_key": "3_2064266194736300032",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HKW_KssawAA-YE0.jpg",
+          "width": 1240,
+          "height": 1754
+        },
+        {
+          "media_key": "3_2064266194811772928",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HKW_Ks-aYAAV8fe.jpg",
+          "width": 1240,
+          "height": 1754
+        },
+        {
+          "media_key": "3_2064266194736369664",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HKW_Kssb0AAz_-b.jpg",
+          "width": 2481,
+          "height": 3508
+        }
+      ],
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "initial_announcement"
+      },
+      "parsed_fields": {
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2064266242069004344",
+        "source_post_id": "2064266242069004344",
+        "source_posted_at": "2026-06-09T08:39:58Z",
+        "source_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「myojou oneman live \"明夏\"アフター特典会」\n\n⟣date：6/9（火）\n⟣place : ふれあい貸し会議室 渋谷No.77\n（東京都渋谷区渋谷2丁目22-6 幸話ビル3階）\n⟣start：18:30（18:25より整列）\n⟣price： ¥0 https://t.co/wddTFHhzdY",
+        "source_raw": {
+          "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「myojou oneman live \"明夏\"アフター特典会」\n\n⟣date：6/9（火）\n⟣place : ふれあい貸し会議室 渋谷No.77\n（東京都渋谷区渋谷2丁目22-6 幸話ビル3階）\n⟣start：18:30（18:25より整列）\n⟣price： ¥0 https://t.co/wddTFHhzdY",
+          "id": "2064266242069004344",
+          "entities": {
+            "urls": [
+              {
+                "start": 157,
+                "end": 180,
+                "url": "https://t.co/wddTFHhzdY",
+                "expanded_url": "https://x.com/info_myojou/status/2064266242069004344/photo/1",
+                "display_url": "pic.x.com/wddTFHhzdY",
+                "media_key": "3_2064266194736300032"
+              },
+              {
+                "start": 157,
+                "end": 180,
+                "url": "https://t.co/wddTFHhzdY",
+                "expanded_url": "https://x.com/info_myojou/status/2064266242069004344/photo/1",
+                "display_url": "pic.x.com/wddTFHhzdY",
+                "media_key": "3_2064266194811772928"
+              },
+              {
+                "start": 157,
+                "end": 180,
+                "url": "https://t.co/wddTFHhzdY",
+                "expanded_url": "https://x.com/info_myojou/status/2064266242069004344/photo/1",
+                "display_url": "pic.x.com/wddTFHhzdY",
+                "media_key": "3_2064266194736369664"
+              }
+            ]
+          },
+          "attachments": {
+            "media_keys": [
+              "3_2064266194736300032",
+              "3_2064266194811772928",
+              "3_2064266194736369664"
+            ]
+          },
+          "created_at": "2026-06-09T08:39:58.000Z",
+          "edit_history_tweet_ids": [
+            "2064266205222039781",
+            "2064266242069004344"
+          ],
+          "media": [
+            {
+              "media_key": "3_2064266194736300032",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HKW_KssawAA-YE0.jpg",
+              "width": 1240,
+              "height": 1754
+            },
+            {
+              "media_key": "3_2064266194811772928",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HKW_Ks-aYAAV8fe.jpg",
+              "width": 1240,
+              "height": 1754
+            },
+            {
+              "media_key": "3_2064266194736369664",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HKW_Kssb0AAz_-b.jpg",
+              "width": 2481,
+              "height": 3508
+            }
+          ]
+        },
+        "source_kind": "initial_announcement",
+        "extraction_confidence": 0.75,
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-06-09",
+        "event_name": "myojou oneman live \"明夏\"アフター特典会",
+        "venue": null,
+        "open_time": null,
+        "start_time": "18:30",
+        "myojou_performance_time": null,
+        "benefit_event_time": null,
+        "ticket_url": "https://x.com/info_myojou/status/2064266242069004344/photo/1",
+        "general_ticket_price": null,
+        "priority_ticket_name": null,
+        "priority_ticket_price": null,
+        "same_day_ticket_price": null,
+        "ticket_application_start_at": null,
+        "ticket_application_deadline_at": null,
+        "lottery_result_at": null,
+        "payment_deadline_at": null,
+        "ticket_sale_type": null,
+        "ticket_sales": [],
+        "ticket_status": null,
+        "notes": null
+      },
+      "linked_event_id": "evt_f62256d3289b420b80058cb7416855fc",
+      "needs_review": true,
+      "needs_review_reasons": [
+        "missing venue",
+        "missing ticket deadline",
+        "ambiguous event match",
+        "classification: live post has date and structured event fields"
+      ],
+      "already_processed": false,
+      "raw": {
+        "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「myojou oneman live \"明夏\"アフター特典会」\n\n⟣date：6/9（火）\n⟣place : ふれあい貸し会議室 渋谷No.77\n（東京都渋谷区渋谷2丁目22-6 幸話ビル3階）\n⟣start：18:30（18:25より整列）\n⟣price： ¥0 https://t.co/wddTFHhzdY",
+        "id": "2064266242069004344",
+        "entities": {
+          "urls": [
+            {
+              "start": 157,
+              "end": 180,
+              "url": "https://t.co/wddTFHhzdY",
+              "expanded_url": "https://x.com/info_myojou/status/2064266242069004344/photo/1",
+              "display_url": "pic.x.com/wddTFHhzdY",
+              "media_key": "3_2064266194736300032"
+            },
+            {
+              "start": 157,
+              "end": 180,
+              "url": "https://t.co/wddTFHhzdY",
+              "expanded_url": "https://x.com/info_myojou/status/2064266242069004344/photo/1",
+              "display_url": "pic.x.com/wddTFHhzdY",
+              "media_key": "3_2064266194811772928"
+            },
+            {
+              "start": 157,
+              "end": 180,
+              "url": "https://t.co/wddTFHhzdY",
+              "expanded_url": "https://x.com/info_myojou/status/2064266242069004344/photo/1",
+              "display_url": "pic.x.com/wddTFHhzdY",
+              "media_key": "3_2064266194736369664"
+            }
+          ]
+        },
+        "attachments": {
+          "media_keys": [
+            "3_2064266194736300032",
+            "3_2064266194811772928",
+            "3_2064266194736369664"
+          ]
+        },
+        "created_at": "2026-06-09T08:39:58.000Z",
+        "edit_history_tweet_ids": [
+          "2064266205222039781",
+          "2064266242069004344"
+        ],
+        "media": [
+          {
+            "media_key": "3_2064266194736300032",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HKW_KssawAA-YE0.jpg",
+            "width": 1240,
+            "height": 1754
+          },
+          {
+            "media_key": "3_2064266194811772928",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HKW_Ks-aYAAV8fe.jpg",
+            "width": 1240,
+            "height": 1754
+          },
+          {
+            "media_key": "3_2064266194736369664",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HKW_Kssb0AAz_-b.jpg",
+            "width": 2481,
+            "height": 3508
+          }
+        ]
+      }
+    },
+    {
+      "id": "2064321642810294772",
+      "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n      A Villa idol festival HOKKAIDO 2026\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：8/29（土）\n⟣place : 安平町ときわ公園\n⟣open/start：9:00/10:00（予定）\n⟣price：VIPチケット https://t.co/Ehh7HWK22O",
+      "created_at": "2026-06-09T12:20:07+00:00",
+      "url": "https://x.com/info_myojou/status/2064321642810294772",
+      "entities": {
+        "urls": [
+          {
+            "start": 169,
+            "end": 192,
+            "url": "https://t.co/Ehh7HWK22O",
+            "expanded_url": "https://x.com/info_myojou/status/2064321642810294772/photo/1",
+            "display_url": "pic.x.com/Ehh7HWK22O",
+            "media_key": "3_2064321321736314881"
+          }
+        ]
+      },
+      "attachments": {
+        "media_keys": [
+          "3_2064321321736314881"
+        ]
+      },
+      "referenced_tweets": [],
+      "media": [
+        {
+          "media_key": "3_2064321321736314881",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HKXxTgxboAEjIyB.jpg",
+          "width": 1076,
+          "height": 1522
+        }
+      ],
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "ticket_update"
+      },
+      "parsed_fields": {
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2064321642810294772",
+        "source_post_id": "2064321642810294772",
+        "source_posted_at": "2026-06-09T12:20:07Z",
+        "source_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n      A Villa idol festival HOKKAIDO 2026\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：8/29（土）\n⟣place : 安平町ときわ公園\n⟣open/start：9:00/10:00（予定）\n⟣price：VIPチケット https://t.co/Ehh7HWK22O",
+        "source_raw": {
+          "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n      A Villa idol festival HOKKAIDO 2026\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：8/29（土）\n⟣place : 安平町ときわ公園\n⟣open/start：9:00/10:00（予定）\n⟣price：VIPチケット https://t.co/Ehh7HWK22O",
+          "id": "2064321642810294772",
+          "entities": {
+            "urls": [
+              {
+                "start": 169,
+                "end": 192,
+                "url": "https://t.co/Ehh7HWK22O",
+                "expanded_url": "https://x.com/info_myojou/status/2064321642810294772/photo/1",
+                "display_url": "pic.x.com/Ehh7HWK22O",
+                "media_key": "3_2064321321736314881"
+              }
+            ]
+          },
+          "attachments": {
+            "media_keys": [
+              "3_2064321321736314881"
+            ]
+          },
+          "created_at": "2026-06-09T12:20:07.000Z",
+          "edit_history_tweet_ids": [
+            "2064321642810294772"
+          ],
+          "media": [
+            {
+              "media_key": "3_2064321321736314881",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HKXxTgxboAEjIyB.jpg",
+              "width": 1076,
+              "height": 1522
+            }
+          ]
+        },
+        "source_kind": "ticket_update",
+        "extraction_confidence": 0.55,
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-08-29",
+        "event_name": null,
+        "venue": null,
+        "open_time": null,
+        "start_time": "09:00",
+        "myojou_performance_time": null,
+        "benefit_event_time": null,
+        "ticket_url": "https://x.com/info_myojou/status/2064321642810294772/photo/1",
+        "general_ticket_price": null,
+        "priority_ticket_name": "VIPチケット https",
+        "priority_ticket_price": null,
+        "same_day_ticket_price": null,
+        "ticket_application_start_at": null,
+        "ticket_application_deadline_at": null,
+        "lottery_result_at": null,
+        "payment_deadline_at": null,
+        "ticket_sale_type": null,
+        "ticket_sales": [],
+        "ticket_status": null,
+        "notes": null
+      },
+      "linked_event_id": "evt_20ecbd85418a4fbf940bbed944e276f1",
+      "needs_review": true,
+      "needs_review_reasons": [
+        "missing event_name",
+        "missing venue",
+        "missing ticket deadline",
+        "classification: live post has date and structured event fields"
+      ],
+      "already_processed": false,
+      "raw": {
+        "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n      A Villa idol festival HOKKAIDO 2026\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：8/29（土）\n⟣place : 安平町ときわ公園\n⟣open/start：9:00/10:00（予定）\n⟣price：VIPチケット https://t.co/Ehh7HWK22O",
+        "id": "2064321642810294772",
+        "entities": {
+          "urls": [
+            {
+              "start": 169,
+              "end": 192,
+              "url": "https://t.co/Ehh7HWK22O",
+              "expanded_url": "https://x.com/info_myojou/status/2064321642810294772/photo/1",
+              "display_url": "pic.x.com/Ehh7HWK22O",
+              "media_key": "3_2064321321736314881"
+            }
+          ]
+        },
+        "attachments": {
+          "media_keys": [
+            "3_2064321321736314881"
+          ]
+        },
+        "created_at": "2026-06-09T12:20:07.000Z",
+        "edit_history_tweet_ids": [
+          "2064321642810294772"
+        ],
+        "media": [
+          {
+            "media_key": "3_2064321321736314881",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HKXxTgxboAEjIyB.jpg",
+            "width": 1076,
+            "height": 1522
+          }
+        ]
+      }
+    },
+    {
+      "id": "2064336515615121857",
+      "text": "✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n                           ⟡.·*.御礼.*·.⟡\n  myojou oneman live \"明夏\"アフター特典会\n✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n\n本日は「myojou oneman live \"明夏\"アフター特典会」ありがとうございました⋆˙⟡\n\n左から https://t.co/vyEVJ8r2mn",
+      "created_at": "2026-06-09T13:19:13+00:00",
+      "url": "https://x.com/info_myojou/status/2064336515615121857",
+      "entities": {
+        "urls": [
+          {
+            "start": 181,
+            "end": 204,
+            "url": "https://t.co/vyEVJ8r2mn",
+            "expanded_url": "https://x.com/info_myojou/status/2064336515615121857/photo/1",
+            "display_url": "pic.x.com/vyEVJ8r2mn",
+            "media_key": "3_2064336510976196608"
+          }
+        ]
+      },
+      "attachments": {
+        "media_keys": [
+          "3_2064336510976196608"
+        ]
+      },
+      "referenced_tweets": [],
+      "media": [
+        {
+          "media_key": "3_2064336510976196608",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HKX_HpGbAAAx6qY.jpg",
+          "width": 1570,
+          "height": 1042
+        }
+      ],
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "same_day_reminder"
+      },
+      "parsed_fields": {
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2064336515615121857",
+        "source_post_id": "2064336515615121857",
+        "source_posted_at": "2026-06-09T13:19:13Z",
+        "source_text": "✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n                           ⟡.·*.御礼.*·.⟡\n  myojou oneman live \"明夏\"アフター特典会\n✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n\n本日は「myojou oneman live \"明夏\"アフター特典会」ありがとうございました⋆˙⟡\n\n左から https://t.co/vyEVJ8r2mn",
+        "source_raw": {
+          "text": "✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n                           ⟡.·*.御礼.*·.⟡\n  myojou oneman live \"明夏\"アフター特典会\n✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n\n本日は「myojou oneman live \"明夏\"アフター特典会」ありがとうございました⋆˙⟡\n\n左から https://t.co/vyEVJ8r2mn",
+          "id": "2064336515615121857",
+          "entities": {
+            "urls": [
+              {
+                "start": 181,
+                "end": 204,
+                "url": "https://t.co/vyEVJ8r2mn",
+                "expanded_url": "https://x.com/info_myojou/status/2064336515615121857/photo/1",
+                "display_url": "pic.x.com/vyEVJ8r2mn",
+                "media_key": "3_2064336510976196608"
+              }
+            ]
+          },
+          "attachments": {
+            "media_keys": [
+              "3_2064336510976196608"
+            ]
+          },
+          "created_at": "2026-06-09T13:19:13.000Z",
+          "edit_history_tweet_ids": [
+            "2064336515615121857"
+          ],
+          "media": [
+            {
+              "media_key": "3_2064336510976196608",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HKX_HpGbAAAx6qY.jpg",
+              "width": 1570,
+              "height": 1042
+            }
+          ]
+        },
+        "source_kind": "same_day_reminder",
+        "extraction_confidence": 0.7,
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-06-09",
+        "event_name": "myojou oneman live \"明夏\"アフター特典会",
+        "venue": null,
+        "open_time": null,
+        "start_time": null,
+        "myojou_performance_time": null,
+        "benefit_event_time": null,
+        "ticket_url": "https://x.com/info_myojou/status/2064336515615121857/photo/1",
+        "general_ticket_price": null,
+        "priority_ticket_name": null,
+        "priority_ticket_price": null,
+        "same_day_ticket_price": null,
+        "ticket_application_start_at": null,
+        "ticket_application_deadline_at": null,
+        "lottery_result_at": null,
+        "payment_deadline_at": null,
+        "ticket_sale_type": null,
+        "ticket_sales": [],
+        "ticket_status": null,
+        "notes": null
+      },
+      "linked_event_id": "evt_f62256d3289b420b80058cb7416855fc",
+      "needs_review": true,
+      "needs_review_reasons": [
+        "missing venue",
+        "missing ticket deadline",
+        "classification: live post has date and structured event fields"
+      ],
+      "already_processed": false,
+      "raw": {
+        "text": "✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n                           ⟡.·*.御礼.*·.⟡\n  myojou oneman live \"明夏\"アフター特典会\n✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n\n本日は「myojou oneman live \"明夏\"アフター特典会」ありがとうございました⋆˙⟡\n\n左から https://t.co/vyEVJ8r2mn",
+        "id": "2064336515615121857",
+        "entities": {
+          "urls": [
+            {
+              "start": 181,
+              "end": 204,
+              "url": "https://t.co/vyEVJ8r2mn",
+              "expanded_url": "https://x.com/info_myojou/status/2064336515615121857/photo/1",
+              "display_url": "pic.x.com/vyEVJ8r2mn",
+              "media_key": "3_2064336510976196608"
+            }
+          ]
+        },
+        "attachments": {
+          "media_keys": [
+            "3_2064336510976196608"
+          ]
+        },
+        "created_at": "2026-06-09T13:19:13.000Z",
+        "edit_history_tweet_ids": [
+          "2064336515615121857"
+        ],
+        "media": [
+          {
+            "media_key": "3_2064336510976196608",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HKX_HpGbAAAx6qY.jpg",
+            "width": 1570,
+            "height": 1042
+          }
+        ]
+      }
+    }
+  ]
+}

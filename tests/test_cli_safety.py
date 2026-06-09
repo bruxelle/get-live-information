@@ -136,6 +136,95 @@ def test_no_mock_posts_ignores_mock_env_and_keeps_no_x_api_guard(tmp_path, monke
     assert "X API is disabled. Use mock_posts or set NO_X_API=false intentionally." in error
 
 
+def test_save_x_samples_writes_raw_posts_without_secrets(tmp_path, monkeypatch, capsys):
+    from myojou_sync.models import XPost
+    from myojou_sync.x_client import FetchMetadata
+
+    class FakeXClient:
+        def __init__(self, bearer_token, username, state):
+            assert bearer_token == "super-secret-token"
+            self.last_fetch_metadata = FetchMetadata()
+
+        def fetch_recent_posts(self, *, since_id=None, max_results=10):
+            self.last_fetch_metadata = FetchMetadata(
+                posts_fetched=1,
+                estimated_post_read_count=1,
+                rate_limit_headers={"x-rate-limit-remaining": "12"},
+                used_mock=False,
+            )
+            return [
+                XPost(
+                    id="real_capture_001",
+                    created_at=datetime(2026, 5, 20, 0, 0, tzinfo=JST),
+                    text=(
+                        "6/15(月)『REAL CAPTURE LIVE』\n"
+                        "会場：渋谷Milkyway\n"
+                        "OPEN 18:00 / START 18:30\n"
+                        "チケット：https://t.co/capture"
+                    ),
+                    raw={
+                        "id": "real_capture_001",
+                        "created_at": "2026-05-20T00:00:00+09:00",
+                        "text": (
+                            "6/15(月)『REAL CAPTURE LIVE』\n"
+                            "会場：渋谷Milkyway\n"
+                            "OPEN 18:00 / START 18:30\n"
+                            "チケット：https://t.co/capture"
+                        ),
+                        "url": "https://x.com/info_myojou/status/real_capture_001",
+                        "entities": {
+                            "urls": [
+                                {
+                                    "url": "https://t.co/capture",
+                                    "expanded_url": "https://t.livepocket.jp/e/real-capture-live",
+                                }
+                            ]
+                        },
+                        "attachments": {"media_keys": ["3_capture"]},
+                        "referenced_tweets": [],
+                        "media": [{"media_key": "3_capture", "type": "photo", "alt_text": "告知画像"}],
+                    },
+                )
+            ]
+
+    output_path = tmp_path / "real_samples" / "first_live_fetch.json"
+    monkeypatch.setenv("NO_X_API", "false")
+    monkeypatch.setenv("X_BEARER_TOKEN", "super-secret-token")
+    monkeypatch.delenv("MYOJOU_MOCK_POSTS", raising=False)
+    monkeypatch.setattr("myojou_sync.cli.XApiClient", FakeXClient)
+
+    result = main(
+        [
+            "run",
+            "--no-mock-posts",
+            "--db",
+            str(tmp_path / "state.sqlite"),
+            "--max-results",
+            "5",
+            "--target",
+            "none",
+            "--dry-run",
+            "--save-x-samples",
+            str(output_path),
+        ]
+    )
+    output = capsys.readouterr().out
+    content = output_path.read_text(encoding="utf-8")
+    payload = json.loads(content)
+    sample = payload["data"][0]
+
+    assert result == 0
+    assert "Saved 1 X samples" in output
+    assert "super-secret-token" not in content
+    assert payload["metadata"]["estimated_x_post_reads"] == 1
+    assert sample["id"] == "real_capture_001"
+    assert sample["entities"]["urls"][0]["expanded_url"] == "https://t.livepocket.jp/e/real-capture-live"
+    assert sample["media"][0]["alt_text"] == "告知画像"
+    assert sample["classification"]["classification"] == "event"
+    assert sample["parsed_fields"]["ticket_url"] == "https://t.livepocket.jp/e/real-capture-live"
+    assert sample["raw"]["attachments"]["media_keys"] == ["3_capture"]
+
+
 def test_public_columns_match_required_public_output():
     assert PUBLIC_COLUMNS == [
         "event_name",
@@ -246,7 +335,8 @@ def test_validate_env_reports_missing_and_available(monkeypatch, capsys):
     monkeypatch.setenv("NOTION_DATABASE_ID", "db")
     monkeypatch.delenv("GOOGLE_SERVICE_ACCOUNT_JSON", raising=False)
     monkeypatch.delenv("GOOGLE_SHEET_ID", raising=False)
-    monkeypatch.delenv("X_BEARER_TOKEN", raising=False)
+    monkeypatch.setenv("X_BEARER_TOKEN", "")
+    monkeypatch.setenv("MYOJOU_MOCK_POSTS", "")
 
     result = main(["validate-env"])
     output = capsys.readouterr().out

@@ -63,6 +63,7 @@ NON_EVENT_KEYWORDS = (
 _URL_RE = re.compile(r"https?://[^\s)）]+")
 _TIME_RE = re.compile(r"\d{1,2}(?:[:：]\d{2}|時\d{0,2}分?)")
 _JST = timezone(timedelta(hours=9))
+_TICKET_URL_KEYWORDS = ("ticket", "livepocket", "tiget", "eplus", "pia", "ticketdive")
 
 
 class PostParser:
@@ -83,15 +84,15 @@ class PostParser:
         start_time = self.extract_labeled_time(text, ("start", "開演"))
         performance_time = self.extract_context_time(text, ("出演時間", "出演", "出番", "myojou", "ミョウジョウ", "ライブ"))
         benefit_time = self.extract_context_time(text, ("特典会", "物販"))
-        ticket_url = self.extract_ticket_url(text)
-        general_price = self.extract_price(text, ("一般", "前売", "通常"))
+        ticket_url = self.extract_ticket_url(text, post.raw)
+        general_price = self.extract_price(text, ("一般", "前売", "通常", "price", "料金", "入場料"))
         priority_name, priority_price = self.extract_priority_ticket(text)
         same_day_price = self.extract_price(text, ("当日", "当日券"))
         ticket_application_start = self.extract_labeled_datetime(text, ("申込開始", "受付開始", "販売開始"), post.created_at)
         ticket_application_deadline = self.extract_labeled_datetime(text, ("申込締切", "受付締切", "販売終了"), post.created_at)
         lottery_result = self.extract_labeled_datetime(text, ("当落発表",), post.created_at)
         payment_deadline = self.extract_labeled_datetime(text, ("支払期限", "支払い期限", "入金期限"), post.created_at)
-        ticket_sale_type = self.extract_ticket_sale_type(text)
+        ticket_sale_type = self.extract_ticket_sale_type(text, general_price=general_price)
         ticket_status = self.extract_ticket_status(text)
         ticket_price_tiers = self.extract_ticket_price_tiers(text)
         notes = self.extract_notes(text, source_kind)
@@ -153,6 +154,7 @@ class PostParser:
             source_post_id=post.id,
             source_posted_at=post.created_at,
             source_text=text,
+            source_raw=post.raw,
             source_kind=source_kind,
             extraction_confidence=confidence,
             classification=classification.classification,
@@ -171,7 +173,7 @@ class PostParser:
         event_date = self.extract_event_date(text, post.created_at, source_kind)
         event_name = self.extract_event_name(text)
         venue = self.extract_venue(text)
-        ticket_url = self.extract_ticket_url(text)
+        ticket_url = self.extract_ticket_url(text, post.raw)
         has_time = bool(self.extract_labeled_time(text, ("open", "開場")) or self.extract_labeled_time(text, ("start", "開演")))
         has_performance = bool(self.extract_context_time(text, ("出演時間", "出演", "出番", "myojou", "ミョウジョウ", "ライブ")))
         positive_count = sum(1 for keyword in LIVE_KEYWORDS if keyword.casefold() in compact)
@@ -257,7 +259,7 @@ class PostParser:
             return True
         if any(word in compact for word in ("ありがとうございました", "ありがとう")) and not any(
             word in compact
-            for word in ("チケット", "開場", "開演", "出演時間", "特典会", "申込", "受付", "販売開始", "販売中")
+            for word in ("チケット", "開場", "開演", "出演時間", "申込", "受付", "販売開始", "販売中")
         ):
             return True
         if "お知らせ" in compact and not any(
@@ -281,7 +283,7 @@ class PostParser:
             return SourceKind.CORRECTION
         if any(word in normalized for word in ("sold out", "soldout", "完売", "売り切れ")):
             return SourceKind.SOLD_OUT
-        if "本日" in normalized:
+        if any(word in normalized for word in ("本日", "今日")):
             return SourceKind.SAME_DAY_REMINDER
         if "明日" in normalized:
             return SourceKind.DAY_BEFORE_REMINDER
@@ -306,7 +308,7 @@ class PostParser:
         if parsed:
             return parsed
 
-        if source_kind == SourceKind.SAME_DAY_REMINDER or "本日" in normalized:
+        if source_kind == SourceKind.SAME_DAY_REMINDER or any(word in normalized for word in ("本日", "今日")):
             return posted_at.date()
         if source_kind == SourceKind.DAY_BEFORE_REMINDER or "明日" in normalized:
             return posted_at.date() + timedelta(days=1)
@@ -332,11 +334,13 @@ class PostParser:
                 continue
             if any(word in cleaned for word in ("LIVE", "Live", "ライブ", "公演", "FES", "フェス")) and len(cleaned) <= 80:
                 return cleaned
+            if "festival" in cleaned.casefold() and len(cleaned) <= 80:
+                return cleaned
         return None
 
     def extract_venue(self, text: str) -> str | None:
         for line in _lines(text):
-            label_match = re.search(r"(?:会場|場所|VENUE)\s*[:：]\s*(?P<venue>.+)", line, flags=re.I)
+            label_match = re.search(r"(?:会場|場所|VENUE|place)\s*[:：]\s*(?P<venue>.+)", line, flags=re.I)
             if label_match:
                 return _clean_value(label_match.group("venue"))
 
@@ -354,6 +358,14 @@ class PostParser:
             normalized_line = _normalize(line).casefold()
             if not any(label.casefold() in normalized_line for label in labels):
                 continue
+            if "open/start" in normalized_line or "open / start" in normalized_line:
+                time_range = normalize_time_range(line)
+                if time_range and "-" in time_range:
+                    open_time, start_time = time_range.split("-", 1)
+                    if any(label.casefold() == "open" for label in labels):
+                        return open_time
+                    if any(label.casefold() == "start" for label in labels):
+                        return start_time
             label_pattern = "|".join(re.escape(label) for label in labels)
             match = re.search(rf"(?:{label_pattern})\s*[:：]?\s*(?P<time>{_TIME_RE.pattern})", line, flags=re.I)
             if match:
@@ -372,18 +384,33 @@ class PostParser:
                 return time_range
         return None
 
-    def extract_ticket_url(self, text: str) -> str | None:
+    def extract_ticket_url(self, text: str, raw: dict | None = None) -> str | None:
+        entity_urls = _urls_from_entities(raw)
+        ticket_entity_urls = [url for url in entity_urls if _is_ticket_url(url)]
+        if ticket_entity_urls:
+            return ticket_entity_urls[0]
         urls = _URL_RE.findall(text)
-        if not urls:
-            return None
-        ticket_urls = [url for url in urls if any(word in url.casefold() for word in ("ticket", "livepocket", "tiget", "eplus", "pia"))]
-        return (ticket_urls or urls)[0].rstrip(").,、。")
+        media_urls = _media_urls_from_entities(raw)
+        cleaned_urls = [
+            url.rstrip(").,、。")
+            for url in urls
+            if url.rstrip(").,、。") not in media_urls and not _is_media_url(url.rstrip(").,、。"))
+        ]
+        ticket_urls = [url for url in cleaned_urls if _is_ticket_url(url)]
+        if ticket_urls:
+            return ticket_urls[0]
+        if entity_urls:
+            return entity_urls[0]
+        return cleaned_urls[0] if cleaned_urls else None
 
     def extract_price(self, text: str, labels: tuple[str, ...]) -> int | None:
         for line in _lines(text):
             normalized_line = _normalize(line).casefold()
             if not any(label.casefold() in normalized_line for label in labels):
                 continue
+            free_price = _free_price_from_line(line)
+            if free_price is not None:
+                return free_price
             price = normalize_price(line)
             if price is not None:
                 return price
@@ -658,7 +685,7 @@ class PostParser:
             source_post_id=source_post_id,
         )
 
-    def extract_ticket_sale_type(self, text: str) -> str | None:
+    def extract_ticket_sale_type(self, text: str, *, general_price: int | None = None) -> str | None:
         normalized = _normalize(text)
         for line in _lines(normalized):
             if "販売方式" not in line:
@@ -667,6 +694,8 @@ class PostParser:
             candidate = _sale_type_from_text(label_match.group("value") if label_match else line)
             if candidate:
                 return candidate
+        if general_price == 0 or _has_free_price_label(normalized):
+            return "無料"
         if "無料" in normalized:
             return "無料"
         if "当日券" in normalized:
@@ -729,6 +758,69 @@ class PostParser:
 
 def _normalize(value: str) -> str:
     return normalize_spaces(unicodedata.normalize("NFKC", value))
+
+
+def _urls_from_entities(raw: dict | None) -> list[str]:
+    if not raw:
+        return []
+    urls = raw.get("entities", {}).get("urls", [])
+    extracted: list[str] = []
+    for item in urls if isinstance(urls, list) else []:
+        if not isinstance(item, dict):
+            continue
+        url = item.get("expanded_url") or item.get("unwound_url") or item.get("url")
+        if url and not _is_media_url(str(url), item):
+            extracted.append(str(url).rstrip(").,、。"))
+    return extracted
+
+
+def _media_urls_from_entities(raw: dict | None) -> set[str]:
+    if not raw:
+        return set()
+    urls = raw.get("entities", {}).get("urls", [])
+    media_urls: set[str] = set()
+    for item in urls if isinstance(urls, list) else []:
+        if not isinstance(item, dict):
+            continue
+        candidates = (item.get("url"), item.get("expanded_url"), item.get("unwound_url"))
+        if any(candidate and _is_media_url(str(candidate), item) for candidate in candidates):
+            media_urls.update(str(candidate).rstrip(").,、。") for candidate in candidates if candidate)
+    return media_urls
+
+
+def _is_ticket_url(url: str) -> bool:
+    normalized = url.casefold()
+    return any(keyword in normalized for keyword in _TICKET_URL_KEYWORDS)
+
+
+def _is_media_url(url: str, entity: dict | None = None) -> bool:
+    normalized = url.casefold()
+    display_url = str((entity or {}).get("display_url", "")).casefold()
+    return bool(
+        (entity or {}).get("media_key")
+        or "pic.x.com" in normalized
+        or display_url.startswith("pic.x.com")
+        or "/photo/" in normalized
+        or "pbs.twimg.com/media/" in normalized
+    )
+
+
+def _free_price_from_line(line: str) -> int | None:
+    normalized = _normalize(line)
+    if re.search(r"(?:¥|￥)\s*0(?:\D|$)", normalized) or re.search(r"(?:^|[:：\s])0\s*円", normalized):
+        return 0
+    if any(word in normalized.casefold() for word in ("無料", "free")):
+        return 0
+    return None
+
+
+def _has_free_price_label(text: str) -> bool:
+    for line in _lines(text):
+        normalized = _normalize(line).casefold()
+        if "price" in normalized or "料金" in normalized or "入場料" in normalized:
+            if _free_price_from_line(line) is not None:
+                return True
+    return False
 
 
 _DATETIME_RE = re.compile(
