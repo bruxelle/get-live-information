@@ -29,10 +29,35 @@
         <button class="sort-button" type="button" data-sort="deadline">申込締切順</button>
       </nav>
 
+      <nav class="view-switcher" aria-label="表示切り替え">
+        <button class="view-button is-active" type="button" data-view="cards">カード</button>
+        <button class="view-button" type="button" data-view="calendar">カレンダー</button>
+      </nav>
+
+      <section id="calendarView" class="calendar-view" hidden>
+        <section class="deadline-alerts" aria-labelledby="deadlineAlertsHeading">
+          <h2 id="deadlineAlertsHeading" class="deadline-alerts-heading">締切アラート</h2>
+          <div id="deadlineAlertsList" class="deadline-alerts-list"></div>
+          <p id="deadlineAlertsEmpty" class="deadline-alerts-empty" hidden>直近の締切アラートはありません。</p>
+        </section>
+
+        <nav class="calendar-mode-controls" aria-label="カレンダー表示モード">
+          <button class="calendar-mode-button is-active" type="button" data-calendar-mode="live">ライブ日</button>
+          <button class="calendar-mode-button" type="button" data-calendar-mode="application">申込締切</button>
+          <button class="calendar-mode-button" type="button" data-calendar-mode="payment">支払期限</button>
+          <button class="calendar-mode-button" type="button" data-calendar-mode="all">すべて</button>
+        </nav>
+
+        <button class="calendar-load-button" type="button" data-month-load="previous">前の月を表示</button>
+        <div id="calendarMonths" class="calendar-months" aria-label="ライブ・締切カレンダー"></div>
+        <button class="calendar-load-button" type="button" data-month-load="next">次の月を表示</button>
+      </section>
+
       <section id="eventList" class="event-list" aria-live="polite"></section>
       <p id="emptyState" class="empty-state" hidden>表示できる予定がありません。</p>
     </main>
 
+    <script src="calendar_helpers.js"></script>
     <script src="app.js"></script>
   </body>
 </html>
