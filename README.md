@@ -50,11 +50,19 @@ The static public web view lives in:
 ```text
 public/index.html
 public/app.js
+public/calendar_helpers.js
 public/styles.css
 public/events.json
 ```
 
-It renders a Japanese mobile-first card UI with vertical event cards and these filters:
+It renders a Japanese mobile-first public UI with two views:
+
+```text
+カード
+カレンダー
+```
+
+The `カード` view uses vertical event cards and these filters:
 
 ```text
 今日以降
@@ -73,6 +81,24 @@ It also supports these sort modes:
 
 Each card shows date, event name, venue, compact live/ticket/application summaries, ticket status, and a ticket URL button.
 When multiple ticket sales periods are known, the card also shows compact sales-period rows and highlights the next relevant deadline.
+
+The `カレンダー` view is optimized for live and ticket deadline management rather than a generic calendar. It renders multiple months vertically, starting with the current month, next month, and following month. Users can expand the range with:
+
+```text
+前の月を表示
+次の月を表示
+```
+
+Calendar modes:
+
+```text
+ライブ日
+申込締切
+支払期限
+すべて
+```
+
+Calendar cells show compact chips such as `ライブ`, `申込`, `支払`, `完売`, and `販売終了`. The calendar also has a `締切アラート` section for `今日締切`, `明日締切`, and `締切未取得`. Tapping a date does not open a separate selected-date list; event cards remain available in the `カード` view.
 
 ## Current Development Mode Without X API
 
@@ -206,7 +232,8 @@ The public fan-facing view is a static mobile-first web app:
 | File | Purpose |
 | --- | --- |
 | `public/index.html` | Page shell for the public schedule |
-| `public/app.js` | Loads `events.json`, filters events, and renders cards |
+| `public/app.js` | Loads `events.json`, filters events, and renders card/calendar views |
+| `public/calendar_helpers.js` | Calendar grouping, month range, deadline mode, and alert helpers |
 | `public/styles.css` | Mobile-first card styling |
 | `public/events.json` | Exported canonical public event data |
 
@@ -218,6 +245,11 @@ The UI is designed for smartphones:
 - Application deadline urgency is shown with badges such as `今日締切`, `明日締切`, `あと3日`, and `締切未取得`.
 - Ticket URLs are large tap targets.
 - Long event names and ticket summaries wrap inside the card.
+- The calendar view renders vertical multi-month sections with no horizontal scrolling.
+- Calendar modes show `ライブ日`, `申込締切`, `支払期限`, or `すべて`.
+- Calendar cells use compact chips for `ライブ`, `申込`, `支払`, `完売`, and `販売終了`.
+- `締切アラート` summarizes `今日締切`, `明日締切`, and `締切未取得`.
+- Calendar date cells do not open a separate selected-date event list; switch to `カード` for full event details.
 
 Available filters:
 
@@ -234,6 +266,15 @@ Available sort modes:
 ```text
 ライブ日順
 申込締切順
+```
+
+Available calendar modes:
+
+```text
+ライブ日
+申込締切
+支払期限
+すべて
 ```
 
 The static web app does not call X, Notion, or Google Sheets directly. It only reads `public/events.json`.
@@ -660,7 +701,7 @@ Export the mobile public web JSON from the current SQLite state:
   --output public/events.json
 ```
 
-Serve the static mobile card view locally:
+Serve the static mobile public web view locally:
 
 ```bash
 python3 -m http.server 8765 --directory public
@@ -787,11 +828,12 @@ The deployable public site is:
 ```text
 public/index.html
 public/app.js
+public/calendar_helpers.js
 public/styles.css
 public/events.json
 ```
 
-All browser paths are relative (`styles.css`, `app.js`, `events.json`), so the demo works under a repository subpath such as `https://USER.github.io/REPO/`.
+All browser paths are relative (`styles.css`, `app.js`, `calendar_helpers.js`, `events.json`), so the demo works under a repository subpath such as `https://USER.github.io/REPO/`.
 
 ### GitHub Pages Demo
 
@@ -818,6 +860,7 @@ Recommended demo deployment with GitHub Actions:
    ```text
    public/index.html
    public/app.js
+   public/calendar_helpers.js
    public/styles.css
    public/events.json
    ```

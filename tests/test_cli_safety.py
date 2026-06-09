@@ -700,13 +700,44 @@ def test_static_public_ui_has_filters_date_groups_and_status_badges():
         assert f'data-filter="{filter_name}"' in html
     for sort_name in ("event-date", "deadline"):
         assert f'data-sort="{sort_name}"' in html
+    for view_name in ("cards", "calendar"):
+        assert f'data-view="{view_name}"' in html
+    for calendar_mode in ("live", "application", "payment", "all"):
+        assert f'data-calendar-mode="{calendar_mode}"' in html
+    for month_load in ("previous", "next"):
+        assert f'data-month-load="{month_load}"' in html
+    assert "前の月を表示" in html
+    assert "次の月を表示" in html
+    assert "calendar_helpers.js" in html
     assert "groupedEvents" in app_js
+    assert "renderCalendar" in app_js
+    assert "calendarCell" in app_js
+    assert "renderDeadlineAlerts" in app_js
+    assert "deadlineAlertItem" in app_js
+    assert "selectedDate" not in app_js
+    assert "selected-date" not in html
+    assert "この日のライブ予定はありません" not in html
     assert "statusClass" in app_js
     assert "deadlineUrgency" in app_js
     assert "deadlineSortKey" in app_js
     assert "next_ticket_deadline_at" in app_js
     assert "ticketSalesList" in app_js
     assert "ticket-sale-chip" in css
+    assert "view-switcher" in css
+    assert "calendar-mode-controls" in css
+    assert "deadline-alerts" in css
+    assert "calendar-grid" in css
+    assert "calendar-day" in css
+    assert "has-events" in css
+    assert "is-today" in css
+    assert "calendar-chip-live" in css
+    assert "calendar-chip-application" in css
+    assert "calendar-chip-payment" in css
+    assert "calendar-chip-sold-out" in css
+    assert "calendar-chip-ended" in css
+    assert "overflow-x: hidden" in css
+    assert "is-selected" not in css
+    assert "selected-date-events" not in css
     assert "締切未取得" in app_js
     assert "今日締切" in app_js
     assert "明日締切" in app_js
@@ -725,6 +756,13 @@ def test_readme_documents_empty_deadlines_stay_visible():
     readme = Path("README.md").read_text(encoding="utf-8")
 
     assert "申込締切が空欄のライブも申込・締切ビューに表示する" in readme
+    assert "前の月を表示" in readme
+    assert "次の月を表示" in readme
+    assert "ライブ日" in readme
+    assert "申込締切" in readme
+    assert "支払期限" in readme
+    assert "締切アラート" in readme
+    assert "Tapping a date does not open a separate selected-date list" in readme
 
 
 def test_japanese_sheets_headers():

@@ -2,13 +2,24 @@ const state = {
   events: [],
   filter: "upcoming",
   sortMode: "event-date",
+  viewMode: "cards",
+  calendarStartMonth: "",
+  calendarMonthCount: 3,
+  calendarMode: "live",
 };
 
 const filterButtons = Array.from(document.querySelectorAll(".filter-button"));
 const sortButtons = Array.from(document.querySelectorAll(".sort-button"));
+const viewButtons = Array.from(document.querySelectorAll(".view-button"));
+const calendarModeButtons = Array.from(document.querySelectorAll(".calendar-mode-button"));
+const monthLoadButtons = Array.from(document.querySelectorAll("[data-month-load]"));
 const eventList = document.querySelector("#eventList");
 const emptyState = document.querySelector("#emptyState");
 const eventCount = document.querySelector("#eventCount");
+const calendarView = document.querySelector("#calendarView");
+const calendarMonths = document.querySelector("#calendarMonths");
+const deadlineAlertsList = document.querySelector("#deadlineAlertsList");
+const deadlineAlertsEmpty = document.querySelector("#deadlineAlertsEmpty");
 
 init();
 
@@ -29,6 +40,32 @@ async function init() {
     });
   });
 
+  viewButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+      state.viewMode = button.dataset.view;
+      viewButtons.forEach((item) => item.classList.toggle("is-active", item === button));
+      render();
+    });
+  });
+
+  calendarModeButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+      state.calendarMode = button.dataset.calendarMode;
+      calendarModeButtons.forEach((item) => item.classList.toggle("is-active", item === button));
+      render();
+    });
+  });
+
+  monthLoadButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+      if (button.dataset.monthLoad === "previous") {
+        state.calendarStartMonth = MyojouCalendar.addMonths(state.calendarStartMonth, -1);
+      }
+      state.calendarMonthCount += 1;
+      render();
+    });
+  });
+
   try {
     const response = await fetch("events.json", { cache: "no-store" });
     if (!response.ok) {
@@ -40,14 +77,41 @@ async function init() {
     state.events = [];
   }
 
+  const today = startOfToday();
+  state.calendarStartMonth = MyojouCalendar.monthKey(today);
   render();
 }
 
 function render() {
+  if (state.viewMode === "calendar") {
+    renderCalendar();
+    return;
+  }
+  renderCards();
+}
+
+function renderCards() {
   const events = filteredEvents(state.events);
+  calendarView.hidden = true;
+  eventList.hidden = false;
   eventList.replaceChildren(...groupedEvents(events));
+  emptyState.textContent = "表示できる予定がありません。";
   emptyState.hidden = events.length !== 0;
   eventCount.textContent = `${events.length}件`;
+}
+
+function renderCalendar() {
+  const todayKey = MyojouCalendar.dateKey(startOfToday());
+  const months = MyojouCalendar.visibleMonthKeys(state.calendarStartMonth, state.calendarMonthCount);
+  const monthSections = months.map((month) => calendarMonthSection(month, todayKey));
+  const visibleEntryCount = monthSections.reduce((total, section) => total + section.entryCount, 0);
+
+  eventList.hidden = true;
+  emptyState.hidden = true;
+  calendarView.hidden = false;
+  eventCount.textContent = `${visibleEntryCount}件`;
+  renderDeadlineAlerts(todayKey);
+  calendarMonths.replaceChildren(...monthSections.map((section) => section.node));
 }
 
 function filteredEvents(events) {
@@ -118,6 +182,99 @@ function eventCard(event) {
   );
 
   return card;
+}
+
+function calendarMonthSection(month, todayKey) {
+  const cells = MyojouCalendar.buildMonthCalendar(month, state.events, todayKey, state.calendarMode);
+  const entryCount = cells
+    .filter((cell) => cell.month === month)
+    .reduce((total, cell) => total + cell.event_count, 0);
+  const node = el("section", { className: "calendar-month" }, [
+    el("h2", { className: "calendar-month-label" }, [
+      MyojouCalendar.monthLabel(month),
+      el("span", { className: "calendar-month-count" }, `${entryCount}件`),
+    ]),
+    el("div", { className: "calendar-weekdays", ariaHidden: "true" }, [
+      "日", "月", "火", "水", "木", "金", "土",
+    ].map((weekday) => el("span", {}, weekday))),
+    el("div", { className: "calendar-grid" }, cells.map(calendarCell)),
+  ]);
+  return { node, entryCount };
+}
+
+function calendarCell(cell) {
+  const classes = [
+    "calendar-day",
+    cell.is_current_month ? "" : "is-outside-month",
+    cell.is_today ? "is-today" : "",
+    cell.event_count ? "has-events" : "",
+  ].filter(Boolean).join(" ");
+  const chips = calendarCellChips(cell);
+  const labels = calendarCellLabels(cell);
+  return el("div", { className: classes }, [
+    el("span", { className: "calendar-day-number" }, cell.day),
+    chips.length ? el("span", { className: "calendar-chips" }, chips) : null,
+    labels.length ? el("span", { className: "calendar-event-labels" }, labels) : null,
+  ]);
+}
+
+function calendarCellChips(cell) {
+  const chips = [];
+  if (cell.live_count) chips.push(calendarChip("ライブ", cell.live_count, "calendar-chip-live"));
+  if (cell.application_count) {
+    const urgencyClass = cell.is_today ? "calendar-chip-today" : cell.is_tomorrow ? "calendar-chip-tomorrow" : "";
+    chips.push(calendarChip("申込", cell.application_count, ["calendar-chip-application", urgencyClass].filter(Boolean).join(" ")));
+  }
+  if (cell.payment_count) chips.push(calendarChip("支払", cell.payment_count, "calendar-chip-payment"));
+  if (cell.sold_out_count) chips.push(calendarChip("完売", cell.sold_out_count, "calendar-chip-sold-out"));
+  if (cell.ended_count) chips.push(calendarChip("販売終了", cell.ended_count, "calendar-chip-ended"));
+  return chips;
+}
+
+function calendarChip(label, count, className) {
+  return el("span", { className: `calendar-chip ${className}` }, `${label}${count > 1 ? count : ""}`);
+}
+
+function calendarCellLabels(cell) {
+  const labels = [];
+  const seen = new Set();
+  for (const entry of cell.entries) {
+    const label = shortEventLabel(entry.event.event_name || "ライブ");
+    if (seen.has(label)) continue;
+    seen.add(label);
+    labels.push(el("span", { className: `calendar-event-label calendar-event-${entry.kind}` }, label));
+    if (labels.length === 2) break;
+  }
+  if (seen.size < cell.entries.length) {
+    labels.push(el("span", { className: "calendar-event-more" }, `+${cell.entries.length - seen.size}`));
+  }
+  return labels;
+}
+
+function renderDeadlineAlerts(todayKey) {
+  const alerts = MyojouCalendar.buildDeadlineAlerts(state.events, todayKey);
+  const items = [
+    deadlineAlertItem("今日締切", alerts.today, "deadline-alert-today"),
+    deadlineAlertItem("明日締切", alerts.tomorrow, "deadline-alert-tomorrow"),
+    deadlineAlertItem("締切未取得", alerts.missing, "deadline-alert-missing"),
+  ].filter(Boolean);
+
+  deadlineAlertsList.replaceChildren(...items);
+  deadlineAlertsEmpty.hidden = items.length !== 0;
+}
+
+function deadlineAlertItem(label, events, className) {
+  if (!events.length) return null;
+  const names = events.slice(0, 2).map((event) => event.event_name || "ライブ");
+  const extra = events.length > names.length ? ` +${events.length - names.length}` : "";
+  return el("article", { className: `deadline-alert-item ${className}` }, [
+    el("strong", {}, `${label} ${events.length}件`),
+    el("span", {}, `${names.join(" / ")}${extra}`),
+  ]);
+}
+
+function shortEventLabel(value) {
+  return value.length > 12 ? `${value.slice(0, 11)}…` : value;
 }
 
 function summaryList(event) {
