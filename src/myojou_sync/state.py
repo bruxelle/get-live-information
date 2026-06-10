@@ -89,6 +89,39 @@ class SQLiteStateStore:
     def set_cached_x_user_id(self, username: str, user_id: str) -> None:
         self.set_state(f"x_user_id:{username.casefold()}", user_id)
 
+    def processed_post_count(self) -> int:
+        with self.connect() as conn:
+            row = conn.execute("SELECT COUNT(*) AS count FROM source_posts").fetchone()
+        return int(row["count"])
+
+    def canonical_event_count(self) -> int:
+        with self.connect() as conn:
+            row = conn.execute("SELECT COUNT(*) AS count FROM canonical_events").fetchone()
+        return int(row["count"])
+
+    def latest_processed_source_post(self) -> dict[str, Any] | None:
+        with self.connect() as conn:
+            row = conn.execute(
+                """
+                SELECT
+                    COALESCE(source_post_id, post_id) AS source_post_id,
+                    COALESCE(source_posted_at, posted_at) AS source_posted_at,
+                    classification,
+                    source_kind
+                FROM source_posts
+                ORDER BY
+                    CASE
+                        WHEN COALESCE(source_post_id, post_id) GLOB '[0-9]*'
+                        THEN CAST(COALESCE(source_post_id, post_id) AS INTEGER)
+                        ELSE NULL
+                    END DESC,
+                    COALESCE(source_posted_at, posted_at) DESC,
+                    post_id DESC
+                LIMIT 1
+                """
+            ).fetchone()
+        return dict(row) if row else None
+
     def processed_post_ids(self) -> set[str]:
         with self.connect() as conn:
             rows = conn.execute("SELECT post_id FROM source_posts").fetchall()

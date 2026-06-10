@@ -120,6 +120,7 @@ class SyncPipeline:
         *,
         advance_last_seen: bool,
     ) -> None:
+        post_ids_to_advance: list[str] = []
         for post in sorted(posts, key=lambda item: item.created_at):
             source_url = self.parser.source_url_for_post(post)
             if post.id in processed_ids:
@@ -142,8 +143,9 @@ class SyncPipeline:
                 result.x_sample_records.append(
                     sample_record_for_post(post, source_url=source_url, classification=classification)
                 )
-                if advance_last_seen:
-                    self._advance_last_seen(post.id)
+                result.new_posts_processed += 1
+                processed_ids.add(post.id)
+                post_ids_to_advance.append(post.id)
                 continue
 
             extracted = self.parser.parse_post(post, classification=classification)
@@ -158,8 +160,9 @@ class SyncPipeline:
                 result.x_sample_records.append(
                     sample_record_for_post(post, source_url=source_url, classification=classification)
                 )
-                if advance_last_seen:
-                    self._advance_last_seen(post.id)
+                result.new_posts_processed += 1
+                processed_ids.add(post.id)
+                post_ids_to_advance.append(post.id)
                 continue
 
             event, created, merge_confidence = self.merger.merge_into_collection(extracted, events)
@@ -188,8 +191,12 @@ class SyncPipeline:
                 result.created_events += 1
             else:
                 result.updated_events += 1
-            if advance_last_seen:
-                self._advance_last_seen(post.id)
+            processed_ids.add(post.id)
+            post_ids_to_advance.append(post.id)
+
+        if advance_last_seen:
+            for post_id in post_ids_to_advance:
+                self._advance_last_seen(post_id)
 
     def _advance_last_seen(self, post_id: str) -> None:
         current = self.state.get_last_seen_post_id()
