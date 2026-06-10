@@ -10,6 +10,7 @@ from .normalization import normalize_event_name, normalize_url, normalize_venue
 
 MANUAL_PROTECTED_FIELDS = {
     "event_date",
+    "event_dates",
     "event_name",
     "venue",
     "open_time",
@@ -106,7 +107,7 @@ class EventMerger:
                 both_have_different_ticket_urls = True
 
         if extracted.event_date and event.event_date:
-            if extracted.event_date == event.event_date:
+            if _event_date_matches(extracted, event):
                 score += 0.3
                 reasons.append("same event_date")
             else:
@@ -151,7 +152,7 @@ class EventMerger:
             SourceKind.SOLD_OUT,
             SourceKind.CORRECTION,
         }:
-            if extracted.event_date and event.event_date and extracted.event_date == event.event_date:
+            if extracted.event_date and event.event_date and _event_date_matches(extracted, event):
                 score += 0.15
                 reasons.append("update/reminder for same date")
             if extracted.ticket_url and event.ticket_url and normalize_url(extracted.ticket_url) == normalize_url(event.ticket_url):
@@ -165,6 +166,9 @@ class EventMerger:
         for field_name in EventFields.model_fields:
             if field_name == "ticket_sales":
                 continue
+            if field_name == "event_dates":
+                self.merge_event_dates(event, extracted)
+                continue
             if field_name == "ticket_status" and targeted_ticket_status:
                 continue
             if extracted.ticket_status in {"sold_out", "ended"} and field_name in _STATUS_ONLY_PROTECTED_FIELDS:
@@ -173,6 +177,8 @@ class EventMerger:
             if new_value is None:
                 continue
             old_value = getattr(event, field_name)
+            if field_name == "event_date" and old_value is not None and new_value in event.event_dates:
+                continue
             if event.manual_override and field_name in MANUAL_PROTECTED_FIELDS:
                 continue
             if self._is_reminder_source(extracted) and old_value is not None and field_name in MANUAL_PROTECTED_FIELDS:
@@ -203,6 +209,19 @@ class EventMerger:
                 event.ticket_sales.append(period)
             else:
                 _update_period(existing, period)
+
+    def merge_event_dates(self, event: CanonicalEvent, extracted: ExtractedEvent) -> None:
+        if event.manual_override and "event_dates" in MANUAL_PROTECTED_FIELDS:
+            return
+        dates = [*(event.event_dates or [])]
+        if event.event_date:
+            dates.insert(0, event.event_date)
+        dates.extend(extracted.event_dates or [])
+        if extracted.event_date:
+            dates.append(extracted.event_date)
+        event.event_dates = _dedupe_dates(dates)
+        if event.event_date is None and event.event_dates:
+            event.event_date = event.event_dates[0]
 
     def _find_existing_period(
         self,
@@ -305,7 +324,7 @@ def _safe_event_name_alias_match(
     *,
     venue_similarity: float,
 ) -> bool:
-    if not extracted.event_date or not event.event_date or extracted.event_date != event.event_date:
+    if not extracted.event_date or not event.event_date or not _event_date_matches(extracted, event):
         return False
     if venue_similarity < 0.92:
         return False
@@ -389,9 +408,33 @@ def _unsafe_short_title_match(
 ) -> bool:
     if not (_is_short_event_title(extracted.event_name) and _is_short_event_title(event.event_name)):
         return False
-    if extracted.event_date and event.event_date and extracted.event_date != event.event_date:
+    if extracted.event_date and event.event_date and not _event_date_matches(extracted, event):
         return True
     return bool(extracted.venue and event.venue and venue_similarity < 0.72)
+
+
+def _event_date_matches(extracted: ExtractedEvent, event: CanonicalEvent) -> bool:
+    extracted_dates = _event_date_set(extracted.event_date, extracted.event_dates)
+    event_dates = _event_date_set(event.event_date, event.event_dates)
+    return bool(extracted_dates and event_dates and extracted_dates & event_dates)
+
+
+def _event_date_set(primary, dates) -> set:
+    values = set(dates or [])
+    if primary:
+        values.add(primary)
+    return values
+
+
+def _dedupe_dates(values) -> list:
+    unique = []
+    seen = set()
+    for value in values:
+        if value is None or value in seen:
+            continue
+        seen.add(value)
+        unique.append(value)
+    return unique
 
 
 def _is_short_event_title(value: str | None) -> bool:

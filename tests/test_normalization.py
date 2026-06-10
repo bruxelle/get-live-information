@@ -10,6 +10,7 @@ from myojou_sync.normalization import (
     normalize_time_range,
     normalize_venue,
     parse_event_date,
+    parse_event_dates,
 )
 
 
@@ -40,3 +41,33 @@ def test_parse_supported_date_formats():
     assert parse_event_date("2026/5/25", posted) == date(2026, 5, 25)
     assert parse_event_date("05.25", posted) == date(2026, 5, 25)
     assert parse_event_date("5月25日", posted) == date(2026, 5, 25)
+
+
+def test_parse_multi_day_event_date_lists_and_ranges():
+    posted = date(2026, 5, 1)
+
+    assert parse_event_dates("9/21, 9/22, 9/23", posted) == [
+        date(2026, 9, 21),
+        date(2026, 9, 22),
+        date(2026, 9, 23),
+    ]
+    assert parse_event_dates("9/21・22・23", posted) == [
+        date(2026, 9, 21),
+        date(2026, 9, 22),
+        date(2026, 9, 23),
+    ]
+    assert parse_event_dates("9/21-9/23", posted) == [
+        date(2026, 9, 21),
+        date(2026, 9, 22),
+        date(2026, 9, 23),
+    ]
+    assert parse_event_dates("5/2, 5/3", posted) == [date(2026, 5, 2), date(2026, 5, 3)]
+    assert parse_event_dates("5/2-5/3", posted) == [date(2026, 5, 2), date(2026, 5, 3)]
+    assert parse_event_dates("5月2日〜5月3日", posted) == [date(2026, 5, 2), date(2026, 5, 3)]
+
+
+def test_parse_multi_day_dates_ignores_times_and_prices():
+    posted = date(2026, 5, 1)
+
+    assert parse_event_dates("出演 19:00-20:00", posted) == []
+    assert parse_event_dates("price：VIP¥15,000/一般¥1,000", posted) == []

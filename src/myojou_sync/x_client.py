@@ -22,6 +22,8 @@ class FetchMetadata:
     estimated_post_read_count: int = 0
     rate_limit_headers: dict[str, str] = field(default_factory=dict)
     used_mock: bool = False
+    pages_fetched: int = 0
+    page_summaries: list[dict[str, Any]] = field(default_factory=list)
 
 
 class PostFetcher(Protocol):
@@ -50,21 +52,10 @@ class XApiClient:
 
     def fetch_recent_posts(self, *, since_id: str | None = None, max_results: int = 10) -> list[XPost]:
         user_id = self._get_user_id()
-        params: dict[str, str | int] = {
-            "max_results": max(5, min(max_results, 100)),
-            "tweet.fields": "id,text,created_at,entities,attachments,referenced_tweets,note_tweet",
-            "expansions": "attachments.media_keys",
-            "media.fields": "media_key,type,url,preview_image_url,width,height,alt_text",
-            "exclude": "retweets,replies",
-        }
+        params = self._timeline_params(max_results=max_results)
         if since_id:
             params["since_id"] = since_id
-        response = self.session.get(
-            f"{self.base_url}/users/{user_id}/tweets",
-            headers=self._headers(),
-            params=params,
-            timeout=30,
-        )
+        response = self._timeline_get(user_id, params)
         response.raise_for_status()
         payload = response.json()
         posts = _posts_from_response_payload(payload)
@@ -73,12 +64,93 @@ class XApiClient:
             estimated_post_read_count=len(posts),
             rate_limit_headers=_rate_limit_headers(response.headers),
             used_mock=False,
+            pages_fetched=1,
         )
         logger.info(
             "X fetch complete: posts_fetched=%s estimated_post_reads=%s rate_limit=%s",
             len(posts),
             len(posts),
             self.last_fetch_metadata.rate_limit_headers or "{}",
+        )
+        return posts
+
+    def fetch_historical_posts(
+        self,
+        *,
+        max_posts: int,
+        max_pages: int = 5,
+        page_size: int = 10,
+    ) -> list[XPost]:
+        if max_posts <= 0:
+            raise ValueError("max_posts must be greater than 0")
+        if max_pages <= 0:
+            raise ValueError("max_pages must be greater than 0")
+        if page_size <= 0:
+            raise ValueError("page_size must be greater than 0")
+
+        user_id = self._get_user_id()
+        posts: list[XPost] = []
+        next_token: str | None = None
+        estimated_reads = 0
+        page_summaries: list[dict[str, Any]] = []
+        last_headers: dict[str, str] = {}
+
+        for page_number in range(1, max_pages + 1):
+            remaining = max_posts - len(posts)
+            if remaining <= 0:
+                break
+            requested_results = min(page_size, remaining)
+            params = self._timeline_params(max_results=requested_results)
+            if next_token:
+                params["pagination_token"] = next_token
+            response = self._timeline_get(user_id, params)
+            response.raise_for_status()
+            payload = response.json()
+            page_posts = _posts_from_response_payload(payload)
+            estimated_reads += len(page_posts)
+            remaining = max_posts - len(posts)
+            accepted_posts = page_posts[:remaining]
+            posts.extend(accepted_posts)
+            next_token = _next_token(payload)
+            last_headers = _rate_limit_headers(response.headers)
+            page_summary = {
+                "page": page_number,
+                "posts_fetched": len(page_posts),
+                "posts_accepted": len(accepted_posts),
+                "cumulative_posts": len(posts),
+                "estimated_x_post_reads": estimated_reads,
+                "has_next_token": bool(next_token),
+            }
+            page_summaries.append(page_summary)
+            logger.info(
+                "X backfill page=%s posts_fetched=%s cumulative_posts=%s "
+                "estimated_x_post_reads=%s has_next_token=%s rate_limit=%s",
+                page_number,
+                len(page_posts),
+                len(posts),
+                estimated_reads,
+                bool(next_token),
+                last_headers or "{}",
+            )
+            if len(posts) >= max_posts:
+                break
+            if not page_posts or not next_token:
+                break
+
+        self.last_fetch_metadata = FetchMetadata(
+            posts_fetched=len(posts),
+            estimated_post_read_count=estimated_reads,
+            rate_limit_headers=last_headers,
+            used_mock=False,
+            pages_fetched=len(page_summaries),
+            page_summaries=page_summaries,
+        )
+        logger.info(
+            "X backfill complete: posts_fetched=%s pages_fetched=%s estimated_post_reads=%s rate_limit=%s",
+            len(posts),
+            len(page_summaries),
+            estimated_reads,
+            last_headers or "{}",
         )
         return posts
 
@@ -107,6 +179,23 @@ class XApiClient:
     def _headers(self) -> dict[str, str]:
         return {"Authorization": f"Bearer {self.bearer_token}"}
 
+    def _timeline_params(self, *, max_results: int) -> dict[str, str | int]:
+        return {
+            "max_results": max(5, min(max_results, 100)),
+            "tweet.fields": "id,text,created_at,entities,attachments,referenced_tweets,note_tweet",
+            "expansions": "attachments.media_keys",
+            "media.fields": "media_key,type,url,preview_image_url,width,height,alt_text",
+            "exclude": "retweets,replies",
+        }
+
+    def _timeline_get(self, user_id: str, params: dict[str, str | int]) -> Any:
+        return self.session.get(
+            f"{self.base_url}/users/{user_id}/tweets",
+            headers=self._headers(),
+            params=params,
+            timeout=30,
+        )
+
 
 class MockXClient:
     def __init__(self, path: str | Path) -> None:
@@ -123,6 +212,36 @@ class MockXClient:
             posts_fetched=len(posts),
             estimated_post_read_count=0,
             used_mock=True,
+        )
+        return posts
+
+    def fetch_historical_posts(
+        self,
+        *,
+        max_posts: int,
+        max_pages: int = 5,
+        page_size: int = 10,
+    ) -> list[XPost]:
+        posts = self._load_posts()
+        posts.sort(key=lambda post: post.created_at, reverse=True)
+        posts = posts[:max_posts]
+        self.last_fetch_metadata = FetchMetadata(
+            posts_fetched=len(posts),
+            estimated_post_read_count=0,
+            used_mock=True,
+            pages_fetched=1 if posts else 0,
+            page_summaries=[
+                {
+                    "page": 1,
+                    "posts_fetched": len(posts),
+                    "posts_accepted": len(posts),
+                    "cumulative_posts": len(posts),
+                    "estimated_x_post_reads": 0,
+                    "has_next_token": False,
+                }
+            ]
+            if posts
+            else [],
         )
         return posts
 
@@ -226,3 +345,9 @@ def _media_metadata(media: dict[str, Any]) -> dict[str, Any]:
 def _rate_limit_headers(headers: Any) -> dict[str, str]:
     interesting = ("x-rate-limit-limit", "x-rate-limit-remaining", "x-rate-limit-reset")
     return {key: str(headers[key]) for key in interesting if key in headers}
+
+
+def _next_token(payload: dict[str, Any]) -> str | None:
+    meta = payload.get("meta", {})
+    token = meta.get("next_token") if isinstance(meta, dict) else None
+    return str(token) if token else None

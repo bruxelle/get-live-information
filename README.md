@@ -149,6 +149,17 @@ Export the public web JSON:
   --output public/events.json
 ```
 
+By default, `export-public` writes only public-ready live schedule events. Suspicious parser rows, profile/member-introduction posts, blank event names, and records missing enough live structure stay in SQLite for debugging but are not published to the mobile web UI.
+
+For parser audits only, export every canonical row including suspicious/not-public-ready records:
+
+```bash
+.venv/bin/myojou-sync export-public \
+  --db .state/public-web-demo.sqlite \
+  --output .state/events-debug.json \
+  --include-not-public-ready
+```
+
 Run the local public web server:
 
 ```bash
@@ -700,6 +711,8 @@ Export the mobile public web JSON from the current SQLite state:
   --db .state/mock-preview.sqlite \
   --output public/events.json
 ```
+
+Normal public export filters to `public_ready=true`. Use `--include-not-public-ready` only when investigating parser/backfill quality; do not publish that debug JSON for fans.
 
 Serve the static mobile public web view locally:
 

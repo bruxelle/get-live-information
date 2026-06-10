@@ -14,7 +14,7 @@ from .models import (
     TicketSalePeriod,
     XPost,
 )
-from .normalization import normalize_price, normalize_spaces, normalize_time, normalize_time_range, parse_event_date
+from .normalization import normalize_price, normalize_spaces, normalize_time, normalize_time_range, parse_event_date, parse_event_dates
 
 
 LIVE_KEYWORDS = (
@@ -59,6 +59,13 @@ NON_EVENT_KEYWORDS = (
     "写真",
     "オフショット",
     "メンバー投稿",
+    "ラジオ配信",
+    "coming soon",
+    "キャンペーン",
+    "ミョージョーサマーキャンペーン",
+    "アンチコンプリート",
+    "学力テスト",
+    "LIVE DIGEST",
 )
 
 _URL_RE = re.compile(r"https?://[^\s)）]+")
@@ -92,6 +99,7 @@ _TICKET_TIER_KEYWORDS = (
     "Tシャツ",
     "無料チケット",
 )
+_PROFILE_MEMBER_NAMES = ("薄倉りな", "栗原ここね", "真希しの", "姫乃るか", "澪奈ゆん", "日陽みう")
 
 
 class PostParser:
@@ -105,7 +113,8 @@ class PostParser:
             return None
 
         source_kind = classification.source_kind
-        event_date = self.extract_event_date(text, post.created_at, source_kind)
+        event_dates = self.extract_event_dates(text, post.created_at, source_kind)
+        event_date = event_dates[0] if event_dates else None
         event_name = self.extract_event_name(text)
         venue = self.extract_venue(text)
         open_time = self.extract_labeled_time(text, ("open", "開場"))
@@ -154,6 +163,7 @@ class PostParser:
 
         confidence = self.calculate_confidence(
             event_date=event_date,
+            event_dates=event_dates,
             event_name=event_name,
             venue=venue,
             open_time=open_time,
@@ -168,6 +178,7 @@ class PostParser:
 
         return ExtractedEvent(
             event_date=event_date,
+            event_dates=event_dates,
             event_name=event_name,
             venue=venue,
             open_time=open_time,
@@ -217,6 +228,31 @@ class PostParser:
         ticket_domain = any(domain in compact for domain in ("ticketdive.com", "t.livepocket.jp", "livepocket", "tiget.net"))
         non_event_signal = self.is_obvious_non_event_post(normalized)
         structured_count = sum(bool(value) for value in (event_date, event_name, venue, ticket_url, has_time, has_performance))
+
+        profile_reason = self.profile_member_non_event_reason(
+            normalized,
+            event_date=event_date,
+            venue=venue,
+            ticket_url=ticket_url,
+            has_time=has_time,
+            has_performance=has_performance,
+        )
+        if profile_reason:
+            return PostClassificationResult(
+                classification=PostClassification.NON_EVENT,
+                confidence=ClassificationConfidence.HIGH,
+                reason=profile_reason,
+                source_kind=SourceKind.OTHER,
+            )
+
+        hard_non_event_reason = self.hard_non_event_reason(normalized)
+        if hard_non_event_reason:
+            return PostClassificationResult(
+                classification=PostClassification.NON_EVENT,
+                confidence=ClassificationConfidence.HIGH,
+                reason=hard_non_event_reason,
+                source_kind=SourceKind.OTHER,
+            )
 
         if _is_live_digest_post(normalized) and not any((event_date, venue, has_time, ticket_url)):
             return PostClassificationResult(
@@ -314,6 +350,60 @@ class PostParser:
             return True
         return False
 
+    def profile_member_non_event_reason(
+        self,
+        normalized_text: str,
+        *,
+        event_date,
+        venue,
+        ticket_url,
+        has_time: bool,
+        has_performance: bool,
+    ) -> str | None:
+        compact = normalize_spaces(normalized_text).casefold()
+        compact_no_space = re.sub(r"\s+", "", compact)
+        if re.search(r"\bprofile\s*0?[1-9]\b", compact, flags=re.I) or re.search(r"profile[0-9０-９]+", compact_no_space, flags=re.I):
+            return "profile/member introduction"
+
+        has_live_structure = bool(venue or ticket_url or has_time or has_performance)
+        if has_live_structure:
+            return None
+
+        if any(token in compact for token in ("プロフィール", "自己紹介", "メンバー紹介", "name┊", "name｜")):
+            return "profile/member introduction"
+
+        meaningful_lines = [_clean_value(line) for line in _lines(normalized_text) if _clean_value(line)]
+        if any(line in _PROFILE_MEMBER_NAMES for line in meaningful_lines):
+            return "profile/member introduction"
+        if any(name in compact for name in _PROFILE_MEMBER_NAMES) and not any(
+            token in compact
+            for token in ("ライブ", "live", "公演", "出演", "会場", "場所", "開場", "開演", "チケット", "ticket")
+        ):
+            return "profile/member introduction"
+        return None
+
+    def hard_non_event_reason(self, normalized_text: str) -> str | None:
+        compact = normalize_spaces(normalized_text).casefold()
+        compact_no_space = re.sub(r"\s+", "", compact)
+        if re.search(r"\bprofile\s*0?[1-9]\b", compact, flags=re.I) or re.search(r"profile[0-9０-９]+", compact_no_space, flags=re.I):
+            return "profile/member introduction"
+        checks = (
+            ("radio/non-live", ("ラジオ配信",)),
+            ("teaser/coming soon", ("coming soon", "comingsoon", "近日公開", "近日解禁")),
+            ("campaign-like post", ("キャンペーン", "ミョージョーサマーキャンペーン")),
+            ("content/MV-like post", ("アンチコンプリート", "music video", "musicvideo", "mv公開")),
+            ("content program, not live schedule", ("学力テスト", "直前sp")),
+            ("live digest recap", ("live digest", "livedigest")),
+        )
+        for reason, tokens in checks:
+            if any(token.casefold() in compact or token.casefold() in compact_no_space for token in tokens):
+                return reason
+        if all(token in compact for token in ("ニックネーム", "サイン", "日付", "コメント")):
+            return "online signing/benefit-detail content"
+        if any(word in compact for word in ("御礼", "ありがとうございました")):
+            return "thank-you/recap post"
+        return None
+
     def _looks_image_dependent_reminder(self, compact_text: str) -> bool:
         if not any(word in compact_text for word in ("本日はこちら", "明日はこちら", "本日のライブはこちら", "明日のライブはこちら")):
             return False
@@ -348,16 +438,50 @@ class PostParser:
         posted_at: datetime,
         source_kind: SourceKind | None = None,
     ) -> date | None:
+        dates = self.extract_event_dates(text, posted_at, source_kind)
+        return dates[0] if dates else None
+
+    def extract_event_dates(
+        self,
+        text: str,
+        posted_at: datetime,
+        source_kind: SourceKind | None = None,
+    ) -> list[date]:
         normalized = _normalize(text)
-        parsed = parse_event_date(normalized, posted_at.date())
-        if parsed:
-            return parsed
+        posted_date = _local_posted_date(posted_at)
+        appearance_dates: list[date] = []
+        general_dates: list[date] = []
+        pending_ticket_date_line = False
+        for line in _lines(normalized):
+            if not line:
+                continue
+            line_dates = parse_event_dates(line, posted_date)
+            if _is_ticket_date_header(line):
+                pending_ticket_date_line = True
+                if line_dates:
+                    continue
+            elif pending_ticket_date_line and line_dates:
+                pending_ticket_date_line = False
+                continue
+            else:
+                pending_ticket_date_line = False
+
+            if not line_dates or _should_skip_event_date_line(line):
+                continue
+            if _is_myojou_appearance_date_line(line):
+                appearance_dates.extend(line_dates)
+            else:
+                general_dates.extend(line_dates)
+
+        parsed_dates = _dedupe_dates(appearance_dates or general_dates)
+        if parsed_dates:
+            return parsed_dates
 
         if source_kind == SourceKind.SAME_DAY_REMINDER or any(word in normalized for word in ("本日", "今日")):
-            return posted_at.date()
+            return [posted_date]
         if source_kind == SourceKind.DAY_BEFORE_REMINDER or "明日" in normalized:
-            return posted_at.date() + timedelta(days=1)
-        return None
+            return [posted_date + timedelta(days=1)]
+        return []
 
     def extract_event_name(self, text: str) -> str | None:
         for line in _lines(text):
@@ -921,6 +1045,94 @@ def _is_media_url(url: str, entity: dict | None = None) -> bool:
 
 def _is_live_digest_post(text: str) -> bool:
     return "live digest" in _normalize(text).casefold()
+
+
+def _is_ticket_date_header(line: str) -> bool:
+    normalized = _normalize(line).casefold()
+    return any(
+        token in normalized
+        for token in (
+            "抽選販売",
+            "抽選受付",
+            "抽選申込",
+            "先行抽選",
+            "一般販売",
+            "一般発売",
+            "一般受付",
+            "先着販売",
+            "先着受付",
+            "申込開始",
+            "申込締切",
+            "受付開始",
+            "受付締切",
+            "販売開始",
+            "販売終了",
+            "当落発表",
+            "支払期限",
+            "支払い期限",
+            "入金期限",
+        )
+    )
+
+
+def _should_skip_event_date_line(line: str) -> bool:
+    normalized = _normalize(line).casefold()
+    if _is_ticket_date_header(normalized):
+        return True
+    if any(token in normalized for token in ("price", "料金", "入場料", "¥", "￥", "円")):
+        return True
+    if any(token in normalized for token in ("チケット", "ticket")) and not _is_event_date_context_line(normalized):
+        return True
+    if _contains_date_time_range(normalized) and not _is_event_date_context_line(normalized):
+        return True
+    return False
+
+
+def _is_myojou_appearance_date_line(line: str) -> bool:
+    normalized = _normalize(line).casefold()
+    return any(token in normalized for token in ("出演日", "出演", "出番", "myojou", "明星", "🎙"))
+
+
+def _is_event_date_context_line(line: str) -> bool:
+    normalized = _normalize(line).casefold()
+    return any(
+        token in normalized
+        for token in (
+            "date",
+            "日付",
+            "日程",
+            "開催日",
+            "公演日",
+            "出演日",
+            "ライブ",
+            "live",
+            "festival",
+            "fes",
+            "フェス",
+            "イベント",
+        )
+    )
+
+
+def _contains_date_time_range(line: str) -> bool:
+    return bool(
+        re.search(
+            r"\d{1,2}(?:月|[/\.])\d{1,2}(?:日)?[（(]?[月火水木金土日]?[）)]?\s*\d{1,2}[:：]\d{2}"
+            r"\s*(?:-|ー|–|〜|～|~)",
+            line,
+        )
+    )
+
+
+def _dedupe_dates(values: list[date]) -> list[date]:
+    unique: list[date] = []
+    seen: set[date] = set()
+    for value in values:
+        if value in seen:
+            continue
+        seen.add(value)
+        unique.append(value)
+    return unique
 
 
 def _free_price_from_line(line: str) -> int | None:
