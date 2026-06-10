@@ -214,6 +214,109 @@ def test_source_url_preservation(mock_posts):
     assert event.source_post_ids == ["180001", "180002", "180003"]
 
 
+def test_short_title_alias_merges_on_same_date_venue_and_keeps_richer_name():
+    merger = EventMerger()
+    events: list[CanonicalEvent] = []
+    short = ExtractedEvent(
+        event_date=date(2026, 6, 8),
+        event_name="明夏",
+        venue="Veats Shibuya",
+        open_time="18:00",
+        start_time="19:00",
+        ticket_status="sold_out",
+        myojou_performance_time="19:00",
+        source_url="https://x.com/info_myojou/status/meika-short",
+        source_post_id="meika-short",
+        source_posted_at=datetime(2026, 6, 7, 13, 0, tzinfo=JST),
+        source_text="⟣price：SOLD OUT",
+        source_kind=SourceKind.SOLD_OUT,
+        extraction_confidence=0.85,
+    )
+    rich = ExtractedEvent(
+        event_date=date(2026, 6, 8),
+        event_name="myojou oneman live 明夏",
+        venue="Veats Shibuya",
+        open_time="18:00",
+        start_time="19:00",
+        ticket_url="https://ticketdive.com/event/meika",
+        ticket_sales=[
+            _period(
+                "一般",
+                datetime(2026, 5, 1, 20, 0, tzinfo=JST),
+                datetime(2026, 6, 8, 12, 0, tzinfo=JST),
+                ticket_tier="一般",
+                price=3000,
+            )
+        ],
+        source_url="https://x.com/info_myojou/status/meika-rich",
+        source_post_id="meika-rich",
+        source_posted_at=datetime(2026, 6, 8, 1, 0, tzinfo=JST),
+        source_text="myojou oneman live 明夏",
+        source_kind=SourceKind.SAME_DAY_REMINDER,
+        extraction_confidence=0.95,
+    )
+
+    merger.merge_into_collection(short, events)
+    event, created, confidence = merger.merge_into_collection(rich, events)
+
+    assert created is False
+    assert confidence >= 0.72
+    assert len(events) == 1
+    assert event.event_name == "myojou oneman live 明夏"
+    assert event.ticket_status == "sold_out"
+    assert event.myojou_performance_time == "19:00"
+    assert event.ticket_url == "https://ticketdive.com/event/meika"
+    assert len(event.ticket_sales) == 1
+    assert event.source_post_ids == ["meika-short", "meika-rich"]
+    assert event.all_source_urls == [
+        "https://x.com/info_myojou/status/meika-short",
+        "https://x.com/info_myojou/status/meika-rich",
+    ]
+
+
+def test_short_title_same_name_different_date_or_venue_does_not_merge():
+    merger = EventMerger()
+    different_date_events: list[CanonicalEvent] = []
+    first = ExtractedEvent(
+        event_date=date(2026, 6, 8),
+        event_name="明夏",
+        venue="Veats Shibuya",
+        source_url="https://x.com/info_myojou/status/meika-1",
+        source_post_id="meika-1",
+        source_posted_at=datetime(2026, 6, 7, 13, 0, tzinfo=JST),
+        source_text="明夏",
+        source_kind=SourceKind.INITIAL_ANNOUNCEMENT,
+        extraction_confidence=0.8,
+    )
+    different_date = first.model_copy(
+        update={
+            "event_date": date(2026, 6, 9),
+            "source_url": "https://x.com/info_myojou/status/meika-2",
+            "source_post_id": "meika-2",
+        }
+    )
+
+    merger.merge_into_collection(first, different_date_events)
+    _, created_date, _ = merger.merge_into_collection(different_date, different_date_events)
+
+    different_venue_events: list[CanonicalEvent] = []
+    different_venue = first.model_copy(
+        update={
+            "venue": "Spotify O-nest",
+            "source_url": "https://x.com/info_myojou/status/meika-3",
+            "source_post_id": "meika-3",
+        }
+    )
+
+    merger.merge_into_collection(first, different_venue_events)
+    _, created_venue, _ = merger.merge_into_collection(different_venue, different_venue_events)
+
+    assert created_date is True
+    assert len(different_date_events) == 2
+    assert created_venue is True
+    assert len(different_venue_events) == 2
+
+
 def test_lottery_post_followed_by_general_sale_merges_two_periods():
     parser = PostParser()
     merger = EventMerger()
@@ -366,6 +469,35 @@ def test_unclear_sold_out_sets_event_status_and_needs_review():
     assert event.ticket_status == "sold_out"
     assert event.needs_review is True
     assert all(period.status != "完売" for period in event.ticket_sales)
+
+
+def test_clear_event_level_sold_out_does_not_force_review():
+    event = CanonicalEvent(
+        event_name="明夏",
+        event_date=date(2026, 6, 8),
+        venue="Veats Shibuya",
+        open_time="18:00",
+        start_time="19:00",
+    )
+    sold_out = ExtractedEvent(
+        event_date=date(2026, 6, 8),
+        event_name="明夏",
+        venue="Veats Shibuya",
+        open_time="18:00",
+        start_time="19:00",
+        ticket_status="sold_out",
+        source_url="https://x.com/info_myojou/status/soldout-clear",
+        source_post_id="soldout-clear",
+        source_posted_at=event.created_at,
+        source_text="⟣price：SOLD OUT",
+        source_kind=SourceKind.SOLD_OUT,
+        extraction_confidence=0.8,
+    )
+
+    EventMerger().apply_update(event, sold_out)
+
+    assert event.ticket_status == "sold_out"
+    assert event.needs_review is False
 
 
 def test_unclear_sales_ended_sets_event_status_and_needs_review():

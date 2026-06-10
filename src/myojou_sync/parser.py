@@ -3,6 +3,7 @@ from __future__ import annotations
 import re
 import unicodedata
 from datetime import date, datetime, time, timedelta, timezone
+from urllib.parse import urlsplit
 
 from .models import (
     ClassificationConfidence,
@@ -63,7 +64,34 @@ NON_EVENT_KEYWORDS = (
 _URL_RE = re.compile(r"https?://[^\s)）]+")
 _TIME_RE = re.compile(r"\d{1,2}(?:[:：]\d{2}|時\d{0,2}分?)")
 _JST = timezone(timedelta(hours=9))
-_TICKET_URL_KEYWORDS = ("ticket", "livepocket", "tiget", "eplus", "pia", "ticketdive")
+_TICKET_URL_DOMAINS = (
+    "ticketdive.com",
+    "t-dv.com",
+    "tiget.net",
+    "livepocket.jp",
+    "ticketvillage.jp",
+    "eplus.jp",
+    "l-tike.com",
+    "pia.jp",
+    "zaiko.io",
+)
+_TICKET_URL_PATH_KEYWORDS = ("ticket", "tickets")
+_STREAMING_URL_DOMAINS = ("nicovideo.jp", "youtube.com", "youtu.be", "twitcasting.tv")
+_TICKET_TIER_KEYWORDS = (
+    "前方",
+    "優先",
+    "VIP",
+    "vip",
+    "SS",
+    "カメラ",
+    "一般",
+    "通常",
+    "前売",
+    "当日",
+    "後方",
+    "Tシャツ",
+    "無料チケット",
+)
 
 
 class PostParser:
@@ -82,10 +110,12 @@ class PostParser:
         venue = self.extract_venue(text)
         open_time = self.extract_labeled_time(text, ("open", "開場"))
         start_time = self.extract_labeled_time(text, ("start", "開演"))
-        performance_time = self.extract_context_time(text, ("出演時間", "出演", "出番", "myojou", "ミョウジョウ", "ライブ"))
-        benefit_time = self.extract_context_time(text, ("特典会", "物販"))
+        performance_time = self.extract_context_time(text, ("出演時間", "出演", "出番", "myojou", "ミョウジョウ", "ライブ", "🎙"))
+        benefit_time = self.extract_context_time(text, ("特典会", "物販", "📸"))
         ticket_url = self.extract_ticket_url(text, post.raw)
-        general_price = self.extract_price(text, ("一般", "前売", "通常", "price", "料金", "入場料"))
+        general_price = self.extract_price(text, ("一般", "前売", "通常"))
+        if general_price is None:
+            general_price = self.extract_global_free_price(text)
         priority_name, priority_price = self.extract_priority_ticket(text)
         same_day_price = self.extract_price(text, ("当日", "当日券"))
         ticket_application_start = self.extract_labeled_datetime(text, ("申込開始", "受付開始", "販売開始"), post.created_at)
@@ -114,6 +144,13 @@ class PostParser:
             lottery_result=lottery_result,
             payment_deadline=payment_deadline,
         )
+        selected_sale = _selected_ticket_period_for_extracted_fields(ticket_sales)
+        if selected_sale:
+            ticket_application_start = ticket_application_start or selected_sale.start_at
+            ticket_application_deadline = ticket_application_deadline or selected_sale.deadline_at
+            lottery_result = lottery_result or selected_sale.result_at
+            payment_deadline = payment_deadline or selected_sale.payment_deadline_at
+            ticket_sale_type = ticket_sale_type or selected_sale.sale_type
 
         confidence = self.calculate_confidence(
             event_date=event_date,
@@ -175,11 +212,19 @@ class PostParser:
         venue = self.extract_venue(text)
         ticket_url = self.extract_ticket_url(text, post.raw)
         has_time = bool(self.extract_labeled_time(text, ("open", "開場")) or self.extract_labeled_time(text, ("start", "開演")))
-        has_performance = bool(self.extract_context_time(text, ("出演時間", "出演", "出番", "myojou", "ミョウジョウ", "ライブ")))
+        has_performance = bool(self.extract_context_time(text, ("出演時間", "出演", "出番", "myojou", "ミョウジョウ", "ライブ", "🎙")))
         positive_count = sum(1 for keyword in LIVE_KEYWORDS if keyword.casefold() in compact)
         ticket_domain = any(domain in compact for domain in ("ticketdive.com", "t.livepocket.jp", "livepocket", "tiget.net"))
         non_event_signal = self.is_obvious_non_event_post(normalized)
         structured_count = sum(bool(value) for value in (event_date, event_name, venue, ticket_url, has_time, has_performance))
+
+        if _is_live_digest_post(normalized) and not any((event_date, venue, has_time, ticket_url)):
+            return PostClassificationResult(
+                classification=PostClassification.NON_EVENT,
+                confidence=ClassificationConfidence.HIGH,
+                reason="live digest recap without structured event fields",
+                source_kind=SourceKind.OTHER,
+            )
 
         if non_event_signal and not any((ticket_url, venue, has_time, has_performance, ticket_domain)):
             return PostClassificationResult(
@@ -328,6 +373,10 @@ class PostParser:
                 if candidate and not any(word in candidate for word in ("ライブ出演情報", "タイムテーブル")):
                     return candidate
 
+        title_candidate = _title_from_header_block(text)
+        if title_candidate:
+            return title_candidate
+
         for line in _lines(text):
             cleaned = _clean_value(line)
             if not cleaned or _is_metadata_line(cleaned):
@@ -340,7 +389,7 @@ class PostParser:
 
     def extract_venue(self, text: str) -> str | None:
         for line in _lines(text):
-            label_match = re.search(r"(?:会場|場所|VENUE|place)\s*[:：]\s*(?P<venue>.+)", line, flags=re.I)
+            label_match = re.search(r"(?:会場|場所|VENUE|place)\s*[:：]?\s*(?P<venue>.+)", line, flags=re.I)
             if label_match:
                 return _clean_value(label_match.group("venue"))
 
@@ -399,21 +448,28 @@ class PostParser:
         ticket_urls = [url for url in cleaned_urls if _is_ticket_url(url)]
         if ticket_urls:
             return ticket_urls[0]
-        if entity_urls:
-            return entity_urls[0]
-        return cleaned_urls[0] if cleaned_urls else None
+        return None
 
     def extract_price(self, text: str, labels: tuple[str, ...]) -> int | None:
         for line in _lines(text):
             normalized_line = _normalize(line).casefold()
             if not any(label.casefold() in normalized_line for label in labels):
                 continue
+            labeled_price = _price_after_label(line, labels)
+            if labeled_price is not None:
+                return labeled_price
             free_price = _free_price_from_line(line)
             if free_price is not None:
                 return free_price
             price = normalize_price(line)
             if price is not None:
                 return price
+        return None
+
+    def extract_global_free_price(self, text: str) -> int | None:
+        for line in _lines(text):
+            if _is_global_free_price_line(line):
+                return 0
         return None
 
     def extract_priority_ticket(self, text: str) -> tuple[str | None, int | None]:
@@ -430,22 +486,27 @@ class PostParser:
         tiers: list[TicketSalePeriod] = []
         for line in _lines(text):
             normalized = _normalize(line)
-            price = normalize_price(normalized)
-            if price is None:
+            if normalize_price(normalized) is None and _free_price_from_line(normalized) is None:
                 continue
-            ticket_tier = _ticket_tier(normalized)
-            if ticket_tier == "不明":
-                continue
-            sale_type = "当日券" if any(word in normalized for word in ("当日券", "当日料金", "当日")) else "不明"
-            ticket_name = _ticket_name_from_line(normalized, ticket_tier)
-            tiers.append(
-                TicketSalePeriod(
-                    sale_type=sale_type,
-                    ticket_name=ticket_name or ticket_tier,
-                    ticket_tier=ticket_tier,
-                    price=price,
+            for segment in _ticket_price_segments(normalized):
+                price = normalize_price(segment)
+                if price is None:
+                    price = _free_price_from_line(segment)
+                if price is None:
+                    continue
+                ticket_tier = _ticket_tier(segment)
+                if ticket_tier == "不明":
+                    continue
+                sale_type = "当日券" if any(word in segment for word in ("当日券", "当日料金", "当日")) else "不明"
+                ticket_name = _ticket_name_from_line(segment, ticket_tier)
+                tiers.append(
+                    TicketSalePeriod(
+                        sale_type=sale_type,
+                        ticket_name=ticket_name or ticket_tier,
+                        ticket_tier=ticket_tier,
+                        price=price,
+                    )
                 )
-            )
         return _dedupe_ticket_periods(tiers)
 
     def extract_labeled_datetime(
@@ -492,10 +553,31 @@ class PostParser:
         payment_deadline: datetime | None,
     ) -> list[TicketSalePeriod]:
         periods: list[TicketSalePeriod] = []
+        pending_sale_type: str | None = None
         for line in _lines(text):
             period = self._ticket_sale_period_from_line(line, posted_at, source_url, source_post_id)
             if period:
                 periods.append(period)
+                pending_sale_type = None
+                continue
+            datetimes = _extract_datetimes(_normalize(line), posted_at)
+            if pending_sale_type and len(datetimes) >= 2:
+                periods.append(
+                    TicketSalePeriod(
+                        sale_type=pending_sale_type,
+                        ticket_tier="不明",
+                        start_at=datetimes[0],
+                        deadline_at=datetimes[1],
+                        status=ticket_status_label_for_period(ticket_status),
+                        source_url=source_url,
+                        source_post_id=source_post_id,
+                    )
+                )
+                pending_sale_type = None
+                continue
+            sale_type = _sale_type_from_text(line)
+            if sale_type:
+                pending_sale_type = sale_type
 
         periods = _expand_generic_dated_periods_with_price_tiers(periods, ticket_price_tiers)
         for period in periods:
@@ -696,8 +778,6 @@ class PostParser:
                 return candidate
         if general_price == 0 or _has_free_price_label(normalized):
             return "無料"
-        if "無料" in normalized:
-            return "無料"
         if "当日券" in normalized:
             return "当日券"
         if "一般販売" in normalized or "一般発売" in normalized or "一般受付" in normalized:
@@ -729,8 +809,17 @@ class PostParser:
             if source_kind in {SourceKind.CORRECTION, SourceKind.SOLD_OUT}:
                 if any(word in normalized for word in ("訂正", "修正", "変更", "お詫び", "完売", "売り切れ", "受付終了")):
                     note_lines.append(_clean_value(line))
+            elif any(word in normalized for word in ("入場特典", "来場特典")):
+                note_lines.append(_clean_value(line))
+            elif "要予約" in normalized or _drink_note_from_line(line):
+                if "要予約" in normalized:
+                    note_lines.append("要予約")
+                drink_note = _drink_note_from_line(line)
+                if drink_note:
+                    note_lines.append(drink_note)
             elif line.strip().startswith(("※", "*")):
                 note_lines.append(_clean_value(line))
+        note_lines = [line for line in dict.fromkeys(note_lines) if line]
         return "\n".join(note_lines) if note_lines else None
 
     def calculate_confidence(self, **values: object) -> float:
@@ -763,9 +852,8 @@ def _normalize(value: str) -> str:
 def _urls_from_entities(raw: dict | None) -> list[str]:
     if not raw:
         return []
-    urls = raw.get("entities", {}).get("urls", [])
     extracted: list[str] = []
-    for item in urls if isinstance(urls, list) else []:
+    for item in _url_entities(raw):
         if not isinstance(item, dict):
             continue
         url = item.get("expanded_url") or item.get("unwound_url") or item.get("url")
@@ -777,9 +865,8 @@ def _urls_from_entities(raw: dict | None) -> list[str]:
 def _media_urls_from_entities(raw: dict | None) -> set[str]:
     if not raw:
         return set()
-    urls = raw.get("entities", {}).get("urls", [])
     media_urls: set[str] = set()
-    for item in urls if isinstance(urls, list) else []:
+    for item in _url_entities(raw):
         if not isinstance(item, dict):
             continue
         candidates = (item.get("url"), item.get("expanded_url"), item.get("unwound_url"))
@@ -788,9 +875,35 @@ def _media_urls_from_entities(raw: dict | None) -> set[str]:
     return media_urls
 
 
+def _url_entities(raw: dict) -> list[dict]:
+    entities: list[dict] = []
+    raw_urls = raw.get("entities", {}).get("urls", [])
+    if isinstance(raw_urls, list):
+        entities.extend(item for item in raw_urls if isinstance(item, dict))
+    note_tweet = raw.get("note_tweet")
+    if isinstance(note_tweet, dict):
+        note_urls = note_tweet.get("entities", {}).get("urls", [])
+        if isinstance(note_urls, list):
+            entities.extend(item for item in note_urls if isinstance(item, dict))
+    return entities
+
+
 def _is_ticket_url(url: str) -> bool:
     normalized = url.casefold()
-    return any(keyword in normalized for keyword in _TICKET_URL_KEYWORDS)
+    if _is_streaming_url(normalized):
+        return False
+    parts = urlsplit(normalized)
+    host = parts.netloc.removeprefix("www.")
+    path = parts.path
+    if any(host == domain or host.endswith(f".{domain}") for domain in _TICKET_URL_DOMAINS):
+        return True
+    return any(keyword in path for keyword in _TICKET_URL_PATH_KEYWORDS)
+
+
+def _is_streaming_url(url: str) -> bool:
+    parts = urlsplit(url.casefold())
+    host = parts.netloc.removeprefix("www.")
+    return any(host == domain or host.endswith(f".{domain}") for domain in _STREAMING_URL_DOMAINS)
 
 
 def _is_media_url(url: str, entity: dict | None = None) -> bool:
@@ -801,8 +914,13 @@ def _is_media_url(url: str, entity: dict | None = None) -> bool:
         or "pic.x.com" in normalized
         or display_url.startswith("pic.x.com")
         or "/photo/" in normalized
+        or "/video/" in normalized
         or "pbs.twimg.com/media/" in normalized
     )
+
+
+def _is_live_digest_post(text: str) -> bool:
+    return "live digest" in _normalize(text).casefold()
 
 
 def _free_price_from_line(line: str) -> int | None:
@@ -814,17 +932,69 @@ def _free_price_from_line(line: str) -> int | None:
     return None
 
 
+def _is_global_free_price_line(line: str) -> bool:
+    normalized = _normalize(line)
+    label_match = re.search(r"(?:price|料金|入場料|販売方式)\s*[:：]\s*(?P<value>.+)", normalized, flags=re.I)
+    value = label_match.group("value") if label_match else normalized
+    compact = re.sub(r"\s+", "", value).casefold()
+    if not compact:
+        return False
+    if any(keyword.casefold() in compact for keyword in _TICKET_TIER_KEYWORDS):
+        return False
+    if re.search(r"(?:¥|￥)\s*0(?:\D|$)", value) or re.search(r"(?:^|[:：\s])0\s*円", value):
+        return True
+    if compact in {"無料", "入場無料", "観覧無料", "free", "¥0", "￥0", "0円"}:
+        return True
+    return bool(re.fullmatch(r"(?:入場|観覧)?無料(?:イベント|公演|ライブ)?", compact))
+
+
+def _ticket_price_segments(line: str) -> list[str]:
+    normalized = _normalize(line)
+    label_match = re.search(r"(?:price|料金|入場料)\s*[:：]\s*(?P<value>.+)", normalized, flags=re.I)
+    if label_match:
+        normalized = label_match.group("value")
+    return [segment.strip() for segment in re.split(r"[/／]", normalized) if segment.strip()]
+
+
+def _price_after_label(line: str, labels: tuple[str, ...]) -> int | None:
+    normalized = _normalize(line)
+    for label in sorted(labels, key=len, reverse=True):
+        pattern = re.compile(
+            rf"{re.escape(label)}[^¥￥\d]*(?P<price>(?:¥|￥)?\s*\d{{1,3}}(?:,\d{{3}})*|\d{{1,7}})\s*(?:円|yen)?",
+            flags=re.I,
+        )
+        match = pattern.search(normalized)
+        if not match:
+            continue
+        value = match.group("price")
+        if re.search(r"(?:¥|￥)\s*0$", value) or value.replace(",", "").strip() == "0":
+            return 0
+        parsed = normalize_price(value)
+        if parsed is not None:
+            return parsed
+    return None
+
+
+def _drink_note_from_line(line: str) -> str | None:
+    normalized = _normalize(line)
+    match = re.search(r"(?:各)?\+?\s*1D", normalized, flags=re.I)
+    if match:
+        return "ドリンク代: 各+1D" if "各" in match.group(0) or "各" in normalized else "ドリンク代: +1D"
+    if "ドリンク" in normalized:
+        return _clean_value(line)
+    return None
+
+
 def _has_free_price_label(text: str) -> bool:
     for line in _lines(text):
-        normalized = _normalize(line).casefold()
-        if "price" in normalized or "料金" in normalized or "入場料" in normalized:
-            if _free_price_from_line(line) is not None:
-                return True
+        if _is_global_free_price_line(line):
+            return True
     return False
 
 
 _DATETIME_RE = re.compile(
     r"(?:(?P<year>20\d{2})[年/\-.])?(?P<month>\d{1,2})(?:月|[/\.])(?P<day>\d{1,2})日?"
+    r"(?:[（(][月火水木金土日][）)])?"
     r"\s*(?P<time>\d{1,2}(?:[:：]\d{2}|時\d{0,2}分?))?"
 )
 
@@ -845,7 +1015,7 @@ def _extract_datetimes(value: str, posted_at: datetime) -> list[datetime]:
 
 def _sale_type_from_text(value: str) -> str | None:
     normalized = _normalize(value)
-    if "無料" in normalized:
+    if _is_global_free_price_line(normalized):
         return "無料"
     if "当日券" in normalized:
         return "当日券"
@@ -879,6 +1049,10 @@ def _ticket_tier(value: str | None) -> str:
         return "一般"
     if "当日券" in normalized or "当日" in normalized:
         return "一般"
+    if "Tシャツ" in normalized or "無料チケット" in normalized:
+        return "その他"
+    if "後方" in normalized:
+        return "その他"
     return "不明"
 
 
@@ -933,9 +1107,17 @@ def _expand_generic_dated_periods_with_price_tiers(
 
 
 def _ticket_name_from_line(value: str, ticket_tier: str) -> str | None:
+    normalized = _normalize(value)
+    named_ticket = re.search(r"(?P<name>[^:：\d¥￥円/／（）()]+チケット)", normalized)
+    if named_ticket:
+        return _clean_value(named_ticket.group("name"))
+    if "後方観覧" in normalized:
+        return "後方観覧"
+    if "後方" in normalized:
+        return "後方"
     if ticket_tier != "不明":
         return ticket_tier if ticket_tier != "一般" else "一般"
-    match = re.search(r"(?P<name>(?:優先|前方|VIP|SS|カメラ|一般|当日券)[^:：\d¥￥円]*)", value)
+    match = re.search(r"(?P<name>(?:優先|前方|VIP|SS|カメラ|一般|当日券|後方観覧|後方)[^:：\d¥￥円]*)", value)
     return _clean_value(match.group("name")) if match else None
 
 
@@ -984,6 +1166,25 @@ def _dedupe_ticket_periods(periods: list[TicketSalePeriod]) -> list[TicketSalePe
     return deduped
 
 
+def _selected_ticket_period_for_extracted_fields(periods: list[TicketSalePeriod]) -> TicketSalePeriod | None:
+    dated = [period for period in periods if period.start_at or period.deadline_at or period.result_at or period.payment_deadline_at]
+    if not dated:
+        return None
+    for sale_type in ("抽選", "一般", "先着", "当日券"):
+        matching = [period for period in dated if period.sale_type == sale_type]
+        if matching:
+            return sorted(matching, key=_period_sort_key)[0]
+    return sorted(dated, key=_period_sort_key)[0]
+
+
+def _period_sort_key(period: TicketSalePeriod) -> tuple[str, str, str]:
+    return (
+        period.deadline_at.isoformat() if period.deadline_at else "9999-99-99T99:99:99",
+        period.start_at.isoformat() if period.start_at else "9999-99-99T99:99:99",
+        period.sale_type,
+    )
+
+
 def _find_dated_period_for_price_only_period(
     periods: list[TicketSalePeriod],
     price_only: TicketSalePeriod,
@@ -1009,9 +1210,107 @@ def _clean_value(value: str | None) -> str | None:
         return None
     cleaned = _URL_RE.sub("", value)
     cleaned = re.sub(r"[#＃][^\s]+", "", cleaned)
-    cleaned = cleaned.strip(" \t　:：-ー/／|｜📍🎫⏰🗓️")
+    cleaned = cleaned.strip(" \t　:：-/／|｜📍🎫⏰🗓️")
     cleaned = normalize_spaces(cleaned)
     return cleaned or None
+
+
+def _title_from_header_block(text: str) -> str | None:
+    candidates: list[tuple[int, str]] = []
+    for index, line in enumerate(_lines(text)):
+        cleaned = _clean_value(line)
+        if not cleaned:
+            continue
+        if _is_structured_field_line(cleaned):
+            break
+        if _is_decorative_line(cleaned) or _is_ignored_title_line(cleaned) or _is_metadata_line(cleaned):
+            continue
+        if len(cleaned) > 80:
+            continue
+        score = _title_candidate_score(cleaned, index)
+        if score > 0:
+            candidates.append((score, cleaned))
+    if not candidates:
+        return None
+    candidates.sort(key=lambda item: item[0], reverse=True)
+    return candidates[0][1]
+
+
+def _title_candidate_score(value: str, index: int) -> int:
+    normalized = _normalize(value)
+    compact = normalized.casefold()
+    if not _has_title_signal(normalized):
+        return 0
+    score = 20
+    if any(word in compact for word in ("presents", "supported by", "presented by")):
+        score -= 18
+    if "live digest" in compact:
+        score -= 25
+    if any(word in compact for word in ("next live", "今日のmyojou", "明日のmyojou", "生配信決定", "御礼")):
+        score -= 20
+    if any(word in normalized for word in ("LIVE", "Live", "ライブ", "公演", "FES", "フェス", "festival")):
+        score += 6
+    if re.search(r"[ぁ-んァ-ン一-龯々〆ヶ]", normalized):
+        score += 5
+    if re.fullmatch(r"[A-Z0-9 &._'\"!?\-]+", normalized):
+        score += 4
+    score -= min(index, 8)
+    return score
+
+
+def _has_title_signal(value: str) -> bool:
+    return bool(re.search(r"[A-Za-z0-9ぁ-んァ-ン一-龯々〆ヶ]", value))
+
+
+def _is_decorative_line(value: str) -> bool:
+    normalized = _normalize(value)
+    compact = re.sub(r"\s+", "", normalized)
+    if not compact:
+        return True
+    signal_chars = re.findall(r"[A-Za-z0-9ぁ-んァ-ン一-龯々〆ヶ]", compact)
+    if not signal_chars:
+        return True
+    decorative_removed = re.sub(r"[•┈✮✯⟡☆★◇◆■□／/＼\\|｜\-_=~―ー─━<>〈〉《》【】\[\]().·*:+]+", "", compact)
+    return not decorative_removed
+
+
+def _is_ignored_title_line(value: str) -> bool:
+    compact = _normalize(value).casefold()
+    return any(
+        phrase in compact
+        for phrase in (
+            "live digest",
+            "next live",
+            "今日のmyojou",
+            "明日のmyojou",
+            "the encore presents",
+            "presents",
+            "supported by",
+            "presented by",
+            "生配信決定",
+            "御礼",
+            "sold out",
+        )
+    )
+
+
+def _is_structured_field_line(value: str) -> bool:
+    normalized = _normalize(value)
+    compact = normalized.casefold().lstrip("⟣▶︎▷・- ")
+    if _is_metadata_line(compact):
+        return True
+    if normalize_time_range(normalized) and re.match(r"^[🎙📸⏰]", normalized):
+        return True
+    return bool(
+        re.match(
+            r"^(?:date|day|place|venue|open/start|open|start|price|ticket|url|link|"
+            r"日付|場所|会場|開場|開演|料金|入場料|特典会|出演時間|"
+            r"一般販売|一般発売|抽選受付|抽選販売|抽選申込|先行抽選|先着販売|先着受付|"
+            r"受付開始|受付締切|販売開始|販売終了|申込開始|申込締切|当落発表|支払期限|入金期限)",
+            compact,
+            flags=re.I,
+        )
+    )
 
 
 def _local_posted_date(posted_at: datetime) -> date:
@@ -1044,6 +1343,11 @@ def _is_metadata_line(line: str) -> bool:
     return any(
         token in normalized
         for token in (
+            "date",
+            "day",
+            "place",
+            "venue",
+            "price",
             "開場",
             "開演",
             "open",

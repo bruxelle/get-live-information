@@ -28,9 +28,13 @@ def sample_record_for_post(
     record: dict[str, Any] = {
         "id": post.id,
         "text": post.text,
+        "api_text": post.api_text,
+        "truncated_text": post.truncated_text,
+        "full_text_source": post.full_text_source,
         "created_at": post.created_at.isoformat(),
         "url": source_url or raw.get("url"),
         "entities": raw.get("entities", {}),
+        "note_tweet": raw.get("note_tweet"),
         "attachments": raw.get("attachments", {}),
         "referenced_tweets": raw.get("referenced_tweets", []),
         "media": raw.get("media", []),
@@ -91,7 +95,7 @@ def write_x_samples(
 
 
 def _has_ticket_deadline(record: CanonicalEvent | ExtractedEvent) -> bool:
-    if _is_free_event(record):
+    if _is_free_event(record) or _is_terminal_ticket_status(record):
         return True
     if getattr(record, "ticket_application_deadline_at", None):
         return True
@@ -104,12 +108,34 @@ def _has_ticket_deadline(record: CanonicalEvent | ExtractedEvent) -> bool:
 def _is_free_event(record: CanonicalEvent | ExtractedEvent) -> bool:
     if getattr(record, "ticket_sale_type", None) == "無料":
         return True
-    if getattr(record, "general_ticket_price", None) == 0:
+    paid_prices = [
+        value
+        for value in (
+            getattr(record, "general_ticket_price", None),
+            getattr(record, "priority_ticket_price", None),
+            getattr(record, "same_day_ticket_price", None),
+        )
+        if value is not None
+    ]
+    period_prices = [
+        getattr(period, "price", None)
+        for period in getattr(record, "ticket_sales", []) or []
+        if getattr(period, "price", None) is not None
+    ]
+    prices = [*paid_prices, *period_prices]
+    if prices and all(price == 0 for price in prices):
         return True
     for period in getattr(record, "ticket_sales", []) or []:
-        if getattr(period, "sale_type", None) == "無料" or getattr(period, "price", None) == 0:
+        if getattr(period, "sale_type", None) == "無料":
             return True
     return False
+
+
+def _is_terminal_ticket_status(record: CanonicalEvent | ExtractedEvent) -> bool:
+    terminal_statuses = {"sold_out", "ended", "完売", "販売終了", "売切", "終了"}
+    if getattr(record, "ticket_status", None) in terminal_statuses:
+        return True
+    return any(getattr(period, "status", None) in {"完売", "販売終了"} for period in getattr(record, "ticket_sales", []) or [])
 
 
 def _looks_image_dependent(value: str) -> bool:

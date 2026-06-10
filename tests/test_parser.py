@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import json
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
@@ -10,6 +11,7 @@ from myojou_sync.models import TicketSalePeriod
 from myojou_sync.models import XPost
 from myojou_sync.parser import PostParser
 from myojou_sync.pipeline import SyncPipeline
+from myojou_sync.public_output import application_summary, ticket_summary
 from myojou_sync.real_samples import evaluate_real_samples
 from myojou_sync.sample_capture import needs_review_reasons
 from myojou_sync.state import SQLiteStateStore
@@ -417,9 +419,499 @@ def test_info_myojou_first_fetch_pipeline_reduces_false_needs_review(tmp_path, m
     )
 
 
+def test_note_tweet_audit_lovecall_parses_full_ticket_details(tmp_path, mock_posts_dir):
+    posts = _note_tweet_audit_posts(mock_posts_dir, tmp_path)
+    post = posts["2063217018032328930"]
+    parsed = PostParser().parse_post(post)
+
+    assert post.full_text_source == "note_tweet"
+    assert post.api_text is not None
+    assert len(post.text) > len(post.api_text)
+    assert parsed is not None
+    assert parsed.event_name == "ラブコール vol.19"
+    assert parsed.event_date == date(2026, 6, 29)
+    assert parsed.venue in {"Spotify O-nest", "O-nest"}
+    assert parsed.open_time == "19:20"
+    assert parsed.start_time == "19:40"
+    assert parsed.myojou_performance_time == "19:40-20:05"
+    assert parsed.benefit_event_time == "21:00-22:00"
+    assert parsed.ticket_url == "https://t-dv.com/lc_vol19"
+    assert parsed.priority_ticket_name == "前方"
+    assert parsed.priority_ticket_price == 3000
+    assert parsed.general_ticket_price == 1000
+    assert parsed.same_day_ticket_price == 500
+    assert parsed.ticket_application_start_at == datetime(2026, 6, 7, 21, 0, tzinfo=JST)
+    assert parsed.ticket_application_deadline_at == datetime(2026, 6, 28, 23, 59, tzinfo=JST)
+    assert parsed.ticket_sale_type == "一般"
+    assert parsed.notes and "明星カード" in parsed.notes
+    assert "各+1D" in parsed.notes
+    tiers = {(period.ticket_tier, period.price) for period in parsed.ticket_sales}
+    assert ("前方", 3000) in tiers
+    assert ("一般", 1000) in tiers
+
+
+def test_note_tweet_audit_lovecall_public_summaries_and_review_state(tmp_path, mock_posts_dir):
+    state = SQLiteStateStore(tmp_path / "note.sqlite")
+    pipeline = SyncPipeline(
+        fetcher=MockXClient(_note_tweet_audit_path(mock_posts_dir, tmp_path)),
+        state=state,
+        parser=PostParser(),
+    )
+
+    events, result = pipeline.run_once(max_results=100)
+    event = next(event for event in events if event.event_name == "ラブコール vol.19")
+
+    assert result.estimated_x_post_read_count == 0
+    assert event.needs_review is False
+    assert event.ticket_url == "https://t-dv.com/lc_vol19"
+    assert ticket_summary(event) == "前方 3,000円 / 一般 1,000円 / 当日各+500円"
+    assert application_summary(event) == "一般販売 6/7 21:00〜6/28 23:59"
+
+
+def test_note_tweet_audit_decorative_title_blocks_parse_event_names(tmp_path, mock_posts_dir):
+    posts = _note_tweet_audit_posts(mock_posts_dir, tmp_path)
+    tokyo = PostParser().parse_post(posts["2064563144996045102"])
+    souka = PostParser().parse_post(posts["2064003608367255700"])
+
+    assert tokyo is not None
+    assert tokyo.event_name == "TOKYO GIRLS GIRLS"
+    assert souka is not None
+    assert souka.event_name == "蒼夏序章"
+    assert souka.venue == "池袋西口公園野外劇場 グローバルリング シアター"
+
+
+def test_note_tweet_audit_live_digest_posts_are_non_events(tmp_path, mock_posts_dir):
+    posts = _note_tweet_audit_posts(mock_posts_dir, tmp_path)
+    parser = PostParser()
+
+    for post_id in ("2063629163001774232", "2064004974288527729"):
+        classification = parser.classify_post(posts[post_id])
+        assert classification.classification == PostClassification.NON_EVENT
+        assert parser.parse_post(posts[post_id], classification=classification) is None
+
+
+def test_note_tweet_audit_tiered_free_price_is_not_global_free(tmp_path, mock_posts_dir):
+    posts = _note_tweet_audit_posts(mock_posts_dir, tmp_path)
+    parsed = PostParser().parse_post(posts["2064003608367255700"])
+
+    assert parsed is not None
+    assert parsed.ticket_sale_type != "無料"
+    assert parsed.general_ticket_price == 1000
+    assert parsed.priority_ticket_name == "前方"
+    assert parsed.priority_ticket_price == 4500
+    assert any(period.ticket_name == "後方観覧" and period.price == 0 for period in parsed.ticket_sales)
+    assert ticket_summary(CanonicalEvent.from_extracted(parsed)) == "一般 1,000円 / 前方 4,500円 / 後方観覧 無料"
+
+
+def test_note_tweet_audit_avilla_named_ticket_tiers_do_not_infer_general_price(tmp_path, mock_posts_dir):
+    posts = _note_tweet_audit_posts(mock_posts_dir, tmp_path)
+    parsed = PostParser().parse_post(posts["2064321642810294772"])
+
+    assert parsed is not None
+    assert parsed.event_name == "A Villa idol festival HOKKAIDO 2026"
+    assert parsed.general_ticket_price is None
+    assert parsed.priority_ticket_name == "VIPチケット"
+    assert parsed.priority_ticket_price == 15000
+    assert parsed.ticket_sale_type != "無料"
+    assert parsed.ticket_url == "https://l-tike.com/avilla-idol-fes/"
+    tier_prices = {period.ticket_name: period.price for period in parsed.ticket_sales}
+    assert tier_prices["VIPチケット"] == 15000
+    assert tier_prices["Tシャツ付きチケット"] == 6000
+    assert tier_prices["無料チケット"] == 0
+    assert "要予約" in (parsed.notes or "")
+    assert "各+1D" in (parsed.notes or "")
+    assert ticket_summary(CanonicalEvent.from_extracted(parsed)) == (
+        "VIPチケット 15,000円 / Tシャツ付きチケット 6,000円 / 無料チケット 0円"
+    )
+
+
+def test_note_tweet_audit_neat_meets_no_longer_needs_review_when_complete(tmp_path, mock_posts_dir):
+    state = SQLiteStateStore(tmp_path / "note-neat.sqlite")
+    pipeline = SyncPipeline(
+        fetcher=MockXClient(_note_tweet_audit_path(mock_posts_dir, tmp_path)),
+        state=state,
+        parser=PostParser(),
+    )
+
+    events, _ = pipeline.run_once(max_results=100)
+    event = next(event for event in events if event.event_name == "Neat Meets vol.19")
+
+    assert event.needs_review is False
+
+
+def test_note_tweet_audit_meika_alias_posts_merge_into_one_event(tmp_path, mock_posts_dir):
+    state = SQLiteStateStore(tmp_path / "note-meika.sqlite")
+    pipeline = SyncPipeline(
+        fetcher=MockXClient(_note_tweet_audit_path(mock_posts_dir, tmp_path)),
+        state=state,
+        parser=PostParser(),
+    )
+
+    events, result = pipeline.run_once(max_results=100)
+    meika_events = [
+        event
+        for event in events
+        if event.event_date == date(2026, 6, 8) and event.venue == "Veats Shibuya" and "明夏" in (event.event_name or "")
+    ]
+
+    assert result.non_event_skipped >= 2
+    assert len(meika_events) == 1
+    event = meika_events[0]
+    assert event.event_name == "myojou oneman live 明夏"
+    assert event.ticket_status == "sold_out"
+    assert event.needs_review is False
+    assert {"2063616270218707012", "2063849253471141988", "2063865003917410549"}.issubset(
+        set(event.source_post_ids)
+    )
+    assert len(event.all_source_urls) >= 3
+    assert event.myojou_performance_time == "19:00"
+    assert any(other.event_name == "ラブコール vol.19" for other in events)
+    assert any(other.event_name == "TOKYO GIRLS GIRLS" for other in events)
+    assert all(other.event_name != "LIVE DIGEST" for other in events)
+
+
+def test_note_tweet_audit_avilla_pipeline_keeps_review_false(tmp_path, mock_posts_dir):
+    state = SQLiteStateStore(tmp_path / "note-avilla.sqlite")
+    pipeline = SyncPipeline(
+        fetcher=MockXClient(_note_tweet_audit_path(mock_posts_dir, tmp_path)),
+        state=state,
+        parser=PostParser(),
+    )
+
+    events, _ = pipeline.run_once(max_results=100)
+    event = next(event for event in events if event.event_name == "A Villa idol festival HOKKAIDO 2026")
+
+    assert event.needs_review is False
+    assert event.general_ticket_price is None
+    assert ticket_summary(event) == "VIPチケット 15,000円 / Tシャツ付きチケット 6,000円 / 無料チケット 0円"
+
+
+def test_sold_out_event_does_not_report_missing_ticket_deadline_reason(tmp_path, mock_posts_dir):
+    posts = _note_tweet_audit_posts(mock_posts_dir, tmp_path)
+    parsed = PostParser().parse_post(posts["2063616270218707012"])
+
+    assert parsed is not None
+    assert parsed.ticket_status == "sold_out"
+    reasons = needs_review_reasons(CanonicalEvent.from_extracted(parsed))
+    assert "missing ticket deadline" not in reasons
+
+
+def test_streaming_urls_are_not_ticket_urls():
+    parsed = PostParser().parse_post(
+        XPost(
+            id="nico-url",
+            created_at=datetime(2026, 6, 6, 11, 10, tzinfo=JST),
+            text=(
+                "【ライブ配信】\n"
+                "6/29(月)「配信チェック」\n"
+                "会場：Spotify O-nest\n"
+                "開場19:20 / 開演19:40\n"
+                "配信：https://t.co/nico"
+            ),
+            raw={
+                "id": "nico-url",
+                "text": "配信：https://t.co/nico",
+                "entities": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/nico",
+                            "expanded_url": "https://sp.ch.nicovideo.jp/tokyoidolchannel",
+                            "display_url": "sp.ch.nicovideo.jp/tokyoidolchannel",
+                        }
+                    ]
+                },
+            },
+        )
+    )
+
+    assert parsed is not None
+    assert parsed.ticket_url is None
+
+
+def test_photo_and_video_urls_are_not_ticket_urls():
+    parser = PostParser()
+    text = "6/29(月)「PHOTO URL LIVE」\n会場：Spotify O-nest\n開演19:40\nhttps://t.co/photo"
+
+    assert (
+        parser.extract_ticket_url(
+            text,
+            {
+                "entities": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/photo",
+                            "expanded_url": "https://x.com/info_myojou/status/1/photo/1",
+                            "display_url": "pic.x.com/photo",
+                            "media_key": "3_photo",
+                        }
+                    ]
+                }
+            },
+        )
+        is None
+    )
+    assert (
+        parser.extract_ticket_url(
+            text,
+            {
+                "entities": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/video",
+                            "expanded_url": "https://x.com/info_myojou/status/1/video/1",
+                            "display_url": "x.com/info_myojou/status/1/video/1",
+                        }
+                    ]
+                }
+            },
+        )
+        is None
+    )
+
+
 def _real_first_fetch_posts(mock_posts_dir: Path):
     client = MockXClient(mock_posts_dir / "real_samples" / "info_myojou_first_fetch.json")
     return {post.id: post for post in client.fetch_recent_posts(max_results=10)}
+
+
+def _note_tweet_audit_posts(mock_posts_dir: Path, tmp_path: Path):
+    client = MockXClient(_note_tweet_audit_path(mock_posts_dir, tmp_path))
+    return {post.id: post for post in client.fetch_recent_posts(max_results=100)}
+
+
+def _note_tweet_audit_path(mock_posts_dir: Path, tmp_path: Path) -> Path:
+    path = mock_posts_dir / "real_samples" / "info_myojou_note_tweet_audit_20.json"
+    if path.exists():
+        return path
+    fallback = tmp_path / "info_myojou_note_tweet_audit_20.json"
+    fallback.write_text(json.dumps(_lovecall_note_tweet_fixture(), ensure_ascii=False), encoding="utf-8")
+    return fallback
+
+
+def _lovecall_note_tweet_fixture() -> dict:
+    short_text = (
+        "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n"
+        "THE ENCORE presents\n"
+        "「ラブコール vol.19」\n"
+        "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n"
+        "🎙19:40-20:05\n"
+        "📸21:00-22:00\n\n"
+        "⟣date：6/29（月）\n"
+        "⟣place O-nest\n"
+        "⟣open/start：19:20/19:40 https://t.co/ke1am7UQ2Q"
+    )
+    full_text = (
+        "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n"
+        "THE ENCORE presents\n"
+        "「ラブコール vol.19」\n"
+        "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n"
+        "🎙19:40-20:05\n"
+        "📸21:00-22:00\n\n"
+        "⟣date：6/29（月）\n"
+        "⟣place O-nest\n"
+        "⟣open/start：19:20/19:40\n"
+        "⟣price：前方¥3,000/一般¥1,000/当日各+¥500（各+1D）\n"
+        "⟣入場特典：明星カード（サインありチェキ）\n\n"
+        "【一般販売】\n"
+        "6/7（日）21:00-6/28（日）23:59\n"
+        "🔗 https://t.co/WCZ5iMP2uj\n\n"
+        "#myojou"
+    )
+    tokyo_text = (
+        "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n"
+        "TOKYO GIRLS GIRLS\n"
+        "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n"
+        "🎙14:25-14:45\n"
+        "📸14:55-16:05 E\n\n"
+        "⟣date：6/16（火）\n"
+        "⟣place : Zepp Shinjuku / KABUKICHO TOWER STAGE / WALLY\n"
+        "⟣open/start：11:40/12:00\n"
+        "⟣price：前方¥10,000/通常¥4,000円 当日+¥1,000（各＋1D）\n\n"
+        "【先着販売】\n"
+        "5/18(月) 20:00-\n"
+        "🔗 https://t.co/G2JK1vvyyC\n\n"
+        "#myojou"
+    )
+    souka_text = (
+        "✮••┈┈┈••✮••┈┈┈••✮\n"
+        "蒼夏序章\n"
+        "✮••┈┈┈••✮••┈┈┈••✮\n\n"
+        "⟣date：7/6（月）\n"
+        "⟣place : 池袋西口公園野外劇場 グローバルリング シアター\n"
+        "⟣open/start：TBA/TBA\n"
+        "⟣price： 前方¥4,500/一般¥1,000 （各+1D）/後方観覧無料\n"
+        "🔗 https://t.co/souka"
+    )
+    neat_text = (
+        "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n"
+        "なみだ色の消しごむ presents\n"
+        "『Neat Meets vol.19』\n"
+        "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n"
+        "🎙19:30-19:55\n"
+        "📸終演後物販\n\n"
+        "⟣date：6/13（土）\n"
+        "⟣place : 白金高輪SELENE b2\n"
+        "⟣open/start：10:00/10:30\n"
+        "⟣price：前方¥5,000/一般¥2,500（各+1D代）\n\n"
+        "【一般販売期間】\n"
+        "5/31（日）20:00-6/12（金）23:59\n"
+        "🔗 https://t.co/neat"
+    )
+    soldout_text = (
+        "✮••┈┈┈┈••✮••┈┈┈┈••✮\n"
+        "SOLD OUT\n"
+        "myojou oneman live\n"
+        "明夏\n"
+        "✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n"
+        "⟣date：2026/6/8(月)\n"
+        "⟣place : Veats Shibuya\n"
+        "⟣open/start：18:00/19:00\n"
+        "⟣price：SOLD OUT"
+    )
+    live_digest_text = "✮••┈┈┈••✮\nLIVE DIGEST\nmyojou oneman live 明夏\n✮••┈┈┈••✮ https://t.co/digest"
+    avilla_text = (
+        "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n"
+        "A Villa idol festival HOKKAIDO 2026\n"
+        "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n"
+        "⟣date：8/29（土）\n"
+        "⟣place : 安平町ときわ公園\n"
+        "⟣open/start：9:00/10:00（予定）\n"
+        "⟣price：VIPチケット ¥15,000（VIPエリア&Tシャツ付き）/Tシャツ付きチケット ¥6,000/無料チケット¥0 ※要予約（各+1D）\n"
+        "⟣入場特典 : 明星カード1枚(サインありチェキ)\n\n"
+        "【販売期間】\n"
+        "6/9（火）20:00-8/20（木）23:59\n"
+        "ローチケ：https://t.co/avilla-l\n"
+        "無料チケット※要予約：https://t.co/avilla-free\n\n"
+        "#myojou"
+    )
+    return {
+        "data": [
+            {
+                "id": "2063217018032328930",
+                "text": short_text,
+                "created_at": "2026-06-06T11:10:44+00:00",
+                "url": "https://x.com/info_myojou/status/2063217018032328930",
+                "entities": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/ke1am7UQ2Q",
+                            "expanded_url": "https://x.com/info_myojou/status/2063217018032328930/photo/1",
+                            "display_url": "pic.x.com/ke1am7UQ2Q",
+                            "media_key": "3_2063217011564703744",
+                        }
+                    ]
+                },
+                "attachments": {"media_keys": ["3_2063217011564703744"]},
+                "media": [{"media_key": "3_2063217011564703744", "type": "photo"}],
+                "note_tweet": {
+                    "text": full_text,
+                    "entities": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/WCZ5iMP2uj",
+                                "expanded_url": "https://t-dv.com/lc_vol19",
+                                "display_url": "t-dv.com/lc_vol19",
+                            }
+                        ]
+                    },
+                },
+            }
+            ,
+            {
+                "id": "2064563144996045102",
+                "text": tokyo_text,
+                "created_at": "2026-06-10T04:19:46+00:00",
+                "url": "https://x.com/info_myojou/status/2064563144996045102",
+                "note_tweet": {
+                    "text": tokyo_text,
+                    "entities": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/G2JK1vvyyC",
+                                "expanded_url": "https://ticketdive.com/event/tokyo-girls-girls",
+                                "display_url": "ticketdive.com/event/tokyo…",
+                            }
+                        ]
+                    },
+                },
+            },
+            {
+                "id": "2064003608367255700",
+                "text": souka_text,
+                "created_at": "2026-06-08T15:16:22+00:00",
+                "url": "https://x.com/info_myojou/status/2064003608367255700",
+                "entities": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/souka",
+                            "expanded_url": "https://x.com/info_myojou/status/2064003608367255700/photo/1",
+                            "display_url": "pic.x.com/souka",
+                            "media_key": "3_souka",
+                        }
+                    ]
+                },
+            },
+            {
+                "id": "2063217194763452547",
+                "text": neat_text,
+                "created_at": "2026-06-06T11:11:26+00:00",
+                "url": "https://x.com/info_myojou/status/2063217194763452547",
+                "note_tweet": {
+                    "text": neat_text,
+                    "entities": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/neat",
+                                "expanded_url": "https://t-dv.com/nm_vol19",
+                                "display_url": "t-dv.com/nm_vol19",
+                            }
+                        ]
+                    },
+                },
+            },
+            {
+                "id": "2063616270218707012",
+                "text": soldout_text,
+                "created_at": "2026-06-07T13:37:13+00:00",
+                "url": "https://x.com/info_myojou/status/2063616270218707012",
+            },
+            {
+                "id": "2063629163001774232",
+                "text": live_digest_text,
+                "created_at": "2026-06-07T14:28:27+00:00",
+                "url": "https://x.com/info_myojou/status/2063629163001774232",
+            },
+            {
+                "id": "2064004974288527729",
+                "text": live_digest_text,
+                "created_at": "2026-06-08T15:21:47+00:00",
+                "url": "https://x.com/info_myojou/status/2064004974288527729",
+            },
+            {
+                "id": "2064321642810294772",
+                "text": avilla_text,
+                "created_at": "2026-06-09T12:20:07+00:00",
+                "url": "https://x.com/info_myojou/status/2064321642810294772",
+                "note_tweet": {
+                    "text": avilla_text,
+                    "entities": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/avilla-l",
+                                "expanded_url": "https://l-tike.com/avilla-idol-fes/",
+                                "display_url": "l-tike.com/avilla-idol-fes",
+                            },
+                            {
+                                "url": "https://t.co/avilla-free",
+                                "expanded_url": "https://l-tike.com/avilla-idol-fes/free",
+                                "display_url": "l-tike.com/avilla-idol-fes/free",
+                            },
+                        ]
+                    },
+                },
+            },
+        ]
+    }
 
 
 def test_timetable_update_parsing(mock_posts):

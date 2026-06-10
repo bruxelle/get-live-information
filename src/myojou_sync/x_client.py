@@ -52,7 +52,7 @@ class XApiClient:
         user_id = self._get_user_id()
         params: dict[str, str | int] = {
             "max_results": max(5, min(max_results, 100)),
-            "tweet.fields": "created_at,entities,attachments,referenced_tweets",
+            "tweet.fields": "id,text,created_at,entities,attachments,referenced_tweets,note_tweet",
             "expansions": "attachments.media_keys",
             "media.fields": "media_key,type,url,preview_image_url,width,height,alt_text",
             "exclude": "retweets,replies",
@@ -145,11 +145,22 @@ def _post_from_payload(item: dict) -> XPost:
     created_at = item.get("created_at") or raw.get("created_at") or item.get("source_posted_at") or raw.get("source_posted_at")
     if isinstance(created_at, str):
         created_at = datetime.fromisoformat(created_at.replace("Z", "+00:00"))
+    api_text = _string_or_none(item.get("api_text") or raw.get("api_text") or raw.get("text") or item.get("text"))
+    note_text = _note_tweet_text(raw)
+    full_text_source = "note_tweet" if note_text else "text"
+    full_text = note_text or str(item.get("text") or raw.get("text"))
+    raw["api_text"] = api_text
+    raw["truncated_text"] = api_text if full_text_source == "note_tweet" else None
+    raw["full_text"] = full_text
+    raw["full_text_source"] = full_text_source
     return XPost(
         id=str(item.get("id") or raw["id"]),
-        text=str(item.get("text") or raw["text"]),
+        text=full_text,
         created_at=created_at,
         raw=raw,
+        api_text=api_text,
+        truncated_text=api_text if full_text_source == "note_tweet" else None,
+        full_text_source=full_text_source,
     )
 
 
@@ -173,10 +184,38 @@ def _posts_from_response_payload(payload: dict[str, Any]) -> list[XPost]:
 def _raw_post_payload(item: dict[str, Any]) -> dict[str, Any]:
     embedded_raw = item.get("raw")
     raw = dict(embedded_raw) if isinstance(embedded_raw, dict) else dict(item)
-    for key in ("id", "text", "created_at", "url", "entities", "attachments", "referenced_tweets", "media"):
+    for key in (
+        "id",
+        "text",
+        "api_text",
+        "truncated_text",
+        "full_text",
+        "full_text_source",
+        "created_at",
+        "url",
+        "entities",
+        "attachments",
+        "referenced_tweets",
+        "media",
+        "note_tweet",
+    ):
         if key in item and item[key] is not None:
             raw[key] = item[key]
     return raw
+
+
+def _note_tweet_text(raw: dict[str, Any]) -> str | None:
+    note_tweet = raw.get("note_tweet")
+    if not isinstance(note_tweet, dict):
+        return None
+    return _string_or_none(note_tweet.get("text"))
+
+
+def _string_or_none(value: Any) -> str | None:
+    if value is None:
+        return None
+    text = str(value)
+    return text if text.strip() else None
 
 
 def _media_metadata(media: dict[str, Any]) -> dict[str, Any]:

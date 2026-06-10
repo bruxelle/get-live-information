@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import json
 import sqlite3
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 from myojou_sync.parser import PostParser
@@ -97,6 +98,88 @@ class FakeEntitySession:
         )
 
 
+class FakeNoteTweetSession:
+    def __init__(self):
+        self.params = []
+
+    def get(self, url, **kwargs):
+        self.params.append(kwargs.get("params", {}))
+        if "/users/by/username/" in url:
+            return FakeResponse({"data": {"id": "12345"}})
+        truncated_text = (
+            "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n"
+            "THE ENCORE presents\n"
+            "「ラブコール vol.19」\n"
+            "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n"
+            "🎙19:40-20:05\n"
+            "📸21:00-22:00\n\n"
+            "⟣date：6/29（月）\n"
+            "⟣place :Spotify O-nest\n"
+            "⟣open/start：19:20/19:40 https://t.co/ke1am7UQ2Q"
+        )
+        full_text = (
+            "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n"
+            "THE ENCORE presents\n"
+            "「ラブコール vol.19」\n"
+            "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n"
+            "🎙19:40-20:05\n"
+            "📸21:00-22:00\n\n"
+            "⟣date：6/29（月）\n"
+            "⟣place :Spotify O-nest\n"
+            "⟣open/start：19:20/19:40\n"
+            "⟣price：前方¥3,000/一般¥1,000/当日各+¥500（各+1D）\n"
+            "入場特典：明星カード（サインありチェキ）\n"
+            "【一般販売】\n"
+            "6/7（日）21:00-6/28（日）23:59\n"
+            "https://t.co/fullnote"
+        )
+        return FakeResponse(
+            {
+                "data": [
+                    {
+                        "id": "2063217018032328930",
+                        "created_at": "2026-06-06T11:10:44Z",
+                        "text": truncated_text,
+                        "entities": {
+                            "urls": [
+                                {
+                                    "url": "https://t.co/ke1am7UQ2Q",
+                                    "expanded_url": "https://x.com/info_myojou/status/2063217018032328930/photo/1",
+                                    "display_url": "pic.x.com/ke1am7UQ2Q",
+                                    "media_key": "3_2063217011564703744",
+                                }
+                            ]
+                        },
+                        "attachments": {"media_keys": ["3_2063217011564703744"]},
+                        "note_tweet": {
+                            "text": full_text,
+                            "entities": {
+                                "urls": [
+                                    {
+                                        "url": "https://t.co/fullnote",
+                                        "expanded_url": "https://t-dv.com/lc_vol19",
+                                        "display_url": "t-dv.com/lc_vol19",
+                                    }
+                                ]
+                            },
+                        },
+                    }
+                ],
+                "includes": {
+                    "media": [
+                        {
+                            "media_key": "3_2063217011564703744",
+                            "type": "photo",
+                            "url": "https://pbs.twimg.com/media/HKIE8MzbcAA_STm.jpg",
+                            "width": 2481,
+                            "height": 2888,
+                        }
+                    ]
+                },
+            }
+        )
+
+
 def test_x_user_id_lookup_is_cached_in_sqlite(tmp_path):
     state = SQLiteStateStore(tmp_path / "state.sqlite")
     session = FakeSession()
@@ -122,7 +205,7 @@ def test_x_client_preserves_expanded_urls_and_media_metadata(tmp_path):
 
     posts = client.fetch_recent_posts(max_results=10)
 
-    assert session.params[-1]["tweet.fields"] == "created_at,entities,attachments,referenced_tweets"
+    assert session.params[-1]["tweet.fields"] == "id,text,created_at,entities,attachments,referenced_tweets,note_tweet"
     assert session.params[-1]["expansions"] == "attachments.media_keys"
     assert "alt_text" in session.params[-1]["media.fields"]
     assert posts[0].raw["entities"]["urls"][0]["expanded_url"] == "https://t.livepocket.jp/e/real-entity-live"
@@ -142,6 +225,43 @@ def test_x_client_preserves_expanded_urls_and_media_metadata(tmp_path):
     assert parsed is not None
     assert parsed.ticket_url == "https://t.livepocket.jp/e/real-entity-live"
     assert parsed.source_raw["media"][0]["alt_text"] == "告知画像"
+
+
+def test_x_client_and_parser_use_note_tweet_full_text(tmp_path):
+    state = SQLiteStateStore(tmp_path / "state.sqlite")
+    session = FakeNoteTweetSession()
+    client = XApiClient("token", state=state, session=session)
+
+    posts = client.fetch_recent_posts(max_results=5)
+    post = posts[0]
+    parsed = PostParser().parse_post(post)
+
+    assert "note_tweet" in session.params[-1]["tweet.fields"]
+    assert post.full_text_source == "note_tweet"
+    assert post.api_text is not None
+    assert post.truncated_text == post.api_text
+    assert len(post.text) > len(post.api_text)
+    assert post.raw["note_tweet"]["entities"]["urls"][0]["expanded_url"] == "https://t-dv.com/lc_vol19"
+    assert parsed is not None
+    assert parsed.source_text == post.text
+    assert parsed.source_raw["api_text"] == post.api_text
+    assert parsed.source_raw["full_text_source"] == "note_tweet"
+    assert parsed.event_name == "ラブコール vol.19"
+    assert parsed.venue == "Spotify O-nest"
+    assert parsed.open_time == "19:20"
+    assert parsed.start_time == "19:40"
+    assert parsed.myojou_performance_time == "19:40-20:05"
+    assert parsed.benefit_event_time == "21:00-22:00"
+    assert parsed.ticket_url == "https://t-dv.com/lc_vol19"
+    assert parsed.general_ticket_price == 1000
+    assert parsed.priority_ticket_name == "前方"
+    assert parsed.priority_ticket_price == 3000
+    assert parsed.same_day_ticket_price == 500
+    assert parsed.ticket_application_start_at == datetime(2026, 6, 7, 21, 0, tzinfo=timezone(timedelta(hours=9)))
+    assert parsed.ticket_application_deadline_at == datetime(2026, 6, 28, 23, 59, tzinfo=timezone(timedelta(hours=9)))
+    assert parsed.ticket_sale_type == "一般"
+    assert parsed.notes and "明星カード" in parsed.notes
+    assert parsed.ticket_sales
 
 
 def test_pipeline_source_posts_store_linked_event_metadata(tmp_path, mock_posts_dir: Path):

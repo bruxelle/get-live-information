@@ -192,7 +192,9 @@ def live_summary(event: CanonicalEvent) -> str:
 def ticket_summary(event: CanonicalEvent) -> str:
     if event.ticket_sales:
         return _ticket_sales_summary_short(event)
-    parts = [ticket_sale_type_label(event.ticket_sale_type)]
+    sale_type = ticket_sale_type_label(event.ticket_sale_type)
+    status = ticket_status_label(event.ticket_status)
+    parts = [] if sale_type == "不明" and status in {"完売", "販売終了"} else [sale_type]
     if event.general_ticket_price is not None:
         parts.append(f"一般 {_yen(event.general_ticket_price)}")
     if event.priority_ticket_price is not None:
@@ -200,7 +202,7 @@ def ticket_summary(event: CanonicalEvent) -> str:
         parts.append(f"{label} {_yen(event.priority_ticket_price)}")
     if event.same_day_ticket_price is not None:
         parts.append(f"当日 {_yen(event.same_day_ticket_price)}")
-    parts.append(ticket_status_label(event.ticket_status))
+    parts.append(status)
     return " / ".join(parts)
 
 
@@ -425,21 +427,37 @@ def _compact_deadline(value: Any) -> str:
 
 
 def _ticket_sales_summary_short(event: CanonicalEvent) -> str:
+    if _has_same_day_surcharge(event):
+        parts = []
+        if event.priority_ticket_price is not None:
+            parts.append(f"{_compact_priority_label(event.priority_ticket_name)} {_yen(event.priority_ticket_price)}")
+        if event.general_ticket_price is not None:
+            parts.append(f"一般 {_yen(event.general_ticket_price)}")
+        if event.same_day_ticket_price is not None:
+            parts.append(f"当日各+{_yen(event.same_day_ticket_price)}")
+        return " / ".join(parts)
+
     unique_types = _unique_sale_types(event)
     parts: list[str] = []
     if len(unique_types) >= 2 and {"抽選", "一般"}.issubset(set(unique_types)):
         parts.append("抽選あり・一般販売あり")
-    elif unique_types:
-        parts.append("当日券あり" if unique_types[0] == "当日券" else unique_types[0])
+    elif unique_types and not (unique_types == ["不明"] and _has_ticket_price_details(event)):
+        sale_type = unique_types[0]
+        has_clear_status_only = sale_type == "不明" and _has_terminal_ticket_status(event)
+        has_redundant_general_price = sale_type == "一般" and event.general_ticket_price is not None
+        if not has_clear_status_only and not has_redundant_general_price:
+            parts.append("当日券あり" if sale_type == "当日券" else sale_type)
     if event.general_ticket_price is not None:
         parts.append(f"一般 {_yen(event.general_ticket_price)}")
     if event.priority_ticket_price is not None:
         parts.append(f"{_compact_priority_label(event.priority_ticket_name)} {_yen(event.priority_ticket_price)}")
-    elif not event.general_ticket_price:
+    elif event.general_ticket_price is None:
         first_price = next((period for period in event.ticket_sales if period.price is not None), None)
         if first_price:
             label = first_price.ticket_name or first_price.ticket_tier
             parts.append(f"{label} {_yen(first_price.price)}" if label and label != "不明" else _yen(first_price.price))
+    parts.extend(_additional_named_price_parts(event))
+    parts.extend(_free_tier_summary_parts(event))
     selected = next_ticket_period(event)
     if selected and selected.deadline_at and len(unique_types) <= 1:
         parts.append(_compact_deadline(selected.deadline_at))
@@ -479,6 +497,63 @@ def _unique_sale_types(event: CanonicalEvent) -> list[str]:
         if sale_type and sale_type not in types:
             types.append(sale_type)
     return types
+
+
+def _has_ticket_price_details(event: CanonicalEvent) -> bool:
+    return bool(
+        event.general_ticket_price is not None
+        or event.priority_ticket_price is not None
+        or event.same_day_ticket_price is not None
+        or any(period.price is not None for period in event.ticket_sales)
+    )
+
+
+def _has_terminal_ticket_status(event: CanonicalEvent) -> bool:
+    return ticket_status_label(event.ticket_status) in {"完売", "販売終了"} or any(
+        period.status in {"完売", "販売終了"} for period in event.ticket_sales
+    )
+
+
+def _free_tier_summary_parts(event: CanonicalEvent) -> list[str]:
+    parts: list[str] = []
+    seen: set[str] = set()
+    for period in event.ticket_sales:
+        if period.price != 0 or period.sale_type == "無料":
+            continue
+        label = period.ticket_name or period.ticket_tier
+        if not label or label in {"一般", "優先", "VIP", "SS", "前方", "カメラ", "不明"}:
+            continue
+        part = f"{label} {_yen(0)}" if "無料チケット" in label else f"{label} 無料"
+        if part not in seen:
+            seen.add(part)
+            parts.append(part)
+    return parts
+
+
+def _additional_named_price_parts(event: CanonicalEvent) -> list[str]:
+    represented_labels = {"一般"}
+    if event.priority_ticket_name:
+        represented_labels.add(_compact_priority_label(event.priority_ticket_name))
+        represented_labels.add(event.priority_ticket_name)
+    represented_tiers = {"一般"}
+    if event.priority_ticket_price is not None:
+        represented_tiers.update({"優先", "VIP", "SS", "前方", "カメラ"})
+
+    parts: list[str] = []
+    seen: set[str] = set()
+    for period in event.ticket_sales:
+        if period.price is None or period.price == 0:
+            continue
+        label = period.ticket_name or period.ticket_tier
+        if not label or label == "不明":
+            continue
+        if label in represented_labels or period.ticket_tier in represented_tiers:
+            continue
+        part = f"{label} {_yen(period.price)}"
+        if part not in seen:
+            seen.add(part)
+            parts.append(part)
+    return parts
 
 
 def _unique_ticket_sales_for_display(event: CanonicalEvent):
@@ -521,6 +596,14 @@ def _ticket_sale_line(period) -> str:
     if period.status and period.status != "不明":
         parts.append(period.status)
     return " / ".join(part for part in parts if part)
+
+
+def _has_same_day_surcharge(event: CanonicalEvent) -> bool:
+    if event.same_day_ticket_price is None:
+        return False
+    source_text = (event.source_text or "").replace(" ", "")
+    notes = (event.notes or "").replace(" ", "")
+    return "当日各+" in source_text or "当日各+" in notes or "各+1D" in source_text or "各+1D" in notes
 
 
 def _ticket_sales_to_web(event: CanonicalEvent) -> list[dict[str, Any]]:

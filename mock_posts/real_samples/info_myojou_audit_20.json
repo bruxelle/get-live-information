@@ -1,0 +1,2997 @@
+{
+  "captured_at": "2026-06-10T07:30:47.400253+00:00",
+  "source": "x_api",
+  "metadata": {
+    "username": "info_myojou",
+    "max_results": 20,
+    "posts_fetched": 19,
+    "estimated_x_post_reads": 19,
+    "rate_limit_headers": {
+      "x-rate-limit-limit": "10000",
+      "x-rate-limit-remaining": "9999",
+      "x-rate-limit-reset": "1781077546"
+    },
+    "dry_run": true
+  },
+  "data": [
+    {
+      "id": "2063216914235834731",
+      "text": "✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n                           ⟡.·*.御礼.*·.⟡\n              HIBANA Presents『導花閃』\n✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n\n本日は「HIBANA Presents『導花閃』」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka https://t.co/aHYA3aHSbe",
+      "created_at": "2026-06-06T11:10:19+00:00",
+      "url": "https://x.com/info_myojou/status/2063216914235834731",
+      "entities": {
+        "urls": [
+          {
+            "start": 190,
+            "end": 213,
+            "url": "https://t.co/aHYA3aHSbe",
+            "expanded_url": "https://x.com/info_myojou/status/2063216914235834731/photo/1",
+            "display_url": "pic.x.com/aHYA3aHSbe",
+            "media_key": "3_2063216909047525376"
+          }
+        ],
+        "mentions": [
+          {
+            "start": 177,
+            "end": 189,
+            "username": "myojou_ruka",
+            "id": "1981655668626165760"
+          }
+        ]
+      },
+      "attachments": {
+        "media_keys": [
+          "3_2063216909047525376"
+        ]
+      },
+      "referenced_tweets": [],
+      "media": [
+        {
+          "media_key": "3_2063216909047525376",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HKIE2O5bcAAxvL2.jpg",
+          "width": 1477,
+          "height": 1108,
+          "alt_text": "M1,星景讃歌\nM2,yoakeno\nM3,蛍夏\nM4,CHRONOS\nM5,HeartBeat\nM6,アンチコンプリート\nM7,軌跡まで"
+        }
+      ],
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "strong non-event keyword without live structure",
+        "source_kind": "same_day_reminder"
+      },
+      "parsed_fields": null,
+      "linked_event_id": null,
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "already_processed": false,
+      "raw": {
+        "entities": {
+          "urls": [
+            {
+              "start": 190,
+              "end": 213,
+              "url": "https://t.co/aHYA3aHSbe",
+              "expanded_url": "https://x.com/info_myojou/status/2063216914235834731/photo/1",
+              "display_url": "pic.x.com/aHYA3aHSbe",
+              "media_key": "3_2063216909047525376"
+            }
+          ],
+          "mentions": [
+            {
+              "start": 177,
+              "end": 189,
+              "username": "myojou_ruka",
+              "id": "1981655668626165760"
+            }
+          ]
+        },
+        "text": "✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n                           ⟡.·*.御礼.*·.⟡\n              HIBANA Presents『導花閃』\n✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n\n本日は「HIBANA Presents『導花閃』」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka https://t.co/aHYA3aHSbe",
+        "attachments": {
+          "media_keys": [
+            "3_2063216909047525376"
+          ]
+        },
+        "created_at": "2026-06-06T11:10:19.000Z",
+        "edit_history_tweet_ids": [
+          "2063216914235834731"
+        ],
+        "id": "2063216914235834731",
+        "media": [
+          {
+            "media_key": "3_2063216909047525376",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HKIE2O5bcAAxvL2.jpg",
+            "width": 1477,
+            "height": 1108,
+            "alt_text": "M1,星景讃歌\nM2,yoakeno\nM3,蛍夏\nM4,CHRONOS\nM5,HeartBeat\nM6,アンチコンプリート\nM7,軌跡まで"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2063217018032328930",
+      "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n                 THE ENCORE presents\n                    「ラブコール vol.19」\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n🎙19:40-20:05\n📸21:00-22:00\n\n⟣date：6/29（月）\n⟣place :Spotify O-nest\n⟣open/start：19:20/19:40 https://t.co/ke1am7UQ2Q",
+      "created_at": "2026-06-06T11:10:44+00:00",
+      "url": "https://x.com/info_myojou/status/2063217018032328930",
+      "entities": {
+        "urls": [
+          {
+            "start": 213,
+            "end": 236,
+            "url": "https://t.co/ke1am7UQ2Q",
+            "expanded_url": "https://x.com/info_myojou/status/2063217018032328930/photo/1",
+            "display_url": "pic.x.com/ke1am7UQ2Q",
+            "media_key": "3_2063217011564703744"
+          }
+        ]
+      },
+      "attachments": {
+        "media_keys": [
+          "3_2063217011564703744"
+        ]
+      },
+      "referenced_tweets": [],
+      "media": [
+        {
+          "media_key": "3_2063217011564703744",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HKIE8MzbcAA_STm.jpg",
+          "width": 2481,
+          "height": 2888
+        }
+      ],
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "other"
+      },
+      "parsed_fields": {
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2063217018032328930",
+        "source_post_id": "2063217018032328930",
+        "source_posted_at": "2026-06-06T11:10:44Z",
+        "source_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n                 THE ENCORE presents\n                    「ラブコール vol.19」\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n🎙19:40-20:05\n📸21:00-22:00\n\n⟣date：6/29（月）\n⟣place :Spotify O-nest\n⟣open/start：19:20/19:40 https://t.co/ke1am7UQ2Q",
+        "source_raw": {
+          "entities": {
+            "urls": [
+              {
+                "start": 213,
+                "end": 236,
+                "url": "https://t.co/ke1am7UQ2Q",
+                "expanded_url": "https://x.com/info_myojou/status/2063217018032328930/photo/1",
+                "display_url": "pic.x.com/ke1am7UQ2Q",
+                "media_key": "3_2063217011564703744"
+              }
+            ]
+          },
+          "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n                 THE ENCORE presents\n                    「ラブコール vol.19」\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n🎙19:40-20:05\n📸21:00-22:00\n\n⟣date：6/29（月）\n⟣place :Spotify O-nest\n⟣open/start：19:20/19:40 https://t.co/ke1am7UQ2Q",
+          "attachments": {
+            "media_keys": [
+              "3_2063217011564703744"
+            ]
+          },
+          "created_at": "2026-06-06T11:10:44.000Z",
+          "edit_history_tweet_ids": [
+            "2063217018032328930"
+          ],
+          "id": "2063217018032328930",
+          "media": [
+            {
+              "media_key": "3_2063217011564703744",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HKIE8MzbcAA_STm.jpg",
+              "width": 2481,
+              "height": 2888
+            }
+          ]
+        },
+        "source_kind": "other",
+        "extraction_confidence": 0.85,
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-06-29",
+        "event_name": "ラブコール vol.19",
+        "venue": "Spotify O-nest",
+        "open_time": "19:20",
+        "start_time": "19:40",
+        "myojou_performance_time": null,
+        "benefit_event_time": null,
+        "ticket_url": null,
+        "general_ticket_price": null,
+        "priority_ticket_name": null,
+        "priority_ticket_price": null,
+        "same_day_ticket_price": null,
+        "ticket_application_start_at": null,
+        "ticket_application_deadline_at": null,
+        "lottery_result_at": null,
+        "payment_deadline_at": null,
+        "ticket_sale_type": null,
+        "ticket_sales": [],
+        "ticket_status": null,
+        "notes": null
+      },
+      "linked_event_id": "evt_719089b1e9704a0eb34a3160e614484e",
+      "needs_review": false,
+      "needs_review_reasons": [
+        "missing ticket deadline",
+        "classification: live post has date and structured event fields"
+      ],
+      "already_processed": false,
+      "raw": {
+        "entities": {
+          "urls": [
+            {
+              "start": 213,
+              "end": 236,
+              "url": "https://t.co/ke1am7UQ2Q",
+              "expanded_url": "https://x.com/info_myojou/status/2063217018032328930/photo/1",
+              "display_url": "pic.x.com/ke1am7UQ2Q",
+              "media_key": "3_2063217011564703744"
+            }
+          ]
+        },
+        "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n                 THE ENCORE presents\n                    「ラブコール vol.19」\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n🎙19:40-20:05\n📸21:00-22:00\n\n⟣date：6/29（月）\n⟣place :Spotify O-nest\n⟣open/start：19:20/19:40 https://t.co/ke1am7UQ2Q",
+        "attachments": {
+          "media_keys": [
+            "3_2063217011564703744"
+          ]
+        },
+        "created_at": "2026-06-06T11:10:44.000Z",
+        "edit_history_tweet_ids": [
+          "2063217018032328930"
+        ],
+        "id": "2063217018032328930",
+        "media": [
+          {
+            "media_key": "3_2063217011564703744",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HKIE8MzbcAA_STm.jpg",
+            "width": 2481,
+            "height": 2888
+          }
+        ]
+      }
+    },
+    {
+      "id": "2063217194763452547",
+      "text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n      なみだ色の消しごむ presents  \n             『Neat Meets vol.19』\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n🎙19:30-19:55\n📸終演後物販\n\n⟣date：6/13（土）\n⟣place : 白金高輪SELENE b2\n⟣open/start：10:00/10:30 https://t.co/91skSM5XBu",
+      "created_at": "2026-06-06T11:11:26+00:00",
+      "url": "https://x.com/info_myojou/status/2063217194763452547",
+      "entities": {
+        "urls": [
+          {
+            "start": 187,
+            "end": 210,
+            "url": "https://t.co/91skSM5XBu",
+            "expanded_url": "https://x.com/info_myojou/status/2063217194763452547/photo/1",
+            "display_url": "pic.x.com/91skSM5XBu",
+            "media_key": "3_2063217186098065408"
+          }
+        ]
+      },
+      "attachments": {
+        "media_keys": [
+          "3_2063217186098065408"
+        ]
+      },
+      "referenced_tweets": [],
+      "media": [
+        {
+          "media_key": "3_2063217186098065408",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HKIFGW_bMAAFIs0.jpg",
+          "width": 2552,
+          "height": 3579
+        }
+      ],
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "other"
+      },
+      "parsed_fields": {
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2063217194763452547",
+        "source_post_id": "2063217194763452547",
+        "source_posted_at": "2026-06-06T11:11:26Z",
+        "source_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n      なみだ色の消しごむ presents  \n             『Neat Meets vol.19』\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n🎙19:30-19:55\n📸終演後物販\n\n⟣date：6/13（土）\n⟣place : 白金高輪SELENE b2\n⟣open/start：10:00/10:30 https://t.co/91skSM5XBu",
+        "source_raw": {
+          "entities": {
+            "urls": [
+              {
+                "start": 187,
+                "end": 210,
+                "url": "https://t.co/91skSM5XBu",
+                "expanded_url": "https://x.com/info_myojou/status/2063217194763452547/photo/1",
+                "display_url": "pic.x.com/91skSM5XBu",
+                "media_key": "3_2063217186098065408"
+              }
+            ]
+          },
+          "text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n      なみだ色の消しごむ presents  \n             『Neat Meets vol.19』\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n🎙19:30-19:55\n📸終演後物販\n\n⟣date：6/13（土）\n⟣place : 白金高輪SELENE b2\n⟣open/start：10:00/10:30 https://t.co/91skSM5XBu",
+          "attachments": {
+            "media_keys": [
+              "3_2063217186098065408"
+            ]
+          },
+          "created_at": "2026-06-06T11:11:26.000Z",
+          "edit_history_tweet_ids": [
+            "2063217194763452547"
+          ],
+          "id": "2063217194763452547",
+          "media": [
+            {
+              "media_key": "3_2063217186098065408",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HKIFGW_bMAAFIs0.jpg",
+              "width": 2552,
+              "height": 3579
+            }
+          ]
+        },
+        "source_kind": "other",
+        "extraction_confidence": 0.85,
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-06-13",
+        "event_name": "Neat Meets vol.19",
+        "venue": "白金高輪SELENE b2",
+        "open_time": "10:00",
+        "start_time": "10:30",
+        "myojou_performance_time": null,
+        "benefit_event_time": null,
+        "ticket_url": null,
+        "general_ticket_price": null,
+        "priority_ticket_name": null,
+        "priority_ticket_price": null,
+        "same_day_ticket_price": null,
+        "ticket_application_start_at": null,
+        "ticket_application_deadline_at": null,
+        "lottery_result_at": null,
+        "payment_deadline_at": null,
+        "ticket_sale_type": null,
+        "ticket_sales": [],
+        "ticket_status": null,
+        "notes": null
+      },
+      "linked_event_id": "evt_3bbe5297b0f640ee92304552c9b318ad",
+      "needs_review": false,
+      "needs_review_reasons": [
+        "missing ticket deadline",
+        "classification: live post has date and structured event fields"
+      ],
+      "already_processed": false,
+      "raw": {
+        "entities": {
+          "urls": [
+            {
+              "start": 187,
+              "end": 210,
+              "url": "https://t.co/91skSM5XBu",
+              "expanded_url": "https://x.com/info_myojou/status/2063217194763452547/photo/1",
+              "display_url": "pic.x.com/91skSM5XBu",
+              "media_key": "3_2063217186098065408"
+            }
+          ]
+        },
+        "text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n      なみだ色の消しごむ presents  \n             『Neat Meets vol.19』\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n🎙19:30-19:55\n📸終演後物販\n\n⟣date：6/13（土）\n⟣place : 白金高輪SELENE b2\n⟣open/start：10:00/10:30 https://t.co/91skSM5XBu",
+        "attachments": {
+          "media_keys": [
+            "3_2063217186098065408"
+          ]
+        },
+        "created_at": "2026-06-06T11:11:26.000Z",
+        "edit_history_tweet_ids": [
+          "2063217194763452547"
+        ],
+        "id": "2063217194763452547",
+        "media": [
+          {
+            "media_key": "3_2063217186098065408",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HKIFGW_bMAAFIs0.jpg",
+            "width": 2552,
+            "height": 3579
+          }
+        ]
+      }
+    },
+    {
+      "id": "2063230555211346291",
+      "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n    TIF2026メインステージ争奪LIVE 前哨戦\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n明日myojouはTIF2026メインステージ争奪LIVE 前哨戦に挑みます。 https://t.co/aI5pBwLtt5",
+      "created_at": "2026-06-06T12:04:31+00:00",
+      "url": "https://x.com/info_myojou/status/2063230555211346291",
+      "entities": {
+        "urls": [
+          {
+            "start": 122,
+            "end": 145,
+            "url": "https://t.co/aI5pBwLtt5",
+            "expanded_url": "https://x.com/info_myojou/status/2063230555211346291/photo/1",
+            "display_url": "pic.x.com/aI5pBwLtt5",
+            "media_key": "3_2063230548659863552"
+          },
+          {
+            "start": 122,
+            "end": 145,
+            "url": "https://t.co/aI5pBwLtt5",
+            "expanded_url": "https://x.com/info_myojou/status/2063230555211346291/photo/1",
+            "display_url": "pic.x.com/aI5pBwLtt5",
+            "media_key": "3_2063230548626350080"
+          }
+        ]
+      },
+      "attachments": {
+        "media_keys": [
+          "3_2063230548659863552",
+          "3_2063230548626350080"
+        ]
+      },
+      "referenced_tweets": [],
+      "media": [
+        {
+          "media_key": "3_2063230548659863552",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HKIRQKabAAAQqdr.jpg",
+          "width": 1414,
+          "height": 2000
+        },
+        {
+          "media_key": "3_2063230548626350080",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HKIRQKSboAAC4Tf.jpg",
+          "width": 1414,
+          "height": 2000
+        }
+      ],
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "day_before_reminder"
+      },
+      "parsed_fields": {
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2063230555211346291",
+        "source_post_id": "2063230555211346291",
+        "source_posted_at": "2026-06-06T12:04:31Z",
+        "source_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n    TIF2026メインステージ争奪LIVE 前哨戦\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n明日myojouはTIF2026メインステージ争奪LIVE 前哨戦に挑みます。 https://t.co/aI5pBwLtt5",
+        "source_raw": {
+          "entities": {
+            "urls": [
+              {
+                "start": 122,
+                "end": 145,
+                "url": "https://t.co/aI5pBwLtt5",
+                "expanded_url": "https://x.com/info_myojou/status/2063230555211346291/photo/1",
+                "display_url": "pic.x.com/aI5pBwLtt5",
+                "media_key": "3_2063230548659863552"
+              },
+              {
+                "start": 122,
+                "end": 145,
+                "url": "https://t.co/aI5pBwLtt5",
+                "expanded_url": "https://x.com/info_myojou/status/2063230555211346291/photo/1",
+                "display_url": "pic.x.com/aI5pBwLtt5",
+                "media_key": "3_2063230548626350080"
+              }
+            ]
+          },
+          "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n    TIF2026メインステージ争奪LIVE 前哨戦\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n明日myojouはTIF2026メインステージ争奪LIVE 前哨戦に挑みます。 https://t.co/aI5pBwLtt5",
+          "attachments": {
+            "media_keys": [
+              "3_2063230548659863552",
+              "3_2063230548626350080"
+            ]
+          },
+          "created_at": "2026-06-06T12:04:31.000Z",
+          "edit_history_tweet_ids": [
+            "2063230555211346291"
+          ],
+          "id": "2063230555211346291",
+          "media": [
+            {
+              "media_key": "3_2063230548659863552",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HKIRQKabAAAQqdr.jpg",
+              "width": 1414,
+              "height": 2000
+            },
+            {
+              "media_key": "3_2063230548626350080",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HKIRQKSboAAC4Tf.jpg",
+              "width": 1414,
+              "height": 2000
+            }
+          ]
+        },
+        "source_kind": "day_before_reminder",
+        "extraction_confidence": 0.65,
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-06-07",
+        "event_name": "TIF2026メインステージ争奪LIVE 前哨戦",
+        "venue": null,
+        "open_time": null,
+        "start_time": null,
+        "myojou_performance_time": null,
+        "benefit_event_time": null,
+        "ticket_url": null,
+        "general_ticket_price": null,
+        "priority_ticket_name": null,
+        "priority_ticket_price": null,
+        "same_day_ticket_price": null,
+        "ticket_application_start_at": null,
+        "ticket_application_deadline_at": null,
+        "lottery_result_at": null,
+        "payment_deadline_at": null,
+        "ticket_sale_type": null,
+        "ticket_sales": [],
+        "ticket_status": null,
+        "notes": null
+      },
+      "linked_event_id": "evt_c9dffa6c71ff4ed6bf75a83b1e93ef9b",
+      "needs_review": false,
+      "needs_review_reasons": [
+        "missing venue",
+        "missing ticket deadline",
+        "classification: live post has date and structured event fields"
+      ],
+      "already_processed": false,
+      "raw": {
+        "entities": {
+          "urls": [
+            {
+              "start": 122,
+              "end": 145,
+              "url": "https://t.co/aI5pBwLtt5",
+              "expanded_url": "https://x.com/info_myojou/status/2063230555211346291/photo/1",
+              "display_url": "pic.x.com/aI5pBwLtt5",
+              "media_key": "3_2063230548659863552"
+            },
+            {
+              "start": 122,
+              "end": 145,
+              "url": "https://t.co/aI5pBwLtt5",
+              "expanded_url": "https://x.com/info_myojou/status/2063230555211346291/photo/1",
+              "display_url": "pic.x.com/aI5pBwLtt5",
+              "media_key": "3_2063230548626350080"
+            }
+          ]
+        },
+        "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n    TIF2026メインステージ争奪LIVE 前哨戦\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n明日myojouはTIF2026メインステージ争奪LIVE 前哨戦に挑みます。 https://t.co/aI5pBwLtt5",
+        "attachments": {
+          "media_keys": [
+            "3_2063230548659863552",
+            "3_2063230548626350080"
+          ]
+        },
+        "created_at": "2026-06-06T12:04:31.000Z",
+        "edit_history_tweet_ids": [
+          "2063230555211346291"
+        ],
+        "id": "2063230555211346291",
+        "media": [
+          {
+            "media_key": "3_2063230548659863552",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HKIRQKabAAAQqdr.jpg",
+            "width": 1414,
+            "height": 2000
+          },
+          {
+            "media_key": "3_2063230548626350080",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HKIRQKSboAAC4Tf.jpg",
+            "width": 1414,
+            "height": 2000
+          }
+        ]
+      }
+    },
+    {
+      "id": "2063490497730216132",
+      "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「TIF2026メインステージ争奪LIVE 前哨戦」\n\nこのあと、全てを出し切ります。\n\n⟣date：6/7（日）\n⟣place : GARDEN 新木場FACTORY\n⟣open/start：17:00/18:00\n⟣price：SOLD OUT\n\n【配信】\n🔗 https://t.co/DinIER6wYs\n\n #myojou https://t.co/3gROBrzi21",
+      "created_at": "2026-06-07T05:17:27+00:00",
+      "url": "https://x.com/info_myojou/status/2063490497730216132",
+      "entities": {
+        "hashtags": [
+          {
+            "start": 182,
+            "end": 189,
+            "tag": "myojou"
+          }
+        ],
+        "urls": [
+          {
+            "start": 156,
+            "end": 179,
+            "url": "https://t.co/DinIER6wYs",
+            "expanded_url": "https://sp.ch.nicovideo.jp/tokyoidolchannel",
+            "display_url": "sp.ch.nicovideo.jp/tokyoidolchann…",
+            "images": [
+              {
+                "url": "https://pbs.twimg.com/news_img/2062470844539138048/Ppj6rRy-?format=png&name=orig",
+                "width": 512,
+                "height": 512
+              },
+              {
+                "url": "https://pbs.twimg.com/news_img/2062470844539138048/Ppj6rRy-?format=png&name=150x150",
+                "width": 150,
+                "height": 150
+              }
+            ],
+            "status": 200,
+            "title": "TIFチャンネル - ニコニコチャンネル",
+            "description": "「TIFチャンネル」では、会員様限定向け番組を生配信しています。 TOKYO IDOL FESTIVAL の情報などTOKYO IDOL PROJECTにまつわる情報や、mini TIFのステージ配信などもお届けするアイドルチ...",
+            "unwound_url": "https://sp.ch.nicovideo.jp/tokyoidolchannel"
+          },
+          {
+            "start": 190,
+            "end": 213,
+            "url": "https://t.co/3gROBrzi21",
+            "expanded_url": "https://x.com/info_myojou/status/2063490497730216132/photo/1",
+            "display_url": "pic.x.com/3gROBrzi21",
+            "media_key": "3_2063490488368549889"
+          },
+          {
+            "start": 190,
+            "end": 213,
+            "url": "https://t.co/3gROBrzi21",
+            "expanded_url": "https://x.com/info_myojou/status/2063490497730216132/photo/1",
+            "display_url": "pic.x.com/3gROBrzi21",
+            "media_key": "3_2063490488347590656"
+          }
+        ]
+      },
+      "attachments": {
+        "media_keys": [
+          "3_2063490488368549889",
+          "3_2063490488347590656"
+        ]
+      },
+      "referenced_tweets": [],
+      "media": [
+        {
+          "media_key": "3_2063490488368549889",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HKL9qpSa0AEFZYe.jpg",
+          "width": 2508,
+          "height": 1673
+        },
+        {
+          "media_key": "3_2063490488347590656",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HKL9qpNbAAAugsr.jpg",
+          "width": 1414,
+          "height": 2000
+        }
+      ],
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "sold_out"
+      },
+      "parsed_fields": {
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2063490497730216132",
+        "source_post_id": "2063490497730216132",
+        "source_posted_at": "2026-06-07T05:17:27Z",
+        "source_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「TIF2026メインステージ争奪LIVE 前哨戦」\n\nこのあと、全てを出し切ります。\n\n⟣date：6/7（日）\n⟣place : GARDEN 新木場FACTORY\n⟣open/start：17:00/18:00\n⟣price：SOLD OUT\n\n【配信】\n🔗 https://t.co/DinIER6wYs\n\n #myojou https://t.co/3gROBrzi21",
+        "source_raw": {
+          "entities": {
+            "hashtags": [
+              {
+                "start": 182,
+                "end": 189,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "start": 156,
+                "end": 179,
+                "url": "https://t.co/DinIER6wYs",
+                "expanded_url": "https://sp.ch.nicovideo.jp/tokyoidolchannel",
+                "display_url": "sp.ch.nicovideo.jp/tokyoidolchann…",
+                "images": [
+                  {
+                    "url": "https://pbs.twimg.com/news_img/2062470844539138048/Ppj6rRy-?format=png&name=orig",
+                    "width": 512,
+                    "height": 512
+                  },
+                  {
+                    "url": "https://pbs.twimg.com/news_img/2062470844539138048/Ppj6rRy-?format=png&name=150x150",
+                    "width": 150,
+                    "height": 150
+                  }
+                ],
+                "status": 200,
+                "title": "TIFチャンネル - ニコニコチャンネル",
+                "description": "「TIFチャンネル」では、会員様限定向け番組を生配信しています。 TOKYO IDOL FESTIVAL の情報などTOKYO IDOL PROJECTにまつわる情報や、mini TIFのステージ配信などもお届けするアイドルチ...",
+                "unwound_url": "https://sp.ch.nicovideo.jp/tokyoidolchannel"
+              },
+              {
+                "start": 190,
+                "end": 213,
+                "url": "https://t.co/3gROBrzi21",
+                "expanded_url": "https://x.com/info_myojou/status/2063490497730216132/photo/1",
+                "display_url": "pic.x.com/3gROBrzi21",
+                "media_key": "3_2063490488368549889"
+              },
+              {
+                "start": 190,
+                "end": 213,
+                "url": "https://t.co/3gROBrzi21",
+                "expanded_url": "https://x.com/info_myojou/status/2063490497730216132/photo/1",
+                "display_url": "pic.x.com/3gROBrzi21",
+                "media_key": "3_2063490488347590656"
+              }
+            ]
+          },
+          "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「TIF2026メインステージ争奪LIVE 前哨戦」\n\nこのあと、全てを出し切ります。\n\n⟣date：6/7（日）\n⟣place : GARDEN 新木場FACTORY\n⟣open/start：17:00/18:00\n⟣price：SOLD OUT\n\n【配信】\n🔗 https://t.co/DinIER6wYs\n\n #myojou https://t.co/3gROBrzi21",
+          "attachments": {
+            "media_keys": [
+              "3_2063490488368549889",
+              "3_2063490488347590656"
+            ]
+          },
+          "created_at": "2026-06-07T05:17:27.000Z",
+          "edit_history_tweet_ids": [
+            "2063490497730216132"
+          ],
+          "id": "2063490497730216132",
+          "media": [
+            {
+              "media_key": "3_2063490488368549889",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HKL9qpSa0AEFZYe.jpg",
+              "width": 2508,
+              "height": 1673
+            },
+            {
+              "media_key": "3_2063490488347590656",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HKL9qpNbAAAugsr.jpg",
+              "width": 1414,
+              "height": 2000
+            }
+          ]
+        },
+        "source_kind": "sold_out",
+        "extraction_confidence": 0.9,
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-06-07",
+        "event_name": "TIF2026メインステージ争奪LIVE 前哨戦",
+        "venue": "GARDEN 新木場FACTORY",
+        "open_time": "17:00",
+        "start_time": "18:00",
+        "myojou_performance_time": null,
+        "benefit_event_time": null,
+        "ticket_url": "https://sp.ch.nicovideo.jp/tokyoidolchannel",
+        "general_ticket_price": null,
+        "priority_ticket_name": null,
+        "priority_ticket_price": null,
+        "same_day_ticket_price": null,
+        "ticket_application_start_at": null,
+        "ticket_application_deadline_at": null,
+        "lottery_result_at": null,
+        "payment_deadline_at": null,
+        "ticket_sale_type": null,
+        "ticket_sales": [],
+        "ticket_status": "sold_out",
+        "notes": null
+      },
+      "linked_event_id": "evt_c9dffa6c71ff4ed6bf75a83b1e93ef9b",
+      "needs_review": true,
+      "needs_review_reasons": [
+        "missing ticket deadline",
+        "classification: live post has date and structured event fields"
+      ],
+      "already_processed": false,
+      "raw": {
+        "entities": {
+          "hashtags": [
+            {
+              "start": 182,
+              "end": 189,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "start": 156,
+              "end": 179,
+              "url": "https://t.co/DinIER6wYs",
+              "expanded_url": "https://sp.ch.nicovideo.jp/tokyoidolchannel",
+              "display_url": "sp.ch.nicovideo.jp/tokyoidolchann…",
+              "images": [
+                {
+                  "url": "https://pbs.twimg.com/news_img/2062470844539138048/Ppj6rRy-?format=png&name=orig",
+                  "width": 512,
+                  "height": 512
+                },
+                {
+                  "url": "https://pbs.twimg.com/news_img/2062470844539138048/Ppj6rRy-?format=png&name=150x150",
+                  "width": 150,
+                  "height": 150
+                }
+              ],
+              "status": 200,
+              "title": "TIFチャンネル - ニコニコチャンネル",
+              "description": "「TIFチャンネル」では、会員様限定向け番組を生配信しています。 TOKYO IDOL FESTIVAL の情報などTOKYO IDOL PROJECTにまつわる情報や、mini TIFのステージ配信などもお届けするアイドルチ...",
+              "unwound_url": "https://sp.ch.nicovideo.jp/tokyoidolchannel"
+            },
+            {
+              "start": 190,
+              "end": 213,
+              "url": "https://t.co/3gROBrzi21",
+              "expanded_url": "https://x.com/info_myojou/status/2063490497730216132/photo/1",
+              "display_url": "pic.x.com/3gROBrzi21",
+              "media_key": "3_2063490488368549889"
+            },
+            {
+              "start": 190,
+              "end": 213,
+              "url": "https://t.co/3gROBrzi21",
+              "expanded_url": "https://x.com/info_myojou/status/2063490497730216132/photo/1",
+              "display_url": "pic.x.com/3gROBrzi21",
+              "media_key": "3_2063490488347590656"
+            }
+          ]
+        },
+        "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「TIF2026メインステージ争奪LIVE 前哨戦」\n\nこのあと、全てを出し切ります。\n\n⟣date：6/7（日）\n⟣place : GARDEN 新木場FACTORY\n⟣open/start：17:00/18:00\n⟣price：SOLD OUT\n\n【配信】\n🔗 https://t.co/DinIER6wYs\n\n #myojou https://t.co/3gROBrzi21",
+        "attachments": {
+          "media_keys": [
+            "3_2063490488368549889",
+            "3_2063490488347590656"
+          ]
+        },
+        "created_at": "2026-06-07T05:17:27.000Z",
+        "edit_history_tweet_ids": [
+          "2063490497730216132"
+        ],
+        "id": "2063490497730216132",
+        "media": [
+          {
+            "media_key": "3_2063490488368549889",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HKL9qpSa0AEFZYe.jpg",
+            "width": 2508,
+            "height": 1673
+          },
+          {
+            "media_key": "3_2063490488347590656",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HKL9qpNbAAAugsr.jpg",
+            "width": 1414,
+            "height": 2000
+          }
+        ]
+      }
+    },
+    {
+      "id": "2063612788044664989",
+      "text": "✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n                           ⟡.·*.御礼.*·.⟡\n   TIF2026メインステージ争奪LIVE 前哨戦\n✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n\n本日は「TIF2026メインステージ争奪LIVE 前哨戦」ありがとうございました⋆˙⟡ https://t.co/mJAlMCNsOV",
+      "created_at": "2026-06-07T13:23:23+00:00",
+      "url": "https://x.com/info_myojou/status/2063612788044664989",
+      "entities": {
+        "urls": [
+          {
+            "start": 165,
+            "end": 188,
+            "url": "https://t.co/mJAlMCNsOV",
+            "expanded_url": "https://x.com/info_myojou/status/2063612788044664989/photo/1",
+            "display_url": "pic.x.com/mJAlMCNsOV",
+            "media_key": "3_2063612778750103552"
+          }
+        ]
+      },
+      "attachments": {
+        "media_keys": [
+          "3_2063612778750103552"
+        ]
+      },
+      "referenced_tweets": [],
+      "media": [
+        {
+          "media_key": "3_2063612778750103552",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HKNs44dbUAABFrh.jpg",
+          "width": 4096,
+          "height": 2730,
+          "alt_text": "M1,星景讃歌\nM2,HeartBeat\nM3,CHRONOS\nM4,軌跡まで\nM5,アンチコンプリート"
+        }
+      ],
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "strong non-event keyword without live structure",
+        "source_kind": "same_day_reminder"
+      },
+      "parsed_fields": null,
+      "linked_event_id": null,
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "already_processed": false,
+      "raw": {
+        "entities": {
+          "urls": [
+            {
+              "start": 165,
+              "end": 188,
+              "url": "https://t.co/mJAlMCNsOV",
+              "expanded_url": "https://x.com/info_myojou/status/2063612788044664989/photo/1",
+              "display_url": "pic.x.com/mJAlMCNsOV",
+              "media_key": "3_2063612778750103552"
+            }
+          ]
+        },
+        "text": "✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n                           ⟡.·*.御礼.*·.⟡\n   TIF2026メインステージ争奪LIVE 前哨戦\n✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n\n本日は「TIF2026メインステージ争奪LIVE 前哨戦」ありがとうございました⋆˙⟡ https://t.co/mJAlMCNsOV",
+        "attachments": {
+          "media_keys": [
+            "3_2063612778750103552"
+          ]
+        },
+        "created_at": "2026-06-07T13:23:23.000Z",
+        "edit_history_tweet_ids": [
+          "2063612788044664989"
+        ],
+        "id": "2063612788044664989",
+        "media": [
+          {
+            "media_key": "3_2063612778750103552",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HKNs44dbUAABFrh.jpg",
+            "width": 4096,
+            "height": 2730,
+            "alt_text": "M1,星景讃歌\nM2,HeartBeat\nM3,CHRONOS\nM4,軌跡まで\nM5,アンチコンプリート"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2063616270218707012",
+      "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n                 𝑆𝑂𝐿𝐷 𝑂𝑈𝑇\n        𝐦𝐲𝐨𝐣𝐨𝐮 𝐨𝐧𝐞𝐦𝐚𝐧 𝐥𝐢𝐯𝐞\n                       明夏\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣date：2026/6/8(月)\n⟣place : Veats Shibuya\n⟣open/start：18:15/19:00\n⟣price：SOLD OUT https://t.co/xBi5ytCAhh",
+      "created_at": "2026-06-07T13:37:13+00:00",
+      "url": "https://x.com/info_myojou/status/2063616270218707012",
+      "entities": {
+        "urls": [
+          {
+            "start": 201,
+            "end": 224,
+            "url": "https://t.co/xBi5ytCAhh",
+            "expanded_url": "https://x.com/info_myojou/status/2063616270218707012/photo/1",
+            "display_url": "pic.x.com/xBi5ytCAhh",
+            "media_key": "3_2063616262715150336"
+          }
+        ]
+      },
+      "attachments": {
+        "media_keys": [
+          "3_2063616262715150336"
+        ]
+      },
+      "referenced_tweets": [],
+      "media": [
+        {
+          "media_key": "3_2063616262715150336",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HKNwDrPbEAATfSM.jpg",
+          "width": 1240,
+          "height": 1754
+        }
+      ],
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "sold_out"
+      },
+      "parsed_fields": {
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2063616270218707012",
+        "source_post_id": "2063616270218707012",
+        "source_posted_at": "2026-06-07T13:37:13Z",
+        "source_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n                 𝑆𝑂𝐿𝐷 𝑂𝑈𝑇\n        𝐦𝐲𝐨𝐣𝐨𝐮 𝐨𝐧𝐞𝐦𝐚𝐧 𝐥𝐢𝐯𝐞\n                       明夏\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣date：2026/6/8(月)\n⟣place : Veats Shibuya\n⟣open/start：18:15/19:00\n⟣price：SOLD OUT https://t.co/xBi5ytCAhh",
+        "source_raw": {
+          "entities": {
+            "urls": [
+              {
+                "start": 201,
+                "end": 224,
+                "url": "https://t.co/xBi5ytCAhh",
+                "expanded_url": "https://x.com/info_myojou/status/2063616270218707012/photo/1",
+                "display_url": "pic.x.com/xBi5ytCAhh",
+                "media_key": "3_2063616262715150336"
+              }
+            ]
+          },
+          "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n                 𝑆𝑂𝐿𝐷 𝑂𝑈𝑇\n        𝐦𝐲𝐨𝐣𝐨𝐮 𝐨𝐧𝐞𝐦𝐚𝐧 𝐥𝐢𝐯𝐞\n                       明夏\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣date：2026/6/8(月)\n⟣place : Veats Shibuya\n⟣open/start：18:15/19:00\n⟣price：SOLD OUT https://t.co/xBi5ytCAhh",
+          "attachments": {
+            "media_keys": [
+              "3_2063616262715150336"
+            ]
+          },
+          "created_at": "2026-06-07T13:37:13.000Z",
+          "edit_history_tweet_ids": [
+            "2063616270218707012"
+          ],
+          "id": "2063616270218707012",
+          "media": [
+            {
+              "media_key": "3_2063616262715150336",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HKNwDrPbEAATfSM.jpg",
+              "width": 1240,
+              "height": 1754
+            }
+          ]
+        },
+        "source_kind": "sold_out",
+        "extraction_confidence": 0.65,
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-06-08",
+        "event_name": null,
+        "venue": "Veats Shibuya",
+        "open_time": "18:15",
+        "start_time": "19:00",
+        "myojou_performance_time": null,
+        "benefit_event_time": null,
+        "ticket_url": null,
+        "general_ticket_price": null,
+        "priority_ticket_name": null,
+        "priority_ticket_price": null,
+        "same_day_ticket_price": null,
+        "ticket_application_start_at": null,
+        "ticket_application_deadline_at": null,
+        "lottery_result_at": null,
+        "payment_deadline_at": null,
+        "ticket_sale_type": null,
+        "ticket_sales": [],
+        "ticket_status": "sold_out",
+        "notes": null
+      },
+      "linked_event_id": "evt_91a330d2309449259ae68e003d5f367f",
+      "needs_review": false,
+      "needs_review_reasons": [
+        "missing event_name",
+        "missing ticket deadline",
+        "classification: live post has date and structured event fields"
+      ],
+      "already_processed": false,
+      "raw": {
+        "entities": {
+          "urls": [
+            {
+              "start": 201,
+              "end": 224,
+              "url": "https://t.co/xBi5ytCAhh",
+              "expanded_url": "https://x.com/info_myojou/status/2063616270218707012/photo/1",
+              "display_url": "pic.x.com/xBi5ytCAhh",
+              "media_key": "3_2063616262715150336"
+            }
+          ]
+        },
+        "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n                 𝑆𝑂𝐿𝐷 𝑂𝑈𝑇\n        𝐦𝐲𝐨𝐣𝐨𝐮 𝐨𝐧𝐞𝐦𝐚𝐧 𝐥𝐢𝐯𝐞\n                       明夏\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣date：2026/6/8(月)\n⟣place : Veats Shibuya\n⟣open/start：18:15/19:00\n⟣price：SOLD OUT https://t.co/xBi5ytCAhh",
+        "attachments": {
+          "media_keys": [
+            "3_2063616262715150336"
+          ]
+        },
+        "created_at": "2026-06-07T13:37:13.000Z",
+        "edit_history_tweet_ids": [
+          "2063616270218707012"
+        ],
+        "id": "2063616270218707012",
+        "media": [
+          {
+            "media_key": "3_2063616262715150336",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HKNwDrPbEAATfSM.jpg",
+            "width": 1240,
+            "height": 1754
+          }
+        ]
+      }
+    },
+    {
+      "id": "2063629163001774232",
+      "text": "✮••┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈••✮\n                     𝐿𝐼𝑉𝐸 𝐷𝐼𝐺𝐸𝑆𝑇 \nTIF2026メインステージ争奪LIVE 前哨戦\n✮••┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈••✮ https://t.co/lGEGsm1Rue",
+      "created_at": "2026-06-07T14:28:27+00:00",
+      "url": "https://x.com/info_myojou/status/2063629163001774232",
+      "entities": {
+        "urls": [
+          {
+            "start": 103,
+            "end": 126,
+            "url": "https://t.co/lGEGsm1Rue",
+            "expanded_url": "https://x.com/info_myojou/status/2063629163001774232/video/1",
+            "display_url": "pic.x.com/lGEGsm1Rue",
+            "media_key": "13_2063628790551756800"
+          }
+        ]
+      },
+      "attachments": {
+        "media_keys": [
+          "13_2063628790551756800"
+        ]
+      },
+      "referenced_tweets": [],
+      "media": [
+        {
+          "media_key": "13_2063628790551756800",
+          "type": "video",
+          "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2063628790551756800/img/rtFvNtjjyfGQo6SW.jpg",
+          "width": 1920,
+          "height": 1080
+        }
+      ],
+      "classification": {
+        "classification": "event",
+        "confidence": "medium",
+        "reason": "live keywords with partial structured information",
+        "source_kind": "initial_announcement"
+      },
+      "parsed_fields": {
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2063629163001774232",
+        "source_post_id": "2063629163001774232",
+        "source_posted_at": "2026-06-07T14:28:27Z",
+        "source_text": "✮••┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈••✮\n                     𝐿𝐼𝑉𝐸 𝐷𝐼𝐺𝐸𝑆𝑇 \nTIF2026メインステージ争奪LIVE 前哨戦\n✮••┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈••✮ https://t.co/lGEGsm1Rue",
+        "source_raw": {
+          "entities": {
+            "urls": [
+              {
+                "start": 103,
+                "end": 126,
+                "url": "https://t.co/lGEGsm1Rue",
+                "expanded_url": "https://x.com/info_myojou/status/2063629163001774232/video/1",
+                "display_url": "pic.x.com/lGEGsm1Rue",
+                "media_key": "13_2063628790551756800"
+              }
+            ]
+          },
+          "text": "✮••┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈••✮\n                     𝐿𝐼𝑉𝐸 𝐷𝐼𝐺𝐸𝑆𝑇 \nTIF2026メインステージ争奪LIVE 前哨戦\n✮••┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈••✮ https://t.co/lGEGsm1Rue",
+          "attachments": {
+            "media_keys": [
+              "13_2063628790551756800"
+            ]
+          },
+          "created_at": "2026-06-07T14:28:27.000Z",
+          "edit_history_tweet_ids": [
+            "2063629163001774232"
+          ],
+          "id": "2063629163001774232",
+          "media": [
+            {
+              "media_key": "13_2063628790551756800",
+              "type": "video",
+              "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2063628790551756800/img/rtFvNtjjyfGQo6SW.jpg",
+              "width": 1920,
+              "height": 1080
+            }
+          ]
+        },
+        "source_kind": "initial_announcement",
+        "extraction_confidence": 0.4,
+        "classification": "event",
+        "classification_confidence": "medium",
+        "classification_reason": "live keywords with partial structured information",
+        "event_date": null,
+        "event_name": "LIVE DIGEST",
+        "venue": null,
+        "open_time": null,
+        "start_time": null,
+        "myojou_performance_time": null,
+        "benefit_event_time": null,
+        "ticket_url": null,
+        "general_ticket_price": null,
+        "priority_ticket_name": null,
+        "priority_ticket_price": null,
+        "same_day_ticket_price": null,
+        "ticket_application_start_at": null,
+        "ticket_application_deadline_at": null,
+        "lottery_result_at": null,
+        "payment_deadline_at": null,
+        "ticket_sale_type": null,
+        "ticket_sales": [],
+        "ticket_status": null,
+        "notes": null
+      },
+      "linked_event_id": "evt_84d9a984ce794ff3b0a43b9714ffba13",
+      "needs_review": true,
+      "needs_review_reasons": [
+        "missing venue",
+        "missing ticket deadline",
+        "classification: live keywords with partial structured information"
+      ],
+      "already_processed": false,
+      "raw": {
+        "entities": {
+          "urls": [
+            {
+              "start": 103,
+              "end": 126,
+              "url": "https://t.co/lGEGsm1Rue",
+              "expanded_url": "https://x.com/info_myojou/status/2063629163001774232/video/1",
+              "display_url": "pic.x.com/lGEGsm1Rue",
+              "media_key": "13_2063628790551756800"
+            }
+          ]
+        },
+        "text": "✮••┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈••✮\n                     𝐿𝐼𝑉𝐸 𝐷𝐼𝐺𝐸𝑆𝑇 \nTIF2026メインステージ争奪LIVE 前哨戦\n✮••┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈••✮ https://t.co/lGEGsm1Rue",
+        "attachments": {
+          "media_keys": [
+            "13_2063628790551756800"
+          ]
+        },
+        "created_at": "2026-06-07T14:28:27.000Z",
+        "edit_history_tweet_ids": [
+          "2063629163001774232"
+        ],
+        "id": "2063629163001774232",
+        "media": [
+          {
+            "media_key": "13_2063628790551756800",
+            "type": "video",
+            "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2063628790551756800/img/rtFvNtjjyfGQo6SW.jpg",
+            "width": 1920,
+            "height": 1080
+          }
+        ]
+      }
+    },
+    {
+      "id": "2063644808548327828",
+      "text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n        myojou oneman live \"明夏\"\n                  アフター特典会\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：6/9（火）\n⟣place : ふれあい貸し会議室 渋谷No.77\n（東京都渋谷区渋谷2丁目22-6 幸話ビル3階） https://t.co/QLNxRmgNPH",
+      "created_at": "2026-06-07T15:30:37+00:00",
+      "url": "https://x.com/info_myojou/status/2063644808548327828",
+      "entities": {
+        "urls": [
+          {
+            "start": 168,
+            "end": 191,
+            "url": "https://t.co/QLNxRmgNPH",
+            "expanded_url": "https://x.com/info_myojou/status/2063644808548327828/photo/1",
+            "display_url": "pic.x.com/QLNxRmgNPH",
+            "media_key": "3_2063644801598369792"
+          }
+        ]
+      },
+      "attachments": {
+        "media_keys": [
+          "3_2063644801598369792"
+        ]
+      },
+      "referenced_tweets": [],
+      "media": [
+        {
+          "media_key": "3_2063644801598369792",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HKOKA23aMAARO-E.jpg",
+          "width": 1240,
+          "height": 1754
+        }
+      ],
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "initial_announcement"
+      },
+      "parsed_fields": {
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2063644808548327828",
+        "source_post_id": "2063644808548327828",
+        "source_posted_at": "2026-06-07T15:30:37Z",
+        "source_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n        myojou oneman live \"明夏\"\n                  アフター特典会\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：6/9（火）\n⟣place : ふれあい貸し会議室 渋谷No.77\n（東京都渋谷区渋谷2丁目22-6 幸話ビル3階） https://t.co/QLNxRmgNPH",
+        "source_raw": {
+          "entities": {
+            "urls": [
+              {
+                "start": 168,
+                "end": 191,
+                "url": "https://t.co/QLNxRmgNPH",
+                "expanded_url": "https://x.com/info_myojou/status/2063644808548327828/photo/1",
+                "display_url": "pic.x.com/QLNxRmgNPH",
+                "media_key": "3_2063644801598369792"
+              }
+            ]
+          },
+          "text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n        myojou oneman live \"明夏\"\n                  アフター特典会\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：6/9（火）\n⟣place : ふれあい貸し会議室 渋谷No.77\n（東京都渋谷区渋谷2丁目22-6 幸話ビル3階） https://t.co/QLNxRmgNPH",
+          "attachments": {
+            "media_keys": [
+              "3_2063644801598369792"
+            ]
+          },
+          "created_at": "2026-06-07T15:30:37.000Z",
+          "edit_history_tweet_ids": [
+            "2063644808548327828"
+          ],
+          "id": "2063644808548327828",
+          "media": [
+            {
+              "media_key": "3_2063644801598369792",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HKOKA23aMAARO-E.jpg",
+              "width": 1240,
+              "height": 1754
+            }
+          ]
+        },
+        "source_kind": "initial_announcement",
+        "extraction_confidence": 0.75,
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-06-09",
+        "event_name": "明夏",
+        "venue": "ふれあい貸し会議室 渋谷No.77",
+        "open_time": null,
+        "start_time": null,
+        "myojou_performance_time": null,
+        "benefit_event_time": null,
+        "ticket_url": null,
+        "general_ticket_price": null,
+        "priority_ticket_name": null,
+        "priority_ticket_price": null,
+        "same_day_ticket_price": null,
+        "ticket_application_start_at": null,
+        "ticket_application_deadline_at": null,
+        "lottery_result_at": null,
+        "payment_deadline_at": null,
+        "ticket_sale_type": null,
+        "ticket_sales": [],
+        "ticket_status": null,
+        "notes": null
+      },
+      "linked_event_id": "evt_ce98073582784539bde1adbc5094f4b1",
+      "needs_review": false,
+      "needs_review_reasons": [
+        "missing ticket deadline",
+        "classification: live post has date and structured event fields"
+      ],
+      "already_processed": false,
+      "raw": {
+        "entities": {
+          "urls": [
+            {
+              "start": 168,
+              "end": 191,
+              "url": "https://t.co/QLNxRmgNPH",
+              "expanded_url": "https://x.com/info_myojou/status/2063644808548327828/photo/1",
+              "display_url": "pic.x.com/QLNxRmgNPH",
+              "media_key": "3_2063644801598369792"
+            }
+          ]
+        },
+        "text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n        myojou oneman live \"明夏\"\n                  アフター特典会\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：6/9（火）\n⟣place : ふれあい貸し会議室 渋谷No.77\n（東京都渋谷区渋谷2丁目22-6 幸話ビル3階） https://t.co/QLNxRmgNPH",
+        "attachments": {
+          "media_keys": [
+            "3_2063644801598369792"
+          ]
+        },
+        "created_at": "2026-06-07T15:30:37.000Z",
+        "edit_history_tweet_ids": [
+          "2063644808548327828"
+        ],
+        "id": "2063644808548327828",
+        "media": [
+          {
+            "media_key": "3_2063644801598369792",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HKOKA23aMAARO-E.jpg",
+            "width": 1240,
+            "height": 1754
+          }
+        ]
+      }
+    },
+    {
+      "id": "2063824981696680308",
+      "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n            TOKYO IDOL FESTIVAL 2026\n         supported by にしたんクリニック\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：7/31（金）、8/2（日）\n⟣place : お台場・青海周辺エリア https://t.co/YjQ3cvmkA0",
+      "created_at": "2026-06-08T03:26:34+00:00",
+      "url": "https://x.com/info_myojou/status/2063824981696680308",
+      "entities": {
+        "urls": [
+          {
+            "start": 164,
+            "end": 187,
+            "url": "https://t.co/YjQ3cvmkA0",
+            "expanded_url": "https://x.com/info_myojou/status/2063824981696680308/photo/1",
+            "display_url": "pic.x.com/YjQ3cvmkA0",
+            "media_key": "3_2063824538996187136"
+          },
+          {
+            "start": 164,
+            "end": 187,
+            "url": "https://t.co/YjQ3cvmkA0",
+            "expanded_url": "https://x.com/info_myojou/status/2063824981696680308/photo/1",
+            "display_url": "pic.x.com/YjQ3cvmkA0",
+            "media_key": "3_2063824977372356609"
+          },
+          {
+            "start": 164,
+            "end": 187,
+            "url": "https://t.co/YjQ3cvmkA0",
+            "expanded_url": "https://x.com/info_myojou/status/2063824981696680308/photo/1",
+            "display_url": "pic.x.com/YjQ3cvmkA0",
+            "media_key": "3_2063824977351340032"
+          }
+        ]
+      },
+      "attachments": {
+        "media_keys": [
+          "3_2063824538996187136",
+          "3_2063824977372356609",
+          "3_2063824977351340032"
+        ]
+      },
+      "referenced_tweets": [],
+      "media": [
+        {
+          "media_key": "3_2063824538996187136",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HKQte82aIAAdqiB.jpg",
+          "width": 4078,
+          "height": 2719
+        },
+        {
+          "media_key": "3_2063824977372356609",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HKQt4d7boAEu1Vx.jpg",
+          "width": 1160,
+          "height": 520
+        },
+        {
+          "media_key": "3_2063824977351340032",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HKQt4d2a8AA_-nf.jpg",
+          "width": 1160,
+          "height": 520
+        }
+      ],
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "other"
+      },
+      "parsed_fields": {
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2063824981696680308",
+        "source_post_id": "2063824981696680308",
+        "source_posted_at": "2026-06-08T03:26:34Z",
+        "source_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n            TOKYO IDOL FESTIVAL 2026\n         supported by にしたんクリニック\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：7/31（金）、8/2（日）\n⟣place : お台場・青海周辺エリア https://t.co/YjQ3cvmkA0",
+        "source_raw": {
+          "entities": {
+            "urls": [
+              {
+                "start": 164,
+                "end": 187,
+                "url": "https://t.co/YjQ3cvmkA0",
+                "expanded_url": "https://x.com/info_myojou/status/2063824981696680308/photo/1",
+                "display_url": "pic.x.com/YjQ3cvmkA0",
+                "media_key": "3_2063824538996187136"
+              },
+              {
+                "start": 164,
+                "end": 187,
+                "url": "https://t.co/YjQ3cvmkA0",
+                "expanded_url": "https://x.com/info_myojou/status/2063824981696680308/photo/1",
+                "display_url": "pic.x.com/YjQ3cvmkA0",
+                "media_key": "3_2063824977372356609"
+              },
+              {
+                "start": 164,
+                "end": 187,
+                "url": "https://t.co/YjQ3cvmkA0",
+                "expanded_url": "https://x.com/info_myojou/status/2063824981696680308/photo/1",
+                "display_url": "pic.x.com/YjQ3cvmkA0",
+                "media_key": "3_2063824977351340032"
+              }
+            ]
+          },
+          "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n            TOKYO IDOL FESTIVAL 2026\n         supported by にしたんクリニック\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：7/31（金）、8/2（日）\n⟣place : お台場・青海周辺エリア https://t.co/YjQ3cvmkA0",
+          "attachments": {
+            "media_keys": [
+              "3_2063824538996187136",
+              "3_2063824977372356609",
+              "3_2063824977351340032"
+            ]
+          },
+          "created_at": "2026-06-08T03:26:34.000Z",
+          "edit_history_tweet_ids": [
+            "2063824546659238366",
+            "2063824981696680308"
+          ],
+          "id": "2063824981696680308",
+          "media": [
+            {
+              "media_key": "3_2063824538996187136",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HKQte82aIAAdqiB.jpg",
+              "width": 4078,
+              "height": 2719
+            },
+            {
+              "media_key": "3_2063824977372356609",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HKQt4d7boAEu1Vx.jpg",
+              "width": 1160,
+              "height": 520
+            },
+            {
+              "media_key": "3_2063824977351340032",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HKQt4d2a8AA_-nf.jpg",
+              "width": 1160,
+              "height": 520
+            }
+          ]
+        },
+        "source_kind": "other",
+        "extraction_confidence": 0.75,
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-07-31",
+        "event_name": "TOKYO IDOL FESTIVAL 2026",
+        "venue": "お台場・青海周辺エリア",
+        "open_time": null,
+        "start_time": null,
+        "myojou_performance_time": null,
+        "benefit_event_time": null,
+        "ticket_url": null,
+        "general_ticket_price": null,
+        "priority_ticket_name": null,
+        "priority_ticket_price": null,
+        "same_day_ticket_price": null,
+        "ticket_application_start_at": null,
+        "ticket_application_deadline_at": null,
+        "lottery_result_at": null,
+        "payment_deadline_at": null,
+        "ticket_sale_type": null,
+        "ticket_sales": [],
+        "ticket_status": null,
+        "notes": null
+      },
+      "linked_event_id": "evt_bcaf0fa61536431898529a2709da5ccf",
+      "needs_review": false,
+      "needs_review_reasons": [
+        "missing ticket deadline",
+        "classification: live post has date and structured event fields"
+      ],
+      "already_processed": false,
+      "raw": {
+        "entities": {
+          "urls": [
+            {
+              "start": 164,
+              "end": 187,
+              "url": "https://t.co/YjQ3cvmkA0",
+              "expanded_url": "https://x.com/info_myojou/status/2063824981696680308/photo/1",
+              "display_url": "pic.x.com/YjQ3cvmkA0",
+              "media_key": "3_2063824538996187136"
+            },
+            {
+              "start": 164,
+              "end": 187,
+              "url": "https://t.co/YjQ3cvmkA0",
+              "expanded_url": "https://x.com/info_myojou/status/2063824981696680308/photo/1",
+              "display_url": "pic.x.com/YjQ3cvmkA0",
+              "media_key": "3_2063824977372356609"
+            },
+            {
+              "start": 164,
+              "end": 187,
+              "url": "https://t.co/YjQ3cvmkA0",
+              "expanded_url": "https://x.com/info_myojou/status/2063824981696680308/photo/1",
+              "display_url": "pic.x.com/YjQ3cvmkA0",
+              "media_key": "3_2063824977351340032"
+            }
+          ]
+        },
+        "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n            TOKYO IDOL FESTIVAL 2026\n         supported by にしたんクリニック\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：7/31（金）、8/2（日）\n⟣place : お台場・青海周辺エリア https://t.co/YjQ3cvmkA0",
+        "attachments": {
+          "media_keys": [
+            "3_2063824538996187136",
+            "3_2063824977372356609",
+            "3_2063824977351340032"
+          ]
+        },
+        "created_at": "2026-06-08T03:26:34.000Z",
+        "edit_history_tweet_ids": [
+          "2063824546659238366",
+          "2063824981696680308"
+        ],
+        "id": "2063824981696680308",
+        "media": [
+          {
+            "media_key": "3_2063824538996187136",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HKQte82aIAAdqiB.jpg",
+            "width": 4078,
+            "height": 2719
+          },
+          {
+            "media_key": "3_2063824977372356609",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HKQt4d7boAEu1Vx.jpg",
+            "width": 1160,
+            "height": 520
+          },
+          {
+            "media_key": "3_2063824977351340032",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HKQt4d2a8AA_-nf.jpg",
+            "width": 1160,
+            "height": 520
+          }
+        ]
+      }
+    },
+    {
+      "id": "2063849253471141988",
+      "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「𝐦𝐲𝐨𝐣𝐨𝐮 𝐨𝐧𝐞𝐦𝐚𝐧 𝐥𝐢𝐯𝐞 明夏」\n\n⟣date：2026/6/8(月)\n⟣place : Veats Shibuya\n⟣open/start：18:15/19:00\n⟣price：SOLD OUT \n※当日券の販売はございません\n\n&lt;特典会特別レギュレーション&gt;\n･当日購入した特典券のみ使用可能 https://t.co/GAnG1ewr7O",
+      "created_at": "2026-06-08T05:03:01+00:00",
+      "url": "https://x.com/info_myojou/status/2063849253471141988",
+      "entities": {
+        "urls": [
+          {
+            "start": 185,
+            "end": 208,
+            "url": "https://t.co/GAnG1ewr7O",
+            "expanded_url": "https://x.com/info_myojou/status/2063849253471141988/photo/1",
+            "display_url": "pic.x.com/GAnG1ewr7O",
+            "media_key": "3_2063849199138131968"
+          },
+          {
+            "start": 185,
+            "end": 208,
+            "url": "https://t.co/GAnG1ewr7O",
+            "expanded_url": "https://x.com/info_myojou/status/2063849253471141988/photo/1",
+            "display_url": "pic.x.com/GAnG1ewr7O",
+            "media_key": "3_2063849199180087296"
+          },
+          {
+            "start": 185,
+            "end": 208,
+            "url": "https://t.co/GAnG1ewr7O",
+            "expanded_url": "https://x.com/info_myojou/status/2063849253471141988/photo/1",
+            "display_url": "pic.x.com/GAnG1ewr7O",
+            "media_key": "3_2063849199129833472"
+          },
+          {
+            "start": 185,
+            "end": 208,
+            "url": "https://t.co/GAnG1ewr7O",
+            "expanded_url": "https://x.com/info_myojou/status/2063849253471141988/photo/1",
+            "display_url": "pic.x.com/GAnG1ewr7O",
+            "media_key": "3_2063849199146520577"
+          }
+        ]
+      },
+      "attachments": {
+        "media_keys": [
+          "3_2063849199138131968",
+          "3_2063849199180087296",
+          "3_2063849199129833472",
+          "3_2063849199146520577"
+        ]
+      },
+      "referenced_tweets": [],
+      "media": [
+        {
+          "media_key": "3_2063849199138131968",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HKRD6XCaUAAUVsN.jpg",
+          "width": 1240,
+          "height": 1754
+        },
+        {
+          "media_key": "3_2063849199180087296",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HKRD6XMagAAE2Sd.jpg",
+          "width": 1240,
+          "height": 1754
+        },
+        {
+          "media_key": "3_2063849199129833472",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HKRD6XAbsAAxAB6.jpg",
+          "width": 1240,
+          "height": 1754
+        },
+        {
+          "media_key": "3_2063849199146520577",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HKRD6XEaUAEnO8C.jpg",
+          "width": 2481,
+          "height": 3508
+        }
+      ],
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "sold_out"
+      },
+      "parsed_fields": {
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2063849253471141988",
+        "source_post_id": "2063849253471141988",
+        "source_posted_at": "2026-06-08T05:03:01Z",
+        "source_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「𝐦𝐲𝐨𝐣𝐨𝐮 𝐨𝐧𝐞𝐦𝐚𝐧 𝐥𝐢𝐯𝐞 明夏」\n\n⟣date：2026/6/8(月)\n⟣place : Veats Shibuya\n⟣open/start：18:15/19:00\n⟣price：SOLD OUT \n※当日券の販売はございません\n\n&lt;特典会特別レギュレーション&gt;\n･当日購入した特典券のみ使用可能 https://t.co/GAnG1ewr7O",
+        "source_raw": {
+          "entities": {
+            "urls": [
+              {
+                "start": 185,
+                "end": 208,
+                "url": "https://t.co/GAnG1ewr7O",
+                "expanded_url": "https://x.com/info_myojou/status/2063849253471141988/photo/1",
+                "display_url": "pic.x.com/GAnG1ewr7O",
+                "media_key": "3_2063849199138131968"
+              },
+              {
+                "start": 185,
+                "end": 208,
+                "url": "https://t.co/GAnG1ewr7O",
+                "expanded_url": "https://x.com/info_myojou/status/2063849253471141988/photo/1",
+                "display_url": "pic.x.com/GAnG1ewr7O",
+                "media_key": "3_2063849199180087296"
+              },
+              {
+                "start": 185,
+                "end": 208,
+                "url": "https://t.co/GAnG1ewr7O",
+                "expanded_url": "https://x.com/info_myojou/status/2063849253471141988/photo/1",
+                "display_url": "pic.x.com/GAnG1ewr7O",
+                "media_key": "3_2063849199129833472"
+              },
+              {
+                "start": 185,
+                "end": 208,
+                "url": "https://t.co/GAnG1ewr7O",
+                "expanded_url": "https://x.com/info_myojou/status/2063849253471141988/photo/1",
+                "display_url": "pic.x.com/GAnG1ewr7O",
+                "media_key": "3_2063849199146520577"
+              }
+            ]
+          },
+          "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「𝐦𝐲𝐨𝐣𝐨𝐮 𝐨𝐧𝐞𝐦𝐚𝐧 𝐥𝐢𝐯𝐞 明夏」\n\n⟣date：2026/6/8(月)\n⟣place : Veats Shibuya\n⟣open/start：18:15/19:00\n⟣price：SOLD OUT \n※当日券の販売はございません\n\n&lt;特典会特別レギュレーション&gt;\n･当日購入した特典券のみ使用可能 https://t.co/GAnG1ewr7O",
+          "attachments": {
+            "media_keys": [
+              "3_2063849199138131968",
+              "3_2063849199180087296",
+              "3_2063849199129833472",
+              "3_2063849199146520577"
+            ]
+          },
+          "created_at": "2026-06-08T05:03:01.000Z",
+          "edit_history_tweet_ids": [
+            "2063849253471141988"
+          ],
+          "id": "2063849253471141988",
+          "media": [
+            {
+              "media_key": "3_2063849199138131968",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HKRD6XCaUAAUVsN.jpg",
+              "width": 1240,
+              "height": 1754
+            },
+            {
+              "media_key": "3_2063849199180087296",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HKRD6XMagAAE2Sd.jpg",
+              "width": 1240,
+              "height": 1754
+            },
+            {
+              "media_key": "3_2063849199129833472",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HKRD6XAbsAAxAB6.jpg",
+              "width": 1240,
+              "height": 1754
+            },
+            {
+              "media_key": "3_2063849199146520577",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HKRD6XEaUAEnO8C.jpg",
+              "width": 2481,
+              "height": 3508
+            }
+          ]
+        },
+        "source_kind": "sold_out",
+        "extraction_confidence": 0.85,
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-06-08",
+        "event_name": "myojou oneman live 明夏",
+        "venue": "Veats Shibuya",
+        "open_time": "18:15",
+        "start_time": "19:00",
+        "myojou_performance_time": null,
+        "benefit_event_time": null,
+        "ticket_url": null,
+        "general_ticket_price": null,
+        "priority_ticket_name": null,
+        "priority_ticket_price": null,
+        "same_day_ticket_price": null,
+        "ticket_application_start_at": null,
+        "ticket_application_deadline_at": null,
+        "lottery_result_at": null,
+        "payment_deadline_at": null,
+        "ticket_sale_type": "当日券",
+        "ticket_sales": [
+          {
+            "sale_type": "当日券",
+            "ticket_name": "一般",
+            "ticket_tier": "一般",
+            "price": null,
+            "start_at": null,
+            "deadline_at": null,
+            "result_at": null,
+            "payment_deadline_at": null,
+            "status": "不明",
+            "source_url": "https://x.com/info_myojou/status/2063849253471141988",
+            "source_post_id": "2063849253471141988",
+            "notes": null
+          }
+        ],
+        "ticket_status": "sold_out",
+        "notes": null
+      },
+      "linked_event_id": "evt_91a330d2309449259ae68e003d5f367f",
+      "needs_review": true,
+      "needs_review_reasons": [
+        "missing ticket deadline",
+        "ambiguous event match",
+        "classification: live post has date and structured event fields"
+      ],
+      "already_processed": false,
+      "raw": {
+        "entities": {
+          "urls": [
+            {
+              "start": 185,
+              "end": 208,
+              "url": "https://t.co/GAnG1ewr7O",
+              "expanded_url": "https://x.com/info_myojou/status/2063849253471141988/photo/1",
+              "display_url": "pic.x.com/GAnG1ewr7O",
+              "media_key": "3_2063849199138131968"
+            },
+            {
+              "start": 185,
+              "end": 208,
+              "url": "https://t.co/GAnG1ewr7O",
+              "expanded_url": "https://x.com/info_myojou/status/2063849253471141988/photo/1",
+              "display_url": "pic.x.com/GAnG1ewr7O",
+              "media_key": "3_2063849199180087296"
+            },
+            {
+              "start": 185,
+              "end": 208,
+              "url": "https://t.co/GAnG1ewr7O",
+              "expanded_url": "https://x.com/info_myojou/status/2063849253471141988/photo/1",
+              "display_url": "pic.x.com/GAnG1ewr7O",
+              "media_key": "3_2063849199129833472"
+            },
+            {
+              "start": 185,
+              "end": 208,
+              "url": "https://t.co/GAnG1ewr7O",
+              "expanded_url": "https://x.com/info_myojou/status/2063849253471141988/photo/1",
+              "display_url": "pic.x.com/GAnG1ewr7O",
+              "media_key": "3_2063849199146520577"
+            }
+          ]
+        },
+        "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「𝐦𝐲𝐨𝐣𝐨𝐮 𝐨𝐧𝐞𝐦𝐚𝐧 𝐥𝐢𝐯𝐞 明夏」\n\n⟣date：2026/6/8(月)\n⟣place : Veats Shibuya\n⟣open/start：18:15/19:00\n⟣price：SOLD OUT \n※当日券の販売はございません\n\n&lt;特典会特別レギュレーション&gt;\n･当日購入した特典券のみ使用可能 https://t.co/GAnG1ewr7O",
+        "attachments": {
+          "media_keys": [
+            "3_2063849199138131968",
+            "3_2063849199180087296",
+            "3_2063849199129833472",
+            "3_2063849199146520577"
+          ]
+        },
+        "created_at": "2026-06-08T05:03:01.000Z",
+        "edit_history_tweet_ids": [
+          "2063849253471141988"
+        ],
+        "id": "2063849253471141988",
+        "media": [
+          {
+            "media_key": "3_2063849199138131968",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HKRD6XCaUAAUVsN.jpg",
+            "width": 1240,
+            "height": 1754
+          },
+          {
+            "media_key": "3_2063849199180087296",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HKRD6XMagAAE2Sd.jpg",
+            "width": 1240,
+            "height": 1754
+          },
+          {
+            "media_key": "3_2063849199129833472",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HKRD6XAbsAAxAB6.jpg",
+            "width": 1240,
+            "height": 1754
+          },
+          {
+            "media_key": "3_2063849199146520577",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HKRD6XEaUAEnO8C.jpg",
+            "width": 2481,
+            "height": 3508
+          }
+        ]
+      }
+    },
+    {
+      "id": "2063865003917410549",
+      "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n                 生配信決定\n        𝐦𝐲𝐨𝐣𝐨𝐮 𝐨𝐧𝐞𝐦𝐚𝐧 𝐥𝐢𝐯𝐞\n                       明夏\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣date：2026/6/8(月)\n⟣place : Veats Shibuya\n⟣open/start：18:15/19:00\n⟣price：SOLD OUT",
+      "created_at": "2026-06-08T06:05:36+00:00",
+      "url": "https://x.com/info_myojou/status/2063865003917410549",
+      "entities": {},
+      "attachments": {},
+      "referenced_tweets": [],
+      "media": [],
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "sold_out"
+      },
+      "parsed_fields": {
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2063865003917410549",
+        "source_post_id": "2063865003917410549",
+        "source_posted_at": "2026-06-08T06:05:36Z",
+        "source_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n                 生配信決定\n        𝐦𝐲𝐨𝐣𝐨𝐮 𝐨𝐧𝐞𝐦𝐚𝐧 𝐥𝐢𝐯𝐞\n                       明夏\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣date：2026/6/8(月)\n⟣place : Veats Shibuya\n⟣open/start：18:15/19:00\n⟣price：SOLD OUT",
+        "source_raw": {
+          "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n                 生配信決定\n        𝐦𝐲𝐨𝐣𝐨𝐮 𝐨𝐧𝐞𝐦𝐚𝐧 𝐥𝐢𝐯𝐞\n                       明夏\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣date：2026/6/8(月)\n⟣place : Veats Shibuya\n⟣open/start：18:15/19:00\n⟣price：SOLD OUT",
+          "created_at": "2026-06-08T06:05:36.000Z",
+          "edit_history_tweet_ids": [
+            "2063865003917410549"
+          ],
+          "id": "2063865003917410549"
+        },
+        "source_kind": "sold_out",
+        "extraction_confidence": 0.65,
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-06-08",
+        "event_name": null,
+        "venue": "Veats Shibuya",
+        "open_time": "18:15",
+        "start_time": "19:00",
+        "myojou_performance_time": null,
+        "benefit_event_time": null,
+        "ticket_url": null,
+        "general_ticket_price": null,
+        "priority_ticket_name": null,
+        "priority_ticket_price": null,
+        "same_day_ticket_price": null,
+        "ticket_application_start_at": null,
+        "ticket_application_deadline_at": null,
+        "lottery_result_at": null,
+        "payment_deadline_at": null,
+        "ticket_sale_type": null,
+        "ticket_sales": [],
+        "ticket_status": "sold_out",
+        "notes": null
+      },
+      "linked_event_id": "evt_91a330d2309449259ae68e003d5f367f",
+      "needs_review": true,
+      "needs_review_reasons": [
+        "missing ticket deadline",
+        "ambiguous event match",
+        "classification: live post has date and structured event fields"
+      ],
+      "already_processed": false,
+      "raw": {
+        "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n                 生配信決定\n        𝐦𝐲𝐨𝐣𝐨𝐮 𝐨𝐧𝐞𝐦𝐚𝐧 𝐥𝐢𝐯𝐞\n                       明夏\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣date：2026/6/8(月)\n⟣place : Veats Shibuya\n⟣open/start：18:15/19:00\n⟣price：SOLD OUT",
+        "created_at": "2026-06-08T06:05:36.000Z",
+        "edit_history_tweet_ids": [
+          "2063865003917410549"
+        ],
+        "id": "2063865003917410549"
+      }
+    },
+    {
+      "id": "2063951844775546966",
+      "text": "✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n                           ⟡.·*.御礼.*·.⟡\n                   𝐦𝐲𝐨𝐣𝐨𝐮 𝐨𝐧𝐞𝐦𝐚𝐧 𝐥𝐢𝐯𝐞\n                                  明夏\n✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n\n本日は「𝐦𝐲𝐨𝐣𝐨𝐮 𝐨𝐧𝐞𝐦𝐚𝐧 https://t.co/KePk9y9B3l",
+      "created_at": "2026-06-08T11:50:40+00:00",
+      "url": "https://x.com/info_myojou/status/2063951844775546966",
+      "entities": {
+        "urls": [
+          {
+            "start": 186,
+            "end": 209,
+            "url": "https://t.co/KePk9y9B3l",
+            "expanded_url": "https://x.com/info_myojou/status/2063951844775546966/photo/1",
+            "display_url": "pic.x.com/KePk9y9B3l",
+            "media_key": "3_2063951839129980928"
+          }
+        ]
+      },
+      "attachments": {
+        "media_keys": [
+          "3_2063951839129980928"
+        ]
+      },
+      "referenced_tweets": [],
+      "media": [
+        {
+          "media_key": "3_2063951839129980928",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HKShQyzbUAARh6C.jpg",
+          "width": 2048,
+          "height": 1364,
+          "alt_text": "M1,星景讃歌\nM2,僕彩色\nM3,yoakeno\nM4,CHRONOS\nM5,Star\nM6,蛍夏\nM7,HeartBeat\nM8,軌跡まで\nM9,特殊灯火\nM10,アンチコンプリート\nM11,幸せのかたすみ\nENM1,星景讃歌\nENM2,軌跡まで\nENM3,アンチコンプリート\nENM4,僕彩色"
+        }
+      ],
+      "classification": {
+        "classification": "event",
+        "confidence": "medium",
+        "reason": "live keywords with partial structured information",
+        "source_kind": "same_day_reminder"
+      },
+      "parsed_fields": {
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2063951844775546966",
+        "source_post_id": "2063951844775546966",
+        "source_posted_at": "2026-06-08T11:50:40Z",
+        "source_text": "✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n                           ⟡.·*.御礼.*·.⟡\n                   𝐦𝐲𝐨𝐣𝐨𝐮 𝐨𝐧𝐞𝐦𝐚𝐧 𝐥𝐢𝐯𝐞\n                                  明夏\n✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n\n本日は「𝐦𝐲𝐨𝐣𝐨𝐮 𝐨𝐧𝐞𝐦𝐚𝐧 https://t.co/KePk9y9B3l",
+        "source_raw": {
+          "entities": {
+            "urls": [
+              {
+                "start": 186,
+                "end": 209,
+                "url": "https://t.co/KePk9y9B3l",
+                "expanded_url": "https://x.com/info_myojou/status/2063951844775546966/photo/1",
+                "display_url": "pic.x.com/KePk9y9B3l",
+                "media_key": "3_2063951839129980928"
+              }
+            ]
+          },
+          "text": "✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n                           ⟡.·*.御礼.*·.⟡\n                   𝐦𝐲𝐨𝐣𝐨𝐮 𝐨𝐧𝐞𝐦𝐚𝐧 𝐥𝐢𝐯𝐞\n                                  明夏\n✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n\n本日は「𝐦𝐲𝐨𝐣𝐨𝐮 𝐨𝐧𝐞𝐦𝐚𝐧 https://t.co/KePk9y9B3l",
+          "attachments": {
+            "media_keys": [
+              "3_2063951839129980928"
+            ]
+          },
+          "created_at": "2026-06-08T11:50:40.000Z",
+          "edit_history_tweet_ids": [
+            "2063951844775546966"
+          ],
+          "id": "2063951844775546966",
+          "media": [
+            {
+              "media_key": "3_2063951839129980928",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HKShQyzbUAARh6C.jpg",
+              "width": 2048,
+              "height": 1364,
+              "alt_text": "M1,星景讃歌\nM2,僕彩色\nM3,yoakeno\nM4,CHRONOS\nM5,Star\nM6,蛍夏\nM7,HeartBeat\nM8,軌跡まで\nM9,特殊灯火\nM10,アンチコンプリート\nM11,幸せのかたすみ\nENM1,星景讃歌\nENM2,軌跡まで\nENM3,アンチコンプリート\nENM4,僕彩色"
+            }
+          ]
+        },
+        "source_kind": "same_day_reminder",
+        "extraction_confidence": 0.45,
+        "classification": "event",
+        "classification_confidence": "medium",
+        "classification_reason": "live keywords with partial structured information",
+        "event_date": "2026-06-08",
+        "event_name": null,
+        "venue": null,
+        "open_time": null,
+        "start_time": null,
+        "myojou_performance_time": null,
+        "benefit_event_time": null,
+        "ticket_url": null,
+        "general_ticket_price": null,
+        "priority_ticket_name": null,
+        "priority_ticket_price": null,
+        "same_day_ticket_price": null,
+        "ticket_application_start_at": null,
+        "ticket_application_deadline_at": null,
+        "lottery_result_at": null,
+        "payment_deadline_at": null,
+        "ticket_sale_type": null,
+        "ticket_sales": [],
+        "ticket_status": null,
+        "notes": null
+      },
+      "linked_event_id": "evt_91a330d2309449259ae68e003d5f367f",
+      "needs_review": true,
+      "needs_review_reasons": [
+        "missing ticket deadline",
+        "ambiguous event match",
+        "classification: live post has date and structured event fields"
+      ],
+      "already_processed": false,
+      "raw": {
+        "entities": {
+          "urls": [
+            {
+              "start": 186,
+              "end": 209,
+              "url": "https://t.co/KePk9y9B3l",
+              "expanded_url": "https://x.com/info_myojou/status/2063951844775546966/photo/1",
+              "display_url": "pic.x.com/KePk9y9B3l",
+              "media_key": "3_2063951839129980928"
+            }
+          ]
+        },
+        "text": "✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n                           ⟡.·*.御礼.*·.⟡\n                   𝐦𝐲𝐨𝐣𝐨𝐮 𝐨𝐧𝐞𝐦𝐚𝐧 𝐥𝐢𝐯𝐞\n                                  明夏\n✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n\n本日は「𝐦𝐲𝐨𝐣𝐨𝐮 𝐨𝐧𝐞𝐦𝐚𝐧 https://t.co/KePk9y9B3l",
+        "attachments": {
+          "media_keys": [
+            "3_2063951839129980928"
+          ]
+        },
+        "created_at": "2026-06-08T11:50:40.000Z",
+        "edit_history_tweet_ids": [
+          "2063951844775546966"
+        ],
+        "id": "2063951844775546966",
+        "media": [
+          {
+            "media_key": "3_2063951839129980928",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HKShQyzbUAARh6C.jpg",
+            "width": 2048,
+            "height": 1364,
+            "alt_text": "M1,星景讃歌\nM2,僕彩色\nM3,yoakeno\nM4,CHRONOS\nM5,Star\nM6,蛍夏\nM7,HeartBeat\nM8,軌跡まで\nM9,特殊灯火\nM10,アンチコンプリート\nM11,幸せのかたすみ\nENM1,星景讃歌\nENM2,軌跡まで\nENM3,アンチコンプリート\nENM4,僕彩色"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2063959479608373300",
+      "text": "✯••┈┈┈┈••✯••┈┈┈┈••✯\n           𝐦𝐲𝐨𝐣𝐨𝐮 𝐬𝐮𝐦𝐦𝐞𝐫\n✯••┈┈┈┈••✯••┈┈┈┈••✯\n\n#myojou https://t.co/LheTz4GRXM",
+      "created_at": "2026-06-08T12:21:01+00:00",
+      "url": "https://x.com/info_myojou/status/2063959479608373300",
+      "entities": {
+        "hashtags": [
+          {
+            "start": 66,
+            "end": 73,
+            "tag": "myojou"
+          }
+        ],
+        "urls": [
+          {
+            "start": 74,
+            "end": 97,
+            "url": "https://t.co/LheTz4GRXM",
+            "expanded_url": "https://x.com/info_myojou/status/2063959479608373300/photo/1",
+            "display_url": "pic.x.com/LheTz4GRXM",
+            "media_key": "3_2063959473564311552"
+          }
+        ]
+      },
+      "attachments": {
+        "media_keys": [
+          "3_2063959473564311552"
+        ]
+      },
+      "referenced_tweets": [],
+      "media": [
+        {
+          "media_key": "3_2063959473564311552",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HKSoNLSaYAAnySa.jpg",
+          "width": 2048,
+          "height": 1372
+        }
+      ],
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "no live-event signal",
+        "source_kind": "other"
+      },
+      "parsed_fields": null,
+      "linked_event_id": null,
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "already_processed": false,
+      "raw": {
+        "entities": {
+          "hashtags": [
+            {
+              "start": 66,
+              "end": 73,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "start": 74,
+              "end": 97,
+              "url": "https://t.co/LheTz4GRXM",
+              "expanded_url": "https://x.com/info_myojou/status/2063959479608373300/photo/1",
+              "display_url": "pic.x.com/LheTz4GRXM",
+              "media_key": "3_2063959473564311552"
+            }
+          ]
+        },
+        "text": "✯••┈┈┈┈••✯••┈┈┈┈••✯\n           𝐦𝐲𝐨𝐣𝐨𝐮 𝐬𝐮𝐦𝐦𝐞𝐫\n✯••┈┈┈┈••✯••┈┈┈┈••✯\n\n#myojou https://t.co/LheTz4GRXM",
+        "attachments": {
+          "media_keys": [
+            "3_2063959473564311552"
+          ]
+        },
+        "created_at": "2026-06-08T12:21:01.000Z",
+        "edit_history_tweet_ids": [
+          "2063959479608373300"
+        ],
+        "id": "2063959479608373300",
+        "media": [
+          {
+            "media_key": "3_2063959473564311552",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HKSoNLSaYAAnySa.jpg",
+            "width": 2048,
+            "height": 1372
+          }
+        ]
+      }
+    },
+    {
+      "id": "2064003608367255700",
+      "text": "✮••┈┈┈••✮••┈┈┈••✮\n               蒼夏序章\n✮••┈┈┈••✮••┈┈┈••✮\n\n⟣date：7/6（月）\n⟣place : 池袋西口公園野外劇場 グローバルリング シアター\n⟣open/start：TBA/TBA\n⟣price： 前方¥4,500/一般¥1,000 （各+1D）/後方観覧無料 https://t.co/PjdnyPbZHW",
+      "created_at": "2026-06-08T15:16:22+00:00",
+      "url": "https://x.com/info_myojou/status/2064003608367255700",
+      "entities": {
+        "urls": [
+          {
+            "start": 164,
+            "end": 187,
+            "url": "https://t.co/PjdnyPbZHW",
+            "expanded_url": "https://x.com/info_myojou/status/2064003608367255700/photo/1",
+            "display_url": "pic.x.com/PjdnyPbZHW",
+            "media_key": "3_2064003600716816385"
+          }
+        ]
+      },
+      "attachments": {
+        "media_keys": [
+          "3_2064003600716816385"
+        ]
+      },
+      "referenced_tweets": [],
+      "media": [
+        {
+          "media_key": "3_2064003600716816385",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HKTQVtvaYAE-dg2.jpg",
+          "width": 2481,
+          "height": 3509
+        }
+      ],
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "other"
+      },
+      "parsed_fields": {
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2064003608367255700",
+        "source_post_id": "2064003608367255700",
+        "source_posted_at": "2026-06-08T15:16:22Z",
+        "source_text": "✮••┈┈┈••✮••┈┈┈••✮\n               蒼夏序章\n✮••┈┈┈••✮••┈┈┈••✮\n\n⟣date：7/6（月）\n⟣place : 池袋西口公園野外劇場 グローバルリング シアター\n⟣open/start：TBA/TBA\n⟣price： 前方¥4,500/一般¥1,000 （各+1D）/後方観覧無料 https://t.co/PjdnyPbZHW",
+        "source_raw": {
+          "entities": {
+            "urls": [
+              {
+                "start": 164,
+                "end": 187,
+                "url": "https://t.co/PjdnyPbZHW",
+                "expanded_url": "https://x.com/info_myojou/status/2064003608367255700/photo/1",
+                "display_url": "pic.x.com/PjdnyPbZHW",
+                "media_key": "3_2064003600716816385"
+              }
+            ]
+          },
+          "text": "✮••┈┈┈••✮••┈┈┈••✮\n               蒼夏序章\n✮••┈┈┈••✮••┈┈┈••✮\n\n⟣date：7/6（月）\n⟣place : 池袋西口公園野外劇場 グローバルリング シアター\n⟣open/start：TBA/TBA\n⟣price： 前方¥4,500/一般¥1,000 （各+1D）/後方観覧無料 https://t.co/PjdnyPbZHW",
+          "attachments": {
+            "media_keys": [
+              "3_2064003600716816385"
+            ]
+          },
+          "created_at": "2026-06-08T15:16:22.000Z",
+          "edit_history_tweet_ids": [
+            "2064003608367255700"
+          ],
+          "id": "2064003608367255700",
+          "media": [
+            {
+              "media_key": "3_2064003600716816385",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HKTQVtvaYAE-dg2.jpg",
+              "width": 2481,
+              "height": 3509
+            }
+          ]
+        },
+        "source_kind": "other",
+        "extraction_confidence": 0.55,
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-07-06",
+        "event_name": null,
+        "venue": "池袋西口公園野外劇場 グローバルリング シアタ",
+        "open_time": null,
+        "start_time": null,
+        "myojou_performance_time": null,
+        "benefit_event_time": null,
+        "ticket_url": null,
+        "general_ticket_price": 0,
+        "priority_ticket_name": "前方",
+        "priority_ticket_price": 4500,
+        "same_day_ticket_price": null,
+        "ticket_application_start_at": null,
+        "ticket_application_deadline_at": null,
+        "lottery_result_at": null,
+        "payment_deadline_at": null,
+        "ticket_sale_type": "無料",
+        "ticket_sales": [
+          {
+            "sale_type": "無料",
+            "ticket_name": "前方",
+            "ticket_tier": "前方",
+            "price": 4500,
+            "start_at": null,
+            "deadline_at": null,
+            "result_at": null,
+            "payment_deadline_at": null,
+            "status": "不明",
+            "source_url": "https://x.com/info_myojou/status/2064003608367255700",
+            "source_post_id": "2064003608367255700",
+            "notes": null
+          }
+        ],
+        "ticket_status": null,
+        "notes": null
+      },
+      "linked_event_id": "evt_61d0ccb306604becb1ecf57dc7d8fc52",
+      "needs_review": true,
+      "needs_review_reasons": [
+        "missing event_name",
+        "classification: live post has date and structured event fields"
+      ],
+      "already_processed": false,
+      "raw": {
+        "entities": {
+          "urls": [
+            {
+              "start": 164,
+              "end": 187,
+              "url": "https://t.co/PjdnyPbZHW",
+              "expanded_url": "https://x.com/info_myojou/status/2064003608367255700/photo/1",
+              "display_url": "pic.x.com/PjdnyPbZHW",
+              "media_key": "3_2064003600716816385"
+            }
+          ]
+        },
+        "text": "✮••┈┈┈••✮••┈┈┈••✮\n               蒼夏序章\n✮••┈┈┈••✮••┈┈┈••✮\n\n⟣date：7/6（月）\n⟣place : 池袋西口公園野外劇場 グローバルリング シアター\n⟣open/start：TBA/TBA\n⟣price： 前方¥4,500/一般¥1,000 （各+1D）/後方観覧無料 https://t.co/PjdnyPbZHW",
+        "attachments": {
+          "media_keys": [
+            "3_2064003600716816385"
+          ]
+        },
+        "created_at": "2026-06-08T15:16:22.000Z",
+        "edit_history_tweet_ids": [
+          "2064003608367255700"
+        ],
+        "id": "2064003608367255700",
+        "media": [
+          {
+            "media_key": "3_2064003600716816385",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HKTQVtvaYAE-dg2.jpg",
+            "width": 2481,
+            "height": 3509
+          }
+        ]
+      }
+    },
+    {
+      "id": "2064004974288527729",
+      "text": "✮••┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈••✮\n                     𝐿𝐼𝑉𝐸 𝐷𝐼𝐺𝐸𝑆𝑇 \n               𝐦𝐲𝐨𝐣𝐨𝐮 𝐨𝐧𝐞𝐦𝐚𝐧 𝐥𝐢𝐯𝐞\n                             明夏\n✮••┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈••✮ https://t.co/tE3OOUWHC1",
+      "created_at": "2026-06-08T15:21:47+00:00",
+      "url": "https://x.com/info_myojou/status/2064004974288527729",
+      "entities": {
+        "urls": [
+          {
+            "start": 144,
+            "end": 167,
+            "url": "https://t.co/tE3OOUWHC1",
+            "expanded_url": "https://x.com/info_myojou/status/2064004974288527729/video/1",
+            "display_url": "pic.x.com/tE3OOUWHC1",
+            "media_key": "13_2064004887151779840"
+          }
+        ]
+      },
+      "attachments": {
+        "media_keys": [
+          "13_2064004887151779840"
+        ]
+      },
+      "referenced_tweets": [],
+      "media": [
+        {
+          "media_key": "13_2064004887151779840",
+          "type": "video",
+          "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2064004887151779840/img/X5GKN9HiagFO_yAr.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "classification": {
+        "classification": "event",
+        "confidence": "medium",
+        "reason": "live keywords with partial structured information",
+        "source_kind": "initial_announcement"
+      },
+      "parsed_fields": {
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2064004974288527729",
+        "source_post_id": "2064004974288527729",
+        "source_posted_at": "2026-06-08T15:21:47Z",
+        "source_text": "✮••┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈••✮\n                     𝐿𝐼𝑉𝐸 𝐷𝐼𝐺𝐸𝑆𝑇 \n               𝐦𝐲𝐨𝐣𝐨𝐮 𝐨𝐧𝐞𝐦𝐚𝐧 𝐥𝐢𝐯𝐞\n                             明夏\n✮••┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈••✮ https://t.co/tE3OOUWHC1",
+        "source_raw": {
+          "entities": {
+            "urls": [
+              {
+                "start": 144,
+                "end": 167,
+                "url": "https://t.co/tE3OOUWHC1",
+                "expanded_url": "https://x.com/info_myojou/status/2064004974288527729/video/1",
+                "display_url": "pic.x.com/tE3OOUWHC1",
+                "media_key": "13_2064004887151779840"
+              }
+            ]
+          },
+          "text": "✮••┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈••✮\n                     𝐿𝐼𝑉𝐸 𝐷𝐼𝐺𝐸𝑆𝑇 \n               𝐦𝐲𝐨𝐣𝐨𝐮 𝐨𝐧𝐞𝐦𝐚𝐧 𝐥𝐢𝐯𝐞\n                             明夏\n✮••┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈••✮ https://t.co/tE3OOUWHC1",
+          "attachments": {
+            "media_keys": [
+              "13_2064004887151779840"
+            ]
+          },
+          "created_at": "2026-06-08T15:21:47.000Z",
+          "edit_history_tweet_ids": [
+            "2064004974288527729"
+          ],
+          "id": "2064004974288527729",
+          "media": [
+            {
+              "media_key": "13_2064004887151779840",
+              "type": "video",
+              "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2064004887151779840/img/X5GKN9HiagFO_yAr.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          ]
+        },
+        "source_kind": "initial_announcement",
+        "extraction_confidence": 0.4,
+        "classification": "event",
+        "classification_confidence": "medium",
+        "classification_reason": "live keywords with partial structured information",
+        "event_date": null,
+        "event_name": "LIVE DIGEST",
+        "venue": null,
+        "open_time": null,
+        "start_time": null,
+        "myojou_performance_time": null,
+        "benefit_event_time": null,
+        "ticket_url": null,
+        "general_ticket_price": null,
+        "priority_ticket_name": null,
+        "priority_ticket_price": null,
+        "same_day_ticket_price": null,
+        "ticket_application_start_at": null,
+        "ticket_application_deadline_at": null,
+        "lottery_result_at": null,
+        "payment_deadline_at": null,
+        "ticket_sale_type": null,
+        "ticket_sales": [],
+        "ticket_status": null,
+        "notes": null
+      },
+      "linked_event_id": "evt_aa783efc2e9d41ff8a3dad167946304c",
+      "needs_review": true,
+      "needs_review_reasons": [
+        "missing venue",
+        "missing ticket deadline",
+        "ambiguous event match",
+        "classification: live keywords with partial structured information"
+      ],
+      "already_processed": false,
+      "raw": {
+        "entities": {
+          "urls": [
+            {
+              "start": 144,
+              "end": 167,
+              "url": "https://t.co/tE3OOUWHC1",
+              "expanded_url": "https://x.com/info_myojou/status/2064004974288527729/video/1",
+              "display_url": "pic.x.com/tE3OOUWHC1",
+              "media_key": "13_2064004887151779840"
+            }
+          ]
+        },
+        "text": "✮••┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈••✮\n                     𝐿𝐼𝑉𝐸 𝐷𝐼𝐺𝐸𝑆𝑇 \n               𝐦𝐲𝐨𝐣𝐨𝐮 𝐨𝐧𝐞𝐦𝐚𝐧 𝐥𝐢𝐯𝐞\n                             明夏\n✮••┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈••✮ https://t.co/tE3OOUWHC1",
+        "attachments": {
+          "media_keys": [
+            "13_2064004887151779840"
+          ]
+        },
+        "created_at": "2026-06-08T15:21:47.000Z",
+        "edit_history_tweet_ids": [
+          "2064004974288527729"
+        ],
+        "id": "2064004974288527729",
+        "media": [
+          {
+            "media_key": "13_2064004887151779840",
+            "type": "video",
+            "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2064004887151779840/img/X5GKN9HiagFO_yAr.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        ]
+      }
+    },
+    {
+      "id": "2064321642810294772",
+      "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n      A Villa idol festival HOKKAIDO 2026\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：8/29（土）\n⟣place : 安平町ときわ公園\n⟣open/start：9:00/10:00（予定）\n⟣price：VIPチケット https://t.co/Ehh7HWK22O",
+      "created_at": "2026-06-09T12:20:07+00:00",
+      "url": "https://x.com/info_myojou/status/2064321642810294772",
+      "entities": {
+        "urls": [
+          {
+            "start": 169,
+            "end": 192,
+            "url": "https://t.co/Ehh7HWK22O",
+            "expanded_url": "https://x.com/info_myojou/status/2064321642810294772/photo/1",
+            "display_url": "pic.x.com/Ehh7HWK22O",
+            "media_key": "3_2064321321736314881"
+          }
+        ]
+      },
+      "attachments": {
+        "media_keys": [
+          "3_2064321321736314881"
+        ]
+      },
+      "referenced_tweets": [],
+      "media": [
+        {
+          "media_key": "3_2064321321736314881",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HKXxTgxboAEjIyB.jpg",
+          "width": 1076,
+          "height": 1522
+        }
+      ],
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "ticket_update"
+      },
+      "parsed_fields": {
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2064321642810294772",
+        "source_post_id": "2064321642810294772",
+        "source_posted_at": "2026-06-09T12:20:07Z",
+        "source_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n      A Villa idol festival HOKKAIDO 2026\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：8/29（土）\n⟣place : 安平町ときわ公園\n⟣open/start：9:00/10:00（予定）\n⟣price：VIPチケット https://t.co/Ehh7HWK22O",
+        "source_raw": {
+          "entities": {
+            "urls": [
+              {
+                "start": 169,
+                "end": 192,
+                "url": "https://t.co/Ehh7HWK22O",
+                "expanded_url": "https://x.com/info_myojou/status/2064321642810294772/photo/1",
+                "display_url": "pic.x.com/Ehh7HWK22O",
+                "media_key": "3_2064321321736314881"
+              }
+            ]
+          },
+          "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n      A Villa idol festival HOKKAIDO 2026\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：8/29（土）\n⟣place : 安平町ときわ公園\n⟣open/start：9:00/10:00（予定）\n⟣price：VIPチケット https://t.co/Ehh7HWK22O",
+          "attachments": {
+            "media_keys": [
+              "3_2064321321736314881"
+            ]
+          },
+          "created_at": "2026-06-09T12:20:07.000Z",
+          "edit_history_tweet_ids": [
+            "2064321642810294772"
+          ],
+          "id": "2064321642810294772",
+          "media": [
+            {
+              "media_key": "3_2064321321736314881",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HKXxTgxboAEjIyB.jpg",
+              "width": 1076,
+              "height": 1522
+            }
+          ]
+        },
+        "source_kind": "ticket_update",
+        "extraction_confidence": 0.85,
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-08-29",
+        "event_name": "A Villa idol festival HOKKAIDO 2026",
+        "venue": "安平町ときわ公園",
+        "open_time": "09:00",
+        "start_time": "10:00",
+        "myojou_performance_time": null,
+        "benefit_event_time": null,
+        "ticket_url": null,
+        "general_ticket_price": null,
+        "priority_ticket_name": "VIPチケット https",
+        "priority_ticket_price": null,
+        "same_day_ticket_price": null,
+        "ticket_application_start_at": null,
+        "ticket_application_deadline_at": null,
+        "lottery_result_at": null,
+        "payment_deadline_at": null,
+        "ticket_sale_type": null,
+        "ticket_sales": [],
+        "ticket_status": null,
+        "notes": null
+      },
+      "linked_event_id": "evt_043745ef0d7346fa8f895d6064e7a81b",
+      "needs_review": false,
+      "needs_review_reasons": [
+        "missing ticket deadline",
+        "classification: live post has date and structured event fields"
+      ],
+      "already_processed": false,
+      "raw": {
+        "entities": {
+          "urls": [
+            {
+              "start": 169,
+              "end": 192,
+              "url": "https://t.co/Ehh7HWK22O",
+              "expanded_url": "https://x.com/info_myojou/status/2064321642810294772/photo/1",
+              "display_url": "pic.x.com/Ehh7HWK22O",
+              "media_key": "3_2064321321736314881"
+            }
+          ]
+        },
+        "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n      A Villa idol festival HOKKAIDO 2026\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：8/29（土）\n⟣place : 安平町ときわ公園\n⟣open/start：9:00/10:00（予定）\n⟣price：VIPチケット https://t.co/Ehh7HWK22O",
+        "attachments": {
+          "media_keys": [
+            "3_2064321321736314881"
+          ]
+        },
+        "created_at": "2026-06-09T12:20:07.000Z",
+        "edit_history_tweet_ids": [
+          "2064321642810294772"
+        ],
+        "id": "2064321642810294772",
+        "media": [
+          {
+            "media_key": "3_2064321321736314881",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HKXxTgxboAEjIyB.jpg",
+            "width": 1076,
+            "height": 1522
+          }
+        ]
+      }
+    },
+    {
+      "id": "2064336515615121857",
+      "text": "✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n                           ⟡.·*.御礼.*·.⟡\n  myojou oneman live \"明夏\"アフター特典会\n✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n\n本日は「myojou oneman live \"明夏\"アフター特典会」ありがとうございました⋆˙⟡\n\n左から https://t.co/vyEVJ8r2mn",
+      "created_at": "2026-06-09T13:19:13+00:00",
+      "url": "https://x.com/info_myojou/status/2064336515615121857",
+      "entities": {
+        "urls": [
+          {
+            "start": 181,
+            "end": 204,
+            "url": "https://t.co/vyEVJ8r2mn",
+            "expanded_url": "https://x.com/info_myojou/status/2064336515615121857/photo/1",
+            "display_url": "pic.x.com/vyEVJ8r2mn",
+            "media_key": "3_2064336510976196608"
+          }
+        ]
+      },
+      "attachments": {
+        "media_keys": [
+          "3_2064336510976196608"
+        ]
+      },
+      "referenced_tweets": [],
+      "media": [
+        {
+          "media_key": "3_2064336510976196608",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HKX_HpGbAAAx6qY.jpg",
+          "width": 1570,
+          "height": 1042
+        }
+      ],
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "strong non-event keyword without live structure",
+        "source_kind": "same_day_reminder"
+      },
+      "parsed_fields": null,
+      "linked_event_id": null,
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "already_processed": false,
+      "raw": {
+        "entities": {
+          "urls": [
+            {
+              "start": 181,
+              "end": 204,
+              "url": "https://t.co/vyEVJ8r2mn",
+              "expanded_url": "https://x.com/info_myojou/status/2064336515615121857/photo/1",
+              "display_url": "pic.x.com/vyEVJ8r2mn",
+              "media_key": "3_2064336510976196608"
+            }
+          ]
+        },
+        "text": "✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n                           ⟡.·*.御礼.*·.⟡\n  myojou oneman live \"明夏\"アフター特典会\n✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n\n本日は「myojou oneman live \"明夏\"アフター特典会」ありがとうございました⋆˙⟡\n\n左から https://t.co/vyEVJ8r2mn",
+        "attachments": {
+          "media_keys": [
+            "3_2064336510976196608"
+          ]
+        },
+        "created_at": "2026-06-09T13:19:13.000Z",
+        "edit_history_tweet_ids": [
+          "2064336515615121857"
+        ],
+        "id": "2064336515615121857",
+        "media": [
+          {
+            "media_key": "3_2064336510976196608",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HKX_HpGbAAAx6qY.jpg",
+            "width": 1570,
+            "height": 1042
+          }
+        ]
+      }
+    },
+    {
+      "id": "2064563144996045102",
+      "text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n           TOKYO GIRLS GIRLS\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n🎙14:25-14:45\n📸14:55-16:05 E\n\n⟣date：6/16（火）\n⟣place : Zepp Shinjuku / KABUKICHO TOWER STAGE / WALLY\n⟣open/start：11:40/12:00 https://t.co/9K0zBJKEJA",
+      "created_at": "2026-06-10T04:19:46+00:00",
+      "url": "https://x.com/info_myojou/status/2064563144996045102",
+      "entities": {
+        "urls": [
+          {
+            "start": 196,
+            "end": 219,
+            "url": "https://t.co/9K0zBJKEJA",
+            "expanded_url": "https://x.com/info_myojou/status/2064563144996045102/photo/1",
+            "display_url": "pic.x.com/9K0zBJKEJA",
+            "media_key": "3_2064563136355815425"
+          },
+          {
+            "start": 196,
+            "end": 219,
+            "url": "https://t.co/9K0zBJKEJA",
+            "expanded_url": "https://x.com/info_myojou/status/2064563144996045102/photo/1",
+            "display_url": "pic.x.com/9K0zBJKEJA",
+            "media_key": "3_2064563136347459584"
+          }
+        ]
+      },
+      "attachments": {
+        "media_keys": [
+          "3_2064563136355815425",
+          "3_2064563136347459584"
+        ]
+      },
+      "referenced_tweets": [],
+      "media": [
+        {
+          "media_key": "3_2064563136355815425",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HKbNO-ba0AE4VAL.jpg",
+          "width": 4096,
+          "height": 2912
+        },
+        {
+          "media_key": "3_2064563136347459584",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HKbNO-ZbUAAuRB1.jpg",
+          "width": 4096,
+          "height": 2912
+        }
+      ],
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "other"
+      },
+      "parsed_fields": {
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2064563144996045102",
+        "source_post_id": "2064563144996045102",
+        "source_posted_at": "2026-06-10T04:19:46Z",
+        "source_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n           TOKYO GIRLS GIRLS\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n🎙14:25-14:45\n📸14:55-16:05 E\n\n⟣date：6/16（火）\n⟣place : Zepp Shinjuku / KABUKICHO TOWER STAGE / WALLY\n⟣open/start：11:40/12:00 https://t.co/9K0zBJKEJA",
+        "source_raw": {
+          "entities": {
+            "urls": [
+              {
+                "start": 196,
+                "end": 219,
+                "url": "https://t.co/9K0zBJKEJA",
+                "expanded_url": "https://x.com/info_myojou/status/2064563144996045102/photo/1",
+                "display_url": "pic.x.com/9K0zBJKEJA",
+                "media_key": "3_2064563136355815425"
+              },
+              {
+                "start": 196,
+                "end": 219,
+                "url": "https://t.co/9K0zBJKEJA",
+                "expanded_url": "https://x.com/info_myojou/status/2064563144996045102/photo/1",
+                "display_url": "pic.x.com/9K0zBJKEJA",
+                "media_key": "3_2064563136347459584"
+              }
+            ]
+          },
+          "text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n           TOKYO GIRLS GIRLS\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n🎙14:25-14:45\n📸14:55-16:05 E\n\n⟣date：6/16（火）\n⟣place : Zepp Shinjuku / KABUKICHO TOWER STAGE / WALLY\n⟣open/start：11:40/12:00 https://t.co/9K0zBJKEJA",
+          "attachments": {
+            "media_keys": [
+              "3_2064563136355815425",
+              "3_2064563136347459584"
+            ]
+          },
+          "created_at": "2026-06-10T04:19:46.000Z",
+          "edit_history_tweet_ids": [
+            "2064563144996045102"
+          ],
+          "id": "2064563144996045102",
+          "media": [
+            {
+              "media_key": "3_2064563136355815425",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HKbNO-ba0AE4VAL.jpg",
+              "width": 4096,
+              "height": 2912
+            },
+            {
+              "media_key": "3_2064563136347459584",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HKbNO-ZbUAAuRB1.jpg",
+              "width": 4096,
+              "height": 2912
+            }
+          ]
+        },
+        "source_kind": "other",
+        "extraction_confidence": 0.65,
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-06-16",
+        "event_name": null,
+        "venue": "Zepp Shinjuku / KABUKICHO TOWER STAGE / WALLY",
+        "open_time": "11:40",
+        "start_time": "12:00",
+        "myojou_performance_time": null,
+        "benefit_event_time": null,
+        "ticket_url": null,
+        "general_ticket_price": null,
+        "priority_ticket_name": null,
+        "priority_ticket_price": null,
+        "same_day_ticket_price": null,
+        "ticket_application_start_at": null,
+        "ticket_application_deadline_at": null,
+        "lottery_result_at": null,
+        "payment_deadline_at": null,
+        "ticket_sale_type": null,
+        "ticket_sales": [],
+        "ticket_status": null,
+        "notes": null
+      },
+      "linked_event_id": "evt_d4dfc97c002647d19309ddb6d1491d21",
+      "needs_review": false,
+      "needs_review_reasons": [
+        "missing event_name",
+        "missing ticket deadline",
+        "classification: live post has date and structured event fields"
+      ],
+      "already_processed": false,
+      "raw": {
+        "entities": {
+          "urls": [
+            {
+              "start": 196,
+              "end": 219,
+              "url": "https://t.co/9K0zBJKEJA",
+              "expanded_url": "https://x.com/info_myojou/status/2064563144996045102/photo/1",
+              "display_url": "pic.x.com/9K0zBJKEJA",
+              "media_key": "3_2064563136355815425"
+            },
+            {
+              "start": 196,
+              "end": 219,
+              "url": "https://t.co/9K0zBJKEJA",
+              "expanded_url": "https://x.com/info_myojou/status/2064563144996045102/photo/1",
+              "display_url": "pic.x.com/9K0zBJKEJA",
+              "media_key": "3_2064563136347459584"
+            }
+          ]
+        },
+        "text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n           TOKYO GIRLS GIRLS\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n🎙14:25-14:45\n📸14:55-16:05 E\n\n⟣date：6/16（火）\n⟣place : Zepp Shinjuku / KABUKICHO TOWER STAGE / WALLY\n⟣open/start：11:40/12:00 https://t.co/9K0zBJKEJA",
+        "attachments": {
+          "media_keys": [
+            "3_2064563136355815425",
+            "3_2064563136347459584"
+          ]
+        },
+        "created_at": "2026-06-10T04:19:46.000Z",
+        "edit_history_tweet_ids": [
+          "2064563144996045102"
+        ],
+        "id": "2064563144996045102",
+        "media": [
+          {
+            "media_key": "3_2064563136355815425",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HKbNO-ba0AE4VAL.jpg",
+            "width": 4096,
+            "height": 2912
+          },
+          {
+            "media_key": "3_2064563136347459584",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HKbNO-ZbUAAuRB1.jpg",
+            "width": 4096,
+            "height": 2912
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -62,6 +62,9 @@ class XPost(BaseModel):
     text: str
     created_at: datetime
     raw: dict[str, Any] = Field(default_factory=dict)
+    api_text: str | None = None
+    truncated_text: str | None = None
+    full_text_source: str = "text"
 
 
 class EventFields(BaseModel):

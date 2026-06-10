@@ -183,7 +183,29 @@ def test_save_x_samples_writes_raw_posts_without_secrets(tmp_path, monkeypatch, 
                         "attachments": {"media_keys": ["3_capture"]},
                         "referenced_tweets": [],
                         "media": [{"media_key": "3_capture", "type": "photo", "alt_text": "告知画像"}],
+                        "note_tweet": {
+                            "text": (
+                                "6/15(月)『REAL CAPTURE LIVE』\n"
+                                "会場：渋谷Milkyway\n"
+                                "OPEN 18:00 / START 18:30\n"
+                                "チケット：https://t.co/capture"
+                            ),
+                            "entities": {"urls": []},
+                        },
                     },
+                    api_text=(
+                        "6/15(月)『REAL CAPTURE LIVE』\n"
+                        "会場：渋谷Milkyway\n"
+                        "OPEN 18:00 / START 18:30\n"
+                        "チケット：https://t.co/capture"
+                    ),
+                    truncated_text=(
+                        "6/15(月)『REAL CAPTURE LIVE』\n"
+                        "会場：渋谷Milkyway\n"
+                        "OPEN 18:00 / START 18:30\n"
+                        "チケット：https://t.co/capture"
+                    ),
+                    full_text_source="note_tweet",
                 )
             ]
 
@@ -218,6 +240,9 @@ def test_save_x_samples_writes_raw_posts_without_secrets(tmp_path, monkeypatch, 
     assert "super-secret-token" not in content
     assert payload["metadata"]["estimated_x_post_reads"] == 1
     assert sample["id"] == "real_capture_001"
+    assert sample["full_text_source"] == "note_tweet"
+    assert sample["api_text"]
+    assert sample["note_tweet"]["text"].startswith("6/15")
     assert sample["entities"]["urls"][0]["expanded_url"] == "https://t.livepocket.jp/e/real-capture-live"
     assert sample["media"][0]["alt_text"] == "告知画像"
     assert sample["classification"]["classification"] == "event"
