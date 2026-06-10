@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import argparse
+import json
 import logging
 import sys
 
@@ -37,6 +38,10 @@ def build_parser() -> argparse.ArgumentParser:
         help="Debug export: include suspicious/not-public-ready canonical events.",
     )
     export_public.add_argument("--log-level", default="INFO", choices=["DEBUG", "INFO", "WARNING", "ERROR"])
+
+    inspect_state = subparsers.add_parser("inspect-state", help="Print local SQLite sync state.")
+    inspect_state.add_argument("--db", help="SQLite state database path.")
+    inspect_state.add_argument("--log-level", default="INFO", choices=["DEBUG", "INFO", "WARNING", "ERROR"])
 
     evaluate_samples = subparsers.add_parser("evaluate-real-samples", help="Evaluate manually collected real X post fixtures.")
     evaluate_samples.add_argument("--fixtures", default="mock_posts/real_samples", help="Fixture file or directory.")
@@ -114,7 +119,12 @@ def main(argv: list[str] | None = None) -> int:
             print(
                 f"Exported {occurrence_count} public-ready rows from {len(export_events)} events "
                 f"to {output_path}; filtered {filtered_count}."
-            )
+        )
+        return 0
+
+    if args.command == "inspect-state":
+        state = SQLiteStateStore(args.db or settings.state_db)
+        print(_format_state_inspection(state, username=settings.x_username))
         return 0
 
     if args.command == "evaluate-real-samples":
@@ -248,12 +258,16 @@ def main(argv: list[str] | None = None) -> int:
                 state.save_events(events)
 
         print(
-            "Fetched {fetched_posts}, parsed {parsed_events}, created {created_events}, "
+            "Fetched {fetched_posts}, parsed {parsed_events}, new_posts_processed {new_posts_processed}, "
+            "created {created_events}, "
             "updated {updated_events}, skipped {skipped_posts}, already_processed {already_processed_skipped}, "
+            "non_event_skipped {non_event_skipped}, "
             "estimated_x_post_reads {estimated_x_post_read_count}, canonical {canonical_events}.".format(**result.__dict__)
         )
         if quality_report:
             print(_format_quality_report(quality_report))
+        else:
+            print(_format_sync_quality(events, result))
         return 0
 
     return 1
@@ -333,6 +347,36 @@ def _format_quality_report(report: dict) -> str:
         )
     else:
         lines.append("top_missing_fields: none")
+    return "\n".join(lines)
+
+
+def _format_sync_quality(events: list, result: PipelineResult) -> str:
+    canonical_events = len(events)
+    public_ready_count = sum(1 for event in events if public_readiness(event).public_ready)
+    not_public_ready_count = canonical_events - public_ready_count
+    lines = [
+        "Sync quality:",
+        f"public_ready: {public_ready_count}/{canonical_events}",
+        f"not_public_ready: {not_public_ready_count}/{canonical_events}",
+    ]
+    if result.x_rate_limit_headers:
+        lines.append("x_rate_limit: " + json.dumps(result.x_rate_limit_headers, ensure_ascii=False, sort_keys=True))
+    else:
+        lines.append("x_rate_limit: none")
+    return "\n".join(lines)
+
+
+def _format_state_inspection(state: SQLiteStateStore, *, username: str) -> str:
+    latest = state.latest_processed_source_post()
+    lines = [
+        f"db_path: {state.db_path}",
+        f"cached_user_id: {state.get_cached_x_user_id(username) or ''}",
+        f"last_seen_post_id: {state.get_last_seen_post_id() or ''}",
+        f"latest_processed_post_id: {(latest or {}).get('source_post_id', '')}",
+        f"latest_processed_post_created_at: {(latest or {}).get('source_posted_at', '')}",
+        f"processed_posts: {state.processed_post_count()}",
+        f"canonical_events: {state.canonical_event_count()}",
+    ]
     return "\n".join(lines)
 
 

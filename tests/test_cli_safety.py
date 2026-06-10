@@ -5,8 +5,17 @@ from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 from myojou_sync.cli import _format_quality_report, main
-from myojou_sync.models import CanonicalEvent
+from myojou_sync.parser import PostParser
+from myojou_sync.models import (
+    CanonicalEvent,
+    ClassificationConfidence,
+    PostClassification,
+    PostClassificationResult,
+    SourceKind,
+    XPost,
+)
 from myojou_sync.pipeline import PipelineResult, build_quality_report
+from myojou_sync.pipeline import SyncPipeline
 from myojou_sync.public_output import (
     PREVIEW_TABLE_COLUMNS,
     PUBLIC_COLUMNS,
@@ -24,6 +33,7 @@ from myojou_sync.state import SQLiteStateStore
 from myojou_sync.sync.notion import _event_to_notion_properties
 from myojou_sync.sync.notion import NotionEventSink
 from myojou_sync.sync.sheets import GoogleSheetsEventSink
+from myojou_sync.x_client import FetchMetadata
 
 
 class FakeNotionSink:
@@ -154,9 +164,6 @@ def test_backfill_requires_max_posts(tmp_path, monkeypatch, capsys):
 
 
 def test_normal_run_uses_incremental_fetch_not_backfill(tmp_path, monkeypatch):
-    from myojou_sync.models import XPost
-    from myojou_sync.x_client import FetchMetadata
-
     class FakeIncrementalXClient:
         def __init__(self, bearer_token, username, state):
             self.last_fetch_metadata = FetchMetadata()
@@ -188,6 +195,249 @@ def test_normal_run_uses_incremental_fetch_not_backfill(tmp_path, monkeypatch):
     )
 
     assert result == 0
+
+
+def test_incremental_real_sync_uses_stored_since_id(tmp_path, monkeypatch, capsys):
+    calls = []
+    db_path = tmp_path / "state.sqlite"
+    SQLiteStateStore(db_path).set_last_seen_post_id("700001")
+
+    class FakeIncrementalXClient:
+        def __init__(self, bearer_token, username, state):
+            self.last_fetch_metadata = FetchMetadata()
+
+        def fetch_recent_posts(self, *, since_id=None, max_results=10):
+            calls.append({"since_id": since_id, "max_results": max_results})
+            self.last_fetch_metadata = FetchMetadata(
+                posts_fetched=0,
+                estimated_post_read_count=0,
+                rate_limit_headers={"x-rate-limit-remaining": "10"},
+            )
+            return []
+
+        def fetch_historical_posts(self, **kwargs):
+            raise AssertionError("normal incremental sync should not use backfill")
+
+    monkeypatch.setenv("NO_X_API", "false")
+    monkeypatch.setenv("X_BEARER_TOKEN", "token")
+    monkeypatch.delenv("MYOJOU_MOCK_POSTS", raising=False)
+    monkeypatch.setattr("myojou_sync.cli.XApiClient", FakeIncrementalXClient)
+
+    result = main(
+        [
+            "run",
+            "--no-mock-posts",
+            "--db",
+            str(db_path),
+            "--max-results",
+            "5",
+            "--target",
+            "none",
+            "--dry-run",
+        ]
+    )
+    output = capsys.readouterr().out
+
+    assert result == 0
+    assert calls == [{"since_id": "700001", "max_results": 5}]
+    assert "Sync quality:" in output
+    assert '"x-rate-limit-remaining": "10"' in output
+
+
+def test_first_incremental_real_sync_without_since_id_updates_after_success(tmp_path, monkeypatch):
+    calls = []
+    db_path = tmp_path / "state.sqlite"
+
+    class FakeIncrementalXClient:
+        def __init__(self, bearer_token, username, state):
+            self.last_fetch_metadata = FetchMetadata()
+
+        def fetch_recent_posts(self, *, since_id=None, max_results=10):
+            calls.append(since_id)
+            self.last_fetch_metadata = FetchMetadata(posts_fetched=1, estimated_post_read_count=1)
+            return [
+                XPost(
+                    id="700002",
+                    created_at=datetime(2026, 6, 12, 10, 0, tzinfo=JST),
+                    text=(
+                        "6/15(月)『INCREMENTAL LIVE』\n"
+                        "会場：渋谷Milkyway\n"
+                        "OPEN 18:00 / START 18:30\n"
+                        "チケット：https://ticketdive.com/event/incremental-live"
+                    ),
+                    raw={"id": "700002"},
+                )
+            ]
+
+        def fetch_historical_posts(self, **kwargs):
+            raise AssertionError("normal incremental sync should not use backfill")
+
+    monkeypatch.setenv("NO_X_API", "false")
+    monkeypatch.setenv("X_BEARER_TOKEN", "token")
+    monkeypatch.delenv("MYOJOU_MOCK_POSTS", raising=False)
+    monkeypatch.setattr("myojou_sync.cli.XApiClient", FakeIncrementalXClient)
+
+    result = main(
+        [
+            "run",
+            "--no-mock-posts",
+            "--db",
+            str(db_path),
+            "--target",
+            "none",
+            "--dry-run",
+        ]
+    )
+
+    assert result == 0
+    assert calls == [None]
+    assert SQLiteStateStore(db_path).get_last_seen_post_id() == "700002"
+
+
+def test_since_id_does_not_update_when_processing_fails(tmp_path):
+    class FakeFetcher:
+        def __init__(self):
+            self.last_fetch_metadata = FetchMetadata(posts_fetched=2, estimated_post_read_count=2)
+
+        def fetch_recent_posts(self, *, since_id=None, max_results=10):
+            return [
+                XPost(
+                    id="800001",
+                    created_at=datetime(2026, 6, 12, 10, 0, tzinfo=JST),
+                    text="6/15(月)『SAFE CURSOR ONE』\n会場：渋谷Milkyway\nOPEN 18:00 / START 18:30",
+                    raw={"id": "800001"},
+                ),
+                XPost(
+                    id="800002",
+                    created_at=datetime(2026, 6, 12, 10, 1, tzinfo=JST),
+                    text="6/16(火)『SAFE CURSOR TWO』\n会場：渋谷Milkyway\nOPEN 18:00 / START 18:30",
+                    raw={"id": "800002"},
+                ),
+            ]
+
+    class FailingParser(PostParser):
+        def parse_post(self, post, classification=None):
+            if post.id == "800002":
+                raise RuntimeError("simulated parser failure")
+            return super().parse_post(post, classification=classification)
+
+    state = SQLiteStateStore(tmp_path / "state.sqlite")
+    pipeline = SyncPipeline(fetcher=FakeFetcher(), state=state, parser=FailingParser())
+
+    try:
+        pipeline.run_once(max_results=10)
+    except RuntimeError as exc:
+        assert "simulated parser failure" in str(exc)
+    else:
+        raise AssertionError("pipeline should surface parser failures")
+
+    assert state.get_last_seen_post_id() is None
+    assert state.has_processed_post("800001")
+
+
+def test_backfill_does_not_advance_incremental_since_id(tmp_path):
+    class FakeBackfillFetcher:
+        def __init__(self):
+            self.last_fetch_metadata = FetchMetadata(posts_fetched=1, estimated_post_read_count=1)
+
+        def fetch_historical_posts(self, *, max_posts, max_pages=5, page_size=10):
+            return [
+                XPost(
+                    id="900001",
+                    created_at=datetime(2026, 6, 12, 10, 0, tzinfo=JST),
+                    text="6/15(月)『BACKFILL CURSOR LIVE』\n会場：渋谷Milkyway\nOPEN 18:00 / START 18:30",
+                    raw={"id": "900001"},
+                )
+            ]
+
+        def fetch_recent_posts(self, **kwargs):
+            raise AssertionError("backfill should not use incremental fetch")
+
+    state = SQLiteStateStore(tmp_path / "state.sqlite")
+    state.set_last_seen_post_id("800000")
+    pipeline = SyncPipeline(fetcher=FakeBackfillFetcher(), state=state, parser=PostParser())
+
+    events, result = pipeline.run_backfill(max_posts=1, max_pages=1, page_size=1)
+
+    assert result.parsed_events == 1
+    assert len(events) == 1
+    assert state.get_last_seen_post_id() == "800000"
+
+
+def test_mock_bootstrap_initializes_last_seen_post_id(tmp_path, capsys):
+    mock_path = tmp_path / "bootstrap.json"
+    mock_path.write_text(
+        json.dumps(
+            [
+                {
+                    "id": "910001",
+                    "created_at": "2026-06-12T10:00:00+09:00",
+                    "text": "6/15(月)『BOOTSTRAP ONE』\n会場：渋谷Milkyway\nOPEN 18:00 / START 18:30",
+                },
+                {
+                    "id": "910002",
+                    "created_at": "2026-06-12T10:05:00+09:00",
+                    "text": "6/16(火)『BOOTSTRAP TWO』\n会場：渋谷Milkyway\nOPEN 18:00 / START 18:30",
+                },
+            ],
+            ensure_ascii=False,
+        ),
+        encoding="utf-8",
+    )
+    db_path = tmp_path / "state.sqlite"
+
+    result = main(
+        [
+            "run",
+            "--mock-posts",
+            str(mock_path),
+            "--db",
+            str(db_path),
+            "--target",
+            "none",
+            "--dry-run",
+        ]
+    )
+    output = capsys.readouterr().out
+
+    assert result == 0
+    assert "new_posts_processed 2" in output
+    assert SQLiteStateStore(db_path).get_last_seen_post_id() == "910002"
+
+
+def test_inspect_state_prints_expected_fields(tmp_path, capsys):
+    db_path = tmp_path / "state.sqlite"
+    state = SQLiteStateStore(db_path)
+    state.set_cached_x_user_id("info_myojou", "12345")
+    state.set_last_seen_post_id("910002")
+    state.save_classified_source_post(
+        XPost(
+            id="910002",
+            created_at=datetime(2026, 6, 12, 10, 5, tzinfo=JST),
+            text="グッズ通販のお知らせ",
+            raw={"id": "910002"},
+        ),
+        PostClassificationResult(
+            classification=PostClassification.NON_EVENT,
+            confidence=ClassificationConfidence.HIGH,
+            reason="goods announcement",
+            source_kind=SourceKind.OTHER,
+        ),
+        source_url="https://x.com/info_myojou/status/910002",
+    )
+    state.save_event(CanonicalEvent(event_name="INSPECT LIVE", event_date=date(2026, 6, 16)))
+
+    result = main(["inspect-state", "--db", str(db_path)])
+    output = capsys.readouterr().out
+
+    assert result == 0
+    assert f"db_path: {db_path}" in output
+    assert "cached_user_id: 12345" in output
+    assert "last_seen_post_id: 910002" in output
+    assert "latest_processed_post_id: 910002" in output
+    assert "latest_processed_post_created_at: 2026-06-12T10:05:00+09:00" in output
+    assert "processed_posts: 1" in output
+    assert "canonical_events: 1" in output
 
 
 def test_backfill_save_x_samples_writes_all_pages_and_metadata(tmp_path, monkeypatch, capsys):
