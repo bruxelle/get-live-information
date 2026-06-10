@@ -18,6 +18,28 @@ _DATE_PATTERNS = (
     re.compile(r"(?<!\d)(?P<month>\d{1,2})/(?P<day>\d{1,2})(?!\d)"),
     re.compile(r"(?<!\d)(?P<month>\d{1,2})\.(?P<day>\d{1,2})(?!\d)"),
 )
+_DATE_RANGE_RE = re.compile(
+    r"(?<!\d)(?:(?P<year>20\d{2})[年/\-.])?"
+    r"(?P<month>\d{1,2})(?:月|[/\.])(?P<day>\d{1,2})(?:日)?"
+    r"(?:\s*[（(][^）)]*[）)])?\s*"
+    r"(?:-|ー|–|〜|～|~)\s*"
+    r"(?:(?P<end_month>\d{1,2})(?:月|[/\.]))?(?P<end_day>\d{1,2})(?:日)?"
+)
+_WEEKDAY_PAREN = r"(?:\s*[（(][^）)]*[）)])?"
+_SLASH_DATE_LIST_RE = re.compile(
+    r"(?<!\d)(?P<month>\d{1,2})/(?P<first_day>\d{1,2})(?:日)?"
+    + _WEEKDAY_PAREN
+    + r"(?P<rest>(?:\s*[,、・]\s*(?!\d{1,2}\s*[/\.])\d{1,2}(?:日)?"
+    + _WEEKDAY_PAREN
+    + r")+)(?!\d)"
+)
+_JP_DATE_LIST_RE = re.compile(
+    r"(?<!\d)(?P<month>\d{1,2})月(?P<first_day>\d{1,2})日?"
+    + _WEEKDAY_PAREN
+    + r"(?P<rest>(?:\s*[,、・]\s*\d{1,2}日?"
+    + _WEEKDAY_PAREN
+    + r")+)(?!\d)"
+)
 
 
 def normalize_spaces(value: str | None) -> str:
@@ -121,6 +143,73 @@ def parse_event_date(value: str | None, posted_date: date) -> date | None:
             return _infer_year(month, day, posted_date)
         return parsed
     return None
+
+
+def parse_event_dates(value: str | None, posted_date: date) -> list[date]:
+    if not value:
+        return []
+    normalized = normalize_spaces(re.sub(r"https?://\S+", " ", value))
+    parsed: list[date] = []
+
+    for match in _DATE_RANGE_RE.finditer(normalized):
+        year = int(match.groupdict().get("year") or posted_date.year)
+        month = int(match.group("month"))
+        day = int(match.group("day"))
+        end_month = int(match.group("end_month") or month)
+        end_day = int(match.group("end_day"))
+        start = _safe_date(year, month, day)
+        end = _safe_date(year, end_month, end_day)
+        if not start or not end:
+            continue
+        if not match.groupdict().get("year"):
+            start = _infer_year(month, day, posted_date)
+            end = _infer_year(end_month, end_day, posted_date)
+        if not start or not end or end < start:
+            continue
+        days = (end - start).days
+        if days > 14:
+            continue
+        parsed.extend(start + timedelta(days=offset) for offset in range(days + 1))
+
+    for match in _SLASH_DATE_LIST_RE.finditer(normalized):
+        month = int(match.group("month"))
+        days = [int(match.group("first_day")), *_days_from_list_rest(match.group("rest"))]
+        parsed.extend(_infer_year(month, day, posted_date) for day in days)
+
+    for match in _JP_DATE_LIST_RE.finditer(normalized):
+        month = int(match.group("month"))
+        days = [int(match.group("first_day")), *_days_from_list_rest(match.group("rest"))]
+        parsed.extend(_infer_year(month, day, posted_date) for day in days)
+
+    for pattern in _DATE_PATTERNS:
+        for match in pattern.finditer(normalized):
+            year = int(match.groupdict().get("year") or posted_date.year)
+            month = int(match.group("month"))
+            day = int(match.group("day"))
+            candidate = _safe_date(year, month, day)
+            if not candidate:
+                continue
+            if "year" not in match.groupdict() or not match.groupdict().get("year"):
+                candidate = _infer_year(month, day, posted_date)
+            if candidate:
+                parsed.append(candidate)
+
+    return _unique_dates(parsed)
+
+
+def _days_from_list_rest(value: str) -> list[int]:
+    return [int(day) for day in re.findall(r"\d{1,2}", value)]
+
+
+def _unique_dates(values: list[date | None]) -> list[date]:
+    unique: list[date] = []
+    seen: set[date] = set()
+    for value in values:
+        if value is None or value in seen:
+            continue
+        seen.add(value)
+        unique.append(value)
+    return unique
 
 
 def _infer_year(month: int, day: int, posted_date: date) -> date | None:

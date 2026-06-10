@@ -2,11 +2,15 @@ from __future__ import annotations
 
 import json
 import re
+from datetime import date
 from pathlib import Path
 from typing import Any
 
 from .merger import select_relevant_ticket_period
 from .models import CanonicalEvent
+from .normalization import normalize_event_name, normalize_url, normalize_venue
+from .readiness import public_readiness
+from .sample_capture import needs_review_reasons
 
 
 PUBLIC_COLUMNS = [
@@ -102,6 +106,8 @@ PREVIEW_TABLE_COLUMNS = [
 MOBILE_PREVIEW_COLUMNS = PREVIEW_TABLE_COLUMNS
 
 PUBLIC_WEB_FIELDS = [
+    "public_event_id",
+    "source_event_id",
     "event_date",
     "weekday",
     "event_name",
@@ -118,6 +124,9 @@ PUBLIC_WEB_FIELDS = [
     "next_ticket_deadline_at",
     "next_ticket_sale_type",
     "next_ticket_label",
+    "public_ready",
+    "public_not_ready_reasons",
+    "review_reasons",
 ]
 
 _WEEKDAYS = ("月", "火", "水", "木", "金", "土", "日")
@@ -311,9 +320,14 @@ def events_to_json(events: list[CanonicalEvent]) -> str:
     return json.dumps(events_to_public_rows(events), ensure_ascii=False, indent=2)
 
 
-def event_to_web_dict(event: CanonicalEvent) -> dict[str, Any]:
-    values = event_to_public_values(event)
+def event_to_web_dict(event: CanonicalEvent, occurrence_date: date | None = None) -> dict[str, Any]:
+    occurrence = event.model_copy(update={"event_date": occurrence_date}) if occurrence_date else event
+    values = event_to_public_values(occurrence)
+    readiness = public_readiness(occurrence)
+    date_key = values["event_date"] or "no-date"
     return {
+        "public_event_id": f"{event.event_id}:{date_key}",
+        "source_event_id": event.event_id,
         "event_date": values["event_date"],
         "weekday": values["weekday"],
         "event_name": values["event_name"],
@@ -326,15 +340,26 @@ def event_to_web_dict(event: CanonicalEvent) -> dict[str, Any]:
         "needs_review": values["needs_review"],
         "ticket_application_deadline_at": values["ticket_application_deadline_at"],
         "payment_deadline_at": values["payment_deadline_at"],
-        "ticket_sales": _ticket_sales_to_web(event),
+        "ticket_sales": _ticket_sales_to_web(occurrence),
         "next_ticket_deadline_at": values["next_ticket_deadline_at"],
         "next_ticket_sale_type": values["next_ticket_sale_type"],
-        "next_ticket_label": next_ticket_label(event),
+        "next_ticket_label": next_ticket_label(occurrence),
+        "public_ready": readiness.public_ready,
+        "public_not_ready_reasons": readiness.reasons,
+        "review_reasons": needs_review_reasons(occurrence),
     }
 
 
 def events_to_web_rows(events: list[CanonicalEvent]) -> list[dict[str, Any]]:
-    return [event_to_web_dict(event) for event in sorted(events, key=_sort_key)]
+    rows_by_key: dict[tuple[str, str, str], dict[str, Any]] = {}
+    for event in sorted(events, key=_sort_key):
+        for occurrence_date in _occurrence_dates(event):
+            row = event_to_web_dict(event, occurrence_date=occurrence_date)
+            key = _occurrence_dedupe_key(event, occurrence_date)
+            existing = rows_by_key.get(key)
+            if existing is None or _web_row_score(row) > _web_row_score(existing):
+                rows_by_key[key] = row
+    return sorted(rows_by_key.values(), key=lambda row: (row.get("event_date") or "9999-99-99", row.get("event_name") or ""))
 
 
 def events_to_web_json(events: list[CanonicalEvent]) -> str:
@@ -368,6 +393,36 @@ def _sort_key(event: CanonicalEvent) -> tuple[str, str, str]:
         event.start_time or "",
         event.event_name or "",
     )
+
+
+def _occurrence_dates(event: CanonicalEvent) -> list[date | None]:
+    dates: list[date | None] = []
+    if event.event_date:
+        dates.append(event.event_date)
+    dates.extend(event.event_dates or [])
+    unique: list[date | None] = []
+    seen: set[date | None] = set()
+    for item in dates:
+        if item in seen:
+            continue
+        seen.add(item)
+        unique.append(item)
+    return unique or [None]
+
+
+def _occurrence_dedupe_key(event: CanonicalEvent, occurrence_date: date | None) -> tuple[str, str, str]:
+    date_key = occurrence_date.isoformat() if occurrence_date else ""
+    name_key = normalize_event_name(event.event_name)
+    location_or_ticket_key = normalize_venue(event.venue) or normalize_url(event.ticket_url) or event.event_id
+    return date_key, name_key, location_or_ticket_key
+
+
+def _web_row_score(row: dict[str, Any]) -> int:
+    score = 0
+    for value in row.values():
+        if value not in (None, "", [], False):
+            score += 1
+    return score
 
 
 def _cell(value: Any) -> str:

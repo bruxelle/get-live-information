@@ -180,6 +180,35 @@ class FakeNoteTweetSession:
         )
 
 
+def _tweet_payload(post_id: int) -> dict:
+    return {
+        "id": str(post_id),
+        "created_at": "2026-05-20T00:00:00Z",
+        "text": f"6/15(月)『BACKFILL LIVE {post_id}』\n会場：渋谷Milkyway\nOPEN 18:00 / START 18:30",
+    }
+
+
+class FakePaginatedSession:
+    def __init__(self, pages):
+        self.pages = pages
+        self.params = []
+
+    def get(self, url, **kwargs):
+        if "/users/by/username/" in url:
+            return FakeResponse({"data": {"id": "12345"}})
+        params = kwargs.get("params", {})
+        self.params.append(params)
+        page_index = len(self.params) - 1
+        return FakeResponse(
+            self.pages[page_index],
+            headers={
+                "x-rate-limit-limit": "15",
+                "x-rate-limit-remaining": str(14 - page_index),
+                "x-rate-limit-reset": "1770000000",
+            },
+        )
+
+
 def test_x_user_id_lookup_is_cached_in_sqlite(tmp_path):
     state = SQLiteStateStore(tmp_path / "state.sqlite")
     session = FakeSession()
@@ -262,6 +291,94 @@ def test_x_client_and_parser_use_note_tweet_full_text(tmp_path):
     assert parsed.ticket_sale_type == "一般"
     assert parsed.notes and "明星カード" in parsed.notes
     assert parsed.ticket_sales
+
+
+def test_x_backfill_pagination_stops_at_max_posts(tmp_path):
+    state = SQLiteStateStore(tmp_path / "state.sqlite")
+    session = FakePaginatedSession(
+        [
+            {
+                "data": [_tweet_payload(index) for index in range(300001, 300006)],
+                "meta": {"next_token": "next-page"},
+            }
+        ]
+    )
+    client = XApiClient("token", state=state, session=session)
+
+    posts = client.fetch_historical_posts(max_posts=3, max_pages=5, page_size=5)
+
+    assert [post.id for post in posts] == ["300001", "300002", "300003"]
+    assert len(session.params) == 1
+    assert client.last_fetch_metadata.posts_fetched == 3
+    assert client.last_fetch_metadata.estimated_post_read_count == 5
+    assert client.last_fetch_metadata.pages_fetched == 1
+    assert client.last_fetch_metadata.page_summaries[0]["has_next_token"] is True
+
+
+def test_x_backfill_final_page_requests_only_remaining_posts(tmp_path):
+    state = SQLiteStateStore(tmp_path / "state.sqlite")
+    session = FakePaginatedSession(
+        [
+            {
+                "data": [_tweet_payload(index) for index in range(301000, 301096)],
+                "meta": {"next_token": "page-2"},
+            },
+            {
+                "data": [_tweet_payload(index) for index in range(301100, 301105)],
+                "meta": {"next_token": "page-3"},
+            },
+        ]
+    )
+    client = XApiClient("token", state=state, session=session)
+
+    posts = client.fetch_historical_posts(max_posts=100, max_pages=10, page_size=100)
+
+    assert len(posts) == 100
+    assert len(session.params) == 2
+    assert session.params[0]["max_results"] == 100
+    assert session.params[1]["max_results"] == 5
+    assert client.last_fetch_metadata.estimated_post_read_count == 101
+    assert client.last_fetch_metadata.page_summaries[1]["posts_fetched"] == 5
+    assert client.last_fetch_metadata.page_summaries[1]["posts_accepted"] == 4
+
+
+def test_x_backfill_pagination_stops_at_max_pages(tmp_path):
+    state = SQLiteStateStore(tmp_path / "state.sqlite")
+    session = FakePaginatedSession(
+        [
+            {"data": [_tweet_payload(index) for index in range(300010, 300015)], "meta": {"next_token": "page-2"}},
+            {"data": [_tweet_payload(index) for index in range(300020, 300025)], "meta": {"next_token": "page-3"}},
+            {"data": [_tweet_payload(index) for index in range(300030, 300035)], "meta": {"next_token": "page-4"}},
+        ]
+    )
+    client = XApiClient("token", state=state, session=session)
+
+    posts = client.fetch_historical_posts(max_posts=20, max_pages=2, page_size=5)
+
+    assert len(posts) == 10
+    assert len(session.params) == 2
+    assert "pagination_token" not in session.params[0]
+    assert session.params[1]["pagination_token"] == "page-2"
+    assert client.last_fetch_metadata.pages_fetched == 2
+    assert client.last_fetch_metadata.estimated_post_read_count == 10
+
+
+def test_x_backfill_pagination_stops_when_next_token_absent(tmp_path):
+    state = SQLiteStateStore(tmp_path / "state.sqlite")
+    session = FakePaginatedSession(
+        [
+            {"data": [_tweet_payload(index) for index in range(300100, 300103)], "meta": {}},
+            {"data": [_tweet_payload(300999)], "meta": {}},
+        ]
+    )
+    client = XApiClient("token", state=state, session=session)
+
+    posts = client.fetch_historical_posts(max_posts=20, max_pages=5, page_size=5)
+
+    assert len(posts) == 3
+    assert len(session.params) == 1
+    assert client.last_fetch_metadata.pages_fetched == 1
+    assert client.last_fetch_metadata.page_summaries[0]["has_next_token"] is False
 
 
 def test_pipeline_source_posts_store_linked_event_metadata(tmp_path, mock_posts_dir: Path):

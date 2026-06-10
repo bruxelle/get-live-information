@@ -7,8 +7,9 @@ import sys
 from .config import Settings
 from .env_validation import missing_for_target, validation_lines
 from .parser import PostParser
-from .pipeline import SyncPipeline
-from .public_output import events_to_json, events_to_table, write_web_events_json
+from .pipeline import SyncPipeline, build_quality_report
+from .public_output import events_to_json, events_to_table, events_to_web_rows, write_web_events_json
+from .readiness import public_readiness
 from .real_samples import evaluate_real_samples
 from .sample_capture import write_x_samples
 from .state import SQLiteStateStore
@@ -30,6 +31,11 @@ def build_parser() -> argparse.ArgumentParser:
     export_public = subparsers.add_parser("export-public", help="Export canonical events to a static public/events.json file.")
     export_public.add_argument("--db", help="SQLite state database path.")
     export_public.add_argument("--output", default="public/events.json", help="Output JSON path. Defaults to public/events.json.")
+    export_public.add_argument(
+        "--include-not-public-ready",
+        action="store_true",
+        help="Debug export: include suspicious/not-public-ready canonical events.",
+    )
     export_public.add_argument("--log-level", default="INFO", choices=["DEBUG", "INFO", "WARNING", "ERROR"])
 
     evaluate_samples = subparsers.add_parser("evaluate-real-samples", help="Evaluate manually collected real X post fixtures.")
@@ -41,6 +47,10 @@ def build_parser() -> argparse.ArgumentParser:
     run.add_argument("--no-mock-posts", action="store_true", help="Ignore MYOJOU_MOCK_POSTS and use the real X client.")
     run.add_argument("--db", help="SQLite state database path.")
     run.add_argument("--max-results", type=int, help="Maximum X posts to request. Defaults to X_MAX_RESULTS or 10.")
+    run.add_argument("--backfill", action="store_true", help="Fetch historical X posts with pagination.")
+    run.add_argument("--max-posts", type=int, help="Maximum total posts to fetch during --backfill. Required with --backfill.")
+    run.add_argument("--max-pages", type=int, default=5, help="Maximum API pages to fetch during --backfill. Defaults to 5.")
+    run.add_argument("--page-size", type=int, default=10, help="Posts requested per page during --backfill. Defaults to 10.")
     dry_run = run.add_mutually_exclusive_group()
     dry_run.add_argument("--dry-run", action="store_true", dest="dry_run", help="Skip Notion and Google Sheets writes.")
     dry_run.add_argument("--no-dry-run", action="store_false", dest="dry_run", help="Allow requested external writes.")
@@ -87,8 +97,24 @@ def main(argv: list[str] | None = None) -> int:
     if args.command == "export-public":
         state = SQLiteStateStore(args.db or settings.state_db)
         events = state.load_events()
-        output_path = write_web_events_json(events, args.output)
-        print(f"Exported {len(events)} events to {output_path}.")
+        if args.include_not_public_ready:
+            export_events = events
+            filtered_count = 0
+        else:
+            export_events = [event for event in events if public_readiness(event).public_ready]
+            filtered_count = len(events) - len(export_events)
+        output_path = write_web_events_json(export_events, args.output)
+        occurrence_count = len(events_to_web_rows(export_events))
+        if args.include_not_public_ready:
+            print(
+                f"Exported {occurrence_count} rows from {len(export_events)} events to {output_path} "
+                "including not-public-ready records."
+            )
+        else:
+            print(
+                f"Exported {occurrence_count} public-ready rows from {len(export_events)} events "
+                f"to {output_path}; filtered {filtered_count}."
+            )
         return 0
 
     if args.command == "evaluate-real-samples":
@@ -105,9 +131,27 @@ def main(argv: list[str] | None = None) -> int:
         return 0 if passed == len(results) else 1
 
     if args.command == "run":
+        if args.backfill and args.max_posts is None:
+            print("--max-posts is required when --backfill is used.", file=sys.stderr)
+            return 2
+        if args.backfill and args.max_posts is not None and args.max_posts <= 0:
+            print("--max-posts must be greater than 0.", file=sys.stderr)
+            return 2
+        if args.backfill and args.max_pages <= 0:
+            print("--max-pages must be greater than 0.", file=sys.stderr)
+            return 2
+        if args.backfill and args.page_size <= 0:
+            print("--page-size must be greater than 0.", file=sys.stderr)
+            return 2
         db_path = args.db or settings.state_db
         dry_run = settings.dry_run if args.dry_run is None else args.dry_run
         target = _resolve_target(args.target, sync_notion=args.sync_notion, sync_sheets=args.sync_sheets)
+        if args.backfill and not dry_run and target != "none":
+            print(
+                "WARNING: --backfill can process many historical posts. Prefer --target none --dry-run first; "
+                "external writes are enabled for this run.",
+                file=sys.stderr,
+            )
         mock_posts = None if args.no_mock_posts else args.mock_posts or settings.mock_posts
         if args.max_results is not None:
             max_results = args.max_results
@@ -133,7 +177,16 @@ def main(argv: list[str] | None = None) -> int:
             state=state,
             parser=PostParser(username=settings.x_username),
         )
-        events, result = pipeline.run_once(max_results=max_results)
+        if args.backfill:
+            events, result = pipeline.run_backfill(
+                max_posts=args.max_posts,
+                max_pages=args.max_pages,
+                page_size=args.page_size,
+            )
+            quality_report = build_quality_report(events, result)
+        else:
+            events, result = pipeline.run_once(max_results=max_results)
+            quality_report = None
 
         if args.save_x_samples:
             if mock_posts:
@@ -145,10 +198,16 @@ def main(argv: list[str] | None = None) -> int:
                     metadata={
                         "username": settings.x_username,
                         "max_results": max_results,
+                        "max_posts": args.max_posts,
+                        "max_pages": args.max_pages if args.backfill else None,
+                        "page_size": args.page_size if args.backfill else None,
                         "posts_fetched": result.fetched_posts,
                         "estimated_x_post_reads": result.estimated_x_post_read_count,
+                        "pages_fetched": result.pages_fetched,
+                        "page_summaries": result.x_page_summaries,
                         "rate_limit_headers": result.x_rate_limit_headers or {},
                         "dry_run": dry_run,
+                        "backfill": args.backfill,
                     },
                 )
                 print(f"Saved {len(result.x_sample_records)} X samples to {output_path}.")
@@ -193,6 +252,8 @@ def main(argv: list[str] | None = None) -> int:
             "updated {updated_events}, skipped {skipped_posts}, already_processed {already_processed_skipped}, "
             "estimated_x_post_reads {estimated_x_post_read_count}, canonical {canonical_events}.".format(**result.__dict__)
         )
+        if quality_report:
+            print(_format_quality_report(quality_report))
         return 0
 
     return 1
@@ -208,6 +269,71 @@ def _resolve_target(target: str | None, *, sync_notion: bool, sync_sheets: bool)
     if sync_sheets:
         return "sheets"
     return "both"
+
+
+def _format_quality_report(report: dict) -> str:
+    canonical_events = report["canonical_events"]
+
+    def ratio(key: str) -> str:
+        return f"{report[key]}/{canonical_events}"
+
+    def public_ready_ratio(key: str) -> str:
+        ready = report.get("public_ready_quality", {})
+        ready_count = ready.get("public_ready_events", 0)
+        return f"{ready.get(key, 0)}/{ready_count}"
+
+    lines = [
+        "Backfill quality:",
+        f"posts_fetched: {report['posts_fetched']}",
+        f"posts_parsed: {report['posts_parsed']}",
+        f"non_event_skipped: {report['non_event_skipped']}",
+        f"canonical_events: {canonical_events}",
+        f"public_ready: {ratio('public_ready_count')}",
+        f"not_public_ready: {ratio('not_public_ready_count')}",
+        f"ticket_url: {ratio('events_with_ticket_url')}",
+        f"application_deadline: {ratio('events_with_application_deadline')}",
+        f"sale_period: {ratio('events_with_sale_period')}",
+        f"price: {ratio('events_with_price')}",
+        f"venue: {ratio('events_with_venue')}",
+        f"performance_time: {ratio('events_with_performance_time')}",
+        f"benefit_time: {ratio('events_with_benefit_time')}",
+        f"needs_review: {ratio('needs_review_count')}",
+        f"suspicious_count: {report['suspicious_count']}",
+    ]
+    suspicious = report.get("suspicious_examples") or []
+    if suspicious:
+        lines.append("suspicious_examples:")
+        for item in suspicious[:10]:
+            label = item.get("event_name") or "missing event_name"
+            date = item.get("event_date") or "no date"
+            source = item.get("source_post_id") or "unknown source"
+            reasons = ", ".join(item.get("reasons") or [])
+            lines.append(f"- {date} {label}: {reasons} source_post_id={source}")
+    ready_quality = report.get("public_ready_quality") or {}
+    if ready_quality:
+        lines.extend(
+            [
+                "Backfill public-ready quality:",
+                f"public_ready_events: {ready_quality.get('public_ready_events', 0)}",
+                f"ticket_url: {public_ready_ratio('events_with_ticket_url')}",
+                f"application_deadline: {public_ready_ratio('events_with_application_deadline')}",
+                f"sale_period: {public_ready_ratio('events_with_sale_period')}",
+                f"price: {public_ready_ratio('events_with_price')}",
+                f"venue: {public_ready_ratio('events_with_venue')}",
+                f"performance_time: {public_ready_ratio('events_with_performance_time')}",
+                f"benefit_time: {public_ready_ratio('events_with_benefit_time')}",
+                f"needs_review: {public_ready_ratio('needs_review_count')}",
+            ]
+        )
+    missing = report.get("top_missing_fields") or []
+    if missing:
+        lines.append(
+            "top_missing_fields: "
+            + ", ".join(f"{item['field']}={item['missing']}" for item in missing[:5])
+        )
+    else:
+        lines.append("top_missing_fields: none")
+    return "\n".join(lines)
 
 
 if __name__ == "__main__":  # pragma: no cover

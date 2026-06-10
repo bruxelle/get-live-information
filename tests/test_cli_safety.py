@@ -4,8 +4,9 @@ import json
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
-from myojou_sync.cli import main
+from myojou_sync.cli import _format_quality_report, main
 from myojou_sync.models import CanonicalEvent
+from myojou_sync.pipeline import PipelineResult, build_quality_report
 from myojou_sync.public_output import (
     PREVIEW_TABLE_COLUMNS,
     PUBLIC_COLUMNS,
@@ -134,6 +135,194 @@ def test_no_mock_posts_ignores_mock_env_and_keeps_no_x_api_guard(tmp_path, monke
 
     assert result == 2
     assert "X API is disabled. Use mock_posts or set NO_X_API=false intentionally." in error
+
+
+def test_backfill_requires_max_posts(tmp_path, monkeypatch, capsys):
+    def fail(*args, **kwargs):
+        raise AssertionError("XApiClient should not be constructed when --max-posts is missing")
+
+    monkeypatch.setenv("NO_X_API", "false")
+    monkeypatch.setenv("X_BEARER_TOKEN", "token")
+    monkeypatch.delenv("MYOJOU_MOCK_POSTS", raising=False)
+    monkeypatch.setattr("myojou_sync.cli.XApiClient", fail)
+
+    result = main(["run", "--backfill", "--no-mock-posts", "--db", str(tmp_path / "state.sqlite")])
+    error = capsys.readouterr().err
+
+    assert result == 2
+    assert "--max-posts is required when --backfill is used." in error
+
+
+def test_normal_run_uses_incremental_fetch_not_backfill(tmp_path, monkeypatch):
+    from myojou_sync.models import XPost
+    from myojou_sync.x_client import FetchMetadata
+
+    class FakeIncrementalXClient:
+        def __init__(self, bearer_token, username, state):
+            self.last_fetch_metadata = FetchMetadata()
+            self.incremental_called = False
+
+        def fetch_recent_posts(self, *, since_id=None, max_results=10):
+            self.incremental_called = True
+            self.last_fetch_metadata = FetchMetadata(posts_fetched=0, estimated_post_read_count=0)
+            return []
+
+        def fetch_historical_posts(self, **kwargs):
+            raise AssertionError("normal run should not use backfill pagination")
+
+    monkeypatch.setenv("NO_X_API", "false")
+    monkeypatch.setenv("X_BEARER_TOKEN", "token")
+    monkeypatch.delenv("MYOJOU_MOCK_POSTS", raising=False)
+    monkeypatch.setattr("myojou_sync.cli.XApiClient", FakeIncrementalXClient)
+
+    result = main(
+        [
+            "run",
+            "--no-mock-posts",
+            "--db",
+            str(tmp_path / "state.sqlite"),
+            "--target",
+            "none",
+            "--dry-run",
+        ]
+    )
+
+    assert result == 0
+
+
+def test_backfill_save_x_samples_writes_all_pages_and_metadata(tmp_path, monkeypatch, capsys):
+    from myojou_sync.models import XPost
+    from myojou_sync.x_client import FetchMetadata
+
+    class FakeBackfillXClient:
+        def __init__(self, bearer_token, username, state):
+            self.last_fetch_metadata = FetchMetadata()
+
+        def fetch_historical_posts(self, *, max_posts, max_pages=5, page_size=10):
+            assert max_posts == 2
+            assert max_pages == 3
+            assert page_size == 5
+            self.last_fetch_metadata = FetchMetadata(
+                posts_fetched=2,
+                estimated_post_read_count=2,
+                rate_limit_headers={"x-rate-limit-remaining": "11"},
+                pages_fetched=2,
+                page_summaries=[
+                    {
+                        "page": 1,
+                        "posts_fetched": 1,
+                        "posts_accepted": 1,
+                        "cumulative_posts": 1,
+                        "estimated_x_post_reads": 1,
+                        "has_next_token": True,
+                    },
+                    {
+                        "page": 2,
+                        "posts_fetched": 1,
+                        "posts_accepted": 1,
+                        "cumulative_posts": 2,
+                        "estimated_x_post_reads": 2,
+                        "has_next_token": False,
+                    },
+                ],
+            )
+            return [
+                XPost(
+                    id="backfill001",
+                    created_at=datetime(2026, 5, 20, 0, 0, tzinfo=JST),
+                    text="6/15(月)『BACKFILL ONE』\n会場：渋谷Milkyway\n開場18:00 / 開演18:30",
+                    raw={"id": "backfill001", "text": "6/15(月)『BACKFILL ONE』"},
+                ),
+                XPost(
+                    id="backfill002",
+                    created_at=datetime(2026, 5, 21, 0, 0, tzinfo=JST),
+                    text="グッズ通販のお知らせ",
+                    raw={"id": "backfill002", "text": "グッズ通販のお知らせ"},
+                ),
+            ]
+
+        def fetch_recent_posts(self, **kwargs):
+            raise AssertionError("backfill run should not use incremental fetch")
+
+    output_path = tmp_path / "real_samples" / "backfill.json"
+    monkeypatch.setenv("NO_X_API", "false")
+    monkeypatch.setenv("X_BEARER_TOKEN", "token")
+    monkeypatch.delenv("MYOJOU_MOCK_POSTS", raising=False)
+    monkeypatch.setattr("myojou_sync.cli.XApiClient", FakeBackfillXClient)
+
+    result = main(
+        [
+            "run",
+            "--backfill",
+            "--max-posts",
+            "2",
+            "--max-pages",
+            "3",
+            "--page-size",
+            "5",
+            "--no-mock-posts",
+            "--db",
+            str(tmp_path / "state.sqlite"),
+            "--target",
+            "none",
+            "--dry-run",
+            "--save-x-samples",
+            str(output_path),
+        ]
+    )
+    output = capsys.readouterr().out
+    payload = json.loads(output_path.read_text(encoding="utf-8"))
+
+    assert result == 0
+    assert "Saved 2 X samples" in output
+    assert "Backfill quality:" in output
+    assert payload["metadata"]["backfill"] is True
+    assert payload["metadata"]["max_posts"] == 2
+    assert payload["metadata"]["max_pages"] == 3
+    assert payload["metadata"]["page_size"] == 5
+    assert payload["metadata"]["pages_fetched"] == 2
+    assert payload["metadata"]["estimated_x_post_reads"] == 2
+    assert payload["metadata"]["page_summaries"][0]["has_next_token"] is True
+    assert [item["id"] for item in payload["data"]] == ["backfill001", "backfill002"]
+    assert payload["data"][0]["classification"]["classification"] == "event"
+    assert payload["data"][1]["classification"]["classification"] == "non_event"
+
+
+def test_backfill_quality_report_counts_expected_fields():
+    complete = CanonicalEvent(
+        event_name="COMPLETE LIVE",
+        event_date=date(2026, 6, 15),
+        venue="渋谷Milkyway",
+        myojou_performance_time="19:00-19:20",
+        benefit_event_time="20:00-21:00",
+        ticket_url="https://t.livepocket.jp/e/complete",
+        general_ticket_price=2500,
+        ticket_application_deadline_at=datetime(2026, 6, 1, 23, 59, tzinfo=JST),
+    )
+    missing = CanonicalEvent(event_name="MISSING LIVE", needs_review=True)
+    report = build_quality_report(
+        [complete, missing],
+        PipelineResult(fetched_posts=3, parsed_events=2, non_event_skipped=1),
+    )
+
+    assert report["posts_fetched"] == 3
+    assert report["posts_parsed"] == 2
+    assert report["non_event_skipped"] == 1
+    assert report["canonical_events"] == 2
+    assert report["events_with_ticket_url"] == 1
+    assert report["events_with_application_deadline"] == 1
+    assert report["events_with_price"] == 1
+    assert report["events_with_venue"] == 1
+    assert report["events_with_performance_time"] == 1
+    assert report["events_with_benefit_time"] == 1
+    assert report["needs_review_count"] == 1
+    assert report["public_ready_quality"]["public_ready_events"] == 1
+    assert report["public_ready_quality"]["events_with_ticket_url"] == 1
+    formatted = _format_quality_report(report)
+    assert "Backfill public-ready quality:" in formatted
+    assert "public_ready_events: 1" in formatted
+    assert "ticket_url: 1/1" in formatted
+    assert report["top_missing_fields"][0]["missing"] >= 1
 
 
 def test_save_x_samples_writes_raw_posts_without_secrets(tmp_path, monkeypatch, capsys):
@@ -558,6 +747,7 @@ def test_public_json_still_contains_full_detail_fields():
         events_to_json(
             [
                 CanonicalEvent(
+                    event_id="evt_web_shape",
                     event_name="STARLIGHT LIVE vol.7",
                     event_date=date(2026, 6, 15),
                     open_time="18:00",
@@ -612,6 +802,7 @@ def test_web_events_json_export_shape():
         events_to_web_json(
             [
                 CanonicalEvent(
+                    event_id="evt_web_shape",
                     event_name="STARLIGHT LIVE vol.7",
                     event_date=date(2026, 6, 15),
                     venue="渋谷Milkyway",
@@ -634,6 +825,8 @@ def test_web_events_json_export_shape():
 
     assert payload == [
         {
+            "public_event_id": "evt_web_shape:2026-06-15",
+            "source_event_id": "evt_web_shape",
             "event_date": "2026-06-15",
             "weekday": "月",
             "event_name": "STARLIGHT LIVE vol.7",
@@ -650,6 +843,9 @@ def test_web_events_json_export_shape():
             "next_ticket_deadline_at": "",
             "next_ticket_sale_type": "抽選",
             "next_ticket_label": "",
+            "public_ready": True,
+            "public_not_ready_reasons": [],
+            "review_reasons": [],
         }
     ]
 
@@ -659,6 +855,7 @@ def test_web_events_json_keeps_events_without_deadline_for_missing_filter():
         events_to_web_json(
             [
                 CanonicalEvent(
+                    event_id="evt_no_deadline",
                     event_name="締切未取得ライブ",
                     event_date=date(2026, 6, 20),
                     venue="渋谷近未来会館",
@@ -670,6 +867,8 @@ def test_web_events_json_keeps_events_without_deadline_for_missing_filter():
 
     assert payload == [
         {
+            "public_event_id": "evt_no_deadline:2026-06-20",
+            "source_event_id": "evt_no_deadline",
             "event_date": "2026-06-20",
             "weekday": "土",
             "event_name": "締切未取得ライブ",
@@ -686,6 +885,9 @@ def test_web_events_json_keeps_events_without_deadline_for_missing_filter():
             "next_ticket_deadline_at": "",
             "next_ticket_sale_type": "不明",
             "next_ticket_label": "",
+            "public_ready": True,
+            "public_not_ready_reasons": [],
+            "review_reasons": ["missing ticket deadline"],
         }
     ]
 
@@ -711,12 +913,198 @@ def test_export_public_command_writes_events_json(tmp_path, capsys):
     payload = json.loads(output_path.read_text(encoding="utf-8"))
 
     assert result == 0
-    assert "Exported 1 events" in output
+    assert "Exported 1 public-ready rows from 1 events" in output
     assert output_path.exists()
     assert payload[0]["event_name"] == "STARLIGHT LIVE vol.7"
     assert payload[0]["ticket_status"] == "完売"
     assert "ticket_application_deadline_at" in payload[0]
     assert "payment_deadline_at" in payload[0]
+
+
+def test_public_web_json_expands_multi_day_events_and_dedupes_occurrences():
+    payload = json.loads(
+        events_to_web_json(
+            [
+                CanonicalEvent(
+                    event_id="evt_spark_parent",
+                    event_name="SPARK 2026 in YAMANAKAKO",
+                    event_date=date(2026, 9, 21),
+                    event_dates=[date(2026, 9, 21), date(2026, 9, 22), date(2026, 9, 23)],
+                    venue="山中湖交流プラザきらら",
+                    ticket_url="https://ticketdive.com/event/spark-yamanakako",
+                ),
+                CanonicalEvent(
+                    event_id="evt_spark_duplicate",
+                    event_name="SPARK 2026 in YAMANAKAKO",
+                    event_date=date(2026, 9, 22),
+                    venue="山中湖交流プラザきらら",
+                    ticket_url="https://ticketdive.com/event/spark-yamanakako",
+                ),
+            ]
+        )
+    )
+
+    spark_rows = [row for row in payload if row["event_name"] == "SPARK 2026 in YAMANAKAKO"]
+
+    assert [row["event_date"] for row in spark_rows] == ["2026-09-21", "2026-09-22", "2026-09-23"]
+    assert {row["source_event_id"] for row in spark_rows} == {"evt_spark_parent"}
+    assert {row["public_event_id"] for row in spark_rows} == {
+        "evt_spark_parent:2026-09-21",
+        "evt_spark_parent:2026-09-22",
+        "evt_spark_parent:2026-09-23",
+    }
+
+
+def test_public_web_json_expands_idol_summer_jungle_to_both_days():
+    payload = json.loads(
+        events_to_web_json(
+            [
+                CanonicalEvent(
+                    event_id="evt_summer_jungle",
+                    event_name="IDOL SUMMER JUNGLE GOLDEN",
+                    event_date=date(2026, 5, 2),
+                    event_dates=[date(2026, 5, 2), date(2026, 5, 3)],
+                    venue="お台場R地区",
+                    ticket_url="https://ticketdive.com/event/summer-jungle",
+                )
+            ]
+        )
+    )
+
+    assert [row["event_date"] for row in payload] == ["2026-05-02", "2026-05-03"]
+
+
+def test_single_day_event_remains_single_public_occurrence():
+    payload = json.loads(
+        events_to_web_json(
+            [
+                CanonicalEvent(
+                    event_id="evt_lovecall",
+                    event_name="ラブコール vol.19",
+                    event_date=date(2026, 6, 29),
+                    event_dates=[date(2026, 6, 29)],
+                    venue="Spotify O-nest",
+                    ticket_url="https://t-dv.com/lc_vol19",
+                )
+            ]
+        )
+    )
+
+    assert len(payload) == 1
+    assert payload[0]["public_event_id"] == "evt_lovecall:2026-06-29"
+
+
+def test_export_public_filters_not_ready_multi_day_events_by_default(tmp_path):
+    db_path = tmp_path / "state.sqlite"
+    output_path = tmp_path / "public" / "events.json"
+    debug_output_path = tmp_path / "public" / "events-debug.json"
+    state = SQLiteStateStore(db_path)
+    state.save_event(
+        CanonicalEvent(
+            event_id="evt_profile_multiday",
+            event_name="PROFILE 01",
+            event_date=date(2026, 9, 21),
+            event_dates=[date(2026, 9, 21), date(2026, 9, 22)],
+            source_text="PROFILE 01\n薄倉りな",
+        )
+    )
+
+    assert main(["export-public", "--db", str(db_path), "--output", str(output_path)]) == 0
+    payload = json.loads(output_path.read_text(encoding="utf-8"))
+    assert payload == []
+
+    assert (
+        main(
+            [
+                "export-public",
+                "--db",
+                str(db_path),
+                "--output",
+                str(debug_output_path),
+                "--include-not-public-ready",
+            ]
+        )
+        == 0
+    )
+    debug_payload = json.loads(debug_output_path.read_text(encoding="utf-8"))
+    assert [row["event_date"] for row in debug_payload] == ["2026-09-21", "2026-09-22"]
+    assert all(row["public_ready"] is False for row in debug_payload)
+
+
+def test_export_public_excludes_not_public_ready_by_default(tmp_path, capsys):
+    db_path = tmp_path / "state.sqlite"
+    output_path = tmp_path / "public" / "events.json"
+    state = SQLiteStateStore(db_path)
+    state.save_events(
+        [
+            CanonicalEvent(
+                event_name="ラブコール vol.19",
+                event_date=date(2026, 6, 29),
+                venue="Spotify O-nest",
+                ticket_url="https://t-dv.com/lc_vol19",
+            ),
+            CanonicalEvent(
+                event_name="PROFILE 01",
+                event_date=date(2026, 6, 1),
+                venue="薄倉りな",
+                source_post_id="profile001",
+            ),
+        ]
+    )
+
+    result = main(["export-public", "--db", str(db_path), "--output", str(output_path)])
+    output = capsys.readouterr().out
+    payload = json.loads(output_path.read_text(encoding="utf-8"))
+
+    assert result == 0
+    assert "filtered 1" in output
+    assert [row["event_name"] for row in payload] == ["ラブコール vol.19"]
+    assert payload[0]["public_ready"] is True
+    assert payload[0]["public_not_ready_reasons"] == []
+    assert "review_reasons" in payload[0]
+
+
+def test_export_public_can_include_not_public_ready_for_debugging(tmp_path, capsys):
+    db_path = tmp_path / "state.sqlite"
+    output_path = tmp_path / "public" / "events-debug.json"
+    state = SQLiteStateStore(db_path)
+    state.save_events(
+        [
+            CanonicalEvent(
+                event_name="ラブコール vol.19",
+                event_date=date(2026, 6, 29),
+                venue="Spotify O-nest",
+                ticket_url="https://t-dv.com/lc_vol19",
+            ),
+            CanonicalEvent(
+                event_name="PROFILE 02",
+                event_date=date(2026, 6, 1),
+                venue="栗原ここね",
+                source_post_id="profile002",
+            ),
+        ]
+    )
+
+    result = main(
+        [
+            "export-public",
+            "--db",
+            str(db_path),
+            "--output",
+            str(output_path),
+            "--include-not-public-ready",
+        ]
+    )
+    output = capsys.readouterr().out
+    payload = json.loads(output_path.read_text(encoding="utf-8"))
+    profile_row = next(row for row in payload if row["event_name"] == "PROFILE 02")
+
+    assert result == 0
+    assert "including not-public-ready records" in output
+    assert {row["event_name"] for row in payload} == {"ラブコール vol.19", "PROFILE 02"}
+    assert profile_row["public_ready"] is False
+    assert "profile/member introduction" in profile_row["public_not_ready_reasons"]
+    assert "review_reasons" in profile_row
 
 
 def test_large_mock_dataset_exports_many_events_and_skips_non_events(tmp_path, mock_posts_dir: Path, capsys):
@@ -745,7 +1133,7 @@ def test_large_mock_dataset_exports_many_events_and_skips_non_events(tmp_path, m
     assert "Fetched 42" in run_output
     assert "skipped 5" in run_output
     assert "canonical 22" in run_output
-    assert "Exported 22 events" in export_output
+    assert "Exported 22 public-ready rows from 22 events" in export_output
     assert len(payload) == 22
     multi_tier = next(row for row in payload if row["event_name"] == "MULTI TIER NIGHT")
     assert len(multi_tier["ticket_sales"]) == 5
@@ -769,6 +1157,8 @@ def test_public_web_json_has_required_keys_for_large_sample(tmp_path, mock_posts
     db_path = tmp_path / "large.sqlite"
     output_path = tmp_path / "events.json"
     required_keys = {
+        "public_event_id",
+        "source_event_id",
         "event_date",
         "weekday",
         "event_name",
@@ -785,6 +1175,9 @@ def test_public_web_json_has_required_keys_for_large_sample(tmp_path, mock_posts
         "next_ticket_deadline_at",
         "next_ticket_sale_type",
         "next_ticket_label",
+        "public_ready",
+        "public_not_ready_reasons",
+        "review_reasons",
     }
 
     assert main(["run", "--mock-posts", str(mock_posts_dir), "--db", str(db_path), "--target", "none", "--dry-run"]) == 0

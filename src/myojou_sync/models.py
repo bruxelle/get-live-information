@@ -69,6 +69,7 @@ class XPost(BaseModel):
 
 class EventFields(BaseModel):
     event_date: date | None = None
+    event_dates: list[date] = Field(default_factory=list)
     event_name: str | None = None
     venue: str | None = None
     open_time: str | None = None

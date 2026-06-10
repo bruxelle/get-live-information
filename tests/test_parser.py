@@ -77,6 +77,87 @@ def test_initial_announcement_parsing(mock_posts):
     assert parsed.extraction_confidence >= 0.8
 
 
+def test_multi_day_event_dates_parse_from_comma_list():
+    parsed = PostParser().parse_post(
+        XPost(
+            id="multi-date-comma",
+            created_at=datetime(2026, 5, 10, 12, 0, tzinfo=JST),
+            text=(
+                "【ライブ出演情報】\n"
+                "SPARK 2026 in YAMANAKAKO\n"
+                "⟣date：9/21, 9/22, 9/23\n"
+                "⟣place : 山中湖交流プラザきらら\n"
+                "⟣open/start：9:00/10:00"
+            ),
+        )
+    )
+
+    assert parsed is not None
+    assert parsed.event_date == date(2026, 9, 21)
+    assert parsed.event_dates == [date(2026, 9, 21), date(2026, 9, 22), date(2026, 9, 23)]
+
+
+def test_multi_day_event_dates_parse_from_day_only_suffixes():
+    parsed = PostParser().parse_post(
+        XPost(
+            id="multi-date-suffix",
+            created_at=datetime(2026, 5, 10, 12, 0, tzinfo=JST),
+            text=(
+                "【ライブ出演情報】\n"
+                "SPARK 2026 in YAMANAKAKO\n"
+                "⟣date：9/21（月祝）、22（火祝）、23（水祝）\n"
+                "⟣place : 山中湖交流プラザきらら\n"
+                "⟣open/start：9:00/10:00"
+            ),
+        )
+    )
+
+    assert parsed is not None
+    assert parsed.event_dates == [date(2026, 9, 21), date(2026, 9, 22), date(2026, 9, 23)]
+
+
+def test_multi_day_event_dates_parse_from_range():
+    parsed = PostParser().parse_post(
+        XPost(
+            id="multi-date-range",
+            created_at=datetime(2026, 5, 10, 12, 0, tzinfo=JST),
+            text=(
+                "【ライブ出演情報】\n"
+                "SPARK 2026 in YAMANAKAKO\n"
+                "⟣date：9/21-9/23\n"
+                "⟣place : 山中湖交流プラザきらら\n"
+                "⟣open/start：9:00/10:00"
+            ),
+        )
+    )
+
+    assert parsed is not None
+    assert parsed.event_dates == [date(2026, 9, 21), date(2026, 9, 22), date(2026, 9, 23)]
+
+
+def test_multi_day_event_dates_do_not_use_ticket_sale_ranges():
+    parsed = PostParser().parse_post(
+        XPost(
+            id="multi-date-ticket-window",
+            created_at=datetime(2026, 4, 9, 12, 0, tzinfo=JST),
+            text=(
+                "【ライブ出演情報】\n"
+                "IDOL SUMMER JUNGLE GOLDEN\n"
+                "⟣date：5/2（土）、5/3（日）\n"
+                "⟣place : お台場R地区\n"
+                "⟣open/start：9:00/10:00\n"
+                "【VIPチケット先行抽選】\n"
+                "3/26(木)20:00〜4/13(月)23:59"
+            ),
+        )
+    )
+
+    assert parsed is not None
+    assert parsed.event_dates == [date(2026, 5, 2), date(2026, 5, 3)]
+    assert date(2026, 3, 26) not in parsed.event_dates
+    assert date(2026, 4, 13) not in parsed.event_dates
+
+
 def test_ticket_deadline_fields_parse_from_labeled_lines():
     parsed = PostParser().parse_post(
         XPost(
