@@ -233,6 +233,62 @@ After a successful sync, export the public web JSON:
 
 This does not commit `public/events.json` and does not call GitHub APIs. Use a fresh or clearly named SQLite DB for backfill experiments so historical pagination does not get mixed up with production incremental state.
 
+### Safer Public Refresh Workflow
+
+Use `refresh-public` when the goal is specifically to update the fan-facing `public/events.json` from the production SQLite state. It always skips Notion and Google Sheets.
+
+Bootstrap once from the saved historical backfill sample:
+
+```bash
+NO_X_API=true DRY_RUN=true .venv/bin/myojou-sync run \
+  --mock-posts mock_posts/real_samples/info_myojou_backfill_500.json \
+  --db .state/production.sqlite \
+  --target none \
+  --dry-run \
+  --preview table
+```
+
+Daily/manual refresh dry-run:
+
+```bash
+NO_X_API=false .venv/bin/myojou-sync refresh-public \
+  --db .state/production.sqlite \
+  --output public/events.json \
+  --dry-run
+```
+
+The dry-run performs the incremental X sync and validates the newly generated public JSON rows, but it does not overwrite `public/events.json`. It prints a before/after summary with event counts, added/removed/possibly changed rows, needs-review count, public-ready safety count, and earliest/latest dates.
+
+Actual public JSON write:
+
+```bash
+NO_X_API=false .venv/bin/myojou-sync refresh-public \
+  --db .state/production.sqlite \
+  --output public/events.json \
+  --write
+```
+
+Validate the generated file:
+
+```bash
+.venv/bin/myojou-sync validate-public \
+  --input public/events.json
+```
+
+Then manually review and commit `public/events.json` if committing JSON is the intended publish mechanism. The refresh command does not auto-commit and does not call GitHub APIs.
+
+Offline verification is explicit:
+
+```bash
+NO_X_API=true .venv/bin/myojou-sync refresh-public \
+  --mock-posts mock_posts \
+  --db .state/public-refresh-mock.sqlite \
+  --output .state/events-preview.json \
+  --dry-run
+```
+
+`refresh-public` intentionally ignores `MYOJOU_MOCK_POSTS` unless `--mock-posts` is passed. This prevents production refreshes from accidentally using demo data because of a local environment default.
+
 ## Local Development Flow
 
 Run tests:
