@@ -6,6 +6,7 @@ const state = {
   calendarStartMonth: "",
   calendarMonthCount: 3,
   calendarMode: "live",
+  activeDetailTrigger: null,
 };
 
 const filterButtons = Array.from(document.querySelectorAll(".filter-button"));
@@ -20,6 +21,8 @@ const calendarView = document.querySelector("#calendarView");
 const calendarMonths = document.querySelector("#calendarMonths");
 const deadlineAlertsList = document.querySelector("#deadlineAlertsList");
 const deadlineAlertsEmpty = document.querySelector("#deadlineAlertsEmpty");
+let detailSheetOverlay = null;
+let detailSheetCloseButton = null;
 
 init();
 
@@ -64,6 +67,12 @@ async function init() {
       state.calendarMonthCount += 1;
       render();
     });
+  });
+
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape" && detailSheetOverlay && !detailSheetOverlay.hidden) {
+      closeDetailSheet();
+    }
   });
 
   try {
@@ -211,11 +220,21 @@ function calendarCell(cell) {
   ].filter(Boolean).join(" ");
   const chips = calendarCellChips(cell);
   const labels = calendarCellLabels(cell);
-  return el("div", { className: classes }, [
+  const isActionable = cell.event_count > 0;
+  const cellNode = el("button", {
+    className: classes,
+    type: "button",
+    disabled: !isActionable,
+    ariaLabel: isActionable ? `${formatDate(cell.key, weekdayForDate(cell.key))}の詳細を開く` : `${cell.day}日`,
+  }, [
     el("span", { className: "calendar-day-number" }, cell.day),
     chips.length ? el("span", { className: "calendar-chips" }, chips) : null,
     labels.length ? el("span", { className: "calendar-event-labels" }, labels) : null,
   ]);
+  if (isActionable) {
+    cellNode.addEventListener("click", () => openCalendarDetail(cell, cellNode));
+  }
+  return cellNode;
 }
 
 function calendarCellChips(cell) {
@@ -249,6 +268,208 @@ function calendarCellLabels(cell) {
     labels.push(el("span", { className: "calendar-event-more" }, `+${cell.entries.length - seen.size}`));
   }
   return labels;
+}
+
+function openCalendarDetail(cell, trigger) {
+  const entries = relevantCalendarEntries(cell);
+  const events = dedupeEvents(entries.map((entry) => entry.event));
+  if (!events.length) return;
+  openDetailSheet({
+    title: `${formatDate(cell.key, weekdayForDate(cell.key))}の予定`,
+    subtitle: detailModeLabel(),
+    events,
+    trigger,
+  });
+}
+
+function relevantCalendarEntries(cell) {
+  const entries = Array.isArray(cell.entries) ? cell.entries : [];
+  if (state.calendarMode === "application") {
+    return entries.filter((entry) => entry.kind === "application");
+  }
+  if (state.calendarMode === "payment") {
+    return entries.filter((entry) => entry.kind === "payment");
+  }
+  if (state.calendarMode === "all") {
+    const liveEntries = entries.filter((entry) => entry.kind === "live");
+    return liveEntries.length ? liveEntries : entries;
+  }
+  return entries.filter((entry) => entry.kind === "live");
+}
+
+function detailModeLabel() {
+  if (state.calendarMode === "application") return "申込締切";
+  if (state.calendarMode === "payment") return "支払期限";
+  if (state.calendarMode === "all") return "ライブ・締切";
+  return "ライブ日";
+}
+
+function dedupeEvents(events) {
+  const seen = new Set();
+  const deduped = [];
+  for (const event of events) {
+    const key = event.public_event_id || [event.event_date, event.event_name, event.venue, event.ticket_url].join("\u0000");
+    if (seen.has(key)) continue;
+    seen.add(key);
+    deduped.push(event);
+  }
+  return deduped;
+}
+
+function ensureDetailSheet() {
+  if (detailSheetOverlay) return detailSheetOverlay;
+  detailSheetCloseButton = el("button", {
+    className: "detail-sheet-close",
+    type: "button",
+    ariaLabel: "詳細を閉じる",
+  }, "閉じる");
+  detailSheetCloseButton.addEventListener("click", closeDetailSheet);
+
+  detailSheetOverlay = el("div", {
+    className: "detail-sheet-overlay",
+    hidden: true,
+  }, [
+    el("section", {
+      className: "detail-sheet",
+      role: "dialog",
+      ariaModal: "true",
+      ariaLabelledby: "detailSheetTitle",
+      tabIndex: -1,
+    }, [
+      el("header", { className: "detail-sheet-header" }, [
+        el("div", {}, [
+          el("p", { id: "detailSheetMode", className: "detail-sheet-subtitle" }, ""),
+          el("h2", { id: "detailSheetTitle", className: "detail-sheet-title" }, ""),
+        ]),
+        detailSheetCloseButton,
+      ]),
+      el("div", { id: "detailSheetBody", className: "detail-sheet-body" }),
+    ]),
+  ]);
+  detailSheetOverlay.addEventListener("click", (event) => {
+    if (event.target === detailSheetOverlay) {
+      closeDetailSheet();
+    }
+  });
+  document.body.append(detailSheetOverlay);
+  return detailSheetOverlay;
+}
+
+function openDetailSheet({ title, subtitle, events, trigger }) {
+  const overlay = ensureDetailSheet();
+  state.activeDetailTrigger = trigger || document.activeElement;
+  overlay.querySelector("#detailSheetTitle").textContent = title;
+  overlay.querySelector("#detailSheetMode").textContent = subtitle || "";
+  overlay.querySelector("#detailSheetBody").replaceChildren(...events.map(detailEventCard));
+  overlay.hidden = false;
+  document.body.classList.add("detail-sheet-open");
+  detailSheetCloseButton?.focus();
+}
+
+function closeDetailSheet() {
+  if (!detailSheetOverlay || detailSheetOverlay.hidden) return;
+  detailSheetOverlay.hidden = true;
+  document.body.classList.remove("detail-sheet-open");
+  const trigger = state.activeDetailTrigger;
+  state.activeDetailTrigger = null;
+  if (trigger && typeof trigger.focus === "function" && document.contains(trigger)) {
+    trigger.focus();
+  }
+}
+
+function detailEventCard(event) {
+  const card = el("article", { className: "detail-event-card" }, [
+    el("div", { className: "detail-event-head" }, [
+      el("p", { className: "event-date" }, formatDate(event.event_date || event.date, event.weekday)),
+      el("span", { className: `status ${statusClass(event.ticket_status)}` }, event.ticket_status || "不明"),
+    ]),
+    el("h3", { className: "detail-event-title" }, event.event_name || event.title || "未定"),
+    detailText("会場", event.venue),
+    detailScheduleList(event),
+    detailSummaryList(event),
+    ticketSalesList(event),
+    detailReviewNotice(event),
+    detailActions(event),
+  ]);
+  return card;
+}
+
+function detailScheduleList(event) {
+  const rows = [
+    ["開場", event.open_time],
+    ["開演", event.start_time],
+    ["出演", event.performance_time || event.myojou_performance_time],
+    ["特典会", event.benefit_time || event.tokutenkai_time || event.benefit_event_time],
+  ].filter(([, value]) => value);
+  if (!rows.length) return null;
+  return el("dl", { className: "detail-schedule-list" }, rows.map(([label, value]) => detailRow(label, value)));
+}
+
+function detailSummaryList(event) {
+  return el("dl", { className: "summary-list detail-summary-list" }, [
+    detailRow("チケット", event.ticket_summary || event.ticket_info),
+    summaryRow("申込", event.application_summary || event.application_info || "未取得", "application-row"),
+    detailRow("次の締切", compactDateTime(event.next_ticket_deadline_at) || event.next_ticket_deadline_at),
+    detailRow("支払期限", compactDateTime(event.payment_deadline_at) || event.payment_deadline_at),
+  ].filter(Boolean));
+}
+
+function detailText(label, value) {
+  if (!value) return null;
+  return el("p", { className: "detail-text-row" }, [
+    el("span", { className: "detail-text-label" }, label),
+    el("span", { className: "detail-text-value" }, value),
+  ]);
+}
+
+function detailRow(label, value) {
+  if (!value) return null;
+  return el("div", { className: "summary-row" }, [
+    el("dt", { className: "summary-label" }, label),
+    el("dd", { className: "summary-value" }, value),
+  ]);
+}
+
+function detailReviewNotice(event) {
+  if (!event.needs_review) return null;
+  const reasons = Array.isArray(event.review_reasons) && event.review_reasons.length
+    ? ` ${event.review_reasons.slice(0, 2).join(" / ")}`
+    : "";
+  return el("p", { className: "detail-review-notice" }, `要確認${reasons}`);
+}
+
+function detailActions(event) {
+  const actions = [];
+  const ticketUrl = event.ticket_url;
+  if (ticketUrl) {
+    actions.push(detailActionLink(ticketUrl, "チケットを開く", "detail-action-primary"));
+  }
+  const sourceUrl = sourceUrlForEvent(event);
+  if (sourceUrl) {
+    actions.push(detailActionLink(sourceUrl, "告知ポスト", ""));
+  }
+  return actions.length ? el("div", { className: "detail-actions" }, actions) : null;
+}
+
+function detailActionLink(url, label, extraClass) {
+  const link = el("a", { className: ["detail-action-button", extraClass].filter(Boolean).join(" ") }, label);
+  link.href = url;
+  link.target = "_blank";
+  link.rel = "noopener noreferrer";
+  return link;
+}
+
+function sourceUrlForEvent(event) {
+  if (event.source_url) return event.source_url;
+  if (event.source_post_url) return event.source_post_url;
+  if (event.announcement_url) return event.announcement_url;
+  if (event.primary_source_url) return event.primary_source_url;
+  if (event.latest_source_url) return event.latest_source_url;
+  if (Array.isArray(event.ticket_sales)) {
+    const saleWithSource = event.ticket_sales.find((sale) => sale.source_url);
+    if (saleWithSource) return saleWithSource.source_url;
+  }
+  return "";
 }
 
 function renderDeadlineAlerts(todayKey) {
@@ -338,13 +559,28 @@ function actionRow(event) {
 
 function el(tagName, props = {}, children = []) {
   const node = document.createElement(tagName);
-  Object.assign(node, props);
+  for (const [key, value] of Object.entries(props)) {
+    if (value === null || value === undefined) continue;
+    if (key === "className") {
+      node.className = value;
+    } else if (key === "htmlFor") {
+      node.setAttribute("for", value);
+    } else if (key.startsWith("aria") && key !== "ariaHidden") {
+      node.setAttribute(ariaAttributeName(key), String(value));
+    } else {
+      node[key] = value;
+    }
+  }
   const list = Array.isArray(children) ? children : [children];
   for (const child of list) {
     if (child === null || child === undefined) continue;
     node.append(child instanceof Node ? child : document.createTextNode(String(child)));
   }
   return node;
+}
+
+function ariaAttributeName(key) {
+  return `aria-${key.slice(4).replace(/[A-Z]/g, (match) => `-${match.toLowerCase()}`).replace(/^-/, "")}`;
 }
 
 function formatDate(value, weekday) {
