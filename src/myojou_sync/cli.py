@@ -10,6 +10,7 @@ from .parser import PostParser
 from .pipeline import SyncPipeline
 from .public_output import events_to_json, events_to_table, write_web_events_json
 from .real_samples import evaluate_real_samples
+from .sample_capture import write_x_samples
 from .state import SQLiteStateStore
 from .sync.notion import NotionEventSink, inspect_notion_schema
 from .sync.sheets import GoogleSheetsEventSink
@@ -53,6 +54,7 @@ def build_parser() -> argparse.ArgumentParser:
     run.add_argument("--sync-notion", action="store_true", help="Sync to Notion when credentials are present.")
     run.add_argument("--sync-sheets", action="store_true", help="Sync to Google Sheets when credentials are present.")
     run.add_argument("--preview", choices=["none", "json", "table"], default="none", help="Print public canonical events before external sync.")
+    run.add_argument("--save-x-samples", help="Save raw real X API posts and parser debug output to this JSON file.")
     run.add_argument("--log-level", default="INFO", choices=["DEBUG", "INFO", "WARNING", "ERROR"])
     return parser
 
@@ -132,6 +134,24 @@ def main(argv: list[str] | None = None) -> int:
             parser=PostParser(username=settings.x_username),
         )
         events, result = pipeline.run_once(max_results=max_results)
+
+        if args.save_x_samples:
+            if mock_posts:
+                logging.getLogger(__name__).info("--save-x-samples was provided with mock input; no real X sample file was written.")
+            else:
+                output_path = write_x_samples(
+                    args.save_x_samples,
+                    result.x_sample_records,
+                    metadata={
+                        "username": settings.x_username,
+                        "max_results": max_results,
+                        "posts_fetched": result.fetched_posts,
+                        "estimated_x_post_reads": result.estimated_x_post_read_count,
+                        "rate_limit_headers": result.x_rate_limit_headers or {},
+                        "dry_run": dry_run,
+                    },
+                )
+                print(f"Saved {len(result.x_sample_records)} X samples to {output_path}.")
 
         if args.preview == "json":
             print(events_to_json(events))

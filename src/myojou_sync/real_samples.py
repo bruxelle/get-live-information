@@ -40,9 +40,11 @@ def evaluate_real_samples(path: str | Path, *, parser: PostParser | None = None)
     parser = parser or PostParser()
     results: list[RealSampleEvaluation] = []
     for post, raw in load_real_sample_posts(path):
-        classification = parser.classify_post(post)
         expected_classification = raw.get("expected_classification", "")
         expected_source_kind = raw.get("expected_source_kind", "")
+        if not expected_classification and not expected_source_kind:
+            continue
+        classification = parser.classify_post(post)
         actual_classification = _classification_value(classification.classification)
         actual_source_kind = _source_kind_value(classification.source_kind)
         results.append(

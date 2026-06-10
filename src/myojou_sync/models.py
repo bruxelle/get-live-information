@@ -62,6 +62,9 @@ class XPost(BaseModel):
     text: str
     created_at: datetime
     raw: dict[str, Any] = Field(default_factory=dict)
+    api_text: str | None = None
+    truncated_text: str | None = None
+    full_text_source: str = "text"
 
 
 class EventFields(BaseModel):
@@ -93,6 +96,7 @@ class SourceMetadata(BaseModel):
     source_post_id: str
     source_posted_at: datetime
     source_text: str
+    source_raw: dict[str, Any] = Field(default_factory=dict)
     source_kind: SourceKind = SourceKind.OTHER
     extraction_confidence: float = Field(default=0.0, ge=0.0, le=1.0)
     classification: PostClassification | str = PostClassification.EVENT

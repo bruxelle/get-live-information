@@ -84,7 +84,7 @@ class EventMerger:
 
         cautious = match.confidence < STRONG_MATCH_THRESHOLD
         self.apply_update(match.event, extracted, cautious=cautious)
-        if cautious:
+        if cautious and not self._is_complete_real_world_update(extracted):
             match.event.needs_review = True
         return match.event, False, match.confidence
 
@@ -113,12 +113,19 @@ class EventMerger:
                 score -= 0.35
                 reasons.append("different event_date")
 
+        venue_similarity = _similarity(normalize_venue(extracted.venue), normalize_venue(event.venue))
         name_similarity = _similarity(normalize_event_name(extracted.event_name), normalize_event_name(event.event_name))
-        if extracted.event_name and event.event_name and both_have_different_ticket_urls and name_similarity < 0.92:
+        name_alias_match = _safe_event_name_alias_match(extracted, event, venue_similarity=venue_similarity)
+        if _unsafe_short_title_match(extracted, event, venue_similarity=venue_similarity):
+            return 0.0, ["short title with different date or venue"]
+        if extracted.event_name and event.event_name and both_have_different_ticket_urls and name_similarity < 0.92 and not name_alias_match:
             return 0.0, ["different ticket_url and event_name"]
-        if extracted.event_name and event.event_name and name_similarity < 0.45 and not same_ticket_url:
+        if extracted.event_name and event.event_name and name_similarity < 0.45 and not same_ticket_url and not name_alias_match:
             return 0.0, ["clearly different event_name"]
-        if name_similarity >= 0.92:
+        if name_alias_match:
+            score += 0.35
+            reasons.append("event_name alias")
+        elif name_similarity >= 0.92:
             score += 0.35
             reasons.append("same event_name")
         elif name_similarity >= 0.72:
@@ -127,7 +134,6 @@ class EventMerger:
         elif extracted.event_name and event.event_name:
             score -= 0.1
 
-        venue_similarity = _similarity(normalize_venue(extracted.venue), normalize_venue(event.venue))
         if venue_similarity >= 0.92:
             score += 0.25
             reasons.append("same venue")
@@ -173,15 +179,18 @@ class EventMerger:
                 continue
             if cautious and old_value is not None and field_name in MANUAL_PROTECTED_FIELDS:
                 continue
+            if field_name == "event_name" and old_value and _should_keep_existing_event_name(str(old_value), str(new_value)):
+                continue
             setattr(event, field_name, new_value)
 
+        self._keep_richer_event_name(event, extracted)
         self.merge_ticket_sales(event, extracted)
         derive_compatible_ticket_fields(event)
         self.update_source_tracking(event, extracted)
 
         if extracted.classification == PostClassification.NEEDS_REVIEW or extracted.extraction_confidence < 0.6:
             event.needs_review = True
-        if extracted.ticket_status in {"sold_out", "ended"} and not targeted_ticket_status:
+        if extracted.ticket_status in {"sold_out", "ended"} and not targeted_ticket_status and not self._is_clear_event_level_status(extracted):
             event.needs_review = True
         event.updated_at = utc_now()
 
@@ -245,6 +254,42 @@ class EventMerger:
     def _is_reminder_source(self, extracted: ExtractedEvent) -> bool:
         return extracted.source_kind in {SourceKind.DAY_BEFORE_REMINDER, SourceKind.SAME_DAY_REMINDER}
 
+    def _keep_richer_event_name(self, event: CanonicalEvent, extracted: ExtractedEvent) -> None:
+        if event.manual_override or not extracted.event_name:
+            return
+        if not event.event_name:
+            event.event_name = extracted.event_name
+            return
+        if not _event_name_alias_related(event.event_name, extracted.event_name):
+            return
+        if _event_name_display_score(extracted.event_name) > _event_name_display_score(event.event_name):
+            event.event_name = extracted.event_name
+
+    def _is_complete_real_world_update(self, extracted: ExtractedEvent) -> bool:
+        return bool(
+            extracted.event_date
+            and extracted.event_name
+            and extracted.venue
+            and (extracted.open_time or extracted.start_time)
+            and extracted.ticket_url
+            and any(period.deadline_at for period in extracted.ticket_sales)
+        )
+
+    def _is_clear_event_level_status(self, extracted: ExtractedEvent) -> bool:
+        if extracted.ticket_status not in {"sold_out", "ended"}:
+            return False
+        source_text = (extracted.source_text or "").casefold()
+        has_status_price_line = any(label in source_text for label in ("price", "料金", "入場料")) and any(
+            word in source_text for word in ("sold out", "soldout", "完売", "販売終了", "受付終了")
+        )
+        return bool(
+            extracted.event_date
+            and extracted.event_name
+            and extracted.venue
+            and (extracted.open_time or extracted.start_time)
+            and has_status_price_line
+        )
+
 
 def _similarity(left: str, right: str) -> float:
     if not left or not right:
@@ -252,6 +297,127 @@ def _similarity(left: str, right: str) -> float:
     if left == right:
         return 1.0
     return SequenceMatcher(None, left, right).ratio()
+
+
+def _safe_event_name_alias_match(
+    extracted: ExtractedEvent,
+    event: CanonicalEvent,
+    *,
+    venue_similarity: float,
+) -> bool:
+    if not extracted.event_date or not event.event_date or extracted.event_date != event.event_date:
+        return False
+    if venue_similarity < 0.92:
+        return False
+    if not _compatible_event_times(extracted, event):
+        return False
+    return _event_name_alias_related(extracted.event_name, event.event_name)
+
+
+def _event_name_alias_related(left: str | None, right: str | None) -> bool:
+    left_key = _event_name_alias_key(left)
+    right_key = _event_name_alias_key(right)
+    if not left_key or not right_key:
+        return False
+    if left_key == right_key:
+        return True
+    return False
+
+
+def _event_name_alias_key(value: str | None) -> str:
+    normalized = normalize_event_name(value)
+    if not normalized:
+        return ""
+    previous = ""
+    while previous != normalized:
+        previous = normalized
+        normalized = re_sub_prefixes(normalized, _LIVE_TITLE_PREFIXES)
+        normalized = re_sub_suffixes(normalized, _LIVE_TITLE_SUFFIXES)
+    return normalized
+
+
+_LIVE_TITLE_PREFIXES = (
+    "myojouonemanlive",
+    "myojouonemanライブ",
+    "myojouワンマンライブ",
+    "myojou単独公演",
+    "myojoulive",
+    "myojouライブ",
+    "onemanlive",
+    "onemanライブ",
+    "ワンマンライブ",
+    "単独公演",
+)
+_LIVE_TITLE_SUFFIXES = (
+    "onemanlive",
+    "onemanライブ",
+    "ワンマンライブ",
+    "単独公演",
+    "live",
+    "ライブ",
+)
+
+
+def re_sub_prefixes(value: str, prefixes: tuple[str, ...]) -> str:
+    for prefix in sorted(prefixes, key=len, reverse=True):
+        if value.startswith(prefix) and len(value) > len(prefix):
+            return value[len(prefix):]
+    return value
+
+
+def re_sub_suffixes(value: str, suffixes: tuple[str, ...]) -> str:
+    for suffix in sorted(suffixes, key=len, reverse=True):
+        if value.endswith(suffix) and len(value) > len(suffix):
+            return value[: -len(suffix)]
+    return value
+
+
+def _compatible_event_times(extracted: ExtractedEvent, event: CanonicalEvent) -> bool:
+    for field_name in ("open_time", "start_time"):
+        left = getattr(extracted, field_name)
+        right = getattr(event, field_name)
+        if left and right and left != right:
+            return False
+    return True
+
+
+def _unsafe_short_title_match(
+    extracted: ExtractedEvent,
+    event: CanonicalEvent,
+    *,
+    venue_similarity: float,
+) -> bool:
+    if not (_is_short_event_title(extracted.event_name) and _is_short_event_title(event.event_name)):
+        return False
+    if extracted.event_date and event.event_date and extracted.event_date != event.event_date:
+        return True
+    return bool(extracted.venue and event.venue and venue_similarity < 0.72)
+
+
+def _is_short_event_title(value: str | None) -> bool:
+    normalized = _event_name_alias_key(value)
+    return bool(normalized) and len(normalized) <= 6
+
+
+def _event_name_display_score(value: str | None) -> int:
+    if not value:
+        return 0
+    normalized = normalize_event_name(value)
+    score = len(normalized)
+    if "myojou" in normalized:
+        score += 10
+    if "oneman" in normalized or "ワンマン" in normalized:
+        score += 8
+    if "live" in normalized or "ライブ" in normalized:
+        score += 5
+    return score
+
+
+def _should_keep_existing_event_name(existing: str, candidate: str) -> bool:
+    return (
+        _event_name_alias_related(existing, candidate)
+        and _event_name_display_score(existing) > _event_name_display_score(candidate)
+    )
 
 
 _JST = timezone(timedelta(hours=9))

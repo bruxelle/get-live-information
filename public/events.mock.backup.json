@@ -1,0 +1,38 @@
+[
+  {
+    "event_date": "2026-06-09",
+    "weekday": "火",
+    "event_name": "myojou oneman live \"明夏\"アフター特典会",
+    "venue": "ふれあい貸し会議室 渋谷No.77",
+    "live_summary": "開演 18:30",
+    "ticket_summary": "無料 / 一般 0円 / 不明",
+    "application_summary": "未取得",
+    "ticket_url": "",
+    "ticket_status": "不明",
+    "needs_review": false,
+    "ticket_application_deadline_at": "",
+    "payment_deadline_at": "",
+    "ticket_sales": [],
+    "next_ticket_deadline_at": "",
+    "next_ticket_sale_type": "無料",
+    "next_ticket_label": ""
+  },
+  {
+    "event_date": "2026-08-29",
+    "weekday": "土",
+    "event_name": "A Villa idol festival HOKKAIDO 2026",
+    "venue": "安平町ときわ公園",
+    "live_summary": "開演 10:00",
+    "ticket_summary": "不明 / 不明",
+    "application_summary": "未取得",
+    "ticket_url": "",
+    "ticket_status": "不明",
+    "needs_review": false,
+    "ticket_application_deadline_at": "",
+    "payment_deadline_at": "",
+    "ticket_sales": [],
+    "next_ticket_deadline_at": "",
+    "next_ticket_sale_type": "不明",
+    "next_ticket_label": ""
+  }
+]
