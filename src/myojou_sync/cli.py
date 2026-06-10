@@ -4,12 +4,14 @@ import argparse
 import json
 import logging
 import sys
+from pathlib import Path
 
 from .config import Settings
 from .env_validation import missing_for_target, validation_lines
 from .parser import PostParser
 from .pipeline import SyncPipeline, build_quality_report
 from .public_output import events_to_json, events_to_table, events_to_web_rows, write_web_events_json
+from .public_validation import compare_public_rows, read_public_rows, validate_public_rows
 from .readiness import public_readiness
 from .real_samples import evaluate_real_samples
 from .sample_capture import write_x_samples
@@ -38,6 +40,21 @@ def build_parser() -> argparse.ArgumentParser:
         help="Debug export: include suspicious/not-public-ready canonical events.",
     )
     export_public.add_argument("--log-level", default="INFO", choices=["DEBUG", "INFO", "WARNING", "ERROR"])
+
+    validate_public = subparsers.add_parser("validate-public", help="Validate a static public events JSON file.")
+    validate_public.add_argument("--input", default="public/events.json", help="Input JSON path. Defaults to public/events.json.")
+    validate_public.add_argument("--log-level", default="INFO", choices=["DEBUG", "INFO", "WARNING", "ERROR"])
+
+    refresh_public = subparsers.add_parser("refresh-public", help="Run incremental sync, validate, and optionally update public/events.json.")
+    refresh_public.add_argument("--db", help="SQLite state database path.")
+    refresh_public.add_argument("--output", default="public/events.json", help="Output JSON path. Defaults to public/events.json.")
+    refresh_public.add_argument("--mock-posts", help="Explicit mock post file or directory for offline verification.")
+    refresh_public.add_argument("--max-results", type=int, help="Maximum X posts to request. Defaults to X_MAX_RESULTS or 10.")
+    refresh_public.add_argument("--allow-x-api", action="store_true", help="Permit real X API calls when NO_X_API=true.")
+    refresh_mode = refresh_public.add_mutually_exclusive_group()
+    refresh_mode.add_argument("--dry-run", action="store_true", help="Preview changes without writing public/events.json. This is the default.")
+    refresh_mode.add_argument("--write", action="store_true", help="Write validated public/events.json.")
+    refresh_public.add_argument("--log-level", default="INFO", choices=["DEBUG", "INFO", "WARNING", "ERROR"])
 
     inspect_state = subparsers.add_parser("inspect-state", help="Print local SQLite sync state.")
     inspect_state.add_argument("--db", help="SQLite state database path.")
@@ -120,6 +137,61 @@ def main(argv: list[str] | None = None) -> int:
                 f"Exported {occurrence_count} public-ready rows from {len(export_events)} events "
                 f"to {output_path}; filtered {filtered_count}."
         )
+        return 0
+
+    if args.command == "validate-public":
+        rows, load_errors = read_public_rows(args.input)
+        validation = validate_public_rows(rows)
+        validation.errors[:0] = load_errors
+        print(_format_public_validation_report(args.input, validation))
+        return 0 if validation.ok else 1
+
+    if args.command == "refresh-public":
+        db_path = args.db or settings.state_db
+        state = SQLiteStateStore(db_path)
+        mock_posts = args.mock_posts
+        max_results = args.max_results or (1000 if mock_posts else settings.max_results)
+        if mock_posts:
+            fetcher = MockXClient(mock_posts)
+        else:
+            if settings.no_x_api and not args.allow_x_api:
+                print(
+                    "X API is disabled. Use --mock-posts for offline refresh verification or set NO_X_API=false intentionally.",
+                    file=sys.stderr,
+                )
+                return 2
+            if not settings.x_bearer_token:
+                print("X_BEARER_TOKEN is required unless --mock-posts is set.", file=sys.stderr)
+                return 2
+            fetcher = XApiClient(settings.x_bearer_token, username=settings.x_username, state=state)
+
+        before_rows, before_load_errors = read_public_rows(args.output)
+        pipeline = SyncPipeline(
+            fetcher=fetcher,
+            state=state,
+            parser=PostParser(username=settings.x_username),
+        )
+        events, result = pipeline.run_once(max_results=max_results)
+        export_events = [event for event in events if public_readiness(event).public_ready]
+        after_rows = events_to_web_rows(export_events)
+        validation = validate_public_rows(after_rows)
+        diff = compare_public_rows(before_rows, after_rows)
+        print(_format_refresh_public_summary(
+            result,
+            output_path=args.output,
+            diff=diff,
+            validation=validation,
+            before_load_errors=before_load_errors,
+            write=args.write,
+        ))
+        if validation.errors:
+            print("public/events.json was not written because validation failed.", file=sys.stderr)
+            return 1
+        if args.write:
+            _write_public_rows(args.output, after_rows)
+            print(f"Wrote {len(after_rows)} public events to {Path(args.output)}.")
+        else:
+            print("Dry-run: public/events.json was not overwritten. Pass --write to update it.")
         return 0
 
     if args.command == "inspect-state":
@@ -378,6 +450,70 @@ def _format_state_inspection(state: SQLiteStateStore, *, username: str) -> str:
         f"canonical_events: {state.canonical_event_count()}",
     ]
     return "\n".join(lines)
+
+
+def _format_public_validation_report(input_path: str, validation) -> str:
+    lines = [
+        "Public JSON validation:",
+        f"input: {input_path}",
+        f"events: {validation.event_count}",
+        f"earliest_date: {validation.earliest_date}",
+        f"latest_date: {validation.latest_date}",
+        f"needs_review: {validation.needs_review_count}",
+        f"not_public_ready: {validation.not_public_ready_count}",
+        f"errors: {len(validation.errors)}",
+        f"warnings: {len(validation.warnings)}",
+    ]
+    lines.extend(f"error: {error}" for error in validation.errors)
+    lines.extend(f"warning: {warning}" for warning in validation.warnings)
+    return "\n".join(lines)
+
+
+def _format_refresh_public_summary(
+    result: PipelineResult,
+    *,
+    output_path: str,
+    diff: dict[str, int],
+    validation,
+    before_load_errors: list[str],
+    write: bool,
+) -> str:
+    lines = [
+        "Refresh public summary:",
+        f"mode: {'write' if write else 'dry-run'}",
+        f"output: {output_path}",
+        f"posts_fetched: {result.fetched_posts}",
+        f"new_posts_processed: {result.new_posts_processed}",
+        f"already_processed_skipped: {result.already_processed_skipped}",
+        f"non_event_skipped: {result.non_event_skipped}",
+        f"estimated_x_post_reads: {result.estimated_x_post_read_count}",
+        f"events_before: {diff['events_before']}",
+        f"events_after: {diff['events_after']}",
+        f"added: {diff['added']}",
+        f"removed: {diff['removed']}",
+        f"possibly_changed: {diff['possibly_changed']}",
+        f"not_public_ready: {validation.not_public_ready_count}",
+        f"needs_review: {validation.needs_review_count}",
+        f"earliest_date: {validation.earliest_date}",
+        f"latest_date: {validation.latest_date}",
+        f"validation_errors: {len(validation.errors)}",
+        f"validation_warnings: {len(validation.warnings)}",
+    ]
+    if result.x_rate_limit_headers:
+        lines.append("x_rate_limit: " + json.dumps(result.x_rate_limit_headers, ensure_ascii=False, sort_keys=True))
+    else:
+        lines.append("x_rate_limit: none")
+    lines.extend(f"existing_output_warning: {error}" for error in before_load_errors)
+    lines.extend(f"validation_error: {error}" for error in validation.errors)
+    lines.extend(f"validation_warning: {warning}" for warning in validation.warnings)
+    return "\n".join(lines)
+
+
+def _write_public_rows(output_path: str, rows: list[dict]) -> Path:
+    path = Path(output_path)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(rows, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    return path
 
 
 if __name__ == "__main__":  # pragma: no cover

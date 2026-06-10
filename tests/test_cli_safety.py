@@ -1357,6 +1357,280 @@ def test_export_public_can_include_not_public_ready_for_debugging(tmp_path, caps
     assert "review_reasons" in profile_row
 
 
+def test_validate_public_accepts_valid_public_events_json(tmp_path, capsys):
+    input_path = tmp_path / "events.json"
+    event = CanonicalEvent(
+        event_id="evt_valid_public",
+        event_name="VALID PUBLIC LIVE",
+        event_date=date(2026, 6, 15),
+        venue="渋谷Milkyway",
+        start_time="18:30",
+        ticket_url="https://ticketdive.com/event/valid-public-live",
+    )
+    input_path.write_text(events_to_web_json([event]) + "\n", encoding="utf-8")
+
+    result = main(["validate-public", "--input", str(input_path)])
+    output = capsys.readouterr().out
+
+    assert result == 0
+    assert "Public JSON validation:" in output
+    assert "events: 1" in output
+    assert "earliest_date: 2026-06-15" in output
+    assert "latest_date: 2026-06-15" in output
+    assert "errors: 0" in output
+
+
+def test_validate_public_fails_for_invalid_json_structure(tmp_path, capsys):
+    input_path = tmp_path / "events.json"
+    input_path.write_text('{"data": []}', encoding="utf-8")
+
+    result = main(["validate-public", "--input", str(input_path)])
+    output = capsys.readouterr().out
+
+    assert result == 1
+    assert "errors: 1" in output
+    assert "public JSON must be a list of event objects" in output
+
+
+def test_validate_public_detects_public_ready_false(tmp_path, capsys):
+    input_path = tmp_path / "events.json"
+    row = json.loads(
+        events_to_web_json(
+            [
+                CanonicalEvent(
+                    event_id="evt_not_ready_public",
+                    event_name="NOT READY LIVE",
+                    event_date=date(2026, 6, 15),
+                    venue="渋谷Milkyway",
+                    start_time="18:30",
+                )
+            ]
+        )
+    )[0]
+    row["public_ready"] = False
+    input_path.write_text(json.dumps([row], ensure_ascii=False), encoding="utf-8")
+
+    result = main(["validate-public", "--input", str(input_path)])
+    output = capsys.readouterr().out
+
+    assert result == 1
+    assert "not_public_ready: 1" in output
+    assert "public_ready=false" in output
+
+
+def test_validate_public_detects_duplicate_public_ids(tmp_path, capsys):
+    input_path = tmp_path / "events.json"
+    row = json.loads(
+        events_to_web_json(
+            [
+                CanonicalEvent(
+                    event_id="evt_duplicate_public",
+                    event_name="DUPLICATE PUBLIC LIVE",
+                    event_date=date(2026, 6, 15),
+                    venue="渋谷Milkyway",
+                    start_time="18:30",
+                )
+            ]
+        )
+    )[0]
+    input_path.write_text(json.dumps([row, row], ensure_ascii=False), encoding="utf-8")
+
+    result = main(["validate-public", "--input", str(input_path)])
+    output = capsys.readouterr().out
+
+    assert result == 1
+    assert "duplicate public_event_id" in output
+
+
+def test_refresh_public_dry_run_does_not_overwrite_output(tmp_path, monkeypatch, capsys):
+    def fail(*args, **kwargs):
+        raise AssertionError("refresh-public must not construct external write adapters")
+
+    monkeypatch.setattr("myojou_sync.cli.NotionEventSink", fail)
+    monkeypatch.setattr("myojou_sync.cli.GoogleSheetsEventSink", fail)
+    mock_path = tmp_path / "mock.json"
+    mock_path.write_text(
+        json.dumps(
+            [
+                {
+                    "id": "920001",
+                    "created_at": "2026-06-12T10:00:00+09:00",
+                    "text": (
+                        "6/18(木)『REFRESH DRY RUN LIVE』\n"
+                        "会場：渋谷Milkyway\n"
+                        "OPEN 18:00 / START 18:30\n"
+                        "チケット：https://ticketdive.com/event/refresh-dry-run"
+                    ),
+                }
+            ],
+            ensure_ascii=False,
+        ),
+        encoding="utf-8",
+    )
+    output_path = tmp_path / "public" / "events.json"
+    before_text = events_to_web_json(
+        [
+            CanonicalEvent(
+                event_id="evt_existing_public",
+                event_name="EXISTING PUBLIC LIVE",
+                event_date=date(2026, 6, 10),
+                venue="渋谷Milkyway",
+                start_time="18:30",
+            )
+        ]
+    ) + "\n"
+    output_path.parent.mkdir()
+    output_path.write_text(before_text, encoding="utf-8")
+
+    result = main(
+        [
+            "refresh-public",
+            "--mock-posts",
+            str(mock_path),
+            "--db",
+            str(tmp_path / "state.sqlite"),
+            "--output",
+            str(output_path),
+            "--dry-run",
+        ]
+    )
+    output = capsys.readouterr().out
+
+    assert result == 0
+    assert output_path.read_text(encoding="utf-8") == before_text
+    assert "Refresh public summary:" in output
+    assert "mode: dry-run" in output
+    assert "events_before: 1" in output
+    assert "events_after: 1" in output
+    assert "added: 1" in output
+    assert "removed: 1" in output
+    assert "Dry-run: public/events.json was not overwritten" in output
+
+
+def test_refresh_public_write_updates_output(tmp_path, capsys):
+    mock_path = tmp_path / "mock.json"
+    mock_path.write_text(
+        json.dumps(
+            [
+                {
+                    "id": "920002",
+                    "created_at": "2026-06-12T10:00:00+09:00",
+                    "text": (
+                        "6/19(金)『REFRESH WRITE LIVE』\n"
+                        "会場：渋谷Milkyway\n"
+                        "OPEN 18:00 / START 18:30\n"
+                        "チケット：https://ticketdive.com/event/refresh-write"
+                    ),
+                }
+            ],
+            ensure_ascii=False,
+        ),
+        encoding="utf-8",
+    )
+    output_path = tmp_path / "public" / "events.json"
+    output_path.parent.mkdir()
+    output_path.write_text("[]\n", encoding="utf-8")
+
+    result = main(
+        [
+            "refresh-public",
+            "--mock-posts",
+            str(mock_path),
+            "--db",
+            str(tmp_path / "state.sqlite"),
+            "--output",
+            str(output_path),
+            "--write",
+        ]
+    )
+    output = capsys.readouterr().out
+    payload = json.loads(output_path.read_text(encoding="utf-8"))
+
+    assert result == 0
+    assert "mode: write" in output
+    assert "events_before: 0" in output
+    assert "events_after: 1" in output
+    assert "Wrote 1 public events" in output
+    assert payload[0]["event_name"] == "REFRESH WRITE LIVE"
+    assert payload[0]["public_ready"] is True
+
+
+def test_refresh_public_uses_incremental_sync_path(tmp_path, monkeypatch, capsys):
+    calls = []
+    db_path = tmp_path / "state.sqlite"
+    SQLiteStateStore(db_path).set_last_seen_post_id("930000")
+
+    class FakeIncrementalXClient:
+        def __init__(self, bearer_token, username, state):
+            self.last_fetch_metadata = FetchMetadata()
+
+        def fetch_recent_posts(self, *, since_id=None, max_results=10):
+            calls.append({"since_id": since_id, "max_results": max_results})
+            self.last_fetch_metadata = FetchMetadata(
+                posts_fetched=0,
+                estimated_post_read_count=0,
+                rate_limit_headers={"x-rate-limit-remaining": "9"},
+            )
+            return []
+
+        def fetch_historical_posts(self, **kwargs):
+            raise AssertionError("refresh-public should not use backfill pagination")
+
+    def fail(*args, **kwargs):
+        raise AssertionError("refresh-public must not construct external write adapters")
+
+    monkeypatch.setenv("NO_X_API", "false")
+    monkeypatch.setenv("X_BEARER_TOKEN", "token")
+    monkeypatch.setenv("MYOJOU_MOCK_POSTS", "mock_posts")
+    monkeypatch.setattr("myojou_sync.cli.XApiClient", FakeIncrementalXClient)
+    monkeypatch.setattr("myojou_sync.cli.NotionEventSink", fail)
+    monkeypatch.setattr("myojou_sync.cli.GoogleSheetsEventSink", fail)
+
+    result = main(
+        [
+            "refresh-public",
+            "--db",
+            str(db_path),
+            "--output",
+            str(tmp_path / "events.json"),
+            "--max-results",
+            "5",
+            "--dry-run",
+        ]
+    )
+    output = capsys.readouterr().out
+
+    assert result == 0
+    assert calls == [{"since_id": "930000", "max_results": 5}]
+    assert "estimated_x_post_reads: 0" in output
+    assert '"x-rate-limit-remaining": "9"' in output
+
+
+def test_refresh_public_requires_mock_posts_when_x_api_is_disabled(tmp_path, monkeypatch, capsys):
+    def fail(*args, **kwargs):
+        raise AssertionError("XApiClient should not be constructed when NO_X_API=true")
+
+    monkeypatch.setenv("NO_X_API", "true")
+    monkeypatch.setenv("MYOJOU_MOCK_POSTS", "mock_posts")
+    monkeypatch.setenv("X_BEARER_TOKEN", "would-not-be-used")
+    monkeypatch.setattr("myojou_sync.cli.XApiClient", fail)
+
+    result = main(
+        [
+            "refresh-public",
+            "--db",
+            str(tmp_path / "state.sqlite"),
+            "--output",
+            str(tmp_path / "events.json"),
+            "--dry-run",
+        ]
+    )
+    error = capsys.readouterr().err
+
+    assert result == 2
+    assert "Use --mock-posts for offline refresh verification" in error
+
+
 def test_large_mock_dataset_exports_many_events_and_skips_non_events(tmp_path, mock_posts_dir: Path, capsys):
     db_path = tmp_path / "large.sqlite"
     output_path = tmp_path / "events.json"
