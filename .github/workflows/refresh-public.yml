@@ -1,0 +1,73 @@
+name: Refresh Public Events
+
+on:
+  schedule:
+    # 04:00 JST
+    - cron: "0 19 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-public-events
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m venv .venv
+          .venv/bin/python -m pip install --upgrade pip
+          .venv/bin/pip install -e ".[dev]"
+
+      - name: Bootstrap temporary SQLite state from committed X archive
+        env:
+          NO_X_API: "true"
+          DRY_RUN: "true"
+        run: |
+          mkdir -p .state
+          .venv/bin/myojou-sync run \
+            --mock-posts mock_posts/real_samples/info_myojou_backfill_500.json \
+            --db .state/production.sqlite \
+            --target none \
+            --dry-run \
+            --preview table
+
+      - name: Refresh public events from X
+        env:
+          NO_X_API: "false"
+          DRY_RUN: "true"
+          X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
+        run: |
+          .venv/bin/myojou-sync refresh-public \
+            --db .state/production.sqlite \
+            --output public/events.json \
+            --write \
+            --x-archive mock_posts/real_samples/info_myojou_backfill_500.json \
+            --update-archive
+
+      - name: Validate public events JSON
+        run: |
+          .venv/bin/myojou-sync validate-public \
+            --input public/events.json
+
+      - name: Commit changed public data
+        run: |
+          if [[ -n "$(git status --porcelain public/events.json mock_posts/real_samples/info_myojou_backfill_500.json)" ]]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add public/events.json mock_posts/real_samples/info_myojou_backfill_500.json
+            git commit -m "refresh public events data"
+            git push
+          else
+            echo "No public event changes."
+          fi

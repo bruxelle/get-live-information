@@ -265,7 +265,9 @@ Actual public JSON write:
 NO_X_API=false .venv/bin/myojou-sync refresh-public \
   --db .state/production.sqlite \
   --output public/events.json \
-  --write
+  --write \
+  --x-archive mock_posts/real_samples/info_myojou_backfill_500.json \
+  --update-archive
 ```
 
 Validate the generated file:
@@ -275,7 +277,7 @@ Validate the generated file:
   --input public/events.json
 ```
 
-Then manually review and commit `public/events.json` if committing JSON is the intended publish mechanism. The refresh command does not auto-commit and does not call GitHub APIs.
+Then manually review and commit `public/events.json` and, when it changed, `mock_posts/real_samples/info_myojou_backfill_500.json`. The refresh command does not auto-commit and does not call GitHub APIs.
 
 Offline verification is explicit:
 
@@ -960,75 +962,46 @@ public/events.json
 
 All browser paths are relative (`styles.css`, `app.js`, `calendar_helpers.js`, `events.json`), so the demo works under a repository subpath such as `https://USER.github.io/REPO/`.
 
-### GitHub Pages Demo
+### GitHub Pages Public Hosting
 
-GitHub Pages is useful for demo and validation because it can host the static `public/` output directly from the repository. Treat it as the demo/testing path, not the long-term commercial hosting choice.
+GitHub Pages publishes the static `public/` directory. The project includes:
 
-Recommended demo deployment with GitHub Actions:
+```text
+.github/workflows/pages.yml
+.github/workflows/refresh-public.yml
+```
 
-1. Keep `public/events.json` up to date locally:
+Repository setup:
 
-   ```bash
-   .venv/bin/myojou-sync run \
-     --mock-posts mock_posts \
-     --db .state/public-web-demo.sqlite \
-     --target none \
-     --dry-run
-
-   .venv/bin/myojou-sync export-public \
-     --db .state/public-web-demo.sqlite \
-     --output public/events.json
-   ```
-
-2. Commit the generated public files for the demo branch:
+1. In GitHub, open Settings > Pages.
+2. Set Source to `GitHub Actions`.
+3. In Settings > Secrets and variables > Actions, add this repository secret:
 
    ```text
-   public/index.html
-   public/app.js
-   public/calendar_helpers.js
-   public/styles.css
-   public/events.json
+   X_BEARER_TOKEN
    ```
 
-3. In GitHub, open the repository settings and enable Pages.
-4. Use GitHub Actions as the Pages source and deploy the `public/` directory as the artifact.
+4. If Actions is configured restrictively for the repository, allow workflows to create pull-free commits by enabling read/write workflow permissions. The refresh workflow also declares `contents: write`.
 
-Example demo workflow:
+Pages deployment behavior:
 
-```yaml
-name: Deploy public demo
+- `.github/workflows/pages.yml` deploys `public/` to GitHub Pages.
+- It runs on `push` to `main` when `public/**` changes.
+- It can also be run manually with `workflow_dispatch`.
 
-on:
-  workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - "public/**"
+Scheduled refresh behavior:
 
-permissions:
-  contents: read
-  pages: write
-  id-token: write
+- `.github/workflows/refresh-public.yml` runs every day at `04:00 JST`.
+- The cron expression is `0 19 * * *`, because GitHub Actions cron uses UTC.
+- It can also be run manually from GitHub Actions > Refresh Public Events > Run workflow.
+- It rebuilds `.state/production.sqlite` from `mock_posts/real_samples/info_myojou_backfill_500.json`.
+- It runs one real X incremental refresh using `X_BEARER_TOKEN`.
+- It updates `public/events.json`.
+- It updates the archive with newly fetched raw X posts so the next ephemeral runner can bootstrap the latest `last_seen_post_id`.
+- It validates `public/events.json`.
+- It commits only when `public/events.json` or `mock_posts/real_samples/info_myojou_backfill_500.json` changed.
 
-concurrency:
-  group: pages
-  cancel-in-progress: true
-
-jobs:
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: public
-      - id: deployment
-        uses: actions/deploy-pages@v4
-```
+The refresh workflow does not commit `.state/*.sqlite`, `.env`, or secrets.
 
 Official reference: <https://docs.github.com/en/pages>
 
@@ -1122,46 +1095,20 @@ GOOGLE_SHEET_ID
 
 ## GitHub Actions
 
-Example future workflow for a scheduled Notion sync and public JSON export every 10 minutes:
+Current workflows:
 
-```yaml
-name: Sync myojou live schedule
-
-on:
-  schedule:
-    - cron: "*/10 * * * *"
-  workflow_dispatch:
-
-jobs:
-  sync:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.11"
-      - run: pip install -e ".[dev]"
-      - name: Run tests
-        run: pytest
-      - name: Sync schedule
-        env:
-          X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
-          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
-          NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
-          NO_X_API: "false"
-          DRY_RUN: "false"
-          X_MAX_RESULTS: "10"
-        run: |
-          myojou-sync run \
-            --no-mock-posts \
-            --allow-x-api \
-            --db .state/myojou_sync.sqlite \
-            --max-results 10 \
-            --no-dry-run \
-            --target notion
-          myojou-sync export-public \
-            --db .state/myojou_sync.sqlite \
-            --output public/events.json
+```text
+.github/workflows/pages.yml
+.github/workflows/refresh-public.yml
 ```
 
-For persistent SQLite state in GitHub Actions, store `.state/myojou_sync.sqlite` in an artifact, cache, or another durable store. Without persistence, each run may refetch recent posts. To publish the fan-facing site, add a GitHub Pages or Cloudflare Pages deployment step that publishes the `public/` directory after `public/events.json` is exported.
+`refresh-public.yml` intentionally does not rely on persistent GitHub runner storage. Each run rebuilds `.state/production.sqlite` from the committed archive, refreshes with X using `since_id`, writes validated public data, updates the archive when new posts were fetched, and commits only real diffs.
+
+Manual run:
+
+1. Open the repository on GitHub.
+2. Go to Actions.
+3. Select `Refresh Public Events`.
+4. Click `Run workflow`.
+
+The subsequent commit to `public/events.json` triggers the Pages deployment workflow on `main`.
