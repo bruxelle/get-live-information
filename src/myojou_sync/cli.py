@@ -18,6 +18,7 @@ from .sample_capture import write_x_samples
 from .state import SQLiteStateStore
 from .sync.notion import NotionEventSink, inspect_notion_schema
 from .sync.sheets import GoogleSheetsEventSink
+from .x_archive import update_x_archive
 from .x_client import MockXClient, XApiClient
 
 
@@ -51,6 +52,8 @@ def build_parser() -> argparse.ArgumentParser:
     refresh_public.add_argument("--mock-posts", help="Explicit mock post file or directory for offline verification.")
     refresh_public.add_argument("--max-results", type=int, help="Maximum X posts to request. Defaults to X_MAX_RESULTS or 10.")
     refresh_public.add_argument("--allow-x-api", action="store_true", help="Permit real X API calls when NO_X_API=true.")
+    refresh_public.add_argument("--x-archive", help="X archive/sample JSON path to update with newly fetched posts.")
+    refresh_public.add_argument("--update-archive", action="store_true", help="Update --x-archive after a successful --write refresh.")
     refresh_mode = refresh_public.add_mutually_exclusive_group()
     refresh_mode.add_argument("--dry-run", action="store_true", help="Preview changes without writing public/events.json. This is the default.")
     refresh_mode.add_argument("--write", action="store_true", help="Write validated public/events.json.")
@@ -147,6 +150,9 @@ def main(argv: list[str] | None = None) -> int:
         return 0 if validation.ok else 1
 
     if args.command == "refresh-public":
+        if args.update_archive and not args.x_archive:
+            print("--x-archive is required when --update-archive is used.", file=sys.stderr)
+            return 2
         db_path = args.db or settings.state_db
         state = SQLiteStateStore(db_path)
         mock_posts = args.mock_posts
@@ -190,8 +196,17 @@ def main(argv: list[str] | None = None) -> int:
         if args.write:
             _write_public_rows(args.output, after_rows)
             print(f"Wrote {len(after_rows)} public events to {Path(args.output)}.")
+            if args.update_archive:
+                archive_result = update_x_archive(
+                    args.x_archive,
+                    result.x_sample_records,
+                    username=settings.x_username,
+                )
+                print(_format_archive_update_summary(archive_result))
         else:
             print("Dry-run: public/events.json was not overwritten. Pass --write to update it.")
+            if args.update_archive:
+                print("Dry-run: X archive was not updated. Pass --write to update it.")
         return 0
 
     if args.command == "inspect-state":
@@ -514,6 +529,20 @@ def _write_public_rows(output_path: str, rows: list[dict]) -> Path:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(rows, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     return path
+
+
+def _format_archive_update_summary(result) -> str:
+    return "\n".join(
+        [
+            "X archive update:",
+            f"path: {result.path}",
+            f"added: {result.added}",
+            f"updated: {result.updated}",
+            f"total_posts: {result.total_posts}",
+            f"latest_post_id: {result.latest_post_id}",
+            f"wrote: {result.wrote}",
+        ]
+    )
 
 
 if __name__ == "__main__":  # pragma: no cover
