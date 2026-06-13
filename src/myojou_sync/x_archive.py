@@ -1,10 +1,14 @@
 from __future__ import annotations
 
 import json
+import logging
 from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
+
+
+logger = logging.getLogger(__name__)
 
 
 @dataclass(frozen=True)
@@ -87,8 +91,12 @@ def update_x_archive(path: str | Path, records: list[dict[str, Any]], *, usernam
 def _read_archive(path: Path) -> dict[str, Any]:
     if not path.exists():
         return {"source": "x_api", "metadata": {}, "data": []}
-    with path.open(encoding="utf-8") as handle:
-        payload = json.load(handle)
+    try:
+        with path.open(encoding="utf-8") as handle:
+            payload = json.load(handle)
+    except json.JSONDecodeError as exc:
+        logger.warning("X archive JSON is unreadable; starting with an empty archive. path=%s error=%s", path, exc)
+        return {"source": "x_api", "metadata": {}, "data": []}
     if isinstance(payload, dict):
         return payload
     if isinstance(payload, list):
@@ -133,15 +141,31 @@ def _stable_json(value: Any) -> str:
     return json.dumps(value, ensure_ascii=False, indent=2, sort_keys=True)
 
 
-def _record_sort_key(record: dict[str, Any]) -> tuple[int, int, str, str]:
+def _record_sort_key(record: dict[str, Any]) -> tuple[int, float, str, str]:
     record_id = _record_id(record)
     if record_id.isdigit():
-        return (0, -int(record_id), "", record_id)
-    return (1, 0, str(record.get("created_at") or ""), record_id)
+        return (0, -float(record_id), "", record_id)
+    return (1, -_created_at_timestamp(record), str(record.get("created_at") or ""), record_id)
 
 
 def _latest_post_id(records: list[dict[str, Any]]) -> str:
     numeric_ids = [int(_record_id(record)) for record in records if _record_id(record).isdigit()]
     if numeric_ids:
         return str(max(numeric_ids))
-    return _record_id(records[0]) if records else ""
+    if not records:
+        return ""
+    latest = max(records, key=lambda record: (_created_at_timestamp(record), str(record.get("created_at") or ""), _record_id(record)))
+    return _record_id(latest)
+
+
+def _created_at_timestamp(record: dict[str, Any]) -> float:
+    value = str(record.get("created_at") or "")
+    if not value:
+        return float("-inf")
+    try:
+        parsed = datetime.fromisoformat(value.replace("Z", "+00:00"))
+    except ValueError:
+        return float("-inf")
+    if parsed.tzinfo is None:
+        parsed = parsed.replace(tzinfo=timezone.utc)
+    return parsed.timestamp()

@@ -105,6 +105,58 @@ def test_x_archive_update_is_deterministic_when_records_do_not_change(tmp_path):
     assert first_content == second_content
 
 
+def test_x_archive_update_recovers_from_invalid_archive_json(tmp_path, caplog):
+    archive_path = tmp_path / "archive.json"
+    archive_path.write_text('{"data": [', encoding="utf-8")
+
+    result = update_x_archive(
+        archive_path,
+        [
+            {
+                "id": "250",
+                "text": "recovered",
+                "created_at": "2026-06-03T00:00:00+09:00",
+                "note_tweet": {"text": "recovered full text"},
+                "raw": {"id": "250", "note_tweet": {"text": "recovered full text"}},
+            }
+        ],
+        username="info_myojou",
+    )
+    payload = json.loads(archive_path.read_text(encoding="utf-8"))
+
+    assert result.wrote is True
+    assert result.added == 1
+    assert result.total_posts == 1
+    assert payload["data"][0]["id"] == "250"
+    assert payload["metadata"]["latest_post_id"] == "250"
+    assert "X archive JSON is unreadable" in caplog.text
+
+
+def test_x_archive_latest_post_id_uses_created_at_for_non_numeric_ids(tmp_path):
+    archive_path = tmp_path / "archive.json"
+    records = [
+        {
+            "id": "sample-old",
+            "text": "old",
+            "created_at": "2026-06-01T00:00:00+09:00",
+            "raw": {"id": "sample-old"},
+        },
+        {
+            "id": "sample-new",
+            "text": "new",
+            "created_at": "2026-06-03T00:00:00+09:00",
+            "raw": {"id": "sample-new"},
+        },
+    ]
+
+    result = update_x_archive(archive_path, records, username="info_myojou")
+    payload = json.loads(archive_path.read_text(encoding="utf-8"))
+
+    assert result.latest_post_id == "sample-new"
+    assert payload["metadata"]["latest_post_id"] == "sample-new"
+    assert [record["id"] for record in payload["data"]] == ["sample-new", "sample-old"]
+
+
 def test_refresh_public_write_updates_x_archive_with_fake_x_posts(tmp_path, monkeypatch, capsys):
     class FakeIncrementalXClient:
         def __init__(self, bearer_token, username, state):
