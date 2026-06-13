@@ -157,6 +157,31 @@ def test_x_archive_latest_post_id_uses_created_at_for_non_numeric_ids(tmp_path):
     assert [record["id"] for record in payload["data"]] == ["sample-new", "sample-old"]
 
 
+def test_x_archive_numeric_sort_preserves_large_x_id_precision(tmp_path):
+    archive_path = tmp_path / "archive.json"
+    records = [
+        {
+            "id": "9007199254740993",
+            "text": "larger than precise float",
+            "created_at": "2026-06-01T00:00:00+09:00",
+            "raw": {"id": "9007199254740993"},
+        },
+        {
+            "id": "9007199254740992",
+            "text": "smaller adjacent id",
+            "created_at": "2026-06-02T00:00:00+09:00",
+            "raw": {"id": "9007199254740992"},
+        },
+    ]
+
+    result = update_x_archive(archive_path, records, username="info_myojou")
+    payload = json.loads(archive_path.read_text(encoding="utf-8"))
+
+    assert result.latest_post_id == "9007199254740993"
+    assert payload["metadata"]["latest_post_id"] == "9007199254740993"
+    assert [record["id"] for record in payload["data"]] == ["9007199254740993", "9007199254740992"]
+
+
 def test_refresh_public_write_updates_x_archive_with_fake_x_posts(tmp_path, monkeypatch, capsys):
     class FakeIncrementalXClient:
         def __init__(self, bearer_token, username, state):

@@ -141,10 +141,10 @@ def _stable_json(value: Any) -> str:
     return json.dumps(value, ensure_ascii=False, indent=2, sort_keys=True)
 
 
-def _record_sort_key(record: dict[str, Any]) -> tuple[int, float, str, str]:
+def _record_sort_key(record: dict[str, Any]) -> tuple[int, int | float, str, str]:
     record_id = _record_id(record)
     if record_id.isdigit():
-        return (0, -float(record_id), "", record_id)
+        return (0, -int(record_id), "", record_id)
     return (1, -_created_at_timestamp(record), str(record.get("created_at") or ""), record_id)
 
 
