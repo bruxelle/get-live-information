@@ -2,6 +2,891 @@
   "captured_at": "2026-06-10T16:19:36.141820+00:00",
   "data": [
     {
+      "api_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            ˚.⋆ラジオ配信˖°⋆\n          myojou天体観測 #9\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣2026.06.17 22:00 プレミア公開\n⟣ myojou公式YouTubeチャンネル\n🔗 https://t.co/9zwq4f02n9\n\n #myojou",
+      "attachments": {},
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "radio/non-live",
+        "source_kind": "other"
+      },
+      "created_at": "2026-06-17T12:00:07+00:00",
+      "entities": {
+        "hashtags": [
+          {
+            "end": 172,
+            "start": 165,
+            "tag": "myojou"
+          }
+        ],
+        "urls": [
+          {
+            "description": "「6人の少女が夜明けの空に描くストーリー」 公式X : https://x.com/info_myojou公式TikTok : ...",
+            "display_url": "youtube.com/watch?v=oEs-nE…",
+            "end": 162,
+            "expanded_url": "https://www.youtube.com/watch?v=oEs-nE-i3_s",
+            "start": 139,
+            "status": 200,
+            "title": "myojou天体観測 #9",
+            "unwound_url": "https://www.youtube.com/watch?v=oEs-nE-i3_s",
+            "url": "https://t.co/9zwq4f02n9"
+          }
+        ]
+      },
+      "full_text_source": "text",
+      "id": "2067215712452845873",
+      "media": [],
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "note_tweet": null,
+      "parsed_fields": null,
+      "raw": {
+        "api_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            ˚.⋆ラジオ配信˖°⋆\n          myojou天体観測 #9\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣2026.06.17 22:00 プレミア公開\n⟣ myojou公式YouTubeチャンネル\n🔗 https://t.co/9zwq4f02n9\n\n #myojou",
+        "created_at": "2026-06-17T12:00:07.000Z",
+        "edit_history_tweet_ids": [
+          "2067215712452845873"
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "end": 172,
+              "start": 165,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "description": "「6人の少女が夜明けの空に描くストーリー」 公式X : https://x.com/info_myojou公式TikTok : ...",
+              "display_url": "youtube.com/watch?v=oEs-nE…",
+              "end": 162,
+              "expanded_url": "https://www.youtube.com/watch?v=oEs-nE-i3_s",
+              "start": 139,
+              "status": 200,
+              "title": "myojou天体観測 #9",
+              "unwound_url": "https://www.youtube.com/watch?v=oEs-nE-i3_s",
+              "url": "https://t.co/9zwq4f02n9"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            ˚.⋆ラジオ配信˖°⋆\n          myojou天体観測 #9\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣2026.06.17 22:00 プレミア公開\n⟣ myojou公式YouTubeチャンネル\n🔗 https://t.co/9zwq4f02n9\n\n #myojou",
+        "full_text_source": "text",
+        "id": "2067215712452845873",
+        "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            ˚.⋆ラジオ配信˖°⋆\n          myojou天体観測 #9\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣2026.06.17 22:00 プレミア公開\n⟣ myojou公式YouTubeチャンネル\n🔗 https://t.co/9zwq4f02n9\n\n #myojou",
+        "truncated_text": null
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            ˚.⋆ラジオ配信˖°⋆\n          myojou天体観測 #9\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣2026.06.17 22:00 プレミア公開\n⟣ myojou公式YouTubeチャンネル\n🔗 https://t.co/9zwq4f02n9\n\n #myojou",
+      "truncated_text": null,
+      "url": "https://x.com/info_myojou/status/2067215712452845873"
+    },
+    {
+      "api_text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「IDOL ∞ INFINITY PREMIUM vol.12」\n\n🎙16:45-17:10\n📸17:45-18:45\n\n⟣date：6/19（金）\n⟣place :Spotify O-nest\n⟣open/start：16:00/16:20\n⟣price：前方チケット¥4,000/一般チケット¥2,000/当日各+¥1,000（各＋1D） https://t.co/6s6bZtBNQI",
+      "attachments": {
+        "media_keys": [
+          "3_2067204098932523008",
+          "3_2067204098936729600"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "initial_announcement"
+      },
+      "created_at": "2026-06-17T11:14:00+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/6s6bZtBNQI",
+            "end": 218,
+            "expanded_url": "https://x.com/info_myojou/status/2067204104745869403/photo/1",
+            "media_key": "3_2067204098932523008",
+            "start": 195,
+            "url": "https://t.co/6s6bZtBNQI"
+          },
+          {
+            "display_url": "pic.x.com/6s6bZtBNQI",
+            "end": 218,
+            "expanded_url": "https://x.com/info_myojou/status/2067204104745869403/photo/1",
+            "media_key": "3_2067204098936729600",
+            "start": 195,
+            "url": "https://t.co/6s6bZtBNQI"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2067204104745869403",
+      "media": [
+        {
+          "height": 2048,
+          "media_key": "3_2067204098932523008",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HLAvLOsawAAIlBT.jpg",
+          "width": 1448
+        },
+        {
+          "height": 2048,
+          "media_key": "3_2067204098936729600",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HLAvLOta8AAQAnu.jpg",
+          "width": 1448
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 284,
+              "start": 277,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "ticketdive.com/event/idol_inf…",
+              "end": 275,
+              "expanded_url": "https://ticketdive.com/event/idol_infinity_premium_vol12",
+              "start": 252,
+              "url": "https://t.co/ZmeXZxBfyK"
+            }
+          ]
+        },
+        "text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「IDOL ∞ INFINITY PREMIUM vol.12」\n\n🎙16:45-17:10\n📸17:45-18:45\n\n⟣date：6/19（金）\n⟣place :Spotify O-nest\n⟣open/start：16:00/16:20\n⟣price：前方チケット¥4,000/一般チケット¥2,000/当日各+¥1,000（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n6/3（水）20:00-6/18（木）23:59\n🔗 https://t.co/ZmeXZxBfyK\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": "17:45-18:45",
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-06-19",
+        "event_dates": [
+          "2026-06-19"
+        ],
+        "event_name": "IDOL ∞ INFINITY PREMIUM vol.12",
+        "extraction_confidence": 0.95,
+        "general_ticket_price": 2000,
+        "lottery_result_at": null,
+        "myojou_performance_time": "16:45-17:10",
+        "notes": "ドリンク代: 各+1D\n⟣入場特典:明星カード(サインありチェキ)",
+        "open_time": "16:00",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "前方チケット",
+        "priority_ticket_price": 4000,
+        "same_day_ticket_price": 1000,
+        "source_kind": "initial_announcement",
+        "source_post_id": "2067204104745869403",
+        "source_posted_at": "2026-06-17T11:14:00Z",
+        "source_raw": {
+          "api_text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「IDOL ∞ INFINITY PREMIUM vol.12」\n\n🎙16:45-17:10\n📸17:45-18:45\n\n⟣date：6/19（金）\n⟣place :Spotify O-nest\n⟣open/start：16:00/16:20\n⟣price：前方チケット¥4,000/一般チケット¥2,000/当日各+¥1,000（各＋1D） https://t.co/6s6bZtBNQI",
+          "attachments": {
+            "media_keys": [
+              "3_2067204098932523008",
+              "3_2067204098936729600"
+            ]
+          },
+          "created_at": "2026-06-17T11:14:00.000Z",
+          "edit_history_tweet_ids": [
+            "2067204104745869403"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/6s6bZtBNQI",
+                "end": 218,
+                "expanded_url": "https://x.com/info_myojou/status/2067204104745869403/photo/1",
+                "media_key": "3_2067204098932523008",
+                "start": 195,
+                "url": "https://t.co/6s6bZtBNQI"
+              },
+              {
+                "display_url": "pic.x.com/6s6bZtBNQI",
+                "end": 218,
+                "expanded_url": "https://x.com/info_myojou/status/2067204104745869403/photo/1",
+                "media_key": "3_2067204098936729600",
+                "start": 195,
+                "url": "https://t.co/6s6bZtBNQI"
+              }
+            ]
+          },
+          "full_text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「IDOL ∞ INFINITY PREMIUM vol.12」\n\n🎙16:45-17:10\n📸17:45-18:45\n\n⟣date：6/19（金）\n⟣place :Spotify O-nest\n⟣open/start：16:00/16:20\n⟣price：前方チケット¥4,000/一般チケット¥2,000/当日各+¥1,000（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n6/3（水）20:00-6/18（木）23:59\n🔗 https://t.co/ZmeXZxBfyK\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2067204104745869403",
+          "media": [
+            {
+              "height": 2048,
+              "media_key": "3_2067204098932523008",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HLAvLOsawAAIlBT.jpg",
+              "width": 1448
+            },
+            {
+              "height": 2048,
+              "media_key": "3_2067204098936729600",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HLAvLOta8AAQAnu.jpg",
+              "width": 1448
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 284,
+                  "start": 277,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "ticketdive.com/event/idol_inf…",
+                  "end": 275,
+                  "expanded_url": "https://ticketdive.com/event/idol_infinity_premium_vol12",
+                  "start": 252,
+                  "url": "https://t.co/ZmeXZxBfyK"
+                }
+              ]
+            },
+            "text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「IDOL ∞ INFINITY PREMIUM vol.12」\n\n🎙16:45-17:10\n📸17:45-18:45\n\n⟣date：6/19（金）\n⟣place :Spotify O-nest\n⟣open/start：16:00/16:20\n⟣price：前方チケット¥4,000/一般チケット¥2,000/当日各+¥1,000（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n6/3（水）20:00-6/18（木）23:59\n🔗 https://t.co/ZmeXZxBfyK\n\n#myojou"
+          },
+          "text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「IDOL ∞ INFINITY PREMIUM vol.12」\n\n🎙16:45-17:10\n📸17:45-18:45\n\n⟣date：6/19（金）\n⟣place :Spotify O-nest\n⟣open/start：16:00/16:20\n⟣price：前方チケット¥4,000/一般チケット¥2,000/当日各+¥1,000（各＋1D） https://t.co/6s6bZtBNQI",
+          "truncated_text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「IDOL ∞ INFINITY PREMIUM vol.12」\n\n🎙16:45-17:10\n📸17:45-18:45\n\n⟣date：6/19（金）\n⟣place :Spotify O-nest\n⟣open/start：16:00/16:20\n⟣price：前方チケット¥4,000/一般チケット¥2,000/当日各+¥1,000（各＋1D） https://t.co/6s6bZtBNQI"
+        },
+        "source_text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「IDOL ∞ INFINITY PREMIUM vol.12」\n\n🎙16:45-17:10\n📸17:45-18:45\n\n⟣date：6/19（金）\n⟣place :Spotify O-nest\n⟣open/start：16:00/16:20\n⟣price：前方チケット¥4,000/一般チケット¥2,000/当日各+¥1,000（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n6/3（水）20:00-6/18（木）23:59\n🔗 https://t.co/ZmeXZxBfyK\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2067204104745869403",
+        "start_time": "16:20",
+        "ticket_application_deadline_at": "2026-06-18T23:59:00+09:00",
+        "ticket_application_start_at": "2026-06-03T20:00:00+09:00",
+        "ticket_sale_type": "一般",
+        "ticket_sales": [
+          {
+            "deadline_at": "2026-06-18T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 4000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2067204104745869403",
+            "source_url": "https://x.com/info_myojou/status/2067204104745869403",
+            "start_at": "2026-06-03T20:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "前方チケット",
+            "ticket_tier": "前方"
+          },
+          {
+            "deadline_at": "2026-06-18T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 2000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2067204104745869403",
+            "source_url": "https://x.com/info_myojou/status/2067204104745869403",
+            "start_at": "2026-06-03T20:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般チケット",
+            "ticket_tier": "一般"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 1000,
+            "result_at": null,
+            "sale_type": "当日券",
+            "source_post_id": "2067204104745869403",
+            "source_url": "https://x.com/info_myojou/status/2067204104745869403",
+            "start_at": null,
+            "status": "販売中",
+            "ticket_name": "当日券",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "https://ticketdive.com/event/idol_infinity_premium_vol12",
+        "venue": "Spotify O-nest"
+      },
+      "raw": {
+        "api_text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「IDOL ∞ INFINITY PREMIUM vol.12」\n\n🎙16:45-17:10\n📸17:45-18:45\n\n⟣date：6/19（金）\n⟣place :Spotify O-nest\n⟣open/start：16:00/16:20\n⟣price：前方チケット¥4,000/一般チケット¥2,000/当日各+¥1,000（各＋1D） https://t.co/6s6bZtBNQI",
+        "attachments": {
+          "media_keys": [
+            "3_2067204098932523008",
+            "3_2067204098936729600"
+          ]
+        },
+        "created_at": "2026-06-17T11:14:00.000Z",
+        "edit_history_tweet_ids": [
+          "2067204104745869403"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/6s6bZtBNQI",
+              "end": 218,
+              "expanded_url": "https://x.com/info_myojou/status/2067204104745869403/photo/1",
+              "media_key": "3_2067204098932523008",
+              "start": 195,
+              "url": "https://t.co/6s6bZtBNQI"
+            },
+            {
+              "display_url": "pic.x.com/6s6bZtBNQI",
+              "end": 218,
+              "expanded_url": "https://x.com/info_myojou/status/2067204104745869403/photo/1",
+              "media_key": "3_2067204098936729600",
+              "start": 195,
+              "url": "https://t.co/6s6bZtBNQI"
+            }
+          ]
+        },
+        "full_text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「IDOL ∞ INFINITY PREMIUM vol.12」\n\n🎙16:45-17:10\n📸17:45-18:45\n\n⟣date：6/19（金）\n⟣place :Spotify O-nest\n⟣open/start：16:00/16:20\n⟣price：前方チケット¥4,000/一般チケット¥2,000/当日各+¥1,000（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n6/3（水）20:00-6/18（木）23:59\n🔗 https://t.co/ZmeXZxBfyK\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2067204104745869403",
+        "media": [
+          {
+            "height": 2048,
+            "media_key": "3_2067204098932523008",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HLAvLOsawAAIlBT.jpg",
+            "width": 1448
+          },
+          {
+            "height": 2048,
+            "media_key": "3_2067204098936729600",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HLAvLOta8AAQAnu.jpg",
+            "width": 1448
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 284,
+                "start": 277,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "ticketdive.com/event/idol_inf…",
+                "end": 275,
+                "expanded_url": "https://ticketdive.com/event/idol_infinity_premium_vol12",
+                "start": 252,
+                "url": "https://t.co/ZmeXZxBfyK"
+              }
+            ]
+          },
+          "text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「IDOL ∞ INFINITY PREMIUM vol.12」\n\n🎙16:45-17:10\n📸17:45-18:45\n\n⟣date：6/19（金）\n⟣place :Spotify O-nest\n⟣open/start：16:00/16:20\n⟣price：前方チケット¥4,000/一般チケット¥2,000/当日各+¥1,000（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n6/3（水）20:00-6/18（木）23:59\n🔗 https://t.co/ZmeXZxBfyK\n\n#myojou"
+        },
+        "text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「IDOL ∞ INFINITY PREMIUM vol.12」\n\n🎙16:45-17:10\n📸17:45-18:45\n\n⟣date：6/19（金）\n⟣place :Spotify O-nest\n⟣open/start：16:00/16:20\n⟣price：前方チケット¥4,000/一般チケット¥2,000/当日各+¥1,000（各＋1D） https://t.co/6s6bZtBNQI",
+        "truncated_text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「IDOL ∞ INFINITY PREMIUM vol.12」\n\n🎙16:45-17:10\n📸17:45-18:45\n\n⟣date：6/19（金）\n⟣place :Spotify O-nest\n⟣open/start：16:00/16:20\n⟣price：前方チケット¥4,000/一般チケット¥2,000/当日各+¥1,000（各＋1D） https://t.co/6s6bZtBNQI"
+      },
+      "referenced_tweets": [],
+      "text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「IDOL ∞ INFINITY PREMIUM vol.12」\n\n🎙16:45-17:10\n📸17:45-18:45\n\n⟣date：6/19（金）\n⟣place :Spotify O-nest\n⟣open/start：16:00/16:20\n⟣price：前方チケット¥4,000/一般チケット¥2,000/当日各+¥1,000（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n6/3（水）20:00-6/18（木）23:59\n🔗 https://t.co/ZmeXZxBfyK\n\n#myojou",
+      "truncated_text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「IDOL ∞ INFINITY PREMIUM vol.12」\n\n🎙16:45-17:10\n📸17:45-18:45\n\n⟣date：6/19（金）\n⟣place :Spotify O-nest\n⟣open/start：16:00/16:20\n⟣price：前方チケット¥4,000/一般チケット¥2,000/当日各+¥1,000（各＋1D） https://t.co/6s6bZtBNQI",
+      "url": "https://x.com/info_myojou/status/2067204104745869403"
+    },
+    {
+      "api_text": "✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n                           ⟡.·*.御礼.*·.⟡\n             こみっきゅおん！presents\n                   すぺしゃるいしゅ〜 \n             - Road to 6.27 duo MUSIC \n            EXCHANGE ONE MAN LIVE - https://t.co/XMhuBDVtOk",
+      "attachments": {
+        "media_keys": [
+          "3_2067201251864174592"
+        ]
+      },
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "thank-you/recap post",
+        "source_kind": "other"
+      },
+      "created_at": "2026-06-17T11:02:41+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/XMhuBDVtOk",
+            "end": 224,
+            "expanded_url": "https://x.com/info_myojou/status/2067201257740411133/photo/1",
+            "media_key": "3_2067201251864174592",
+            "start": 201,
+            "url": "https://t.co/XMhuBDVtOk"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2067201257740411133",
+      "media": [
+        {
+          "alt_text": "M1,星景讃歌\nM2,僕彩色\nM3,HeartBeat\nM4,蛍夏\nM5,アンチコンプリート\nM6,CHRONOS",
+          "height": 1108,
+          "media_key": "3_2067201251864174592",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HLAslgibYAAtZMM.jpg",
+          "width": 1477
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 472,
+              "start": 465,
+              "tag": "myojou"
+            }
+          ],
+          "mentions": [
+            {
+              "end": 345,
+              "id": "1981655668626165760",
+              "start": 333,
+              "username": "myojou_ruka"
+            },
+            {
+              "end": 362,
+              "id": "2009245855694675968",
+              "start": 351,
+              "username": "myojou_miu"
+            },
+            {
+              "end": 383,
+              "id": "1344586625901158401",
+              "start": 368,
+              "username": "myojou_usukura"
+            },
+            {
+              "end": 411,
+              "id": "1590652199407083520",
+              "start": 397,
+              "username": "myojou_cocone"
+            },
+            {
+              "end": 430,
+              "id": "1754991922807177216",
+              "start": 417,
+              "username": "myojou_shino"
+            },
+            {
+              "end": 447,
+              "id": "2009274765895450624",
+              "start": 436,
+              "username": "myojou_yun"
+            }
+          ]
+        },
+        "text": "✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n                           ⟡.·*.御礼.*·.⟡\n             こみっきゅおん！presents\n                   すぺしゃるいしゅ〜 \n             - Road to 6.27 duo MUSIC \n            EXCHANGE ONE MAN LIVE -\n✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n\n本日は「こみっきゅおん！presentsすぺしゃるいしゅ〜 - Road to 6.27 duo MUSIC EXCHANGE ONE MAN LIVE -」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n日陽みう@myojou_miu \n薄倉りな@myojou_usukura \n\n下段左から\n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n澪奈ゆん@myojou_yun \n\nSETLIST▶︎ALT\n\n #myojou"
+      },
+      "parsed_fields": null,
+      "raw": {
+        "api_text": "✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n                           ⟡.·*.御礼.*·.⟡\n             こみっきゅおん！presents\n                   すぺしゃるいしゅ〜 \n             - Road to 6.27 duo MUSIC \n            EXCHANGE ONE MAN LIVE - https://t.co/XMhuBDVtOk",
+        "attachments": {
+          "media_keys": [
+            "3_2067201251864174592"
+          ]
+        },
+        "created_at": "2026-06-17T11:02:41.000Z",
+        "edit_history_tweet_ids": [
+          "2067201257740411133"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/XMhuBDVtOk",
+              "end": 224,
+              "expanded_url": "https://x.com/info_myojou/status/2067201257740411133/photo/1",
+              "media_key": "3_2067201251864174592",
+              "start": 201,
+              "url": "https://t.co/XMhuBDVtOk"
+            }
+          ]
+        },
+        "full_text": "✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n                           ⟡.·*.御礼.*·.⟡\n             こみっきゅおん！presents\n                   すぺしゃるいしゅ〜 \n             - Road to 6.27 duo MUSIC \n            EXCHANGE ONE MAN LIVE -\n✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n\n本日は「こみっきゅおん！presentsすぺしゃるいしゅ〜 - Road to 6.27 duo MUSIC EXCHANGE ONE MAN LIVE -」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n日陽みう@myojou_miu \n薄倉りな@myojou_usukura \n\n下段左から\n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n澪奈ゆん@myojou_yun \n\nSETLIST▶︎ALT\n\n #myojou",
+        "full_text_source": "note_tweet",
+        "id": "2067201257740411133",
+        "media": [
+          {
+            "alt_text": "M1,星景讃歌\nM2,僕彩色\nM3,HeartBeat\nM4,蛍夏\nM5,アンチコンプリート\nM6,CHRONOS",
+            "height": 1108,
+            "media_key": "3_2067201251864174592",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HLAslgibYAAtZMM.jpg",
+            "width": 1477
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 472,
+                "start": 465,
+                "tag": "myojou"
+              }
+            ],
+            "mentions": [
+              {
+                "end": 345,
+                "id": "1981655668626165760",
+                "start": 333,
+                "username": "myojou_ruka"
+              },
+              {
+                "end": 362,
+                "id": "2009245855694675968",
+                "start": 351,
+                "username": "myojou_miu"
+              },
+              {
+                "end": 383,
+                "id": "1344586625901158401",
+                "start": 368,
+                "username": "myojou_usukura"
+              },
+              {
+                "end": 411,
+                "id": "1590652199407083520",
+                "start": 397,
+                "username": "myojou_cocone"
+              },
+              {
+                "end": 430,
+                "id": "1754991922807177216",
+                "start": 417,
+                "username": "myojou_shino"
+              },
+              {
+                "end": 447,
+                "id": "2009274765895450624",
+                "start": 436,
+                "username": "myojou_yun"
+              }
+            ]
+          },
+          "text": "✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n                           ⟡.·*.御礼.*·.⟡\n             こみっきゅおん！presents\n                   すぺしゃるいしゅ〜 \n             - Road to 6.27 duo MUSIC \n            EXCHANGE ONE MAN LIVE -\n✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n\n本日は「こみっきゅおん！presentsすぺしゃるいしゅ〜 - Road to 6.27 duo MUSIC EXCHANGE ONE MAN LIVE -」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n日陽みう@myojou_miu \n薄倉りな@myojou_usukura \n\n下段左から\n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n澪奈ゆん@myojou_yun \n\nSETLIST▶︎ALT\n\n #myojou"
+        },
+        "text": "✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n                           ⟡.·*.御礼.*·.⟡\n             こみっきゅおん！presents\n                   すぺしゃるいしゅ〜 \n             - Road to 6.27 duo MUSIC \n            EXCHANGE ONE MAN LIVE - https://t.co/XMhuBDVtOk",
+        "truncated_text": "✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n                           ⟡.·*.御礼.*·.⟡\n             こみっきゅおん！presents\n                   すぺしゃるいしゅ〜 \n             - Road to 6.27 duo MUSIC \n            EXCHANGE ONE MAN LIVE - https://t.co/XMhuBDVtOk"
+      },
+      "referenced_tweets": [],
+      "text": "✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n                           ⟡.·*.御礼.*·.⟡\n             こみっきゅおん！presents\n                   すぺしゃるいしゅ〜 \n             - Road to 6.27 duo MUSIC \n            EXCHANGE ONE MAN LIVE -\n✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n\n本日は「こみっきゅおん！presentsすぺしゃるいしゅ〜 - Road to 6.27 duo MUSIC EXCHANGE ONE MAN LIVE -」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n日陽みう@myojou_miu \n薄倉りな@myojou_usukura \n\n下段左から\n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n澪奈ゆん@myojou_yun \n\nSETLIST▶︎ALT\n\n #myojou",
+      "truncated_text": "✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n                           ⟡.·*.御礼.*·.⟡\n             こみっきゅおん！presents\n                   すぺしゃるいしゅ〜 \n             - Road to 6.27 duo MUSIC \n            EXCHANGE ONE MAN LIVE - https://t.co/XMhuBDVtOk",
+      "url": "https://x.com/info_myojou/status/2067201257740411133"
+    },
+    {
+      "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n      アイドル甲子園 FESTIVAL 2026\n         supported by My-th -DAY1-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n📍TFTホール1000\n🎙12:30-12:55\n📸13:15-14:35 D\n\n⟣date：6/27（土）\n⟣place : TFTホール 1000・500・300 https://t.co/3hyAn6bkGF",
+      "attachments": {
+        "media_keys": [
+          "3_2067200645686566912",
+          "3_2067200645686546432"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "ticket_update"
+      },
+      "created_at": "2026-06-17T11:00:17+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/3hyAn6bkGF",
+            "end": 219,
+            "expanded_url": "https://x.com/info_myojou/status/2067200653777371295/photo/1",
+            "media_key": "3_2067200645686566912",
+            "start": 196,
+            "url": "https://t.co/3hyAn6bkGF"
+          },
+          {
+            "display_url": "pic.x.com/3hyAn6bkGF",
+            "end": 219,
+            "expanded_url": "https://x.com/info_myojou/status/2067200653777371295/photo/1",
+            "media_key": "3_2067200645686546432",
+            "start": 196,
+            "url": "https://t.co/3hyAn6bkGF"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2067200653777371295",
+      "media": [
+        {
+          "height": 2000,
+          "media_key": "3_2067200645686566912",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HLAsCOWbIAAAC3R.jpg",
+          "width": 1500
+        },
+        {
+          "height": 1684,
+          "media_key": "3_2067200645686546432",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HLAsCOWa0AAJq_Y.jpg",
+          "width": 2382
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 350,
+              "start": 343,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "user.my-th.jp/login?redirect…",
+              "end": 341,
+              "expanded_url": "https://user.my-th.jp/login?redirect=/tickets/event/ikoufes_0627",
+              "start": 318,
+              "url": "https://t.co/wCR3U14P9Z"
+            }
+          ]
+        },
+        "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n      アイドル甲子園 FESTIVAL 2026\n         supported by My-th -DAY1-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n📍TFTホール1000\n🎙12:30-12:55\n📸13:15-14:35 D\n\n⟣date：6/27（土）\n⟣place : TFTホール 1000・500・300\n⟣open/start：9:30/10:00\n⟣price：前方¥11,000/一般¥5,500/当日各+¥1,000（1D代込）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n6/4（木）21:00-6/27（土）9:29\n🔗 https://t.co/wCR3U14P9Z\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": "13:15-14:35",
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-06-27",
+        "event_dates": [
+          "2026-06-27"
+        ],
+        "event_name": "アイドル甲子園 FESTIVAL 2026",
+        "extraction_confidence": 0.95,
+        "general_ticket_price": 5500,
+        "lottery_result_at": null,
+        "myojou_performance_time": "12:30-12:55",
+        "notes": "ドリンク代: 各+1D\n⟣入場特典:明星カード(サインありチェキ)",
+        "open_time": "09:30",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "前方",
+        "priority_ticket_price": 11000,
+        "same_day_ticket_price": 1000,
+        "source_kind": "ticket_update",
+        "source_post_id": "2067200653777371295",
+        "source_posted_at": "2026-06-17T11:00:17Z",
+        "source_raw": {
+          "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n      アイドル甲子園 FESTIVAL 2026\n         supported by My-th -DAY1-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n📍TFTホール1000\n🎙12:30-12:55\n📸13:15-14:35 D\n\n⟣date：6/27（土）\n⟣place : TFTホール 1000・500・300 https://t.co/3hyAn6bkGF",
+          "attachments": {
+            "media_keys": [
+              "3_2067200645686566912",
+              "3_2067200645686546432"
+            ]
+          },
+          "created_at": "2026-06-17T11:00:17.000Z",
+          "edit_history_tweet_ids": [
+            "2067200653777371295"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/3hyAn6bkGF",
+                "end": 219,
+                "expanded_url": "https://x.com/info_myojou/status/2067200653777371295/photo/1",
+                "media_key": "3_2067200645686566912",
+                "start": 196,
+                "url": "https://t.co/3hyAn6bkGF"
+              },
+              {
+                "display_url": "pic.x.com/3hyAn6bkGF",
+                "end": 219,
+                "expanded_url": "https://x.com/info_myojou/status/2067200653777371295/photo/1",
+                "media_key": "3_2067200645686546432",
+                "start": 196,
+                "url": "https://t.co/3hyAn6bkGF"
+              }
+            ]
+          },
+          "full_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n      アイドル甲子園 FESTIVAL 2026\n         supported by My-th -DAY1-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n📍TFTホール1000\n🎙12:30-12:55\n📸13:15-14:35 D\n\n⟣date：6/27（土）\n⟣place : TFTホール 1000・500・300\n⟣open/start：9:30/10:00\n⟣price：前方¥11,000/一般¥5,500/当日各+¥1,000（1D代込）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n6/4（木）21:00-6/27（土）9:29\n🔗 https://t.co/wCR3U14P9Z\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2067200653777371295",
+          "media": [
+            {
+              "height": 2000,
+              "media_key": "3_2067200645686566912",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HLAsCOWbIAAAC3R.jpg",
+              "width": 1500
+            },
+            {
+              "height": 1684,
+              "media_key": "3_2067200645686546432",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HLAsCOWa0AAJq_Y.jpg",
+              "width": 2382
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 350,
+                  "start": 343,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "user.my-th.jp/login?redirect…",
+                  "end": 341,
+                  "expanded_url": "https://user.my-th.jp/login?redirect=/tickets/event/ikoufes_0627",
+                  "start": 318,
+                  "url": "https://t.co/wCR3U14P9Z"
+                }
+              ]
+            },
+            "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n      アイドル甲子園 FESTIVAL 2026\n         supported by My-th -DAY1-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n📍TFTホール1000\n🎙12:30-12:55\n📸13:15-14:35 D\n\n⟣date：6/27（土）\n⟣place : TFTホール 1000・500・300\n⟣open/start：9:30/10:00\n⟣price：前方¥11,000/一般¥5,500/当日各+¥1,000（1D代込）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n6/4（木）21:00-6/27（土）9:29\n🔗 https://t.co/wCR3U14P9Z\n\n#myojou"
+          },
+          "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n      アイドル甲子園 FESTIVAL 2026\n         supported by My-th -DAY1-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n📍TFTホール1000\n🎙12:30-12:55\n📸13:15-14:35 D\n\n⟣date：6/27（土）\n⟣place : TFTホール 1000・500・300 https://t.co/3hyAn6bkGF",
+          "truncated_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n      アイドル甲子園 FESTIVAL 2026\n         supported by My-th -DAY1-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n📍TFTホール1000\n🎙12:30-12:55\n📸13:15-14:35 D\n\n⟣date：6/27（土）\n⟣place : TFTホール 1000・500・300 https://t.co/3hyAn6bkGF"
+        },
+        "source_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n      アイドル甲子園 FESTIVAL 2026\n         supported by My-th -DAY1-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n📍TFTホール1000\n🎙12:30-12:55\n📸13:15-14:35 D\n\n⟣date：6/27（土）\n⟣place : TFTホール 1000・500・300\n⟣open/start：9:30/10:00\n⟣price：前方¥11,000/一般¥5,500/当日各+¥1,000（1D代込）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n6/4（木）21:00-6/27（土）9:29\n🔗 https://t.co/wCR3U14P9Z\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2067200653777371295",
+        "start_time": "10:00",
+        "ticket_application_deadline_at": "2026-06-27T09:29:00+09:00",
+        "ticket_application_start_at": "2026-06-04T21:00:00+09:00",
+        "ticket_sale_type": "先着",
+        "ticket_sales": [
+          {
+            "deadline_at": "2026-06-27T09:29:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 11000,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2067200653777371295",
+            "source_url": "https://x.com/info_myojou/status/2067200653777371295",
+            "start_at": "2026-06-04T21:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "前方",
+            "ticket_tier": "前方"
+          },
+          {
+            "deadline_at": "2026-06-27T09:29:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 5500,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2067200653777371295",
+            "source_url": "https://x.com/info_myojou/status/2067200653777371295",
+            "start_at": "2026-06-04T21:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 1000,
+            "result_at": null,
+            "sale_type": "当日券",
+            "source_post_id": "2067200653777371295",
+            "source_url": "https://x.com/info_myojou/status/2067200653777371295",
+            "start_at": null,
+            "status": "販売中",
+            "ticket_name": "当日券",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": null,
+        "venue": "TFTホール 1000・500・300"
+      },
+      "raw": {
+        "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n      アイドル甲子園 FESTIVAL 2026\n         supported by My-th -DAY1-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n📍TFTホール1000\n🎙12:30-12:55\n📸13:15-14:35 D\n\n⟣date：6/27（土）\n⟣place : TFTホール 1000・500・300 https://t.co/3hyAn6bkGF",
+        "attachments": {
+          "media_keys": [
+            "3_2067200645686566912",
+            "3_2067200645686546432"
+          ]
+        },
+        "created_at": "2026-06-17T11:00:17.000Z",
+        "edit_history_tweet_ids": [
+          "2067200653777371295"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/3hyAn6bkGF",
+              "end": 219,
+              "expanded_url": "https://x.com/info_myojou/status/2067200653777371295/photo/1",
+              "media_key": "3_2067200645686566912",
+              "start": 196,
+              "url": "https://t.co/3hyAn6bkGF"
+            },
+            {
+              "display_url": "pic.x.com/3hyAn6bkGF",
+              "end": 219,
+              "expanded_url": "https://x.com/info_myojou/status/2067200653777371295/photo/1",
+              "media_key": "3_2067200645686546432",
+              "start": 196,
+              "url": "https://t.co/3hyAn6bkGF"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n      アイドル甲子園 FESTIVAL 2026\n         supported by My-th -DAY1-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n📍TFTホール1000\n🎙12:30-12:55\n📸13:15-14:35 D\n\n⟣date：6/27（土）\n⟣place : TFTホール 1000・500・300\n⟣open/start：9:30/10:00\n⟣price：前方¥11,000/一般¥5,500/当日各+¥1,000（1D代込）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n6/4（木）21:00-6/27（土）9:29\n🔗 https://t.co/wCR3U14P9Z\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2067200653777371295",
+        "media": [
+          {
+            "height": 2000,
+            "media_key": "3_2067200645686566912",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HLAsCOWbIAAAC3R.jpg",
+            "width": 1500
+          },
+          {
+            "height": 1684,
+            "media_key": "3_2067200645686546432",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HLAsCOWa0AAJq_Y.jpg",
+            "width": 2382
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 350,
+                "start": 343,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "user.my-th.jp/login?redirect…",
+                "end": 341,
+                "expanded_url": "https://user.my-th.jp/login?redirect=/tickets/event/ikoufes_0627",
+                "start": 318,
+                "url": "https://t.co/wCR3U14P9Z"
+              }
+            ]
+          },
+          "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n      アイドル甲子園 FESTIVAL 2026\n         supported by My-th -DAY1-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n📍TFTホール1000\n🎙12:30-12:55\n📸13:15-14:35 D\n\n⟣date：6/27（土）\n⟣place : TFTホール 1000・500・300\n⟣open/start：9:30/10:00\n⟣price：前方¥11,000/一般¥5,500/当日各+¥1,000（1D代込）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n6/4（木）21:00-6/27（土）9:29\n🔗 https://t.co/wCR3U14P9Z\n\n#myojou"
+        },
+        "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n      アイドル甲子園 FESTIVAL 2026\n         supported by My-th -DAY1-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n📍TFTホール1000\n🎙12:30-12:55\n📸13:15-14:35 D\n\n⟣date：6/27（土）\n⟣place : TFTホール 1000・500・300 https://t.co/3hyAn6bkGF",
+        "truncated_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n      アイドル甲子園 FESTIVAL 2026\n         supported by My-th -DAY1-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n📍TFTホール1000\n🎙12:30-12:55\n📸13:15-14:35 D\n\n⟣date：6/27（土）\n⟣place : TFTホール 1000・500・300 https://t.co/3hyAn6bkGF"
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n      アイドル甲子園 FESTIVAL 2026\n         supported by My-th -DAY1-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n📍TFTホール1000\n🎙12:30-12:55\n📸13:15-14:35 D\n\n⟣date：6/27（土）\n⟣place : TFTホール 1000・500・300\n⟣open/start：9:30/10:00\n⟣price：前方¥11,000/一般¥5,500/当日各+¥1,000（1D代込）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n6/4（木）21:00-6/27（土）9:29\n🔗 https://t.co/wCR3U14P9Z\n\n#myojou",
+      "truncated_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n      アイドル甲子園 FESTIVAL 2026\n         supported by My-th -DAY1-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n📍TFTホール1000\n🎙12:30-12:55\n📸13:15-14:35 D\n\n⟣date：6/27（土）\n⟣place : TFTホール 1000・500・300 https://t.co/3hyAn6bkGF",
+      "url": "https://x.com/info_myojou/status/2067200653777371295"
+    },
+    {
       "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「こみっきゅおん！presentsすぺしゃるいしゅ〜 - Road to 6.27 duo MUSIC EXCHANGE ONE MAN LIVE -」\n\n🎙17:15-17:40\n📸17:50-19:00 （A）\n\n⟣date：6/17（水）\n⟣place : Veats Shibuya\n⟣open/start：16:30/17:15\n⟣price：前売¥2,500（各+1D） https://t.co/Melw6PfUke",
       "attachments": {
         "media_keys": [
@@ -88126,7 +89011,7 @@
     "backfill": true,
     "dry_run": true,
     "estimated_x_post_reads": 411,
-    "latest_post_id": "2066794721356468590",
+    "latest_post_id": "2067215712452845873",
     "max_pages": 10,
     "max_posts": 500,
     "max_results": 5,
@@ -88169,16 +89054,16 @@
       }
     ],
     "pages_fetched": 5,
-    "posts_fetched": 422,
+    "posts_fetched": 426,
     "rate_limit_headers": {
       "x-rate-limit-limit": "10000",
       "x-rate-limit-remaining": "9993",
       "x-rate-limit-reset": "1781108896"
     },
-    "total_posts": 422,
-    "updated_at": "2026-06-16T21:43:15.743128+00:00",
+    "total_posts": 426,
+    "updated_at": "2026-06-17T21:12:10.150457+00:00",
     "username": "info_myojou"
   },
   "source": "x_api",
-  "updated_at": "2026-06-16T21:43:15.743128+00:00"
+  "updated_at": "2026-06-17T21:12:10.150457+00:00"
 }
