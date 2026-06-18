@@ -2,6 +2,875 @@
   "captured_at": "2026-06-10T16:19:36.141820+00:00",
   "data": [
     {
+      "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「IDOL ∞ INFINITY PREMIUM vol.12」\n\n🎙16:45-17:10\n📸17:45-18:45\n\n⟣date：6/19（金）\n⟣place :Spotify O-nest\n⟣open/start：16:00/16:20\n⟣price：前方チケット¥4,000/一般チケット¥2,000/当日各+¥1,000（各＋1D） https://t.co/LEGjzb1uPb",
+      "attachments": {
+        "media_keys": [
+          "3_2067598519654072320",
+          "3_2067598519654055936"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "day_before_reminder"
+      },
+      "created_at": "2026-06-18T13:21:17+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/LEGjzb1uPb",
+            "end": 218,
+            "expanded_url": "https://x.com/info_myojou/status/2067598527371583767/photo/1",
+            "media_key": "3_2067598519654072320",
+            "start": 195,
+            "url": "https://t.co/LEGjzb1uPb"
+          },
+          {
+            "display_url": "pic.x.com/LEGjzb1uPb",
+            "end": 218,
+            "expanded_url": "https://x.com/info_myojou/status/2067598527371583767/photo/1",
+            "media_key": "3_2067598519654055936",
+            "start": 195,
+            "url": "https://t.co/LEGjzb1uPb"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2067598527371583767",
+      "media": [
+        {
+          "height": 2048,
+          "media_key": "3_2067598519654072320",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HLGV5iYawAAO6mE.jpg",
+          "width": 1448
+        },
+        {
+          "height": 2048,
+          "media_key": "3_2067598519654055936",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HLGV5iYagAAF12-.jpg",
+          "width": 1448
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 284,
+              "start": 277,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "ticketdive.com/event/idol_inf…",
+              "end": 275,
+              "expanded_url": "https://ticketdive.com/event/idol_infinity_premium_vol12",
+              "start": 252,
+              "url": "https://t.co/ZmeXZxBfyK"
+            }
+          ]
+        },
+        "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「IDOL ∞ INFINITY PREMIUM vol.12」\n\n🎙16:45-17:10\n📸17:45-18:45\n\n⟣date：6/19（金）\n⟣place :Spotify O-nest\n⟣open/start：16:00/16:20\n⟣price：前方チケット¥4,000/一般チケット¥2,000/当日各+¥1,000（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n6/3（水）20:00-6/18（木）23:59\n🔗 https://t.co/ZmeXZxBfyK\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": "17:45-18:45",
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-06-19",
+        "event_dates": [
+          "2026-06-19"
+        ],
+        "event_name": "IDOL ∞ INFINITY PREMIUM vol.12",
+        "extraction_confidence": 0.95,
+        "general_ticket_price": 2000,
+        "lottery_result_at": null,
+        "myojou_performance_time": "16:45-17:10",
+        "notes": "ドリンク代: 各+1D\n⟣入場特典:明星カード(サインありチェキ)",
+        "open_time": "16:00",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "前方チケット",
+        "priority_ticket_price": 4000,
+        "same_day_ticket_price": 1000,
+        "source_kind": "day_before_reminder",
+        "source_post_id": "2067598527371583767",
+        "source_posted_at": "2026-06-18T13:21:17Z",
+        "source_raw": {
+          "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「IDOL ∞ INFINITY PREMIUM vol.12」\n\n🎙16:45-17:10\n📸17:45-18:45\n\n⟣date：6/19（金）\n⟣place :Spotify O-nest\n⟣open/start：16:00/16:20\n⟣price：前方チケット¥4,000/一般チケット¥2,000/当日各+¥1,000（各＋1D） https://t.co/LEGjzb1uPb",
+          "attachments": {
+            "media_keys": [
+              "3_2067598519654072320",
+              "3_2067598519654055936"
+            ]
+          },
+          "created_at": "2026-06-18T13:21:17.000Z",
+          "edit_history_tweet_ids": [
+            "2067598527371583767"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/LEGjzb1uPb",
+                "end": 218,
+                "expanded_url": "https://x.com/info_myojou/status/2067598527371583767/photo/1",
+                "media_key": "3_2067598519654072320",
+                "start": 195,
+                "url": "https://t.co/LEGjzb1uPb"
+              },
+              {
+                "display_url": "pic.x.com/LEGjzb1uPb",
+                "end": 218,
+                "expanded_url": "https://x.com/info_myojou/status/2067598527371583767/photo/1",
+                "media_key": "3_2067598519654055936",
+                "start": 195,
+                "url": "https://t.co/LEGjzb1uPb"
+              }
+            ]
+          },
+          "full_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「IDOL ∞ INFINITY PREMIUM vol.12」\n\n🎙16:45-17:10\n📸17:45-18:45\n\n⟣date：6/19（金）\n⟣place :Spotify O-nest\n⟣open/start：16:00/16:20\n⟣price：前方チケット¥4,000/一般チケット¥2,000/当日各+¥1,000（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n6/3（水）20:00-6/18（木）23:59\n🔗 https://t.co/ZmeXZxBfyK\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2067598527371583767",
+          "media": [
+            {
+              "height": 2048,
+              "media_key": "3_2067598519654072320",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HLGV5iYawAAO6mE.jpg",
+              "width": 1448
+            },
+            {
+              "height": 2048,
+              "media_key": "3_2067598519654055936",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HLGV5iYagAAF12-.jpg",
+              "width": 1448
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 284,
+                  "start": 277,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "ticketdive.com/event/idol_inf…",
+                  "end": 275,
+                  "expanded_url": "https://ticketdive.com/event/idol_infinity_premium_vol12",
+                  "start": 252,
+                  "url": "https://t.co/ZmeXZxBfyK"
+                }
+              ]
+            },
+            "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「IDOL ∞ INFINITY PREMIUM vol.12」\n\n🎙16:45-17:10\n📸17:45-18:45\n\n⟣date：6/19（金）\n⟣place :Spotify O-nest\n⟣open/start：16:00/16:20\n⟣price：前方チケット¥4,000/一般チケット¥2,000/当日各+¥1,000（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n6/3（水）20:00-6/18（木）23:59\n🔗 https://t.co/ZmeXZxBfyK\n\n#myojou"
+          },
+          "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「IDOL ∞ INFINITY PREMIUM vol.12」\n\n🎙16:45-17:10\n📸17:45-18:45\n\n⟣date：6/19（金）\n⟣place :Spotify O-nest\n⟣open/start：16:00/16:20\n⟣price：前方チケット¥4,000/一般チケット¥2,000/当日各+¥1,000（各＋1D） https://t.co/LEGjzb1uPb",
+          "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「IDOL ∞ INFINITY PREMIUM vol.12」\n\n🎙16:45-17:10\n📸17:45-18:45\n\n⟣date：6/19（金）\n⟣place :Spotify O-nest\n⟣open/start：16:00/16:20\n⟣price：前方チケット¥4,000/一般チケット¥2,000/当日各+¥1,000（各＋1D） https://t.co/LEGjzb1uPb"
+        },
+        "source_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「IDOL ∞ INFINITY PREMIUM vol.12」\n\n🎙16:45-17:10\n📸17:45-18:45\n\n⟣date：6/19（金）\n⟣place :Spotify O-nest\n⟣open/start：16:00/16:20\n⟣price：前方チケット¥4,000/一般チケット¥2,000/当日各+¥1,000（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n6/3（水）20:00-6/18（木）23:59\n🔗 https://t.co/ZmeXZxBfyK\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2067598527371583767",
+        "start_time": "16:20",
+        "ticket_application_deadline_at": "2026-06-18T23:59:00+09:00",
+        "ticket_application_start_at": "2026-06-03T20:00:00+09:00",
+        "ticket_sale_type": "一般",
+        "ticket_sales": [
+          {
+            "deadline_at": "2026-06-18T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 4000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2067598527371583767",
+            "source_url": "https://x.com/info_myojou/status/2067598527371583767",
+            "start_at": "2026-06-03T20:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "前方チケット",
+            "ticket_tier": "前方"
+          },
+          {
+            "deadline_at": "2026-06-18T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 2000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2067598527371583767",
+            "source_url": "https://x.com/info_myojou/status/2067598527371583767",
+            "start_at": "2026-06-03T20:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般チケット",
+            "ticket_tier": "一般"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 1000,
+            "result_at": null,
+            "sale_type": "当日券",
+            "source_post_id": "2067598527371583767",
+            "source_url": "https://x.com/info_myojou/status/2067598527371583767",
+            "start_at": null,
+            "status": "販売中",
+            "ticket_name": "当日券",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "https://ticketdive.com/event/idol_infinity_premium_vol12",
+        "venue": "Spotify O-nest"
+      },
+      "raw": {
+        "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「IDOL ∞ INFINITY PREMIUM vol.12」\n\n🎙16:45-17:10\n📸17:45-18:45\n\n⟣date：6/19（金）\n⟣place :Spotify O-nest\n⟣open/start：16:00/16:20\n⟣price：前方チケット¥4,000/一般チケット¥2,000/当日各+¥1,000（各＋1D） https://t.co/LEGjzb1uPb",
+        "attachments": {
+          "media_keys": [
+            "3_2067598519654072320",
+            "3_2067598519654055936"
+          ]
+        },
+        "created_at": "2026-06-18T13:21:17.000Z",
+        "edit_history_tweet_ids": [
+          "2067598527371583767"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/LEGjzb1uPb",
+              "end": 218,
+              "expanded_url": "https://x.com/info_myojou/status/2067598527371583767/photo/1",
+              "media_key": "3_2067598519654072320",
+              "start": 195,
+              "url": "https://t.co/LEGjzb1uPb"
+            },
+            {
+              "display_url": "pic.x.com/LEGjzb1uPb",
+              "end": 218,
+              "expanded_url": "https://x.com/info_myojou/status/2067598527371583767/photo/1",
+              "media_key": "3_2067598519654055936",
+              "start": 195,
+              "url": "https://t.co/LEGjzb1uPb"
+            }
+          ]
+        },
+        "full_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「IDOL ∞ INFINITY PREMIUM vol.12」\n\n🎙16:45-17:10\n📸17:45-18:45\n\n⟣date：6/19（金）\n⟣place :Spotify O-nest\n⟣open/start：16:00/16:20\n⟣price：前方チケット¥4,000/一般チケット¥2,000/当日各+¥1,000（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n6/3（水）20:00-6/18（木）23:59\n🔗 https://t.co/ZmeXZxBfyK\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2067598527371583767",
+        "media": [
+          {
+            "height": 2048,
+            "media_key": "3_2067598519654072320",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HLGV5iYawAAO6mE.jpg",
+            "width": 1448
+          },
+          {
+            "height": 2048,
+            "media_key": "3_2067598519654055936",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HLGV5iYagAAF12-.jpg",
+            "width": 1448
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 284,
+                "start": 277,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "ticketdive.com/event/idol_inf…",
+                "end": 275,
+                "expanded_url": "https://ticketdive.com/event/idol_infinity_premium_vol12",
+                "start": 252,
+                "url": "https://t.co/ZmeXZxBfyK"
+              }
+            ]
+          },
+          "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「IDOL ∞ INFINITY PREMIUM vol.12」\n\n🎙16:45-17:10\n📸17:45-18:45\n\n⟣date：6/19（金）\n⟣place :Spotify O-nest\n⟣open/start：16:00/16:20\n⟣price：前方チケット¥4,000/一般チケット¥2,000/当日各+¥1,000（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n6/3（水）20:00-6/18（木）23:59\n🔗 https://t.co/ZmeXZxBfyK\n\n#myojou"
+        },
+        "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「IDOL ∞ INFINITY PREMIUM vol.12」\n\n🎙16:45-17:10\n📸17:45-18:45\n\n⟣date：6/19（金）\n⟣place :Spotify O-nest\n⟣open/start：16:00/16:20\n⟣price：前方チケット¥4,000/一般チケット¥2,000/当日各+¥1,000（各＋1D） https://t.co/LEGjzb1uPb",
+        "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「IDOL ∞ INFINITY PREMIUM vol.12」\n\n🎙16:45-17:10\n📸17:45-18:45\n\n⟣date：6/19（金）\n⟣place :Spotify O-nest\n⟣open/start：16:00/16:20\n⟣price：前方チケット¥4,000/一般チケット¥2,000/当日各+¥1,000（各＋1D） https://t.co/LEGjzb1uPb"
+      },
+      "referenced_tweets": [],
+      "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「IDOL ∞ INFINITY PREMIUM vol.12」\n\n🎙16:45-17:10\n📸17:45-18:45\n\n⟣date：6/19（金）\n⟣place :Spotify O-nest\n⟣open/start：16:00/16:20\n⟣price：前方チケット¥4,000/一般チケット¥2,000/当日各+¥1,000（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n6/3（水）20:00-6/18（木）23:59\n🔗 https://t.co/ZmeXZxBfyK\n\n#myojou",
+      "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「IDOL ∞ INFINITY PREMIUM vol.12」\n\n🎙16:45-17:10\n📸17:45-18:45\n\n⟣date：6/19（金）\n⟣place :Spotify O-nest\n⟣open/start：16:00/16:20\n⟣price：前方チケット¥4,000/一般チケット¥2,000/当日各+¥1,000（各＋1D） https://t.co/LEGjzb1uPb",
+      "url": "https://x.com/info_myojou/status/2067598527371583767"
+    },
+    {
+      "api_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n              sound stock Vol.14\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n \n🎙18:45-19:10\n📸19:40-20:40 \n\n⟣date：7/10（金）\n⟣place : Spotify O-nest\n⟣open/start：17:00/17:30\n⟣price：前方VIP¥6,000/一般¥3,500（各＋1D） https://t.co/021HNczqyR",
+      "attachments": {
+        "media_keys": [
+          "3_2067581578763743232"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "ticket_update"
+      },
+      "created_at": "2026-06-18T12:13:58+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/021HNczqyR",
+            "end": 226,
+            "expanded_url": "https://x.com/info_myojou/status/2067581587303350742/photo/1",
+            "media_key": "3_2067581578763743232",
+            "start": 203,
+            "url": "https://t.co/021HNczqyR"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2067581587303350742",
+      "media": [
+        {
+          "height": 3508,
+          "media_key": "3_2067581578763743232",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HLGGfcpasAA_gJ1.jpg",
+          "width": 2481
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 327,
+              "start": 320,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "t-dv.com/soundstock14",
+              "end": 318,
+              "expanded_url": "https://t-dv.com/soundstock14",
+              "start": 295,
+              "url": "https://t.co/MCjNN80v4T"
+            }
+          ]
+        },
+        "text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n              sound stock Vol.14\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n \n🎙18:45-19:10\n📸19:40-20:40 \n\n⟣date：7/10（金）\n⟣place : Spotify O-nest\n⟣open/start：17:00/17:30\n⟣price：前方VIP¥6,000/一般¥3,500（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先行抽選受付】\n6/19(金)21:00-6/22(月)23:59\n【一般販売】\n6/25(木)21:00-7/9(木)23:59\n🔗 https://t.co/MCjNN80v4T\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": "19:40-20:40",
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-07-10",
+        "event_dates": [
+          "2026-07-10"
+        ],
+        "event_name": "sound stock Vol.14",
+        "extraction_confidence": 0.95,
+        "general_ticket_price": 3500,
+        "lottery_result_at": null,
+        "myojou_performance_time": "18:45-19:10",
+        "notes": "ドリンク代: 各+1D\n⟣入場特典:明星カード(サインありチェキ)",
+        "open_time": "17:00",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "前方VIP",
+        "priority_ticket_price": 6000,
+        "same_day_ticket_price": null,
+        "source_kind": "ticket_update",
+        "source_post_id": "2067581587303350742",
+        "source_posted_at": "2026-06-18T12:13:58Z",
+        "source_raw": {
+          "api_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n              sound stock Vol.14\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n \n🎙18:45-19:10\n📸19:40-20:40 \n\n⟣date：7/10（金）\n⟣place : Spotify O-nest\n⟣open/start：17:00/17:30\n⟣price：前方VIP¥6,000/一般¥3,500（各＋1D） https://t.co/021HNczqyR",
+          "attachments": {
+            "media_keys": [
+              "3_2067581578763743232"
+            ]
+          },
+          "created_at": "2026-06-18T12:13:58.000Z",
+          "edit_history_tweet_ids": [
+            "2067581587303350742"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/021HNczqyR",
+                "end": 226,
+                "expanded_url": "https://x.com/info_myojou/status/2067581587303350742/photo/1",
+                "media_key": "3_2067581578763743232",
+                "start": 203,
+                "url": "https://t.co/021HNczqyR"
+              }
+            ]
+          },
+          "full_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n              sound stock Vol.14\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n \n🎙18:45-19:10\n📸19:40-20:40 \n\n⟣date：7/10（金）\n⟣place : Spotify O-nest\n⟣open/start：17:00/17:30\n⟣price：前方VIP¥6,000/一般¥3,500（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先行抽選受付】\n6/19(金)21:00-6/22(月)23:59\n【一般販売】\n6/25(木)21:00-7/9(木)23:59\n🔗 https://t.co/MCjNN80v4T\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2067581587303350742",
+          "media": [
+            {
+              "height": 3508,
+              "media_key": "3_2067581578763743232",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HLGGfcpasAA_gJ1.jpg",
+              "width": 2481
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 327,
+                  "start": 320,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "t-dv.com/soundstock14",
+                  "end": 318,
+                  "expanded_url": "https://t-dv.com/soundstock14",
+                  "start": 295,
+                  "url": "https://t.co/MCjNN80v4T"
+                }
+              ]
+            },
+            "text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n              sound stock Vol.14\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n \n🎙18:45-19:10\n📸19:40-20:40 \n\n⟣date：7/10（金）\n⟣place : Spotify O-nest\n⟣open/start：17:00/17:30\n⟣price：前方VIP¥6,000/一般¥3,500（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先行抽選受付】\n6/19(金)21:00-6/22(月)23:59\n【一般販売】\n6/25(木)21:00-7/9(木)23:59\n🔗 https://t.co/MCjNN80v4T\n\n#myojou"
+          },
+          "text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n              sound stock Vol.14\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n \n🎙18:45-19:10\n📸19:40-20:40 \n\n⟣date：7/10（金）\n⟣place : Spotify O-nest\n⟣open/start：17:00/17:30\n⟣price：前方VIP¥6,000/一般¥3,500（各＋1D） https://t.co/021HNczqyR",
+          "truncated_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n              sound stock Vol.14\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n \n🎙18:45-19:10\n📸19:40-20:40 \n\n⟣date：7/10（金）\n⟣place : Spotify O-nest\n⟣open/start：17:00/17:30\n⟣price：前方VIP¥6,000/一般¥3,500（各＋1D） https://t.co/021HNczqyR"
+        },
+        "source_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n              sound stock Vol.14\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n \n🎙18:45-19:10\n📸19:40-20:40 \n\n⟣date：7/10（金）\n⟣place : Spotify O-nest\n⟣open/start：17:00/17:30\n⟣price：前方VIP¥6,000/一般¥3,500（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先行抽選受付】\n6/19(金)21:00-6/22(月)23:59\n【一般販売】\n6/25(木)21:00-7/9(木)23:59\n🔗 https://t.co/MCjNN80v4T\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2067581587303350742",
+        "start_time": "17:30",
+        "ticket_application_deadline_at": "2026-06-22T23:59:00+09:00",
+        "ticket_application_start_at": "2026-06-19T21:00:00+09:00",
+        "ticket_sale_type": "一般",
+        "ticket_sales": [
+          {
+            "deadline_at": "2026-06-22T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 6000,
+            "result_at": null,
+            "sale_type": "抽選",
+            "source_post_id": "2067581587303350742",
+            "source_url": "https://x.com/info_myojou/status/2067581587303350742",
+            "start_at": "2026-06-19T21:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "VIP",
+            "ticket_tier": "VIP"
+          },
+          {
+            "deadline_at": "2026-06-22T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 3500,
+            "result_at": null,
+            "sale_type": "抽選",
+            "source_post_id": "2067581587303350742",
+            "source_url": "https://x.com/info_myojou/status/2067581587303350742",
+            "start_at": "2026-06-19T21:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          },
+          {
+            "deadline_at": "2026-07-09T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 6000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2067581587303350742",
+            "source_url": "https://x.com/info_myojou/status/2067581587303350742",
+            "start_at": "2026-06-25T21:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "VIP",
+            "ticket_tier": "VIP"
+          },
+          {
+            "deadline_at": "2026-07-09T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 3500,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2067581587303350742",
+            "source_url": "https://x.com/info_myojou/status/2067581587303350742",
+            "start_at": "2026-06-25T21:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "https://t-dv.com/soundstock14",
+        "venue": "Spotify O-nest"
+      },
+      "raw": {
+        "api_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n              sound stock Vol.14\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n \n🎙18:45-19:10\n📸19:40-20:40 \n\n⟣date：7/10（金）\n⟣place : Spotify O-nest\n⟣open/start：17:00/17:30\n⟣price：前方VIP¥6,000/一般¥3,500（各＋1D） https://t.co/021HNczqyR",
+        "attachments": {
+          "media_keys": [
+            "3_2067581578763743232"
+          ]
+        },
+        "created_at": "2026-06-18T12:13:58.000Z",
+        "edit_history_tweet_ids": [
+          "2067581587303350742"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/021HNczqyR",
+              "end": 226,
+              "expanded_url": "https://x.com/info_myojou/status/2067581587303350742/photo/1",
+              "media_key": "3_2067581578763743232",
+              "start": 203,
+              "url": "https://t.co/021HNczqyR"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n              sound stock Vol.14\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n \n🎙18:45-19:10\n📸19:40-20:40 \n\n⟣date：7/10（金）\n⟣place : Spotify O-nest\n⟣open/start：17:00/17:30\n⟣price：前方VIP¥6,000/一般¥3,500（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先行抽選受付】\n6/19(金)21:00-6/22(月)23:59\n【一般販売】\n6/25(木)21:00-7/9(木)23:59\n🔗 https://t.co/MCjNN80v4T\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2067581587303350742",
+        "media": [
+          {
+            "height": 3508,
+            "media_key": "3_2067581578763743232",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HLGGfcpasAA_gJ1.jpg",
+            "width": 2481
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 327,
+                "start": 320,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "t-dv.com/soundstock14",
+                "end": 318,
+                "expanded_url": "https://t-dv.com/soundstock14",
+                "start": 295,
+                "url": "https://t.co/MCjNN80v4T"
+              }
+            ]
+          },
+          "text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n              sound stock Vol.14\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n \n🎙18:45-19:10\n📸19:40-20:40 \n\n⟣date：7/10（金）\n⟣place : Spotify O-nest\n⟣open/start：17:00/17:30\n⟣price：前方VIP¥6,000/一般¥3,500（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先行抽選受付】\n6/19(金)21:00-6/22(月)23:59\n【一般販売】\n6/25(木)21:00-7/9(木)23:59\n🔗 https://t.co/MCjNN80v4T\n\n#myojou"
+        },
+        "text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n              sound stock Vol.14\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n \n🎙18:45-19:10\n📸19:40-20:40 \n\n⟣date：7/10（金）\n⟣place : Spotify O-nest\n⟣open/start：17:00/17:30\n⟣price：前方VIP¥6,000/一般¥3,500（各＋1D） https://t.co/021HNczqyR",
+        "truncated_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n              sound stock Vol.14\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n \n🎙18:45-19:10\n📸19:40-20:40 \n\n⟣date：7/10（金）\n⟣place : Spotify O-nest\n⟣open/start：17:00/17:30\n⟣price：前方VIP¥6,000/一般¥3,500（各＋1D） https://t.co/021HNczqyR"
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n              sound stock Vol.14\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n \n🎙18:45-19:10\n📸19:40-20:40 \n\n⟣date：7/10（金）\n⟣place : Spotify O-nest\n⟣open/start：17:00/17:30\n⟣price：前方VIP¥6,000/一般¥3,500（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先行抽選受付】\n6/19(金)21:00-6/22(月)23:59\n【一般販売】\n6/25(木)21:00-7/9(木)23:59\n🔗 https://t.co/MCjNN80v4T\n\n#myojou",
+      "truncated_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n              sound stock Vol.14\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n \n🎙18:45-19:10\n📸19:40-20:40 \n\n⟣date：7/10（金）\n⟣place : Spotify O-nest\n⟣open/start：17:00/17:30\n⟣price：前方VIP¥6,000/一般¥3,500（各＋1D） https://t.co/021HNczqyR",
+      "url": "https://x.com/info_myojou/status/2067581587303350742"
+    },
+    {
+      "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n        IDOL SUMMER JUNGLE 2026\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：8/7（金）,8/8（土）,8/9（日）\n⟣place : お台場R地区\n⟣open/start：9:00/10:00 https://t.co/70Ps5w5KMY",
+      "attachments": {
+        "media_keys": [
+          "3_2067532798735663104"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "ticket_update"
+      },
+      "created_at": "2026-06-18T09:00:15+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/70Ps5w5KMY",
+            "end": 170,
+            "expanded_url": "https://x.com/info_myojou/status/2067532834773016992/photo/1",
+            "media_key": "3_2067532798735663104",
+            "start": 147,
+            "url": "https://t.co/70Ps5w5KMY"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2067532834773016992",
+      "media": [
+        {
+          "height": 4093,
+          "media_key": "3_2067532798735663104",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HLFaIE4bwAAE5NM.jpg",
+          "width": 2894
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 358,
+              "start": 351,
+              "tag": "myojou"
+            },
+            {
+              "end": 369,
+              "start": 359,
+              "tag": "ミョージョーサマー"
+            },
+            {
+              "end": 380,
+              "start": 370,
+              "tag": "サマジャン2026"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "t-dv.com/idolsummerjung…",
+              "end": 349,
+              "expanded_url": "https://t-dv.com/idolsummerjungle2026",
+              "start": 326,
+              "url": "https://t.co/gqN0eMy3dW"
+            }
+          ]
+        },
+        "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n        IDOL SUMMER JUNGLE 2026\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：8/7（金）,8/8（土）,8/9（日）\n⟣place : お台場R地区\n⟣open/start：9:00/10:00\n⟣price：VIPチケット¥28,000/一般チケット¥5,000/女性チケット¥4,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n･VIPチケット\n【先行受付（抽選）】\n6/9（火）18:00-7/5（日）23:59\n【一般販売】\n7/6（月）18:00\n\n･一般チケット,女性チケット\n【一般販売】\n6/9（火）18:00-\n\n🔗 https://t.co/gqN0eMy3dW\n\n#myojou\n#ミョージョーサマー\n#サマジャン2026"
+      },
+      "parsed_fields": {
+        "benefit_event_time": null,
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-08-07",
+        "event_dates": [
+          "2026-08-07",
+          "2026-08-08",
+          "2026-08-09"
+        ],
+        "event_name": "IDOL SUMMER JUNGLE 2026",
+        "extraction_confidence": 0.9,
+        "general_ticket_price": 5000,
+        "lottery_result_at": null,
+        "myojou_performance_time": null,
+        "notes": "ドリンク代: 各+1D\n⟣入場特典:明星カード(サインありチェキ)",
+        "open_time": "09:00",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "VIPチケット",
+        "priority_ticket_price": 28000,
+        "same_day_ticket_price": null,
+        "source_kind": "ticket_update",
+        "source_post_id": "2067532834773016992",
+        "source_posted_at": "2026-06-18T09:00:15Z",
+        "source_raw": {
+          "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n        IDOL SUMMER JUNGLE 2026\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：8/7（金）,8/8（土）,8/9（日）\n⟣place : お台場R地区\n⟣open/start：9:00/10:00 https://t.co/70Ps5w5KMY",
+          "attachments": {
+            "media_keys": [
+              "3_2067532798735663104"
+            ]
+          },
+          "created_at": "2026-06-18T09:00:15.000Z",
+          "edit_history_tweet_ids": [
+            "2067532834773016992"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/70Ps5w5KMY",
+                "end": 170,
+                "expanded_url": "https://x.com/info_myojou/status/2067532834773016992/photo/1",
+                "media_key": "3_2067532798735663104",
+                "start": 147,
+                "url": "https://t.co/70Ps5w5KMY"
+              }
+            ]
+          },
+          "full_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n        IDOL SUMMER JUNGLE 2026\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：8/7（金）,8/8（土）,8/9（日）\n⟣place : お台場R地区\n⟣open/start：9:00/10:00\n⟣price：VIPチケット¥28,000/一般チケット¥5,000/女性チケット¥4,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n･VIPチケット\n【先行受付（抽選）】\n6/9（火）18:00-7/5（日）23:59\n【一般販売】\n7/6（月）18:00\n\n･一般チケット,女性チケット\n【一般販売】\n6/9（火）18:00-\n\n🔗 https://t.co/gqN0eMy3dW\n\n#myojou\n#ミョージョーサマー\n#サマジャン2026",
+          "full_text_source": "note_tweet",
+          "id": "2067532834773016992",
+          "media": [
+            {
+              "height": 4093,
+              "media_key": "3_2067532798735663104",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HLFaIE4bwAAE5NM.jpg",
+              "width": 2894
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 358,
+                  "start": 351,
+                  "tag": "myojou"
+                },
+                {
+                  "end": 369,
+                  "start": 359,
+                  "tag": "ミョージョーサマー"
+                },
+                {
+                  "end": 380,
+                  "start": 370,
+                  "tag": "サマジャン2026"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "t-dv.com/idolsummerjung…",
+                  "end": 349,
+                  "expanded_url": "https://t-dv.com/idolsummerjungle2026",
+                  "start": 326,
+                  "url": "https://t.co/gqN0eMy3dW"
+                }
+              ]
+            },
+            "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n        IDOL SUMMER JUNGLE 2026\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：8/7（金）,8/8（土）,8/9（日）\n⟣place : お台場R地区\n⟣open/start：9:00/10:00\n⟣price：VIPチケット¥28,000/一般チケット¥5,000/女性チケット¥4,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n･VIPチケット\n【先行受付（抽選）】\n6/9（火）18:00-7/5（日）23:59\n【一般販売】\n7/6（月）18:00\n\n･一般チケット,女性チケット\n【一般販売】\n6/9（火）18:00-\n\n🔗 https://t.co/gqN0eMy3dW\n\n#myojou\n#ミョージョーサマー\n#サマジャン2026"
+          },
+          "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n        IDOL SUMMER JUNGLE 2026\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：8/7（金）,8/8（土）,8/9（日）\n⟣place : お台場R地区\n⟣open/start：9:00/10:00 https://t.co/70Ps5w5KMY",
+          "truncated_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n        IDOL SUMMER JUNGLE 2026\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：8/7（金）,8/8（土）,8/9（日）\n⟣place : お台場R地区\n⟣open/start：9:00/10:00 https://t.co/70Ps5w5KMY"
+        },
+        "source_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n        IDOL SUMMER JUNGLE 2026\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：8/7（金）,8/8（土）,8/9（日）\n⟣place : お台場R地区\n⟣open/start：9:00/10:00\n⟣price：VIPチケット¥28,000/一般チケット¥5,000/女性チケット¥4,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n･VIPチケット\n【先行受付（抽選）】\n6/9（火）18:00-7/5（日）23:59\n【一般販売】\n7/6（月）18:00\n\n･一般チケット,女性チケット\n【一般販売】\n6/9（火）18:00-\n\n🔗 https://t.co/gqN0eMy3dW\n\n#myojou\n#ミョージョーサマー\n#サマジャン2026",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2067532834773016992",
+        "start_time": "10:00",
+        "ticket_application_deadline_at": "2026-07-05T23:59:00+09:00",
+        "ticket_application_start_at": "2026-06-09T18:00:00+09:00",
+        "ticket_sale_type": "一般",
+        "ticket_sales": [
+          {
+            "deadline_at": "2026-07-05T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 28000,
+            "result_at": null,
+            "sale_type": "抽選",
+            "source_post_id": "2067532834773016992",
+            "source_url": "https://x.com/info_myojou/status/2067532834773016992",
+            "start_at": "2026-06-09T18:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "VIPチケット",
+            "ticket_tier": "VIP"
+          },
+          {
+            "deadline_at": "2026-07-05T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 5000,
+            "result_at": null,
+            "sale_type": "抽選",
+            "source_post_id": "2067532834773016992",
+            "source_url": "https://x.com/info_myojou/status/2067532834773016992",
+            "start_at": "2026-06-09T18:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般チケット",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "https://t-dv.com/idolsummerjungle2026",
+        "venue": "お台場R地区"
+      },
+      "raw": {
+        "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n        IDOL SUMMER JUNGLE 2026\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：8/7（金）,8/8（土）,8/9（日）\n⟣place : お台場R地区\n⟣open/start：9:00/10:00 https://t.co/70Ps5w5KMY",
+        "attachments": {
+          "media_keys": [
+            "3_2067532798735663104"
+          ]
+        },
+        "created_at": "2026-06-18T09:00:15.000Z",
+        "edit_history_tweet_ids": [
+          "2067532834773016992"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/70Ps5w5KMY",
+              "end": 170,
+              "expanded_url": "https://x.com/info_myojou/status/2067532834773016992/photo/1",
+              "media_key": "3_2067532798735663104",
+              "start": 147,
+              "url": "https://t.co/70Ps5w5KMY"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n        IDOL SUMMER JUNGLE 2026\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：8/7（金）,8/8（土）,8/9（日）\n⟣place : お台場R地区\n⟣open/start：9:00/10:00\n⟣price：VIPチケット¥28,000/一般チケット¥5,000/女性チケット¥4,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n･VIPチケット\n【先行受付（抽選）】\n6/9（火）18:00-7/5（日）23:59\n【一般販売】\n7/6（月）18:00\n\n･一般チケット,女性チケット\n【一般販売】\n6/9（火）18:00-\n\n🔗 https://t.co/gqN0eMy3dW\n\n#myojou\n#ミョージョーサマー\n#サマジャン2026",
+        "full_text_source": "note_tweet",
+        "id": "2067532834773016992",
+        "media": [
+          {
+            "height": 4093,
+            "media_key": "3_2067532798735663104",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HLFaIE4bwAAE5NM.jpg",
+            "width": 2894
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 358,
+                "start": 351,
+                "tag": "myojou"
+              },
+              {
+                "end": 369,
+                "start": 359,
+                "tag": "ミョージョーサマー"
+              },
+              {
+                "end": 380,
+                "start": 370,
+                "tag": "サマジャン2026"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "t-dv.com/idolsummerjung…",
+                "end": 349,
+                "expanded_url": "https://t-dv.com/idolsummerjungle2026",
+                "start": 326,
+                "url": "https://t.co/gqN0eMy3dW"
+              }
+            ]
+          },
+          "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n        IDOL SUMMER JUNGLE 2026\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：8/7（金）,8/8（土）,8/9（日）\n⟣place : お台場R地区\n⟣open/start：9:00/10:00\n⟣price：VIPチケット¥28,000/一般チケット¥5,000/女性チケット¥4,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n･VIPチケット\n【先行受付（抽選）】\n6/9（火）18:00-7/5（日）23:59\n【一般販売】\n7/6（月）18:00\n\n･一般チケット,女性チケット\n【一般販売】\n6/9（火）18:00-\n\n🔗 https://t.co/gqN0eMy3dW\n\n#myojou\n#ミョージョーサマー\n#サマジャン2026"
+        },
+        "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n        IDOL SUMMER JUNGLE 2026\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：8/7（金）,8/8（土）,8/9（日）\n⟣place : お台場R地区\n⟣open/start：9:00/10:00 https://t.co/70Ps5w5KMY",
+        "truncated_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n        IDOL SUMMER JUNGLE 2026\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：8/7（金）,8/8（土）,8/9（日）\n⟣place : お台場R地区\n⟣open/start：9:00/10:00 https://t.co/70Ps5w5KMY"
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n        IDOL SUMMER JUNGLE 2026\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：8/7（金）,8/8（土）,8/9（日）\n⟣place : お台場R地区\n⟣open/start：9:00/10:00\n⟣price：VIPチケット¥28,000/一般チケット¥5,000/女性チケット¥4,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n･VIPチケット\n【先行受付（抽選）】\n6/9（火）18:00-7/5（日）23:59\n【一般販売】\n7/6（月）18:00\n\n･一般チケット,女性チケット\n【一般販売】\n6/9（火）18:00-\n\n🔗 https://t.co/gqN0eMy3dW\n\n#myojou\n#ミョージョーサマー\n#サマジャン2026",
+      "truncated_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n        IDOL SUMMER JUNGLE 2026\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：8/7（金）,8/8（土）,8/9（日）\n⟣place : お台場R地区\n⟣open/start：9:00/10:00 https://t.co/70Ps5w5KMY",
+      "url": "https://x.com/info_myojou/status/2067532834773016992"
+    },
+    {
       "api_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            ˚.⋆ラジオ配信˖°⋆\n          myojou天体観測 #9\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣2026.06.17 22:00 プレミア公開\n⟣ myojou公式YouTubeチャンネル\n🔗 https://t.co/9zwq4f02n9\n\n #myojou",
       "attachments": {},
       "classification": {
@@ -89011,7 +89880,7 @@
     "backfill": true,
     "dry_run": true,
     "estimated_x_post_reads": 411,
-    "latest_post_id": "2067215712452845873",
+    "latest_post_id": "2067598527371583767",
     "max_pages": 10,
     "max_posts": 500,
     "max_results": 5,
@@ -89054,16 +89923,16 @@
       }
     ],
     "pages_fetched": 5,
-    "posts_fetched": 426,
+    "posts_fetched": 429,
     "rate_limit_headers": {
       "x-rate-limit-limit": "10000",
       "x-rate-limit-remaining": "9993",
       "x-rate-limit-reset": "1781108896"
     },
-    "total_posts": 426,
-    "updated_at": "2026-06-17T21:12:10.150457+00:00",
+    "total_posts": 429,
+    "updated_at": "2026-06-18T21:23:18.609775+00:00",
     "username": "info_myojou"
   },
   "source": "x_api",
-  "updated_at": "2026-06-17T21:12:10.150457+00:00"
+  "updated_at": "2026-06-18T21:23:18.609775+00:00"
 }
