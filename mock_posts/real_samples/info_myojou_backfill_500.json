@@ -2,6 +2,928 @@
   "captured_at": "2026-06-10T16:19:36.141820+00:00",
   "data": [
     {
+      "api_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n      TOKYO GIRLS GIRLS extra!!\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：7/3（金）\n⟣place : 品川インターシティホール\n⟣open/start：10:30/10:45 ※変更の可能性あり\n⟣price：前方¥6,000/通常¥1,000円 当日+¥1,000（各＋1D） https://t.co/5L3xyMBBct",
+      "attachments": {
+        "media_keys": [
+          "3_2067925414790791169"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "correction"
+      },
+      "created_at": "2026-06-19T11:00:15+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/5L3xyMBBct",
+            "end": 211,
+            "expanded_url": "https://x.com/info_myojou/status/2067925423544017021/photo/1",
+            "media_key": "3_2067925414790791169",
+            "start": 188,
+            "url": "https://t.co/5L3xyMBBct"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2067925423544017021",
+      "media": [
+        {
+          "height": 4096,
+          "media_key": "3_2067925414790791169",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HLK_NVqbgAEm4Aw.jpg",
+          "width": 2912
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "missing ticket deadline",
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 266,
+              "start": 259,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "t-dv.com/tgg_0703",
+              "end": 257,
+              "expanded_url": "https://t-dv.com/tgg_0703",
+              "start": 234,
+              "url": "https://t.co/Tnlxc0tv20"
+            }
+          ]
+        },
+        "text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n      TOKYO GIRLS GIRLS extra!!\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：7/3（金）\n⟣place : 品川インターシティホール\n⟣open/start：10:30/10:45 ※変更の可能性あり\n⟣price：前方¥6,000/通常¥1,000円 当日+¥1,000（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n6/20（土）20:00-\n🔗 https://t.co/Tnlxc0tv20\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": null,
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-07-03",
+        "event_dates": [
+          "2026-07-03"
+        ],
+        "event_name": "TOKYO GIRLS GIRLS extra!!",
+        "extraction_confidence": 0.9,
+        "general_ticket_price": 1000,
+        "lottery_result_at": null,
+        "myojou_performance_time": null,
+        "notes": "⟣open/start:10:30/10:45 ※変更の可能性あり",
+        "open_time": "10:30",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "前方",
+        "priority_ticket_price": 6000,
+        "same_day_ticket_price": 1000,
+        "source_kind": "correction",
+        "source_post_id": "2067925423544017021",
+        "source_posted_at": "2026-06-19T11:00:15Z",
+        "source_raw": {
+          "api_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n      TOKYO GIRLS GIRLS extra!!\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：7/3（金）\n⟣place : 品川インターシティホール\n⟣open/start：10:30/10:45 ※変更の可能性あり\n⟣price：前方¥6,000/通常¥1,000円 当日+¥1,000（各＋1D） https://t.co/5L3xyMBBct",
+          "attachments": {
+            "media_keys": [
+              "3_2067925414790791169"
+            ]
+          },
+          "created_at": "2026-06-19T11:00:15.000Z",
+          "edit_history_tweet_ids": [
+            "2067925423544017021"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/5L3xyMBBct",
+                "end": 211,
+                "expanded_url": "https://x.com/info_myojou/status/2067925423544017021/photo/1",
+                "media_key": "3_2067925414790791169",
+                "start": 188,
+                "url": "https://t.co/5L3xyMBBct"
+              }
+            ]
+          },
+          "full_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n      TOKYO GIRLS GIRLS extra!!\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：7/3（金）\n⟣place : 品川インターシティホール\n⟣open/start：10:30/10:45 ※変更の可能性あり\n⟣price：前方¥6,000/通常¥1,000円 当日+¥1,000（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n6/20（土）20:00-\n🔗 https://t.co/Tnlxc0tv20\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2067925423544017021",
+          "media": [
+            {
+              "height": 4096,
+              "media_key": "3_2067925414790791169",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HLK_NVqbgAEm4Aw.jpg",
+              "width": 2912
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 266,
+                  "start": 259,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "t-dv.com/tgg_0703",
+                  "end": 257,
+                  "expanded_url": "https://t-dv.com/tgg_0703",
+                  "start": 234,
+                  "url": "https://t.co/Tnlxc0tv20"
+                }
+              ]
+            },
+            "text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n      TOKYO GIRLS GIRLS extra!!\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：7/3（金）\n⟣place : 品川インターシティホール\n⟣open/start：10:30/10:45 ※変更の可能性あり\n⟣price：前方¥6,000/通常¥1,000円 当日+¥1,000（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n6/20（土）20:00-\n🔗 https://t.co/Tnlxc0tv20\n\n#myojou"
+          },
+          "text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n      TOKYO GIRLS GIRLS extra!!\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：7/3（金）\n⟣place : 品川インターシティホール\n⟣open/start：10:30/10:45 ※変更の可能性あり\n⟣price：前方¥6,000/通常¥1,000円 当日+¥1,000（各＋1D） https://t.co/5L3xyMBBct",
+          "truncated_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n      TOKYO GIRLS GIRLS extra!!\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：7/3（金）\n⟣place : 品川インターシティホール\n⟣open/start：10:30/10:45 ※変更の可能性あり\n⟣price：前方¥6,000/通常¥1,000円 当日+¥1,000（各＋1D） https://t.co/5L3xyMBBct"
+        },
+        "source_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n      TOKYO GIRLS GIRLS extra!!\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：7/3（金）\n⟣place : 品川インターシティホール\n⟣open/start：10:30/10:45 ※変更の可能性あり\n⟣price：前方¥6,000/通常¥1,000円 当日+¥1,000（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n6/20（土）20:00-\n🔗 https://t.co/Tnlxc0tv20\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2067925423544017021",
+        "start_time": "10:45",
+        "ticket_application_deadline_at": null,
+        "ticket_application_start_at": null,
+        "ticket_sale_type": "先着",
+        "ticket_sales": [
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 6000,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2067925423544017021",
+            "source_url": "https://x.com/info_myojou/status/2067925423544017021",
+            "start_at": null,
+            "status": "不明",
+            "ticket_name": "前方",
+            "ticket_tier": "前方"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 1000,
+            "result_at": null,
+            "sale_type": "当日券",
+            "source_post_id": "2067925423544017021",
+            "source_url": "https://x.com/info_myojou/status/2067925423544017021",
+            "start_at": null,
+            "status": "販売中",
+            "ticket_name": "当日券",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "https://t-dv.com/tgg_0703",
+        "venue": "品川インターシティホール"
+      },
+      "raw": {
+        "api_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n      TOKYO GIRLS GIRLS extra!!\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：7/3（金）\n⟣place : 品川インターシティホール\n⟣open/start：10:30/10:45 ※変更の可能性あり\n⟣price：前方¥6,000/通常¥1,000円 当日+¥1,000（各＋1D） https://t.co/5L3xyMBBct",
+        "attachments": {
+          "media_keys": [
+            "3_2067925414790791169"
+          ]
+        },
+        "created_at": "2026-06-19T11:00:15.000Z",
+        "edit_history_tweet_ids": [
+          "2067925423544017021"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/5L3xyMBBct",
+              "end": 211,
+              "expanded_url": "https://x.com/info_myojou/status/2067925423544017021/photo/1",
+              "media_key": "3_2067925414790791169",
+              "start": 188,
+              "url": "https://t.co/5L3xyMBBct"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n      TOKYO GIRLS GIRLS extra!!\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：7/3（金）\n⟣place : 品川インターシティホール\n⟣open/start：10:30/10:45 ※変更の可能性あり\n⟣price：前方¥6,000/通常¥1,000円 当日+¥1,000（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n6/20（土）20:00-\n🔗 https://t.co/Tnlxc0tv20\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2067925423544017021",
+        "media": [
+          {
+            "height": 4096,
+            "media_key": "3_2067925414790791169",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HLK_NVqbgAEm4Aw.jpg",
+            "width": 2912
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 266,
+                "start": 259,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "t-dv.com/tgg_0703",
+                "end": 257,
+                "expanded_url": "https://t-dv.com/tgg_0703",
+                "start": 234,
+                "url": "https://t.co/Tnlxc0tv20"
+              }
+            ]
+          },
+          "text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n      TOKYO GIRLS GIRLS extra!!\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：7/3（金）\n⟣place : 品川インターシティホール\n⟣open/start：10:30/10:45 ※変更の可能性あり\n⟣price：前方¥6,000/通常¥1,000円 当日+¥1,000（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n6/20（土）20:00-\n🔗 https://t.co/Tnlxc0tv20\n\n#myojou"
+        },
+        "text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n      TOKYO GIRLS GIRLS extra!!\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：7/3（金）\n⟣place : 品川インターシティホール\n⟣open/start：10:30/10:45 ※変更の可能性あり\n⟣price：前方¥6,000/通常¥1,000円 当日+¥1,000（各＋1D） https://t.co/5L3xyMBBct",
+        "truncated_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n      TOKYO GIRLS GIRLS extra!!\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：7/3（金）\n⟣place : 品川インターシティホール\n⟣open/start：10:30/10:45 ※変更の可能性あり\n⟣price：前方¥6,000/通常¥1,000円 当日+¥1,000（各＋1D） https://t.co/5L3xyMBBct"
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n      TOKYO GIRLS GIRLS extra!!\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：7/3（金）\n⟣place : 品川インターシティホール\n⟣open/start：10:30/10:45 ※変更の可能性あり\n⟣price：前方¥6,000/通常¥1,000円 当日+¥1,000（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n6/20（土）20:00-\n🔗 https://t.co/Tnlxc0tv20\n\n#myojou",
+      "truncated_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n      TOKYO GIRLS GIRLS extra!!\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：7/3（金）\n⟣place : 品川インターシティホール\n⟣open/start：10:30/10:45 ※変更の可能性あり\n⟣price：前方¥6,000/通常¥1,000円 当日+¥1,000（各＋1D） https://t.co/5L3xyMBBct",
+      "url": "https://x.com/info_myojou/status/2067925423544017021"
+    },
+    {
+      "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「myojou Summer Vol.02」\n\n⟣date：6/20（土）\n⟣place : 渋谷チェルシーホテル\n⟣open/start：11:00/11:30\n⟣price：SOLD OUT\n※当日券の販売はございません\n\n#myojou\n#ミョージョーサマー https://t.co/rp3vqJlqPQ",
+      "attachments": {
+        "media_keys": [
+          "3_2067924908236320769"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "sold_out"
+      },
+      "created_at": "2026-06-19T10:58:14+00:00",
+      "entities": {
+        "hashtags": [
+          {
+            "end": 144,
+            "start": 137,
+            "tag": "myojou"
+          },
+          {
+            "end": 155,
+            "start": 145,
+            "tag": "ミョージョーサマー"
+          }
+        ],
+        "urls": [
+          {
+            "display_url": "pic.x.com/rp3vqJlqPQ",
+            "end": 179,
+            "expanded_url": "https://x.com/info_myojou/status/2067924915060346959/photo/1",
+            "media_key": "3_2067924908236320769",
+            "start": 156,
+            "url": "https://t.co/rp3vqJlqPQ"
+          }
+        ]
+      },
+      "full_text_source": "text",
+      "id": "2067924915060346959",
+      "media": [
+        {
+          "height": 2481,
+          "media_key": "3_2067924908236320769",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HLK-v2mbsAE832x.jpg",
+          "width": 3508
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": null,
+      "parsed_fields": {
+        "benefit_event_time": null,
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-06-20",
+        "event_dates": [
+          "2026-06-20"
+        ],
+        "event_name": "myojou Summer Vol.02",
+        "extraction_confidence": 0.85,
+        "general_ticket_price": null,
+        "lottery_result_at": null,
+        "myojou_performance_time": null,
+        "notes": null,
+        "open_time": "11:00",
+        "payment_deadline_at": null,
+        "priority_ticket_name": null,
+        "priority_ticket_price": null,
+        "same_day_ticket_price": null,
+        "source_kind": "sold_out",
+        "source_post_id": "2067924915060346959",
+        "source_posted_at": "2026-06-19T10:58:14Z",
+        "source_raw": {
+          "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「myojou Summer Vol.02」\n\n⟣date：6/20（土）\n⟣place : 渋谷チェルシーホテル\n⟣open/start：11:00/11:30\n⟣price：SOLD OUT\n※当日券の販売はございません\n\n#myojou\n#ミョージョーサマー https://t.co/rp3vqJlqPQ",
+          "attachments": {
+            "media_keys": [
+              "3_2067924908236320769"
+            ]
+          },
+          "created_at": "2026-06-19T10:58:14.000Z",
+          "edit_history_tweet_ids": [
+            "2067924915060346959"
+          ],
+          "entities": {
+            "hashtags": [
+              {
+                "end": 144,
+                "start": 137,
+                "tag": "myojou"
+              },
+              {
+                "end": 155,
+                "start": 145,
+                "tag": "ミョージョーサマー"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "pic.x.com/rp3vqJlqPQ",
+                "end": 179,
+                "expanded_url": "https://x.com/info_myojou/status/2067924915060346959/photo/1",
+                "media_key": "3_2067924908236320769",
+                "start": 156,
+                "url": "https://t.co/rp3vqJlqPQ"
+              }
+            ]
+          },
+          "full_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「myojou Summer Vol.02」\n\n⟣date：6/20（土）\n⟣place : 渋谷チェルシーホテル\n⟣open/start：11:00/11:30\n⟣price：SOLD OUT\n※当日券の販売はございません\n\n#myojou\n#ミョージョーサマー https://t.co/rp3vqJlqPQ",
+          "full_text_source": "text",
+          "id": "2067924915060346959",
+          "media": [
+            {
+              "height": 2481,
+              "media_key": "3_2067924908236320769",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HLK-v2mbsAE832x.jpg",
+              "width": 3508
+            }
+          ],
+          "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「myojou Summer Vol.02」\n\n⟣date：6/20（土）\n⟣place : 渋谷チェルシーホテル\n⟣open/start：11:00/11:30\n⟣price：SOLD OUT\n※当日券の販売はございません\n\n#myojou\n#ミョージョーサマー https://t.co/rp3vqJlqPQ",
+          "truncated_text": null
+        },
+        "source_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「myojou Summer Vol.02」\n\n⟣date：6/20（土）\n⟣place : 渋谷チェルシーホテル\n⟣open/start：11:00/11:30\n⟣price：SOLD OUT\n※当日券の販売はございません\n\n#myojou\n#ミョージョーサマー https://t.co/rp3vqJlqPQ",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2067924915060346959",
+        "start_time": "11:30",
+        "ticket_application_deadline_at": null,
+        "ticket_application_start_at": null,
+        "ticket_sale_type": "当日券",
+        "ticket_sales": [
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": null,
+            "result_at": null,
+            "sale_type": "当日券",
+            "source_post_id": "2067924915060346959",
+            "source_url": "https://x.com/info_myojou/status/2067924915060346959",
+            "start_at": null,
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": "sold_out",
+        "ticket_url": null,
+        "venue": "渋谷チェルシーホテル"
+      },
+      "raw": {
+        "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「myojou Summer Vol.02」\n\n⟣date：6/20（土）\n⟣place : 渋谷チェルシーホテル\n⟣open/start：11:00/11:30\n⟣price：SOLD OUT\n※当日券の販売はございません\n\n#myojou\n#ミョージョーサマー https://t.co/rp3vqJlqPQ",
+        "attachments": {
+          "media_keys": [
+            "3_2067924908236320769"
+          ]
+        },
+        "created_at": "2026-06-19T10:58:14.000Z",
+        "edit_history_tweet_ids": [
+          "2067924915060346959"
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "end": 144,
+              "start": 137,
+              "tag": "myojou"
+            },
+            {
+              "end": 155,
+              "start": 145,
+              "tag": "ミョージョーサマー"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "pic.x.com/rp3vqJlqPQ",
+              "end": 179,
+              "expanded_url": "https://x.com/info_myojou/status/2067924915060346959/photo/1",
+              "media_key": "3_2067924908236320769",
+              "start": 156,
+              "url": "https://t.co/rp3vqJlqPQ"
+            }
+          ]
+        },
+        "full_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「myojou Summer Vol.02」\n\n⟣date：6/20（土）\n⟣place : 渋谷チェルシーホテル\n⟣open/start：11:00/11:30\n⟣price：SOLD OUT\n※当日券の販売はございません\n\n#myojou\n#ミョージョーサマー https://t.co/rp3vqJlqPQ",
+        "full_text_source": "text",
+        "id": "2067924915060346959",
+        "media": [
+          {
+            "height": 2481,
+            "media_key": "3_2067924908236320769",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HLK-v2mbsAE832x.jpg",
+            "width": 3508
+          }
+        ],
+        "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「myojou Summer Vol.02」\n\n⟣date：6/20（土）\n⟣place : 渋谷チェルシーホテル\n⟣open/start：11:00/11:30\n⟣price：SOLD OUT\n※当日券の販売はございません\n\n#myojou\n#ミョージョーサマー https://t.co/rp3vqJlqPQ",
+        "truncated_text": null
+      },
+      "referenced_tweets": [],
+      "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「myojou Summer Vol.02」\n\n⟣date：6/20（土）\n⟣place : 渋谷チェルシーホテル\n⟣open/start：11:00/11:30\n⟣price：SOLD OUT\n※当日券の販売はございません\n\n#myojou\n#ミョージョーサマー https://t.co/rp3vqJlqPQ",
+      "truncated_text": null,
+      "url": "https://x.com/info_myojou/status/2067924915060346959"
+    },
+    {
+      "api_text": "✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n                           ⟡.·*.御礼.*·.⟡\n        IDOL ∞ INFINITY PREMIUM vol.12\n✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n\n本日は「IDOL ∞ INFINITY PREMIUM vol.12」ありがとうございました⋆˙⟡\n\n上段左から https://t.co/zINixMnDuU",
+      "attachments": {
+        "media_keys": [
+          "3_2067923592550256640"
+        ]
+      },
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "profile/member introduction",
+        "source_kind": "other"
+      },
+      "created_at": "2026-06-19T10:53:00+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/zINixMnDuU",
+            "end": 212,
+            "expanded_url": "https://x.com/info_myojou/status/2067923597352636579/photo/1",
+            "media_key": "3_2067923592550256640",
+            "start": 189,
+            "url": "https://t.co/zINixMnDuU"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2067923597352636579",
+      "media": [
+        {
+          "alt_text": "M1,蛍夏\nM2,僕彩色\nM3,星景讃歌\nM4,CHRONOS\nM5,HeartBeat\nM6,アンチコンプリート",
+          "height": 1108,
+          "media_key": "3_2067923592550256640",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HLK9jRSbkAAMoF8.jpg",
+          "width": 1477
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 332,
+              "start": 325,
+              "tag": "myojou"
+            }
+          ],
+          "mentions": [
+            {
+              "end": 205,
+              "id": "1981655668626165760",
+              "start": 193,
+              "username": "myojou_ruka"
+            },
+            {
+              "end": 222,
+              "id": "2009245855694675968",
+              "start": 211,
+              "username": "myojou_miu"
+            },
+            {
+              "end": 243,
+              "id": "1344586625901158401",
+              "start": 228,
+              "username": "myojou_usukura"
+            },
+            {
+              "end": 271,
+              "id": "1590652199407083520",
+              "start": 257,
+              "username": "myojou_cocone"
+            },
+            {
+              "end": 290,
+              "id": "1754991922807177216",
+              "start": 277,
+              "username": "myojou_shino"
+            },
+            {
+              "end": 307,
+              "id": "2009274765895450624",
+              "start": 296,
+              "username": "myojou_yun"
+            }
+          ]
+        },
+        "text": "✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n                           ⟡.·*.御礼.*·.⟡\n        IDOL ∞ INFINITY PREMIUM vol.12\n✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n\n本日は「IDOL ∞ INFINITY PREMIUM vol.12」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n日陽みう@myojou_miu \n薄倉りな@myojou_usukura \n\n下段左から\n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n澪奈ゆん@myojou_yun \n\nSETLIST▶︎ALT\n\n #myojou"
+      },
+      "parsed_fields": null,
+      "raw": {
+        "api_text": "✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n                           ⟡.·*.御礼.*·.⟡\n        IDOL ∞ INFINITY PREMIUM vol.12\n✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n\n本日は「IDOL ∞ INFINITY PREMIUM vol.12」ありがとうございました⋆˙⟡\n\n上段左から https://t.co/zINixMnDuU",
+        "attachments": {
+          "media_keys": [
+            "3_2067923592550256640"
+          ]
+        },
+        "created_at": "2026-06-19T10:53:00.000Z",
+        "edit_history_tweet_ids": [
+          "2067923597352636579"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/zINixMnDuU",
+              "end": 212,
+              "expanded_url": "https://x.com/info_myojou/status/2067923597352636579/photo/1",
+              "media_key": "3_2067923592550256640",
+              "start": 189,
+              "url": "https://t.co/zINixMnDuU"
+            }
+          ]
+        },
+        "full_text": "✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n                           ⟡.·*.御礼.*·.⟡\n        IDOL ∞ INFINITY PREMIUM vol.12\n✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n\n本日は「IDOL ∞ INFINITY PREMIUM vol.12」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n日陽みう@myojou_miu \n薄倉りな@myojou_usukura \n\n下段左から\n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n澪奈ゆん@myojou_yun \n\nSETLIST▶︎ALT\n\n #myojou",
+        "full_text_source": "note_tweet",
+        "id": "2067923597352636579",
+        "media": [
+          {
+            "alt_text": "M1,蛍夏\nM2,僕彩色\nM3,星景讃歌\nM4,CHRONOS\nM5,HeartBeat\nM6,アンチコンプリート",
+            "height": 1108,
+            "media_key": "3_2067923592550256640",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HLK9jRSbkAAMoF8.jpg",
+            "width": 1477
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 332,
+                "start": 325,
+                "tag": "myojou"
+              }
+            ],
+            "mentions": [
+              {
+                "end": 205,
+                "id": "1981655668626165760",
+                "start": 193,
+                "username": "myojou_ruka"
+              },
+              {
+                "end": 222,
+                "id": "2009245855694675968",
+                "start": 211,
+                "username": "myojou_miu"
+              },
+              {
+                "end": 243,
+                "id": "1344586625901158401",
+                "start": 228,
+                "username": "myojou_usukura"
+              },
+              {
+                "end": 271,
+                "id": "1590652199407083520",
+                "start": 257,
+                "username": "myojou_cocone"
+              },
+              {
+                "end": 290,
+                "id": "1754991922807177216",
+                "start": 277,
+                "username": "myojou_shino"
+              },
+              {
+                "end": 307,
+                "id": "2009274765895450624",
+                "start": 296,
+                "username": "myojou_yun"
+              }
+            ]
+          },
+          "text": "✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n                           ⟡.·*.御礼.*·.⟡\n        IDOL ∞ INFINITY PREMIUM vol.12\n✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n\n本日は「IDOL ∞ INFINITY PREMIUM vol.12」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n日陽みう@myojou_miu \n薄倉りな@myojou_usukura \n\n下段左から\n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n澪奈ゆん@myojou_yun \n\nSETLIST▶︎ALT\n\n #myojou"
+        },
+        "text": "✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n                           ⟡.·*.御礼.*·.⟡\n        IDOL ∞ INFINITY PREMIUM vol.12\n✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n\n本日は「IDOL ∞ INFINITY PREMIUM vol.12」ありがとうございました⋆˙⟡\n\n上段左から https://t.co/zINixMnDuU",
+        "truncated_text": "✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n                           ⟡.·*.御礼.*·.⟡\n        IDOL ∞ INFINITY PREMIUM vol.12\n✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n\n本日は「IDOL ∞ INFINITY PREMIUM vol.12」ありがとうございました⋆˙⟡\n\n上段左から https://t.co/zINixMnDuU"
+      },
+      "referenced_tweets": [],
+      "text": "✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n                           ⟡.·*.御礼.*·.⟡\n        IDOL ∞ INFINITY PREMIUM vol.12\n✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n\n本日は「IDOL ∞ INFINITY PREMIUM vol.12」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n日陽みう@myojou_miu \n薄倉りな@myojou_usukura \n\n下段左から\n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n澪奈ゆん@myojou_yun \n\nSETLIST▶︎ALT\n\n #myojou",
+      "truncated_text": "✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n                           ⟡.·*.御礼.*·.⟡\n        IDOL ∞ INFINITY PREMIUM vol.12\n✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n\n本日は「IDOL ∞ INFINITY PREMIUM vol.12」ありがとうございました⋆˙⟡\n\n上段左から https://t.co/zINixMnDuU",
+      "url": "https://x.com/info_myojou/status/2067923597352636579"
+    },
+    {
+      "api_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n                  IDOL STORM\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：8/15（土）\n⟣place : Music restaurant APEXIA\n⟣open/start：10:30/10:50\n⟣price：前方 ¥8,000 / 一般 ¥2,500（各＋1D） https://t.co/tUHM8fe1SW",
+      "attachments": {
+        "media_keys": [
+          "3_2067843638965710848"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "ticket_update"
+      },
+      "created_at": "2026-06-19T05:35:19+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/tUHM8fe1SW",
+            "end": 203,
+            "expanded_url": "https://x.com/info_myojou/status/2067843648394539511/photo/1",
+            "media_key": "3_2067843638965710848",
+            "start": 180,
+            "url": "https://t.co/tUHM8fe1SW"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2067843648394539511",
+      "media": [
+        {
+          "height": 3508,
+          "media_key": "3_2067843638965710848",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HLJ01W-aMAAHg2K.jpg",
+          "width": 2480
+        }
+      ],
+      "needs_review": true,
+      "needs_review_reasons": [
+        "ambiguous event match",
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 313,
+              "start": 306,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "t-dv.com/IDOLSTORM_0815",
+              "end": 304,
+              "expanded_url": "https://t-dv.com/IDOLSTORM_0815",
+              "start": 281,
+              "url": "https://t.co/yrWTOuff29"
+            }
+          ]
+        },
+        "text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n                  IDOL STORM\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：8/15（土）\n⟣place : Music restaurant APEXIA\n⟣open/start：10:30/10:50\n⟣price：前方 ¥8,000 / 一般 ¥2,500（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先行抽選】\n6/18 (木) 21:00 - 7/7 (火) 23:59\n【先着販売】\n7/8 (水) 21:00 - 8/15 (土) 16:00\n🔗 https://t.co/yrWTOuff29\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": null,
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-08-15",
+        "event_dates": [
+          "2026-08-15"
+        ],
+        "event_name": "IDOL STORM",
+        "extraction_confidence": 0.9,
+        "general_ticket_price": 2500,
+        "lottery_result_at": null,
+        "myojou_performance_time": null,
+        "notes": "ドリンク代: 各+1D\n⟣入場特典:明星カード(サインありチェキ)",
+        "open_time": "10:30",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "前方",
+        "priority_ticket_price": 8000,
+        "same_day_ticket_price": null,
+        "source_kind": "ticket_update",
+        "source_post_id": "2067843648394539511",
+        "source_posted_at": "2026-06-19T05:35:19Z",
+        "source_raw": {
+          "api_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n                  IDOL STORM\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：8/15（土）\n⟣place : Music restaurant APEXIA\n⟣open/start：10:30/10:50\n⟣price：前方 ¥8,000 / 一般 ¥2,500（各＋1D） https://t.co/tUHM8fe1SW",
+          "attachments": {
+            "media_keys": [
+              "3_2067843638965710848"
+            ]
+          },
+          "created_at": "2026-06-19T05:35:19.000Z",
+          "edit_history_tweet_ids": [
+            "2067843648394539511"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/tUHM8fe1SW",
+                "end": 203,
+                "expanded_url": "https://x.com/info_myojou/status/2067843648394539511/photo/1",
+                "media_key": "3_2067843638965710848",
+                "start": 180,
+                "url": "https://t.co/tUHM8fe1SW"
+              }
+            ]
+          },
+          "full_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n                  IDOL STORM\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：8/15（土）\n⟣place : Music restaurant APEXIA\n⟣open/start：10:30/10:50\n⟣price：前方 ¥8,000 / 一般 ¥2,500（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先行抽選】\n6/18 (木) 21:00 - 7/7 (火) 23:59\n【先着販売】\n7/8 (水) 21:00 - 8/15 (土) 16:00\n🔗 https://t.co/yrWTOuff29\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2067843648394539511",
+          "media": [
+            {
+              "height": 3508,
+              "media_key": "3_2067843638965710848",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HLJ01W-aMAAHg2K.jpg",
+              "width": 2480
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 313,
+                  "start": 306,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "t-dv.com/IDOLSTORM_0815",
+                  "end": 304,
+                  "expanded_url": "https://t-dv.com/IDOLSTORM_0815",
+                  "start": 281,
+                  "url": "https://t.co/yrWTOuff29"
+                }
+              ]
+            },
+            "text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n                  IDOL STORM\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：8/15（土）\n⟣place : Music restaurant APEXIA\n⟣open/start：10:30/10:50\n⟣price：前方 ¥8,000 / 一般 ¥2,500（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先行抽選】\n6/18 (木) 21:00 - 7/7 (火) 23:59\n【先着販売】\n7/8 (水) 21:00 - 8/15 (土) 16:00\n🔗 https://t.co/yrWTOuff29\n\n#myojou"
+          },
+          "text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n                  IDOL STORM\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：8/15（土）\n⟣place : Music restaurant APEXIA\n⟣open/start：10:30/10:50\n⟣price：前方 ¥8,000 / 一般 ¥2,500（各＋1D） https://t.co/tUHM8fe1SW",
+          "truncated_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n                  IDOL STORM\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：8/15（土）\n⟣place : Music restaurant APEXIA\n⟣open/start：10:30/10:50\n⟣price：前方 ¥8,000 / 一般 ¥2,500（各＋1D） https://t.co/tUHM8fe1SW"
+        },
+        "source_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n                  IDOL STORM\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：8/15（土）\n⟣place : Music restaurant APEXIA\n⟣open/start：10:30/10:50\n⟣price：前方 ¥8,000 / 一般 ¥2,500（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先行抽選】\n6/18 (木) 21:00 - 7/7 (火) 23:59\n【先着販売】\n7/8 (水) 21:00 - 8/15 (土) 16:00\n🔗 https://t.co/yrWTOuff29\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2067843648394539511",
+        "start_time": "10:50",
+        "ticket_application_deadline_at": "2026-07-07T00:00:00+09:00",
+        "ticket_application_start_at": "2026-06-18T00:00:00+09:00",
+        "ticket_sale_type": "抽選",
+        "ticket_sales": [
+          {
+            "deadline_at": "2026-07-07T00:00:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 8000,
+            "result_at": null,
+            "sale_type": "抽選",
+            "source_post_id": "2067843648394539511",
+            "source_url": "https://x.com/info_myojou/status/2067843648394539511",
+            "start_at": "2026-06-18T00:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "前方",
+            "ticket_tier": "前方"
+          },
+          {
+            "deadline_at": "2026-07-07T00:00:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 2500,
+            "result_at": null,
+            "sale_type": "抽選",
+            "source_post_id": "2067843648394539511",
+            "source_url": "https://x.com/info_myojou/status/2067843648394539511",
+            "start_at": "2026-06-18T00:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          },
+          {
+            "deadline_at": "2026-08-15T00:00:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 8000,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2067843648394539511",
+            "source_url": "https://x.com/info_myojou/status/2067843648394539511",
+            "start_at": "2026-07-08T00:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "前方",
+            "ticket_tier": "前方"
+          },
+          {
+            "deadline_at": "2026-08-15T00:00:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 2500,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2067843648394539511",
+            "source_url": "https://x.com/info_myojou/status/2067843648394539511",
+            "start_at": "2026-07-08T00:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "https://t-dv.com/IDOLSTORM_0815",
+        "venue": "Music restaurant APEXIA"
+      },
+      "raw": {
+        "api_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n                  IDOL STORM\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：8/15（土）\n⟣place : Music restaurant APEXIA\n⟣open/start：10:30/10:50\n⟣price：前方 ¥8,000 / 一般 ¥2,500（各＋1D） https://t.co/tUHM8fe1SW",
+        "attachments": {
+          "media_keys": [
+            "3_2067843638965710848"
+          ]
+        },
+        "created_at": "2026-06-19T05:35:19.000Z",
+        "edit_history_tweet_ids": [
+          "2067843648394539511"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/tUHM8fe1SW",
+              "end": 203,
+              "expanded_url": "https://x.com/info_myojou/status/2067843648394539511/photo/1",
+              "media_key": "3_2067843638965710848",
+              "start": 180,
+              "url": "https://t.co/tUHM8fe1SW"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n                  IDOL STORM\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：8/15（土）\n⟣place : Music restaurant APEXIA\n⟣open/start：10:30/10:50\n⟣price：前方 ¥8,000 / 一般 ¥2,500（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先行抽選】\n6/18 (木) 21:00 - 7/7 (火) 23:59\n【先着販売】\n7/8 (水) 21:00 - 8/15 (土) 16:00\n🔗 https://t.co/yrWTOuff29\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2067843648394539511",
+        "media": [
+          {
+            "height": 3508,
+            "media_key": "3_2067843638965710848",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HLJ01W-aMAAHg2K.jpg",
+            "width": 2480
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 313,
+                "start": 306,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "t-dv.com/IDOLSTORM_0815",
+                "end": 304,
+                "expanded_url": "https://t-dv.com/IDOLSTORM_0815",
+                "start": 281,
+                "url": "https://t.co/yrWTOuff29"
+              }
+            ]
+          },
+          "text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n                  IDOL STORM\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：8/15（土）\n⟣place : Music restaurant APEXIA\n⟣open/start：10:30/10:50\n⟣price：前方 ¥8,000 / 一般 ¥2,500（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先行抽選】\n6/18 (木) 21:00 - 7/7 (火) 23:59\n【先着販売】\n7/8 (水) 21:00 - 8/15 (土) 16:00\n🔗 https://t.co/yrWTOuff29\n\n#myojou"
+        },
+        "text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n                  IDOL STORM\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：8/15（土）\n⟣place : Music restaurant APEXIA\n⟣open/start：10:30/10:50\n⟣price：前方 ¥8,000 / 一般 ¥2,500（各＋1D） https://t.co/tUHM8fe1SW",
+        "truncated_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n                  IDOL STORM\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：8/15（土）\n⟣place : Music restaurant APEXIA\n⟣open/start：10:30/10:50\n⟣price：前方 ¥8,000 / 一般 ¥2,500（各＋1D） https://t.co/tUHM8fe1SW"
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n                  IDOL STORM\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：8/15（土）\n⟣place : Music restaurant APEXIA\n⟣open/start：10:30/10:50\n⟣price：前方 ¥8,000 / 一般 ¥2,500（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先行抽選】\n6/18 (木) 21:00 - 7/7 (火) 23:59\n【先着販売】\n7/8 (水) 21:00 - 8/15 (土) 16:00\n🔗 https://t.co/yrWTOuff29\n\n#myojou",
+      "truncated_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n                  IDOL STORM\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：8/15（土）\n⟣place : Music restaurant APEXIA\n⟣open/start：10:30/10:50\n⟣price：前方 ¥8,000 / 一般 ¥2,500（各＋1D） https://t.co/tUHM8fe1SW",
+      "url": "https://x.com/info_myojou/status/2067843648394539511"
+    },
+    {
       "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「IDOL ∞ INFINITY PREMIUM vol.12」\n\n🎙16:45-17:10\n📸17:45-18:45\n\n⟣date：6/19（金）\n⟣place :Spotify O-nest\n⟣open/start：16:00/16:20\n⟣price：前方チケット¥4,000/一般チケット¥2,000/当日各+¥1,000（各＋1D） https://t.co/LEGjzb1uPb",
       "attachments": {
         "media_keys": [
@@ -89880,7 +90802,7 @@
     "backfill": true,
     "dry_run": true,
     "estimated_x_post_reads": 411,
-    "latest_post_id": "2067598527371583767",
+    "latest_post_id": "2067925423544017021",
     "max_pages": 10,
     "max_posts": 500,
     "max_results": 5,
@@ -89923,16 +90845,16 @@
       }
     ],
     "pages_fetched": 5,
-    "posts_fetched": 429,
+    "posts_fetched": 433,
     "rate_limit_headers": {
       "x-rate-limit-limit": "10000",
       "x-rate-limit-remaining": "9993",
       "x-rate-limit-reset": "1781108896"
     },
-    "total_posts": 429,
-    "updated_at": "2026-06-18T21:23:18.609775+00:00",
+    "total_posts": 433,
+    "updated_at": "2026-06-19T20:27:10.500668+00:00",
     "username": "info_myojou"
   },
   "source": "x_api",
-  "updated_at": "2026-06-18T21:23:18.609775+00:00"
+  "updated_at": "2026-06-19T20:27:10.500668+00:00"
 }
