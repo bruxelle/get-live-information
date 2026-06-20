@@ -1,7 +1,7 @@
 [
   {
-    "public_event_id": "evt_7216e4f04f4a46a3b52162c3200a07b7:2026-01-27",
-    "source_event_id": "evt_7216e4f04f4a46a3b52162c3200a07b7",
+    "public_event_id": "evt_361a6999bf8c4b8ab8c2c769474c19ca:2026-01-27",
+    "source_event_id": "evt_361a6999bf8c4b8ab8c2c769474c19ca",
     "event_date": "2026-01-27",
     "weekday": "火",
     "event_name": "UTAGE FES Vol.4",
@@ -41,8 +41,8 @@
     ]
   },
   {
-    "public_event_id": "evt_9a64edaec86c43d6ad6b43faf8ab79f6:2026-01-29",
-    "source_event_id": "evt_9a64edaec86c43d6ad6b43faf8ab79f6",
+    "public_event_id": "evt_644f65095e2e4aae9f1320ebe6d09af3:2026-01-29",
+    "source_event_id": "evt_644f65095e2e4aae9f1320ebe6d09af3",
     "event_date": "2026-01-29",
     "weekday": "木",
     "event_name": "明星",
@@ -97,8 +97,8 @@
     ]
   },
   {
-    "public_event_id": "evt_faa9032c18b742aba20be29e7e8a6e3e:2026-02-11",
-    "source_event_id": "evt_faa9032c18b742aba20be29e7e8a6e3e",
+    "public_event_id": "evt_f9c68b540c8e4b00bda533187906f2c6:2026-02-11",
+    "source_event_id": "evt_f9c68b540c8e4b00bda533187906f2c6",
     "event_date": "2026-02-11",
     "weekday": "水",
     "event_name": "明星",
@@ -122,8 +122,8 @@
     ]
   },
   {
-    "public_event_id": "evt_b974f238aa324d82bf043ea9ff6b6e2e:2026-02-14",
-    "source_event_id": "evt_b974f238aa324d82bf043ea9ff6b6e2e",
+    "public_event_id": "evt_6e9716b4f2d54798ac144458ce7022ae:2026-02-14",
+    "source_event_id": "evt_6e9716b4f2d54798ac144458ce7022ae",
     "event_date": "2026-02-14",
     "weekday": "土",
     "event_name": "myojou",
@@ -179,8 +179,8 @@
     ]
   },
   {
-    "public_event_id": "evt_c6a495f8fc654711b988a7813f3d3bb9:2026-02-15",
-    "source_event_id": "evt_c6a495f8fc654711b988a7813f3d3bb9",
+    "public_event_id": "evt_ebf9e1f65dab4bc38f371a733812e3d7:2026-02-15",
+    "source_event_id": "evt_ebf9e1f65dab4bc38f371a733812e3d7",
     "event_date": "2026-02-15",
     "weekday": "日",
     "event_name": "HYPE IDOL!",
@@ -236,8 +236,8 @@
     ]
   },
   {
-    "public_event_id": "evt_6d82a606f6fe4afdbc668d7466cf47dc:2026-02-15",
-    "source_event_id": "evt_6d82a606f6fe4afdbc668d7466cf47dc",
+    "public_event_id": "evt_5362aa96d6d34a39be3a4f0016570808:2026-02-15",
+    "source_event_id": "evt_5362aa96d6d34a39be3a4f0016570808",
     "event_date": "2026-02-15",
     "weekday": "日",
     "event_name": "HYPE IDOL!バレンタインSP",
@@ -293,8 +293,8 @@
     ]
   },
   {
-    "public_event_id": "evt_73c519cb3c5a46149a02e8afc46f0f60:2026-02-17",
-    "source_event_id": "evt_73c519cb3c5a46149a02e8afc46f0f60",
+    "public_event_id": "evt_1d98ed10ed1848149c76ff1c627b57aa:2026-02-17",
+    "source_event_id": "evt_1d98ed10ed1848149c76ff1c627b57aa",
     "event_date": "2026-02-17",
     "weekday": "火",
     "event_name": "ウタパレ!",
@@ -335,8 +335,8 @@
     ]
   },
   {
-    "public_event_id": "evt_73c519cb3c5a46149a02e8afc46f0f60:2026-02-18",
-    "source_event_id": "evt_73c519cb3c5a46149a02e8afc46f0f60",
+    "public_event_id": "evt_1d98ed10ed1848149c76ff1c627b57aa:2026-02-18",
+    "source_event_id": "evt_1d98ed10ed1848149c76ff1c627b57aa",
     "event_date": "2026-02-18",
     "weekday": "水",
     "event_name": "ウタパレ!",
@@ -377,8 +377,8 @@
     ]
   },
   {
-    "public_event_id": "evt_b974f238aa324d82bf043ea9ff6b6e2e:2026-02-22",
-    "source_event_id": "evt_b974f238aa324d82bf043ea9ff6b6e2e",
+    "public_event_id": "evt_6e9716b4f2d54798ac144458ce7022ae:2026-02-22",
+    "source_event_id": "evt_6e9716b4f2d54798ac144458ce7022ae",
     "event_date": "2026-02-22",
     "weekday": "日",
     "event_name": "myojou",
@@ -434,8 +434,8 @@
     ]
   },
   {
-    "public_event_id": "evt_29ea8d5bb42247a383b964bd2addf79e:2026-02-22",
-    "source_event_id": "evt_29ea8d5bb42247a383b964bd2addf79e",
+    "public_event_id": "evt_145fee7b312a4adc92a80856ab27b4f5:2026-02-22",
+    "source_event_id": "evt_145fee7b312a4adc92a80856ab27b4f5",
     "event_date": "2026-02-22",
     "weekday": "日",
     "event_name": "はじめまして\"myojou\"です。",
@@ -490,8 +490,8 @@
     ]
   },
   {
-    "public_event_id": "evt_c78fc33bf5164434a10ff737463cee41:2026-02-22",
-    "source_event_id": "evt_c78fc33bf5164434a10ff737463cee41",
+    "public_event_id": "evt_30f7218497f646689593e9a1a2e98475:2026-02-22",
+    "source_event_id": "evt_30f7218497f646689593e9a1a2e98475",
     "event_date": "2026-02-22",
     "weekday": "日",
     "event_name": "公開生放送ラジオ特番",
@@ -515,8 +515,8 @@
     ]
   },
   {
-    "public_event_id": "evt_3192618e32ca4f7e85cbec8a9989aff1:2026-02-26",
-    "source_event_id": "evt_3192618e32ca4f7e85cbec8a9989aff1",
+    "public_event_id": "evt_6e6d068e815e4961a464ed6e24849f6b:2026-02-26",
+    "source_event_id": "evt_6e6d068e815e4961a464ed6e24849f6b",
     "event_date": "2026-02-26",
     "weekday": "木",
     "event_name": "IDORISE!! FESTIVAL 2026",
@@ -571,8 +571,8 @@
     ]
   },
   {
-    "public_event_id": "evt_51e540f1edca4fbf8a0e635a0972bf3a:2026-02-27",
-    "source_event_id": "evt_51e540f1edca4fbf8a0e635a0972bf3a",
+    "public_event_id": "evt_c4bd1a430fe74be4ac341e0b44f5894c:2026-02-27",
+    "source_event_id": "evt_c4bd1a430fe74be4ac341e0b44f5894c",
     "event_date": "2026-02-27",
     "weekday": "金",
     "event_name": "アンスぱーくサーキット",
@@ -628,8 +628,8 @@
     ]
   },
   {
-    "public_event_id": "evt_51e540f1edca4fbf8a0e635a0972bf3a:2026-02-28",
-    "source_event_id": "evt_51e540f1edca4fbf8a0e635a0972bf3a",
+    "public_event_id": "evt_c4bd1a430fe74be4ac341e0b44f5894c:2026-02-28",
+    "source_event_id": "evt_c4bd1a430fe74be4ac341e0b44f5894c",
     "event_date": "2026-02-28",
     "weekday": "土",
     "event_name": "アンスぱーくサーキット",
@@ -685,8 +685,8 @@
     ]
   },
   {
-    "public_event_id": "evt_7c1854196231484698a9a0d59f1f8cef:2026-03-01",
-    "source_event_id": "evt_7c1854196231484698a9a0d59f1f8cef",
+    "public_event_id": "evt_42c730b8445447509087b416ad0358b5:2026-03-01",
+    "source_event_id": "evt_42c730b8445447509087b416ad0358b5",
     "event_date": "2026-03-01",
     "weekday": "日",
     "event_name": "Neat Meets vol.17",
@@ -727,8 +727,8 @@
     ]
   },
   {
-    "public_event_id": "evt_a1d3f24e66454e99b23c0a54849a877f:2026-03-03",
-    "source_event_id": "evt_a1d3f24e66454e99b23c0a54849a877f",
+    "public_event_id": "evt_920e83ea809c497495618804fc1cdcc4:2026-03-03",
+    "source_event_id": "evt_920e83ea809c497495618804fc1cdcc4",
     "event_date": "2026-03-03",
     "weekday": "火",
     "event_name": "Appare! ひなまつり",
@@ -798,8 +798,8 @@
     ]
   },
   {
-    "public_event_id": "evt_ad3320b9bd4746188f2f3be773cba4a0:2026-03-05",
-    "source_event_id": "evt_ad3320b9bd4746188f2f3be773cba4a0",
+    "public_event_id": "evt_f9e8b26e60ef42dfbe8a114602ae1030:2026-03-05",
+    "source_event_id": "evt_f9e8b26e60ef42dfbe8a114602ae1030",
     "event_date": "2026-03-05",
     "weekday": "木",
     "event_name": "TWILIGHT",
@@ -869,8 +869,8 @@
     ]
   },
   {
-    "public_event_id": "evt_ed6232211e46409b9981ddcef2314018:2026-03-06",
-    "source_event_id": "evt_ed6232211e46409b9981ddcef2314018",
+    "public_event_id": "evt_c47281737bfe4911b3d30d1222203b70:2026-03-06",
+    "source_event_id": "evt_c47281737bfe4911b3d30d1222203b70",
     "event_date": "2026-03-06",
     "weekday": "金",
     "event_name": "IDORISE!! FESTIVAL 2026 前夜祭",
@@ -970,8 +970,8 @@
     ]
   },
   {
-    "public_event_id": "evt_3192618e32ca4f7e85cbec8a9989aff1:2026-03-07",
-    "source_event_id": "evt_3192618e32ca4f7e85cbec8a9989aff1",
+    "public_event_id": "evt_6e6d068e815e4961a464ed6e24849f6b:2026-03-07",
+    "source_event_id": "evt_6e6d068e815e4961a464ed6e24849f6b",
     "event_date": "2026-03-07",
     "weekday": "土",
     "event_name": "IDORISE!! FESTIVAL 2026",
@@ -1026,8 +1026,8 @@
     ]
   },
   {
-    "public_event_id": "evt_3192618e32ca4f7e85cbec8a9989aff1:2026-03-08",
-    "source_event_id": "evt_3192618e32ca4f7e85cbec8a9989aff1",
+    "public_event_id": "evt_6e6d068e815e4961a464ed6e24849f6b:2026-03-08",
+    "source_event_id": "evt_6e6d068e815e4961a464ed6e24849f6b",
     "event_date": "2026-03-08",
     "weekday": "日",
     "event_name": "IDORISE!! FESTIVAL 2026",
@@ -1082,8 +1082,8 @@
     ]
   },
   {
-    "public_event_id": "evt_e0ac062d872d47e795bd8dffcbc46a07:2026-03-09",
-    "source_event_id": "evt_e0ac062d872d47e795bd8dffcbc46a07",
+    "public_event_id": "evt_d5bb0d0216fb4d37af086ff5a35106a2:2026-03-09",
+    "source_event_id": "evt_d5bb0d0216fb4d37af086ff5a35106a2",
     "event_date": "2026-03-09",
     "weekday": "月",
     "event_name": "Spotify O-nest 定期公演 vol.20",
@@ -1168,8 +1168,8 @@
     ]
   },
   {
-    "public_event_id": "evt_ba33734c07dc4065bc31ace00e169f5c:2026-03-11",
-    "source_event_id": "evt_ba33734c07dc4065bc31ace00e169f5c",
+    "public_event_id": "evt_d80a6c8d87aa4766a21c3fef98b2fc41:2026-03-11",
+    "source_event_id": "evt_d80a6c8d87aa4766a21c3fef98b2fc41",
     "event_date": "2026-03-11",
     "weekday": "水",
     "event_name": "LEADING NEXT",
@@ -1254,8 +1254,8 @@
     ]
   },
   {
-    "public_event_id": "evt_49a00958df844eb49965ddb84c9804b7:2026-03-12",
-    "source_event_id": "evt_49a00958df844eb49965ddb84c9804b7",
+    "public_event_id": "evt_e1363bd9d69047e69b19d1e3802c02f7:2026-03-12",
+    "source_event_id": "evt_e1363bd9d69047e69b19d1e3802c02f7",
     "event_date": "2026-03-12",
     "weekday": "木",
     "event_name": "定期公演「明星月報」",
@@ -1295,8 +1295,8 @@
     ]
   },
   {
-    "public_event_id": "evt_6bc923206b144d66a24c8514c4777dd6:2026-03-14",
-    "source_event_id": "evt_6bc923206b144d66a24c8514c4777dd6",
+    "public_event_id": "evt_892d597cbc2a4d2d91a6e015e6de6855:2026-03-14",
+    "source_event_id": "evt_892d597cbc2a4d2d91a6e015e6de6855",
     "event_date": "2026-03-14",
     "weekday": "土",
     "event_name": "LUNA PARADE",
@@ -1351,8 +1351,8 @@
     ]
   },
   {
-    "public_event_id": "evt_e0ac062d872d47e795bd8dffcbc46a07:2026-03-17",
-    "source_event_id": "evt_e0ac062d872d47e795bd8dffcbc46a07",
+    "public_event_id": "evt_d5bb0d0216fb4d37af086ff5a35106a2:2026-03-17",
+    "source_event_id": "evt_d5bb0d0216fb4d37af086ff5a35106a2",
     "event_date": "2026-03-17",
     "weekday": "火",
     "event_name": "Spotify O-nest 定期公演 vol.20",
@@ -1437,8 +1437,8 @@
     ]
   },
   {
-    "public_event_id": "evt_529a874475ba41e98c8c69e523450b7f:2026-03-19",
-    "source_event_id": "evt_529a874475ba41e98c8c69e523450b7f",
+    "public_event_id": "evt_2668de0e92934368a69d320083075d75:2026-03-19",
+    "source_event_id": "evt_2668de0e92934368a69d320083075d75",
     "event_date": "2026-03-19",
     "weekday": "木",
     "event_name": "パラディークpresents「PARAD-i-SE Vol.3",
@@ -1553,8 +1553,8 @@
     ]
   },
   {
-    "public_event_id": "evt_ee36f2f3f11a459f81d3a6f9694a7c91:2026-03-20",
-    "source_event_id": "evt_ee36f2f3f11a459f81d3a6f9694a7c91",
+    "public_event_id": "evt_a7df92f49c274db1a646ae71460655aa:2026-03-20",
+    "source_event_id": "evt_a7df92f49c274db1a646ae71460655aa",
     "event_date": "2026-03-20",
     "weekday": "金",
     "event_name": "myojou",
@@ -1578,8 +1578,8 @@
     ]
   },
   {
-    "public_event_id": "evt_cd90421c57dc4da3906a881fce6a30f8:2026-03-21",
-    "source_event_id": "evt_cd90421c57dc4da3906a881fce6a30f8",
+    "public_event_id": "evt_53d2b941338f4addb4f8150f90034915:2026-03-21",
+    "source_event_id": "evt_53d2b941338f4addb4f8150f90034915",
     "event_date": "2026-03-21",
     "weekday": "土",
     "event_name": "LEADING SPRING Circuit",
@@ -1664,8 +1664,8 @@
     ]
   },
   {
-    "public_event_id": "evt_0c8281c242a545a5ab10c719ef970d32:2026-03-22",
-    "source_event_id": "evt_0c8281c242a545a5ab10c719ef970d32",
+    "public_event_id": "evt_b3a56357c6ef498da35f30e4257c0377:2026-03-22",
+    "source_event_id": "evt_b3a56357c6ef498da35f30e4257c0377",
     "event_date": "2026-03-22",
     "weekday": "日",
     "event_name": "HYPE IDOL!",
@@ -1780,8 +1780,8 @@
     ]
   },
   {
-    "public_event_id": "evt_a234ddb4c87d4b2ab7ed34d057a6a925:2026-03-25",
-    "source_event_id": "evt_a234ddb4c87d4b2ab7ed34d057a6a925",
+    "public_event_id": "evt_ce68d217075542a695395aa16668ba17:2026-03-25",
+    "source_event_id": "evt_ce68d217075542a695395aa16668ba17",
     "event_date": "2026-03-25",
     "weekday": "水",
     "event_name": "Blue Color Palette ROAD TO WEST",
@@ -1866,8 +1866,8 @@
     ]
   },
   {
-    "public_event_id": "evt_a3761bb5924345acb24171c39a0eaee6:2026-03-28",
-    "source_event_id": "evt_a3761bb5924345acb24171c39a0eaee6",
+    "public_event_id": "evt_7f5b1654fbb04d50b886861bab59abde:2026-03-28",
+    "source_event_id": "evt_7f5b1654fbb04d50b886861bab59abde",
     "event_date": "2026-03-28",
     "weekday": "土",
     "event_name": "myojou",
@@ -1922,8 +1922,8 @@
     ]
   },
   {
-    "public_event_id": "evt_004ac4d5e25948f4aae75c29d0912000:2026-03-29",
-    "source_event_id": "evt_004ac4d5e25948f4aae75c29d0912000",
+    "public_event_id": "evt_f307089140f9448dbb15fb64eef8a743:2026-03-29",
+    "source_event_id": "evt_f307089140f9448dbb15fb64eef8a743",
     "event_date": "2026-03-29",
     "weekday": "日",
     "event_name": "NATSUZOME2026",
@@ -2008,8 +2008,8 @@
     ]
   },
   {
-    "public_event_id": "evt_4b9d5dec0d6f4750bd95008ec546d95b:2026-04-01",
-    "source_event_id": "evt_4b9d5dec0d6f4750bd95008ec546d95b",
+    "public_event_id": "evt_4887f7eaaf2f4d07b8ea38f029500823:2026-04-01",
+    "source_event_id": "evt_4887f7eaaf2f4d07b8ea38f029500823",
     "event_date": "2026-04-01",
     "weekday": "水",
     "event_name": "引用RP",
@@ -2049,8 +2049,8 @@
     ]
   },
   {
-    "public_event_id": "evt_b15de0496b3d4881b9137fe22863288c:2026-04-04",
-    "source_event_id": "evt_b15de0496b3d4881b9137fe22863288c",
+    "public_event_id": "evt_1898c7eb3aaf492a89ae2e3f1b924c05:2026-04-04",
+    "source_event_id": "evt_1898c7eb3aaf492a89ae2e3f1b924c05",
     "event_date": "2026-04-04",
     "weekday": "土",
     "event_name": "HYPE IDOL!",
@@ -2195,8 +2195,8 @@
     ]
   },
   {
-    "public_event_id": "evt_7292e32023d845a79679f59aed36339f:2026-04-05",
-    "source_event_id": "evt_7292e32023d845a79679f59aed36339f",
+    "public_event_id": "evt_fff6dd984684435ab79fd210c74042da:2026-04-05",
+    "source_event_id": "evt_fff6dd984684435ab79fd210c74042da",
     "event_date": "2026-04-05",
     "weekday": "日",
     "event_name": "IDOL ∞ INFINITY vol.19",
@@ -2251,8 +2251,8 @@
     ]
   },
   {
-    "public_event_id": "evt_877c65a4be6b4e73a4a49b700378991a:2026-04-08",
-    "source_event_id": "evt_877c65a4be6b4e73a4a49b700378991a",
+    "public_event_id": "evt_46eb5575a4a74af798923c5b60c811f8:2026-04-08",
+    "source_event_id": "evt_46eb5575a4a74af798923c5b60c811f8",
     "event_date": "2026-04-08",
     "weekday": "水",
     "event_name": "明夏",
@@ -2307,8 +2307,8 @@
     ]
   },
   {
-    "public_event_id": "evt_dc12e0505f7f4df6a6e37230dabcc3d6:2026-04-09",
-    "source_event_id": "evt_dc12e0505f7f4df6a6e37230dabcc3d6",
+    "public_event_id": "evt_cb8bacd4b3fc4129bd1277aa2ef34a8b:2026-04-09",
+    "source_event_id": "evt_cb8bacd4b3fc4129bd1277aa2ef34a8b",
     "event_date": "2026-04-09",
     "weekday": "木",
     "event_name": "KAWAII PARTY",
@@ -2379,8 +2379,8 @@
     ]
   },
   {
-    "public_event_id": "evt_1a1d0c6260e94233ae6bf029062a2999:2026-04-11",
-    "source_event_id": "evt_1a1d0c6260e94233ae6bf029062a2999",
+    "public_event_id": "evt_093c4126269a49e78fac902b41a43c10:2026-04-11",
+    "source_event_id": "evt_093c4126269a49e78fac902b41a43c10",
     "event_date": "2026-04-11",
     "weekday": "土",
     "event_name": "LEADING",
@@ -2435,8 +2435,8 @@
     ]
   },
   {
-    "public_event_id": "evt_4a17101f501b42d28d45d85390d59330:2026-04-12",
-    "source_event_id": "evt_4a17101f501b42d28d45d85390d59330",
+    "public_event_id": "evt_2aaa1baf31ec48949a28a54c1cee462c:2026-04-12",
+    "source_event_id": "evt_2aaa1baf31ec48949a28a54c1cee462c",
     "event_date": "2026-04-12",
     "weekday": "日",
     "event_name": "myojou",
@@ -2491,8 +2491,8 @@
     ]
   },
   {
-    "public_event_id": "evt_d867c51842324972a791bf4b709ecf2b:2026-04-13",
-    "source_event_id": "evt_d867c51842324972a791bf4b709ecf2b",
+    "public_event_id": "evt_122a44a5dfd448b6b6ac8c0417a18cea:2026-04-13",
+    "source_event_id": "evt_122a44a5dfd448b6b6ac8c0417a18cea",
     "event_date": "2026-04-13",
     "weekday": "月",
     "event_name": "SWEET CIRCUIT 2026",
@@ -2592,8 +2592,8 @@
     ]
   },
   {
-    "public_event_id": "evt_e85537df7ced49c987794da4e9ae5d5c:2026-04-15",
-    "source_event_id": "evt_e85537df7ced49c987794da4e9ae5d5c",
+    "public_event_id": "evt_db8c635c99e64127a9c008b617e3a32f:2026-04-15",
+    "source_event_id": "evt_db8c635c99e64127a9c008b617e3a32f",
     "event_date": "2026-04-15",
     "weekday": "水",
     "event_name": "定期公演「明星月報」",
@@ -2633,8 +2633,8 @@
     ]
   },
   {
-    "public_event_id": "evt_5cff77518ee84ffa8fd1f67fdf878cc8:2026-04-18",
-    "source_event_id": "evt_5cff77518ee84ffa8fd1f67fdf878cc8",
+    "public_event_id": "evt_be3f912737c64b61ba4222ae0fb4c89e:2026-04-18",
+    "source_event_id": "evt_be3f912737c64b61ba4222ae0fb4c89e",
     "event_date": "2026-04-18",
     "weekday": "土",
     "event_name": "ステージ配信決定!",
@@ -2690,8 +2690,8 @@
     ]
   },
   {
-    "public_event_id": "evt_e63a2379931144fea9bfb8e938924e55:2026-04-19",
-    "source_event_id": "evt_e63a2379931144fea9bfb8e938924e55",
+    "public_event_id": "evt_254d735292f14335b507989a14eb6878:2026-04-19",
+    "source_event_id": "evt_254d735292f14335b507989a14eb6878",
     "event_date": "2026-04-19",
     "weekday": "日",
     "event_name": "IDOL STORM",
@@ -2761,8 +2761,8 @@
     ]
   },
   {
-    "public_event_id": "evt_881b710ad9364dbaa34aa63c9c28a9a3:2026-04-22",
-    "source_event_id": "evt_881b710ad9364dbaa34aa63c9c28a9a3",
+    "public_event_id": "evt_480bab300a1648b39a3f348d1f8fd846:2026-04-22",
+    "source_event_id": "evt_480bab300a1648b39a3f348d1f8fd846",
     "event_date": "2026-04-22",
     "weekday": "水",
     "event_name": "シュルレアリスム Vol.3",
@@ -2818,8 +2818,8 @@
     ]
   },
   {
-    "public_event_id": "evt_be60969c865c4eb8a31bb54f42e1fb6a:2026-04-24",
-    "source_event_id": "evt_be60969c865c4eb8a31bb54f42e1fb6a",
+    "public_event_id": "evt_8f4fdc8903b14c19918d23602c3cf883:2026-04-24",
+    "source_event_id": "evt_8f4fdc8903b14c19918d23602c3cf883",
     "event_date": "2026-04-24",
     "weekday": "金",
     "event_name": "PLEASURE TIME",
@@ -2889,8 +2889,8 @@
     ]
   },
   {
-    "public_event_id": "evt_7243adda84e549e5ac9123c1e4720bb6:2026-04-25",
-    "source_event_id": "evt_7243adda84e549e5ac9123c1e4720bb6",
+    "public_event_id": "evt_d22d964d31ca40c5923034512c648ece:2026-04-25",
+    "source_event_id": "evt_d22d964d31ca40c5923034512c648ece",
     "event_date": "2026-04-25",
     "weekday": "土",
     "event_name": "Neat Meets vol.18 -PREMIUM",
@@ -2975,8 +2975,8 @@
     ]
   },
   {
-    "public_event_id": "evt_0462b2ed297741e8afd04dfbc02241ca:2026-04-26",
-    "source_event_id": "evt_0462b2ed297741e8afd04dfbc02241ca",
+    "public_event_id": "evt_ba902c5eaf6c4534ab76dc849b0f2d83:2026-04-26",
+    "source_event_id": "evt_ba902c5eaf6c4534ab76dc849b0f2d83",
     "event_date": "2026-04-26",
     "weekday": "日",
     "event_name": "myojou",
@@ -3000,8 +3000,8 @@
     ]
   },
   {
-    "public_event_id": "evt_40e0ea288f784f299a6761acec2bb1ed:2026-04-29",
-    "source_event_id": "evt_40e0ea288f784f299a6761acec2bb1ed",
+    "public_event_id": "evt_5ee83cf35b5c4ed6bfdc947878bd22ff:2026-04-29",
+    "source_event_id": "evt_5ee83cf35b5c4ed6bfdc947878bd22ff",
     "event_date": "2026-04-29",
     "weekday": "水",
     "event_name": "公開レッスン",
@@ -3025,8 +3025,8 @@
     ]
   },
   {
-    "public_event_id": "evt_c78bd347a3ef43389add843c2a10c421:2026-05-02",
-    "source_event_id": "evt_c78bd347a3ef43389add843c2a10c421",
+    "public_event_id": "evt_7e94f429952c4939be393b2bea574ea2:2026-05-02",
+    "source_event_id": "evt_7e94f429952c4939be393b2bea574ea2",
     "event_date": "2026-05-02",
     "weekday": "土",
     "event_name": "IDOL SUMMER JUNGLE GOLDEN",
@@ -3111,8 +3111,8 @@
     ]
   },
   {
-    "public_event_id": "evt_c78bd347a3ef43389add843c2a10c421:2026-05-03",
-    "source_event_id": "evt_c78bd347a3ef43389add843c2a10c421",
+    "public_event_id": "evt_7e94f429952c4939be393b2bea574ea2:2026-05-03",
+    "source_event_id": "evt_7e94f429952c4939be393b2bea574ea2",
     "event_date": "2026-05-03",
     "weekday": "日",
     "event_name": "IDOL SUMMER JUNGLE GOLDEN",
@@ -3197,8 +3197,8 @@
     ]
   },
   {
-    "public_event_id": "evt_0d4a0776f8b3411fa15a6de7fd05213f:2026-05-04",
-    "source_event_id": "evt_0d4a0776f8b3411fa15a6de7fd05213f",
+    "public_event_id": "evt_60381eef8a7f474c84d45d88449cb736:2026-05-04",
+    "source_event_id": "evt_60381eef8a7f474c84d45d88449cb736",
     "event_date": "2026-05-04",
     "weekday": "月",
     "event_name": "歌舞伎町UP GATE↑↑2026",
@@ -3223,8 +3223,8 @@
     ]
   },
   {
-    "public_event_id": "evt_c1f19ae04fef4ff7a6a8f2478a9fdaed:2026-05-05",
-    "source_event_id": "evt_c1f19ae04fef4ff7a6a8f2478a9fdaed",
+    "public_event_id": "evt_67e88b759a1b4316bfaba13e5b58f9e8:2026-05-05",
+    "source_event_id": "evt_67e88b759a1b4316bfaba13e5b58f9e8",
     "event_date": "2026-05-05",
     "weekday": "火",
     "event_name": "KASSEN",
@@ -3309,8 +3309,8 @@
     ]
   },
   {
-    "public_event_id": "evt_fee10e31327c4eabb4fa53721ead7a5e:2026-05-05",
-    "source_event_id": "evt_fee10e31327c4eabb4fa53721ead7a5e",
+    "public_event_id": "evt_dea4a4bb47d94ab4ab4f2fa7a21291cc:2026-05-05",
+    "source_event_id": "evt_dea4a4bb47d94ab4ab4f2fa7a21291cc",
     "event_date": "2026-05-05",
     "weekday": "火",
     "event_name": "アンスぱーく大!無!銭!祭!",
@@ -3395,8 +3395,8 @@
     ]
   },
   {
-    "public_event_id": "evt_763876ad940e4ba4af05e58f91712ba6:2026-05-06",
-    "source_event_id": "evt_763876ad940e4ba4af05e58f91712ba6",
+    "public_event_id": "evt_d11350642ff14951884b62090ff24680:2026-05-06",
+    "source_event_id": "evt_d11350642ff14951884b62090ff24680",
     "event_date": "2026-05-06",
     "weekday": "水",
     "event_name": "SUMMER GATE",
@@ -3437,8 +3437,8 @@
     ]
   },
   {
-    "public_event_id": "evt_e792253c217c4c8993423bc7f6b8e54c:2026-05-09",
-    "source_event_id": "evt_e792253c217c4c8993423bc7f6b8e54c",
+    "public_event_id": "evt_4dfeba52fce14ac3b753c5ad92297cd5:2026-05-09",
+    "source_event_id": "evt_4dfeba52fce14ac3b753c5ad92297cd5",
     "event_date": "2026-05-09",
     "weekday": "土",
     "event_name": "HYPE IDOL!",
@@ -3523,8 +3523,8 @@
     ]
   },
   {
-    "public_event_id": "evt_933b4a0d34754dd2a7b454a9a433e7c9:2026-05-10",
-    "source_event_id": "evt_933b4a0d34754dd2a7b454a9a433e7c9",
+    "public_event_id": "evt_e38c6c5d2fcb4ee9a620bd4595c60ca5:2026-05-10",
+    "source_event_id": "evt_e38c6c5d2fcb4ee9a620bd4595c60ca5",
     "event_date": "2026-05-10",
     "weekday": "日",
     "event_name": "myojou",
@@ -3579,8 +3579,8 @@
     ]
   },
   {
-    "public_event_id": "evt_b197dc91e08942d09d81b695d270b764:2026-05-12",
-    "source_event_id": "evt_b197dc91e08942d09d81b695d270b764",
+    "public_event_id": "evt_4fed42a22d8948c3ae30812eab78dacd:2026-05-12",
+    "source_event_id": "evt_4fed42a22d8948c3ae30812eab78dacd",
     "event_date": "2026-05-12",
     "weekday": "火",
     "event_name": "KYUN-FES TOKYO vol.2",
@@ -3650,8 +3650,8 @@
     ]
   },
   {
-    "public_event_id": "evt_767843b601f848c19a0452cc46542431:2026-05-13",
-    "source_event_id": "evt_767843b601f848c19a0452cc46542431",
+    "public_event_id": "evt_c38e0ca4fe074a1ebe80cb5eb7a9976a:2026-05-13",
+    "source_event_id": "evt_c38e0ca4fe074a1ebe80cb5eb7a9976a",
     "event_date": "2026-05-13",
     "weekday": "水",
     "event_name": "定期公演「明星月報」",
@@ -3691,8 +3691,8 @@
     ]
   },
   {
-    "public_event_id": "evt_1bcc4a0dc56d476e83188414928ff46c:2026-05-15",
-    "source_event_id": "evt_1bcc4a0dc56d476e83188414928ff46c",
+    "public_event_id": "evt_9d53b27fd64849c49498e8507ff7390a:2026-05-15",
+    "source_event_id": "evt_9d53b27fd64849c49498e8507ff7390a",
     "event_date": "2026-05-15",
     "weekday": "金",
     "event_name": "RE:PLAY vol.9",
@@ -3747,8 +3747,8 @@
     ]
   },
   {
-    "public_event_id": "evt_0ffd8c2a48d1404b8103482cf4a7d032:2026-05-16",
-    "source_event_id": "evt_0ffd8c2a48d1404b8103482cf4a7d032",
+    "public_event_id": "evt_fee99005efba4bb4990645302841cb5d:2026-05-16",
+    "source_event_id": "evt_fee99005efba4bb4990645302841cb5d",
     "event_date": "2026-05-16",
     "weekday": "土",
     "event_name": "SODA SCRAMBLE",
@@ -3804,8 +3804,8 @@
     ]
   },
   {
-    "public_event_id": "evt_db50ddb1993140c5a195554481a99013:2026-05-16",
-    "source_event_id": "evt_db50ddb1993140c5a195554481a99013",
+    "public_event_id": "evt_2dea2e18b3e74420994b45de145f4e2a:2026-05-16",
+    "source_event_id": "evt_2dea2e18b3e74420994b45de145f4e2a",
     "event_date": "2026-05-16",
     "weekday": "土",
     "event_name": "アイドル甲子園",
@@ -3875,8 +3875,8 @@
     ]
   },
   {
-    "public_event_id": "evt_176eb7d8c59c4f4e9fd04f7d2bc56782:2026-05-17",
-    "source_event_id": "evt_176eb7d8c59c4f4e9fd04f7d2bc56782",
+    "public_event_id": "evt_28f65e86f96d4d9a8c875c3dd0b37e05:2026-05-17",
+    "source_event_id": "evt_28f65e86f96d4d9a8c875c3dd0b37e05",
     "event_date": "2026-05-17",
     "weekday": "日",
     "event_name": "IDOL STORM",
@@ -3961,8 +3961,8 @@
     ]
   },
   {
-    "public_event_id": "evt_ccfad68a7880458b8a467789bdc69cd7:2026-05-20",
-    "source_event_id": "evt_ccfad68a7880458b8a467789bdc69cd7",
+    "public_event_id": "evt_1beb6a996bb24e819077df4b32ea0a75:2026-05-20",
+    "source_event_id": "evt_1beb6a996bb24e819077df4b32ea0a75",
     "event_date": "2026-05-20",
     "weekday": "水",
     "event_name": "争奪LIVE 前哨戦 緊急決起集会",
@@ -4002,8 +4002,8 @@
     ]
   },
   {
-    "public_event_id": "evt_3d6b05ee2f3b4df8978348eb75eaefce:2026-05-23",
-    "source_event_id": "evt_3d6b05ee2f3b4df8978348eb75eaefce",
+    "public_event_id": "evt_0ec89c4ad9884366b627e25eae45a3da:2026-05-23",
+    "source_event_id": "evt_0ec89c4ad9884366b627e25eae45a3da",
     "event_date": "2026-05-23",
     "weekday": "土",
     "event_name": "ミスGIRLS GIRLS コンテスト2026",
@@ -4028,8 +4028,8 @@
     ]
   },
   {
-    "public_event_id": "evt_541d6ad15bb24c02a5980e85e0b8a5d6:2026-05-23",
-    "source_event_id": "evt_541d6ad15bb24c02a5980e85e0b8a5d6",
+    "public_event_id": "evt_aefe28e19e6948eebaaee357ff00d925:2026-05-23",
+    "source_event_id": "evt_aefe28e19e6948eebaaee357ff00d925",
     "event_date": "2026-05-23",
     "weekday": "土",
     "event_name": "超激レア",
@@ -4130,8 +4130,8 @@
     ]
   },
   {
-    "public_event_id": "evt_3d6b05ee2f3b4df8978348eb75eaefce:2026-05-24",
-    "source_event_id": "evt_3d6b05ee2f3b4df8978348eb75eaefce",
+    "public_event_id": "evt_0ec89c4ad9884366b627e25eae45a3da:2026-05-24",
+    "source_event_id": "evt_0ec89c4ad9884366b627e25eae45a3da",
     "event_date": "2026-05-24",
     "weekday": "日",
     "event_name": "ミスGIRLS GIRLS コンテスト2026",
@@ -4156,8 +4156,8 @@
     ]
   },
   {
-    "public_event_id": "evt_541d6ad15bb24c02a5980e85e0b8a5d6:2026-05-24",
-    "source_event_id": "evt_541d6ad15bb24c02a5980e85e0b8a5d6",
+    "public_event_id": "evt_aefe28e19e6948eebaaee357ff00d925:2026-05-24",
+    "source_event_id": "evt_aefe28e19e6948eebaaee357ff00d925",
     "event_date": "2026-05-24",
     "weekday": "日",
     "event_name": "超激レア",
@@ -4258,8 +4258,8 @@
     ]
   },
   {
-    "public_event_id": "evt_31351b93e00944169b209ec1ae3430bc:2026-05-25",
-    "source_event_id": "evt_31351b93e00944169b209ec1ae3430bc",
+    "public_event_id": "evt_3e8cc9421f7746708b4156cf50d7db38:2026-05-25",
+    "source_event_id": "evt_3e8cc9421f7746708b4156cf50d7db38",
     "event_date": "2026-05-25",
     "weekday": "月",
     "event_name": "うるトラすフェスタvol.43",
@@ -4344,8 +4344,8 @@
     ]
   },
   {
-    "public_event_id": "evt_2fd59f021fda40d3ad26db6d518b67ad:2026-05-28",
-    "source_event_id": "evt_2fd59f021fda40d3ad26db6d518b67ad",
+    "public_event_id": "evt_7174df1607174a3e9096d4b305f11614:2026-05-28",
+    "source_event_id": "evt_7174df1607174a3e9096d4b305f11614",
     "event_date": "2026-05-28",
     "weekday": "木",
     "event_name": "PLEASURE TIME",
@@ -4401,8 +4401,8 @@
     ]
   },
   {
-    "public_event_id": "evt_51538f12194149da81cddaa8f6dfce86:2026-05-30",
-    "source_event_id": "evt_51538f12194149da81cddaa8f6dfce86",
+    "public_event_id": "evt_ed6f095add084f8fa116e0c0c96cf83e:2026-05-30",
+    "source_event_id": "evt_ed6f095add084f8fa116e0c0c96cf83e",
     "event_date": "2026-05-30",
     "weekday": "土",
     "event_name": "アイドル甲子園",
@@ -4472,8 +4472,8 @@
     ]
   },
   {
-    "public_event_id": "evt_4747d8782d7d42af8524f9bdb402ce3f:2026-05-31",
-    "source_event_id": "evt_4747d8782d7d42af8524f9bdb402ce3f",
+    "public_event_id": "evt_0c7783cb47a44d7d8967ae4ca0353172:2026-05-31",
+    "source_event_id": "evt_0c7783cb47a44d7d8967ae4ca0353172",
     "event_date": "2026-05-31",
     "weekday": "日",
     "event_name": "myojou Summer",
@@ -4514,8 +4514,8 @@
     ]
   },
   {
-    "public_event_id": "evt_fad35306cb6040539898a95af8b7dfa8:2026-05-31",
-    "source_event_id": "evt_fad35306cb6040539898a95af8b7dfa8",
+    "public_event_id": "evt_74d32be7f7614681b71a6495b6c7e7ee:2026-05-31",
+    "source_event_id": "evt_74d32be7f7614681b71a6495b6c7e7ee",
     "event_date": "2026-05-31",
     "weekday": "日",
     "event_name": "myojou Summer Vol.01",
@@ -4570,8 +4570,8 @@
     ]
   },
   {
-    "public_event_id": "evt_9c164f092a2f46978c0d57c2cbe21ad4:2026-06-03",
-    "source_event_id": "evt_9c164f092a2f46978c0d57c2cbe21ad4",
+    "public_event_id": "evt_8bbc21b707394b5ea7dc426b240ce056:2026-06-03",
+    "source_event_id": "evt_8bbc21b707394b5ea7dc426b240ce056",
     "event_date": "2026-06-03",
     "weekday": "水",
     "event_name": "MIX BOX vol.10",
@@ -4656,8 +4656,8 @@
     ]
   },
   {
-    "public_event_id": "evt_c0424b82d0544576a710b87d94b2bb38:2026-06-03",
-    "source_event_id": "evt_c0424b82d0544576a710b87d94b2bb38",
+    "public_event_id": "evt_5c2293249d05435e9bc47f050664557d:2026-06-03",
+    "source_event_id": "evt_5c2293249d05435e9bc47f050664557d",
     "event_date": "2026-06-03",
     "weekday": "水",
     "event_name": "idoLove You♫-On Stage QR-vol.1",
@@ -4772,8 +4772,8 @@
     ]
   },
   {
-    "public_event_id": "evt_d5bbe5830a9545ada9b2e77f5bd2b2c1:2026-06-04",
-    "source_event_id": "evt_d5bbe5830a9545ada9b2e77f5bd2b2c1",
+    "public_event_id": "evt_f9c0d87e46da48bb882d0d8ff3656078:2026-06-04",
+    "source_event_id": "evt_f9c0d87e46da48bb882d0d8ff3656078",
     "event_date": "2026-06-04",
     "weekday": "木",
     "event_name": "HYPE IDOL! DX",
@@ -4888,8 +4888,8 @@
     ]
   },
   {
-    "public_event_id": "evt_7077b6d165e341d9894d83d3585912ac:2026-06-04",
-    "source_event_id": "evt_7077b6d165e341d9894d83d3585912ac",
+    "public_event_id": "evt_0c2607c14aca4ed3ae5bb4acd0811f1e:2026-06-04",
+    "source_event_id": "evt_0c2607c14aca4ed3ae5bb4acd0811f1e",
     "event_date": "2026-06-04",
     "weekday": "木",
     "event_name": "SUMMER BEAT Vol.01",
@@ -4944,8 +4944,8 @@
     ]
   },
   {
-    "public_event_id": "evt_de5112746aef42a293bd7cf0d74f3ef0:2026-06-06",
-    "source_event_id": "evt_de5112746aef42a293bd7cf0d74f3ef0",
+    "public_event_id": "evt_16b38632a233468bab86f38f41458ab9:2026-06-06",
+    "source_event_id": "evt_16b38632a233468bab86f38f41458ab9",
     "event_date": "2026-06-06",
     "weekday": "土",
     "event_name": "導花閃",
@@ -5001,8 +5001,8 @@
     ]
   },
   {
-    "public_event_id": "evt_b922be52cebc45a2a2f76350ea024b0f:2026-06-07",
-    "source_event_id": "evt_b922be52cebc45a2a2f76350ea024b0f",
+    "public_event_id": "evt_7796b623d712400293820b7f51d0b710:2026-06-07",
+    "source_event_id": "evt_7796b623d712400293820b7f51d0b710",
     "event_date": "2026-06-07",
     "weekday": "日",
     "event_name": "TIF2026メインステージ争奪LIVE 前哨戦",
@@ -5057,8 +5057,8 @@
     ]
   },
   {
-    "public_event_id": "evt_ccfad68a7880458b8a467789bdc69cd7:2026-06-07",
-    "source_event_id": "evt_ccfad68a7880458b8a467789bdc69cd7",
+    "public_event_id": "evt_1beb6a996bb24e819077df4b32ea0a75:2026-06-07",
+    "source_event_id": "evt_1beb6a996bb24e819077df4b32ea0a75",
     "event_date": "2026-06-07",
     "weekday": "日",
     "event_name": "争奪LIVE 前哨戦 緊急決起集会",
@@ -5098,8 +5098,8 @@
     ]
   },
   {
-    "public_event_id": "evt_85790a87d5964d93b6d6b432ad3bdf46:2026-06-08",
-    "source_event_id": "evt_85790a87d5964d93b6d6b432ad3bdf46",
+    "public_event_id": "evt_9eb98633f0c741b3b14637b12f18599f:2026-06-08",
+    "source_event_id": "evt_9eb98633f0c741b3b14637b12f18599f",
     "event_date": "2026-06-08",
     "weekday": "月",
     "event_name": "myojou oneman live 明夏",
@@ -5139,8 +5139,8 @@
     ]
   },
   {
-    "public_event_id": "evt_9a4e087ee335492e98f0b64ba668ef68:2026-06-08",
-    "source_event_id": "evt_9a4e087ee335492e98f0b64ba668ef68",
+    "public_event_id": "evt_a651640d994e485399f2612375b37da3:2026-06-08",
+    "source_event_id": "evt_a651640d994e485399f2612375b37da3",
     "event_date": "2026-06-08",
     "weekday": "月",
     "event_name": "グッズ&ナンバーくじ公開",
@@ -5210,8 +5210,8 @@
     ]
   },
   {
-    "public_event_id": "evt_93828df980aa43d0918e0a51734438f2:2026-06-09",
-    "source_event_id": "evt_93828df980aa43d0918e0a51734438f2",
+    "public_event_id": "evt_db45cbd7010e4a7da0a25859deb57b4e:2026-06-09",
+    "source_event_id": "evt_db45cbd7010e4a7da0a25859deb57b4e",
     "event_date": "2026-06-09",
     "weekday": "火",
     "event_name": "明夏",
@@ -5235,8 +5235,8 @@
     ]
   },
   {
-    "public_event_id": "evt_76273e99aec34da987b8a70708753d2b:2026-06-13",
-    "source_event_id": "evt_76273e99aec34da987b8a70708753d2b",
+    "public_event_id": "evt_9914a883385541d2a257e4ae9d0cf30f:2026-06-13",
+    "source_event_id": "evt_9914a883385541d2a257e4ae9d0cf30f",
     "event_date": "2026-06-13",
     "weekday": "土",
     "event_name": "Neat Meets vol.19",
@@ -5336,8 +5336,8 @@
     ]
   },
   {
-    "public_event_id": "evt_3eb92abfdb094085bcd9422c955df34f:2026-06-13",
-    "source_event_id": "evt_3eb92abfdb094085bcd9422c955df34f",
+    "public_event_id": "evt_161c7651347b4711bcb6f4c73d9ba9ce:2026-06-13",
+    "source_event_id": "evt_161c7651347b4711bcb6f4c73d9ba9ce",
     "event_date": "2026-06-13",
     "weekday": "土",
     "event_name": "Neat Meets vol.19",
@@ -5392,8 +5392,8 @@
     ]
   },
   {
-    "public_event_id": "evt_43a8794841bd4ad4a85bd3ccdf208aa9:2026-06-14",
-    "source_event_id": "evt_43a8794841bd4ad4a85bd3ccdf208aa9",
+    "public_event_id": "evt_35f3c6e2bbe1409cb3a05c7b8703e68d:2026-06-14",
+    "source_event_id": "evt_35f3c6e2bbe1409cb3a05c7b8703e68d",
     "event_date": "2026-06-14",
     "weekday": "日",
     "event_name": "IDOL STORM",
@@ -5478,8 +5478,8 @@
     ]
   },
   {
-    "public_event_id": "evt_2d748ad1ab7b4fe480e9b577def4de40:2026-06-14",
-    "source_event_id": "evt_2d748ad1ab7b4fe480e9b577def4de40",
+    "public_event_id": "evt_ae7c735ffb9049d098947428da3b9497:2026-06-14",
+    "source_event_id": "evt_ae7c735ffb9049d098947428da3b9497",
     "event_date": "2026-06-14",
     "weekday": "日",
     "event_name": "TOKYO IDOL FESTIVAL 2026",
@@ -5535,8 +5535,8 @@
     ]
   },
   {
-    "public_event_id": "evt_035f838051b24cf8877145b6f8982d3c:2026-06-16",
-    "source_event_id": "evt_035f838051b24cf8877145b6f8982d3c",
+    "public_event_id": "evt_60699b928fae4e13977d915ef1f3d5aa:2026-06-16",
+    "source_event_id": "evt_60699b928fae4e13977d915ef1f3d5aa",
     "event_date": "2026-06-16",
     "weekday": "火",
     "event_name": "TOKYO GIRLS GIRLS",
@@ -5621,8 +5621,8 @@
     ]
   },
   {
-    "public_event_id": "evt_4498676816cd4648966d8f7b26529817:2026-06-17",
-    "source_event_id": "evt_4498676816cd4648966d8f7b26529817",
+    "public_event_id": "evt_5110a254d9234c55ad44f69bec4e8f41:2026-06-17",
+    "source_event_id": "evt_5110a254d9234c55ad44f69bec4e8f41",
     "event_date": "2026-06-17",
     "weekday": "水",
     "event_name": "すぺしゃるいしゅ〜 - Road to 6.27",
@@ -5692,8 +5692,8 @@
     ]
   },
   {
-    "public_event_id": "evt_e964c90f104b48459d5a8277b2ec2869:2026-06-20",
-    "source_event_id": "evt_e964c90f104b48459d5a8277b2ec2869",
+    "public_event_id": "evt_60664b247e5c4ea8b9469d9b055b5911:2026-06-20",
+    "source_event_id": "evt_60664b247e5c4ea8b9469d9b055b5911",
     "event_date": "2026-06-20",
     "weekday": "土",
     "event_name": "myojou Summer Vol.02",
@@ -5747,8 +5747,8 @@
         "result_at": "",
         "payment_deadline_at": "",
         "status": "不明",
-        "source_url": "https://x.com/info_myojou/status/2067924915060346959",
-        "source_post_id": "2067924915060346959",
+        "source_url": "https://x.com/info_myojou/status/2068117824300892545",
+        "source_post_id": "2068117824300892545",
         "notes": "",
         "is_next_deadline": false
       }
@@ -5763,8 +5763,8 @@
     ]
   },
   {
-    "public_event_id": "evt_d91616100a434d22a6ff031aebb1c284:2026-06-20",
-    "source_event_id": "evt_d91616100a434d22a6ff031aebb1c284",
+    "public_event_id": "evt_fa13c8101b7d475c815bbbc5c592ffdb:2026-06-20",
+    "source_event_id": "evt_fa13c8101b7d475c815bbbc5c592ffdb",
     "event_date": "2026-06-20",
     "weekday": "土",
     "event_name": "【一部日程変更について】",
@@ -5790,8 +5790,8 @@
     ]
   },
   {
-    "public_event_id": "evt_4747d8782d7d42af8524f9bdb402ce3f:2026-06-21",
-    "source_event_id": "evt_4747d8782d7d42af8524f9bdb402ce3f",
+    "public_event_id": "evt_0c7783cb47a44d7d8967ae4ca0353172:2026-06-21",
+    "source_event_id": "evt_0c7783cb47a44d7d8967ae4ca0353172",
     "event_date": "2026-06-21",
     "weekday": "日",
     "event_name": "myojou Summer",
@@ -5832,8 +5832,8 @@
     ]
   },
   {
-    "public_event_id": "evt_d91616100a434d22a6ff031aebb1c284:2026-06-21",
-    "source_event_id": "evt_d91616100a434d22a6ff031aebb1c284",
+    "public_event_id": "evt_fa13c8101b7d475c815bbbc5c592ffdb:2026-06-21",
+    "source_event_id": "evt_fa13c8101b7d475c815bbbc5c592ffdb",
     "event_date": "2026-06-21",
     "weekday": "日",
     "event_name": "【一部日程変更について】",
@@ -5859,8 +5859,8 @@
     ]
   },
   {
-    "public_event_id": "evt_89bd557ce37d4286a28c0ab361e64999:2026-06-24",
-    "source_event_id": "evt_89bd557ce37d4286a28c0ab361e64999",
+    "public_event_id": "evt_58c8cb21f2d64532acacc866f200b4e4:2026-06-24",
+    "source_event_id": "evt_58c8cb21f2d64532acacc866f200b4e4",
     "event_date": "2026-06-24",
     "weekday": "水",
     "event_name": "PARAD-i-SE Vol.5 -2周年ワンマン前SP!",
@@ -5975,8 +5975,8 @@
     ]
   },
   {
-    "public_event_id": "evt_a460332178504956b3644b624179d51b:2026-06-25",
-    "source_event_id": "evt_a460332178504956b3644b624179d51b",
+    "public_event_id": "evt_b9a862defde8491980de29b0d46a35b8:2026-06-25",
+    "source_event_id": "evt_b9a862defde8491980de29b0d46a35b8",
     "event_date": "2026-06-25",
     "weekday": "木",
     "event_name": "シキサイ。",
@@ -6031,8 +6031,8 @@
     ]
   },
   {
-    "public_event_id": "evt_4498676816cd4648966d8f7b26529817:2026-06-27",
-    "source_event_id": "evt_4498676816cd4648966d8f7b26529817",
+    "public_event_id": "evt_5110a254d9234c55ad44f69bec4e8f41:2026-06-27",
+    "source_event_id": "evt_5110a254d9234c55ad44f69bec4e8f41",
     "event_date": "2026-06-27",
     "weekday": "土",
     "event_name": "すぺしゃるいしゅ〜 - Road to 6.27",
@@ -6102,8 +6102,8 @@
     ]
   },
   {
-    "public_event_id": "evt_2863d748f26b4101b61836135ad678d5:2026-06-27",
-    "source_event_id": "evt_2863d748f26b4101b61836135ad678d5",
+    "public_event_id": "evt_234b4cb0b5f74000aff2d34199d5a22d:2026-06-27",
+    "source_event_id": "evt_234b4cb0b5f74000aff2d34199d5a22d",
     "event_date": "2026-06-27",
     "weekday": "土",
     "event_name": "アイドル甲子園 FESTIVAL 2026",
@@ -6173,8 +6173,8 @@
     ]
   },
   {
-    "public_event_id": "evt_ba484eaf54414eeca8b00134c162cc12:2026-06-29",
-    "source_event_id": "evt_ba484eaf54414eeca8b00134c162cc12",
+    "public_event_id": "evt_d60370a67889499a945430244b7edd9b:2026-06-29",
+    "source_event_id": "evt_d60370a67889499a945430244b7edd9b",
     "event_date": "2026-06-29",
     "weekday": "月",
     "event_name": "ラブコール vol.19",
@@ -6244,8 +6244,8 @@
     ]
   },
   {
-    "public_event_id": "evt_892354d7036b4b6ebc7cbe035cedccbe:2026-07-03",
-    "source_event_id": "evt_892354d7036b4b6ebc7cbe035cedccbe",
+    "public_event_id": "evt_9a2184aa4fcc4defb912bd59dcd53270:2026-07-03",
+    "source_event_id": "evt_9a2184aa4fcc4defb912bd59dcd53270",
     "event_date": "2026-07-03",
     "weekday": "金",
     "event_name": "TOKYO GIRLS GIRLS extra!!",
@@ -6301,8 +6301,8 @@
     ]
   },
   {
-    "public_event_id": "evt_fdb836bba0fe4ad78d3895cf73b2705c:2026-07-04",
-    "source_event_id": "evt_fdb836bba0fe4ad78d3895cf73b2705c",
+    "public_event_id": "evt_147f8654517543f6beff2c740d8a0137:2026-07-04",
+    "source_event_id": "evt_147f8654517543f6beff2c740d8a0137",
     "event_date": "2026-07-04",
     "weekday": "土",
     "event_name": "超NATSUZOME 2026",
@@ -6417,8 +6417,8 @@
     ]
   },
   {
-    "public_event_id": "evt_fdb836bba0fe4ad78d3895cf73b2705c:2026-07-05",
-    "source_event_id": "evt_fdb836bba0fe4ad78d3895cf73b2705c",
+    "public_event_id": "evt_147f8654517543f6beff2c740d8a0137:2026-07-05",
+    "source_event_id": "evt_147f8654517543f6beff2c740d8a0137",
     "event_date": "2026-07-05",
     "weekday": "日",
     "event_name": "超NATSUZOME 2026",
@@ -6533,8 +6533,8 @@
     ]
   },
   {
-    "public_event_id": "evt_c73e3dc5c2294d0d843b44ddf45f25fb:2026-07-06",
-    "source_event_id": "evt_c73e3dc5c2294d0d843b44ddf45f25fb",
+    "public_event_id": "evt_6de2554836584e569de777b43a99dc1e:2026-07-06",
+    "source_event_id": "evt_6de2554836584e569de777b43a99dc1e",
     "event_date": "2026-07-06",
     "weekday": "月",
     "event_name": "蒼夏序章",
@@ -6605,8 +6605,8 @@
     ]
   },
   {
-    "public_event_id": "evt_22e73bc748da41fe89c4bd803268b4a7:2026-07-10",
-    "source_event_id": "evt_22e73bc748da41fe89c4bd803268b4a7",
+    "public_event_id": "evt_b5bbd3f80b8f4823b3bbb4ce9e29619a:2026-07-10",
+    "source_event_id": "evt_b5bbd3f80b8f4823b3bbb4ce9e29619a",
     "event_date": "2026-07-10",
     "weekday": "金",
     "event_name": "sound stock Vol.14",
@@ -6691,8 +6691,8 @@
     ]
   },
   {
-    "public_event_id": "evt_df115ba5de3549d29228b66bfd5c8635:2026-07-11",
-    "source_event_id": "evt_df115ba5de3549d29228b66bfd5c8635",
+    "public_event_id": "evt_c6d2aa044c774daeac66fe9818ac7a70:2026-07-11",
+    "source_event_id": "evt_c6d2aa044c774daeac66fe9818ac7a70",
     "event_date": "2026-07-11",
     "weekday": "土",
     "event_name": "SPARK 2026 渋谷納涼祭",
@@ -6703,7 +6703,7 @@
     "ticket_url": "https://t-dv.com/spark2026_summer",
     "ticket_status": "不明",
     "needs_review": false,
-    "ticket_application_deadline_at": "2026-06-21T00:00:00+09:00",
+    "ticket_application_deadline_at": "2026-07-10T00:00:00+09:00",
     "payment_deadline_at": "",
     "ticket_sales": [
       {
@@ -6719,7 +6719,7 @@
         "source_url": "https://x.com/info_myojou/status/2061070287463231887",
         "source_post_id": "2061070287463231887",
         "notes": "",
-        "is_next_deadline": true
+        "is_next_deadline": false
       },
       {
         "sale_type": "抽選",
@@ -6749,7 +6749,7 @@
         "source_url": "https://x.com/info_myojou/status/2061070287463231887",
         "source_post_id": "2061070287463231887",
         "notes": "",
-        "is_next_deadline": false
+        "is_next_deadline": true
       },
       {
         "sale_type": "一般",
@@ -6797,9 +6797,9 @@
         "is_next_deadline": false
       }
     ],
-    "next_ticket_deadline_at": "2026-06-21T00:00:00+09:00",
-    "next_ticket_sale_type": "抽選",
-    "next_ticket_label": "抽選 VIP",
+    "next_ticket_deadline_at": "2026-07-10T00:00:00+09:00",
+    "next_ticket_sale_type": "一般",
+    "next_ticket_label": "一般 VIP",
     "public_ready": true,
     "public_not_ready_reasons": [],
     "review_reasons": [
@@ -6807,8 +6807,8 @@
     ]
   },
   {
-    "public_event_id": "evt_df115ba5de3549d29228b66bfd5c8635:2026-07-12",
-    "source_event_id": "evt_df115ba5de3549d29228b66bfd5c8635",
+    "public_event_id": "evt_c6d2aa044c774daeac66fe9818ac7a70:2026-07-12",
+    "source_event_id": "evt_c6d2aa044c774daeac66fe9818ac7a70",
     "event_date": "2026-07-12",
     "weekday": "日",
     "event_name": "SPARK 2026 渋谷納涼祭",
@@ -6819,7 +6819,7 @@
     "ticket_url": "https://t-dv.com/spark2026_summer",
     "ticket_status": "不明",
     "needs_review": false,
-    "ticket_application_deadline_at": "2026-06-21T00:00:00+09:00",
+    "ticket_application_deadline_at": "2026-07-10T00:00:00+09:00",
     "payment_deadline_at": "",
     "ticket_sales": [
       {
@@ -6835,7 +6835,7 @@
         "source_url": "https://x.com/info_myojou/status/2061070287463231887",
         "source_post_id": "2061070287463231887",
         "notes": "",
-        "is_next_deadline": true
+        "is_next_deadline": false
       },
       {
         "sale_type": "抽選",
@@ -6865,7 +6865,7 @@
         "source_url": "https://x.com/info_myojou/status/2061070287463231887",
         "source_post_id": "2061070287463231887",
         "notes": "",
-        "is_next_deadline": false
+        "is_next_deadline": true
       },
       {
         "sale_type": "一般",
@@ -6913,9 +6913,9 @@
         "is_next_deadline": false
       }
     ],
-    "next_ticket_deadline_at": "2026-06-21T00:00:00+09:00",
-    "next_ticket_sale_type": "抽選",
-    "next_ticket_label": "抽選 VIP",
+    "next_ticket_deadline_at": "2026-07-10T00:00:00+09:00",
+    "next_ticket_sale_type": "一般",
+    "next_ticket_label": "一般 VIP",
     "public_ready": true,
     "public_not_ready_reasons": [],
     "review_reasons": [
@@ -6923,8 +6923,8 @@
     ]
   },
   {
-    "public_event_id": "evt_acb17de9c49c4890ba02cfec4537906a:2026-07-16",
-    "source_event_id": "evt_acb17de9c49c4890ba02cfec4537906a",
+    "public_event_id": "evt_ab947e8ff8a042d3a763d5eea6d88c31:2026-07-16",
+    "source_event_id": "evt_ab947e8ff8a042d3a763d5eea6d88c31",
     "event_date": "2026-07-16",
     "weekday": "木",
     "event_name": "ONE AND ONLY",
@@ -7024,8 +7024,8 @@
     ]
   },
   {
-    "public_event_id": "evt_4747d8782d7d42af8524f9bdb402ce3f:2026-07-19",
-    "source_event_id": "evt_4747d8782d7d42af8524f9bdb402ce3f",
+    "public_event_id": "evt_0c7783cb47a44d7d8967ae4ca0353172:2026-07-19",
+    "source_event_id": "evt_0c7783cb47a44d7d8967ae4ca0353172",
     "event_date": "2026-07-19",
     "weekday": "日",
     "event_name": "myojou Summer",
@@ -7066,8 +7066,64 @@
     ]
   },
   {
-    "public_event_id": "evt_6b8103931ea84556a09ab6d584d22b13:2026-07-22",
-    "source_event_id": "evt_6b8103931ea84556a09ab6d584d22b13",
+    "public_event_id": "evt_21593941fc5241b78a3377ce94dd28ab:2026-07-19",
+    "source_event_id": "evt_21593941fc5241b78a3377ce94dd28ab",
+    "event_date": "2026-07-19",
+    "weekday": "日",
+    "event_name": "myojou Summer Vol.03",
+    "venue": "渋谷音楽堂",
+    "live_summary": "開演 18:00",
+    "ticket_summary": "一般 0円 / 優先 6,000円 / 7/18締切",
+    "application_summary": "一般販売 6/21 22:00〜7/18 23:59",
+    "ticket_url": "https://t-dv.com/myojou_0719",
+    "ticket_status": "不明",
+    "needs_review": false,
+    "ticket_application_deadline_at": "2026-07-18T23:59:00+09:00",
+    "payment_deadline_at": "",
+    "ticket_sales": [
+      {
+        "sale_type": "一般",
+        "ticket_name": "優先",
+        "ticket_tier": "優先",
+        "price": 6000,
+        "start_at": "2026-06-21T22:00:00+09:00",
+        "deadline_at": "2026-07-18T23:59:00+09:00",
+        "result_at": "",
+        "payment_deadline_at": "",
+        "status": "不明",
+        "source_url": "https://x.com/info_myojou/status/2068185540734927173",
+        "source_post_id": "2068185540734927173",
+        "notes": "",
+        "is_next_deadline": true
+      },
+      {
+        "sale_type": "一般",
+        "ticket_name": "一般",
+        "ticket_tier": "一般",
+        "price": 0,
+        "start_at": "2026-06-21T22:00:00+09:00",
+        "deadline_at": "2026-07-18T23:59:00+09:00",
+        "result_at": "",
+        "payment_deadline_at": "",
+        "status": "不明",
+        "source_url": "https://x.com/info_myojou/status/2068185540734927173",
+        "source_post_id": "2068185540734927173",
+        "notes": "",
+        "is_next_deadline": false
+      }
+    ],
+    "next_ticket_deadline_at": "2026-07-18T23:59:00+09:00",
+    "next_ticket_sale_type": "一般",
+    "next_ticket_label": "一般 優先",
+    "public_ready": true,
+    "public_not_ready_reasons": [],
+    "review_reasons": [
+      "classification: live post has date and structured event fields"
+    ]
+  },
+  {
+    "public_event_id": "evt_e573e6aeac7c43239267b16820d93000:2026-07-22",
+    "source_event_id": "evt_e573e6aeac7c43239267b16820d93000",
     "event_date": "2026-07-22",
     "weekday": "水",
     "event_name": "UTAGE FES Vol.5",
@@ -7152,8 +7208,8 @@
     ]
   },
   {
-    "public_event_id": "evt_2d748ad1ab7b4fe480e9b577def4de40:2026-07-31",
-    "source_event_id": "evt_2d748ad1ab7b4fe480e9b577def4de40",
+    "public_event_id": "evt_ae7c735ffb9049d098947428da3b9497:2026-07-31",
+    "source_event_id": "evt_ae7c735ffb9049d098947428da3b9497",
     "event_date": "2026-07-31",
     "weekday": "金",
     "event_name": "TOKYO IDOL FESTIVAL 2026",
@@ -7209,8 +7265,8 @@
     ]
   },
   {
-    "public_event_id": "evt_2d748ad1ab7b4fe480e9b577def4de40:2026-08-01",
-    "source_event_id": "evt_2d748ad1ab7b4fe480e9b577def4de40",
+    "public_event_id": "evt_ae7c735ffb9049d098947428da3b9497:2026-08-01",
+    "source_event_id": "evt_ae7c735ffb9049d098947428da3b9497",
     "event_date": "2026-08-01",
     "weekday": "土",
     "event_name": "TOKYO IDOL FESTIVAL 2026",
@@ -7266,8 +7322,8 @@
     ]
   },
   {
-    "public_event_id": "evt_2d748ad1ab7b4fe480e9b577def4de40:2026-08-02",
-    "source_event_id": "evt_2d748ad1ab7b4fe480e9b577def4de40",
+    "public_event_id": "evt_ae7c735ffb9049d098947428da3b9497:2026-08-02",
+    "source_event_id": "evt_ae7c735ffb9049d098947428da3b9497",
     "event_date": "2026-08-02",
     "weekday": "日",
     "event_name": "TOKYO IDOL FESTIVAL 2026",
@@ -7323,8 +7379,8 @@
     ]
   },
   {
-    "public_event_id": "evt_508bf54fe8e84a57b2fdcc8e92bd65e3:2026-08-07",
-    "source_event_id": "evt_508bf54fe8e84a57b2fdcc8e92bd65e3",
+    "public_event_id": "evt_86792bd038a749bf8844f89753c27e81:2026-08-07",
+    "source_event_id": "evt_86792bd038a749bf8844f89753c27e81",
     "event_date": "2026-08-07",
     "weekday": "金",
     "event_name": "IDOL SUMMER JUNGLE 2026",
@@ -7379,8 +7435,8 @@
     ]
   },
   {
-    "public_event_id": "evt_508bf54fe8e84a57b2fdcc8e92bd65e3:2026-08-08",
-    "source_event_id": "evt_508bf54fe8e84a57b2fdcc8e92bd65e3",
+    "public_event_id": "evt_86792bd038a749bf8844f89753c27e81:2026-08-08",
+    "source_event_id": "evt_86792bd038a749bf8844f89753c27e81",
     "event_date": "2026-08-08",
     "weekday": "土",
     "event_name": "IDOL SUMMER JUNGLE 2026",
@@ -7435,8 +7491,8 @@
     ]
   },
   {
-    "public_event_id": "evt_508bf54fe8e84a57b2fdcc8e92bd65e3:2026-08-09",
-    "source_event_id": "evt_508bf54fe8e84a57b2fdcc8e92bd65e3",
+    "public_event_id": "evt_86792bd038a749bf8844f89753c27e81:2026-08-09",
+    "source_event_id": "evt_86792bd038a749bf8844f89753c27e81",
     "event_date": "2026-08-09",
     "weekday": "日",
     "event_name": "IDOL SUMMER JUNGLE 2026",
@@ -7491,8 +7547,8 @@
     ]
   },
   {
-    "public_event_id": "evt_09a9624cd37f433c8ef3e8f5a83c00bc:2026-08-10",
-    "source_event_id": "evt_09a9624cd37f433c8ef3e8f5a83c00bc",
+    "public_event_id": "evt_d00d473e2ac94864b1cd0fd866758238:2026-08-10",
+    "source_event_id": "evt_d00d473e2ac94864b1cd0fd866758238",
     "event_date": "2026-08-10",
     "weekday": "月",
     "event_name": "NEO KASSEN2026",
@@ -7562,8 +7618,8 @@
     ]
   },
   {
-    "public_event_id": "evt_4747d8782d7d42af8524f9bdb402ce3f:2026-08-13",
-    "source_event_id": "evt_4747d8782d7d42af8524f9bdb402ce3f",
+    "public_event_id": "evt_0c7783cb47a44d7d8967ae4ca0353172:2026-08-13",
+    "source_event_id": "evt_0c7783cb47a44d7d8967ae4ca0353172",
     "event_date": "2026-08-13",
     "weekday": "木",
     "event_name": "myojou Summer",
@@ -7604,8 +7660,8 @@
     ]
   },
   {
-    "public_event_id": "evt_a793738d9342414aa67cc8882acf312d:2026-08-15",
-    "source_event_id": "evt_a793738d9342414aa67cc8882acf312d",
+    "public_event_id": "evt_835dc79e10b3436a814877976344c611:2026-08-15",
+    "source_event_id": "evt_835dc79e10b3436a814877976344c611",
     "event_date": "2026-08-15",
     "weekday": "土",
     "event_name": "IDOL STORM",
@@ -7690,8 +7746,8 @@
     ]
   },
   {
-    "public_event_id": "evt_e3e81df3eb6442e4b3f3461ecacd78ea:2026-08-29",
-    "source_event_id": "evt_e3e81df3eb6442e4b3f3461ecacd78ea",
+    "public_event_id": "evt_b62ae4703f1e4fb383ecaaeba7eb756f:2026-08-29",
+    "source_event_id": "evt_b62ae4703f1e4fb383ecaaeba7eb756f",
     "event_date": "2026-08-29",
     "weekday": "土",
     "event_name": "A Villa idol festival HOKKAIDO 2026",
@@ -7806,8 +7862,8 @@
     ]
   },
   {
-    "public_event_id": "evt_fd0b8dae83394621b21f049c6db1d150:2026-09-21",
-    "source_event_id": "evt_fd0b8dae83394621b21f049c6db1d150",
+    "public_event_id": "evt_4bab96e02eb6441c8138fac1197f80fd:2026-09-21",
+    "source_event_id": "evt_4bab96e02eb6441c8138fac1197f80fd",
     "event_date": "2026-09-21",
     "weekday": "月",
     "event_name": "SPARK 2026 in YAMANAKAKO",
@@ -7847,8 +7903,8 @@
     ]
   },
   {
-    "public_event_id": "evt_fd0b8dae83394621b21f049c6db1d150:2026-09-22",
-    "source_event_id": "evt_fd0b8dae83394621b21f049c6db1d150",
+    "public_event_id": "evt_4bab96e02eb6441c8138fac1197f80fd:2026-09-22",
+    "source_event_id": "evt_4bab96e02eb6441c8138fac1197f80fd",
     "event_date": "2026-09-22",
     "weekday": "火",
     "event_name": "SPARK 2026 in YAMANAKAKO",
@@ -7888,8 +7944,8 @@
     ]
   },
   {
-    "public_event_id": "evt_fd0b8dae83394621b21f049c6db1d150:2026-09-23",
-    "source_event_id": "evt_fd0b8dae83394621b21f049c6db1d150",
+    "public_event_id": "evt_4bab96e02eb6441c8138fac1197f80fd:2026-09-23",
+    "source_event_id": "evt_4bab96e02eb6441c8138fac1197f80fd",
     "event_date": "2026-09-23",
     "weekday": "水",
     "event_name": "SPARK 2026 in YAMANAKAKO",
@@ -7929,8 +7985,8 @@
     ]
   },
   {
-    "public_event_id": "evt_3192618e32ca4f7e85cbec8a9989aff1:2026-12-19",
-    "source_event_id": "evt_3192618e32ca4f7e85cbec8a9989aff1",
+    "public_event_id": "evt_6e6d068e815e4961a464ed6e24849f6b:2026-12-19",
+    "source_event_id": "evt_6e6d068e815e4961a464ed6e24849f6b",
     "event_date": "2026-12-19",
     "weekday": "土",
     "event_name": "IDORISE!! FESTIVAL 2026",
