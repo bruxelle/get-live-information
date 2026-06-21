@@ -2,6 +2,967 @@
   "captured_at": "2026-06-10T16:19:36.141820+00:00",
   "data": [
     {
+      "api_text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「パラディークpresents「PARAD-i-SE Vol.5 -2周年ワンマン前SP！-」」\n\n🎙19:15-19:40\n📸21:00-22:00\n\n⟣date：6/24（水）\n⟣place：Veats Shibuya\n⟣open/start：17:30/18:00 https://t.co/p4iOl3G1B6",
+      "attachments": {
+        "media_keys": [
+          "3_2068695753627951104"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "initial_announcement"
+      },
+      "created_at": "2026-06-21T14:01:18+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/p4iOl3G1B6",
+            "end": 182,
+            "expanded_url": "https://x.com/info_myojou/status/2068695761727201463/photo/1",
+            "media_key": "3_2068695753627951104",
+            "start": 159,
+            "url": "https://t.co/p4iOl3G1B6"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2068695761727201463",
+      "media": [
+        {
+          "height": 2048,
+          "media_key": "3_2068695753627951104",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HLV709daYAAElO2.jpg",
+          "width": 1448
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 341,
+              "start": 334,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "ticketdive.com/event/paradeeq…",
+              "end": 332,
+              "expanded_url": "https://ticketdive.com/event/paradeeq260624_2",
+              "start": 309,
+              "url": "https://t.co/KK0CRnkikz"
+            }
+          ]
+        },
+        "text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「パラディークpresents「PARAD-i-SE Vol.5 -2周年ワンマン前SP！-」」\n\n🎙19:15-19:40\n📸21:00-22:00\n\n⟣date：6/24（水）\n⟣place：Veats Shibuya\n⟣open/start：17:30/18:00\n⟣price：前方チケット¥6,000/一般チケット¥2,500/女性･学生チケット¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般先着販売】\n5/23(土)22:00-6/24(水)12:00\n【前方先着販売】\n6/10(水)21:00〜6/24(水)12:00\n🔗 https://t.co/KK0CRnkikz\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": "21:00-22:00",
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-06-24",
+        "event_dates": [
+          "2026-06-24"
+        ],
+        "event_name": "パラディークpresents「PARAD-i-SE Vol.5 -2周年ワンマン前SP!",
+        "extraction_confidence": 0.95,
+        "general_ticket_price": 2500,
+        "lottery_result_at": null,
+        "myojou_performance_time": "19:15-19:40",
+        "notes": "ドリンク代: 各+1D\n⟣入場特典:明星カード(サインありチェキ)",
+        "open_time": "17:30",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "前方チケット",
+        "priority_ticket_price": 6000,
+        "same_day_ticket_price": null,
+        "source_kind": "initial_announcement",
+        "source_post_id": "2068695761727201463",
+        "source_posted_at": "2026-06-21T14:01:18Z",
+        "source_raw": {
+          "api_text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「パラディークpresents「PARAD-i-SE Vol.5 -2周年ワンマン前SP！-」」\n\n🎙19:15-19:40\n📸21:00-22:00\n\n⟣date：6/24（水）\n⟣place：Veats Shibuya\n⟣open/start：17:30/18:00 https://t.co/p4iOl3G1B6",
+          "attachments": {
+            "media_keys": [
+              "3_2068695753627951104"
+            ]
+          },
+          "created_at": "2026-06-21T14:01:18.000Z",
+          "edit_history_tweet_ids": [
+            "2068695761727201463"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/p4iOl3G1B6",
+                "end": 182,
+                "expanded_url": "https://x.com/info_myojou/status/2068695761727201463/photo/1",
+                "media_key": "3_2068695753627951104",
+                "start": 159,
+                "url": "https://t.co/p4iOl3G1B6"
+              }
+            ]
+          },
+          "full_text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「パラディークpresents「PARAD-i-SE Vol.5 -2周年ワンマン前SP！-」」\n\n🎙19:15-19:40\n📸21:00-22:00\n\n⟣date：6/24（水）\n⟣place：Veats Shibuya\n⟣open/start：17:30/18:00\n⟣price：前方チケット¥6,000/一般チケット¥2,500/女性･学生チケット¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般先着販売】\n5/23(土)22:00-6/24(水)12:00\n【前方先着販売】\n6/10(水)21:00〜6/24(水)12:00\n🔗 https://t.co/KK0CRnkikz\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2068695761727201463",
+          "media": [
+            {
+              "height": 2048,
+              "media_key": "3_2068695753627951104",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HLV709daYAAElO2.jpg",
+              "width": 1448
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 341,
+                  "start": 334,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "ticketdive.com/event/paradeeq…",
+                  "end": 332,
+                  "expanded_url": "https://ticketdive.com/event/paradeeq260624_2",
+                  "start": 309,
+                  "url": "https://t.co/KK0CRnkikz"
+                }
+              ]
+            },
+            "text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「パラディークpresents「PARAD-i-SE Vol.5 -2周年ワンマン前SP！-」」\n\n🎙19:15-19:40\n📸21:00-22:00\n\n⟣date：6/24（水）\n⟣place：Veats Shibuya\n⟣open/start：17:30/18:00\n⟣price：前方チケット¥6,000/一般チケット¥2,500/女性･学生チケット¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般先着販売】\n5/23(土)22:00-6/24(水)12:00\n【前方先着販売】\n6/10(水)21:00〜6/24(水)12:00\n🔗 https://t.co/KK0CRnkikz\n\n#myojou"
+          },
+          "text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「パラディークpresents「PARAD-i-SE Vol.5 -2周年ワンマン前SP！-」」\n\n🎙19:15-19:40\n📸21:00-22:00\n\n⟣date：6/24（水）\n⟣place：Veats Shibuya\n⟣open/start：17:30/18:00 https://t.co/p4iOl3G1B6",
+          "truncated_text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「パラディークpresents「PARAD-i-SE Vol.5 -2周年ワンマン前SP！-」」\n\n🎙19:15-19:40\n📸21:00-22:00\n\n⟣date：6/24（水）\n⟣place：Veats Shibuya\n⟣open/start：17:30/18:00 https://t.co/p4iOl3G1B6"
+        },
+        "source_text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「パラディークpresents「PARAD-i-SE Vol.5 -2周年ワンマン前SP！-」」\n\n🎙19:15-19:40\n📸21:00-22:00\n\n⟣date：6/24（水）\n⟣place：Veats Shibuya\n⟣open/start：17:30/18:00\n⟣price：前方チケット¥6,000/一般チケット¥2,500/女性･学生チケット¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般先着販売】\n5/23(土)22:00-6/24(水)12:00\n【前方先着販売】\n6/10(水)21:00〜6/24(水)12:00\n🔗 https://t.co/KK0CRnkikz\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2068695761727201463",
+        "start_time": "18:00",
+        "ticket_application_deadline_at": "2026-06-24T12:00:00+09:00",
+        "ticket_application_start_at": "2026-05-23T22:00:00+09:00",
+        "ticket_sale_type": "先着",
+        "ticket_sales": [
+          {
+            "deadline_at": "2026-06-24T12:00:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 6000,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2068695761727201463",
+            "source_url": "https://x.com/info_myojou/status/2068695761727201463",
+            "start_at": "2026-05-23T22:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "前方チケット",
+            "ticket_tier": "前方"
+          },
+          {
+            "deadline_at": "2026-06-24T12:00:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 2500,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2068695761727201463",
+            "source_url": "https://x.com/info_myojou/status/2068695761727201463",
+            "start_at": "2026-05-23T22:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般チケット",
+            "ticket_tier": "一般"
+          },
+          {
+            "deadline_at": "2026-06-24T12:00:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 6000,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2068695761727201463",
+            "source_url": "https://x.com/info_myojou/status/2068695761727201463",
+            "start_at": "2026-06-10T21:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "前方チケット",
+            "ticket_tier": "前方"
+          },
+          {
+            "deadline_at": "2026-06-24T12:00:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 2500,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2068695761727201463",
+            "source_url": "https://x.com/info_myojou/status/2068695761727201463",
+            "start_at": "2026-06-10T21:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般チケット",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "https://ticketdive.com/event/paradeeq260624_2",
+        "venue": "Veats Shibuya"
+      },
+      "raw": {
+        "api_text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「パラディークpresents「PARAD-i-SE Vol.5 -2周年ワンマン前SP！-」」\n\n🎙19:15-19:40\n📸21:00-22:00\n\n⟣date：6/24（水）\n⟣place：Veats Shibuya\n⟣open/start：17:30/18:00 https://t.co/p4iOl3G1B6",
+        "attachments": {
+          "media_keys": [
+            "3_2068695753627951104"
+          ]
+        },
+        "created_at": "2026-06-21T14:01:18.000Z",
+        "edit_history_tweet_ids": [
+          "2068695761727201463"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/p4iOl3G1B6",
+              "end": 182,
+              "expanded_url": "https://x.com/info_myojou/status/2068695761727201463/photo/1",
+              "media_key": "3_2068695753627951104",
+              "start": 159,
+              "url": "https://t.co/p4iOl3G1B6"
+            }
+          ]
+        },
+        "full_text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「パラディークpresents「PARAD-i-SE Vol.5 -2周年ワンマン前SP！-」」\n\n🎙19:15-19:40\n📸21:00-22:00\n\n⟣date：6/24（水）\n⟣place：Veats Shibuya\n⟣open/start：17:30/18:00\n⟣price：前方チケット¥6,000/一般チケット¥2,500/女性･学生チケット¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般先着販売】\n5/23(土)22:00-6/24(水)12:00\n【前方先着販売】\n6/10(水)21:00〜6/24(水)12:00\n🔗 https://t.co/KK0CRnkikz\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2068695761727201463",
+        "media": [
+          {
+            "height": 2048,
+            "media_key": "3_2068695753627951104",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HLV709daYAAElO2.jpg",
+            "width": 1448
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 341,
+                "start": 334,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "ticketdive.com/event/paradeeq…",
+                "end": 332,
+                "expanded_url": "https://ticketdive.com/event/paradeeq260624_2",
+                "start": 309,
+                "url": "https://t.co/KK0CRnkikz"
+              }
+            ]
+          },
+          "text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「パラディークpresents「PARAD-i-SE Vol.5 -2周年ワンマン前SP！-」」\n\n🎙19:15-19:40\n📸21:00-22:00\n\n⟣date：6/24（水）\n⟣place：Veats Shibuya\n⟣open/start：17:30/18:00\n⟣price：前方チケット¥6,000/一般チケット¥2,500/女性･学生チケット¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般先着販売】\n5/23(土)22:00-6/24(水)12:00\n【前方先着販売】\n6/10(水)21:00〜6/24(水)12:00\n🔗 https://t.co/KK0CRnkikz\n\n#myojou"
+        },
+        "text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「パラディークpresents「PARAD-i-SE Vol.5 -2周年ワンマン前SP！-」」\n\n🎙19:15-19:40\n📸21:00-22:00\n\n⟣date：6/24（水）\n⟣place：Veats Shibuya\n⟣open/start：17:30/18:00 https://t.co/p4iOl3G1B6",
+        "truncated_text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「パラディークpresents「PARAD-i-SE Vol.5 -2周年ワンマン前SP！-」」\n\n🎙19:15-19:40\n📸21:00-22:00\n\n⟣date：6/24（水）\n⟣place：Veats Shibuya\n⟣open/start：17:30/18:00 https://t.co/p4iOl3G1B6"
+      },
+      "referenced_tweets": [],
+      "text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「パラディークpresents「PARAD-i-SE Vol.5 -2周年ワンマン前SP！-」」\n\n🎙19:15-19:40\n📸21:00-22:00\n\n⟣date：6/24（水）\n⟣place：Veats Shibuya\n⟣open/start：17:30/18:00\n⟣price：前方チケット¥6,000/一般チケット¥2,500/女性･学生チケット¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般先着販売】\n5/23(土)22:00-6/24(水)12:00\n【前方先着販売】\n6/10(水)21:00〜6/24(水)12:00\n🔗 https://t.co/KK0CRnkikz\n\n#myojou",
+      "truncated_text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「パラディークpresents「PARAD-i-SE Vol.5 -2周年ワンマン前SP！-」」\n\n🎙19:15-19:40\n📸21:00-22:00\n\n⟣date：6/24（水）\n⟣place：Veats Shibuya\n⟣open/start：17:30/18:00 https://t.co/p4iOl3G1B6",
+      "url": "https://x.com/info_myojou/status/2068695761727201463"
+    },
+    {
+      "api_text": "✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n                           ⟡.·*.御礼.*·.⟡\n                myojou ONLINE MEETING\n✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n\n本日は「myojouONLINE MEETING」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka https://t.co/vf9fGn4DE6",
+      "attachments": {
+        "media_keys": [
+          "3_2068695397787410432"
+        ]
+      },
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "profile/member introduction",
+        "source_kind": "other"
+      },
+      "created_at": "2026-06-21T13:59:53+00:00",
+      "entities": {
+        "mentions": [
+          {
+            "end": 194,
+            "id": "1981655668626165760",
+            "start": 182,
+            "username": "myojou_ruka"
+          }
+        ],
+        "urls": [
+          {
+            "display_url": "pic.x.com/vf9fGn4DE6",
+            "end": 218,
+            "expanded_url": "https://x.com/info_myojou/status/2068695405324566960/photo/1",
+            "media_key": "3_2068695397787410432",
+            "start": 195,
+            "url": "https://t.co/vf9fGn4DE6"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2068695405324566960",
+      "media": [
+        {
+          "height": 1313,
+          "media_key": "3_2068695397787410432",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HLV7gP2aoAA_wN6.jpg",
+          "width": 2048
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 307,
+              "start": 300,
+              "tag": "myojou"
+            }
+          ],
+          "mentions": [
+            {
+              "end": 194,
+              "id": "1981655668626165760",
+              "start": 182,
+              "username": "myojou_ruka"
+            },
+            {
+              "end": 211,
+              "id": "2009245855694675968",
+              "start": 200,
+              "username": "myojou_miu"
+            },
+            {
+              "end": 232,
+              "id": "1344586625901158401",
+              "start": 217,
+              "username": "myojou_usukura"
+            },
+            {
+              "end": 260,
+              "id": "1590652199407083520",
+              "start": 246,
+              "username": "myojou_cocone"
+            },
+            {
+              "end": 279,
+              "id": "1754991922807177216",
+              "start": 266,
+              "username": "myojou_shino"
+            },
+            {
+              "end": 296,
+              "id": "2009274765895450624",
+              "start": 285,
+              "username": "myojou_yun"
+            }
+          ]
+        },
+        "text": "✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n                           ⟡.·*.御礼.*·.⟡\n                myojou ONLINE MEETING\n✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n\n本日は「myojouONLINE MEETING」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n日陽みう@myojou_miu \n薄倉りな@myojou_usukura \n\n下段左から\n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n澪奈ゆん@myojou_yun \n\n #myojou"
+      },
+      "parsed_fields": null,
+      "raw": {
+        "api_text": "✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n                           ⟡.·*.御礼.*·.⟡\n                myojou ONLINE MEETING\n✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n\n本日は「myojouONLINE MEETING」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka https://t.co/vf9fGn4DE6",
+        "attachments": {
+          "media_keys": [
+            "3_2068695397787410432"
+          ]
+        },
+        "created_at": "2026-06-21T13:59:53.000Z",
+        "edit_history_tweet_ids": [
+          "2068695405324566960"
+        ],
+        "entities": {
+          "mentions": [
+            {
+              "end": 194,
+              "id": "1981655668626165760",
+              "start": 182,
+              "username": "myojou_ruka"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "pic.x.com/vf9fGn4DE6",
+              "end": 218,
+              "expanded_url": "https://x.com/info_myojou/status/2068695405324566960/photo/1",
+              "media_key": "3_2068695397787410432",
+              "start": 195,
+              "url": "https://t.co/vf9fGn4DE6"
+            }
+          ]
+        },
+        "full_text": "✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n                           ⟡.·*.御礼.*·.⟡\n                myojou ONLINE MEETING\n✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n\n本日は「myojouONLINE MEETING」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n日陽みう@myojou_miu \n薄倉りな@myojou_usukura \n\n下段左から\n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n澪奈ゆん@myojou_yun \n\n #myojou",
+        "full_text_source": "note_tweet",
+        "id": "2068695405324566960",
+        "media": [
+          {
+            "height": 1313,
+            "media_key": "3_2068695397787410432",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HLV7gP2aoAA_wN6.jpg",
+            "width": 2048
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 307,
+                "start": 300,
+                "tag": "myojou"
+              }
+            ],
+            "mentions": [
+              {
+                "end": 194,
+                "id": "1981655668626165760",
+                "start": 182,
+                "username": "myojou_ruka"
+              },
+              {
+                "end": 211,
+                "id": "2009245855694675968",
+                "start": 200,
+                "username": "myojou_miu"
+              },
+              {
+                "end": 232,
+                "id": "1344586625901158401",
+                "start": 217,
+                "username": "myojou_usukura"
+              },
+              {
+                "end": 260,
+                "id": "1590652199407083520",
+                "start": 246,
+                "username": "myojou_cocone"
+              },
+              {
+                "end": 279,
+                "id": "1754991922807177216",
+                "start": 266,
+                "username": "myojou_shino"
+              },
+              {
+                "end": 296,
+                "id": "2009274765895450624",
+                "start": 285,
+                "username": "myojou_yun"
+              }
+            ]
+          },
+          "text": "✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n                           ⟡.·*.御礼.*·.⟡\n                myojou ONLINE MEETING\n✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n\n本日は「myojouONLINE MEETING」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n日陽みう@myojou_miu \n薄倉りな@myojou_usukura \n\n下段左から\n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n澪奈ゆん@myojou_yun \n\n #myojou"
+        },
+        "text": "✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n                           ⟡.·*.御礼.*·.⟡\n                myojou ONLINE MEETING\n✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n\n本日は「myojouONLINE MEETING」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka https://t.co/vf9fGn4DE6",
+        "truncated_text": "✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n                           ⟡.·*.御礼.*·.⟡\n                myojou ONLINE MEETING\n✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n\n本日は「myojouONLINE MEETING」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka https://t.co/vf9fGn4DE6"
+      },
+      "referenced_tweets": [],
+      "text": "✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n                           ⟡.·*.御礼.*·.⟡\n                myojou ONLINE MEETING\n✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n\n本日は「myojouONLINE MEETING」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n日陽みう@myojou_miu \n薄倉りな@myojou_usukura \n\n下段左から\n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n澪奈ゆん@myojou_yun \n\n #myojou",
+      "truncated_text": "✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n                           ⟡.·*.御礼.*·.⟡\n                myojou ONLINE MEETING\n✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n\n本日は「myojouONLINE MEETING」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka https://t.co/vf9fGn4DE6",
+      "url": "https://x.com/info_myojou/status/2068695405324566960"
+    },
+    {
+      "api_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n                  IDOL STORM\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：7/20（月祝）\n⟣place :キネマ倶楽部\n⟣open/start：TBA/TBA\n⟣price：前売前方¥8,000/前売通常¥3,000 / 前売女性¥2,000 / 当日+500円（各＋1D） https://t.co/4T4qjqprn0",
+      "attachments": {
+        "media_keys": [
+          "3_2068635335165407232"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "ticket_update"
+      },
+      "created_at": "2026-06-21T10:01:13+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/4T4qjqprn0",
+            "end": 205,
+            "expanded_url": "https://x.com/info_myojou/status/2068635341968593037/photo/1",
+            "media_key": "3_2068635335165407232",
+            "start": 182,
+            "url": "https://t.co/4T4qjqprn0"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2068635341968593037",
+      "media": [
+        {
+          "height": 3508,
+          "media_key": "3_2068635335165407232",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HLVE4JJa8AA5Bnv.jpg",
+          "width": 2480
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "missing ticket deadline",
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 261,
+              "start": 254,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "ticketdive.com/event/idolstor…",
+              "end": 252,
+              "expanded_url": "https://ticketdive.com/event/idolstorm_0720",
+              "start": 229,
+              "url": "https://t.co/OcUjrz0sB4"
+            }
+          ]
+        },
+        "text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n                  IDOL STORM\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：7/20（月祝）\n⟣place :キネマ倶楽部\n⟣open/start：TBA/TBA\n⟣price：前売前方¥8,000/前売通常¥3,000 / 前売女性¥2,000 / 当日+500円（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n-7/20（月祝）21:59\n🔗 https://t.co/OcUjrz0sB4\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": null,
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-07-20",
+        "event_dates": [
+          "2026-07-20"
+        ],
+        "event_name": "IDOL STORM",
+        "extraction_confidence": 0.8,
+        "general_ticket_price": 8000,
+        "lottery_result_at": null,
+        "myojou_performance_time": null,
+        "notes": "ドリンク代: 各+1D\n⟣入場特典:明星カード(サインありチェキ)",
+        "open_time": null,
+        "payment_deadline_at": null,
+        "priority_ticket_name": "前方",
+        "priority_ticket_price": 8000,
+        "same_day_ticket_price": 500,
+        "source_kind": "ticket_update",
+        "source_post_id": "2068635341968593037",
+        "source_posted_at": "2026-06-21T10:01:13Z",
+        "source_raw": {
+          "api_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n                  IDOL STORM\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：7/20（月祝）\n⟣place :キネマ倶楽部\n⟣open/start：TBA/TBA\n⟣price：前売前方¥8,000/前売通常¥3,000 / 前売女性¥2,000 / 当日+500円（各＋1D） https://t.co/4T4qjqprn0",
+          "attachments": {
+            "media_keys": [
+              "3_2068635335165407232"
+            ]
+          },
+          "created_at": "2026-06-21T10:01:13.000Z",
+          "edit_history_tweet_ids": [
+            "2068635341968593037"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/4T4qjqprn0",
+                "end": 205,
+                "expanded_url": "https://x.com/info_myojou/status/2068635341968593037/photo/1",
+                "media_key": "3_2068635335165407232",
+                "start": 182,
+                "url": "https://t.co/4T4qjqprn0"
+              }
+            ]
+          },
+          "full_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n                  IDOL STORM\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：7/20（月祝）\n⟣place :キネマ倶楽部\n⟣open/start：TBA/TBA\n⟣price：前売前方¥8,000/前売通常¥3,000 / 前売女性¥2,000 / 当日+500円（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n-7/20（月祝）21:59\n🔗 https://t.co/OcUjrz0sB4\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2068635341968593037",
+          "media": [
+            {
+              "height": 3508,
+              "media_key": "3_2068635335165407232",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HLVE4JJa8AA5Bnv.jpg",
+              "width": 2480
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 261,
+                  "start": 254,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "ticketdive.com/event/idolstor…",
+                  "end": 252,
+                  "expanded_url": "https://ticketdive.com/event/idolstorm_0720",
+                  "start": 229,
+                  "url": "https://t.co/OcUjrz0sB4"
+                }
+              ]
+            },
+            "text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n                  IDOL STORM\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：7/20（月祝）\n⟣place :キネマ倶楽部\n⟣open/start：TBA/TBA\n⟣price：前売前方¥8,000/前売通常¥3,000 / 前売女性¥2,000 / 当日+500円（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n-7/20（月祝）21:59\n🔗 https://t.co/OcUjrz0sB4\n\n#myojou"
+          },
+          "text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n                  IDOL STORM\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：7/20（月祝）\n⟣place :キネマ倶楽部\n⟣open/start：TBA/TBA\n⟣price：前売前方¥8,000/前売通常¥3,000 / 前売女性¥2,000 / 当日+500円（各＋1D） https://t.co/4T4qjqprn0",
+          "truncated_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n                  IDOL STORM\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：7/20（月祝）\n⟣place :キネマ倶楽部\n⟣open/start：TBA/TBA\n⟣price：前売前方¥8,000/前売通常¥3,000 / 前売女性¥2,000 / 当日+500円（各＋1D） https://t.co/4T4qjqprn0"
+        },
+        "source_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n                  IDOL STORM\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：7/20（月祝）\n⟣place :キネマ倶楽部\n⟣open/start：TBA/TBA\n⟣price：前売前方¥8,000/前売通常¥3,000 / 前売女性¥2,000 / 当日+500円（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n-7/20（月祝）21:59\n🔗 https://t.co/OcUjrz0sB4\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2068635341968593037",
+        "start_time": null,
+        "ticket_application_deadline_at": null,
+        "ticket_application_start_at": null,
+        "ticket_sale_type": "先着",
+        "ticket_sales": [
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 8000,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2068635341968593037",
+            "source_url": "https://x.com/info_myojou/status/2068635341968593037",
+            "start_at": null,
+            "status": "不明",
+            "ticket_name": "前方",
+            "ticket_tier": "前方"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 3000,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2068635341968593037",
+            "source_url": "https://x.com/info_myojou/status/2068635341968593037",
+            "start_at": null,
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 500,
+            "result_at": null,
+            "sale_type": "当日券",
+            "source_post_id": "2068635341968593037",
+            "source_url": "https://x.com/info_myojou/status/2068635341968593037",
+            "start_at": null,
+            "status": "販売中",
+            "ticket_name": "当日券",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "https://ticketdive.com/event/idolstorm_0720",
+        "venue": "キネマ倶楽部"
+      },
+      "raw": {
+        "api_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n                  IDOL STORM\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：7/20（月祝）\n⟣place :キネマ倶楽部\n⟣open/start：TBA/TBA\n⟣price：前売前方¥8,000/前売通常¥3,000 / 前売女性¥2,000 / 当日+500円（各＋1D） https://t.co/4T4qjqprn0",
+        "attachments": {
+          "media_keys": [
+            "3_2068635335165407232"
+          ]
+        },
+        "created_at": "2026-06-21T10:01:13.000Z",
+        "edit_history_tweet_ids": [
+          "2068635341968593037"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/4T4qjqprn0",
+              "end": 205,
+              "expanded_url": "https://x.com/info_myojou/status/2068635341968593037/photo/1",
+              "media_key": "3_2068635335165407232",
+              "start": 182,
+              "url": "https://t.co/4T4qjqprn0"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n                  IDOL STORM\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：7/20（月祝）\n⟣place :キネマ倶楽部\n⟣open/start：TBA/TBA\n⟣price：前売前方¥8,000/前売通常¥3,000 / 前売女性¥2,000 / 当日+500円（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n-7/20（月祝）21:59\n🔗 https://t.co/OcUjrz0sB4\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2068635341968593037",
+        "media": [
+          {
+            "height": 3508,
+            "media_key": "3_2068635335165407232",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HLVE4JJa8AA5Bnv.jpg",
+            "width": 2480
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 261,
+                "start": 254,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "ticketdive.com/event/idolstor…",
+                "end": 252,
+                "expanded_url": "https://ticketdive.com/event/idolstorm_0720",
+                "start": 229,
+                "url": "https://t.co/OcUjrz0sB4"
+              }
+            ]
+          },
+          "text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n                  IDOL STORM\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：7/20（月祝）\n⟣place :キネマ倶楽部\n⟣open/start：TBA/TBA\n⟣price：前売前方¥8,000/前売通常¥3,000 / 前売女性¥2,000 / 当日+500円（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n-7/20（月祝）21:59\n🔗 https://t.co/OcUjrz0sB4\n\n#myojou"
+        },
+        "text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n                  IDOL STORM\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：7/20（月祝）\n⟣place :キネマ倶楽部\n⟣open/start：TBA/TBA\n⟣price：前売前方¥8,000/前売通常¥3,000 / 前売女性¥2,000 / 当日+500円（各＋1D） https://t.co/4T4qjqprn0",
+        "truncated_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n                  IDOL STORM\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：7/20（月祝）\n⟣place :キネマ倶楽部\n⟣open/start：TBA/TBA\n⟣price：前売前方¥8,000/前売通常¥3,000 / 前売女性¥2,000 / 当日+500円（各＋1D） https://t.co/4T4qjqprn0"
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n                  IDOL STORM\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：7/20（月祝）\n⟣place :キネマ倶楽部\n⟣open/start：TBA/TBA\n⟣price：前売前方¥8,000/前売通常¥3,000 / 前売女性¥2,000 / 当日+500円（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n-7/20（月祝）21:59\n🔗 https://t.co/OcUjrz0sB4\n\n#myojou",
+      "truncated_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n                  IDOL STORM\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：7/20（月祝）\n⟣place :キネマ倶楽部\n⟣open/start：TBA/TBA\n⟣price：前売前方¥8,000/前売通常¥3,000 / 前売女性¥2,000 / 当日+500円（各＋1D） https://t.co/4T4qjqprn0",
+      "url": "https://x.com/info_myojou/status/2068635341968593037"
+    },
+    {
+      "api_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「myojou ONLINE MEETING」\n\n⟣date：6/21（日）\n⟣1部 : 17:00-19:00 新衣装\n⟣2部 : 19:30-21:30サッカーユニフォームコーデ\n⟣price : ¥2,000/枚\n🔗1部 : https://t.co/ZbI0RZ5bhO\n     2部 : https://t.co/12RwhxfCML\n🔗公式YouTubeチャンネル : https://t.co/c0nVumBCkj",
+      "attachments": {
+        "media_keys": [
+          "3_2068554373370880000"
+        ]
+      },
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "online signing/benefit-detail content",
+        "source_kind": "other"
+      },
+      "created_at": "2026-06-21T04:39:30+00:00",
+      "entities": {
+        "urls": [
+          {
+            "description": "●インターネットサイン会とは？・あなただけの限定チェキに　『ニックネーム・サイン・日付・一言コメント』を記入してお届けいたします。　※販売締切は当日17:30までとなります。※ご住所の不備による発送不備に関しましてはこちらで責任は負いかねますので、不備のないようご注意ください。・チェキにサインを記入する様子は　myojou公式YouTube(https://www.youtube.com/@myojou-m8y)にて生配信！　購入時に\"備考欄\"にメッセージを記入して読んでもらおう！※メッセージは1メンバー150文字までとさせていただきます。進行の都合上、長文のコメントは簡略化させていただく場合がございます。予めご了承ください。",
+            "display_url": "myojou.base.shop/items/146812403",
+            "end": 162,
+            "expanded_url": "http://myojou.base.shop/items/146812403",
+            "start": 139,
+            "status": 200,
+            "title": "【1部:新衣装】6/21(日)myojou ONLINE MEETING | myojou",
+            "unwound_url": "https://myojou.base.shop/items/146812403",
+            "url": "https://t.co/ZbI0RZ5bhO"
+          },
+          {
+            "description": "●インターネットサイン会とは？・あなただけの限定チェキに　『ニックネーム・サイン・日付・一言コメント』を記入してお届けいたします。　※販売締切は当日17:30までとなります。※ご住所の不備による発送不備に関しましてはこちらで責任は負いかねますので、不備のないようご注意ください。・チェキにサインを記入する様子は　myojou公式YouTube(https://www.youtube.com/@myojou-m8y)にて生配信！　購入時に\"備考欄\"にメッセージを記入して読んでもらおう！※メッセージは1メンバー150文字までとさせていただきます。進行の都合上、長文のコメントは簡略化させていただく場合がございます。予めご了承ください。",
+            "display_url": "myojou.base.shop/items/146812558",
+            "end": 196,
+            "expanded_url": "http://myojou.base.shop/items/146812558",
+            "images": [
+              {
+                "height": 1697,
+                "url": "https://pbs.twimg.com/news_img/2067578168081620992/cE8j0UNW?format=jpg&name=orig",
+                "width": 1200
+              },
+              {
+                "height": 150,
+                "url": "https://pbs.twimg.com/news_img/2067578168081620992/cE8j0UNW?format=jpg&name=150x150",
+                "width": 150
+              }
+            ],
+            "start": 173,
+            "status": 200,
+            "title": "【2部:サッカーユニフォームコーデ】6/21(日)myojou ONLINE MEETING | myojou",
+            "unwound_url": "https://myojou.base.shop/items/146812558",
+            "url": "https://t.co/12RwhxfCML"
+          },
+          {
+            "display_url": "pic.x.com/c0nVumBCkj",
+            "end": 238,
+            "expanded_url": "https://x.com/info_myojou/status/2068554379712516476/photo/1",
+            "media_key": "3_2068554373370880000",
+            "start": 215,
+            "url": "https://t.co/c0nVumBCkj"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2068554379712516476",
+      "media": [
+        {
+          "height": 1754,
+          "media_key": "3_2068554373370880000",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HLT7Pi9aIAA1DoM.jpg",
+          "width": 1240
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 376,
+              "start": 369,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "myojou.base.shop/items/146812403",
+              "end": 162,
+              "expanded_url": "http://myojou.base.shop/items/146812403",
+              "start": 139,
+              "url": "https://t.co/T6H9TFfeHb"
+            },
+            {
+              "display_url": "myojou.base.shop/items/146812558",
+              "end": 196,
+              "expanded_url": "http://myojou.base.shop/items/146812558",
+              "start": 173,
+              "url": "https://t.co/2zJPnRHgnf"
+            },
+            {
+              "display_url": "youtube.com/@myojou-m8y?si…",
+              "end": 238,
+              "expanded_url": "https://youtube.com/@myojou-m8y?si=rDbGwbsRgYTA54Ss",
+              "start": 215,
+              "url": "https://t.co/LESirIHgxF"
+            }
+          ]
+        },
+        "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「myojou ONLINE MEETING」\n\n⟣date：6/21（日）\n⟣1部 : 17:00-19:00 新衣装\n⟣2部 : 19:30-21:30サッカーユニフォームコーデ\n⟣price : ¥2,000/枚\n🔗1部 : https://t.co/T6H9TFfeHb\n     2部 : https://t.co/2zJPnRHgnf\n🔗公式YouTubeチャンネル : https://t.co/LESirIHgxF\n\n※チェキには「ニックネーム･サイン･日付･コメント」を記入してお届けします。\n※各部開始から30分後に販売締切。\n※ 本イベントはインターネットサイン会になります。公式YouTubeチャンネルより、あなただけの限定チェキを作成する様子をお届け致します。\n\n #myojou"
+      },
+      "parsed_fields": null,
+      "raw": {
+        "api_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「myojou ONLINE MEETING」\n\n⟣date：6/21（日）\n⟣1部 : 17:00-19:00 新衣装\n⟣2部 : 19:30-21:30サッカーユニフォームコーデ\n⟣price : ¥2,000/枚\n🔗1部 : https://t.co/ZbI0RZ5bhO\n     2部 : https://t.co/12RwhxfCML\n🔗公式YouTubeチャンネル : https://t.co/c0nVumBCkj",
+        "attachments": {
+          "media_keys": [
+            "3_2068554373370880000"
+          ]
+        },
+        "created_at": "2026-06-21T04:39:30.000Z",
+        "edit_history_tweet_ids": [
+          "2068554379712516476"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "description": "●インターネットサイン会とは？・あなただけの限定チェキに　『ニックネーム・サイン・日付・一言コメント』を記入してお届けいたします。　※販売締切は当日17:30までとなります。※ご住所の不備による発送不備に関しましてはこちらで責任は負いかねますので、不備のないようご注意ください。・チェキにサインを記入する様子は　myojou公式YouTube(https://www.youtube.com/@myojou-m8y)にて生配信！　購入時に\"備考欄\"にメッセージを記入して読んでもらおう！※メッセージは1メンバー150文字までとさせていただきます。進行の都合上、長文のコメントは簡略化させていただく場合がございます。予めご了承ください。",
+              "display_url": "myojou.base.shop/items/146812403",
+              "end": 162,
+              "expanded_url": "http://myojou.base.shop/items/146812403",
+              "start": 139,
+              "status": 200,
+              "title": "【1部:新衣装】6/21(日)myojou ONLINE MEETING | myojou",
+              "unwound_url": "https://myojou.base.shop/items/146812403",
+              "url": "https://t.co/ZbI0RZ5bhO"
+            },
+            {
+              "description": "●インターネットサイン会とは？・あなただけの限定チェキに　『ニックネーム・サイン・日付・一言コメント』を記入してお届けいたします。　※販売締切は当日17:30までとなります。※ご住所の不備による発送不備に関しましてはこちらで責任は負いかねますので、不備のないようご注意ください。・チェキにサインを記入する様子は　myojou公式YouTube(https://www.youtube.com/@myojou-m8y)にて生配信！　購入時に\"備考欄\"にメッセージを記入して読んでもらおう！※メッセージは1メンバー150文字までとさせていただきます。進行の都合上、長文のコメントは簡略化させていただく場合がございます。予めご了承ください。",
+              "display_url": "myojou.base.shop/items/146812558",
+              "end": 196,
+              "expanded_url": "http://myojou.base.shop/items/146812558",
+              "images": [
+                {
+                  "height": 1697,
+                  "url": "https://pbs.twimg.com/news_img/2067578168081620992/cE8j0UNW?format=jpg&name=orig",
+                  "width": 1200
+                },
+                {
+                  "height": 150,
+                  "url": "https://pbs.twimg.com/news_img/2067578168081620992/cE8j0UNW?format=jpg&name=150x150",
+                  "width": 150
+                }
+              ],
+              "start": 173,
+              "status": 200,
+              "title": "【2部:サッカーユニフォームコーデ】6/21(日)myojou ONLINE MEETING | myojou",
+              "unwound_url": "https://myojou.base.shop/items/146812558",
+              "url": "https://t.co/12RwhxfCML"
+            },
+            {
+              "display_url": "pic.x.com/c0nVumBCkj",
+              "end": 238,
+              "expanded_url": "https://x.com/info_myojou/status/2068554379712516476/photo/1",
+              "media_key": "3_2068554373370880000",
+              "start": 215,
+              "url": "https://t.co/c0nVumBCkj"
+            }
+          ]
+        },
+        "full_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「myojou ONLINE MEETING」\n\n⟣date：6/21（日）\n⟣1部 : 17:00-19:00 新衣装\n⟣2部 : 19:30-21:30サッカーユニフォームコーデ\n⟣price : ¥2,000/枚\n🔗1部 : https://t.co/T6H9TFfeHb\n     2部 : https://t.co/2zJPnRHgnf\n🔗公式YouTubeチャンネル : https://t.co/LESirIHgxF\n\n※チェキには「ニックネーム･サイン･日付･コメント」を記入してお届けします。\n※各部開始から30分後に販売締切。\n※ 本イベントはインターネットサイン会になります。公式YouTubeチャンネルより、あなただけの限定チェキを作成する様子をお届け致します。\n\n #myojou",
+        "full_text_source": "note_tweet",
+        "id": "2068554379712516476",
+        "media": [
+          {
+            "height": 1754,
+            "media_key": "3_2068554373370880000",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HLT7Pi9aIAA1DoM.jpg",
+            "width": 1240
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 376,
+                "start": 369,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "myojou.base.shop/items/146812403",
+                "end": 162,
+                "expanded_url": "http://myojou.base.shop/items/146812403",
+                "start": 139,
+                "url": "https://t.co/T6H9TFfeHb"
+              },
+              {
+                "display_url": "myojou.base.shop/items/146812558",
+                "end": 196,
+                "expanded_url": "http://myojou.base.shop/items/146812558",
+                "start": 173,
+                "url": "https://t.co/2zJPnRHgnf"
+              },
+              {
+                "display_url": "youtube.com/@myojou-m8y?si…",
+                "end": 238,
+                "expanded_url": "https://youtube.com/@myojou-m8y?si=rDbGwbsRgYTA54Ss",
+                "start": 215,
+                "url": "https://t.co/LESirIHgxF"
+              }
+            ]
+          },
+          "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「myojou ONLINE MEETING」\n\n⟣date：6/21（日）\n⟣1部 : 17:00-19:00 新衣装\n⟣2部 : 19:30-21:30サッカーユニフォームコーデ\n⟣price : ¥2,000/枚\n🔗1部 : https://t.co/T6H9TFfeHb\n     2部 : https://t.co/2zJPnRHgnf\n🔗公式YouTubeチャンネル : https://t.co/LESirIHgxF\n\n※チェキには「ニックネーム･サイン･日付･コメント」を記入してお届けします。\n※各部開始から30分後に販売締切。\n※ 本イベントはインターネットサイン会になります。公式YouTubeチャンネルより、あなただけの限定チェキを作成する様子をお届け致します。\n\n #myojou"
+        },
+        "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「myojou ONLINE MEETING」\n\n⟣date：6/21（日）\n⟣1部 : 17:00-19:00 新衣装\n⟣2部 : 19:30-21:30サッカーユニフォームコーデ\n⟣price : ¥2,000/枚\n🔗1部 : https://t.co/ZbI0RZ5bhO\n     2部 : https://t.co/12RwhxfCML\n🔗公式YouTubeチャンネル : https://t.co/c0nVumBCkj",
+        "truncated_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「myojou ONLINE MEETING」\n\n⟣date：6/21（日）\n⟣1部 : 17:00-19:00 新衣装\n⟣2部 : 19:30-21:30サッカーユニフォームコーデ\n⟣price : ¥2,000/枚\n🔗1部 : https://t.co/ZbI0RZ5bhO\n     2部 : https://t.co/12RwhxfCML\n🔗公式YouTubeチャンネル : https://t.co/c0nVumBCkj"
+      },
+      "referenced_tweets": [],
+      "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「myojou ONLINE MEETING」\n\n⟣date：6/21（日）\n⟣1部 : 17:00-19:00 新衣装\n⟣2部 : 19:30-21:30サッカーユニフォームコーデ\n⟣price : ¥2,000/枚\n🔗1部 : https://t.co/T6H9TFfeHb\n     2部 : https://t.co/2zJPnRHgnf\n🔗公式YouTubeチャンネル : https://t.co/LESirIHgxF\n\n※チェキには「ニックネーム･サイン･日付･コメント」を記入してお届けします。\n※各部開始から30分後に販売締切。\n※ 本イベントはインターネットサイン会になります。公式YouTubeチャンネルより、あなただけの限定チェキを作成する様子をお届け致します。\n\n #myojou",
+      "truncated_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「myojou ONLINE MEETING」\n\n⟣date：6/21（日）\n⟣1部 : 17:00-19:00 新衣装\n⟣2部 : 19:30-21:30サッカーユニフォームコーデ\n⟣price : ¥2,000/枚\n🔗1部 : https://t.co/ZbI0RZ5bhO\n     2部 : https://t.co/12RwhxfCML\n🔗公式YouTubeチャンネル : https://t.co/c0nVumBCkj",
+      "url": "https://x.com/info_myojou/status/2068554379712516476"
+    },
+    {
       "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「myojou ONLINE MEETING」\n\n⟣date：6/21（日）\n⟣1部 : 17:00-19:00 新衣装\n⟣2部 : 19:30-21:30サッカーユニフォームコーデ\n⟣price : ¥2,000/枚\n🔗1部 : https://t.co/ZbI0RZ5J7m\n     2部 : https://t.co/12RwhxgaCj\n🔗公式YouTubeチャンネル : https://t.co/ple1vOkbFl",
       "attachments": {
         "media_keys": [
@@ -91795,7 +92756,7 @@
     "backfill": true,
     "dry_run": true,
     "estimated_x_post_reads": 411,
-    "latest_post_id": "2068324196615418209",
+    "latest_post_id": "2068695761727201463",
     "max_pages": 10,
     "max_posts": 500,
     "max_results": 5,
@@ -91838,16 +92799,16 @@
       }
     ],
     "pages_fetched": 5,
-    "posts_fetched": 438,
+    "posts_fetched": 442,
     "rate_limit_headers": {
       "x-rate-limit-limit": "10000",
       "x-rate-limit-remaining": "9993",
       "x-rate-limit-reset": "1781108896"
     },
-    "total_posts": 438,
-    "updated_at": "2026-06-20T20:18:35.871659+00:00",
+    "total_posts": 442,
+    "updated_at": "2026-06-21T20:27:06.541843+00:00",
     "username": "info_myojou"
   },
   "source": "x_api",
-  "updated_at": "2026-06-20T20:18:35.871659+00:00"
+  "updated_at": "2026-06-21T20:27:06.541843+00:00"
 }
