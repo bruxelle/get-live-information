@@ -2,6 +2,381 @@
   "captured_at": "2026-06-10T16:19:36.141820+00:00",
   "data": [
     {
+      "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「パラディークpresents「PARAD-i-SE Vol.5 -2周年ワンマン前SP！-」」\n\n🎙19:15-19:40\n📸21:00-22:00\n\n⟣date：6/24（水）\n⟣place：Veats Shibuya\n⟣open/start：17:30/18:00\n⟣price：前方チケット¥6,000/一般チケット¥2,000/女性･学生チケット¥1,000（各+1D） https://t.co/4G9s0HU40h",
+      "attachments": {
+        "media_keys": [
+          "3_2069416197637206016"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "day_before_reminder"
+      },
+      "created_at": "2026-06-23T13:44:06+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/4G9s0HU40h",
+            "end": 237,
+            "expanded_url": "https://x.com/info_myojou/status/2069416206910812184/photo/1",
+            "media_key": "3_2069416197637206016",
+            "start": 214,
+            "url": "https://t.co/4G9s0HU40h"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2069416206910812184",
+      "media": [
+        {
+          "height": 2048,
+          "media_key": "3_2069416197637206016",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HLgLEUia8AAN3J0.jpg",
+          "width": 1448
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 341,
+              "start": 334,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "ticketdive.com/event/paradeeq…",
+              "end": 332,
+              "expanded_url": "https://ticketdive.com/event/paradeeq260624_2",
+              "start": 309,
+              "url": "https://t.co/KK0CRnkikz"
+            }
+          ]
+        },
+        "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「パラディークpresents「PARAD-i-SE Vol.5 -2周年ワンマン前SP！-」」\n\n🎙19:15-19:40\n📸21:00-22:00\n\n⟣date：6/24（水）\n⟣place：Veats Shibuya\n⟣open/start：17:30/18:00\n⟣price：前方チケット¥6,000/一般チケット¥2,000/女性･学生チケット¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般先着販売】\n5/23(土)22:00-6/24(水)12:00\n【前方先着販売】\n6/10(水)21:00〜6/24(水)12:00\n🔗 https://t.co/KK0CRnkikz\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": "21:00-22:00",
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-06-24",
+        "event_dates": [
+          "2026-06-24"
+        ],
+        "event_name": "パラディークpresents「PARAD-i-SE Vol.5 -2周年ワンマン前SP!",
+        "extraction_confidence": 0.95,
+        "general_ticket_price": 2000,
+        "lottery_result_at": null,
+        "myojou_performance_time": "19:15-19:40",
+        "notes": "ドリンク代: 各+1D\n⟣入場特典:明星カード(サインありチェキ)",
+        "open_time": "17:30",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "前方チケット",
+        "priority_ticket_price": 6000,
+        "same_day_ticket_price": null,
+        "source_kind": "day_before_reminder",
+        "source_post_id": "2069416206910812184",
+        "source_posted_at": "2026-06-23T13:44:06Z",
+        "source_raw": {
+          "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「パラディークpresents「PARAD-i-SE Vol.5 -2周年ワンマン前SP！-」」\n\n🎙19:15-19:40\n📸21:00-22:00\n\n⟣date：6/24（水）\n⟣place：Veats Shibuya\n⟣open/start：17:30/18:00\n⟣price：前方チケット¥6,000/一般チケット¥2,000/女性･学生チケット¥1,000（各+1D） https://t.co/4G9s0HU40h",
+          "attachments": {
+            "media_keys": [
+              "3_2069416197637206016"
+            ]
+          },
+          "created_at": "2026-06-23T13:44:06.000Z",
+          "edit_history_tweet_ids": [
+            "2069416206910812184"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/4G9s0HU40h",
+                "end": 237,
+                "expanded_url": "https://x.com/info_myojou/status/2069416206910812184/photo/1",
+                "media_key": "3_2069416197637206016",
+                "start": 214,
+                "url": "https://t.co/4G9s0HU40h"
+              }
+            ]
+          },
+          "full_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「パラディークpresents「PARAD-i-SE Vol.5 -2周年ワンマン前SP！-」」\n\n🎙19:15-19:40\n📸21:00-22:00\n\n⟣date：6/24（水）\n⟣place：Veats Shibuya\n⟣open/start：17:30/18:00\n⟣price：前方チケット¥6,000/一般チケット¥2,000/女性･学生チケット¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般先着販売】\n5/23(土)22:00-6/24(水)12:00\n【前方先着販売】\n6/10(水)21:00〜6/24(水)12:00\n🔗 https://t.co/KK0CRnkikz\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2069416206910812184",
+          "media": [
+            {
+              "height": 2048,
+              "media_key": "3_2069416197637206016",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HLgLEUia8AAN3J0.jpg",
+              "width": 1448
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 341,
+                  "start": 334,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "ticketdive.com/event/paradeeq…",
+                  "end": 332,
+                  "expanded_url": "https://ticketdive.com/event/paradeeq260624_2",
+                  "start": 309,
+                  "url": "https://t.co/KK0CRnkikz"
+                }
+              ]
+            },
+            "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「パラディークpresents「PARAD-i-SE Vol.5 -2周年ワンマン前SP！-」」\n\n🎙19:15-19:40\n📸21:00-22:00\n\n⟣date：6/24（水）\n⟣place：Veats Shibuya\n⟣open/start：17:30/18:00\n⟣price：前方チケット¥6,000/一般チケット¥2,000/女性･学生チケット¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般先着販売】\n5/23(土)22:00-6/24(水)12:00\n【前方先着販売】\n6/10(水)21:00〜6/24(水)12:00\n🔗 https://t.co/KK0CRnkikz\n\n#myojou"
+          },
+          "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「パラディークpresents「PARAD-i-SE Vol.5 -2周年ワンマン前SP！-」」\n\n🎙19:15-19:40\n📸21:00-22:00\n\n⟣date：6/24（水）\n⟣place：Veats Shibuya\n⟣open/start：17:30/18:00\n⟣price：前方チケット¥6,000/一般チケット¥2,000/女性･学生チケット¥1,000（各+1D） https://t.co/4G9s0HU40h",
+          "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「パラディークpresents「PARAD-i-SE Vol.5 -2周年ワンマン前SP！-」」\n\n🎙19:15-19:40\n📸21:00-22:00\n\n⟣date：6/24（水）\n⟣place：Veats Shibuya\n⟣open/start：17:30/18:00\n⟣price：前方チケット¥6,000/一般チケット¥2,000/女性･学生チケット¥1,000（各+1D） https://t.co/4G9s0HU40h"
+        },
+        "source_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「パラディークpresents「PARAD-i-SE Vol.5 -2周年ワンマン前SP！-」」\n\n🎙19:15-19:40\n📸21:00-22:00\n\n⟣date：6/24（水）\n⟣place：Veats Shibuya\n⟣open/start：17:30/18:00\n⟣price：前方チケット¥6,000/一般チケット¥2,000/女性･学生チケット¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般先着販売】\n5/23(土)22:00-6/24(水)12:00\n【前方先着販売】\n6/10(水)21:00〜6/24(水)12:00\n🔗 https://t.co/KK0CRnkikz\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2069416206910812184",
+        "start_time": "18:00",
+        "ticket_application_deadline_at": "2026-06-24T12:00:00+09:00",
+        "ticket_application_start_at": "2026-06-10T21:00:00+09:00",
+        "ticket_sale_type": "先着",
+        "ticket_sales": [
+          {
+            "deadline_at": "2026-06-24T12:00:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 6000,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2069416206910812184",
+            "source_url": "https://x.com/info_myojou/status/2069416206910812184",
+            "start_at": "2027-05-23T22:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "前方チケット",
+            "ticket_tier": "前方"
+          },
+          {
+            "deadline_at": "2026-06-24T12:00:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 2000,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2069416206910812184",
+            "source_url": "https://x.com/info_myojou/status/2069416206910812184",
+            "start_at": "2027-05-23T22:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般チケット",
+            "ticket_tier": "一般"
+          },
+          {
+            "deadline_at": "2026-06-24T12:00:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 6000,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2069416206910812184",
+            "source_url": "https://x.com/info_myojou/status/2069416206910812184",
+            "start_at": "2026-06-10T21:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "前方チケット",
+            "ticket_tier": "前方"
+          },
+          {
+            "deadline_at": "2026-06-24T12:00:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 2000,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2069416206910812184",
+            "source_url": "https://x.com/info_myojou/status/2069416206910812184",
+            "start_at": "2026-06-10T21:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般チケット",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "https://ticketdive.com/event/paradeeq260624_2",
+        "venue": "Veats Shibuya"
+      },
+      "raw": {
+        "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「パラディークpresents「PARAD-i-SE Vol.5 -2周年ワンマン前SP！-」」\n\n🎙19:15-19:40\n📸21:00-22:00\n\n⟣date：6/24（水）\n⟣place：Veats Shibuya\n⟣open/start：17:30/18:00\n⟣price：前方チケット¥6,000/一般チケット¥2,000/女性･学生チケット¥1,000（各+1D） https://t.co/4G9s0HU40h",
+        "attachments": {
+          "media_keys": [
+            "3_2069416197637206016"
+          ]
+        },
+        "created_at": "2026-06-23T13:44:06.000Z",
+        "edit_history_tweet_ids": [
+          "2069416206910812184"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/4G9s0HU40h",
+              "end": 237,
+              "expanded_url": "https://x.com/info_myojou/status/2069416206910812184/photo/1",
+              "media_key": "3_2069416197637206016",
+              "start": 214,
+              "url": "https://t.co/4G9s0HU40h"
+            }
+          ]
+        },
+        "full_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「パラディークpresents「PARAD-i-SE Vol.5 -2周年ワンマン前SP！-」」\n\n🎙19:15-19:40\n📸21:00-22:00\n\n⟣date：6/24（水）\n⟣place：Veats Shibuya\n⟣open/start：17:30/18:00\n⟣price：前方チケット¥6,000/一般チケット¥2,000/女性･学生チケット¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般先着販売】\n5/23(土)22:00-6/24(水)12:00\n【前方先着販売】\n6/10(水)21:00〜6/24(水)12:00\n🔗 https://t.co/KK0CRnkikz\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2069416206910812184",
+        "media": [
+          {
+            "height": 2048,
+            "media_key": "3_2069416197637206016",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HLgLEUia8AAN3J0.jpg",
+            "width": 1448
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 341,
+                "start": 334,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "ticketdive.com/event/paradeeq…",
+                "end": 332,
+                "expanded_url": "https://ticketdive.com/event/paradeeq260624_2",
+                "start": 309,
+                "url": "https://t.co/KK0CRnkikz"
+              }
+            ]
+          },
+          "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「パラディークpresents「PARAD-i-SE Vol.5 -2周年ワンマン前SP！-」」\n\n🎙19:15-19:40\n📸21:00-22:00\n\n⟣date：6/24（水）\n⟣place：Veats Shibuya\n⟣open/start：17:30/18:00\n⟣price：前方チケット¥6,000/一般チケット¥2,000/女性･学生チケット¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般先着販売】\n5/23(土)22:00-6/24(水)12:00\n【前方先着販売】\n6/10(水)21:00〜6/24(水)12:00\n🔗 https://t.co/KK0CRnkikz\n\n#myojou"
+        },
+        "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「パラディークpresents「PARAD-i-SE Vol.5 -2周年ワンマン前SP！-」」\n\n🎙19:15-19:40\n📸21:00-22:00\n\n⟣date：6/24（水）\n⟣place：Veats Shibuya\n⟣open/start：17:30/18:00\n⟣price：前方チケット¥6,000/一般チケット¥2,000/女性･学生チケット¥1,000（各+1D） https://t.co/4G9s0HU40h",
+        "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「パラディークpresents「PARAD-i-SE Vol.5 -2周年ワンマン前SP！-」」\n\n🎙19:15-19:40\n📸21:00-22:00\n\n⟣date：6/24（水）\n⟣place：Veats Shibuya\n⟣open/start：17:30/18:00\n⟣price：前方チケット¥6,000/一般チケット¥2,000/女性･学生チケット¥1,000（各+1D） https://t.co/4G9s0HU40h"
+      },
+      "referenced_tweets": [],
+      "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「パラディークpresents「PARAD-i-SE Vol.5 -2周年ワンマン前SP！-」」\n\n🎙19:15-19:40\n📸21:00-22:00\n\n⟣date：6/24（水）\n⟣place：Veats Shibuya\n⟣open/start：17:30/18:00\n⟣price：前方チケット¥6,000/一般チケット¥2,000/女性･学生チケット¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般先着販売】\n5/23(土)22:00-6/24(水)12:00\n【前方先着販売】\n6/10(水)21:00〜6/24(水)12:00\n🔗 https://t.co/KK0CRnkikz\n\n#myojou",
+      "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「パラディークpresents「PARAD-i-SE Vol.5 -2周年ワンマン前SP！-」」\n\n🎙19:15-19:40\n📸21:00-22:00\n\n⟣date：6/24（水）\n⟣place：Veats Shibuya\n⟣open/start：17:30/18:00\n⟣price：前方チケット¥6,000/一般チケット¥2,000/女性･学生チケット¥1,000（各+1D） https://t.co/4G9s0HU40h",
+      "url": "https://x.com/info_myojou/status/2069416206910812184"
+    },
+    {
+      "api_text": "✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n                 𝐿𝐼𝑉𝐸 𝐷𝐼𝐺𝐸𝑆𝑇 \n         myojou Summer Vol.02\n           「アンチコンプリート」\n✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n\n歌に心を乗せて\n\n #myojou https://t.co/Uud0Gxvakg",
+      "attachments": {
+        "media_keys": [
+          "13_2069405596890386432"
+        ]
+      },
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "content/MV-like post",
+        "source_kind": "other"
+      },
+      "created_at": "2026-06-23T13:04:04+00:00",
+      "entities": {
+        "hashtags": [
+          {
+            "end": 139,
+            "start": 132,
+            "tag": "myojou"
+          }
+        ],
+        "urls": [
+          {
+            "display_url": "pic.x.com/Uud0Gxvakg",
+            "end": 163,
+            "expanded_url": "https://x.com/info_myojou/status/2069406131970310583/video/1",
+            "media_key": "13_2069405596890386432",
+            "start": 140,
+            "url": "https://t.co/Uud0Gxvakg"
+          }
+        ]
+      },
+      "full_text_source": "text",
+      "id": "2069406131970310583",
+      "media": [
+        {
+          "height": 1080,
+          "media_key": "13_2069405596890386432",
+          "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2069405596890386432/img/xSXHvWbq2r3zo-CS.jpg",
+          "type": "video",
+          "width": 1920
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "note_tweet": null,
+      "parsed_fields": null,
+      "raw": {
+        "api_text": "✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n                 𝐿𝐼𝑉𝐸 𝐷𝐼𝐺𝐸𝑆𝑇 \n         myojou Summer Vol.02\n           「アンチコンプリート」\n✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n\n歌に心を乗せて\n\n #myojou https://t.co/Uud0Gxvakg",
+        "attachments": {
+          "media_keys": [
+            "13_2069405596890386432"
+          ]
+        },
+        "created_at": "2026-06-23T13:04:04.000Z",
+        "edit_history_tweet_ids": [
+          "2069406131970310583"
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "end": 139,
+              "start": 132,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "pic.x.com/Uud0Gxvakg",
+              "end": 163,
+              "expanded_url": "https://x.com/info_myojou/status/2069406131970310583/video/1",
+              "media_key": "13_2069405596890386432",
+              "start": 140,
+              "url": "https://t.co/Uud0Gxvakg"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n                 𝐿𝐼𝑉𝐸 𝐷𝐼𝐺𝐸𝑆𝑇 \n         myojou Summer Vol.02\n           「アンチコンプリート」\n✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n\n歌に心を乗せて\n\n #myojou https://t.co/Uud0Gxvakg",
+        "full_text_source": "text",
+        "id": "2069406131970310583",
+        "media": [
+          {
+            "height": 1080,
+            "media_key": "13_2069405596890386432",
+            "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2069405596890386432/img/xSXHvWbq2r3zo-CS.jpg",
+            "type": "video",
+            "width": 1920
+          }
+        ],
+        "text": "✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n                 𝐿𝐼𝑉𝐸 𝐷𝐼𝐺𝐸𝑆𝑇 \n         myojou Summer Vol.02\n           「アンチコンプリート」\n✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n\n歌に心を乗せて\n\n #myojou https://t.co/Uud0Gxvakg",
+        "truncated_text": null
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n                 𝐿𝐼𝑉𝐸 𝐷𝐼𝐺𝐸𝑆𝑇 \n         myojou Summer Vol.02\n           「アンチコンプリート」\n✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n\n歌に心を乗せて\n\n #myojou https://t.co/Uud0Gxvakg",
+      "truncated_text": null,
+      "url": "https://x.com/info_myojou/status/2069406131970310583"
+    },
+    {
       "api_text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「パラディークpresents「PARAD-i-SE Vol.5 -2周年ワンマン前SP！-」」\n\n🎙19:15-19:40\n📸21:00-22:00\n\n⟣date：6/24（水）\n⟣place：Veats Shibuya\n⟣open/start：17:30/18:00 https://t.co/dlVBCvbc5W",
       "attachments": {
         "media_keys": [
@@ -94068,7 +94443,7 @@
     "backfill": true,
     "dry_run": true,
     "estimated_x_post_reads": 411,
-    "latest_post_id": "2069029614266232978",
+    "latest_post_id": "2069416206910812184",
     "max_pages": 10,
     "max_posts": 500,
     "max_results": 5,
@@ -94111,16 +94486,16 @@
       }
     ],
     "pages_fetched": 5,
-    "posts_fetched": 447,
+    "posts_fetched": 449,
     "rate_limit_headers": {
       "x-rate-limit-limit": "10000",
       "x-rate-limit-remaining": "9993",
       "x-rate-limit-reset": "1781108896"
     },
-    "total_posts": 447,
-    "updated_at": "2026-06-22T21:33:12.119339+00:00",
+    "total_posts": 449,
+    "updated_at": "2026-06-23T21:01:42.635693+00:00",
     "username": "info_myojou"
   },
   "source": "x_api",
-  "updated_at": "2026-06-22T21:33:12.119339+00:00"
+  "updated_at": "2026-06-23T21:01:42.635693+00:00"
 }
