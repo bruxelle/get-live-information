@@ -2,6 +2,1065 @@
   "captured_at": "2026-06-10T16:19:36.141820+00:00",
   "data": [
     {
+      "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「#ﾆｷﾌﾟﾚ『シキサイ。』」\n\n🎙19:30-20:00\n📸21:10-22:20\n\n⟣date：6/25（木）\n⟣place : 渋谷近未来会館\n⟣open/start：18:40-19:00\n⟣price：前売¥2,800/当日¥3,300（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】 https://t.co/GWggsI21l5",
+      "attachments": {
+        "media_keys": [
+          "3_2069783607388893184"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "day_before_reminder"
+      },
+      "created_at": "2026-06-24T14:25:14+00:00",
+      "entities": {
+        "hashtags": [
+          {
+            "end": 30,
+            "start": 24,
+            "tag": "ﾆｷﾌﾟﾚ"
+          }
+        ],
+        "urls": [
+          {
+            "display_url": "pic.x.com/GWggsI21l5",
+            "end": 206,
+            "expanded_url": "https://x.com/info_myojou/status/2069788948914974987/photo/1",
+            "media_key": "3_2069783607388893184",
+            "start": 183,
+            "url": "https://t.co/GWggsI21l5"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2069788948914974987",
+      "media": [
+        {
+          "height": 2048,
+          "media_key": "3_2069783607388893184",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HLlZOYhXcAAWDor.jpg",
+          "width": 2047
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 30,
+              "start": 24,
+              "tag": "ﾆｷﾌﾟﾚ"
+            },
+            {
+              "end": 242,
+              "start": 235,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "ticketdive.com/event/20260625…",
+              "end": 233,
+              "expanded_url": "https://ticketdive.com/event/20260625_nikipre",
+              "start": 210,
+              "url": "https://t.co/U92fxYpxtb"
+            }
+          ]
+        },
+        "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「#ﾆｷﾌﾟﾚ『シキサイ。』」\n\n🎙19:30-20:00\n📸21:10-22:20\n\n⟣date：6/25（木）\n⟣place : 渋谷近未来会館\n⟣open/start：18:40-19:00\n⟣price：前売¥2,800/当日¥3,300（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n5/1（金）22:00-6/25（木）18:00\n🔗 https://t.co/U92fxYpxtb\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": "21:10-22:20",
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-06-25",
+        "event_dates": [
+          "2026-06-25"
+        ],
+        "event_name": "シキサイ。",
+        "extraction_confidence": 0.95,
+        "general_ticket_price": 2800,
+        "lottery_result_at": null,
+        "myojou_performance_time": "19:30-20:00",
+        "notes": "ドリンク代: 各+1D\n⟣入場特典:明星カード(サインありチェキ)",
+        "open_time": "18:40",
+        "payment_deadline_at": null,
+        "priority_ticket_name": null,
+        "priority_ticket_price": null,
+        "same_day_ticket_price": 3300,
+        "source_kind": "day_before_reminder",
+        "source_post_id": "2069788948914974987",
+        "source_posted_at": "2026-06-24T14:25:14Z",
+        "source_raw": {
+          "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「#ﾆｷﾌﾟﾚ『シキサイ。』」\n\n🎙19:30-20:00\n📸21:10-22:20\n\n⟣date：6/25（木）\n⟣place : 渋谷近未来会館\n⟣open/start：18:40-19:00\n⟣price：前売¥2,800/当日¥3,300（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】 https://t.co/GWggsI21l5",
+          "attachments": {
+            "media_keys": [
+              "3_2069783607388893184"
+            ]
+          },
+          "created_at": "2026-06-24T14:25:14.000Z",
+          "edit_history_tweet_ids": [
+            "2069783614158696749",
+            "2069788948914974987"
+          ],
+          "entities": {
+            "hashtags": [
+              {
+                "end": 30,
+                "start": 24,
+                "tag": "ﾆｷﾌﾟﾚ"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "pic.x.com/GWggsI21l5",
+                "end": 206,
+                "expanded_url": "https://x.com/info_myojou/status/2069788948914974987/photo/1",
+                "media_key": "3_2069783607388893184",
+                "start": 183,
+                "url": "https://t.co/GWggsI21l5"
+              }
+            ]
+          },
+          "full_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「#ﾆｷﾌﾟﾚ『シキサイ。』」\n\n🎙19:30-20:00\n📸21:10-22:20\n\n⟣date：6/25（木）\n⟣place : 渋谷近未来会館\n⟣open/start：18:40-19:00\n⟣price：前売¥2,800/当日¥3,300（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n5/1（金）22:00-6/25（木）18:00\n🔗 https://t.co/U92fxYpxtb\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2069788948914974987",
+          "media": [
+            {
+              "height": 2048,
+              "media_key": "3_2069783607388893184",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HLlZOYhXcAAWDor.jpg",
+              "width": 2047
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 30,
+                  "start": 24,
+                  "tag": "ﾆｷﾌﾟﾚ"
+                },
+                {
+                  "end": 242,
+                  "start": 235,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "ticketdive.com/event/20260625…",
+                  "end": 233,
+                  "expanded_url": "https://ticketdive.com/event/20260625_nikipre",
+                  "start": 210,
+                  "url": "https://t.co/U92fxYpxtb"
+                }
+              ]
+            },
+            "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「#ﾆｷﾌﾟﾚ『シキサイ。』」\n\n🎙19:30-20:00\n📸21:10-22:20\n\n⟣date：6/25（木）\n⟣place : 渋谷近未来会館\n⟣open/start：18:40-19:00\n⟣price：前売¥2,800/当日¥3,300（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n5/1（金）22:00-6/25（木）18:00\n🔗 https://t.co/U92fxYpxtb\n\n#myojou"
+          },
+          "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「#ﾆｷﾌﾟﾚ『シキサイ。』」\n\n🎙19:30-20:00\n📸21:10-22:20\n\n⟣date：6/25（木）\n⟣place : 渋谷近未来会館\n⟣open/start：18:40-19:00\n⟣price：前売¥2,800/当日¥3,300（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】 https://t.co/GWggsI21l5",
+          "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「#ﾆｷﾌﾟﾚ『シキサイ。』」\n\n🎙19:30-20:00\n📸21:10-22:20\n\n⟣date：6/25（木）\n⟣place : 渋谷近未来会館\n⟣open/start：18:40-19:00\n⟣price：前売¥2,800/当日¥3,300（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】 https://t.co/GWggsI21l5"
+        },
+        "source_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「#ﾆｷﾌﾟﾚ『シキサイ。』」\n\n🎙19:30-20:00\n📸21:10-22:20\n\n⟣date：6/25（木）\n⟣place : 渋谷近未来会館\n⟣open/start：18:40-19:00\n⟣price：前売¥2,800/当日¥3,300（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n5/1（金）22:00-6/25（木）18:00\n🔗 https://t.co/U92fxYpxtb\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2069788948914974987",
+        "start_time": "19:00",
+        "ticket_application_deadline_at": "2026-06-25T18:00:00+09:00",
+        "ticket_application_start_at": "2027-05-01T22:00:00+09:00",
+        "ticket_sale_type": "一般",
+        "ticket_sales": [
+          {
+            "deadline_at": "2026-06-25T18:00:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 2800,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2069788948914974987",
+            "source_url": "https://x.com/info_myojou/status/2069788948914974987",
+            "start_at": "2027-05-01T22:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 3300,
+            "result_at": null,
+            "sale_type": "当日券",
+            "source_post_id": "2069788948914974987",
+            "source_url": "https://x.com/info_myojou/status/2069788948914974987",
+            "start_at": null,
+            "status": "販売中",
+            "ticket_name": "当日券",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "https://ticketdive.com/event/20260625_nikipre",
+        "venue": "渋谷近未来会館"
+      },
+      "raw": {
+        "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「#ﾆｷﾌﾟﾚ『シキサイ。』」\n\n🎙19:30-20:00\n📸21:10-22:20\n\n⟣date：6/25（木）\n⟣place : 渋谷近未来会館\n⟣open/start：18:40-19:00\n⟣price：前売¥2,800/当日¥3,300（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】 https://t.co/GWggsI21l5",
+        "attachments": {
+          "media_keys": [
+            "3_2069783607388893184"
+          ]
+        },
+        "created_at": "2026-06-24T14:25:14.000Z",
+        "edit_history_tweet_ids": [
+          "2069783614158696749",
+          "2069788948914974987"
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "end": 30,
+              "start": 24,
+              "tag": "ﾆｷﾌﾟﾚ"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "pic.x.com/GWggsI21l5",
+              "end": 206,
+              "expanded_url": "https://x.com/info_myojou/status/2069788948914974987/photo/1",
+              "media_key": "3_2069783607388893184",
+              "start": 183,
+              "url": "https://t.co/GWggsI21l5"
+            }
+          ]
+        },
+        "full_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「#ﾆｷﾌﾟﾚ『シキサイ。』」\n\n🎙19:30-20:00\n📸21:10-22:20\n\n⟣date：6/25（木）\n⟣place : 渋谷近未来会館\n⟣open/start：18:40-19:00\n⟣price：前売¥2,800/当日¥3,300（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n5/1（金）22:00-6/25（木）18:00\n🔗 https://t.co/U92fxYpxtb\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2069788948914974987",
+        "media": [
+          {
+            "height": 2048,
+            "media_key": "3_2069783607388893184",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HLlZOYhXcAAWDor.jpg",
+            "width": 2047
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 30,
+                "start": 24,
+                "tag": "ﾆｷﾌﾟﾚ"
+              },
+              {
+                "end": 242,
+                "start": 235,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "ticketdive.com/event/20260625…",
+                "end": 233,
+                "expanded_url": "https://ticketdive.com/event/20260625_nikipre",
+                "start": 210,
+                "url": "https://t.co/U92fxYpxtb"
+              }
+            ]
+          },
+          "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「#ﾆｷﾌﾟﾚ『シキサイ。』」\n\n🎙19:30-20:00\n📸21:10-22:20\n\n⟣date：6/25（木）\n⟣place : 渋谷近未来会館\n⟣open/start：18:40-19:00\n⟣price：前売¥2,800/当日¥3,300（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n5/1（金）22:00-6/25（木）18:00\n🔗 https://t.co/U92fxYpxtb\n\n#myojou"
+        },
+        "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「#ﾆｷﾌﾟﾚ『シキサイ。』」\n\n🎙19:30-20:00\n📸21:10-22:20\n\n⟣date：6/25（木）\n⟣place : 渋谷近未来会館\n⟣open/start：18:40-19:00\n⟣price：前売¥2,800/当日¥3,300（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】 https://t.co/GWggsI21l5",
+        "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「#ﾆｷﾌﾟﾚ『シキサイ。』」\n\n🎙19:30-20:00\n📸21:10-22:20\n\n⟣date：6/25（木）\n⟣place : 渋谷近未来会館\n⟣open/start：18:40-19:00\n⟣price：前売¥2,800/当日¥3,300（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】 https://t.co/GWggsI21l5"
+      },
+      "referenced_tweets": [],
+      "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「#ﾆｷﾌﾟﾚ『シキサイ。』」\n\n🎙19:30-20:00\n📸21:10-22:20\n\n⟣date：6/25（木）\n⟣place : 渋谷近未来会館\n⟣open/start：18:40-19:00\n⟣price：前売¥2,800/当日¥3,300（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n5/1（金）22:00-6/25（木）18:00\n🔗 https://t.co/U92fxYpxtb\n\n#myojou",
+      "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「#ﾆｷﾌﾟﾚ『シキサイ。』」\n\n🎙19:30-20:00\n📸21:10-22:20\n\n⟣date：6/25（木）\n⟣place : 渋谷近未来会館\n⟣open/start：18:40-19:00\n⟣price：前売¥2,800/当日¥3,300（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】 https://t.co/GWggsI21l5",
+      "url": "https://x.com/info_myojou/status/2069788948914974987"
+    },
+    {
+      "api_text": "✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n                           ⟡.·*.御礼.*·.⟡\n                パラディークpresents \n「PARAD-i-SE Vol.5 -2周年ワンマン前SP！-」\n✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n\n本日は「パラディークpresents「PARAD-i-SE Vol.5 https://t.co/aXbf2Y1YuW",
+      "attachments": {
+        "media_keys": [
+          "3_2069774166127951873"
+        ]
+      },
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "profile/member introduction",
+        "source_kind": "other"
+      },
+      "created_at": "2026-06-24T13:26:32+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/aXbf2Y1YuW",
+            "end": 217,
+            "expanded_url": "https://x.com/info_myojou/status/2069774173388566871/photo/1",
+            "media_key": "3_2069774166127951873",
+            "start": 194,
+            "url": "https://t.co/aXbf2Y1YuW"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2069774173388566871",
+      "media": [
+        {
+          "alt_text": "M1,星景讃歌\nM2,軌跡まで\nM3,僕彩色\nM4,蛍夏\nM5,HeartBeat\nM6,アンチコンプリート",
+          "height": 960,
+          "media_key": "3_2069774166127951873",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HLlQo1FWQAECjXb.jpg",
+          "width": 1706
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 374,
+              "start": 367,
+              "tag": "myojou"
+            }
+          ],
+          "mentions": [
+            {
+              "end": 247,
+              "id": "1981655668626165760",
+              "start": 235,
+              "username": "myojou_ruka"
+            },
+            {
+              "end": 264,
+              "id": "2009245855694675968",
+              "start": 253,
+              "username": "myojou_miu"
+            },
+            {
+              "end": 285,
+              "id": "1344586625901158401",
+              "start": 270,
+              "username": "myojou_usukura"
+            },
+            {
+              "end": 313,
+              "id": "1590652199407083520",
+              "start": 299,
+              "username": "myojou_cocone"
+            },
+            {
+              "end": 332,
+              "id": "1754991922807177216",
+              "start": 319,
+              "username": "myojou_shino"
+            },
+            {
+              "end": 349,
+              "id": "2009274765895450624",
+              "start": 338,
+              "username": "myojou_yun"
+            }
+          ]
+        },
+        "text": "✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n                           ⟡.·*.御礼.*·.⟡\n                パラディークpresents \n「PARAD-i-SE Vol.5 -2周年ワンマン前SP！-」\n✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n\n本日は「パラディークpresents「PARAD-i-SE Vol.5 -2周年ワンマン前SP！-」」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n日陽みう@myojou_miu \n薄倉りな@myojou_usukura \n\n下段左から\n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n澪奈ゆん@myojou_yun \n\nSETLIST▶︎ALT\n\n #myojou"
+      },
+      "parsed_fields": null,
+      "raw": {
+        "api_text": "✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n                           ⟡.·*.御礼.*·.⟡\n                パラディークpresents \n「PARAD-i-SE Vol.5 -2周年ワンマン前SP！-」\n✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n\n本日は「パラディークpresents「PARAD-i-SE Vol.5 https://t.co/aXbf2Y1YuW",
+        "attachments": {
+          "media_keys": [
+            "3_2069774166127951873"
+          ]
+        },
+        "created_at": "2026-06-24T13:26:32.000Z",
+        "edit_history_tweet_ids": [
+          "2069774173388566871"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/aXbf2Y1YuW",
+              "end": 217,
+              "expanded_url": "https://x.com/info_myojou/status/2069774173388566871/photo/1",
+              "media_key": "3_2069774166127951873",
+              "start": 194,
+              "url": "https://t.co/aXbf2Y1YuW"
+            }
+          ]
+        },
+        "full_text": "✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n                           ⟡.·*.御礼.*·.⟡\n                パラディークpresents \n「PARAD-i-SE Vol.5 -2周年ワンマン前SP！-」\n✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n\n本日は「パラディークpresents「PARAD-i-SE Vol.5 -2周年ワンマン前SP！-」」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n日陽みう@myojou_miu \n薄倉りな@myojou_usukura \n\n下段左から\n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n澪奈ゆん@myojou_yun \n\nSETLIST▶︎ALT\n\n #myojou",
+        "full_text_source": "note_tweet",
+        "id": "2069774173388566871",
+        "media": [
+          {
+            "alt_text": "M1,星景讃歌\nM2,軌跡まで\nM3,僕彩色\nM4,蛍夏\nM5,HeartBeat\nM6,アンチコンプリート",
+            "height": 960,
+            "media_key": "3_2069774166127951873",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HLlQo1FWQAECjXb.jpg",
+            "width": 1706
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 374,
+                "start": 367,
+                "tag": "myojou"
+              }
+            ],
+            "mentions": [
+              {
+                "end": 247,
+                "id": "1981655668626165760",
+                "start": 235,
+                "username": "myojou_ruka"
+              },
+              {
+                "end": 264,
+                "id": "2009245855694675968",
+                "start": 253,
+                "username": "myojou_miu"
+              },
+              {
+                "end": 285,
+                "id": "1344586625901158401",
+                "start": 270,
+                "username": "myojou_usukura"
+              },
+              {
+                "end": 313,
+                "id": "1590652199407083520",
+                "start": 299,
+                "username": "myojou_cocone"
+              },
+              {
+                "end": 332,
+                "id": "1754991922807177216",
+                "start": 319,
+                "username": "myojou_shino"
+              },
+              {
+                "end": 349,
+                "id": "2009274765895450624",
+                "start": 338,
+                "username": "myojou_yun"
+              }
+            ]
+          },
+          "text": "✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n                           ⟡.·*.御礼.*·.⟡\n                パラディークpresents \n「PARAD-i-SE Vol.5 -2周年ワンマン前SP！-」\n✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n\n本日は「パラディークpresents「PARAD-i-SE Vol.5 -2周年ワンマン前SP！-」」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n日陽みう@myojou_miu \n薄倉りな@myojou_usukura \n\n下段左から\n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n澪奈ゆん@myojou_yun \n\nSETLIST▶︎ALT\n\n #myojou"
+        },
+        "text": "✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n                           ⟡.·*.御礼.*·.⟡\n                パラディークpresents \n「PARAD-i-SE Vol.5 -2周年ワンマン前SP！-」\n✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n\n本日は「パラディークpresents「PARAD-i-SE Vol.5 https://t.co/aXbf2Y1YuW",
+        "truncated_text": "✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n                           ⟡.·*.御礼.*·.⟡\n                パラディークpresents \n「PARAD-i-SE Vol.5 -2周年ワンマン前SP！-」\n✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n\n本日は「パラディークpresents「PARAD-i-SE Vol.5 https://t.co/aXbf2Y1YuW"
+      },
+      "referenced_tweets": [],
+      "text": "✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n                           ⟡.·*.御礼.*·.⟡\n                パラディークpresents \n「PARAD-i-SE Vol.5 -2周年ワンマン前SP！-」\n✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n\n本日は「パラディークpresents「PARAD-i-SE Vol.5 -2周年ワンマン前SP！-」」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n日陽みう@myojou_miu \n薄倉りな@myojou_usukura \n\n下段左から\n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n澪奈ゆん@myojou_yun \n\nSETLIST▶︎ALT\n\n #myojou",
+      "truncated_text": "✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n                           ⟡.·*.御礼.*·.⟡\n                パラディークpresents \n「PARAD-i-SE Vol.5 -2周年ワンマン前SP！-」\n✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n\n本日は「パラディークpresents「PARAD-i-SE Vol.5 https://t.co/aXbf2Y1YuW",
+      "url": "https://x.com/info_myojou/status/2069774173388566871"
+    },
+    {
+      "api_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            ˚.⋆ラジオ配信˖°⋆\n          myojou天体観測 #10\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣2026.06.24 22:00 プレミア公開\n⟣ myojou公式YouTubeチャンネル\n🔗 https://t.co/VTXnrp71tE\n\n #myojou",
+      "attachments": {},
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "radio/non-live",
+        "source_kind": "other"
+      },
+      "created_at": "2026-06-24T12:10:50+00:00",
+      "entities": {
+        "hashtags": [
+          {
+            "end": 173,
+            "start": 166,
+            "tag": "myojou"
+          }
+        ],
+        "urls": [
+          {
+            "description": "「6人の少女が夜明けの空に描くストーリー」 公式X : https://x.com/info_myojou公式TikTok : ...",
+            "display_url": "youtube.com/watch?v=1ApaA4…",
+            "end": 163,
+            "expanded_url": "https://www.youtube.com/watch?v=1ApaA4BJNBo",
+            "images": [
+              {
+                "height": 720,
+                "url": "https://pbs.twimg.com/news_img/2069755171903787010/KOgG9tet?format=jpg&name=orig",
+                "width": 1280
+              },
+              {
+                "height": 150,
+                "url": "https://pbs.twimg.com/news_img/2069755171903787010/KOgG9tet?format=jpg&name=150x150",
+                "width": 150
+              }
+            ],
+            "start": 140,
+            "status": 200,
+            "title": "myojou天体観測 #10",
+            "unwound_url": "https://www.youtube.com/watch?v=1ApaA4BJNBo",
+            "url": "https://t.co/VTXnrp71tE"
+          }
+        ]
+      },
+      "full_text_source": "text",
+      "id": "2069755125279912185",
+      "media": [],
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "note_tweet": null,
+      "parsed_fields": null,
+      "raw": {
+        "api_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            ˚.⋆ラジオ配信˖°⋆\n          myojou天体観測 #10\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣2026.06.24 22:00 プレミア公開\n⟣ myojou公式YouTubeチャンネル\n🔗 https://t.co/VTXnrp71tE\n\n #myojou",
+        "created_at": "2026-06-24T12:10:50.000Z",
+        "edit_history_tweet_ids": [
+          "2069755125279912185"
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "end": 173,
+              "start": 166,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "description": "「6人の少女が夜明けの空に描くストーリー」 公式X : https://x.com/info_myojou公式TikTok : ...",
+              "display_url": "youtube.com/watch?v=1ApaA4…",
+              "end": 163,
+              "expanded_url": "https://www.youtube.com/watch?v=1ApaA4BJNBo",
+              "images": [
+                {
+                  "height": 720,
+                  "url": "https://pbs.twimg.com/news_img/2069755171903787010/KOgG9tet?format=jpg&name=orig",
+                  "width": 1280
+                },
+                {
+                  "height": 150,
+                  "url": "https://pbs.twimg.com/news_img/2069755171903787010/KOgG9tet?format=jpg&name=150x150",
+                  "width": 150
+                }
+              ],
+              "start": 140,
+              "status": 200,
+              "title": "myojou天体観測 #10",
+              "unwound_url": "https://www.youtube.com/watch?v=1ApaA4BJNBo",
+              "url": "https://t.co/VTXnrp71tE"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            ˚.⋆ラジオ配信˖°⋆\n          myojou天体観測 #10\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣2026.06.24 22:00 プレミア公開\n⟣ myojou公式YouTubeチャンネル\n🔗 https://t.co/VTXnrp71tE\n\n #myojou",
+        "full_text_source": "text",
+        "id": "2069755125279912185",
+        "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            ˚.⋆ラジオ配信˖°⋆\n          myojou天体観測 #10\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣2026.06.24 22:00 プレミア公開\n⟣ myojou公式YouTubeチャンネル\n🔗 https://t.co/VTXnrp71tE\n\n #myojou",
+        "truncated_text": null
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            ˚.⋆ラジオ配信˖°⋆\n          myojou天体観測 #10\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣2026.06.24 22:00 プレミア公開\n⟣ myojou公式YouTubeチャンネル\n🔗 https://t.co/VTXnrp71tE\n\n #myojou",
+      "truncated_text": null,
+      "url": "https://x.com/info_myojou/status/2069755125279912185"
+    },
+    {
+      "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             マリークラウンPresents\n           『 MARIE PARADE -vol,2- 』\n                Special 2man Live\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙19:15-19:45\n📸20:30-22:00\n\n⟣date：7/28（火）\n⟣place : 渋谷WOMB LIVE https://t.co/qc5GtIoiIK",
+      "attachments": {
+        "media_keys": [
+          "3_2069737386108751872"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "ticket_update"
+      },
+      "created_at": "2026-06-24T11:00:23+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/qc5GtIoiIK",
+            "end": 233,
+            "expanded_url": "https://x.com/info_myojou/status/2069737394035995011/photo/1",
+            "media_key": "3_2069737386108751872",
+            "start": 210,
+            "url": "https://t.co/qc5GtIoiIK"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2069737394035995011",
+      "media": [
+        {
+          "height": 3933,
+          "media_key": "3_2069737386108751872",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HLkvL81bkAA1n92.jpg",
+          "width": 2790
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 401,
+              "start": 394,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "t-dv.com/mrcr0728",
+              "end": 392,
+              "expanded_url": "https://t-dv.com/mrcr0728",
+              "start": 369,
+              "url": "https://t.co/KijOUvneo9"
+            }
+          ]
+        },
+        "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             マリークラウンPresents\n           『 MARIE PARADE -vol,2- 』\n                Special 2man Live\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙19:15-19:45\n📸20:30-22:00\n\n⟣date：7/28（火）\n⟣place : 渋谷WOMB LIVE\n⟣open/start：18:30/19:45\n⟣price：前方（前方エリアあり）¥5,000/一般チケット¥2,500/ 女性チケット¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先行抽選】\n6/24（水）20:00-7/5（日）23:59\n【一般販売】\n7/7（月）21:00-\n🔗 https://t.co/KijOUvneo9\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": "20:30-22:00",
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-07-28",
+        "event_dates": [
+          "2026-07-28"
+        ],
+        "event_name": "MARIE PARADE -vol,2",
+        "extraction_confidence": 0.95,
+        "general_ticket_price": 2500,
+        "lottery_result_at": null,
+        "myojou_performance_time": "19:15-19:45",
+        "notes": "ドリンク代: 各+1D\n⟣入場特典:明星カード(サインありチェキ)",
+        "open_time": "18:30",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "前方(前方エリアあり)",
+        "priority_ticket_price": 5000,
+        "same_day_ticket_price": null,
+        "source_kind": "ticket_update",
+        "source_post_id": "2069737394035995011",
+        "source_posted_at": "2026-06-24T11:00:23Z",
+        "source_raw": {
+          "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             マリークラウンPresents\n           『 MARIE PARADE -vol,2- 』\n                Special 2man Live\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙19:15-19:45\n📸20:30-22:00\n\n⟣date：7/28（火）\n⟣place : 渋谷WOMB LIVE https://t.co/qc5GtIoiIK",
+          "attachments": {
+            "media_keys": [
+              "3_2069737386108751872"
+            ]
+          },
+          "created_at": "2026-06-24T11:00:23.000Z",
+          "edit_history_tweet_ids": [
+            "2069737394035995011"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/qc5GtIoiIK",
+                "end": 233,
+                "expanded_url": "https://x.com/info_myojou/status/2069737394035995011/photo/1",
+                "media_key": "3_2069737386108751872",
+                "start": 210,
+                "url": "https://t.co/qc5GtIoiIK"
+              }
+            ]
+          },
+          "full_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             マリークラウンPresents\n           『 MARIE PARADE -vol,2- 』\n                Special 2man Live\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙19:15-19:45\n📸20:30-22:00\n\n⟣date：7/28（火）\n⟣place : 渋谷WOMB LIVE\n⟣open/start：18:30/19:45\n⟣price：前方（前方エリアあり）¥5,000/一般チケット¥2,500/ 女性チケット¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先行抽選】\n6/24（水）20:00-7/5（日）23:59\n【一般販売】\n7/7（月）21:00-\n🔗 https://t.co/KijOUvneo9\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2069737394035995011",
+          "media": [
+            {
+              "height": 3933,
+              "media_key": "3_2069737386108751872",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HLkvL81bkAA1n92.jpg",
+              "width": 2790
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 401,
+                  "start": 394,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "t-dv.com/mrcr0728",
+                  "end": 392,
+                  "expanded_url": "https://t-dv.com/mrcr0728",
+                  "start": 369,
+                  "url": "https://t.co/KijOUvneo9"
+                }
+              ]
+            },
+            "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             マリークラウンPresents\n           『 MARIE PARADE -vol,2- 』\n                Special 2man Live\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙19:15-19:45\n📸20:30-22:00\n\n⟣date：7/28（火）\n⟣place : 渋谷WOMB LIVE\n⟣open/start：18:30/19:45\n⟣price：前方（前方エリアあり）¥5,000/一般チケット¥2,500/ 女性チケット¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先行抽選】\n6/24（水）20:00-7/5（日）23:59\n【一般販売】\n7/7（月）21:00-\n🔗 https://t.co/KijOUvneo9\n\n#myojou"
+          },
+          "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             マリークラウンPresents\n           『 MARIE PARADE -vol,2- 』\n                Special 2man Live\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙19:15-19:45\n📸20:30-22:00\n\n⟣date：7/28（火）\n⟣place : 渋谷WOMB LIVE https://t.co/qc5GtIoiIK",
+          "truncated_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             マリークラウンPresents\n           『 MARIE PARADE -vol,2- 』\n                Special 2man Live\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙19:15-19:45\n📸20:30-22:00\n\n⟣date：7/28（火）\n⟣place : 渋谷WOMB LIVE https://t.co/qc5GtIoiIK"
+        },
+        "source_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             マリークラウンPresents\n           『 MARIE PARADE -vol,2- 』\n                Special 2man Live\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙19:15-19:45\n📸20:30-22:00\n\n⟣date：7/28（火）\n⟣place : 渋谷WOMB LIVE\n⟣open/start：18:30/19:45\n⟣price：前方（前方エリアあり）¥5,000/一般チケット¥2,500/ 女性チケット¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先行抽選】\n6/24（水）20:00-7/5（日）23:59\n【一般販売】\n7/7（月）21:00-\n🔗 https://t.co/KijOUvneo9\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2069737394035995011",
+        "start_time": "19:45",
+        "ticket_application_deadline_at": "2026-07-05T23:59:00+09:00",
+        "ticket_application_start_at": "2026-06-24T20:00:00+09:00",
+        "ticket_sale_type": "一般",
+        "ticket_sales": [
+          {
+            "deadline_at": "2026-07-05T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 5000,
+            "result_at": null,
+            "sale_type": "抽選",
+            "source_post_id": "2069737394035995011",
+            "source_url": "https://x.com/info_myojou/status/2069737394035995011",
+            "start_at": "2026-06-24T20:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "前方",
+            "ticket_tier": "前方"
+          },
+          {
+            "deadline_at": "2026-07-05T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 2500,
+            "result_at": null,
+            "sale_type": "抽選",
+            "source_post_id": "2069737394035995011",
+            "source_url": "https://x.com/info_myojou/status/2069737394035995011",
+            "start_at": "2026-06-24T20:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般チケット",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "https://t-dv.com/mrcr0728",
+        "venue": "渋谷WOMB LIVE"
+      },
+      "raw": {
+        "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             マリークラウンPresents\n           『 MARIE PARADE -vol,2- 』\n                Special 2man Live\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙19:15-19:45\n📸20:30-22:00\n\n⟣date：7/28（火）\n⟣place : 渋谷WOMB LIVE https://t.co/qc5GtIoiIK",
+        "attachments": {
+          "media_keys": [
+            "3_2069737386108751872"
+          ]
+        },
+        "created_at": "2026-06-24T11:00:23.000Z",
+        "edit_history_tweet_ids": [
+          "2069737394035995011"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/qc5GtIoiIK",
+              "end": 233,
+              "expanded_url": "https://x.com/info_myojou/status/2069737394035995011/photo/1",
+              "media_key": "3_2069737386108751872",
+              "start": 210,
+              "url": "https://t.co/qc5GtIoiIK"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             マリークラウンPresents\n           『 MARIE PARADE -vol,2- 』\n                Special 2man Live\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙19:15-19:45\n📸20:30-22:00\n\n⟣date：7/28（火）\n⟣place : 渋谷WOMB LIVE\n⟣open/start：18:30/19:45\n⟣price：前方（前方エリアあり）¥5,000/一般チケット¥2,500/ 女性チケット¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先行抽選】\n6/24（水）20:00-7/5（日）23:59\n【一般販売】\n7/7（月）21:00-\n🔗 https://t.co/KijOUvneo9\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2069737394035995011",
+        "media": [
+          {
+            "height": 3933,
+            "media_key": "3_2069737386108751872",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HLkvL81bkAA1n92.jpg",
+            "width": 2790
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 401,
+                "start": 394,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "t-dv.com/mrcr0728",
+                "end": 392,
+                "expanded_url": "https://t-dv.com/mrcr0728",
+                "start": 369,
+                "url": "https://t.co/KijOUvneo9"
+              }
+            ]
+          },
+          "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             マリークラウンPresents\n           『 MARIE PARADE -vol,2- 』\n                Special 2man Live\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙19:15-19:45\n📸20:30-22:00\n\n⟣date：7/28（火）\n⟣place : 渋谷WOMB LIVE\n⟣open/start：18:30/19:45\n⟣price：前方（前方エリアあり）¥5,000/一般チケット¥2,500/ 女性チケット¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先行抽選】\n6/24（水）20:00-7/5（日）23:59\n【一般販売】\n7/7（月）21:00-\n🔗 https://t.co/KijOUvneo9\n\n#myojou"
+        },
+        "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             マリークラウンPresents\n           『 MARIE PARADE -vol,2- 』\n                Special 2man Live\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙19:15-19:45\n📸20:30-22:00\n\n⟣date：7/28（火）\n⟣place : 渋谷WOMB LIVE https://t.co/qc5GtIoiIK",
+        "truncated_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             マリークラウンPresents\n           『 MARIE PARADE -vol,2- 』\n                Special 2man Live\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙19:15-19:45\n📸20:30-22:00\n\n⟣date：7/28（火）\n⟣place : 渋谷WOMB LIVE https://t.co/qc5GtIoiIK"
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             マリークラウンPresents\n           『 MARIE PARADE -vol,2- 』\n                Special 2man Live\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙19:15-19:45\n📸20:30-22:00\n\n⟣date：7/28（火）\n⟣place : 渋谷WOMB LIVE\n⟣open/start：18:30/19:45\n⟣price：前方（前方エリアあり）¥5,000/一般チケット¥2,500/ 女性チケット¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先行抽選】\n6/24（水）20:00-7/5（日）23:59\n【一般販売】\n7/7（月）21:00-\n🔗 https://t.co/KijOUvneo9\n\n#myojou",
+      "truncated_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             マリークラウンPresents\n           『 MARIE PARADE -vol,2- 』\n                Special 2man Live\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙19:15-19:45\n📸20:30-22:00\n\n⟣date：7/28（火）\n⟣place : 渋谷WOMB LIVE https://t.co/qc5GtIoiIK",
+      "url": "https://x.com/info_myojou/status/2069737394035995011"
+    },
+    {
+      "api_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「パラディークpresents「PARAD-i-SE Vol.5 -2周年ワンマン前SP！-」」\n\n🎙19:15-19:40\n📸21:00-22:00\n\n⟣date：6/24（水）\n⟣place：Veats Shibuya\n⟣open/start：17:30/18:00\n⟣price：前方チケット¥6,000/一般チケット¥2,000/女性･学生チケット¥1,000（各+1D） https://t.co/L0dH02AGIs",
+      "attachments": {
+        "media_keys": [
+          "3_2069640872073805824"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "same_day_reminder"
+      },
+      "created_at": "2026-06-24T04:36:54+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/L0dH02AGIs",
+            "end": 237,
+            "expanded_url": "https://x.com/info_myojou/status/2069640887974662513/photo/1",
+            "media_key": "3_2069640872073805824",
+            "start": 214,
+            "url": "https://t.co/L0dH02AGIs"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2069640887974662513",
+      "media": [
+        {
+          "height": 2048,
+          "media_key": "3_2069640872073805824",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HLjXaGCWwAASIcv.jpg",
+          "width": 1448
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 263,
+              "start": 256,
+              "tag": "myojou"
+            }
+          ]
+        },
+        "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「パラディークpresents「PARAD-i-SE Vol.5 -2周年ワンマン前SP！-」」\n\n🎙19:15-19:40\n📸21:00-22:00\n\n⟣date：6/24（水）\n⟣place：Veats Shibuya\n⟣open/start：17:30/18:00\n⟣price：前方チケット¥6,000/一般チケット¥2,000/女性･学生チケット¥1,000（各+1D）\n※会場にて各+¥500で当日券販売中\n⟣入場特典：明星カード（サインありチェキ）\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": "21:00-22:00",
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-06-24",
+        "event_dates": [
+          "2026-06-24"
+        ],
+        "event_name": "パラディークpresents「PARAD-i-SE Vol.5 -2周年ワンマン前SP!",
+        "extraction_confidence": 0.95,
+        "general_ticket_price": 2000,
+        "lottery_result_at": null,
+        "myojou_performance_time": "19:15-19:40",
+        "notes": "ドリンク代: 各+1D\n※会場にて各+¥500で当日券販売中\n⟣入場特典:明星カード(サインありチェキ)",
+        "open_time": "17:30",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "前方チケット",
+        "priority_ticket_price": 6000,
+        "same_day_ticket_price": 500,
+        "source_kind": "same_day_reminder",
+        "source_post_id": "2069640887974662513",
+        "source_posted_at": "2026-06-24T04:36:54Z",
+        "source_raw": {
+          "api_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「パラディークpresents「PARAD-i-SE Vol.5 -2周年ワンマン前SP！-」」\n\n🎙19:15-19:40\n📸21:00-22:00\n\n⟣date：6/24（水）\n⟣place：Veats Shibuya\n⟣open/start：17:30/18:00\n⟣price：前方チケット¥6,000/一般チケット¥2,000/女性･学生チケット¥1,000（各+1D） https://t.co/L0dH02AGIs",
+          "attachments": {
+            "media_keys": [
+              "3_2069640872073805824"
+            ]
+          },
+          "created_at": "2026-06-24T04:36:54.000Z",
+          "edit_history_tweet_ids": [
+            "2069640887974662513"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/L0dH02AGIs",
+                "end": 237,
+                "expanded_url": "https://x.com/info_myojou/status/2069640887974662513/photo/1",
+                "media_key": "3_2069640872073805824",
+                "start": 214,
+                "url": "https://t.co/L0dH02AGIs"
+              }
+            ]
+          },
+          "full_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「パラディークpresents「PARAD-i-SE Vol.5 -2周年ワンマン前SP！-」」\n\n🎙19:15-19:40\n📸21:00-22:00\n\n⟣date：6/24（水）\n⟣place：Veats Shibuya\n⟣open/start：17:30/18:00\n⟣price：前方チケット¥6,000/一般チケット¥2,000/女性･学生チケット¥1,000（各+1D）\n※会場にて各+¥500で当日券販売中\n⟣入場特典：明星カード（サインありチェキ）\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2069640887974662513",
+          "media": [
+            {
+              "height": 2048,
+              "media_key": "3_2069640872073805824",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HLjXaGCWwAASIcv.jpg",
+              "width": 1448
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 263,
+                  "start": 256,
+                  "tag": "myojou"
+                }
+              ]
+            },
+            "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「パラディークpresents「PARAD-i-SE Vol.5 -2周年ワンマン前SP！-」」\n\n🎙19:15-19:40\n📸21:00-22:00\n\n⟣date：6/24（水）\n⟣place：Veats Shibuya\n⟣open/start：17:30/18:00\n⟣price：前方チケット¥6,000/一般チケット¥2,000/女性･学生チケット¥1,000（各+1D）\n※会場にて各+¥500で当日券販売中\n⟣入場特典：明星カード（サインありチェキ）\n\n#myojou"
+          },
+          "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「パラディークpresents「PARAD-i-SE Vol.5 -2周年ワンマン前SP！-」」\n\n🎙19:15-19:40\n📸21:00-22:00\n\n⟣date：6/24（水）\n⟣place：Veats Shibuya\n⟣open/start：17:30/18:00\n⟣price：前方チケット¥6,000/一般チケット¥2,000/女性･学生チケット¥1,000（各+1D） https://t.co/L0dH02AGIs",
+          "truncated_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「パラディークpresents「PARAD-i-SE Vol.5 -2周年ワンマン前SP！-」」\n\n🎙19:15-19:40\n📸21:00-22:00\n\n⟣date：6/24（水）\n⟣place：Veats Shibuya\n⟣open/start：17:30/18:00\n⟣price：前方チケット¥6,000/一般チケット¥2,000/女性･学生チケット¥1,000（各+1D） https://t.co/L0dH02AGIs"
+        },
+        "source_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「パラディークpresents「PARAD-i-SE Vol.5 -2周年ワンマン前SP！-」」\n\n🎙19:15-19:40\n📸21:00-22:00\n\n⟣date：6/24（水）\n⟣place：Veats Shibuya\n⟣open/start：17:30/18:00\n⟣price：前方チケット¥6,000/一般チケット¥2,000/女性･学生チケット¥1,000（各+1D）\n※会場にて各+¥500で当日券販売中\n⟣入場特典：明星カード（サインありチェキ）\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2069640887974662513",
+        "start_time": "18:00",
+        "ticket_application_deadline_at": null,
+        "ticket_application_start_at": null,
+        "ticket_sale_type": "当日券",
+        "ticket_sales": [
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 500,
+            "result_at": null,
+            "sale_type": "当日券",
+            "source_post_id": "2069640887974662513",
+            "source_url": "https://x.com/info_myojou/status/2069640887974662513",
+            "start_at": null,
+            "status": "販売中",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 6000,
+            "result_at": null,
+            "sale_type": "当日券",
+            "source_post_id": "2069640887974662513",
+            "source_url": "https://x.com/info_myojou/status/2069640887974662513",
+            "start_at": null,
+            "status": "販売中",
+            "ticket_name": "前方チケット",
+            "ticket_tier": "前方"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 2000,
+            "result_at": null,
+            "sale_type": "当日券",
+            "source_post_id": "2069640887974662513",
+            "source_url": "https://x.com/info_myojou/status/2069640887974662513",
+            "start_at": null,
+            "status": "販売中",
+            "ticket_name": "一般チケット",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": "same_day",
+        "ticket_url": null,
+        "venue": "Veats Shibuya"
+      },
+      "raw": {
+        "api_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「パラディークpresents「PARAD-i-SE Vol.5 -2周年ワンマン前SP！-」」\n\n🎙19:15-19:40\n📸21:00-22:00\n\n⟣date：6/24（水）\n⟣place：Veats Shibuya\n⟣open/start：17:30/18:00\n⟣price：前方チケット¥6,000/一般チケット¥2,000/女性･学生チケット¥1,000（各+1D） https://t.co/L0dH02AGIs",
+        "attachments": {
+          "media_keys": [
+            "3_2069640872073805824"
+          ]
+        },
+        "created_at": "2026-06-24T04:36:54.000Z",
+        "edit_history_tweet_ids": [
+          "2069640887974662513"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/L0dH02AGIs",
+              "end": 237,
+              "expanded_url": "https://x.com/info_myojou/status/2069640887974662513/photo/1",
+              "media_key": "3_2069640872073805824",
+              "start": 214,
+              "url": "https://t.co/L0dH02AGIs"
+            }
+          ]
+        },
+        "full_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「パラディークpresents「PARAD-i-SE Vol.5 -2周年ワンマン前SP！-」」\n\n🎙19:15-19:40\n📸21:00-22:00\n\n⟣date：6/24（水）\n⟣place：Veats Shibuya\n⟣open/start：17:30/18:00\n⟣price：前方チケット¥6,000/一般チケット¥2,000/女性･学生チケット¥1,000（各+1D）\n※会場にて各+¥500で当日券販売中\n⟣入場特典：明星カード（サインありチェキ）\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2069640887974662513",
+        "media": [
+          {
+            "height": 2048,
+            "media_key": "3_2069640872073805824",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HLjXaGCWwAASIcv.jpg",
+            "width": 1448
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 263,
+                "start": 256,
+                "tag": "myojou"
+              }
+            ]
+          },
+          "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「パラディークpresents「PARAD-i-SE Vol.5 -2周年ワンマン前SP！-」」\n\n🎙19:15-19:40\n📸21:00-22:00\n\n⟣date：6/24（水）\n⟣place：Veats Shibuya\n⟣open/start：17:30/18:00\n⟣price：前方チケット¥6,000/一般チケット¥2,000/女性･学生チケット¥1,000（各+1D）\n※会場にて各+¥500で当日券販売中\n⟣入場特典：明星カード（サインありチェキ）\n\n#myojou"
+        },
+        "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「パラディークpresents「PARAD-i-SE Vol.5 -2周年ワンマン前SP！-」」\n\n🎙19:15-19:40\n📸21:00-22:00\n\n⟣date：6/24（水）\n⟣place：Veats Shibuya\n⟣open/start：17:30/18:00\n⟣price：前方チケット¥6,000/一般チケット¥2,000/女性･学生チケット¥1,000（各+1D） https://t.co/L0dH02AGIs",
+        "truncated_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「パラディークpresents「PARAD-i-SE Vol.5 -2周年ワンマン前SP！-」」\n\n🎙19:15-19:40\n📸21:00-22:00\n\n⟣date：6/24（水）\n⟣place：Veats Shibuya\n⟣open/start：17:30/18:00\n⟣price：前方チケット¥6,000/一般チケット¥2,000/女性･学生チケット¥1,000（各+1D） https://t.co/L0dH02AGIs"
+      },
+      "referenced_tweets": [],
+      "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「パラディークpresents「PARAD-i-SE Vol.5 -2周年ワンマン前SP！-」」\n\n🎙19:15-19:40\n📸21:00-22:00\n\n⟣date：6/24（水）\n⟣place：Veats Shibuya\n⟣open/start：17:30/18:00\n⟣price：前方チケット¥6,000/一般チケット¥2,000/女性･学生チケット¥1,000（各+1D）\n※会場にて各+¥500で当日券販売中\n⟣入場特典：明星カード（サインありチェキ）\n\n#myojou",
+      "truncated_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「パラディークpresents「PARAD-i-SE Vol.5 -2周年ワンマン前SP！-」」\n\n🎙19:15-19:40\n📸21:00-22:00\n\n⟣date：6/24（水）\n⟣place：Veats Shibuya\n⟣open/start：17:30/18:00\n⟣price：前方チケット¥6,000/一般チケット¥2,000/女性･学生チケット¥1,000（各+1D） https://t.co/L0dH02AGIs",
+      "url": "https://x.com/info_myojou/status/2069640887974662513"
+    },
+    {
       "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「パラディークpresents「PARAD-i-SE Vol.5 -2周年ワンマン前SP！-」」\n\n🎙19:15-19:40\n📸21:00-22:00\n\n⟣date：6/24（水）\n⟣place：Veats Shibuya\n⟣open/start：17:30/18:00\n⟣price：前方チケット¥6,000/一般チケット¥2,000/女性･学生チケット¥1,000（各+1D） https://t.co/4G9s0HU40h",
       "attachments": {
         "media_keys": [
@@ -94443,7 +95502,7 @@
     "backfill": true,
     "dry_run": true,
     "estimated_x_post_reads": 411,
-    "latest_post_id": "2069416206910812184",
+    "latest_post_id": "2069788948914974987",
     "max_pages": 10,
     "max_posts": 500,
     "max_results": 5,
@@ -94486,16 +95545,16 @@
       }
     ],
     "pages_fetched": 5,
-    "posts_fetched": 449,
+    "posts_fetched": 454,
     "rate_limit_headers": {
       "x-rate-limit-limit": "10000",
       "x-rate-limit-remaining": "9993",
       "x-rate-limit-reset": "1781108896"
     },
-    "total_posts": 449,
-    "updated_at": "2026-06-23T21:01:42.635693+00:00",
+    "total_posts": 454,
+    "updated_at": "2026-06-24T20:50:12.911496+00:00",
     "username": "info_myojou"
   },
   "source": "x_api",
-  "updated_at": "2026-06-23T21:01:42.635693+00:00"
+  "updated_at": "2026-06-24T20:50:12.911496+00:00"
 }
