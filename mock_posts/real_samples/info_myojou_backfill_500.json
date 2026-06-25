@@ -2,6 +2,768 @@
   "captured_at": "2026-06-10T16:19:36.141820+00:00",
   "data": [
     {
+      "api_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n          myojou Greeting Event\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：6/28（日）\n⟣place : 東京都新宿区新宿4-2-21 相模ビル 7階　ふれあい貸し会議室 新宿No73\n⟣1部 : 15:00-16:30 アリスメイド\n⟣2部 : 17:00-18:30 私服\n⟣price： https://t.co/nT8FpYP2tR",
+      "attachments": {
+        "media_keys": [
+          "3_2070148619488137216"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "ticket_update"
+      },
+      "created_at": "2026-06-25T14:14:28+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/nT8FpYP2tR",
+            "end": 217,
+            "expanded_url": "https://x.com/info_myojou/status/2070148626668720156/photo/1",
+            "media_key": "3_2070148619488137216",
+            "start": 194,
+            "url": "https://t.co/nT8FpYP2tR"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2070148626668720156",
+      "media": [
+        {
+          "height": 3508,
+          "media_key": "3_2070148619488137216",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HLqlM4jbEAArcRr.jpg",
+          "width": 2480
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 253,
+              "start": 246,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "t-dv.com/myojou_0628",
+              "end": 244,
+              "expanded_url": "https://t-dv.com/myojou_0628",
+              "start": 221,
+              "url": "https://t.co/XWdSi0coti"
+            }
+          ]
+        },
+        "text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n          myojou Greeting Event\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：6/28（日）\n⟣place : 東京都新宿区新宿4-2-21 相模ビル 7階　ふれあい貸し会議室 新宿No73\n⟣1部 : 15:00-16:30 アリスメイド\n⟣2部 : 17:00-18:30 私服\n⟣price： ¥0\n\n【受付期間】\n-6/28（日）18:15\n🔗 https://t.co/XWdSi0coti\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": null,
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-06-28",
+        "event_dates": [
+          "2026-06-28"
+        ],
+        "event_name": "myojou Greeting Event",
+        "extraction_confidence": 0.8,
+        "general_ticket_price": 0,
+        "lottery_result_at": null,
+        "myojou_performance_time": null,
+        "notes": null,
+        "open_time": null,
+        "payment_deadline_at": null,
+        "priority_ticket_name": null,
+        "priority_ticket_price": null,
+        "same_day_ticket_price": null,
+        "source_kind": "ticket_update",
+        "source_post_id": "2070148626668720156",
+        "source_posted_at": "2026-06-25T14:14:28Z",
+        "source_raw": {
+          "api_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n          myojou Greeting Event\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：6/28（日）\n⟣place : 東京都新宿区新宿4-2-21 相模ビル 7階　ふれあい貸し会議室 新宿No73\n⟣1部 : 15:00-16:30 アリスメイド\n⟣2部 : 17:00-18:30 私服\n⟣price： https://t.co/nT8FpYP2tR",
+          "attachments": {
+            "media_keys": [
+              "3_2070148619488137216"
+            ]
+          },
+          "created_at": "2026-06-25T14:14:28.000Z",
+          "edit_history_tweet_ids": [
+            "2070148626668720156"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/nT8FpYP2tR",
+                "end": 217,
+                "expanded_url": "https://x.com/info_myojou/status/2070148626668720156/photo/1",
+                "media_key": "3_2070148619488137216",
+                "start": 194,
+                "url": "https://t.co/nT8FpYP2tR"
+              }
+            ]
+          },
+          "full_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n          myojou Greeting Event\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：6/28（日）\n⟣place : 東京都新宿区新宿4-2-21 相模ビル 7階　ふれあい貸し会議室 新宿No73\n⟣1部 : 15:00-16:30 アリスメイド\n⟣2部 : 17:00-18:30 私服\n⟣price： ¥0\n\n【受付期間】\n-6/28（日）18:15\n🔗 https://t.co/XWdSi0coti\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2070148626668720156",
+          "media": [
+            {
+              "height": 3508,
+              "media_key": "3_2070148619488137216",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HLqlM4jbEAArcRr.jpg",
+              "width": 2480
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 253,
+                  "start": 246,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "t-dv.com/myojou_0628",
+                  "end": 244,
+                  "expanded_url": "https://t-dv.com/myojou_0628",
+                  "start": 221,
+                  "url": "https://t.co/XWdSi0coti"
+                }
+              ]
+            },
+            "text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n          myojou Greeting Event\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：6/28（日）\n⟣place : 東京都新宿区新宿4-2-21 相模ビル 7階　ふれあい貸し会議室 新宿No73\n⟣1部 : 15:00-16:30 アリスメイド\n⟣2部 : 17:00-18:30 私服\n⟣price： ¥0\n\n【受付期間】\n-6/28（日）18:15\n🔗 https://t.co/XWdSi0coti\n\n#myojou"
+          },
+          "text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n          myojou Greeting Event\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：6/28（日）\n⟣place : 東京都新宿区新宿4-2-21 相模ビル 7階　ふれあい貸し会議室 新宿No73\n⟣1部 : 15:00-16:30 アリスメイド\n⟣2部 : 17:00-18:30 私服\n⟣price： https://t.co/nT8FpYP2tR",
+          "truncated_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n          myojou Greeting Event\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：6/28（日）\n⟣place : 東京都新宿区新宿4-2-21 相模ビル 7階　ふれあい貸し会議室 新宿No73\n⟣1部 : 15:00-16:30 アリスメイド\n⟣2部 : 17:00-18:30 私服\n⟣price： https://t.co/nT8FpYP2tR"
+        },
+        "source_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n          myojou Greeting Event\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：6/28（日）\n⟣place : 東京都新宿区新宿4-2-21 相模ビル 7階　ふれあい貸し会議室 新宿No73\n⟣1部 : 15:00-16:30 アリスメイド\n⟣2部 : 17:00-18:30 私服\n⟣price： ¥0\n\n【受付期間】\n-6/28（日）18:15\n🔗 https://t.co/XWdSi0coti\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2070148626668720156",
+        "start_time": null,
+        "ticket_application_deadline_at": null,
+        "ticket_application_start_at": null,
+        "ticket_sale_type": "無料",
+        "ticket_sales": [],
+        "ticket_status": null,
+        "ticket_url": "https://t-dv.com/myojou_0628",
+        "venue": "東京都新宿区新宿4-2-21 相模ビル 7階 ふれあい貸し会議室 新宿No73"
+      },
+      "raw": {
+        "api_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n          myojou Greeting Event\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：6/28（日）\n⟣place : 東京都新宿区新宿4-2-21 相模ビル 7階　ふれあい貸し会議室 新宿No73\n⟣1部 : 15:00-16:30 アリスメイド\n⟣2部 : 17:00-18:30 私服\n⟣price： https://t.co/nT8FpYP2tR",
+        "attachments": {
+          "media_keys": [
+            "3_2070148619488137216"
+          ]
+        },
+        "created_at": "2026-06-25T14:14:28.000Z",
+        "edit_history_tweet_ids": [
+          "2070148626668720156"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/nT8FpYP2tR",
+              "end": 217,
+              "expanded_url": "https://x.com/info_myojou/status/2070148626668720156/photo/1",
+              "media_key": "3_2070148619488137216",
+              "start": 194,
+              "url": "https://t.co/nT8FpYP2tR"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n          myojou Greeting Event\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：6/28（日）\n⟣place : 東京都新宿区新宿4-2-21 相模ビル 7階　ふれあい貸し会議室 新宿No73\n⟣1部 : 15:00-16:30 アリスメイド\n⟣2部 : 17:00-18:30 私服\n⟣price： ¥0\n\n【受付期間】\n-6/28（日）18:15\n🔗 https://t.co/XWdSi0coti\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2070148626668720156",
+        "media": [
+          {
+            "height": 3508,
+            "media_key": "3_2070148619488137216",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HLqlM4jbEAArcRr.jpg",
+            "width": 2480
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 253,
+                "start": 246,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "t-dv.com/myojou_0628",
+                "end": 244,
+                "expanded_url": "https://t-dv.com/myojou_0628",
+                "start": 221,
+                "url": "https://t.co/XWdSi0coti"
+              }
+            ]
+          },
+          "text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n          myojou Greeting Event\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：6/28（日）\n⟣place : 東京都新宿区新宿4-2-21 相模ビル 7階　ふれあい貸し会議室 新宿No73\n⟣1部 : 15:00-16:30 アリスメイド\n⟣2部 : 17:00-18:30 私服\n⟣price： ¥0\n\n【受付期間】\n-6/28（日）18:15\n🔗 https://t.co/XWdSi0coti\n\n#myojou"
+        },
+        "text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n          myojou Greeting Event\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：6/28（日）\n⟣place : 東京都新宿区新宿4-2-21 相模ビル 7階　ふれあい貸し会議室 新宿No73\n⟣1部 : 15:00-16:30 アリスメイド\n⟣2部 : 17:00-18:30 私服\n⟣price： https://t.co/nT8FpYP2tR",
+        "truncated_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n          myojou Greeting Event\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：6/28（日）\n⟣place : 東京都新宿区新宿4-2-21 相模ビル 7階　ふれあい貸し会議室 新宿No73\n⟣1部 : 15:00-16:30 アリスメイド\n⟣2部 : 17:00-18:30 私服\n⟣price： https://t.co/nT8FpYP2tR"
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n          myojou Greeting Event\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：6/28（日）\n⟣place : 東京都新宿区新宿4-2-21 相模ビル 7階　ふれあい貸し会議室 新宿No73\n⟣1部 : 15:00-16:30 アリスメイド\n⟣2部 : 17:00-18:30 私服\n⟣price： ¥0\n\n【受付期間】\n-6/28（日）18:15\n🔗 https://t.co/XWdSi0coti\n\n#myojou",
+      "truncated_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n          myojou Greeting Event\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：6/28（日）\n⟣place : 東京都新宿区新宿4-2-21 相模ビル 7階　ふれあい貸し会議室 新宿No73\n⟣1部 : 15:00-16:30 アリスメイド\n⟣2部 : 17:00-18:30 私服\n⟣price： https://t.co/nT8FpYP2tR",
+      "url": "https://x.com/info_myojou/status/2070148626668720156"
+    },
+    {
+      "api_text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n             #ﾆｷﾌﾟﾚ『シキサイ。』\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「#ﾆｷﾌﾟﾚ『シキサイ。』」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n日陽みう@myojou_miu https://t.co/tLyapEzCYm",
+      "attachments": {
+        "media_keys": [
+          "3_2070146485606592513"
+        ]
+      },
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "profile/member introduction",
+        "source_kind": "other"
+      },
+      "created_at": "2026-06-25T14:06:00+00:00",
+      "entities": {
+        "hashtags": [
+          {
+            "end": 74,
+            "start": 68,
+            "tag": "ﾆｷﾌﾟﾚ"
+          },
+          {
+            "end": 115,
+            "start": 109,
+            "tag": "ﾆｷﾌﾟﾚ"
+          }
+        ],
+        "mentions": [
+          {
+            "end": 161,
+            "id": "1981655668626165760",
+            "start": 149,
+            "username": "myojou_ruka"
+          },
+          {
+            "end": 178,
+            "id": "2009245855694675968",
+            "start": 167,
+            "username": "myojou_miu"
+          }
+        ],
+        "urls": [
+          {
+            "display_url": "pic.x.com/tLyapEzCYm",
+            "end": 202,
+            "expanded_url": "https://x.com/info_myojou/status/2070146493861011471/photo/1",
+            "media_key": "3_2070146485606592513",
+            "start": 179,
+            "url": "https://t.co/tLyapEzCYm"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2070146493861011471",
+      "media": [
+        {
+          "alt_text": "M1,星景讃歌\nM2,僕彩色\nM3,CHRONOS\nM4,HeartBeat\nM5,アンチコンプリート\nM6,軌跡まで\nM7,蛍夏",
+          "height": 1477,
+          "media_key": "3_2070146485606592513",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HLqjQrOasAE1aG0.jpg",
+          "width": 1108
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 74,
+              "start": 68,
+              "tag": "ﾆｷﾌﾟﾚ"
+            },
+            {
+              "end": 115,
+              "start": 109,
+              "tag": "ﾆｷﾌﾟﾚ"
+            },
+            {
+              "end": 295,
+              "start": 288,
+              "tag": "myojou"
+            }
+          ],
+          "mentions": [
+            {
+              "end": 161,
+              "id": "1981655668626165760",
+              "start": 149,
+              "username": "myojou_ruka"
+            },
+            {
+              "end": 178,
+              "id": "2009245855694675968",
+              "start": 167,
+              "username": "myojou_miu"
+            },
+            {
+              "end": 206,
+              "id": "1590652199407083520",
+              "start": 192,
+              "username": "myojou_cocone"
+            },
+            {
+              "end": 227,
+              "id": "1344586625901158401",
+              "start": 212,
+              "username": "myojou_usukura"
+            },
+            {
+              "end": 253,
+              "id": "1754991922807177216",
+              "start": 240,
+              "username": "myojou_shino"
+            },
+            {
+              "end": 270,
+              "id": "2009274765895450624",
+              "start": 259,
+              "username": "myojou_yun"
+            }
+          ]
+        },
+        "text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n             #ﾆｷﾌﾟﾚ『シキサイ。』\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「#ﾆｷﾌﾟﾚ『シキサイ。』」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n日陽みう@myojou_miu \n\n中段左から\n栗原ここね@myojou_cocone \n薄倉りな@myojou_usukura \n\n下段左から\n真希しの@myojou_shino \n澪奈ゆん@myojou_yun \n\nSETLIST▶︎ALT\n\n #myojou"
+      },
+      "parsed_fields": null,
+      "raw": {
+        "api_text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n             #ﾆｷﾌﾟﾚ『シキサイ。』\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「#ﾆｷﾌﾟﾚ『シキサイ。』」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n日陽みう@myojou_miu https://t.co/tLyapEzCYm",
+        "attachments": {
+          "media_keys": [
+            "3_2070146485606592513"
+          ]
+        },
+        "created_at": "2026-06-25T14:06:00.000Z",
+        "edit_history_tweet_ids": [
+          "2070146493861011471"
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "end": 74,
+              "start": 68,
+              "tag": "ﾆｷﾌﾟﾚ"
+            },
+            {
+              "end": 115,
+              "start": 109,
+              "tag": "ﾆｷﾌﾟﾚ"
+            }
+          ],
+          "mentions": [
+            {
+              "end": 161,
+              "id": "1981655668626165760",
+              "start": 149,
+              "username": "myojou_ruka"
+            },
+            {
+              "end": 178,
+              "id": "2009245855694675968",
+              "start": 167,
+              "username": "myojou_miu"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "pic.x.com/tLyapEzCYm",
+              "end": 202,
+              "expanded_url": "https://x.com/info_myojou/status/2070146493861011471/photo/1",
+              "media_key": "3_2070146485606592513",
+              "start": 179,
+              "url": "https://t.co/tLyapEzCYm"
+            }
+          ]
+        },
+        "full_text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n             #ﾆｷﾌﾟﾚ『シキサイ。』\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「#ﾆｷﾌﾟﾚ『シキサイ。』」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n日陽みう@myojou_miu \n\n中段左から\n栗原ここね@myojou_cocone \n薄倉りな@myojou_usukura \n\n下段左から\n真希しの@myojou_shino \n澪奈ゆん@myojou_yun \n\nSETLIST▶︎ALT\n\n #myojou",
+        "full_text_source": "note_tweet",
+        "id": "2070146493861011471",
+        "media": [
+          {
+            "alt_text": "M1,星景讃歌\nM2,僕彩色\nM3,CHRONOS\nM4,HeartBeat\nM5,アンチコンプリート\nM6,軌跡まで\nM7,蛍夏",
+            "height": 1477,
+            "media_key": "3_2070146485606592513",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HLqjQrOasAE1aG0.jpg",
+            "width": 1108
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 74,
+                "start": 68,
+                "tag": "ﾆｷﾌﾟﾚ"
+              },
+              {
+                "end": 115,
+                "start": 109,
+                "tag": "ﾆｷﾌﾟﾚ"
+              },
+              {
+                "end": 295,
+                "start": 288,
+                "tag": "myojou"
+              }
+            ],
+            "mentions": [
+              {
+                "end": 161,
+                "id": "1981655668626165760",
+                "start": 149,
+                "username": "myojou_ruka"
+              },
+              {
+                "end": 178,
+                "id": "2009245855694675968",
+                "start": 167,
+                "username": "myojou_miu"
+              },
+              {
+                "end": 206,
+                "id": "1590652199407083520",
+                "start": 192,
+                "username": "myojou_cocone"
+              },
+              {
+                "end": 227,
+                "id": "1344586625901158401",
+                "start": 212,
+                "username": "myojou_usukura"
+              },
+              {
+                "end": 253,
+                "id": "1754991922807177216",
+                "start": 240,
+                "username": "myojou_shino"
+              },
+              {
+                "end": 270,
+                "id": "2009274765895450624",
+                "start": 259,
+                "username": "myojou_yun"
+              }
+            ]
+          },
+          "text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n             #ﾆｷﾌﾟﾚ『シキサイ。』\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「#ﾆｷﾌﾟﾚ『シキサイ。』」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n日陽みう@myojou_miu \n\n中段左から\n栗原ここね@myojou_cocone \n薄倉りな@myojou_usukura \n\n下段左から\n真希しの@myojou_shino \n澪奈ゆん@myojou_yun \n\nSETLIST▶︎ALT\n\n #myojou"
+        },
+        "text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n             #ﾆｷﾌﾟﾚ『シキサイ。』\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「#ﾆｷﾌﾟﾚ『シキサイ。』」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n日陽みう@myojou_miu https://t.co/tLyapEzCYm",
+        "truncated_text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n             #ﾆｷﾌﾟﾚ『シキサイ。』\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「#ﾆｷﾌﾟﾚ『シキサイ。』」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n日陽みう@myojou_miu https://t.co/tLyapEzCYm"
+      },
+      "referenced_tweets": [],
+      "text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n             #ﾆｷﾌﾟﾚ『シキサイ。』\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「#ﾆｷﾌﾟﾚ『シキサイ。』」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n日陽みう@myojou_miu \n\n中段左から\n栗原ここね@myojou_cocone \n薄倉りな@myojou_usukura \n\n下段左から\n真希しの@myojou_shino \n澪奈ゆん@myojou_yun \n\nSETLIST▶︎ALT\n\n #myojou",
+      "truncated_text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n             #ﾆｷﾌﾟﾚ『シキサイ。』\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「#ﾆｷﾌﾟﾚ『シキサイ。』」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n日陽みう@myojou_miu https://t.co/tLyapEzCYm",
+      "url": "https://x.com/info_myojou/status/2070146493861011471"
+    },
+    {
+      "api_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「#ﾆｷﾌﾟﾚ『シキサイ。』」\n\n🎙19:30-20:00\n📸21:10-22:20\n\n⟣date：6/25（木）\n⟣place : 渋谷近未来会館\n⟣open/start：18:40-19:00\n⟣price：前売¥2,800/当日¥3,300（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】 https://t.co/5sWYID9Te5",
+      "attachments": {
+        "media_keys": [
+          "3_2069993596661723136"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "same_day_reminder"
+      },
+      "created_at": "2026-06-25T03:58:28+00:00",
+      "entities": {
+        "hashtags": [
+          {
+            "end": 30,
+            "start": 24,
+            "tag": "ﾆｷﾌﾟﾚ"
+          }
+        ],
+        "urls": [
+          {
+            "display_url": "pic.x.com/5sWYID9Te5",
+            "end": 206,
+            "expanded_url": "https://x.com/info_myojou/status/2069993605180346755/photo/1",
+            "media_key": "3_2069993596661723136",
+            "start": 183,
+            "url": "https://t.co/5sWYID9Te5"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2069993605180346755",
+      "media": [
+        {
+          "height": 2048,
+          "media_key": "3_2069993596661723136",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HLoYNXha8AAbvGS.jpg",
+          "width": 2047
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 30,
+              "start": 24,
+              "tag": "ﾆｷﾌﾟﾚ"
+            },
+            {
+              "end": 242,
+              "start": 235,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "ticketdive.com/event/20260625…",
+              "end": 233,
+              "expanded_url": "https://ticketdive.com/event/20260625_nikipre",
+              "start": 210,
+              "url": "https://t.co/U92fxYpxtb"
+            }
+          ]
+        },
+        "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「#ﾆｷﾌﾟﾚ『シキサイ。』」\n\n🎙19:30-20:00\n📸21:10-22:20\n\n⟣date：6/25（木）\n⟣place : 渋谷近未来会館\n⟣open/start：18:40-19:00\n⟣price：前売¥2,800/当日¥3,300（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n5/1（金）22:00-6/25（木）18:00\n🔗 https://t.co/U92fxYpxtb\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": "21:10-22:20",
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-06-25",
+        "event_dates": [
+          "2026-06-25"
+        ],
+        "event_name": "シキサイ。",
+        "extraction_confidence": 0.95,
+        "general_ticket_price": 2800,
+        "lottery_result_at": null,
+        "myojou_performance_time": "19:30-20:00",
+        "notes": "ドリンク代: 各+1D\n⟣入場特典:明星カード(サインありチェキ)",
+        "open_time": "18:40",
+        "payment_deadline_at": null,
+        "priority_ticket_name": null,
+        "priority_ticket_price": null,
+        "same_day_ticket_price": 3300,
+        "source_kind": "same_day_reminder",
+        "source_post_id": "2069993605180346755",
+        "source_posted_at": "2026-06-25T03:58:28Z",
+        "source_raw": {
+          "api_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「#ﾆｷﾌﾟﾚ『シキサイ。』」\n\n🎙19:30-20:00\n📸21:10-22:20\n\n⟣date：6/25（木）\n⟣place : 渋谷近未来会館\n⟣open/start：18:40-19:00\n⟣price：前売¥2,800/当日¥3,300（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】 https://t.co/5sWYID9Te5",
+          "attachments": {
+            "media_keys": [
+              "3_2069993596661723136"
+            ]
+          },
+          "created_at": "2026-06-25T03:58:28.000Z",
+          "edit_history_tweet_ids": [
+            "2069993605180346755"
+          ],
+          "entities": {
+            "hashtags": [
+              {
+                "end": 30,
+                "start": 24,
+                "tag": "ﾆｷﾌﾟﾚ"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "pic.x.com/5sWYID9Te5",
+                "end": 206,
+                "expanded_url": "https://x.com/info_myojou/status/2069993605180346755/photo/1",
+                "media_key": "3_2069993596661723136",
+                "start": 183,
+                "url": "https://t.co/5sWYID9Te5"
+              }
+            ]
+          },
+          "full_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「#ﾆｷﾌﾟﾚ『シキサイ。』」\n\n🎙19:30-20:00\n📸21:10-22:20\n\n⟣date：6/25（木）\n⟣place : 渋谷近未来会館\n⟣open/start：18:40-19:00\n⟣price：前売¥2,800/当日¥3,300（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n5/1（金）22:00-6/25（木）18:00\n🔗 https://t.co/U92fxYpxtb\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2069993605180346755",
+          "media": [
+            {
+              "height": 2048,
+              "media_key": "3_2069993596661723136",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HLoYNXha8AAbvGS.jpg",
+              "width": 2047
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 30,
+                  "start": 24,
+                  "tag": "ﾆｷﾌﾟﾚ"
+                },
+                {
+                  "end": 242,
+                  "start": 235,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "ticketdive.com/event/20260625…",
+                  "end": 233,
+                  "expanded_url": "https://ticketdive.com/event/20260625_nikipre",
+                  "start": 210,
+                  "url": "https://t.co/U92fxYpxtb"
+                }
+              ]
+            },
+            "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「#ﾆｷﾌﾟﾚ『シキサイ。』」\n\n🎙19:30-20:00\n📸21:10-22:20\n\n⟣date：6/25（木）\n⟣place : 渋谷近未来会館\n⟣open/start：18:40-19:00\n⟣price：前売¥2,800/当日¥3,300（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n5/1（金）22:00-6/25（木）18:00\n🔗 https://t.co/U92fxYpxtb\n\n#myojou"
+          },
+          "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「#ﾆｷﾌﾟﾚ『シキサイ。』」\n\n🎙19:30-20:00\n📸21:10-22:20\n\n⟣date：6/25（木）\n⟣place : 渋谷近未来会館\n⟣open/start：18:40-19:00\n⟣price：前売¥2,800/当日¥3,300（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】 https://t.co/5sWYID9Te5",
+          "truncated_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「#ﾆｷﾌﾟﾚ『シキサイ。』」\n\n🎙19:30-20:00\n📸21:10-22:20\n\n⟣date：6/25（木）\n⟣place : 渋谷近未来会館\n⟣open/start：18:40-19:00\n⟣price：前売¥2,800/当日¥3,300（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】 https://t.co/5sWYID9Te5"
+        },
+        "source_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「#ﾆｷﾌﾟﾚ『シキサイ。』」\n\n🎙19:30-20:00\n📸21:10-22:20\n\n⟣date：6/25（木）\n⟣place : 渋谷近未来会館\n⟣open/start：18:40-19:00\n⟣price：前売¥2,800/当日¥3,300（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n5/1（金）22:00-6/25（木）18:00\n🔗 https://t.co/U92fxYpxtb\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2069993605180346755",
+        "start_time": "19:00",
+        "ticket_application_deadline_at": "2026-06-25T18:00:00+09:00",
+        "ticket_application_start_at": "2027-05-01T22:00:00+09:00",
+        "ticket_sale_type": "一般",
+        "ticket_sales": [
+          {
+            "deadline_at": "2026-06-25T18:00:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 2800,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2069993605180346755",
+            "source_url": "https://x.com/info_myojou/status/2069993605180346755",
+            "start_at": "2027-05-01T22:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 3300,
+            "result_at": null,
+            "sale_type": "当日券",
+            "source_post_id": "2069993605180346755",
+            "source_url": "https://x.com/info_myojou/status/2069993605180346755",
+            "start_at": null,
+            "status": "販売中",
+            "ticket_name": "当日券",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "https://ticketdive.com/event/20260625_nikipre",
+        "venue": "渋谷近未来会館"
+      },
+      "raw": {
+        "api_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「#ﾆｷﾌﾟﾚ『シキサイ。』」\n\n🎙19:30-20:00\n📸21:10-22:20\n\n⟣date：6/25（木）\n⟣place : 渋谷近未来会館\n⟣open/start：18:40-19:00\n⟣price：前売¥2,800/当日¥3,300（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】 https://t.co/5sWYID9Te5",
+        "attachments": {
+          "media_keys": [
+            "3_2069993596661723136"
+          ]
+        },
+        "created_at": "2026-06-25T03:58:28.000Z",
+        "edit_history_tweet_ids": [
+          "2069993605180346755"
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "end": 30,
+              "start": 24,
+              "tag": "ﾆｷﾌﾟﾚ"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "pic.x.com/5sWYID9Te5",
+              "end": 206,
+              "expanded_url": "https://x.com/info_myojou/status/2069993605180346755/photo/1",
+              "media_key": "3_2069993596661723136",
+              "start": 183,
+              "url": "https://t.co/5sWYID9Te5"
+            }
+          ]
+        },
+        "full_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「#ﾆｷﾌﾟﾚ『シキサイ。』」\n\n🎙19:30-20:00\n📸21:10-22:20\n\n⟣date：6/25（木）\n⟣place : 渋谷近未来会館\n⟣open/start：18:40-19:00\n⟣price：前売¥2,800/当日¥3,300（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n5/1（金）22:00-6/25（木）18:00\n🔗 https://t.co/U92fxYpxtb\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2069993605180346755",
+        "media": [
+          {
+            "height": 2048,
+            "media_key": "3_2069993596661723136",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HLoYNXha8AAbvGS.jpg",
+            "width": 2047
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 30,
+                "start": 24,
+                "tag": "ﾆｷﾌﾟﾚ"
+              },
+              {
+                "end": 242,
+                "start": 235,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "ticketdive.com/event/20260625…",
+                "end": 233,
+                "expanded_url": "https://ticketdive.com/event/20260625_nikipre",
+                "start": 210,
+                "url": "https://t.co/U92fxYpxtb"
+              }
+            ]
+          },
+          "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「#ﾆｷﾌﾟﾚ『シキサイ。』」\n\n🎙19:30-20:00\n📸21:10-22:20\n\n⟣date：6/25（木）\n⟣place : 渋谷近未来会館\n⟣open/start：18:40-19:00\n⟣price：前売¥2,800/当日¥3,300（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n5/1（金）22:00-6/25（木）18:00\n🔗 https://t.co/U92fxYpxtb\n\n#myojou"
+        },
+        "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「#ﾆｷﾌﾟﾚ『シキサイ。』」\n\n🎙19:30-20:00\n📸21:10-22:20\n\n⟣date：6/25（木）\n⟣place : 渋谷近未来会館\n⟣open/start：18:40-19:00\n⟣price：前売¥2,800/当日¥3,300（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】 https://t.co/5sWYID9Te5",
+        "truncated_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「#ﾆｷﾌﾟﾚ『シキサイ。』」\n\n🎙19:30-20:00\n📸21:10-22:20\n\n⟣date：6/25（木）\n⟣place : 渋谷近未来会館\n⟣open/start：18:40-19:00\n⟣price：前売¥2,800/当日¥3,300（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】 https://t.co/5sWYID9Te5"
+      },
+      "referenced_tweets": [],
+      "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「#ﾆｷﾌﾟﾚ『シキサイ。』」\n\n🎙19:30-20:00\n📸21:10-22:20\n\n⟣date：6/25（木）\n⟣place : 渋谷近未来会館\n⟣open/start：18:40-19:00\n⟣price：前売¥2,800/当日¥3,300（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n5/1（金）22:00-6/25（木）18:00\n🔗 https://t.co/U92fxYpxtb\n\n#myojou",
+      "truncated_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「#ﾆｷﾌﾟﾚ『シキサイ。』」\n\n🎙19:30-20:00\n📸21:10-22:20\n\n⟣date：6/25（木）\n⟣place : 渋谷近未来会館\n⟣open/start：18:40-19:00\n⟣price：前売¥2,800/当日¥3,300（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】 https://t.co/5sWYID9Te5",
+      "url": "https://x.com/info_myojou/status/2069993605180346755"
+    },
+    {
       "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「#ﾆｷﾌﾟﾚ『シキサイ。』」\n\n🎙19:30-20:00\n📸21:10-22:20\n\n⟣date：6/25（木）\n⟣place : 渋谷近未来会館\n⟣open/start：18:40-19:00\n⟣price：前売¥2,800/当日¥3,300（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】 https://t.co/GWggsI21l5",
       "attachments": {
         "media_keys": [
@@ -95502,7 +96264,7 @@
     "backfill": true,
     "dry_run": true,
     "estimated_x_post_reads": 411,
-    "latest_post_id": "2069788948914974987",
+    "latest_post_id": "2070148626668720156",
     "max_pages": 10,
     "max_posts": 500,
     "max_results": 5,
@@ -95545,16 +96307,16 @@
       }
     ],
     "pages_fetched": 5,
-    "posts_fetched": 454,
+    "posts_fetched": 457,
     "rate_limit_headers": {
       "x-rate-limit-limit": "10000",
       "x-rate-limit-remaining": "9993",
       "x-rate-limit-reset": "1781108896"
     },
-    "total_posts": 454,
-    "updated_at": "2026-06-24T20:50:12.911496+00:00",
+    "total_posts": 457,
+    "updated_at": "2026-06-25T21:00:13.819999+00:00",
     "username": "info_myojou"
   },
   "source": "x_api",
-  "updated_at": "2026-06-24T20:50:12.911496+00:00"
+  "updated_at": "2026-06-25T21:00:13.819999+00:00"
 }
