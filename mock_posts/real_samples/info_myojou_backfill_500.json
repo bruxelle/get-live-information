@@ -2,6 +2,1045 @@
   "captured_at": "2026-06-10T16:19:36.141820+00:00",
   "data": [
     {
+      "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「アイドル甲子園 FESTIVAL 2026 supported by My-th -DAY1-」\n\n📍TFTホール1000\n🎙12:30-12:55\n📸13:15-14:35 D\n\n⟣date：6/27（土）\n⟣place : TFTホール 1000・500・300\n⟣open/start：9:30/10:00\n⟣price：前方¥11,000/一般¥5,500/当日各+¥1,000（1D代込） https://t.co/lyoVndQTvZ",
+      "attachments": {
+        "media_keys": [
+          "3_2070480472191414272",
+          "3_2070480472191520768"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "day_before_reminder"
+      },
+      "created_at": "2026-06-26T12:13:08+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/lyoVndQTvZ",
+            "end": 247,
+            "expanded_url": "https://x.com/info_myojou/status/2070480477400834362/photo/1",
+            "media_key": "3_2070480472191414272",
+            "start": 224,
+            "url": "https://t.co/lyoVndQTvZ"
+          },
+          {
+            "display_url": "pic.x.com/lyoVndQTvZ",
+            "end": 247,
+            "expanded_url": "https://x.com/info_myojou/status/2070480477400834362/photo/1",
+            "media_key": "3_2070480472191520768",
+            "start": 224,
+            "url": "https://t.co/lyoVndQTvZ"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2070480477400834362",
+      "media": [
+        {
+          "height": 2000,
+          "media_key": "3_2070480472191414272",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HLvTBQNaMAA7j9D.jpg",
+          "width": 1500
+        },
+        {
+          "height": 1684,
+          "media_key": "3_2070480472191520768",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HLvTBQNb0AAPP42.jpg",
+          "width": 2382
+        }
+      ],
+      "needs_review": true,
+      "needs_review_reasons": [
+        "ambiguous event match",
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 376,
+              "start": 369,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "user.my-th.jp/?redirect=/log…",
+              "end": 367,
+              "expanded_url": "https://user.my-th.jp/?redirect=/login?redirect=/tickets/event/ikoufes_0627",
+              "start": 344,
+              "url": "https://t.co/4yGzcyA5ZI"
+            }
+          ]
+        },
+        "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「アイドル甲子園 FESTIVAL 2026 supported by My-th -DAY1-」\n\n📍TFTホール1000\n🎙12:30-12:55\n📸13:15-14:35 D\n\n⟣date：6/27（土）\n⟣place : TFTホール 1000・500・300\n⟣open/start：9:30/10:00\n⟣price：前方¥11,000/一般¥5,500/当日各+¥1,000（1D代込）\n⟣入場特典：明星カード（サインありチェキ）\n※ 現状は変わらず開催予定となっております。\n最終的な判断は、明日の午前7時頃にアイドル甲子園様より実施有無の発表があります。\n\n【先着販売】\n6/4（木）21:00-6/27（土）9:29\n🔗 https://t.co/4yGzcyA5ZI\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": "13:15-14:35",
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-06-27",
+        "event_dates": [
+          "2026-06-27"
+        ],
+        "event_name": "アイドル甲子園 FESTIVAL 2026 supported by My-th -DAY1",
+        "extraction_confidence": 0.95,
+        "general_ticket_price": 5500,
+        "lottery_result_at": null,
+        "myojou_performance_time": "12:30-12:55",
+        "notes": "ドリンク代: 各+1D\n⟣入場特典:明星カード(サインありチェキ)\n※ 現状は変わらず開催予定となっております。",
+        "open_time": "09:30",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "前方",
+        "priority_ticket_price": 11000,
+        "same_day_ticket_price": 1000,
+        "source_kind": "day_before_reminder",
+        "source_post_id": "2070480477400834362",
+        "source_posted_at": "2026-06-26T12:13:08Z",
+        "source_raw": {
+          "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「アイドル甲子園 FESTIVAL 2026 supported by My-th -DAY1-」\n\n📍TFTホール1000\n🎙12:30-12:55\n📸13:15-14:35 D\n\n⟣date：6/27（土）\n⟣place : TFTホール 1000・500・300\n⟣open/start：9:30/10:00\n⟣price：前方¥11,000/一般¥5,500/当日各+¥1,000（1D代込） https://t.co/lyoVndQTvZ",
+          "attachments": {
+            "media_keys": [
+              "3_2070480472191414272",
+              "3_2070480472191520768"
+            ]
+          },
+          "created_at": "2026-06-26T12:13:08.000Z",
+          "edit_history_tweet_ids": [
+            "2070480477400834362"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/lyoVndQTvZ",
+                "end": 247,
+                "expanded_url": "https://x.com/info_myojou/status/2070480477400834362/photo/1",
+                "media_key": "3_2070480472191414272",
+                "start": 224,
+                "url": "https://t.co/lyoVndQTvZ"
+              },
+              {
+                "display_url": "pic.x.com/lyoVndQTvZ",
+                "end": 247,
+                "expanded_url": "https://x.com/info_myojou/status/2070480477400834362/photo/1",
+                "media_key": "3_2070480472191520768",
+                "start": 224,
+                "url": "https://t.co/lyoVndQTvZ"
+              }
+            ]
+          },
+          "full_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「アイドル甲子園 FESTIVAL 2026 supported by My-th -DAY1-」\n\n📍TFTホール1000\n🎙12:30-12:55\n📸13:15-14:35 D\n\n⟣date：6/27（土）\n⟣place : TFTホール 1000・500・300\n⟣open/start：9:30/10:00\n⟣price：前方¥11,000/一般¥5,500/当日各+¥1,000（1D代込）\n⟣入場特典：明星カード（サインありチェキ）\n※ 現状は変わらず開催予定となっております。\n最終的な判断は、明日の午前7時頃にアイドル甲子園様より実施有無の発表があります。\n\n【先着販売】\n6/4（木）21:00-6/27（土）9:29\n🔗 https://t.co/4yGzcyA5ZI\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2070480477400834362",
+          "media": [
+            {
+              "height": 2000,
+              "media_key": "3_2070480472191414272",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HLvTBQNaMAA7j9D.jpg",
+              "width": 1500
+            },
+            {
+              "height": 1684,
+              "media_key": "3_2070480472191520768",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HLvTBQNb0AAPP42.jpg",
+              "width": 2382
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 376,
+                  "start": 369,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "user.my-th.jp/?redirect=/log…",
+                  "end": 367,
+                  "expanded_url": "https://user.my-th.jp/?redirect=/login?redirect=/tickets/event/ikoufes_0627",
+                  "start": 344,
+                  "url": "https://t.co/4yGzcyA5ZI"
+                }
+              ]
+            },
+            "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「アイドル甲子園 FESTIVAL 2026 supported by My-th -DAY1-」\n\n📍TFTホール1000\n🎙12:30-12:55\n📸13:15-14:35 D\n\n⟣date：6/27（土）\n⟣place : TFTホール 1000・500・300\n⟣open/start：9:30/10:00\n⟣price：前方¥11,000/一般¥5,500/当日各+¥1,000（1D代込）\n⟣入場特典：明星カード（サインありチェキ）\n※ 現状は変わらず開催予定となっております。\n最終的な判断は、明日の午前7時頃にアイドル甲子園様より実施有無の発表があります。\n\n【先着販売】\n6/4（木）21:00-6/27（土）9:29\n🔗 https://t.co/4yGzcyA5ZI\n\n#myojou"
+          },
+          "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「アイドル甲子園 FESTIVAL 2026 supported by My-th -DAY1-」\n\n📍TFTホール1000\n🎙12:30-12:55\n📸13:15-14:35 D\n\n⟣date：6/27（土）\n⟣place : TFTホール 1000・500・300\n⟣open/start：9:30/10:00\n⟣price：前方¥11,000/一般¥5,500/当日各+¥1,000（1D代込） https://t.co/lyoVndQTvZ",
+          "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「アイドル甲子園 FESTIVAL 2026 supported by My-th -DAY1-」\n\n📍TFTホール1000\n🎙12:30-12:55\n📸13:15-14:35 D\n\n⟣date：6/27（土）\n⟣place : TFTホール 1000・500・300\n⟣open/start：9:30/10:00\n⟣price：前方¥11,000/一般¥5,500/当日各+¥1,000（1D代込） https://t.co/lyoVndQTvZ"
+        },
+        "source_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「アイドル甲子園 FESTIVAL 2026 supported by My-th -DAY1-」\n\n📍TFTホール1000\n🎙12:30-12:55\n📸13:15-14:35 D\n\n⟣date：6/27（土）\n⟣place : TFTホール 1000・500・300\n⟣open/start：9:30/10:00\n⟣price：前方¥11,000/一般¥5,500/当日各+¥1,000（1D代込）\n⟣入場特典：明星カード（サインありチェキ）\n※ 現状は変わらず開催予定となっております。\n最終的な判断は、明日の午前7時頃にアイドル甲子園様より実施有無の発表があります。\n\n【先着販売】\n6/4（木）21:00-6/27（土）9:29\n🔗 https://t.co/4yGzcyA5ZI\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2070480477400834362",
+        "start_time": "10:00",
+        "ticket_application_deadline_at": "2026-06-27T09:29:00+09:00",
+        "ticket_application_start_at": "2026-06-04T21:00:00+09:00",
+        "ticket_sale_type": "先着",
+        "ticket_sales": [
+          {
+            "deadline_at": "2026-06-27T09:29:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 11000,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2070480477400834362",
+            "source_url": "https://x.com/info_myojou/status/2070480477400834362",
+            "start_at": "2026-06-04T21:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "前方",
+            "ticket_tier": "前方"
+          },
+          {
+            "deadline_at": "2026-06-27T09:29:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 5500,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2070480477400834362",
+            "source_url": "https://x.com/info_myojou/status/2070480477400834362",
+            "start_at": "2026-06-04T21:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 1000,
+            "result_at": null,
+            "sale_type": "当日券",
+            "source_post_id": "2070480477400834362",
+            "source_url": "https://x.com/info_myojou/status/2070480477400834362",
+            "start_at": null,
+            "status": "販売中",
+            "ticket_name": "当日券",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": null,
+        "venue": "TFTホール 1000・500・300"
+      },
+      "raw": {
+        "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「アイドル甲子園 FESTIVAL 2026 supported by My-th -DAY1-」\n\n📍TFTホール1000\n🎙12:30-12:55\n📸13:15-14:35 D\n\n⟣date：6/27（土）\n⟣place : TFTホール 1000・500・300\n⟣open/start：9:30/10:00\n⟣price：前方¥11,000/一般¥5,500/当日各+¥1,000（1D代込） https://t.co/lyoVndQTvZ",
+        "attachments": {
+          "media_keys": [
+            "3_2070480472191414272",
+            "3_2070480472191520768"
+          ]
+        },
+        "created_at": "2026-06-26T12:13:08.000Z",
+        "edit_history_tweet_ids": [
+          "2070480477400834362"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/lyoVndQTvZ",
+              "end": 247,
+              "expanded_url": "https://x.com/info_myojou/status/2070480477400834362/photo/1",
+              "media_key": "3_2070480472191414272",
+              "start": 224,
+              "url": "https://t.co/lyoVndQTvZ"
+            },
+            {
+              "display_url": "pic.x.com/lyoVndQTvZ",
+              "end": 247,
+              "expanded_url": "https://x.com/info_myojou/status/2070480477400834362/photo/1",
+              "media_key": "3_2070480472191520768",
+              "start": 224,
+              "url": "https://t.co/lyoVndQTvZ"
+            }
+          ]
+        },
+        "full_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「アイドル甲子園 FESTIVAL 2026 supported by My-th -DAY1-」\n\n📍TFTホール1000\n🎙12:30-12:55\n📸13:15-14:35 D\n\n⟣date：6/27（土）\n⟣place : TFTホール 1000・500・300\n⟣open/start：9:30/10:00\n⟣price：前方¥11,000/一般¥5,500/当日各+¥1,000（1D代込）\n⟣入場特典：明星カード（サインありチェキ）\n※ 現状は変わらず開催予定となっております。\n最終的な判断は、明日の午前7時頃にアイドル甲子園様より実施有無の発表があります。\n\n【先着販売】\n6/4（木）21:00-6/27（土）9:29\n🔗 https://t.co/4yGzcyA5ZI\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2070480477400834362",
+        "media": [
+          {
+            "height": 2000,
+            "media_key": "3_2070480472191414272",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HLvTBQNaMAA7j9D.jpg",
+            "width": 1500
+          },
+          {
+            "height": 1684,
+            "media_key": "3_2070480472191520768",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HLvTBQNb0AAPP42.jpg",
+            "width": 2382
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 376,
+                "start": 369,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "user.my-th.jp/?redirect=/log…",
+                "end": 367,
+                "expanded_url": "https://user.my-th.jp/?redirect=/login?redirect=/tickets/event/ikoufes_0627",
+                "start": 344,
+                "url": "https://t.co/4yGzcyA5ZI"
+              }
+            ]
+          },
+          "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「アイドル甲子園 FESTIVAL 2026 supported by My-th -DAY1-」\n\n📍TFTホール1000\n🎙12:30-12:55\n📸13:15-14:35 D\n\n⟣date：6/27（土）\n⟣place : TFTホール 1000・500・300\n⟣open/start：9:30/10:00\n⟣price：前方¥11,000/一般¥5,500/当日各+¥1,000（1D代込）\n⟣入場特典：明星カード（サインありチェキ）\n※ 現状は変わらず開催予定となっております。\n最終的な判断は、明日の午前7時頃にアイドル甲子園様より実施有無の発表があります。\n\n【先着販売】\n6/4（木）21:00-6/27（土）9:29\n🔗 https://t.co/4yGzcyA5ZI\n\n#myojou"
+        },
+        "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「アイドル甲子園 FESTIVAL 2026 supported by My-th -DAY1-」\n\n📍TFTホール1000\n🎙12:30-12:55\n📸13:15-14:35 D\n\n⟣date：6/27（土）\n⟣place : TFTホール 1000・500・300\n⟣open/start：9:30/10:00\n⟣price：前方¥11,000/一般¥5,500/当日各+¥1,000（1D代込） https://t.co/lyoVndQTvZ",
+        "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「アイドル甲子園 FESTIVAL 2026 supported by My-th -DAY1-」\n\n📍TFTホール1000\n🎙12:30-12:55\n📸13:15-14:35 D\n\n⟣date：6/27（土）\n⟣place : TFTホール 1000・500・300\n⟣open/start：9:30/10:00\n⟣price：前方¥11,000/一般¥5,500/当日各+¥1,000（1D代込） https://t.co/lyoVndQTvZ"
+      },
+      "referenced_tweets": [],
+      "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「アイドル甲子園 FESTIVAL 2026 supported by My-th -DAY1-」\n\n📍TFTホール1000\n🎙12:30-12:55\n📸13:15-14:35 D\n\n⟣date：6/27（土）\n⟣place : TFTホール 1000・500・300\n⟣open/start：9:30/10:00\n⟣price：前方¥11,000/一般¥5,500/当日各+¥1,000（1D代込）\n⟣入場特典：明星カード（サインありチェキ）\n※ 現状は変わらず開催予定となっております。\n最終的な判断は、明日の午前7時頃にアイドル甲子園様より実施有無の発表があります。\n\n【先着販売】\n6/4（木）21:00-6/27（土）9:29\n🔗 https://t.co/4yGzcyA5ZI\n\n#myojou",
+      "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「アイドル甲子園 FESTIVAL 2026 supported by My-th -DAY1-」\n\n📍TFTホール1000\n🎙12:30-12:55\n📸13:15-14:35 D\n\n⟣date：6/27（土）\n⟣place : TFTホール 1000・500・300\n⟣open/start：9:30/10:00\n⟣price：前方¥11,000/一般¥5,500/当日各+¥1,000（1D代込） https://t.co/lyoVndQTvZ",
+      "url": "https://x.com/info_myojou/status/2070480477400834362"
+    },
+    {
+      "api_text": "✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n      myojou oneman live\"明夏\"\n                     「僕彩色」\n✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n\n⟣2026.06.26 21:00 プレミア公開\n⟣ myojou公式YouTubeチャンネル\n🔗 https://t.co/Q2YJqC4hy3\n\n #myojou",
+      "attachments": {},
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "initial_announcement"
+      },
+      "created_at": "2026-06-26T10:30:43+00:00",
+      "entities": {
+        "hashtags": [
+          {
+            "end": 178,
+            "start": 171,
+            "tag": "myojou"
+          }
+        ],
+        "urls": [
+          {
+            "description": "「6人の少女が夜明けの空に描くストーリー」 公式X : https://x.com/info_myojou公式TikTok : ...",
+            "display_url": "youtu.be/6nNsC49tCHY?si…",
+            "end": 168,
+            "expanded_url": "https://youtu.be/6nNsC49tCHY?si=N2_1_rQk0IiAF3Z3",
+            "images": [
+              {
+                "height": 720,
+                "url": "https://pbs.twimg.com/news_img/2070454707022434304/71w20ooI?format=jpg&name=orig",
+                "width": 1280
+              },
+              {
+                "height": 150,
+                "url": "https://pbs.twimg.com/news_img/2070454707022434304/71w20ooI?format=jpg&name=150x150",
+                "width": 150
+              }
+            ],
+            "start": 145,
+            "status": 200,
+            "title": "『LIVE VIDEO』僕彩色/myojou",
+            "unwound_url": "https://www.youtube.com/watch?si=N2_1_rQk0IiAF3Z3&v=6nNsC49tCHY&feature=youtu.be",
+            "url": "https://t.co/Q2YJqC4hy3"
+          }
+        ]
+      },
+      "full_text_source": "text",
+      "id": "2070454703474053416",
+      "media": [],
+      "needs_review": true,
+      "needs_review_reasons": [
+        "missing venue",
+        "missing ticket deadline",
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": null,
+      "parsed_fields": {
+        "benefit_event_time": null,
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-06-26",
+        "event_dates": [
+          "2026-06-26"
+        ],
+        "event_name": "僕彩色",
+        "extraction_confidence": 0.6,
+        "general_ticket_price": null,
+        "lottery_result_at": null,
+        "myojou_performance_time": null,
+        "notes": null,
+        "open_time": null,
+        "payment_deadline_at": null,
+        "priority_ticket_name": null,
+        "priority_ticket_price": null,
+        "same_day_ticket_price": null,
+        "source_kind": "initial_announcement",
+        "source_post_id": "2070454703474053416",
+        "source_posted_at": "2026-06-26T10:30:43Z",
+        "source_raw": {
+          "api_text": "✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n      myojou oneman live\"明夏\"\n                     「僕彩色」\n✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n\n⟣2026.06.26 21:00 プレミア公開\n⟣ myojou公式YouTubeチャンネル\n🔗 https://t.co/Q2YJqC4hy3\n\n #myojou",
+          "created_at": "2026-06-26T10:30:43.000Z",
+          "edit_history_tweet_ids": [
+            "2070454703474053416"
+          ],
+          "entities": {
+            "hashtags": [
+              {
+                "end": 178,
+                "start": 171,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "description": "「6人の少女が夜明けの空に描くストーリー」 公式X : https://x.com/info_myojou公式TikTok : ...",
+                "display_url": "youtu.be/6nNsC49tCHY?si…",
+                "end": 168,
+                "expanded_url": "https://youtu.be/6nNsC49tCHY?si=N2_1_rQk0IiAF3Z3",
+                "images": [
+                  {
+                    "height": 720,
+                    "url": "https://pbs.twimg.com/news_img/2070454707022434304/71w20ooI?format=jpg&name=orig",
+                    "width": 1280
+                  },
+                  {
+                    "height": 150,
+                    "url": "https://pbs.twimg.com/news_img/2070454707022434304/71w20ooI?format=jpg&name=150x150",
+                    "width": 150
+                  }
+                ],
+                "start": 145,
+                "status": 200,
+                "title": "『LIVE VIDEO』僕彩色/myojou",
+                "unwound_url": "https://www.youtube.com/watch?si=N2_1_rQk0IiAF3Z3&v=6nNsC49tCHY&feature=youtu.be",
+                "url": "https://t.co/Q2YJqC4hy3"
+              }
+            ]
+          },
+          "full_text": "✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n      myojou oneman live\"明夏\"\n                     「僕彩色」\n✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n\n⟣2026.06.26 21:00 プレミア公開\n⟣ myojou公式YouTubeチャンネル\n🔗 https://t.co/Q2YJqC4hy3\n\n #myojou",
+          "full_text_source": "text",
+          "id": "2070454703474053416",
+          "text": "✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n      myojou oneman live\"明夏\"\n                     「僕彩色」\n✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n\n⟣2026.06.26 21:00 プレミア公開\n⟣ myojou公式YouTubeチャンネル\n🔗 https://t.co/Q2YJqC4hy3\n\n #myojou",
+          "truncated_text": null
+        },
+        "source_text": "✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n      myojou oneman live\"明夏\"\n                     「僕彩色」\n✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n\n⟣2026.06.26 21:00 プレミア公開\n⟣ myojou公式YouTubeチャンネル\n🔗 https://t.co/Q2YJqC4hy3\n\n #myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2070454703474053416",
+        "start_time": null,
+        "ticket_application_deadline_at": null,
+        "ticket_application_start_at": null,
+        "ticket_sale_type": null,
+        "ticket_sales": [],
+        "ticket_status": null,
+        "ticket_url": null,
+        "venue": null
+      },
+      "raw": {
+        "api_text": "✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n      myojou oneman live\"明夏\"\n                     「僕彩色」\n✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n\n⟣2026.06.26 21:00 プレミア公開\n⟣ myojou公式YouTubeチャンネル\n🔗 https://t.co/Q2YJqC4hy3\n\n #myojou",
+        "created_at": "2026-06-26T10:30:43.000Z",
+        "edit_history_tweet_ids": [
+          "2070454703474053416"
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "end": 178,
+              "start": 171,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "description": "「6人の少女が夜明けの空に描くストーリー」 公式X : https://x.com/info_myojou公式TikTok : ...",
+              "display_url": "youtu.be/6nNsC49tCHY?si…",
+              "end": 168,
+              "expanded_url": "https://youtu.be/6nNsC49tCHY?si=N2_1_rQk0IiAF3Z3",
+              "images": [
+                {
+                  "height": 720,
+                  "url": "https://pbs.twimg.com/news_img/2070454707022434304/71w20ooI?format=jpg&name=orig",
+                  "width": 1280
+                },
+                {
+                  "height": 150,
+                  "url": "https://pbs.twimg.com/news_img/2070454707022434304/71w20ooI?format=jpg&name=150x150",
+                  "width": 150
+                }
+              ],
+              "start": 145,
+              "status": 200,
+              "title": "『LIVE VIDEO』僕彩色/myojou",
+              "unwound_url": "https://www.youtube.com/watch?si=N2_1_rQk0IiAF3Z3&v=6nNsC49tCHY&feature=youtu.be",
+              "url": "https://t.co/Q2YJqC4hy3"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n      myojou oneman live\"明夏\"\n                     「僕彩色」\n✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n\n⟣2026.06.26 21:00 プレミア公開\n⟣ myojou公式YouTubeチャンネル\n🔗 https://t.co/Q2YJqC4hy3\n\n #myojou",
+        "full_text_source": "text",
+        "id": "2070454703474053416",
+        "text": "✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n      myojou oneman live\"明夏\"\n                     「僕彩色」\n✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n\n⟣2026.06.26 21:00 プレミア公開\n⟣ myojou公式YouTubeチャンネル\n🔗 https://t.co/Q2YJqC4hy3\n\n #myojou",
+        "truncated_text": null
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n      myojou oneman live\"明夏\"\n                     「僕彩色」\n✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n\n⟣2026.06.26 21:00 プレミア公開\n⟣ myojou公式YouTubeチャンネル\n🔗 https://t.co/Q2YJqC4hy3\n\n #myojou",
+      "truncated_text": null,
+      "url": "https://x.com/info_myojou/status/2070454703474053416"
+    },
+    {
+      "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             うるトラすフェスタvol.45\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：7/14（火）\n⟣place : 渋谷・CLUB QUATTRO\n⟣open/start：16:00/16:30\n⟣price：前方チケット ¥5,500 / 一般チケット ¥2,500（各+1D） https://t.co/FqylsJknKk",
+      "attachments": {
+        "media_keys": [
+          "3_2070443718730272768"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "ticket_update"
+      },
+      "created_at": "2026-06-26T09:47:05+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/FqylsJknKk",
+            "end": 207,
+            "expanded_url": "https://x.com/info_myojou/status/2070443723578921187/photo/1",
+            "media_key": "3_2070443718730272768",
+            "start": 184,
+            "url": "https://t.co/FqylsJknKk"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2070443723578921187",
+      "media": [
+        {
+          "height": 2048,
+          "media_key": "3_2070443718730272768",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HLuxl65bUAA0Qtm.jpg",
+          "width": 1794
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 309,
+              "start": 302,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "ticketdive.com/event/ultrasfe…",
+              "end": 300,
+              "expanded_url": "https://ticketdive.com/event/ultrasfesta_vol45",
+              "start": 277,
+              "url": "https://t.co/2yXorSFeej"
+            }
+          ]
+        },
+        "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             うるトラすフェスタvol.45\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：7/14（火）\n⟣place : 渋谷・CLUB QUATTRO\n⟣open/start：16:00/16:30\n⟣price：前方チケット ¥5,500 / 一般チケット ¥2,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先行抽選】\n6/25(木) 19:00-7/1(水) 23:59\n【一般販売】\n7/2(木) 21:00-7/13(月) 23:59\n🔗 https://t.co/2yXorSFeej\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": null,
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-07-14",
+        "event_dates": [
+          "2026-07-14"
+        ],
+        "event_name": "うるトラすフェスタvol.45",
+        "extraction_confidence": 0.9,
+        "general_ticket_price": 2500,
+        "lottery_result_at": null,
+        "myojou_performance_time": null,
+        "notes": "ドリンク代: 各+1D\n⟣入場特典:明星カード(サインありチェキ)",
+        "open_time": "16:00",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "前方チケット",
+        "priority_ticket_price": 5500,
+        "same_day_ticket_price": null,
+        "source_kind": "ticket_update",
+        "source_post_id": "2070443723578921187",
+        "source_posted_at": "2026-06-26T09:47:05Z",
+        "source_raw": {
+          "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             うるトラすフェスタvol.45\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：7/14（火）\n⟣place : 渋谷・CLUB QUATTRO\n⟣open/start：16:00/16:30\n⟣price：前方チケット ¥5,500 / 一般チケット ¥2,500（各+1D） https://t.co/FqylsJknKk",
+          "attachments": {
+            "media_keys": [
+              "3_2070443718730272768"
+            ]
+          },
+          "created_at": "2026-06-26T09:47:05.000Z",
+          "edit_history_tweet_ids": [
+            "2070443723578921187"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/FqylsJknKk",
+                "end": 207,
+                "expanded_url": "https://x.com/info_myojou/status/2070443723578921187/photo/1",
+                "media_key": "3_2070443718730272768",
+                "start": 184,
+                "url": "https://t.co/FqylsJknKk"
+              }
+            ]
+          },
+          "full_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             うるトラすフェスタvol.45\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：7/14（火）\n⟣place : 渋谷・CLUB QUATTRO\n⟣open/start：16:00/16:30\n⟣price：前方チケット ¥5,500 / 一般チケット ¥2,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先行抽選】\n6/25(木) 19:00-7/1(水) 23:59\n【一般販売】\n7/2(木) 21:00-7/13(月) 23:59\n🔗 https://t.co/2yXorSFeej\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2070443723578921187",
+          "media": [
+            {
+              "height": 2048,
+              "media_key": "3_2070443718730272768",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HLuxl65bUAA0Qtm.jpg",
+              "width": 1794
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 309,
+                  "start": 302,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "ticketdive.com/event/ultrasfe…",
+                  "end": 300,
+                  "expanded_url": "https://ticketdive.com/event/ultrasfesta_vol45",
+                  "start": 277,
+                  "url": "https://t.co/2yXorSFeej"
+                }
+              ]
+            },
+            "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             うるトラすフェスタvol.45\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：7/14（火）\n⟣place : 渋谷・CLUB QUATTRO\n⟣open/start：16:00/16:30\n⟣price：前方チケット ¥5,500 / 一般チケット ¥2,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先行抽選】\n6/25(木) 19:00-7/1(水) 23:59\n【一般販売】\n7/2(木) 21:00-7/13(月) 23:59\n🔗 https://t.co/2yXorSFeej\n\n#myojou"
+          },
+          "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             うるトラすフェスタvol.45\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：7/14（火）\n⟣place : 渋谷・CLUB QUATTRO\n⟣open/start：16:00/16:30\n⟣price：前方チケット ¥5,500 / 一般チケット ¥2,500（各+1D） https://t.co/FqylsJknKk",
+          "truncated_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             うるトラすフェスタvol.45\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：7/14（火）\n⟣place : 渋谷・CLUB QUATTRO\n⟣open/start：16:00/16:30\n⟣price：前方チケット ¥5,500 / 一般チケット ¥2,500（各+1D） https://t.co/FqylsJknKk"
+        },
+        "source_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             うるトラすフェスタvol.45\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：7/14（火）\n⟣place : 渋谷・CLUB QUATTRO\n⟣open/start：16:00/16:30\n⟣price：前方チケット ¥5,500 / 一般チケット ¥2,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先行抽選】\n6/25(木) 19:00-7/1(水) 23:59\n【一般販売】\n7/2(木) 21:00-7/13(月) 23:59\n🔗 https://t.co/2yXorSFeej\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2070443723578921187",
+        "start_time": "16:30",
+        "ticket_application_deadline_at": "2026-07-01T23:59:00+09:00",
+        "ticket_application_start_at": "2026-06-25T19:00:00+09:00",
+        "ticket_sale_type": "一般",
+        "ticket_sales": [
+          {
+            "deadline_at": "2026-07-01T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 5500,
+            "result_at": null,
+            "sale_type": "抽選",
+            "source_post_id": "2070443723578921187",
+            "source_url": "https://x.com/info_myojou/status/2070443723578921187",
+            "start_at": "2026-06-25T19:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "前方チケット",
+            "ticket_tier": "前方"
+          },
+          {
+            "deadline_at": "2026-07-01T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 2500,
+            "result_at": null,
+            "sale_type": "抽選",
+            "source_post_id": "2070443723578921187",
+            "source_url": "https://x.com/info_myojou/status/2070443723578921187",
+            "start_at": "2026-06-25T19:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般チケット",
+            "ticket_tier": "一般"
+          },
+          {
+            "deadline_at": "2026-07-13T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 5500,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2070443723578921187",
+            "source_url": "https://x.com/info_myojou/status/2070443723578921187",
+            "start_at": "2026-07-02T21:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "前方チケット",
+            "ticket_tier": "前方"
+          },
+          {
+            "deadline_at": "2026-07-13T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 2500,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2070443723578921187",
+            "source_url": "https://x.com/info_myojou/status/2070443723578921187",
+            "start_at": "2026-07-02T21:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般チケット",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "https://ticketdive.com/event/ultrasfesta_vol45",
+        "venue": "渋谷・CLUB QUATTRO"
+      },
+      "raw": {
+        "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             うるトラすフェスタvol.45\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：7/14（火）\n⟣place : 渋谷・CLUB QUATTRO\n⟣open/start：16:00/16:30\n⟣price：前方チケット ¥5,500 / 一般チケット ¥2,500（各+1D） https://t.co/FqylsJknKk",
+        "attachments": {
+          "media_keys": [
+            "3_2070443718730272768"
+          ]
+        },
+        "created_at": "2026-06-26T09:47:05.000Z",
+        "edit_history_tweet_ids": [
+          "2070443723578921187"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/FqylsJknKk",
+              "end": 207,
+              "expanded_url": "https://x.com/info_myojou/status/2070443723578921187/photo/1",
+              "media_key": "3_2070443718730272768",
+              "start": 184,
+              "url": "https://t.co/FqylsJknKk"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             うるトラすフェスタvol.45\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：7/14（火）\n⟣place : 渋谷・CLUB QUATTRO\n⟣open/start：16:00/16:30\n⟣price：前方チケット ¥5,500 / 一般チケット ¥2,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先行抽選】\n6/25(木) 19:00-7/1(水) 23:59\n【一般販売】\n7/2(木) 21:00-7/13(月) 23:59\n🔗 https://t.co/2yXorSFeej\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2070443723578921187",
+        "media": [
+          {
+            "height": 2048,
+            "media_key": "3_2070443718730272768",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HLuxl65bUAA0Qtm.jpg",
+            "width": 1794
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 309,
+                "start": 302,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "ticketdive.com/event/ultrasfe…",
+                "end": 300,
+                "expanded_url": "https://ticketdive.com/event/ultrasfesta_vol45",
+                "start": 277,
+                "url": "https://t.co/2yXorSFeej"
+              }
+            ]
+          },
+          "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             うるトラすフェスタvol.45\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：7/14（火）\n⟣place : 渋谷・CLUB QUATTRO\n⟣open/start：16:00/16:30\n⟣price：前方チケット ¥5,500 / 一般チケット ¥2,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先行抽選】\n6/25(木) 19:00-7/1(水) 23:59\n【一般販売】\n7/2(木) 21:00-7/13(月) 23:59\n🔗 https://t.co/2yXorSFeej\n\n#myojou"
+        },
+        "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             うるトラすフェスタvol.45\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：7/14（火）\n⟣place : 渋谷・CLUB QUATTRO\n⟣open/start：16:00/16:30\n⟣price：前方チケット ¥5,500 / 一般チケット ¥2,500（各+1D） https://t.co/FqylsJknKk",
+        "truncated_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             うるトラすフェスタvol.45\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：7/14（火）\n⟣place : 渋谷・CLUB QUATTRO\n⟣open/start：16:00/16:30\n⟣price：前方チケット ¥5,500 / 一般チケット ¥2,500（各+1D） https://t.co/FqylsJknKk"
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             うるトラすフェスタvol.45\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：7/14（火）\n⟣place : 渋谷・CLUB QUATTRO\n⟣open/start：16:00/16:30\n⟣price：前方チケット ¥5,500 / 一般チケット ¥2,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先行抽選】\n6/25(木) 19:00-7/1(水) 23:59\n【一般販売】\n7/2(木) 21:00-7/13(月) 23:59\n🔗 https://t.co/2yXorSFeej\n\n#myojou",
+      "truncated_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             うるトラすフェスタvol.45\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：7/14（火）\n⟣place : 渋谷・CLUB QUATTRO\n⟣open/start：16:00/16:30\n⟣price：前方チケット ¥5,500 / 一般チケット ¥2,500（各+1D） https://t.co/FqylsJknKk",
+      "url": "https://x.com/info_myojou/status/2070443723578921187"
+    },
+    {
+      "api_text": "✮••┈┈┈••✮••┈┈┈••✮\n               蒼夏序章\n✮••┈┈┈••✮••┈┈┈••✮\n\n🎙19:50-20:15\n📸21:00-22:20\n\n⟣date：7/6（月）\n⟣place : 池袋西口公園野外劇場 グローバルリング シアター\n⟣open/start：18:20/19:00\n⟣price： 前方¥4,500/一般¥1,000 （各+1D）/後方観覧無料 https://t.co/goNwRWWwi7",
+      "attachments": {
+        "media_keys": [
+          "3_2070404793932361728"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "ticket_update"
+      },
+      "created_at": "2026-06-26T07:12:24+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/goNwRWWwi7",
+            "end": 218,
+            "expanded_url": "https://x.com/info_myojou/status/2070404798990672360/photo/1",
+            "media_key": "3_2070404793932361728",
+            "start": 195,
+            "url": "https://t.co/goNwRWWwi7"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2070404798990672360",
+      "media": [
+        {
+          "height": 2048,
+          "media_key": "3_2070404793932361728",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HLuOMMuasAA5zu6.jpg",
+          "width": 1448
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "missing ticket deadline",
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 304,
+              "start": 297,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "ticketdive.com/event/SoukaPro…",
+              "end": 295,
+              "expanded_url": "https://ticketdive.com/event/SoukaPrologue",
+              "start": 272,
+              "url": "https://t.co/6frGwSbxLk"
+            }
+          ]
+        },
+        "text": "✮••┈┈┈••✮••┈┈┈••✮\n               蒼夏序章\n✮••┈┈┈••✮••┈┈┈••✮\n\n🎙19:50-20:15\n📸21:00-22:20\n\n⟣date：7/6（月）\n⟣place : 池袋西口公園野外劇場 グローバルリング シアター\n⟣open/start：18:20/19:00\n⟣price： 前方¥4,500/一般¥1,000 （各+1D）/後方観覧無料\n※特典会参加にはチケットが必要です。\n⟣入場特典： 明星カード（サインありチェキ券）\n\n【販売期間】\n6/9(火)22:00〜7/5(火)23:59\n🔗 https://t.co/6frGwSbxLk\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": "21:00-22:20",
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-07-06",
+        "event_dates": [
+          "2026-07-06"
+        ],
+        "event_name": "蒼夏序章",
+        "extraction_confidence": 0.95,
+        "general_ticket_price": 1000,
+        "lottery_result_at": null,
+        "myojou_performance_time": "19:50-20:15",
+        "notes": "ドリンク代: 各+1D\n※特典会参加にはチケットが必要です。\n⟣入場特典: 明星カード(サインありチェキ券)",
+        "open_time": "18:20",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "前方",
+        "priority_ticket_price": 4500,
+        "same_day_ticket_price": null,
+        "source_kind": "ticket_update",
+        "source_post_id": "2070404798990672360",
+        "source_posted_at": "2026-06-26T07:12:24Z",
+        "source_raw": {
+          "api_text": "✮••┈┈┈••✮••┈┈┈••✮\n               蒼夏序章\n✮••┈┈┈••✮••┈┈┈••✮\n\n🎙19:50-20:15\n📸21:00-22:20\n\n⟣date：7/6（月）\n⟣place : 池袋西口公園野外劇場 グローバルリング シアター\n⟣open/start：18:20/19:00\n⟣price： 前方¥4,500/一般¥1,000 （各+1D）/後方観覧無料 https://t.co/goNwRWWwi7",
+          "attachments": {
+            "media_keys": [
+              "3_2070404793932361728"
+            ]
+          },
+          "created_at": "2026-06-26T07:12:24.000Z",
+          "edit_history_tweet_ids": [
+            "2070404798990672360"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/goNwRWWwi7",
+                "end": 218,
+                "expanded_url": "https://x.com/info_myojou/status/2070404798990672360/photo/1",
+                "media_key": "3_2070404793932361728",
+                "start": 195,
+                "url": "https://t.co/goNwRWWwi7"
+              }
+            ]
+          },
+          "full_text": "✮••┈┈┈••✮••┈┈┈••✮\n               蒼夏序章\n✮••┈┈┈••✮••┈┈┈••✮\n\n🎙19:50-20:15\n📸21:00-22:20\n\n⟣date：7/6（月）\n⟣place : 池袋西口公園野外劇場 グローバルリング シアター\n⟣open/start：18:20/19:00\n⟣price： 前方¥4,500/一般¥1,000 （各+1D）/後方観覧無料\n※特典会参加にはチケットが必要です。\n⟣入場特典： 明星カード（サインありチェキ券）\n\n【販売期間】\n6/9(火)22:00〜7/5(火)23:59\n🔗 https://t.co/6frGwSbxLk\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2070404798990672360",
+          "media": [
+            {
+              "height": 2048,
+              "media_key": "3_2070404793932361728",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HLuOMMuasAA5zu6.jpg",
+              "width": 1448
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 304,
+                  "start": 297,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "ticketdive.com/event/SoukaPro…",
+                  "end": 295,
+                  "expanded_url": "https://ticketdive.com/event/SoukaPrologue",
+                  "start": 272,
+                  "url": "https://t.co/6frGwSbxLk"
+                }
+              ]
+            },
+            "text": "✮••┈┈┈••✮••┈┈┈••✮\n               蒼夏序章\n✮••┈┈┈••✮••┈┈┈••✮\n\n🎙19:50-20:15\n📸21:00-22:20\n\n⟣date：7/6（月）\n⟣place : 池袋西口公園野外劇場 グローバルリング シアター\n⟣open/start：18:20/19:00\n⟣price： 前方¥4,500/一般¥1,000 （各+1D）/後方観覧無料\n※特典会参加にはチケットが必要です。\n⟣入場特典： 明星カード（サインありチェキ券）\n\n【販売期間】\n6/9(火)22:00〜7/5(火)23:59\n🔗 https://t.co/6frGwSbxLk\n\n#myojou"
+          },
+          "text": "✮••┈┈┈••✮••┈┈┈••✮\n               蒼夏序章\n✮••┈┈┈••✮••┈┈┈••✮\n\n🎙19:50-20:15\n📸21:00-22:20\n\n⟣date：7/6（月）\n⟣place : 池袋西口公園野外劇場 グローバルリング シアター\n⟣open/start：18:20/19:00\n⟣price： 前方¥4,500/一般¥1,000 （各+1D）/後方観覧無料 https://t.co/goNwRWWwi7",
+          "truncated_text": "✮••┈┈┈••✮••┈┈┈••✮\n               蒼夏序章\n✮••┈┈┈••✮••┈┈┈••✮\n\n🎙19:50-20:15\n📸21:00-22:20\n\n⟣date：7/6（月）\n⟣place : 池袋西口公園野外劇場 グローバルリング シアター\n⟣open/start：18:20/19:00\n⟣price： 前方¥4,500/一般¥1,000 （各+1D）/後方観覧無料 https://t.co/goNwRWWwi7"
+        },
+        "source_text": "✮••┈┈┈••✮••┈┈┈••✮\n               蒼夏序章\n✮••┈┈┈••✮••┈┈┈••✮\n\n🎙19:50-20:15\n📸21:00-22:20\n\n⟣date：7/6（月）\n⟣place : 池袋西口公園野外劇場 グローバルリング シアター\n⟣open/start：18:20/19:00\n⟣price： 前方¥4,500/一般¥1,000 （各+1D）/後方観覧無料\n※特典会参加にはチケットが必要です。\n⟣入場特典： 明星カード（サインありチェキ券）\n\n【販売期間】\n6/9(火)22:00〜7/5(火)23:59\n🔗 https://t.co/6frGwSbxLk\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2070404798990672360",
+        "start_time": "19:00",
+        "ticket_application_deadline_at": null,
+        "ticket_application_start_at": null,
+        "ticket_sale_type": null,
+        "ticket_sales": [
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 4500,
+            "result_at": null,
+            "sale_type": "不明",
+            "source_post_id": "2070404798990672360",
+            "source_url": "https://x.com/info_myojou/status/2070404798990672360",
+            "start_at": null,
+            "status": "不明",
+            "ticket_name": "前方",
+            "ticket_tier": "前方"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 1000,
+            "result_at": null,
+            "sale_type": "不明",
+            "source_post_id": "2070404798990672360",
+            "source_url": "https://x.com/info_myojou/status/2070404798990672360",
+            "start_at": null,
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 0,
+            "result_at": null,
+            "sale_type": "不明",
+            "source_post_id": "2070404798990672360",
+            "source_url": "https://x.com/info_myojou/status/2070404798990672360",
+            "start_at": null,
+            "status": "不明",
+            "ticket_name": "後方観覧",
+            "ticket_tier": "その他"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "https://ticketdive.com/event/SoukaPrologue",
+        "venue": "池袋西口公園野外劇場 グローバルリング シアター"
+      },
+      "raw": {
+        "api_text": "✮••┈┈┈••✮••┈┈┈••✮\n               蒼夏序章\n✮••┈┈┈••✮••┈┈┈••✮\n\n🎙19:50-20:15\n📸21:00-22:20\n\n⟣date：7/6（月）\n⟣place : 池袋西口公園野外劇場 グローバルリング シアター\n⟣open/start：18:20/19:00\n⟣price： 前方¥4,500/一般¥1,000 （各+1D）/後方観覧無料 https://t.co/goNwRWWwi7",
+        "attachments": {
+          "media_keys": [
+            "3_2070404793932361728"
+          ]
+        },
+        "created_at": "2026-06-26T07:12:24.000Z",
+        "edit_history_tweet_ids": [
+          "2070404798990672360"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/goNwRWWwi7",
+              "end": 218,
+              "expanded_url": "https://x.com/info_myojou/status/2070404798990672360/photo/1",
+              "media_key": "3_2070404793932361728",
+              "start": 195,
+              "url": "https://t.co/goNwRWWwi7"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈••✮••┈┈┈••✮\n               蒼夏序章\n✮••┈┈┈••✮••┈┈┈••✮\n\n🎙19:50-20:15\n📸21:00-22:20\n\n⟣date：7/6（月）\n⟣place : 池袋西口公園野外劇場 グローバルリング シアター\n⟣open/start：18:20/19:00\n⟣price： 前方¥4,500/一般¥1,000 （各+1D）/後方観覧無料\n※特典会参加にはチケットが必要です。\n⟣入場特典： 明星カード（サインありチェキ券）\n\n【販売期間】\n6/9(火)22:00〜7/5(火)23:59\n🔗 https://t.co/6frGwSbxLk\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2070404798990672360",
+        "media": [
+          {
+            "height": 2048,
+            "media_key": "3_2070404793932361728",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HLuOMMuasAA5zu6.jpg",
+            "width": 1448
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 304,
+                "start": 297,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "ticketdive.com/event/SoukaPro…",
+                "end": 295,
+                "expanded_url": "https://ticketdive.com/event/SoukaPrologue",
+                "start": 272,
+                "url": "https://t.co/6frGwSbxLk"
+              }
+            ]
+          },
+          "text": "✮••┈┈┈••✮••┈┈┈••✮\n               蒼夏序章\n✮••┈┈┈••✮••┈┈┈••✮\n\n🎙19:50-20:15\n📸21:00-22:20\n\n⟣date：7/6（月）\n⟣place : 池袋西口公園野外劇場 グローバルリング シアター\n⟣open/start：18:20/19:00\n⟣price： 前方¥4,500/一般¥1,000 （各+1D）/後方観覧無料\n※特典会参加にはチケットが必要です。\n⟣入場特典： 明星カード（サインありチェキ券）\n\n【販売期間】\n6/9(火)22:00〜7/5(火)23:59\n🔗 https://t.co/6frGwSbxLk\n\n#myojou"
+        },
+        "text": "✮••┈┈┈••✮••┈┈┈••✮\n               蒼夏序章\n✮••┈┈┈••✮••┈┈┈••✮\n\n🎙19:50-20:15\n📸21:00-22:20\n\n⟣date：7/6（月）\n⟣place : 池袋西口公園野外劇場 グローバルリング シアター\n⟣open/start：18:20/19:00\n⟣price： 前方¥4,500/一般¥1,000 （各+1D）/後方観覧無料 https://t.co/goNwRWWwi7",
+        "truncated_text": "✮••┈┈┈••✮••┈┈┈••✮\n               蒼夏序章\n✮••┈┈┈••✮••┈┈┈••✮\n\n🎙19:50-20:15\n📸21:00-22:20\n\n⟣date：7/6（月）\n⟣place : 池袋西口公園野外劇場 グローバルリング シアター\n⟣open/start：18:20/19:00\n⟣price： 前方¥4,500/一般¥1,000 （各+1D）/後方観覧無料 https://t.co/goNwRWWwi7"
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈••✮••┈┈┈••✮\n               蒼夏序章\n✮••┈┈┈••✮••┈┈┈••✮\n\n🎙19:50-20:15\n📸21:00-22:20\n\n⟣date：7/6（月）\n⟣place : 池袋西口公園野外劇場 グローバルリング シアター\n⟣open/start：18:20/19:00\n⟣price： 前方¥4,500/一般¥1,000 （各+1D）/後方観覧無料\n※特典会参加にはチケットが必要です。\n⟣入場特典： 明星カード（サインありチェキ券）\n\n【販売期間】\n6/9(火)22:00〜7/5(火)23:59\n🔗 https://t.co/6frGwSbxLk\n\n#myojou",
+      "truncated_text": "✮••┈┈┈••✮••┈┈┈••✮\n               蒼夏序章\n✮••┈┈┈••✮••┈┈┈••✮\n\n🎙19:50-20:15\n📸21:00-22:20\n\n⟣date：7/6（月）\n⟣place : 池袋西口公園野外劇場 グローバルリング シアター\n⟣open/start：18:20/19:00\n⟣price： 前方¥4,500/一般¥1,000 （各+1D）/後方観覧無料 https://t.co/goNwRWWwi7",
+      "url": "https://x.com/info_myojou/status/2070404798990672360"
+    },
+    {
       "api_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n          myojou Greeting Event\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：6/28（日）\n⟣place : 東京都新宿区新宿4-2-21 相模ビル 7階　ふれあい貸し会議室 新宿No73\n⟣1部 : 15:00-16:30 アリスメイド\n⟣2部 : 17:00-18:30 私服\n⟣price： https://t.co/nT8FpYP2tR",
       "attachments": {
         "media_keys": [
@@ -96264,7 +97303,7 @@
     "backfill": true,
     "dry_run": true,
     "estimated_x_post_reads": 411,
-    "latest_post_id": "2070148626668720156",
+    "latest_post_id": "2070480477400834362",
     "max_pages": 10,
     "max_posts": 500,
     "max_results": 5,
@@ -96307,16 +97346,16 @@
       }
     ],
     "pages_fetched": 5,
-    "posts_fetched": 457,
+    "posts_fetched": 461,
     "rate_limit_headers": {
       "x-rate-limit-limit": "10000",
       "x-rate-limit-remaining": "9993",
       "x-rate-limit-reset": "1781108896"
     },
-    "total_posts": 457,
-    "updated_at": "2026-06-25T21:00:13.819999+00:00",
+    "total_posts": 461,
+    "updated_at": "2026-06-26T20:49:28.299934+00:00",
     "username": "info_myojou"
   },
   "source": "x_api",
-  "updated_at": "2026-06-25T21:00:13.819999+00:00"
+  "updated_at": "2026-06-26T20:49:28.299934+00:00"
 }
