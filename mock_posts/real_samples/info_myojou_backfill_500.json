@@ -2,6 +2,849 @@
   "captured_at": "2026-06-10T16:19:36.141820+00:00",
   "data": [
     {
+      "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「myojou Greeting Event」\n\n⟣date：6/28（日）\n⟣place : 東京都新宿区新宿4-2-21 相模ビル 7階　ふれあい貸し会議室 新宿No73\n⟣1部 : 15:00-16:30 アリスメイド\n⟣2部 : 17:00-18:30 私服\n⟣price： ¥0\n\n【受付期間】\n-6/28（日）18:15\n🔗 https://t.co/isaogQnheY",
+      "attachments": {
+        "media_keys": [
+          "3_2070831041129115648"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "day_before_reminder"
+      },
+      "created_at": "2026-06-27T11:26:11+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/isaogQnheY",
+            "end": 215,
+            "expanded_url": "https://x.com/info_myojou/status/2070831050516025469/photo/1",
+            "media_key": "3_2070831041129115648",
+            "start": 192,
+            "url": "https://t.co/isaogQnheY"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2070831050516025469",
+      "media": [
+        {
+          "height": 3508,
+          "media_key": "3_2070831041129115648",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HL0R3DRacAAxbW6.jpg",
+          "width": 2480
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 224,
+              "start": 217,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "t-dv.com/myojou_0628",
+              "end": 215,
+              "expanded_url": "http://t-dv.com/myojou_0628",
+              "start": 192,
+              "url": "https://t.co/af5lf1lWnG"
+            }
+          ]
+        },
+        "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「myojou Greeting Event」\n\n⟣date：6/28（日）\n⟣place : 東京都新宿区新宿4-2-21 相模ビル 7階　ふれあい貸し会議室 新宿No73\n⟣1部 : 15:00-16:30 アリスメイド\n⟣2部 : 17:00-18:30 私服\n⟣price： ¥0\n\n【受付期間】\n-6/28（日）18:15\n🔗 https://t.co/af5lf1lWnG\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": null,
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-06-28",
+        "event_dates": [
+          "2026-06-28"
+        ],
+        "event_name": "myojou Greeting Event",
+        "extraction_confidence": 0.85,
+        "general_ticket_price": 0,
+        "lottery_result_at": null,
+        "myojou_performance_time": null,
+        "notes": null,
+        "open_time": null,
+        "payment_deadline_at": null,
+        "priority_ticket_name": null,
+        "priority_ticket_price": null,
+        "same_day_ticket_price": null,
+        "source_kind": "day_before_reminder",
+        "source_post_id": "2070831050516025469",
+        "source_posted_at": "2026-06-27T11:26:11Z",
+        "source_raw": {
+          "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「myojou Greeting Event」\n\n⟣date：6/28（日）\n⟣place : 東京都新宿区新宿4-2-21 相模ビル 7階　ふれあい貸し会議室 新宿No73\n⟣1部 : 15:00-16:30 アリスメイド\n⟣2部 : 17:00-18:30 私服\n⟣price： ¥0\n\n【受付期間】\n-6/28（日）18:15\n🔗 https://t.co/isaogQnheY",
+          "attachments": {
+            "media_keys": [
+              "3_2070831041129115648"
+            ]
+          },
+          "created_at": "2026-06-27T11:26:11.000Z",
+          "edit_history_tweet_ids": [
+            "2070831050516025469"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/isaogQnheY",
+                "end": 215,
+                "expanded_url": "https://x.com/info_myojou/status/2070831050516025469/photo/1",
+                "media_key": "3_2070831041129115648",
+                "start": 192,
+                "url": "https://t.co/isaogQnheY"
+              }
+            ]
+          },
+          "full_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「myojou Greeting Event」\n\n⟣date：6/28（日）\n⟣place : 東京都新宿区新宿4-2-21 相模ビル 7階　ふれあい貸し会議室 新宿No73\n⟣1部 : 15:00-16:30 アリスメイド\n⟣2部 : 17:00-18:30 私服\n⟣price： ¥0\n\n【受付期間】\n-6/28（日）18:15\n🔗 https://t.co/af5lf1lWnG\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2070831050516025469",
+          "media": [
+            {
+              "height": 3508,
+              "media_key": "3_2070831041129115648",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HL0R3DRacAAxbW6.jpg",
+              "width": 2480
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 224,
+                  "start": 217,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "t-dv.com/myojou_0628",
+                  "end": 215,
+                  "expanded_url": "http://t-dv.com/myojou_0628",
+                  "start": 192,
+                  "url": "https://t.co/af5lf1lWnG"
+                }
+              ]
+            },
+            "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「myojou Greeting Event」\n\n⟣date：6/28（日）\n⟣place : 東京都新宿区新宿4-2-21 相模ビル 7階　ふれあい貸し会議室 新宿No73\n⟣1部 : 15:00-16:30 アリスメイド\n⟣2部 : 17:00-18:30 私服\n⟣price： ¥0\n\n【受付期間】\n-6/28（日）18:15\n🔗 https://t.co/af5lf1lWnG\n\n#myojou"
+          },
+          "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「myojou Greeting Event」\n\n⟣date：6/28（日）\n⟣place : 東京都新宿区新宿4-2-21 相模ビル 7階　ふれあい貸し会議室 新宿No73\n⟣1部 : 15:00-16:30 アリスメイド\n⟣2部 : 17:00-18:30 私服\n⟣price： ¥0\n\n【受付期間】\n-6/28（日）18:15\n🔗 https://t.co/isaogQnheY",
+          "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「myojou Greeting Event」\n\n⟣date：6/28（日）\n⟣place : 東京都新宿区新宿4-2-21 相模ビル 7階　ふれあい貸し会議室 新宿No73\n⟣1部 : 15:00-16:30 アリスメイド\n⟣2部 : 17:00-18:30 私服\n⟣price： ¥0\n\n【受付期間】\n-6/28（日）18:15\n🔗 https://t.co/isaogQnheY"
+        },
+        "source_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「myojou Greeting Event」\n\n⟣date：6/28（日）\n⟣place : 東京都新宿区新宿4-2-21 相模ビル 7階　ふれあい貸し会議室 新宿No73\n⟣1部 : 15:00-16:30 アリスメイド\n⟣2部 : 17:00-18:30 私服\n⟣price： ¥0\n\n【受付期間】\n-6/28（日）18:15\n🔗 https://t.co/af5lf1lWnG\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2070831050516025469",
+        "start_time": null,
+        "ticket_application_deadline_at": null,
+        "ticket_application_start_at": null,
+        "ticket_sale_type": "無料",
+        "ticket_sales": [],
+        "ticket_status": null,
+        "ticket_url": "http://t-dv.com/myojou_0628",
+        "venue": "東京都新宿区新宿4-2-21 相模ビル 7階 ふれあい貸し会議室 新宿No73"
+      },
+      "raw": {
+        "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「myojou Greeting Event」\n\n⟣date：6/28（日）\n⟣place : 東京都新宿区新宿4-2-21 相模ビル 7階　ふれあい貸し会議室 新宿No73\n⟣1部 : 15:00-16:30 アリスメイド\n⟣2部 : 17:00-18:30 私服\n⟣price： ¥0\n\n【受付期間】\n-6/28（日）18:15\n🔗 https://t.co/isaogQnheY",
+        "attachments": {
+          "media_keys": [
+            "3_2070831041129115648"
+          ]
+        },
+        "created_at": "2026-06-27T11:26:11.000Z",
+        "edit_history_tweet_ids": [
+          "2070831050516025469"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/isaogQnheY",
+              "end": 215,
+              "expanded_url": "https://x.com/info_myojou/status/2070831050516025469/photo/1",
+              "media_key": "3_2070831041129115648",
+              "start": 192,
+              "url": "https://t.co/isaogQnheY"
+            }
+          ]
+        },
+        "full_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「myojou Greeting Event」\n\n⟣date：6/28（日）\n⟣place : 東京都新宿区新宿4-2-21 相模ビル 7階　ふれあい貸し会議室 新宿No73\n⟣1部 : 15:00-16:30 アリスメイド\n⟣2部 : 17:00-18:30 私服\n⟣price： ¥0\n\n【受付期間】\n-6/28（日）18:15\n🔗 https://t.co/af5lf1lWnG\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2070831050516025469",
+        "media": [
+          {
+            "height": 3508,
+            "media_key": "3_2070831041129115648",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HL0R3DRacAAxbW6.jpg",
+            "width": 2480
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 224,
+                "start": 217,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "t-dv.com/myojou_0628",
+                "end": 215,
+                "expanded_url": "http://t-dv.com/myojou_0628",
+                "start": 192,
+                "url": "https://t.co/af5lf1lWnG"
+              }
+            ]
+          },
+          "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「myojou Greeting Event」\n\n⟣date：6/28（日）\n⟣place : 東京都新宿区新宿4-2-21 相模ビル 7階　ふれあい貸し会議室 新宿No73\n⟣1部 : 15:00-16:30 アリスメイド\n⟣2部 : 17:00-18:30 私服\n⟣price： ¥0\n\n【受付期間】\n-6/28（日）18:15\n🔗 https://t.co/af5lf1lWnG\n\n#myojou"
+        },
+        "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「myojou Greeting Event」\n\n⟣date：6/28（日）\n⟣place : 東京都新宿区新宿4-2-21 相模ビル 7階　ふれあい貸し会議室 新宿No73\n⟣1部 : 15:00-16:30 アリスメイド\n⟣2部 : 17:00-18:30 私服\n⟣price： ¥0\n\n【受付期間】\n-6/28（日）18:15\n🔗 https://t.co/isaogQnheY",
+        "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「myojou Greeting Event」\n\n⟣date：6/28（日）\n⟣place : 東京都新宿区新宿4-2-21 相模ビル 7階　ふれあい貸し会議室 新宿No73\n⟣1部 : 15:00-16:30 アリスメイド\n⟣2部 : 17:00-18:30 私服\n⟣price： ¥0\n\n【受付期間】\n-6/28（日）18:15\n🔗 https://t.co/isaogQnheY"
+      },
+      "referenced_tweets": [],
+      "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「myojou Greeting Event」\n\n⟣date：6/28（日）\n⟣place : 東京都新宿区新宿4-2-21 相模ビル 7階　ふれあい貸し会議室 新宿No73\n⟣1部 : 15:00-16:30 アリスメイド\n⟣2部 : 17:00-18:30 私服\n⟣price： ¥0\n\n【受付期間】\n-6/28（日）18:15\n🔗 https://t.co/af5lf1lWnG\n\n#myojou",
+      "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「myojou Greeting Event」\n\n⟣date：6/28（日）\n⟣place : 東京都新宿区新宿4-2-21 相模ビル 7階　ふれあい貸し会議室 新宿No73\n⟣1部 : 15:00-16:30 アリスメイド\n⟣2部 : 17:00-18:30 私服\n⟣price： ¥0\n\n【受付期間】\n-6/28（日）18:15\n🔗 https://t.co/isaogQnheY",
+      "url": "https://x.com/info_myojou/status/2070831050516025469"
+    },
+    {
+      "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n       andGIRL ビューティーミューズ\n                    オーディション\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\nこの度、「TIF2026×andGIRL ビューティーミューズオーディション」に澪奈ゆんが参加いたします！ https://t.co/wuqHMpuPbR",
+      "attachments": {
+        "media_keys": [
+          "3_2070824478624579584"
+        ]
+      },
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "profile/member introduction",
+        "source_kind": "other"
+      },
+      "created_at": "2026-06-27T11:01:35+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/wuqHMpuPbR",
+            "end": 180,
+            "expanded_url": "https://x.com/info_myojou/status/2070824861430395297/photo/1",
+            "media_key": "3_2070824478624579584",
+            "start": 157,
+            "url": "https://t.co/wuqHMpuPbR"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2070824861430395297",
+      "media": [
+        {
+          "height": 1280,
+          "media_key": "3_2070824478624579584",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HL0L5ECaAAASjHj.jpg",
+          "width": 960
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 302,
+              "start": 295,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "mixch.tv/u/18919952",
+              "end": 292,
+              "expanded_url": "https://mixch.tv/u/18919952",
+              "start": 269,
+              "url": "https://t.co/AhUH7UVBWw"
+            }
+          ]
+        },
+        "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n       andGIRL ビューティーミューズ\n                    オーディション\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\nこの度、「TIF2026×andGIRL ビューティーミューズオーディション」に澪奈ゆんが参加いたします！\n\n⟣審査期間：6/29（月）12:00-7/8（水）21:59\n⟣グランプリ特典：andGIRL｢ビューティーミューズ｣決定、「デジタル写真集」制作\n⟣準グランプリ特典：｢デジタル写真集｣制作\n\n【ミクチャアカウント】\n🔗 https://t.co/AhUH7UVBWw\n\n #myojou"
+      },
+      "parsed_fields": null,
+      "raw": {
+        "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n       andGIRL ビューティーミューズ\n                    オーディション\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\nこの度、「TIF2026×andGIRL ビューティーミューズオーディション」に澪奈ゆんが参加いたします！ https://t.co/wuqHMpuPbR",
+        "attachments": {
+          "media_keys": [
+            "3_2070824478624579584"
+          ]
+        },
+        "created_at": "2026-06-27T11:01:35.000Z",
+        "edit_history_tweet_ids": [
+          "2070824487017443385",
+          "2070824861430395297"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/wuqHMpuPbR",
+              "end": 180,
+              "expanded_url": "https://x.com/info_myojou/status/2070824861430395297/photo/1",
+              "media_key": "3_2070824478624579584",
+              "start": 157,
+              "url": "https://t.co/wuqHMpuPbR"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n       andGIRL ビューティーミューズ\n                    オーディション\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\nこの度、「TIF2026×andGIRL ビューティーミューズオーディション」に澪奈ゆんが参加いたします！\n\n⟣審査期間：6/29（月）12:00-7/8（水）21:59\n⟣グランプリ特典：andGIRL｢ビューティーミューズ｣決定、「デジタル写真集」制作\n⟣準グランプリ特典：｢デジタル写真集｣制作\n\n【ミクチャアカウント】\n🔗 https://t.co/AhUH7UVBWw\n\n #myojou",
+        "full_text_source": "note_tweet",
+        "id": "2070824861430395297",
+        "media": [
+          {
+            "height": 1280,
+            "media_key": "3_2070824478624579584",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HL0L5ECaAAASjHj.jpg",
+            "width": 960
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 302,
+                "start": 295,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "mixch.tv/u/18919952",
+                "end": 292,
+                "expanded_url": "https://mixch.tv/u/18919952",
+                "start": 269,
+                "url": "https://t.co/AhUH7UVBWw"
+              }
+            ]
+          },
+          "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n       andGIRL ビューティーミューズ\n                    オーディション\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\nこの度、「TIF2026×andGIRL ビューティーミューズオーディション」に澪奈ゆんが参加いたします！\n\n⟣審査期間：6/29（月）12:00-7/8（水）21:59\n⟣グランプリ特典：andGIRL｢ビューティーミューズ｣決定、「デジタル写真集」制作\n⟣準グランプリ特典：｢デジタル写真集｣制作\n\n【ミクチャアカウント】\n🔗 https://t.co/AhUH7UVBWw\n\n #myojou"
+        },
+        "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n       andGIRL ビューティーミューズ\n                    オーディション\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\nこの度、「TIF2026×andGIRL ビューティーミューズオーディション」に澪奈ゆんが参加いたします！ https://t.co/wuqHMpuPbR",
+        "truncated_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n       andGIRL ビューティーミューズ\n                    オーディション\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\nこの度、「TIF2026×andGIRL ビューティーミューズオーディション」に澪奈ゆんが参加いたします！ https://t.co/wuqHMpuPbR"
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n       andGIRL ビューティーミューズ\n                    オーディション\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\nこの度、「TIF2026×andGIRL ビューティーミューズオーディション」に澪奈ゆんが参加いたします！\n\n⟣審査期間：6/29（月）12:00-7/8（水）21:59\n⟣グランプリ特典：andGIRL｢ビューティーミューズ｣決定、「デジタル写真集」制作\n⟣準グランプリ特典：｢デジタル写真集｣制作\n\n【ミクチャアカウント】\n🔗 https://t.co/AhUH7UVBWw\n\n #myojou",
+      "truncated_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n       andGIRL ビューティーミューズ\n                    オーディション\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\nこの度、「TIF2026×andGIRL ビューティーミューズオーディション」に澪奈ゆんが参加いたします！ https://t.co/wuqHMpuPbR",
+      "url": "https://x.com/info_myojou/status/2070824861430395297"
+    },
+    {
+      "api_text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n   アイドル甲子園 FESTIVAL 2026 \n       supported by My-th -DAY1-\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「アイドル甲子園 FESTIVAL 2026 supported by My-th https://t.co/2YO76qFCLI",
+      "attachments": {
+        "media_keys": [
+          "3_2070761780734038016"
+        ]
+      },
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "profile/member introduction",
+        "source_kind": "other"
+      },
+      "created_at": "2026-06-27T06:50:57+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/2YO76qFCLI",
+            "end": 205,
+            "expanded_url": "https://x.com/info_myojou/status/2070761787054764433/photo/1",
+            "media_key": "3_2070761780734038016",
+            "start": 182,
+            "url": "https://t.co/2YO76qFCLI"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2070761787054764433",
+      "media": [
+        {
+          "alt_text": "M1,星景讃歌\nM2,僕彩色\nM3,CHRONOS\nM4,蛍夏\nM5,HeartBeat\nM6,アンチコンプリート",
+          "height": 960,
+          "media_key": "3_2070761780734038016",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HLzS3kMbkAAaW5M.jpg",
+          "width": 1706
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 345,
+              "start": 338,
+              "tag": "myojou"
+            }
+          ],
+          "mentions": [
+            {
+              "end": 226,
+              "id": "1754991922807177216",
+              "start": 213,
+              "username": "myojou_shino"
+            },
+            {
+              "end": 244,
+              "id": "1981655668626165760",
+              "start": 232,
+              "username": "myojou_ruka"
+            },
+            {
+              "end": 261,
+              "id": "2009274765895450624",
+              "start": 250,
+              "username": "myojou_yun"
+            },
+            {
+              "end": 278,
+              "id": "2009245855694675968",
+              "start": 267,
+              "username": "myojou_miu"
+            },
+            {
+              "end": 299,
+              "id": "1590652199407083520",
+              "start": 285,
+              "username": "myojou_cocone"
+            },
+            {
+              "end": 320,
+              "id": "1344586625901158401",
+              "start": 305,
+              "username": "myojou_usukura"
+            }
+          ]
+        },
+        "text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n   アイドル甲子園 FESTIVAL 2026 \n       supported by My-th -DAY1-\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「アイドル甲子園 FESTIVAL 2026 supported by My-th -DAY1-」ありがとうございました⋆˙⟡\n\n左から\n真希しの@myojou_shino \n姫乃るか@myojou_ruka \n澪奈ゆん@myojou_yun \n日陽みう@myojou_miu \n栗原ここね@myojou_cocone \n薄倉りな@myojou_usukura \n\nSETLIST▶︎ALT\n\n #myojou"
+      },
+      "parsed_fields": null,
+      "raw": {
+        "api_text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n   アイドル甲子園 FESTIVAL 2026 \n       supported by My-th -DAY1-\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「アイドル甲子園 FESTIVAL 2026 supported by My-th https://t.co/2YO76qFCLI",
+        "attachments": {
+          "media_keys": [
+            "3_2070761780734038016"
+          ]
+        },
+        "created_at": "2026-06-27T06:50:57.000Z",
+        "edit_history_tweet_ids": [
+          "2070761787054764433"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/2YO76qFCLI",
+              "end": 205,
+              "expanded_url": "https://x.com/info_myojou/status/2070761787054764433/photo/1",
+              "media_key": "3_2070761780734038016",
+              "start": 182,
+              "url": "https://t.co/2YO76qFCLI"
+            }
+          ]
+        },
+        "full_text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n   アイドル甲子園 FESTIVAL 2026 \n       supported by My-th -DAY1-\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「アイドル甲子園 FESTIVAL 2026 supported by My-th -DAY1-」ありがとうございました⋆˙⟡\n\n左から\n真希しの@myojou_shino \n姫乃るか@myojou_ruka \n澪奈ゆん@myojou_yun \n日陽みう@myojou_miu \n栗原ここね@myojou_cocone \n薄倉りな@myojou_usukura \n\nSETLIST▶︎ALT\n\n #myojou",
+        "full_text_source": "note_tweet",
+        "id": "2070761787054764433",
+        "media": [
+          {
+            "alt_text": "M1,星景讃歌\nM2,僕彩色\nM3,CHRONOS\nM4,蛍夏\nM5,HeartBeat\nM6,アンチコンプリート",
+            "height": 960,
+            "media_key": "3_2070761780734038016",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HLzS3kMbkAAaW5M.jpg",
+            "width": 1706
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 345,
+                "start": 338,
+                "tag": "myojou"
+              }
+            ],
+            "mentions": [
+              {
+                "end": 226,
+                "id": "1754991922807177216",
+                "start": 213,
+                "username": "myojou_shino"
+              },
+              {
+                "end": 244,
+                "id": "1981655668626165760",
+                "start": 232,
+                "username": "myojou_ruka"
+              },
+              {
+                "end": 261,
+                "id": "2009274765895450624",
+                "start": 250,
+                "username": "myojou_yun"
+              },
+              {
+                "end": 278,
+                "id": "2009245855694675968",
+                "start": 267,
+                "username": "myojou_miu"
+              },
+              {
+                "end": 299,
+                "id": "1590652199407083520",
+                "start": 285,
+                "username": "myojou_cocone"
+              },
+              {
+                "end": 320,
+                "id": "1344586625901158401",
+                "start": 305,
+                "username": "myojou_usukura"
+              }
+            ]
+          },
+          "text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n   アイドル甲子園 FESTIVAL 2026 \n       supported by My-th -DAY1-\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「アイドル甲子園 FESTIVAL 2026 supported by My-th -DAY1-」ありがとうございました⋆˙⟡\n\n左から\n真希しの@myojou_shino \n姫乃るか@myojou_ruka \n澪奈ゆん@myojou_yun \n日陽みう@myojou_miu \n栗原ここね@myojou_cocone \n薄倉りな@myojou_usukura \n\nSETLIST▶︎ALT\n\n #myojou"
+        },
+        "text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n   アイドル甲子園 FESTIVAL 2026 \n       supported by My-th -DAY1-\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「アイドル甲子園 FESTIVAL 2026 supported by My-th https://t.co/2YO76qFCLI",
+        "truncated_text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n   アイドル甲子園 FESTIVAL 2026 \n       supported by My-th -DAY1-\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「アイドル甲子園 FESTIVAL 2026 supported by My-th https://t.co/2YO76qFCLI"
+      },
+      "referenced_tweets": [],
+      "text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n   アイドル甲子園 FESTIVAL 2026 \n       supported by My-th -DAY1-\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「アイドル甲子園 FESTIVAL 2026 supported by My-th -DAY1-」ありがとうございました⋆˙⟡\n\n左から\n真希しの@myojou_shino \n姫乃るか@myojou_ruka \n澪奈ゆん@myojou_yun \n日陽みう@myojou_miu \n栗原ここね@myojou_cocone \n薄倉りな@myojou_usukura \n\nSETLIST▶︎ALT\n\n #myojou",
+      "truncated_text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n   アイドル甲子園 FESTIVAL 2026 \n       supported by My-th -DAY1-\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「アイドル甲子園 FESTIVAL 2026 supported by My-th https://t.co/2YO76qFCLI",
+      "url": "https://x.com/info_myojou/status/2070761787054764433"
+    },
+    {
+      "api_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「アイドル甲子園 FESTIVAL 2026 supported by My-th -DAY1-」\n\n📍TFTホール1000\n🎙12:30-12:55\n📸13:15-14:35 D\n\n⟣date：6/27（土）\n⟣place : TFTホール 1000・500・300\n⟣open/start：9:30/10:00\n⟣price：前方¥11,000/一般¥5,500/当日各+¥1,000（1D代込） https://t.co/Dy92HjZSaa",
+      "attachments": {
+        "media_keys": [
+          "3_2070665701367644160",
+          "3_2070665701371916288"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "same_day_reminder"
+      },
+      "created_at": "2026-06-27T00:29:10+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/Dy92HjZSaa",
+            "end": 247,
+            "expanded_url": "https://x.com/info_myojou/status/2070665707449471375/photo/1",
+            "media_key": "3_2070665701367644160",
+            "start": 224,
+            "url": "https://t.co/Dy92HjZSaa"
+          },
+          {
+            "display_url": "pic.x.com/Dy92HjZSaa",
+            "end": 247,
+            "expanded_url": "https://x.com/info_myojou/status/2070665707449471375/photo/1",
+            "media_key": "3_2070665701371916288",
+            "start": 224,
+            "url": "https://t.co/Dy92HjZSaa"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2070665707449471375",
+      "media": [
+        {
+          "height": 2000,
+          "media_key": "3_2070665701367644160",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HLx7fAqagAAsSyt.jpg",
+          "width": 1500
+        },
+        {
+          "height": 1684,
+          "media_key": "3_2070665701371916288",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HLx7fArbsAAWj1b.jpg",
+          "width": 2382
+        }
+      ],
+      "needs_review": true,
+      "needs_review_reasons": [
+        "ambiguous event match",
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 365,
+              "start": 358,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "user.my-th.jp/?redirect=/log…",
+              "end": 356,
+              "expanded_url": "https://user.my-th.jp/?redirect=/login?redirect=/tickets/event/ikoufes_0627",
+              "start": 333,
+              "url": "https://t.co/4yGzcyA5ZI"
+            }
+          ]
+        },
+        "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「アイドル甲子園 FESTIVAL 2026 supported by My-th -DAY1-」\n\n📍TFTホール1000\n🎙12:30-12:55\n📸13:15-14:35 D\n\n⟣date：6/27（土）\n⟣place : TFTホール 1000・500・300\n⟣open/start：9:30/10:00\n⟣price：前方¥11,000/一般¥5,500/当日各+¥1,000（1D代込）\n⟣入場特典：明星カード（サインありチェキ）\n※ 本日は予定通り実施いたします。\nご来場の皆様におかれましては、安全に十分ご留意のうえお越しください。\n\n【先着販売】\n6/4（木）21:00-6/27（土）9:29\n🔗 https://t.co/4yGzcyA5ZI\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": "13:15-14:35",
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-06-27",
+        "event_dates": [
+          "2026-06-27"
+        ],
+        "event_name": "アイドル甲子園 FESTIVAL 2026 supported by My-th -DAY1",
+        "extraction_confidence": 0.95,
+        "general_ticket_price": 5500,
+        "lottery_result_at": null,
+        "myojou_performance_time": "12:30-12:55",
+        "notes": "ドリンク代: 各+1D\n⟣入場特典:明星カード(サインありチェキ)\n※ 本日は予定通り実施いたします。",
+        "open_time": "09:30",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "前方",
+        "priority_ticket_price": 11000,
+        "same_day_ticket_price": 1000,
+        "source_kind": "same_day_reminder",
+        "source_post_id": "2070665707449471375",
+        "source_posted_at": "2026-06-27T00:29:10Z",
+        "source_raw": {
+          "api_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「アイドル甲子園 FESTIVAL 2026 supported by My-th -DAY1-」\n\n📍TFTホール1000\n🎙12:30-12:55\n📸13:15-14:35 D\n\n⟣date：6/27（土）\n⟣place : TFTホール 1000・500・300\n⟣open/start：9:30/10:00\n⟣price：前方¥11,000/一般¥5,500/当日各+¥1,000（1D代込） https://t.co/Dy92HjZSaa",
+          "attachments": {
+            "media_keys": [
+              "3_2070665701367644160",
+              "3_2070665701371916288"
+            ]
+          },
+          "created_at": "2026-06-27T00:29:10.000Z",
+          "edit_history_tweet_ids": [
+            "2070665707449471375"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/Dy92HjZSaa",
+                "end": 247,
+                "expanded_url": "https://x.com/info_myojou/status/2070665707449471375/photo/1",
+                "media_key": "3_2070665701367644160",
+                "start": 224,
+                "url": "https://t.co/Dy92HjZSaa"
+              },
+              {
+                "display_url": "pic.x.com/Dy92HjZSaa",
+                "end": 247,
+                "expanded_url": "https://x.com/info_myojou/status/2070665707449471375/photo/1",
+                "media_key": "3_2070665701371916288",
+                "start": 224,
+                "url": "https://t.co/Dy92HjZSaa"
+              }
+            ]
+          },
+          "full_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「アイドル甲子園 FESTIVAL 2026 supported by My-th -DAY1-」\n\n📍TFTホール1000\n🎙12:30-12:55\n📸13:15-14:35 D\n\n⟣date：6/27（土）\n⟣place : TFTホール 1000・500・300\n⟣open/start：9:30/10:00\n⟣price：前方¥11,000/一般¥5,500/当日各+¥1,000（1D代込）\n⟣入場特典：明星カード（サインありチェキ）\n※ 本日は予定通り実施いたします。\nご来場の皆様におかれましては、安全に十分ご留意のうえお越しください。\n\n【先着販売】\n6/4（木）21:00-6/27（土）9:29\n🔗 https://t.co/4yGzcyA5ZI\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2070665707449471375",
+          "media": [
+            {
+              "height": 2000,
+              "media_key": "3_2070665701367644160",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HLx7fAqagAAsSyt.jpg",
+              "width": 1500
+            },
+            {
+              "height": 1684,
+              "media_key": "3_2070665701371916288",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HLx7fArbsAAWj1b.jpg",
+              "width": 2382
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 365,
+                  "start": 358,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "user.my-th.jp/?redirect=/log…",
+                  "end": 356,
+                  "expanded_url": "https://user.my-th.jp/?redirect=/login?redirect=/tickets/event/ikoufes_0627",
+                  "start": 333,
+                  "url": "https://t.co/4yGzcyA5ZI"
+                }
+              ]
+            },
+            "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「アイドル甲子園 FESTIVAL 2026 supported by My-th -DAY1-」\n\n📍TFTホール1000\n🎙12:30-12:55\n📸13:15-14:35 D\n\n⟣date：6/27（土）\n⟣place : TFTホール 1000・500・300\n⟣open/start：9:30/10:00\n⟣price：前方¥11,000/一般¥5,500/当日各+¥1,000（1D代込）\n⟣入場特典：明星カード（サインありチェキ）\n※ 本日は予定通り実施いたします。\nご来場の皆様におかれましては、安全に十分ご留意のうえお越しください。\n\n【先着販売】\n6/4（木）21:00-6/27（土）9:29\n🔗 https://t.co/4yGzcyA5ZI\n\n#myojou"
+          },
+          "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「アイドル甲子園 FESTIVAL 2026 supported by My-th -DAY1-」\n\n📍TFTホール1000\n🎙12:30-12:55\n📸13:15-14:35 D\n\n⟣date：6/27（土）\n⟣place : TFTホール 1000・500・300\n⟣open/start：9:30/10:00\n⟣price：前方¥11,000/一般¥5,500/当日各+¥1,000（1D代込） https://t.co/Dy92HjZSaa",
+          "truncated_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「アイドル甲子園 FESTIVAL 2026 supported by My-th -DAY1-」\n\n📍TFTホール1000\n🎙12:30-12:55\n📸13:15-14:35 D\n\n⟣date：6/27（土）\n⟣place : TFTホール 1000・500・300\n⟣open/start：9:30/10:00\n⟣price：前方¥11,000/一般¥5,500/当日各+¥1,000（1D代込） https://t.co/Dy92HjZSaa"
+        },
+        "source_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「アイドル甲子園 FESTIVAL 2026 supported by My-th -DAY1-」\n\n📍TFTホール1000\n🎙12:30-12:55\n📸13:15-14:35 D\n\n⟣date：6/27（土）\n⟣place : TFTホール 1000・500・300\n⟣open/start：9:30/10:00\n⟣price：前方¥11,000/一般¥5,500/当日各+¥1,000（1D代込）\n⟣入場特典：明星カード（サインありチェキ）\n※ 本日は予定通り実施いたします。\nご来場の皆様におかれましては、安全に十分ご留意のうえお越しください。\n\n【先着販売】\n6/4（木）21:00-6/27（土）9:29\n🔗 https://t.co/4yGzcyA5ZI\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2070665707449471375",
+        "start_time": "10:00",
+        "ticket_application_deadline_at": "2026-06-27T09:29:00+09:00",
+        "ticket_application_start_at": "2026-06-04T21:00:00+09:00",
+        "ticket_sale_type": "先着",
+        "ticket_sales": [
+          {
+            "deadline_at": "2026-06-27T09:29:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 11000,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2070665707449471375",
+            "source_url": "https://x.com/info_myojou/status/2070665707449471375",
+            "start_at": "2026-06-04T21:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "前方",
+            "ticket_tier": "前方"
+          },
+          {
+            "deadline_at": "2026-06-27T09:29:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 5500,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2070665707449471375",
+            "source_url": "https://x.com/info_myojou/status/2070665707449471375",
+            "start_at": "2026-06-04T21:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 1000,
+            "result_at": null,
+            "sale_type": "当日券",
+            "source_post_id": "2070665707449471375",
+            "source_url": "https://x.com/info_myojou/status/2070665707449471375",
+            "start_at": null,
+            "status": "販売中",
+            "ticket_name": "当日券",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": null,
+        "venue": "TFTホール 1000・500・300"
+      },
+      "raw": {
+        "api_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「アイドル甲子園 FESTIVAL 2026 supported by My-th -DAY1-」\n\n📍TFTホール1000\n🎙12:30-12:55\n📸13:15-14:35 D\n\n⟣date：6/27（土）\n⟣place : TFTホール 1000・500・300\n⟣open/start：9:30/10:00\n⟣price：前方¥11,000/一般¥5,500/当日各+¥1,000（1D代込） https://t.co/Dy92HjZSaa",
+        "attachments": {
+          "media_keys": [
+            "3_2070665701367644160",
+            "3_2070665701371916288"
+          ]
+        },
+        "created_at": "2026-06-27T00:29:10.000Z",
+        "edit_history_tweet_ids": [
+          "2070665707449471375"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/Dy92HjZSaa",
+              "end": 247,
+              "expanded_url": "https://x.com/info_myojou/status/2070665707449471375/photo/1",
+              "media_key": "3_2070665701367644160",
+              "start": 224,
+              "url": "https://t.co/Dy92HjZSaa"
+            },
+            {
+              "display_url": "pic.x.com/Dy92HjZSaa",
+              "end": 247,
+              "expanded_url": "https://x.com/info_myojou/status/2070665707449471375/photo/1",
+              "media_key": "3_2070665701371916288",
+              "start": 224,
+              "url": "https://t.co/Dy92HjZSaa"
+            }
+          ]
+        },
+        "full_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「アイドル甲子園 FESTIVAL 2026 supported by My-th -DAY1-」\n\n📍TFTホール1000\n🎙12:30-12:55\n📸13:15-14:35 D\n\n⟣date：6/27（土）\n⟣place : TFTホール 1000・500・300\n⟣open/start：9:30/10:00\n⟣price：前方¥11,000/一般¥5,500/当日各+¥1,000（1D代込）\n⟣入場特典：明星カード（サインありチェキ）\n※ 本日は予定通り実施いたします。\nご来場の皆様におかれましては、安全に十分ご留意のうえお越しください。\n\n【先着販売】\n6/4（木）21:00-6/27（土）9:29\n🔗 https://t.co/4yGzcyA5ZI\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2070665707449471375",
+        "media": [
+          {
+            "height": 2000,
+            "media_key": "3_2070665701367644160",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HLx7fAqagAAsSyt.jpg",
+            "width": 1500
+          },
+          {
+            "height": 1684,
+            "media_key": "3_2070665701371916288",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HLx7fArbsAAWj1b.jpg",
+            "width": 2382
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 365,
+                "start": 358,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "user.my-th.jp/?redirect=/log…",
+                "end": 356,
+                "expanded_url": "https://user.my-th.jp/?redirect=/login?redirect=/tickets/event/ikoufes_0627",
+                "start": 333,
+                "url": "https://t.co/4yGzcyA5ZI"
+              }
+            ]
+          },
+          "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「アイドル甲子園 FESTIVAL 2026 supported by My-th -DAY1-」\n\n📍TFTホール1000\n🎙12:30-12:55\n📸13:15-14:35 D\n\n⟣date：6/27（土）\n⟣place : TFTホール 1000・500・300\n⟣open/start：9:30/10:00\n⟣price：前方¥11,000/一般¥5,500/当日各+¥1,000（1D代込）\n⟣入場特典：明星カード（サインありチェキ）\n※ 本日は予定通り実施いたします。\nご来場の皆様におかれましては、安全に十分ご留意のうえお越しください。\n\n【先着販売】\n6/4（木）21:00-6/27（土）9:29\n🔗 https://t.co/4yGzcyA5ZI\n\n#myojou"
+        },
+        "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「アイドル甲子園 FESTIVAL 2026 supported by My-th -DAY1-」\n\n📍TFTホール1000\n🎙12:30-12:55\n📸13:15-14:35 D\n\n⟣date：6/27（土）\n⟣place : TFTホール 1000・500・300\n⟣open/start：9:30/10:00\n⟣price：前方¥11,000/一般¥5,500/当日各+¥1,000（1D代込） https://t.co/Dy92HjZSaa",
+        "truncated_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「アイドル甲子園 FESTIVAL 2026 supported by My-th -DAY1-」\n\n📍TFTホール1000\n🎙12:30-12:55\n📸13:15-14:35 D\n\n⟣date：6/27（土）\n⟣place : TFTホール 1000・500・300\n⟣open/start：9:30/10:00\n⟣price：前方¥11,000/一般¥5,500/当日各+¥1,000（1D代込） https://t.co/Dy92HjZSaa"
+      },
+      "referenced_tweets": [],
+      "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「アイドル甲子園 FESTIVAL 2026 supported by My-th -DAY1-」\n\n📍TFTホール1000\n🎙12:30-12:55\n📸13:15-14:35 D\n\n⟣date：6/27（土）\n⟣place : TFTホール 1000・500・300\n⟣open/start：9:30/10:00\n⟣price：前方¥11,000/一般¥5,500/当日各+¥1,000（1D代込）\n⟣入場特典：明星カード（サインありチェキ）\n※ 本日は予定通り実施いたします。\nご来場の皆様におかれましては、安全に十分ご留意のうえお越しください。\n\n【先着販売】\n6/4（木）21:00-6/27（土）9:29\n🔗 https://t.co/4yGzcyA5ZI\n\n#myojou",
+      "truncated_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「アイドル甲子園 FESTIVAL 2026 supported by My-th -DAY1-」\n\n📍TFTホール1000\n🎙12:30-12:55\n📸13:15-14:35 D\n\n⟣date：6/27（土）\n⟣place : TFTホール 1000・500・300\n⟣open/start：9:30/10:00\n⟣price：前方¥11,000/一般¥5,500/当日各+¥1,000（1D代込） https://t.co/Dy92HjZSaa",
+      "url": "https://x.com/info_myojou/status/2070665707449471375"
+    },
+    {
       "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「アイドル甲子園 FESTIVAL 2026 supported by My-th -DAY1-」\n\n📍TFTホール1000\n🎙12:30-12:55\n📸13:15-14:35 D\n\n⟣date：6/27（土）\n⟣place : TFTホール 1000・500・300\n⟣open/start：9:30/10:00\n⟣price：前方¥11,000/一般¥5,500/当日各+¥1,000（1D代込） https://t.co/lyoVndQTvZ",
       "attachments": {
         "media_keys": [
@@ -97303,7 +98146,7 @@
     "backfill": true,
     "dry_run": true,
     "estimated_x_post_reads": 411,
-    "latest_post_id": "2070480477400834362",
+    "latest_post_id": "2070831050516025469",
     "max_pages": 10,
     "max_posts": 500,
     "max_results": 5,
@@ -97346,16 +98189,16 @@
       }
     ],
     "pages_fetched": 5,
-    "posts_fetched": 461,
+    "posts_fetched": 465,
     "rate_limit_headers": {
       "x-rate-limit-limit": "10000",
       "x-rate-limit-remaining": "9993",
       "x-rate-limit-reset": "1781108896"
     },
-    "total_posts": 461,
-    "updated_at": "2026-06-26T20:49:28.299934+00:00",
+    "total_posts": 465,
+    "updated_at": "2026-06-27T20:10:54.446582+00:00",
     "username": "info_myojou"
   },
   "source": "x_api",
-  "updated_at": "2026-06-26T20:49:28.299934+00:00"
+  "updated_at": "2026-06-27T20:10:54.446582+00:00"
 }
