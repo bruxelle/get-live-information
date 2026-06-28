@@ -2,6 +2,480 @@
   "captured_at": "2026-06-10T16:19:36.141820+00:00",
   "data": [
     {
+      "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「THE ENCORE presents「ラブコール vol.19」」\n\n🎙19:40-20:05\n📸21:00-22:00\n\n⟣date：6/29（月）\n⟣place :Spotify O-nest\n⟣open/start：19:20/19:40\n⟣price：前方¥3,000/一般¥1,000/当日各+¥500（各+1D）\n⟣入場特典：明星カード（サインありチェキ） https://t.co/7FUkksENXf",
+      "attachments": {
+        "media_keys": [
+          "3_2071189238440423424"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "day_before_reminder"
+      },
+      "created_at": "2026-06-28T11:09:31+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/7FUkksENXf",
+            "end": 233,
+            "expanded_url": "https://x.com/info_myojou/status/2071189243687493679/photo/1",
+            "media_key": "3_2071189238440423424",
+            "start": 210,
+            "url": "https://t.co/7FUkksENXf"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2071189243687493679",
+      "media": [
+        {
+          "height": 2048,
+          "media_key": "3_2071189238440423424",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HL5Xo4PacAALTyS.jpg",
+          "width": 1759
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 277,
+              "start": 270,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "t-dv.com/lc_vol19",
+              "end": 268,
+              "expanded_url": "http://t-dv.com/lc_vol19",
+              "start": 245,
+              "url": "https://t.co/vGLoZl50ep"
+            }
+          ]
+        },
+        "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「THE ENCORE presents「ラブコール vol.19」」\n\n🎙19:40-20:05\n📸21:00-22:00\n\n⟣date：6/29（月）\n⟣place :Spotify O-nest\n⟣open/start：19:20/19:40\n⟣price：前方¥3,000/一般¥1,000/当日各+¥500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n6/7（日）21:00-6/28（日）23:59\n🔗 https://t.co/vGLoZl50ep\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": "21:00-22:00",
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-06-29",
+        "event_dates": [
+          "2026-06-29"
+        ],
+        "event_name": "THE ENCORE presents「ラブコール vol.19",
+        "extraction_confidence": 0.95,
+        "general_ticket_price": 1000,
+        "lottery_result_at": null,
+        "myojou_performance_time": "19:40-20:05",
+        "notes": "ドリンク代: 各+1D\n⟣入場特典:明星カード(サインありチェキ)",
+        "open_time": "19:20",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "前方",
+        "priority_ticket_price": 3000,
+        "same_day_ticket_price": 500,
+        "source_kind": "day_before_reminder",
+        "source_post_id": "2071189243687493679",
+        "source_posted_at": "2026-06-28T11:09:31Z",
+        "source_raw": {
+          "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「THE ENCORE presents「ラブコール vol.19」」\n\n🎙19:40-20:05\n📸21:00-22:00\n\n⟣date：6/29（月）\n⟣place :Spotify O-nest\n⟣open/start：19:20/19:40\n⟣price：前方¥3,000/一般¥1,000/当日各+¥500（各+1D）\n⟣入場特典：明星カード（サインありチェキ） https://t.co/7FUkksENXf",
+          "attachments": {
+            "media_keys": [
+              "3_2071189238440423424"
+            ]
+          },
+          "created_at": "2026-06-28T11:09:31.000Z",
+          "edit_history_tweet_ids": [
+            "2071189243687493679"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/7FUkksENXf",
+                "end": 233,
+                "expanded_url": "https://x.com/info_myojou/status/2071189243687493679/photo/1",
+                "media_key": "3_2071189238440423424",
+                "start": 210,
+                "url": "https://t.co/7FUkksENXf"
+              }
+            ]
+          },
+          "full_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「THE ENCORE presents「ラブコール vol.19」」\n\n🎙19:40-20:05\n📸21:00-22:00\n\n⟣date：6/29（月）\n⟣place :Spotify O-nest\n⟣open/start：19:20/19:40\n⟣price：前方¥3,000/一般¥1,000/当日各+¥500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n6/7（日）21:00-6/28（日）23:59\n🔗 https://t.co/vGLoZl50ep\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2071189243687493679",
+          "media": [
+            {
+              "height": 2048,
+              "media_key": "3_2071189238440423424",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HL5Xo4PacAALTyS.jpg",
+              "width": 1759
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 277,
+                  "start": 270,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "t-dv.com/lc_vol19",
+                  "end": 268,
+                  "expanded_url": "http://t-dv.com/lc_vol19",
+                  "start": 245,
+                  "url": "https://t.co/vGLoZl50ep"
+                }
+              ]
+            },
+            "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「THE ENCORE presents「ラブコール vol.19」」\n\n🎙19:40-20:05\n📸21:00-22:00\n\n⟣date：6/29（月）\n⟣place :Spotify O-nest\n⟣open/start：19:20/19:40\n⟣price：前方¥3,000/一般¥1,000/当日各+¥500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n6/7（日）21:00-6/28（日）23:59\n🔗 https://t.co/vGLoZl50ep\n\n#myojou"
+          },
+          "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「THE ENCORE presents「ラブコール vol.19」」\n\n🎙19:40-20:05\n📸21:00-22:00\n\n⟣date：6/29（月）\n⟣place :Spotify O-nest\n⟣open/start：19:20/19:40\n⟣price：前方¥3,000/一般¥1,000/当日各+¥500（各+1D）\n⟣入場特典：明星カード（サインありチェキ） https://t.co/7FUkksENXf",
+          "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「THE ENCORE presents「ラブコール vol.19」」\n\n🎙19:40-20:05\n📸21:00-22:00\n\n⟣date：6/29（月）\n⟣place :Spotify O-nest\n⟣open/start：19:20/19:40\n⟣price：前方¥3,000/一般¥1,000/当日各+¥500（各+1D）\n⟣入場特典：明星カード（サインありチェキ） https://t.co/7FUkksENXf"
+        },
+        "source_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「THE ENCORE presents「ラブコール vol.19」」\n\n🎙19:40-20:05\n📸21:00-22:00\n\n⟣date：6/29（月）\n⟣place :Spotify O-nest\n⟣open/start：19:20/19:40\n⟣price：前方¥3,000/一般¥1,000/当日各+¥500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n6/7（日）21:00-6/28（日）23:59\n🔗 https://t.co/vGLoZl50ep\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2071189243687493679",
+        "start_time": "19:40",
+        "ticket_application_deadline_at": "2026-06-28T23:59:00+09:00",
+        "ticket_application_start_at": "2026-06-07T21:00:00+09:00",
+        "ticket_sale_type": "一般",
+        "ticket_sales": [
+          {
+            "deadline_at": "2026-06-28T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 3000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2071189243687493679",
+            "source_url": "https://x.com/info_myojou/status/2071189243687493679",
+            "start_at": "2026-06-07T21:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "前方",
+            "ticket_tier": "前方"
+          },
+          {
+            "deadline_at": "2026-06-28T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 1000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2071189243687493679",
+            "source_url": "https://x.com/info_myojou/status/2071189243687493679",
+            "start_at": "2026-06-07T21:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 500,
+            "result_at": null,
+            "sale_type": "当日券",
+            "source_post_id": "2071189243687493679",
+            "source_url": "https://x.com/info_myojou/status/2071189243687493679",
+            "start_at": null,
+            "status": "販売中",
+            "ticket_name": "当日券",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "http://t-dv.com/lc_vol19",
+        "venue": "Spotify O-nest"
+      },
+      "raw": {
+        "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「THE ENCORE presents「ラブコール vol.19」」\n\n🎙19:40-20:05\n📸21:00-22:00\n\n⟣date：6/29（月）\n⟣place :Spotify O-nest\n⟣open/start：19:20/19:40\n⟣price：前方¥3,000/一般¥1,000/当日各+¥500（各+1D）\n⟣入場特典：明星カード（サインありチェキ） https://t.co/7FUkksENXf",
+        "attachments": {
+          "media_keys": [
+            "3_2071189238440423424"
+          ]
+        },
+        "created_at": "2026-06-28T11:09:31.000Z",
+        "edit_history_tweet_ids": [
+          "2071189243687493679"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/7FUkksENXf",
+              "end": 233,
+              "expanded_url": "https://x.com/info_myojou/status/2071189243687493679/photo/1",
+              "media_key": "3_2071189238440423424",
+              "start": 210,
+              "url": "https://t.co/7FUkksENXf"
+            }
+          ]
+        },
+        "full_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「THE ENCORE presents「ラブコール vol.19」」\n\n🎙19:40-20:05\n📸21:00-22:00\n\n⟣date：6/29（月）\n⟣place :Spotify O-nest\n⟣open/start：19:20/19:40\n⟣price：前方¥3,000/一般¥1,000/当日各+¥500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n6/7（日）21:00-6/28（日）23:59\n🔗 https://t.co/vGLoZl50ep\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2071189243687493679",
+        "media": [
+          {
+            "height": 2048,
+            "media_key": "3_2071189238440423424",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HL5Xo4PacAALTyS.jpg",
+            "width": 1759
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 277,
+                "start": 270,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "t-dv.com/lc_vol19",
+                "end": 268,
+                "expanded_url": "http://t-dv.com/lc_vol19",
+                "start": 245,
+                "url": "https://t.co/vGLoZl50ep"
+              }
+            ]
+          },
+          "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「THE ENCORE presents「ラブコール vol.19」」\n\n🎙19:40-20:05\n📸21:00-22:00\n\n⟣date：6/29（月）\n⟣place :Spotify O-nest\n⟣open/start：19:20/19:40\n⟣price：前方¥3,000/一般¥1,000/当日各+¥500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n6/7（日）21:00-6/28（日）23:59\n🔗 https://t.co/vGLoZl50ep\n\n#myojou"
+        },
+        "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「THE ENCORE presents「ラブコール vol.19」」\n\n🎙19:40-20:05\n📸21:00-22:00\n\n⟣date：6/29（月）\n⟣place :Spotify O-nest\n⟣open/start：19:20/19:40\n⟣price：前方¥3,000/一般¥1,000/当日各+¥500（各+1D）\n⟣入場特典：明星カード（サインありチェキ） https://t.co/7FUkksENXf",
+        "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「THE ENCORE presents「ラブコール vol.19」」\n\n🎙19:40-20:05\n📸21:00-22:00\n\n⟣date：6/29（月）\n⟣place :Spotify O-nest\n⟣open/start：19:20/19:40\n⟣price：前方¥3,000/一般¥1,000/当日各+¥500（各+1D）\n⟣入場特典：明星カード（サインありチェキ） https://t.co/7FUkksENXf"
+      },
+      "referenced_tweets": [],
+      "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「THE ENCORE presents「ラブコール vol.19」」\n\n🎙19:40-20:05\n📸21:00-22:00\n\n⟣date：6/29（月）\n⟣place :Spotify O-nest\n⟣open/start：19:20/19:40\n⟣price：前方¥3,000/一般¥1,000/当日各+¥500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n6/7（日）21:00-6/28（日）23:59\n🔗 https://t.co/vGLoZl50ep\n\n#myojou",
+      "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「THE ENCORE presents「ラブコール vol.19」」\n\n🎙19:40-20:05\n📸21:00-22:00\n\n⟣date：6/29（月）\n⟣place :Spotify O-nest\n⟣open/start：19:20/19:40\n⟣price：前方¥3,000/一般¥1,000/当日各+¥500（各+1D）\n⟣入場特典：明星カード（サインありチェキ） https://t.co/7FUkksENXf",
+      "url": "https://x.com/info_myojou/status/2071189243687493679"
+    },
+    {
+      "api_text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n           myojou Greeting Event\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「myojou Greeting Event」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka \n栗原ここね@myojou_cocone https://t.co/0UyHbTXpHb",
+      "attachments": {
+        "media_keys": [
+          "3_2071189146715209728"
+        ]
+      },
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "profile/member introduction",
+        "source_kind": "other"
+      },
+      "created_at": "2026-06-28T11:09:09+00:00",
+      "entities": {
+        "mentions": [
+          {
+            "end": 173,
+            "id": "1981655668626165760",
+            "start": 161,
+            "username": "myojou_ruka"
+          },
+          {
+            "end": 194,
+            "id": "1590652199407083520",
+            "start": 180,
+            "username": "myojou_cocone"
+          }
+        ],
+        "urls": [
+          {
+            "display_url": "pic.x.com/0UyHbTXpHb",
+            "end": 218,
+            "expanded_url": "https://x.com/info_myojou/status/2071189150834020472/photo/1",
+            "media_key": "3_2071189146715209728",
+            "start": 195,
+            "url": "https://t.co/0UyHbTXpHb"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2071189150834020472",
+      "media": [
+        {
+          "height": 1108,
+          "media_key": "3_2071189146715209728",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HL5XjiiawAAYUkI.jpg",
+          "width": 1477
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 279,
+              "start": 272,
+              "tag": "myojou"
+            }
+          ],
+          "mentions": [
+            {
+              "end": 173,
+              "id": "1981655668626165760",
+              "start": 161,
+              "username": "myojou_ruka"
+            },
+            {
+              "end": 194,
+              "id": "1590652199407083520",
+              "start": 180,
+              "username": "myojou_cocone"
+            },
+            {
+              "end": 213,
+              "id": "1754991922807177216",
+              "start": 200,
+              "username": "myojou_shino"
+            },
+            {
+              "end": 234,
+              "id": "1344586625901158401",
+              "start": 219,
+              "username": "myojou_usukura"
+            },
+            {
+              "end": 251,
+              "id": "2009245855694675968",
+              "start": 240,
+              "username": "myojou_miu"
+            },
+            {
+              "end": 268,
+              "id": "2009274765895450624",
+              "start": 257,
+              "username": "myojou_yun"
+            }
+          ]
+        },
+        "text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n           myojou Greeting Event\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「myojou Greeting Event」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka \n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n薄倉りな@myojou_usukura \n日陽みう@myojou_miu \n澪奈ゆん@myojou_yun \n\n #myojou"
+      },
+      "parsed_fields": null,
+      "raw": {
+        "api_text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n           myojou Greeting Event\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「myojou Greeting Event」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka \n栗原ここね@myojou_cocone https://t.co/0UyHbTXpHb",
+        "attachments": {
+          "media_keys": [
+            "3_2071189146715209728"
+          ]
+        },
+        "created_at": "2026-06-28T11:09:09.000Z",
+        "edit_history_tweet_ids": [
+          "2071189150834020472"
+        ],
+        "entities": {
+          "mentions": [
+            {
+              "end": 173,
+              "id": "1981655668626165760",
+              "start": 161,
+              "username": "myojou_ruka"
+            },
+            {
+              "end": 194,
+              "id": "1590652199407083520",
+              "start": 180,
+              "username": "myojou_cocone"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "pic.x.com/0UyHbTXpHb",
+              "end": 218,
+              "expanded_url": "https://x.com/info_myojou/status/2071189150834020472/photo/1",
+              "media_key": "3_2071189146715209728",
+              "start": 195,
+              "url": "https://t.co/0UyHbTXpHb"
+            }
+          ]
+        },
+        "full_text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n           myojou Greeting Event\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「myojou Greeting Event」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka \n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n薄倉りな@myojou_usukura \n日陽みう@myojou_miu \n澪奈ゆん@myojou_yun \n\n #myojou",
+        "full_text_source": "note_tweet",
+        "id": "2071189150834020472",
+        "media": [
+          {
+            "height": 1108,
+            "media_key": "3_2071189146715209728",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HL5XjiiawAAYUkI.jpg",
+            "width": 1477
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 279,
+                "start": 272,
+                "tag": "myojou"
+              }
+            ],
+            "mentions": [
+              {
+                "end": 173,
+                "id": "1981655668626165760",
+                "start": 161,
+                "username": "myojou_ruka"
+              },
+              {
+                "end": 194,
+                "id": "1590652199407083520",
+                "start": 180,
+                "username": "myojou_cocone"
+              },
+              {
+                "end": 213,
+                "id": "1754991922807177216",
+                "start": 200,
+                "username": "myojou_shino"
+              },
+              {
+                "end": 234,
+                "id": "1344586625901158401",
+                "start": 219,
+                "username": "myojou_usukura"
+              },
+              {
+                "end": 251,
+                "id": "2009245855694675968",
+                "start": 240,
+                "username": "myojou_miu"
+              },
+              {
+                "end": 268,
+                "id": "2009274765895450624",
+                "start": 257,
+                "username": "myojou_yun"
+              }
+            ]
+          },
+          "text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n           myojou Greeting Event\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「myojou Greeting Event」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka \n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n薄倉りな@myojou_usukura \n日陽みう@myojou_miu \n澪奈ゆん@myojou_yun \n\n #myojou"
+        },
+        "text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n           myojou Greeting Event\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「myojou Greeting Event」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka \n栗原ここね@myojou_cocone https://t.co/0UyHbTXpHb",
+        "truncated_text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n           myojou Greeting Event\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「myojou Greeting Event」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka \n栗原ここね@myojou_cocone https://t.co/0UyHbTXpHb"
+      },
+      "referenced_tweets": [],
+      "text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n           myojou Greeting Event\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「myojou Greeting Event」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka \n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n薄倉りな@myojou_usukura \n日陽みう@myojou_miu \n澪奈ゆん@myojou_yun \n\n #myojou",
+      "truncated_text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n           myojou Greeting Event\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「myojou Greeting Event」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka \n栗原ここね@myojou_cocone https://t.co/0UyHbTXpHb",
+      "url": "https://x.com/info_myojou/status/2071189150834020472"
+    },
+    {
       "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「myojou Greeting Event」\n\n⟣date：6/28（日）\n⟣place : 東京都新宿区新宿4-2-21 相模ビル 7階　ふれあい貸し会議室 新宿No73\n⟣1部 : 15:00-16:30 アリスメイド\n⟣2部 : 17:00-18:30 私服\n⟣price： ¥0\n\n【受付期間】\n-6/28（日）18:15\n🔗 https://t.co/isaogQnheY",
       "attachments": {
         "media_keys": [
@@ -98146,7 +98620,7 @@
     "backfill": true,
     "dry_run": true,
     "estimated_x_post_reads": 411,
-    "latest_post_id": "2070831050516025469",
+    "latest_post_id": "2071189243687493679",
     "max_pages": 10,
     "max_posts": 500,
     "max_results": 5,
@@ -98189,16 +98663,16 @@
       }
     ],
     "pages_fetched": 5,
-    "posts_fetched": 465,
+    "posts_fetched": 467,
     "rate_limit_headers": {
       "x-rate-limit-limit": "10000",
       "x-rate-limit-remaining": "9993",
       "x-rate-limit-reset": "1781108896"
     },
-    "total_posts": 465,
-    "updated_at": "2026-06-27T20:10:54.446582+00:00",
+    "total_posts": 467,
+    "updated_at": "2026-06-28T20:16:32.143876+00:00",
     "username": "info_myojou"
   },
   "source": "x_api",
-  "updated_at": "2026-06-27T20:10:54.446582+00:00"
+  "updated_at": "2026-06-28T20:16:32.143876+00:00"
 }
