@@ -9,11 +9,15 @@
   <body class="is-calendar-view">
     <main class="app-shell">
       <header class="topbar">
-        <div>
+        <div class="topbar-copy">
           <p class="eyebrow">myojou</p>
           <h1>ライブ予定</h1>
+          <p class="topbar-subtitle">ライブ日・申込締切・支払期限をまとめて確認できます。</p>
         </div>
-        <p id="eventCount" class="event-count"></p>
+        <div class="topbar-summary">
+          <p id="eventCount" class="event-count"></p>
+          <p id="nextLiveSummary" class="next-live-summary"></p>
+        </div>
       </header>
 
       <nav class="filters" aria-label="日付フィルター">

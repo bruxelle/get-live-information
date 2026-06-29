@@ -17,6 +17,7 @@ const monthLoadButtons = Array.from(document.querySelectorAll("[data-month-load]
 const eventList = document.querySelector("#eventList");
 const emptyState = document.querySelector("#emptyState");
 const eventCount = document.querySelector("#eventCount");
+const nextLiveSummary = document.querySelector("#nextLiveSummary");
 const calendarView = document.querySelector("#calendarView");
 const calendarMonths = document.querySelector("#calendarMonths");
 const deadlineAlertsList = document.querySelector("#deadlineAlertsList");
@@ -109,7 +110,7 @@ function renderCards() {
   eventList.replaceChildren(...groupedEvents(events));
   emptyState.textContent = "表示できる予定がありません。";
   emptyState.hidden = events.length !== 0;
-  eventCount.textContent = `${events.length}件`;
+  updateHeaderSummary(events.length);
 }
 
 function renderCalendar() {
@@ -121,9 +122,56 @@ function renderCalendar() {
   eventList.hidden = true;
   emptyState.hidden = true;
   calendarView.hidden = false;
-  eventCount.textContent = `${visibleEntryCount}件`;
+  updateHeaderSummary(visibleEntryCount);
   renderDeadlineAlerts(todayKey);
   calendarMonths.replaceChildren(...monthSections.map((section) => section.node));
+}
+
+function updateHeaderSummary(visibleCount) {
+  eventCount.textContent = `${visibleCount}件`;
+  updateNextLiveSummary();
+}
+
+function updateNextLiveSummary() {
+  if (!nextLiveSummary) return;
+  const next = nextUpcomingLive(state.events, startOfToday());
+  if (!next) {
+    nextLiveSummary.textContent = "未定";
+    return;
+  }
+  const title = next.event.event_name || next.event.title || "未定";
+  const venue = next.event.venue ? ` / ${next.event.venue}` : "";
+  const weekday = next.dateKey === next.event.event_date ? next.event.weekday : weekdayForDate(next.dateKey);
+  nextLiveSummary.textContent = `${formatDate(next.dateKey, weekday)} ${title}${venue}`;
+}
+
+function nextUpcomingLive(events, today) {
+  let next = null;
+  for (const event of events || []) {
+    const dateKey = nearestUpcomingEventDateKey(event, today);
+    if (!dateKey) continue;
+    const sortKey = [dateKey, event.start_time || "99:99", event.event_name || event.title || "", event.venue || ""].join("\u0000");
+    if (!next || sortKey.localeCompare(next.sortKey) < 0) {
+      next = { event, dateKey, sortKey };
+    }
+  }
+  return next;
+}
+
+function nearestUpcomingEventDateKey(event, today) {
+  const candidates = eventDateKeys(event)
+    .map((dateKey) => ({ dateKey, date: parseDate(dateKey) }))
+    .filter((candidate) => candidate.date && candidate.date >= today)
+    .sort((left, right) => left.date - right.date || left.dateKey.localeCompare(right.dateKey));
+  return candidates[0]?.dateKey || "";
+}
+
+function eventDateKeys(event) {
+  const values = [];
+  if (event?.event_date) values.push(event.event_date);
+  if (event?.date) values.push(event.date);
+  if (Array.isArray(event?.event_dates)) values.push(...event.event_dates);
+  return Array.from(new Set(values.map(isoDatePart).filter(Boolean)));
 }
 
 function updateViewState() {
@@ -315,8 +363,7 @@ function relevantCalendarEntries(cell) {
     return entries.filter((entry) => entry.kind === "payment");
   }
   if (state.calendarMode === "all") {
-    const liveEntries = entries.filter((entry) => entry.kind === "live");
-    return liveEntries.length ? liveEntries : entries;
+    return entries;
   }
   return entries.filter((entry) => entry.kind === "live");
 }
@@ -575,6 +622,7 @@ function ticketSaleChip(sale) {
 }
 
 function actionRow(event) {
+  const actions = [];
   const link = el("a", { className: "ticket-button" }, event.ticket_url ? "チケットURL" : "URL未取得");
   if (event.ticket_url) {
     link.href = event.ticket_url;
@@ -583,7 +631,18 @@ function actionRow(event) {
   } else {
     link.setAttribute("aria-disabled", "true");
   }
-  return el("div", { className: "card-actions" }, link);
+  actions.push(link);
+
+  const sourceUrl = sourceUrlForEvent(event);
+  if (sourceUrl) {
+    const sourceLink = el("a", { className: "source-button" }, "告知ポスト");
+    sourceLink.href = sourceUrl;
+    sourceLink.target = "_blank";
+    sourceLink.rel = "noopener noreferrer";
+    actions.push(sourceLink);
+  }
+
+  return el("div", { className: "card-actions" }, actions);
 }
 
 function el(tagName, props = {}, children = []) {

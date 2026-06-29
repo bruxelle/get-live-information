@@ -1739,6 +1739,9 @@ def test_static_public_ui_has_filters_date_groups_and_status_badges():
     assert 'data-view="calendar" aria-pressed="true"' in html
     assert '<section id="calendarView" class="calendar-view">' in html
     assert '<section id="eventList" class="event-list" aria-live="polite" hidden>' in html
+    assert "topbar-copy" in html
+    assert "topbar-subtitle" in html
+    assert 'id="nextLiveSummary"' in html
     for calendar_mode in ("live", "application", "payment", "all"):
         assert f'data-calendar-mode="{calendar_mode}"' in html
     assert 'data-calendar-mode="live" aria-pressed="true"' in html
@@ -1753,9 +1756,16 @@ def test_static_public_ui_has_filters_date_groups_and_status_badges():
     assert "updateViewState" in app_js
     assert "updateViewButtons" in app_js
     assert "updateCalendarModeButtons" in app_js
+    assert "updateNextLiveSummary" in app_js
+    next_live_function = app_js.split("function updateNextLiveSummary()", 1)[1].split("function nextUpcomingLive", 1)[0]
+    assert "次のライブ" not in next_live_function
+    assert "sortedEvents" not in next_live_function
     assert "calendarCell" in app_js
     assert "renderDeadlineAlerts" in app_js
     assert "deadlineAlertItem" in app_js
+    assert 'if (state.calendarMode === "all") {\n    return entries;\n  }' in app_js
+    assert 'sourceUrlForEvent(event)' in app_js
+    assert '"告知ポスト"' in app_js
     assert "selectedDate" not in app_js
     assert "selected-date" not in html
     assert "この日のライブ予定はありません" not in html
@@ -1795,6 +1805,7 @@ def test_static_public_ui_has_filters_date_groups_and_status_badges():
     assert "summary-missing" in css
     assert "application-row" in css
     assert "ticket-button" in css
+    assert ".card-actions > *:only-child" in css
 
 
 def test_readme_documents_empty_deadlines_stay_visible():

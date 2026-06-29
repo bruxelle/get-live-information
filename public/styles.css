@@ -820,6 +820,10 @@ body.is-calendar-view .sort-controls {
   margin-top: 2px;
 }
 
+.card-actions > *:only-child {
+  grid-column: 1 / -1;
+}
+
 .ticket-button,
 .source-button,
 .detail-action-button {
