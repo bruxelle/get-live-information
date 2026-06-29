@@ -1656,8 +1656,8 @@ def test_large_mock_dataset_exports_many_events_and_skips_non_events(tmp_path, m
     assert export_result == 0
     assert "Fetched 42" in run_output
     assert "skipped 5" in run_output
-    assert "canonical 22" in run_output
-    assert "Exported 22 public-ready rows from 22 events" in export_output
+    assert "canonical 23" in run_output
+    assert "Exported 22 public-ready rows from 23 events" in export_output
     assert len(payload) == 22
     multi_tier = next(row for row in payload if row["event_name"] == "MULTI TIER NIGHT")
     assert len(multi_tier["ticket_sales"]) == 5
@@ -1734,7 +1734,7 @@ def test_static_public_ui_has_filters_date_groups_and_status_badges():
         assert f'data-sort="{sort_name}"' in html
     for view_name in ("cards", "calendar"):
         assert f'data-view="{view_name}"' in html
-    for calendar_mode in ("live", "application", "payment", "all"):
+    for calendar_mode in ("live", "lotteryDeadline", "firstComeDeadline"):
         assert f'data-calendar-mode="{calendar_mode}"' in html
     for month_load in ("previous", "next"):
         assert f'data-month-load="{month_load}"' in html
@@ -1763,7 +1763,12 @@ def test_static_public_ui_has_filters_date_groups_and_status_badges():
     assert "has-events" in css
     assert "is-today" in css
     assert "calendar-chip-live" in css
-    assert "calendar-chip-application" in css
+    assert "filterCalendarEntriesForDisplay" in app_js
+    assert "lotteryDeadline" in app_js
+    assert "firstComeDeadline" in app_js
+    assert "ライブ日" in html
+    assert "抽選締切" in html
+    assert "先着締切" in html
     assert "calendar-chip-payment" in css
     assert "calendar-chip-sold-out" in css
     assert "calendar-chip-ended" in css

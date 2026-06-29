@@ -71,6 +71,12 @@ def public_readiness(event: CanonicalEvent) -> PublicReadiness:
 
 
 def _non_live_reason(text: str) -> str | None:
+    if _is_goods_or_kuji_announcement_text(text):
+        return "goods/number lottery announcement"
+    if _is_benefit_only_text(text):
+        return "benefit-only/non-live event"
+    if _is_streaming_only_announcement_text(text):
+        return "streaming-only/non-live event"
     if _is_greeting_only_text(text):
         return "greeting-only/non-live event"
     if _is_notice_only_change_text(text):
@@ -81,7 +87,7 @@ def _non_live_reason(text: str) -> str | None:
         ("teaser/coming soon", ("comingsoon", "coming soon", "近日公開", "近日解禁", "teaser")),
         ("campaign-like post", ("キャンペーン", "ミョージョーサマーキャンペーン")),
         ("online signing/benefit-detail content", ("ニックネーム", "サイン", "日付", "コメント")),
-        ("content/MV-like post", ("アンチコンプリート", "mv", "musicvideo", "ミュージックビデオ")),
+        ("content/MV-like post", ("アンチコンプリート", "mv公開", "musicvideo", "ミュージックビデオ")),
         ("content program, not live schedule", ("学力テスト", "直前sp")),
         ("live digest recap", ("livedigest", "live digest")),
         ("thank-you/recap post", ("御礼", "ありがとうございました", "ありがとう")),
@@ -103,6 +109,68 @@ def _non_live_reason(text: str) -> str | None:
         if any(token in text for token in tokens):
             return reason
     return None
+
+
+def _is_goods_or_kuji_announcement_text(text: str) -> bool:
+    subject_text = "\n".join(_subject_lines_before_event_details(text))
+    subject_compact = re.sub(r"\s+", "", subject_text.casefold())
+    title_tokens = (
+        "グッズ&ナンバーくじ公開",
+        "グッズ＆ナンバーくじ公開",
+        "ナンバーくじ公開",
+        "くじ公開",
+        "グッズ公開",
+        "グッズ受注販売",
+        "グッズ通販",
+        "goodsannouncement",
+        "merchandiseannouncement",
+        "onlinelottery",
+    )
+    return any(token.casefold().replace(" ", "") in subject_compact for token in title_tokens)
+
+
+def _is_benefit_only_text(text: str) -> bool:
+    subject_text = "\n".join(_subject_lines_before_event_details(text))
+    subject_compact = re.sub(r"\s+", "", subject_text.casefold())
+    return any(token in subject_compact for token in ("後日特典会", "アフター特典会", "特典会のみ"))
+
+
+def _is_streaming_only_announcement_text(text: str) -> bool:
+    subject_text = "\n".join(_subject_lines_before_event_details(text))
+    subject_compact = re.sub(r"\s+", "", subject_text.casefold())
+    if "緊急決起集会" in subject_compact:
+        return True
+    if not any(token in subject_compact for token in ("生配信決定", "緊急決起集会", "直前sp", "直前sp!!", "tifチャンネル")):
+        return False
+    return any(token in subject_compact for token in ("生配信", "配信", "streaming", "online", "tifチャンネル", "youtube"))
+
+
+def _subject_lines_before_event_details(text: str) -> list[str]:
+    subject_lines: list[str] = []
+    detail_markers = (
+        "⟣date",
+        "date:",
+        "date：",
+        "⟣place",
+        "place:",
+        "place:",
+        "open/start",
+        "会場",
+        "場所",
+        "開場",
+        "開演",
+    )
+    for raw_line in text.splitlines():
+        line = raw_line.strip()
+        if not line or not re.search(r"[A-Za-z0-9ぁ-んァ-ン一-龥々〆〤]", line):
+            continue
+        compact = re.sub(r"\s+", "", line.casefold())
+        if subject_lines and any(marker in compact for marker in detail_markers):
+            break
+        subject_lines.append(line)
+        if len(subject_lines) >= 8:
+            break
+    return subject_lines
 
 
 def _is_greeting_only_text(text: str) -> bool:

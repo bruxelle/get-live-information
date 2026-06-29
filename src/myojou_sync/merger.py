@@ -4,6 +4,7 @@ from dataclasses import dataclass
 from datetime import datetime, timedelta, timezone
 from difflib import SequenceMatcher
 import re
+from urllib.parse import urlsplit
 
 from .models import CanonicalEvent, EventFields, ExtractedEvent, PostClassification, SourceKind, TicketSalePeriod, source_summary_line, utc_now
 from .normalization import normalize_event_name, normalize_url, normalize_venue
@@ -100,7 +101,7 @@ class EventMerger:
         same_ticket_url = False
         both_have_different_ticket_urls = False
         if extracted.ticket_url and event.ticket_url:
-            same_ticket_url = normalize_url(extracted.ticket_url) == normalize_url(event.ticket_url)
+            same_ticket_url = _same_event_url(extracted.ticket_url, event.ticket_url)
             if same_ticket_url:
                 score += 0.45
                 reasons.append("same ticket_url")
@@ -120,6 +121,8 @@ class EventMerger:
         name_alias_match = _safe_event_name_alias_match(extracted, event, venue_similarity=venue_similarity)
         if _unsafe_short_title_match(extracted, event, venue_similarity=venue_similarity):
             return 0.0, ["short title with different date or venue"]
+        if _numbered_volume_conflict(extracted.event_name, event.event_name) and not same_ticket_url:
+            return 0.0, ["different numbered event volume"]
         if extracted.event_name and event.event_name and both_have_different_ticket_urls and name_similarity < 0.92 and not name_alias_match:
             return 0.0, ["different ticket_url and event_name"]
         if extracted.event_name and event.event_name and name_similarity < 0.45 and not same_ticket_url and not name_alias_match:
@@ -156,7 +159,7 @@ class EventMerger:
             if extracted.event_date and event.event_date and _event_date_matches(extracted, event):
                 score += 0.15
                 reasons.append("update/reminder for same date")
-            if extracted.ticket_url and event.ticket_url and normalize_url(extracted.ticket_url) == normalize_url(event.ticket_url):
+            if extracted.ticket_url and event.ticket_url and _same_event_url(extracted.ticket_url, event.ticket_url):
                 score += 0.05
                 reasons.append("update shares ticket_url")
 
@@ -214,6 +217,15 @@ class EventMerger:
     def merge_event_dates(self, event: CanonicalEvent, extracted: ExtractedEvent) -> None:
         if event.manual_override and "event_dates" in MANUAL_PROTECTED_FIELDS:
             return
+        if _is_broad_series_to_numbered_volume_update(event.event_name, extracted.event_name):
+            current_dates = _event_date_set(event.event_date, event.event_dates)
+            incoming_dates = _event_date_set(extracted.event_date, extracted.event_dates)
+            overlap = current_dates & incoming_dates
+            if overlap:
+                event.event_dates = _dedupe_dates([extracted.event_date, *(extracted.event_dates or []), event.event_date])
+                event.event_dates = [value for value in event.event_dates if value in overlap]
+                event.event_date = event.event_dates[0]
+                return
         dates = [*(event.event_dates or [])]
         if event.event_date:
             dates.insert(0, event.event_date)
@@ -319,6 +331,22 @@ def _similarity(left: str, right: str) -> float:
     return SequenceMatcher(None, left, right).ratio()
 
 
+def _same_event_url(left: str | None, right: str | None) -> bool:
+    left_normalized = normalize_url(left)
+    right_normalized = normalize_url(right)
+    if not left_normalized or not right_normalized:
+        return False
+    if left_normalized == right_normalized:
+        return True
+    left_parts = urlsplit(left_normalized)
+    right_parts = urlsplit(right_normalized)
+    return (left_parts.netloc, left_parts.path.rstrip("/"), left_parts.query) == (
+        right_parts.netloc,
+        right_parts.path.rstrip("/"),
+        right_parts.query,
+    )
+
+
 def _safe_event_name_alias_match(
     extracted: ExtractedEvent,
     event: CanonicalEvent,
@@ -342,6 +370,34 @@ def _event_name_alias_related(left: str | None, right: str | None) -> bool:
     if left_key == right_key:
         return True
     return False
+
+
+def _numbered_volume_conflict(left: str | None, right: str | None) -> bool:
+    left_number = _volume_number(left)
+    right_number = _volume_number(right)
+    return left_number is not None and right_number is not None and left_number != right_number
+
+
+def _is_broad_series_to_numbered_volume_update(left: str | None, right: str | None) -> bool:
+    left_number = _volume_number(left)
+    right_number = _volume_number(right)
+    if (left_number is None) == (right_number is None):
+        return False
+    return _event_name_alias_without_volume(left) == _event_name_alias_without_volume(right)
+
+
+def _event_name_alias_without_volume(value: str | None) -> str:
+    alias = _event_name_alias_key(value)
+    return re.sub(r"vol0?\d+", "", alias, flags=re.I)
+
+
+def _volume_number(value: str | None) -> int | None:
+    if not value:
+        return None
+    match = re.search(r"\bvol\.?\s*0*(\d+)\b", value, flags=re.I)
+    if match:
+        return int(match.group(1))
+    return None
 
 
 def _event_name_alias_key(value: str | None) -> str:

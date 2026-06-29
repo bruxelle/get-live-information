@@ -112,14 +112,109 @@
       entries.push({ kind: "live", label: "ライブ", date: event.event_date, event });
     }
     if (includeApplication) {
-      const deadline = applicationDeadlineKey(event);
-      if (deadline) entries.push({ kind: "application", label: "申込", date: deadline, event });
+      entries.push(...applicationDeadlineEntriesForEvent(event));
     }
     if (includePayment) {
-      const payment = paymentDeadlineKey(event);
-      if (payment) entries.push({ kind: "payment", label: "支払", date: payment, event });
+      entries.push(...paymentDeadlineEntriesForEvent(event));
     }
     return entries;
+  }
+
+  function applicationDeadlineEntriesForEvent(event) {
+    const sales = ticketSalesWithDate(event, "deadline_at");
+    if (!sales.length) {
+      const deadline = applicationDeadlineKey(event);
+      return deadline ? [deadlineEntry("application", "", deadline, event, [], "")] : [];
+    }
+    return groupedSaleDeadlineEntries(event, sales, "deadline_at", "application");
+  }
+
+  function paymentDeadlineEntriesForEvent(event) {
+    const sales = ticketSalesWithDate(event, "payment_deadline_at");
+    if (!sales.length) {
+      const payment = paymentDeadlineKey(event);
+      return payment ? [deadlineEntry("payment", "支払", payment, event, [], applicationKindForEvent(event))] : [];
+    }
+    return groupedSaleDeadlineEntries(event, sales, "payment_deadline_at", "payment", "支払");
+  }
+
+  function groupedSaleDeadlineEntries(event, sales, field, kind, fallbackLabel = "") {
+    const groups = new Map();
+    for (const sale of sales) {
+      const date = isoDatePart(sale[field]);
+      if (!date) continue;
+      const applicationKind = applicationKindForSale(sale) || "unknown";
+      const deadlineKind = kind === "application" ? deadlineKindForApplicationKind(applicationKind) : "";
+      const key = [date, deadlineKind || applicationKind].join("\u0000");
+      if (!groups.has(key)) {
+        groups.set(key, { date, applicationKind, deadlineKind, sales: [] });
+      }
+      groups.get(key).sales.push(sale);
+    }
+    return Array.from(groups.values())
+      .sort((left, right) => left.date.localeCompare(right.date) || (left.deadlineKind || left.applicationKind).localeCompare(right.deadlineKind || right.applicationKind))
+      .map((group) => {
+        const label = kind === "application"
+          ? deadlineLabelForApplicationKind(group.applicationKind)
+          : fallbackLabel;
+        return deadlineEntry(kind, label, group.date, event, group.sales, group.applicationKind);
+      });
+  }
+
+  function deadlineEntry(kind, label, date, event, sales, applicationKind) {
+    const normalizedApplicationKind = applicationKind === "unknown" ? "" : applicationKind;
+    return {
+      kind,
+      label,
+      date,
+      event,
+      ticket_sales: sales,
+      application_kind: normalizedApplicationKind,
+      deadline_kind: kind === "application" ? deadlineKindForApplicationKind(normalizedApplicationKind) : "",
+    };
+  }
+
+  function deadlineKindForApplicationKind(applicationKind) {
+    if (applicationKind === "lottery") return "lotteryDeadline";
+    if (applicationKind === "first") return "firstComeDeadline";
+    return "";
+  }
+
+  function deadlineLabelForApplicationKind(applicationKind) {
+    if (applicationKind === "lottery") return "抽選申込締切";
+    if (applicationKind === "first") return "先着申込締切";
+    return "";
+  }
+
+  function ticketSalesWithDate(event, field) {
+    if (!Array.isArray(event.ticket_sales)) return [];
+    return event.ticket_sales.filter((sale) => isoDatePart(sale && sale[field]));
+  }
+
+  function applicationKindForSale(sale) {
+    const text = [
+      sale && sale.sale_type,
+      sale && sale.ticket_name,
+      sale && sale.ticket_tier,
+      sale && sale.status,
+      sale && sale.notes,
+    ].filter(Boolean).join(" ");
+    if (/(抽選|先行抽選|抽選販売|lottery)/i.test(text)) return "lottery";
+    if (/(先着|一般販売|一般|販売中|受付中|first[\s-]?come)/i.test(text)) return "first";
+    return "";
+  }
+
+  function applicationKindForEvent(event) {
+    const text = [
+      event.next_ticket_sale_type,
+      event.next_ticket_label,
+      event.ticket_summary,
+      event.application_summary,
+      event.ticket_status,
+    ].filter(Boolean).join(" ");
+    if (/(抽選|先行抽選|抽選販売|lottery)/i.test(text)) return "lottery";
+    if (/(先着|一般販売|一般|販売中|受付中|first[\s-]?come)/i.test(text)) return "first";
+    return "";
   }
 
   function buildMonthCalendar(month, events, todayKey, mode = "live") {
@@ -155,6 +250,19 @@
     }
 
     return cells;
+  }
+
+  function filterCalendarEntriesForDisplay(entries, mode = "live") {
+    return (entries || []).filter((entry) => {
+      if (!entry) return false;
+      if (mode === "live") {
+        return entry.kind === "live";
+      }
+      if (mode === "lotteryDeadline" || mode === "firstComeDeadline") {
+        return entry.kind === "application" && entry.deadline_kind === mode;
+      }
+      return false;
+    });
   }
 
   function buildDeadlineAlerts(events, todayKey) {
@@ -232,6 +340,7 @@
     calendarEntriesForEvent,
     dateKey,
     eventsForDate,
+    filterCalendarEntriesForDisplay,
     groupCalendarEntries,
     groupEventsByDate,
     isMissingDeadline,

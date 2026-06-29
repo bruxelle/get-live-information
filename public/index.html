@@ -9,30 +9,36 @@
   <body>
     <main class="app-shell">
       <header class="topbar">
-        <div>
-          <p class="eyebrow">myojou</p>
-          <h1>ライブ予定</h1>
+        <div class="topbar-copy">
+          <p class="eyebrow">myojou live schedule</p>
+          <h1>myojou ライブ予定</h1>
+          <p class="topbar-subtitle">ライブ日・申込締切・チケット状況をまとめて確認できます。</p>
         </div>
-        <p id="eventCount" class="event-count"></p>
+        <div class="topbar-summary" aria-label="表示中の予定">
+          <p id="eventCount" class="event-count"></p>
+          <p id="nextLiveSummary" class="next-live-summary"></p>
+        </div>
       </header>
 
-      <nav class="filters" aria-label="日付フィルター">
-        <button class="filter-button is-active" type="button" data-filter="upcoming">今日以降</button>
-        <button class="filter-button" type="button" data-filter="week">今週</button>
-        <button class="filter-button" type="button" data-filter="month">今月</button>
-        <button class="filter-button" type="button" data-filter="missing-deadline">締切未取得</button>
-        <button class="filter-button" type="button" data-filter="all">すべて</button>
-      </nav>
+      <section class="controls-panel" aria-label="表示設定">
+        <nav class="filters" aria-label="日付フィルター">
+          <button class="filter-button is-active" type="button" data-filter="upcoming">今日以降</button>
+          <button class="filter-button" type="button" data-filter="week">今週</button>
+          <button class="filter-button" type="button" data-filter="month">今月</button>
+          <button class="filter-button" type="button" data-filter="missing-deadline">締切未取得</button>
+          <button class="filter-button" type="button" data-filter="all">すべて</button>
+        </nav>
 
-      <nav class="sort-controls" aria-label="並び替え">
-        <button class="sort-button is-active" type="button" data-sort="event-date">ライブ日順</button>
-        <button class="sort-button" type="button" data-sort="deadline">申込締切順</button>
-      </nav>
+        <nav class="sort-controls" aria-label="並び替え">
+          <button class="sort-button is-active" type="button" data-sort="event-date">ライブ日順</button>
+          <button class="sort-button" type="button" data-sort="deadline">申込締切順</button>
+        </nav>
 
-      <nav class="view-switcher" aria-label="表示切り替え">
-        <button class="view-button is-active" type="button" data-view="cards">カード</button>
-        <button class="view-button" type="button" data-view="calendar">カレンダー</button>
-      </nav>
+        <nav class="view-switcher" aria-label="表示切り替え">
+          <button class="view-button is-active" type="button" data-view="cards">カード</button>
+          <button class="view-button" type="button" data-view="calendar">カレンダー</button>
+        </nav>
+      </section>
 
       <section id="calendarView" class="calendar-view" hidden>
         <section class="deadline-alerts" aria-labelledby="deadlineAlertsHeading">
@@ -43,9 +49,8 @@
 
         <nav class="calendar-mode-controls" aria-label="カレンダー表示モード">
           <button class="calendar-mode-button is-active" type="button" data-calendar-mode="live">ライブ日</button>
-          <button class="calendar-mode-button" type="button" data-calendar-mode="application">申込締切</button>
-          <button class="calendar-mode-button" type="button" data-calendar-mode="payment">支払期限</button>
-          <button class="calendar-mode-button" type="button" data-calendar-mode="all">すべて</button>
+          <button class="calendar-mode-button" type="button" data-calendar-mode="lotteryDeadline">抽選締切</button>
+          <button class="calendar-mode-button" type="button" data-calendar-mode="firstComeDeadline">先着締切</button>
         </nav>
 
         <button class="calendar-load-button" type="button" data-month-load="previous">前の月を表示</button>
@@ -57,7 +62,7 @@
       <p id="emptyState" class="empty-state" hidden>表示できる予定がありません。</p>
     </main>
 
-    <script src="calendar_helpers.js"></script>
-    <script src="app.js"></script>
+    <script src="calendar_helpers.js?v=calendar-switch-fix-20260629"></script>
+    <script src="app.js?v=calendar-switch-fix-20260629"></script>
   </body>
 </html>
