@@ -214,6 +214,11 @@ h1 {
   color: #fff;
 }
 
+body.is-calendar-view .filters,
+body.is-calendar-view .sort-controls {
+  display: none;
+}
+
 .calendar-view {
   display: grid;
   gap: 14px;
@@ -282,6 +287,16 @@ h1 {
   border-color: #e9dccb;
   background: #fffaf0;
   color: #6f5839;
+}
+
+.deadline-alert-compact {
+  justify-self: start;
+  gap: 0;
+  padding: 5px 8px;
+}
+
+.deadline-alert-compact strong {
+  font-size: 12px;
 }
 
 .deadline-alerts-empty {
@@ -805,6 +820,10 @@ h1 {
   margin-top: 2px;
 }
 
+.card-actions > *:only-child {
+  grid-column: 1 / -1;
+}
+
 .ticket-button,
 .source-button,
 .detail-action-button {
@@ -1028,6 +1047,36 @@ body.detail-sheet-open {
 }
 
 @media (max-width: 640px) {
+  .app-shell {
+    padding-top: 10px;
+  }
+
+  .topbar {
+    padding-bottom: 8px;
+  }
+
+  body.is-calendar-view .view-switcher,
+  body.is-calendar-view .calendar-mode-controls {
+    padding-bottom: 6px;
+  }
+
+  body.is-calendar-view .calendar-view {
+    gap: 8px;
+  }
+
+  body.is-calendar-view .deadline-alerts {
+    gap: 5px;
+    padding: 8px 10px;
+  }
+
+  body.is-calendar-view .deadline-alerts-heading {
+    font-size: 15px;
+  }
+
+  body.is-calendar-view .deadline-alerts-list {
+    gap: 5px;
+  }
+
   .calendar-weekdays,
   .calendar-grid {
     width: calc(100% + 28px);
@@ -1080,4 +1129,22 @@ body.detail-sheet-open {
   .detail-actions {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
+}
+
+.calendar-chip-application {
+  border-color: rgb(37 99 235 / 28%);
+  background: rgb(37 99 235 / 8%);
+  color: #1d4ed8;
+}
+
+.calendar-chip-payment {
+  border-color: rgb(217 119 6 / 30%);
+  background: rgb(245 158 11 / 10%);
+  color: #92400e;
+}
+
+.calendar-chip-all {
+  border-color: rgb(71 85 105 / 24%);
+  background: rgb(100 116 139 / 8%);
+  color: #334155;
 }
