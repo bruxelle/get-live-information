@@ -1736,6 +1736,9 @@ def test_static_public_ui_has_filters_date_groups_and_status_badges():
         assert f'data-view="{view_name}"' in html
     for calendar_mode in ("live", "lotteryDeadline", "firstComeDeadline"):
         assert f'data-calendar-mode="{calendar_mode}"' in html
+    assert 'data-calendar-mode="live" aria-pressed="true"' in html
+    assert 'data-calendar-mode="lotteryDeadline" aria-pressed="false"' in html
+    assert 'data-calendar-mode="firstComeDeadline" aria-pressed="false"' in html
     for month_load in ("previous", "next"):
         assert f'data-month-load="{month_load}"' in html
     assert "前の月を表示" in html
@@ -1766,6 +1769,11 @@ def test_static_public_ui_has_filters_date_groups_and_status_badges():
     assert "filterCalendarEntriesForDisplay" in app_js
     assert "lotteryDeadline" in app_js
     assert "firstComeDeadline" in app_js
+    assert "nextUpcomingLive" in app_js
+    assert "nearestUpcomingEventDateKey" in app_js
+    next_live_function = app_js.split("function updateNextLiveSummary()", 1)[1].split("function filteredEvents", 1)[0]
+    assert "sortedEvents" not in next_live_function
+    assert "次のライブ" not in next_live_function
     assert "ライブ日" in html
     assert "抽選締切" in html
     assert "先着締切" in html

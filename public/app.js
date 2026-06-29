@@ -59,6 +59,7 @@ async function init() {
       render();
     });
   });
+  updateCalendarModeButtons();
 
   monthLoadButtons.forEach((button) => {
     button.addEventListener("click", () => {
@@ -135,15 +136,44 @@ function updateHeaderSummary(visibleCount) {
 
 function updateNextLiveSummary() {
   if (!nextLiveSummary) return;
-  const today = startOfToday();
-  const next = sortedEvents(state.events)
-    .find((event) => {
-      const date = parseDate(event.event_date);
-      return date && date >= today;
-    });
-  nextLiveSummary.textContent = next
-    ? `次のライブ ${formatDate(next.event_date, next.weekday)}`
-    : "次のライブ 未定";
+  const next = nextUpcomingLive(state.events, startOfToday());
+  if (!next) {
+    nextLiveSummary.textContent = "未定";
+    return;
+  }
+  const title = next.event.event_name || next.event.title || "未定";
+  const venue = next.event.venue ? ` / ${next.event.venue}` : "";
+  const weekday = next.dateKey === next.event.event_date ? next.event.weekday : weekdayForDate(next.dateKey);
+  nextLiveSummary.textContent = `${formatDate(next.dateKey, weekday)} ${title}${venue}`;
+}
+
+function nextUpcomingLive(events, today) {
+  let next = null;
+  for (const event of events || []) {
+    const dateKey = nearestUpcomingEventDateKey(event, today);
+    if (!dateKey) continue;
+    const sortKey = [dateKey, event.start_time || "99:99", event.event_name || event.title || "", event.venue || ""].join("\u0000");
+    if (!next || sortKey.localeCompare(next.sortKey) < 0) {
+      next = { event, dateKey, sortKey };
+    }
+  }
+  return next;
+}
+
+function nearestUpcomingEventDateKey(event, today) {
+  const candidates = eventDateKeys(event)
+    .map((dateKey) => ({ dateKey, date: parseDate(dateKey) }))
+    .filter((candidate) => candidate.date && candidate.date >= today)
+    .sort((left, right) => left.date - right.date || left.dateKey.localeCompare(right.dateKey));
+  return candidates[0]?.dateKey || "";
+}
+
+function eventDateKeys(event) {
+  const values = [];
+  if (event?.event_date) values.push(event.event_date);
+  if (event?.date) values.push(event.date);
+  if (Array.isArray(event?.event_dates)) values.push(...event.event_dates);
+  return Array.from(new Set(values.map(isoDatePart).filter(Boolean)));
 }
 
 function filteredEvents(events) {
