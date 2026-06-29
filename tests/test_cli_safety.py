@@ -1734,11 +1734,14 @@ def test_static_public_ui_has_filters_date_groups_and_status_badges():
         assert f'data-sort="{sort_name}"' in html
     for view_name in ("cards", "calendar"):
         assert f'data-view="{view_name}"' in html
-    for calendar_mode in ("live", "lotteryDeadline", "firstComeDeadline"):
+    assert '<body class="is-calendar-view">' in html
+    assert 'data-view="cards" aria-pressed="false"' in html
+    assert 'data-view="calendar" aria-pressed="true"' in html
+    assert '<section id="calendarView" class="calendar-view">' in html
+    assert '<section id="eventList" class="event-list" aria-live="polite" hidden>' in html
+    for calendar_mode in ("live", "application", "payment", "all"):
         assert f'data-calendar-mode="{calendar_mode}"' in html
     assert 'data-calendar-mode="live" aria-pressed="true"' in html
-    assert 'data-calendar-mode="lotteryDeadline" aria-pressed="false"' in html
-    assert 'data-calendar-mode="firstComeDeadline" aria-pressed="false"' in html
     for month_load in ("previous", "next"):
         assert f'data-month-load="{month_load}"' in html
     assert "前の月を表示" in html
@@ -1746,6 +1749,10 @@ def test_static_public_ui_has_filters_date_groups_and_status_badges():
     assert "calendar_helpers.js" in html
     assert "groupedEvents" in app_js
     assert "renderCalendar" in app_js
+    assert 'viewMode: "calendar"' in app_js
+    assert "updateViewState" in app_js
+    assert "updateViewButtons" in app_js
+    assert "updateCalendarModeButtons" in app_js
     assert "calendarCell" in app_js
     assert "renderDeadlineAlerts" in app_js
     assert "deadlineAlertItem" in app_js
@@ -1760,23 +1767,16 @@ def test_static_public_ui_has_filters_date_groups_and_status_badges():
     assert "ticket-sale-chip" in css
     assert "view-switcher" in css
     assert "calendar-mode-controls" in css
+    assert "body.is-calendar-view .filters" in css
+    assert "body.is-calendar-view .sort-controls" in css
     assert "deadline-alerts" in css
+    assert "deadline-alert-compact" in css
     assert "calendar-grid" in css
     assert "calendar-day" in css
     assert "has-events" in css
     assert "is-today" in css
     assert "calendar-chip-live" in css
-    assert "filterCalendarEntriesForDisplay" in app_js
-    assert "lotteryDeadline" in app_js
-    assert "firstComeDeadline" in app_js
-    assert "nextUpcomingLive" in app_js
-    assert "nearestUpcomingEventDateKey" in app_js
-    next_live_function = app_js.split("function updateNextLiveSummary()", 1)[1].split("function filteredEvents", 1)[0]
-    assert "sortedEvents" not in next_live_function
-    assert "次のライブ" not in next_live_function
-    assert "ライブ日" in html
-    assert "抽選締切" in html
-    assert "先着締切" in html
+    assert "calendar-chip-application" in css
     assert "calendar-chip-payment" in css
     assert "calendar-chip-sold-out" in css
     assert "calendar-chip-ended" in css
