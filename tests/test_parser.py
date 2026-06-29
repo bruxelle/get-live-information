@@ -651,6 +651,47 @@ def test_note_tweet_audit_meika_alias_posts_merge_into_one_event(tmp_path, mock_
     assert all(other.event_name != "LIVE DIGEST" for other in events)
 
 
+def test_backfill_lovecall_day_before_cleans_presenter_wrapped_title(mock_posts_dir):
+    posts = _backfill_posts(mock_posts_dir)
+    parsed = PostParser().parse_post(posts["2071189243687493679"])
+
+    assert parsed is not None
+    assert parsed.event_name == "ラブコール vol.19"
+    assert parsed.event_date == date(2026, 6, 29)
+    assert parsed.venue == "Spotify O-nest"
+
+
+def test_backfill_tif_sale_warning_dates_do_not_become_event_dates(mock_posts_dir):
+    posts = _backfill_posts(mock_posts_dir)
+    parsed = PostParser().parse_post(posts["2066128909650002114"])
+
+    assert parsed is not None
+    assert parsed.event_name == "TOKYO IDOL FESTIVAL 2026"
+    assert parsed.event_date == date(2026, 7, 31)
+    assert parsed.event_dates == [date(2026, 7, 31), date(2026, 8, 1), date(2026, 8, 2)]
+    assert date(2026, 6, 14) not in parsed.event_dates
+
+
+def test_backfill_multi_event_post_keeps_title_from_first_live_block(mock_posts_dir):
+    posts = _backfill_posts(mock_posts_dir)
+    parsed = PostParser().parse_post(posts["2064611747852587108"])
+
+    assert parsed is not None
+    assert parsed.event_name == "アイドル甲子園 in KANDA SQUARE HALL\nsupported by My-th -DAY1"
+    assert parsed.venue == "KANDA SQUARE HALL"
+    assert parsed.ticket_url == "https://user.my-th.jp/tickets/event/aikou_0613"
+
+
+def test_backfill_greeting_and_notice_only_posts_are_non_events(mock_posts_dir):
+    posts = _backfill_posts(mock_posts_dir)
+    parser = PostParser()
+
+    for post_id in ("2070831050516025469", "2070148626668720156", "2050065563360063888"):
+        classification = parser.classify_post(posts[post_id])
+        assert classification.classification == PostClassification.NON_EVENT
+        assert parser.parse_post(posts[post_id], classification=classification) is None
+
+
 def test_note_tweet_audit_avilla_pipeline_keeps_review_false(tmp_path, mock_posts_dir):
     state = SQLiteStateStore(tmp_path / "note-avilla.sqlite")
     pipeline = SyncPipeline(
@@ -753,6 +794,11 @@ def test_photo_and_video_urls_are_not_ticket_urls():
 def _real_first_fetch_posts(mock_posts_dir: Path):
     client = MockXClient(mock_posts_dir / "real_samples" / "info_myojou_first_fetch.json")
     return {post.id: post for post in client.fetch_recent_posts(max_results=10)}
+
+
+def _backfill_posts(mock_posts_dir: Path):
+    client = MockXClient(mock_posts_dir / "real_samples" / "info_myojou_backfill_500.json")
+    return {post.id: post for post in client.fetch_recent_posts(max_results=500)}
 
 
 def _note_tweet_audit_posts(mock_posts_dir: Path, tmp_path: Path):

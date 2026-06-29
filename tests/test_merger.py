@@ -317,6 +317,43 @@ def test_short_title_same_name_different_date_or_venue_does_not_merge():
     assert len(different_venue_events) == 2
 
 
+def test_presenter_wrapped_title_merges_with_clean_title_and_prefers_clean_display_name():
+    merger = EventMerger()
+    events: list[CanonicalEvent] = []
+    wrapped = ExtractedEvent(
+        event_date=date(2026, 6, 29),
+        event_name="THE ENCORE presents「ラブコール vol.19",
+        venue="Spotify O-nest",
+        open_time="19:20",
+        start_time="19:40",
+        ticket_url="http://t-dv.com/lc_vol19",
+        source_url="https://x.com/info_myojou/status/lovecall-wrapped",
+        source_post_id="lovecall-wrapped",
+        source_posted_at=datetime(2026, 6, 28, 11, 0, tzinfo=JST),
+        source_text="THE ENCORE presents「ラブコール vol.19」",
+        source_kind=SourceKind.DAY_BEFORE_REMINDER,
+        extraction_confidence=0.95,
+    )
+    clean = wrapped.model_copy(
+        update={
+            "event_name": "ラブコール vol.19",
+            "ticket_url": "https://t-dv.com/lc_vol19",
+            "source_url": "https://x.com/info_myojou/status/lovecall-clean",
+            "source_post_id": "lovecall-clean",
+            "source_kind": SourceKind.INITIAL_ANNOUNCEMENT,
+        }
+    )
+
+    merger.merge_into_collection(wrapped, events)
+    event, created, confidence = merger.merge_into_collection(clean, events)
+
+    assert created is False
+    assert confidence >= 0.72
+    assert len(events) == 1
+    assert event.event_name == "ラブコール vol.19"
+    assert event.source_post_ids == ["lovecall-wrapped", "lovecall-clean"]
+
+
 def test_lottery_post_followed_by_general_sale_merges_two_periods():
     parser = PostParser()
     merger = EventMerger()
