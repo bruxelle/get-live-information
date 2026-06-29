@@ -2,6 +2,995 @@
   "captured_at": "2026-06-10T16:19:36.141820+00:00",
   "data": [
     {
+      "api_text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「TOKYO GIRLS GIRLS extra!!」\n\n🎙18:00-18:25\n📸18:35-19:55  C\n\n⟣date：7/3（金）\n⟣place : 品川インターシティホール\n⟣open/start：10:30/10:45 ※変更の可能性あり\n⟣price：前方¥6,000/通常¥1,000円 当日+¥1,000（各＋1D） https://t.co/exZf9iZh4C",
+      "attachments": {
+        "media_keys": [
+          "3_2071600503990218752"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "correction"
+      },
+      "created_at": "2026-06-29T14:23:45+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/exZf9iZh4C",
+            "end": 216,
+            "expanded_url": "https://x.com/info_myojou/status/2071600512815017993/photo/1",
+            "media_key": "3_2071600503990218752",
+            "start": 193,
+            "url": "https://t.co/exZf9iZh4C"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2071600512815017993",
+      "media": [
+        {
+          "height": 4096,
+          "media_key": "3_2071600503990218752",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HL_NrrzbcAABEQX.jpg",
+          "width": 2912
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "missing ticket deadline",
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 271,
+              "start": 264,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "t-dv.com/tgg_0703",
+              "end": 262,
+              "expanded_url": "http://t-dv.com/tgg_0703",
+              "start": 239,
+              "url": "https://t.co/mbgVxOWKFa"
+            }
+          ]
+        },
+        "text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「TOKYO GIRLS GIRLS extra!!」\n\n🎙18:00-18:25\n📸18:35-19:55  C\n\n⟣date：7/3（金）\n⟣place : 品川インターシティホール\n⟣open/start：10:30/10:45 ※変更の可能性あり\n⟣price：前方¥6,000/通常¥1,000円 当日+¥1,000（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n6/20（土）20:00-\n🔗 https://t.co/mbgVxOWKFa\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": "18:35-19:55",
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-07-03",
+        "event_dates": [
+          "2026-07-03"
+        ],
+        "event_name": "TOKYO GIRLS GIRLS extra!!",
+        "extraction_confidence": 0.95,
+        "general_ticket_price": 1000,
+        "lottery_result_at": null,
+        "myojou_performance_time": "18:00-18:25",
+        "notes": "⟣open/start:10:30/10:45 ※変更の可能性あり",
+        "open_time": "10:30",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "前方",
+        "priority_ticket_price": 6000,
+        "same_day_ticket_price": 1000,
+        "source_kind": "correction",
+        "source_post_id": "2071600512815017993",
+        "source_posted_at": "2026-06-29T14:23:45Z",
+        "source_raw": {
+          "api_text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「TOKYO GIRLS GIRLS extra!!」\n\n🎙18:00-18:25\n📸18:35-19:55  C\n\n⟣date：7/3（金）\n⟣place : 品川インターシティホール\n⟣open/start：10:30/10:45 ※変更の可能性あり\n⟣price：前方¥6,000/通常¥1,000円 当日+¥1,000（各＋1D） https://t.co/exZf9iZh4C",
+          "attachments": {
+            "media_keys": [
+              "3_2071600503990218752"
+            ]
+          },
+          "created_at": "2026-06-29T14:23:45.000Z",
+          "edit_history_tweet_ids": [
+            "2071600512815017993"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/exZf9iZh4C",
+                "end": 216,
+                "expanded_url": "https://x.com/info_myojou/status/2071600512815017993/photo/1",
+                "media_key": "3_2071600503990218752",
+                "start": 193,
+                "url": "https://t.co/exZf9iZh4C"
+              }
+            ]
+          },
+          "full_text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「TOKYO GIRLS GIRLS extra!!」\n\n🎙18:00-18:25\n📸18:35-19:55  C\n\n⟣date：7/3（金）\n⟣place : 品川インターシティホール\n⟣open/start：10:30/10:45 ※変更の可能性あり\n⟣price：前方¥6,000/通常¥1,000円 当日+¥1,000（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n6/20（土）20:00-\n🔗 https://t.co/mbgVxOWKFa\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2071600512815017993",
+          "media": [
+            {
+              "height": 4096,
+              "media_key": "3_2071600503990218752",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HL_NrrzbcAABEQX.jpg",
+              "width": 2912
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 271,
+                  "start": 264,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "t-dv.com/tgg_0703",
+                  "end": 262,
+                  "expanded_url": "http://t-dv.com/tgg_0703",
+                  "start": 239,
+                  "url": "https://t.co/mbgVxOWKFa"
+                }
+              ]
+            },
+            "text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「TOKYO GIRLS GIRLS extra!!」\n\n🎙18:00-18:25\n📸18:35-19:55  C\n\n⟣date：7/3（金）\n⟣place : 品川インターシティホール\n⟣open/start：10:30/10:45 ※変更の可能性あり\n⟣price：前方¥6,000/通常¥1,000円 当日+¥1,000（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n6/20（土）20:00-\n🔗 https://t.co/mbgVxOWKFa\n\n#myojou"
+          },
+          "text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「TOKYO GIRLS GIRLS extra!!」\n\n🎙18:00-18:25\n📸18:35-19:55  C\n\n⟣date：7/3（金）\n⟣place : 品川インターシティホール\n⟣open/start：10:30/10:45 ※変更の可能性あり\n⟣price：前方¥6,000/通常¥1,000円 当日+¥1,000（各＋1D） https://t.co/exZf9iZh4C",
+          "truncated_text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「TOKYO GIRLS GIRLS extra!!」\n\n🎙18:00-18:25\n📸18:35-19:55  C\n\n⟣date：7/3（金）\n⟣place : 品川インターシティホール\n⟣open/start：10:30/10:45 ※変更の可能性あり\n⟣price：前方¥6,000/通常¥1,000円 当日+¥1,000（各＋1D） https://t.co/exZf9iZh4C"
+        },
+        "source_text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「TOKYO GIRLS GIRLS extra!!」\n\n🎙18:00-18:25\n📸18:35-19:55  C\n\n⟣date：7/3（金）\n⟣place : 品川インターシティホール\n⟣open/start：10:30/10:45 ※変更の可能性あり\n⟣price：前方¥6,000/通常¥1,000円 当日+¥1,000（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n6/20（土）20:00-\n🔗 https://t.co/mbgVxOWKFa\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2071600512815017993",
+        "start_time": "10:45",
+        "ticket_application_deadline_at": null,
+        "ticket_application_start_at": null,
+        "ticket_sale_type": "先着",
+        "ticket_sales": [
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 6000,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2071600512815017993",
+            "source_url": "https://x.com/info_myojou/status/2071600512815017993",
+            "start_at": null,
+            "status": "不明",
+            "ticket_name": "前方",
+            "ticket_tier": "前方"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 1000,
+            "result_at": null,
+            "sale_type": "当日券",
+            "source_post_id": "2071600512815017993",
+            "source_url": "https://x.com/info_myojou/status/2071600512815017993",
+            "start_at": null,
+            "status": "販売中",
+            "ticket_name": "当日券",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "http://t-dv.com/tgg_0703",
+        "venue": "品川インターシティホール"
+      },
+      "raw": {
+        "api_text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「TOKYO GIRLS GIRLS extra!!」\n\n🎙18:00-18:25\n📸18:35-19:55  C\n\n⟣date：7/3（金）\n⟣place : 品川インターシティホール\n⟣open/start：10:30/10:45 ※変更の可能性あり\n⟣price：前方¥6,000/通常¥1,000円 当日+¥1,000（各＋1D） https://t.co/exZf9iZh4C",
+        "attachments": {
+          "media_keys": [
+            "3_2071600503990218752"
+          ]
+        },
+        "created_at": "2026-06-29T14:23:45.000Z",
+        "edit_history_tweet_ids": [
+          "2071600512815017993"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/exZf9iZh4C",
+              "end": 216,
+              "expanded_url": "https://x.com/info_myojou/status/2071600512815017993/photo/1",
+              "media_key": "3_2071600503990218752",
+              "start": 193,
+              "url": "https://t.co/exZf9iZh4C"
+            }
+          ]
+        },
+        "full_text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「TOKYO GIRLS GIRLS extra!!」\n\n🎙18:00-18:25\n📸18:35-19:55  C\n\n⟣date：7/3（金）\n⟣place : 品川インターシティホール\n⟣open/start：10:30/10:45 ※変更の可能性あり\n⟣price：前方¥6,000/通常¥1,000円 当日+¥1,000（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n6/20（土）20:00-\n🔗 https://t.co/mbgVxOWKFa\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2071600512815017993",
+        "media": [
+          {
+            "height": 4096,
+            "media_key": "3_2071600503990218752",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HL_NrrzbcAABEQX.jpg",
+            "width": 2912
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 271,
+                "start": 264,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "t-dv.com/tgg_0703",
+                "end": 262,
+                "expanded_url": "http://t-dv.com/tgg_0703",
+                "start": 239,
+                "url": "https://t.co/mbgVxOWKFa"
+              }
+            ]
+          },
+          "text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「TOKYO GIRLS GIRLS extra!!」\n\n🎙18:00-18:25\n📸18:35-19:55  C\n\n⟣date：7/3（金）\n⟣place : 品川インターシティホール\n⟣open/start：10:30/10:45 ※変更の可能性あり\n⟣price：前方¥6,000/通常¥1,000円 当日+¥1,000（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n6/20（土）20:00-\n🔗 https://t.co/mbgVxOWKFa\n\n#myojou"
+        },
+        "text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「TOKYO GIRLS GIRLS extra!!」\n\n🎙18:00-18:25\n📸18:35-19:55  C\n\n⟣date：7/3（金）\n⟣place : 品川インターシティホール\n⟣open/start：10:30/10:45 ※変更の可能性あり\n⟣price：前方¥6,000/通常¥1,000円 当日+¥1,000（各＋1D） https://t.co/exZf9iZh4C",
+        "truncated_text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「TOKYO GIRLS GIRLS extra!!」\n\n🎙18:00-18:25\n📸18:35-19:55  C\n\n⟣date：7/3（金）\n⟣place : 品川インターシティホール\n⟣open/start：10:30/10:45 ※変更の可能性あり\n⟣price：前方¥6,000/通常¥1,000円 当日+¥1,000（各＋1D） https://t.co/exZf9iZh4C"
+      },
+      "referenced_tweets": [],
+      "text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「TOKYO GIRLS GIRLS extra!!」\n\n🎙18:00-18:25\n📸18:35-19:55  C\n\n⟣date：7/3（金）\n⟣place : 品川インターシティホール\n⟣open/start：10:30/10:45 ※変更の可能性あり\n⟣price：前方¥6,000/通常¥1,000円 当日+¥1,000（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n6/20（土）20:00-\n🔗 https://t.co/mbgVxOWKFa\n\n#myojou",
+      "truncated_text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「TOKYO GIRLS GIRLS extra!!」\n\n🎙18:00-18:25\n📸18:35-19:55  C\n\n⟣date：7/3（金）\n⟣place : 品川インターシティホール\n⟣open/start：10:30/10:45 ※変更の可能性あり\n⟣price：前方¥6,000/通常¥1,000円 当日+¥1,000（各＋1D） https://t.co/exZf9iZh4C",
+      "url": "https://x.com/info_myojou/status/2071600512815017993"
+    },
+    {
+      "api_text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n           THE ENCORE presents\n              「ラブコール vol.19」\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「THE ENCORE presents「ラブコール vol.19」」ありがとうございました⋆˙⟡\n\n上段左から https://t.co/4FS0pcDzvc",
+      "attachments": {
+        "media_keys": [
+          "3_2071584779225755649"
+        ]
+      },
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "profile/member introduction",
+        "source_kind": "other"
+      },
+      "created_at": "2026-06-29T13:21:15+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/4FS0pcDzvc",
+            "end": 221,
+            "expanded_url": "https://x.com/info_myojou/status/2071584786137952541/photo/1",
+            "media_key": "3_2071584779225755649",
+            "start": 198,
+            "url": "https://t.co/4FS0pcDzvc"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2071584786137952541",
+      "media": [
+        {
+          "alt_text": "M1,星景讃歌\nM2,yoakeno\nM3,HeartBeat\nM4,アンチコンプリート\nM5,蛍夏\nM6,僕彩色",
+          "height": 1108,
+          "media_key": "3_2071584779225755649",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HL-_YYfbcAEUPqP.jpg",
+          "width": 1477
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 341,
+              "start": 334,
+              "tag": "myojou"
+            }
+          ],
+          "mentions": [
+            {
+              "end": 214,
+              "id": "1981655668626165760",
+              "start": 202,
+              "username": "myojou_ruka"
+            },
+            {
+              "end": 235,
+              "id": "1344586625901158401",
+              "start": 220,
+              "username": "myojou_usukura"
+            },
+            {
+              "end": 252,
+              "id": "2009245855694675968",
+              "start": 241,
+              "username": "myojou_miu"
+            },
+            {
+              "end": 280,
+              "id": "1590652199407083520",
+              "start": 266,
+              "username": "myojou_cocone"
+            },
+            {
+              "end": 299,
+              "id": "1754991922807177216",
+              "start": 286,
+              "username": "myojou_shino"
+            },
+            {
+              "end": 316,
+              "id": "2009274765895450624",
+              "start": 305,
+              "username": "myojou_yun"
+            }
+          ]
+        },
+        "text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n           THE ENCORE presents\n              「ラブコール vol.19」\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「THE ENCORE presents「ラブコール vol.19」」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n薄倉りな@myojou_usukura \n日陽みう@myojou_miu \n\n下段左から\n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n澪奈ゆん@myojou_yun \n\nSETLIST▶︎ALT\n\n #myojou"
+      },
+      "parsed_fields": null,
+      "raw": {
+        "api_text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n           THE ENCORE presents\n              「ラブコール vol.19」\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「THE ENCORE presents「ラブコール vol.19」」ありがとうございました⋆˙⟡\n\n上段左から https://t.co/4FS0pcDzvc",
+        "attachments": {
+          "media_keys": [
+            "3_2071584779225755649"
+          ]
+        },
+        "created_at": "2026-06-29T13:21:15.000Z",
+        "edit_history_tweet_ids": [
+          "2071584786137952541"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/4FS0pcDzvc",
+              "end": 221,
+              "expanded_url": "https://x.com/info_myojou/status/2071584786137952541/photo/1",
+              "media_key": "3_2071584779225755649",
+              "start": 198,
+              "url": "https://t.co/4FS0pcDzvc"
+            }
+          ]
+        },
+        "full_text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n           THE ENCORE presents\n              「ラブコール vol.19」\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「THE ENCORE presents「ラブコール vol.19」」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n薄倉りな@myojou_usukura \n日陽みう@myojou_miu \n\n下段左から\n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n澪奈ゆん@myojou_yun \n\nSETLIST▶︎ALT\n\n #myojou",
+        "full_text_source": "note_tweet",
+        "id": "2071584786137952541",
+        "media": [
+          {
+            "alt_text": "M1,星景讃歌\nM2,yoakeno\nM3,HeartBeat\nM4,アンチコンプリート\nM5,蛍夏\nM6,僕彩色",
+            "height": 1108,
+            "media_key": "3_2071584779225755649",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HL-_YYfbcAEUPqP.jpg",
+            "width": 1477
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 341,
+                "start": 334,
+                "tag": "myojou"
+              }
+            ],
+            "mentions": [
+              {
+                "end": 214,
+                "id": "1981655668626165760",
+                "start": 202,
+                "username": "myojou_ruka"
+              },
+              {
+                "end": 235,
+                "id": "1344586625901158401",
+                "start": 220,
+                "username": "myojou_usukura"
+              },
+              {
+                "end": 252,
+                "id": "2009245855694675968",
+                "start": 241,
+                "username": "myojou_miu"
+              },
+              {
+                "end": 280,
+                "id": "1590652199407083520",
+                "start": 266,
+                "username": "myojou_cocone"
+              },
+              {
+                "end": 299,
+                "id": "1754991922807177216",
+                "start": 286,
+                "username": "myojou_shino"
+              },
+              {
+                "end": 316,
+                "id": "2009274765895450624",
+                "start": 305,
+                "username": "myojou_yun"
+              }
+            ]
+          },
+          "text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n           THE ENCORE presents\n              「ラブコール vol.19」\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「THE ENCORE presents「ラブコール vol.19」」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n薄倉りな@myojou_usukura \n日陽みう@myojou_miu \n\n下段左から\n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n澪奈ゆん@myojou_yun \n\nSETLIST▶︎ALT\n\n #myojou"
+        },
+        "text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n           THE ENCORE presents\n              「ラブコール vol.19」\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「THE ENCORE presents「ラブコール vol.19」」ありがとうございました⋆˙⟡\n\n上段左から https://t.co/4FS0pcDzvc",
+        "truncated_text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n           THE ENCORE presents\n              「ラブコール vol.19」\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「THE ENCORE presents「ラブコール vol.19」」ありがとうございました⋆˙⟡\n\n上段左から https://t.co/4FS0pcDzvc"
+      },
+      "referenced_tweets": [],
+      "text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n           THE ENCORE presents\n              「ラブコール vol.19」\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「THE ENCORE presents「ラブコール vol.19」」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n薄倉りな@myojou_usukura \n日陽みう@myojou_miu \n\n下段左から\n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n澪奈ゆん@myojou_yun \n\nSETLIST▶︎ALT\n\n #myojou",
+      "truncated_text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n           THE ENCORE presents\n              「ラブコール vol.19」\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「THE ENCORE presents「ラブコール vol.19」」ありがとうございました⋆˙⟡\n\n上段左から https://t.co/4FS0pcDzvc",
+      "url": "https://x.com/info_myojou/status/2071584786137952541"
+    },
+    {
+      "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             高山右近音楽フェス2026\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：8/22（土）\n⟣place :ユーベルホール（大阪府豊能町）\n⟣open/start：1部 10:15/11:00 2部15:20/16:00\n⟣price：各部Sエリア¥8,800 Aエリア¥6,600 https://t.co/DH4p7k5j1A",
+      "attachments": {
+        "media_keys": [
+          "3_2071539016403673088"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "ticket_update"
+      },
+      "created_at": "2026-06-29T10:19:26+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/DH4p7k5j1A",
+            "end": 209,
+            "expanded_url": "https://x.com/info_myojou/status/2071539027728367706/photo/1",
+            "media_key": "3_2071539016403673088",
+            "start": 186,
+            "url": "https://t.co/DH4p7k5j1A"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2071539027728367706",
+      "media": [
+        {
+          "height": 2000,
+          "media_key": "3_2071539016403673088",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HL-VwosaYAAGqrW.jpg",
+          "width": 1414
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "missing ticket deadline",
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 294,
+              "start": 287,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "tiget.net/events/491118",
+              "end": 255,
+              "expanded_url": "https://tiget.net/events/491118",
+              "start": 232,
+              "url": "https://t.co/fthVtOTohe"
+            },
+            {
+              "display_url": "tiget.net/events/501867",
+              "end": 285,
+              "expanded_url": "https://tiget.net/events/501867",
+              "start": 262,
+              "url": "https://t.co/dyQo1hDS4b"
+            }
+          ]
+        },
+        "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             高山右近音楽フェス2026\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：8/22（土）\n⟣place :ユーベルホール（大阪府豊能町）\n⟣open/start：1部 10:15/11:00 2部15:20/16:00\n⟣price：各部Sエリア¥8,800 Aエリア¥6,600\n\n【チケット販売期間】\n7/12（日）22:00-8/21（金）23:00まで\n〈1部〉\n🔗https://t.co/fthVtOTohe\n〈2部〉\n🔗https://t.co/dyQo1hDS4b\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": null,
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-08-22",
+        "event_dates": [
+          "2026-08-22"
+        ],
+        "event_name": "高山右近音楽フェス2026",
+        "extraction_confidence": 0.9,
+        "general_ticket_price": null,
+        "lottery_result_at": null,
+        "myojou_performance_time": null,
+        "notes": null,
+        "open_time": "10:15",
+        "payment_deadline_at": null,
+        "priority_ticket_name": null,
+        "priority_ticket_price": null,
+        "same_day_ticket_price": null,
+        "source_kind": "ticket_update",
+        "source_post_id": "2071539027728367706",
+        "source_posted_at": "2026-06-29T10:19:26Z",
+        "source_raw": {
+          "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             高山右近音楽フェス2026\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：8/22（土）\n⟣place :ユーベルホール（大阪府豊能町）\n⟣open/start：1部 10:15/11:00 2部15:20/16:00\n⟣price：各部Sエリア¥8,800 Aエリア¥6,600 https://t.co/DH4p7k5j1A",
+          "attachments": {
+            "media_keys": [
+              "3_2071539016403673088"
+            ]
+          },
+          "created_at": "2026-06-29T10:19:26.000Z",
+          "edit_history_tweet_ids": [
+            "2071539027728367706"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/DH4p7k5j1A",
+                "end": 209,
+                "expanded_url": "https://x.com/info_myojou/status/2071539027728367706/photo/1",
+                "media_key": "3_2071539016403673088",
+                "start": 186,
+                "url": "https://t.co/DH4p7k5j1A"
+              }
+            ]
+          },
+          "full_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             高山右近音楽フェス2026\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：8/22（土）\n⟣place :ユーベルホール（大阪府豊能町）\n⟣open/start：1部 10:15/11:00 2部15:20/16:00\n⟣price：各部Sエリア¥8,800 Aエリア¥6,600\n\n【チケット販売期間】\n7/12（日）22:00-8/21（金）23:00まで\n〈1部〉\n🔗https://t.co/fthVtOTohe\n〈2部〉\n🔗https://t.co/dyQo1hDS4b\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2071539027728367706",
+          "media": [
+            {
+              "height": 2000,
+              "media_key": "3_2071539016403673088",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HL-VwosaYAAGqrW.jpg",
+              "width": 1414
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 294,
+                  "start": 287,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "tiget.net/events/491118",
+                  "end": 255,
+                  "expanded_url": "https://tiget.net/events/491118",
+                  "start": 232,
+                  "url": "https://t.co/fthVtOTohe"
+                },
+                {
+                  "display_url": "tiget.net/events/501867",
+                  "end": 285,
+                  "expanded_url": "https://tiget.net/events/501867",
+                  "start": 262,
+                  "url": "https://t.co/dyQo1hDS4b"
+                }
+              ]
+            },
+            "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             高山右近音楽フェス2026\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：8/22（土）\n⟣place :ユーベルホール（大阪府豊能町）\n⟣open/start：1部 10:15/11:00 2部15:20/16:00\n⟣price：各部Sエリア¥8,800 Aエリア¥6,600\n\n【チケット販売期間】\n7/12（日）22:00-8/21（金）23:00まで\n〈1部〉\n🔗https://t.co/fthVtOTohe\n〈2部〉\n🔗https://t.co/dyQo1hDS4b\n\n#myojou"
+          },
+          "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             高山右近音楽フェス2026\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：8/22（土）\n⟣place :ユーベルホール（大阪府豊能町）\n⟣open/start：1部 10:15/11:00 2部15:20/16:00\n⟣price：各部Sエリア¥8,800 Aエリア¥6,600 https://t.co/DH4p7k5j1A",
+          "truncated_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             高山右近音楽フェス2026\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：8/22（土）\n⟣place :ユーベルホール（大阪府豊能町）\n⟣open/start：1部 10:15/11:00 2部15:20/16:00\n⟣price：各部Sエリア¥8,800 Aエリア¥6,600 https://t.co/DH4p7k5j1A"
+        },
+        "source_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             高山右近音楽フェス2026\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：8/22（土）\n⟣place :ユーベルホール（大阪府豊能町）\n⟣open/start：1部 10:15/11:00 2部15:20/16:00\n⟣price：各部Sエリア¥8,800 Aエリア¥6,600\n\n【チケット販売期間】\n7/12（日）22:00-8/21（金）23:00まで\n〈1部〉\n🔗https://t.co/fthVtOTohe\n〈2部〉\n🔗https://t.co/dyQo1hDS4b\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2071539027728367706",
+        "start_time": "11:00",
+        "ticket_application_deadline_at": null,
+        "ticket_application_start_at": null,
+        "ticket_sale_type": null,
+        "ticket_sales": [],
+        "ticket_status": null,
+        "ticket_url": "https://tiget.net/events/491118",
+        "venue": "ユーベルホール(大阪府豊能町)"
+      },
+      "raw": {
+        "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             高山右近音楽フェス2026\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：8/22（土）\n⟣place :ユーベルホール（大阪府豊能町）\n⟣open/start：1部 10:15/11:00 2部15:20/16:00\n⟣price：各部Sエリア¥8,800 Aエリア¥6,600 https://t.co/DH4p7k5j1A",
+        "attachments": {
+          "media_keys": [
+            "3_2071539016403673088"
+          ]
+        },
+        "created_at": "2026-06-29T10:19:26.000Z",
+        "edit_history_tweet_ids": [
+          "2071539027728367706"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/DH4p7k5j1A",
+              "end": 209,
+              "expanded_url": "https://x.com/info_myojou/status/2071539027728367706/photo/1",
+              "media_key": "3_2071539016403673088",
+              "start": 186,
+              "url": "https://t.co/DH4p7k5j1A"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             高山右近音楽フェス2026\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：8/22（土）\n⟣place :ユーベルホール（大阪府豊能町）\n⟣open/start：1部 10:15/11:00 2部15:20/16:00\n⟣price：各部Sエリア¥8,800 Aエリア¥6,600\n\n【チケット販売期間】\n7/12（日）22:00-8/21（金）23:00まで\n〈1部〉\n🔗https://t.co/fthVtOTohe\n〈2部〉\n🔗https://t.co/dyQo1hDS4b\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2071539027728367706",
+        "media": [
+          {
+            "height": 2000,
+            "media_key": "3_2071539016403673088",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HL-VwosaYAAGqrW.jpg",
+            "width": 1414
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 294,
+                "start": 287,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "tiget.net/events/491118",
+                "end": 255,
+                "expanded_url": "https://tiget.net/events/491118",
+                "start": 232,
+                "url": "https://t.co/fthVtOTohe"
+              },
+              {
+                "display_url": "tiget.net/events/501867",
+                "end": 285,
+                "expanded_url": "https://tiget.net/events/501867",
+                "start": 262,
+                "url": "https://t.co/dyQo1hDS4b"
+              }
+            ]
+          },
+          "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             高山右近音楽フェス2026\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：8/22（土）\n⟣place :ユーベルホール（大阪府豊能町）\n⟣open/start：1部 10:15/11:00 2部15:20/16:00\n⟣price：各部Sエリア¥8,800 Aエリア¥6,600\n\n【チケット販売期間】\n7/12（日）22:00-8/21（金）23:00まで\n〈1部〉\n🔗https://t.co/fthVtOTohe\n〈2部〉\n🔗https://t.co/dyQo1hDS4b\n\n#myojou"
+        },
+        "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             高山右近音楽フェス2026\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：8/22（土）\n⟣place :ユーベルホール（大阪府豊能町）\n⟣open/start：1部 10:15/11:00 2部15:20/16:00\n⟣price：各部Sエリア¥8,800 Aエリア¥6,600 https://t.co/DH4p7k5j1A",
+        "truncated_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             高山右近音楽フェス2026\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：8/22（土）\n⟣place :ユーベルホール（大阪府豊能町）\n⟣open/start：1部 10:15/11:00 2部15:20/16:00\n⟣price：各部Sエリア¥8,800 Aエリア¥6,600 https://t.co/DH4p7k5j1A"
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             高山右近音楽フェス2026\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：8/22（土）\n⟣place :ユーベルホール（大阪府豊能町）\n⟣open/start：1部 10:15/11:00 2部15:20/16:00\n⟣price：各部Sエリア¥8,800 Aエリア¥6,600\n\n【チケット販売期間】\n7/12（日）22:00-8/21（金）23:00まで\n〈1部〉\n🔗https://t.co/fthVtOTohe\n〈2部〉\n🔗https://t.co/dyQo1hDS4b\n\n#myojou",
+      "truncated_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             高山右近音楽フェス2026\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：8/22（土）\n⟣place :ユーベルホール（大阪府豊能町）\n⟣open/start：1部 10:15/11:00 2部15:20/16:00\n⟣price：各部Sエリア¥8,800 Aエリア¥6,600 https://t.co/DH4p7k5j1A",
+      "url": "https://x.com/info_myojou/status/2071539027728367706"
+    },
+    {
+      "api_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n       myojou Summer Vol.03\n            限定Tシャツ公開\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣date：7/19（日）\n⟣place : 渋谷音楽堂\n⟣open/start：17:30/18:00\n⟣price：優先¥6,000（限定Tシャツ付き）/一般¥0（各+1D）\n\n【一般販売】 https://t.co/lyfT6wAnwu",
+      "attachments": {
+        "media_keys": [
+          "3_2071494881911136256",
+          "3_2071494881936367616"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "ticket_update"
+      },
+      "created_at": "2026-06-29T07:24:02+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/lyfT6wAnwu",
+            "end": 211,
+            "expanded_url": "https://x.com/info_myojou/status/2071494887225323698/photo/1",
+            "media_key": "3_2071494881911136256",
+            "start": 188,
+            "url": "https://t.co/lyfT6wAnwu"
+          },
+          {
+            "display_url": "pic.x.com/lyfT6wAnwu",
+            "end": 211,
+            "expanded_url": "https://x.com/info_myojou/status/2071494887225323698/photo/1",
+            "media_key": "3_2071494881936367616",
+            "start": 188,
+            "url": "https://t.co/lyfT6wAnwu"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2071494887225323698",
+      "media": [
+        {
+          "height": 1241,
+          "media_key": "3_2071494881911136256",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HL9tnq5aYAAATBQ.jpg",
+          "width": 1754
+        },
+        {
+          "height": 1448,
+          "media_key": "3_2071494881936367616",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HL9tnq_bYAAx37o.jpg",
+          "width": 2047
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 248,
+              "start": 241,
+              "tag": "myojou"
+            },
+            {
+              "end": 259,
+              "start": 249,
+              "tag": "ミョージョーサマー"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "t-dv.com/myojou_0719",
+              "end": 239,
+              "expanded_url": "http://t-dv.com/myojou_0719",
+              "start": 216,
+              "url": "https://t.co/EvkjK18t5h"
+            }
+          ]
+        },
+        "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n       myojou Summer Vol.03\n            限定Tシャツ公開\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣date：7/19（日）\n⟣place : 渋谷音楽堂\n⟣open/start：17:30/18:00\n⟣price：優先¥6,000（限定Tシャツ付き）/一般¥0（各+1D）\n\n【一般販売】\n6/21（日）22:00-7/18（土）23:59\n🔗 https://t.co/EvkjK18t5h\n\n#myojou\n#ミョージョーサマー"
+      },
+      "parsed_fields": {
+        "benefit_event_time": null,
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-07-19",
+        "event_dates": [
+          "2026-07-19"
+        ],
+        "event_name": "限定Tシャツ公開",
+        "extraction_confidence": 0.9,
+        "general_ticket_price": 0,
+        "lottery_result_at": null,
+        "myojou_performance_time": null,
+        "notes": "ドリンク代: 各+1D",
+        "open_time": "17:30",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "優先",
+        "priority_ticket_price": 6000,
+        "same_day_ticket_price": null,
+        "source_kind": "ticket_update",
+        "source_post_id": "2071494887225323698",
+        "source_posted_at": "2026-06-29T07:24:02Z",
+        "source_raw": {
+          "api_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n       myojou Summer Vol.03\n            限定Tシャツ公開\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣date：7/19（日）\n⟣place : 渋谷音楽堂\n⟣open/start：17:30/18:00\n⟣price：優先¥6,000（限定Tシャツ付き）/一般¥0（各+1D）\n\n【一般販売】 https://t.co/lyfT6wAnwu",
+          "attachments": {
+            "media_keys": [
+              "3_2071494881911136256",
+              "3_2071494881936367616"
+            ]
+          },
+          "created_at": "2026-06-29T07:24:02.000Z",
+          "edit_history_tweet_ids": [
+            "2071494887225323698"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/lyfT6wAnwu",
+                "end": 211,
+                "expanded_url": "https://x.com/info_myojou/status/2071494887225323698/photo/1",
+                "media_key": "3_2071494881911136256",
+                "start": 188,
+                "url": "https://t.co/lyfT6wAnwu"
+              },
+              {
+                "display_url": "pic.x.com/lyfT6wAnwu",
+                "end": 211,
+                "expanded_url": "https://x.com/info_myojou/status/2071494887225323698/photo/1",
+                "media_key": "3_2071494881936367616",
+                "start": 188,
+                "url": "https://t.co/lyfT6wAnwu"
+              }
+            ]
+          },
+          "full_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n       myojou Summer Vol.03\n            限定Tシャツ公開\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣date：7/19（日）\n⟣place : 渋谷音楽堂\n⟣open/start：17:30/18:00\n⟣price：優先¥6,000（限定Tシャツ付き）/一般¥0（各+1D）\n\n【一般販売】\n6/21（日）22:00-7/18（土）23:59\n🔗 https://t.co/EvkjK18t5h\n\n#myojou\n#ミョージョーサマー",
+          "full_text_source": "note_tweet",
+          "id": "2071494887225323698",
+          "media": [
+            {
+              "height": 1241,
+              "media_key": "3_2071494881911136256",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HL9tnq5aYAAATBQ.jpg",
+              "width": 1754
+            },
+            {
+              "height": 1448,
+              "media_key": "3_2071494881936367616",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HL9tnq_bYAAx37o.jpg",
+              "width": 2047
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 248,
+                  "start": 241,
+                  "tag": "myojou"
+                },
+                {
+                  "end": 259,
+                  "start": 249,
+                  "tag": "ミョージョーサマー"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "t-dv.com/myojou_0719",
+                  "end": 239,
+                  "expanded_url": "http://t-dv.com/myojou_0719",
+                  "start": 216,
+                  "url": "https://t.co/EvkjK18t5h"
+                }
+              ]
+            },
+            "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n       myojou Summer Vol.03\n            限定Tシャツ公開\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣date：7/19（日）\n⟣place : 渋谷音楽堂\n⟣open/start：17:30/18:00\n⟣price：優先¥6,000（限定Tシャツ付き）/一般¥0（各+1D）\n\n【一般販売】\n6/21（日）22:00-7/18（土）23:59\n🔗 https://t.co/EvkjK18t5h\n\n#myojou\n#ミョージョーサマー"
+          },
+          "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n       myojou Summer Vol.03\n            限定Tシャツ公開\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣date：7/19（日）\n⟣place : 渋谷音楽堂\n⟣open/start：17:30/18:00\n⟣price：優先¥6,000（限定Tシャツ付き）/一般¥0（各+1D）\n\n【一般販売】 https://t.co/lyfT6wAnwu",
+          "truncated_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n       myojou Summer Vol.03\n            限定Tシャツ公開\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣date：7/19（日）\n⟣place : 渋谷音楽堂\n⟣open/start：17:30/18:00\n⟣price：優先¥6,000（限定Tシャツ付き）/一般¥0（各+1D）\n\n【一般販売】 https://t.co/lyfT6wAnwu"
+        },
+        "source_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n       myojou Summer Vol.03\n            限定Tシャツ公開\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣date：7/19（日）\n⟣place : 渋谷音楽堂\n⟣open/start：17:30/18:00\n⟣price：優先¥6,000（限定Tシャツ付き）/一般¥0（各+1D）\n\n【一般販売】\n6/21（日）22:00-7/18（土）23:59\n🔗 https://t.co/EvkjK18t5h\n\n#myojou\n#ミョージョーサマー",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2071494887225323698",
+        "start_time": "18:00",
+        "ticket_application_deadline_at": "2026-07-18T23:59:00+09:00",
+        "ticket_application_start_at": "2026-06-21T22:00:00+09:00",
+        "ticket_sale_type": "無料",
+        "ticket_sales": [
+          {
+            "deadline_at": "2026-07-18T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 6000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2071494887225323698",
+            "source_url": "https://x.com/info_myojou/status/2071494887225323698",
+            "start_at": "2026-06-21T22:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "優先",
+            "ticket_tier": "優先"
+          },
+          {
+            "deadline_at": "2026-07-18T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 0,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2071494887225323698",
+            "source_url": "https://x.com/info_myojou/status/2071494887225323698",
+            "start_at": "2026-06-21T22:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "http://t-dv.com/myojou_0719",
+        "venue": "渋谷音楽堂"
+      },
+      "raw": {
+        "api_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n       myojou Summer Vol.03\n            限定Tシャツ公開\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣date：7/19（日）\n⟣place : 渋谷音楽堂\n⟣open/start：17:30/18:00\n⟣price：優先¥6,000（限定Tシャツ付き）/一般¥0（各+1D）\n\n【一般販売】 https://t.co/lyfT6wAnwu",
+        "attachments": {
+          "media_keys": [
+            "3_2071494881911136256",
+            "3_2071494881936367616"
+          ]
+        },
+        "created_at": "2026-06-29T07:24:02.000Z",
+        "edit_history_tweet_ids": [
+          "2071494887225323698"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/lyfT6wAnwu",
+              "end": 211,
+              "expanded_url": "https://x.com/info_myojou/status/2071494887225323698/photo/1",
+              "media_key": "3_2071494881911136256",
+              "start": 188,
+              "url": "https://t.co/lyfT6wAnwu"
+            },
+            {
+              "display_url": "pic.x.com/lyfT6wAnwu",
+              "end": 211,
+              "expanded_url": "https://x.com/info_myojou/status/2071494887225323698/photo/1",
+              "media_key": "3_2071494881936367616",
+              "start": 188,
+              "url": "https://t.co/lyfT6wAnwu"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n       myojou Summer Vol.03\n            限定Tシャツ公開\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣date：7/19（日）\n⟣place : 渋谷音楽堂\n⟣open/start：17:30/18:00\n⟣price：優先¥6,000（限定Tシャツ付き）/一般¥0（各+1D）\n\n【一般販売】\n6/21（日）22:00-7/18（土）23:59\n🔗 https://t.co/EvkjK18t5h\n\n#myojou\n#ミョージョーサマー",
+        "full_text_source": "note_tweet",
+        "id": "2071494887225323698",
+        "media": [
+          {
+            "height": 1241,
+            "media_key": "3_2071494881911136256",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HL9tnq5aYAAATBQ.jpg",
+            "width": 1754
+          },
+          {
+            "height": 1448,
+            "media_key": "3_2071494881936367616",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HL9tnq_bYAAx37o.jpg",
+            "width": 2047
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 248,
+                "start": 241,
+                "tag": "myojou"
+              },
+              {
+                "end": 259,
+                "start": 249,
+                "tag": "ミョージョーサマー"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "t-dv.com/myojou_0719",
+                "end": 239,
+                "expanded_url": "http://t-dv.com/myojou_0719",
+                "start": 216,
+                "url": "https://t.co/EvkjK18t5h"
+              }
+            ]
+          },
+          "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n       myojou Summer Vol.03\n            限定Tシャツ公開\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣date：7/19（日）\n⟣place : 渋谷音楽堂\n⟣open/start：17:30/18:00\n⟣price：優先¥6,000（限定Tシャツ付き）/一般¥0（各+1D）\n\n【一般販売】\n6/21（日）22:00-7/18（土）23:59\n🔗 https://t.co/EvkjK18t5h\n\n#myojou\n#ミョージョーサマー"
+        },
+        "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n       myojou Summer Vol.03\n            限定Tシャツ公開\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣date：7/19（日）\n⟣place : 渋谷音楽堂\n⟣open/start：17:30/18:00\n⟣price：優先¥6,000（限定Tシャツ付き）/一般¥0（各+1D）\n\n【一般販売】 https://t.co/lyfT6wAnwu",
+        "truncated_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n       myojou Summer Vol.03\n            限定Tシャツ公開\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣date：7/19（日）\n⟣place : 渋谷音楽堂\n⟣open/start：17:30/18:00\n⟣price：優先¥6,000（限定Tシャツ付き）/一般¥0（各+1D）\n\n【一般販売】 https://t.co/lyfT6wAnwu"
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n       myojou Summer Vol.03\n            限定Tシャツ公開\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣date：7/19（日）\n⟣place : 渋谷音楽堂\n⟣open/start：17:30/18:00\n⟣price：優先¥6,000（限定Tシャツ付き）/一般¥0（各+1D）\n\n【一般販売】\n6/21（日）22:00-7/18（土）23:59\n🔗 https://t.co/EvkjK18t5h\n\n#myojou\n#ミョージョーサマー",
+      "truncated_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n       myojou Summer Vol.03\n            限定Tシャツ公開\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣date：7/19（日）\n⟣place : 渋谷音楽堂\n⟣open/start：17:30/18:00\n⟣price：優先¥6,000（限定Tシャツ付き）/一般¥0（各+1D）\n\n【一般販売】 https://t.co/lyfT6wAnwu",
+      "url": "https://x.com/info_myojou/status/2071494887225323698"
+    },
+    {
       "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「THE ENCORE presents「ラブコール vol.19」」\n\n🎙19:40-20:05\n📸21:00-22:00\n\n⟣date：6/29（月）\n⟣place :Spotify O-nest\n⟣open/start：19:20/19:40\n⟣price：前方¥3,000/一般¥1,000/当日各+¥500（各+1D）\n⟣入場特典：明星カード（サインありチェキ） https://t.co/7FUkksENXf",
       "attachments": {
         "media_keys": [
@@ -98620,7 +99609,7 @@
     "backfill": true,
     "dry_run": true,
     "estimated_x_post_reads": 411,
-    "latest_post_id": "2071189243687493679",
+    "latest_post_id": "2071600512815017993",
     "max_pages": 10,
     "max_posts": 500,
     "max_results": 5,
@@ -98663,16 +99652,16 @@
       }
     ],
     "pages_fetched": 5,
-    "posts_fetched": 467,
+    "posts_fetched": 471,
     "rate_limit_headers": {
       "x-rate-limit-limit": "10000",
       "x-rate-limit-remaining": "9993",
       "x-rate-limit-reset": "1781108896"
     },
-    "total_posts": 467,
-    "updated_at": "2026-06-28T20:16:32.143876+00:00",
+    "total_posts": 471,
+    "updated_at": "2026-06-29T20:50:32.661351+00:00",
     "username": "info_myojou"
   },
   "source": "x_api",
-  "updated_at": "2026-06-28T20:16:32.143876+00:00"
+  "updated_at": "2026-06-29T20:50:32.661351+00:00"
 }
