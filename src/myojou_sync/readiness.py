@@ -71,6 +71,10 @@ def public_readiness(event: CanonicalEvent) -> PublicReadiness:
 
 
 def _non_live_reason(text: str) -> str | None:
+    if _is_greeting_only_text(text):
+        return "greeting-only/non-live event"
+    if _is_notice_only_change_text(text):
+        return "notice-only schedule change"
     checks = (
         ("profile/member introduction", ("profile01", "profile02", "profile03", "profile04", "profile05", "profile06")),
         ("radio/non-live", ("ラジオ配信", "radio")),
@@ -99,3 +103,18 @@ def _non_live_reason(text: str) -> str | None:
         if any(token in text for token in tokens):
             return reason
     return None
+
+
+def _is_greeting_only_text(text: str) -> bool:
+    if not any(token in text for token in ("greetingevent", "【greeting】", "グリーティング")):
+        return False
+    if any(token in text for token in ("liveイベント", "liveevent", "ライブイベント", "🎙", "出演時間", "出番")):
+        return False
+    return any(token in text for token in ("1部", "2部", "一部", "二部", "私服", "メイド", "コスプレ", "特典会のみ"))
+
+
+def _is_notice_only_change_text(text: str) -> bool:
+    if not any(token in text for token in ("日程変更について", "一部日程変更", "変更について", "変更のお知らせ")):
+        return False
+    has_live_identity = any(token in text for token in ("会場", "場所", "チケット", "出演", "出演時間", "🎙", "特典会"))
+    return not has_live_identity

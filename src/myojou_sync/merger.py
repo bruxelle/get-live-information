@@ -3,6 +3,7 @@ from __future__ import annotations
 from dataclasses import dataclass
 from datetime import datetime, timedelta, timezone
 from difflib import SequenceMatcher
+import re
 
 from .models import CanonicalEvent, EventFields, ExtractedEvent, PostClassification, SourceKind, TicketSalePeriod, source_summary_line, utc_now
 from .normalization import normalize_event_name, normalize_url, normalize_venue
@@ -350,9 +351,20 @@ def _event_name_alias_key(value: str | None) -> str:
     previous = ""
     while previous != normalized:
         previous = normalized
+        normalized = _strip_presenter_prefix(normalized)
         normalized = re_sub_prefixes(normalized, _LIVE_TITLE_PREFIXES)
         normalized = re_sub_suffixes(normalized, _LIVE_TITLE_SUFFIXES)
     return normalized
+
+
+def _strip_presenter_prefix(value: str) -> str:
+    match = re.match(r"^.+?presents(?P<title>.+)$", value)
+    if match and len(match.group("title")) >= 3:
+        return match.group("title")
+    match = re.match(r"^.+?presentedby(?P<title>.+)$", value)
+    if match and len(match.group("title")) >= 3:
+        return match.group("title")
+    return value
 
 
 _LIVE_TITLE_PREFIXES = (
@@ -447,6 +459,8 @@ def _event_name_display_score(value: str | None) -> int:
         return 0
     normalized = normalize_event_name(value)
     score = len(normalized)
+    if "presents" in normalized or "presentedby" in normalized:
+        score -= 20
     if "myojou" in normalized:
         score += 10
     if "oneman" in normalized or "ワンマン" in normalized:

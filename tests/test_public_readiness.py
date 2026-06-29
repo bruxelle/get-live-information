@@ -60,6 +60,31 @@ def test_public_ready_false_for_profile_posts():
     assert "profile/member" in _not_ready_reason(_event(event_name="PROFILE 02 薄倉りな"))
 
 
+def test_public_ready_false_for_greeting_only_events():
+    reason = _not_ready_reason(
+        _event(
+            event_name="myojou Greeting Event",
+            venue="ふれあい貸し会議室",
+            ticket_url="https://t-dv.com/myojou_0628",
+            source_text="myojou Greeting Event\n⟣1部 : 15:00-16:30 アリスメイド\n⟣2部 : 17:00-18:30 私服",
+        )
+    )
+
+    assert "greeting-only" in reason
+
+
+def test_public_ready_false_for_notice_only_schedule_change():
+    reason = _not_ready_reason(
+        _event(
+            event_name="【一部日程変更について】",
+            venue=None,
+            source_text="【一部日程変更について】\n<変更前>6/21 OPEN11:00 / START11:30\n<変更後>6/20 OPEN11:00 / START11:30",
+        )
+    )
+
+    assert "notice-only" in reason
+
+
 def test_public_ready_false_for_member_profile_without_live_structure():
     reason = _not_ready_reason(
         CanonicalEvent(

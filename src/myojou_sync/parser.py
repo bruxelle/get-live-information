@@ -387,6 +387,10 @@ class PostParser:
         compact_no_space = re.sub(r"\s+", "", compact)
         if re.search(r"\bprofile\s*0?[1-9]\b", compact, flags=re.I) or re.search(r"profile[0-9０-９]+", compact_no_space, flags=re.I):
             return "profile/member introduction"
+        if _is_greeting_only_post(compact):
+            return "greeting-only/non-live event"
+        if _is_notice_only_change_post(compact):
+            return "notice-only schedule change"
         checks = (
             ("radio/non-live", ("ラジオ配信",)),
             ("teaser/coming soon", ("coming soon", "comingsoon", "近日公開", "近日解禁")),
@@ -457,9 +461,10 @@ class PostParser:
                 continue
             line_dates = parse_event_dates(line, posted_date)
             if _is_ticket_date_header(line):
-                pending_ticket_date_line = True
                 if line_dates:
+                    pending_ticket_date_line = False
                     continue
+                pending_ticket_date_line = True
             elif pending_ticket_date_line and line_dates:
                 pending_ticket_date_line = False
                 continue
@@ -473,7 +478,7 @@ class PostParser:
             else:
                 general_dates.extend(line_dates)
 
-        parsed_dates = _dedupe_dates(appearance_dates or general_dates)
+        parsed_dates = _expand_known_festival_date_gaps(normalized, _dedupe_dates(appearance_dates or general_dates))
         if parsed_dates:
             return parsed_dates
 
@@ -489,17 +494,19 @@ class PostParser:
             if label_match:
                 return _clean_value(label_match.group("name"))
 
+        quoted_candidates: list[tuple[int, str]] = []
         for left, right in (("『", "』"), ("「", "」"), ("“", "”"), ('"', '"')):
             pattern = re.escape(left) + r"(?P<name>[^" + re.escape(right) + r"]{2,80})" + re.escape(right)
-            match = re.search(pattern, text)
-            if match:
-                candidate = _clean_value(match.group("name"))
+            for match in re.finditer(pattern, text):
+                candidate = _clean_event_title_candidate(_clean_value(match.group("name")))
                 if candidate and not any(word in candidate for word in ("ライブ出演情報", "タイムテーブル")):
-                    return candidate
+                    quoted_candidates.append((match.start(), candidate))
+        if quoted_candidates:
+            return sorted(quoted_candidates, key=lambda item: item[0])[0][1]
 
         title_candidate = _title_from_header_block(text)
         if title_candidate:
-            return title_candidate
+            return _clean_event_title_candidate(title_candidate)
 
         for line in _lines(text):
             cleaned = _clean_value(line)
@@ -1047,6 +1054,38 @@ def _is_live_digest_post(text: str) -> bool:
     return "live digest" in _normalize(text).casefold()
 
 
+def _is_greeting_only_post(text: str) -> bool:
+    compact = _normalize(text).casefold()
+    if not any(token in compact for token in ("greeting event", "【greeting】", "グリーティング")):
+        return False
+    if any(token in compact for token in ("liveイベント", "live event", "ライブイベント", "🎙", "出演時間", "出番")):
+        return False
+    return any(token in compact for token in ("1部", "2部", "一部", "二部", "私服", "メイド", "コスプレ", "特典会のみ"))
+
+
+def _is_notice_only_change_post(text: str) -> bool:
+    compact = _normalize(text).casefold()
+    if not any(token in compact for token in ("日程変更について", "一部日程変更", "変更について", "変更のお知らせ")):
+        return False
+    has_live_identity = any(token in compact for token in ("会場", "場所", "チケット", "出演", "出演時間", "🎙", "特典会"))
+    return not has_live_identity
+
+
+def _expand_known_festival_date_gaps(text: str, dates: list[date]) -> list[date]:
+    if len(dates) < 2:
+        return dates
+    compact = _normalize(text).casefold()
+    if not any(token in compact for token in ("tokyo idol festival", "tif2026", "tif 2026")):
+        return dates
+    start = min(dates)
+    end = max(dates)
+    if (end - start).days > 4:
+        return dates
+    if start.month != end.month and start.day != 31:
+        return dates
+    return _dedupe_dates([start + timedelta(days=offset) for offset in range((end - start).days + 1)])
+
+
 def _is_ticket_date_header(line: str) -> bool:
     normalized = _normalize(line).casefold()
     return any(
@@ -1061,6 +1100,9 @@ def _is_ticket_date_header(line: str) -> bool:
             "一般受付",
             "先着販売",
             "先着受付",
+            "先行販売",
+            "販売期間",
+            "受付期間",
             "申込開始",
             "申込締切",
             "受付開始",
@@ -1427,6 +1469,21 @@ def _clean_value(value: str | None) -> str | None:
     return cleaned or None
 
 
+def _clean_event_title_candidate(value: str | None) -> str | None:
+    if not value:
+        return None
+    cleaned = normalize_spaces(value)
+    if re.search(r"\bpresents?\b", cleaned, flags=re.I):
+        pieces = re.split(r"\bpresents?\b", cleaned, maxsplit=1, flags=re.I)
+        if len(pieces) == 2 and pieces[1].strip():
+            cleaned = pieces[1]
+    cleaned = cleaned.strip(" \t　:：-/／|｜『』「」\"'“”’")
+    cleaned = re.sub(r"^[『「\"'“”’]+", "", cleaned)
+    cleaned = re.sub(r"[』」\"'“”’]+$", "", cleaned)
+    cleaned = normalize_spaces(cleaned)
+    return cleaned or None
+
+
 def _title_from_header_block(text: str) -> str | None:
     candidates: list[tuple[int, str]] = []
     for index, line in enumerate(_lines(text)):
@@ -1517,7 +1574,7 @@ def _is_structured_field_line(value: str) -> bool:
         re.match(
             r"^(?:date|day|place|venue|open/start|open|start|price|ticket|url|link|"
             r"日付|場所|会場|開場|開演|料金|入場料|特典会|出演時間|"
-            r"一般販売|一般発売|抽選受付|抽選販売|抽選申込|先行抽選|先着販売|先着受付|"
+            r"一般販売|一般発売|抽選受付|抽選販売|抽選申込|先行抽選|先行販売|先着販売|先着受付|販売期間|受付期間|"
             r"受付開始|受付締切|販売開始|販売終了|申込開始|申込締切|当落発表|支払期限|入金期限)",
             compact,
             flags=re.I,
