@@ -837,6 +837,29 @@ body.detail-sheet-open {
   color: #fff;
 }
 
+@media (max-width: 640px) {
+  .calendar-weekdays,
+  .calendar-grid {
+    width: calc(100% + 28px);
+    margin-right: -14px;
+    margin-left: -14px;
+    gap: 0;
+  }
+
+  .calendar-grid {
+    border-top: 1px solid var(--line);
+    border-left: 1px solid var(--line);
+    border-radius: 0;
+  }
+
+  .calendar-day {
+    min-height: 84px;
+    border-width: 0 1px 1px 0;
+    border-radius: 0;
+    padding: 6px 3px;
+  }
+}
+
 @media (min-width: 680px) {
   .app-shell {
     padding-top: 28px;
