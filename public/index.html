@@ -20,23 +20,25 @@
         </div>
       </header>
 
-      <nav class="filters" aria-label="日付フィルター">
-        <button class="filter-button is-active" type="button" data-filter="upcoming">今日以降</button>
-        <button class="filter-button" type="button" data-filter="week">今週</button>
-        <button class="filter-button" type="button" data-filter="month">今月</button>
-        <button class="filter-button" type="button" data-filter="missing-deadline">締切未取得</button>
-        <button class="filter-button" type="button" data-filter="all">すべて</button>
-      </nav>
+      <section class="controls-panel" aria-label="表示条件">
+        <nav class="filters" aria-label="日付フィルター">
+          <button class="filter-button is-active" type="button" data-filter="upcoming">今日以降</button>
+          <button class="filter-button" type="button" data-filter="week">今週</button>
+          <button class="filter-button" type="button" data-filter="month">今月</button>
+          <button class="filter-button" type="button" data-filter="missing-deadline">締切未取得</button>
+          <button class="filter-button" type="button" data-filter="all">すべて</button>
+        </nav>
 
-      <nav class="sort-controls" aria-label="並び替え">
-        <button class="sort-button is-active" type="button" data-sort="event-date">ライブ日順</button>
-        <button class="sort-button" type="button" data-sort="deadline">申込締切順</button>
-      </nav>
+        <nav class="sort-controls" aria-label="並び替え">
+          <button class="sort-button is-active" type="button" data-sort="event-date">ライブ日順</button>
+          <button class="sort-button" type="button" data-sort="deadline">申込締切順</button>
+        </nav>
 
-      <nav class="view-switcher" aria-label="表示切り替え">
-        <button class="view-button" type="button" data-view="cards" aria-pressed="false">カード</button>
-        <button class="view-button is-active" type="button" data-view="calendar" aria-pressed="true">カレンダー</button>
-      </nav>
+        <nav class="view-switcher" aria-label="表示切り替え">
+          <button class="view-button" type="button" data-view="cards" aria-pressed="false">カード</button>
+          <button class="view-button is-active" type="button" data-view="calendar" aria-pressed="true">カレンダー</button>
+        </nav>
+      </section>
 
       <section id="calendarView" class="calendar-view">
         <section class="deadline-alerts" aria-labelledby="deadlineAlertsHeading">

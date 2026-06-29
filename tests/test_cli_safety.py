@@ -1738,7 +1738,11 @@ def test_static_public_ui_has_filters_date_groups_and_status_badges():
     assert 'data-view="cards" aria-pressed="false"' in html
     assert 'data-view="calendar" aria-pressed="true"' in html
     assert '<section id="calendarView" class="calendar-view">' in html
-    assert '<section id="eventList" class="event-list" aria-live="polite" hidden>' in html
+    assert '<section class="controls-panel" aria-label="表示条件">' in html
+    event_list_tag = html.split('<section id="eventList"', 1)[1].split(">", 1)[0]
+    assert 'class="event-list"' in event_list_tag
+    assert 'aria-live="polite"' in event_list_tag
+    assert "hidden" in event_list_tag
     assert "topbar-copy" in html
     assert "topbar-subtitle" in html
     assert 'id="nextLiveSummary"' in html
@@ -1763,7 +1767,9 @@ def test_static_public_ui_has_filters_date_groups_and_status_badges():
     assert "calendarCell" in app_js
     assert "renderDeadlineAlerts" in app_js
     assert "deadlineAlertItem" in app_js
-    assert 'if (state.calendarMode === "all") {\n    return entries;\n  }' in app_js
+    relevant_calendar_entries = app_js.split("function relevantCalendarEntries", 1)[1].split("function detailModeLabel", 1)[0]
+    assert 'state.calendarMode === "all"' in relevant_calendar_entries
+    assert "return entries;" in relevant_calendar_entries
     assert 'sourceUrlForEvent(event)' in app_js
     assert '"告知ポスト"' in app_js
     assert "selectedDate" not in app_js
@@ -1775,6 +1781,7 @@ def test_static_public_ui_has_filters_date_groups_and_status_badges():
     assert "next_ticket_deadline_at" in app_js
     assert "ticketSalesList" in app_js
     assert "ticket-sale-chip" in css
+    assert "controls-panel" in css
     assert "view-switcher" in css
     assert "calendar-mode-controls" in css
     assert "body.is-calendar-view .filters" in css
