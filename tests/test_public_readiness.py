@@ -55,6 +55,69 @@ def test_public_ready_false_for_program_content():
     assert "content program" in _not_ready_reason(_event(event_name="メインステージ争奪LIVE〜前哨戦〜直前SP!!春の学力テスト"))
 
 
+def test_public_ready_false_for_goods_number_kuji_announcement():
+    reason = _not_ready_reason(
+        _event(
+            event_name="グッズ&ナンバーくじ公開",
+            venue="Veats Shibuya",
+            ticket_url="https://t-dv.com/myojou_260608",
+            source_text=(
+                "グッズ&ナンバーくじ公開\n"
+                "myojou oneman live 明夏\n"
+                "⟣明夏Tシャツ ¥2,500\n"
+                "⟣明夏限定ナンバーくじ ¥1,000/回\n"
+                "⟣date：2026/6/8(月)\n"
+                "⟣place : Veats Shibuya\n"
+                "⟣open/start：18:15/19:00"
+            ),
+        )
+    )
+
+    assert "goods/number lottery" in reason
+
+
+def test_public_ready_false_for_after_benefit_only_event():
+    reason = _not_ready_reason(
+        _event(
+            event_name='myojou oneman live "明夏" アフター特典会',
+            venue="ふれあい貸し会議室 渋谷No.77",
+            source_text='myojou oneman live "明夏"\nアフター特典会\n⟣date:6/9(火)\n⟣start:18:30\n⟣price: ¥0',
+        )
+    )
+
+    assert "benefit-only" in reason
+
+
+def test_public_ready_false_for_streaming_only_rally_but_not_in_person_live_with_streaming_note():
+    streaming_reason = _not_ready_reason(
+        _event(
+            event_name="争奪LIVE 前哨戦 緊急決起集会",
+            venue="GARDEN 新木場FACTORY",
+            ticket_url="https://tiget.net/events/483845",
+            source_text=(
+                "TIF2026メインステージ\n"
+                "争奪LIVE 前哨戦\n"
+                "緊急決起集会\n"
+                "まもなくスタートします!\n"
+                "⟣date:6/7(日)\n⟣place:GARDEN 新木場FACTORY"
+            ),
+        )
+    )
+    in_person = _event(
+        event_name="TIF2026メインステージ争奪LIVE 前哨戦",
+        venue="GARDEN 新木場FACTORY",
+        ticket_url="https://tiget.net/events/483845",
+        source_text=(
+            "TIF2026メインステージ争奪LIVE 前哨戦\n"
+            "現地にいる方はチケットページでの投票、また配信でも応援いただけます。\n"
+            "⟣date:6/7(日)\n⟣place:GARDEN 新木場FACTORY"
+        ),
+    )
+
+    assert "streaming-only" in streaming_reason
+    assert public_readiness(in_person).public_ready is True
+
+
 def test_public_ready_false_for_profile_posts():
     assert "profile/member" in _not_ready_reason(_event(event_name="PROFILE 01"))
     assert "profile/member" in _not_ready_reason(_event(event_name="PROFILE 02 薄倉りな"))
@@ -148,6 +211,14 @@ def test_public_ready_true_for_good_live_examples():
         _event(event_name="IDOL STORM", venue="Spotify O-WEST", ticket_url="https://tiget.net/events/123"),
         _event(event_name="HYPE IDOL! DX", venue="Zepp Shinjuku", start_time="12:00"),
         _event(event_name="MIX BOX vol.10", venue="渋谷DESEO", myojou_performance_time="19:10-19:35"),
+        _event(event_name="IDOL INFINITE PREMIUM vol.09", venue="Spotify O-nest", ticket_url="https://ticketdive.com/event/idol_infinity_premium_vol9"),
+        _event(event_name="IDOL ∞ INFINITY PREMIUM vol.12", venue="Spotify O-nest", ticket_url="https://ticketdive.com/event/idol_infinity_premium_vol12"),
+        _event(
+            event_name="超NATSUZOME 2026",
+            venue="幕張海浜公園Gブロック特設会場",
+            start_time="10:00",
+            source_text="※ VIP特典：前方VIPエリア入場+VIP限定Tシャツ及びグッズプレゼント",
+        ),
     ]
 
     assert all(public_readiness(event).public_ready for event in good_events)

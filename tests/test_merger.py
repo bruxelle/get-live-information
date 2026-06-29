@@ -354,6 +354,85 @@ def test_presenter_wrapped_title_merges_with_clean_title_and_prefers_clean_displ
     assert event.source_post_ids == ["lovecall-wrapped", "lovecall-clean"]
 
 
+def test_series_title_and_numbered_title_merge_when_same_date_time_and_ticket_url_differs_only_by_scheme():
+    merger = EventMerger()
+    events: list[CanonicalEvent] = []
+    broad = ExtractedEvent(
+        event_date=date(2026, 5, 31),
+        event_dates=[date(2026, 5, 31), date(2026, 6, 21), date(2026, 7, 19), date(2026, 8, 13)],
+        event_name="myojou Summer",
+        venue="恵比寿CreAto、渋谷チェルシーホテル、渋谷音楽堂、WOMB LIVE",
+        open_time="11:30",
+        start_time="12:00",
+        ticket_url="https://t-dv.com/myojou_0531",
+        source_url="https://x.com/info_myojou/status/2049054347984777330",
+        source_post_id="2049054347984777330",
+        source_posted_at=datetime(2026, 4, 28, 18, 13, tzinfo=JST),
+        source_text="myojou Summer",
+        source_kind=SourceKind.TICKET_UPDATE,
+        extraction_confidence=0.9,
+    )
+    specific = broad.model_copy(
+        update={
+            "event_dates": [date(2026, 5, 31)],
+            "event_name": "myojou Summer Vol.01",
+            "venue": "恵比寿CreAto、",
+            "ticket_url": "http://t-dv.com/myojou_0531",
+            "source_url": "https://x.com/info_myojou/status/2049458698377207928",
+            "source_post_id": "2049458698377207928",
+            "source_posted_at": datetime(2026, 4, 29, 21, 0, tzinfo=JST),
+            "source_text": "myojou Summer Vol.01",
+        }
+    )
+
+    merger.merge_into_collection(broad, events)
+    event, created, confidence = merger.merge_into_collection(specific, events)
+
+    assert created is False
+    assert confidence >= 0.72
+    assert len(events) == 1
+    assert event.event_name == "myojou Summer Vol.01"
+    assert event.event_dates == [date(2026, 5, 31)]
+    assert event.source_post_ids == ["2049054347984777330", "2049458698377207928"]
+
+
+def test_different_numbered_volumes_do_not_merge_even_if_broad_series_dates_overlap():
+    merger = EventMerger()
+    events = [
+        CanonicalEvent(
+            event_date=date(2026, 5, 31),
+            event_dates=[date(2026, 5, 31), date(2026, 6, 21), date(2026, 7, 19)],
+            event_name="myojou Summer Vol.01",
+            venue="恵比寿CreAto、渋谷チェルシーホテル、渋谷音楽堂",
+            open_time="11:30",
+            start_time="12:00",
+            ticket_url="https://t-dv.com/myojou_0531",
+            source_post_ids=["2049054347984777330", "2049458698377207928"],
+        )
+    ]
+    vol3 = ExtractedEvent(
+        event_date=date(2026, 7, 19),
+        event_dates=[date(2026, 7, 19)],
+        event_name="myojou Summer Vol.03",
+        venue="渋谷音楽堂",
+        open_time="17:30",
+        start_time="18:00",
+        ticket_url="https://t-dv.com/myojou_0719",
+        source_url="https://x.com/info_myojou/status/2068185540734927173",
+        source_post_id="2068185540734927173",
+        source_posted_at=datetime(2026, 6, 20, 13, 13, tzinfo=JST),
+        source_text="myojou Summer Vol.03",
+        source_kind=SourceKind.TICKET_UPDATE,
+        extraction_confidence=0.9,
+    )
+
+    _, created, confidence = merger.merge_into_collection(vol3, events)
+
+    assert created is True
+    assert confidence == 0
+    assert len(events) == 2
+
+
 def test_lottery_post_followed_by_general_sale_merges_two_periods():
     parser = PostParser()
     merger = EventMerger()

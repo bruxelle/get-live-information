@@ -239,6 +239,52 @@ def test_goods_announcement_classifies_as_non_event():
     assert result.classification == PostClassification.NON_EVENT
 
 
+def test_goods_number_kuji_announcement_with_live_context_is_non_event():
+    text = (
+        "✮••┈┈┈┈••✮••┈┈┈┈••✮\n"
+        "     グッズ&ナンバーくじ公開\n"
+        "        myojou oneman live\n"
+        "                       明夏\n"
+        "✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n"
+        "⟣明夏Tシャツ ¥2,500\n"
+        "⟣myojouユニフォーム（全2種） ¥5,000\n"
+        "⟣明夏限定ナンバーくじ ¥1,000/回\n\n"
+        "⟣date：2026/6/8(月)\n"
+        "⟣place : Veats Shibuya\n"
+        "⟣open/start：18:15/19:00\n"
+        "⟣price：一般¥2,000（完売間近…！）\n"
+        "🔗 https://t-dv.com/myojou_260608\n"
+    )
+    post = XPost(id="2062856267094528446", created_at=datetime(2026, 6, 5, 20, 17, tzinfo=JST), text=text)
+    parser = PostParser()
+
+    classification = parser.classify_post(post)
+
+    assert classification.classification == PostClassification.NON_EVENT
+    assert "goods/number lottery" in classification.reason
+    assert parser.parse_post(post, classification=classification) is None
+
+
+def test_live_post_with_incidental_goods_mention_is_still_event():
+    post = XPost(
+        id="live-with-goods-side-note",
+        created_at=datetime(2026, 5, 30, 3, 0, tzinfo=JST),
+        text=(
+            "【Next Live】\n"
+            "6/15(月)『超NATSUZOME 2026』\n"
+            "会場：幕張海浜公園Gブロック特設会場\n"
+            "開場9:00 / 開演10:00\n"
+            "🎙18:30-18:45\n"
+            "※ VIP特典：前方VIPエリア入場+VIP限定Tシャツ及びグッズプレゼント\n"
+            "チケット：https://l-tike.com/live"
+        ),
+    )
+
+    result = PostParser().classify_post(post)
+
+    assert result.classification == PostClassification.EVENT
+
+
 def test_music_release_classifies_as_non_event():
     post = XPost(
         id="class-mv",
@@ -434,19 +480,13 @@ def test_real_sample_fixture_evaluation_helper_passes(mock_posts_dir):
     assert all(result.passed for result in results)
 
 
-def test_info_myojou_first_fetch_parses_english_style_free_event_labels(mock_posts_dir):
+def test_info_myojou_first_fetch_after_benefit_event_is_non_event(mock_posts_dir):
     posts = _real_first_fetch_posts(mock_posts_dir)
-    parsed = PostParser().parse_post(posts["2064018631219183632"])
+    classification = PostParser().classify_post(posts["2064018631219183632"])
 
-    assert parsed is not None
-    assert parsed.event_date == date(2026, 6, 9)
-    assert parsed.event_name == 'myojou oneman live "明夏"アフター特典会'
-    assert parsed.venue == "ふれあい貸し会議室 渋谷No.77"
-    assert parsed.start_time == "18:30"
-    assert parsed.general_ticket_price == 0
-    assert parsed.ticket_sale_type == "無料"
-    assert parsed.ticket_url is None
-    assert parsed.source_raw["media"][0]["url"].startswith("https://pbs.twimg.com/media/")
+    assert classification.classification == PostClassification.NON_EVENT
+    assert "benefit-only" in classification.reason
+    assert PostParser().parse_post(posts["2064018631219183632"], classification=classification) is None
 
 
 def test_info_myojou_first_fetch_parses_place_and_open_start_labels(mock_posts_dir):
@@ -470,7 +510,7 @@ def test_info_myojou_first_fetch_skips_thank_you_photo_post(mock_posts_dir):
     assert PostParser().parse_post(posts["2064336515615121857"], classification=classification) is None
 
 
-def test_info_myojou_first_fetch_pipeline_reduces_false_needs_review(tmp_path, mock_posts_dir):
+def test_info_myojou_first_fetch_pipeline_keeps_only_public_live_candidate(tmp_path, mock_posts_dir):
     state = SQLiteStateStore(tmp_path / "state.sqlite")
     pipeline = SyncPipeline(
         fetcher=MockXClient(mock_posts_dir / "real_samples" / "info_myojou_first_fetch.json"),
@@ -481,23 +521,15 @@ def test_info_myojou_first_fetch_pipeline_reduces_false_needs_review(tmp_path, m
     events, result = pipeline.run_once(max_results=10)
 
     assert result.fetched_posts == 4
-    assert result.parsed_events == 3
-    assert result.non_event_skipped == 1
-    assert result.created_events == 2
-    assert result.updated_events == 1
-    assert result.canonical_events == 2
-    afterparty = next(event for event in events if event.event_name == 'myojou oneman live "明夏"アフター特典会')
-    assert afterparty.venue == "ふれあい貸し会議室 渋谷No.77"
-    assert afterparty.general_ticket_price == 0
-    assert afterparty.ticket_sale_type == "無料"
-    assert afterparty.ticket_url is None
-    assert afterparty.needs_review is False
-    assert len(afterparty.all_source_urls) == 2
-    assert all(
-        "missing ticket deadline" not in record["needs_review_reasons"]
-        for record in result.x_sample_records
-        if record["id"] in {"2064018631219183632", "2064266242069004344"}
-    )
+    assert result.parsed_events == 1
+    assert result.non_event_skipped == 3
+    assert result.created_events == 1
+    assert result.updated_events == 0
+    assert result.canonical_events == 1
+    event = events[0]
+    assert event.event_name == "A Villa idol festival HOKKAIDO 2026"
+    assert event.venue == "安平町ときわ公園"
+    assert event.needs_review is False
 
 
 def test_note_tweet_audit_lovecall_parses_full_ticket_details(tmp_path, mock_posts_dir):
@@ -641,11 +673,12 @@ def test_note_tweet_audit_meika_alias_posts_merge_into_one_event(tmp_path, mock_
     assert event.event_name == "myojou oneman live 明夏"
     assert event.ticket_status == "sold_out"
     assert event.needs_review is False
-    assert {"2063616270218707012", "2063849253471141988", "2063865003917410549"}.issubset(
+    assert {"2063616270218707012", "2063849253471141988"}.issubset(
         set(event.source_post_ids)
     )
-    assert len(event.all_source_urls) >= 3
-    assert event.myojou_performance_time == "19:00"
+    assert "2063865003917410549" not in set(event.source_post_ids)
+    assert len(event.all_source_urls) >= 2
+    assert event.start_time == "19:00"
     assert any(other.event_name == "ラブコール vol.19" for other in events)
     assert any(other.event_name == "TOKYO GIRLS GIRLS" for other in events)
     assert all(other.event_name != "LIVE DIGEST" for other in events)
@@ -1097,3 +1130,65 @@ def test_correction_classification_and_time_parsing(mock_posts):
     assert parsed.source_kind == SourceKind.CORRECTION
     assert parsed.open_time == "18:15"
     assert parsed.start_time == "18:45"
+
+
+def test_real_archive_title_preserves_hajimemashite_vol4_subtitle():
+    posts = {post.id: post for post in MockXClient("mock_posts/real_samples/info_myojou_backfill_500.json")._load_posts()}
+    parsed = PostParser().parse_post(posts["2043265358182965514"])
+
+    assert parsed is not None
+    assert parsed.event_date == date(2026, 5, 10)
+    assert parsed.event_name == 'はじめまして"myojou"です。Vol.4 - miu birthday SP -'
+
+
+def test_real_archive_idol_infinite_premium_vol09_uses_live_date_not_sale_start():
+    posts = {post.id: post for post in MockXClient("mock_posts/real_samples/info_myojou_backfill_500.json")._load_posts()}
+    parsed = PostParser().parse_post(posts["2048016860084584595"])
+
+    assert parsed is not None
+    assert parsed.event_date == date(2026, 5, 11)
+    assert parsed.event_name == "IDOL INFINITE PREMIUM vol.09"
+    assert parsed.venue == "Spotify O-nest"
+
+
+def test_real_archive_idol_infinity_premium_vol12_parses_as_public_live():
+    posts = {post.id: post for post in MockXClient("mock_posts/real_samples/info_myojou_backfill_500.json")._load_posts()}
+    parsed = PostParser().parse_post(posts["2067204104745869403"])
+
+    assert parsed is not None
+    assert parsed.event_date == date(2026, 6, 19)
+    assert parsed.event_name == "IDOL ∞ INFINITY PREMIUM vol.12"
+    assert parsed.venue == "Spotify O-nest"
+    assert parsed.ticket_url == "https://ticketdive.com/event/idol_infinity_premium_vol12"
+
+
+def test_real_archive_girls_girls_festival_title_not_vip_benefit_text():
+    posts = {post.id: post for post in MockXClient("mock_posts/real_samples/info_myojou_backfill_500.json")._load_posts()}
+    parsed = PostParser().parse_post(posts["2057721554885120196"])
+
+    assert parsed is not None
+    assert parsed.event_name == "GIRLS GIRLS FESTIVAL 2026"
+    assert parsed.event_dates == [date(2026, 5, 23), date(2026, 5, 24)]
+
+
+def test_real_archive_after_benefit_event_is_non_event():
+    posts = {post.id: post for post in MockXClient("mock_posts/real_samples/info_myojou_backfill_500.json")._load_posts()}
+    post = posts["2063644808548327828"]
+    classification = PostParser().classify_post(post)
+
+    assert classification.classification == PostClassification.NON_EVENT
+    assert "benefit-only" in classification.reason
+    assert PostParser().parse_post(post, classification=classification) is None
+
+
+def test_real_archive_emergency_stream_rally_is_non_event_but_real_tif_live_remains_event():
+    posts = {post.id: post for post in MockXClient("mock_posts/real_samples/info_myojou_backfill_500.json")._load_posts()}
+    parser = PostParser()
+
+    rally = parser.classify_post(posts["2056888480622624777"])
+    live = parser.parse_post(posts["2057717199574532524"])
+
+    assert rally.classification == PostClassification.NON_EVENT
+    assert "streaming-only" in rally.reason
+    assert live is not None
+    assert live.event_name == "TIF2026メインステージ争奪LIVE 前哨戦"

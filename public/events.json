@@ -1,15 +1,15 @@
 [
   {
-    "public_event_id": "evt_8d32a8df2d3d49b3939b78c70064fd39:2026-01-27",
-    "source_event_id": "evt_8d32a8df2d3d49b3939b78c70064fd39",
+    "public_event_id": "evt_205b4b4e786840efb0da1b94eed4e611:2026-01-27",
+    "source_event_id": "evt_205b4b4e786840efb0da1b94eed4e611",
     "event_date": "2026-01-27",
     "weekday": "火",
-    "event_name": "UTAGE FES Vol.4",
+    "event_name": "PreDEBUT LIVE",
     "venue": "Zepp Shinjuku",
     "live_summary": "開演 10:30 / 出演 10:20-10:30 / 特典会 10:45-11:55",
     "ticket_summary": "一般 2,500円 / VIP 10,000円 / 1/26締切",
     "application_summary": "一般販売 12/13 00:00〜1/26 00:00",
-    "ticket_url": "https://t-dv.com/0127_UTAGEFES",
+    "ticket_url": "http://t-dv.com/0127_UTAGEFES",
     "ticket_status": "不明",
     "needs_review": true,
     "ticket_application_deadline_at": "2026-01-26T00:00:00+09:00",
@@ -41,11 +41,11 @@
     ]
   },
   {
-    "public_event_id": "evt_24cdc580cd694c55b861b0712282af99:2026-01-29",
-    "source_event_id": "evt_24cdc580cd694c55b861b0712282af99",
+    "public_event_id": "evt_8396c788d3c6414dbcfac331e6d13f50:2026-01-29",
+    "source_event_id": "evt_8396c788d3c6414dbcfac331e6d13f50",
     "event_date": "2026-01-29",
     "weekday": "木",
-    "event_name": "明星",
+    "event_name": "DEBUT LIVE",
     "venue": "Spotify O-Crest",
     "live_summary": "開演 11:30",
     "ticket_summary": "抽選 / 一般 0円 / VIP 6,000円 / 1/29締切",
@@ -97,11 +97,11 @@
     ]
   },
   {
-    "public_event_id": "evt_3f2f3e376ff240558fab09ea0ee12ae2:2026-02-11",
-    "source_event_id": "evt_3f2f3e376ff240558fab09ea0ee12ae2",
+    "public_event_id": "evt_7360a5594aec4231b920f3be2e9a99a1:2026-02-11",
+    "source_event_id": "evt_7360a5594aec4231b920f3be2e9a99a1",
     "event_date": "2026-02-11",
     "weekday": "水",
-    "event_name": "明星",
+    "event_name": "ライブ配信決定!",
     "venue": "Spotify O-Crest",
     "live_summary": "開演 11:30",
     "ticket_summary": "完売",
@@ -122,11 +122,11 @@
     ]
   },
   {
-    "public_event_id": "evt_13bfe33b13eb488c8de679e77f465eb7:2026-02-14",
-    "source_event_id": "evt_13bfe33b13eb488c8de679e77f465eb7",
+    "public_event_id": "evt_3067cee454d9478095713bb199092f9b:2026-02-14",
+    "source_event_id": "evt_3067cee454d9478095713bb199092f9b",
     "event_date": "2026-02-14",
     "weekday": "土",
-    "event_name": "myojou",
+    "event_name": "°⋆⭒ LIVE & Greeting °⋆⭒",
     "venue": "",
     "live_summary": "",
     "ticket_summary": "無料 / 一般 0円 / 優先 3,000円",
@@ -179,65 +179,8 @@
     ]
   },
   {
-    "public_event_id": "evt_4c7ba39306e84e6aac41e65b120cc8dc:2026-02-15",
-    "source_event_id": "evt_4c7ba39306e84e6aac41e65b120cc8dc",
-    "event_date": "2026-02-15",
-    "weekday": "日",
-    "event_name": "HYPE IDOL!",
-    "venue": "品川ステラボール",
-    "live_summary": "開演 08:30",
-    "ticket_summary": "一般 4,000円 / 前方 10,000円",
-    "application_summary": "未取得",
-    "ticket_url": "https://t-dv.com/hype_0215",
-    "ticket_status": "不明",
-    "needs_review": false,
-    "ticket_application_deadline_at": "",
-    "payment_deadline_at": "",
-    "ticket_sales": [
-      {
-        "sale_type": "不明",
-        "ticket_name": "前方",
-        "ticket_tier": "前方",
-        "price": 10000,
-        "start_at": "",
-        "deadline_at": "",
-        "result_at": "",
-        "payment_deadline_at": "",
-        "status": "不明",
-        "source_url": "https://x.com/info_myojou/status/2012132917162528928",
-        "source_post_id": "2012132917162528928",
-        "notes": "",
-        "is_next_deadline": false
-      },
-      {
-        "sale_type": "不明",
-        "ticket_name": "一般",
-        "ticket_tier": "一般",
-        "price": 4000,
-        "start_at": "",
-        "deadline_at": "",
-        "result_at": "",
-        "payment_deadline_at": "",
-        "status": "不明",
-        "source_url": "https://x.com/info_myojou/status/2012132917162528928",
-        "source_post_id": "2012132917162528928",
-        "notes": "",
-        "is_next_deadline": false
-      }
-    ],
-    "next_ticket_deadline_at": "",
-    "next_ticket_sale_type": "不明",
-    "next_ticket_label": "",
-    "public_ready": true,
-    "public_not_ready_reasons": [],
-    "review_reasons": [
-      "missing ticket deadline",
-      "classification: live post has date and structured event fields"
-    ]
-  },
-  {
-    "public_event_id": "evt_d92b9e30167e465980132a9c4b96dfc4:2026-02-15",
-    "source_event_id": "evt_d92b9e30167e465980132a9c4b96dfc4",
+    "public_event_id": "evt_b86c858af8eb47aa88695a88d26dbe3f:2026-02-15",
+    "source_event_id": "evt_b86c858af8eb47aa88695a88d26dbe3f",
     "event_date": "2026-02-15",
     "weekday": "日",
     "event_name": "HYPE IDOL!バレンタインSP",
@@ -293,11 +236,11 @@
     ]
   },
   {
-    "public_event_id": "evt_53775a6c38b04170bf45c112a3c5f464:2026-02-17",
-    "source_event_id": "evt_53775a6c38b04170bf45c112a3c5f464",
+    "public_event_id": "evt_b7991c6ec0cb481a8f22e6cc38cfa68c:2026-02-17",
+    "source_event_id": "evt_b7991c6ec0cb481a8f22e6cc38cfa68c",
     "event_date": "2026-02-17",
     "weekday": "火",
-    "event_name": "ウタパレ!",
+    "event_name": "2マンライブ 『ウタパレ!』Vol.2",
     "venue": "WOMB LIVE",
     "live_summary": "開演 18:15 / 出演 18:15-18:30 / 特典会 20:20-22:00",
     "ticket_summary": "一般 1,000円 / Sチケット 5,000円",
@@ -335,11 +278,11 @@
     ]
   },
   {
-    "public_event_id": "evt_53775a6c38b04170bf45c112a3c5f464:2026-02-18",
-    "source_event_id": "evt_53775a6c38b04170bf45c112a3c5f464",
+    "public_event_id": "evt_b7991c6ec0cb481a8f22e6cc38cfa68c:2026-02-18",
+    "source_event_id": "evt_b7991c6ec0cb481a8f22e6cc38cfa68c",
     "event_date": "2026-02-18",
     "weekday": "水",
-    "event_name": "ウタパレ!",
+    "event_name": "2マンライブ 『ウタパレ!』Vol.2",
     "venue": "WOMB LIVE",
     "live_summary": "開演 18:15 / 出演 18:15-18:30 / 特典会 20:20-22:00",
     "ticket_summary": "一般 1,000円 / Sチケット 5,000円",
@@ -377,11 +320,11 @@
     ]
   },
   {
-    "public_event_id": "evt_13bfe33b13eb488c8de679e77f465eb7:2026-02-22",
-    "source_event_id": "evt_13bfe33b13eb488c8de679e77f465eb7",
+    "public_event_id": "evt_3067cee454d9478095713bb199092f9b:2026-02-22",
+    "source_event_id": "evt_3067cee454d9478095713bb199092f9b",
     "event_date": "2026-02-22",
     "weekday": "日",
-    "event_name": "myojou",
+    "event_name": "°⋆⭒ LIVE & Greeting °⋆⭒",
     "venue": "",
     "live_summary": "",
     "ticket_summary": "無料 / 一般 0円 / 優先 3,000円",
@@ -434,8 +377,8 @@
     ]
   },
   {
-    "public_event_id": "evt_2bc03594ee98429c83e25e75c1704585:2026-02-22",
-    "source_event_id": "evt_2bc03594ee98429c83e25e75c1704585",
+    "public_event_id": "evt_f3f859f58749440db9f6b05b28a5da87:2026-02-22",
+    "source_event_id": "evt_f3f859f58749440db9f6b05b28a5da87",
     "event_date": "2026-02-22",
     "weekday": "日",
     "event_name": "はじめまして\"myojou\"です。",
@@ -490,8 +433,8 @@
     ]
   },
   {
-    "public_event_id": "evt_adbaa2fd047645c7bde7f2d6729cf298:2026-02-22",
-    "source_event_id": "evt_adbaa2fd047645c7bde7f2d6729cf298",
+    "public_event_id": "evt_caf552d7f6d24eda8549ab8c98b3dd78:2026-02-22",
+    "source_event_id": "evt_caf552d7f6d24eda8549ab8c98b3dd78",
     "event_date": "2026-02-22",
     "weekday": "日",
     "event_name": "公開生放送ラジオ特番",
@@ -515,8 +458,8 @@
     ]
   },
   {
-    "public_event_id": "evt_fc34ea153abe4278bed305fcc2b5b523:2026-02-27",
-    "source_event_id": "evt_fc34ea153abe4278bed305fcc2b5b523",
+    "public_event_id": "evt_74d71f3bed314a268c2bfe54db5456ac:2026-02-27",
+    "source_event_id": "evt_74d71f3bed314a268c2bfe54db5456ac",
     "event_date": "2026-02-27",
     "weekday": "金",
     "event_name": "アンスぱーくサーキット",
@@ -572,8 +515,8 @@
     ]
   },
   {
-    "public_event_id": "evt_fc34ea153abe4278bed305fcc2b5b523:2026-02-28",
-    "source_event_id": "evt_fc34ea153abe4278bed305fcc2b5b523",
+    "public_event_id": "evt_74d71f3bed314a268c2bfe54db5456ac:2026-02-28",
+    "source_event_id": "evt_74d71f3bed314a268c2bfe54db5456ac",
     "event_date": "2026-02-28",
     "weekday": "土",
     "event_name": "アンスぱーくサーキット",
@@ -629,8 +572,8 @@
     ]
   },
   {
-    "public_event_id": "evt_7e2b2f98b82044d7842aef6a37e2cd77:2026-03-01",
-    "source_event_id": "evt_7e2b2f98b82044d7842aef6a37e2cd77",
+    "public_event_id": "evt_4e803403c99d4113a04130c3aa666bfc:2026-03-01",
+    "source_event_id": "evt_4e803403c99d4113a04130c3aa666bfc",
     "event_date": "2026-03-01",
     "weekday": "日",
     "event_name": "Neat Meets vol.17",
@@ -671,8 +614,8 @@
     ]
   },
   {
-    "public_event_id": "evt_6d2dee4c01a140e2a0055fa914ab35f4:2026-03-03",
-    "source_event_id": "evt_6d2dee4c01a140e2a0055fa914ab35f4",
+    "public_event_id": "evt_595e5925a6af4513b4e5c8d7e9309f39:2026-03-03",
+    "source_event_id": "evt_595e5925a6af4513b4e5c8d7e9309f39",
     "event_date": "2026-03-03",
     "weekday": "火",
     "event_name": "Appare! ひなまつり",
@@ -742,8 +685,8 @@
     ]
   },
   {
-    "public_event_id": "evt_df1baadee6284c888cb564c397c228bd:2026-03-05",
-    "source_event_id": "evt_df1baadee6284c888cb564c397c228bd",
+    "public_event_id": "evt_41be8659b19e4997b65e835deed57172:2026-03-05",
+    "source_event_id": "evt_41be8659b19e4997b65e835deed57172",
     "event_date": "2026-03-05",
     "weekday": "木",
     "event_name": "TWILIGHT",
@@ -813,8 +756,8 @@
     ]
   },
   {
-    "public_event_id": "evt_77d204a7a64b479d963b4065f91edb02:2026-03-06",
-    "source_event_id": "evt_77d204a7a64b479d963b4065f91edb02",
+    "public_event_id": "evt_74a603feabf94c8dac64d50a69f22e53:2026-03-06",
+    "source_event_id": "evt_74a603feabf94c8dac64d50a69f22e53",
     "event_date": "2026-03-06",
     "weekday": "金",
     "event_name": "IDORISE!! FESTIVAL 2026 前夜祭",
@@ -914,8 +857,8 @@
     ]
   },
   {
-    "public_event_id": "evt_2299e532ba924a92b57aca6be153e55f:2026-03-07",
-    "source_event_id": "evt_2299e532ba924a92b57aca6be153e55f",
+    "public_event_id": "evt_419d89ba0e7e498089cadb5b6dca5278:2026-03-07",
+    "source_event_id": "evt_419d89ba0e7e498089cadb5b6dca5278",
     "event_date": "2026-03-07",
     "weekday": "土",
     "event_name": "IDORISE!! FESTIVAL 2026",
@@ -970,8 +913,8 @@
     ]
   },
   {
-    "public_event_id": "evt_2299e532ba924a92b57aca6be153e55f:2026-03-08",
-    "source_event_id": "evt_2299e532ba924a92b57aca6be153e55f",
+    "public_event_id": "evt_419d89ba0e7e498089cadb5b6dca5278:2026-03-08",
+    "source_event_id": "evt_419d89ba0e7e498089cadb5b6dca5278",
     "event_date": "2026-03-08",
     "weekday": "日",
     "event_name": "IDORISE!! FESTIVAL 2026",
@@ -1026,8 +969,8 @@
     ]
   },
   {
-    "public_event_id": "evt_e2e5ac791c2e4509917268894223116b:2026-03-09",
-    "source_event_id": "evt_e2e5ac791c2e4509917268894223116b",
+    "public_event_id": "evt_d73958657bf4435d8068e2423e03a577:2026-03-09",
+    "source_event_id": "evt_d73958657bf4435d8068e2423e03a577",
     "event_date": "2026-03-09",
     "weekday": "月",
     "event_name": "Spotify O-nest 定期公演 vol.20",
@@ -1112,8 +1055,8 @@
     ]
   },
   {
-    "public_event_id": "evt_6585a6885d994ed887cf4ad588b10255:2026-03-11",
-    "source_event_id": "evt_6585a6885d994ed887cf4ad588b10255",
+    "public_event_id": "evt_c574afccf9c84e1ebb298bba8976676c:2026-03-11",
+    "source_event_id": "evt_c574afccf9c84e1ebb298bba8976676c",
     "event_date": "2026-03-11",
     "weekday": "水",
     "event_name": "LEADING NEXT",
@@ -1198,52 +1141,11 @@
     ]
   },
   {
-    "public_event_id": "evt_3dd01a88210a41088fcde8eeb7fd41ea:2026-03-12",
-    "source_event_id": "evt_3dd01a88210a41088fcde8eeb7fd41ea",
-    "event_date": "2026-03-12",
-    "weekday": "木",
-    "event_name": "定期公演「明星月報",
-    "venue": "SHIBUYA RING",
-    "live_summary": "開演 19:00 / 特典会 16:30-17:30",
-    "ticket_summary": "一般 1,000円 / 3/11締切",
-    "application_summary": "一般販売 2/12 22:00〜3/11 00:00",
-    "ticket_url": "http://t-dv.com/0312_myojou",
-    "ticket_status": "不明",
-    "needs_review": true,
-    "ticket_application_deadline_at": "2026-03-11T00:00:00+09:00",
-    "payment_deadline_at": "",
-    "ticket_sales": [
-      {
-        "sale_type": "一般",
-        "ticket_name": "一般",
-        "ticket_tier": "一般",
-        "price": 1000,
-        "start_at": "2026-02-12T22:00:00+09:00",
-        "deadline_at": "2026-03-11T00:00:00+09:00",
-        "result_at": "",
-        "payment_deadline_at": "",
-        "status": "完売",
-        "source_url": "https://x.com/info_myojou/status/2031983026507231272",
-        "source_post_id": "2031983026507231272",
-        "notes": "",
-        "is_next_deadline": true
-      }
-    ],
-    "next_ticket_deadline_at": "2026-03-11T00:00:00+09:00",
-    "next_ticket_sale_type": "一般",
-    "next_ticket_label": "一般",
-    "public_ready": true,
-    "public_not_ready_reasons": [],
-    "review_reasons": [
-      "classification: live post has date and structured event fields"
-    ]
-  },
-  {
-    "public_event_id": "evt_96ce10330b0546e79c80c85d19df9969:2026-03-14",
-    "source_event_id": "evt_96ce10330b0546e79c80c85d19df9969",
+    "public_event_id": "evt_ec1d8c26809246d7a46d2a89fa0a5e01:2026-03-14",
+    "source_event_id": "evt_ec1d8c26809246d7a46d2a89fa0a5e01",
     "event_date": "2026-03-14",
     "weekday": "土",
-    "event_name": "LUNA PARADE",
+    "event_name": "LUNA PARADE - WHITE DAY SP -",
     "venue": "品川インターシティホール",
     "live_summary": "開演 09:00 / 出演 10:45-11:05 / 特典会 11:15-12:35",
     "ticket_summary": "先着 / 一般 3,000円 / 前方 6,000円 / 3/14締切",
@@ -1295,8 +1197,8 @@
     ]
   },
   {
-    "public_event_id": "evt_e2e5ac791c2e4509917268894223116b:2026-03-17",
-    "source_event_id": "evt_e2e5ac791c2e4509917268894223116b",
+    "public_event_id": "evt_d73958657bf4435d8068e2423e03a577:2026-03-17",
+    "source_event_id": "evt_d73958657bf4435d8068e2423e03a577",
     "event_date": "2026-03-17",
     "weekday": "火",
     "event_name": "Spotify O-nest 定期公演 vol.20",
@@ -1381,8 +1283,8 @@
     ]
   },
   {
-    "public_event_id": "evt_30e91d2550ab442fa88e088091f8af99:2026-03-19",
-    "source_event_id": "evt_30e91d2550ab442fa88e088091f8af99",
+    "public_event_id": "evt_0a48fa68226e45a686f83f320cc990b4:2026-03-19",
+    "source_event_id": "evt_0a48fa68226e45a686f83f320cc990b4",
     "event_date": "2026-03-19",
     "weekday": "木",
     "event_name": "PARAD-i-SE Vol.3",
@@ -1497,8 +1399,8 @@
     ]
   },
   {
-    "public_event_id": "evt_b2de8ad5c33841b88c0d6729989d1889:2026-03-21",
-    "source_event_id": "evt_b2de8ad5c33841b88c0d6729989d1889",
+    "public_event_id": "evt_9664f0f1b5294d63a640cc945232649b:2026-03-21",
+    "source_event_id": "evt_9664f0f1b5294d63a640cc945232649b",
     "event_date": "2026-03-21",
     "weekday": "土",
     "event_name": "LEADING SPRING Circuit",
@@ -1583,8 +1485,8 @@
     ]
   },
   {
-    "public_event_id": "evt_81ff66491b04464497f9836ce9c64066:2026-03-22",
-    "source_event_id": "evt_81ff66491b04464497f9836ce9c64066",
+    "public_event_id": "evt_c3743f55cd3c4d399b8623262cf4cf8f:2026-03-22",
+    "source_event_id": "evt_c3743f55cd3c4d399b8623262cf4cf8f",
     "event_date": "2026-03-22",
     "weekday": "日",
     "event_name": "HYPE IDOL!",
@@ -1594,7 +1496,7 @@
     "application_summary": "抽選 2/25 00:00〜3/11 00:00 / 先着 3/2 21:00〜3/12 22:00 / 先着 2/25 00:00〜3/22 00:00",
     "ticket_url": "http://t-dv.com/hype0322",
     "ticket_status": "不明",
-    "needs_review": true,
+    "needs_review": false,
     "ticket_application_deadline_at": "2026-03-11T00:00:00+09:00",
     "payment_deadline_at": "",
     "ticket_sales": [
@@ -1699,11 +1601,83 @@
     ]
   },
   {
-    "public_event_id": "evt_23e30dcc1fa7479f90bafb8537cf5196:2026-03-25",
-    "source_event_id": "evt_23e30dcc1fa7479f90bafb8537cf5196",
+    "public_event_id": "evt_8f3311ef274d4bf0a3f9de4a607ca0f3:2026-03-24",
+    "source_event_id": "evt_8f3311ef274d4bf0a3f9de4a607ca0f3",
+    "event_date": "2026-03-24",
+    "weekday": "火",
+    "event_name": "PREMIUM vol.6 2部",
+    "venue": "Spotify O-Crest",
+    "live_summary": "開演 19:50 / 出演 19:50-20:15 / 特典会 21:10-22:10",
+    "ticket_summary": "前方 4,000円 / 一般 2,000円 / 当日各+1,000円",
+    "application_summary": "未取得",
+    "ticket_url": "https://t-dv.com/idol_infinity_premium_vol6",
+    "ticket_status": "不明",
+    "needs_review": false,
+    "ticket_application_deadline_at": "",
+    "payment_deadline_at": "",
+    "ticket_sales": [
+      {
+        "sale_type": "先着",
+        "ticket_name": "前方",
+        "ticket_tier": "前方",
+        "price": 4000,
+        "start_at": "",
+        "deadline_at": "",
+        "result_at": "",
+        "payment_deadline_at": "",
+        "status": "不明",
+        "source_url": "https://x.com/info_myojou/status/2029875705237184654",
+        "source_post_id": "2029875705237184654",
+        "notes": "",
+        "is_next_deadline": false
+      },
+      {
+        "sale_type": "先着",
+        "ticket_name": "一般",
+        "ticket_tier": "一般",
+        "price": 2000,
+        "start_at": "",
+        "deadline_at": "",
+        "result_at": "",
+        "payment_deadline_at": "",
+        "status": "不明",
+        "source_url": "https://x.com/info_myojou/status/2029875705237184654",
+        "source_post_id": "2029875705237184654",
+        "notes": "",
+        "is_next_deadline": false
+      },
+      {
+        "sale_type": "当日券",
+        "ticket_name": "当日券",
+        "ticket_tier": "一般",
+        "price": 1000,
+        "start_at": "",
+        "deadline_at": "",
+        "result_at": "",
+        "payment_deadline_at": "",
+        "status": "販売中",
+        "source_url": "https://x.com/info_myojou/status/2029875705237184654",
+        "source_post_id": "2029875705237184654",
+        "notes": "",
+        "is_next_deadline": false
+      }
+    ],
+    "next_ticket_deadline_at": "",
+    "next_ticket_sale_type": "不明",
+    "next_ticket_label": "",
+    "public_ready": true,
+    "public_not_ready_reasons": [],
+    "review_reasons": [
+      "missing ticket deadline",
+      "classification: live post has date and structured event fields"
+    ]
+  },
+  {
+    "public_event_id": "evt_169145dfd9854e76a1bd02d981e313c5:2026-03-25",
+    "source_event_id": "evt_169145dfd9854e76a1bd02d981e313c5",
     "event_date": "2026-03-25",
     "weekday": "水",
-    "event_name": "Blue Color Palette ROAD TO WEST",
+    "event_name": "selfish主催",
     "venue": "白金高輪SELENE b2",
     "live_summary": "開演 16:30 / 出演 18:30-18:55 / 特典会 19:05-20:25",
     "ticket_summary": "抽選 / 一般 2,000円 / 前方 6,000円",
@@ -1785,11 +1759,11 @@
     ]
   },
   {
-    "public_event_id": "evt_a6d7afe2acba457a83058e537a38d94f:2026-03-28",
-    "source_event_id": "evt_a6d7afe2acba457a83058e537a38d94f",
+    "public_event_id": "evt_d42b6011d2cc422194db13703935fb01:2026-03-28",
+    "source_event_id": "evt_d42b6011d2cc422194db13703935fb01",
     "event_date": "2026-03-28",
     "weekday": "土",
-    "event_name": "myojou",
+    "event_name": "はじめまして\"myojou\"です。vol.2",
     "venue": "渋谷Star lounge",
     "live_summary": "開演 17:30",
     "ticket_summary": "一般 0円 / 優先 3,500円 / 3/27締切",
@@ -1841,8 +1815,8 @@
     ]
   },
   {
-    "public_event_id": "evt_eda5a4f70d094a10a527807c9ff545a7:2026-03-29",
-    "source_event_id": "evt_eda5a4f70d094a10a527807c9ff545a7",
+    "public_event_id": "evt_2fc18f0d04e64c959c49916ba417e5b9:2026-03-29",
+    "source_event_id": "evt_2fc18f0d04e64c959c49916ba417e5b9",
     "event_date": "2026-03-29",
     "weekday": "日",
     "event_name": "NATSUZOME2026",
@@ -1927,11 +1901,11 @@
     ]
   },
   {
-    "public_event_id": "evt_fd2f0392dfb847e384a6b404b30fb731:2026-04-01",
-    "source_event_id": "evt_fd2f0392dfb847e384a6b404b30fb731",
+    "public_event_id": "evt_edd8cf386cb542d1840755e598a983ff:2026-04-01",
+    "source_event_id": "evt_edd8cf386cb542d1840755e598a983ff",
     "event_date": "2026-04-01",
     "weekday": "水",
-    "event_name": "引用RP",
+    "event_name": "エイプリルフール 緊急ライブ!",
     "venue": "club asia",
     "live_summary": "開演 18:00 / 出演 18:30-19:00 / 特典会 20:30-22:00",
     "ticket_summary": "先着 / 一般 0円 / 4/1締切",
@@ -1968,8 +1942,8 @@
     ]
   },
   {
-    "public_event_id": "evt_a2edf9c6a1e243c0b025fbbbb6fc5ec4:2026-04-04",
-    "source_event_id": "evt_a2edf9c6a1e243c0b025fbbbb6fc5ec4",
+    "public_event_id": "evt_7ce8db8b737d40c0ba03a4f2425d62f5:2026-04-04",
+    "source_event_id": "evt_7ce8db8b737d40c0ba03a4f2425d62f5",
     "event_date": "2026-04-04",
     "weekday": "土",
     "event_name": "HYPE IDOL!",
@@ -2114,8 +2088,8 @@
     ]
   },
   {
-    "public_event_id": "evt_3285a5d0b8064180906ee07c8eb4a551:2026-04-05",
-    "source_event_id": "evt_3285a5d0b8064180906ee07c8eb4a551",
+    "public_event_id": "evt_0ee0c60295084893b42b7ec8c08fecc2:2026-04-05",
+    "source_event_id": "evt_0ee0c60295084893b42b7ec8c08fecc2",
     "event_date": "2026-04-05",
     "weekday": "日",
     "event_name": "IDOL ∞ INFINITY vol.19",
@@ -2170,8 +2144,8 @@
     ]
   },
   {
-    "public_event_id": "evt_a03d293ab1494169a4fb82595dcc4a65:2026-04-08",
-    "source_event_id": "evt_a03d293ab1494169a4fb82595dcc4a65",
+    "public_event_id": "evt_ace81046c499438ba93768a05eebd3c9:2026-04-08",
+    "source_event_id": "evt_ace81046c499438ba93768a05eebd3c9",
     "event_date": "2026-04-08",
     "weekday": "水",
     "event_name": "明夏",
@@ -2226,8 +2200,8 @@
     ]
   },
   {
-    "public_event_id": "evt_e3e06a651da34b4a8e384092db586732:2026-04-09",
-    "source_event_id": "evt_e3e06a651da34b4a8e384092db586732",
+    "public_event_id": "evt_a79d7d8ae0b24aaa8a17d152a39fd08d:2026-04-09",
+    "source_event_id": "evt_a79d7d8ae0b24aaa8a17d152a39fd08d",
     "event_date": "2026-04-09",
     "weekday": "木",
     "event_name": "KAWAII PARTY",
@@ -2298,8 +2272,8 @@
     ]
   },
   {
-    "public_event_id": "evt_8abf485e42ee4d7482ab11d84b1438da:2026-04-11",
-    "source_event_id": "evt_8abf485e42ee4d7482ab11d84b1438da",
+    "public_event_id": "evt_a83d9c88ecf84385b81d2ce52d37ff43:2026-04-11",
+    "source_event_id": "evt_a83d9c88ecf84385b81d2ce52d37ff43",
     "event_date": "2026-04-11",
     "weekday": "土",
     "event_name": "LEADING",
@@ -2354,11 +2328,11 @@
     ]
   },
   {
-    "public_event_id": "evt_2476e9d918c9410ab66658c996461f1a:2026-04-12",
-    "source_event_id": "evt_2476e9d918c9410ab66658c996461f1a",
+    "public_event_id": "evt_0722590dcdfc47a3b3d7a8b3986b039a:2026-04-12",
+    "source_event_id": "evt_0722590dcdfc47a3b3d7a8b3986b039a",
     "event_date": "2026-04-12",
     "weekday": "日",
-    "event_name": "myojou",
+    "event_name": "はじめまして\"myojou\"です。vol.3",
     "venue": "Viblue EBISU",
     "live_summary": "開演 18:00",
     "ticket_summary": "一般 0円 / 優先 3,500円 / 4/11締切",
@@ -2410,8 +2384,8 @@
     ]
   },
   {
-    "public_event_id": "evt_69e59e58268e47fd8ef82782d0c46802:2026-04-13",
-    "source_event_id": "evt_69e59e58268e47fd8ef82782d0c46802",
+    "public_event_id": "evt_f71c6591ec8341088e1475d2b320fd54:2026-04-13",
+    "source_event_id": "evt_f71c6591ec8341088e1475d2b320fd54",
     "event_date": "2026-04-13",
     "weekday": "月",
     "event_name": "SWEET CIRCUIT 2026",
@@ -2511,8 +2485,64 @@
     ]
   },
   {
-    "public_event_id": "evt_91c31e7ed5e9436084c149e25bbf8dbc:2026-04-15",
-    "source_event_id": "evt_91c31e7ed5e9436084c149e25bbf8dbc",
+    "public_event_id": "evt_87e38e8db57b43cbb9d83d7148f49ced:2026-04-15",
+    "source_event_id": "evt_87e38e8db57b43cbb9d83d7148f49ced",
+    "event_date": "2026-04-15",
+    "weekday": "水",
+    "event_name": "IDOL ∞ INFINITY",
+    "venue": "ヒューリックホール東京",
+    "live_summary": "開演 15:00 / 出演 15:25-15:50 / 特典会 16:00-17:00",
+    "ticket_summary": "先着 / 一般 600円 / 前方 5,600円 / 4/14締切",
+    "application_summary": "先着 3/29 20:00〜4/14 23:59",
+    "ticket_url": "https://t-dv.com/idol_infinity_premium_vol8",
+    "ticket_status": "不明",
+    "needs_review": false,
+    "ticket_application_deadline_at": "2026-04-14T23:59:00+09:00",
+    "payment_deadline_at": "",
+    "ticket_sales": [
+      {
+        "sale_type": "先着",
+        "ticket_name": "前方",
+        "ticket_tier": "前方",
+        "price": 5600,
+        "start_at": "2026-03-29T20:00:00+09:00",
+        "deadline_at": "2026-04-14T23:59:00+09:00",
+        "result_at": "",
+        "payment_deadline_at": "",
+        "status": "不明",
+        "source_url": "https://x.com/info_myojou/status/2037847300035526940",
+        "source_post_id": "2037847300035526940",
+        "notes": "",
+        "is_next_deadline": true
+      },
+      {
+        "sale_type": "先着",
+        "ticket_name": "一般",
+        "ticket_tier": "一般",
+        "price": 600,
+        "start_at": "2026-03-29T20:00:00+09:00",
+        "deadline_at": "2026-04-14T23:59:00+09:00",
+        "result_at": "",
+        "payment_deadline_at": "",
+        "status": "不明",
+        "source_url": "https://x.com/info_myojou/status/2037847300035526940",
+        "source_post_id": "2037847300035526940",
+        "notes": "",
+        "is_next_deadline": false
+      }
+    ],
+    "next_ticket_deadline_at": "2026-04-14T23:59:00+09:00",
+    "next_ticket_sale_type": "先着",
+    "next_ticket_label": "先着 前方",
+    "public_ready": true,
+    "public_not_ready_reasons": [],
+    "review_reasons": [
+      "classification: live post has date and structured event fields"
+    ]
+  },
+  {
+    "public_event_id": "evt_c1792dde72e14d46ae5a68a5fde67b3e:2026-04-15",
+    "source_event_id": "evt_c1792dde72e14d46ae5a68a5fde67b3e",
     "event_date": "2026-04-15",
     "weekday": "水",
     "event_name": "定期公演「明星月報",
@@ -2552,8 +2582,8 @@
     ]
   },
   {
-    "public_event_id": "evt_7faf2711590a4b26ab4ddbf67e3614a8:2026-04-18",
-    "source_event_id": "evt_7faf2711590a4b26ab4ddbf67e3614a8",
+    "public_event_id": "evt_c7d2d2ebe98f4fa391b3215821512dd3:2026-04-18",
+    "source_event_id": "evt_c7d2d2ebe98f4fa391b3215821512dd3",
     "event_date": "2026-04-18",
     "weekday": "土",
     "event_name": "ステージ配信決定!",
@@ -2609,8 +2639,8 @@
     ]
   },
   {
-    "public_event_id": "evt_4cc53765dc134d82bfbab948956953b7:2026-04-19",
-    "source_event_id": "evt_4cc53765dc134d82bfbab948956953b7",
+    "public_event_id": "evt_b1ed6cff7ac64dabb896200822163e37:2026-04-19",
+    "source_event_id": "evt_b1ed6cff7ac64dabb896200822163e37",
     "event_date": "2026-04-19",
     "weekday": "日",
     "event_name": "IDOL STORM",
@@ -2680,11 +2710,52 @@
     ]
   },
   {
-    "public_event_id": "evt_bbbbcdda63fb4023b22fecca4411a137:2026-04-22",
-    "source_event_id": "evt_bbbbcdda63fb4023b22fecca4411a137",
+    "public_event_id": "evt_38a5fbcd23fb42c3ad6c4053f5bd20b5:2026-04-20",
+    "source_event_id": "evt_38a5fbcd23fb42c3ad6c4053f5bd20b5",
+    "event_date": "2026-04-20",
+    "weekday": "月",
+    "event_name": "myojou主催対バン",
+    "venue": "WOMB LIVE",
+    "live_summary": "開演 17:30 / 出演 17:30-17:50 / 特典会 18:00-19:00",
+    "ticket_summary": "一般 2,000円 / 4/19締切",
+    "application_summary": "一般販売 4/10 20:00〜4/19 23:59",
+    "ticket_url": "http://t-dv.com/asterism_vol01",
+    "ticket_status": "不明",
+    "needs_review": false,
+    "ticket_application_deadline_at": "2026-04-19T23:59:00+09:00",
+    "payment_deadline_at": "",
+    "ticket_sales": [
+      {
+        "sale_type": "一般",
+        "ticket_name": "一般",
+        "ticket_tier": "一般",
+        "price": 2000,
+        "start_at": "2026-04-10T20:00:00+09:00",
+        "deadline_at": "2026-04-19T23:59:00+09:00",
+        "result_at": "",
+        "payment_deadline_at": "",
+        "status": "不明",
+        "source_url": "https://x.com/info_myojou/status/2043675574346953203",
+        "source_post_id": "2043675574346953203",
+        "notes": "",
+        "is_next_deadline": true
+      }
+    ],
+    "next_ticket_deadline_at": "2026-04-19T23:59:00+09:00",
+    "next_ticket_sale_type": "一般",
+    "next_ticket_label": "一般",
+    "public_ready": true,
+    "public_not_ready_reasons": [],
+    "review_reasons": [
+      "classification: live post has date and structured event fields"
+    ]
+  },
+  {
+    "public_event_id": "evt_5a8c5135e7804465aabb89225a8b0c03:2026-04-22",
+    "source_event_id": "evt_5a8c5135e7804465aabb89225a8b0c03",
     "event_date": "2026-04-22",
     "weekday": "水",
-    "event_name": "シュルレアリスム Vol.3",
+    "event_name": "hakanai主催",
     "venue": "下北沢シャングリラ",
     "live_summary": "開演 17:30 / 出演 19:00-19:30 / 特典会 20:30",
     "ticket_summary": "一般 2,500円 / 優先 3,500円",
@@ -2737,8 +2808,8 @@
     ]
   },
   {
-    "public_event_id": "evt_628136ac0c8f4e7abac95568b9526ce3:2026-04-24",
-    "source_event_id": "evt_628136ac0c8f4e7abac95568b9526ce3",
+    "public_event_id": "evt_5855616c99704791ac804e3e172cdafa:2026-04-24",
+    "source_event_id": "evt_5855616c99704791ac804e3e172cdafa",
     "event_date": "2026-04-24",
     "weekday": "金",
     "event_name": "PLEASURE TIME",
@@ -2808,8 +2879,8 @@
     ]
   },
   {
-    "public_event_id": "evt_24b7454ab4494f1aba4821b0a0af19a9:2026-04-25",
-    "source_event_id": "evt_24b7454ab4494f1aba4821b0a0af19a9",
+    "public_event_id": "evt_cf17341cba8a4f6787b3b09d982289d7:2026-04-25",
+    "source_event_id": "evt_cf17341cba8a4f6787b3b09d982289d7",
     "event_date": "2026-04-25",
     "weekday": "土",
     "event_name": "Neat Meets vol.18 -PREMIUM",
@@ -2894,8 +2965,8 @@
     ]
   },
   {
-    "public_event_id": "evt_b9be4df7168346cb8959343c9fecc9cc:2026-04-29",
-    "source_event_id": "evt_b9be4df7168346cb8959343c9fecc9cc",
+    "public_event_id": "evt_81d4e0f7880a4bd38f7ef48095a12ec1:2026-04-29",
+    "source_event_id": "evt_81d4e0f7880a4bd38f7ef48095a12ec1",
     "event_date": "2026-04-29",
     "weekday": "水",
     "event_name": "公開レッスン",
@@ -2919,8 +2990,8 @@
     ]
   },
   {
-    "public_event_id": "evt_429475b26d8a45fbaf030ed66d6c07b1:2026-05-02",
-    "source_event_id": "evt_429475b26d8a45fbaf030ed66d6c07b1",
+    "public_event_id": "evt_5a28f2f4309c4bdf8413a57964188b5c:2026-05-02",
+    "source_event_id": "evt_5a28f2f4309c4bdf8413a57964188b5c",
     "event_date": "2026-05-02",
     "weekday": "土",
     "event_name": "IDOL SUMMER JUNGLE GOLDEN",
@@ -3005,8 +3076,8 @@
     ]
   },
   {
-    "public_event_id": "evt_429475b26d8a45fbaf030ed66d6c07b1:2026-05-03",
-    "source_event_id": "evt_429475b26d8a45fbaf030ed66d6c07b1",
+    "public_event_id": "evt_5a28f2f4309c4bdf8413a57964188b5c:2026-05-03",
+    "source_event_id": "evt_5a28f2f4309c4bdf8413a57964188b5c",
     "event_date": "2026-05-03",
     "weekday": "日",
     "event_name": "IDOL SUMMER JUNGLE GOLDEN",
@@ -3091,8 +3162,8 @@
     ]
   },
   {
-    "public_event_id": "evt_25b14b549e3746c4ad1f2b746f32da87:2026-05-04",
-    "source_event_id": "evt_25b14b549e3746c4ad1f2b746f32da87",
+    "public_event_id": "evt_251de6bd1eec4fa2ac575ddd762353d1:2026-05-04",
+    "source_event_id": "evt_251de6bd1eec4fa2ac575ddd762353d1",
     "event_date": "2026-05-04",
     "weekday": "月",
     "event_name": "歌舞伎町UP GATE↑↑2026",
@@ -3117,11 +3188,11 @@
     ]
   },
   {
-    "public_event_id": "evt_76bdd36cd43a433aa79a2f307ef6938b:2026-05-05",
-    "source_event_id": "evt_76bdd36cd43a433aa79a2f307ef6938b",
+    "public_event_id": "evt_9b1c98aab22e4f31923d210b8eba9861:2026-05-05",
+    "source_event_id": "evt_9b1c98aab22e4f31923d210b8eba9861",
     "event_date": "2026-05-05",
     "weekday": "火",
-    "event_name": "KASSEN",
+    "event_name": "NEO JAPONISM主催公演",
     "venue": "GARDEN新木場FACTORY",
     "live_summary": "出演 10:10-10:35 / 特典会 10:45-11:55",
     "ticket_summary": "抽選あり・一般販売あり / 一般 4,000円 / SSEN\"-GW SP 8,500円",
@@ -3203,11 +3274,11 @@
     ]
   },
   {
-    "public_event_id": "evt_b0afe99a303a4713837d69ac62795a92:2026-05-05",
-    "source_event_id": "evt_b0afe99a303a4713837d69ac62795a92",
+    "public_event_id": "evt_fc52305e55ca4addb5c804d2758befeb:2026-05-05",
+    "source_event_id": "evt_fc52305e55ca4addb5c804d2758befeb",
     "event_date": "2026-05-05",
     "weekday": "火",
-    "event_name": "アンスぱーく大!無!銭!祭!",
+    "event_name": "WELCOME TO アンスリューム",
     "venue": "品川インターシティホール",
     "live_summary": "開演 10:30 / 出演 17:15-17:35 / 特典会 17:45-18:55",
     "ticket_summary": "抽選 / 一般 0円 / 前方 5,500円 / 一般チケット 無料",
@@ -3289,8 +3360,8 @@
     ]
   },
   {
-    "public_event_id": "evt_f0727a539bd24605b05db1c93c94672e:2026-05-06",
-    "source_event_id": "evt_f0727a539bd24605b05db1c93c94672e",
+    "public_event_id": "evt_894aacfd872e4a88b40a1bc767bd6190:2026-05-06",
+    "source_event_id": "evt_894aacfd872e4a88b40a1bc767bd6190",
     "event_date": "2026-05-06",
     "weekday": "水",
     "event_name": "SUMMER GATE",
@@ -3331,8 +3402,8 @@
     ]
   },
   {
-    "public_event_id": "evt_1025e687357042f4bc8184c37b300eae:2026-05-09",
-    "source_event_id": "evt_1025e687357042f4bc8184c37b300eae",
+    "public_event_id": "evt_a67081cf4d5744fda7618962da41565f:2026-05-09",
+    "source_event_id": "evt_a67081cf4d5744fda7618962da41565f",
     "event_date": "2026-05-09",
     "weekday": "土",
     "event_name": "HYPE IDOL!",
@@ -3417,11 +3488,11 @@
     ]
   },
   {
-    "public_event_id": "evt_4053dd18230245909f65cd12e14a9089:2026-05-10",
-    "source_event_id": "evt_4053dd18230245909f65cd12e14a9089",
+    "public_event_id": "evt_a4fa768473564b09a1a889f93c501886:2026-05-10",
+    "source_event_id": "evt_a4fa768473564b09a1a889f93c501886",
     "event_date": "2026-05-10",
     "weekday": "日",
-    "event_name": "myojou",
+    "event_name": "はじめまして\"myojou\"です。Vol.4 - miu birthday SP -",
     "venue": "Viblue EBISU",
     "live_summary": "開演 18:00",
     "ticket_summary": "一般 0円 / 優先 3,500円 / 5/9締切",
@@ -3473,8 +3544,64 @@
     ]
   },
   {
-    "public_event_id": "evt_95d7983ed21342edbc4aaeb5cf8a1ae7:2026-05-12",
-    "source_event_id": "evt_95d7983ed21342edbc4aaeb5cf8a1ae7",
+    "public_event_id": "evt_6e459dbc6b2a4d59ae7085a828dc7a59:2026-05-11",
+    "source_event_id": "evt_6e459dbc6b2a4d59ae7085a828dc7a59",
+    "event_date": "2026-05-11",
+    "weekday": "月",
+    "event_name": "IDOL INFINITE PREMIUM vol.09",
+    "venue": "Spotify O-nest",
+    "live_summary": "開演 19:40 / 出演 20:05-20:30 / 特典会 21:00-22:00",
+    "ticket_summary": "一般 2,000円 / 前方 4,000円 / 5/10締切",
+    "application_summary": "一般販売 4/26 20:00〜5/10 23:59",
+    "ticket_url": "https://ticketdive.com/event/idol_infinity_premium_vol9",
+    "ticket_status": "不明",
+    "needs_review": false,
+    "ticket_application_deadline_at": "2026-05-10T23:59:00+09:00",
+    "payment_deadline_at": "",
+    "ticket_sales": [
+      {
+        "sale_type": "一般",
+        "ticket_name": "前方",
+        "ticket_tier": "前方",
+        "price": 4000,
+        "start_at": "2026-04-26T20:00:00+09:00",
+        "deadline_at": "2026-05-10T23:59:00+09:00",
+        "result_at": "",
+        "payment_deadline_at": "",
+        "status": "不明",
+        "source_url": "https://x.com/info_myojou/status/2048016860084584595",
+        "source_post_id": "2048016860084584595",
+        "notes": "",
+        "is_next_deadline": true
+      },
+      {
+        "sale_type": "一般",
+        "ticket_name": "一般",
+        "ticket_tier": "一般",
+        "price": 2000,
+        "start_at": "2026-04-26T20:00:00+09:00",
+        "deadline_at": "2026-05-10T23:59:00+09:00",
+        "result_at": "",
+        "payment_deadline_at": "",
+        "status": "不明",
+        "source_url": "https://x.com/info_myojou/status/2048016860084584595",
+        "source_post_id": "2048016860084584595",
+        "notes": "",
+        "is_next_deadline": false
+      }
+    ],
+    "next_ticket_deadline_at": "2026-05-10T23:59:00+09:00",
+    "next_ticket_sale_type": "一般",
+    "next_ticket_label": "一般 前方",
+    "public_ready": true,
+    "public_not_ready_reasons": [],
+    "review_reasons": [
+      "classification: live post has date and structured event fields"
+    ]
+  },
+  {
+    "public_event_id": "evt_1a41206cc296493a879211cb5efaec74:2026-05-12",
+    "source_event_id": "evt_1a41206cc296493a879211cb5efaec74",
     "event_date": "2026-05-12",
     "weekday": "火",
     "event_name": "KYUN-FES TOKYO vol.2",
@@ -3544,8 +3671,8 @@
     ]
   },
   {
-    "public_event_id": "evt_ac57b41a43414211875b9aff59a5b21d:2026-05-13",
-    "source_event_id": "evt_ac57b41a43414211875b9aff59a5b21d",
+    "public_event_id": "evt_2d609b6019d24c32b1f1d99e70f346aa:2026-05-13",
+    "source_event_id": "evt_2d609b6019d24c32b1f1d99e70f346aa",
     "event_date": "2026-05-13",
     "weekday": "水",
     "event_name": "定期公演「明星月報",
@@ -3585,8 +3712,8 @@
     ]
   },
   {
-    "public_event_id": "evt_66358b0b1121411f98a0e11cd12ebdc9:2026-05-15",
-    "source_event_id": "evt_66358b0b1121411f98a0e11cd12ebdc9",
+    "public_event_id": "evt_e8b6822dbebd411dba0a1658f38179b5:2026-05-15",
+    "source_event_id": "evt_e8b6822dbebd411dba0a1658f38179b5",
     "event_date": "2026-05-15",
     "weekday": "金",
     "event_name": "RE:PLAY vol.9",
@@ -3641,68 +3768,11 @@
     ]
   },
   {
-    "public_event_id": "evt_78bb7ef42b214c68a3465337dc8d5189:2026-05-16",
-    "source_event_id": "evt_78bb7ef42b214c68a3465337dc8d5189",
+    "public_event_id": "evt_d4aed09b7beb49378d4d6fdfa44a7f5e:2026-05-16",
+    "source_event_id": "evt_d4aed09b7beb49378d4d6fdfa44a7f5e",
     "event_date": "2026-05-16",
     "weekday": "土",
-    "event_name": "SODA SCRAMBLE",
-    "venue": "下北沢シャングリラ",
-    "live_summary": "開演 17:00",
-    "ticket_summary": "一般 5,000円 / 前方 5,000円",
-    "application_summary": "未取得",
-    "ticket_url": "https://t-dv.com/SODASCRAMBLE",
-    "ticket_status": "不明",
-    "needs_review": false,
-    "ticket_application_deadline_at": "",
-    "payment_deadline_at": "",
-    "ticket_sales": [
-      {
-        "sale_type": "一般",
-        "ticket_name": "前方",
-        "ticket_tier": "前方",
-        "price": 5000,
-        "start_at": "",
-        "deadline_at": "",
-        "result_at": "",
-        "payment_deadline_at": "",
-        "status": "不明",
-        "source_url": "https://x.com/info_myojou/status/2047963836041584798",
-        "source_post_id": "2047963836041584798",
-        "notes": "",
-        "is_next_deadline": false
-      },
-      {
-        "sale_type": "一般",
-        "ticket_name": "一般",
-        "ticket_tier": "一般",
-        "price": 2000,
-        "start_at": "",
-        "deadline_at": "",
-        "result_at": "",
-        "payment_deadline_at": "",
-        "status": "不明",
-        "source_url": "https://x.com/info_myojou/status/2047963836041584798",
-        "source_post_id": "2047963836041584798",
-        "notes": "",
-        "is_next_deadline": false
-      }
-    ],
-    "next_ticket_deadline_at": "",
-    "next_ticket_sale_type": "不明",
-    "next_ticket_label": "",
-    "public_ready": true,
-    "public_not_ready_reasons": [],
-    "review_reasons": [
-      "missing ticket deadline",
-      "classification: live post has date and structured event fields"
-    ]
-  },
-  {
-    "public_event_id": "evt_2c6521df984a457b9ddd3840a1c24329:2026-05-16",
-    "source_event_id": "evt_2c6521df984a457b9ddd3840a1c24329",
-    "event_date": "2026-05-16",
-    "weekday": "土",
-    "event_name": "アイドル甲子園",
+    "event_name": "in 品川インターシティホール\nsupported by My-th -DAY1",
     "venue": "品川インターシティホール",
     "live_summary": "開演 09:30 / 出演 14:50-15:15 / 特典会 15:35-16:55",
     "ticket_summary": "前方 8,500円 / 一般 3,500円 / 当日各+1,000円",
@@ -3769,8 +3839,65 @@
     ]
   },
   {
-    "public_event_id": "evt_bb68911714524bf4ad202cd47a92a6eb:2026-05-17",
-    "source_event_id": "evt_bb68911714524bf4ad202cd47a92a6eb",
+    "public_event_id": "evt_4e35d17d555648e49a7f96eec1cf838e:2026-05-16",
+    "source_event_id": "evt_4e35d17d555648e49a7f96eec1cf838e",
+    "event_date": "2026-05-16",
+    "weekday": "土",
+    "event_name": "月とソーダ主催",
+    "venue": "下北沢シャングリラ",
+    "live_summary": "開演 17:00",
+    "ticket_summary": "一般 5,000円 / 前方 5,000円",
+    "application_summary": "未取得",
+    "ticket_url": "https://t-dv.com/SODASCRAMBLE",
+    "ticket_status": "不明",
+    "needs_review": false,
+    "ticket_application_deadline_at": "",
+    "payment_deadline_at": "",
+    "ticket_sales": [
+      {
+        "sale_type": "一般",
+        "ticket_name": "前方",
+        "ticket_tier": "前方",
+        "price": 5000,
+        "start_at": "",
+        "deadline_at": "",
+        "result_at": "",
+        "payment_deadline_at": "",
+        "status": "不明",
+        "source_url": "https://x.com/info_myojou/status/2047963836041584798",
+        "source_post_id": "2047963836041584798",
+        "notes": "",
+        "is_next_deadline": false
+      },
+      {
+        "sale_type": "一般",
+        "ticket_name": "一般",
+        "ticket_tier": "一般",
+        "price": 2000,
+        "start_at": "",
+        "deadline_at": "",
+        "result_at": "",
+        "payment_deadline_at": "",
+        "status": "不明",
+        "source_url": "https://x.com/info_myojou/status/2047963836041584798",
+        "source_post_id": "2047963836041584798",
+        "notes": "",
+        "is_next_deadline": false
+      }
+    ],
+    "next_ticket_deadline_at": "",
+    "next_ticket_sale_type": "不明",
+    "next_ticket_label": "",
+    "public_ready": true,
+    "public_not_ready_reasons": [],
+    "review_reasons": [
+      "missing ticket deadline",
+      "classification: live post has date and structured event fields"
+    ]
+  },
+  {
+    "public_event_id": "evt_901156314dcd4744b843a7f0d8cc91fc:2026-05-17",
+    "source_event_id": "evt_901156314dcd4744b843a7f0d8cc91fc",
     "event_date": "2026-05-17",
     "weekday": "日",
     "event_name": "IDOL STORM",
@@ -3855,78 +3982,11 @@
     ]
   },
   {
-    "public_event_id": "evt_afeec51297f34c1996e3e2f81b4bd32e:2026-05-20",
-    "source_event_id": "evt_afeec51297f34c1996e3e2f81b4bd32e",
-    "event_date": "2026-05-20",
-    "weekday": "水",
-    "event_name": "争奪LIVE 前哨戦 緊急決起集会",
-    "venue": "GARDEN 新木場FACTORY",
-    "live_summary": "開演 18:00",
-    "ticket_summary": "一般 4,900円 / 完売",
-    "application_summary": "一般販売 5/20 10:00〜",
-    "ticket_url": "https://tiget.net/events/483845",
-    "ticket_status": "完売",
-    "needs_review": false,
-    "ticket_application_deadline_at": "",
-    "payment_deadline_at": "",
-    "ticket_sales": [
-      {
-        "sale_type": "一般",
-        "ticket_name": "一般",
-        "ticket_tier": "一般",
-        "price": 4900,
-        "start_at": "2026-05-20T10:00:00+09:00",
-        "deadline_at": "",
-        "result_at": "",
-        "payment_deadline_at": "",
-        "status": "完売",
-        "source_url": "https://x.com/info_myojou/status/2056715408615338206",
-        "source_post_id": "2056715408615338206",
-        "notes": "",
-        "is_next_deadline": true
-      }
-    ],
-    "next_ticket_deadline_at": "",
-    "next_ticket_sale_type": "一般",
-    "next_ticket_label": "一般",
-    "public_ready": true,
-    "public_not_ready_reasons": [],
-    "review_reasons": [
-      "classification: live post has date and structured event fields"
-    ]
-  },
-  {
-    "public_event_id": "evt_1eb9881206554f9abce09e0f72b3ba54:2026-05-23",
-    "source_event_id": "evt_1eb9881206554f9abce09e0f72b3ba54",
+    "public_event_id": "evt_363338d04ee4467593f0fb28f76de25e:2026-05-23",
+    "source_event_id": "evt_363338d04ee4467593f0fb28f76de25e",
     "event_date": "2026-05-23",
     "weekday": "土",
-    "event_name": "ミスGIRLS GIRLS コンテスト2026",
-    "venue": "さがみ湖MORI MORI",
-    "live_summary": "",
-    "ticket_summary": "不明 / 不明",
-    "application_summary": "未取得",
-    "ticket_url": "https://tiget.net/events/491736",
-    "ticket_status": "不明",
-    "needs_review": false,
-    "ticket_application_deadline_at": "",
-    "payment_deadline_at": "",
-    "ticket_sales": [],
-    "next_ticket_deadline_at": "",
-    "next_ticket_sale_type": "不明",
-    "next_ticket_label": "",
-    "public_ready": true,
-    "public_not_ready_reasons": [],
-    "review_reasons": [
-      "missing ticket deadline",
-      "classification: live post has date and structured event fields"
-    ]
-  },
-  {
-    "public_event_id": "evt_1a2db6142b9040c6b553d50cc9ace59e:2026-05-23",
-    "source_event_id": "evt_1a2db6142b9040c6b553d50cc9ace59e",
-    "event_date": "2026-05-23",
-    "weekday": "土",
-    "event_name": "超激レア",
+    "event_name": "GIRLS GIRLS FESTIVAL 2026",
     "venue": "さがみ湖MORI MORI",
     "live_summary": "開演 10:00 / 出演 15:20-15:40 / 特典会 16:00-17:20",
     "ticket_summary": "VIP 16,000円 / 一般 6,600円 / 当日各+1,500円",
@@ -4024,10 +4084,10 @@
     ]
   },
   {
-    "public_event_id": "evt_1eb9881206554f9abce09e0f72b3ba54:2026-05-24",
-    "source_event_id": "evt_1eb9881206554f9abce09e0f72b3ba54",
-    "event_date": "2026-05-24",
-    "weekday": "日",
+    "public_event_id": "evt_724cee3cc4724b7d89fd03c912d0795d:2026-05-23",
+    "source_event_id": "evt_724cee3cc4724b7d89fd03c912d0795d",
+    "event_date": "2026-05-23",
+    "weekday": "土",
     "event_name": "ミスGIRLS GIRLS コンテスト2026",
     "venue": "さがみ湖MORI MORI",
     "live_summary": "",
@@ -4050,11 +4110,11 @@
     ]
   },
   {
-    "public_event_id": "evt_1a2db6142b9040c6b553d50cc9ace59e:2026-05-24",
-    "source_event_id": "evt_1a2db6142b9040c6b553d50cc9ace59e",
+    "public_event_id": "evt_363338d04ee4467593f0fb28f76de25e:2026-05-24",
+    "source_event_id": "evt_363338d04ee4467593f0fb28f76de25e",
     "event_date": "2026-05-24",
     "weekday": "日",
-    "event_name": "超激レア",
+    "event_name": "GIRLS GIRLS FESTIVAL 2026",
     "venue": "さがみ湖MORI MORI",
     "live_summary": "開演 10:00 / 出演 15:20-15:40 / 特典会 16:00-17:20",
     "ticket_summary": "VIP 16,000円 / 一般 6,600円 / 当日各+1,500円",
@@ -4152,8 +4212,34 @@
     ]
   },
   {
-    "public_event_id": "evt_85e0803a28ec49bb8912b9a3dac0cf2d:2026-05-25",
-    "source_event_id": "evt_85e0803a28ec49bb8912b9a3dac0cf2d",
+    "public_event_id": "evt_724cee3cc4724b7d89fd03c912d0795d:2026-05-24",
+    "source_event_id": "evt_724cee3cc4724b7d89fd03c912d0795d",
+    "event_date": "2026-05-24",
+    "weekday": "日",
+    "event_name": "ミスGIRLS GIRLS コンテスト2026",
+    "venue": "さがみ湖MORI MORI",
+    "live_summary": "",
+    "ticket_summary": "不明 / 不明",
+    "application_summary": "未取得",
+    "ticket_url": "https://tiget.net/events/491736",
+    "ticket_status": "不明",
+    "needs_review": false,
+    "ticket_application_deadline_at": "",
+    "payment_deadline_at": "",
+    "ticket_sales": [],
+    "next_ticket_deadline_at": "",
+    "next_ticket_sale_type": "不明",
+    "next_ticket_label": "",
+    "public_ready": true,
+    "public_not_ready_reasons": [],
+    "review_reasons": [
+      "missing ticket deadline",
+      "classification: live post has date and structured event fields"
+    ]
+  },
+  {
+    "public_event_id": "evt_9b7616f5f87d4724be88a3623bf04ec3:2026-05-25",
+    "source_event_id": "evt_9b7616f5f87d4724be88a3623bf04ec3",
     "event_date": "2026-05-25",
     "weekday": "月",
     "event_name": "うるトラすフェスタvol.43",
@@ -4238,8 +4324,8 @@
     ]
   },
   {
-    "public_event_id": "evt_28bf61641a70448b93e5d6c1e25ed1c0:2026-05-28",
-    "source_event_id": "evt_28bf61641a70448b93e5d6c1e25ed1c0",
+    "public_event_id": "evt_1abd567994f344519e09696db508a54f:2026-05-28",
+    "source_event_id": "evt_1abd567994f344519e09696db508a54f",
     "event_date": "2026-05-28",
     "weekday": "木",
     "event_name": "PLEASURE TIME",
@@ -4295,8 +4381,8 @@
     ]
   },
   {
-    "public_event_id": "evt_558c8b1d20304ee3b84ad008e8364771:2026-05-30",
-    "source_event_id": "evt_558c8b1d20304ee3b84ad008e8364771",
+    "public_event_id": "evt_f19b06b556104dea9855b050ad6b72bc:2026-05-30",
+    "source_event_id": "evt_f19b06b556104dea9855b050ad6b72bc",
     "event_date": "2026-05-30",
     "weekday": "土",
     "event_name": "アイドル甲子園",
@@ -4366,19 +4452,19 @@
     ]
   },
   {
-    "public_event_id": "evt_9e0dc84fac664492a09e0987ad312db5:2026-05-31",
-    "source_event_id": "evt_9e0dc84fac664492a09e0987ad312db5",
+    "public_event_id": "evt_2bcdeb598fd64dd187e363887838b3c8:2026-05-31",
+    "source_event_id": "evt_2bcdeb598fd64dd187e363887838b3c8",
     "event_date": "2026-05-31",
     "weekday": "日",
-    "event_name": "myojou Summer",
-    "venue": "恵比寿CreAto、渋谷チェルシーホテル、渋谷音楽堂、WOMB LIVE",
+    "event_name": "myojou Summer Vol.01",
+    "venue": "恵比寿CreAto",
     "live_summary": "開演 12:00",
-    "ticket_summary": "一般 0円 / 優先 6,000円",
-    "application_summary": "一般販売 5/31 00:00〜",
-    "ticket_url": "https://t-dv.com/myojou_0531",
+    "ticket_summary": "一般 0円 / 優先 6,000円 / 5/30締切",
+    "application_summary": "一般販売 4/29 22:00〜5/30 23:59 / 一般販売 5/31 00:00〜",
+    "ticket_url": "http://t-dv.com/myojou_0531",
     "ticket_status": "不明",
     "needs_review": false,
-    "ticket_application_deadline_at": "",
+    "ticket_application_deadline_at": "2026-05-30T23:59:00+09:00",
     "payment_deadline_at": "",
     "ticket_sales": [
       {
@@ -4390,39 +4476,12 @@
         "deadline_at": "",
         "result_at": "",
         "payment_deadline_at": "",
-        "status": "不明",
-        "source_url": "https://x.com/info_myojou/status/2049054347984777330",
-        "source_post_id": "2049054347984777330",
+        "status": "完売",
+        "source_url": "https://x.com/info_myojou/status/2060690761990209992",
+        "source_post_id": "2060690761990209992",
         "notes": "",
-        "is_next_deadline": true
-      }
-    ],
-    "next_ticket_deadline_at": "",
-    "next_ticket_sale_type": "一般",
-    "next_ticket_label": "一般",
-    "public_ready": true,
-    "public_not_ready_reasons": [],
-    "review_reasons": [
-      "missing ticket deadline",
-      "classification: live post has date and structured event fields"
-    ]
-  },
-  {
-    "public_event_id": "evt_d54d3f7af9ea4621b9b0ff4728021710:2026-05-31",
-    "source_event_id": "evt_d54d3f7af9ea4621b9b0ff4728021710",
-    "event_date": "2026-05-31",
-    "weekday": "日",
-    "event_name": "myojou Summer Vol.01",
-    "venue": "恵比寿CreAto",
-    "live_summary": "開演 12:00",
-    "ticket_summary": "一般 0円 / 優先 6,000円 / 5/30締切",
-    "application_summary": "一般販売 4/29 22:00〜5/30 23:59",
-    "ticket_url": "http://t-dv.com/myojou_0531",
-    "ticket_status": "不明",
-    "needs_review": false,
-    "ticket_application_deadline_at": "2026-05-30T23:59:00+09:00",
-    "payment_deadline_at": "",
-    "ticket_sales": [
+        "is_next_deadline": false
+      },
       {
         "sale_type": "一般",
         "ticket_name": "優先",
@@ -4447,9 +4506,9 @@
         "deadline_at": "2026-05-30T23:59:00+09:00",
         "result_at": "",
         "payment_deadline_at": "",
-        "status": "完売",
-        "source_url": "https://x.com/info_myojou/status/2060690761990209992",
-        "source_post_id": "2060690761990209992",
+        "status": "不明",
+        "source_url": "https://x.com/info_myojou/status/2049458698377207928",
+        "source_post_id": "2049458698377207928",
         "notes": "",
         "is_next_deadline": false
       }
@@ -4464,8 +4523,8 @@
     ]
   },
   {
-    "public_event_id": "evt_7433b0b0a1c84fe88dcd91452257d7a3:2026-06-03",
-    "source_event_id": "evt_7433b0b0a1c84fe88dcd91452257d7a3",
+    "public_event_id": "evt_b5f9422aaed948b78158e6d13526c5ea:2026-06-03",
+    "source_event_id": "evt_b5f9422aaed948b78158e6d13526c5ea",
     "event_date": "2026-06-03",
     "weekday": "水",
     "event_name": "MIX BOX vol.10",
@@ -4550,8 +4609,8 @@
     ]
   },
   {
-    "public_event_id": "evt_0559b87c959447259e5ce3b5eab057bd:2026-06-03",
-    "source_event_id": "evt_0559b87c959447259e5ce3b5eab057bd",
+    "public_event_id": "evt_19e1b0618a664a6b9a9964c0ffe62a32:2026-06-03",
+    "source_event_id": "evt_19e1b0618a664a6b9a9964c0ffe62a32",
     "event_date": "2026-06-03",
     "weekday": "水",
     "event_name": "idoLove You♫-On Stage QR-vol.1",
@@ -4666,8 +4725,8 @@
     ]
   },
   {
-    "public_event_id": "evt_05c8512a7bfd4060b7f8c284b7c0277e:2026-06-04",
-    "source_event_id": "evt_05c8512a7bfd4060b7f8c284b7c0277e",
+    "public_event_id": "evt_b75eb8850e4d4f34b7df228023959820:2026-06-04",
+    "source_event_id": "evt_b75eb8850e4d4f34b7df228023959820",
     "event_date": "2026-06-04",
     "weekday": "木",
     "event_name": "HYPE IDOL! DX",
@@ -4782,8 +4841,8 @@
     ]
   },
   {
-    "public_event_id": "evt_1c8648a5915e4f7587d42a0d7d55eb10:2026-06-04",
-    "source_event_id": "evt_1c8648a5915e4f7587d42a0d7d55eb10",
+    "public_event_id": "evt_8c8985e9f2f04635a0b2390214add84d:2026-06-04",
+    "source_event_id": "evt_8c8985e9f2f04635a0b2390214add84d",
     "event_date": "2026-06-04",
     "weekday": "木",
     "event_name": "SUMMER BEAT Vol.01",
@@ -4838,8 +4897,8 @@
     ]
   },
   {
-    "public_event_id": "evt_928bc90df4f340038bb22592f2ec65d6:2026-06-06",
-    "source_event_id": "evt_928bc90df4f340038bb22592f2ec65d6",
+    "public_event_id": "evt_59aa76a1f54244b68246014429e53416:2026-06-06",
+    "source_event_id": "evt_59aa76a1f54244b68246014429e53416",
     "event_date": "2026-06-06",
     "weekday": "土",
     "event_name": "導花閃",
@@ -4895,36 +4954,21 @@
     ]
   },
   {
-    "public_event_id": "evt_92dd18d0b3fd4196b09ff77fbcd3bcf9:2026-06-07",
-    "source_event_id": "evt_92dd18d0b3fd4196b09ff77fbcd3bcf9",
+    "public_event_id": "evt_39b21faac6d24346927321c3c1230a50:2026-06-07",
+    "source_event_id": "evt_39b21faac6d24346927321c3c1230a50",
     "event_date": "2026-06-07",
     "weekday": "日",
     "event_name": "TIF2026メインステージ争奪LIVE 前哨戦",
     "venue": "GARDEN 新木場FACTORY",
     "live_summary": "開演 18:00",
-    "ticket_summary": "抽選あり・一般販売あり / 一般 4,900円 / 完売",
-    "application_summary": "抽選 4/28 12:00〜5/10 23:59 / 一般販売 5/20 10:00〜5/10 23:59",
+    "ticket_summary": "抽選 / 一般 4,900円 / 5/10締切 / 完売",
+    "application_summary": "抽選 4/28 12:00〜5/10 23:59",
     "ticket_url": "http://tiget.net/events/483845",
     "ticket_status": "完売",
     "needs_review": false,
     "ticket_application_deadline_at": "2026-05-10T23:59:00+09:00",
     "payment_deadline_at": "",
     "ticket_sales": [
-      {
-        "sale_type": "一般",
-        "ticket_name": "一般",
-        "ticket_tier": "一般",
-        "price": 4900,
-        "start_at": "2026-05-20T10:00:00+09:00",
-        "deadline_at": "2026-05-10T23:59:00+09:00",
-        "result_at": "",
-        "payment_deadline_at": "",
-        "status": "完売",
-        "source_url": "https://x.com/info_myojou/status/2056888480622624777",
-        "source_post_id": "2056888480622624777",
-        "notes": "",
-        "is_next_deadline": false
-      },
       {
         "sale_type": "抽選",
         "ticket_name": "一般",
@@ -4951,100 +4995,18 @@
     ]
   },
   {
-    "public_event_id": "evt_afeec51297f34c1996e3e2f81b4bd32e:2026-06-07",
-    "source_event_id": "evt_afeec51297f34c1996e3e2f81b4bd32e",
-    "event_date": "2026-06-07",
-    "weekday": "日",
-    "event_name": "争奪LIVE 前哨戦 緊急決起集会",
-    "venue": "GARDEN 新木場FACTORY",
-    "live_summary": "開演 18:00",
-    "ticket_summary": "一般 4,900円 / 完売",
-    "application_summary": "一般販売 5/20 10:00〜",
-    "ticket_url": "https://tiget.net/events/483845",
-    "ticket_status": "完売",
-    "needs_review": false,
-    "ticket_application_deadline_at": "",
-    "payment_deadline_at": "",
-    "ticket_sales": [
-      {
-        "sale_type": "一般",
-        "ticket_name": "一般",
-        "ticket_tier": "一般",
-        "price": 4900,
-        "start_at": "2026-05-20T10:00:00+09:00",
-        "deadline_at": "",
-        "result_at": "",
-        "payment_deadline_at": "",
-        "status": "完売",
-        "source_url": "https://x.com/info_myojou/status/2056715408615338206",
-        "source_post_id": "2056715408615338206",
-        "notes": "",
-        "is_next_deadline": true
-      }
-    ],
-    "next_ticket_deadline_at": "",
-    "next_ticket_sale_type": "一般",
-    "next_ticket_label": "一般",
-    "public_ready": true,
-    "public_not_ready_reasons": [],
-    "review_reasons": [
-      "classification: live post has date and structured event fields"
-    ]
-  },
-  {
-    "public_event_id": "evt_663a14da9ee74d9c8663809fc712b519:2026-06-08",
-    "source_event_id": "evt_663a14da9ee74d9c8663809fc712b519",
+    "public_event_id": "evt_4250dd7d4d2847078b17e2274469ab6e:2026-06-08",
+    "source_event_id": "evt_4250dd7d4d2847078b17e2274469ab6e",
     "event_date": "2026-06-08",
     "weekday": "月",
     "event_name": "myojou oneman live 明夏",
     "venue": "Veats Shibuya",
-    "live_summary": "開演 19:00 / 出演 19:00",
-    "ticket_summary": "当日券あり / 完売",
-    "application_summary": "未取得",
-    "ticket_url": "",
-    "ticket_status": "完売",
-    "needs_review": false,
-    "ticket_application_deadline_at": "",
-    "payment_deadline_at": "",
-    "ticket_sales": [
-      {
-        "sale_type": "当日券",
-        "ticket_name": "一般",
-        "ticket_tier": "一般",
-        "price": null,
-        "start_at": "",
-        "deadline_at": "",
-        "result_at": "",
-        "payment_deadline_at": "",
-        "status": "不明",
-        "source_url": "https://x.com/info_myojou/status/2063849253471141988",
-        "source_post_id": "2063849253471141988",
-        "notes": "",
-        "is_next_deadline": false
-      }
-    ],
-    "next_ticket_deadline_at": "",
-    "next_ticket_sale_type": "不明",
-    "next_ticket_label": "",
-    "public_ready": true,
-    "public_not_ready_reasons": [],
-    "review_reasons": [
-      "classification: live post has date and structured event fields"
-    ]
-  },
-  {
-    "public_event_id": "evt_c9bdb656eb3749e5b8ec18860a9a3fe7:2026-06-08",
-    "source_event_id": "evt_c9bdb656eb3749e5b8ec18860a9a3fe7",
-    "event_date": "2026-06-08",
-    "weekday": "月",
-    "event_name": "グッズ&ナンバーくじ公開",
-    "venue": "Veats Shibuya",
     "live_summary": "開演 19:00",
-    "ticket_summary": "一般 2,000円 / VIP 8,000円 / その他 2,500円 / 販売中",
+    "ticket_summary": "一般 2,000円 / VIP 8,000円 / 完売",
     "application_summary": "一般販売 4/13 19:00〜6/7 23:59",
     "ticket_url": "http://t-dv.com/myojou_260608",
-    "ticket_status": "販売中",
-    "needs_review": true,
+    "ticket_status": "完売",
+    "needs_review": false,
     "ticket_application_deadline_at": "2026-06-07T23:59:00+09:00",
     "payment_deadline_at": "",
     "ticket_sales": [
@@ -5073,23 +5035,23 @@
         "result_at": "",
         "payment_deadline_at": "",
         "status": "完売",
-        "source_url": "https://x.com/info_myojou/status/2062856267094528446",
-        "source_post_id": "2062856267094528446",
+        "source_url": "https://x.com/info_myojou/status/2059922709937840398",
+        "source_post_id": "2059922709937840398",
         "notes": "",
         "is_next_deadline": false
       },
       {
-        "sale_type": "不明",
-        "ticket_name": "その他",
-        "ticket_tier": "その他",
-        "price": 2500,
+        "sale_type": "当日券",
+        "ticket_name": "一般",
+        "ticket_tier": "一般",
+        "price": null,
         "start_at": "",
         "deadline_at": "",
         "result_at": "",
         "payment_deadline_at": "",
-        "status": "完売",
-        "source_url": "https://x.com/info_myojou/status/2062856267094528446",
-        "source_post_id": "2062856267094528446",
+        "status": "不明",
+        "source_url": "https://x.com/info_myojou/status/2063849253471141988",
+        "source_post_id": "2063849253471141988",
         "notes": "",
         "is_next_deadline": false
       }
@@ -5104,33 +5066,8 @@
     ]
   },
   {
-    "public_event_id": "evt_3ae2aad6116449ea8774cf5d03dafb7a:2026-06-09",
-    "source_event_id": "evt_3ae2aad6116449ea8774cf5d03dafb7a",
-    "event_date": "2026-06-09",
-    "weekday": "火",
-    "event_name": "明夏",
-    "venue": "ふれあい貸し会議室 渋谷No.77",
-    "live_summary": "開演 18:30",
-    "ticket_summary": "無料 / 一般 0円 / 不明",
-    "application_summary": "未取得",
-    "ticket_url": "",
-    "ticket_status": "不明",
-    "needs_review": false,
-    "ticket_application_deadline_at": "",
-    "payment_deadline_at": "",
-    "ticket_sales": [],
-    "next_ticket_deadline_at": "",
-    "next_ticket_sale_type": "無料",
-    "next_ticket_label": "",
-    "public_ready": true,
-    "public_not_ready_reasons": [],
-    "review_reasons": [
-      "classification: live post has date and structured event fields"
-    ]
-  },
-  {
-    "public_event_id": "evt_a628075910304b629a97df05131f6d1e:2026-06-13",
-    "source_event_id": "evt_a628075910304b629a97df05131f6d1e",
+    "public_event_id": "evt_d2a745c267d14c90a7614e1368287f1c:2026-06-13",
+    "source_event_id": "evt_d2a745c267d14c90a7614e1368287f1c",
     "event_date": "2026-06-13",
     "weekday": "土",
     "event_name": "Neat Meets vol.19",
@@ -5185,8 +5122,8 @@
     ]
   },
   {
-    "public_event_id": "evt_315f2dea6f544c01b7295e826516a360:2026-06-13",
-    "source_event_id": "evt_315f2dea6f544c01b7295e826516a360",
+    "public_event_id": "evt_7669b5c8542447ae85c158d11b2ee46f:2026-06-13",
+    "source_event_id": "evt_7669b5c8542447ae85c158d11b2ee46f",
     "event_date": "2026-06-13",
     "weekday": "土",
     "event_name": "アイドル甲子園 in KANDA SQUARE HALL\nsupported by My-th -DAY1",
@@ -5286,8 +5223,8 @@
     ]
   },
   {
-    "public_event_id": "evt_8281a5923e8940d4a808aecde561352c:2026-06-14",
-    "source_event_id": "evt_8281a5923e8940d4a808aecde561352c",
+    "public_event_id": "evt_8e8f2d69c8e145cca321793b58739992:2026-06-14",
+    "source_event_id": "evt_8e8f2d69c8e145cca321793b58739992",
     "event_date": "2026-06-14",
     "weekday": "日",
     "event_name": "IDOL STORM",
@@ -5372,8 +5309,8 @@
     ]
   },
   {
-    "public_event_id": "evt_80b88512fc24414280544177b1b356b4:2026-06-16",
-    "source_event_id": "evt_80b88512fc24414280544177b1b356b4",
+    "public_event_id": "evt_ddf5197c2e4745c7803949cf4af8ecb4:2026-06-16",
+    "source_event_id": "evt_ddf5197c2e4745c7803949cf4af8ecb4",
     "event_date": "2026-06-16",
     "weekday": "火",
     "event_name": "TOKYO GIRLS GIRLS",
@@ -5458,8 +5395,8 @@
     ]
   },
   {
-    "public_event_id": "evt_2540978944f0447a92b226ccabb15ba8:2026-06-17",
-    "source_event_id": "evt_2540978944f0447a92b226ccabb15ba8",
+    "public_event_id": "evt_2e6f4df678ab4d85aa63995a54e89a23:2026-06-17",
+    "source_event_id": "evt_2e6f4df678ab4d85aa63995a54e89a23",
     "event_date": "2026-06-17",
     "weekday": "水",
     "event_name": "すぺしゃるいしゅ〜 - Road to 6.27",
@@ -5529,8 +5466,79 @@
     ]
   },
   {
-    "public_event_id": "evt_42a0f86272a84680a16fb140cd782e9d:2026-06-20",
-    "source_event_id": "evt_42a0f86272a84680a16fb140cd782e9d",
+    "public_event_id": "evt_53fc8d5461764099a7ebbcd9d6df3e8a:2026-06-19",
+    "source_event_id": "evt_53fc8d5461764099a7ebbcd9d6df3e8a",
+    "event_date": "2026-06-19",
+    "weekday": "金",
+    "event_name": "IDOL ∞ INFINITY PREMIUM vol.12",
+    "venue": "Spotify O-nest",
+    "live_summary": "開演 16:20 / 出演 16:45-17:10 / 特典会 17:45-18:45",
+    "ticket_summary": "前方 4,000円 / 一般 2,000円 / 当日各+1,000円",
+    "application_summary": "一般販売 6/3 20:00〜6/18 23:59",
+    "ticket_url": "https://ticketdive.com/event/idol_infinity_premium_vol12",
+    "ticket_status": "不明",
+    "needs_review": false,
+    "ticket_application_deadline_at": "2026-06-18T23:59:00+09:00",
+    "payment_deadline_at": "",
+    "ticket_sales": [
+      {
+        "sale_type": "一般",
+        "ticket_name": "前方チケット",
+        "ticket_tier": "前方",
+        "price": 4000,
+        "start_at": "2026-06-03T20:00:00+09:00",
+        "deadline_at": "2026-06-18T23:59:00+09:00",
+        "result_at": "",
+        "payment_deadline_at": "",
+        "status": "不明",
+        "source_url": "https://x.com/info_myojou/status/2067598527371583767",
+        "source_post_id": "2067598527371583767",
+        "notes": "",
+        "is_next_deadline": true
+      },
+      {
+        "sale_type": "一般",
+        "ticket_name": "一般チケット",
+        "ticket_tier": "一般",
+        "price": 2000,
+        "start_at": "2026-06-03T20:00:00+09:00",
+        "deadline_at": "2026-06-18T23:59:00+09:00",
+        "result_at": "",
+        "payment_deadline_at": "",
+        "status": "不明",
+        "source_url": "https://x.com/info_myojou/status/2067598527371583767",
+        "source_post_id": "2067598527371583767",
+        "notes": "",
+        "is_next_deadline": false
+      },
+      {
+        "sale_type": "当日券",
+        "ticket_name": "当日券",
+        "ticket_tier": "一般",
+        "price": 1000,
+        "start_at": "",
+        "deadline_at": "",
+        "result_at": "",
+        "payment_deadline_at": "",
+        "status": "販売中",
+        "source_url": "https://x.com/info_myojou/status/2067598527371583767",
+        "source_post_id": "2067598527371583767",
+        "notes": "",
+        "is_next_deadline": false
+      }
+    ],
+    "next_ticket_deadline_at": "2026-06-18T23:59:00+09:00",
+    "next_ticket_sale_type": "一般",
+    "next_ticket_label": "一般 前方チケット",
+    "public_ready": true,
+    "public_not_ready_reasons": [],
+    "review_reasons": [
+      "classification: live post has date and structured event fields"
+    ]
+  },
+  {
+    "public_event_id": "evt_4ddea2d1bc16437685902d8b1079ef43:2026-06-20",
+    "source_event_id": "evt_4ddea2d1bc16437685902d8b1079ef43",
     "event_date": "2026-06-20",
     "weekday": "土",
     "event_name": "myojou Summer Vol.02",
@@ -5600,50 +5608,8 @@
     ]
   },
   {
-    "public_event_id": "evt_9e0dc84fac664492a09e0987ad312db5:2026-06-21",
-    "source_event_id": "evt_9e0dc84fac664492a09e0987ad312db5",
-    "event_date": "2026-06-21",
-    "weekday": "日",
-    "event_name": "myojou Summer",
-    "venue": "恵比寿CreAto、渋谷チェルシーホテル、渋谷音楽堂、WOMB LIVE",
-    "live_summary": "開演 12:00",
-    "ticket_summary": "一般 0円 / 優先 6,000円",
-    "application_summary": "一般販売 5/31 00:00〜",
-    "ticket_url": "https://t-dv.com/myojou_0531",
-    "ticket_status": "不明",
-    "needs_review": false,
-    "ticket_application_deadline_at": "",
-    "payment_deadline_at": "",
-    "ticket_sales": [
-      {
-        "sale_type": "一般",
-        "ticket_name": "一般",
-        "ticket_tier": "一般",
-        "price": 0,
-        "start_at": "2026-05-31T00:00:00+09:00",
-        "deadline_at": "",
-        "result_at": "",
-        "payment_deadline_at": "",
-        "status": "不明",
-        "source_url": "https://x.com/info_myojou/status/2049054347984777330",
-        "source_post_id": "2049054347984777330",
-        "notes": "",
-        "is_next_deadline": true
-      }
-    ],
-    "next_ticket_deadline_at": "",
-    "next_ticket_sale_type": "一般",
-    "next_ticket_label": "一般",
-    "public_ready": true,
-    "public_not_ready_reasons": [],
-    "review_reasons": [
-      "missing ticket deadline",
-      "classification: live post has date and structured event fields"
-    ]
-  },
-  {
-    "public_event_id": "evt_72307d7d039f4b8ea58b875ec9be6d70:2026-06-24",
-    "source_event_id": "evt_72307d7d039f4b8ea58b875ec9be6d70",
+    "public_event_id": "evt_9fc78b94b4dc4c7da221a3d5a256e981:2026-06-24",
+    "source_event_id": "evt_9fc78b94b4dc4c7da221a3d5a256e981",
     "event_date": "2026-06-24",
     "weekday": "水",
     "event_name": "PARAD-i-SE Vol.5 -2周年ワンマン前SP!",
@@ -5833,8 +5799,8 @@
     ]
   },
   {
-    "public_event_id": "evt_965d0982b3ad4e88a60556abbbd1099e:2026-06-25",
-    "source_event_id": "evt_965d0982b3ad4e88a60556abbbd1099e",
+    "public_event_id": "evt_2193b683c4a04b949b804da02877312d:2026-06-25",
+    "source_event_id": "evt_2193b683c4a04b949b804da02877312d",
     "event_date": "2026-06-25",
     "weekday": "木",
     "event_name": "シキサイ。",
@@ -5904,8 +5870,8 @@
     ]
   },
   {
-    "public_event_id": "evt_2540978944f0447a92b226ccabb15ba8:2026-06-27",
-    "source_event_id": "evt_2540978944f0447a92b226ccabb15ba8",
+    "public_event_id": "evt_2e6f4df678ab4d85aa63995a54e89a23:2026-06-27",
+    "source_event_id": "evt_2e6f4df678ab4d85aa63995a54e89a23",
     "event_date": "2026-06-27",
     "weekday": "土",
     "event_name": "すぺしゃるいしゅ〜 - Road to 6.27",
@@ -5975,18 +5941,18 @@
     ]
   },
   {
-    "public_event_id": "evt_ae29aa46b57c4905bc32aebe2b1aa84e:2026-06-27",
-    "source_event_id": "evt_ae29aa46b57c4905bc32aebe2b1aa84e",
+    "public_event_id": "evt_323e9d00d94645ea99c05db90398b079:2026-06-27",
+    "source_event_id": "evt_323e9d00d94645ea99c05db90398b079",
     "event_date": "2026-06-27",
     "weekday": "土",
-    "event_name": "アイドル甲子園 FESTIVAL 2026",
+    "event_name": "アイドル甲子園 FESTIVAL 2026\nsupported by My-th -DAY1",
     "venue": "TFTホール 1000・500・300",
     "live_summary": "開演 10:00 / 出演 12:30-12:55 / 特典会 13:15-14:35",
     "ticket_summary": "前方 11,000円 / 一般 5,500円 / 当日各+1,000円",
     "application_summary": "先着 6/4 21:00〜6/27 09:29",
     "ticket_url": "https://user.my-th.jp/tickets/event/ikoufes_0627",
     "ticket_status": "不明",
-    "needs_review": true,
+    "needs_review": false,
     "ticket_application_deadline_at": "2026-06-27T09:29:00+09:00",
     "payment_deadline_at": "",
     "ticket_sales": [
@@ -6046,8 +6012,8 @@
     ]
   },
   {
-    "public_event_id": "evt_0c7c90b9ddc146de992c72b9d4332641:2026-06-29",
-    "source_event_id": "evt_0c7c90b9ddc146de992c72b9d4332641",
+    "public_event_id": "evt_43f7f7c3bc144aac9e3e28fa1946ecd9:2026-06-29",
+    "source_event_id": "evt_43f7f7c3bc144aac9e3e28fa1946ecd9",
     "event_date": "2026-06-29",
     "weekday": "月",
     "event_name": "ラブコール vol.19",
@@ -6117,8 +6083,8 @@
     ]
   },
   {
-    "public_event_id": "evt_23b2b2ac93af46b2968477cc8b2e4aad:2026-07-03",
-    "source_event_id": "evt_23b2b2ac93af46b2968477cc8b2e4aad",
+    "public_event_id": "evt_d0aaadeb8eff445fbd297cd50552a05c:2026-07-03",
+    "source_event_id": "evt_d0aaadeb8eff445fbd297cd50552a05c",
     "event_date": "2026-07-03",
     "weekday": "金",
     "event_name": "TOKYO GIRLS GIRLS extra!!",
@@ -6174,8 +6140,8 @@
     ]
   },
   {
-    "public_event_id": "evt_07b1d4694928443a8019e770395dd23d:2026-07-04",
-    "source_event_id": "evt_07b1d4694928443a8019e770395dd23d",
+    "public_event_id": "evt_ad56f00a59eb47e5a6ed0d701e00b2e7:2026-07-04",
+    "source_event_id": "evt_ad56f00a59eb47e5a6ed0d701e00b2e7",
     "event_date": "2026-07-04",
     "weekday": "土",
     "event_name": "超NATSUZOME 2026",
@@ -6320,8 +6286,8 @@
     ]
   },
   {
-    "public_event_id": "evt_07b1d4694928443a8019e770395dd23d:2026-07-05",
-    "source_event_id": "evt_07b1d4694928443a8019e770395dd23d",
+    "public_event_id": "evt_ad56f00a59eb47e5a6ed0d701e00b2e7:2026-07-05",
+    "source_event_id": "evt_ad56f00a59eb47e5a6ed0d701e00b2e7",
     "event_date": "2026-07-05",
     "weekday": "日",
     "event_name": "超NATSUZOME 2026",
@@ -6466,8 +6432,8 @@
     ]
   },
   {
-    "public_event_id": "evt_d1d26c2af22c4971afc32342454849d1:2026-07-06",
-    "source_event_id": "evt_d1d26c2af22c4971afc32342454849d1",
+    "public_event_id": "evt_3dd6563eacc14d1b8d69ac6883c6c520:2026-07-06",
+    "source_event_id": "evt_3dd6563eacc14d1b8d69ac6883c6c520",
     "event_date": "2026-07-06",
     "weekday": "月",
     "event_name": "蒼夏序章",
@@ -6538,8 +6504,8 @@
     ]
   },
   {
-    "public_event_id": "evt_961492d4bdd5454a86d7020e1f312fbe:2026-07-10",
-    "source_event_id": "evt_961492d4bdd5454a86d7020e1f312fbe",
+    "public_event_id": "evt_d577ac91f6bf4c39ada8c573fd1d4e9f:2026-07-10",
+    "source_event_id": "evt_d577ac91f6bf4c39ada8c573fd1d4e9f",
     "event_date": "2026-07-10",
     "weekday": "金",
     "event_name": "sound stock Vol.14",
@@ -6624,8 +6590,8 @@
     ]
   },
   {
-    "public_event_id": "evt_a5439332aedc4caeb53884fc52f06a63:2026-07-11",
-    "source_event_id": "evt_a5439332aedc4caeb53884fc52f06a63",
+    "public_event_id": "evt_64215fa0f75d4578b7b258c6b1540875:2026-07-11",
+    "source_event_id": "evt_64215fa0f75d4578b7b258c6b1540875",
     "event_date": "2026-07-11",
     "weekday": "土",
     "event_name": "SPARK 2026 渋谷納涼祭",
@@ -6740,8 +6706,8 @@
     ]
   },
   {
-    "public_event_id": "evt_a5439332aedc4caeb53884fc52f06a63:2026-07-12",
-    "source_event_id": "evt_a5439332aedc4caeb53884fc52f06a63",
+    "public_event_id": "evt_64215fa0f75d4578b7b258c6b1540875:2026-07-12",
+    "source_event_id": "evt_64215fa0f75d4578b7b258c6b1540875",
     "event_date": "2026-07-12",
     "weekday": "日",
     "event_name": "SPARK 2026 渋谷納涼祭",
@@ -6856,8 +6822,8 @@
     ]
   },
   {
-    "public_event_id": "evt_f7f6ec33082b4c23878ce2ac7c6d4473:2026-07-14",
-    "source_event_id": "evt_f7f6ec33082b4c23878ce2ac7c6d4473",
+    "public_event_id": "evt_4625dd4a215f4376bd929c2e168e53a7:2026-07-14",
+    "source_event_id": "evt_4625dd4a215f4376bd929c2e168e53a7",
     "event_date": "2026-07-14",
     "weekday": "火",
     "event_name": "うるトラすフェスタvol.45",
@@ -6942,8 +6908,8 @@
     ]
   },
   {
-    "public_event_id": "evt_5447085370774e82b2d9b8eb486597d9:2026-07-16",
-    "source_event_id": "evt_5447085370774e82b2d9b8eb486597d9",
+    "public_event_id": "evt_374d51db0c7b4b209ba27601b9aa92ec:2026-07-16",
+    "source_event_id": "evt_374d51db0c7b4b209ba27601b9aa92ec",
     "event_date": "2026-07-16",
     "weekday": "木",
     "event_name": "ONE AND ONLY",
@@ -6954,7 +6920,7 @@
     "ticket_url": "https://w.pia.jp/t/oneandonly/",
     "ticket_status": "不明",
     "needs_review": false,
-    "ticket_application_deadline_at": "2026-06-29T23:59:00+09:00",
+    "ticket_application_deadline_at": "2026-07-15T23:59:00+09:00",
     "payment_deadline_at": "",
     "ticket_sales": [
       {
@@ -6970,7 +6936,7 @@
         "source_url": "https://x.com/info_myojou/status/2066483481891532826",
         "source_post_id": "2066483481891532826",
         "notes": "",
-        "is_next_deadline": true
+        "is_next_deadline": false
       },
       {
         "sale_type": "抽選",
@@ -7000,7 +6966,7 @@
         "source_url": "https://x.com/info_myojou/status/2066483481891532826",
         "source_post_id": "2066483481891532826",
         "notes": "",
-        "is_next_deadline": false
+        "is_next_deadline": true
       },
       {
         "sale_type": "一般",
@@ -7033,60 +6999,18 @@
         "is_next_deadline": false
       }
     ],
-    "next_ticket_deadline_at": "2026-06-29T23:59:00+09:00",
-    "next_ticket_sale_type": "抽選",
-    "next_ticket_label": "抽選 前方",
-    "public_ready": true,
-    "public_not_ready_reasons": [],
-    "review_reasons": [
-      "classification: live post has date and structured event fields"
-    ]
-  },
-  {
-    "public_event_id": "evt_9e0dc84fac664492a09e0987ad312db5:2026-07-19",
-    "source_event_id": "evt_9e0dc84fac664492a09e0987ad312db5",
-    "event_date": "2026-07-19",
-    "weekday": "日",
-    "event_name": "myojou Summer",
-    "venue": "恵比寿CreAto、渋谷チェルシーホテル、渋谷音楽堂、WOMB LIVE",
-    "live_summary": "開演 12:00",
-    "ticket_summary": "一般 0円 / 優先 6,000円",
-    "application_summary": "一般販売 5/31 00:00〜",
-    "ticket_url": "https://t-dv.com/myojou_0531",
-    "ticket_status": "不明",
-    "needs_review": false,
-    "ticket_application_deadline_at": "",
-    "payment_deadline_at": "",
-    "ticket_sales": [
-      {
-        "sale_type": "一般",
-        "ticket_name": "一般",
-        "ticket_tier": "一般",
-        "price": 0,
-        "start_at": "2026-05-31T00:00:00+09:00",
-        "deadline_at": "",
-        "result_at": "",
-        "payment_deadline_at": "",
-        "status": "不明",
-        "source_url": "https://x.com/info_myojou/status/2049054347984777330",
-        "source_post_id": "2049054347984777330",
-        "notes": "",
-        "is_next_deadline": true
-      }
-    ],
-    "next_ticket_deadline_at": "",
+    "next_ticket_deadline_at": "2026-07-15T23:59:00+09:00",
     "next_ticket_sale_type": "一般",
-    "next_ticket_label": "一般",
+    "next_ticket_label": "一般 前方",
     "public_ready": true,
     "public_not_ready_reasons": [],
     "review_reasons": [
-      "missing ticket deadline",
       "classification: live post has date and structured event fields"
     ]
   },
   {
-    "public_event_id": "evt_a118085c064747809743dee3b73b578a:2026-07-19",
-    "source_event_id": "evt_a118085c064747809743dee3b73b578a",
+    "public_event_id": "evt_92678e1acebb45a996e44a4bf01c50f9:2026-07-19",
+    "source_event_id": "evt_92678e1acebb45a996e44a4bf01c50f9",
     "event_date": "2026-07-19",
     "weekday": "日",
     "event_name": "myojou Summer Vol.03",
@@ -7141,8 +7065,8 @@
     ]
   },
   {
-    "public_event_id": "evt_b8072fcbcc074a0e9eff00eb3f320e3e:2026-07-20",
-    "source_event_id": "evt_b8072fcbcc074a0e9eff00eb3f320e3e",
+    "public_event_id": "evt_2e51120390814d72b902031ae10ea572:2026-07-20",
+    "source_event_id": "evt_2e51120390814d72b902031ae10ea572",
     "event_date": "2026-07-20",
     "weekday": "月",
     "event_name": "IDOL STORM",
@@ -7213,11 +7137,11 @@
     ]
   },
   {
-    "public_event_id": "evt_9b1d729386c94491af56d59e90cce59b:2026-07-20",
-    "source_event_id": "evt_9b1d729386c94491af56d59e90cce59b",
+    "public_event_id": "evt_d191b85826594c7faaee9abc426c9407:2026-07-20",
+    "source_event_id": "evt_d191b85826594c7faaee9abc426c9407",
     "event_date": "2026-07-20",
     "weekday": "月",
-    "event_name": "アイドル甲子園 in KANDA \n SQUARE HALL",
+    "event_name": "アイドル甲子園 in KANDA",
     "venue": "KANDA SQUARE HALL",
     "live_summary": "開演 09:30",
     "ticket_summary": "前方 8,500円 / 一般 3,500円 / 当日各+9,500円",
@@ -7284,8 +7208,8 @@
     ]
   },
   {
-    "public_event_id": "evt_a54444abb162492db02ce044cc6b3d9f:2026-07-22",
-    "source_event_id": "evt_a54444abb162492db02ce044cc6b3d9f",
+    "public_event_id": "evt_b7d7cffd085e45eab4bec50b20d4533a:2026-07-22",
+    "source_event_id": "evt_b7d7cffd085e45eab4bec50b20d4533a",
     "event_date": "2026-07-22",
     "weekday": "水",
     "event_name": "UTAGE FES Vol.5",
@@ -7370,11 +7294,11 @@
     ]
   },
   {
-    "public_event_id": "evt_6e692c0484a149f590f733abcc0bf350:2026-07-28",
-    "source_event_id": "evt_6e692c0484a149f590f733abcc0bf350",
+    "public_event_id": "evt_dc0f29ae96f94991a7b3333dfef3b269:2026-07-28",
+    "source_event_id": "evt_dc0f29ae96f94991a7b3333dfef3b269",
     "event_date": "2026-07-28",
     "weekday": "火",
-    "event_name": "MARIE PARADE -vol,2",
+    "event_name": "Special 2man Live",
     "venue": "渋谷WOMB LIVE",
     "live_summary": "開演 19:45 / 出演 19:15-19:45 / 特典会 20:30-22:00",
     "ticket_summary": "抽選 / 一般 2,500円 / 前方 5,000円 / 7/5締切",
@@ -7426,8 +7350,8 @@
     ]
   },
   {
-    "public_event_id": "evt_c8834bda81df4ce38a5502a3ab5d43c2:2026-07-31",
-    "source_event_id": "evt_c8834bda81df4ce38a5502a3ab5d43c2",
+    "public_event_id": "evt_df508d5d774b401f88e96daa6ac3873d:2026-07-31",
+    "source_event_id": "evt_df508d5d774b401f88e96daa6ac3873d",
     "event_date": "2026-07-31",
     "weekday": "金",
     "event_name": "TOKYO IDOL FESTIVAL 2026",
@@ -7437,7 +7361,7 @@
     "application_summary": "未取得",
     "ticket_url": "https://official.idolfes.com/s/tif2026/page/ticket",
     "ticket_status": "不明",
-    "needs_review": false,
+    "needs_review": true,
     "ticket_application_deadline_at": "",
     "payment_deadline_at": "",
     "ticket_sales": [
@@ -7483,8 +7407,8 @@
     ]
   },
   {
-    "public_event_id": "evt_c8834bda81df4ce38a5502a3ab5d43c2:2026-08-01",
-    "source_event_id": "evt_c8834bda81df4ce38a5502a3ab5d43c2",
+    "public_event_id": "evt_df508d5d774b401f88e96daa6ac3873d:2026-08-01",
+    "source_event_id": "evt_df508d5d774b401f88e96daa6ac3873d",
     "event_date": "2026-08-01",
     "weekday": "土",
     "event_name": "TOKYO IDOL FESTIVAL 2026",
@@ -7494,7 +7418,7 @@
     "application_summary": "未取得",
     "ticket_url": "https://official.idolfes.com/s/tif2026/page/ticket",
     "ticket_status": "不明",
-    "needs_review": false,
+    "needs_review": true,
     "ticket_application_deadline_at": "",
     "payment_deadline_at": "",
     "ticket_sales": [
@@ -7540,8 +7464,8 @@
     ]
   },
   {
-    "public_event_id": "evt_c8834bda81df4ce38a5502a3ab5d43c2:2026-08-02",
-    "source_event_id": "evt_c8834bda81df4ce38a5502a3ab5d43c2",
+    "public_event_id": "evt_df508d5d774b401f88e96daa6ac3873d:2026-08-02",
+    "source_event_id": "evt_df508d5d774b401f88e96daa6ac3873d",
     "event_date": "2026-08-02",
     "weekday": "日",
     "event_name": "TOKYO IDOL FESTIVAL 2026",
@@ -7551,7 +7475,7 @@
     "application_summary": "未取得",
     "ticket_url": "https://official.idolfes.com/s/tif2026/page/ticket",
     "ticket_status": "不明",
-    "needs_review": false,
+    "needs_review": true,
     "ticket_application_deadline_at": "",
     "payment_deadline_at": "",
     "ticket_sales": [
@@ -7597,8 +7521,8 @@
     ]
   },
   {
-    "public_event_id": "evt_b4b273d8e9e44d5f8b82f3b363842447:2026-08-07",
-    "source_event_id": "evt_b4b273d8e9e44d5f8b82f3b363842447",
+    "public_event_id": "evt_afc7da6019a14facb82feed5e0c84ad3:2026-08-07",
+    "source_event_id": "evt_afc7da6019a14facb82feed5e0c84ad3",
     "event_date": "2026-08-07",
     "weekday": "金",
     "event_name": "IDOL SUMMER JUNGLE 2026",
@@ -7653,8 +7577,8 @@
     ]
   },
   {
-    "public_event_id": "evt_b4b273d8e9e44d5f8b82f3b363842447:2026-08-08",
-    "source_event_id": "evt_b4b273d8e9e44d5f8b82f3b363842447",
+    "public_event_id": "evt_afc7da6019a14facb82feed5e0c84ad3:2026-08-08",
+    "source_event_id": "evt_afc7da6019a14facb82feed5e0c84ad3",
     "event_date": "2026-08-08",
     "weekday": "土",
     "event_name": "IDOL SUMMER JUNGLE 2026",
@@ -7709,8 +7633,8 @@
     ]
   },
   {
-    "public_event_id": "evt_b4b273d8e9e44d5f8b82f3b363842447:2026-08-09",
-    "source_event_id": "evt_b4b273d8e9e44d5f8b82f3b363842447",
+    "public_event_id": "evt_afc7da6019a14facb82feed5e0c84ad3:2026-08-09",
+    "source_event_id": "evt_afc7da6019a14facb82feed5e0c84ad3",
     "event_date": "2026-08-09",
     "weekday": "日",
     "event_name": "IDOL SUMMER JUNGLE 2026",
@@ -7765,11 +7689,11 @@
     ]
   },
   {
-    "public_event_id": "evt_efc4df33aaea481bad16de4c13a9f0a1:2026-08-10",
-    "source_event_id": "evt_efc4df33aaea481bad16de4c13a9f0a1",
+    "public_event_id": "evt_ca50a432ee4d40bab80e9676e4ec7fd7:2026-08-10",
+    "source_event_id": "evt_ca50a432ee4d40bab80e9676e4ec7fd7",
     "event_date": "2026-08-10",
     "weekday": "月",
-    "event_name": "NEO KASSEN2026",
+    "event_name": "NEO JAPONISM主催フェス",
     "venue": "Spotify O-EAST / Spotify O-WEST / Spotify O-nest / Spotify O-Crest / duo MUSIC EXCHANGE / clubasia / WOMB LIVE / SHIBUYA RING / SHIBUYA DESEO / Veats Shibuya / SHIBUYA VIDENT / GRIT at Shibuya",
     "live_summary": "開演 11:30",
     "ticket_summary": "先着 / 一般 6,500円 / SSEN 2,026円 / 当日 7,500円",
@@ -7836,50 +7760,8 @@
     ]
   },
   {
-    "public_event_id": "evt_9e0dc84fac664492a09e0987ad312db5:2026-08-13",
-    "source_event_id": "evt_9e0dc84fac664492a09e0987ad312db5",
-    "event_date": "2026-08-13",
-    "weekday": "木",
-    "event_name": "myojou Summer",
-    "venue": "恵比寿CreAto、渋谷チェルシーホテル、渋谷音楽堂、WOMB LIVE",
-    "live_summary": "開演 12:00",
-    "ticket_summary": "一般 0円 / 優先 6,000円",
-    "application_summary": "一般販売 5/31 00:00〜",
-    "ticket_url": "https://t-dv.com/myojou_0531",
-    "ticket_status": "不明",
-    "needs_review": false,
-    "ticket_application_deadline_at": "",
-    "payment_deadline_at": "",
-    "ticket_sales": [
-      {
-        "sale_type": "一般",
-        "ticket_name": "一般",
-        "ticket_tier": "一般",
-        "price": 0,
-        "start_at": "2026-05-31T00:00:00+09:00",
-        "deadline_at": "",
-        "result_at": "",
-        "payment_deadline_at": "",
-        "status": "不明",
-        "source_url": "https://x.com/info_myojou/status/2049054347984777330",
-        "source_post_id": "2049054347984777330",
-        "notes": "",
-        "is_next_deadline": true
-      }
-    ],
-    "next_ticket_deadline_at": "",
-    "next_ticket_sale_type": "一般",
-    "next_ticket_label": "一般",
-    "public_ready": true,
-    "public_not_ready_reasons": [],
-    "review_reasons": [
-      "missing ticket deadline",
-      "classification: live post has date and structured event fields"
-    ]
-  },
-  {
-    "public_event_id": "evt_d2231b901218480291c3626ba85a302c:2026-08-15",
-    "source_event_id": "evt_d2231b901218480291c3626ba85a302c",
+    "public_event_id": "evt_7046906e38bd4e88bef5e60d7e30e873:2026-08-15",
+    "source_event_id": "evt_7046906e38bd4e88bef5e60d7e30e873",
     "event_date": "2026-08-15",
     "weekday": "土",
     "event_name": "IDOL STORM",
@@ -7964,8 +7846,8 @@
     ]
   },
   {
-    "public_event_id": "evt_80a90b1796e04e55a4ad74e63758b1f7:2026-08-29",
-    "source_event_id": "evt_80a90b1796e04e55a4ad74e63758b1f7",
+    "public_event_id": "evt_c59e4702740348f492606d2b7598f3eb:2026-08-29",
+    "source_event_id": "evt_c59e4702740348f492606d2b7598f3eb",
     "event_date": "2026-08-29",
     "weekday": "土",
     "event_name": "A Villa idol festival HOKKAIDO 2026",
@@ -8080,8 +7962,8 @@
     ]
   },
   {
-    "public_event_id": "evt_f8fbea4614d34823bdcd47f528e064cc:2026-09-21",
-    "source_event_id": "evt_f8fbea4614d34823bdcd47f528e064cc",
+    "public_event_id": "evt_3b90b80072224614a96a0114c4968fe9:2026-09-21",
+    "source_event_id": "evt_3b90b80072224614a96a0114c4968fe9",
     "event_date": "2026-09-21",
     "weekday": "月",
     "event_name": "SPARK 2026 in YAMANAKAKO",
@@ -8121,8 +8003,8 @@
     ]
   },
   {
-    "public_event_id": "evt_f8fbea4614d34823bdcd47f528e064cc:2026-09-22",
-    "source_event_id": "evt_f8fbea4614d34823bdcd47f528e064cc",
+    "public_event_id": "evt_3b90b80072224614a96a0114c4968fe9:2026-09-22",
+    "source_event_id": "evt_3b90b80072224614a96a0114c4968fe9",
     "event_date": "2026-09-22",
     "weekday": "火",
     "event_name": "SPARK 2026 in YAMANAKAKO",
@@ -8162,8 +8044,8 @@
     ]
   },
   {
-    "public_event_id": "evt_f8fbea4614d34823bdcd47f528e064cc:2026-09-23",
-    "source_event_id": "evt_f8fbea4614d34823bdcd47f528e064cc",
+    "public_event_id": "evt_3b90b80072224614a96a0114c4968fe9:2026-09-23",
+    "source_event_id": "evt_3b90b80072224614a96a0114c4968fe9",
     "event_date": "2026-09-23",
     "weekday": "水",
     "event_name": "SPARK 2026 in YAMANAKAKO",

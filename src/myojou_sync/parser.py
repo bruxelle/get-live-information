@@ -385,6 +385,12 @@ class PostParser:
     def hard_non_event_reason(self, normalized_text: str) -> str | None:
         compact = normalize_spaces(normalized_text).casefold()
         compact_no_space = re.sub(r"\s+", "", compact)
+        if _goods_or_kuji_announcement_reason(normalized_text):
+            return "goods/number lottery announcement"
+        if _benefit_only_announcement_reason(normalized_text):
+            return "benefit-only/non-live event"
+        if _streaming_only_announcement_reason(normalized_text):
+            return "streaming-only/non-live event"
         if re.search(r"\bprofile\s*0?[1-9]\b", compact, flags=re.I) or re.search(r"profile[0-9０-９]+", compact_no_space, flags=re.I):
             return "profile/member introduction"
         if _is_greeting_only_post(compact):
@@ -494,6 +500,10 @@ class PostParser:
             if label_match:
                 return _clean_value(label_match.group("name"))
 
+        title_candidate = _title_from_header_block(text)
+        if title_candidate:
+            return _clean_event_title_candidate(title_candidate)
+
         quoted_candidates: list[tuple[int, str]] = []
         for left, right in (("『", "』"), ("「", "」"), ("“", "”"), ('"', '"')):
             pattern = re.escape(left) + r"(?P<name>[^" + re.escape(right) + r"]{2,80})" + re.escape(right)
@@ -503,10 +513,6 @@ class PostParser:
                     quoted_candidates.append((match.start(), candidate))
         if quoted_candidates:
             return sorted(quoted_candidates, key=lambda item: item[0])[0][1]
-
-        title_candidate = _title_from_header_block(text)
-        if title_candidate:
-            return _clean_event_title_candidate(title_candidate)
 
         for line in _lines(text):
             cleaned = _clean_value(line)
@@ -978,6 +984,76 @@ class PostParser:
 
 def _normalize(value: str) -> str:
     return normalize_spaces(unicodedata.normalize("NFKC", value))
+
+
+def _goods_or_kuji_announcement_reason(normalized_text: str) -> str | None:
+    subject_lines = _subject_lines_before_event_details(normalized_text)
+    subject_text = "\n".join(subject_lines)
+    subject_compact = re.sub(r"\s+", "", subject_text.casefold())
+    title_tokens = (
+        "グッズ&ナンバーくじ公開",
+        "グッズ＆ナンバーくじ公開",
+        "ナンバーくじ公開",
+        "くじ公開",
+        "グッズ公開",
+        "グッズ受注販売",
+        "グッズ通販",
+        "goodsannouncement",
+        "merchandiseannouncement",
+        "onlinelottery",
+    )
+    if any(token.casefold().replace(" ", "") in subject_compact for token in title_tokens):
+        return "goods/number lottery announcement"
+    return None
+
+
+def _benefit_only_announcement_reason(normalized_text: str) -> str | None:
+    subject_text = "\n".join(_subject_lines_before_event_details(normalized_text))
+    subject_compact = re.sub(r"\s+", "", subject_text.casefold())
+    if any(token in subject_compact for token in ("後日特典会", "アフター特典会", "特典会のみ")):
+        return "benefit-only/non-live event"
+    return None
+
+
+def _streaming_only_announcement_reason(normalized_text: str) -> str | None:
+    subject_lines = _subject_lines_before_event_details(normalized_text)
+    subject_text = "\n".join(subject_lines)
+    subject_compact = re.sub(r"\s+", "", subject_text.casefold())
+    if "緊急決起集会" in subject_compact:
+        return "streaming-only/non-live event"
+    if not any(token in subject_compact for token in ("生配信決定", "緊急決起集会", "直前sp", "直前sp!!", "tifチャンネル")):
+        return None
+    if any(token in subject_compact for token in ("生配信", "配信", "streaming", "online", "tifチャンネル", "youtube")):
+        return "streaming-only/non-live event"
+    return None
+
+
+def _subject_lines_before_event_details(text: str) -> list[str]:
+    subject_lines: list[str] = []
+    detail_markers = (
+        "⟣date",
+        "date:",
+        "date：",
+        "⟣place",
+        "place:",
+        "place :",
+        "open/start",
+        "会場",
+        "場所",
+        "開場",
+        "開演",
+    )
+    for line in _lines(text):
+        cleaned = _clean_value(line) or normalize_spaces(line)
+        if not re.search(r"[A-Za-z0-9ぁ-んァ-ン一-龥々〆〤]", cleaned):
+            continue
+        line_compact = re.sub(r"\s+", "", cleaned.casefold())
+        if subject_lines and any(marker in line_compact for marker in detail_markers):
+            break
+        subject_lines.append(cleaned)
+        if len(subject_lines) >= 8:
+            break
+    return subject_lines
 
 
 def _urls_from_entities(raw: dict | None) -> list[str]:
@@ -1473,6 +1549,7 @@ def _clean_event_title_candidate(value: str | None) -> str | None:
     if not value:
         return None
     cleaned = normalize_spaces(value)
+    had_trailing_spaced_hyphen = bool(re.search(r"\s[-–—]\s*$", cleaned))
     if re.search(r"\bpresents?\b", cleaned, flags=re.I):
         pieces = re.split(r"\bpresents?\b", cleaned, maxsplit=1, flags=re.I)
         if len(pieces) == 2 and pieces[1].strip():
@@ -1481,12 +1558,15 @@ def _clean_event_title_candidate(value: str | None) -> str | None:
     cleaned = re.sub(r"^[『「\"'“”’]+", "", cleaned)
     cleaned = re.sub(r"[』」\"'“”’]+$", "", cleaned)
     cleaned = normalize_spaces(cleaned)
+    if cleaned and had_trailing_spaced_hyphen and not cleaned.endswith("-"):
+        cleaned = f"{cleaned} -"
     return cleaned or None
 
 
 def _title_from_header_block(text: str) -> str | None:
     candidates: list[tuple[int, str]] = []
-    for index, line in enumerate(_lines(text)):
+    lines = _lines(text)
+    for index, line in enumerate(lines):
         cleaned = _clean_value(line)
         if not cleaned:
             continue
@@ -1494,15 +1574,59 @@ def _title_from_header_block(text: str) -> str | None:
             break
         if _is_decorative_line(cleaned) or _is_ignored_title_line(cleaned) or _is_metadata_line(cleaned):
             continue
+        if _line_starts_with_date_and_quoted_title(cleaned):
+            continue
         if len(cleaned) > 80:
             continue
         score = _title_candidate_score(cleaned, index)
         if score > 0:
-            candidates.append((score, cleaned))
+            title = _with_subtitle_continuation(cleaned, lines[index + 1 : index + 3])
+            candidates.append((score + (4 if title != cleaned else 0), title))
     if not candidates:
         return None
     candidates.sort(key=lambda item: item[0], reverse=True)
     return candidates[0][1]
+
+
+def _with_subtitle_continuation(title: str, following_lines: list[str]) -> str:
+    pieces = [title]
+    joiner = " "
+    for line in following_lines:
+        raw_cleaned = normalize_spaces(line).strip(" \t　")
+        cleaned = _clean_value(line)
+        if not cleaned:
+            continue
+        if len(cleaned) > 80:
+            break
+        if _looks_like_subtitle_line(raw_cleaned) or _looks_like_subtitle_line(cleaned):
+            if raw_cleaned.casefold().startswith("supported by"):
+                joiner = "\n"
+            pieces.append(raw_cleaned if _looks_like_subtitle_line(raw_cleaned) else cleaned)
+            continue
+        if _is_decorative_line(cleaned) or _is_ignored_title_line(cleaned) or _is_metadata_line(cleaned):
+            break
+        break
+    if joiner == "\n":
+        return "\n".join(pieces)
+    return normalize_spaces(" ".join(pieces))
+
+
+def _looks_like_subtitle_line(value: str) -> bool:
+    normalized = _normalize(value)
+    if re.match(r"^[\-ー〜~–—]\s*.+\s*[\-ー〜~–—]$", normalized):
+        return True
+    if re.match(r"^supported\s+by\b.+(?:-day\d+|my-th).*$", normalized, flags=re.I):
+        return True
+    if re.match(r"^(?:vol\.?\s*\d+|第\d+部|[A-Za-z0-9 ]+\s*sp)\b", normalized, flags=re.I):
+        return True
+    return False
+
+
+def _line_starts_with_date_and_quoted_title(value: str) -> bool:
+    return bool(
+        re.match(r"^(?:20\d{2}[年/\-.])?\d{1,2}(?:月|[/\.])\d{1,2}(?:日)?", _normalize(value))
+        and any(mark in value for mark in ("『", "「", '"', "“"))
+    )
 
 
 def _title_candidate_score(value: str, index: int) -> int:
@@ -1550,6 +1674,8 @@ def _is_ignored_title_line(value: str) -> bool:
         for phrase in (
             "live digest",
             "next live",
+            "ライブ出演情報",
+            "完売のお知らせ",
             "今日のmyojou",
             "明日のmyojou",
             "the encore presents",
