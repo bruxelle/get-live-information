@@ -35,12 +35,12 @@
         </nav>
 
         <nav class="view-switcher" aria-label="表示切り替え">
-          <button class="view-button is-active" type="button" data-view="cards">カード</button>
-          <button class="view-button" type="button" data-view="calendar">カレンダー</button>
+          <button class="view-button" type="button" data-view="cards" aria-pressed="false">カード</button>
+          <button class="view-button is-active" type="button" data-view="calendar" aria-pressed="true">カレンダー</button>
         </nav>
       </section>
 
-      <section id="calendarView" class="calendar-view" hidden>
+      <section id="calendarView" class="calendar-view">
         <section class="deadline-alerts" aria-labelledby="deadlineAlertsHeading">
           <h2 id="deadlineAlertsHeading" class="deadline-alerts-heading">締切アラート</h2>
           <div id="deadlineAlertsList" class="deadline-alerts-list"></div>
@@ -58,7 +58,7 @@
         <button class="calendar-load-button" type="button" data-month-load="next">次の月を表示</button>
       </section>
 
-      <section id="eventList" class="event-list" aria-live="polite"></section>
+      <section id="eventList" class="event-list" aria-live="polite" hidden></section>
       <p id="emptyState" class="empty-state" hidden>表示できる予定がありません。</p>
     </main>
 

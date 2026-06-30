@@ -2,7 +2,7 @@ const state = {
   events: [],
   filter: "upcoming",
   sortMode: "event-date",
-  viewMode: "cards",
+  viewMode: "calendar",
   calendarStartMonth: "",
   calendarMonthCount: 3,
   calendarMode: "live",
@@ -47,10 +47,11 @@ async function init() {
   viewButtons.forEach((button) => {
     button.addEventListener("click", () => {
       state.viewMode = button.dataset.view;
-      viewButtons.forEach((item) => item.classList.toggle("is-active", item === button));
+      updateViewButtons();
       render();
     });
   });
+  updateViewButtons();
 
   calendarModeButtons.forEach((button) => {
     button.addEventListener("click", () => {
@@ -132,6 +133,14 @@ function renderCalendar() {
 function updateHeaderSummary(visibleCount) {
   eventCount.textContent = `${visibleCount}件`;
   updateNextLiveSummary();
+}
+
+function updateViewButtons() {
+  viewButtons.forEach((button) => {
+    const isActive = button.dataset.view === state.viewMode;
+    button.classList.toggle("is-active", isActive);
+    button.setAttribute("aria-pressed", String(isActive));
+  });
 }
 
 function updateNextLiveSummary() {

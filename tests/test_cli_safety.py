@@ -1734,8 +1734,20 @@ def test_static_public_ui_has_filters_date_groups_and_status_badges():
         assert f'data-sort="{sort_name}"' in html
     for view_name in ("cards", "calendar"):
         assert f'data-view="{view_name}"' in html
+    assert 'viewMode: "calendar"' in app_js
+    assert 'data-view="cards" aria-pressed="false"' in html
+    assert 'data-view="calendar" aria-pressed="true"' in html
+    assert '<section id="calendarView" class="calendar-view">' in html
+    event_list_tag = html.split('<section id="eventList"', 1)[1].split(">", 1)[0]
+    assert 'class="event-list"' in event_list_tag
+    assert 'aria-live="polite"' in event_list_tag
+    assert "hidden" in event_list_tag
+    assert "updateViewButtons" in app_js
     for calendar_mode in ("live", "lotteryDeadline", "firstComeDeadline"):
         assert f'data-calendar-mode="{calendar_mode}"' in html
+    assert 'data-calendar-mode="application"' not in html
+    assert 'data-calendar-mode="payment"' not in html
+    assert 'data-calendar-mode="all"' not in html
     assert 'data-calendar-mode="live" aria-pressed="true"' in html
     assert 'data-calendar-mode="lotteryDeadline" aria-pressed="false"' in html
     assert 'data-calendar-mode="firstComeDeadline" aria-pressed="false"' in html
