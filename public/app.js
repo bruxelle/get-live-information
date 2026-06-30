@@ -147,6 +147,8 @@ function updateViewButtons() {
 
 function syncViewState() {
   updateViewButtons();
+  document.body.classList.toggle("is-calendar-view", state.viewMode === "calendar");
+  document.body.classList.toggle("is-cards-view", state.viewMode === "cards");
   if (state.viewMode === "calendar") {
     calendarView.hidden = false;
     calendarView.removeAttribute("hidden");

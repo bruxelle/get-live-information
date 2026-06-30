@@ -1744,6 +1744,8 @@ def test_static_public_ui_has_filters_date_groups_and_status_badges():
     assert "hidden" in event_list_tag
     assert "updateViewButtons" in app_js
     assert "syncViewState" in app_js
+    assert 'classList.toggle("is-calendar-view"' in app_js
+    assert 'classList.toggle("is-cards-view"' in app_js
     assert "calendar-initial-render-20260630" in html
     for calendar_mode in ("live", "lotteryDeadline", "firstComeDeadline"):
         assert f'data-calendar-mode="{calendar_mode}"' in html
@@ -1772,6 +1774,9 @@ def test_static_public_ui_has_filters_date_groups_and_status_badges():
     assert "next_ticket_deadline_at" in app_js
     assert "ticketSalesList" in app_js
     assert "ticket-sale-chip" in css
+    assert "controls-panel" in css
+    assert "body.is-calendar-view .filters" in css
+    assert "body.is-calendar-view .sort-controls" in css
     assert "view-switcher" in css
     assert "calendar-mode-controls" in css
     assert "deadline-alerts" in css

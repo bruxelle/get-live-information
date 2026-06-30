@@ -156,6 +156,11 @@ h1 {
   backdrop-filter: blur(14px);
 }
 
+body.is-calendar-view .filters,
+body.is-calendar-view .sort-controls {
+  display: none;
+}
+
 .filters,
 .sort-controls,
 .view-switcher,
