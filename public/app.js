@@ -52,6 +52,7 @@ async function init() {
     });
   });
   updateViewButtons();
+  syncViewState();
 
   calendarModeButtons.forEach((button) => {
     button.addEventListener("click", () => {
@@ -95,6 +96,7 @@ async function init() {
 }
 
 function render() {
+  syncViewState();
   if (state.viewMode === "calendar") {
     renderCalendar();
     return;
@@ -141,6 +143,21 @@ function updateViewButtons() {
     button.classList.toggle("is-active", isActive);
     button.setAttribute("aria-pressed", String(isActive));
   });
+}
+
+function syncViewState() {
+  updateViewButtons();
+  if (state.viewMode === "calendar") {
+    calendarView.hidden = false;
+    calendarView.removeAttribute("hidden");
+    eventList.hidden = true;
+    eventList.setAttribute("hidden", "");
+    return;
+  }
+  calendarView.hidden = true;
+  calendarView.setAttribute("hidden", "");
+  eventList.hidden = false;
+  eventList.removeAttribute("hidden");
 }
 
 function updateNextLiveSummary() {

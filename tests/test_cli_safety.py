@@ -1743,6 +1743,8 @@ def test_static_public_ui_has_filters_date_groups_and_status_badges():
     assert 'aria-live="polite"' in event_list_tag
     assert "hidden" in event_list_tag
     assert "updateViewButtons" in app_js
+    assert "syncViewState" in app_js
+    assert "calendar-initial-render-20260630" in html
     for calendar_mode in ("live", "lotteryDeadline", "firstComeDeadline"):
         assert f'data-calendar-mode="{calendar_mode}"' in html
     assert 'data-calendar-mode="application"' not in html
