@@ -101,46 +101,31 @@ h1 {
 }
 
 .topbar-summary {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: end;
+  align-items: center;
+  justify-content: start;
+  gap: 6px;
 }
 
-.event-count,
-.next-live-summary {
-  min-height: 44px;
+.deadline-status-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.deadline-status-item,
+.deadline-status-empty {
   margin: 0;
   border: 1px solid var(--line);
-  border-radius: 8px;
+  border-radius: 999px;
   background: rgb(255 255 255 / 76%);
-  padding: 9px 10px;
+  padding: 4px 9px;
   box-shadow: 0 6px 18px rgb(22 28 36 / 5%);
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 900;
-  line-height: 1.35;
-}
-
-.event-count::before {
-  content: "表示中";
-  display: block;
-  color: var(--subtle);
-  font-size: 10px;
-  font-weight: 800;
-}
-
-.next-live-summary {
-  overflow: hidden;
-  color: var(--accent-dark);
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-.next-live-summary::before {
-  content: "次回";
-  display: block;
-  color: var(--subtle);
-  font-size: 10px;
-  font-weight: 800;
+  line-height: 1.25;
 }
 
 .controls-panel {
@@ -277,7 +262,19 @@ body.is-calendar-view .sort-controls {
   color: #9e1f3a;
 }
 
+.deadline-status-today {
+  border-color: #f4b5c0;
+  background: #fff0f3;
+  color: #9e1f3a;
+}
+
 .deadline-alert-tomorrow {
+  border-color: #f0d58f;
+  background: #fff8dc;
+  color: #755000;
+}
+
+.deadline-status-tomorrow {
   border-color: #f0d58f;
   background: #fff8dc;
   color: #755000;
@@ -936,19 +933,19 @@ body.detail-sheet-open {
 
 .detail-sheet-body {
   display: grid;
-  gap: 12px;
+  gap: 10px;
   overflow-y: auto;
   overscroll-behavior: contain;
-  padding: 12px 12px calc(18px + env(safe-area-inset-bottom));
+  padding: 10px 10px calc(18px + env(safe-area-inset-bottom));
 }
 
 .detail-event-card {
   display: grid;
-  gap: 12px;
+  gap: 10px;
   border: 1px solid var(--line);
   border-radius: 8px;
   background: var(--surface);
-  padding: 13px;
+  padding: 12px;
   box-shadow: 0 5px 18px rgb(22 28 36 / 7%);
 }
 
@@ -966,18 +963,37 @@ body.detail-sheet-open {
   overflow-wrap: anywhere;
 }
 
+.detail-context-badge {
+  justify-self: start;
+  margin: -2px 0 0;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--accent-dark);
+  padding: 4px 9px;
+  font-size: 12px;
+  font-weight: 900;
+  line-height: 1.2;
+}
+
 .detail-section {
   display: grid;
-  gap: 8px;
+  gap: 7px;
   border-top: 1px solid var(--line);
-  padding-top: 12px;
+  padding-top: 10px;
 }
 
 .detail-section-title {
   margin: 0;
   color: var(--ink);
-  font-size: 14px;
+  font-size: 13px;
+  font-weight: 900;
   line-height: 1.35;
+}
+
+.detail-key-info {
+  display: grid;
+  gap: 7px;
+  margin: 0;
 }
 
 .detail-text-row {
@@ -1034,6 +1050,10 @@ body.detail-sheet-open {
   gap: 8px;
 }
 
+.detail-actions:empty {
+  display: none;
+}
+
 @media (min-width: 560px) {
   .topbar {
     grid-template-columns: minmax(0, 1fr) 240px;
@@ -1046,6 +1066,20 @@ body.detail-sheet-open {
 }
 
 @media (max-width: 640px) {
+  .topbar {
+    gap: 8px;
+    padding-bottom: 10px;
+  }
+
+  .topbar-copy {
+    gap: 4px;
+  }
+
+  .topbar-subtitle {
+    font-size: 13px;
+    line-height: 1.4;
+  }
+
   .calendar-weekdays,
   .calendar-grid {
     width: calc(100% + 28px);
