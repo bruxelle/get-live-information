@@ -1773,6 +1773,7 @@ def test_static_public_ui_has_filters_date_groups_and_status_badges():
     assert "calendarCell" in app_js
     assert "renderDeadlineAlerts" in app_js
     assert "deadlineAlertItem" in app_js
+    assert "missingDeadlineNotice" in app_js
     assert "selectedDate" not in app_js
     assert "selected-date" not in html
     assert "この日のライブ予定はありません" not in html
@@ -1788,6 +1789,7 @@ def test_static_public_ui_has_filters_date_groups_and_status_badges():
     assert "view-switcher" in css
     assert "calendar-mode-controls" in css
     assert "deadline-alerts" in css
+    assert "missing-deadline-notice" in css
     assert "calendar-grid" in css
     assert "calendar-day" in css
     assert "has-events" in css
@@ -1867,6 +1869,9 @@ def test_public_ui_spec_calendar_controls_and_card_controls_contract():
     assert "body.is-calendar-view .sort-controls" in css
     assert "body.is-calendar-view .controls-panel" not in css
     assert "body.is-calendar-view .view-switcher" not in css
+    assert 'data-filter="missing-deadline"' in html
+    assert "missingDeadlineNotice" in app_js
+    assert "missing-deadline-notice" in css
 
 
 def test_public_ui_spec_document_is_present_and_mentions_key_contract_terms():
