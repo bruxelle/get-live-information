@@ -14,9 +14,9 @@
           <h1>myojou ライブ予定</h1>
           <p class="topbar-subtitle">ライブ日・申込締切・チケット状況をまとめて確認できます。</p>
         </div>
-        <div class="topbar-summary" aria-label="表示中の予定">
-          <p id="eventCount" class="event-count"></p>
-          <p id="nextLiveSummary" class="next-live-summary"></p>
+        <div class="topbar-summary deadline-status" aria-label="締切状況">
+          <div id="deadlineStatusList" class="deadline-status-list"></div>
+          <p id="deadlineStatusEmpty" class="deadline-status-empty" hidden>直近の締切なし</p>
         </div>
       </header>
 
@@ -41,12 +41,6 @@
       </section>
 
       <section id="calendarView" class="calendar-view">
-        <section class="deadline-alerts" aria-labelledby="deadlineAlertsHeading">
-          <h2 id="deadlineAlertsHeading" class="deadline-alerts-heading">締切アラート</h2>
-          <div id="deadlineAlertsList" class="deadline-alerts-list"></div>
-          <p id="deadlineAlertsEmpty" class="deadline-alerts-empty" hidden>直近の締切アラートはありません。</p>
-        </section>
-
         <nav class="calendar-mode-controls" aria-label="カレンダー表示モード">
           <button class="calendar-mode-button is-active" type="button" data-calendar-mode="live" aria-pressed="true">ライブ日</button>
           <button class="calendar-mode-button" type="button" data-calendar-mode="lotteryDeadline" aria-pressed="false">抽選締切</button>

@@ -16,12 +16,10 @@ const calendarModeButtons = Array.from(document.querySelectorAll(".calendar-mode
 const monthLoadButtons = Array.from(document.querySelectorAll("[data-month-load]"));
 const eventList = document.querySelector("#eventList");
 const emptyState = document.querySelector("#emptyState");
-const eventCount = document.querySelector("#eventCount");
-const nextLiveSummary = document.querySelector("#nextLiveSummary");
 const calendarView = document.querySelector("#calendarView");
 const calendarMonths = document.querySelector("#calendarMonths");
-const deadlineAlertsList = document.querySelector("#deadlineAlertsList");
-const deadlineAlertsEmpty = document.querySelector("#deadlineAlertsEmpty");
+const deadlineStatusList = document.querySelector("#deadlineStatusList");
+const deadlineStatusEmpty = document.querySelector("#deadlineStatusEmpty");
 let detailSheetOverlay = null;
 let detailSheetCloseButton = null;
 
@@ -106,7 +104,7 @@ function render() {
 
 function renderCards() {
   const events = filteredEvents(state.events);
-  updateHeaderSummary(events.length);
+  renderDeadlineAlerts(MyojouCalendar.dateKey(startOfToday()));
   calendarView.hidden = true;
   eventList.hidden = false;
   eventList.removeAttribute("hidden");
@@ -119,22 +117,14 @@ function renderCalendar() {
   const todayKey = MyojouCalendar.dateKey(startOfToday());
   const months = MyojouCalendar.visibleMonthKeys(state.calendarStartMonth, state.calendarMonthCount);
   const monthSections = months.map((month) => calendarMonthSection(month, todayKey));
-  const visibleEntryCount = monthSections.reduce((total, section) => total + section.entryCount, 0);
 
   eventList.hidden = true;
   eventList.setAttribute("hidden", "");
   emptyState.hidden = true;
   calendarView.hidden = false;
   calendarView.removeAttribute("hidden");
-  eventCount.textContent = `${visibleEntryCount}件`;
-  updateNextLiveSummary();
   renderDeadlineAlerts(todayKey);
   calendarMonths.replaceChildren(...monthSections.map((section) => section.node));
-}
-
-function updateHeaderSummary(visibleCount) {
-  eventCount.textContent = `${visibleCount}件`;
-  updateNextLiveSummary();
 }
 
 function updateViewButtons() {
@@ -160,48 +150,6 @@ function syncViewState() {
   calendarView.setAttribute("hidden", "");
   eventList.hidden = false;
   eventList.removeAttribute("hidden");
-}
-
-function updateNextLiveSummary() {
-  if (!nextLiveSummary) return;
-  const next = nextUpcomingLive(state.events, startOfToday());
-  if (!next) {
-    nextLiveSummary.textContent = "未定";
-    return;
-  }
-  const title = next.event.event_name || next.event.title || "未定";
-  const venue = next.event.venue ? ` / ${next.event.venue}` : "";
-  const weekday = next.dateKey === next.event.event_date ? next.event.weekday : weekdayForDate(next.dateKey);
-  nextLiveSummary.textContent = `${formatDate(next.dateKey, weekday)} ${title}${venue}`;
-}
-
-function nextUpcomingLive(events, today) {
-  let next = null;
-  for (const event of events || []) {
-    const dateKey = nearestUpcomingEventDateKey(event, today);
-    if (!dateKey) continue;
-    const sortKey = [dateKey, event.start_time || "99:99", event.event_name || event.title || "", event.venue || ""].join("\u0000");
-    if (!next || sortKey.localeCompare(next.sortKey) < 0) {
-      next = { event, dateKey, sortKey };
-    }
-  }
-  return next;
-}
-
-function nearestUpcomingEventDateKey(event, today) {
-  const candidates = eventDateKeys(event)
-    .map((dateKey) => ({ dateKey, date: parseDate(dateKey) }))
-    .filter((candidate) => candidate.date && candidate.date >= today)
-    .sort((left, right) => left.date - right.date || left.dateKey.localeCompare(right.dateKey));
-  return candidates[0]?.dateKey || "";
-}
-
-function eventDateKeys(event) {
-  const values = [];
-  if (event?.event_date) values.push(event.event_date);
-  if (event?.date) values.push(event.date);
-  if (Array.isArray(event?.event_dates)) values.push(...event.event_dates);
-  return Array.from(new Set(values.map(isoDatePart).filter(Boolean)));
 }
 
 function filteredEvents(events) {
@@ -545,7 +493,7 @@ function openDetailSheet({ title, subtitle, events, trigger }) {
   state.activeDetailTrigger = trigger || document.activeElement;
   overlay.querySelector("#detailSheetTitle").textContent = title;
   overlay.querySelector("#detailSheetMode").textContent = subtitle || "";
-  overlay.querySelector("#detailSheetBody").replaceChildren(...events.map(detailEventCard));
+  overlay.querySelector("#detailSheetBody").replaceChildren(...events.map((event) => detailEventCard(event, subtitle)));
   overlay.hidden = false;
   document.body.classList.add("detail-sheet-open");
   detailSheetCloseButton?.focus();
@@ -562,15 +510,16 @@ function closeDetailSheet() {
   }
 }
 
-function detailEventCard(event) {
+function detailEventCard(event, contextLabel = "") {
   const card = el("article", { className: "detail-event-card" }, [
     el("div", { className: "detail-event-head" }, [
       el("p", { className: "event-date" }, formatDate(event.event_date || event.date, event.weekday)),
       el("span", { className: `status ${statusClass(event.ticket_status)}` }, event.ticket_status || "不明"),
     ]),
     el("h3", { className: "detail-event-title" }, event.event_name || event.title || "未定"),
+    detailContextBadge(contextLabel),
     detailSection("ライブ情報", [
-      detailText("会場", event.venue),
+      detailLiveInfoList(event),
       detailScheduleList(event),
     ]),
     detailSection("チケット情報", [
@@ -581,9 +530,16 @@ function detailEventCard(event) {
       detailApplicationList(event),
     ]),
     detailReviewNotice(event),
-    detailActions(event),
+    detailSection("リンク", [
+      detailActions(event),
+    ]),
   ]);
   return card;
+}
+
+function detailContextBadge(label) {
+  if (!label) return null;
+  return el("p", { className: "detail-context-badge" }, label);
 }
 
 function detailSection(title, children) {
@@ -604,6 +560,13 @@ function detailScheduleList(event) {
   ].filter(([, value]) => value);
   if (!rows.length) return null;
   return el("dl", { className: "detail-schedule-list" }, rows.map(([label, value]) => detailRow(label, value)));
+}
+
+function detailLiveInfoList(event) {
+  return el("dl", { className: "detail-key-info" }, [
+    detailRow("日付", formatDate(event.event_date || event.date, event.weekday)),
+    detailRow("会場", event.venue),
+  ].filter(Boolean));
 }
 
 function detailTicketSummaryList(event) {
@@ -684,28 +647,23 @@ function sourceUrlForEvent(event) {
 function renderDeadlineAlerts(todayKey) {
   const alerts = MyojouCalendar.buildDeadlineAlerts(state.events, todayKey);
   const items = [
-    deadlineAlertItem("今日締切", alerts.today, "deadline-alert-today"),
-    deadlineAlertItem("明日締切", alerts.tomorrow, "deadline-alert-tomorrow"),
+    deadlineAlertItem("今日締切", alerts.today, "deadline-status-today"),
+    deadlineAlertItem("明日締切", alerts.tomorrow, "deadline-status-tomorrow"),
     missingDeadlineNotice(alerts.missing),
   ].filter(Boolean);
 
-  deadlineAlertsList.replaceChildren(...items);
-  deadlineAlertsEmpty.hidden = items.length !== 0;
+  deadlineStatusList.replaceChildren(...items);
+  deadlineStatusEmpty.hidden = items.length !== 0;
 }
 
 function deadlineAlertItem(label, events, className) {
   if (!events.length) return null;
-  const names = events.slice(0, 2).map((event) => event.event_name || "ライブ");
-  const extra = events.length > names.length ? ` +${events.length - names.length}` : "";
-  return el("article", { className: `deadline-alert-item ${className}` }, [
-    el("strong", {}, `${label} ${events.length}件`),
-    el("span", {}, `${names.join(" / ")}${extra}`),
-  ]);
+  return el("span", { className: `deadline-status-item ${className}` }, `${label}: ${events.length}件`);
 }
 
 function missingDeadlineNotice(events) {
   if (!events.length) return null;
-  return el("p", { className: "missing-deadline-notice" }, `締切未取得: ${events.length}件`);
+  return el("span", { className: "deadline-status-item missing-deadline-notice" }, `締切未取得: ${events.length}件`);
 }
 
 function shortEventLabel(value) {

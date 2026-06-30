@@ -1774,6 +1774,12 @@ def test_static_public_ui_has_filters_date_groups_and_status_badges():
     assert "renderDeadlineAlerts" in app_js
     assert "deadlineAlertItem" in app_js
     assert "missingDeadlineNotice" in app_js
+    assert "deadlineStatusList" in app_js
+    assert "deadlineStatusEmpty" in app_js
+    assert 'id="deadlineStatusList"' in html
+    assert 'id="deadlineStatusEmpty"' in html
+    assert 'id="eventCount"' not in html
+    assert 'id="nextLiveSummary"' not in html
     assert "selectedDate" not in app_js
     assert "selected-date" not in html
     assert "この日のライブ予定はありません" not in html
@@ -1783,12 +1789,22 @@ def test_static_public_ui_has_filters_date_groups_and_status_badges():
     assert "next_ticket_deadline_at" in app_js
     assert "ticketSalesList" in app_js
     assert "ticket-sale-chip" in css
+    assert "detailContextBadge" in app_js
+    assert "detailLiveInfoList" in app_js
+    assert 'detailSection("ライブ情報"' in app_js
+    assert 'detailSection("チケット情報"' in app_js
+    assert 'detailSection("申込情報"' in app_js
+    assert 'detailSection("リンク"' in app_js
+    assert "detail-context-badge" in css
+    assert "detail-key-info" in css
+    assert "detail-actions" in app_js
     assert "controls-panel" in css
     assert "body.is-calendar-view .filters" in css
     assert "body.is-calendar-view .sort-controls" in css
     assert "view-switcher" in css
     assert "calendar-mode-controls" in css
-    assert "deadline-alerts" in css
+    assert "deadline-status-list" in css
+    assert "deadline-status-item" in css
     assert "missing-deadline-notice" in css
     assert "calendar-grid" in css
     assert "calendar-day" in css
@@ -1798,11 +1814,8 @@ def test_static_public_ui_has_filters_date_groups_and_status_badges():
     assert "filterCalendarEntriesForDisplay" in app_js
     assert "lotteryDeadline" in app_js
     assert "firstComeDeadline" in app_js
-    assert "nextUpcomingLive" in app_js
-    assert "nearestUpcomingEventDateKey" in app_js
-    next_live_function = app_js.split("function updateNextLiveSummary()", 1)[1].split("function filteredEvents", 1)[0]
-    assert "sortedEvents" not in next_live_function
-    assert "次のライブ" not in next_live_function
+    assert "nextUpcomingLive" not in app_js
+    assert "updateNextLiveSummary" not in app_js
     assert "ライブ日" in html
     assert "抽選締切" in html
     assert "先着締切" in html
@@ -1872,6 +1885,10 @@ def test_public_ui_spec_calendar_controls_and_card_controls_contract():
     assert 'data-filter="missing-deadline"' in html
     assert "missingDeadlineNotice" in app_js
     assert "missing-deadline-notice" in css
+    assert 'aria-label="締切状況"' in html
+    assert "deadline-status-item" in css
+    assert 'id="eventCount"' not in html
+    assert 'id="nextLiveSummary"' not in html
 
 
 def test_public_ui_spec_document_is_present_and_mentions_key_contract_terms():
