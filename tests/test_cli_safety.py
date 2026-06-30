@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import re
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
@@ -34,6 +35,13 @@ from myojou_sync.sync.notion import _event_to_notion_properties
 from myojou_sync.sync.notion import NotionEventSink
 from myojou_sync.sync.sheets import GoogleSheetsEventSink
 from myojou_sync.x_client import FetchMetadata
+
+
+def _opening_tag_with_attr(html: str, tag_name: str, attr_name: str, attr_value: str) -> str:
+    pattern = rf"<{tag_name}\b(?=[^>]*\b{re.escape(attr_name)}=\"{re.escape(attr_value)}\")[^>]*>"
+    match = re.search(pattern, html)
+    assert match, f"missing <{tag_name}> with {attr_name}={attr_value!r}"
+    return match.group(0)
 
 
 class FakeNotionSink:
@@ -1814,6 +1822,60 @@ def test_static_public_ui_has_filters_date_groups_and_status_badges():
     assert "summary-missing" in css
     assert "application-row" in css
     assert "ticket-button" in css
+
+
+def test_public_ui_spec_default_calendar_initial_state():
+    app_js = Path("public/app.js").read_text(encoding="utf-8")
+    html = Path("public/index.html").read_text(encoding="utf-8")
+
+    cards_button = _opening_tag_with_attr(html, "button", "data-view", "cards")
+    calendar_button = _opening_tag_with_attr(html, "button", "data-view", "calendar")
+    calendar_view = _opening_tag_with_attr(html, "section", "id", "calendarView")
+    event_list = _opening_tag_with_attr(html, "section", "id", "eventList")
+
+    assert 'viewMode: "calendar"' in app_js
+    assert "is-active" not in cards_button
+    assert 'aria-pressed="false"' in cards_button
+    assert "is-active" in calendar_button
+    assert 'aria-pressed="true"' in calendar_button
+    assert "hidden" not in calendar_view
+    assert "hidden" in event_list
+    assert "syncViewState" in app_js
+
+
+def test_public_ui_spec_calendar_controls_and_card_controls_contract():
+    app_js = Path("public/app.js").read_text(encoding="utf-8")
+    html = Path("public/index.html").read_text(encoding="utf-8")
+    css = Path("public/styles.css").read_text(encoding="utf-8")
+
+    calendar_modes = re.findall(r'data-calendar-mode="([^"]+)"', html)
+    assert calendar_modes == ["live", "lotteryDeadline", "firstComeDeadline"]
+    assert "ライブ日" in html
+    assert "抽選締切" in html
+    assert "先着締切" in html
+    assert not {"application", "payment", "all"} & set(calendar_modes)
+
+    for label in ("今日以降", "今週", "今月", "締切未取得", "すべて", "ライブ日順", "申込締切順"):
+        assert label in html
+    assert 'data-view="cards"' in html
+    assert 'data-view="calendar"' in html
+    assert "controls-panel" in html
+
+    assert 'classList.toggle("is-calendar-view"' in app_js
+    assert 'classList.toggle("is-cards-view"' in app_js
+    assert "body.is-calendar-view .filters" in css
+    assert "body.is-calendar-view .sort-controls" in css
+    assert "body.is-calendar-view .controls-panel" not in css
+    assert "body.is-calendar-view .view-switcher" not in css
+
+
+def test_public_ui_spec_document_is_present_and_mentions_key_contract_terms():
+    spec = Path("docs/public-ui-spec.md")
+    assert spec.exists()
+    text = spec.read_text(encoding="utf-8")
+
+    for phrase in ("ライブ日", "抽選締切", "先着締切", "application", "payment", "all", "カレンダー", "カード"):
+        assert phrase in text
 
 
 def test_readme_documents_empty_deadlines_stay_visible():

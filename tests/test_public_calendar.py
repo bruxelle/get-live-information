@@ -270,3 +270,46 @@ def test_calendar_display_mode_filter_keeps_live_and_deadline_modes_exclusive():
     )
 
     subprocess.run(["node", "-e", script], check=True, cwd=".")
+
+
+def test_public_ui_spec_calendar_mode_filter_semantics_are_exclusive():
+    script = textwrap.dedent(
+        """
+        const assert = require("assert");
+        const helpers = require("./public/calendar_helpers.js");
+        const event = { event_name: "ONE AND ONLY", event_date: "2026-07-16" };
+        const entries = [
+          { kind: "live", event },
+          { kind: "application", deadline_kind: "lotteryDeadline", label: "抽選申込締切", event },
+          { kind: "application", deadline_kind: "firstComeDeadline", label: "先着申込締切", event },
+          { kind: "payment", event },
+        ];
+
+        assert.deepStrictEqual(
+          helpers.filterCalendarEntriesForDisplay(entries, "live").map((entry) => entry.kind),
+          ["live"],
+        );
+        assert.deepStrictEqual(
+          helpers.filterCalendarEntriesForDisplay(entries, "lotteryDeadline").map((entry) => entry.label),
+          ["抽選申込締切"],
+        );
+        assert.deepStrictEqual(
+          helpers.filterCalendarEntriesForDisplay(entries, "firstComeDeadline").map((entry) => entry.label),
+          ["先着申込締切"],
+        );
+        assert.deepStrictEqual(
+          helpers.filterCalendarEntriesForDisplay(entries, "application"),
+          [],
+        );
+        assert.deepStrictEqual(
+          helpers.filterCalendarEntriesForDisplay(entries, "payment"),
+          [],
+        );
+        assert.deepStrictEqual(
+          helpers.filterCalendarEntriesForDisplay(entries, "all"),
+          [],
+        );
+      """
+    )
+
+    subprocess.run(["node", "-e", script], check=True, cwd=".")
