@@ -686,7 +686,7 @@ function renderDeadlineAlerts(todayKey) {
   const items = [
     deadlineAlertItem("今日締切", alerts.today, "deadline-alert-today"),
     deadlineAlertItem("明日締切", alerts.tomorrow, "deadline-alert-tomorrow"),
-    deadlineAlertItem("締切未取得", alerts.missing, "deadline-alert-missing"),
+    missingDeadlineNotice(alerts.missing),
   ].filter(Boolean);
 
   deadlineAlertsList.replaceChildren(...items);
@@ -701,6 +701,11 @@ function deadlineAlertItem(label, events, className) {
     el("strong", {}, `${label} ${events.length}件`),
     el("span", {}, `${names.join(" / ")}${extra}`),
   ]);
+}
+
+function missingDeadlineNotice(events) {
+  if (!events.length) return null;
+  return el("p", { className: "missing-deadline-notice" }, `締切未取得: ${events.length}件`);
 }
 
 function shortEventLabel(value) {

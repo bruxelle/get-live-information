@@ -289,6 +289,19 @@ body.is-calendar-view .sort-controls {
   color: #6f5839;
 }
 
+.missing-deadline-notice {
+  justify-self: start;
+  margin: 0;
+  border: 1px solid #e9dccb;
+  border-radius: 999px;
+  background: #fffaf0;
+  color: #6f5839;
+  padding: 4px 9px;
+  font-size: 12px;
+  font-weight: 850;
+  line-height: 1.3;
+}
+
 .deadline-alerts-empty {
   margin: 0;
   color: var(--muted);
