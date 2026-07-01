@@ -31,12 +31,8 @@ _PUBLIC_SCHEMA_KEYS = frozenset({
 def sqlite_public_preview_rows(db_path: str | Path) -> list[dict[str, Any]]:
     db = Path(db_path)
     if not db.exists():
-<<<<<<< HEAD
-        raise FileNotFoundError(f"SQLite database not found: {db}")
-=======
         raise FileNotFoundError(f"SQLite database does not exist: {db}")
     initialize_sqlite_schema(db)
->>>>>>> 549d0f8 (address sqlite public export review comments)
     with sqlite3.connect(db) as conn:
         conn.row_factory = sqlite3.Row
         rows = conn.execute(
