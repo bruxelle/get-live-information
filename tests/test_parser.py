@@ -265,6 +265,30 @@ def test_goods_number_kuji_announcement_with_live_context_is_non_event():
     assert parser.parse_post(post, classification=classification) is None
 
 
+def test_limited_tshirt_announcement_with_live_context_is_non_event():
+    text = (
+        "✮••┈┈┈┈••✮••┈┈┈┈••✮\n"
+        "       myojou Summer Vol.03\n"
+        "            限定Tシャツ公開\n"
+        "✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n"
+        "⟣date：7/19（日）\n"
+        "⟣place : 渋谷音楽堂\n"
+        "⟣open/start：17:30/18:00\n"
+        "⟣price：優先¥6,000（限定Tシャツ付き）/一般¥0（各+1D）\n\n"
+        "【一般販売】\n"
+        "6/21（日）22:00-7/18（土）23:59\n"
+        "🔗 https://t-dv.com/myojou_0719\n"
+    )
+    post = XPost(id="2071494887225323698", created_at=datetime(2026, 6, 29, 23, 31, tzinfo=JST), text=text)
+    parser = PostParser()
+
+    classification = parser.classify_post(post)
+
+    assert classification.classification == PostClassification.NON_EVENT
+    assert "goods/number lottery" in classification.reason
+    assert parser.parse_post(post, classification=classification) is None
+
+
 def test_live_post_with_incidental_goods_mention_is_still_event():
     post = XPost(
         id="live-with-goods-side-note",

@@ -2,6 +2,7 @@ cat > .gitignore <<'EOF'
 .venv/
 .env
 .state/
+reports/
 __pycache__/
 *.pyc
 .pytest_cache/
