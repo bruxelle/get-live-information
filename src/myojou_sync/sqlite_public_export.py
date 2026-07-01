@@ -84,11 +84,7 @@ def sqlite_public_diff(db_path: str | Path, current_path: str | Path) -> dict[st
     preview_validation = validate_public_rows(preview_rows)
     current_validation = validate_public_rows(current_rows)
     current_validation.errors[:0] = current_load_errors
-<<<<<<< HEAD
     diff_counts = compare_public_rows(current_rows, [_to_public_schema_row(r) for r in preview_rows])
-=======
-    diff_counts = compare_public_rows(current_rows, _strip_preview_debug_keys(preview_rows))
->>>>>>> 549d0f8 (address sqlite public export review comments)
     current_keys = {_row_key(row): row for row in current_rows}
     preview_keys = {_row_key(row): row for row in preview_rows}
     current_titles = {_title_key(row) for row in current_rows if _title_key(row)}
