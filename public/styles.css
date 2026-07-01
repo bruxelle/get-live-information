@@ -225,14 +225,22 @@ h1 {
 }
 
 body.is-calendar-view .filters,
-body.is-calendar-view .sort-controls {
+body.is-calendar-view .sort-controls,
+body.is-calendar-view .card-controls {
   display: none;
+}
+
+.card-controls,
+.calendar-controls {
+  display: grid;
+  gap: var(--space-3);
 }
 
 .filters,
 .sort-controls,
 .view-switcher,
-.calendar-mode-controls {
+.calendar-mode-controls,
+.calendar-month-controls {
   display: flex;
   gap: var(--space-gap-md);
   overflow-x: auto;
@@ -243,8 +251,18 @@ body.is-calendar-view .sort-controls {
 .filters::-webkit-scrollbar,
 .sort-controls::-webkit-scrollbar,
 .view-switcher::-webkit-scrollbar,
-.calendar-mode-controls::-webkit-scrollbar {
+.calendar-mode-controls::-webkit-scrollbar,
+.calendar-month-controls::-webkit-scrollbar {
   display: none;
+}
+
+.view-switcher {
+  width: fit-content;
+  max-width: 100%;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-pill);
+  background: rgb(255 255 255 / 62%);
+  padding: var(--space-1);
 }
 
 .filter-button,
@@ -262,6 +280,21 @@ body.is-calendar-view .sort-controls {
   font-size: var(--font-size-md);
   font-weight: 850;
   box-shadow: var(--shadow-sm);
+}
+
+.view-switcher .view-button {
+  border-color: transparent;
+  box-shadow: none;
+}
+
+.calendar-controls {
+  margin-top: calc(var(--space-2) * -1);
+}
+
+.calendar-month-controls {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  overflow: visible;
 }
 
 .filter-button:focus-visible,
