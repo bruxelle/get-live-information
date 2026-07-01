@@ -7,6 +7,7 @@ from pathlib import Path
 from typing import Any
 
 from .public_validation import compare_public_rows, read_public_rows, validate_public_rows
+from .sqlite_schema import initialize_sqlite_schema
 
 
 @dataclass(frozen=True)
