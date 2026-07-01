@@ -9,6 +9,7 @@ from pathlib import Path
 from .config import Settings
 from .env_validation import missing_for_target, validation_lines
 from .parser import PostParser
+from .parsed_import import import_parsed_events
 from .pipeline import SyncPipeline, build_quality_report
 from .public_output import events_to_json, events_to_table, events_to_web_rows, write_web_events_json
 from .public_validation import compare_public_rows, read_public_rows, validate_public_rows
@@ -56,6 +57,10 @@ def build_parser() -> argparse.ArgumentParser:
     import_posts.add_argument("--db", required=True, help="SQLite database path (schema will be initialized if needed).")
     import_posts.add_argument("--archive", required=True, help="X archive/backfill JSON path.")
     import_posts.add_argument("--log-level", default="INFO", choices=["DEBUG", "INFO", "WARNING", "ERROR"])
+
+    import_events = subparsers.add_parser("import-parsed-events", help="Parse normalized source_posts into events and event_sources.")
+    import_events.add_argument("--db", required=True, help="SQLite database path with imported source_posts.")
+    import_events.add_argument("--log-level", default="INFO", choices=["DEBUG", "INFO", "WARNING", "ERROR"])
 
     refresh_public = subparsers.add_parser("refresh-public", help="Run incremental sync, validate, and optionally update public/events.json.")
     refresh_public.add_argument("--db", help="SQLite state database path.")
@@ -188,6 +193,25 @@ def main(argv: list[str] | None = None) -> int:
             f"inserted: {result.inserted_count}\n"
             f"updated: {result.updated_count}\n"
             f"skipped: {result.skipped_count}"
+        )
+        return 0
+
+    if args.command == "import-parsed-events":
+        try:
+            result = import_parsed_events(args.db, username=settings.x_username)
+        except (OSError, ValueError, SQLiteSchemaCompatibilityError) as exc:
+            print(str(exc), file=sys.stderr)
+            return 2
+        print(
+            "Imported parsed events:\n"
+            f"db_path: {result.db_path}\n"
+            f"source_posts_read: {result.source_posts_read}\n"
+            f"parsed_event_candidates: {result.parsed_event_candidates}\n"
+            f"events_inserted: {result.events_inserted}\n"
+            f"events_updated: {result.events_updated}\n"
+            f"events_skipped: {result.events_skipped}\n"
+            f"event_sources_inserted: {result.event_sources_inserted}\n"
+            f"event_sources_skipped: {result.event_sources_skipped}"
         )
         return 0
 
