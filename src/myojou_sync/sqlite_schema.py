@@ -263,6 +263,7 @@ CREATE TABLE IF NOT EXISTS event_sources (
     created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
     updated_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
     FOREIGN KEY (event_id) REFERENCES events(id) ON UPDATE CASCADE ON DELETE CASCADE,
+    FOREIGN KEY (source_post_id) REFERENCES source_posts(id) ON UPDATE CASCADE ON DELETE CASCADE,
     CHECK (confidence IS NULL OR (confidence >= 0 AND confidence <= 1))
 );
 
