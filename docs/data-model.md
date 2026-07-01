@@ -23,6 +23,18 @@ Today, `public/events.json` is the public export consumed by the static GitHub P
 
 The current SQLite state stores enough local sync state and canonical event data to generate the public export, but the future system should separate raw source posts, canonical events, ticket sales, deadlines, review decisions, and public export rows more explicitly.
 
+## Local SQLite Schema Foundation
+
+The first normalized SQLite schema foundation is available for local DB migration work:
+
+```bash
+.venv/bin/myojou-sync init-db --db .state/myojou.sqlite
+```
+
+This command creates the future normalized tables described below, including `source_posts`, `venues`, `events`, `ticket_sales`, `deadlines`, `event_sources`, `classification_reviews`, and `public_exports`.
+
+For now, this schema is a foundation only. The current parser, merger, state store, and public export pipeline still use the existing sync-state storage. Use a fresh DB path for `init-db` until the migration path is implemented.
+
 ## Core Entities
 
 ### SourcePost

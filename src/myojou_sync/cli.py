@@ -15,6 +15,7 @@ from .public_validation import compare_public_rows, read_public_rows, validate_p
 from .readiness import public_readiness
 from .real_samples import evaluate_real_samples
 from .sample_capture import write_x_samples
+from .sqlite_schema import SQLiteSchemaCompatibilityError, initialize_sqlite_schema
 from .state import SQLiteStateStore
 from .sync.notion import NotionEventSink, inspect_notion_schema
 from .sync.sheets import GoogleSheetsEventSink
@@ -45,6 +46,10 @@ def build_parser() -> argparse.ArgumentParser:
     validate_public = subparsers.add_parser("validate-public", help="Validate a static public events JSON file.")
     validate_public.add_argument("--input", default="public/events.json", help="Input JSON path. Defaults to public/events.json.")
     validate_public.add_argument("--log-level", default="INFO", choices=["DEBUG", "INFO", "WARNING", "ERROR"])
+
+    init_db = subparsers.add_parser("init-db", help="Initialize the future normalized SQLite schema.")
+    init_db.add_argument("--db", required=True, help="SQLite database path to initialize.")
+    init_db.add_argument("--log-level", default="INFO", choices=["DEBUG", "INFO", "WARNING", "ERROR"])
 
     refresh_public = subparsers.add_parser("refresh-public", help="Run incremental sync, validate, and optionally update public/events.json.")
     refresh_public.add_argument("--db", help="SQLite state database path.")
@@ -148,6 +153,20 @@ def main(argv: list[str] | None = None) -> int:
         validation.errors[:0] = load_errors
         print(_format_public_validation_report(args.input, validation))
         return 0 if validation.ok else 1
+
+    if args.command == "init-db":
+        try:
+            result = initialize_sqlite_schema(args.db)
+        except SQLiteSchemaCompatibilityError as exc:
+            print(str(exc), file=sys.stderr)
+            return 2
+        print(
+            "Initialized SQLite schema:\n"
+            f"db_path: {result.db_path}\n"
+            f"tables: {', '.join(result.tables)}\n"
+            f"indexes: {', '.join(result.indexes)}"
+        )
+        return 0
 
     if args.command == "refresh-public":
         if args.update_archive and not args.x_archive:
