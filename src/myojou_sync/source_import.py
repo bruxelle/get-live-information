@@ -125,10 +125,12 @@ def _source_post_record(
         return None
     text = _string_value(post.get("text")) or _string_value(post.get("full_text")) or _note_text(post)
     created_at = _string_value(post.get("created_at") or post.get("posted_at"))
+    resolved_author_handle = _post_author_handle(post) or author_handle
     raw_payload = _json_dump(post)
     content_hash = _content_hash(
         {
             "id": post_id,
+            "author_handle": resolved_author_handle,
             "text": text,
             "created_at": created_at,
             "entities": post.get("entities"),
@@ -142,7 +144,7 @@ def _source_post_record(
         "id": f"x:{post_id}",
         "platform": "x",
         "source_post_id": post_id,
-        "author_handle": _post_author_handle(post) or author_handle,
+        "author_handle": resolved_author_handle,
         "text": text,
         "posted_at": created_at,
         "urls": _json_dump(_post_urls(post)),
