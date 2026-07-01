@@ -61,6 +61,7 @@ Project documentation:
 - [Roadmap](docs/roadmap.md)
 - [Phase 1 stabilization checklist](docs/stabilization-checklist.md)
 - [Classification cases](docs/classification-cases.md)
+- [UI redesign plan](docs/ui-redesign-plan.md)
 
 It renders a Japanese mobile-first public UI with two views:
 
