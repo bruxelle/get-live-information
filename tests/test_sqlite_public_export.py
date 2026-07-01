@@ -80,6 +80,19 @@ def test_sqlite_public_preview_rows_contains_public_like_fields(tmp_path):
     assert "review_reasons" in row
 
 
+def test_sqlite_public_preview_rows_missing_db_fails_without_creating_file(tmp_path):
+    db_path = tmp_path / "missing.sqlite"
+
+    try:
+        sqlite_public_preview_rows(db_path)
+    except FileNotFoundError as exc:
+        assert "SQLite database does not exist" in str(exc)
+    else:
+        raise AssertionError("missing database should fail fast")
+
+    assert not db_path.exists()
+
+
 def test_preview_sqlite_public_export_command_writes_separate_file(tmp_path, capsys):
     db_path = _prepare_db(tmp_path)
     output_path = tmp_path / "reports" / "sqlite-public-preview.json"
@@ -130,6 +143,28 @@ def test_sqlite_public_diff_reports_counts_and_title_differences(tmp_path):
     assert diff["titles_only_in_current"] == ["current only live"]
     assert diff["titles_only_in_sqlite"] == ["sqlite preview live"]
     assert diff["sqlite_missing_fields"]["ticket_url"] == 1
+
+
+def test_sqlite_public_diff_ignores_preview_debug_only_source_fields(tmp_path):
+    db_path = _prepare_db(tmp_path)
+    current_path = tmp_path / "events.json"
+    current_rows = []
+    for row in sqlite_public_preview_rows(db_path):
+        public_row = dict(row)
+        public_row.pop("source_url")
+        public_row.pop("all_source_urls")
+        current_rows.append(public_row)
+    current_path.write_text(json.dumps(current_rows, ensure_ascii=False), encoding="utf-8")
+
+    diff = sqlite_public_diff(db_path, current_path)
+
+    assert diff["events_before"] == 1
+    assert diff["events_after"] == 1
+    assert diff["added"] == 0
+    assert diff["removed"] == 0
+    assert diff["possibly_changed"] == 0
+    assert sqlite_public_preview_rows(db_path)[0]["source_url"]
+    assert sqlite_public_preview_rows(db_path)[0]["all_source_urls"]
 
 
 def test_diff_sqlite_public_export_command_prints_summary(tmp_path, capsys):

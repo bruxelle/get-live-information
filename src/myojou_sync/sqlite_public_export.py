@@ -31,7 +31,12 @@ _PUBLIC_SCHEMA_KEYS = frozenset({
 def sqlite_public_preview_rows(db_path: str | Path) -> list[dict[str, Any]]:
     db = Path(db_path)
     if not db.exists():
+<<<<<<< HEAD
         raise FileNotFoundError(f"SQLite database not found: {db}")
+=======
+        raise FileNotFoundError(f"SQLite database does not exist: {db}")
+    initialize_sqlite_schema(db)
+>>>>>>> 549d0f8 (address sqlite public export review comments)
     with sqlite3.connect(db) as conn:
         conn.row_factory = sqlite3.Row
         rows = conn.execute(
@@ -82,7 +87,11 @@ def sqlite_public_diff(db_path: str | Path, current_path: str | Path) -> dict[st
     preview_validation = validate_public_rows(preview_rows)
     current_validation = validate_public_rows(current_rows)
     current_validation.errors[:0] = current_load_errors
+<<<<<<< HEAD
     diff_counts = compare_public_rows(current_rows, [_to_public_schema_row(r) for r in preview_rows])
+=======
+    diff_counts = compare_public_rows(current_rows, _strip_preview_debug_keys(preview_rows))
+>>>>>>> 549d0f8 (address sqlite public export review comments)
     current_keys = {_row_key(row): row for row in current_rows}
     preview_keys = {_row_key(row): row for row in preview_rows}
     current_titles = {_title_key(row) for row in current_rows if _title_key(row)}
@@ -197,3 +206,11 @@ def _missing_field_counts(rows: list[dict[str, Any]]) -> dict[str, int]:
         field: sum(1 for row in rows if not row.get(field))
         for field in important_fields
     }
+
+
+def _strip_preview_debug_keys(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    debug_keys = {"source_url", "all_source_urls"}
+    return [
+        {key: value for key, value in row.items() if key not in debug_keys}
+        for row in rows
+    ]
