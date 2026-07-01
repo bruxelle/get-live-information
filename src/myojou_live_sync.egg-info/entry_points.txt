@@ -1,0 +1,2 @@
+[console_scripts]
+myojou-sync = myojou_sync.cli:main

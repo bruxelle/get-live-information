@@ -7,7 +7,6 @@ from pathlib import Path
 from typing import Any
 
 from .public_validation import compare_public_rows, read_public_rows, validate_public_rows
-from .sqlite_schema import initialize_sqlite_schema
 
 
 @dataclass(frozen=True)
@@ -19,9 +18,20 @@ class SQLitePreviewExportResult:
     validation_warnings: list[str]
 
 
+_PUBLIC_SCHEMA_KEYS = frozenset({
+    "public_event_id", "source_event_id", "event_date", "weekday", "event_name",
+    "venue", "live_summary", "ticket_summary", "application_summary", "ticket_url",
+    "ticket_status", "needs_review", "ticket_application_deadline_at",
+    "payment_deadline_at", "ticket_sales", "next_ticket_deadline_at",
+    "next_ticket_sale_type", "next_ticket_label", "public_ready",
+    "public_not_ready_reasons", "review_reasons",
+})
+
+
 def sqlite_public_preview_rows(db_path: str | Path) -> list[dict[str, Any]]:
     db = Path(db_path)
-    initialize_sqlite_schema(db)
+    if not db.exists():
+        raise FileNotFoundError(f"SQLite database not found: {db}")
     with sqlite3.connect(db) as conn:
         conn.row_factory = sqlite3.Row
         rows = conn.execute(
@@ -72,7 +82,7 @@ def sqlite_public_diff(db_path: str | Path, current_path: str | Path) -> dict[st
     preview_validation = validate_public_rows(preview_rows)
     current_validation = validate_public_rows(current_rows)
     current_validation.errors[:0] = current_load_errors
-    diff_counts = compare_public_rows(current_rows, preview_rows)
+    diff_counts = compare_public_rows(current_rows, [_to_public_schema_row(r) for r in preview_rows])
     current_keys = {_row_key(row): row for row in current_rows}
     preview_keys = {_row_key(row): row for row in preview_rows}
     current_titles = {_title_key(row) for row in current_rows if _title_key(row)}
@@ -91,13 +101,17 @@ def sqlite_public_diff(db_path: str | Path, current_path: str | Path) -> dict[st
     }
 
 
+def _to_public_schema_row(row: dict[str, Any]) -> dict[str, Any]:
+    return {k: v for k, v in row.items() if k in _PUBLIC_SCHEMA_KEYS}
+
+
 def _preview_row_from_sqlite(row: sqlite3.Row) -> dict[str, Any]:
     review_reasons = _json_list(row["review_reasons"])
     source_urls = _source_urls(row["all_source_urls"])
     event_name = row["display_title"] or ""
     event_date = row["event_date"] or ""
     return {
-        "public_event_id": row["id"],
+        "public_event_id": f"{row['id']}:{event_date or 'no-date'}",
         "source_event_id": row["id"],
         "event_date": event_date,
         "weekday": _weekday_label(event_date),
