@@ -35,6 +35,16 @@ This command creates the future normalized tables described below, including `so
 
 For now, this schema is a foundation only. The current parser, merger, state store, and public export pipeline still use the existing sync-state storage. Use a fresh DB path for `init-db` until the migration path is implemented.
 
+Existing X archive/backfill JSON can be imported into the normalized `source_posts` table without changing the current public export pipeline:
+
+```bash
+.venv/bin/myojou-sync import-source-posts \
+  --db .state/myojou.sqlite \
+  --archive mock_posts/real_samples/info_myojou_backfill_500.json
+```
+
+The import is idempotent by `(platform, source_post_id)`. Re-importing unchanged posts skips them; if the captured source content changes, the source row is updated with the new text, URL/media JSON, raw payload, and content hash.
+
 ## Core Entities
 
 ### SourcePost
