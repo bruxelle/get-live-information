@@ -45,6 +45,14 @@ Existing X archive/backfill JSON can be imported into the normalized `source_pos
 
 The import is idempotent by `(platform, source_post_id)`. Re-importing unchanged posts skips them; if the captured source content changes, the source row is updated with the new text, URL/media JSON, raw payload, and content hash.
 
+Parsed event candidates can then be imported from normalized `source_posts` into `events` and `event_sources`:
+
+```bash
+.venv/bin/myojou-sync import-parsed-events --db .state/myojou.sqlite
+```
+
+This command reuses the existing parser, readiness, and merge logic. It currently stores one `events` row per event date for multi-day posts, links rows back to source posts through `event_sources`, and does not yet populate `ticket_sales`, `deadlines`, or public export rows.
+
 ## Core Entities
 
 ### SourcePost
