@@ -55,6 +55,13 @@ public/styles.css
 public/events.json
 ```
 
+Project documentation:
+
+- [Public UI spec](docs/public-ui-spec.md)
+- [Roadmap](docs/roadmap.md)
+- [Phase 1 stabilization checklist](docs/stabilization-checklist.md)
+- [Classification cases](docs/classification-cases.md)
+
 It renders a Japanese mobile-first public UI with two views:
 
 ```text
