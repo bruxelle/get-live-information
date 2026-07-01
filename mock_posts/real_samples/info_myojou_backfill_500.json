@@ -2,6 +2,1216 @@
   "captured_at": "2026-06-10T16:19:36.141820+00:00",
   "data": [
     {
+      "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n     UtaGe!×FES☆TIVE 主催サーキット\n                         『超宴祭！』\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：8/16（日）\n⟣place : Spotify O-WEST / duo MUSIC EXCHANGE / WOMB LIVE / SHIBUYA RING https://t.co/lYNf3NMxEg",
+      "attachments": {
+        "media_keys": [
+          "3_2072289214503481344"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "correction"
+      },
+      "created_at": "2026-07-01T12:00:32+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/lYNf3NMxEg",
+            "end": 219,
+            "expanded_url": "https://x.com/info_myojou/status/2072289246266995158/photo/1",
+            "media_key": "3_2072289214503481344",
+            "start": 196,
+            "url": "https://t.co/lYNf3NMxEg"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2072289246266995158",
+      "media": [
+        {
+          "height": 3508,
+          "media_key": "3_2072289214503481344",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HMJAD6ZacAA1xzh.jpg",
+          "width": 2481
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 374,
+              "start": 367,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "ticketdive.com/event/chouutag…",
+              "end": 365,
+              "expanded_url": "https://ticketdive.com/event/chouutagematuri",
+              "start": 342,
+              "url": "https://t.co/pQAOQ92kC0"
+            }
+          ]
+        },
+        "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n     UtaGe!×FES☆TIVE 主催サーキット\n                         『超宴祭！』\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：8/16（日）\n⟣place : Spotify O-WEST / duo MUSIC EXCHANGE / WOMB LIVE / SHIBUYA RING\n⟣open/start：10:00/11:00※変更の可能性あり\n⟣price：一般 ¥3,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先行抽選】\n7/1（水）21:00-7/21（火）23:59\n【一般販売】\n7/22（水）20:00-8:15（土）23:69\n🔗 https://t.co/pQAOQ92kC0\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": null,
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-08-16",
+        "event_dates": [
+          "2026-08-16"
+        ],
+        "event_name": "UtaGe!×FES☆TIVE 主催サーキット",
+        "extraction_confidence": 0.9,
+        "general_ticket_price": 3500,
+        "lottery_result_at": null,
+        "myojou_performance_time": null,
+        "notes": "⟣open/start:10:00/11:00※変更の可能性あり",
+        "open_time": "10:00",
+        "payment_deadline_at": null,
+        "priority_ticket_name": null,
+        "priority_ticket_price": null,
+        "same_day_ticket_price": null,
+        "source_kind": "correction",
+        "source_post_id": "2072289246266995158",
+        "source_posted_at": "2026-07-01T12:00:32Z",
+        "source_raw": {
+          "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n     UtaGe!×FES☆TIVE 主催サーキット\n                         『超宴祭！』\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：8/16（日）\n⟣place : Spotify O-WEST / duo MUSIC EXCHANGE / WOMB LIVE / SHIBUYA RING https://t.co/lYNf3NMxEg",
+          "attachments": {
+            "media_keys": [
+              "3_2072289214503481344"
+            ]
+          },
+          "created_at": "2026-07-01T12:00:32.000Z",
+          "edit_history_tweet_ids": [
+            "2072289246266995158"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/lYNf3NMxEg",
+                "end": 219,
+                "expanded_url": "https://x.com/info_myojou/status/2072289246266995158/photo/1",
+                "media_key": "3_2072289214503481344",
+                "start": 196,
+                "url": "https://t.co/lYNf3NMxEg"
+              }
+            ]
+          },
+          "full_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n     UtaGe!×FES☆TIVE 主催サーキット\n                         『超宴祭！』\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：8/16（日）\n⟣place : Spotify O-WEST / duo MUSIC EXCHANGE / WOMB LIVE / SHIBUYA RING\n⟣open/start：10:00/11:00※変更の可能性あり\n⟣price：一般 ¥3,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先行抽選】\n7/1（水）21:00-7/21（火）23:59\n【一般販売】\n7/22（水）20:00-8:15（土）23:69\n🔗 https://t.co/pQAOQ92kC0\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2072289246266995158",
+          "media": [
+            {
+              "height": 3508,
+              "media_key": "3_2072289214503481344",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HMJAD6ZacAA1xzh.jpg",
+              "width": 2481
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 374,
+                  "start": 367,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "ticketdive.com/event/chouutag…",
+                  "end": 365,
+                  "expanded_url": "https://ticketdive.com/event/chouutagematuri",
+                  "start": 342,
+                  "url": "https://t.co/pQAOQ92kC0"
+                }
+              ]
+            },
+            "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n     UtaGe!×FES☆TIVE 主催サーキット\n                         『超宴祭！』\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：8/16（日）\n⟣place : Spotify O-WEST / duo MUSIC EXCHANGE / WOMB LIVE / SHIBUYA RING\n⟣open/start：10:00/11:00※変更の可能性あり\n⟣price：一般 ¥3,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先行抽選】\n7/1（水）21:00-7/21（火）23:59\n【一般販売】\n7/22（水）20:00-8:15（土）23:69\n🔗 https://t.co/pQAOQ92kC0\n\n#myojou"
+          },
+          "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n     UtaGe!×FES☆TIVE 主催サーキット\n                         『超宴祭！』\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：8/16（日）\n⟣place : Spotify O-WEST / duo MUSIC EXCHANGE / WOMB LIVE / SHIBUYA RING https://t.co/lYNf3NMxEg",
+          "truncated_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n     UtaGe!×FES☆TIVE 主催サーキット\n                         『超宴祭！』\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：8/16（日）\n⟣place : Spotify O-WEST / duo MUSIC EXCHANGE / WOMB LIVE / SHIBUYA RING https://t.co/lYNf3NMxEg"
+        },
+        "source_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n     UtaGe!×FES☆TIVE 主催サーキット\n                         『超宴祭！』\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：8/16（日）\n⟣place : Spotify O-WEST / duo MUSIC EXCHANGE / WOMB LIVE / SHIBUYA RING\n⟣open/start：10:00/11:00※変更の可能性あり\n⟣price：一般 ¥3,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先行抽選】\n7/1（水）21:00-7/21（火）23:59\n【一般販売】\n7/22（水）20:00-8:15（土）23:69\n🔗 https://t.co/pQAOQ92kC0\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2072289246266995158",
+        "start_time": "11:00",
+        "ticket_application_deadline_at": "2026-07-21T23:59:00+09:00",
+        "ticket_application_start_at": "2026-07-01T21:00:00+09:00",
+        "ticket_sale_type": "一般",
+        "ticket_sales": [
+          {
+            "deadline_at": "2026-07-21T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 3500,
+            "result_at": null,
+            "sale_type": "抽選",
+            "source_post_id": "2072289246266995158",
+            "source_url": "https://x.com/info_myojou/status/2072289246266995158",
+            "start_at": "2026-07-01T21:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "https://ticketdive.com/event/chouutagematuri",
+        "venue": "Spotify O-WEST / duo MUSIC EXCHANGE / WOMB LIVE / SHIBUYA RING"
+      },
+      "raw": {
+        "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n     UtaGe!×FES☆TIVE 主催サーキット\n                         『超宴祭！』\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：8/16（日）\n⟣place : Spotify O-WEST / duo MUSIC EXCHANGE / WOMB LIVE / SHIBUYA RING https://t.co/lYNf3NMxEg",
+        "attachments": {
+          "media_keys": [
+            "3_2072289214503481344"
+          ]
+        },
+        "created_at": "2026-07-01T12:00:32.000Z",
+        "edit_history_tweet_ids": [
+          "2072289246266995158"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/lYNf3NMxEg",
+              "end": 219,
+              "expanded_url": "https://x.com/info_myojou/status/2072289246266995158/photo/1",
+              "media_key": "3_2072289214503481344",
+              "start": 196,
+              "url": "https://t.co/lYNf3NMxEg"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n     UtaGe!×FES☆TIVE 主催サーキット\n                         『超宴祭！』\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：8/16（日）\n⟣place : Spotify O-WEST / duo MUSIC EXCHANGE / WOMB LIVE / SHIBUYA RING\n⟣open/start：10:00/11:00※変更の可能性あり\n⟣price：一般 ¥3,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先行抽選】\n7/1（水）21:00-7/21（火）23:59\n【一般販売】\n7/22（水）20:00-8:15（土）23:69\n🔗 https://t.co/pQAOQ92kC0\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2072289246266995158",
+        "media": [
+          {
+            "height": 3508,
+            "media_key": "3_2072289214503481344",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HMJAD6ZacAA1xzh.jpg",
+            "width": 2481
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 374,
+                "start": 367,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "ticketdive.com/event/chouutag…",
+                "end": 365,
+                "expanded_url": "https://ticketdive.com/event/chouutagematuri",
+                "start": 342,
+                "url": "https://t.co/pQAOQ92kC0"
+              }
+            ]
+          },
+          "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n     UtaGe!×FES☆TIVE 主催サーキット\n                         『超宴祭！』\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：8/16（日）\n⟣place : Spotify O-WEST / duo MUSIC EXCHANGE / WOMB LIVE / SHIBUYA RING\n⟣open/start：10:00/11:00※変更の可能性あり\n⟣price：一般 ¥3,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先行抽選】\n7/1（水）21:00-7/21（火）23:59\n【一般販売】\n7/22（水）20:00-8:15（土）23:69\n🔗 https://t.co/pQAOQ92kC0\n\n#myojou"
+        },
+        "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n     UtaGe!×FES☆TIVE 主催サーキット\n                         『超宴祭！』\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：8/16（日）\n⟣place : Spotify O-WEST / duo MUSIC EXCHANGE / WOMB LIVE / SHIBUYA RING https://t.co/lYNf3NMxEg",
+        "truncated_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n     UtaGe!×FES☆TIVE 主催サーキット\n                         『超宴祭！』\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：8/16（日）\n⟣place : Spotify O-WEST / duo MUSIC EXCHANGE / WOMB LIVE / SHIBUYA RING https://t.co/lYNf3NMxEg"
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n     UtaGe!×FES☆TIVE 主催サーキット\n                         『超宴祭！』\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：8/16（日）\n⟣place : Spotify O-WEST / duo MUSIC EXCHANGE / WOMB LIVE / SHIBUYA RING\n⟣open/start：10:00/11:00※変更の可能性あり\n⟣price：一般 ¥3,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先行抽選】\n7/1（水）21:00-7/21（火）23:59\n【一般販売】\n7/22（水）20:00-8:15（土）23:69\n🔗 https://t.co/pQAOQ92kC0\n\n#myojou",
+      "truncated_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n     UtaGe!×FES☆TIVE 主催サーキット\n                         『超宴祭！』\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：8/16（日）\n⟣place : Spotify O-WEST / duo MUSIC EXCHANGE / WOMB LIVE / SHIBUYA RING https://t.co/lYNf3NMxEg",
+      "url": "https://x.com/info_myojou/status/2072289246266995158"
+    },
+    {
+      "api_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            ˚.⋆ラジオ配信˖°⋆\n          myojou天体観測 #11\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣2026.07.01 22:00 プレミア公開\n⟣ myojou公式YouTubeチャンネル\n🔗 https://t.co/YivWUOSeIY\n\n #myojou",
+      "attachments": {},
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "radio/non-live",
+        "source_kind": "other"
+      },
+      "created_at": "2026-07-01T12:00:07+00:00",
+      "entities": {
+        "hashtags": [
+          {
+            "end": 173,
+            "start": 166,
+            "tag": "myojou"
+          }
+        ],
+        "urls": [
+          {
+            "description": "「6人の少女が夜明けの空に描くストーリー」 公式X : https://x.com/info_myojou公式TikTok : ...",
+            "display_url": "youtu.be/nU4RyVkrOxo",
+            "end": 163,
+            "expanded_url": "https://youtu.be/nU4RyVkrOxo",
+            "images": [
+              {
+                "height": 720,
+                "url": "https://pbs.twimg.com/news_img/2072289185298563073/b5d6bHRL?format=jpg&name=orig",
+                "width": 1280
+              },
+              {
+                "height": 150,
+                "url": "https://pbs.twimg.com/news_img/2072289185298563073/b5d6bHRL?format=jpg&name=150x150",
+                "width": 150
+              }
+            ],
+            "start": 140,
+            "status": 200,
+            "title": "myojou天体観測 #11",
+            "unwound_url": "https://www.youtube.com/watch?v=nU4RyVkrOxo&feature=youtu.be",
+            "url": "https://t.co/YivWUOSeIY"
+          }
+        ]
+      },
+      "full_text_source": "text",
+      "id": "2072289142822912019",
+      "media": [],
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "note_tweet": null,
+      "parsed_fields": null,
+      "raw": {
+        "api_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            ˚.⋆ラジオ配信˖°⋆\n          myojou天体観測 #11\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣2026.07.01 22:00 プレミア公開\n⟣ myojou公式YouTubeチャンネル\n🔗 https://t.co/YivWUOSeIY\n\n #myojou",
+        "created_at": "2026-07-01T12:00:07.000Z",
+        "edit_history_tweet_ids": [
+          "2072289142822912019"
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "end": 173,
+              "start": 166,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "description": "「6人の少女が夜明けの空に描くストーリー」 公式X : https://x.com/info_myojou公式TikTok : ...",
+              "display_url": "youtu.be/nU4RyVkrOxo",
+              "end": 163,
+              "expanded_url": "https://youtu.be/nU4RyVkrOxo",
+              "images": [
+                {
+                  "height": 720,
+                  "url": "https://pbs.twimg.com/news_img/2072289185298563073/b5d6bHRL?format=jpg&name=orig",
+                  "width": 1280
+                },
+                {
+                  "height": 150,
+                  "url": "https://pbs.twimg.com/news_img/2072289185298563073/b5d6bHRL?format=jpg&name=150x150",
+                  "width": 150
+                }
+              ],
+              "start": 140,
+              "status": 200,
+              "title": "myojou天体観測 #11",
+              "unwound_url": "https://www.youtube.com/watch?v=nU4RyVkrOxo&feature=youtu.be",
+              "url": "https://t.co/YivWUOSeIY"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            ˚.⋆ラジオ配信˖°⋆\n          myojou天体観測 #11\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣2026.07.01 22:00 プレミア公開\n⟣ myojou公式YouTubeチャンネル\n🔗 https://t.co/YivWUOSeIY\n\n #myojou",
+        "full_text_source": "text",
+        "id": "2072289142822912019",
+        "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            ˚.⋆ラジオ配信˖°⋆\n          myojou天体観測 #11\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣2026.07.01 22:00 プレミア公開\n⟣ myojou公式YouTubeチャンネル\n🔗 https://t.co/YivWUOSeIY\n\n #myojou",
+        "truncated_text": null
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            ˚.⋆ラジオ配信˖°⋆\n          myojou天体観測 #11\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣2026.07.01 22:00 プレミア公開\n⟣ myojou公式YouTubeチャンネル\n🔗 https://t.co/YivWUOSeIY\n\n #myojou",
+      "truncated_text": null,
+      "url": "https://x.com/info_myojou/status/2072289142822912019"
+    },
+    {
+      "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n               TOKYO GIRLS GIRLS\n            ~ 6th Anniversary day3 ~\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：7/26（日）\n⟣place : 品川インターシティホール / 品川グランドホール\n⟣open/start：8:00/8:15 https://t.co/QXnHikSBcx",
+      "attachments": {
+        "media_keys": [
+          "3_2072274174928920576"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "correction"
+      },
+      "created_at": "2026-07-01T11:57:40+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/QXnHikSBcx",
+            "end": 212,
+            "expanded_url": "https://x.com/info_myojou/status/2072288525471670662/photo/1",
+            "media_key": "3_2072274174928920576",
+            "start": 189,
+            "url": "https://t.co/QXnHikSBcx"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2072288525471670662",
+      "media": [
+        {
+          "height": 4096,
+          "media_key": "3_2072274174928920576",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HMIyYfnaoAAFcZZ.jpg",
+          "width": 2920
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 351,
+              "start": 344,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "tiget.net/events/502979",
+              "end": 342,
+              "expanded_url": "https://tiget.net/events/502979",
+              "start": 319,
+              "url": "https://t.co/Ihk4Wq4xcG"
+            }
+          ]
+        },
+        "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n               TOKYO GIRLS GIRLS\n            ~ 6th Anniversary day3 ~\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：7/26（日）\n⟣place : 品川インターシティホール / 品川グランドホール\n⟣open/start：8:00/8:15 ※変更の可能性あり\n⟣price：前方¥10,000/通常¥4,000/当日¥5,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【前方抽選】\n7/1(水) 20:00-7/4(土) 23:59\n【先着販売】\n7/2(木) 20:00-\n🔗 https://t.co/Ihk4Wq4xcG\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": null,
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-07-26",
+        "event_dates": [
+          "2026-07-26"
+        ],
+        "event_name": "TOKYO GIRLS GIRLS ~ 6th Anniversary day3 ~",
+        "extraction_confidence": 0.9,
+        "general_ticket_price": 4000,
+        "lottery_result_at": null,
+        "myojou_performance_time": null,
+        "notes": "⟣open/start:8:00/8:15 ※変更の可能性あり",
+        "open_time": "08:00",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "前方",
+        "priority_ticket_price": 10000,
+        "same_day_ticket_price": 5000,
+        "source_kind": "correction",
+        "source_post_id": "2072288525471670662",
+        "source_posted_at": "2026-07-01T11:57:40Z",
+        "source_raw": {
+          "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n               TOKYO GIRLS GIRLS\n            ~ 6th Anniversary day3 ~\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：7/26（日）\n⟣place : 品川インターシティホール / 品川グランドホール\n⟣open/start：8:00/8:15 https://t.co/QXnHikSBcx",
+          "attachments": {
+            "media_keys": [
+              "3_2072274174928920576"
+            ]
+          },
+          "created_at": "2026-07-01T11:57:40.000Z",
+          "edit_history_tweet_ids": [
+            "2072274196504469510",
+            "2072288525471670662"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/QXnHikSBcx",
+                "end": 212,
+                "expanded_url": "https://x.com/info_myojou/status/2072288525471670662/photo/1",
+                "media_key": "3_2072274174928920576",
+                "start": 189,
+                "url": "https://t.co/QXnHikSBcx"
+              }
+            ]
+          },
+          "full_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n               TOKYO GIRLS GIRLS\n            ~ 6th Anniversary day3 ~\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：7/26（日）\n⟣place : 品川インターシティホール / 品川グランドホール\n⟣open/start：8:00/8:15 ※変更の可能性あり\n⟣price：前方¥10,000/通常¥4,000/当日¥5,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【前方抽選】\n7/1(水) 20:00-7/4(土) 23:59\n【先着販売】\n7/2(木) 20:00-\n🔗 https://t.co/Ihk4Wq4xcG\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2072288525471670662",
+          "media": [
+            {
+              "height": 4096,
+              "media_key": "3_2072274174928920576",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HMIyYfnaoAAFcZZ.jpg",
+              "width": 2920
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 351,
+                  "start": 344,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "tiget.net/events/502979",
+                  "end": 342,
+                  "expanded_url": "https://tiget.net/events/502979",
+                  "start": 319,
+                  "url": "https://t.co/Ihk4Wq4xcG"
+                }
+              ]
+            },
+            "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n               TOKYO GIRLS GIRLS\n            ~ 6th Anniversary day3 ~\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：7/26（日）\n⟣place : 品川インターシティホール / 品川グランドホール\n⟣open/start：8:00/8:15 ※変更の可能性あり\n⟣price：前方¥10,000/通常¥4,000/当日¥5,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【前方抽選】\n7/1(水) 20:00-7/4(土) 23:59\n【先着販売】\n7/2(木) 20:00-\n🔗 https://t.co/Ihk4Wq4xcG\n\n#myojou"
+          },
+          "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n               TOKYO GIRLS GIRLS\n            ~ 6th Anniversary day3 ~\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：7/26（日）\n⟣place : 品川インターシティホール / 品川グランドホール\n⟣open/start：8:00/8:15 https://t.co/QXnHikSBcx",
+          "truncated_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n               TOKYO GIRLS GIRLS\n            ~ 6th Anniversary day3 ~\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：7/26（日）\n⟣place : 品川インターシティホール / 品川グランドホール\n⟣open/start：8:00/8:15 https://t.co/QXnHikSBcx"
+        },
+        "source_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n               TOKYO GIRLS GIRLS\n            ~ 6th Anniversary day3 ~\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：7/26（日）\n⟣place : 品川インターシティホール / 品川グランドホール\n⟣open/start：8:00/8:15 ※変更の可能性あり\n⟣price：前方¥10,000/通常¥4,000/当日¥5,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【前方抽選】\n7/1(水) 20:00-7/4(土) 23:59\n【先着販売】\n7/2(木) 20:00-\n🔗 https://t.co/Ihk4Wq4xcG\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2072288525471670662",
+        "start_time": "08:15",
+        "ticket_application_deadline_at": "2026-07-04T23:59:00+09:00",
+        "ticket_application_start_at": "2026-07-01T20:00:00+09:00",
+        "ticket_sale_type": "抽選",
+        "ticket_sales": [
+          {
+            "deadline_at": "2026-07-04T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 10000,
+            "result_at": null,
+            "sale_type": "抽選",
+            "source_post_id": "2072288525471670662",
+            "source_url": "https://x.com/info_myojou/status/2072288525471670662",
+            "start_at": "2026-07-01T20:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "前方",
+            "ticket_tier": "前方"
+          },
+          {
+            "deadline_at": "2026-07-04T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 4000,
+            "result_at": null,
+            "sale_type": "抽選",
+            "source_post_id": "2072288525471670662",
+            "source_url": "https://x.com/info_myojou/status/2072288525471670662",
+            "start_at": "2026-07-01T20:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 5000,
+            "result_at": null,
+            "sale_type": "当日券",
+            "source_post_id": "2072288525471670662",
+            "source_url": "https://x.com/info_myojou/status/2072288525471670662",
+            "start_at": null,
+            "status": "販売中",
+            "ticket_name": "当日券",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "https://tiget.net/events/502979",
+        "venue": "品川インターシティホール / 品川グランドホール"
+      },
+      "raw": {
+        "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n               TOKYO GIRLS GIRLS\n            ~ 6th Anniversary day3 ~\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：7/26（日）\n⟣place : 品川インターシティホール / 品川グランドホール\n⟣open/start：8:00/8:15 https://t.co/QXnHikSBcx",
+        "attachments": {
+          "media_keys": [
+            "3_2072274174928920576"
+          ]
+        },
+        "created_at": "2026-07-01T11:57:40.000Z",
+        "edit_history_tweet_ids": [
+          "2072274196504469510",
+          "2072288525471670662"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/QXnHikSBcx",
+              "end": 212,
+              "expanded_url": "https://x.com/info_myojou/status/2072288525471670662/photo/1",
+              "media_key": "3_2072274174928920576",
+              "start": 189,
+              "url": "https://t.co/QXnHikSBcx"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n               TOKYO GIRLS GIRLS\n            ~ 6th Anniversary day3 ~\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：7/26（日）\n⟣place : 品川インターシティホール / 品川グランドホール\n⟣open/start：8:00/8:15 ※変更の可能性あり\n⟣price：前方¥10,000/通常¥4,000/当日¥5,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【前方抽選】\n7/1(水) 20:00-7/4(土) 23:59\n【先着販売】\n7/2(木) 20:00-\n🔗 https://t.co/Ihk4Wq4xcG\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2072288525471670662",
+        "media": [
+          {
+            "height": 4096,
+            "media_key": "3_2072274174928920576",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HMIyYfnaoAAFcZZ.jpg",
+            "width": 2920
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 351,
+                "start": 344,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "tiget.net/events/502979",
+                "end": 342,
+                "expanded_url": "https://tiget.net/events/502979",
+                "start": 319,
+                "url": "https://t.co/Ihk4Wq4xcG"
+              }
+            ]
+          },
+          "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n               TOKYO GIRLS GIRLS\n            ~ 6th Anniversary day3 ~\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：7/26（日）\n⟣place : 品川インターシティホール / 品川グランドホール\n⟣open/start：8:00/8:15 ※変更の可能性あり\n⟣price：前方¥10,000/通常¥4,000/当日¥5,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【前方抽選】\n7/1(水) 20:00-7/4(土) 23:59\n【先着販売】\n7/2(木) 20:00-\n🔗 https://t.co/Ihk4Wq4xcG\n\n#myojou"
+        },
+        "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n               TOKYO GIRLS GIRLS\n            ~ 6th Anniversary day3 ~\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：7/26（日）\n⟣place : 品川インターシティホール / 品川グランドホール\n⟣open/start：8:00/8:15 https://t.co/QXnHikSBcx",
+        "truncated_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n               TOKYO GIRLS GIRLS\n            ~ 6th Anniversary day3 ~\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：7/26（日）\n⟣place : 品川インターシティホール / 品川グランドホール\n⟣open/start：8:00/8:15 https://t.co/QXnHikSBcx"
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n               TOKYO GIRLS GIRLS\n            ~ 6th Anniversary day3 ~\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：7/26（日）\n⟣place : 品川インターシティホール / 品川グランドホール\n⟣open/start：8:00/8:15 ※変更の可能性あり\n⟣price：前方¥10,000/通常¥4,000/当日¥5,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【前方抽選】\n7/1(水) 20:00-7/4(土) 23:59\n【先着販売】\n7/2(木) 20:00-\n🔗 https://t.co/Ihk4Wq4xcG\n\n#myojou",
+      "truncated_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n               TOKYO GIRLS GIRLS\n            ~ 6th Anniversary day3 ~\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：7/26（日）\n⟣place : 品川インターシティホール / 品川グランドホール\n⟣open/start：8:00/8:15 https://t.co/QXnHikSBcx",
+      "url": "https://x.com/info_myojou/status/2072288525471670662"
+    },
+    {
+      "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n               TOKYO GIRLS GIRLS\n            ~ 6th Anniversary day1 ~\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：7/24（金）\n⟣place : 品川インターシティホール\n⟣open/start：10:00/10:15 ※変更の可能性あり https://t.co/G9QeWnGAzv",
+      "attachments": {
+        "media_keys": [
+          "3_2072274137582829568"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "correction"
+      },
+      "created_at": "2026-07-01T11:00:35+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/G9QeWnGAzv",
+            "end": 212,
+            "expanded_url": "https://x.com/info_myojou/status/2072274161788145966/photo/1",
+            "media_key": "3_2072274137582829568",
+            "start": 189,
+            "url": "https://t.co/G9QeWnGAzv"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2072274161788145966",
+      "media": [
+        {
+          "height": 4096,
+          "media_key": "3_2072274137582829568",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HMIyWUfagAAkW8s.jpg",
+          "width": 2920
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 341,
+              "start": 334,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "tiget.net/events/502975",
+              "end": 332,
+              "expanded_url": "https://tiget.net/events/502975",
+              "start": 309,
+              "url": "https://t.co/keeFJ0nZaB"
+            }
+          ]
+        },
+        "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n               TOKYO GIRLS GIRLS\n            ~ 6th Anniversary day1 ~\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：7/24（金）\n⟣place : 品川インターシティホール\n⟣open/start：10:00/10:15 ※変更の可能性あり\n⟣price：前方¥10,000/通常¥4,000/当日¥5,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【前方抽選】\n7/1(水) 20:00-7/4(土) 23:59\n【先着販売】\n7/2(木) 20:00-\n🔗 https://t.co/keeFJ0nZaB\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": null,
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-07-24",
+        "event_dates": [
+          "2026-07-24"
+        ],
+        "event_name": "TOKYO GIRLS GIRLS ~ 6th Anniversary day1 ~",
+        "extraction_confidence": 0.9,
+        "general_ticket_price": 4000,
+        "lottery_result_at": null,
+        "myojou_performance_time": null,
+        "notes": "⟣open/start:10:00/10:15 ※変更の可能性あり",
+        "open_time": "10:00",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "前方",
+        "priority_ticket_price": 10000,
+        "same_day_ticket_price": 5000,
+        "source_kind": "correction",
+        "source_post_id": "2072274161788145966",
+        "source_posted_at": "2026-07-01T11:00:35Z",
+        "source_raw": {
+          "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n               TOKYO GIRLS GIRLS\n            ~ 6th Anniversary day1 ~\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：7/24（金）\n⟣place : 品川インターシティホール\n⟣open/start：10:00/10:15 ※変更の可能性あり https://t.co/G9QeWnGAzv",
+          "attachments": {
+            "media_keys": [
+              "3_2072274137582829568"
+            ]
+          },
+          "created_at": "2026-07-01T11:00:35.000Z",
+          "edit_history_tweet_ids": [
+            "2072274161788145966"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/G9QeWnGAzv",
+                "end": 212,
+                "expanded_url": "https://x.com/info_myojou/status/2072274161788145966/photo/1",
+                "media_key": "3_2072274137582829568",
+                "start": 189,
+                "url": "https://t.co/G9QeWnGAzv"
+              }
+            ]
+          },
+          "full_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n               TOKYO GIRLS GIRLS\n            ~ 6th Anniversary day1 ~\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：7/24（金）\n⟣place : 品川インターシティホール\n⟣open/start：10:00/10:15 ※変更の可能性あり\n⟣price：前方¥10,000/通常¥4,000/当日¥5,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【前方抽選】\n7/1(水) 20:00-7/4(土) 23:59\n【先着販売】\n7/2(木) 20:00-\n🔗 https://t.co/keeFJ0nZaB\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2072274161788145966",
+          "media": [
+            {
+              "height": 4096,
+              "media_key": "3_2072274137582829568",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HMIyWUfagAAkW8s.jpg",
+              "width": 2920
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 341,
+                  "start": 334,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "tiget.net/events/502975",
+                  "end": 332,
+                  "expanded_url": "https://tiget.net/events/502975",
+                  "start": 309,
+                  "url": "https://t.co/keeFJ0nZaB"
+                }
+              ]
+            },
+            "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n               TOKYO GIRLS GIRLS\n            ~ 6th Anniversary day1 ~\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：7/24（金）\n⟣place : 品川インターシティホール\n⟣open/start：10:00/10:15 ※変更の可能性あり\n⟣price：前方¥10,000/通常¥4,000/当日¥5,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【前方抽選】\n7/1(水) 20:00-7/4(土) 23:59\n【先着販売】\n7/2(木) 20:00-\n🔗 https://t.co/keeFJ0nZaB\n\n#myojou"
+          },
+          "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n               TOKYO GIRLS GIRLS\n            ~ 6th Anniversary day1 ~\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：7/24（金）\n⟣place : 品川インターシティホール\n⟣open/start：10:00/10:15 ※変更の可能性あり https://t.co/G9QeWnGAzv",
+          "truncated_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n               TOKYO GIRLS GIRLS\n            ~ 6th Anniversary day1 ~\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：7/24（金）\n⟣place : 品川インターシティホール\n⟣open/start：10:00/10:15 ※変更の可能性あり https://t.co/G9QeWnGAzv"
+        },
+        "source_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n               TOKYO GIRLS GIRLS\n            ~ 6th Anniversary day1 ~\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：7/24（金）\n⟣place : 品川インターシティホール\n⟣open/start：10:00/10:15 ※変更の可能性あり\n⟣price：前方¥10,000/通常¥4,000/当日¥5,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【前方抽選】\n7/1(水) 20:00-7/4(土) 23:59\n【先着販売】\n7/2(木) 20:00-\n🔗 https://t.co/keeFJ0nZaB\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2072274161788145966",
+        "start_time": "10:15",
+        "ticket_application_deadline_at": "2026-07-04T23:59:00+09:00",
+        "ticket_application_start_at": "2026-07-01T20:00:00+09:00",
+        "ticket_sale_type": "抽選",
+        "ticket_sales": [
+          {
+            "deadline_at": "2026-07-04T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 10000,
+            "result_at": null,
+            "sale_type": "抽選",
+            "source_post_id": "2072274161788145966",
+            "source_url": "https://x.com/info_myojou/status/2072274161788145966",
+            "start_at": "2026-07-01T20:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "前方",
+            "ticket_tier": "前方"
+          },
+          {
+            "deadline_at": "2026-07-04T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 4000,
+            "result_at": null,
+            "sale_type": "抽選",
+            "source_post_id": "2072274161788145966",
+            "source_url": "https://x.com/info_myojou/status/2072274161788145966",
+            "start_at": "2026-07-01T20:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 5000,
+            "result_at": null,
+            "sale_type": "当日券",
+            "source_post_id": "2072274161788145966",
+            "source_url": "https://x.com/info_myojou/status/2072274161788145966",
+            "start_at": null,
+            "status": "販売中",
+            "ticket_name": "当日券",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "https://tiget.net/events/502975",
+        "venue": "品川インターシティホール"
+      },
+      "raw": {
+        "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n               TOKYO GIRLS GIRLS\n            ~ 6th Anniversary day1 ~\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：7/24（金）\n⟣place : 品川インターシティホール\n⟣open/start：10:00/10:15 ※変更の可能性あり https://t.co/G9QeWnGAzv",
+        "attachments": {
+          "media_keys": [
+            "3_2072274137582829568"
+          ]
+        },
+        "created_at": "2026-07-01T11:00:35.000Z",
+        "edit_history_tweet_ids": [
+          "2072274161788145966"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/G9QeWnGAzv",
+              "end": 212,
+              "expanded_url": "https://x.com/info_myojou/status/2072274161788145966/photo/1",
+              "media_key": "3_2072274137582829568",
+              "start": 189,
+              "url": "https://t.co/G9QeWnGAzv"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n               TOKYO GIRLS GIRLS\n            ~ 6th Anniversary day1 ~\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：7/24（金）\n⟣place : 品川インターシティホール\n⟣open/start：10:00/10:15 ※変更の可能性あり\n⟣price：前方¥10,000/通常¥4,000/当日¥5,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【前方抽選】\n7/1(水) 20:00-7/4(土) 23:59\n【先着販売】\n7/2(木) 20:00-\n🔗 https://t.co/keeFJ0nZaB\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2072274161788145966",
+        "media": [
+          {
+            "height": 4096,
+            "media_key": "3_2072274137582829568",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HMIyWUfagAAkW8s.jpg",
+            "width": 2920
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 341,
+                "start": 334,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "tiget.net/events/502975",
+                "end": 332,
+                "expanded_url": "https://tiget.net/events/502975",
+                "start": 309,
+                "url": "https://t.co/keeFJ0nZaB"
+              }
+            ]
+          },
+          "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n               TOKYO GIRLS GIRLS\n            ~ 6th Anniversary day1 ~\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：7/24（金）\n⟣place : 品川インターシティホール\n⟣open/start：10:00/10:15 ※変更の可能性あり\n⟣price：前方¥10,000/通常¥4,000/当日¥5,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【前方抽選】\n7/1(水) 20:00-7/4(土) 23:59\n【先着販売】\n7/2(木) 20:00-\n🔗 https://t.co/keeFJ0nZaB\n\n#myojou"
+        },
+        "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n               TOKYO GIRLS GIRLS\n            ~ 6th Anniversary day1 ~\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：7/24（金）\n⟣place : 品川インターシティホール\n⟣open/start：10:00/10:15 ※変更の可能性あり https://t.co/G9QeWnGAzv",
+        "truncated_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n               TOKYO GIRLS GIRLS\n            ~ 6th Anniversary day1 ~\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：7/24（金）\n⟣place : 品川インターシティホール\n⟣open/start：10:00/10:15 ※変更の可能性あり https://t.co/G9QeWnGAzv"
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n               TOKYO GIRLS GIRLS\n            ~ 6th Anniversary day1 ~\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：7/24（金）\n⟣place : 品川インターシティホール\n⟣open/start：10:00/10:15 ※変更の可能性あり\n⟣price：前方¥10,000/通常¥4,000/当日¥5,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【前方抽選】\n7/1(水) 20:00-7/4(土) 23:59\n【先着販売】\n7/2(木) 20:00-\n🔗 https://t.co/keeFJ0nZaB\n\n#myojou",
+      "truncated_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n               TOKYO GIRLS GIRLS\n            ~ 6th Anniversary day1 ~\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：7/24（金）\n⟣place : 品川インターシティホール\n⟣open/start：10:00/10:15 ※変更の可能性あり https://t.co/G9QeWnGAzv",
+      "url": "https://x.com/info_myojou/status/2072274161788145966"
+    },
+    {
+      "api_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n              夜光性アミューズ主催ライブ\n  『YORU-FES ~夜を駆けるサーキットSP~』\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n📍SHIBUYA WWW X\n🎙15:00-15:25\n📸15:40-16:40 L（ワールド宇田川ビル5F）\n※9:30よりSHIBUYA https://t.co/IYt2nBRusr",
+      "attachments": {
+        "media_keys": [
+          "3_2072259061735927808",
+          "3_2072259061748494337",
+          "3_2072259061752717312"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "ticket_update"
+      },
+      "created_at": "2026-07-01T10:00:37+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/IYt2nBRusr",
+            "end": 203,
+            "expanded_url": "https://x.com/info_myojou/status/2072259070246240559/photo/1",
+            "media_key": "3_2072259061735927808",
+            "start": 180,
+            "url": "https://t.co/IYt2nBRusr"
+          },
+          {
+            "display_url": "pic.x.com/IYt2nBRusr",
+            "end": 203,
+            "expanded_url": "https://x.com/info_myojou/status/2072259070246240559/photo/1",
+            "media_key": "3_2072259061748494337",
+            "start": 180,
+            "url": "https://t.co/IYt2nBRusr"
+          },
+          {
+            "display_url": "pic.x.com/IYt2nBRusr",
+            "end": 203,
+            "expanded_url": "https://x.com/info_myojou/status/2072259070246240559/photo/1",
+            "media_key": "3_2072259061752717312",
+            "start": 180,
+            "url": "https://t.co/IYt2nBRusr"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2072259070246240559",
+      "media": [
+        {
+          "height": 2048,
+          "media_key": "3_2072259061735927808",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HMIkoylasAA3LDg.jpg",
+          "width": 1448
+        },
+        {
+          "height": 2480,
+          "media_key": "3_2072259061748494337",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HMIkoyoacAEoCQm.jpg",
+          "width": 3508
+        },
+        {
+          "height": 2480,
+          "media_key": "3_2072259061752717312",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HMIkoypa4AAxWTg.jpg",
+          "width": 3508
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 433,
+              "start": 426,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "t-dv.com/yorufes_260707",
+              "end": 424,
+              "expanded_url": "http://t-dv.com/yorufes_260707",
+              "start": 401,
+              "url": "https://t.co/BSWOpNLQ6c"
+            }
+          ]
+        },
+        "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n              夜光性アミューズ主催ライブ\n  『YORU-FES ~夜を駆けるサーキットSP~』\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n📍SHIBUYA WWW X\n🎙15:00-15:25\n📸15:40-16:40 L（ワールド宇田川ビル5F）\n※9:30よりSHIBUYA XXIにて、リストバンド交換開始\n\n⟣date：7/7（火）\n⟣place : Veats Shibuya／SHIBUYA CLUB QUATTRO／SHIBUYA WWW X\n⟣open/start：TBA/TBA\n⟣price：前方チケット¥7,777/一般チケット¥2,777/織姫チケット（女性限定）¥777（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n6/4（木）21:00-7/6（月）23:59\n🔗 https://t.co/BSWOpNLQ6c\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": "15:40-16:40",
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-07-07",
+        "event_dates": [
+          "2026-07-07"
+        ],
+        "event_name": "夜光性アミューズ主催ライブ",
+        "extraction_confidence": 0.9,
+        "general_ticket_price": 2777,
+        "lottery_result_at": null,
+        "myojou_performance_time": "15:00-15:25",
+        "notes": "※9:30よりSHIBUYA XXIにて、リストバンド交換開始\nドリンク代: 各+1D\n⟣入場特典:明星カード(サインありチェキ)",
+        "open_time": null,
+        "payment_deadline_at": null,
+        "priority_ticket_name": "前方チケット",
+        "priority_ticket_price": 7777,
+        "same_day_ticket_price": null,
+        "source_kind": "ticket_update",
+        "source_post_id": "2072259070246240559",
+        "source_posted_at": "2026-07-01T10:00:37Z",
+        "source_raw": {
+          "api_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n              夜光性アミューズ主催ライブ\n  『YORU-FES ~夜を駆けるサーキットSP~』\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n📍SHIBUYA WWW X\n🎙15:00-15:25\n📸15:40-16:40 L（ワールド宇田川ビル5F）\n※9:30よりSHIBUYA https://t.co/IYt2nBRusr",
+          "attachments": {
+            "media_keys": [
+              "3_2072259061735927808",
+              "3_2072259061748494337",
+              "3_2072259061752717312"
+            ]
+          },
+          "created_at": "2026-07-01T10:00:37.000Z",
+          "edit_history_tweet_ids": [
+            "2072259070246240559"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/IYt2nBRusr",
+                "end": 203,
+                "expanded_url": "https://x.com/info_myojou/status/2072259070246240559/photo/1",
+                "media_key": "3_2072259061735927808",
+                "start": 180,
+                "url": "https://t.co/IYt2nBRusr"
+              },
+              {
+                "display_url": "pic.x.com/IYt2nBRusr",
+                "end": 203,
+                "expanded_url": "https://x.com/info_myojou/status/2072259070246240559/photo/1",
+                "media_key": "3_2072259061748494337",
+                "start": 180,
+                "url": "https://t.co/IYt2nBRusr"
+              },
+              {
+                "display_url": "pic.x.com/IYt2nBRusr",
+                "end": 203,
+                "expanded_url": "https://x.com/info_myojou/status/2072259070246240559/photo/1",
+                "media_key": "3_2072259061752717312",
+                "start": 180,
+                "url": "https://t.co/IYt2nBRusr"
+              }
+            ]
+          },
+          "full_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n              夜光性アミューズ主催ライブ\n  『YORU-FES ~夜を駆けるサーキットSP~』\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n📍SHIBUYA WWW X\n🎙15:00-15:25\n📸15:40-16:40 L（ワールド宇田川ビル5F）\n※9:30よりSHIBUYA XXIにて、リストバンド交換開始\n\n⟣date：7/7（火）\n⟣place : Veats Shibuya／SHIBUYA CLUB QUATTRO／SHIBUYA WWW X\n⟣open/start：TBA/TBA\n⟣price：前方チケット¥7,777/一般チケット¥2,777/織姫チケット（女性限定）¥777（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n6/4（木）21:00-7/6（月）23:59\n🔗 https://t.co/BSWOpNLQ6c\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2072259070246240559",
+          "media": [
+            {
+              "height": 2048,
+              "media_key": "3_2072259061735927808",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HMIkoylasAA3LDg.jpg",
+              "width": 1448
+            },
+            {
+              "height": 2480,
+              "media_key": "3_2072259061748494337",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HMIkoyoacAEoCQm.jpg",
+              "width": 3508
+            },
+            {
+              "height": 2480,
+              "media_key": "3_2072259061752717312",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HMIkoypa4AAxWTg.jpg",
+              "width": 3508
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 433,
+                  "start": 426,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "t-dv.com/yorufes_260707",
+                  "end": 424,
+                  "expanded_url": "http://t-dv.com/yorufes_260707",
+                  "start": 401,
+                  "url": "https://t.co/BSWOpNLQ6c"
+                }
+              ]
+            },
+            "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n              夜光性アミューズ主催ライブ\n  『YORU-FES ~夜を駆けるサーキットSP~』\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n📍SHIBUYA WWW X\n🎙15:00-15:25\n📸15:40-16:40 L（ワールド宇田川ビル5F）\n※9:30よりSHIBUYA XXIにて、リストバンド交換開始\n\n⟣date：7/7（火）\n⟣place : Veats Shibuya／SHIBUYA CLUB QUATTRO／SHIBUYA WWW X\n⟣open/start：TBA/TBA\n⟣price：前方チケット¥7,777/一般チケット¥2,777/織姫チケット（女性限定）¥777（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n6/4（木）21:00-7/6（月）23:59\n🔗 https://t.co/BSWOpNLQ6c\n\n#myojou"
+          },
+          "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n              夜光性アミューズ主催ライブ\n  『YORU-FES ~夜を駆けるサーキットSP~』\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n📍SHIBUYA WWW X\n🎙15:00-15:25\n📸15:40-16:40 L（ワールド宇田川ビル5F）\n※9:30よりSHIBUYA https://t.co/IYt2nBRusr",
+          "truncated_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n              夜光性アミューズ主催ライブ\n  『YORU-FES ~夜を駆けるサーキットSP~』\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n📍SHIBUYA WWW X\n🎙15:00-15:25\n📸15:40-16:40 L（ワールド宇田川ビル5F）\n※9:30よりSHIBUYA https://t.co/IYt2nBRusr"
+        },
+        "source_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n              夜光性アミューズ主催ライブ\n  『YORU-FES ~夜を駆けるサーキットSP~』\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n📍SHIBUYA WWW X\n🎙15:00-15:25\n📸15:40-16:40 L（ワールド宇田川ビル5F）\n※9:30よりSHIBUYA XXIにて、リストバンド交換開始\n\n⟣date：7/7（火）\n⟣place : Veats Shibuya／SHIBUYA CLUB QUATTRO／SHIBUYA WWW X\n⟣open/start：TBA/TBA\n⟣price：前方チケット¥7,777/一般チケット¥2,777/織姫チケット（女性限定）¥777（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n6/4（木）21:00-7/6（月）23:59\n🔗 https://t.co/BSWOpNLQ6c\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2072259070246240559",
+        "start_time": null,
+        "ticket_application_deadline_at": "2026-07-06T23:59:00+09:00",
+        "ticket_application_start_at": "2026-06-04T21:00:00+09:00",
+        "ticket_sale_type": "一般",
+        "ticket_sales": [
+          {
+            "deadline_at": "2026-07-06T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 7777,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2072259070246240559",
+            "source_url": "https://x.com/info_myojou/status/2072259070246240559",
+            "start_at": "2026-06-04T21:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "前方チケット",
+            "ticket_tier": "前方"
+          },
+          {
+            "deadline_at": "2026-07-06T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 2777,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2072259070246240559",
+            "source_url": "https://x.com/info_myojou/status/2072259070246240559",
+            "start_at": "2026-06-04T21:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般チケット",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "http://t-dv.com/yorufes_260707",
+        "venue": "Veats Shibuya/SHIBUYA CLUB QUATTRO/SHIBUYA WWW X"
+      },
+      "raw": {
+        "api_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n              夜光性アミューズ主催ライブ\n  『YORU-FES ~夜を駆けるサーキットSP~』\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n📍SHIBUYA WWW X\n🎙15:00-15:25\n📸15:40-16:40 L（ワールド宇田川ビル5F）\n※9:30よりSHIBUYA https://t.co/IYt2nBRusr",
+        "attachments": {
+          "media_keys": [
+            "3_2072259061735927808",
+            "3_2072259061748494337",
+            "3_2072259061752717312"
+          ]
+        },
+        "created_at": "2026-07-01T10:00:37.000Z",
+        "edit_history_tweet_ids": [
+          "2072259070246240559"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/IYt2nBRusr",
+              "end": 203,
+              "expanded_url": "https://x.com/info_myojou/status/2072259070246240559/photo/1",
+              "media_key": "3_2072259061735927808",
+              "start": 180,
+              "url": "https://t.co/IYt2nBRusr"
+            },
+            {
+              "display_url": "pic.x.com/IYt2nBRusr",
+              "end": 203,
+              "expanded_url": "https://x.com/info_myojou/status/2072259070246240559/photo/1",
+              "media_key": "3_2072259061748494337",
+              "start": 180,
+              "url": "https://t.co/IYt2nBRusr"
+            },
+            {
+              "display_url": "pic.x.com/IYt2nBRusr",
+              "end": 203,
+              "expanded_url": "https://x.com/info_myojou/status/2072259070246240559/photo/1",
+              "media_key": "3_2072259061752717312",
+              "start": 180,
+              "url": "https://t.co/IYt2nBRusr"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n              夜光性アミューズ主催ライブ\n  『YORU-FES ~夜を駆けるサーキットSP~』\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n📍SHIBUYA WWW X\n🎙15:00-15:25\n📸15:40-16:40 L（ワールド宇田川ビル5F）\n※9:30よりSHIBUYA XXIにて、リストバンド交換開始\n\n⟣date：7/7（火）\n⟣place : Veats Shibuya／SHIBUYA CLUB QUATTRO／SHIBUYA WWW X\n⟣open/start：TBA/TBA\n⟣price：前方チケット¥7,777/一般チケット¥2,777/織姫チケット（女性限定）¥777（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n6/4（木）21:00-7/6（月）23:59\n🔗 https://t.co/BSWOpNLQ6c\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2072259070246240559",
+        "media": [
+          {
+            "height": 2048,
+            "media_key": "3_2072259061735927808",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HMIkoylasAA3LDg.jpg",
+            "width": 1448
+          },
+          {
+            "height": 2480,
+            "media_key": "3_2072259061748494337",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HMIkoyoacAEoCQm.jpg",
+            "width": 3508
+          },
+          {
+            "height": 2480,
+            "media_key": "3_2072259061752717312",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HMIkoypa4AAxWTg.jpg",
+            "width": 3508
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 433,
+                "start": 426,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "t-dv.com/yorufes_260707",
+                "end": 424,
+                "expanded_url": "http://t-dv.com/yorufes_260707",
+                "start": 401,
+                "url": "https://t.co/BSWOpNLQ6c"
+              }
+            ]
+          },
+          "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n              夜光性アミューズ主催ライブ\n  『YORU-FES ~夜を駆けるサーキットSP~』\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n📍SHIBUYA WWW X\n🎙15:00-15:25\n📸15:40-16:40 L（ワールド宇田川ビル5F）\n※9:30よりSHIBUYA XXIにて、リストバンド交換開始\n\n⟣date：7/7（火）\n⟣place : Veats Shibuya／SHIBUYA CLUB QUATTRO／SHIBUYA WWW X\n⟣open/start：TBA/TBA\n⟣price：前方チケット¥7,777/一般チケット¥2,777/織姫チケット（女性限定）¥777（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n6/4（木）21:00-7/6（月）23:59\n🔗 https://t.co/BSWOpNLQ6c\n\n#myojou"
+        },
+        "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n              夜光性アミューズ主催ライブ\n  『YORU-FES ~夜を駆けるサーキットSP~』\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n📍SHIBUYA WWW X\n🎙15:00-15:25\n📸15:40-16:40 L（ワールド宇田川ビル5F）\n※9:30よりSHIBUYA https://t.co/IYt2nBRusr",
+        "truncated_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n              夜光性アミューズ主催ライブ\n  『YORU-FES ~夜を駆けるサーキットSP~』\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n📍SHIBUYA WWW X\n🎙15:00-15:25\n📸15:40-16:40 L（ワールド宇田川ビル5F）\n※9:30よりSHIBUYA https://t.co/IYt2nBRusr"
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n              夜光性アミューズ主催ライブ\n  『YORU-FES ~夜を駆けるサーキットSP~』\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n📍SHIBUYA WWW X\n🎙15:00-15:25\n📸15:40-16:40 L（ワールド宇田川ビル5F）\n※9:30よりSHIBUYA XXIにて、リストバンド交換開始\n\n⟣date：7/7（火）\n⟣place : Veats Shibuya／SHIBUYA CLUB QUATTRO／SHIBUYA WWW X\n⟣open/start：TBA/TBA\n⟣price：前方チケット¥7,777/一般チケット¥2,777/織姫チケット（女性限定）¥777（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n6/4（木）21:00-7/6（月）23:59\n🔗 https://t.co/BSWOpNLQ6c\n\n#myojou",
+      "truncated_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n              夜光性アミューズ主催ライブ\n  『YORU-FES ~夜を駆けるサーキットSP~』\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n📍SHIBUYA WWW X\n🎙15:00-15:25\n📸15:40-16:40 L（ワールド宇田川ビル5F）\n※9:30よりSHIBUYA https://t.co/IYt2nBRusr",
+      "url": "https://x.com/info_myojou/status/2072259070246240559"
+    },
+    {
       "api_text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「TOKYO GIRLS GIRLS extra!!」\n\n🎙18:00-18:25\n📸18:35-19:55  C\n\n⟣date：7/3（金）\n⟣place : 品川インターシティホール\n⟣open/start：10:30/10:45 ※変更の可能性あり\n⟣price：前方¥6,000/通常¥1,000円 当日+¥1,000（各＋1D） https://t.co/exZf9iZh4C",
       "attachments": {
         "media_keys": [
@@ -99609,7 +100819,7 @@
     "backfill": true,
     "dry_run": true,
     "estimated_x_post_reads": 411,
-    "latest_post_id": "2071600512815017993",
+    "latest_post_id": "2072289246266995158",
     "max_pages": 10,
     "max_posts": 500,
     "max_results": 5,
@@ -99652,16 +100862,16 @@
       }
     ],
     "pages_fetched": 5,
-    "posts_fetched": 471,
+    "posts_fetched": 476,
     "rate_limit_headers": {
       "x-rate-limit-limit": "10000",
       "x-rate-limit-remaining": "9993",
       "x-rate-limit-reset": "1781108896"
     },
-    "total_posts": 471,
-    "updated_at": "2026-06-29T20:50:32.661351+00:00",
+    "total_posts": 476,
+    "updated_at": "2026-07-01T20:48:43.892562+00:00",
     "username": "info_myojou"
   },
   "source": "x_api",
-  "updated_at": "2026-06-29T20:50:32.661351+00:00"
+  "updated_at": "2026-07-01T20:48:43.892562+00:00"
 }
