@@ -282,6 +282,7 @@ CREATE TABLE IF NOT EXISTS classification_reviews (
     notes TEXT,
     created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
     updated_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (source_post_id) REFERENCES source_posts(id) ON UPDATE CASCADE ON DELETE CASCADE,
     FOREIGN KEY (event_id) REFERENCES events(id) ON UPDATE CASCADE ON DELETE SET NULL,
     CHECK (confidence IS NULL OR (confidence >= 0 AND confidence <= 1))
 );
