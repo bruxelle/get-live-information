@@ -469,8 +469,9 @@ function ensureDetailSheet() {
       ariaLabelledby: "detailSheetTitle",
       tabIndex: -1,
     }, [
+      el("span", { className: "detail-sheet-grip", ariaHidden: "true" }, ""),
       el("header", { className: "detail-sheet-header" }, [
-        el("div", {}, [
+        el("div", { className: "detail-sheet-heading" }, [
           el("p", { id: "detailSheetMode", className: "detail-sheet-subtitle" }, ""),
           el("h2", { id: "detailSheetTitle", className: "detail-sheet-title" }, ""),
         ]),
@@ -512,12 +513,14 @@ function closeDetailSheet() {
 
 function detailEventCard(event, contextLabel = "") {
   const card = el("article", { className: "detail-event-card" }, [
-    el("div", { className: "detail-event-head" }, [
-      el("p", { className: "event-date" }, formatDate(event.event_date || event.date, event.weekday)),
-      el("span", { className: `status ${statusClass(event.ticket_status)}` }, event.ticket_status || "不明"),
+    el("div", { className: "detail-event-hero" }, [
+      el("div", { className: "detail-event-head" }, [
+        el("p", { className: "event-date" }, formatDate(event.event_date || event.date, event.weekday)),
+        el("span", { className: `status ${statusClass(event.ticket_status)}` }, event.ticket_status || "不明"),
+      ]),
+      el("h3", { className: "detail-event-title" }, event.event_name || event.title || "未定"),
+      detailContextBadge(contextLabel),
     ]),
-    el("h3", { className: "detail-event-title" }, event.event_name || event.title || "未定"),
-    detailContextBadge(contextLabel),
     detailSection("ライブ情報", [
       detailLiveInfoList(event),
       detailScheduleList(event),
@@ -545,10 +548,18 @@ function detailContextBadge(label) {
 function detailSection(title, children) {
   const visibleChildren = children.filter(Boolean);
   if (!visibleChildren.length) return null;
-  return el("section", { className: "detail-section" }, [
+  return el("section", { className: `detail-section ${detailSectionClass(title)}` }, [
     el("h4", { className: "detail-section-title" }, title),
     ...visibleChildren,
   ]);
+}
+
+function detailSectionClass(title) {
+  if (title === "ライブ情報") return "detail-section-live";
+  if (title === "チケット情報") return "detail-section-ticket";
+  if (title === "申込情報") return "detail-section-application";
+  if (title === "リンク") return "detail-section-links";
+  return "";
 }
 
 function detailScheduleList(event) {
