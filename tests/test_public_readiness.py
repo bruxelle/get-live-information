@@ -76,6 +76,28 @@ def test_public_ready_false_for_goods_number_kuji_announcement():
     assert "goods/number lottery" in reason
 
 
+def test_public_ready_false_for_limited_tshirt_announcement_with_live_context():
+    reason = _not_ready_reason(
+        _event(
+            event_name="限定Tシャツ公開",
+            event_date=date(2026, 7, 19),
+            venue="渋谷音楽堂",
+            ticket_url="https://t-dv.com/myojou_0719",
+            source_post_id="2071494887225323698",
+            source_text=(
+                "myojou Summer Vol.03\n"
+                "限定Tシャツ公開\n"
+                "⟣date：7/19（日）\n"
+                "⟣place : 渋谷音楽堂\n"
+                "⟣open/start：17:30/18:00\n"
+                "⟣price：優先¥6,000（限定Tシャツ付き）/一般¥0（各+1D）"
+            ),
+        )
+    )
+
+    assert "goods/number lottery" in reason
+
+
 def test_public_ready_false_for_after_benefit_only_event():
     reason = _not_ready_reason(
         _event(
@@ -211,6 +233,8 @@ def test_public_ready_true_for_good_live_examples():
         _event(event_name="IDOL STORM", venue="Spotify O-WEST", ticket_url="https://tiget.net/events/123"),
         _event(event_name="HYPE IDOL! DX", venue="Zepp Shinjuku", start_time="12:00"),
         _event(event_name="MIX BOX vol.10", venue="渋谷DESEO", myojou_performance_time="19:10-19:35"),
+        _event(event_name="GIRLS GIRLS FESTIVAL 2026", venue="さがみ湖MORI MORI", start_time="10:00"),
+        _event(event_name="TOKYO IDOL FESTIVAL 2026", venue="お台場・青海周辺エリア", start_time="10:00"),
         _event(event_name="IDOL INFINITE PREMIUM vol.09", venue="Spotify O-nest", ticket_url="https://ticketdive.com/event/idol_infinity_premium_vol9"),
         _event(event_name="IDOL ∞ INFINITY PREMIUM vol.12", venue="Spotify O-nest", ticket_url="https://ticketdive.com/event/idol_infinity_premium_vol12"),
         _event(
