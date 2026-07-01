@@ -205,16 +205,20 @@ function eventCard(event) {
   card.className = "event-card";
 
   card.append(
-    el("div", { className: "card-head" }, [
-      el("p", { className: "event-date" }, formatDate(event.event_date, event.weekday)),
-      el("div", { className: "card-badges" }, [
-        deadlineBadge(event),
-        el("span", { className: `status ${statusClass(event.ticket_status)}` }, event.ticket_status || "不明"),
+    el("div", { className: "card-main" }, [
+      el("div", { className: "card-head" }, [
+        el("p", { className: "event-date" }, formatDate(event.event_date, event.weekday)),
+        el("div", { className: "card-badges" }, [
+          deadlineBadge(event),
+          el("span", { className: `status ${statusClass(event.ticket_status)}` }, event.ticket_status || "不明"),
+        ]),
       ]),
+      el("div", { className: "card-title-block" }, [
+        el("h2", { className: "event-title" }, event.event_name || "未定"),
+        el("p", { className: "venue" }, `会場 ${event.venue || "未定"}`),
+      ]),
+      summaryList(event),
     ]),
-    el("h2", { className: "event-title" }, event.event_name || "未定"),
-    el("p", { className: "venue" }, `会場 ${event.venue || "未定"}`),
-    summaryList(event),
     ticketSalesList(event),
     actionRow(event),
   );
