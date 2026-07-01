@@ -53,7 +53,7 @@ def build_parser() -> argparse.ArgumentParser:
     init_db.add_argument("--log-level", default="INFO", choices=["DEBUG", "INFO", "WARNING", "ERROR"])
 
     import_posts = subparsers.add_parser("import-source-posts", help="Import X archive posts into normalized source_posts.")
-    import_posts.add_argument("--db", required=True, help="SQLite database path initialized with init-db.")
+    import_posts.add_argument("--db", required=True, help="SQLite database path (schema will be initialized if needed).")
     import_posts.add_argument("--archive", required=True, help="X archive/backfill JSON path.")
     import_posts.add_argument("--log-level", default="INFO", choices=["DEBUG", "INFO", "WARNING", "ERROR"])
 
