@@ -17,6 +17,7 @@ from .readiness import public_readiness
 from .real_samples import evaluate_real_samples
 from .sample_capture import write_x_samples
 from .source_import import import_source_posts
+from .sqlite_public_export import sqlite_public_diff, write_sqlite_public_preview
 from .sqlite_schema import SQLiteSchemaCompatibilityError, initialize_sqlite_schema
 from .state import SQLiteStateStore
 from .sync.notion import NotionEventSink, inspect_notion_schema
@@ -61,6 +62,22 @@ def build_parser() -> argparse.ArgumentParser:
     import_events = subparsers.add_parser("import-parsed-events", help="Parse normalized source_posts into events and event_sources.")
     import_events.add_argument("--db", required=True, help="SQLite database path with imported source_posts.")
     import_events.add_argument("--log-level", default="INFO", choices=["DEBUG", "INFO", "WARNING", "ERROR"])
+
+    preview_sqlite = subparsers.add_parser(
+        "preview-sqlite-public-export",
+        help="Write a public/events.json-like preview from normalized SQLite events.",
+    )
+    preview_sqlite.add_argument("--db", required=True, help="SQLite database path with imported parsed events.")
+    preview_sqlite.add_argument("--output", required=True, help="Preview JSON output path. Do not use public/events.json.")
+    preview_sqlite.add_argument("--log-level", default="INFO", choices=["DEBUG", "INFO", "WARNING", "ERROR"])
+
+    diff_sqlite = subparsers.add_parser(
+        "diff-sqlite-public-export",
+        help="Compare SQLite public preview rows with the current public/events.json.",
+    )
+    diff_sqlite.add_argument("--db", required=True, help="SQLite database path with imported parsed events.")
+    diff_sqlite.add_argument("--current", default="public/events.json", help="Current public events JSON path.")
+    diff_sqlite.add_argument("--log-level", default="INFO", choices=["DEBUG", "INFO", "WARNING", "ERROR"])
 
     refresh_public = subparsers.add_parser("refresh-public", help="Run incremental sync, validate, and optionally update public/events.json.")
     refresh_public.add_argument("--db", help="SQLite state database path.")
@@ -213,6 +230,35 @@ def main(argv: list[str] | None = None) -> int:
             f"event_sources_inserted: {result.event_sources_inserted}\n"
             f"event_sources_skipped: {result.event_sources_skipped}"
         )
+        return 0
+
+    if args.command == "preview-sqlite-public-export":
+        try:
+            result = write_sqlite_public_preview(args.db, args.output)
+        except (OSError, ValueError, SQLiteSchemaCompatibilityError) as exc:
+            print(str(exc), file=sys.stderr)
+            return 2
+        print(
+            "SQLite public export preview:\n"
+            f"db_path: {result.db_path}\n"
+            f"output_path: {result.output_path}\n"
+            f"events: {len(result.rows)}\n"
+            f"validation_errors: {len(result.validation_errors)}\n"
+            f"validation_warnings: {len(result.validation_warnings)}"
+        )
+        for error in result.validation_errors:
+            print(f"validation_error: {error}")
+        for warning in result.validation_warnings:
+            print(f"validation_warning: {warning}")
+        return 0 if not result.validation_errors else 1
+
+    if args.command == "diff-sqlite-public-export":
+        try:
+            diff = sqlite_public_diff(args.db, args.current)
+        except (OSError, ValueError, SQLiteSchemaCompatibilityError) as exc:
+            print(str(exc), file=sys.stderr)
+            return 2
+        print(_format_sqlite_public_diff(diff, current_path=args.current))
         return 0
 
     if args.command == "refresh-public":
@@ -547,6 +593,37 @@ def _format_public_validation_report(input_path: str, validation) -> str:
     ]
     lines.extend(f"error: {error}" for error in validation.errors)
     lines.extend(f"warning: {warning}" for warning in validation.warnings)
+    return "\n".join(lines)
+
+
+def _format_sqlite_public_diff(diff: dict, *, current_path: str) -> str:
+    lines = [
+        "SQLite public export diff:",
+        f"current: {current_path}",
+        f"events_before: {diff['events_before']}",
+        f"events_after: {diff['events_after']}",
+        f"added: {diff['added']}",
+        f"removed: {diff['removed']}",
+        f"possibly_changed: {diff['possibly_changed']}",
+        f"current_validation_errors: {diff['current_validation_errors']}",
+        f"sqlite_validation_errors: {diff['sqlite_validation_errors']}",
+        f"current_validation_warnings: {diff['current_validation_warnings']}",
+        f"sqlite_validation_warnings: {diff['sqlite_validation_warnings']}",
+    ]
+    missing = diff.get("sqlite_missing_fields") or {}
+    if missing:
+        lines.append(
+            "sqlite_missing_fields: "
+            + ", ".join(f"{field}={count}" for field, count in sorted(missing.items()))
+        )
+    for title in diff.get("titles_only_in_current") or []:
+        lines.append(f"title_only_in_current: {title}")
+    for title in diff.get("titles_only_in_sqlite") or []:
+        lines.append(f"title_only_in_sqlite: {title}")
+    for key in diff.get("keys_only_in_current") or []:
+        lines.append(f"key_only_in_current: {key}")
+    for key in diff.get("keys_only_in_sqlite") or []:
+        lines.append(f"key_only_in_sqlite: {key}")
     return "\n".join(lines)
 
 

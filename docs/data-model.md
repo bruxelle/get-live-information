@@ -53,6 +53,20 @@ Parsed event candidates can then be imported from normalized `source_posts` into
 
 This command reuses the existing parser, readiness, and merge logic. It currently stores one `events` row per event date for multi-day posts, links rows back to source posts through `event_sources`, and does not yet populate `ticket_sales`, `deadlines`, or public export rows.
 
+A SQLite-based public export preview can be generated for comparison without changing `public/events.json`:
+
+```bash
+.venv/bin/myojou-sync preview-sqlite-public-export \
+  --db .state/myojou.sqlite \
+  --output reports/sqlite-public-preview.json
+
+.venv/bin/myojou-sync diff-sqlite-public-export \
+  --db .state/myojou.sqlite \
+  --current public/events.json
+```
+
+This preview is intentionally a migration aid. It reads public-ready, non-review rows from the normalized `events` table and compares counts/titles/important fields against the current public JSON, but it is not yet the production export path.
+
 ## Core Entities
 
 ### SourcePost
