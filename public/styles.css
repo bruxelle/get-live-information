@@ -690,27 +690,27 @@ body.is-calendar-view .card-controls {
 
 .event-list {
   display: grid;
-  gap: 24px;
+  gap: var(--space-6);
 }
 
 .date-group {
   display: grid;
-  gap: 11px;
+  gap: var(--space-3);
 }
 
 .date-events {
   display: grid;
-  gap: 13px;
+  gap: var(--space-4);
 }
 
 .event-card {
   position: relative;
   display: grid;
-  gap: 12px;
+  gap: var(--space-4);
   border: 1px solid var(--line);
-  border-radius: 8px;
+  border-radius: var(--radius-md);
   background: var(--surface);
-  padding: 15px;
+  padding: var(--space-4);
   box-shadow: var(--shadow);
   overflow: hidden;
 }
@@ -723,25 +723,31 @@ body.is-calendar-view .card-controls {
   background: var(--accent);
 }
 
+.card-main {
+  display: grid;
+  gap: var(--space-3);
+  min-width: 0;
+}
+
 .card-head {
   display: flex;
+  flex-wrap: wrap;
   align-items: start;
   justify-content: space-between;
-  gap: 12px;
-  padding-left: 2px;
+  gap: var(--space-3);
 }
 
 .card-badges {
   display: flex;
   flex-wrap: wrap;
   justify-content: end;
-  gap: 6px;
+  gap: var(--space-2);
 }
 
 .event-date {
   margin: 0;
   color: var(--accent-dark);
-  font-size: 14px;
+  font-size: var(--font-size-md);
   font-weight: 900;
   white-space: nowrap;
 }
@@ -816,16 +822,22 @@ body.is-calendar-view .card-controls {
   color: #69727d;
 }
 
+.card-title-block {
+  display: grid;
+  gap: var(--space-2);
+  min-width: 0;
+}
+
 .event-title {
   margin: 0;
   font-size: var(--font-size-title);
-  line-height: 1.35;
+  line-height: 1.32;
   letter-spacing: 0;
   overflow-wrap: anywhere;
 }
 
 .venue {
-  margin: -4px 0 0;
+  margin: 0;
   color: var(--muted);
   font-size: var(--font-size-lg);
   line-height: var(--line-height-normal);
@@ -834,14 +846,14 @@ body.is-calendar-view .card-controls {
 
 .summary-list {
   display: grid;
-  gap: 9px;
+  gap: var(--space-3);
   margin: 0;
 }
 
 .summary-row {
   display: grid;
   grid-template-columns: 72px minmax(0, 1fr);
-  gap: 8px;
+  gap: var(--space-3);
   align-items: start;
 }
 
@@ -862,8 +874,8 @@ body.is-calendar-view .card-controls {
   border: 1px solid #f0dfba;
   border-radius: var(--radius-md);
   background: var(--color-missing-bg);
-  padding: 9px;
-  margin: 2px -2px 0;
+  padding: var(--space-3);
+  margin: var(--space-1) 0 0;
 }
 
 .application-row .summary-label,
@@ -888,8 +900,9 @@ body.is-calendar-view .card-controls {
 
 .ticket-sales {
   display: grid;
-  gap: 8px;
-  margin-top: 2px;
+  gap: var(--space-2);
+  border-top: 1px solid var(--line);
+  padding-top: var(--space-3);
 }
 
 .ticket-sales-title {
@@ -901,7 +914,7 @@ body.is-calendar-view .card-controls {
 
 .ticket-sales-list {
   display: grid;
-  gap: 7px;
+  gap: var(--space-2);
 }
 
 .ticket-sale-chip {
@@ -910,7 +923,7 @@ body.is-calendar-view .card-controls {
   border: 1px solid var(--line);
   border-radius: var(--radius-md);
   background: var(--surface-soft);
-  padding: 8px 10px;
+  padding: var(--space-3);
   font-size: var(--font-size-md);
   line-height: 1.35;
 }
@@ -932,8 +945,7 @@ body.is-calendar-view .card-controls {
 .card-actions {
   display: grid;
   grid-template-columns: minmax(0, 1fr);
-  gap: 8px;
-  margin-top: 2px;
+  gap: var(--space-3);
 }
 
 .ticket-button,
