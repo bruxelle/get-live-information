@@ -15,6 +15,7 @@ from .public_validation import compare_public_rows, read_public_rows, validate_p
 from .readiness import public_readiness
 from .real_samples import evaluate_real_samples
 from .sample_capture import write_x_samples
+from .source_import import import_source_posts
 from .sqlite_schema import SQLiteSchemaCompatibilityError, initialize_sqlite_schema
 from .state import SQLiteStateStore
 from .sync.notion import NotionEventSink, inspect_notion_schema
@@ -50,6 +51,11 @@ def build_parser() -> argparse.ArgumentParser:
     init_db = subparsers.add_parser("init-db", help="Initialize the future normalized SQLite schema.")
     init_db.add_argument("--db", required=True, help="SQLite database path to initialize.")
     init_db.add_argument("--log-level", default="INFO", choices=["DEBUG", "INFO", "WARNING", "ERROR"])
+
+    import_posts = subparsers.add_parser("import-source-posts", help="Import X archive posts into normalized source_posts.")
+    import_posts.add_argument("--db", required=True, help="SQLite database path initialized with init-db.")
+    import_posts.add_argument("--archive", required=True, help="X archive/backfill JSON path.")
+    import_posts.add_argument("--log-level", default="INFO", choices=["DEBUG", "INFO", "WARNING", "ERROR"])
 
     refresh_public = subparsers.add_parser("refresh-public", help="Run incremental sync, validate, and optionally update public/events.json.")
     refresh_public.add_argument("--db", help="SQLite state database path.")
@@ -165,6 +171,23 @@ def main(argv: list[str] | None = None) -> int:
             f"db_path: {result.db_path}\n"
             f"tables: {', '.join(result.tables)}\n"
             f"indexes: {', '.join(result.indexes)}"
+        )
+        return 0
+
+    if args.command == "import-source-posts":
+        try:
+            result = import_source_posts(args.db, args.archive)
+        except (OSError, ValueError, SQLiteSchemaCompatibilityError) as exc:
+            print(str(exc), file=sys.stderr)
+            return 2
+        print(
+            "Imported source posts:\n"
+            f"db_path: {result.db_path}\n"
+            f"archive_path: {result.archive_path}\n"
+            f"read: {result.read_count}\n"
+            f"inserted: {result.inserted_count}\n"
+            f"updated: {result.updated_count}\n"
+            f"skipped: {result.skipped_count}"
         )
         return 0
 
