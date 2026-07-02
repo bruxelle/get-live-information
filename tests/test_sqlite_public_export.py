@@ -23,7 +23,7 @@ def _write_archive(path: Path):
                             "Next Live\n"
                             "『SQLITE PREVIEW LIVE』\n"
                             "⟣date：6/29（月）\n"
-                            "⟣place：Spotify O-nest\n"
+                            "⟣place：Spotify O-nest、\n"
                             "⟣open/start：19:20/19:40\n"
                             "チケット：https://ticketdive.com/event/sqlite-preview-live"
                         ),
@@ -72,6 +72,9 @@ def test_sqlite_public_preview_rows_contains_public_like_fields(tmp_path):
     assert row["event_name"] == "SQLITE PREVIEW LIVE"
     assert row["event_date"] == "2026-06-29"
     assert row["weekday"] == "月"
+    assert row["venue"] == "Spotify O-nest"
+    assert row["ticket_url"] == "https://ticketdive.com/event/sqlite-preview-live"
+    assert row["ticket_status"] == "不明"
     assert row["public_ready"] is True
     assert row["needs_review"] is False
     assert row["source_url"] == "https://x.com/info_myojou/status/300001"
@@ -142,7 +145,7 @@ def test_sqlite_public_diff_reports_counts_and_title_differences(tmp_path):
     assert diff["removed"] == 1
     assert diff["titles_only_in_current"] == ["current only live"]
     assert diff["titles_only_in_sqlite"] == ["sqlite preview live"]
-    assert diff["sqlite_missing_fields"]["ticket_url"] == 1
+    assert diff["sqlite_missing_fields"]["ticket_url"] == 0
 
 
 def test_sqlite_public_diff_ignores_preview_debug_only_source_fields(tmp_path):
@@ -151,6 +154,8 @@ def test_sqlite_public_diff_ignores_preview_debug_only_source_fields(tmp_path):
     current_rows = []
     for row in sqlite_public_preview_rows(db_path):
         public_row = dict(row)
+        public_row["public_event_id"] = f"current-export:{public_row['event_date']}"
+        public_row["source_event_id"] = "current-export-event"
         public_row.pop("source_url")
         public_row.pop("all_source_urls")
         current_rows.append(public_row)
