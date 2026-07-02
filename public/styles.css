@@ -292,8 +292,9 @@ body.is-calendar-view .card-controls {
 }
 
 .calendar-month-controls {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: var(--space-2);
   overflow: visible;
 }
 
@@ -437,7 +438,7 @@ body.is-calendar-view .card-controls {
   top: 133px;
   z-index: var(--z-sticky-heading);
   display: flex;
-  align-items: baseline;
+  align-items: center;
   justify-content: space-between;
   gap: var(--space-3);
   margin: 0;
@@ -451,6 +452,16 @@ body.is-calendar-view .card-controls {
   letter-spacing: 0;
 }
 
+.calendar-month-title {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: var(--space-2);
+  min-width: 0;
+  margin: 0;
+  font: inherit;
+}
+
 .calendar-month-count {
   color: var(--muted);
   font-size: var(--font-size-sm);
@@ -458,9 +469,18 @@ body.is-calendar-view .card-controls {
 }
 
 .calendar-load-button {
-  width: 100%;
-  border-radius: var(--radius-md);
-  background: var(--surface-soft);
+  display: inline-grid;
+  width: 38px;
+  min-width: 38px;
+  min-height: 38px;
+  place-items: center;
+  border-radius: var(--radius-pill);
+  background: var(--surface);
+  padding: 0;
+  color: var(--ink);
+  font-size: 22px;
+  line-height: 1;
+  box-shadow: var(--shadow-sm);
 }
 
 .calendar-weekdays,

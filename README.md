@@ -90,11 +90,11 @@ It also supports these sort modes:
 Each card shows date, event name, venue, compact live/ticket/application summaries, ticket status, and a ticket URL button.
 When multiple ticket sales periods are known, the card also shows compact sales-period rows and highlights the next relevant deadline.
 
-The `カレンダー` view is optimized for live and ticket deadline management rather than a generic calendar. It renders multiple months vertically, starting with the current month, next month, and following month. Users can expand the range with:
+The `カレンダー` view is optimized for live and ticket deadline management rather than a generic calendar. It shows one month at a time, with compact arrow buttons in the calendar header:
 
 ```text
-前の月を表示
-次の月を表示
+‹ 前月を表示
+› 次月を表示
 ```
 
 Calendar modes:
@@ -371,9 +371,9 @@ The UI is designed for smartphones:
 - Application deadline urgency is shown with badges such as `今日締切`, `明日締切`, `あと3日`, and `締切未取得`.
 - Ticket URLs are large tap targets.
 - Long event names and ticket summaries wrap inside the card.
-- The calendar view renders vertical multi-month sections with no horizontal scrolling.
-- Calendar modes show `ライブ日`, `申込締切`, `支払期限`, or `すべて`.
-- Calendar cells use compact chips for `ライブ`, `申込`, `支払`, `完売`, and `販売終了`.
+- The calendar view renders one month at a time with no horizontal scrolling.
+- Calendar modes show `ライブ日`, `抽選締切`, or `先着締切`.
+- Calendar cells use compact chips for `ライブ`, `抽選申込締切`, `先着申込締切`, `完売`, and `販売終了`.
 - `締切アラート` summarizes `今日締切`, `明日締切`, and `締切未取得`.
 - Calendar date cells do not open a separate selected-date event list; switch to `カード` for full event details.
 
