@@ -1764,9 +1764,12 @@ def test_static_public_ui_has_filters_date_groups_and_status_badges():
     assert 'data-calendar-mode="lotteryDeadline" aria-pressed="false"' in html
     assert 'data-calendar-mode="firstComeDeadline" aria-pressed="false"' in html
     for month_load in ("previous", "next"):
-        assert f'data-month-load="{month_load}"' in html
-    assert "前の月を表示" in html
-    assert "次の月を表示" in html
+        assert f'calendarMonthButton("{month_load}"' in app_js
+    assert 'button.setAttribute("data-month-load", direction)' in app_js
+    assert "前月を表示" in app_js
+    assert "次月を表示" in app_js
+    assert "calendarMonthCount" not in app_js
+    assert "visibleMonthKeys(state.calendarStartMonth, 1)" in app_js
     assert "calendar_helpers.js" in html
     assert "groupedEvents" in app_js
     assert "renderCalendar" in app_js
@@ -1904,8 +1907,8 @@ def test_readme_documents_empty_deadlines_stay_visible():
     readme = Path("README.md").read_text(encoding="utf-8")
 
     assert "申込締切が空欄のライブも申込・締切ビューに表示する" in readme
-    assert "前の月を表示" in readme
-    assert "次の月を表示" in readme
+    assert "前月を表示" in readme
+    assert "次月を表示" in readme
     assert "ライブ日" in readme
     assert "申込締切" in readme
     assert "支払期限" in readme

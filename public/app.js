@@ -4,7 +4,6 @@ const state = {
   sortMode: "event-date",
   viewMode: "calendar",
   calendarStartMonth: "",
-  calendarMonthCount: 3,
   calendarMode: "live",
   activeDetailTrigger: null,
 };
@@ -13,7 +12,6 @@ const filterButtons = Array.from(document.querySelectorAll(".filter-button"));
 const sortButtons = Array.from(document.querySelectorAll(".sort-button"));
 const viewButtons = Array.from(document.querySelectorAll(".view-button"));
 const calendarModeButtons = Array.from(document.querySelectorAll(".calendar-mode-button"));
-const monthLoadButtons = Array.from(document.querySelectorAll("[data-month-load]"));
 const eventList = document.querySelector("#eventList");
 const emptyState = document.querySelector("#emptyState");
 const calendarView = document.querySelector("#calendarView");
@@ -61,16 +59,6 @@ async function init() {
   });
   updateCalendarModeButtons();
 
-  monthLoadButtons.forEach((button) => {
-    button.addEventListener("click", () => {
-      if (button.dataset.monthLoad === "previous") {
-        state.calendarStartMonth = MyojouCalendar.addMonths(state.calendarStartMonth, -1);
-      }
-      state.calendarMonthCount += 1;
-      render();
-    });
-  });
-
   document.addEventListener("keydown", (event) => {
     if (event.key === "Escape" && detailSheetOverlay && !detailSheetOverlay.hidden) {
       closeDetailSheet();
@@ -115,7 +103,7 @@ function renderCards() {
 
 function renderCalendar() {
   const todayKey = MyojouCalendar.dateKey(startOfToday());
-  const months = MyojouCalendar.visibleMonthKeys(state.calendarStartMonth, state.calendarMonthCount);
+  const months = MyojouCalendar.visibleMonthKeys(state.calendarStartMonth, 1);
   const monthSections = months.map((month) => calendarMonthSection(month, todayKey));
 
   eventList.hidden = true;
@@ -234,9 +222,15 @@ function calendarMonthSection(month, todayKey) {
     .filter((cell) => cell.month === month)
     .reduce((total, cell) => total + cell.event_count, 0);
   const node = el("section", { className: "calendar-month" }, [
-    el("h2", { className: "calendar-month-label" }, [
-      MyojouCalendar.monthLabel(month),
-      el("span", { className: "calendar-month-count" }, `${entryCount}件`),
+    el("div", { className: "calendar-month-label" }, [
+      el("h2", { className: "calendar-month-title" }, [
+        MyojouCalendar.monthLabel(month),
+        el("span", { className: "calendar-month-count" }, `${entryCount}件`),
+      ]),
+      el("nav", { className: "calendar-month-controls", ariaLabel: "月移動" }, [
+        calendarMonthButton("previous", "‹", "前月を表示"),
+        calendarMonthButton("next", "›", "次月を表示"),
+      ]),
     ]),
     el("div", { className: "calendar-weekdays", ariaHidden: "true" }, [
       "日", "月", "火", "水", "木", "金", "土",
@@ -244,6 +238,21 @@ function calendarMonthSection(month, todayKey) {
     el("div", { className: "calendar-grid" }, cells.map(calendarCell)),
   ]);
   return { node, entryCount };
+}
+
+function calendarMonthButton(direction, label, ariaLabel) {
+  const button = el("button", {
+    className: "calendar-load-button",
+    type: "button",
+    ariaLabel,
+  }, label);
+  button.setAttribute("data-month-load", direction);
+  button.addEventListener("click", () => {
+    const offset = direction === "previous" ? -1 : 1;
+    state.calendarStartMonth = MyojouCalendar.addMonths(state.calendarStartMonth, offset);
+    render();
+  });
+  return button;
 }
 
 function calendarCell(cell) {

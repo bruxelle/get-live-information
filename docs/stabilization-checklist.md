@@ -28,7 +28,7 @@ This checklist defines the Phase 1 stabilization work for the current static pub
 ## Desktop Checklist
 
 * Calendar is visible immediately at desktop width.
-* Calendar grid, month headings, and month load buttons are visible.
+* Calendar grid, month heading, and previous/next arrow buttons are visible.
 * Desktop layout remains centered and readable.
 * Card view still renders in a sensible grid/list layout.
 * Detail modal/sheet remains readable on wider screens.
