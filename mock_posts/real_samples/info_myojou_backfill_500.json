@@ -2,6 +2,1066 @@
   "captured_at": "2026-06-10T16:19:36.141820+00:00",
   "data": [
     {
+      "api_text": "【特典会実施場所について】\n\n明日開催｢超NATSUZOME 2026 Day1｣の特典会実施場所について、特典会TTフライヤーには｢O｣と記載されていますが、｢D｣にて行います。\n\nご確認よろしくお願いいたします。\n\n #myojou",
+      "attachments": {},
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "day_before_reminder"
+      },
+      "created_at": "2026-07-03T13:23:49+00:00",
+      "entities": {
+        "hashtags": [
+          {
+            "end": 118,
+            "start": 111,
+            "tag": "myojou"
+          }
+        ]
+      },
+      "full_text_source": "text",
+      "id": "2073034982076149950",
+      "media": [],
+      "needs_review": true,
+      "needs_review_reasons": [
+        "missing event_name",
+        "missing ticket deadline",
+        "ambiguous event match",
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": null,
+      "parsed_fields": {
+        "benefit_event_time": null,
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-07-04",
+        "event_dates": [
+          "2026-07-04"
+        ],
+        "event_name": null,
+        "extraction_confidence": 0.6,
+        "general_ticket_price": null,
+        "lottery_result_at": null,
+        "myojou_performance_time": null,
+        "notes": null,
+        "open_time": null,
+        "payment_deadline_at": null,
+        "priority_ticket_name": null,
+        "priority_ticket_price": null,
+        "same_day_ticket_price": null,
+        "source_kind": "day_before_reminder",
+        "source_post_id": "2073034982076149950",
+        "source_posted_at": "2026-07-03T13:23:49Z",
+        "source_raw": {
+          "api_text": "【特典会実施場所について】\n\n明日開催｢超NATSUZOME 2026 Day1｣の特典会実施場所について、特典会TTフライヤーには｢O｣と記載されていますが、｢D｣にて行います。\n\nご確認よろしくお願いいたします。\n\n #myojou",
+          "created_at": "2026-07-03T13:23:49.000Z",
+          "edit_history_tweet_ids": [
+            "2073034982076149950"
+          ],
+          "entities": {
+            "hashtags": [
+              {
+                "end": 118,
+                "start": 111,
+                "tag": "myojou"
+              }
+            ]
+          },
+          "full_text": "【特典会実施場所について】\n\n明日開催｢超NATSUZOME 2026 Day1｣の特典会実施場所について、特典会TTフライヤーには｢O｣と記載されていますが、｢D｣にて行います。\n\nご確認よろしくお願いいたします。\n\n #myojou",
+          "full_text_source": "text",
+          "id": "2073034982076149950",
+          "referenced_tweets": [
+            {
+              "id": "2073034400695226375",
+              "type": "replied_to"
+            }
+          ],
+          "text": "【特典会実施場所について】\n\n明日開催｢超NATSUZOME 2026 Day1｣の特典会実施場所について、特典会TTフライヤーには｢O｣と記載されていますが、｢D｣にて行います。\n\nご確認よろしくお願いいたします。\n\n #myojou",
+          "truncated_text": null
+        },
+        "source_text": "【特典会実施場所について】\n\n明日開催｢超NATSUZOME 2026 Day1｣の特典会実施場所について、特典会TTフライヤーには｢O｣と記載されていますが、｢D｣にて行います。\n\nご確認よろしくお願いいたします。\n\n #myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2073034982076149950",
+        "start_time": null,
+        "ticket_application_deadline_at": null,
+        "ticket_application_start_at": null,
+        "ticket_sale_type": null,
+        "ticket_sales": [],
+        "ticket_status": null,
+        "ticket_url": null,
+        "venue": "について】"
+      },
+      "raw": {
+        "api_text": "【特典会実施場所について】\n\n明日開催｢超NATSUZOME 2026 Day1｣の特典会実施場所について、特典会TTフライヤーには｢O｣と記載されていますが、｢D｣にて行います。\n\nご確認よろしくお願いいたします。\n\n #myojou",
+        "created_at": "2026-07-03T13:23:49.000Z",
+        "edit_history_tweet_ids": [
+          "2073034982076149950"
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "end": 118,
+              "start": 111,
+              "tag": "myojou"
+            }
+          ]
+        },
+        "full_text": "【特典会実施場所について】\n\n明日開催｢超NATSUZOME 2026 Day1｣の特典会実施場所について、特典会TTフライヤーには｢O｣と記載されていますが、｢D｣にて行います。\n\nご確認よろしくお願いいたします。\n\n #myojou",
+        "full_text_source": "text",
+        "id": "2073034982076149950",
+        "referenced_tweets": [
+          {
+            "id": "2073034400695226375",
+            "type": "replied_to"
+          }
+        ],
+        "text": "【特典会実施場所について】\n\n明日開催｢超NATSUZOME 2026 Day1｣の特典会実施場所について、特典会TTフライヤーには｢O｣と記載されていますが、｢D｣にて行います。\n\nご確認よろしくお願いいたします。\n\n #myojou",
+        "truncated_text": null
+      },
+      "referenced_tweets": [
+        {
+          "id": "2073034400695226375",
+          "type": "replied_to"
+        }
+      ],
+      "text": "【特典会実施場所について】\n\n明日開催｢超NATSUZOME 2026 Day1｣の特典会実施場所について、特典会TTフライヤーには｢O｣と記載されていますが、｢D｣にて行います。\n\nご確認よろしくお願いいたします。\n\n #myojou",
+      "truncated_text": null,
+      "url": "https://x.com/info_myojou/status/2073034982076149950"
+    },
+    {
+      "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n  「超NATSUZOME 2026 Day1」\n\n📍NATSUステージ\n🎙18:30-18:45\n📸14:55-15:55 （D）\n🎣16:30-17:30 （08）\n\n⟣date：7/4(土)、7/5(日)\n⟣place : 幕張海浜公園Gブロック特設会場 \n⟣open/start：9:00/10:00(予定) https://t.co/NuXiPDQdIr",
+      "attachments": {
+        "media_keys": [
+          "3_2073034388162686976",
+          "3_2073034388171001856",
+          "3_2073034388162625536"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "day_before_reminder"
+      },
+      "created_at": "2026-07-03T13:21:30+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/NuXiPDQdIr",
+            "end": 205,
+            "expanded_url": "https://x.com/info_myojou/status/2073034400695226375/photo/1",
+            "media_key": "3_2073034388162686976",
+            "start": 182,
+            "url": "https://t.co/NuXiPDQdIr"
+          },
+          {
+            "display_url": "pic.x.com/NuXiPDQdIr",
+            "end": 205,
+            "expanded_url": "https://x.com/info_myojou/status/2073034400695226375/photo/1",
+            "media_key": "3_2073034388171001856",
+            "start": 182,
+            "url": "https://t.co/NuXiPDQdIr"
+          },
+          {
+            "display_url": "pic.x.com/NuXiPDQdIr",
+            "end": 205,
+            "expanded_url": "https://x.com/info_myojou/status/2073034400695226375/photo/1",
+            "media_key": "3_2073034388162625536",
+            "start": 182,
+            "url": "https://t.co/NuXiPDQdIr"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2073034400695226375",
+      "media": [
+        {
+          "height": 3787,
+          "media_key": "3_2073034388162686976",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HMTlyumbMAA6u-u.jpg",
+          "width": 2300
+        },
+        {
+          "height": 3215,
+          "media_key": "3_2073034388171001856",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HMTlyuoaEAAwHSM.jpg",
+          "width": 4096
+        },
+        {
+          "height": 3674,
+          "media_key": "3_2073034388162625536",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HMTlyumaQAAOxP-.jpg",
+          "width": 3451
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 369,
+              "start": 362,
+              "tag": "myojou"
+            },
+            {
+              "end": 381,
+              "start": 371,
+              "tag": "ミョージョーサマー"
+            },
+            {
+              "end": 385,
+              "start": 382,
+              "tag": "夏初"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "idol-spot.tstar.jp/event/rileaas/…",
+              "end": 360,
+              "expanded_url": "https://idol-spot.tstar.jp/event/rileaas/?scid=su_16699",
+              "start": 337,
+              "url": "https://t.co/GvRyAXEWbA"
+            }
+          ]
+        },
+        "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n  「超NATSUZOME 2026 Day1」\n\n📍NATSUステージ\n🎙18:30-18:45\n📸14:55-15:55 （D）\n🎣16:30-17:30 （08）\n\n⟣date：7/4(土)、7/5(日)\n⟣place : 幕張海浜公園Gブロック特設会場 \n⟣open/start：9:00/10:00(予定)\n⟣price：1Day前売り¥8,000/2Days通し券¥14,000/超1Days(VIP)¥27,000/超2Days(VIP)¥50,000（各日1D込）\n※ VIP特典：前方VIPエリア入場+VIP限定Tシャツ及びグッズプレゼント\n\n【一般販売】\n5/22（金）20:30-7/5（日）5:59\n🔗 https://t.co/GvRyAXEWbA\n\n#myojou \n#ミョージョーサマー\n#夏初"
+      },
+      "parsed_fields": {
+        "benefit_event_time": "14:55-15:55",
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-07-04",
+        "event_dates": [
+          "2026-07-04",
+          "2026-07-05"
+        ],
+        "event_name": "超NATSUZOME 2026 Day1",
+        "extraction_confidence": 0.95,
+        "general_ticket_price": 8000,
+        "lottery_result_at": null,
+        "myojou_performance_time": "18:30-18:45",
+        "notes": "ドリンク代: 各+1D\n※ VIP特典:前方VIPエリア入場+VIP限定Tシャツ及びグッズプレゼント",
+        "open_time": "09:00",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "VIP)",
+        "priority_ticket_price": 8000,
+        "same_day_ticket_price": null,
+        "source_kind": "day_before_reminder",
+        "source_post_id": "2073034400695226375",
+        "source_posted_at": "2026-07-03T13:21:30Z",
+        "source_raw": {
+          "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n  「超NATSUZOME 2026 Day1」\n\n📍NATSUステージ\n🎙18:30-18:45\n📸14:55-15:55 （D）\n🎣16:30-17:30 （08）\n\n⟣date：7/4(土)、7/5(日)\n⟣place : 幕張海浜公園Gブロック特設会場 \n⟣open/start：9:00/10:00(予定) https://t.co/NuXiPDQdIr",
+          "attachments": {
+            "media_keys": [
+              "3_2073034388162686976",
+              "3_2073034388171001856",
+              "3_2073034388162625536"
+            ]
+          },
+          "created_at": "2026-07-03T13:21:30.000Z",
+          "edit_history_tweet_ids": [
+            "2073034400695226375"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/NuXiPDQdIr",
+                "end": 205,
+                "expanded_url": "https://x.com/info_myojou/status/2073034400695226375/photo/1",
+                "media_key": "3_2073034388162686976",
+                "start": 182,
+                "url": "https://t.co/NuXiPDQdIr"
+              },
+              {
+                "display_url": "pic.x.com/NuXiPDQdIr",
+                "end": 205,
+                "expanded_url": "https://x.com/info_myojou/status/2073034400695226375/photo/1",
+                "media_key": "3_2073034388171001856",
+                "start": 182,
+                "url": "https://t.co/NuXiPDQdIr"
+              },
+              {
+                "display_url": "pic.x.com/NuXiPDQdIr",
+                "end": 205,
+                "expanded_url": "https://x.com/info_myojou/status/2073034400695226375/photo/1",
+                "media_key": "3_2073034388162625536",
+                "start": 182,
+                "url": "https://t.co/NuXiPDQdIr"
+              }
+            ]
+          },
+          "full_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n  「超NATSUZOME 2026 Day1」\n\n📍NATSUステージ\n🎙18:30-18:45\n📸14:55-15:55 （D）\n🎣16:30-17:30 （08）\n\n⟣date：7/4(土)、7/5(日)\n⟣place : 幕張海浜公園Gブロック特設会場 \n⟣open/start：9:00/10:00(予定)\n⟣price：1Day前売り¥8,000/2Days通し券¥14,000/超1Days(VIP)¥27,000/超2Days(VIP)¥50,000（各日1D込）\n※ VIP特典：前方VIPエリア入場+VIP限定Tシャツ及びグッズプレゼント\n\n【一般販売】\n5/22（金）20:30-7/5（日）5:59\n🔗 https://t.co/GvRyAXEWbA\n\n#myojou \n#ミョージョーサマー\n#夏初",
+          "full_text_source": "note_tweet",
+          "id": "2073034400695226375",
+          "media": [
+            {
+              "height": 3787,
+              "media_key": "3_2073034388162686976",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HMTlyumbMAA6u-u.jpg",
+              "width": 2300
+            },
+            {
+              "height": 3215,
+              "media_key": "3_2073034388171001856",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HMTlyuoaEAAwHSM.jpg",
+              "width": 4096
+            },
+            {
+              "height": 3674,
+              "media_key": "3_2073034388162625536",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HMTlyumaQAAOxP-.jpg",
+              "width": 3451
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 369,
+                  "start": 362,
+                  "tag": "myojou"
+                },
+                {
+                  "end": 381,
+                  "start": 371,
+                  "tag": "ミョージョーサマー"
+                },
+                {
+                  "end": 385,
+                  "start": 382,
+                  "tag": "夏初"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "idol-spot.tstar.jp/event/rileaas/…",
+                  "end": 360,
+                  "expanded_url": "https://idol-spot.tstar.jp/event/rileaas/?scid=su_16699",
+                  "start": 337,
+                  "url": "https://t.co/GvRyAXEWbA"
+                }
+              ]
+            },
+            "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n  「超NATSUZOME 2026 Day1」\n\n📍NATSUステージ\n🎙18:30-18:45\n📸14:55-15:55 （D）\n🎣16:30-17:30 （08）\n\n⟣date：7/4(土)、7/5(日)\n⟣place : 幕張海浜公園Gブロック特設会場 \n⟣open/start：9:00/10:00(予定)\n⟣price：1Day前売り¥8,000/2Days通し券¥14,000/超1Days(VIP)¥27,000/超2Days(VIP)¥50,000（各日1D込）\n※ VIP特典：前方VIPエリア入場+VIP限定Tシャツ及びグッズプレゼント\n\n【一般販売】\n5/22（金）20:30-7/5（日）5:59\n🔗 https://t.co/GvRyAXEWbA\n\n#myojou \n#ミョージョーサマー\n#夏初"
+          },
+          "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n  「超NATSUZOME 2026 Day1」\n\n📍NATSUステージ\n🎙18:30-18:45\n📸14:55-15:55 （D）\n🎣16:30-17:30 （08）\n\n⟣date：7/4(土)、7/5(日)\n⟣place : 幕張海浜公園Gブロック特設会場 \n⟣open/start：9:00/10:00(予定) https://t.co/NuXiPDQdIr",
+          "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n  「超NATSUZOME 2026 Day1」\n\n📍NATSUステージ\n🎙18:30-18:45\n📸14:55-15:55 （D）\n🎣16:30-17:30 （08）\n\n⟣date：7/4(土)、7/5(日)\n⟣place : 幕張海浜公園Gブロック特設会場 \n⟣open/start：9:00/10:00(予定) https://t.co/NuXiPDQdIr"
+        },
+        "source_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n  「超NATSUZOME 2026 Day1」\n\n📍NATSUステージ\n🎙18:30-18:45\n📸14:55-15:55 （D）\n🎣16:30-17:30 （08）\n\n⟣date：7/4(土)、7/5(日)\n⟣place : 幕張海浜公園Gブロック特設会場 \n⟣open/start：9:00/10:00(予定)\n⟣price：1Day前売り¥8,000/2Days通し券¥14,000/超1Days(VIP)¥27,000/超2Days(VIP)¥50,000（各日1D込）\n※ VIP特典：前方VIPエリア入場+VIP限定Tシャツ及びグッズプレゼント\n\n【一般販売】\n5/22（金）20:30-7/5（日）5:59\n🔗 https://t.co/GvRyAXEWbA\n\n#myojou \n#ミョージョーサマー\n#夏初",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2073034400695226375",
+        "start_time": "10:00",
+        "ticket_application_deadline_at": "2026-07-05T05:59:00+09:00",
+        "ticket_application_start_at": "2027-05-22T20:30:00+09:00",
+        "ticket_sale_type": "一般",
+        "ticket_sales": [
+          {
+            "deadline_at": "2026-07-05T05:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 8000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2073034400695226375",
+            "source_url": "https://x.com/info_myojou/status/2073034400695226375",
+            "start_at": "2027-05-22T20:30:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          },
+          {
+            "deadline_at": "2026-07-05T05:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 27000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2073034400695226375",
+            "source_url": "https://x.com/info_myojou/status/2073034400695226375",
+            "start_at": "2027-05-22T20:30:00+09:00",
+            "status": "不明",
+            "ticket_name": "VIP",
+            "ticket_tier": "VIP"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": null,
+        "venue": "幕張海浜公園Gブロック特設会場"
+      },
+      "raw": {
+        "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n  「超NATSUZOME 2026 Day1」\n\n📍NATSUステージ\n🎙18:30-18:45\n📸14:55-15:55 （D）\n🎣16:30-17:30 （08）\n\n⟣date：7/4(土)、7/5(日)\n⟣place : 幕張海浜公園Gブロック特設会場 \n⟣open/start：9:00/10:00(予定) https://t.co/NuXiPDQdIr",
+        "attachments": {
+          "media_keys": [
+            "3_2073034388162686976",
+            "3_2073034388171001856",
+            "3_2073034388162625536"
+          ]
+        },
+        "created_at": "2026-07-03T13:21:30.000Z",
+        "edit_history_tweet_ids": [
+          "2073034400695226375"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/NuXiPDQdIr",
+              "end": 205,
+              "expanded_url": "https://x.com/info_myojou/status/2073034400695226375/photo/1",
+              "media_key": "3_2073034388162686976",
+              "start": 182,
+              "url": "https://t.co/NuXiPDQdIr"
+            },
+            {
+              "display_url": "pic.x.com/NuXiPDQdIr",
+              "end": 205,
+              "expanded_url": "https://x.com/info_myojou/status/2073034400695226375/photo/1",
+              "media_key": "3_2073034388171001856",
+              "start": 182,
+              "url": "https://t.co/NuXiPDQdIr"
+            },
+            {
+              "display_url": "pic.x.com/NuXiPDQdIr",
+              "end": 205,
+              "expanded_url": "https://x.com/info_myojou/status/2073034400695226375/photo/1",
+              "media_key": "3_2073034388162625536",
+              "start": 182,
+              "url": "https://t.co/NuXiPDQdIr"
+            }
+          ]
+        },
+        "full_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n  「超NATSUZOME 2026 Day1」\n\n📍NATSUステージ\n🎙18:30-18:45\n📸14:55-15:55 （D）\n🎣16:30-17:30 （08）\n\n⟣date：7/4(土)、7/5(日)\n⟣place : 幕張海浜公園Gブロック特設会場 \n⟣open/start：9:00/10:00(予定)\n⟣price：1Day前売り¥8,000/2Days通し券¥14,000/超1Days(VIP)¥27,000/超2Days(VIP)¥50,000（各日1D込）\n※ VIP特典：前方VIPエリア入場+VIP限定Tシャツ及びグッズプレゼント\n\n【一般販売】\n5/22（金）20:30-7/5（日）5:59\n🔗 https://t.co/GvRyAXEWbA\n\n#myojou \n#ミョージョーサマー\n#夏初",
+        "full_text_source": "note_tweet",
+        "id": "2073034400695226375",
+        "media": [
+          {
+            "height": 3787,
+            "media_key": "3_2073034388162686976",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HMTlyumbMAA6u-u.jpg",
+            "width": 2300
+          },
+          {
+            "height": 3215,
+            "media_key": "3_2073034388171001856",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HMTlyuoaEAAwHSM.jpg",
+            "width": 4096
+          },
+          {
+            "height": 3674,
+            "media_key": "3_2073034388162625536",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HMTlyumaQAAOxP-.jpg",
+            "width": 3451
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 369,
+                "start": 362,
+                "tag": "myojou"
+              },
+              {
+                "end": 381,
+                "start": 371,
+                "tag": "ミョージョーサマー"
+              },
+              {
+                "end": 385,
+                "start": 382,
+                "tag": "夏初"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "idol-spot.tstar.jp/event/rileaas/…",
+                "end": 360,
+                "expanded_url": "https://idol-spot.tstar.jp/event/rileaas/?scid=su_16699",
+                "start": 337,
+                "url": "https://t.co/GvRyAXEWbA"
+              }
+            ]
+          },
+          "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n  「超NATSUZOME 2026 Day1」\n\n📍NATSUステージ\n🎙18:30-18:45\n📸14:55-15:55 （D）\n🎣16:30-17:30 （08）\n\n⟣date：7/4(土)、7/5(日)\n⟣place : 幕張海浜公園Gブロック特設会場 \n⟣open/start：9:00/10:00(予定)\n⟣price：1Day前売り¥8,000/2Days通し券¥14,000/超1Days(VIP)¥27,000/超2Days(VIP)¥50,000（各日1D込）\n※ VIP特典：前方VIPエリア入場+VIP限定Tシャツ及びグッズプレゼント\n\n【一般販売】\n5/22（金）20:30-7/5（日）5:59\n🔗 https://t.co/GvRyAXEWbA\n\n#myojou \n#ミョージョーサマー\n#夏初"
+        },
+        "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n  「超NATSUZOME 2026 Day1」\n\n📍NATSUステージ\n🎙18:30-18:45\n📸14:55-15:55 （D）\n🎣16:30-17:30 （08）\n\n⟣date：7/4(土)、7/5(日)\n⟣place : 幕張海浜公園Gブロック特設会場 \n⟣open/start：9:00/10:00(予定) https://t.co/NuXiPDQdIr",
+        "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n  「超NATSUZOME 2026 Day1」\n\n📍NATSUステージ\n🎙18:30-18:45\n📸14:55-15:55 （D）\n🎣16:30-17:30 （08）\n\n⟣date：7/4(土)、7/5(日)\n⟣place : 幕張海浜公園Gブロック特設会場 \n⟣open/start：9:00/10:00(予定) https://t.co/NuXiPDQdIr"
+      },
+      "referenced_tweets": [],
+      "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n  「超NATSUZOME 2026 Day1」\n\n📍NATSUステージ\n🎙18:30-18:45\n📸14:55-15:55 （D）\n🎣16:30-17:30 （08）\n\n⟣date：7/4(土)、7/5(日)\n⟣place : 幕張海浜公園Gブロック特設会場 \n⟣open/start：9:00/10:00(予定)\n⟣price：1Day前売り¥8,000/2Days通し券¥14,000/超1Days(VIP)¥27,000/超2Days(VIP)¥50,000（各日1D込）\n※ VIP特典：前方VIPエリア入場+VIP限定Tシャツ及びグッズプレゼント\n\n【一般販売】\n5/22（金）20:30-7/5（日）5:59\n🔗 https://t.co/GvRyAXEWbA\n\n#myojou \n#ミョージョーサマー\n#夏初",
+      "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n  「超NATSUZOME 2026 Day1」\n\n📍NATSUステージ\n🎙18:30-18:45\n📸14:55-15:55 （D）\n🎣16:30-17:30 （08）\n\n⟣date：7/4(土)、7/5(日)\n⟣place : 幕張海浜公園Gブロック特設会場 \n⟣open/start：9:00/10:00(予定) https://t.co/NuXiPDQdIr",
+      "url": "https://x.com/info_myojou/status/2073034400695226375"
+    },
+    {
+      "api_text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n     TOKYO GIRLS GIRLS extra!!\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「TOKYO GIRLS GIRLS extra!!」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka \n栗原ここね@myojou_cocone https://t.co/9Fg2cGzP16",
+      "attachments": {
+        "media_keys": [
+          "3_2073033733561790464"
+        ]
+      },
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "profile/member introduction",
+        "source_kind": "other"
+      },
+      "created_at": "2026-07-03T13:18:53+00:00",
+      "entities": {
+        "mentions": [
+          {
+            "end": 175,
+            "id": "1981655668626165760",
+            "start": 163,
+            "username": "myojou_ruka"
+          },
+          {
+            "end": 196,
+            "id": "1590652199407083520",
+            "start": 182,
+            "username": "myojou_cocone"
+          }
+        ],
+        "urls": [
+          {
+            "display_url": "pic.x.com/9Fg2cGzP16",
+            "end": 220,
+            "expanded_url": "https://x.com/info_myojou/status/2073033739609739631/photo/1",
+            "media_key": "3_2073033733561790464",
+            "start": 197,
+            "url": "https://t.co/9Fg2cGzP16"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2073033739609739631",
+      "media": [
+        {
+          "alt_text": "M1,星景讃歌\nM2,CHRONOS\nM3,蛍夏\nM4,軌跡まで\nM5,HeartBeat\nM6,アンチコンプリート",
+          "height": 1108,
+          "media_key": "3_2073033733561790464",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HMTlMoBaMAAdUMi.jpg",
+          "width": 1477
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 295,
+              "start": 288,
+              "tag": "myojou"
+            }
+          ],
+          "mentions": [
+            {
+              "end": 175,
+              "id": "1981655668626165760",
+              "start": 163,
+              "username": "myojou_ruka"
+            },
+            {
+              "end": 196,
+              "id": "1590652199407083520",
+              "start": 182,
+              "username": "myojou_cocone"
+            },
+            {
+              "end": 213,
+              "id": "2009245855694675968",
+              "start": 202,
+              "username": "myojou_miu"
+            },
+            {
+              "end": 232,
+              "id": "1754991922807177216",
+              "start": 219,
+              "username": "myojou_shino"
+            },
+            {
+              "end": 253,
+              "id": "1344586625901158401",
+              "start": 238,
+              "username": "myojou_usukura"
+            },
+            {
+              "end": 270,
+              "id": "2009274765895450624",
+              "start": 259,
+              "username": "myojou_yun"
+            }
+          ]
+        },
+        "text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n     TOKYO GIRLS GIRLS extra!!\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「TOKYO GIRLS GIRLS extra!!」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka \n栗原ここね@myojou_cocone \n日陽みう@myojou_miu \n真希しの@myojou_shino \n薄倉りな@myojou_usukura \n澪奈ゆん@myojou_yun \n\nSETLIST▶︎ALT\n\n #myojou"
+      },
+      "parsed_fields": null,
+      "raw": {
+        "api_text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n     TOKYO GIRLS GIRLS extra!!\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「TOKYO GIRLS GIRLS extra!!」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka \n栗原ここね@myojou_cocone https://t.co/9Fg2cGzP16",
+        "attachments": {
+          "media_keys": [
+            "3_2073033733561790464"
+          ]
+        },
+        "created_at": "2026-07-03T13:18:53.000Z",
+        "edit_history_tweet_ids": [
+          "2073033739609739631"
+        ],
+        "entities": {
+          "mentions": [
+            {
+              "end": 175,
+              "id": "1981655668626165760",
+              "start": 163,
+              "username": "myojou_ruka"
+            },
+            {
+              "end": 196,
+              "id": "1590652199407083520",
+              "start": 182,
+              "username": "myojou_cocone"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "pic.x.com/9Fg2cGzP16",
+              "end": 220,
+              "expanded_url": "https://x.com/info_myojou/status/2073033739609739631/photo/1",
+              "media_key": "3_2073033733561790464",
+              "start": 197,
+              "url": "https://t.co/9Fg2cGzP16"
+            }
+          ]
+        },
+        "full_text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n     TOKYO GIRLS GIRLS extra!!\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「TOKYO GIRLS GIRLS extra!!」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka \n栗原ここね@myojou_cocone \n日陽みう@myojou_miu \n真希しの@myojou_shino \n薄倉りな@myojou_usukura \n澪奈ゆん@myojou_yun \n\nSETLIST▶︎ALT\n\n #myojou",
+        "full_text_source": "note_tweet",
+        "id": "2073033739609739631",
+        "media": [
+          {
+            "alt_text": "M1,星景讃歌\nM2,CHRONOS\nM3,蛍夏\nM4,軌跡まで\nM5,HeartBeat\nM6,アンチコンプリート",
+            "height": 1108,
+            "media_key": "3_2073033733561790464",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HMTlMoBaMAAdUMi.jpg",
+            "width": 1477
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 295,
+                "start": 288,
+                "tag": "myojou"
+              }
+            ],
+            "mentions": [
+              {
+                "end": 175,
+                "id": "1981655668626165760",
+                "start": 163,
+                "username": "myojou_ruka"
+              },
+              {
+                "end": 196,
+                "id": "1590652199407083520",
+                "start": 182,
+                "username": "myojou_cocone"
+              },
+              {
+                "end": 213,
+                "id": "2009245855694675968",
+                "start": 202,
+                "username": "myojou_miu"
+              },
+              {
+                "end": 232,
+                "id": "1754991922807177216",
+                "start": 219,
+                "username": "myojou_shino"
+              },
+              {
+                "end": 253,
+                "id": "1344586625901158401",
+                "start": 238,
+                "username": "myojou_usukura"
+              },
+              {
+                "end": 270,
+                "id": "2009274765895450624",
+                "start": 259,
+                "username": "myojou_yun"
+              }
+            ]
+          },
+          "text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n     TOKYO GIRLS GIRLS extra!!\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「TOKYO GIRLS GIRLS extra!!」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka \n栗原ここね@myojou_cocone \n日陽みう@myojou_miu \n真希しの@myojou_shino \n薄倉りな@myojou_usukura \n澪奈ゆん@myojou_yun \n\nSETLIST▶︎ALT\n\n #myojou"
+        },
+        "text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n     TOKYO GIRLS GIRLS extra!!\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「TOKYO GIRLS GIRLS extra!!」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka \n栗原ここね@myojou_cocone https://t.co/9Fg2cGzP16",
+        "truncated_text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n     TOKYO GIRLS GIRLS extra!!\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「TOKYO GIRLS GIRLS extra!!」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka \n栗原ここね@myojou_cocone https://t.co/9Fg2cGzP16"
+      },
+      "referenced_tweets": [],
+      "text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n     TOKYO GIRLS GIRLS extra!!\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「TOKYO GIRLS GIRLS extra!!」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka \n栗原ここね@myojou_cocone \n日陽みう@myojou_miu \n真希しの@myojou_shino \n薄倉りな@myojou_usukura \n澪奈ゆん@myojou_yun \n\nSETLIST▶︎ALT\n\n #myojou",
+      "truncated_text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n     TOKYO GIRLS GIRLS extra!!\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「TOKYO GIRLS GIRLS extra!!」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka \n栗原ここね@myojou_cocone https://t.co/9Fg2cGzP16",
+      "url": "https://x.com/info_myojou/status/2073033739609739631"
+    },
+    {
+      "api_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            UTAGE FES Vol.5\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n①YOANI LIVE STATION\n🎙11:00-11:20\n\n②西武新宿付近野外特設ステージ\n🎙14:40-15:05\n\n③Music Restaurant APEXIA\n🎙17:55-18:15\n\n⟣date：7/22(水)\n⟣place : Zepp Shinjuku / https://t.co/Hec4K5Fikk",
+      "attachments": {
+        "media_keys": [
+          "3_2073014062825480192",
+          "3_2073014062871678976"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "ticket_update"
+      },
+      "created_at": "2026-07-03T12:02:51+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/Hec4K5Fikk",
+            "end": 234,
+            "expanded_url": "https://x.com/info_myojou/status/2073014604645703697/photo/1",
+            "media_key": "3_2073014062825480192",
+            "start": 211,
+            "url": "https://t.co/Hec4K5Fikk"
+          },
+          {
+            "display_url": "pic.x.com/Hec4K5Fikk",
+            "end": 234,
+            "expanded_url": "https://x.com/info_myojou/status/2073014604645703697/photo/1",
+            "media_key": "3_2073014062871678976",
+            "start": 211,
+            "url": "https://t.co/Hec4K5Fikk"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2073014604645703697",
+      "media": [
+        {
+          "height": 2363,
+          "media_key": "3_2073014062825480192",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HMTTTo0aIAAoGxn.jpg",
+          "width": 3496
+        },
+        {
+          "height": 2363,
+          "media_key": "3_2073014062871678976",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HMTTTo_bEAAcl2c.jpg",
+          "width": 3496
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 504,
+              "start": 497,
+              "tag": "myojou"
+            },
+            {
+              "end": 517,
+              "start": 507,
+              "tag": "ミョージョーサマー"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "t-dv.com/0722_UTAGEFES",
+              "end": 429,
+              "expanded_url": "http://t-dv.com/0722_UTAGEFES",
+              "start": 406,
+              "url": "https://t.co/6QDyvdqbvX"
+            }
+          ]
+        },
+        "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            UTAGE FES Vol.5\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n①YOANI LIVE STATION\n🎙11:00-11:20\n\n②西武新宿付近野外特設ステージ\n🎙14:40-15:05\n\n③Music Restaurant APEXIA\n🎙17:55-18:15\n\n⟣date：7/22(水)\n⟣place : Zepp Shinjuku / KABUKICHO TOWER STAGE / 新宿LOFT / SHINJUKU WALLY / Zirco Tokyo / 新宿Marble / YOANI LIVE STATION / 新宿ACB\n⟣open/start：10:00/10:30(予定)\n⟣price：VIP ¥10,000 (Tシャツ付) / 一般¥2,500\n⟣入場特典：明星カード2枚（サインありチェキ）\n\n🔗 https://t.co/6QDyvdqbvX\n【先行抽選】\n4/22(水)21:00-5/22(金)23:59\n【一般販売】\n5/23(土)21:00-7/21(火)23:59\n\n#myojou \n #ミョージョーサマー"
+      },
+      "parsed_fields": {
+        "benefit_event_time": null,
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-07-22",
+        "event_dates": [
+          "2026-07-22"
+        ],
+        "event_name": "1YOANI LIVE STATION",
+        "extraction_confidence": 0.95,
+        "general_ticket_price": 2500,
+        "lottery_result_at": null,
+        "myojou_performance_time": "11:00-11:20",
+        "notes": "⟣入場特典:明星カード2枚(サインありチェキ)",
+        "open_time": "10:00",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "VIP",
+        "priority_ticket_price": 10000,
+        "same_day_ticket_price": null,
+        "source_kind": "ticket_update",
+        "source_post_id": "2073014604645703697",
+        "source_posted_at": "2026-07-03T12:02:51Z",
+        "source_raw": {
+          "api_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            UTAGE FES Vol.5\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n①YOANI LIVE STATION\n🎙11:00-11:20\n\n②西武新宿付近野外特設ステージ\n🎙14:40-15:05\n\n③Music Restaurant APEXIA\n🎙17:55-18:15\n\n⟣date：7/22(水)\n⟣place : Zepp Shinjuku / https://t.co/Hec4K5Fikk",
+          "attachments": {
+            "media_keys": [
+              "3_2073014062825480192",
+              "3_2073014062871678976"
+            ]
+          },
+          "created_at": "2026-07-03T12:02:51.000Z",
+          "edit_history_tweet_ids": [
+            "2073014072791212273",
+            "2073014604645703697"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/Hec4K5Fikk",
+                "end": 234,
+                "expanded_url": "https://x.com/info_myojou/status/2073014604645703697/photo/1",
+                "media_key": "3_2073014062825480192",
+                "start": 211,
+                "url": "https://t.co/Hec4K5Fikk"
+              },
+              {
+                "display_url": "pic.x.com/Hec4K5Fikk",
+                "end": 234,
+                "expanded_url": "https://x.com/info_myojou/status/2073014604645703697/photo/1",
+                "media_key": "3_2073014062871678976",
+                "start": 211,
+                "url": "https://t.co/Hec4K5Fikk"
+              }
+            ]
+          },
+          "full_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            UTAGE FES Vol.5\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n①YOANI LIVE STATION\n🎙11:00-11:20\n\n②西武新宿付近野外特設ステージ\n🎙14:40-15:05\n\n③Music Restaurant APEXIA\n🎙17:55-18:15\n\n⟣date：7/22(水)\n⟣place : Zepp Shinjuku / KABUKICHO TOWER STAGE / 新宿LOFT / SHINJUKU WALLY / Zirco Tokyo / 新宿Marble / YOANI LIVE STATION / 新宿ACB\n⟣open/start：10:00/10:30(予定)\n⟣price：VIP ¥10,000 (Tシャツ付) / 一般¥2,500\n⟣入場特典：明星カード2枚（サインありチェキ）\n\n🔗 https://t.co/6QDyvdqbvX\n【先行抽選】\n4/22(水)21:00-5/22(金)23:59\n【一般販売】\n5/23(土)21:00-7/21(火)23:59\n\n#myojou \n #ミョージョーサマー",
+          "full_text_source": "note_tweet",
+          "id": "2073014604645703697",
+          "media": [
+            {
+              "height": 2363,
+              "media_key": "3_2073014062825480192",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HMTTTo0aIAAoGxn.jpg",
+              "width": 3496
+            },
+            {
+              "height": 2363,
+              "media_key": "3_2073014062871678976",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HMTTTo_bEAAcl2c.jpg",
+              "width": 3496
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 504,
+                  "start": 497,
+                  "tag": "myojou"
+                },
+                {
+                  "end": 517,
+                  "start": 507,
+                  "tag": "ミョージョーサマー"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "t-dv.com/0722_UTAGEFES",
+                  "end": 429,
+                  "expanded_url": "http://t-dv.com/0722_UTAGEFES",
+                  "start": 406,
+                  "url": "https://t.co/6QDyvdqbvX"
+                }
+              ]
+            },
+            "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            UTAGE FES Vol.5\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n①YOANI LIVE STATION\n🎙11:00-11:20\n\n②西武新宿付近野外特設ステージ\n🎙14:40-15:05\n\n③Music Restaurant APEXIA\n🎙17:55-18:15\n\n⟣date：7/22(水)\n⟣place : Zepp Shinjuku / KABUKICHO TOWER STAGE / 新宿LOFT / SHINJUKU WALLY / Zirco Tokyo / 新宿Marble / YOANI LIVE STATION / 新宿ACB\n⟣open/start：10:00/10:30(予定)\n⟣price：VIP ¥10,000 (Tシャツ付) / 一般¥2,500\n⟣入場特典：明星カード2枚（サインありチェキ）\n\n🔗 https://t.co/6QDyvdqbvX\n【先行抽選】\n4/22(水)21:00-5/22(金)23:59\n【一般販売】\n5/23(土)21:00-7/21(火)23:59\n\n#myojou \n #ミョージョーサマー"
+          },
+          "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            UTAGE FES Vol.5\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n①YOANI LIVE STATION\n🎙11:00-11:20\n\n②西武新宿付近野外特設ステージ\n🎙14:40-15:05\n\n③Music Restaurant APEXIA\n🎙17:55-18:15\n\n⟣date：7/22(水)\n⟣place : Zepp Shinjuku / https://t.co/Hec4K5Fikk",
+          "truncated_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            UTAGE FES Vol.5\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n①YOANI LIVE STATION\n🎙11:00-11:20\n\n②西武新宿付近野外特設ステージ\n🎙14:40-15:05\n\n③Music Restaurant APEXIA\n🎙17:55-18:15\n\n⟣date：7/22(水)\n⟣place : Zepp Shinjuku / https://t.co/Hec4K5Fikk"
+        },
+        "source_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            UTAGE FES Vol.5\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n①YOANI LIVE STATION\n🎙11:00-11:20\n\n②西武新宿付近野外特設ステージ\n🎙14:40-15:05\n\n③Music Restaurant APEXIA\n🎙17:55-18:15\n\n⟣date：7/22(水)\n⟣place : Zepp Shinjuku / KABUKICHO TOWER STAGE / 新宿LOFT / SHINJUKU WALLY / Zirco Tokyo / 新宿Marble / YOANI LIVE STATION / 新宿ACB\n⟣open/start：10:00/10:30(予定)\n⟣price：VIP ¥10,000 (Tシャツ付) / 一般¥2,500\n⟣入場特典：明星カード2枚（サインありチェキ）\n\n🔗 https://t.co/6QDyvdqbvX\n【先行抽選】\n4/22(水)21:00-5/22(金)23:59\n【一般販売】\n5/23(土)21:00-7/21(火)23:59\n\n#myojou \n #ミョージョーサマー",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2073014604645703697",
+        "start_time": "10:30",
+        "ticket_application_deadline_at": "2027-05-22T23:59:00+09:00",
+        "ticket_application_start_at": "2027-04-22T21:00:00+09:00",
+        "ticket_sale_type": "一般",
+        "ticket_sales": [
+          {
+            "deadline_at": "2027-05-22T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 10000,
+            "result_at": null,
+            "sale_type": "抽選",
+            "source_post_id": "2073014604645703697",
+            "source_url": "https://x.com/info_myojou/status/2073014604645703697",
+            "start_at": "2027-04-22T21:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "VIP",
+            "ticket_tier": "VIP"
+          },
+          {
+            "deadline_at": "2027-05-22T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 2500,
+            "result_at": null,
+            "sale_type": "抽選",
+            "source_post_id": "2073014604645703697",
+            "source_url": "https://x.com/info_myojou/status/2073014604645703697",
+            "start_at": "2027-04-22T21:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          },
+          {
+            "deadline_at": "2026-07-21T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 10000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2073014604645703697",
+            "source_url": "https://x.com/info_myojou/status/2073014604645703697",
+            "start_at": "2027-05-23T21:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "VIP",
+            "ticket_tier": "VIP"
+          },
+          {
+            "deadline_at": "2026-07-21T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 2500,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2073014604645703697",
+            "source_url": "https://x.com/info_myojou/status/2073014604645703697",
+            "start_at": "2027-05-23T21:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "http://t-dv.com/0722_UTAGEFES",
+        "venue": "Zepp Shinjuku / KABUKICHO TOWER STAGE / 新宿LOFT / SHINJUKU WALLY / Zirco Tokyo / 新宿Marble / YOANI LIVE STATION / 新宿ACB"
+      },
+      "raw": {
+        "api_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            UTAGE FES Vol.5\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n①YOANI LIVE STATION\n🎙11:00-11:20\n\n②西武新宿付近野外特設ステージ\n🎙14:40-15:05\n\n③Music Restaurant APEXIA\n🎙17:55-18:15\n\n⟣date：7/22(水)\n⟣place : Zepp Shinjuku / https://t.co/Hec4K5Fikk",
+        "attachments": {
+          "media_keys": [
+            "3_2073014062825480192",
+            "3_2073014062871678976"
+          ]
+        },
+        "created_at": "2026-07-03T12:02:51.000Z",
+        "edit_history_tweet_ids": [
+          "2073014072791212273",
+          "2073014604645703697"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/Hec4K5Fikk",
+              "end": 234,
+              "expanded_url": "https://x.com/info_myojou/status/2073014604645703697/photo/1",
+              "media_key": "3_2073014062825480192",
+              "start": 211,
+              "url": "https://t.co/Hec4K5Fikk"
+            },
+            {
+              "display_url": "pic.x.com/Hec4K5Fikk",
+              "end": 234,
+              "expanded_url": "https://x.com/info_myojou/status/2073014604645703697/photo/1",
+              "media_key": "3_2073014062871678976",
+              "start": 211,
+              "url": "https://t.co/Hec4K5Fikk"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            UTAGE FES Vol.5\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n①YOANI LIVE STATION\n🎙11:00-11:20\n\n②西武新宿付近野外特設ステージ\n🎙14:40-15:05\n\n③Music Restaurant APEXIA\n🎙17:55-18:15\n\n⟣date：7/22(水)\n⟣place : Zepp Shinjuku / KABUKICHO TOWER STAGE / 新宿LOFT / SHINJUKU WALLY / Zirco Tokyo / 新宿Marble / YOANI LIVE STATION / 新宿ACB\n⟣open/start：10:00/10:30(予定)\n⟣price：VIP ¥10,000 (Tシャツ付) / 一般¥2,500\n⟣入場特典：明星カード2枚（サインありチェキ）\n\n🔗 https://t.co/6QDyvdqbvX\n【先行抽選】\n4/22(水)21:00-5/22(金)23:59\n【一般販売】\n5/23(土)21:00-7/21(火)23:59\n\n#myojou \n #ミョージョーサマー",
+        "full_text_source": "note_tweet",
+        "id": "2073014604645703697",
+        "media": [
+          {
+            "height": 2363,
+            "media_key": "3_2073014062825480192",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HMTTTo0aIAAoGxn.jpg",
+            "width": 3496
+          },
+          {
+            "height": 2363,
+            "media_key": "3_2073014062871678976",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HMTTTo_bEAAcl2c.jpg",
+            "width": 3496
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 504,
+                "start": 497,
+                "tag": "myojou"
+              },
+              {
+                "end": 517,
+                "start": 507,
+                "tag": "ミョージョーサマー"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "t-dv.com/0722_UTAGEFES",
+                "end": 429,
+                "expanded_url": "http://t-dv.com/0722_UTAGEFES",
+                "start": 406,
+                "url": "https://t.co/6QDyvdqbvX"
+              }
+            ]
+          },
+          "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            UTAGE FES Vol.5\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n①YOANI LIVE STATION\n🎙11:00-11:20\n\n②西武新宿付近野外特設ステージ\n🎙14:40-15:05\n\n③Music Restaurant APEXIA\n🎙17:55-18:15\n\n⟣date：7/22(水)\n⟣place : Zepp Shinjuku / KABUKICHO TOWER STAGE / 新宿LOFT / SHINJUKU WALLY / Zirco Tokyo / 新宿Marble / YOANI LIVE STATION / 新宿ACB\n⟣open/start：10:00/10:30(予定)\n⟣price：VIP ¥10,000 (Tシャツ付) / 一般¥2,500\n⟣入場特典：明星カード2枚（サインありチェキ）\n\n🔗 https://t.co/6QDyvdqbvX\n【先行抽選】\n4/22(水)21:00-5/22(金)23:59\n【一般販売】\n5/23(土)21:00-7/21(火)23:59\n\n#myojou \n #ミョージョーサマー"
+        },
+        "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            UTAGE FES Vol.5\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n①YOANI LIVE STATION\n🎙11:00-11:20\n\n②西武新宿付近野外特設ステージ\n🎙14:40-15:05\n\n③Music Restaurant APEXIA\n🎙17:55-18:15\n\n⟣date：7/22(水)\n⟣place : Zepp Shinjuku / https://t.co/Hec4K5Fikk",
+        "truncated_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            UTAGE FES Vol.5\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n①YOANI LIVE STATION\n🎙11:00-11:20\n\n②西武新宿付近野外特設ステージ\n🎙14:40-15:05\n\n③Music Restaurant APEXIA\n🎙17:55-18:15\n\n⟣date：7/22(水)\n⟣place : Zepp Shinjuku / https://t.co/Hec4K5Fikk"
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            UTAGE FES Vol.5\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n①YOANI LIVE STATION\n🎙11:00-11:20\n\n②西武新宿付近野外特設ステージ\n🎙14:40-15:05\n\n③Music Restaurant APEXIA\n🎙17:55-18:15\n\n⟣date：7/22(水)\n⟣place : Zepp Shinjuku / KABUKICHO TOWER STAGE / 新宿LOFT / SHINJUKU WALLY / Zirco Tokyo / 新宿Marble / YOANI LIVE STATION / 新宿ACB\n⟣open/start：10:00/10:30(予定)\n⟣price：VIP ¥10,000 (Tシャツ付) / 一般¥2,500\n⟣入場特典：明星カード2枚（サインありチェキ）\n\n🔗 https://t.co/6QDyvdqbvX\n【先行抽選】\n4/22(水)21:00-5/22(金)23:59\n【一般販売】\n5/23(土)21:00-7/21(火)23:59\n\n#myojou \n #ミョージョーサマー",
+      "truncated_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            UTAGE FES Vol.5\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n①YOANI LIVE STATION\n🎙11:00-11:20\n\n②西武新宿付近野外特設ステージ\n🎙14:40-15:05\n\n③Music Restaurant APEXIA\n🎙17:55-18:15\n\n⟣date：7/22(水)\n⟣place : Zepp Shinjuku / https://t.co/Hec4K5Fikk",
+      "url": "https://x.com/info_myojou/status/2073014604645703697"
+    },
+    {
       "api_text": "✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n      myojou oneman live\"明夏\"\n                   「星景讃歌」\n✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n\n⟣2026.07.03 21:30 プレミア公開\n⟣ myojou公式YouTubeチャンネル\n🔗 https://t.co/wmlVc4nNSj\n\n #myojou",
       "attachments": {},
       "classification": {
@@ -103132,7 +104192,7 @@
     "backfill": true,
     "dry_run": true,
     "estimated_x_post_reads": 411,
-    "latest_post_id": "2073006487258185752",
+    "latest_post_id": "2073034982076149950",
     "max_pages": 10,
     "max_posts": 500,
     "max_results": 5,
@@ -103175,16 +104235,16 @@
       }
     ],
     "pages_fetched": 5,
-    "posts_fetched": 486,
+    "posts_fetched": 490,
     "rate_limit_headers": {
       "x-rate-limit-limit": "10000",
       "x-rate-limit-remaining": "9993",
       "x-rate-limit-reset": "1781108896"
     },
-    "total_posts": 486,
-    "updated_at": "2026-07-03T11:36:00.966801+00:00",
+    "total_posts": 490,
+    "updated_at": "2026-07-03T20:17:30.078168+00:00",
     "username": "info_myojou"
   },
   "source": "x_api",
-  "updated_at": "2026-07-03T11:36:00.966801+00:00"
+  "updated_at": "2026-07-03T20:17:30.078168+00:00"
 }
