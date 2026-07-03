@@ -1558,13 +1558,28 @@ def _clean_event_title_candidate(value: str | None) -> str | None:
         pieces = re.split(r"\bpresents?\b", cleaned, maxsplit=1, flags=re.I)
         if len(pieces) == 2 and pieces[1].strip():
             cleaned = pieces[1]
-    cleaned = cleaned.strip(" \t　:：-/／|｜『』「」\"'“”’")
+    cleaned = cleaned.strip(" \t　:：-/／|｜")
+    cleaned = _strip_wrapping_title_quotes(cleaned)
     cleaned = re.sub(r"^[『「\"'“”’]+", "", cleaned)
-    cleaned = re.sub(r"[』」\"'“”’]+$", "", cleaned)
+    cleaned = cleaned.strip(" \t　:：-/／|｜")
     cleaned = normalize_spaces(cleaned)
     if cleaned and had_trailing_spaced_hyphen and not cleaned.endswith("-"):
         cleaned = f"{cleaned} -"
     return cleaned or None
+
+
+def _strip_wrapping_title_quotes(value: str) -> str:
+    quote_pairs = (("『", "』"), ("「", "」"), ("“", "”"), ("\"", "\""), ("'", "'"), ("’", "’"))
+    cleaned = value.strip()
+    changed = True
+    while changed and len(cleaned) >= 2:
+        changed = False
+        for left, right in quote_pairs:
+            if cleaned.startswith(left) and cleaned.endswith(right):
+                cleaned = cleaned[len(left) : len(cleaned) - len(right)].strip()
+                changed = True
+                break
+    return cleaned
 
 
 def _title_from_header_block(text: str) -> str | None:
