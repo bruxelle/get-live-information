@@ -2541,11 +2541,11 @@
     ]
   },
   {
-    "public_event_id": "evt_0267a656334a45308d478f5519099980:2026-04-15",
-    "source_event_id": "evt_0267a656334a45308d478f5519099980",
+    "public_event_id": "evt_d87061ab099a4cd4ac1f7018041d02ad:2026-04-15",
+    "source_event_id": "evt_d87061ab099a4cd4ac1f7018041d02ad",
     "event_date": "2026-04-15",
     "weekday": "水",
-    "event_name": "定期公演「明星月報",
+    "event_name": "定期公演「明星月報」",
     "venue": "SHIBUYA RING",
     "live_summary": "開演 19:00 / 特典会 16:30-17:30",
     "ticket_summary": "一般 1,000円 / 4/14締切 / 完売",
@@ -3671,11 +3671,11 @@
     ]
   },
   {
-    "public_event_id": "evt_c57a6f24e5244df2bd80fac40f45dd9c:2026-05-13",
-    "source_event_id": "evt_c57a6f24e5244df2bd80fac40f45dd9c",
+    "public_event_id": "evt_4381917a18d74431ba94530fdfae8d54:2026-05-13",
+    "source_event_id": "evt_4381917a18d74431ba94530fdfae8d54",
     "event_date": "2026-05-13",
     "weekday": "水",
-    "event_name": "定期公演「明星月報",
+    "event_name": "定期公演「明星月報」",
     "venue": "SHIBUYA RING",
     "live_summary": "開演 19:00 / 特典会 16:30-17:30",
     "ticket_summary": "一般 1,000円 / 5/12締切",
@@ -6586,6 +6586,48 @@
     "public_ready": true,
     "public_not_ready_reasons": [],
     "review_reasons": [
+      "classification: live post has date and structured event fields"
+    ]
+  },
+  {
+    "public_event_id": "evt_d89fb4f326ee4f4c905e9f1ec0949f36:2026-07-08",
+    "source_event_id": "evt_d89fb4f326ee4f4c905e9f1ec0949f36",
+    "event_date": "2026-07-08",
+    "weekday": "水",
+    "event_name": "定期公演「明星月報」",
+    "venue": "SHIBUYA RING",
+    "live_summary": "開演 19:00 / 特典会 16:30-17:30",
+    "ticket_summary": "一般 2,500円",
+    "application_summary": "未取得",
+    "ticket_url": "",
+    "ticket_status": "不明",
+    "needs_review": true,
+    "ticket_application_deadline_at": "",
+    "payment_deadline_at": "",
+    "ticket_sales": [
+      {
+        "sale_type": "不明",
+        "ticket_name": "一般",
+        "ticket_tier": "一般",
+        "price": 2500,
+        "start_at": "",
+        "deadline_at": "",
+        "result_at": "",
+        "payment_deadline_at": "",
+        "status": "不明",
+        "source_url": "https://x.com/info_myojou/status/2065388703644836098",
+        "source_post_id": "2065388703644836098",
+        "notes": "",
+        "is_next_deadline": false
+      }
+    ],
+    "next_ticket_deadline_at": "",
+    "next_ticket_sale_type": "不明",
+    "next_ticket_label": "",
+    "public_ready": true,
+    "public_not_ready_reasons": [],
+    "review_reasons": [
+      "missing ticket deadline",
       "classification: live post has date and structured event fields"
     ]
   },

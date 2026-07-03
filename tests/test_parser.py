@@ -12,6 +12,7 @@ from myojou_sync.models import XPost
 from myojou_sync.parser import PostParser
 from myojou_sync.pipeline import SyncPipeline
 from myojou_sync.public_output import application_summary, ticket_summary
+from myojou_sync.readiness import public_readiness
 from myojou_sync.real_samples import evaluate_real_samples
 from myojou_sync.sample_capture import needs_review_reasons
 from myojou_sync.state import SQLiteStateStore
@@ -1216,3 +1217,49 @@ def test_real_archive_emergency_stream_rally_is_non_event_but_real_tif_live_rema
     assert "streaming-only" in rally.reason
     assert live is not None
     assert live.event_name == "TIF2026メインステージ争奪LIVE 前哨戦"
+
+
+def test_regular_geppou_with_pre_benefit_parses_as_public_live():
+    post = XPost(
+        id="2065388703644836098",
+        created_at=datetime(2026, 6, 12, 12, 0, tzinfo=JST),
+        raw={"url": "https://x.com/info_myojou/status/2065388703644836098"},
+        text=(
+            "✮••┈┈┈┈••✮••┈┈┈┈••✮\n"
+            "         定期公演｢明星月報｣\n"
+            "✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n"
+            "⟣date：7/8（水）\n"
+            "⟣place : SHIBUYA RING\n"
+            "⟣open/start：18:30/19:00\n"
+            "⟣事前特典会：16:30-17:30\n"
+            "⟣price：一般 ¥2,500（+1D）\n\n"
+            "#myojou"
+        ),
+    )
+    parser = PostParser()
+    classification = parser.classify_post(post)
+    parsed = parser.parse_post(post, classification=classification)
+
+    assert classification.classification == PostClassification.EVENT
+    assert parsed is not None
+    assert parsed.event_name == "定期公演「明星月報」"
+    assert parsed.event_date == date(2026, 7, 8)
+    assert parsed.venue == "SHIBUYA RING"
+    assert parsed.open_time == "18:30"
+    assert parsed.start_time == "19:00"
+    assert parsed.benefit_event_time == "16:30-17:30"
+    assert parsed.general_ticket_price == 2500
+    readiness = public_readiness(CanonicalEvent.from_extracted(parsed))
+    assert readiness.public_ready is True
+    assert not any("benefit-only" in reason for reason in readiness.reasons)
+
+
+def test_regular_geppou_goods_only_post_is_non_event():
+    post = XPost(
+        id="geppou-goods-only",
+        created_at=datetime(2026, 6, 12, 12, 0, tzinfo=JST),
+        text="定期公演「明星月報」グッズ公開\nナンバーくじとグッズ販売のお知らせです。",
+    )
+    classification = PostParser().classify_post(post)
+
+    assert classification.classification == PostClassification.NON_EVENT

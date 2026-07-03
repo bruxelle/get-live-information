@@ -16772,6 +16772,21 @@
       "url": "https://x.com/info_myojou/status/2065793774358609965"
     },
     {
+      "api_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n         定期公演｢明星月報｣\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣date：7/8（水）\n⟣place : SHIBUYA RING\n⟣open/start：18:30/19:00\n⟣事前特典会：16:30-17:30\n⟣price：一般 ¥2,500（+1D）\n\n#myojou",
+      "created_at": "2026-06-12T12:00:00+00:00",
+      "entities": {
+        "urls": []
+      },
+      "full_text_source": "text",
+      "id": "2065388703644836098",
+      "media": [],
+      "note_tweet": null,
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n         定期公演｢明星月報｣\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣date：7/8（水）\n⟣place : SHIBUYA RING\n⟣open/start：18:30/19:00\n⟣事前特典会：16:30-17:30\n⟣price：一般 ¥2,500（+1D）\n\n#myojou",
+      "truncated_text": null,
+      "url": "https://x.com/info_myojou/status/2065388703644836098"
+    },
+    {
       "api_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            ˚.⋆ラジオ配信˖°⋆\n          myojou天体観測 #8\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣2026.06.10 22:00 プレミア公開\n⟣ myojou公式YouTubeチャンネル\n🔗 https://t.co/YOyYVkXSyT\n\n #myojou",
       "attachments": {},
       "classification": {
@@ -101961,13 +101976,13 @@
       }
     ],
     "pages_fetched": 5,
-    "posts_fetched": 480,
+    "posts_fetched": 481,
     "rate_limit_headers": {
       "x-rate-limit-limit": "10000",
       "x-rate-limit-remaining": "9993",
       "x-rate-limit-reset": "1781108896"
     },
-    "total_posts": 480,
+    "total_posts": 481,
     "updated_at": "2026-07-02T20:22:02.983290+00:00",
     "username": "info_myojou"
   },
