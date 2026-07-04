@@ -2,6 +2,1608 @@
   "captured_at": "2026-06-10T16:19:36.141820+00:00",
   "data": [
     {
+      "api_text": "✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n                 𝐿𝐼𝑉𝐸 𝐷𝐼𝐺𝐸𝑆𝑇 \n     超NATSUZOME 2026 Day1\n                 「HeartBeat」\n✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n\n #myojou https://t.co/NAFamSTl8P",
+      "attachments": {
+        "media_keys": [
+          "13_2073415188435664897"
+        ]
+      },
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "live digest recap",
+        "source_kind": "other"
+      },
+      "created_at": "2026-07-04T14:36:42+00:00",
+      "entities": {
+        "hashtags": [
+          {
+            "end": 132,
+            "start": 125,
+            "tag": "myojou"
+          }
+        ],
+        "urls": [
+          {
+            "display_url": "pic.x.com/NAFamSTl8P",
+            "end": 156,
+            "expanded_url": "https://x.com/info_myojou/status/2073415712346083524/video/1",
+            "media_key": "13_2073415188435664897",
+            "start": 133,
+            "url": "https://t.co/NAFamSTl8P"
+          }
+        ]
+      },
+      "full_text_source": "text",
+      "id": "2073415712346083524",
+      "media": [
+        {
+          "height": 1080,
+          "media_key": "13_2073415188435664897",
+          "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2073415188435664897/img/nSUCIkqT2bwhw5jY.jpg",
+          "type": "video",
+          "width": 1920
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "note_tweet": null,
+      "parsed_fields": null,
+      "raw": {
+        "api_text": "✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n                 𝐿𝐼𝑉𝐸 𝐷𝐼𝐺𝐸𝑆𝑇 \n     超NATSUZOME 2026 Day1\n                 「HeartBeat」\n✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n\n #myojou https://t.co/NAFamSTl8P",
+        "attachments": {
+          "media_keys": [
+            "13_2073415188435664897"
+          ]
+        },
+        "created_at": "2026-07-04T14:36:42.000Z",
+        "edit_history_tweet_ids": [
+          "2073415712346083524"
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "end": 132,
+              "start": 125,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "pic.x.com/NAFamSTl8P",
+              "end": 156,
+              "expanded_url": "https://x.com/info_myojou/status/2073415712346083524/video/1",
+              "media_key": "13_2073415188435664897",
+              "start": 133,
+              "url": "https://t.co/NAFamSTl8P"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n                 𝐿𝐼𝑉𝐸 𝐷𝐼𝐺𝐸𝑆𝑇 \n     超NATSUZOME 2026 Day1\n                 「HeartBeat」\n✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n\n #myojou https://t.co/NAFamSTl8P",
+        "full_text_source": "text",
+        "id": "2073415712346083524",
+        "media": [
+          {
+            "height": 1080,
+            "media_key": "13_2073415188435664897",
+            "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2073415188435664897/img/nSUCIkqT2bwhw5jY.jpg",
+            "type": "video",
+            "width": 1920
+          }
+        ],
+        "text": "✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n                 𝐿𝐼𝑉𝐸 𝐷𝐼𝐺𝐸𝑆𝑇 \n     超NATSUZOME 2026 Day1\n                 「HeartBeat」\n✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n\n #myojou https://t.co/NAFamSTl8P",
+        "truncated_text": null
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n                 𝐿𝐼𝑉𝐸 𝐷𝐼𝐺𝐸𝑆𝑇 \n     超NATSUZOME 2026 Day1\n                 「HeartBeat」\n✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n\n #myojou https://t.co/NAFamSTl8P",
+      "truncated_text": null,
+      "url": "https://x.com/info_myojou/status/2073415712346083524"
+    },
+    {
+      "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「超NATSUZOME 2026 Day2」\n\n📍UMIステージ\n🎙10:00-10:15\n📸12:55-13:55 （E）\n🎣10:30-11:30（01）\n⟣第1回 釣り女王決定戦！参加日\n投票数上位3組は追加ステージ出演！\n\n1位：UMIステージ（18:05-18:20）\n2位：NATSUステージ（17:45-18:00） https://t.co/3lBgUrhXtZ",
+      "attachments": {
+        "media_keys": [
+          "3_2073384442736033792",
+          "3_2073384442765492224",
+          "3_2073384442761203712",
+          "3_2073384442761191424"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "day_before_reminder"
+      },
+      "created_at": "2026-07-04T12:32:35+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/3lBgUrhXtZ",
+            "end": 212,
+            "expanded_url": "https://x.com/info_myojou/status/2073384474826641798/photo/1",
+            "media_key": "3_2073384442736033792",
+            "start": 189,
+            "url": "https://t.co/3lBgUrhXtZ"
+          },
+          {
+            "display_url": "pic.x.com/3lBgUrhXtZ",
+            "end": 212,
+            "expanded_url": "https://x.com/info_myojou/status/2073384474826641798/photo/1",
+            "media_key": "3_2073384442765492224",
+            "start": 189,
+            "url": "https://t.co/3lBgUrhXtZ"
+          },
+          {
+            "display_url": "pic.x.com/3lBgUrhXtZ",
+            "end": 212,
+            "expanded_url": "https://x.com/info_myojou/status/2073384474826641798/photo/1",
+            "media_key": "3_2073384442761203712",
+            "start": 189,
+            "url": "https://t.co/3lBgUrhXtZ"
+          },
+          {
+            "display_url": "pic.x.com/3lBgUrhXtZ",
+            "end": 212,
+            "expanded_url": "https://x.com/info_myojou/status/2073384474826641798/photo/1",
+            "media_key": "3_2073384442761191424",
+            "start": 189,
+            "url": "https://t.co/3lBgUrhXtZ"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2073384474826641798",
+      "media": [
+        {
+          "height": 3787,
+          "media_key": "3_2073384442736033792",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HMYkKlgaQAAdNWb.jpg",
+          "width": 2300
+        },
+        {
+          "height": 3215,
+          "media_key": "3_2073384442765492224",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HMYkKlnbwAAszzx.jpg",
+          "width": 4096
+        },
+        {
+          "height": 3674,
+          "media_key": "3_2073384442761203712",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HMYkKlmaUAA-wRJ.jpg",
+          "width": 3451
+        },
+        {
+          "height": 2434,
+          "media_key": "3_2073384442761191424",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HMYkKlmaIAACDCH.jpg",
+          "width": 1720
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 475,
+              "start": 468,
+              "tag": "myojou"
+            },
+            {
+              "end": 487,
+              "start": 477,
+              "tag": "ミョージョーサマー"
+            },
+            {
+              "end": 491,
+              "start": 488,
+              "tag": "夏初"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "idol-spot.tstar.jp/event/rileaas/…",
+              "end": 466,
+              "expanded_url": "https://idol-spot.tstar.jp/event/rileaas/?scid=su_16699",
+              "start": 443,
+              "url": "https://t.co/GvRyAXEWbA"
+            }
+          ]
+        },
+        "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「超NATSUZOME 2026 Day2」\n\n📍UMIステージ\n🎙10:00-10:15\n📸12:55-13:55 （E）\n🎣10:30-11:30（01）\n⟣第1回 釣り女王決定戦！参加日\n投票数上位3組は追加ステージ出演！\n\n1位：UMIステージ（18:05-18:20）\n2位：NATSUステージ（17:45-18:00）\n3位：ZOMEステージ（17:15-17:30）\n\n⟣date：7/4(土)、7/5(日)\n⟣place : 幕張海浜公園Gブロック特設会場 \n⟣open/start：9:00/10:00(予定)\n⟣price：1Day前売り¥8,000/2Days通し券¥14,000/超1Days(VIP)¥27,000/超2Days(VIP)¥50,000（各日1D込）\n※ VIP特典：前方VIPエリア入場+VIP限定Tシャツ及びグッズプレゼント\n\n【一般販売】\n5/22（金）20:30-7/5（日）5:59\n🔗 https://t.co/GvRyAXEWbA\n\n#myojou \n#ミョージョーサマー\n#夏初"
+      },
+      "parsed_fields": {
+        "benefit_event_time": "12:55-13:55",
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-07-04",
+        "event_dates": [
+          "2026-07-04",
+          "2026-07-05"
+        ],
+        "event_name": "超NATSUZOME 2026 Day2",
+        "extraction_confidence": 0.95,
+        "general_ticket_price": 8000,
+        "lottery_result_at": null,
+        "myojou_performance_time": "10:00-10:15",
+        "notes": "ドリンク代: 各+1D\n※ VIP特典:前方VIPエリア入場+VIP限定Tシャツ及びグッズプレゼント",
+        "open_time": "09:00",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "VIP)",
+        "priority_ticket_price": 8000,
+        "same_day_ticket_price": null,
+        "source_kind": "day_before_reminder",
+        "source_post_id": "2073384474826641798",
+        "source_posted_at": "2026-07-04T12:32:35Z",
+        "source_raw": {
+          "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「超NATSUZOME 2026 Day2」\n\n📍UMIステージ\n🎙10:00-10:15\n📸12:55-13:55 （E）\n🎣10:30-11:30（01）\n⟣第1回 釣り女王決定戦！参加日\n投票数上位3組は追加ステージ出演！\n\n1位：UMIステージ（18:05-18:20）\n2位：NATSUステージ（17:45-18:00） https://t.co/3lBgUrhXtZ",
+          "attachments": {
+            "media_keys": [
+              "3_2073384442736033792",
+              "3_2073384442765492224",
+              "3_2073384442761203712",
+              "3_2073384442761191424"
+            ]
+          },
+          "created_at": "2026-07-04T12:32:35.000Z",
+          "edit_history_tweet_ids": [
+            "2073384474826641798"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/3lBgUrhXtZ",
+                "end": 212,
+                "expanded_url": "https://x.com/info_myojou/status/2073384474826641798/photo/1",
+                "media_key": "3_2073384442736033792",
+                "start": 189,
+                "url": "https://t.co/3lBgUrhXtZ"
+              },
+              {
+                "display_url": "pic.x.com/3lBgUrhXtZ",
+                "end": 212,
+                "expanded_url": "https://x.com/info_myojou/status/2073384474826641798/photo/1",
+                "media_key": "3_2073384442765492224",
+                "start": 189,
+                "url": "https://t.co/3lBgUrhXtZ"
+              },
+              {
+                "display_url": "pic.x.com/3lBgUrhXtZ",
+                "end": 212,
+                "expanded_url": "https://x.com/info_myojou/status/2073384474826641798/photo/1",
+                "media_key": "3_2073384442761203712",
+                "start": 189,
+                "url": "https://t.co/3lBgUrhXtZ"
+              },
+              {
+                "display_url": "pic.x.com/3lBgUrhXtZ",
+                "end": 212,
+                "expanded_url": "https://x.com/info_myojou/status/2073384474826641798/photo/1",
+                "media_key": "3_2073384442761191424",
+                "start": 189,
+                "url": "https://t.co/3lBgUrhXtZ"
+              }
+            ]
+          },
+          "full_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「超NATSUZOME 2026 Day2」\n\n📍UMIステージ\n🎙10:00-10:15\n📸12:55-13:55 （E）\n🎣10:30-11:30（01）\n⟣第1回 釣り女王決定戦！参加日\n投票数上位3組は追加ステージ出演！\n\n1位：UMIステージ（18:05-18:20）\n2位：NATSUステージ（17:45-18:00）\n3位：ZOMEステージ（17:15-17:30）\n\n⟣date：7/4(土)、7/5(日)\n⟣place : 幕張海浜公園Gブロック特設会場 \n⟣open/start：9:00/10:00(予定)\n⟣price：1Day前売り¥8,000/2Days通し券¥14,000/超1Days(VIP)¥27,000/超2Days(VIP)¥50,000（各日1D込）\n※ VIP特典：前方VIPエリア入場+VIP限定Tシャツ及びグッズプレゼント\n\n【一般販売】\n5/22（金）20:30-7/5（日）5:59\n🔗 https://t.co/GvRyAXEWbA\n\n#myojou \n#ミョージョーサマー\n#夏初",
+          "full_text_source": "note_tweet",
+          "id": "2073384474826641798",
+          "media": [
+            {
+              "height": 3787,
+              "media_key": "3_2073384442736033792",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HMYkKlgaQAAdNWb.jpg",
+              "width": 2300
+            },
+            {
+              "height": 3215,
+              "media_key": "3_2073384442765492224",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HMYkKlnbwAAszzx.jpg",
+              "width": 4096
+            },
+            {
+              "height": 3674,
+              "media_key": "3_2073384442761203712",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HMYkKlmaUAA-wRJ.jpg",
+              "width": 3451
+            },
+            {
+              "height": 2434,
+              "media_key": "3_2073384442761191424",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HMYkKlmaIAACDCH.jpg",
+              "width": 1720
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 475,
+                  "start": 468,
+                  "tag": "myojou"
+                },
+                {
+                  "end": 487,
+                  "start": 477,
+                  "tag": "ミョージョーサマー"
+                },
+                {
+                  "end": 491,
+                  "start": 488,
+                  "tag": "夏初"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "idol-spot.tstar.jp/event/rileaas/…",
+                  "end": 466,
+                  "expanded_url": "https://idol-spot.tstar.jp/event/rileaas/?scid=su_16699",
+                  "start": 443,
+                  "url": "https://t.co/GvRyAXEWbA"
+                }
+              ]
+            },
+            "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「超NATSUZOME 2026 Day2」\n\n📍UMIステージ\n🎙10:00-10:15\n📸12:55-13:55 （E）\n🎣10:30-11:30（01）\n⟣第1回 釣り女王決定戦！参加日\n投票数上位3組は追加ステージ出演！\n\n1位：UMIステージ（18:05-18:20）\n2位：NATSUステージ（17:45-18:00）\n3位：ZOMEステージ（17:15-17:30）\n\n⟣date：7/4(土)、7/5(日)\n⟣place : 幕張海浜公園Gブロック特設会場 \n⟣open/start：9:00/10:00(予定)\n⟣price：1Day前売り¥8,000/2Days通し券¥14,000/超1Days(VIP)¥27,000/超2Days(VIP)¥50,000（各日1D込）\n※ VIP特典：前方VIPエリア入場+VIP限定Tシャツ及びグッズプレゼント\n\n【一般販売】\n5/22（金）20:30-7/5（日）5:59\n🔗 https://t.co/GvRyAXEWbA\n\n#myojou \n#ミョージョーサマー\n#夏初"
+          },
+          "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「超NATSUZOME 2026 Day2」\n\n📍UMIステージ\n🎙10:00-10:15\n📸12:55-13:55 （E）\n🎣10:30-11:30（01）\n⟣第1回 釣り女王決定戦！参加日\n投票数上位3組は追加ステージ出演！\n\n1位：UMIステージ（18:05-18:20）\n2位：NATSUステージ（17:45-18:00） https://t.co/3lBgUrhXtZ",
+          "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「超NATSUZOME 2026 Day2」\n\n📍UMIステージ\n🎙10:00-10:15\n📸12:55-13:55 （E）\n🎣10:30-11:30（01）\n⟣第1回 釣り女王決定戦！参加日\n投票数上位3組は追加ステージ出演！\n\n1位：UMIステージ（18:05-18:20）\n2位：NATSUステージ（17:45-18:00） https://t.co/3lBgUrhXtZ"
+        },
+        "source_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「超NATSUZOME 2026 Day2」\n\n📍UMIステージ\n🎙10:00-10:15\n📸12:55-13:55 （E）\n🎣10:30-11:30（01）\n⟣第1回 釣り女王決定戦！参加日\n投票数上位3組は追加ステージ出演！\n\n1位：UMIステージ（18:05-18:20）\n2位：NATSUステージ（17:45-18:00）\n3位：ZOMEステージ（17:15-17:30）\n\n⟣date：7/4(土)、7/5(日)\n⟣place : 幕張海浜公園Gブロック特設会場 \n⟣open/start：9:00/10:00(予定)\n⟣price：1Day前売り¥8,000/2Days通し券¥14,000/超1Days(VIP)¥27,000/超2Days(VIP)¥50,000（各日1D込）\n※ VIP特典：前方VIPエリア入場+VIP限定Tシャツ及びグッズプレゼント\n\n【一般販売】\n5/22（金）20:30-7/5（日）5:59\n🔗 https://t.co/GvRyAXEWbA\n\n#myojou \n#ミョージョーサマー\n#夏初",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2073384474826641798",
+        "start_time": "10:00",
+        "ticket_application_deadline_at": "2026-07-05T05:59:00+09:00",
+        "ticket_application_start_at": "2027-05-22T20:30:00+09:00",
+        "ticket_sale_type": "一般",
+        "ticket_sales": [
+          {
+            "deadline_at": "2026-07-05T05:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 8000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2073384474826641798",
+            "source_url": "https://x.com/info_myojou/status/2073384474826641798",
+            "start_at": "2027-05-22T20:30:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          },
+          {
+            "deadline_at": "2026-07-05T05:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 27000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2073384474826641798",
+            "source_url": "https://x.com/info_myojou/status/2073384474826641798",
+            "start_at": "2027-05-22T20:30:00+09:00",
+            "status": "不明",
+            "ticket_name": "VIP",
+            "ticket_tier": "VIP"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": null,
+        "venue": "幕張海浜公園Gブロック特設会場"
+      },
+      "raw": {
+        "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「超NATSUZOME 2026 Day2」\n\n📍UMIステージ\n🎙10:00-10:15\n📸12:55-13:55 （E）\n🎣10:30-11:30（01）\n⟣第1回 釣り女王決定戦！参加日\n投票数上位3組は追加ステージ出演！\n\n1位：UMIステージ（18:05-18:20）\n2位：NATSUステージ（17:45-18:00） https://t.co/3lBgUrhXtZ",
+        "attachments": {
+          "media_keys": [
+            "3_2073384442736033792",
+            "3_2073384442765492224",
+            "3_2073384442761203712",
+            "3_2073384442761191424"
+          ]
+        },
+        "created_at": "2026-07-04T12:32:35.000Z",
+        "edit_history_tweet_ids": [
+          "2073384474826641798"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/3lBgUrhXtZ",
+              "end": 212,
+              "expanded_url": "https://x.com/info_myojou/status/2073384474826641798/photo/1",
+              "media_key": "3_2073384442736033792",
+              "start": 189,
+              "url": "https://t.co/3lBgUrhXtZ"
+            },
+            {
+              "display_url": "pic.x.com/3lBgUrhXtZ",
+              "end": 212,
+              "expanded_url": "https://x.com/info_myojou/status/2073384474826641798/photo/1",
+              "media_key": "3_2073384442765492224",
+              "start": 189,
+              "url": "https://t.co/3lBgUrhXtZ"
+            },
+            {
+              "display_url": "pic.x.com/3lBgUrhXtZ",
+              "end": 212,
+              "expanded_url": "https://x.com/info_myojou/status/2073384474826641798/photo/1",
+              "media_key": "3_2073384442761203712",
+              "start": 189,
+              "url": "https://t.co/3lBgUrhXtZ"
+            },
+            {
+              "display_url": "pic.x.com/3lBgUrhXtZ",
+              "end": 212,
+              "expanded_url": "https://x.com/info_myojou/status/2073384474826641798/photo/1",
+              "media_key": "3_2073384442761191424",
+              "start": 189,
+              "url": "https://t.co/3lBgUrhXtZ"
+            }
+          ]
+        },
+        "full_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「超NATSUZOME 2026 Day2」\n\n📍UMIステージ\n🎙10:00-10:15\n📸12:55-13:55 （E）\n🎣10:30-11:30（01）\n⟣第1回 釣り女王決定戦！参加日\n投票数上位3組は追加ステージ出演！\n\n1位：UMIステージ（18:05-18:20）\n2位：NATSUステージ（17:45-18:00）\n3位：ZOMEステージ（17:15-17:30）\n\n⟣date：7/4(土)、7/5(日)\n⟣place : 幕張海浜公園Gブロック特設会場 \n⟣open/start：9:00/10:00(予定)\n⟣price：1Day前売り¥8,000/2Days通し券¥14,000/超1Days(VIP)¥27,000/超2Days(VIP)¥50,000（各日1D込）\n※ VIP特典：前方VIPエリア入場+VIP限定Tシャツ及びグッズプレゼント\n\n【一般販売】\n5/22（金）20:30-7/5（日）5:59\n🔗 https://t.co/GvRyAXEWbA\n\n#myojou \n#ミョージョーサマー\n#夏初",
+        "full_text_source": "note_tweet",
+        "id": "2073384474826641798",
+        "media": [
+          {
+            "height": 3787,
+            "media_key": "3_2073384442736033792",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HMYkKlgaQAAdNWb.jpg",
+            "width": 2300
+          },
+          {
+            "height": 3215,
+            "media_key": "3_2073384442765492224",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HMYkKlnbwAAszzx.jpg",
+            "width": 4096
+          },
+          {
+            "height": 3674,
+            "media_key": "3_2073384442761203712",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HMYkKlmaUAA-wRJ.jpg",
+            "width": 3451
+          },
+          {
+            "height": 2434,
+            "media_key": "3_2073384442761191424",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HMYkKlmaIAACDCH.jpg",
+            "width": 1720
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 475,
+                "start": 468,
+                "tag": "myojou"
+              },
+              {
+                "end": 487,
+                "start": 477,
+                "tag": "ミョージョーサマー"
+              },
+              {
+                "end": 491,
+                "start": 488,
+                "tag": "夏初"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "idol-spot.tstar.jp/event/rileaas/…",
+                "end": 466,
+                "expanded_url": "https://idol-spot.tstar.jp/event/rileaas/?scid=su_16699",
+                "start": 443,
+                "url": "https://t.co/GvRyAXEWbA"
+              }
+            ]
+          },
+          "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「超NATSUZOME 2026 Day2」\n\n📍UMIステージ\n🎙10:00-10:15\n📸12:55-13:55 （E）\n🎣10:30-11:30（01）\n⟣第1回 釣り女王決定戦！参加日\n投票数上位3組は追加ステージ出演！\n\n1位：UMIステージ（18:05-18:20）\n2位：NATSUステージ（17:45-18:00）\n3位：ZOMEステージ（17:15-17:30）\n\n⟣date：7/4(土)、7/5(日)\n⟣place : 幕張海浜公園Gブロック特設会場 \n⟣open/start：9:00/10:00(予定)\n⟣price：1Day前売り¥8,000/2Days通し券¥14,000/超1Days(VIP)¥27,000/超2Days(VIP)¥50,000（各日1D込）\n※ VIP特典：前方VIPエリア入場+VIP限定Tシャツ及びグッズプレゼント\n\n【一般販売】\n5/22（金）20:30-7/5（日）5:59\n🔗 https://t.co/GvRyAXEWbA\n\n#myojou \n#ミョージョーサマー\n#夏初"
+        },
+        "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「超NATSUZOME 2026 Day2」\n\n📍UMIステージ\n🎙10:00-10:15\n📸12:55-13:55 （E）\n🎣10:30-11:30（01）\n⟣第1回 釣り女王決定戦！参加日\n投票数上位3組は追加ステージ出演！\n\n1位：UMIステージ（18:05-18:20）\n2位：NATSUステージ（17:45-18:00） https://t.co/3lBgUrhXtZ",
+        "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「超NATSUZOME 2026 Day2」\n\n📍UMIステージ\n🎙10:00-10:15\n📸12:55-13:55 （E）\n🎣10:30-11:30（01）\n⟣第1回 釣り女王決定戦！参加日\n投票数上位3組は追加ステージ出演！\n\n1位：UMIステージ（18:05-18:20）\n2位：NATSUステージ（17:45-18:00） https://t.co/3lBgUrhXtZ"
+      },
+      "referenced_tweets": [],
+      "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「超NATSUZOME 2026 Day2」\n\n📍UMIステージ\n🎙10:00-10:15\n📸12:55-13:55 （E）\n🎣10:30-11:30（01）\n⟣第1回 釣り女王決定戦！参加日\n投票数上位3組は追加ステージ出演！\n\n1位：UMIステージ（18:05-18:20）\n2位：NATSUステージ（17:45-18:00）\n3位：ZOMEステージ（17:15-17:30）\n\n⟣date：7/4(土)、7/5(日)\n⟣place : 幕張海浜公園Gブロック特設会場 \n⟣open/start：9:00/10:00(予定)\n⟣price：1Day前売り¥8,000/2Days通し券¥14,000/超1Days(VIP)¥27,000/超2Days(VIP)¥50,000（各日1D込）\n※ VIP特典：前方VIPエリア入場+VIP限定Tシャツ及びグッズプレゼント\n\n【一般販売】\n5/22（金）20:30-7/5（日）5:59\n🔗 https://t.co/GvRyAXEWbA\n\n#myojou \n#ミョージョーサマー\n#夏初",
+      "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「超NATSUZOME 2026 Day2」\n\n📍UMIステージ\n🎙10:00-10:15\n📸12:55-13:55 （E）\n🎣10:30-11:30（01）\n⟣第1回 釣り女王決定戦！参加日\n投票数上位3組は追加ステージ出演！\n\n1位：UMIステージ（18:05-18:20）\n2位：NATSUステージ（17:45-18:00） https://t.co/3lBgUrhXtZ",
+      "url": "https://x.com/info_myojou/status/2073384474826641798"
+    },
+    {
+      "api_text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n     超NATSUZOME 2026 Day1\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「超NATSUZOME 2026 Day1」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka \n栗原ここね@myojou_cocone https://t.co/xB1rh0bLTv",
+      "attachments": {
+        "media_keys": [
+          "3_2073380255054839808"
+        ]
+      },
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "profile/member introduction",
+        "source_kind": "other"
+      },
+      "created_at": "2026-07-04T12:15:51+00:00",
+      "entities": {
+        "mentions": [
+          {
+            "end": 165,
+            "id": "1981655668626165760",
+            "start": 153,
+            "username": "myojou_ruka"
+          },
+          {
+            "end": 186,
+            "id": "1590652199407083520",
+            "start": 172,
+            "username": "myojou_cocone"
+          }
+        ],
+        "urls": [
+          {
+            "display_url": "pic.x.com/xB1rh0bLTv",
+            "end": 210,
+            "expanded_url": "https://x.com/info_myojou/status/2073380264299123005/photo/1",
+            "media_key": "3_2073380255054839808",
+            "start": 187,
+            "url": "https://t.co/xB1rh0bLTv"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2073380264299123005",
+      "media": [
+        {
+          "alt_text": "M1,星景讃歌 \nM2,CHRONOS\nM3,HeartBeat\nM4,アンチコンプリート",
+          "height": 2730,
+          "media_key": "3_2073380255054839808",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HMYgW1LaQAADzVm.jpg",
+          "width": 4096
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 285,
+              "start": 278,
+              "tag": "myojou"
+            }
+          ],
+          "mentions": [
+            {
+              "end": 165,
+              "id": "1981655668626165760",
+              "start": 153,
+              "username": "myojou_ruka"
+            },
+            {
+              "end": 186,
+              "id": "1590652199407083520",
+              "start": 172,
+              "username": "myojou_cocone"
+            },
+            {
+              "end": 205,
+              "id": "1754991922807177216",
+              "start": 192,
+              "username": "myojou_shino"
+            },
+            {
+              "end": 226,
+              "id": "1344586625901158401",
+              "start": 211,
+              "username": "myojou_usukura"
+            },
+            {
+              "end": 243,
+              "id": "2009245855694675968",
+              "start": 232,
+              "username": "myojou_miu"
+            },
+            {
+              "end": 260,
+              "id": "2009274765895450624",
+              "start": 249,
+              "username": "myojou_yun"
+            }
+          ]
+        },
+        "text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n     超NATSUZOME 2026 Day1\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「超NATSUZOME 2026 Day1」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka \n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n薄倉りな@myojou_usukura \n日陽みう@myojou_miu \n澪奈ゆん@myojou_yun \n\nSETLIST▶︎ALT\n\n #myojou"
+      },
+      "parsed_fields": null,
+      "raw": {
+        "api_text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n     超NATSUZOME 2026 Day1\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「超NATSUZOME 2026 Day1」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka \n栗原ここね@myojou_cocone https://t.co/xB1rh0bLTv",
+        "attachments": {
+          "media_keys": [
+            "3_2073380255054839808"
+          ]
+        },
+        "created_at": "2026-07-04T12:15:51.000Z",
+        "edit_history_tweet_ids": [
+          "2073380264299123005"
+        ],
+        "entities": {
+          "mentions": [
+            {
+              "end": 165,
+              "id": "1981655668626165760",
+              "start": 153,
+              "username": "myojou_ruka"
+            },
+            {
+              "end": 186,
+              "id": "1590652199407083520",
+              "start": 172,
+              "username": "myojou_cocone"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "pic.x.com/xB1rh0bLTv",
+              "end": 210,
+              "expanded_url": "https://x.com/info_myojou/status/2073380264299123005/photo/1",
+              "media_key": "3_2073380255054839808",
+              "start": 187,
+              "url": "https://t.co/xB1rh0bLTv"
+            }
+          ]
+        },
+        "full_text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n     超NATSUZOME 2026 Day1\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「超NATSUZOME 2026 Day1」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka \n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n薄倉りな@myojou_usukura \n日陽みう@myojou_miu \n澪奈ゆん@myojou_yun \n\nSETLIST▶︎ALT\n\n #myojou",
+        "full_text_source": "note_tweet",
+        "id": "2073380264299123005",
+        "media": [
+          {
+            "alt_text": "M1,星景讃歌 \nM2,CHRONOS\nM3,HeartBeat\nM4,アンチコンプリート",
+            "height": 2730,
+            "media_key": "3_2073380255054839808",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HMYgW1LaQAADzVm.jpg",
+            "width": 4096
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 285,
+                "start": 278,
+                "tag": "myojou"
+              }
+            ],
+            "mentions": [
+              {
+                "end": 165,
+                "id": "1981655668626165760",
+                "start": 153,
+                "username": "myojou_ruka"
+              },
+              {
+                "end": 186,
+                "id": "1590652199407083520",
+                "start": 172,
+                "username": "myojou_cocone"
+              },
+              {
+                "end": 205,
+                "id": "1754991922807177216",
+                "start": 192,
+                "username": "myojou_shino"
+              },
+              {
+                "end": 226,
+                "id": "1344586625901158401",
+                "start": 211,
+                "username": "myojou_usukura"
+              },
+              {
+                "end": 243,
+                "id": "2009245855694675968",
+                "start": 232,
+                "username": "myojou_miu"
+              },
+              {
+                "end": 260,
+                "id": "2009274765895450624",
+                "start": 249,
+                "username": "myojou_yun"
+              }
+            ]
+          },
+          "text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n     超NATSUZOME 2026 Day1\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「超NATSUZOME 2026 Day1」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka \n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n薄倉りな@myojou_usukura \n日陽みう@myojou_miu \n澪奈ゆん@myojou_yun \n\nSETLIST▶︎ALT\n\n #myojou"
+        },
+        "text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n     超NATSUZOME 2026 Day1\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「超NATSUZOME 2026 Day1」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka \n栗原ここね@myojou_cocone https://t.co/xB1rh0bLTv",
+        "truncated_text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n     超NATSUZOME 2026 Day1\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「超NATSUZOME 2026 Day1」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka \n栗原ここね@myojou_cocone https://t.co/xB1rh0bLTv"
+      },
+      "referenced_tweets": [],
+      "text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n     超NATSUZOME 2026 Day1\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「超NATSUZOME 2026 Day1」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka \n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n薄倉りな@myojou_usukura \n日陽みう@myojou_miu \n澪奈ゆん@myojou_yun \n\nSETLIST▶︎ALT\n\n #myojou",
+      "truncated_text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n     超NATSUZOME 2026 Day1\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「超NATSUZOME 2026 Day1」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka \n栗原ここね@myojou_cocone https://t.co/xB1rh0bLTv",
+      "url": "https://x.com/info_myojou/status/2073380264299123005"
+    },
+    {
+      "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             うるトラすフェスタvol.45\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙18:55-19:20\n📸19:30-20:30\n\n⟣date：7/14（火）\n⟣place : 渋谷・CLUB QUATTRO\n⟣open/start：16:00/16:30\n⟣price：前方チケット ¥5,500 / 一般チケット https://t.co/36gWF9GZke",
+      "attachments": {
+        "media_keys": [
+          "3_2073361264966094848"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "ticket_update"
+      },
+      "created_at": "2026-07-04T11:00:22+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/36gWF9GZke",
+            "end": 221,
+            "expanded_url": "https://x.com/info_myojou/status/2073361271005868535/photo/1",
+            "media_key": "3_2073361264966094848",
+            "start": 198,
+            "url": "https://t.co/36gWF9GZke"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2073361271005868535",
+      "media": [
+        {
+          "height": 2838,
+          "media_key": "3_2073361264966094848",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HMYPFdlb0AArnrG.jpg",
+          "width": 2484
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 302,
+              "start": 295,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "ticketdive.com/event/ultrasfe…",
+              "end": 293,
+              "expanded_url": "https://ticketdive.com/event/ultrasfesta_vol45",
+              "start": 270,
+              "url": "https://t.co/2yXorSFeej"
+            }
+          ]
+        },
+        "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             うるトラすフェスタvol.45\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙18:55-19:20\n📸19:30-20:30\n\n⟣date：7/14（火）\n⟣place : 渋谷・CLUB QUATTRO\n⟣open/start：16:00/16:30\n⟣price：前方チケット ¥5,500 / 一般チケット ¥2,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n7/2(木) 21:00-7/13(月) 23:59\n🔗 https://t.co/2yXorSFeej\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": "19:30-20:30",
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-07-14",
+        "event_dates": [
+          "2026-07-14"
+        ],
+        "event_name": "うるトラすフェスタvol.45",
+        "extraction_confidence": 0.95,
+        "general_ticket_price": 2500,
+        "lottery_result_at": null,
+        "myojou_performance_time": "18:55-19:20",
+        "notes": "ドリンク代: 各+1D\n⟣入場特典:明星カード(サインありチェキ)",
+        "open_time": "16:00",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "前方チケット",
+        "priority_ticket_price": 5500,
+        "same_day_ticket_price": null,
+        "source_kind": "ticket_update",
+        "source_post_id": "2073361271005868535",
+        "source_posted_at": "2026-07-04T11:00:22Z",
+        "source_raw": {
+          "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             うるトラすフェスタvol.45\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙18:55-19:20\n📸19:30-20:30\n\n⟣date：7/14（火）\n⟣place : 渋谷・CLUB QUATTRO\n⟣open/start：16:00/16:30\n⟣price：前方チケット ¥5,500 / 一般チケット https://t.co/36gWF9GZke",
+          "attachments": {
+            "media_keys": [
+              "3_2073361264966094848"
+            ]
+          },
+          "created_at": "2026-07-04T11:00:22.000Z",
+          "edit_history_tweet_ids": [
+            "2073361271005868535"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/36gWF9GZke",
+                "end": 221,
+                "expanded_url": "https://x.com/info_myojou/status/2073361271005868535/photo/1",
+                "media_key": "3_2073361264966094848",
+                "start": 198,
+                "url": "https://t.co/36gWF9GZke"
+              }
+            ]
+          },
+          "full_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             うるトラすフェスタvol.45\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙18:55-19:20\n📸19:30-20:30\n\n⟣date：7/14（火）\n⟣place : 渋谷・CLUB QUATTRO\n⟣open/start：16:00/16:30\n⟣price：前方チケット ¥5,500 / 一般チケット ¥2,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n7/2(木) 21:00-7/13(月) 23:59\n🔗 https://t.co/2yXorSFeej\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2073361271005868535",
+          "media": [
+            {
+              "height": 2838,
+              "media_key": "3_2073361264966094848",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HMYPFdlb0AArnrG.jpg",
+              "width": 2484
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 302,
+                  "start": 295,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "ticketdive.com/event/ultrasfe…",
+                  "end": 293,
+                  "expanded_url": "https://ticketdive.com/event/ultrasfesta_vol45",
+                  "start": 270,
+                  "url": "https://t.co/2yXorSFeej"
+                }
+              ]
+            },
+            "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             うるトラすフェスタvol.45\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙18:55-19:20\n📸19:30-20:30\n\n⟣date：7/14（火）\n⟣place : 渋谷・CLUB QUATTRO\n⟣open/start：16:00/16:30\n⟣price：前方チケット ¥5,500 / 一般チケット ¥2,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n7/2(木) 21:00-7/13(月) 23:59\n🔗 https://t.co/2yXorSFeej\n\n#myojou"
+          },
+          "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             うるトラすフェスタvol.45\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙18:55-19:20\n📸19:30-20:30\n\n⟣date：7/14（火）\n⟣place : 渋谷・CLUB QUATTRO\n⟣open/start：16:00/16:30\n⟣price：前方チケット ¥5,500 / 一般チケット https://t.co/36gWF9GZke",
+          "truncated_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             うるトラすフェスタvol.45\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙18:55-19:20\n📸19:30-20:30\n\n⟣date：7/14（火）\n⟣place : 渋谷・CLUB QUATTRO\n⟣open/start：16:00/16:30\n⟣price：前方チケット ¥5,500 / 一般チケット https://t.co/36gWF9GZke"
+        },
+        "source_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             うるトラすフェスタvol.45\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙18:55-19:20\n📸19:30-20:30\n\n⟣date：7/14（火）\n⟣place : 渋谷・CLUB QUATTRO\n⟣open/start：16:00/16:30\n⟣price：前方チケット ¥5,500 / 一般チケット ¥2,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n7/2(木) 21:00-7/13(月) 23:59\n🔗 https://t.co/2yXorSFeej\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2073361271005868535",
+        "start_time": "16:30",
+        "ticket_application_deadline_at": "2026-07-13T23:59:00+09:00",
+        "ticket_application_start_at": "2026-07-02T21:00:00+09:00",
+        "ticket_sale_type": "一般",
+        "ticket_sales": [
+          {
+            "deadline_at": "2026-07-13T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 5500,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2073361271005868535",
+            "source_url": "https://x.com/info_myojou/status/2073361271005868535",
+            "start_at": "2026-07-02T21:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "前方チケット",
+            "ticket_tier": "前方"
+          },
+          {
+            "deadline_at": "2026-07-13T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 2500,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2073361271005868535",
+            "source_url": "https://x.com/info_myojou/status/2073361271005868535",
+            "start_at": "2026-07-02T21:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般チケット",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "https://ticketdive.com/event/ultrasfesta_vol45",
+        "venue": "渋谷・CLUB QUATTRO"
+      },
+      "raw": {
+        "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             うるトラすフェスタvol.45\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙18:55-19:20\n📸19:30-20:30\n\n⟣date：7/14（火）\n⟣place : 渋谷・CLUB QUATTRO\n⟣open/start：16:00/16:30\n⟣price：前方チケット ¥5,500 / 一般チケット https://t.co/36gWF9GZke",
+        "attachments": {
+          "media_keys": [
+            "3_2073361264966094848"
+          ]
+        },
+        "created_at": "2026-07-04T11:00:22.000Z",
+        "edit_history_tweet_ids": [
+          "2073361271005868535"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/36gWF9GZke",
+              "end": 221,
+              "expanded_url": "https://x.com/info_myojou/status/2073361271005868535/photo/1",
+              "media_key": "3_2073361264966094848",
+              "start": 198,
+              "url": "https://t.co/36gWF9GZke"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             うるトラすフェスタvol.45\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙18:55-19:20\n📸19:30-20:30\n\n⟣date：7/14（火）\n⟣place : 渋谷・CLUB QUATTRO\n⟣open/start：16:00/16:30\n⟣price：前方チケット ¥5,500 / 一般チケット ¥2,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n7/2(木) 21:00-7/13(月) 23:59\n🔗 https://t.co/2yXorSFeej\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2073361271005868535",
+        "media": [
+          {
+            "height": 2838,
+            "media_key": "3_2073361264966094848",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HMYPFdlb0AArnrG.jpg",
+            "width": 2484
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 302,
+                "start": 295,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "ticketdive.com/event/ultrasfe…",
+                "end": 293,
+                "expanded_url": "https://ticketdive.com/event/ultrasfesta_vol45",
+                "start": 270,
+                "url": "https://t.co/2yXorSFeej"
+              }
+            ]
+          },
+          "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             うるトラすフェスタvol.45\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙18:55-19:20\n📸19:30-20:30\n\n⟣date：7/14（火）\n⟣place : 渋谷・CLUB QUATTRO\n⟣open/start：16:00/16:30\n⟣price：前方チケット ¥5,500 / 一般チケット ¥2,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n7/2(木) 21:00-7/13(月) 23:59\n🔗 https://t.co/2yXorSFeej\n\n#myojou"
+        },
+        "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             うるトラすフェスタvol.45\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙18:55-19:20\n📸19:30-20:30\n\n⟣date：7/14（火）\n⟣place : 渋谷・CLUB QUATTRO\n⟣open/start：16:00/16:30\n⟣price：前方チケット ¥5,500 / 一般チケット https://t.co/36gWF9GZke",
+        "truncated_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             うるトラすフェスタvol.45\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙18:55-19:20\n📸19:30-20:30\n\n⟣date：7/14（火）\n⟣place : 渋谷・CLUB QUATTRO\n⟣open/start：16:00/16:30\n⟣price：前方チケット ¥5,500 / 一般チケット https://t.co/36gWF9GZke"
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             うるトラすフェスタvol.45\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙18:55-19:20\n📸19:30-20:30\n\n⟣date：7/14（火）\n⟣place : 渋谷・CLUB QUATTRO\n⟣open/start：16:00/16:30\n⟣price：前方チケット ¥5,500 / 一般チケット ¥2,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n7/2(木) 21:00-7/13(月) 23:59\n🔗 https://t.co/2yXorSFeej\n\n#myojou",
+      "truncated_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             うるトラすフェスタvol.45\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙18:55-19:20\n📸19:30-20:30\n\n⟣date：7/14（火）\n⟣place : 渋谷・CLUB QUATTRO\n⟣open/start：16:00/16:30\n⟣price：前方チケット ¥5,500 / 一般チケット https://t.co/36gWF9GZke",
+      "url": "https://x.com/info_myojou/status/2073361271005868535"
+    },
+    {
+      "api_text": "✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n      超NATSUZOME 2026 Day1\n✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n\nこのあとNATSU STAGEにて18:30より、出演いたします⟡.·*.\n\n #myojou\n #超NATSUZOME2026\n #夏初 https://t.co/pubtZhK4Ae",
+      "attachments": {
+        "media_keys": [
+          "3_2073335649315528704"
+        ]
+      },
+      "classification": {
+        "classification": "needs_review",
+        "confidence": "low",
+        "reason": "event-like words but insufficient structured information",
+        "source_kind": "other"
+      },
+      "created_at": "2026-07-04T09:18:45+00:00",
+      "entities": {
+        "hashtags": [
+          {
+            "end": 113,
+            "start": 106,
+            "tag": "myojou"
+          },
+          {
+            "end": 130,
+            "start": 115,
+            "tag": "超NATSUZOME2026"
+          },
+          {
+            "end": 135,
+            "start": 132,
+            "tag": "夏初"
+          }
+        ],
+        "urls": [
+          {
+            "display_url": "pic.x.com/pubtZhK4Ae",
+            "end": 159,
+            "expanded_url": "https://x.com/info_myojou/status/2073335695784218745/photo/1",
+            "media_key": "3_2073335649315528704",
+            "start": 136,
+            "url": "https://t.co/pubtZhK4Ae"
+          }
+        ]
+      },
+      "full_text_source": "text",
+      "id": "2073335695784218745",
+      "media": [
+        {
+          "height": 2730,
+          "media_key": "3_2073335649315528704",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HMX3yb2bIAA4L0A.jpg",
+          "width": 4096
+        }
+      ],
+      "needs_review": true,
+      "needs_review_reasons": [
+        "missing event_name",
+        "missing venue",
+        "missing ticket deadline",
+        "classification: event-like words but insufficient structured information"
+      ],
+      "note_tweet": null,
+      "parsed_fields": {
+        "benefit_event_time": null,
+        "classification": "needs_review",
+        "classification_confidence": "low",
+        "classification_reason": "event-like words but insufficient structured information",
+        "event_date": null,
+        "event_dates": [],
+        "event_name": null,
+        "extraction_confidence": 0.3,
+        "general_ticket_price": null,
+        "lottery_result_at": null,
+        "myojou_performance_time": "18:30",
+        "notes": null,
+        "open_time": null,
+        "payment_deadline_at": null,
+        "priority_ticket_name": null,
+        "priority_ticket_price": null,
+        "same_day_ticket_price": null,
+        "source_kind": "other",
+        "source_post_id": "2073335695784218745",
+        "source_posted_at": "2026-07-04T09:18:45Z",
+        "source_raw": {
+          "api_text": "✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n      超NATSUZOME 2026 Day1\n✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n\nこのあとNATSU STAGEにて18:30より、出演いたします⟡.·*.\n\n #myojou\n #超NATSUZOME2026\n #夏初 https://t.co/pubtZhK4Ae",
+          "attachments": {
+            "media_keys": [
+              "3_2073335649315528704"
+            ]
+          },
+          "created_at": "2026-07-04T09:18:45.000Z",
+          "edit_history_tweet_ids": [
+            "2073335695784218745"
+          ],
+          "entities": {
+            "hashtags": [
+              {
+                "end": 113,
+                "start": 106,
+                "tag": "myojou"
+              },
+              {
+                "end": 130,
+                "start": 115,
+                "tag": "超NATSUZOME2026"
+              },
+              {
+                "end": 135,
+                "start": 132,
+                "tag": "夏初"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "pic.x.com/pubtZhK4Ae",
+                "end": 159,
+                "expanded_url": "https://x.com/info_myojou/status/2073335695784218745/photo/1",
+                "media_key": "3_2073335649315528704",
+                "start": 136,
+                "url": "https://t.co/pubtZhK4Ae"
+              }
+            ]
+          },
+          "full_text": "✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n      超NATSUZOME 2026 Day1\n✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n\nこのあとNATSU STAGEにて18:30より、出演いたします⟡.·*.\n\n #myojou\n #超NATSUZOME2026\n #夏初 https://t.co/pubtZhK4Ae",
+          "full_text_source": "text",
+          "id": "2073335695784218745",
+          "media": [
+            {
+              "height": 2730,
+              "media_key": "3_2073335649315528704",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HMX3yb2bIAA4L0A.jpg",
+              "width": 4096
+            }
+          ],
+          "text": "✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n      超NATSUZOME 2026 Day1\n✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n\nこのあとNATSU STAGEにて18:30より、出演いたします⟡.·*.\n\n #myojou\n #超NATSUZOME2026\n #夏初 https://t.co/pubtZhK4Ae",
+          "truncated_text": null
+        },
+        "source_text": "✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n      超NATSUZOME 2026 Day1\n✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n\nこのあとNATSU STAGEにて18:30より、出演いたします⟡.·*.\n\n #myojou\n #超NATSUZOME2026\n #夏初 https://t.co/pubtZhK4Ae",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2073335695784218745",
+        "start_time": null,
+        "ticket_application_deadline_at": null,
+        "ticket_application_start_at": null,
+        "ticket_sale_type": null,
+        "ticket_sales": [],
+        "ticket_status": null,
+        "ticket_url": null,
+        "venue": null
+      },
+      "raw": {
+        "api_text": "✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n      超NATSUZOME 2026 Day1\n✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n\nこのあとNATSU STAGEにて18:30より、出演いたします⟡.·*.\n\n #myojou\n #超NATSUZOME2026\n #夏初 https://t.co/pubtZhK4Ae",
+        "attachments": {
+          "media_keys": [
+            "3_2073335649315528704"
+          ]
+        },
+        "created_at": "2026-07-04T09:18:45.000Z",
+        "edit_history_tweet_ids": [
+          "2073335695784218745"
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "end": 113,
+              "start": 106,
+              "tag": "myojou"
+            },
+            {
+              "end": 130,
+              "start": 115,
+              "tag": "超NATSUZOME2026"
+            },
+            {
+              "end": 135,
+              "start": 132,
+              "tag": "夏初"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "pic.x.com/pubtZhK4Ae",
+              "end": 159,
+              "expanded_url": "https://x.com/info_myojou/status/2073335695784218745/photo/1",
+              "media_key": "3_2073335649315528704",
+              "start": 136,
+              "url": "https://t.co/pubtZhK4Ae"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n      超NATSUZOME 2026 Day1\n✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n\nこのあとNATSU STAGEにて18:30より、出演いたします⟡.·*.\n\n #myojou\n #超NATSUZOME2026\n #夏初 https://t.co/pubtZhK4Ae",
+        "full_text_source": "text",
+        "id": "2073335695784218745",
+        "media": [
+          {
+            "height": 2730,
+            "media_key": "3_2073335649315528704",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HMX3yb2bIAA4L0A.jpg",
+            "width": 4096
+          }
+        ],
+        "text": "✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n      超NATSUZOME 2026 Day1\n✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n\nこのあとNATSU STAGEにて18:30より、出演いたします⟡.·*.\n\n #myojou\n #超NATSUZOME2026\n #夏初 https://t.co/pubtZhK4Ae",
+        "truncated_text": null
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n      超NATSUZOME 2026 Day1\n✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n\nこのあとNATSU STAGEにて18:30より、出演いたします⟡.·*.\n\n #myojou\n #超NATSUZOME2026\n #夏初 https://t.co/pubtZhK4Ae",
+      "truncated_text": null,
+      "url": "https://x.com/info_myojou/status/2073335695784218745"
+    },
+    {
+      "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n        IDOL SUMMER JUNGLE 2026\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：8/7（金）,8/8（土）\n⟣place : お台場R地区\n⟣open/start：9:00/10:00\n⟣price：VIPチケット¥28,000/一般チケット¥5,000/女性チケット¥4,000（各+1D） https://t.co/A5ASiau1F1",
+      "attachments": {
+        "media_keys": [
+          "3_2073331032783556609"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "ticket_update"
+      },
+      "created_at": "2026-07-04T09:01:25+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/A5ASiau1F1",
+            "end": 217,
+            "expanded_url": "https://x.com/info_myojou/status/2073331333800378696/photo/1",
+            "media_key": "3_2073331032783556609",
+            "start": 194,
+            "url": "https://t.co/A5ASiau1F1"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2073331333800378696",
+      "media": [
+        {
+          "height": 4093,
+          "media_key": "3_2073331032783556609",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HMXzlt7bkAE3cGR.jpg",
+          "width": 2894
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 351,
+              "start": 344,
+              "tag": "myojou"
+            },
+            {
+              "end": 362,
+              "start": 352,
+              "tag": "ミョージョーサマー"
+            },
+            {
+              "end": 373,
+              "start": 363,
+              "tag": "サマジャン2026"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "ticketdive.com/event/idolsumm…",
+              "end": 342,
+              "expanded_url": "https://ticketdive.com/event/idolsummerjungle2026",
+              "start": 319,
+              "url": "https://t.co/vGPzCwXlpR"
+            }
+          ]
+        },
+        "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n        IDOL SUMMER JUNGLE 2026\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：8/7（金）,8/8（土）\n⟣place : お台場R地区\n⟣open/start：9:00/10:00\n⟣price：VIPチケット¥28,000/一般チケット¥5,000/女性チケット¥4,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n･VIPチケット\n【先行受付（抽選）】\n6/9（火）18:00-7/5（日）23:59\n【一般販売】\n7/6（月）18:00\n\n･一般チケット,女性チケット\n【一般販売】\n6/9（火）18:00-\n\n🔗 https://t.co/vGPzCwXlpR\n\n#myojou\n#ミョージョーサマー\n#サマジャン2026"
+      },
+      "parsed_fields": {
+        "benefit_event_time": null,
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-08-07",
+        "event_dates": [
+          "2026-08-07",
+          "2026-08-08"
+        ],
+        "event_name": "IDOL SUMMER JUNGLE 2026",
+        "extraction_confidence": 0.9,
+        "general_ticket_price": 5000,
+        "lottery_result_at": null,
+        "myojou_performance_time": null,
+        "notes": "ドリンク代: 各+1D\n⟣入場特典:明星カード(サインありチェキ)",
+        "open_time": "09:00",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "VIPチケット",
+        "priority_ticket_price": 28000,
+        "same_day_ticket_price": null,
+        "source_kind": "ticket_update",
+        "source_post_id": "2073331333800378696",
+        "source_posted_at": "2026-07-04T09:01:25Z",
+        "source_raw": {
+          "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n        IDOL SUMMER JUNGLE 2026\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：8/7（金）,8/8（土）\n⟣place : お台場R地区\n⟣open/start：9:00/10:00\n⟣price：VIPチケット¥28,000/一般チケット¥5,000/女性チケット¥4,000（各+1D） https://t.co/A5ASiau1F1",
+          "attachments": {
+            "media_keys": [
+              "3_2073331032783556609"
+            ]
+          },
+          "created_at": "2026-07-04T09:01:25.000Z",
+          "edit_history_tweet_ids": [
+            "2073331333800378696"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/A5ASiau1F1",
+                "end": 217,
+                "expanded_url": "https://x.com/info_myojou/status/2073331333800378696/photo/1",
+                "media_key": "3_2073331032783556609",
+                "start": 194,
+                "url": "https://t.co/A5ASiau1F1"
+              }
+            ]
+          },
+          "full_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n        IDOL SUMMER JUNGLE 2026\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：8/7（金）,8/8（土）\n⟣place : お台場R地区\n⟣open/start：9:00/10:00\n⟣price：VIPチケット¥28,000/一般チケット¥5,000/女性チケット¥4,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n･VIPチケット\n【先行受付（抽選）】\n6/9（火）18:00-7/5（日）23:59\n【一般販売】\n7/6（月）18:00\n\n･一般チケット,女性チケット\n【一般販売】\n6/9（火）18:00-\n\n🔗 https://t.co/vGPzCwXlpR\n\n#myojou\n#ミョージョーサマー\n#サマジャン2026",
+          "full_text_source": "note_tweet",
+          "id": "2073331333800378696",
+          "media": [
+            {
+              "height": 4093,
+              "media_key": "3_2073331032783556609",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HMXzlt7bkAE3cGR.jpg",
+              "width": 2894
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 351,
+                  "start": 344,
+                  "tag": "myojou"
+                },
+                {
+                  "end": 362,
+                  "start": 352,
+                  "tag": "ミョージョーサマー"
+                },
+                {
+                  "end": 373,
+                  "start": 363,
+                  "tag": "サマジャン2026"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "ticketdive.com/event/idolsumm…",
+                  "end": 342,
+                  "expanded_url": "https://ticketdive.com/event/idolsummerjungle2026",
+                  "start": 319,
+                  "url": "https://t.co/vGPzCwXlpR"
+                }
+              ]
+            },
+            "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n        IDOL SUMMER JUNGLE 2026\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：8/7（金）,8/8（土）\n⟣place : お台場R地区\n⟣open/start：9:00/10:00\n⟣price：VIPチケット¥28,000/一般チケット¥5,000/女性チケット¥4,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n･VIPチケット\n【先行受付（抽選）】\n6/9（火）18:00-7/5（日）23:59\n【一般販売】\n7/6（月）18:00\n\n･一般チケット,女性チケット\n【一般販売】\n6/9（火）18:00-\n\n🔗 https://t.co/vGPzCwXlpR\n\n#myojou\n#ミョージョーサマー\n#サマジャン2026"
+          },
+          "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n        IDOL SUMMER JUNGLE 2026\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：8/7（金）,8/8（土）\n⟣place : お台場R地区\n⟣open/start：9:00/10:00\n⟣price：VIPチケット¥28,000/一般チケット¥5,000/女性チケット¥4,000（各+1D） https://t.co/A5ASiau1F1",
+          "truncated_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n        IDOL SUMMER JUNGLE 2026\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：8/7（金）,8/8（土）\n⟣place : お台場R地区\n⟣open/start：9:00/10:00\n⟣price：VIPチケット¥28,000/一般チケット¥5,000/女性チケット¥4,000（各+1D） https://t.co/A5ASiau1F1"
+        },
+        "source_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n        IDOL SUMMER JUNGLE 2026\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：8/7（金）,8/8（土）\n⟣place : お台場R地区\n⟣open/start：9:00/10:00\n⟣price：VIPチケット¥28,000/一般チケット¥5,000/女性チケット¥4,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n･VIPチケット\n【先行受付（抽選）】\n6/9（火）18:00-7/5（日）23:59\n【一般販売】\n7/6（月）18:00\n\n･一般チケット,女性チケット\n【一般販売】\n6/9（火）18:00-\n\n🔗 https://t.co/vGPzCwXlpR\n\n#myojou\n#ミョージョーサマー\n#サマジャン2026",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2073331333800378696",
+        "start_time": "10:00",
+        "ticket_application_deadline_at": "2026-07-05T23:59:00+09:00",
+        "ticket_application_start_at": "2026-06-09T18:00:00+09:00",
+        "ticket_sale_type": "一般",
+        "ticket_sales": [
+          {
+            "deadline_at": "2026-07-05T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 28000,
+            "result_at": null,
+            "sale_type": "抽選",
+            "source_post_id": "2073331333800378696",
+            "source_url": "https://x.com/info_myojou/status/2073331333800378696",
+            "start_at": "2026-06-09T18:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "VIPチケット",
+            "ticket_tier": "VIP"
+          },
+          {
+            "deadline_at": "2026-07-05T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 5000,
+            "result_at": null,
+            "sale_type": "抽選",
+            "source_post_id": "2073331333800378696",
+            "source_url": "https://x.com/info_myojou/status/2073331333800378696",
+            "start_at": "2026-06-09T18:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般チケット",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "https://ticketdive.com/event/idolsummerjungle2026",
+        "venue": "お台場R地区"
+      },
+      "raw": {
+        "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n        IDOL SUMMER JUNGLE 2026\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：8/7（金）,8/8（土）\n⟣place : お台場R地区\n⟣open/start：9:00/10:00\n⟣price：VIPチケット¥28,000/一般チケット¥5,000/女性チケット¥4,000（各+1D） https://t.co/A5ASiau1F1",
+        "attachments": {
+          "media_keys": [
+            "3_2073331032783556609"
+          ]
+        },
+        "created_at": "2026-07-04T09:01:25.000Z",
+        "edit_history_tweet_ids": [
+          "2073331333800378696"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/A5ASiau1F1",
+              "end": 217,
+              "expanded_url": "https://x.com/info_myojou/status/2073331333800378696/photo/1",
+              "media_key": "3_2073331032783556609",
+              "start": 194,
+              "url": "https://t.co/A5ASiau1F1"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n        IDOL SUMMER JUNGLE 2026\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：8/7（金）,8/8（土）\n⟣place : お台場R地区\n⟣open/start：9:00/10:00\n⟣price：VIPチケット¥28,000/一般チケット¥5,000/女性チケット¥4,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n･VIPチケット\n【先行受付（抽選）】\n6/9（火）18:00-7/5（日）23:59\n【一般販売】\n7/6（月）18:00\n\n･一般チケット,女性チケット\n【一般販売】\n6/9（火）18:00-\n\n🔗 https://t.co/vGPzCwXlpR\n\n#myojou\n#ミョージョーサマー\n#サマジャン2026",
+        "full_text_source": "note_tweet",
+        "id": "2073331333800378696",
+        "media": [
+          {
+            "height": 4093,
+            "media_key": "3_2073331032783556609",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HMXzlt7bkAE3cGR.jpg",
+            "width": 2894
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 351,
+                "start": 344,
+                "tag": "myojou"
+              },
+              {
+                "end": 362,
+                "start": 352,
+                "tag": "ミョージョーサマー"
+              },
+              {
+                "end": 373,
+                "start": 363,
+                "tag": "サマジャン2026"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "ticketdive.com/event/idolsumm…",
+                "end": 342,
+                "expanded_url": "https://ticketdive.com/event/idolsummerjungle2026",
+                "start": 319,
+                "url": "https://t.co/vGPzCwXlpR"
+              }
+            ]
+          },
+          "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n        IDOL SUMMER JUNGLE 2026\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：8/7（金）,8/8（土）\n⟣place : お台場R地区\n⟣open/start：9:00/10:00\n⟣price：VIPチケット¥28,000/一般チケット¥5,000/女性チケット¥4,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n･VIPチケット\n【先行受付（抽選）】\n6/9（火）18:00-7/5（日）23:59\n【一般販売】\n7/6（月）18:00\n\n･一般チケット,女性チケット\n【一般販売】\n6/9（火）18:00-\n\n🔗 https://t.co/vGPzCwXlpR\n\n#myojou\n#ミョージョーサマー\n#サマジャン2026"
+        },
+        "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n        IDOL SUMMER JUNGLE 2026\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：8/7（金）,8/8（土）\n⟣place : お台場R地区\n⟣open/start：9:00/10:00\n⟣price：VIPチケット¥28,000/一般チケット¥5,000/女性チケット¥4,000（各+1D） https://t.co/A5ASiau1F1",
+        "truncated_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n        IDOL SUMMER JUNGLE 2026\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：8/7（金）,8/8（土）\n⟣place : お台場R地区\n⟣open/start：9:00/10:00\n⟣price：VIPチケット¥28,000/一般チケット¥5,000/女性チケット¥4,000（各+1D） https://t.co/A5ASiau1F1"
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n        IDOL SUMMER JUNGLE 2026\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：8/7（金）,8/8（土）\n⟣place : お台場R地区\n⟣open/start：9:00/10:00\n⟣price：VIPチケット¥28,000/一般チケット¥5,000/女性チケット¥4,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n･VIPチケット\n【先行受付（抽選）】\n6/9（火）18:00-7/5（日）23:59\n【一般販売】\n7/6（月）18:00\n\n･一般チケット,女性チケット\n【一般販売】\n6/9（火）18:00-\n\n🔗 https://t.co/vGPzCwXlpR\n\n#myojou\n#ミョージョーサマー\n#サマジャン2026",
+      "truncated_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n        IDOL SUMMER JUNGLE 2026\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：8/7（金）,8/8（土）\n⟣place : お台場R地区\n⟣open/start：9:00/10:00\n⟣price：VIPチケット¥28,000/一般チケット¥5,000/女性チケット¥4,000（各+1D） https://t.co/A5ASiau1F1",
+      "url": "https://x.com/info_myojou/status/2073331333800378696"
+    },
+    {
+      "api_text": "✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n      超NATSUZOME 2026 Day1\n✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n\nただいま縁日8テントにて、myojou Summer Vol.01 Tシャツを着て釣り堀参加中🎣\n\nご参加の方全員対象に、釣ったお魚にサインと共に写メ撮影🐟📸 https://t.co/9xOXQX94cX",
+      "attachments": {
+        "media_keys": [
+          "3_2073311311937863680"
+        ]
+      },
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "no live-event signal",
+        "source_kind": "other"
+      },
+      "created_at": "2026-07-04T07:46:36+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/9xOXQX94cX",
+            "end": 169,
+            "expanded_url": "https://x.com/info_myojou/status/2073312505078890519/photo/1",
+            "media_key": "3_2073311311937863680",
+            "start": 146,
+            "url": "https://t.co/9xOXQX94cX"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2073312505078890519",
+      "media": [
+        {
+          "height": 3072,
+          "media_key": "3_2073311311937863680",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HMXhp0DbAAADaow.jpg",
+          "width": 4096
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 208,
+              "start": 201,
+              "tag": "myojou"
+            },
+            {
+              "end": 225,
+              "start": 210,
+              "tag": "超NATSUZOME2026"
+            },
+            {
+              "end": 230,
+              "start": 227,
+              "tag": "夏初"
+            }
+          ]
+        },
+        "text": "✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n      超NATSUZOME 2026 Day1\n✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n\nただいま縁日8テントにて、myojou Summer Vol.01 Tシャツを着て釣り堀参加中🎣\n\nご参加の方全員対象に、釣ったお魚にサインと共に写メ撮影🐟📸\n\n16:30-17:30までとなりますので、ご注意ください！\n\nたくさんのご参加お待ちしております⟡.·\n\n #myojou\n #超NATSUZOME2026\n #夏初"
+      },
+      "parsed_fields": null,
+      "raw": {
+        "api_text": "✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n      超NATSUZOME 2026 Day1\n✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n\nただいま縁日8テントにて、myojou Summer Vol.01 Tシャツを着て釣り堀参加中🎣\n\nご参加の方全員対象に、釣ったお魚にサインと共に写メ撮影🐟📸 https://t.co/9xOXQX94cX",
+        "attachments": {
+          "media_keys": [
+            "3_2073311311937863680"
+          ]
+        },
+        "created_at": "2026-07-04T07:46:36.000Z",
+        "edit_history_tweet_ids": [
+          "2073311433618567510",
+          "2073312505078890519"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/9xOXQX94cX",
+              "end": 169,
+              "expanded_url": "https://x.com/info_myojou/status/2073312505078890519/photo/1",
+              "media_key": "3_2073311311937863680",
+              "start": 146,
+              "url": "https://t.co/9xOXQX94cX"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n      超NATSUZOME 2026 Day1\n✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n\nただいま縁日8テントにて、myojou Summer Vol.01 Tシャツを着て釣り堀参加中🎣\n\nご参加の方全員対象に、釣ったお魚にサインと共に写メ撮影🐟📸\n\n16:30-17:30までとなりますので、ご注意ください！\n\nたくさんのご参加お待ちしております⟡.·\n\n #myojou\n #超NATSUZOME2026\n #夏初",
+        "full_text_source": "note_tweet",
+        "id": "2073312505078890519",
+        "media": [
+          {
+            "height": 3072,
+            "media_key": "3_2073311311937863680",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HMXhp0DbAAADaow.jpg",
+            "width": 4096
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 208,
+                "start": 201,
+                "tag": "myojou"
+              },
+              {
+                "end": 225,
+                "start": 210,
+                "tag": "超NATSUZOME2026"
+              },
+              {
+                "end": 230,
+                "start": 227,
+                "tag": "夏初"
+              }
+            ]
+          },
+          "text": "✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n      超NATSUZOME 2026 Day1\n✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n\nただいま縁日8テントにて、myojou Summer Vol.01 Tシャツを着て釣り堀参加中🎣\n\nご参加の方全員対象に、釣ったお魚にサインと共に写メ撮影🐟📸\n\n16:30-17:30までとなりますので、ご注意ください！\n\nたくさんのご参加お待ちしております⟡.·\n\n #myojou\n #超NATSUZOME2026\n #夏初"
+        },
+        "text": "✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n      超NATSUZOME 2026 Day1\n✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n\nただいま縁日8テントにて、myojou Summer Vol.01 Tシャツを着て釣り堀参加中🎣\n\nご参加の方全員対象に、釣ったお魚にサインと共に写メ撮影🐟📸 https://t.co/9xOXQX94cX",
+        "truncated_text": "✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n      超NATSUZOME 2026 Day1\n✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n\nただいま縁日8テントにて、myojou Summer Vol.01 Tシャツを着て釣り堀参加中🎣\n\nご参加の方全員対象に、釣ったお魚にサインと共に写メ撮影🐟📸 https://t.co/9xOXQX94cX"
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n      超NATSUZOME 2026 Day1\n✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n\nただいま縁日8テントにて、myojou Summer Vol.01 Tシャツを着て釣り堀参加中🎣\n\nご参加の方全員対象に、釣ったお魚にサインと共に写メ撮影🐟📸\n\n16:30-17:30までとなりますので、ご注意ください！\n\nたくさんのご参加お待ちしております⟡.·\n\n #myojou\n #超NATSUZOME2026\n #夏初",
+      "truncated_text": "✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n      超NATSUZOME 2026 Day1\n✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n\nただいま縁日8テントにて、myojou Summer Vol.01 Tシャツを着て釣り堀参加中🎣\n\nご参加の方全員対象に、釣ったお魚にサインと共に写メ撮影🐟📸 https://t.co/9xOXQX94cX",
+      "url": "https://x.com/info_myojou/status/2073312505078890519"
+    },
+    {
       "api_text": "【特典会実施場所について】\n\n明日開催｢超NATSUZOME 2026 Day1｣の特典会実施場所について、特典会TTフライヤーには｢O｣と記載されていますが、｢D｣にて行います。\n\nご確認よろしくお願いいたします。\n\n #myojou",
       "attachments": {},
       "classification": {
@@ -104192,7 +105794,7 @@
     "backfill": true,
     "dry_run": true,
     "estimated_x_post_reads": 411,
-    "latest_post_id": "2073034982076149950",
+    "latest_post_id": "2073415712346083524",
     "max_pages": 10,
     "max_posts": 500,
     "max_results": 5,
@@ -104235,16 +105837,16 @@
       }
     ],
     "pages_fetched": 5,
-    "posts_fetched": 490,
+    "posts_fetched": 497,
     "rate_limit_headers": {
       "x-rate-limit-limit": "10000",
       "x-rate-limit-remaining": "9993",
       "x-rate-limit-reset": "1781108896"
     },
-    "total_posts": 490,
-    "updated_at": "2026-07-03T20:17:30.078168+00:00",
+    "total_posts": 497,
+    "updated_at": "2026-07-04T20:11:41.343947+00:00",
     "username": "info_myojou"
   },
   "source": "x_api",
-  "updated_at": "2026-07-03T20:17:30.078168+00:00"
+  "updated_at": "2026-07-04T20:11:41.343947+00:00"
 }
