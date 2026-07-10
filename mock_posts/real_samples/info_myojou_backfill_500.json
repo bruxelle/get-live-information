@@ -2,6 +2,1327 @@
   "captured_at": "2026-06-10T16:19:36.141820+00:00",
   "data": [
     {
+      "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「SPARK 2026 渋谷納涼祭」\n\n📍ベルサールメイン\n🎙15:25-15:45\n📸15:55-17:25 B\n🏮17:45-18:35 8\n\n⟣date：7/11（土）、12（日）\n⟣place : SPARK 2026 渋谷納涼祭\n⟣open/start：9:00/9:30\n※8:00よりリストバンド交換\n⟣price：VIP¥15,000/ 一般¥4,000(各+1D） https://t.co/PMBsMgLniF",
+      "attachments": {
+        "media_keys": [
+          "3_2075558899730796544",
+          "3_2075558899793772544",
+          "3_2075558899735023616",
+          "3_2075558899755970560"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "day_before_reminder"
+      },
+      "created_at": "2026-07-10T12:33:01+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/PMBsMgLniF",
+            "end": 238,
+            "expanded_url": "https://x.com/info_myojou/status/2075558911143522560/photo/1",
+            "media_key": "3_2075558899730796544",
+            "start": 215,
+            "url": "https://t.co/PMBsMgLniF"
+          },
+          {
+            "display_url": "pic.x.com/PMBsMgLniF",
+            "end": 238,
+            "expanded_url": "https://x.com/info_myojou/status/2075558911143522560/photo/1",
+            "media_key": "3_2075558899793772544",
+            "start": 215,
+            "url": "https://t.co/PMBsMgLniF"
+          },
+          {
+            "display_url": "pic.x.com/PMBsMgLniF",
+            "end": 238,
+            "expanded_url": "https://x.com/info_myojou/status/2075558911143522560/photo/1",
+            "media_key": "3_2075558899735023616",
+            "start": 215,
+            "url": "https://t.co/PMBsMgLniF"
+          },
+          {
+            "display_url": "pic.x.com/PMBsMgLniF",
+            "end": 238,
+            "expanded_url": "https://x.com/info_myojou/status/2075558911143522560/photo/1",
+            "media_key": "3_2075558899755970560",
+            "start": 215,
+            "url": "https://t.co/PMBsMgLniF"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2075558911143522560",
+      "media": [
+        {
+          "height": 1895,
+          "media_key": "3_2075558899730796544",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HM3d0pDa0AAUfzP.jpg",
+          "width": 2213
+        },
+        {
+          "height": 1470,
+          "media_key": "3_2075558899793772544",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HM3d0pSbwAAOScH.jpg",
+          "width": 2852
+        },
+        {
+          "height": 2356,
+          "media_key": "3_2075558899735023616",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HM3d0pEbUAAADIu.jpg",
+          "width": 2854
+        },
+        {
+          "height": 2048,
+          "media_key": "3_2075558899755970560",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HM3d0pJa8AA7j94.jpg",
+          "width": 1448
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 309,
+              "start": 302,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "ticketdive.com/event/spark202…",
+              "end": 300,
+              "expanded_url": "https://ticketdive.com/event/spark2026_summer",
+              "start": 277,
+              "url": "https://t.co/1sTXs3AKD4"
+            }
+          ]
+        },
+        "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「SPARK 2026 渋谷納涼祭」\n\n📍ベルサールメイン\n🎙15:25-15:45\n📸15:55-17:25 B\n🏮17:45-18:35 8\n\n⟣date：7/11（土）、12（日）\n⟣place : SPARK 2026 渋谷納涼祭\n⟣open/start：9:00/9:30\n※8:00よりリストバンド交換\n⟣price：VIP¥15,000/ 一般¥4,000(各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n6/22 (月) 22:00 - 7/11（土）22:30\n🔗 https://t.co/1sTXs3AKD4\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": "15:55-17:25",
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-07-11",
+        "event_dates": [
+          "2026-07-11",
+          "2026-07-12"
+        ],
+        "event_name": "SPARK 2026 渋谷納涼祭",
+        "extraction_confidence": 0.95,
+        "general_ticket_price": 4000,
+        "lottery_result_at": null,
+        "myojou_performance_time": "15:25-15:45",
+        "notes": "※8:00よりリストバンド交換\nドリンク代: 各+1D\n⟣入場特典:明星カード(サインありチェキ)",
+        "open_time": "09:00",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "VIP",
+        "priority_ticket_price": 15000,
+        "same_day_ticket_price": null,
+        "source_kind": "day_before_reminder",
+        "source_post_id": "2075558911143522560",
+        "source_posted_at": "2026-07-10T12:33:01Z",
+        "source_raw": {
+          "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「SPARK 2026 渋谷納涼祭」\n\n📍ベルサールメイン\n🎙15:25-15:45\n📸15:55-17:25 B\n🏮17:45-18:35 8\n\n⟣date：7/11（土）、12（日）\n⟣place : SPARK 2026 渋谷納涼祭\n⟣open/start：9:00/9:30\n※8:00よりリストバンド交換\n⟣price：VIP¥15,000/ 一般¥4,000(各+1D） https://t.co/PMBsMgLniF",
+          "attachments": {
+            "media_keys": [
+              "3_2075558899730796544",
+              "3_2075558899793772544",
+              "3_2075558899735023616",
+              "3_2075558899755970560"
+            ]
+          },
+          "created_at": "2026-07-10T12:33:01.000Z",
+          "edit_history_tweet_ids": [
+            "2075558911143522560"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/PMBsMgLniF",
+                "end": 238,
+                "expanded_url": "https://x.com/info_myojou/status/2075558911143522560/photo/1",
+                "media_key": "3_2075558899730796544",
+                "start": 215,
+                "url": "https://t.co/PMBsMgLniF"
+              },
+              {
+                "display_url": "pic.x.com/PMBsMgLniF",
+                "end": 238,
+                "expanded_url": "https://x.com/info_myojou/status/2075558911143522560/photo/1",
+                "media_key": "3_2075558899793772544",
+                "start": 215,
+                "url": "https://t.co/PMBsMgLniF"
+              },
+              {
+                "display_url": "pic.x.com/PMBsMgLniF",
+                "end": 238,
+                "expanded_url": "https://x.com/info_myojou/status/2075558911143522560/photo/1",
+                "media_key": "3_2075558899735023616",
+                "start": 215,
+                "url": "https://t.co/PMBsMgLniF"
+              },
+              {
+                "display_url": "pic.x.com/PMBsMgLniF",
+                "end": 238,
+                "expanded_url": "https://x.com/info_myojou/status/2075558911143522560/photo/1",
+                "media_key": "3_2075558899755970560",
+                "start": 215,
+                "url": "https://t.co/PMBsMgLniF"
+              }
+            ]
+          },
+          "full_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「SPARK 2026 渋谷納涼祭」\n\n📍ベルサールメイン\n🎙15:25-15:45\n📸15:55-17:25 B\n🏮17:45-18:35 8\n\n⟣date：7/11（土）、12（日）\n⟣place : SPARK 2026 渋谷納涼祭\n⟣open/start：9:00/9:30\n※8:00よりリストバンド交換\n⟣price：VIP¥15,000/ 一般¥4,000(各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n6/22 (月) 22:00 - 7/11（土）22:30\n🔗 https://t.co/1sTXs3AKD4\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2075558911143522560",
+          "media": [
+            {
+              "height": 1895,
+              "media_key": "3_2075558899730796544",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HM3d0pDa0AAUfzP.jpg",
+              "width": 2213
+            },
+            {
+              "height": 1470,
+              "media_key": "3_2075558899793772544",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HM3d0pSbwAAOScH.jpg",
+              "width": 2852
+            },
+            {
+              "height": 2356,
+              "media_key": "3_2075558899735023616",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HM3d0pEbUAAADIu.jpg",
+              "width": 2854
+            },
+            {
+              "height": 2048,
+              "media_key": "3_2075558899755970560",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HM3d0pJa8AA7j94.jpg",
+              "width": 1448
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 309,
+                  "start": 302,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "ticketdive.com/event/spark202…",
+                  "end": 300,
+                  "expanded_url": "https://ticketdive.com/event/spark2026_summer",
+                  "start": 277,
+                  "url": "https://t.co/1sTXs3AKD4"
+                }
+              ]
+            },
+            "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「SPARK 2026 渋谷納涼祭」\n\n📍ベルサールメイン\n🎙15:25-15:45\n📸15:55-17:25 B\n🏮17:45-18:35 8\n\n⟣date：7/11（土）、12（日）\n⟣place : SPARK 2026 渋谷納涼祭\n⟣open/start：9:00/9:30\n※8:00よりリストバンド交換\n⟣price：VIP¥15,000/ 一般¥4,000(各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n6/22 (月) 22:00 - 7/11（土）22:30\n🔗 https://t.co/1sTXs3AKD4\n\n#myojou"
+          },
+          "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「SPARK 2026 渋谷納涼祭」\n\n📍ベルサールメイン\n🎙15:25-15:45\n📸15:55-17:25 B\n🏮17:45-18:35 8\n\n⟣date：7/11（土）、12（日）\n⟣place : SPARK 2026 渋谷納涼祭\n⟣open/start：9:00/9:30\n※8:00よりリストバンド交換\n⟣price：VIP¥15,000/ 一般¥4,000(各+1D） https://t.co/PMBsMgLniF",
+          "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「SPARK 2026 渋谷納涼祭」\n\n📍ベルサールメイン\n🎙15:25-15:45\n📸15:55-17:25 B\n🏮17:45-18:35 8\n\n⟣date：7/11（土）、12（日）\n⟣place : SPARK 2026 渋谷納涼祭\n⟣open/start：9:00/9:30\n※8:00よりリストバンド交換\n⟣price：VIP¥15,000/ 一般¥4,000(各+1D） https://t.co/PMBsMgLniF"
+        },
+        "source_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「SPARK 2026 渋谷納涼祭」\n\n📍ベルサールメイン\n🎙15:25-15:45\n📸15:55-17:25 B\n🏮17:45-18:35 8\n\n⟣date：7/11（土）、12（日）\n⟣place : SPARK 2026 渋谷納涼祭\n⟣open/start：9:00/9:30\n※8:00よりリストバンド交換\n⟣price：VIP¥15,000/ 一般¥4,000(各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n6/22 (月) 22:00 - 7/11（土）22:30\n🔗 https://t.co/1sTXs3AKD4\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2075558911143522560",
+        "start_time": "09:30",
+        "ticket_application_deadline_at": "2026-07-11T22:30:00+09:00",
+        "ticket_application_start_at": "2026-06-22T00:00:00+09:00",
+        "ticket_sale_type": "一般",
+        "ticket_sales": [
+          {
+            "deadline_at": "2026-07-11T22:30:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 15000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2075558911143522560",
+            "source_url": "https://x.com/info_myojou/status/2075558911143522560",
+            "start_at": "2026-06-22T00:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "VIP",
+            "ticket_tier": "VIP"
+          },
+          {
+            "deadline_at": "2026-07-11T22:30:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 4000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2075558911143522560",
+            "source_url": "https://x.com/info_myojou/status/2075558911143522560",
+            "start_at": "2026-06-22T00:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "https://ticketdive.com/event/spark2026_summer",
+        "venue": "SPARK 2026 渋谷納涼祭"
+      },
+      "raw": {
+        "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「SPARK 2026 渋谷納涼祭」\n\n📍ベルサールメイン\n🎙15:25-15:45\n📸15:55-17:25 B\n🏮17:45-18:35 8\n\n⟣date：7/11（土）、12（日）\n⟣place : SPARK 2026 渋谷納涼祭\n⟣open/start：9:00/9:30\n※8:00よりリストバンド交換\n⟣price：VIP¥15,000/ 一般¥4,000(各+1D） https://t.co/PMBsMgLniF",
+        "attachments": {
+          "media_keys": [
+            "3_2075558899730796544",
+            "3_2075558899793772544",
+            "3_2075558899735023616",
+            "3_2075558899755970560"
+          ]
+        },
+        "created_at": "2026-07-10T12:33:01.000Z",
+        "edit_history_tweet_ids": [
+          "2075558911143522560"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/PMBsMgLniF",
+              "end": 238,
+              "expanded_url": "https://x.com/info_myojou/status/2075558911143522560/photo/1",
+              "media_key": "3_2075558899730796544",
+              "start": 215,
+              "url": "https://t.co/PMBsMgLniF"
+            },
+            {
+              "display_url": "pic.x.com/PMBsMgLniF",
+              "end": 238,
+              "expanded_url": "https://x.com/info_myojou/status/2075558911143522560/photo/1",
+              "media_key": "3_2075558899793772544",
+              "start": 215,
+              "url": "https://t.co/PMBsMgLniF"
+            },
+            {
+              "display_url": "pic.x.com/PMBsMgLniF",
+              "end": 238,
+              "expanded_url": "https://x.com/info_myojou/status/2075558911143522560/photo/1",
+              "media_key": "3_2075558899735023616",
+              "start": 215,
+              "url": "https://t.co/PMBsMgLniF"
+            },
+            {
+              "display_url": "pic.x.com/PMBsMgLniF",
+              "end": 238,
+              "expanded_url": "https://x.com/info_myojou/status/2075558911143522560/photo/1",
+              "media_key": "3_2075558899755970560",
+              "start": 215,
+              "url": "https://t.co/PMBsMgLniF"
+            }
+          ]
+        },
+        "full_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「SPARK 2026 渋谷納涼祭」\n\n📍ベルサールメイン\n🎙15:25-15:45\n📸15:55-17:25 B\n🏮17:45-18:35 8\n\n⟣date：7/11（土）、12（日）\n⟣place : SPARK 2026 渋谷納涼祭\n⟣open/start：9:00/9:30\n※8:00よりリストバンド交換\n⟣price：VIP¥15,000/ 一般¥4,000(各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n6/22 (月) 22:00 - 7/11（土）22:30\n🔗 https://t.co/1sTXs3AKD4\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2075558911143522560",
+        "media": [
+          {
+            "height": 1895,
+            "media_key": "3_2075558899730796544",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HM3d0pDa0AAUfzP.jpg",
+            "width": 2213
+          },
+          {
+            "height": 1470,
+            "media_key": "3_2075558899793772544",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HM3d0pSbwAAOScH.jpg",
+            "width": 2852
+          },
+          {
+            "height": 2356,
+            "media_key": "3_2075558899735023616",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HM3d0pEbUAAADIu.jpg",
+            "width": 2854
+          },
+          {
+            "height": 2048,
+            "media_key": "3_2075558899755970560",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HM3d0pJa8AA7j94.jpg",
+            "width": 1448
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 309,
+                "start": 302,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "ticketdive.com/event/spark202…",
+                "end": 300,
+                "expanded_url": "https://ticketdive.com/event/spark2026_summer",
+                "start": 277,
+                "url": "https://t.co/1sTXs3AKD4"
+              }
+            ]
+          },
+          "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「SPARK 2026 渋谷納涼祭」\n\n📍ベルサールメイン\n🎙15:25-15:45\n📸15:55-17:25 B\n🏮17:45-18:35 8\n\n⟣date：7/11（土）、12（日）\n⟣place : SPARK 2026 渋谷納涼祭\n⟣open/start：9:00/9:30\n※8:00よりリストバンド交換\n⟣price：VIP¥15,000/ 一般¥4,000(各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n6/22 (月) 22:00 - 7/11（土）22:30\n🔗 https://t.co/1sTXs3AKD4\n\n#myojou"
+        },
+        "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「SPARK 2026 渋谷納涼祭」\n\n📍ベルサールメイン\n🎙15:25-15:45\n📸15:55-17:25 B\n🏮17:45-18:35 8\n\n⟣date：7/11（土）、12（日）\n⟣place : SPARK 2026 渋谷納涼祭\n⟣open/start：9:00/9:30\n※8:00よりリストバンド交換\n⟣price：VIP¥15,000/ 一般¥4,000(各+1D） https://t.co/PMBsMgLniF",
+        "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「SPARK 2026 渋谷納涼祭」\n\n📍ベルサールメイン\n🎙15:25-15:45\n📸15:55-17:25 B\n🏮17:45-18:35 8\n\n⟣date：7/11（土）、12（日）\n⟣place : SPARK 2026 渋谷納涼祭\n⟣open/start：9:00/9:30\n※8:00よりリストバンド交換\n⟣price：VIP¥15,000/ 一般¥4,000(各+1D） https://t.co/PMBsMgLniF"
+      },
+      "referenced_tweets": [],
+      "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「SPARK 2026 渋谷納涼祭」\n\n📍ベルサールメイン\n🎙15:25-15:45\n📸15:55-17:25 B\n🏮17:45-18:35 8\n\n⟣date：7/11（土）、12（日）\n⟣place : SPARK 2026 渋谷納涼祭\n⟣open/start：9:00/9:30\n※8:00よりリストバンド交換\n⟣price：VIP¥15,000/ 一般¥4,000(各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n6/22 (月) 22:00 - 7/11（土）22:30\n🔗 https://t.co/1sTXs3AKD4\n\n#myojou",
+      "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「SPARK 2026 渋谷納涼祭」\n\n📍ベルサールメイン\n🎙15:25-15:45\n📸15:55-17:25 B\n🏮17:45-18:35 8\n\n⟣date：7/11（土）、12（日）\n⟣place : SPARK 2026 渋谷納涼祭\n⟣open/start：9:00/9:30\n※8:00よりリストバンド交換\n⟣price：VIP¥15,000/ 一般¥4,000(各+1D） https://t.co/PMBsMgLniF",
+      "url": "https://x.com/info_myojou/status/2075558911143522560"
+    },
+    {
+      "api_text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n              sound stock Vol.14\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「sound stock Vol.14」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n日陽みう@myojou_miu https://t.co/4TvR0Q7vOk",
+      "attachments": {
+        "media_keys": [
+          "3_2075558382975803392"
+        ]
+      },
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "profile/member introduction",
+        "source_kind": "other"
+      },
+      "created_at": "2026-07-10T12:30:56+00:00",
+      "entities": {
+        "mentions": [
+          {
+            "end": 172,
+            "id": "1981655668626165760",
+            "start": 160,
+            "username": "myojou_ruka"
+          },
+          {
+            "end": 189,
+            "id": "2009245855694675968",
+            "start": 178,
+            "username": "myojou_miu"
+          }
+        ],
+        "urls": [
+          {
+            "display_url": "pic.x.com/4TvR0Q7vOk",
+            "end": 213,
+            "expanded_url": "https://x.com/info_myojou/status/2075558389300769160/photo/1",
+            "media_key": "3_2075558382975803392",
+            "start": 190,
+            "url": "https://t.co/4TvR0Q7vOk"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2075558389300769160",
+      "media": [
+        {
+          "alt_text": "M1,僕彩色\nM2,yoakeno\nM3,星景讃歌\nM4,CHRONOS\nM5,HeartBeat\nM6,アンチコンプリート",
+          "height": 1108,
+          "media_key": "3_2075558382975803392",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HM3dWj_bYAAX_iP.jpg",
+          "width": 1477
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 299,
+              "start": 292,
+              "tag": "myojou"
+            }
+          ],
+          "mentions": [
+            {
+              "end": 172,
+              "id": "1981655668626165760",
+              "start": 160,
+              "username": "myojou_ruka"
+            },
+            {
+              "end": 189,
+              "id": "2009245855694675968",
+              "start": 178,
+              "username": "myojou_miu"
+            },
+            {
+              "end": 210,
+              "id": "1344586625901158401",
+              "start": 195,
+              "username": "myojou_usukura"
+            },
+            {
+              "end": 238,
+              "id": "1590652199407083520",
+              "start": 224,
+              "username": "myojou_cocone"
+            },
+            {
+              "end": 257,
+              "id": "1754991922807177216",
+              "start": 244,
+              "username": "myojou_shino"
+            },
+            {
+              "end": 274,
+              "id": "2009274765895450624",
+              "start": 263,
+              "username": "myojou_yun"
+            }
+          ]
+        },
+        "text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n              sound stock Vol.14\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「sound stock Vol.14」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n日陽みう@myojou_miu \n薄倉りな@myojou_usukura \n\n下段左から\n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n澪奈ゆん@myojou_yun \n\nSETLIST▶︎ALT\n\n #myojou"
+      },
+      "parsed_fields": null,
+      "raw": {
+        "api_text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n              sound stock Vol.14\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「sound stock Vol.14」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n日陽みう@myojou_miu https://t.co/4TvR0Q7vOk",
+        "attachments": {
+          "media_keys": [
+            "3_2075558382975803392"
+          ]
+        },
+        "created_at": "2026-07-10T12:30:56.000Z",
+        "edit_history_tweet_ids": [
+          "2075558389300769160"
+        ],
+        "entities": {
+          "mentions": [
+            {
+              "end": 172,
+              "id": "1981655668626165760",
+              "start": 160,
+              "username": "myojou_ruka"
+            },
+            {
+              "end": 189,
+              "id": "2009245855694675968",
+              "start": 178,
+              "username": "myojou_miu"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "pic.x.com/4TvR0Q7vOk",
+              "end": 213,
+              "expanded_url": "https://x.com/info_myojou/status/2075558389300769160/photo/1",
+              "media_key": "3_2075558382975803392",
+              "start": 190,
+              "url": "https://t.co/4TvR0Q7vOk"
+            }
+          ]
+        },
+        "full_text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n              sound stock Vol.14\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「sound stock Vol.14」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n日陽みう@myojou_miu \n薄倉りな@myojou_usukura \n\n下段左から\n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n澪奈ゆん@myojou_yun \n\nSETLIST▶︎ALT\n\n #myojou",
+        "full_text_source": "note_tweet",
+        "id": "2075558389300769160",
+        "media": [
+          {
+            "alt_text": "M1,僕彩色\nM2,yoakeno\nM3,星景讃歌\nM4,CHRONOS\nM5,HeartBeat\nM6,アンチコンプリート",
+            "height": 1108,
+            "media_key": "3_2075558382975803392",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HM3dWj_bYAAX_iP.jpg",
+            "width": 1477
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 299,
+                "start": 292,
+                "tag": "myojou"
+              }
+            ],
+            "mentions": [
+              {
+                "end": 172,
+                "id": "1981655668626165760",
+                "start": 160,
+                "username": "myojou_ruka"
+              },
+              {
+                "end": 189,
+                "id": "2009245855694675968",
+                "start": 178,
+                "username": "myojou_miu"
+              },
+              {
+                "end": 210,
+                "id": "1344586625901158401",
+                "start": 195,
+                "username": "myojou_usukura"
+              },
+              {
+                "end": 238,
+                "id": "1590652199407083520",
+                "start": 224,
+                "username": "myojou_cocone"
+              },
+              {
+                "end": 257,
+                "id": "1754991922807177216",
+                "start": 244,
+                "username": "myojou_shino"
+              },
+              {
+                "end": 274,
+                "id": "2009274765895450624",
+                "start": 263,
+                "username": "myojou_yun"
+              }
+            ]
+          },
+          "text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n              sound stock Vol.14\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「sound stock Vol.14」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n日陽みう@myojou_miu \n薄倉りな@myojou_usukura \n\n下段左から\n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n澪奈ゆん@myojou_yun \n\nSETLIST▶︎ALT\n\n #myojou"
+        },
+        "text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n              sound stock Vol.14\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「sound stock Vol.14」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n日陽みう@myojou_miu https://t.co/4TvR0Q7vOk",
+        "truncated_text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n              sound stock Vol.14\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「sound stock Vol.14」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n日陽みう@myojou_miu https://t.co/4TvR0Q7vOk"
+      },
+      "referenced_tweets": [],
+      "text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n              sound stock Vol.14\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「sound stock Vol.14」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n日陽みう@myojou_miu \n薄倉りな@myojou_usukura \n\n下段左から\n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n澪奈ゆん@myojou_yun \n\nSETLIST▶︎ALT\n\n #myojou",
+      "truncated_text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n              sound stock Vol.14\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「sound stock Vol.14」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n日陽みう@myojou_miu https://t.co/4TvR0Q7vOk",
+      "url": "https://x.com/info_myojou/status/2075558389300769160"
+    },
+    {
+      "api_text": "✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n      myojou oneman live\"明夏\"\n                      「Star」\n✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n\n⟣2026.07.10 プレミア公開\n⟣ myojou公式YouTubeチャンネル\n🔗 https://t.co/MKHV3JeqRv\n\n #myojou",
+      "attachments": {},
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "initial_announcement"
+      },
+      "created_at": "2026-07-10T11:00:37+00:00",
+      "entities": {
+        "hashtags": [
+          {
+            "end": 174,
+            "start": 167,
+            "tag": "myojou"
+          }
+        ],
+        "urls": [
+          {
+            "description": "「6人の少女が夜明けの空に描くストーリー」 公式X : https://x.com/info_myojou公式TikTok : ...",
+            "display_url": "youtu.be/60_BVbSV24Y?si…",
+            "end": 164,
+            "expanded_url": "https://youtu.be/60_BVbSV24Y?si=Qjw_28rBUBZS4xnX",
+            "images": [
+              {
+                "height": 720,
+                "url": "https://pbs.twimg.com/news_img/2075535702700511232/Ij6qMzRu?format=jpg&name=orig",
+                "width": 1280
+              },
+              {
+                "height": 150,
+                "url": "https://pbs.twimg.com/news_img/2075535702700511232/Ij6qMzRu?format=jpg&name=150x150",
+                "width": 150
+              }
+            ],
+            "start": 141,
+            "status": 200,
+            "title": "『LIVE VIDEO』Star/myojou",
+            "unwound_url": "https://www.youtube.com/watch?si=Qjw_28rBUBZS4xnX&v=60_BVbSV24Y&feature=youtu.be",
+            "url": "https://t.co/MKHV3JeqRv"
+          }
+        ]
+      },
+      "full_text_source": "text",
+      "id": "2075535660220633306",
+      "media": [],
+      "needs_review": true,
+      "needs_review_reasons": [
+        "missing venue",
+        "missing ticket deadline",
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": null,
+      "parsed_fields": {
+        "benefit_event_time": null,
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-07-10",
+        "event_dates": [
+          "2026-07-10"
+        ],
+        "event_name": "myojou oneman live\"明夏\"",
+        "extraction_confidence": 0.6,
+        "general_ticket_price": null,
+        "lottery_result_at": null,
+        "myojou_performance_time": null,
+        "notes": null,
+        "open_time": null,
+        "payment_deadline_at": null,
+        "priority_ticket_name": null,
+        "priority_ticket_price": null,
+        "same_day_ticket_price": null,
+        "source_kind": "initial_announcement",
+        "source_post_id": "2075535660220633306",
+        "source_posted_at": "2026-07-10T11:00:37Z",
+        "source_raw": {
+          "api_text": "✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n      myojou oneman live\"明夏\"\n                      「Star」\n✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n\n⟣2026.07.10 プレミア公開\n⟣ myojou公式YouTubeチャンネル\n🔗 https://t.co/MKHV3JeqRv\n\n #myojou",
+          "created_at": "2026-07-10T11:00:37.000Z",
+          "edit_history_tweet_ids": [
+            "2075535660220633306"
+          ],
+          "entities": {
+            "hashtags": [
+              {
+                "end": 174,
+                "start": 167,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "description": "「6人の少女が夜明けの空に描くストーリー」 公式X : https://x.com/info_myojou公式TikTok : ...",
+                "display_url": "youtu.be/60_BVbSV24Y?si…",
+                "end": 164,
+                "expanded_url": "https://youtu.be/60_BVbSV24Y?si=Qjw_28rBUBZS4xnX",
+                "images": [
+                  {
+                    "height": 720,
+                    "url": "https://pbs.twimg.com/news_img/2075535702700511232/Ij6qMzRu?format=jpg&name=orig",
+                    "width": 1280
+                  },
+                  {
+                    "height": 150,
+                    "url": "https://pbs.twimg.com/news_img/2075535702700511232/Ij6qMzRu?format=jpg&name=150x150",
+                    "width": 150
+                  }
+                ],
+                "start": 141,
+                "status": 200,
+                "title": "『LIVE VIDEO』Star/myojou",
+                "unwound_url": "https://www.youtube.com/watch?si=Qjw_28rBUBZS4xnX&v=60_BVbSV24Y&feature=youtu.be",
+                "url": "https://t.co/MKHV3JeqRv"
+              }
+            ]
+          },
+          "full_text": "✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n      myojou oneman live\"明夏\"\n                      「Star」\n✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n\n⟣2026.07.10 プレミア公開\n⟣ myojou公式YouTubeチャンネル\n🔗 https://t.co/MKHV3JeqRv\n\n #myojou",
+          "full_text_source": "text",
+          "id": "2075535660220633306",
+          "text": "✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n      myojou oneman live\"明夏\"\n                      「Star」\n✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n\n⟣2026.07.10 プレミア公開\n⟣ myojou公式YouTubeチャンネル\n🔗 https://t.co/MKHV3JeqRv\n\n #myojou",
+          "truncated_text": null
+        },
+        "source_text": "✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n      myojou oneman live\"明夏\"\n                      「Star」\n✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n\n⟣2026.07.10 プレミア公開\n⟣ myojou公式YouTubeチャンネル\n🔗 https://t.co/MKHV3JeqRv\n\n #myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2075535660220633306",
+        "start_time": null,
+        "ticket_application_deadline_at": null,
+        "ticket_application_start_at": null,
+        "ticket_sale_type": null,
+        "ticket_sales": [],
+        "ticket_status": null,
+        "ticket_url": null,
+        "venue": null
+      },
+      "raw": {
+        "api_text": "✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n      myojou oneman live\"明夏\"\n                      「Star」\n✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n\n⟣2026.07.10 プレミア公開\n⟣ myojou公式YouTubeチャンネル\n🔗 https://t.co/MKHV3JeqRv\n\n #myojou",
+        "created_at": "2026-07-10T11:00:37.000Z",
+        "edit_history_tweet_ids": [
+          "2075535660220633306"
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "end": 174,
+              "start": 167,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "description": "「6人の少女が夜明けの空に描くストーリー」 公式X : https://x.com/info_myojou公式TikTok : ...",
+              "display_url": "youtu.be/60_BVbSV24Y?si…",
+              "end": 164,
+              "expanded_url": "https://youtu.be/60_BVbSV24Y?si=Qjw_28rBUBZS4xnX",
+              "images": [
+                {
+                  "height": 720,
+                  "url": "https://pbs.twimg.com/news_img/2075535702700511232/Ij6qMzRu?format=jpg&name=orig",
+                  "width": 1280
+                },
+                {
+                  "height": 150,
+                  "url": "https://pbs.twimg.com/news_img/2075535702700511232/Ij6qMzRu?format=jpg&name=150x150",
+                  "width": 150
+                }
+              ],
+              "start": 141,
+              "status": 200,
+              "title": "『LIVE VIDEO』Star/myojou",
+              "unwound_url": "https://www.youtube.com/watch?si=Qjw_28rBUBZS4xnX&v=60_BVbSV24Y&feature=youtu.be",
+              "url": "https://t.co/MKHV3JeqRv"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n      myojou oneman live\"明夏\"\n                      「Star」\n✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n\n⟣2026.07.10 プレミア公開\n⟣ myojou公式YouTubeチャンネル\n🔗 https://t.co/MKHV3JeqRv\n\n #myojou",
+        "full_text_source": "text",
+        "id": "2075535660220633306",
+        "text": "✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n      myojou oneman live\"明夏\"\n                      「Star」\n✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n\n⟣2026.07.10 プレミア公開\n⟣ myojou公式YouTubeチャンネル\n🔗 https://t.co/MKHV3JeqRv\n\n #myojou",
+        "truncated_text": null
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n      myojou oneman live\"明夏\"\n                      「Star」\n✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n\n⟣2026.07.10 プレミア公開\n⟣ myojou公式YouTubeチャンネル\n🔗 https://t.co/MKHV3JeqRv\n\n #myojou",
+      "truncated_text": null,
+      "url": "https://x.com/info_myojou/status/2075535660220633306"
+    },
+    {
+      "api_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n      SPARK 2026 渋谷納涼祭\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\nDay1 ベルサールメイン\n🎙15:25-15:45\n📸15:55-17:25 B\n🏮17:45-18:35 8\n\nDay2 ベルサールメイン\n🎙17:10-17:35\n📸17:45-19:15 A\n\nmiimステージ\n🎙14:00-14:25（渋谷ストリーム前 https://t.co/4NHcTywbrM",
+      "attachments": {
+        "media_keys": [
+          "3_2075475207679344640"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "ticket_update"
+      },
+      "created_at": "2026-07-10T07:00:28+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/4NHcTywbrM",
+            "end": 219,
+            "expanded_url": "https://x.com/info_myojou/status/2075475221910519931/photo/1",
+            "media_key": "3_2075475207679344640",
+            "start": 196,
+            "url": "https://t.co/4NHcTywbrM"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2075475221910519931",
+      "media": [
+        {
+          "height": 2356,
+          "media_key": "3_2075475207679344640",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HM2RtH3bgAAiclo.jpg",
+          "width": 2854
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 717,
+              "start": 710,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "limista.mi-im.com/product-detail…",
+              "end": 536,
+              "expanded_url": "https://limista.mi-im.com/product-detail/2968",
+              "start": 513,
+              "url": "https://t.co/jkvxaJpVUz"
+            },
+            {
+              "display_url": "limista.com/projects/7546/…",
+              "end": 566,
+              "expanded_url": "https://limista.com/projects/7546/products/55420",
+              "start": 543,
+              "url": "https://t.co/Y1XVVnuInA"
+            },
+            {
+              "display_url": "ticketdive.com/event/spark202…",
+              "end": 708,
+              "expanded_url": "https://ticketdive.com/event/spark2026_summer",
+              "start": 685,
+              "url": "https://t.co/1sTXs3AKD4"
+            }
+          ]
+        },
+        "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n      SPARK 2026 渋谷納涼祭\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\nDay1 ベルサールメイン\n🎙15:25-15:45\n📸15:55-17:25 B\n🏮17:45-18:35 8\n\nDay2 ベルサールメイン\n🎙17:10-17:35\n📸17:45-19:15 A\n\nmiimステージ\n🎙14:00-14:25（渋谷ストリーム前 稲荷橋広場）\n📸14:40-16:10（渋谷ストリーム前 金王橋広場 ブースA）\n\n⟣date：7/11（土）、12（日）\n⟣place : SPARK 2026 渋谷納涼祭\n⟣open/start：9:00/9:30\n※8:00よりリストバンド交換\n⟣price：VIP¥15,000/ 一般¥4,000(各+1D）\n\n【miim販売】\nmyojou デジタルブロマイド vol.1 ￥1,000\n〈購入特典〉\n前方観覧エリア入場券、特典券1枚\n※前方観覧エリア入場券の整理番号はランダムです。\n〈特典会レギュレーション〉\n特典券2枚使用→サインありチェキ\n特典券3枚使用→10秒動画\n〈チケットリンク〉\n前方観覧エリア入場券付き：https://t.co/jkvxaJpVUz\n特典券のみ：https://t.co/Y1XVVnuInA\n7/9（水）12:00-7/12（日）\n\n【一般販売(一般チケット）】\n5/31 (日) 22:00 - 7/10 (金) 23:59\n【一般販売(VIPチケット)】\n6/22 (月) 22:00 - 7/10 (金) 23:59\n🔗 https://t.co/1sTXs3AKD4\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": "15:55-17:25",
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-07-11",
+        "event_dates": [
+          "2026-07-11",
+          "2026-07-12"
+        ],
+        "event_name": "SPARK 2026 渋谷納涼祭",
+        "extraction_confidence": 0.95,
+        "general_ticket_price": 4000,
+        "lottery_result_at": null,
+        "myojou_performance_time": "15:25-15:45",
+        "notes": "※8:00よりリストバンド交換\nドリンク代: 各+1D\n※前方観覧エリア入場券の整理番号はランダムです。",
+        "open_time": "09:00",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "VIP",
+        "priority_ticket_price": 15000,
+        "same_day_ticket_price": null,
+        "source_kind": "ticket_update",
+        "source_post_id": "2075475221910519931",
+        "source_posted_at": "2026-07-10T07:00:28Z",
+        "source_raw": {
+          "api_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n      SPARK 2026 渋谷納涼祭\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\nDay1 ベルサールメイン\n🎙15:25-15:45\n📸15:55-17:25 B\n🏮17:45-18:35 8\n\nDay2 ベルサールメイン\n🎙17:10-17:35\n📸17:45-19:15 A\n\nmiimステージ\n🎙14:00-14:25（渋谷ストリーム前 https://t.co/4NHcTywbrM",
+          "attachments": {
+            "media_keys": [
+              "3_2075475207679344640"
+            ]
+          },
+          "created_at": "2026-07-10T07:00:28.000Z",
+          "edit_history_tweet_ids": [
+            "2075475221910519931"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/4NHcTywbrM",
+                "end": 219,
+                "expanded_url": "https://x.com/info_myojou/status/2075475221910519931/photo/1",
+                "media_key": "3_2075475207679344640",
+                "start": 196,
+                "url": "https://t.co/4NHcTywbrM"
+              }
+            ]
+          },
+          "full_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n      SPARK 2026 渋谷納涼祭\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\nDay1 ベルサールメイン\n🎙15:25-15:45\n📸15:55-17:25 B\n🏮17:45-18:35 8\n\nDay2 ベルサールメイン\n🎙17:10-17:35\n📸17:45-19:15 A\n\nmiimステージ\n🎙14:00-14:25（渋谷ストリーム前 稲荷橋広場）\n📸14:40-16:10（渋谷ストリーム前 金王橋広場 ブースA）\n\n⟣date：7/11（土）、12（日）\n⟣place : SPARK 2026 渋谷納涼祭\n⟣open/start：9:00/9:30\n※8:00よりリストバンド交換\n⟣price：VIP¥15,000/ 一般¥4,000(各+1D）\n\n【miim販売】\nmyojou デジタルブロマイド vol.1 ￥1,000\n〈購入特典〉\n前方観覧エリア入場券、特典券1枚\n※前方観覧エリア入場券の整理番号はランダムです。\n〈特典会レギュレーション〉\n特典券2枚使用→サインありチェキ\n特典券3枚使用→10秒動画\n〈チケットリンク〉\n前方観覧エリア入場券付き：https://t.co/jkvxaJpVUz\n特典券のみ：https://t.co/Y1XVVnuInA\n7/9（水）12:00-7/12（日）\n\n【一般販売(一般チケット）】\n5/31 (日) 22:00 - 7/10 (金) 23:59\n【一般販売(VIPチケット)】\n6/22 (月) 22:00 - 7/10 (金) 23:59\n🔗 https://t.co/1sTXs3AKD4\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2075475221910519931",
+          "media": [
+            {
+              "height": 2356,
+              "media_key": "3_2075475207679344640",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HM2RtH3bgAAiclo.jpg",
+              "width": 2854
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 717,
+                  "start": 710,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "limista.mi-im.com/product-detail…",
+                  "end": 536,
+                  "expanded_url": "https://limista.mi-im.com/product-detail/2968",
+                  "start": 513,
+                  "url": "https://t.co/jkvxaJpVUz"
+                },
+                {
+                  "display_url": "limista.com/projects/7546/…",
+                  "end": 566,
+                  "expanded_url": "https://limista.com/projects/7546/products/55420",
+                  "start": 543,
+                  "url": "https://t.co/Y1XVVnuInA"
+                },
+                {
+                  "display_url": "ticketdive.com/event/spark202…",
+                  "end": 708,
+                  "expanded_url": "https://ticketdive.com/event/spark2026_summer",
+                  "start": 685,
+                  "url": "https://t.co/1sTXs3AKD4"
+                }
+              ]
+            },
+            "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n      SPARK 2026 渋谷納涼祭\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\nDay1 ベルサールメイン\n🎙15:25-15:45\n📸15:55-17:25 B\n🏮17:45-18:35 8\n\nDay2 ベルサールメイン\n🎙17:10-17:35\n📸17:45-19:15 A\n\nmiimステージ\n🎙14:00-14:25（渋谷ストリーム前 稲荷橋広場）\n📸14:40-16:10（渋谷ストリーム前 金王橋広場 ブースA）\n\n⟣date：7/11（土）、12（日）\n⟣place : SPARK 2026 渋谷納涼祭\n⟣open/start：9:00/9:30\n※8:00よりリストバンド交換\n⟣price：VIP¥15,000/ 一般¥4,000(各+1D）\n\n【miim販売】\nmyojou デジタルブロマイド vol.1 ￥1,000\n〈購入特典〉\n前方観覧エリア入場券、特典券1枚\n※前方観覧エリア入場券の整理番号はランダムです。\n〈特典会レギュレーション〉\n特典券2枚使用→サインありチェキ\n特典券3枚使用→10秒動画\n〈チケットリンク〉\n前方観覧エリア入場券付き：https://t.co/jkvxaJpVUz\n特典券のみ：https://t.co/Y1XVVnuInA\n7/9（水）12:00-7/12（日）\n\n【一般販売(一般チケット）】\n5/31 (日) 22:00 - 7/10 (金) 23:59\n【一般販売(VIPチケット)】\n6/22 (月) 22:00 - 7/10 (金) 23:59\n🔗 https://t.co/1sTXs3AKD4\n\n#myojou"
+          },
+          "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n      SPARK 2026 渋谷納涼祭\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\nDay1 ベルサールメイン\n🎙15:25-15:45\n📸15:55-17:25 B\n🏮17:45-18:35 8\n\nDay2 ベルサールメイン\n🎙17:10-17:35\n📸17:45-19:15 A\n\nmiimステージ\n🎙14:00-14:25（渋谷ストリーム前 https://t.co/4NHcTywbrM",
+          "truncated_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n      SPARK 2026 渋谷納涼祭\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\nDay1 ベルサールメイン\n🎙15:25-15:45\n📸15:55-17:25 B\n🏮17:45-18:35 8\n\nDay2 ベルサールメイン\n🎙17:10-17:35\n📸17:45-19:15 A\n\nmiimステージ\n🎙14:00-14:25（渋谷ストリーム前 https://t.co/4NHcTywbrM"
+        },
+        "source_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n      SPARK 2026 渋谷納涼祭\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\nDay1 ベルサールメイン\n🎙15:25-15:45\n📸15:55-17:25 B\n🏮17:45-18:35 8\n\nDay2 ベルサールメイン\n🎙17:10-17:35\n📸17:45-19:15 A\n\nmiimステージ\n🎙14:00-14:25（渋谷ストリーム前 稲荷橋広場）\n📸14:40-16:10（渋谷ストリーム前 金王橋広場 ブースA）\n\n⟣date：7/11（土）、12（日）\n⟣place : SPARK 2026 渋谷納涼祭\n⟣open/start：9:00/9:30\n※8:00よりリストバンド交換\n⟣price：VIP¥15,000/ 一般¥4,000(各+1D）\n\n【miim販売】\nmyojou デジタルブロマイド vol.1 ￥1,000\n〈購入特典〉\n前方観覧エリア入場券、特典券1枚\n※前方観覧エリア入場券の整理番号はランダムです。\n〈特典会レギュレーション〉\n特典券2枚使用→サインありチェキ\n特典券3枚使用→10秒動画\n〈チケットリンク〉\n前方観覧エリア入場券付き：https://t.co/jkvxaJpVUz\n特典券のみ：https://t.co/Y1XVVnuInA\n7/9（水）12:00-7/12（日）\n\n【一般販売(一般チケット）】\n5/31 (日) 22:00 - 7/10 (金) 23:59\n【一般販売(VIPチケット)】\n6/22 (月) 22:00 - 7/10 (金) 23:59\n🔗 https://t.co/1sTXs3AKD4\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2075475221910519931",
+        "start_time": "09:30",
+        "ticket_application_deadline_at": "2026-07-10T00:00:00+09:00",
+        "ticket_application_start_at": "2026-06-22T00:00:00+09:00",
+        "ticket_sale_type": "一般",
+        "ticket_sales": [
+          {
+            "deadline_at": "2026-07-10T00:00:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 15000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2075475221910519931",
+            "source_url": "https://x.com/info_myojou/status/2075475221910519931",
+            "start_at": "2027-05-31T00:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "VIP",
+            "ticket_tier": "VIP"
+          },
+          {
+            "deadline_at": "2026-07-10T00:00:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 4000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2075475221910519931",
+            "source_url": "https://x.com/info_myojou/status/2075475221910519931",
+            "start_at": "2027-05-31T00:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          },
+          {
+            "deadline_at": "2026-07-10T00:00:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 15000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2075475221910519931",
+            "source_url": "https://x.com/info_myojou/status/2075475221910519931",
+            "start_at": "2026-06-22T00:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "VIP",
+            "ticket_tier": "VIP"
+          },
+          {
+            "deadline_at": "2026-07-10T00:00:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 4000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2075475221910519931",
+            "source_url": "https://x.com/info_myojou/status/2075475221910519931",
+            "start_at": "2026-06-22T00:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "https://ticketdive.com/event/spark2026_summer",
+        "venue": "SPARK 2026 渋谷納涼祭"
+      },
+      "raw": {
+        "api_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n      SPARK 2026 渋谷納涼祭\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\nDay1 ベルサールメイン\n🎙15:25-15:45\n📸15:55-17:25 B\n🏮17:45-18:35 8\n\nDay2 ベルサールメイン\n🎙17:10-17:35\n📸17:45-19:15 A\n\nmiimステージ\n🎙14:00-14:25（渋谷ストリーム前 https://t.co/4NHcTywbrM",
+        "attachments": {
+          "media_keys": [
+            "3_2075475207679344640"
+          ]
+        },
+        "created_at": "2026-07-10T07:00:28.000Z",
+        "edit_history_tweet_ids": [
+          "2075475221910519931"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/4NHcTywbrM",
+              "end": 219,
+              "expanded_url": "https://x.com/info_myojou/status/2075475221910519931/photo/1",
+              "media_key": "3_2075475207679344640",
+              "start": 196,
+              "url": "https://t.co/4NHcTywbrM"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n      SPARK 2026 渋谷納涼祭\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\nDay1 ベルサールメイン\n🎙15:25-15:45\n📸15:55-17:25 B\n🏮17:45-18:35 8\n\nDay2 ベルサールメイン\n🎙17:10-17:35\n📸17:45-19:15 A\n\nmiimステージ\n🎙14:00-14:25（渋谷ストリーム前 稲荷橋広場）\n📸14:40-16:10（渋谷ストリーム前 金王橋広場 ブースA）\n\n⟣date：7/11（土）、12（日）\n⟣place : SPARK 2026 渋谷納涼祭\n⟣open/start：9:00/9:30\n※8:00よりリストバンド交換\n⟣price：VIP¥15,000/ 一般¥4,000(各+1D）\n\n【miim販売】\nmyojou デジタルブロマイド vol.1 ￥1,000\n〈購入特典〉\n前方観覧エリア入場券、特典券1枚\n※前方観覧エリア入場券の整理番号はランダムです。\n〈特典会レギュレーション〉\n特典券2枚使用→サインありチェキ\n特典券3枚使用→10秒動画\n〈チケットリンク〉\n前方観覧エリア入場券付き：https://t.co/jkvxaJpVUz\n特典券のみ：https://t.co/Y1XVVnuInA\n7/9（水）12:00-7/12（日）\n\n【一般販売(一般チケット）】\n5/31 (日) 22:00 - 7/10 (金) 23:59\n【一般販売(VIPチケット)】\n6/22 (月) 22:00 - 7/10 (金) 23:59\n🔗 https://t.co/1sTXs3AKD4\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2075475221910519931",
+        "media": [
+          {
+            "height": 2356,
+            "media_key": "3_2075475207679344640",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HM2RtH3bgAAiclo.jpg",
+            "width": 2854
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 717,
+                "start": 710,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "limista.mi-im.com/product-detail…",
+                "end": 536,
+                "expanded_url": "https://limista.mi-im.com/product-detail/2968",
+                "start": 513,
+                "url": "https://t.co/jkvxaJpVUz"
+              },
+              {
+                "display_url": "limista.com/projects/7546/…",
+                "end": 566,
+                "expanded_url": "https://limista.com/projects/7546/products/55420",
+                "start": 543,
+                "url": "https://t.co/Y1XVVnuInA"
+              },
+              {
+                "display_url": "ticketdive.com/event/spark202…",
+                "end": 708,
+                "expanded_url": "https://ticketdive.com/event/spark2026_summer",
+                "start": 685,
+                "url": "https://t.co/1sTXs3AKD4"
+              }
+            ]
+          },
+          "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n      SPARK 2026 渋谷納涼祭\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\nDay1 ベルサールメイン\n🎙15:25-15:45\n📸15:55-17:25 B\n🏮17:45-18:35 8\n\nDay2 ベルサールメイン\n🎙17:10-17:35\n📸17:45-19:15 A\n\nmiimステージ\n🎙14:00-14:25（渋谷ストリーム前 稲荷橋広場）\n📸14:40-16:10（渋谷ストリーム前 金王橋広場 ブースA）\n\n⟣date：7/11（土）、12（日）\n⟣place : SPARK 2026 渋谷納涼祭\n⟣open/start：9:00/9:30\n※8:00よりリストバンド交換\n⟣price：VIP¥15,000/ 一般¥4,000(各+1D）\n\n【miim販売】\nmyojou デジタルブロマイド vol.1 ￥1,000\n〈購入特典〉\n前方観覧エリア入場券、特典券1枚\n※前方観覧エリア入場券の整理番号はランダムです。\n〈特典会レギュレーション〉\n特典券2枚使用→サインありチェキ\n特典券3枚使用→10秒動画\n〈チケットリンク〉\n前方観覧エリア入場券付き：https://t.co/jkvxaJpVUz\n特典券のみ：https://t.co/Y1XVVnuInA\n7/9（水）12:00-7/12（日）\n\n【一般販売(一般チケット）】\n5/31 (日) 22:00 - 7/10 (金) 23:59\n【一般販売(VIPチケット)】\n6/22 (月) 22:00 - 7/10 (金) 23:59\n🔗 https://t.co/1sTXs3AKD4\n\n#myojou"
+        },
+        "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n      SPARK 2026 渋谷納涼祭\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\nDay1 ベルサールメイン\n🎙15:25-15:45\n📸15:55-17:25 B\n🏮17:45-18:35 8\n\nDay2 ベルサールメイン\n🎙17:10-17:35\n📸17:45-19:15 A\n\nmiimステージ\n🎙14:00-14:25（渋谷ストリーム前 https://t.co/4NHcTywbrM",
+        "truncated_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n      SPARK 2026 渋谷納涼祭\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\nDay1 ベルサールメイン\n🎙15:25-15:45\n📸15:55-17:25 B\n🏮17:45-18:35 8\n\nDay2 ベルサールメイン\n🎙17:10-17:35\n📸17:45-19:15 A\n\nmiimステージ\n🎙14:00-14:25（渋谷ストリーム前 https://t.co/4NHcTywbrM"
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n      SPARK 2026 渋谷納涼祭\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\nDay1 ベルサールメイン\n🎙15:25-15:45\n📸15:55-17:25 B\n🏮17:45-18:35 8\n\nDay2 ベルサールメイン\n🎙17:10-17:35\n📸17:45-19:15 A\n\nmiimステージ\n🎙14:00-14:25（渋谷ストリーム前 稲荷橋広場）\n📸14:40-16:10（渋谷ストリーム前 金王橋広場 ブースA）\n\n⟣date：7/11（土）、12（日）\n⟣place : SPARK 2026 渋谷納涼祭\n⟣open/start：9:00/9:30\n※8:00よりリストバンド交換\n⟣price：VIP¥15,000/ 一般¥4,000(各+1D）\n\n【miim販売】\nmyojou デジタルブロマイド vol.1 ￥1,000\n〈購入特典〉\n前方観覧エリア入場券、特典券1枚\n※前方観覧エリア入場券の整理番号はランダムです。\n〈特典会レギュレーション〉\n特典券2枚使用→サインありチェキ\n特典券3枚使用→10秒動画\n〈チケットリンク〉\n前方観覧エリア入場券付き：https://t.co/jkvxaJpVUz\n特典券のみ：https://t.co/Y1XVVnuInA\n7/9（水）12:00-7/12（日）\n\n【一般販売(一般チケット）】\n5/31 (日) 22:00 - 7/10 (金) 23:59\n【一般販売(VIPチケット)】\n6/22 (月) 22:00 - 7/10 (金) 23:59\n🔗 https://t.co/1sTXs3AKD4\n\n#myojou",
+      "truncated_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n      SPARK 2026 渋谷納涼祭\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\nDay1 ベルサールメイン\n🎙15:25-15:45\n📸15:55-17:25 B\n🏮17:45-18:35 8\n\nDay2 ベルサールメイン\n🎙17:10-17:35\n📸17:45-19:15 A\n\nmiimステージ\n🎙14:00-14:25（渋谷ストリーム前 https://t.co/4NHcTywbrM",
+      "url": "https://x.com/info_myojou/status/2075475221910519931"
+    },
+    {
+      "api_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「sound stock Vol.14」\n \n🎙18:45-19:10\n📸19:40-20:40 \n\n⟣date：7/10（金）\n⟣place : Spotify O-nest\n⟣open/start：17:00/17:30\n⟣price：前方VIP¥6,000/一般¥3,500（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n#myojou https://t.co/fV3Le6pNep",
+      "attachments": {
+        "media_keys": [
+          "3_2075408242923171840"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "same_day_reminder"
+      },
+      "created_at": "2026-07-10T02:34:21+00:00",
+      "entities": {
+        "hashtags": [
+          {
+            "end": 200,
+            "start": 193,
+            "tag": "myojou"
+          }
+        ],
+        "urls": [
+          {
+            "display_url": "pic.x.com/fV3Le6pNep",
+            "end": 224,
+            "expanded_url": "https://x.com/info_myojou/status/2075408252020691416/photo/1",
+            "media_key": "3_2075408242923171840",
+            "start": 201,
+            "url": "https://t.co/fV3Le6pNep"
+          }
+        ]
+      },
+      "full_text_source": "text",
+      "id": "2075408252020691416",
+      "media": [
+        {
+          "height": 3508,
+          "media_key": "3_2075408242923171840",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HM1UzQtacAAUoca.jpg",
+          "width": 2481
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": null,
+      "parsed_fields": {
+        "benefit_event_time": "19:40-20:40",
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-07-10",
+        "event_dates": [
+          "2026-07-10"
+        ],
+        "event_name": "sound stock Vol.14",
+        "extraction_confidence": 0.95,
+        "general_ticket_price": 3500,
+        "lottery_result_at": null,
+        "myojou_performance_time": "18:45-19:10",
+        "notes": "ドリンク代: 各+1D\n⟣入場特典:明星カード(サインありチェキ)",
+        "open_time": "17:00",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "前方VIP",
+        "priority_ticket_price": 6000,
+        "same_day_ticket_price": null,
+        "source_kind": "same_day_reminder",
+        "source_post_id": "2075408252020691416",
+        "source_posted_at": "2026-07-10T02:34:21Z",
+        "source_raw": {
+          "api_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「sound stock Vol.14」\n \n🎙18:45-19:10\n📸19:40-20:40 \n\n⟣date：7/10（金）\n⟣place : Spotify O-nest\n⟣open/start：17:00/17:30\n⟣price：前方VIP¥6,000/一般¥3,500（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n#myojou https://t.co/fV3Le6pNep",
+          "attachments": {
+            "media_keys": [
+              "3_2075408242923171840"
+            ]
+          },
+          "created_at": "2026-07-10T02:34:21.000Z",
+          "edit_history_tweet_ids": [
+            "2075408252020691416"
+          ],
+          "entities": {
+            "hashtags": [
+              {
+                "end": 200,
+                "start": 193,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "pic.x.com/fV3Le6pNep",
+                "end": 224,
+                "expanded_url": "https://x.com/info_myojou/status/2075408252020691416/photo/1",
+                "media_key": "3_2075408242923171840",
+                "start": 201,
+                "url": "https://t.co/fV3Le6pNep"
+              }
+            ]
+          },
+          "full_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「sound stock Vol.14」\n \n🎙18:45-19:10\n📸19:40-20:40 \n\n⟣date：7/10（金）\n⟣place : Spotify O-nest\n⟣open/start：17:00/17:30\n⟣price：前方VIP¥6,000/一般¥3,500（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n#myojou https://t.co/fV3Le6pNep",
+          "full_text_source": "text",
+          "id": "2075408252020691416",
+          "media": [
+            {
+              "height": 3508,
+              "media_key": "3_2075408242923171840",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HM1UzQtacAAUoca.jpg",
+              "width": 2481
+            }
+          ],
+          "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「sound stock Vol.14」\n \n🎙18:45-19:10\n📸19:40-20:40 \n\n⟣date：7/10（金）\n⟣place : Spotify O-nest\n⟣open/start：17:00/17:30\n⟣price：前方VIP¥6,000/一般¥3,500（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n#myojou https://t.co/fV3Le6pNep",
+          "truncated_text": null
+        },
+        "source_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「sound stock Vol.14」\n \n🎙18:45-19:10\n📸19:40-20:40 \n\n⟣date：7/10（金）\n⟣place : Spotify O-nest\n⟣open/start：17:00/17:30\n⟣price：前方VIP¥6,000/一般¥3,500（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n#myojou https://t.co/fV3Le6pNep",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2075408252020691416",
+        "start_time": "17:30",
+        "ticket_application_deadline_at": null,
+        "ticket_application_start_at": null,
+        "ticket_sale_type": null,
+        "ticket_sales": [
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 6000,
+            "result_at": null,
+            "sale_type": "不明",
+            "source_post_id": "2075408252020691416",
+            "source_url": "https://x.com/info_myojou/status/2075408252020691416",
+            "start_at": null,
+            "status": "不明",
+            "ticket_name": "VIP",
+            "ticket_tier": "VIP"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 3500,
+            "result_at": null,
+            "sale_type": "不明",
+            "source_post_id": "2075408252020691416",
+            "source_url": "https://x.com/info_myojou/status/2075408252020691416",
+            "start_at": null,
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": null,
+        "venue": "Spotify O-nest"
+      },
+      "raw": {
+        "api_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「sound stock Vol.14」\n \n🎙18:45-19:10\n📸19:40-20:40 \n\n⟣date：7/10（金）\n⟣place : Spotify O-nest\n⟣open/start：17:00/17:30\n⟣price：前方VIP¥6,000/一般¥3,500（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n#myojou https://t.co/fV3Le6pNep",
+        "attachments": {
+          "media_keys": [
+            "3_2075408242923171840"
+          ]
+        },
+        "created_at": "2026-07-10T02:34:21.000Z",
+        "edit_history_tweet_ids": [
+          "2075408252020691416"
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "end": 200,
+              "start": 193,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "pic.x.com/fV3Le6pNep",
+              "end": 224,
+              "expanded_url": "https://x.com/info_myojou/status/2075408252020691416/photo/1",
+              "media_key": "3_2075408242923171840",
+              "start": 201,
+              "url": "https://t.co/fV3Le6pNep"
+            }
+          ]
+        },
+        "full_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「sound stock Vol.14」\n \n🎙18:45-19:10\n📸19:40-20:40 \n\n⟣date：7/10（金）\n⟣place : Spotify O-nest\n⟣open/start：17:00/17:30\n⟣price：前方VIP¥6,000/一般¥3,500（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n#myojou https://t.co/fV3Le6pNep",
+        "full_text_source": "text",
+        "id": "2075408252020691416",
+        "media": [
+          {
+            "height": 3508,
+            "media_key": "3_2075408242923171840",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HM1UzQtacAAUoca.jpg",
+            "width": 2481
+          }
+        ],
+        "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「sound stock Vol.14」\n \n🎙18:45-19:10\n📸19:40-20:40 \n\n⟣date：7/10（金）\n⟣place : Spotify O-nest\n⟣open/start：17:00/17:30\n⟣price：前方VIP¥6,000/一般¥3,500（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n#myojou https://t.co/fV3Le6pNep",
+        "truncated_text": null
+      },
+      "referenced_tweets": [],
+      "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「sound stock Vol.14」\n \n🎙18:45-19:10\n📸19:40-20:40 \n\n⟣date：7/10（金）\n⟣place : Spotify O-nest\n⟣open/start：17:00/17:30\n⟣price：前方VIP¥6,000/一般¥3,500（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n#myojou https://t.co/fV3Le6pNep",
+      "truncated_text": null,
+      "url": "https://x.com/info_myojou/status/2075408252020691416"
+    },
+    {
       "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「sound stock Vol.14」\n \n🎙18:45-19:10\n📸19:40-20:40 \n\n⟣date：7/10（金）\n⟣place : Spotify O-nest\n⟣open/start：17:00/17:30\n⟣price：前方VIP¥6,000/一般¥3,500（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】 https://t.co/eGhUkDZrkA",
       "attachments": {
         "media_keys": [
@@ -113139,7 +114460,7 @@
     "backfill": true,
     "dry_run": true,
     "estimated_x_post_reads": 411,
-    "latest_post_id": "2075190510550122642",
+    "latest_post_id": "2075558911143522560",
     "max_pages": 10,
     "max_posts": 500,
     "max_results": 5,
@@ -113182,16 +114503,16 @@
       }
     ],
     "pages_fetched": 5,
-    "posts_fetched": 528,
+    "posts_fetched": 533,
     "rate_limit_headers": {
       "x-rate-limit-limit": "10000",
       "x-rate-limit-remaining": "9993",
       "x-rate-limit-reset": "1781108896"
     },
-    "total_posts": 528,
-    "updated_at": "2026-07-09T20:49:33.515763+00:00",
+    "total_posts": 533,
+    "updated_at": "2026-07-10T20:26:18.031791+00:00",
     "username": "info_myojou"
   },
   "source": "x_api",
-  "updated_at": "2026-07-09T20:49:33.515763+00:00"
+  "updated_at": "2026-07-10T20:26:18.031791+00:00"
 }
