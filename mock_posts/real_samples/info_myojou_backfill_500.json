@@ -2,6 +2,1017 @@
   "captured_at": "2026-06-10T16:19:36.141820+00:00",
   "data": [
     {
+      "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「うるトラすフェスタvol.45」\n\n🎙18:55-19:20\n📸19:30-20:30\n\n⟣date：7/14（火）\n⟣place : 渋谷・CLUB QUATTRO\n⟣open/start：16:00/16:30\n⟣price：前方チケット ¥5,500 / 一般チケット ¥2,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ） https://t.co/f3St0UsDs0",
+      "attachments": {
+        "media_keys": [
+          "3_2076657866761818112"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "day_before_reminder"
+      },
+      "created_at": "2026-07-13T13:19:53+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/f3St0UsDs0",
+            "end": 220,
+            "expanded_url": "https://x.com/info_myojou/status/2076657871673241806/photo/1",
+            "media_key": "3_2076657866761818112",
+            "start": 197,
+            "url": "https://t.co/f3St0UsDs0"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2076657871673241806",
+      "media": [
+        {
+          "height": 615,
+          "media_key": "3_2076657866761818112",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HNHFU8Rb0AAd-b6.jpg",
+          "width": 538
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 266,
+              "start": 259,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "ticketdive.com/event/ultrasfe…",
+              "end": 257,
+              "expanded_url": "https://ticketdive.com/event/ultrasfesta_vol45",
+              "start": 234,
+              "url": "https://t.co/2yXorSFeej"
+            }
+          ]
+        },
+        "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「うるトラすフェスタvol.45」\n\n🎙18:55-19:20\n📸19:30-20:30\n\n⟣date：7/14（火）\n⟣place : 渋谷・CLUB QUATTRO\n⟣open/start：16:00/16:30\n⟣price：前方チケット ¥5,500 / 一般チケット ¥2,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n7/2(木) 21:00-7/13(月) 23:59\n🔗 https://t.co/2yXorSFeej\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": "19:30-20:30",
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-07-14",
+        "event_dates": [
+          "2026-07-14"
+        ],
+        "event_name": "うるトラすフェスタvol.45",
+        "extraction_confidence": 0.95,
+        "general_ticket_price": 2500,
+        "lottery_result_at": null,
+        "myojou_performance_time": "18:55-19:20",
+        "notes": "ドリンク代: 各+1D\n⟣入場特典:明星カード(サインありチェキ)",
+        "open_time": "16:00",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "前方チケット",
+        "priority_ticket_price": 5500,
+        "same_day_ticket_price": null,
+        "source_kind": "day_before_reminder",
+        "source_post_id": "2076657871673241806",
+        "source_posted_at": "2026-07-13T13:19:53Z",
+        "source_raw": {
+          "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「うるトラすフェスタvol.45」\n\n🎙18:55-19:20\n📸19:30-20:30\n\n⟣date：7/14（火）\n⟣place : 渋谷・CLUB QUATTRO\n⟣open/start：16:00/16:30\n⟣price：前方チケット ¥5,500 / 一般チケット ¥2,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ） https://t.co/f3St0UsDs0",
+          "attachments": {
+            "media_keys": [
+              "3_2076657866761818112"
+            ]
+          },
+          "created_at": "2026-07-13T13:19:53.000Z",
+          "edit_history_tweet_ids": [
+            "2076657871673241806"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/f3St0UsDs0",
+                "end": 220,
+                "expanded_url": "https://x.com/info_myojou/status/2076657871673241806/photo/1",
+                "media_key": "3_2076657866761818112",
+                "start": 197,
+                "url": "https://t.co/f3St0UsDs0"
+              }
+            ]
+          },
+          "full_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「うるトラすフェスタvol.45」\n\n🎙18:55-19:20\n📸19:30-20:30\n\n⟣date：7/14（火）\n⟣place : 渋谷・CLUB QUATTRO\n⟣open/start：16:00/16:30\n⟣price：前方チケット ¥5,500 / 一般チケット ¥2,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n7/2(木) 21:00-7/13(月) 23:59\n🔗 https://t.co/2yXorSFeej\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2076657871673241806",
+          "media": [
+            {
+              "height": 615,
+              "media_key": "3_2076657866761818112",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HNHFU8Rb0AAd-b6.jpg",
+              "width": 538
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 266,
+                  "start": 259,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "ticketdive.com/event/ultrasfe…",
+                  "end": 257,
+                  "expanded_url": "https://ticketdive.com/event/ultrasfesta_vol45",
+                  "start": 234,
+                  "url": "https://t.co/2yXorSFeej"
+                }
+              ]
+            },
+            "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「うるトラすフェスタvol.45」\n\n🎙18:55-19:20\n📸19:30-20:30\n\n⟣date：7/14（火）\n⟣place : 渋谷・CLUB QUATTRO\n⟣open/start：16:00/16:30\n⟣price：前方チケット ¥5,500 / 一般チケット ¥2,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n7/2(木) 21:00-7/13(月) 23:59\n🔗 https://t.co/2yXorSFeej\n\n#myojou"
+          },
+          "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「うるトラすフェスタvol.45」\n\n🎙18:55-19:20\n📸19:30-20:30\n\n⟣date：7/14（火）\n⟣place : 渋谷・CLUB QUATTRO\n⟣open/start：16:00/16:30\n⟣price：前方チケット ¥5,500 / 一般チケット ¥2,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ） https://t.co/f3St0UsDs0",
+          "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「うるトラすフェスタvol.45」\n\n🎙18:55-19:20\n📸19:30-20:30\n\n⟣date：7/14（火）\n⟣place : 渋谷・CLUB QUATTRO\n⟣open/start：16:00/16:30\n⟣price：前方チケット ¥5,500 / 一般チケット ¥2,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ） https://t.co/f3St0UsDs0"
+        },
+        "source_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「うるトラすフェスタvol.45」\n\n🎙18:55-19:20\n📸19:30-20:30\n\n⟣date：7/14（火）\n⟣place : 渋谷・CLUB QUATTRO\n⟣open/start：16:00/16:30\n⟣price：前方チケット ¥5,500 / 一般チケット ¥2,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n7/2(木) 21:00-7/13(月) 23:59\n🔗 https://t.co/2yXorSFeej\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2076657871673241806",
+        "start_time": "16:30",
+        "ticket_application_deadline_at": "2026-07-13T23:59:00+09:00",
+        "ticket_application_start_at": "2026-07-02T21:00:00+09:00",
+        "ticket_sale_type": "一般",
+        "ticket_sales": [
+          {
+            "deadline_at": "2026-07-13T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 5500,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2076657871673241806",
+            "source_url": "https://x.com/info_myojou/status/2076657871673241806",
+            "start_at": "2026-07-02T21:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "前方チケット",
+            "ticket_tier": "前方"
+          },
+          {
+            "deadline_at": "2026-07-13T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 2500,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2076657871673241806",
+            "source_url": "https://x.com/info_myojou/status/2076657871673241806",
+            "start_at": "2026-07-02T21:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般チケット",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "https://ticketdive.com/event/ultrasfesta_vol45",
+        "venue": "渋谷・CLUB QUATTRO"
+      },
+      "raw": {
+        "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「うるトラすフェスタvol.45」\n\n🎙18:55-19:20\n📸19:30-20:30\n\n⟣date：7/14（火）\n⟣place : 渋谷・CLUB QUATTRO\n⟣open/start：16:00/16:30\n⟣price：前方チケット ¥5,500 / 一般チケット ¥2,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ） https://t.co/f3St0UsDs0",
+        "attachments": {
+          "media_keys": [
+            "3_2076657866761818112"
+          ]
+        },
+        "created_at": "2026-07-13T13:19:53.000Z",
+        "edit_history_tweet_ids": [
+          "2076657871673241806"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/f3St0UsDs0",
+              "end": 220,
+              "expanded_url": "https://x.com/info_myojou/status/2076657871673241806/photo/1",
+              "media_key": "3_2076657866761818112",
+              "start": 197,
+              "url": "https://t.co/f3St0UsDs0"
+            }
+          ]
+        },
+        "full_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「うるトラすフェスタvol.45」\n\n🎙18:55-19:20\n📸19:30-20:30\n\n⟣date：7/14（火）\n⟣place : 渋谷・CLUB QUATTRO\n⟣open/start：16:00/16:30\n⟣price：前方チケット ¥5,500 / 一般チケット ¥2,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n7/2(木) 21:00-7/13(月) 23:59\n🔗 https://t.co/2yXorSFeej\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2076657871673241806",
+        "media": [
+          {
+            "height": 615,
+            "media_key": "3_2076657866761818112",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HNHFU8Rb0AAd-b6.jpg",
+            "width": 538
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 266,
+                "start": 259,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "ticketdive.com/event/ultrasfe…",
+                "end": 257,
+                "expanded_url": "https://ticketdive.com/event/ultrasfesta_vol45",
+                "start": 234,
+                "url": "https://t.co/2yXorSFeej"
+              }
+            ]
+          },
+          "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「うるトラすフェスタvol.45」\n\n🎙18:55-19:20\n📸19:30-20:30\n\n⟣date：7/14（火）\n⟣place : 渋谷・CLUB QUATTRO\n⟣open/start：16:00/16:30\n⟣price：前方チケット ¥5,500 / 一般チケット ¥2,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n7/2(木) 21:00-7/13(月) 23:59\n🔗 https://t.co/2yXorSFeej\n\n#myojou"
+        },
+        "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「うるトラすフェスタvol.45」\n\n🎙18:55-19:20\n📸19:30-20:30\n\n⟣date：7/14（火）\n⟣place : 渋谷・CLUB QUATTRO\n⟣open/start：16:00/16:30\n⟣price：前方チケット ¥5,500 / 一般チケット ¥2,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ） https://t.co/f3St0UsDs0",
+        "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「うるトラすフェスタvol.45」\n\n🎙18:55-19:20\n📸19:30-20:30\n\n⟣date：7/14（火）\n⟣place : 渋谷・CLUB QUATTRO\n⟣open/start：16:00/16:30\n⟣price：前方チケット ¥5,500 / 一般チケット ¥2,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ） https://t.co/f3St0UsDs0"
+      },
+      "referenced_tweets": [],
+      "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「うるトラすフェスタvol.45」\n\n🎙18:55-19:20\n📸19:30-20:30\n\n⟣date：7/14（火）\n⟣place : 渋谷・CLUB QUATTRO\n⟣open/start：16:00/16:30\n⟣price：前方チケット ¥5,500 / 一般チケット ¥2,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n7/2(木) 21:00-7/13(月) 23:59\n🔗 https://t.co/2yXorSFeej\n\n#myojou",
+      "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「うるトラすフェスタvol.45」\n\n🎙18:55-19:20\n📸19:30-20:30\n\n⟣date：7/14（火）\n⟣place : 渋谷・CLUB QUATTRO\n⟣open/start：16:00/16:30\n⟣price：前方チケット ¥5,500 / 一般チケット ¥2,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ） https://t.co/f3St0UsDs0",
+      "url": "https://x.com/info_myojou/status/2076657871673241806"
+    },
+    {
+      "api_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n        PLAYYTE Premium Party\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：8/6（木）\n⟣place :ステラボール\n⟣open/start：16:15/17:00\n⟣price：VIP¥7,000 / 一般¥0 (1D事前徴収)\n\n【VIP抽選販売】\n7/13（月）21:00-7/27（月）23:59 https://t.co/AMvjH39T1E",
+      "attachments": {
+        "media_keys": [
+          "3_2076637940298792960"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "ticket_update"
+      },
+      "created_at": "2026-07-13T12:00:43+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/AMvjH39T1E",
+            "end": 220,
+            "expanded_url": "https://x.com/info_myojou/status/2076637948632854732/photo/1",
+            "media_key": "3_2076637940298792960",
+            "start": 197,
+            "url": "https://t.co/AMvjH39T1E"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2076637948632854732",
+      "media": [
+        {
+          "height": 3508,
+          "media_key": "3_2076637940298792960",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HNGzNEabwAA1W6Q.jpg",
+          "width": 2480
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 300,
+              "start": 293,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "t-dv.com/PPP_0806",
+              "end": 291,
+              "expanded_url": "https://t-dv.com/PPP_0806",
+              "start": 268,
+              "url": "https://t.co/aP0WUEI7RY"
+            }
+          ]
+        },
+        "text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n        PLAYYTE Premium Party\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：8/6（木）\n⟣place :ステラボール\n⟣open/start：16:15/17:00\n⟣price：VIP¥7,000 / 一般¥0 (1D事前徴収)\n\n【VIP抽選販売】\n7/13（月）21:00-7/27（月）23:59\n【一般先行販売】\n7/13（月）21:00-8/6（木）21:15\n【VIP先行販売】\n7/28（火）21:00-8/6（木）21:15\n🔗 https://t.co/aP0WUEI7RY\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": null,
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-08-06",
+        "event_dates": [
+          "2026-08-06"
+        ],
+        "event_name": "PLAYYTE Premium Party",
+        "extraction_confidence": 0.9,
+        "general_ticket_price": 0,
+        "lottery_result_at": null,
+        "myojou_performance_time": null,
+        "notes": "ドリンク代: +1D",
+        "open_time": "16:15",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "VIP",
+        "priority_ticket_price": 7000,
+        "same_day_ticket_price": null,
+        "source_kind": "ticket_update",
+        "source_post_id": "2076637948632854732",
+        "source_posted_at": "2026-07-13T12:00:43Z",
+        "source_raw": {
+          "api_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n        PLAYYTE Premium Party\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：8/6（木）\n⟣place :ステラボール\n⟣open/start：16:15/17:00\n⟣price：VIP¥7,000 / 一般¥0 (1D事前徴収)\n\n【VIP抽選販売】\n7/13（月）21:00-7/27（月）23:59 https://t.co/AMvjH39T1E",
+          "attachments": {
+            "media_keys": [
+              "3_2076637940298792960"
+            ]
+          },
+          "created_at": "2026-07-13T12:00:43.000Z",
+          "edit_history_tweet_ids": [
+            "2076637948632854732"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/AMvjH39T1E",
+                "end": 220,
+                "expanded_url": "https://x.com/info_myojou/status/2076637948632854732/photo/1",
+                "media_key": "3_2076637940298792960",
+                "start": 197,
+                "url": "https://t.co/AMvjH39T1E"
+              }
+            ]
+          },
+          "full_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n        PLAYYTE Premium Party\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：8/6（木）\n⟣place :ステラボール\n⟣open/start：16:15/17:00\n⟣price：VIP¥7,000 / 一般¥0 (1D事前徴収)\n\n【VIP抽選販売】\n7/13（月）21:00-7/27（月）23:59\n【一般先行販売】\n7/13（月）21:00-8/6（木）21:15\n【VIP先行販売】\n7/28（火）21:00-8/6（木）21:15\n🔗 https://t.co/aP0WUEI7RY\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2076637948632854732",
+          "media": [
+            {
+              "height": 3508,
+              "media_key": "3_2076637940298792960",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HNGzNEabwAA1W6Q.jpg",
+              "width": 2480
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 300,
+                  "start": 293,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "t-dv.com/PPP_0806",
+                  "end": 291,
+                  "expanded_url": "https://t-dv.com/PPP_0806",
+                  "start": 268,
+                  "url": "https://t.co/aP0WUEI7RY"
+                }
+              ]
+            },
+            "text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n        PLAYYTE Premium Party\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：8/6（木）\n⟣place :ステラボール\n⟣open/start：16:15/17:00\n⟣price：VIP¥7,000 / 一般¥0 (1D事前徴収)\n\n【VIP抽選販売】\n7/13（月）21:00-7/27（月）23:59\n【一般先行販売】\n7/13（月）21:00-8/6（木）21:15\n【VIP先行販売】\n7/28（火）21:00-8/6（木）21:15\n🔗 https://t.co/aP0WUEI7RY\n\n#myojou"
+          },
+          "text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n        PLAYYTE Premium Party\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：8/6（木）\n⟣place :ステラボール\n⟣open/start：16:15/17:00\n⟣price：VIP¥7,000 / 一般¥0 (1D事前徴収)\n\n【VIP抽選販売】\n7/13（月）21:00-7/27（月）23:59 https://t.co/AMvjH39T1E",
+          "truncated_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n        PLAYYTE Premium Party\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：8/6（木）\n⟣place :ステラボール\n⟣open/start：16:15/17:00\n⟣price：VIP¥7,000 / 一般¥0 (1D事前徴収)\n\n【VIP抽選販売】\n7/13（月）21:00-7/27（月）23:59 https://t.co/AMvjH39T1E"
+        },
+        "source_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n        PLAYYTE Premium Party\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：8/6（木）\n⟣place :ステラボール\n⟣open/start：16:15/17:00\n⟣price：VIP¥7,000 / 一般¥0 (1D事前徴収)\n\n【VIP抽選販売】\n7/13（月）21:00-7/27（月）23:59\n【一般先行販売】\n7/13（月）21:00-8/6（木）21:15\n【VIP先行販売】\n7/28（火）21:00-8/6（木）21:15\n🔗 https://t.co/aP0WUEI7RY\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2076637948632854732",
+        "start_time": "17:00",
+        "ticket_application_deadline_at": "2026-07-27T23:59:00+09:00",
+        "ticket_application_start_at": "2026-07-13T21:00:00+09:00",
+        "ticket_sale_type": "無料",
+        "ticket_sales": [
+          {
+            "deadline_at": "2026-07-27T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 7000,
+            "result_at": null,
+            "sale_type": "抽選",
+            "source_post_id": "2076637948632854732",
+            "source_url": "https://x.com/info_myojou/status/2076637948632854732",
+            "start_at": "2026-07-13T21:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "VIP",
+            "ticket_tier": "VIP"
+          },
+          {
+            "deadline_at": "2026-07-27T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 0,
+            "result_at": null,
+            "sale_type": "抽選",
+            "source_post_id": "2076637948632854732",
+            "source_url": "https://x.com/info_myojou/status/2076637948632854732",
+            "start_at": "2026-07-13T21:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "https://t-dv.com/PPP_0806",
+        "venue": "ステラボール"
+      },
+      "raw": {
+        "api_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n        PLAYYTE Premium Party\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：8/6（木）\n⟣place :ステラボール\n⟣open/start：16:15/17:00\n⟣price：VIP¥7,000 / 一般¥0 (1D事前徴収)\n\n【VIP抽選販売】\n7/13（月）21:00-7/27（月）23:59 https://t.co/AMvjH39T1E",
+        "attachments": {
+          "media_keys": [
+            "3_2076637940298792960"
+          ]
+        },
+        "created_at": "2026-07-13T12:00:43.000Z",
+        "edit_history_tweet_ids": [
+          "2076637948632854732"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/AMvjH39T1E",
+              "end": 220,
+              "expanded_url": "https://x.com/info_myojou/status/2076637948632854732/photo/1",
+              "media_key": "3_2076637940298792960",
+              "start": 197,
+              "url": "https://t.co/AMvjH39T1E"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n        PLAYYTE Premium Party\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：8/6（木）\n⟣place :ステラボール\n⟣open/start：16:15/17:00\n⟣price：VIP¥7,000 / 一般¥0 (1D事前徴収)\n\n【VIP抽選販売】\n7/13（月）21:00-7/27（月）23:59\n【一般先行販売】\n7/13（月）21:00-8/6（木）21:15\n【VIP先行販売】\n7/28（火）21:00-8/6（木）21:15\n🔗 https://t.co/aP0WUEI7RY\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2076637948632854732",
+        "media": [
+          {
+            "height": 3508,
+            "media_key": "3_2076637940298792960",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HNGzNEabwAA1W6Q.jpg",
+            "width": 2480
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 300,
+                "start": 293,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "t-dv.com/PPP_0806",
+                "end": 291,
+                "expanded_url": "https://t-dv.com/PPP_0806",
+                "start": 268,
+                "url": "https://t.co/aP0WUEI7RY"
+              }
+            ]
+          },
+          "text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n        PLAYYTE Premium Party\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：8/6（木）\n⟣place :ステラボール\n⟣open/start：16:15/17:00\n⟣price：VIP¥7,000 / 一般¥0 (1D事前徴収)\n\n【VIP抽選販売】\n7/13（月）21:00-7/27（月）23:59\n【一般先行販売】\n7/13（月）21:00-8/6（木）21:15\n【VIP先行販売】\n7/28（火）21:00-8/6（木）21:15\n🔗 https://t.co/aP0WUEI7RY\n\n#myojou"
+        },
+        "text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n        PLAYYTE Premium Party\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：8/6（木）\n⟣place :ステラボール\n⟣open/start：16:15/17:00\n⟣price：VIP¥7,000 / 一般¥0 (1D事前徴収)\n\n【VIP抽選販売】\n7/13（月）21:00-7/27（月）23:59 https://t.co/AMvjH39T1E",
+        "truncated_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n        PLAYYTE Premium Party\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：8/6（木）\n⟣place :ステラボール\n⟣open/start：16:15/17:00\n⟣price：VIP¥7,000 / 一般¥0 (1D事前徴収)\n\n【VIP抽選販売】\n7/13（月）21:00-7/27（月）23:59 https://t.co/AMvjH39T1E"
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n        PLAYYTE Premium Party\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：8/6（木）\n⟣place :ステラボール\n⟣open/start：16:15/17:00\n⟣price：VIP¥7,000 / 一般¥0 (1D事前徴収)\n\n【VIP抽選販売】\n7/13（月）21:00-7/27（月）23:59\n【一般先行販売】\n7/13（月）21:00-8/6（木）21:15\n【VIP先行販売】\n7/28（火）21:00-8/6（木）21:15\n🔗 https://t.co/aP0WUEI7RY\n\n#myojou",
+      "truncated_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n        PLAYYTE Premium Party\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：8/6（木）\n⟣place :ステラボール\n⟣open/start：16:15/17:00\n⟣price：VIP¥7,000 / 一般¥0 (1D事前徴収)\n\n【VIP抽選販売】\n7/13（月）21:00-7/27（月）23:59 https://t.co/AMvjH39T1E",
+      "url": "https://x.com/info_myojou/status/2076637948632854732"
+    },
+    {
+      "api_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n                ッスッゴイライブ\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n🎙14:10-14:30\n📸14:35-15:35\n\n⟣date：7/18（土）\n⟣place :品川インターシティホール\n⟣open/start：8:30/9:00\n⟣price：前方¥8,000/一般 ¥3,500（各+1D） https://t.co/zIPB6IhQbt",
+      "attachments": {
+        "media_keys": [
+          "3_2076637909516791808"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "ticket_update"
+      },
+      "created_at": "2026-07-13T12:00:35+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/zIPB6IhQbt",
+            "end": 209,
+            "expanded_url": "https://x.com/info_myojou/status/2076637915346763956/photo/1",
+            "media_key": "3_2076637909516791808",
+            "start": 186,
+            "url": "https://t.co/zIPB6IhQbt"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2076637915346763956",
+      "media": [
+        {
+          "height": 3508,
+          "media_key": "3_2076637909516791808",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HNGzLRvbsAAYF7L.jpg",
+          "width": 2482
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "missing ticket deadline",
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 271,
+              "start": 264,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "ticketdive.com/event/ssuggoil…",
+              "end": 262,
+              "expanded_url": "https://ticketdive.com/event/ssuggoilive_0718_ICH",
+              "start": 239,
+              "url": "https://t.co/2TivIW71Q4"
+            }
+          ]
+        },
+        "text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n                ッスッゴイライブ\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n🎙14:10-14:30\n📸14:35-15:35\n\n⟣date：7/18（土）\n⟣place :品川インターシティホール\n⟣open/start：8:30/9:00\n⟣price：前方¥8,000/一般 ¥3,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【販売期間】\n7/10（金）-7/17（金）23:59\n🔗 https://t.co/2TivIW71Q4\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": "14:35-15:35",
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-07-18",
+        "event_dates": [
+          "2026-07-18"
+        ],
+        "event_name": "ッスッゴイライブ",
+        "extraction_confidence": 0.95,
+        "general_ticket_price": 3500,
+        "lottery_result_at": null,
+        "myojou_performance_time": "14:10-14:30",
+        "notes": "ドリンク代: 各+1D\n⟣入場特典:明星カード(サインありチェキ)",
+        "open_time": "08:30",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "前方",
+        "priority_ticket_price": 8000,
+        "same_day_ticket_price": null,
+        "source_kind": "ticket_update",
+        "source_post_id": "2076637915346763956",
+        "source_posted_at": "2026-07-13T12:00:35Z",
+        "source_raw": {
+          "api_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n                ッスッゴイライブ\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n🎙14:10-14:30\n📸14:35-15:35\n\n⟣date：7/18（土）\n⟣place :品川インターシティホール\n⟣open/start：8:30/9:00\n⟣price：前方¥8,000/一般 ¥3,500（各+1D） https://t.co/zIPB6IhQbt",
+          "attachments": {
+            "media_keys": [
+              "3_2076637909516791808"
+            ]
+          },
+          "created_at": "2026-07-13T12:00:35.000Z",
+          "edit_history_tweet_ids": [
+            "2076637915346763956"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/zIPB6IhQbt",
+                "end": 209,
+                "expanded_url": "https://x.com/info_myojou/status/2076637915346763956/photo/1",
+                "media_key": "3_2076637909516791808",
+                "start": 186,
+                "url": "https://t.co/zIPB6IhQbt"
+              }
+            ]
+          },
+          "full_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n                ッスッゴイライブ\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n🎙14:10-14:30\n📸14:35-15:35\n\n⟣date：7/18（土）\n⟣place :品川インターシティホール\n⟣open/start：8:30/9:00\n⟣price：前方¥8,000/一般 ¥3,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【販売期間】\n7/10（金）-7/17（金）23:59\n🔗 https://t.co/2TivIW71Q4\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2076637915346763956",
+          "media": [
+            {
+              "height": 3508,
+              "media_key": "3_2076637909516791808",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HNGzLRvbsAAYF7L.jpg",
+              "width": 2482
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 271,
+                  "start": 264,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "ticketdive.com/event/ssuggoil…",
+                  "end": 262,
+                  "expanded_url": "https://ticketdive.com/event/ssuggoilive_0718_ICH",
+                  "start": 239,
+                  "url": "https://t.co/2TivIW71Q4"
+                }
+              ]
+            },
+            "text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n                ッスッゴイライブ\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n🎙14:10-14:30\n📸14:35-15:35\n\n⟣date：7/18（土）\n⟣place :品川インターシティホール\n⟣open/start：8:30/9:00\n⟣price：前方¥8,000/一般 ¥3,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【販売期間】\n7/10（金）-7/17（金）23:59\n🔗 https://t.co/2TivIW71Q4\n\n#myojou"
+          },
+          "text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n                ッスッゴイライブ\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n🎙14:10-14:30\n📸14:35-15:35\n\n⟣date：7/18（土）\n⟣place :品川インターシティホール\n⟣open/start：8:30/9:00\n⟣price：前方¥8,000/一般 ¥3,500（各+1D） https://t.co/zIPB6IhQbt",
+          "truncated_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n                ッスッゴイライブ\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n🎙14:10-14:30\n📸14:35-15:35\n\n⟣date：7/18（土）\n⟣place :品川インターシティホール\n⟣open/start：8:30/9:00\n⟣price：前方¥8,000/一般 ¥3,500（各+1D） https://t.co/zIPB6IhQbt"
+        },
+        "source_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n                ッスッゴイライブ\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n🎙14:10-14:30\n📸14:35-15:35\n\n⟣date：7/18（土）\n⟣place :品川インターシティホール\n⟣open/start：8:30/9:00\n⟣price：前方¥8,000/一般 ¥3,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【販売期間】\n7/10（金）-7/17（金）23:59\n🔗 https://t.co/2TivIW71Q4\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2076637915346763956",
+        "start_time": "09:00",
+        "ticket_application_deadline_at": null,
+        "ticket_application_start_at": null,
+        "ticket_sale_type": null,
+        "ticket_sales": [
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 8000,
+            "result_at": null,
+            "sale_type": "不明",
+            "source_post_id": "2076637915346763956",
+            "source_url": "https://x.com/info_myojou/status/2076637915346763956",
+            "start_at": null,
+            "status": "不明",
+            "ticket_name": "前方",
+            "ticket_tier": "前方"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 3500,
+            "result_at": null,
+            "sale_type": "不明",
+            "source_post_id": "2076637915346763956",
+            "source_url": "https://x.com/info_myojou/status/2076637915346763956",
+            "start_at": null,
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "https://ticketdive.com/event/ssuggoilive_0718_ICH",
+        "venue": "品川インターシティホール"
+      },
+      "raw": {
+        "api_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n                ッスッゴイライブ\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n🎙14:10-14:30\n📸14:35-15:35\n\n⟣date：7/18（土）\n⟣place :品川インターシティホール\n⟣open/start：8:30/9:00\n⟣price：前方¥8,000/一般 ¥3,500（各+1D） https://t.co/zIPB6IhQbt",
+        "attachments": {
+          "media_keys": [
+            "3_2076637909516791808"
+          ]
+        },
+        "created_at": "2026-07-13T12:00:35.000Z",
+        "edit_history_tweet_ids": [
+          "2076637915346763956"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/zIPB6IhQbt",
+              "end": 209,
+              "expanded_url": "https://x.com/info_myojou/status/2076637915346763956/photo/1",
+              "media_key": "3_2076637909516791808",
+              "start": 186,
+              "url": "https://t.co/zIPB6IhQbt"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n                ッスッゴイライブ\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n🎙14:10-14:30\n📸14:35-15:35\n\n⟣date：7/18（土）\n⟣place :品川インターシティホール\n⟣open/start：8:30/9:00\n⟣price：前方¥8,000/一般 ¥3,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【販売期間】\n7/10（金）-7/17（金）23:59\n🔗 https://t.co/2TivIW71Q4\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2076637915346763956",
+        "media": [
+          {
+            "height": 3508,
+            "media_key": "3_2076637909516791808",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HNGzLRvbsAAYF7L.jpg",
+            "width": 2482
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 271,
+                "start": 264,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "ticketdive.com/event/ssuggoil…",
+                "end": 262,
+                "expanded_url": "https://ticketdive.com/event/ssuggoilive_0718_ICH",
+                "start": 239,
+                "url": "https://t.co/2TivIW71Q4"
+              }
+            ]
+          },
+          "text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n                ッスッゴイライブ\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n🎙14:10-14:30\n📸14:35-15:35\n\n⟣date：7/18（土）\n⟣place :品川インターシティホール\n⟣open/start：8:30/9:00\n⟣price：前方¥8,000/一般 ¥3,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【販売期間】\n7/10（金）-7/17（金）23:59\n🔗 https://t.co/2TivIW71Q4\n\n#myojou"
+        },
+        "text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n                ッスッゴイライブ\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n🎙14:10-14:30\n📸14:35-15:35\n\n⟣date：7/18（土）\n⟣place :品川インターシティホール\n⟣open/start：8:30/9:00\n⟣price：前方¥8,000/一般 ¥3,500（各+1D） https://t.co/zIPB6IhQbt",
+        "truncated_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n                ッスッゴイライブ\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n🎙14:10-14:30\n📸14:35-15:35\n\n⟣date：7/18（土）\n⟣place :品川インターシティホール\n⟣open/start：8:30/9:00\n⟣price：前方¥8,000/一般 ¥3,500（各+1D） https://t.co/zIPB6IhQbt"
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n                ッスッゴイライブ\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n🎙14:10-14:30\n📸14:35-15:35\n\n⟣date：7/18（土）\n⟣place :品川インターシティホール\n⟣open/start：8:30/9:00\n⟣price：前方¥8,000/一般 ¥3,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【販売期間】\n7/10（金）-7/17（金）23:59\n🔗 https://t.co/2TivIW71Q4\n\n#myojou",
+      "truncated_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n                ッスッゴイライブ\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n🎙14:10-14:30\n📸14:35-15:35\n\n⟣date：7/18（土）\n⟣place :品川インターシティホール\n⟣open/start：8:30/9:00\n⟣price：前方¥8,000/一般 ¥3,500（各+1D） https://t.co/zIPB6IhQbt",
+      "url": "https://x.com/info_myojou/status/2076637915346763956"
+    },
+    {
+      "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n          「アイドル甲子園 in KANDA \n  SQUARE HALL」supported by My-th\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙13:20-13:45\n📸14:05-15:25\n\n⟣date：7/20（月祝）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:15/9:30 https://t.co/94y4TO16ps",
+      "attachments": {
+        "media_keys": [
+          "3_2076622789155725312"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "ticket_update"
+      },
+      "created_at": "2026-07-13T11:00:30+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/94y4TO16ps",
+            "end": 225,
+            "expanded_url": "https://x.com/info_myojou/status/2076622794863858119/photo/1",
+            "media_key": "3_2076622789155725312",
+            "start": 202,
+            "url": "https://t.co/94y4TO16ps"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2076622794863858119",
+      "media": [
+        {
+          "height": 2000,
+          "media_key": "3_2076622789155725312",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HNGlbKAboAAqQK8.jpg",
+          "width": 1500
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 356,
+              "start": 349,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "user.my-th.jp/?redirect=/tic…",
+              "end": 347,
+              "expanded_url": "https://user.my-th.jp/?redirect=/tickets/event/aikou_0720",
+              "start": 324,
+              "url": "https://t.co/MwdKUq1wIB"
+            }
+          ]
+        },
+        "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n          「アイドル甲子園 in KANDA \n  SQUARE HALL」supported by My-th\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙13:20-13:45\n📸14:05-15:25\n\n⟣date：7/20（月祝）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:15/9:30\n⟣price：前方エリアチケット¥8,500/一般チケット¥3,500/前方当日¥9,500/一般当日¥4,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n6/23（火）20:00-7/20（月祝）9:14\n🔗 https://t.co/MwdKUq1wIB\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": "14:05-15:25",
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-07-20",
+        "event_dates": [
+          "2026-07-20"
+        ],
+        "event_name": "アイドル甲子園 in KANDA",
+        "extraction_confidence": 0.95,
+        "general_ticket_price": 3500,
+        "lottery_result_at": null,
+        "myojou_performance_time": "13:20-13:45",
+        "notes": "ドリンク代: 各+1D\n⟣入場特典:明星カード(サインありチェキ)",
+        "open_time": "09:15",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "前方エリアチケット",
+        "priority_ticket_price": 8500,
+        "same_day_ticket_price": 9500,
+        "source_kind": "ticket_update",
+        "source_post_id": "2076622794863858119",
+        "source_posted_at": "2026-07-13T11:00:30Z",
+        "source_raw": {
+          "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n          「アイドル甲子園 in KANDA \n  SQUARE HALL」supported by My-th\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙13:20-13:45\n📸14:05-15:25\n\n⟣date：7/20（月祝）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:15/9:30 https://t.co/94y4TO16ps",
+          "attachments": {
+            "media_keys": [
+              "3_2076622789155725312"
+            ]
+          },
+          "created_at": "2026-07-13T11:00:30.000Z",
+          "edit_history_tweet_ids": [
+            "2076622794863858119"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/94y4TO16ps",
+                "end": 225,
+                "expanded_url": "https://x.com/info_myojou/status/2076622794863858119/photo/1",
+                "media_key": "3_2076622789155725312",
+                "start": 202,
+                "url": "https://t.co/94y4TO16ps"
+              }
+            ]
+          },
+          "full_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n          「アイドル甲子園 in KANDA \n  SQUARE HALL」supported by My-th\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙13:20-13:45\n📸14:05-15:25\n\n⟣date：7/20（月祝）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:15/9:30\n⟣price：前方エリアチケット¥8,500/一般チケット¥3,500/前方当日¥9,500/一般当日¥4,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n6/23（火）20:00-7/20（月祝）9:14\n🔗 https://t.co/MwdKUq1wIB\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2076622794863858119",
+          "media": [
+            {
+              "height": 2000,
+              "media_key": "3_2076622789155725312",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HNGlbKAboAAqQK8.jpg",
+              "width": 1500
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 356,
+                  "start": 349,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "user.my-th.jp/?redirect=/tic…",
+                  "end": 347,
+                  "expanded_url": "https://user.my-th.jp/?redirect=/tickets/event/aikou_0720",
+                  "start": 324,
+                  "url": "https://t.co/MwdKUq1wIB"
+                }
+              ]
+            },
+            "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n          「アイドル甲子園 in KANDA \n  SQUARE HALL」supported by My-th\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙13:20-13:45\n📸14:05-15:25\n\n⟣date：7/20（月祝）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:15/9:30\n⟣price：前方エリアチケット¥8,500/一般チケット¥3,500/前方当日¥9,500/一般当日¥4,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n6/23（火）20:00-7/20（月祝）9:14\n🔗 https://t.co/MwdKUq1wIB\n\n#myojou"
+          },
+          "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n          「アイドル甲子園 in KANDA \n  SQUARE HALL」supported by My-th\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙13:20-13:45\n📸14:05-15:25\n\n⟣date：7/20（月祝）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:15/9:30 https://t.co/94y4TO16ps",
+          "truncated_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n          「アイドル甲子園 in KANDA \n  SQUARE HALL」supported by My-th\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙13:20-13:45\n📸14:05-15:25\n\n⟣date：7/20（月祝）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:15/9:30 https://t.co/94y4TO16ps"
+        },
+        "source_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n          「アイドル甲子園 in KANDA \n  SQUARE HALL」supported by My-th\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙13:20-13:45\n📸14:05-15:25\n\n⟣date：7/20（月祝）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:15/9:30\n⟣price：前方エリアチケット¥8,500/一般チケット¥3,500/前方当日¥9,500/一般当日¥4,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n6/23（火）20:00-7/20（月祝）9:14\n🔗 https://t.co/MwdKUq1wIB\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2076622794863858119",
+        "start_time": "09:30",
+        "ticket_application_deadline_at": "2026-07-20T00:00:00+09:00",
+        "ticket_application_start_at": "2026-06-23T20:00:00+09:00",
+        "ticket_sale_type": "先着",
+        "ticket_sales": [
+          {
+            "deadline_at": "2026-07-20T00:00:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 8500,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2076622794863858119",
+            "source_url": "https://x.com/info_myojou/status/2076622794863858119",
+            "start_at": "2026-06-23T20:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "前方エリアチケット",
+            "ticket_tier": "前方"
+          },
+          {
+            "deadline_at": "2026-07-20T00:00:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 3500,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2076622794863858119",
+            "source_url": "https://x.com/info_myojou/status/2076622794863858119",
+            "start_at": "2026-06-23T20:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般チケット",
+            "ticket_tier": "一般"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 9500,
+            "result_at": null,
+            "sale_type": "当日券",
+            "source_post_id": "2076622794863858119",
+            "source_url": "https://x.com/info_myojou/status/2076622794863858119",
+            "start_at": null,
+            "status": "販売中",
+            "ticket_name": "当日券",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": null,
+        "venue": "KANDA SQUARE HALL"
+      },
+      "raw": {
+        "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n          「アイドル甲子園 in KANDA \n  SQUARE HALL」supported by My-th\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙13:20-13:45\n📸14:05-15:25\n\n⟣date：7/20（月祝）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:15/9:30 https://t.co/94y4TO16ps",
+        "attachments": {
+          "media_keys": [
+            "3_2076622789155725312"
+          ]
+        },
+        "created_at": "2026-07-13T11:00:30.000Z",
+        "edit_history_tweet_ids": [
+          "2076622794863858119"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/94y4TO16ps",
+              "end": 225,
+              "expanded_url": "https://x.com/info_myojou/status/2076622794863858119/photo/1",
+              "media_key": "3_2076622789155725312",
+              "start": 202,
+              "url": "https://t.co/94y4TO16ps"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n          「アイドル甲子園 in KANDA \n  SQUARE HALL」supported by My-th\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙13:20-13:45\n📸14:05-15:25\n\n⟣date：7/20（月祝）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:15/9:30\n⟣price：前方エリアチケット¥8,500/一般チケット¥3,500/前方当日¥9,500/一般当日¥4,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n6/23（火）20:00-7/20（月祝）9:14\n🔗 https://t.co/MwdKUq1wIB\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2076622794863858119",
+        "media": [
+          {
+            "height": 2000,
+            "media_key": "3_2076622789155725312",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HNGlbKAboAAqQK8.jpg",
+            "width": 1500
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 356,
+                "start": 349,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "user.my-th.jp/?redirect=/tic…",
+                "end": 347,
+                "expanded_url": "https://user.my-th.jp/?redirect=/tickets/event/aikou_0720",
+                "start": 324,
+                "url": "https://t.co/MwdKUq1wIB"
+              }
+            ]
+          },
+          "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n          「アイドル甲子園 in KANDA \n  SQUARE HALL」supported by My-th\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙13:20-13:45\n📸14:05-15:25\n\n⟣date：7/20（月祝）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:15/9:30\n⟣price：前方エリアチケット¥8,500/一般チケット¥3,500/前方当日¥9,500/一般当日¥4,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n6/23（火）20:00-7/20（月祝）9:14\n🔗 https://t.co/MwdKUq1wIB\n\n#myojou"
+        },
+        "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n          「アイドル甲子園 in KANDA \n  SQUARE HALL」supported by My-th\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙13:20-13:45\n📸14:05-15:25\n\n⟣date：7/20（月祝）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:15/9:30 https://t.co/94y4TO16ps",
+        "truncated_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n          「アイドル甲子園 in KANDA \n  SQUARE HALL」supported by My-th\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙13:20-13:45\n📸14:05-15:25\n\n⟣date：7/20（月祝）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:15/9:30 https://t.co/94y4TO16ps"
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n          「アイドル甲子園 in KANDA \n  SQUARE HALL」supported by My-th\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙13:20-13:45\n📸14:05-15:25\n\n⟣date：7/20（月祝）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:15/9:30\n⟣price：前方エリアチケット¥8,500/一般チケット¥3,500/前方当日¥9,500/一般当日¥4,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n6/23（火）20:00-7/20（月祝）9:14\n🔗 https://t.co/MwdKUq1wIB\n\n#myojou",
+      "truncated_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n          「アイドル甲子園 in KANDA \n  SQUARE HALL」supported by My-th\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙13:20-13:45\n📸14:05-15:25\n\n⟣date：7/20（月祝）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:15/9:30 https://t.co/94y4TO16ps",
+      "url": "https://x.com/info_myojou/status/2076622794863858119"
+    },
+    {
       "api_text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「うるトラすフェスタvol.45」\n\n🎙18:55-19:20\n📸19:30-20:30\n\n⟣date：7/14（火）\n⟣place : 渋谷・CLUB QUATTRO\n⟣open/start：16:00/16:30\n⟣price：前方チケット ¥5,500 / 一般チケット ¥2,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ） https://t.co/jHj7vvuQhE",
       "attachments": {
         "media_keys": [
@@ -116582,7 +117593,7 @@
     "backfill": true,
     "dry_run": true,
     "estimated_x_post_reads": 411,
-    "latest_post_id": "2076256057509499076",
+    "latest_post_id": "2076657871673241806",
     "max_pages": 10,
     "max_posts": 500,
     "max_results": 5,
@@ -116625,16 +117636,16 @@
       }
     ],
     "pages_fetched": 5,
-    "posts_fetched": 542,
+    "posts_fetched": 546,
     "rate_limit_headers": {
       "x-rate-limit-limit": "10000",
       "x-rate-limit-remaining": "9993",
       "x-rate-limit-reset": "1781108896"
     },
-    "total_posts": 542,
-    "updated_at": "2026-07-12T20:07:23.354990+00:00",
+    "total_posts": 546,
+    "updated_at": "2026-07-13T20:18:27.333947+00:00",
     "username": "info_myojou"
   },
   "source": "x_api",
-  "updated_at": "2026-07-12T20:07:23.354990+00:00"
+  "updated_at": "2026-07-13T20:18:27.333947+00:00"
 }
