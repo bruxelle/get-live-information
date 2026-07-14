@@ -2,6 +2,1219 @@
   "captured_at": "2026-06-10T16:19:36.141820+00:00",
   "data": [
     {
+      "api_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n       #ミョージョーサマー番外編\n           TIF2026直前決起集会\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：7/29（水）\n⟣place :WOMB LIVE\n⟣open/start：18:30/19:00\n⟣price：VIP¥5,000/一般¥0（各+1D） https://t.co/JSzjTyBSeu",
+      "attachments": {
+        "media_keys": [
+          "3_2077015447569100800"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "ticket_update"
+      },
+      "created_at": "2026-07-14T13:00:48+00:00",
+      "entities": {
+        "hashtags": [
+          {
+            "end": 42,
+            "start": 29,
+            "tag": "ミョージョーサマー番外編"
+          }
+        ],
+        "urls": [
+          {
+            "display_url": "pic.x.com/JSzjTyBSeu",
+            "end": 198,
+            "expanded_url": "https://x.com/info_myojou/status/2077015454560989363/photo/1",
+            "media_key": "3_2077015447569100800",
+            "start": 175,
+            "url": "https://t.co/JSzjTyBSeu"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2077015454560989363",
+      "media": [
+        {
+          "height": 3508,
+          "media_key": "3_2077015447569100800",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HNMKi4la8AA5BTc.jpg",
+          "width": 2480
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 42,
+              "start": 29,
+              "tag": "ミョージョーサマー番外編"
+            },
+            {
+              "end": 249,
+              "start": 239,
+              "tag": "ミョージョーサマー"
+            },
+            {
+              "end": 379,
+              "start": 372,
+              "tag": "myojou"
+            },
+            {
+              "end": 390,
+              "start": 380,
+              "tag": "ミョージョーサマー"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "t-dv.com/myojou_0729",
+              "end": 370,
+              "expanded_url": "https://t-dv.com/myojou_0729",
+              "start": 347,
+              "url": "https://t.co/HRkwbUVb7m"
+            }
+          ]
+        },
+        "text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n       #ミョージョーサマー番外編\n           TIF2026直前決起集会\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：7/29（水）\n⟣place :WOMB LIVE\n⟣open/start：18:30/19:00\n⟣price：VIP¥5,000/一般¥0（各+1D）\n⟣入場特典：VIP:明星カード2枚（サインありチェキ）/一般:明星カード1枚（サインありチェキ）\n\n皆様への日頃の感謝を込めて、#ミョージョーサマー 番外編を開催。\n\n単独公演ですが無銭開催。入場特典有りとなっております！\n\nいよいよ夏本番。二度とない今の明星との夏を。\n\n【販売期間】\n7/15（水）22:00-7/28（火）23:59\n🔗 https://t.co/HRkwbUVb7m\n\n#myojou\n#ミョージョーサマー"
+      },
+      "parsed_fields": {
+        "benefit_event_time": null,
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-07-29",
+        "event_dates": [
+          "2026-07-29"
+        ],
+        "event_name": "TIF2026直前決起集会",
+        "extraction_confidence": 0.9,
+        "general_ticket_price": 0,
+        "lottery_result_at": null,
+        "myojou_performance_time": null,
+        "notes": "ドリンク代: 各+1D\n⟣入場特典:VIP:明星カード2枚(サインありチェキ)/一般:明星カード1枚(サインありチェキ)\n単独公演ですが無銭開催。入場特典有りとなっております!",
+        "open_time": "18:30",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "VIP",
+        "priority_ticket_price": 5000,
+        "same_day_ticket_price": null,
+        "source_kind": "ticket_update",
+        "source_post_id": "2077015454560989363",
+        "source_posted_at": "2026-07-14T13:00:48Z",
+        "source_raw": {
+          "api_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n       #ミョージョーサマー番外編\n           TIF2026直前決起集会\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：7/29（水）\n⟣place :WOMB LIVE\n⟣open/start：18:30/19:00\n⟣price：VIP¥5,000/一般¥0（各+1D） https://t.co/JSzjTyBSeu",
+          "attachments": {
+            "media_keys": [
+              "3_2077015447569100800"
+            ]
+          },
+          "created_at": "2026-07-14T13:00:48.000Z",
+          "edit_history_tweet_ids": [
+            "2077015454560989363"
+          ],
+          "entities": {
+            "hashtags": [
+              {
+                "end": 42,
+                "start": 29,
+                "tag": "ミョージョーサマー番外編"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "pic.x.com/JSzjTyBSeu",
+                "end": 198,
+                "expanded_url": "https://x.com/info_myojou/status/2077015454560989363/photo/1",
+                "media_key": "3_2077015447569100800",
+                "start": 175,
+                "url": "https://t.co/JSzjTyBSeu"
+              }
+            ]
+          },
+          "full_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n       #ミョージョーサマー番外編\n           TIF2026直前決起集会\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：7/29（水）\n⟣place :WOMB LIVE\n⟣open/start：18:30/19:00\n⟣price：VIP¥5,000/一般¥0（各+1D）\n⟣入場特典：VIP:明星カード2枚（サインありチェキ）/一般:明星カード1枚（サインありチェキ）\n\n皆様への日頃の感謝を込めて、#ミョージョーサマー 番外編を開催。\n\n単独公演ですが無銭開催。入場特典有りとなっております！\n\nいよいよ夏本番。二度とない今の明星との夏を。\n\n【販売期間】\n7/15（水）22:00-7/28（火）23:59\n🔗 https://t.co/HRkwbUVb7m\n\n#myojou\n#ミョージョーサマー",
+          "full_text_source": "note_tweet",
+          "id": "2077015454560989363",
+          "media": [
+            {
+              "height": 3508,
+              "media_key": "3_2077015447569100800",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HNMKi4la8AA5BTc.jpg",
+              "width": 2480
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 42,
+                  "start": 29,
+                  "tag": "ミョージョーサマー番外編"
+                },
+                {
+                  "end": 249,
+                  "start": 239,
+                  "tag": "ミョージョーサマー"
+                },
+                {
+                  "end": 379,
+                  "start": 372,
+                  "tag": "myojou"
+                },
+                {
+                  "end": 390,
+                  "start": 380,
+                  "tag": "ミョージョーサマー"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "t-dv.com/myojou_0729",
+                  "end": 370,
+                  "expanded_url": "https://t-dv.com/myojou_0729",
+                  "start": 347,
+                  "url": "https://t.co/HRkwbUVb7m"
+                }
+              ]
+            },
+            "text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n       #ミョージョーサマー番外編\n           TIF2026直前決起集会\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：7/29（水）\n⟣place :WOMB LIVE\n⟣open/start：18:30/19:00\n⟣price：VIP¥5,000/一般¥0（各+1D）\n⟣入場特典：VIP:明星カード2枚（サインありチェキ）/一般:明星カード1枚（サインありチェキ）\n\n皆様への日頃の感謝を込めて、#ミョージョーサマー 番外編を開催。\n\n単独公演ですが無銭開催。入場特典有りとなっております！\n\nいよいよ夏本番。二度とない今の明星との夏を。\n\n【販売期間】\n7/15（水）22:00-7/28（火）23:59\n🔗 https://t.co/HRkwbUVb7m\n\n#myojou\n#ミョージョーサマー"
+          },
+          "text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n       #ミョージョーサマー番外編\n           TIF2026直前決起集会\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：7/29（水）\n⟣place :WOMB LIVE\n⟣open/start：18:30/19:00\n⟣price：VIP¥5,000/一般¥0（各+1D） https://t.co/JSzjTyBSeu",
+          "truncated_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n       #ミョージョーサマー番外編\n           TIF2026直前決起集会\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：7/29（水）\n⟣place :WOMB LIVE\n⟣open/start：18:30/19:00\n⟣price：VIP¥5,000/一般¥0（各+1D） https://t.co/JSzjTyBSeu"
+        },
+        "source_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n       #ミョージョーサマー番外編\n           TIF2026直前決起集会\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：7/29（水）\n⟣place :WOMB LIVE\n⟣open/start：18:30/19:00\n⟣price：VIP¥5,000/一般¥0（各+1D）\n⟣入場特典：VIP:明星カード2枚（サインありチェキ）/一般:明星カード1枚（サインありチェキ）\n\n皆様への日頃の感謝を込めて、#ミョージョーサマー 番外編を開催。\n\n単独公演ですが無銭開催。入場特典有りとなっております！\n\nいよいよ夏本番。二度とない今の明星との夏を。\n\n【販売期間】\n7/15（水）22:00-7/28（火）23:59\n🔗 https://t.co/HRkwbUVb7m\n\n#myojou\n#ミョージョーサマー",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2077015454560989363",
+        "start_time": "19:00",
+        "ticket_application_deadline_at": null,
+        "ticket_application_start_at": null,
+        "ticket_sale_type": "無料",
+        "ticket_sales": [
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 5000,
+            "result_at": null,
+            "sale_type": "無料",
+            "source_post_id": "2077015454560989363",
+            "source_url": "https://x.com/info_myojou/status/2077015454560989363",
+            "start_at": null,
+            "status": "不明",
+            "ticket_name": "VIP",
+            "ticket_tier": "VIP"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 0,
+            "result_at": null,
+            "sale_type": "無料",
+            "source_post_id": "2077015454560989363",
+            "source_url": "https://x.com/info_myojou/status/2077015454560989363",
+            "start_at": null,
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "https://t-dv.com/myojou_0729",
+        "venue": "WOMB LIVE"
+      },
+      "raw": {
+        "api_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n       #ミョージョーサマー番外編\n           TIF2026直前決起集会\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：7/29（水）\n⟣place :WOMB LIVE\n⟣open/start：18:30/19:00\n⟣price：VIP¥5,000/一般¥0（各+1D） https://t.co/JSzjTyBSeu",
+        "attachments": {
+          "media_keys": [
+            "3_2077015447569100800"
+          ]
+        },
+        "created_at": "2026-07-14T13:00:48.000Z",
+        "edit_history_tweet_ids": [
+          "2077015454560989363"
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "end": 42,
+              "start": 29,
+              "tag": "ミョージョーサマー番外編"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "pic.x.com/JSzjTyBSeu",
+              "end": 198,
+              "expanded_url": "https://x.com/info_myojou/status/2077015454560989363/photo/1",
+              "media_key": "3_2077015447569100800",
+              "start": 175,
+              "url": "https://t.co/JSzjTyBSeu"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n       #ミョージョーサマー番外編\n           TIF2026直前決起集会\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：7/29（水）\n⟣place :WOMB LIVE\n⟣open/start：18:30/19:00\n⟣price：VIP¥5,000/一般¥0（各+1D）\n⟣入場特典：VIP:明星カード2枚（サインありチェキ）/一般:明星カード1枚（サインありチェキ）\n\n皆様への日頃の感謝を込めて、#ミョージョーサマー 番外編を開催。\n\n単独公演ですが無銭開催。入場特典有りとなっております！\n\nいよいよ夏本番。二度とない今の明星との夏を。\n\n【販売期間】\n7/15（水）22:00-7/28（火）23:59\n🔗 https://t.co/HRkwbUVb7m\n\n#myojou\n#ミョージョーサマー",
+        "full_text_source": "note_tweet",
+        "id": "2077015454560989363",
+        "media": [
+          {
+            "height": 3508,
+            "media_key": "3_2077015447569100800",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HNMKi4la8AA5BTc.jpg",
+            "width": 2480
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 42,
+                "start": 29,
+                "tag": "ミョージョーサマー番外編"
+              },
+              {
+                "end": 249,
+                "start": 239,
+                "tag": "ミョージョーサマー"
+              },
+              {
+                "end": 379,
+                "start": 372,
+                "tag": "myojou"
+              },
+              {
+                "end": 390,
+                "start": 380,
+                "tag": "ミョージョーサマー"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "t-dv.com/myojou_0729",
+                "end": 370,
+                "expanded_url": "https://t-dv.com/myojou_0729",
+                "start": 347,
+                "url": "https://t.co/HRkwbUVb7m"
+              }
+            ]
+          },
+          "text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n       #ミョージョーサマー番外編\n           TIF2026直前決起集会\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：7/29（水）\n⟣place :WOMB LIVE\n⟣open/start：18:30/19:00\n⟣price：VIP¥5,000/一般¥0（各+1D）\n⟣入場特典：VIP:明星カード2枚（サインありチェキ）/一般:明星カード1枚（サインありチェキ）\n\n皆様への日頃の感謝を込めて、#ミョージョーサマー 番外編を開催。\n\n単独公演ですが無銭開催。入場特典有りとなっております！\n\nいよいよ夏本番。二度とない今の明星との夏を。\n\n【販売期間】\n7/15（水）22:00-7/28（火）23:59\n🔗 https://t.co/HRkwbUVb7m\n\n#myojou\n#ミョージョーサマー"
+        },
+        "text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n       #ミョージョーサマー番外編\n           TIF2026直前決起集会\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：7/29（水）\n⟣place :WOMB LIVE\n⟣open/start：18:30/19:00\n⟣price：VIP¥5,000/一般¥0（各+1D） https://t.co/JSzjTyBSeu",
+        "truncated_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n       #ミョージョーサマー番外編\n           TIF2026直前決起集会\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：7/29（水）\n⟣place :WOMB LIVE\n⟣open/start：18:30/19:00\n⟣price：VIP¥5,000/一般¥0（各+1D） https://t.co/JSzjTyBSeu"
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n       #ミョージョーサマー番外編\n           TIF2026直前決起集会\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：7/29（水）\n⟣place :WOMB LIVE\n⟣open/start：18:30/19:00\n⟣price：VIP¥5,000/一般¥0（各+1D）\n⟣入場特典：VIP:明星カード2枚（サインありチェキ）/一般:明星カード1枚（サインありチェキ）\n\n皆様への日頃の感謝を込めて、#ミョージョーサマー 番外編を開催。\n\n単独公演ですが無銭開催。入場特典有りとなっております！\n\nいよいよ夏本番。二度とない今の明星との夏を。\n\n【販売期間】\n7/15（水）22:00-7/28（火）23:59\n🔗 https://t.co/HRkwbUVb7m\n\n#myojou\n#ミョージョーサマー",
+      "truncated_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n       #ミョージョーサマー番外編\n           TIF2026直前決起集会\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：7/29（水）\n⟣place :WOMB LIVE\n⟣open/start：18:30/19:00\n⟣price：VIP¥5,000/一般¥0（各+1D） https://t.co/JSzjTyBSeu",
+      "url": "https://x.com/info_myojou/status/2077015454560989363"
+    },
+    {
+      "api_text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n        うるトラすフェスタvol.45\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「うるトラすフェスタvol.45」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n薄倉りな@myojou_usukura https://t.co/J81tkf0q4i",
+      "attachments": {
+        "media_keys": [
+          "3_2077007545466810368"
+        ]
+      },
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "profile/member introduction",
+        "source_kind": "other"
+      },
+      "created_at": "2026-07-14T12:29:23+00:00",
+      "entities": {
+        "mentions": [
+          {
+            "end": 160,
+            "id": "1981655668626165760",
+            "start": 148,
+            "username": "myojou_ruka"
+          },
+          {
+            "end": 181,
+            "id": "1344586625901158401",
+            "start": 166,
+            "username": "myojou_usukura"
+          }
+        ],
+        "urls": [
+          {
+            "display_url": "pic.x.com/J81tkf0q4i",
+            "end": 205,
+            "expanded_url": "https://x.com/info_myojou/status/2077007549623308334/photo/1",
+            "media_key": "3_2077007545466810368",
+            "start": 182,
+            "url": "https://t.co/J81tkf0q4i"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2077007549623308334",
+      "media": [
+        {
+          "alt_text": "M1,星景讃歌\nM2,HeartBeat\nM3,灯火\nM4,軌跡まで\nM5,CHRONOS\nM6,アンチコンプリート",
+          "height": 980,
+          "media_key": "3_2077007545466810368",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HNMDW69a8AAADCp.jpg",
+          "width": 1477
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 287,
+              "start": 280,
+              "tag": "myojou"
+            }
+          ],
+          "mentions": [
+            {
+              "end": 160,
+              "id": "1981655668626165760",
+              "start": 148,
+              "username": "myojou_ruka"
+            },
+            {
+              "end": 181,
+              "id": "1344586625901158401",
+              "start": 166,
+              "username": "myojou_usukura"
+            },
+            {
+              "end": 198,
+              "id": "2009245855694675968",
+              "start": 187,
+              "username": "myojou_miu"
+            },
+            {
+              "end": 226,
+              "id": "1590652199407083520",
+              "start": 212,
+              "username": "myojou_cocone"
+            },
+            {
+              "end": 245,
+              "id": "1754991922807177216",
+              "start": 232,
+              "username": "myojou_shino"
+            },
+            {
+              "end": 262,
+              "id": "2009274765895450624",
+              "start": 251,
+              "username": "myojou_yun"
+            }
+          ]
+        },
+        "text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n        うるトラすフェスタvol.45\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「うるトラすフェスタvol.45」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n薄倉りな@myojou_usukura \n日陽みう@myojou_miu \n\n下段左から\n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n澪奈ゆん@myojou_yun \n\nSETLIST▶︎ALT\n\n #myojou"
+      },
+      "parsed_fields": null,
+      "raw": {
+        "api_text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n        うるトラすフェスタvol.45\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「うるトラすフェスタvol.45」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n薄倉りな@myojou_usukura https://t.co/J81tkf0q4i",
+        "attachments": {
+          "media_keys": [
+            "3_2077007545466810368"
+          ]
+        },
+        "created_at": "2026-07-14T12:29:23.000Z",
+        "edit_history_tweet_ids": [
+          "2077007549623308334"
+        ],
+        "entities": {
+          "mentions": [
+            {
+              "end": 160,
+              "id": "1981655668626165760",
+              "start": 148,
+              "username": "myojou_ruka"
+            },
+            {
+              "end": 181,
+              "id": "1344586625901158401",
+              "start": 166,
+              "username": "myojou_usukura"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "pic.x.com/J81tkf0q4i",
+              "end": 205,
+              "expanded_url": "https://x.com/info_myojou/status/2077007549623308334/photo/1",
+              "media_key": "3_2077007545466810368",
+              "start": 182,
+              "url": "https://t.co/J81tkf0q4i"
+            }
+          ]
+        },
+        "full_text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n        うるトラすフェスタvol.45\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「うるトラすフェスタvol.45」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n薄倉りな@myojou_usukura \n日陽みう@myojou_miu \n\n下段左から\n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n澪奈ゆん@myojou_yun \n\nSETLIST▶︎ALT\n\n #myojou",
+        "full_text_source": "note_tweet",
+        "id": "2077007549623308334",
+        "media": [
+          {
+            "alt_text": "M1,星景讃歌\nM2,HeartBeat\nM3,灯火\nM4,軌跡まで\nM5,CHRONOS\nM6,アンチコンプリート",
+            "height": 980,
+            "media_key": "3_2077007545466810368",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HNMDW69a8AAADCp.jpg",
+            "width": 1477
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 287,
+                "start": 280,
+                "tag": "myojou"
+              }
+            ],
+            "mentions": [
+              {
+                "end": 160,
+                "id": "1981655668626165760",
+                "start": 148,
+                "username": "myojou_ruka"
+              },
+              {
+                "end": 181,
+                "id": "1344586625901158401",
+                "start": 166,
+                "username": "myojou_usukura"
+              },
+              {
+                "end": 198,
+                "id": "2009245855694675968",
+                "start": 187,
+                "username": "myojou_miu"
+              },
+              {
+                "end": 226,
+                "id": "1590652199407083520",
+                "start": 212,
+                "username": "myojou_cocone"
+              },
+              {
+                "end": 245,
+                "id": "1754991922807177216",
+                "start": 232,
+                "username": "myojou_shino"
+              },
+              {
+                "end": 262,
+                "id": "2009274765895450624",
+                "start": 251,
+                "username": "myojou_yun"
+              }
+            ]
+          },
+          "text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n        うるトラすフェスタvol.45\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「うるトラすフェスタvol.45」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n薄倉りな@myojou_usukura \n日陽みう@myojou_miu \n\n下段左から\n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n澪奈ゆん@myojou_yun \n\nSETLIST▶︎ALT\n\n #myojou"
+        },
+        "text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n        うるトラすフェスタvol.45\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「うるトラすフェスタvol.45」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n薄倉りな@myojou_usukura https://t.co/J81tkf0q4i",
+        "truncated_text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n        うるトラすフェスタvol.45\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「うるトラすフェスタvol.45」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n薄倉りな@myojou_usukura https://t.co/J81tkf0q4i"
+      },
+      "referenced_tweets": [],
+      "text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n        うるトラすフェスタvol.45\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「うるトラすフェスタvol.45」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n薄倉りな@myojou_usukura \n日陽みう@myojou_miu \n\n下段左から\n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n澪奈ゆん@myojou_yun \n\nSETLIST▶︎ALT\n\n #myojou",
+      "truncated_text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n        うるトラすフェスタvol.45\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「うるトラすフェスタvol.45」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n薄倉りな@myojou_usukura https://t.co/J81tkf0q4i",
+      "url": "https://x.com/info_myojou/status/2077007549623308334"
+    },
+    {
+      "api_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n    松葉-MATSUBA- Prelude Live\n              『Needle Point #2 』\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：8/31（月）\n⟣place :BLAZE GOTANDA\n⟣open/start：18:00/18:30\n⟣price：優先¥3,500/一般¥2,000（各+1D） https://t.co/UFQheVerQz",
+      "attachments": {
+        "media_keys": [
+          "3_2077000399870169088"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "ticket_update"
+      },
+      "created_at": "2026-07-14T12:01:01+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/UFQheVerQz",
+            "end": 221,
+            "expanded_url": "https://x.com/info_myojou/status/2077000411526119452/photo/1",
+            "media_key": "3_2077000399870169088",
+            "start": 198,
+            "url": "https://t.co/UFQheVerQz"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2077000411526119452",
+      "media": [
+        {
+          "height": 2526,
+          "media_key": "3_2077000399870169088",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HNL82_ibEAAvelG.jpg",
+          "width": 1785
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "missing ticket deadline",
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 276,
+              "start": 269,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "t-dv.com/NeedlePoint2",
+              "end": 267,
+              "expanded_url": "https://t-dv.com/NeedlePoint2",
+              "start": 244,
+              "url": "https://t.co/gAxJkuh77Z"
+            }
+          ]
+        },
+        "text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n    松葉-MATSUBA- Prelude Live\n              『Needle Point #2 』\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：8/31（月）\n⟣place :BLAZE GOTANDA\n⟣open/start：18:00/18:30\n⟣price：優先¥3,500/一般¥2,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【販売期間】\n7/16（木）21:00-\n🔗 https://t.co/gAxJkuh77Z\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": null,
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-08-31",
+        "event_dates": [
+          "2026-08-31"
+        ],
+        "event_name": "松葉-MATSUBA- Prelude Live",
+        "extraction_confidence": 0.9,
+        "general_ticket_price": 2000,
+        "lottery_result_at": null,
+        "myojou_performance_time": null,
+        "notes": "ドリンク代: 各+1D\n⟣入場特典:明星カード(サインありチェキ)",
+        "open_time": "18:00",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "優先",
+        "priority_ticket_price": 3500,
+        "same_day_ticket_price": null,
+        "source_kind": "ticket_update",
+        "source_post_id": "2077000411526119452",
+        "source_posted_at": "2026-07-14T12:01:01Z",
+        "source_raw": {
+          "api_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n    松葉-MATSUBA- Prelude Live\n              『Needle Point #2 』\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：8/31（月）\n⟣place :BLAZE GOTANDA\n⟣open/start：18:00/18:30\n⟣price：優先¥3,500/一般¥2,000（各+1D） https://t.co/UFQheVerQz",
+          "attachments": {
+            "media_keys": [
+              "3_2077000399870169088"
+            ]
+          },
+          "created_at": "2026-07-14T12:01:01.000Z",
+          "edit_history_tweet_ids": [
+            "2077000411526119452"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/UFQheVerQz",
+                "end": 221,
+                "expanded_url": "https://x.com/info_myojou/status/2077000411526119452/photo/1",
+                "media_key": "3_2077000399870169088",
+                "start": 198,
+                "url": "https://t.co/UFQheVerQz"
+              }
+            ]
+          },
+          "full_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n    松葉-MATSUBA- Prelude Live\n              『Needle Point #2 』\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：8/31（月）\n⟣place :BLAZE GOTANDA\n⟣open/start：18:00/18:30\n⟣price：優先¥3,500/一般¥2,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【販売期間】\n7/16（木）21:00-\n🔗 https://t.co/gAxJkuh77Z\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2077000411526119452",
+          "media": [
+            {
+              "height": 2526,
+              "media_key": "3_2077000399870169088",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HNL82_ibEAAvelG.jpg",
+              "width": 1785
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 276,
+                  "start": 269,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "t-dv.com/NeedlePoint2",
+                  "end": 267,
+                  "expanded_url": "https://t-dv.com/NeedlePoint2",
+                  "start": 244,
+                  "url": "https://t.co/gAxJkuh77Z"
+                }
+              ]
+            },
+            "text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n    松葉-MATSUBA- Prelude Live\n              『Needle Point #2 』\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：8/31（月）\n⟣place :BLAZE GOTANDA\n⟣open/start：18:00/18:30\n⟣price：優先¥3,500/一般¥2,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【販売期間】\n7/16（木）21:00-\n🔗 https://t.co/gAxJkuh77Z\n\n#myojou"
+          },
+          "text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n    松葉-MATSUBA- Prelude Live\n              『Needle Point #2 』\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：8/31（月）\n⟣place :BLAZE GOTANDA\n⟣open/start：18:00/18:30\n⟣price：優先¥3,500/一般¥2,000（各+1D） https://t.co/UFQheVerQz",
+          "truncated_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n    松葉-MATSUBA- Prelude Live\n              『Needle Point #2 』\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：8/31（月）\n⟣place :BLAZE GOTANDA\n⟣open/start：18:00/18:30\n⟣price：優先¥3,500/一般¥2,000（各+1D） https://t.co/UFQheVerQz"
+        },
+        "source_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n    松葉-MATSUBA- Prelude Live\n              『Needle Point #2 』\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：8/31（月）\n⟣place :BLAZE GOTANDA\n⟣open/start：18:00/18:30\n⟣price：優先¥3,500/一般¥2,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【販売期間】\n7/16（木）21:00-\n🔗 https://t.co/gAxJkuh77Z\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2077000411526119452",
+        "start_time": "18:30",
+        "ticket_application_deadline_at": null,
+        "ticket_application_start_at": null,
+        "ticket_sale_type": null,
+        "ticket_sales": [
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 3500,
+            "result_at": null,
+            "sale_type": "不明",
+            "source_post_id": "2077000411526119452",
+            "source_url": "https://x.com/info_myojou/status/2077000411526119452",
+            "start_at": null,
+            "status": "不明",
+            "ticket_name": "優先",
+            "ticket_tier": "優先"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 2000,
+            "result_at": null,
+            "sale_type": "不明",
+            "source_post_id": "2077000411526119452",
+            "source_url": "https://x.com/info_myojou/status/2077000411526119452",
+            "start_at": null,
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "https://t-dv.com/NeedlePoint2",
+        "venue": "BLAZE GOTANDA"
+      },
+      "raw": {
+        "api_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n    松葉-MATSUBA- Prelude Live\n              『Needle Point #2 』\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：8/31（月）\n⟣place :BLAZE GOTANDA\n⟣open/start：18:00/18:30\n⟣price：優先¥3,500/一般¥2,000（各+1D） https://t.co/UFQheVerQz",
+        "attachments": {
+          "media_keys": [
+            "3_2077000399870169088"
+          ]
+        },
+        "created_at": "2026-07-14T12:01:01.000Z",
+        "edit_history_tweet_ids": [
+          "2077000411526119452"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/UFQheVerQz",
+              "end": 221,
+              "expanded_url": "https://x.com/info_myojou/status/2077000411526119452/photo/1",
+              "media_key": "3_2077000399870169088",
+              "start": 198,
+              "url": "https://t.co/UFQheVerQz"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n    松葉-MATSUBA- Prelude Live\n              『Needle Point #2 』\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：8/31（月）\n⟣place :BLAZE GOTANDA\n⟣open/start：18:00/18:30\n⟣price：優先¥3,500/一般¥2,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【販売期間】\n7/16（木）21:00-\n🔗 https://t.co/gAxJkuh77Z\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2077000411526119452",
+        "media": [
+          {
+            "height": 2526,
+            "media_key": "3_2077000399870169088",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HNL82_ibEAAvelG.jpg",
+            "width": 1785
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 276,
+                "start": 269,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "t-dv.com/NeedlePoint2",
+                "end": 267,
+                "expanded_url": "https://t-dv.com/NeedlePoint2",
+                "start": 244,
+                "url": "https://t.co/gAxJkuh77Z"
+              }
+            ]
+          },
+          "text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n    松葉-MATSUBA- Prelude Live\n              『Needle Point #2 』\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：8/31（月）\n⟣place :BLAZE GOTANDA\n⟣open/start：18:00/18:30\n⟣price：優先¥3,500/一般¥2,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【販売期間】\n7/16（木）21:00-\n🔗 https://t.co/gAxJkuh77Z\n\n#myojou"
+        },
+        "text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n    松葉-MATSUBA- Prelude Live\n              『Needle Point #2 』\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：8/31（月）\n⟣place :BLAZE GOTANDA\n⟣open/start：18:00/18:30\n⟣price：優先¥3,500/一般¥2,000（各+1D） https://t.co/UFQheVerQz",
+        "truncated_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n    松葉-MATSUBA- Prelude Live\n              『Needle Point #2 』\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：8/31（月）\n⟣place :BLAZE GOTANDA\n⟣open/start：18:00/18:30\n⟣price：優先¥3,500/一般¥2,000（各+1D） https://t.co/UFQheVerQz"
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n    松葉-MATSUBA- Prelude Live\n              『Needle Point #2 』\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：8/31（月）\n⟣place :BLAZE GOTANDA\n⟣open/start：18:00/18:30\n⟣price：優先¥3,500/一般¥2,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【販売期間】\n7/16（木）21:00-\n🔗 https://t.co/gAxJkuh77Z\n\n#myojou",
+      "truncated_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n    松葉-MATSUBA- Prelude Live\n              『Needle Point #2 』\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：8/31（月）\n⟣place :BLAZE GOTANDA\n⟣open/start：18:00/18:30\n⟣price：優先¥3,500/一般¥2,000（各+1D） https://t.co/UFQheVerQz",
+      "url": "https://x.com/info_myojou/status/2077000411526119452"
+    },
+    {
+      "api_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n    NAGOYA GIRLS GIRLS extra!!\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：9/5（土）,9/6（日）\n⟣place : Zephyr Hall\n⟣open/start：9:45/10:00\n⟣price：前方¥6,000/一般 ¥3,000/当日各＋¥1,000（各+1D） https://t.co/EdHHAtPf3q",
+      "attachments": {
+        "media_keys": [
+          "3_2076985133987692544",
+          "3_2076985133899591681"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "ticket_update"
+      },
+      "created_at": "2026-07-14T11:12:21+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/EdHHAtPf3q",
+            "end": 206,
+            "expanded_url": "https://x.com/info_myojou/status/2076988162082238548/photo/1",
+            "media_key": "3_2076985133987692544",
+            "start": 183,
+            "url": "https://t.co/EdHHAtPf3q"
+          },
+          {
+            "display_url": "pic.x.com/EdHHAtPf3q",
+            "end": 206,
+            "expanded_url": "https://x.com/info_myojou/status/2076988162082238548/photo/1",
+            "media_key": "3_2076985133899591681",
+            "start": 183,
+            "url": "https://t.co/EdHHAtPf3q"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2076988162082238548",
+      "media": [
+        {
+          "height": 4096,
+          "media_key": "3_2076985133987692544",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HNLu-ZsagAAJ7S_.jpg",
+          "width": 2912
+        },
+        {
+          "height": 4096,
+          "media_key": "3_2076985133899591681",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HNLu-ZXaMAEDw3J.jpg",
+          "width": 2912
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 326,
+              "start": 319,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "tiget.net/events/506716",
+              "end": 289,
+              "expanded_url": "https://tiget.net/events/506716",
+              "start": 266,
+              "url": "https://t.co/VEqBGAu0z2"
+            },
+            {
+              "display_url": "tiget.net/events/506718",
+              "end": 317,
+              "expanded_url": "https://tiget.net/events/506718",
+              "start": 294,
+              "url": "https://t.co/JJfDzXh4IJ"
+            }
+          ]
+        },
+        "text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n    NAGOYA GIRLS GIRLS extra!!\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：9/5（土）,9/6（日）\n⟣place : Zephyr Hall\n⟣open/start：9:45/10:00\n⟣price：前方¥6,000/一般 ¥3,000/当日各＋¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【前方抽選販売】\n7/14（火）20:00-7/20（月）23:59\n【先着販売】\n7/21（火）20:00-\n🔗5日：https://t.co/VEqBGAu0z2\n🔗6日：https://t.co/JJfDzXh4IJ\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": null,
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-09-05",
+        "event_dates": [
+          "2026-09-05",
+          "2026-09-06"
+        ],
+        "event_name": "NAGOYA GIRLS GIRLS extra!!",
+        "extraction_confidence": 0.9,
+        "general_ticket_price": 3000,
+        "lottery_result_at": null,
+        "myojou_performance_time": null,
+        "notes": "ドリンク代: 各+1D\n⟣入場特典:明星カード(サインありチェキ)",
+        "open_time": "09:45",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "前方",
+        "priority_ticket_price": 6000,
+        "same_day_ticket_price": 1000,
+        "source_kind": "ticket_update",
+        "source_post_id": "2076988162082238548",
+        "source_posted_at": "2026-07-14T11:12:21Z",
+        "source_raw": {
+          "api_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n    NAGOYA GIRLS GIRLS extra!!\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：9/5（土）,9/6（日）\n⟣place : Zephyr Hall\n⟣open/start：9:45/10:00\n⟣price：前方¥6,000/一般 ¥3,000/当日各＋¥1,000（各+1D） https://t.co/EdHHAtPf3q",
+          "attachments": {
+            "media_keys": [
+              "3_2076985133987692544",
+              "3_2076985133899591681"
+            ]
+          },
+          "created_at": "2026-07-14T11:12:21.000Z",
+          "edit_history_tweet_ids": [
+            "2076985192934437194",
+            "2076988162082238548"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/EdHHAtPf3q",
+                "end": 206,
+                "expanded_url": "https://x.com/info_myojou/status/2076988162082238548/photo/1",
+                "media_key": "3_2076985133987692544",
+                "start": 183,
+                "url": "https://t.co/EdHHAtPf3q"
+              },
+              {
+                "display_url": "pic.x.com/EdHHAtPf3q",
+                "end": 206,
+                "expanded_url": "https://x.com/info_myojou/status/2076988162082238548/photo/1",
+                "media_key": "3_2076985133899591681",
+                "start": 183,
+                "url": "https://t.co/EdHHAtPf3q"
+              }
+            ]
+          },
+          "full_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n    NAGOYA GIRLS GIRLS extra!!\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：9/5（土）,9/6（日）\n⟣place : Zephyr Hall\n⟣open/start：9:45/10:00\n⟣price：前方¥6,000/一般 ¥3,000/当日各＋¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【前方抽選販売】\n7/14（火）20:00-7/20（月）23:59\n【先着販売】\n7/21（火）20:00-\n🔗5日：https://t.co/VEqBGAu0z2\n🔗6日：https://t.co/JJfDzXh4IJ\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2076988162082238548",
+          "media": [
+            {
+              "height": 4096,
+              "media_key": "3_2076985133987692544",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HNLu-ZsagAAJ7S_.jpg",
+              "width": 2912
+            },
+            {
+              "height": 4096,
+              "media_key": "3_2076985133899591681",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HNLu-ZXaMAEDw3J.jpg",
+              "width": 2912
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 326,
+                  "start": 319,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "tiget.net/events/506716",
+                  "end": 289,
+                  "expanded_url": "https://tiget.net/events/506716",
+                  "start": 266,
+                  "url": "https://t.co/VEqBGAu0z2"
+                },
+                {
+                  "display_url": "tiget.net/events/506718",
+                  "end": 317,
+                  "expanded_url": "https://tiget.net/events/506718",
+                  "start": 294,
+                  "url": "https://t.co/JJfDzXh4IJ"
+                }
+              ]
+            },
+            "text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n    NAGOYA GIRLS GIRLS extra!!\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：9/5（土）,9/6（日）\n⟣place : Zephyr Hall\n⟣open/start：9:45/10:00\n⟣price：前方¥6,000/一般 ¥3,000/当日各＋¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【前方抽選販売】\n7/14（火）20:00-7/20（月）23:59\n【先着販売】\n7/21（火）20:00-\n🔗5日：https://t.co/VEqBGAu0z2\n🔗6日：https://t.co/JJfDzXh4IJ\n\n#myojou"
+          },
+          "text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n    NAGOYA GIRLS GIRLS extra!!\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：9/5（土）,9/6（日）\n⟣place : Zephyr Hall\n⟣open/start：9:45/10:00\n⟣price：前方¥6,000/一般 ¥3,000/当日各＋¥1,000（各+1D） https://t.co/EdHHAtPf3q",
+          "truncated_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n    NAGOYA GIRLS GIRLS extra!!\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：9/5（土）,9/6（日）\n⟣place : Zephyr Hall\n⟣open/start：9:45/10:00\n⟣price：前方¥6,000/一般 ¥3,000/当日各＋¥1,000（各+1D） https://t.co/EdHHAtPf3q"
+        },
+        "source_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n    NAGOYA GIRLS GIRLS extra!!\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：9/5（土）,9/6（日）\n⟣place : Zephyr Hall\n⟣open/start：9:45/10:00\n⟣price：前方¥6,000/一般 ¥3,000/当日各＋¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【前方抽選販売】\n7/14（火）20:00-7/20（月）23:59\n【先着販売】\n7/21（火）20:00-\n🔗5日：https://t.co/VEqBGAu0z2\n🔗6日：https://t.co/JJfDzXh4IJ\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2076988162082238548",
+        "start_time": "10:00",
+        "ticket_application_deadline_at": "2026-07-20T23:59:00+09:00",
+        "ticket_application_start_at": "2026-07-14T20:00:00+09:00",
+        "ticket_sale_type": "抽選",
+        "ticket_sales": [
+          {
+            "deadline_at": "2026-07-20T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 6000,
+            "result_at": null,
+            "sale_type": "抽選",
+            "source_post_id": "2076988162082238548",
+            "source_url": "https://x.com/info_myojou/status/2076988162082238548",
+            "start_at": "2026-07-14T20:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "前方",
+            "ticket_tier": "前方"
+          },
+          {
+            "deadline_at": "2026-07-20T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 3000,
+            "result_at": null,
+            "sale_type": "抽選",
+            "source_post_id": "2076988162082238548",
+            "source_url": "https://x.com/info_myojou/status/2076988162082238548",
+            "start_at": "2026-07-14T20:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 1000,
+            "result_at": null,
+            "sale_type": "当日券",
+            "source_post_id": "2076988162082238548",
+            "source_url": "https://x.com/info_myojou/status/2076988162082238548",
+            "start_at": null,
+            "status": "販売中",
+            "ticket_name": "当日券",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "https://tiget.net/events/506716",
+        "venue": "Zephyr Hall"
+      },
+      "raw": {
+        "api_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n    NAGOYA GIRLS GIRLS extra!!\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：9/5（土）,9/6（日）\n⟣place : Zephyr Hall\n⟣open/start：9:45/10:00\n⟣price：前方¥6,000/一般 ¥3,000/当日各＋¥1,000（各+1D） https://t.co/EdHHAtPf3q",
+        "attachments": {
+          "media_keys": [
+            "3_2076985133987692544",
+            "3_2076985133899591681"
+          ]
+        },
+        "created_at": "2026-07-14T11:12:21.000Z",
+        "edit_history_tweet_ids": [
+          "2076985192934437194",
+          "2076988162082238548"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/EdHHAtPf3q",
+              "end": 206,
+              "expanded_url": "https://x.com/info_myojou/status/2076988162082238548/photo/1",
+              "media_key": "3_2076985133987692544",
+              "start": 183,
+              "url": "https://t.co/EdHHAtPf3q"
+            },
+            {
+              "display_url": "pic.x.com/EdHHAtPf3q",
+              "end": 206,
+              "expanded_url": "https://x.com/info_myojou/status/2076988162082238548/photo/1",
+              "media_key": "3_2076985133899591681",
+              "start": 183,
+              "url": "https://t.co/EdHHAtPf3q"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n    NAGOYA GIRLS GIRLS extra!!\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：9/5（土）,9/6（日）\n⟣place : Zephyr Hall\n⟣open/start：9:45/10:00\n⟣price：前方¥6,000/一般 ¥3,000/当日各＋¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【前方抽選販売】\n7/14（火）20:00-7/20（月）23:59\n【先着販売】\n7/21（火）20:00-\n🔗5日：https://t.co/VEqBGAu0z2\n🔗6日：https://t.co/JJfDzXh4IJ\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2076988162082238548",
+        "media": [
+          {
+            "height": 4096,
+            "media_key": "3_2076985133987692544",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HNLu-ZsagAAJ7S_.jpg",
+            "width": 2912
+          },
+          {
+            "height": 4096,
+            "media_key": "3_2076985133899591681",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HNLu-ZXaMAEDw3J.jpg",
+            "width": 2912
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 326,
+                "start": 319,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "tiget.net/events/506716",
+                "end": 289,
+                "expanded_url": "https://tiget.net/events/506716",
+                "start": 266,
+                "url": "https://t.co/VEqBGAu0z2"
+              },
+              {
+                "display_url": "tiget.net/events/506718",
+                "end": 317,
+                "expanded_url": "https://tiget.net/events/506718",
+                "start": 294,
+                "url": "https://t.co/JJfDzXh4IJ"
+              }
+            ]
+          },
+          "text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n    NAGOYA GIRLS GIRLS extra!!\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：9/5（土）,9/6（日）\n⟣place : Zephyr Hall\n⟣open/start：9:45/10:00\n⟣price：前方¥6,000/一般 ¥3,000/当日各＋¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【前方抽選販売】\n7/14（火）20:00-7/20（月）23:59\n【先着販売】\n7/21（火）20:00-\n🔗5日：https://t.co/VEqBGAu0z2\n🔗6日：https://t.co/JJfDzXh4IJ\n\n#myojou"
+        },
+        "text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n    NAGOYA GIRLS GIRLS extra!!\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：9/5（土）,9/6（日）\n⟣place : Zephyr Hall\n⟣open/start：9:45/10:00\n⟣price：前方¥6,000/一般 ¥3,000/当日各＋¥1,000（各+1D） https://t.co/EdHHAtPf3q",
+        "truncated_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n    NAGOYA GIRLS GIRLS extra!!\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：9/5（土）,9/6（日）\n⟣place : Zephyr Hall\n⟣open/start：9:45/10:00\n⟣price：前方¥6,000/一般 ¥3,000/当日各＋¥1,000（各+1D） https://t.co/EdHHAtPf3q"
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n    NAGOYA GIRLS GIRLS extra!!\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：9/5（土）,9/6（日）\n⟣place : Zephyr Hall\n⟣open/start：9:45/10:00\n⟣price：前方¥6,000/一般 ¥3,000/当日各＋¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【前方抽選販売】\n7/14（火）20:00-7/20（月）23:59\n【先着販売】\n7/21（火）20:00-\n🔗5日：https://t.co/VEqBGAu0z2\n🔗6日：https://t.co/JJfDzXh4IJ\n\n#myojou",
+      "truncated_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n    NAGOYA GIRLS GIRLS extra!!\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：9/5（土）,9/6（日）\n⟣place : Zephyr Hall\n⟣open/start：9:45/10:00\n⟣price：前方¥6,000/一般 ¥3,000/当日各＋¥1,000（各+1D） https://t.co/EdHHAtPf3q",
+      "url": "https://x.com/info_myojou/status/2076988162082238548"
+    },
+    {
+      "api_text": "✯••┈┈Tiktok┈┈••✯\nCHRONOS-myojou\nhttps://t.co/y3N1KXGzj2\n\n#myojou",
+      "attachments": {},
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "no live-event signal",
+        "source_kind": "other"
+      },
+      "created_at": "2026-07-14T07:12:41+00:00",
+      "entities": {
+        "hashtags": [
+          {
+            "end": 64,
+            "start": 57,
+            "tag": "myojou"
+          }
+        ],
+        "urls": [
+          {
+            "display_url": "vt.tiktok.com/ZSXrdsxT3/",
+            "end": 55,
+            "expanded_url": "https://vt.tiktok.com/ZSXrdsxT3/",
+            "images": [
+              {
+                "height": 630,
+                "url": "https://pbs.twimg.com/news_img/2076927896556654592/6Oi_MFOq?format=jpg&name=orig",
+                "width": 1200
+              },
+              {
+                "height": 150,
+                "url": "https://pbs.twimg.com/news_img/2076927896556654592/6Oi_MFOq?format=jpg&name=150x150",
+                "width": 150
+              }
+            ],
+            "start": 32,
+            "status": 200,
+            "title": "TikTok · myojou",
+            "unwound_url": "https://www.tiktok.com/@myojou2/video/7662275337941830930?_r=1&_t=ZS-981JTN3GFkO",
+            "url": "https://t.co/y3N1KXGzj2"
+          }
+        ]
+      },
+      "full_text_source": "text",
+      "id": "2076927851463590045",
+      "media": [],
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "note_tweet": null,
+      "parsed_fields": null,
+      "raw": {
+        "api_text": "✯••┈┈Tiktok┈┈••✯\nCHRONOS-myojou\nhttps://t.co/y3N1KXGzj2\n\n#myojou",
+        "created_at": "2026-07-14T07:12:41.000Z",
+        "edit_history_tweet_ids": [
+          "2076927851463590045"
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "end": 64,
+              "start": 57,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "vt.tiktok.com/ZSXrdsxT3/",
+              "end": 55,
+              "expanded_url": "https://vt.tiktok.com/ZSXrdsxT3/",
+              "images": [
+                {
+                  "height": 630,
+                  "url": "https://pbs.twimg.com/news_img/2076927896556654592/6Oi_MFOq?format=jpg&name=orig",
+                  "width": 1200
+                },
+                {
+                  "height": 150,
+                  "url": "https://pbs.twimg.com/news_img/2076927896556654592/6Oi_MFOq?format=jpg&name=150x150",
+                  "width": 150
+                }
+              ],
+              "start": 32,
+              "status": 200,
+              "title": "TikTok · myojou",
+              "unwound_url": "https://www.tiktok.com/@myojou2/video/7662275337941830930?_r=1&_t=ZS-981JTN3GFkO",
+              "url": "https://t.co/y3N1KXGzj2"
+            }
+          ]
+        },
+        "full_text": "✯••┈┈Tiktok┈┈••✯\nCHRONOS-myojou\nhttps://t.co/y3N1KXGzj2\n\n#myojou",
+        "full_text_source": "text",
+        "id": "2076927851463590045",
+        "text": "✯••┈┈Tiktok┈┈••✯\nCHRONOS-myojou\nhttps://t.co/y3N1KXGzj2\n\n#myojou",
+        "truncated_text": null
+      },
+      "referenced_tweets": [],
+      "text": "✯••┈┈Tiktok┈┈••✯\nCHRONOS-myojou\nhttps://t.co/y3N1KXGzj2\n\n#myojou",
+      "truncated_text": null,
+      "url": "https://x.com/info_myojou/status/2076927851463590045"
+    },
+    {
       "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「うるトラすフェスタvol.45」\n\n🎙18:55-19:20\n📸19:30-20:30\n\n⟣date：7/14（火）\n⟣place : 渋谷・CLUB QUATTRO\n⟣open/start：16:00/16:30\n⟣price：前方チケット ¥5,500 / 一般チケット ¥2,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ） https://t.co/f3St0UsDs0",
       "attachments": {
         "media_keys": [
@@ -117593,7 +118806,7 @@
     "backfill": true,
     "dry_run": true,
     "estimated_x_post_reads": 411,
-    "latest_post_id": "2076657871673241806",
+    "latest_post_id": "2077015454560989363",
     "max_pages": 10,
     "max_posts": 500,
     "max_results": 5,
@@ -117636,16 +118849,16 @@
       }
     ],
     "pages_fetched": 5,
-    "posts_fetched": 546,
+    "posts_fetched": 551,
     "rate_limit_headers": {
       "x-rate-limit-limit": "10000",
       "x-rate-limit-remaining": "9993",
       "x-rate-limit-reset": "1781108896"
     },
-    "total_posts": 546,
-    "updated_at": "2026-07-13T20:18:27.333947+00:00",
+    "total_posts": 551,
+    "updated_at": "2026-07-14T20:15:44.312674+00:00",
     "username": "info_myojou"
   },
   "source": "x_api",
-  "updated_at": "2026-07-13T20:18:27.333947+00:00"
+  "updated_at": "2026-07-14T20:15:44.312674+00:00"
 }
