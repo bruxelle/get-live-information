@@ -2,6 +2,881 @@
   "captured_at": "2026-06-10T16:19:36.141820+00:00",
   "data": [
     {
+      "api_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            UTAGE FES Vol.5\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n①YOANI LIVE STATION\n🎙11:00-11:20\n📸11:35-12:35（GUNKAN東新宿B1F A）\n\n②西武新宿付近野外特設ステージ\n🎙14:40-15:05\n📸15:20-16:30（新宿プリンスホテル25F B）\n\n③Music https://t.co/ysuBOZYVWZ",
+      "attachments": {
+        "media_keys": [
+          "3_2077362936084140032",
+          "3_2077362936088338432",
+          "3_2077362936096620544",
+          "3_2077362936075694080"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "ticket_update"
+      },
+      "created_at": "2026-07-15T12:58:03+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/ysuBOZYVWZ",
+            "end": 221,
+            "expanded_url": "https://x.com/info_myojou/status/2077377150584594793/photo/1",
+            "media_key": "3_2077362936084140032",
+            "start": 198,
+            "url": "https://t.co/ysuBOZYVWZ"
+          },
+          {
+            "display_url": "pic.x.com/ysuBOZYVWZ",
+            "end": 221,
+            "expanded_url": "https://x.com/info_myojou/status/2077377150584594793/photo/1",
+            "media_key": "3_2077362936088338432",
+            "start": 198,
+            "url": "https://t.co/ysuBOZYVWZ"
+          },
+          {
+            "display_url": "pic.x.com/ysuBOZYVWZ",
+            "end": 221,
+            "expanded_url": "https://x.com/info_myojou/status/2077377150584594793/photo/1",
+            "media_key": "3_2077362936096620544",
+            "start": 198,
+            "url": "https://t.co/ysuBOZYVWZ"
+          },
+          {
+            "display_url": "pic.x.com/ysuBOZYVWZ",
+            "end": 221,
+            "expanded_url": "https://x.com/info_myojou/status/2077377150584594793/photo/1",
+            "media_key": "3_2077362936075694080",
+            "start": 198,
+            "url": "https://t.co/ysuBOZYVWZ"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2077377150584594793",
+      "media": [
+        {
+          "height": 2719,
+          "media_key": "3_2077362936084140032",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HNRGlYLbkAArKDO.jpg",
+          "width": 4096
+        },
+        {
+          "height": 2896,
+          "media_key": "3_2077362936088338432",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HNRGlYMboAAdmPg.jpg",
+          "width": 4096
+        },
+        {
+          "height": 3508,
+          "media_key": "3_2077362936096620544",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HNRGlYOaAAACEL2.jpg",
+          "width": 2481
+        },
+        {
+          "height": 3508,
+          "media_key": "3_2077362936075694080",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HNRGlYJasAAQSNg.jpg",
+          "width": 2481
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 550,
+              "start": 543,
+              "tag": "myojou"
+            },
+            {
+              "end": 563,
+              "start": 553,
+              "tag": "ミョージョーサマー"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "t-dv.com/0722_UTAGEFES",
+              "end": 541,
+              "expanded_url": "http://t-dv.com/0722_UTAGEFES",
+              "start": 518,
+              "url": "https://t.co/6QDyvdqbvX"
+            }
+          ]
+        },
+        "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            UTAGE FES Vol.5\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n①YOANI LIVE STATION\n🎙11:00-11:20\n📸11:35-12:35（GUNKAN東新宿B1F A）\n\n②西武新宿付近野外特設ステージ\n🎙14:40-15:05\n📸15:20-16:30（新宿プリンスホテル25F B）\n\n③Music Restaurant APEXIA\n🎙17:55-18:15\n📸19:10-20:10（終演後特典会）\n\n⟣date：7/22(水)\n⟣place : Zepp Shinjuku / KABUKICHO TOWER STAGE / 新宿LOFT / SHINJUKU WALLY / Zirco Tokyo / 新宿Marble / YOANI LIVE STATION / 新宿ACB\n⟣open/start：10:00/10:30(予定)\n⟣price：VIP ¥10,000 (Tシャツ付) / 一般¥2,500\n⟣入場特典：明星カード2枚（サインありチェキ）\n\n【一般販売】\n5/23(土)21:00-7/21(火)23:59\n🔗 https://t.co/6QDyvdqbvX\n\n#myojou \n #ミョージョーサマー"
+      },
+      "parsed_fields": {
+        "benefit_event_time": "11:35-12:35",
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-07-22",
+        "event_dates": [
+          "2026-07-22"
+        ],
+        "event_name": "1YOANI LIVE STATION",
+        "extraction_confidence": 0.95,
+        "general_ticket_price": 2500,
+        "lottery_result_at": null,
+        "myojou_performance_time": "11:00-11:20",
+        "notes": "⟣入場特典:明星カード2枚(サインありチェキ)",
+        "open_time": "10:00",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "VIP",
+        "priority_ticket_price": 10000,
+        "same_day_ticket_price": null,
+        "source_kind": "ticket_update",
+        "source_post_id": "2077377150584594793",
+        "source_posted_at": "2026-07-15T12:58:03Z",
+        "source_raw": {
+          "api_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            UTAGE FES Vol.5\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n①YOANI LIVE STATION\n🎙11:00-11:20\n📸11:35-12:35（GUNKAN東新宿B1F A）\n\n②西武新宿付近野外特設ステージ\n🎙14:40-15:05\n📸15:20-16:30（新宿プリンスホテル25F B）\n\n③Music https://t.co/ysuBOZYVWZ",
+          "attachments": {
+            "media_keys": [
+              "3_2077362936084140032",
+              "3_2077362936088338432",
+              "3_2077362936096620544",
+              "3_2077362936075694080"
+            ]
+          },
+          "created_at": "2026-07-15T12:58:03.000Z",
+          "edit_history_tweet_ids": [
+            "2077363002849022449",
+            "2077377150584594793"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/ysuBOZYVWZ",
+                "end": 221,
+                "expanded_url": "https://x.com/info_myojou/status/2077377150584594793/photo/1",
+                "media_key": "3_2077362936084140032",
+                "start": 198,
+                "url": "https://t.co/ysuBOZYVWZ"
+              },
+              {
+                "display_url": "pic.x.com/ysuBOZYVWZ",
+                "end": 221,
+                "expanded_url": "https://x.com/info_myojou/status/2077377150584594793/photo/1",
+                "media_key": "3_2077362936088338432",
+                "start": 198,
+                "url": "https://t.co/ysuBOZYVWZ"
+              },
+              {
+                "display_url": "pic.x.com/ysuBOZYVWZ",
+                "end": 221,
+                "expanded_url": "https://x.com/info_myojou/status/2077377150584594793/photo/1",
+                "media_key": "3_2077362936096620544",
+                "start": 198,
+                "url": "https://t.co/ysuBOZYVWZ"
+              },
+              {
+                "display_url": "pic.x.com/ysuBOZYVWZ",
+                "end": 221,
+                "expanded_url": "https://x.com/info_myojou/status/2077377150584594793/photo/1",
+                "media_key": "3_2077362936075694080",
+                "start": 198,
+                "url": "https://t.co/ysuBOZYVWZ"
+              }
+            ]
+          },
+          "full_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            UTAGE FES Vol.5\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n①YOANI LIVE STATION\n🎙11:00-11:20\n📸11:35-12:35（GUNKAN東新宿B1F A）\n\n②西武新宿付近野外特設ステージ\n🎙14:40-15:05\n📸15:20-16:30（新宿プリンスホテル25F B）\n\n③Music Restaurant APEXIA\n🎙17:55-18:15\n📸19:10-20:10（終演後特典会）\n\n⟣date：7/22(水)\n⟣place : Zepp Shinjuku / KABUKICHO TOWER STAGE / 新宿LOFT / SHINJUKU WALLY / Zirco Tokyo / 新宿Marble / YOANI LIVE STATION / 新宿ACB\n⟣open/start：10:00/10:30(予定)\n⟣price：VIP ¥10,000 (Tシャツ付) / 一般¥2,500\n⟣入場特典：明星カード2枚（サインありチェキ）\n\n【一般販売】\n5/23(土)21:00-7/21(火)23:59\n🔗 https://t.co/6QDyvdqbvX\n\n#myojou \n #ミョージョーサマー",
+          "full_text_source": "note_tweet",
+          "id": "2077377150584594793",
+          "media": [
+            {
+              "height": 2719,
+              "media_key": "3_2077362936084140032",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HNRGlYLbkAArKDO.jpg",
+              "width": 4096
+            },
+            {
+              "height": 2896,
+              "media_key": "3_2077362936088338432",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HNRGlYMboAAdmPg.jpg",
+              "width": 4096
+            },
+            {
+              "height": 3508,
+              "media_key": "3_2077362936096620544",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HNRGlYOaAAACEL2.jpg",
+              "width": 2481
+            },
+            {
+              "height": 3508,
+              "media_key": "3_2077362936075694080",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HNRGlYJasAAQSNg.jpg",
+              "width": 2481
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 550,
+                  "start": 543,
+                  "tag": "myojou"
+                },
+                {
+                  "end": 563,
+                  "start": 553,
+                  "tag": "ミョージョーサマー"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "t-dv.com/0722_UTAGEFES",
+                  "end": 541,
+                  "expanded_url": "http://t-dv.com/0722_UTAGEFES",
+                  "start": 518,
+                  "url": "https://t.co/6QDyvdqbvX"
+                }
+              ]
+            },
+            "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            UTAGE FES Vol.5\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n①YOANI LIVE STATION\n🎙11:00-11:20\n📸11:35-12:35（GUNKAN東新宿B1F A）\n\n②西武新宿付近野外特設ステージ\n🎙14:40-15:05\n📸15:20-16:30（新宿プリンスホテル25F B）\n\n③Music Restaurant APEXIA\n🎙17:55-18:15\n📸19:10-20:10（終演後特典会）\n\n⟣date：7/22(水)\n⟣place : Zepp Shinjuku / KABUKICHO TOWER STAGE / 新宿LOFT / SHINJUKU WALLY / Zirco Tokyo / 新宿Marble / YOANI LIVE STATION / 新宿ACB\n⟣open/start：10:00/10:30(予定)\n⟣price：VIP ¥10,000 (Tシャツ付) / 一般¥2,500\n⟣入場特典：明星カード2枚（サインありチェキ）\n\n【一般販売】\n5/23(土)21:00-7/21(火)23:59\n🔗 https://t.co/6QDyvdqbvX\n\n#myojou \n #ミョージョーサマー"
+          },
+          "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            UTAGE FES Vol.5\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n①YOANI LIVE STATION\n🎙11:00-11:20\n📸11:35-12:35（GUNKAN東新宿B1F A）\n\n②西武新宿付近野外特設ステージ\n🎙14:40-15:05\n📸15:20-16:30（新宿プリンスホテル25F B）\n\n③Music https://t.co/ysuBOZYVWZ",
+          "truncated_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            UTAGE FES Vol.5\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n①YOANI LIVE STATION\n🎙11:00-11:20\n📸11:35-12:35（GUNKAN東新宿B1F A）\n\n②西武新宿付近野外特設ステージ\n🎙14:40-15:05\n📸15:20-16:30（新宿プリンスホテル25F B）\n\n③Music https://t.co/ysuBOZYVWZ"
+        },
+        "source_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            UTAGE FES Vol.5\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n①YOANI LIVE STATION\n🎙11:00-11:20\n📸11:35-12:35（GUNKAN東新宿B1F A）\n\n②西武新宿付近野外特設ステージ\n🎙14:40-15:05\n📸15:20-16:30（新宿プリンスホテル25F B）\n\n③Music Restaurant APEXIA\n🎙17:55-18:15\n📸19:10-20:10（終演後特典会）\n\n⟣date：7/22(水)\n⟣place : Zepp Shinjuku / KABUKICHO TOWER STAGE / 新宿LOFT / SHINJUKU WALLY / Zirco Tokyo / 新宿Marble / YOANI LIVE STATION / 新宿ACB\n⟣open/start：10:00/10:30(予定)\n⟣price：VIP ¥10,000 (Tシャツ付) / 一般¥2,500\n⟣入場特典：明星カード2枚（サインありチェキ）\n\n【一般販売】\n5/23(土)21:00-7/21(火)23:59\n🔗 https://t.co/6QDyvdqbvX\n\n#myojou \n #ミョージョーサマー",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2077377150584594793",
+        "start_time": "10:30",
+        "ticket_application_deadline_at": "2026-07-21T23:59:00+09:00",
+        "ticket_application_start_at": "2026-05-23T21:00:00+09:00",
+        "ticket_sale_type": "一般",
+        "ticket_sales": [
+          {
+            "deadline_at": "2026-07-21T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 10000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2077377150584594793",
+            "source_url": "https://x.com/info_myojou/status/2077377150584594793",
+            "start_at": "2026-05-23T21:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "VIP",
+            "ticket_tier": "VIP"
+          },
+          {
+            "deadline_at": "2026-07-21T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 2500,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2077377150584594793",
+            "source_url": "https://x.com/info_myojou/status/2077377150584594793",
+            "start_at": "2026-05-23T21:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "http://t-dv.com/0722_UTAGEFES",
+        "venue": "Zepp Shinjuku / KABUKICHO TOWER STAGE / 新宿LOFT / SHINJUKU WALLY / Zirco Tokyo / 新宿Marble / YOANI LIVE STATION / 新宿ACB"
+      },
+      "raw": {
+        "api_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            UTAGE FES Vol.5\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n①YOANI LIVE STATION\n🎙11:00-11:20\n📸11:35-12:35（GUNKAN東新宿B1F A）\n\n②西武新宿付近野外特設ステージ\n🎙14:40-15:05\n📸15:20-16:30（新宿プリンスホテル25F B）\n\n③Music https://t.co/ysuBOZYVWZ",
+        "attachments": {
+          "media_keys": [
+            "3_2077362936084140032",
+            "3_2077362936088338432",
+            "3_2077362936096620544",
+            "3_2077362936075694080"
+          ]
+        },
+        "created_at": "2026-07-15T12:58:03.000Z",
+        "edit_history_tweet_ids": [
+          "2077363002849022449",
+          "2077377150584594793"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/ysuBOZYVWZ",
+              "end": 221,
+              "expanded_url": "https://x.com/info_myojou/status/2077377150584594793/photo/1",
+              "media_key": "3_2077362936084140032",
+              "start": 198,
+              "url": "https://t.co/ysuBOZYVWZ"
+            },
+            {
+              "display_url": "pic.x.com/ysuBOZYVWZ",
+              "end": 221,
+              "expanded_url": "https://x.com/info_myojou/status/2077377150584594793/photo/1",
+              "media_key": "3_2077362936088338432",
+              "start": 198,
+              "url": "https://t.co/ysuBOZYVWZ"
+            },
+            {
+              "display_url": "pic.x.com/ysuBOZYVWZ",
+              "end": 221,
+              "expanded_url": "https://x.com/info_myojou/status/2077377150584594793/photo/1",
+              "media_key": "3_2077362936096620544",
+              "start": 198,
+              "url": "https://t.co/ysuBOZYVWZ"
+            },
+            {
+              "display_url": "pic.x.com/ysuBOZYVWZ",
+              "end": 221,
+              "expanded_url": "https://x.com/info_myojou/status/2077377150584594793/photo/1",
+              "media_key": "3_2077362936075694080",
+              "start": 198,
+              "url": "https://t.co/ysuBOZYVWZ"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            UTAGE FES Vol.5\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n①YOANI LIVE STATION\n🎙11:00-11:20\n📸11:35-12:35（GUNKAN東新宿B1F A）\n\n②西武新宿付近野外特設ステージ\n🎙14:40-15:05\n📸15:20-16:30（新宿プリンスホテル25F B）\n\n③Music Restaurant APEXIA\n🎙17:55-18:15\n📸19:10-20:10（終演後特典会）\n\n⟣date：7/22(水)\n⟣place : Zepp Shinjuku / KABUKICHO TOWER STAGE / 新宿LOFT / SHINJUKU WALLY / Zirco Tokyo / 新宿Marble / YOANI LIVE STATION / 新宿ACB\n⟣open/start：10:00/10:30(予定)\n⟣price：VIP ¥10,000 (Tシャツ付) / 一般¥2,500\n⟣入場特典：明星カード2枚（サインありチェキ）\n\n【一般販売】\n5/23(土)21:00-7/21(火)23:59\n🔗 https://t.co/6QDyvdqbvX\n\n#myojou \n #ミョージョーサマー",
+        "full_text_source": "note_tweet",
+        "id": "2077377150584594793",
+        "media": [
+          {
+            "height": 2719,
+            "media_key": "3_2077362936084140032",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HNRGlYLbkAArKDO.jpg",
+            "width": 4096
+          },
+          {
+            "height": 2896,
+            "media_key": "3_2077362936088338432",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HNRGlYMboAAdmPg.jpg",
+            "width": 4096
+          },
+          {
+            "height": 3508,
+            "media_key": "3_2077362936096620544",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HNRGlYOaAAACEL2.jpg",
+            "width": 2481
+          },
+          {
+            "height": 3508,
+            "media_key": "3_2077362936075694080",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HNRGlYJasAAQSNg.jpg",
+            "width": 2481
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 550,
+                "start": 543,
+                "tag": "myojou"
+              },
+              {
+                "end": 563,
+                "start": 553,
+                "tag": "ミョージョーサマー"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "t-dv.com/0722_UTAGEFES",
+                "end": 541,
+                "expanded_url": "http://t-dv.com/0722_UTAGEFES",
+                "start": 518,
+                "url": "https://t.co/6QDyvdqbvX"
+              }
+            ]
+          },
+          "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            UTAGE FES Vol.5\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n①YOANI LIVE STATION\n🎙11:00-11:20\n📸11:35-12:35（GUNKAN東新宿B1F A）\n\n②西武新宿付近野外特設ステージ\n🎙14:40-15:05\n📸15:20-16:30（新宿プリンスホテル25F B）\n\n③Music Restaurant APEXIA\n🎙17:55-18:15\n📸19:10-20:10（終演後特典会）\n\n⟣date：7/22(水)\n⟣place : Zepp Shinjuku / KABUKICHO TOWER STAGE / 新宿LOFT / SHINJUKU WALLY / Zirco Tokyo / 新宿Marble / YOANI LIVE STATION / 新宿ACB\n⟣open/start：10:00/10:30(予定)\n⟣price：VIP ¥10,000 (Tシャツ付) / 一般¥2,500\n⟣入場特典：明星カード2枚（サインありチェキ）\n\n【一般販売】\n5/23(土)21:00-7/21(火)23:59\n🔗 https://t.co/6QDyvdqbvX\n\n#myojou \n #ミョージョーサマー"
+        },
+        "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            UTAGE FES Vol.5\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n①YOANI LIVE STATION\n🎙11:00-11:20\n📸11:35-12:35（GUNKAN東新宿B1F A）\n\n②西武新宿付近野外特設ステージ\n🎙14:40-15:05\n📸15:20-16:30（新宿プリンスホテル25F B）\n\n③Music https://t.co/ysuBOZYVWZ",
+        "truncated_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            UTAGE FES Vol.5\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n①YOANI LIVE STATION\n🎙11:00-11:20\n📸11:35-12:35（GUNKAN東新宿B1F A）\n\n②西武新宿付近野外特設ステージ\n🎙14:40-15:05\n📸15:20-16:30（新宿プリンスホテル25F B）\n\n③Music https://t.co/ysuBOZYVWZ"
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            UTAGE FES Vol.5\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n①YOANI LIVE STATION\n🎙11:00-11:20\n📸11:35-12:35（GUNKAN東新宿B1F A）\n\n②西武新宿付近野外特設ステージ\n🎙14:40-15:05\n📸15:20-16:30（新宿プリンスホテル25F B）\n\n③Music Restaurant APEXIA\n🎙17:55-18:15\n📸19:10-20:10（終演後特典会）\n\n⟣date：7/22(水)\n⟣place : Zepp Shinjuku / KABUKICHO TOWER STAGE / 新宿LOFT / SHINJUKU WALLY / Zirco Tokyo / 新宿Marble / YOANI LIVE STATION / 新宿ACB\n⟣open/start：10:00/10:30(予定)\n⟣price：VIP ¥10,000 (Tシャツ付) / 一般¥2,500\n⟣入場特典：明星カード2枚（サインありチェキ）\n\n【一般販売】\n5/23(土)21:00-7/21(火)23:59\n🔗 https://t.co/6QDyvdqbvX\n\n#myojou \n #ミョージョーサマー",
+      "truncated_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            UTAGE FES Vol.5\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n①YOANI LIVE STATION\n🎙11:00-11:20\n📸11:35-12:35（GUNKAN東新宿B1F A）\n\n②西武新宿付近野外特設ステージ\n🎙14:40-15:05\n📸15:20-16:30（新宿プリンスホテル25F B）\n\n③Music https://t.co/ysuBOZYVWZ",
+      "url": "https://x.com/info_myojou/status/2077377150584594793"
+    },
+    {
+      "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「ONE AND ONLY 2nd Anniversary day2」\n \n🎙16:00-16:20\n📸16:30-17:30 A\n\n⟣date：7/16（木）\n⟣place : Spotify O-EAST\n⟣open/start：15:00/16:00\n⟣price：前方優先エリア¥11,000/ 一般 ¥4,500/女性･学生¥3,500/当日¥5,000（各＋1D） https://t.co/ttUFTEyL7X",
+      "attachments": {
+        "media_keys": [
+          "3_2077370271342985216"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "day_before_reminder"
+      },
+      "created_at": "2026-07-15T12:30:48+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/ttUFTEyL7X",
+            "end": 235,
+            "expanded_url": "https://x.com/info_myojou/status/2077370292629066035/photo/1",
+            "media_key": "3_2077370271342985216",
+            "start": 212,
+            "url": "https://t.co/ttUFTEyL7X"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2077370292629066035",
+      "media": [
+        {
+          "height": 2047,
+          "media_key": "3_2077370271342985216",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HNRNQWJbAAAD7n6.jpg",
+          "width": 1447
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 305,
+              "start": 298,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "w.pia.jp/t/oneandonly/",
+              "end": 296,
+              "expanded_url": "http://w.pia.jp/t/oneandonly/",
+              "start": 273,
+              "url": "https://t.co/pPcIppunXx"
+            }
+          ]
+        },
+        "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「ONE AND ONLY 2nd Anniversary day2」\n \n🎙16:00-16:20\n📸16:30-17:30 A\n\n⟣date：7/16（木）\n⟣place : Spotify O-EAST\n⟣open/start：15:00/16:00\n⟣price：前方優先エリア¥11,000/ 一般 ¥4,500/女性･学生¥3,500/当日¥5,000（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般発売】\n7/4(土) 20:00 ~ 7/15(火) 23:59\n🔗 https://t.co/pPcIppunXx\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": "16:30-17:30",
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-07-16",
+        "event_dates": [
+          "2026-07-16"
+        ],
+        "event_name": "ONE AND ONLY 2nd Anniversary day2",
+        "extraction_confidence": 0.95,
+        "general_ticket_price": 4500,
+        "lottery_result_at": null,
+        "myojou_performance_time": "16:00-16:20",
+        "notes": "ドリンク代: 各+1D\n⟣入場特典:明星カード(サインありチェキ)",
+        "open_time": "15:00",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "前方優先エリア",
+        "priority_ticket_price": 11000,
+        "same_day_ticket_price": 5000,
+        "source_kind": "day_before_reminder",
+        "source_post_id": "2077370292629066035",
+        "source_posted_at": "2026-07-15T12:30:48Z",
+        "source_raw": {
+          "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「ONE AND ONLY 2nd Anniversary day2」\n \n🎙16:00-16:20\n📸16:30-17:30 A\n\n⟣date：7/16（木）\n⟣place : Spotify O-EAST\n⟣open/start：15:00/16:00\n⟣price：前方優先エリア¥11,000/ 一般 ¥4,500/女性･学生¥3,500/当日¥5,000（各＋1D） https://t.co/ttUFTEyL7X",
+          "attachments": {
+            "media_keys": [
+              "3_2077370271342985216"
+            ]
+          },
+          "created_at": "2026-07-15T12:30:48.000Z",
+          "edit_history_tweet_ids": [
+            "2077370292629066035"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/ttUFTEyL7X",
+                "end": 235,
+                "expanded_url": "https://x.com/info_myojou/status/2077370292629066035/photo/1",
+                "media_key": "3_2077370271342985216",
+                "start": 212,
+                "url": "https://t.co/ttUFTEyL7X"
+              }
+            ]
+          },
+          "full_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「ONE AND ONLY 2nd Anniversary day2」\n \n🎙16:00-16:20\n📸16:30-17:30 A\n\n⟣date：7/16（木）\n⟣place : Spotify O-EAST\n⟣open/start：15:00/16:00\n⟣price：前方優先エリア¥11,000/ 一般 ¥4,500/女性･学生¥3,500/当日¥5,000（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般発売】\n7/4(土) 20:00 ~ 7/15(火) 23:59\n🔗 https://t.co/pPcIppunXx\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2077370292629066035",
+          "media": [
+            {
+              "height": 2047,
+              "media_key": "3_2077370271342985216",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HNRNQWJbAAAD7n6.jpg",
+              "width": 1447
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 305,
+                  "start": 298,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "w.pia.jp/t/oneandonly/",
+                  "end": 296,
+                  "expanded_url": "http://w.pia.jp/t/oneandonly/",
+                  "start": 273,
+                  "url": "https://t.co/pPcIppunXx"
+                }
+              ]
+            },
+            "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「ONE AND ONLY 2nd Anniversary day2」\n \n🎙16:00-16:20\n📸16:30-17:30 A\n\n⟣date：7/16（木）\n⟣place : Spotify O-EAST\n⟣open/start：15:00/16:00\n⟣price：前方優先エリア¥11,000/ 一般 ¥4,500/女性･学生¥3,500/当日¥5,000（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般発売】\n7/4(土) 20:00 ~ 7/15(火) 23:59\n🔗 https://t.co/pPcIppunXx\n\n#myojou"
+          },
+          "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「ONE AND ONLY 2nd Anniversary day2」\n \n🎙16:00-16:20\n📸16:30-17:30 A\n\n⟣date：7/16（木）\n⟣place : Spotify O-EAST\n⟣open/start：15:00/16:00\n⟣price：前方優先エリア¥11,000/ 一般 ¥4,500/女性･学生¥3,500/当日¥5,000（各＋1D） https://t.co/ttUFTEyL7X",
+          "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「ONE AND ONLY 2nd Anniversary day2」\n \n🎙16:00-16:20\n📸16:30-17:30 A\n\n⟣date：7/16（木）\n⟣place : Spotify O-EAST\n⟣open/start：15:00/16:00\n⟣price：前方優先エリア¥11,000/ 一般 ¥4,500/女性･学生¥3,500/当日¥5,000（各＋1D） https://t.co/ttUFTEyL7X"
+        },
+        "source_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「ONE AND ONLY 2nd Anniversary day2」\n \n🎙16:00-16:20\n📸16:30-17:30 A\n\n⟣date：7/16（木）\n⟣place : Spotify O-EAST\n⟣open/start：15:00/16:00\n⟣price：前方優先エリア¥11,000/ 一般 ¥4,500/女性･学生¥3,500/当日¥5,000（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般発売】\n7/4(土) 20:00 ~ 7/15(火) 23:59\n🔗 https://t.co/pPcIppunXx\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2077370292629066035",
+        "start_time": "16:00",
+        "ticket_application_deadline_at": "2026-07-15T23:59:00+09:00",
+        "ticket_application_start_at": "2026-07-04T20:00:00+09:00",
+        "ticket_sale_type": "一般",
+        "ticket_sales": [
+          {
+            "deadline_at": "2026-07-15T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 11000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2077370292629066035",
+            "source_url": "https://x.com/info_myojou/status/2077370292629066035",
+            "start_at": "2026-07-04T20:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "前方",
+            "ticket_tier": "前方"
+          },
+          {
+            "deadline_at": "2026-07-15T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 4500,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2077370292629066035",
+            "source_url": "https://x.com/info_myojou/status/2077370292629066035",
+            "start_at": "2026-07-04T20:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 5000,
+            "result_at": null,
+            "sale_type": "当日券",
+            "source_post_id": "2077370292629066035",
+            "source_url": "https://x.com/info_myojou/status/2077370292629066035",
+            "start_at": null,
+            "status": "販売中",
+            "ticket_name": "当日券",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "http://w.pia.jp/t/oneandonly/",
+        "venue": "Spotify O-EAST"
+      },
+      "raw": {
+        "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「ONE AND ONLY 2nd Anniversary day2」\n \n🎙16:00-16:20\n📸16:30-17:30 A\n\n⟣date：7/16（木）\n⟣place : Spotify O-EAST\n⟣open/start：15:00/16:00\n⟣price：前方優先エリア¥11,000/ 一般 ¥4,500/女性･学生¥3,500/当日¥5,000（各＋1D） https://t.co/ttUFTEyL7X",
+        "attachments": {
+          "media_keys": [
+            "3_2077370271342985216"
+          ]
+        },
+        "created_at": "2026-07-15T12:30:48.000Z",
+        "edit_history_tweet_ids": [
+          "2077370292629066035"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/ttUFTEyL7X",
+              "end": 235,
+              "expanded_url": "https://x.com/info_myojou/status/2077370292629066035/photo/1",
+              "media_key": "3_2077370271342985216",
+              "start": 212,
+              "url": "https://t.co/ttUFTEyL7X"
+            }
+          ]
+        },
+        "full_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「ONE AND ONLY 2nd Anniversary day2」\n \n🎙16:00-16:20\n📸16:30-17:30 A\n\n⟣date：7/16（木）\n⟣place : Spotify O-EAST\n⟣open/start：15:00/16:00\n⟣price：前方優先エリア¥11,000/ 一般 ¥4,500/女性･学生¥3,500/当日¥5,000（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般発売】\n7/4(土) 20:00 ~ 7/15(火) 23:59\n🔗 https://t.co/pPcIppunXx\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2077370292629066035",
+        "media": [
+          {
+            "height": 2047,
+            "media_key": "3_2077370271342985216",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HNRNQWJbAAAD7n6.jpg",
+            "width": 1447
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 305,
+                "start": 298,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "w.pia.jp/t/oneandonly/",
+                "end": 296,
+                "expanded_url": "http://w.pia.jp/t/oneandonly/",
+                "start": 273,
+                "url": "https://t.co/pPcIppunXx"
+              }
+            ]
+          },
+          "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「ONE AND ONLY 2nd Anniversary day2」\n \n🎙16:00-16:20\n📸16:30-17:30 A\n\n⟣date：7/16（木）\n⟣place : Spotify O-EAST\n⟣open/start：15:00/16:00\n⟣price：前方優先エリア¥11,000/ 一般 ¥4,500/女性･学生¥3,500/当日¥5,000（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般発売】\n7/4(土) 20:00 ~ 7/15(火) 23:59\n🔗 https://t.co/pPcIppunXx\n\n#myojou"
+        },
+        "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「ONE AND ONLY 2nd Anniversary day2」\n \n🎙16:00-16:20\n📸16:30-17:30 A\n\n⟣date：7/16（木）\n⟣place : Spotify O-EAST\n⟣open/start：15:00/16:00\n⟣price：前方優先エリア¥11,000/ 一般 ¥4,500/女性･学生¥3,500/当日¥5,000（各＋1D） https://t.co/ttUFTEyL7X",
+        "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「ONE AND ONLY 2nd Anniversary day2」\n \n🎙16:00-16:20\n📸16:30-17:30 A\n\n⟣date：7/16（木）\n⟣place : Spotify O-EAST\n⟣open/start：15:00/16:00\n⟣price：前方優先エリア¥11,000/ 一般 ¥4,500/女性･学生¥3,500/当日¥5,000（各＋1D） https://t.co/ttUFTEyL7X"
+      },
+      "referenced_tweets": [],
+      "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「ONE AND ONLY 2nd Anniversary day2」\n \n🎙16:00-16:20\n📸16:30-17:30 A\n\n⟣date：7/16（木）\n⟣place : Spotify O-EAST\n⟣open/start：15:00/16:00\n⟣price：前方優先エリア¥11,000/ 一般 ¥4,500/女性･学生¥3,500/当日¥5,000（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般発売】\n7/4(土) 20:00 ~ 7/15(火) 23:59\n🔗 https://t.co/pPcIppunXx\n\n#myojou",
+      "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「ONE AND ONLY 2nd Anniversary day2」\n \n🎙16:00-16:20\n📸16:30-17:30 A\n\n⟣date：7/16（木）\n⟣place : Spotify O-EAST\n⟣open/start：15:00/16:00\n⟣price：前方優先エリア¥11,000/ 一般 ¥4,500/女性･学生¥3,500/当日¥5,000（各＋1D） https://t.co/ttUFTEyL7X",
+      "url": "https://x.com/info_myojou/status/2077370292629066035"
+    },
+    {
+      "api_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            ˚.⋆ラジオ配信˖°⋆\n          myojou天体観測 #13\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣2026.07.15 22:00 プレミア公開\n⟣ myojou公式YouTubeチャンネル\n🔗 https://t.co/B4YAW64DiO\n\n #myojou",
+      "attachments": {},
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "radio/non-live",
+        "source_kind": "other"
+      },
+      "created_at": "2026-07-15T12:30:18+00:00",
+      "entities": {
+        "hashtags": [
+          {
+            "end": 173,
+            "start": 166,
+            "tag": "myojou"
+          }
+        ],
+        "urls": [
+          {
+            "description": "「6人の少女が夜明けの空に描くストーリー」 公式X : https://x.com/info_myojou公式TikTok : ...",
+            "display_url": "youtu.be/Zxt8Bu64wHQ?si…",
+            "end": 163,
+            "expanded_url": "https://youtu.be/Zxt8Bu64wHQ?si=m_HzMPIgHnkT1QME",
+            "images": [
+              {
+                "height": 720,
+                "url": "https://pbs.twimg.com/news_img/2077370215499956224/Pvi03P_w?format=jpg&name=orig",
+                "width": 1280
+              },
+              {
+                "height": 150,
+                "url": "https://pbs.twimg.com/news_img/2077370215499956224/Pvi03P_w?format=jpg&name=150x150",
+                "width": 150
+              }
+            ],
+            "start": 140,
+            "status": 200,
+            "title": "myojou天体観測 #13",
+            "unwound_url": "https://www.youtube.com/watch?si=m_HzMPIgHnkT1QME&v=Zxt8Bu64wHQ&feature=youtu.be",
+            "url": "https://t.co/B4YAW64DiO"
+          }
+        ]
+      },
+      "full_text_source": "text",
+      "id": "2077370169140420826",
+      "media": [],
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "note_tweet": null,
+      "parsed_fields": null,
+      "raw": {
+        "api_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            ˚.⋆ラジオ配信˖°⋆\n          myojou天体観測 #13\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣2026.07.15 22:00 プレミア公開\n⟣ myojou公式YouTubeチャンネル\n🔗 https://t.co/B4YAW64DiO\n\n #myojou",
+        "created_at": "2026-07-15T12:30:18.000Z",
+        "edit_history_tweet_ids": [
+          "2077370169140420826"
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "end": 173,
+              "start": 166,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "description": "「6人の少女が夜明けの空に描くストーリー」 公式X : https://x.com/info_myojou公式TikTok : ...",
+              "display_url": "youtu.be/Zxt8Bu64wHQ?si…",
+              "end": 163,
+              "expanded_url": "https://youtu.be/Zxt8Bu64wHQ?si=m_HzMPIgHnkT1QME",
+              "images": [
+                {
+                  "height": 720,
+                  "url": "https://pbs.twimg.com/news_img/2077370215499956224/Pvi03P_w?format=jpg&name=orig",
+                  "width": 1280
+                },
+                {
+                  "height": 150,
+                  "url": "https://pbs.twimg.com/news_img/2077370215499956224/Pvi03P_w?format=jpg&name=150x150",
+                  "width": 150
+                }
+              ],
+              "start": 140,
+              "status": 200,
+              "title": "myojou天体観測 #13",
+              "unwound_url": "https://www.youtube.com/watch?si=m_HzMPIgHnkT1QME&v=Zxt8Bu64wHQ&feature=youtu.be",
+              "url": "https://t.co/B4YAW64DiO"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            ˚.⋆ラジオ配信˖°⋆\n          myojou天体観測 #13\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣2026.07.15 22:00 プレミア公開\n⟣ myojou公式YouTubeチャンネル\n🔗 https://t.co/B4YAW64DiO\n\n #myojou",
+        "full_text_source": "text",
+        "id": "2077370169140420826",
+        "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            ˚.⋆ラジオ配信˖°⋆\n          myojou天体観測 #13\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣2026.07.15 22:00 プレミア公開\n⟣ myojou公式YouTubeチャンネル\n🔗 https://t.co/B4YAW64DiO\n\n #myojou",
+        "truncated_text": null
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            ˚.⋆ラジオ配信˖°⋆\n          myojou天体観測 #13\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣2026.07.15 22:00 プレミア公開\n⟣ myojou公式YouTubeチャンネル\n🔗 https://t.co/B4YAW64DiO\n\n #myojou",
+      "truncated_text": null,
+      "url": "https://x.com/info_myojou/status/2077370169140420826"
+    },
+    {
+      "api_text": "✯••┈┈Tiktok┈┈••✯\nアンチコンプリート-myojou\nhttps://t.co/Pe3rR85tgV\n\n#myojou",
+      "attachments": {},
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "content/MV-like post",
+        "source_kind": "other"
+      },
+      "created_at": "2026-07-15T08:35:03+00:00",
+      "entities": {
+        "hashtags": [
+          {
+            "end": 66,
+            "start": 59,
+            "tag": "myojou"
+          }
+        ],
+        "urls": [
+          {
+            "display_url": "vt.tiktok.com/ZSXBuFhya/",
+            "end": 57,
+            "expanded_url": "https://vt.tiktok.com/ZSXBuFhya/",
+            "images": [
+              {
+                "height": 630,
+                "url": "https://pbs.twimg.com/news_img/2077310975217487872/L7pgA37Y?format=jpg&name=orig",
+                "width": 1200
+              },
+              {
+                "height": 150,
+                "url": "https://pbs.twimg.com/news_img/2077310975217487872/L7pgA37Y?format=jpg&name=150x150",
+                "width": 150
+              }
+            ],
+            "start": 34,
+            "status": 200,
+            "title": "TikTok · myojou",
+            "unwound_url": "https://www.tiktok.com/@myojou2/video/7662670192476032263?_r=1&_t=ZS-9836t5KUX4S",
+            "url": "https://t.co/Pe3rR85tgV"
+          }
+        ]
+      },
+      "full_text_source": "text",
+      "id": "2077310967588024829",
+      "media": [],
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "note_tweet": null,
+      "parsed_fields": null,
+      "raw": {
+        "api_text": "✯••┈┈Tiktok┈┈••✯\nアンチコンプリート-myojou\nhttps://t.co/Pe3rR85tgV\n\n#myojou",
+        "created_at": "2026-07-15T08:35:03.000Z",
+        "edit_history_tweet_ids": [
+          "2077310967588024829"
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "end": 66,
+              "start": 59,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "vt.tiktok.com/ZSXBuFhya/",
+              "end": 57,
+              "expanded_url": "https://vt.tiktok.com/ZSXBuFhya/",
+              "images": [
+                {
+                  "height": 630,
+                  "url": "https://pbs.twimg.com/news_img/2077310975217487872/L7pgA37Y?format=jpg&name=orig",
+                  "width": 1200
+                },
+                {
+                  "height": 150,
+                  "url": "https://pbs.twimg.com/news_img/2077310975217487872/L7pgA37Y?format=jpg&name=150x150",
+                  "width": 150
+                }
+              ],
+              "start": 34,
+              "status": 200,
+              "title": "TikTok · myojou",
+              "unwound_url": "https://www.tiktok.com/@myojou2/video/7662670192476032263?_r=1&_t=ZS-9836t5KUX4S",
+              "url": "https://t.co/Pe3rR85tgV"
+            }
+          ]
+        },
+        "full_text": "✯••┈┈Tiktok┈┈••✯\nアンチコンプリート-myojou\nhttps://t.co/Pe3rR85tgV\n\n#myojou",
+        "full_text_source": "text",
+        "id": "2077310967588024829",
+        "text": "✯••┈┈Tiktok┈┈••✯\nアンチコンプリート-myojou\nhttps://t.co/Pe3rR85tgV\n\n#myojou",
+        "truncated_text": null
+      },
+      "referenced_tweets": [],
+      "text": "✯••┈┈Tiktok┈┈••✯\nアンチコンプリート-myojou\nhttps://t.co/Pe3rR85tgV\n\n#myojou",
+      "truncated_text": null,
+      "url": "https://x.com/info_myojou/status/2077310967588024829"
+    },
+    {
       "api_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n       #ミョージョーサマー番外編\n           TIF2026直前決起集会\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：7/29（水）\n⟣place :WOMB LIVE\n⟣open/start：18:30/19:00\n⟣price：VIP¥5,000/一般¥0（各+1D） https://t.co/JSzjTyBSeu",
       "attachments": {
         "media_keys": [
@@ -118806,7 +119681,7 @@
     "backfill": true,
     "dry_run": true,
     "estimated_x_post_reads": 411,
-    "latest_post_id": "2077015454560989363",
+    "latest_post_id": "2077377150584594793",
     "max_pages": 10,
     "max_posts": 500,
     "max_results": 5,
@@ -118849,16 +119724,16 @@
       }
     ],
     "pages_fetched": 5,
-    "posts_fetched": 551,
+    "posts_fetched": 555,
     "rate_limit_headers": {
       "x-rate-limit-limit": "10000",
       "x-rate-limit-remaining": "9993",
       "x-rate-limit-reset": "1781108896"
     },
-    "total_posts": 551,
-    "updated_at": "2026-07-14T20:15:44.312674+00:00",
+    "total_posts": 555,
+    "updated_at": "2026-07-15T20:13:00.758892+00:00",
     "username": "info_myojou"
   },
   "source": "x_api",
-  "updated_at": "2026-07-14T20:15:44.312674+00:00"
+  "updated_at": "2026-07-15T20:13:00.758892+00:00"
 }
