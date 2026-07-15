@@ -1429,7 +1429,8 @@ def _date_from_match(match: re.Match[str], posted_date: date, *, event_date: dat
 def _ticket_sale_anchor_date(event_dates: list[date], event_date: date | None) -> date | None:
     if not event_date:
         return None
-    occurrence_dates = [candidate for candidate in event_dates if abs((candidate - event_date).days) <= 14]
+    anchor_window_days = 14
+    occurrence_dates = [candidate for candidate in event_dates if abs((candidate - event_date).days) <= anchor_window_days]
     return max(occurrence_dates) if occurrence_dates else event_date
 
 
