@@ -136,9 +136,11 @@ class PostParser:
         ticket_price_tiers = self.extract_ticket_price_tiers(text)
         notes = self.extract_notes(text, source_kind)
         source_url = self.source_url_for_post(post)
+        ticket_sale_anchor_date = _ticket_sale_anchor_date(event_dates, event_date)
         ticket_sales = self.extract_ticket_sales(
             text,
             post.created_at,
+            event_date=ticket_sale_anchor_date,
             source_url=source_url,
             source_post_id=post.id,
             ticket_sale_type=ticket_sale_type,
@@ -675,6 +677,7 @@ class PostParser:
         text: str,
         posted_at: datetime,
         *,
+        event_date: date | None = None,
         source_url: str,
         source_post_id: str,
         ticket_sale_type: str | None,
@@ -692,19 +695,19 @@ class PostParser:
         periods: list[TicketSalePeriod] = []
         pending_sale_type: str | None = None
         for line in _lines(text):
-            period = self._ticket_sale_period_from_line(line, posted_at, source_url, source_post_id)
+            period = self._ticket_sale_period_from_line(line, posted_at, source_url, source_post_id, event_date=event_date)
             if period:
                 periods.append(period)
                 pending_sale_type = None
                 continue
-            datetimes = _extract_datetimes(_normalize(line), posted_at)
-            if pending_sale_type and len(datetimes) >= 2:
+            start_at, deadline_at = _extract_sale_period_datetimes(_normalize(line), posted_at, event_date=event_date)
+            if pending_sale_type and (start_at or deadline_at):
                 periods.append(
                     TicketSalePeriod(
                         sale_type=pending_sale_type,
                         ticket_tier="不明",
-                        start_at=datetimes[0],
-                        deadline_at=datetimes[1],
+                        start_at=start_at,
+                        deadline_at=deadline_at,
                         status=ticket_status_label_for_period(ticket_status),
                         source_url=source_url,
                         source_post_id=source_post_id,
@@ -713,8 +716,10 @@ class PostParser:
                 pending_sale_type = None
                 continue
             sale_type = _sale_type_from_text(line)
-            if sale_type:
+            if sale_type and _is_sale_period_header(line):
                 pending_sale_type = sale_type
+            elif _is_generic_sale_period_header(line):
+                pending_sale_type = "不明"
 
         periods = _expand_generic_dated_periods_with_price_tiers(periods, ticket_price_tiers)
         for period in periods:
@@ -834,6 +839,8 @@ class PostParser:
         posted_at: datetime,
         source_url: str,
         source_post_id: str,
+        *,
+        event_date: date | None = None,
     ) -> TicketSalePeriod | None:
         normalized = _normalize(line)
         if any(label in normalized for label in ("当落発表", "支払期限", "支払い期限", "入金期限")):
@@ -841,9 +848,11 @@ class PostParser:
         if _is_global_ticket_datetime_line(normalized):
             return None
         sale_type = _sale_type_from_text(normalized)
+        if sale_type is None and _is_generic_sale_period_header(normalized):
+            sale_type = "不明"
         if sale_type is None:
             return None
-        if sale_type == "無料" and "販売方式" not in normalized and not _extract_datetimes(normalized, posted_at) and normalize_price(normalized) is None:
+        if sale_type == "無料" and "販売方式" not in normalized and not _extract_datetimes(normalized, posted_at, event_date=event_date) and normalize_price(normalized) is None:
             return None
         if sale_type == "無料" and "販売方式" in normalized and "無料" in normalized:
             return TicketSalePeriod(
@@ -856,9 +865,11 @@ class PostParser:
                 source_post_id=source_post_id,
             )
 
-        datetimes = _extract_datetimes(normalized, posted_at)
-        start_at = datetimes[0] if datetimes else None
-        deadline_at = datetimes[1] if len(datetimes) >= 2 else None
+        start_at, deadline_at = _extract_sale_period_datetimes(normalized, posted_at, event_date=event_date)
+        if not start_at and not deadline_at:
+            datetimes = _extract_datetimes(normalized, posted_at, event_date=event_date)
+            start_at = datetimes[0] if datetimes else None
+            deadline_at = datetimes[1] if len(datetimes) >= 2 else None
         price = normalize_price(normalized)
         ticket_tier = _ticket_tier(normalized)
         ticket_name = _ticket_name_from_line(normalized, ticket_tier)
@@ -1328,23 +1339,131 @@ def _has_free_price_label(text: str) -> bool:
 
 _DATETIME_RE = re.compile(
     r"(?:(?P<year>20\d{2})[年/\-.])?(?P<month>\d{1,2})(?:月|[/\.])(?P<day>\d{1,2})日?"
-    r"(?:[（(][月火水木金土日][）)])?"
+    r"\s*(?:[（(][月火水木金土日](?:祝)?[）)])?"
     r"\s*(?P<time>\d{1,2}(?:[:：]\d{2}|時\d{0,2}分?))?"
 )
+_SALE_PERIOD_SEPARATOR_RE = re.compile(r"(?:-|ー|–|－|〜|～|~)")
 
 
-def _extract_datetimes(value: str, posted_at: datetime) -> list[datetime]:
+def _extract_datetimes(value: str, posted_at: datetime, *, event_date: date | None = None) -> list[datetime]:
     posted_date = _local_posted_date(posted_at)
     parsed: list[datetime] = []
     for match in _DATETIME_RE.finditer(value):
-        date_part = match.group(0)
-        parsed_date = parse_event_date(date_part, posted_date)
+        parsed_date = _date_from_match(match, posted_date, event_date=event_date)
         if not parsed_date:
             continue
         parsed_time = normalize_time(match.group("time") or "")
         parsed_clock = time.fromisoformat(parsed_time) if parsed_time else time(0, 0)
         parsed.append(datetime.combine(parsed_date, parsed_clock, tzinfo=_JST))
     return parsed
+
+
+def _extract_sale_period_datetimes(
+    value: str,
+    posted_at: datetime,
+    *,
+    event_date: date | None = None,
+) -> tuple[datetime | None, datetime | None]:
+    posted_date = _local_posted_date(posted_at)
+    matches = list(_DATETIME_RE.finditer(value))
+    if not matches:
+        return None, None
+
+    if len(matches) >= 2:
+        start_at = _datetime_from_match(matches[0], posted_date, require_time=True, event_date=event_date)
+        deadline_at = _datetime_from_match(matches[1], posted_date, require_time=False, event_date=event_date)
+        return start_at, deadline_at
+
+    match = matches[0]
+    prefix = value[: match.start()].strip()
+    suffix = value[match.end() :].strip()
+    if _SALE_PERIOD_SEPARATOR_RE.search(prefix[-2:]):
+        return None, _datetime_from_match(match, posted_date, require_time=False, event_date=event_date)
+    if _SALE_PERIOD_SEPARATOR_RE.match(suffix):
+        return _datetime_from_match(match, posted_date, require_time=True, event_date=event_date), None
+    return _datetime_from_match(match, posted_date, require_time=True, event_date=event_date), None
+
+
+def _datetime_from_match(
+    match: re.Match[str],
+    posted_date: date,
+    *,
+    require_time: bool,
+    event_date: date | None = None,
+) -> datetime | None:
+    parsed_date = _date_from_match(match, posted_date, event_date=event_date)
+    if not parsed_date:
+        return None
+    parsed_time = normalize_time(match.group("time") or "")
+    if require_time and not parsed_time:
+        return None
+    parsed_clock = time.fromisoformat(parsed_time) if parsed_time else time(0, 0)
+    return datetime.combine(parsed_date, parsed_clock, tzinfo=_JST)
+
+
+def _date_from_match(match: re.Match[str], posted_date: date, *, event_date: date | None = None) -> date | None:
+    if match.group("year"):
+        parsed_date = parse_event_date(match.group(0), posted_date)
+        return parsed_date
+    month = int(match.group("month"))
+    day = int(match.group("day"))
+    if event_date is None:
+        parsed_date = parse_event_date(match.group(0), posted_date)
+        return parsed_date
+
+    candidates: list[date] = []
+    for year in (event_date.year - 1, event_date.year, event_date.year + 1):
+        try:
+            candidates.append(date(year, month, day))
+        except ValueError:
+            continue
+    if not candidates:
+        return None
+
+    plausible_before_event = [candidate for candidate in candidates if candidate <= event_date]
+    if plausible_before_event:
+        return max(plausible_before_event)
+    return min(candidates, key=lambda candidate: abs((candidate - event_date).days))
+
+
+def _ticket_sale_anchor_date(event_dates: list[date], event_date: date | None) -> date | None:
+    if not event_date:
+        return None
+    occurrence_dates = [candidate for candidate in event_dates if abs((candidate - event_date).days) <= 14]
+    return max(occurrence_dates) if occurrence_dates else event_date
+
+
+def _is_generic_sale_period_header(value: str) -> bool:
+    normalized = _normalize(value)
+    return any(label in normalized for label in ("販売期間", "受付期間"))
+
+
+def _is_sale_period_header(value: str) -> bool:
+    normalized = _normalize(value)
+    if "販売方式" in normalized or _is_global_ticket_datetime_line(normalized):
+        return False
+    return any(
+        label in normalized
+        for label in (
+            "抽選販売",
+            "抽選受付",
+            "抽選申込",
+            "抽選期間",
+            "先行抽選",
+            "先行(抽選)",
+            "先行（抽選）",
+            "先行受付",
+            "一般販売",
+            "一般発売",
+            "一般受付",
+            "一般先着",
+            "先着販売",
+            "先着発売",
+            "先着受付",
+            "先行販売",
+            "先行先着",
+        )
+    )
 
 
 def _sale_type_from_text(value: str) -> str | None:
@@ -1357,7 +1476,7 @@ def _sale_type_from_text(value: str) -> str | None:
         return "一般"
     if any(word in normalized for word in ("抽選受付", "抽選販売", "抽選申込", "先行抽選", "抽選", "当落")):
         return "抽選"
-    if any(word in normalized for word in ("先着販売", "先着受付", "先着", "受付開始", "受付締切", "販売開始", "販売終了")):
+    if any(word in normalized for word in ("先着販売", "先着発売", "先着受付", "先着", "受付開始", "受付締切", "販売開始", "販売終了")):
         return "先着"
     return None
 
@@ -1719,7 +1838,7 @@ def _is_structured_field_line(value: str) -> bool:
         re.match(
             r"^(?:date|day|place|venue|open/start|open|start|price|ticket|url|link|"
             r"日付|場所|会場|開場|開演|料金|入場料|特典会|出演時間|"
-            r"一般販売|一般発売|抽選受付|抽選販売|抽選申込|先行抽選|先行販売|先着販売|先着受付|販売期間|受付期間|"
+            r"一般販売|一般発売|一般先着|抽選受付|抽選販売|抽選申込|抽選期間|先行抽選|先行受付|先行販売|先行先着|先着販売|先着発売|先着受付|販売期間|受付期間|"
             r"受付開始|受付締切|販売開始|販売終了|申込開始|申込締切|当落発表|支払期限|入金期限)",
             compact,
             flags=re.I,

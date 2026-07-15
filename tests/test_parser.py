@@ -420,6 +420,413 @@ def test_general_release_and_first_come_reception_patterns_parse():
     assert parsed.ticket_sales[1].deadline_at == datetime(2026, 5, 30, 12, 0, tzinfo=JST)
 
 
+def test_generic_sale_period_full_range_with_times_parse():
+    parsed = PostParser().parse_post(
+        XPost(
+            id="generic-sale-period-full-range",
+            created_at=datetime(2026, 6, 20, 3, 0, tzinfo=JST),
+            text=(
+                "✮••┈┈┈••✮\n"
+                "蒼夏序章\n"
+                "✮••┈┈┈••✮\n\n"
+                "⟣date：7/6（月）\n"
+                "⟣place : 池袋西口公園野外劇場 グローバルリング シアター\n"
+                "⟣open/start：TBA/TBA\n"
+                "⟣price：前方¥4,500/一般¥1,000（各+1D）/後方観覧無料\n\n"
+                "【販売期間】\n"
+                "6/9(火)22:00〜7/5(火)23:59\n"
+                "🔗 https://t-dv.com/souka"
+            ),
+        )
+    )
+
+    assert parsed is not None
+    dated_periods = [period for period in parsed.ticket_sales if period.deadline_at]
+    assert dated_periods
+    assert all(period.start_at == datetime(2026, 6, 9, 22, 0, tzinfo=JST) for period in dated_periods)
+    assert all(period.deadline_at == datetime(2026, 7, 5, 23, 59, tzinfo=JST) for period in dated_periods)
+
+
+def test_generic_sale_period_date_only_start_keeps_start_empty_and_parses_deadline():
+    parsed = PostParser().parse_post(
+        XPost(
+            id="generic-sale-period-date-only-start",
+            created_at=datetime(2026, 7, 10, 3, 0, tzinfo=JST),
+            text=(
+                "✮••┈┈┈••✮\n"
+                "ッスッゴイライブ\n"
+                "✮••┈┈┈••✮\n\n"
+                "⟣date：7/18（土）\n"
+                "⟣place : 品川インターシティホール\n"
+                "⟣open/start：8:30/9:00\n"
+                "⟣price：前方¥8,000/一般 ¥3,500（各+1D）\n\n"
+                "【販売期間】\n"
+                "7/10（金）-7/17（金）23:59\n"
+                "🔗 https://t-dv.com/ssuggoi"
+            ),
+        )
+    )
+
+    assert parsed is not None
+    dated_periods = [period for period in parsed.ticket_sales if period.deadline_at]
+    assert dated_periods
+    assert all(period.start_at is None for period in dated_periods)
+    assert all(period.deadline_at == datetime(2026, 7, 17, 23, 59, tzinfo=JST) for period in dated_periods)
+
+
+def test_first_come_end_only_deadline_with_holiday_weekday_parse():
+    parsed = PostParser().parse_post(
+        XPost(
+            id="first-come-end-only-deadline",
+            created_at=datetime(2026, 7, 13, 3, 0, tzinfo=JST),
+            text=(
+                "✮••┈┈┈••✮\n"
+                "IDOL STORM\n"
+                "✮••┈┈┈••✮\n\n"
+                "⟣date：7/20（月祝）\n"
+                "⟣place : Spotify O-WEST\n"
+                "⟣open/start：TBA/TBA\n"
+                "⟣price：前方¥7,000/一般¥2,500\n\n"
+                "【先着販売】\n"
+                "-7/20（月祝）21:59\n"
+                "🔗 https://tiget.net/events/idol-storm"
+            ),
+        )
+    )
+
+    assert parsed is not None
+    dated_periods = [period for period in parsed.ticket_sales if period.deadline_at]
+    assert dated_periods
+    assert {period.sale_type for period in dated_periods} == {"先着"}
+    assert all(period.start_at is None for period in dated_periods)
+    assert all(period.deadline_at == datetime(2026, 7, 20, 21, 59, tzinfo=JST) for period in dated_periods)
+
+
+def test_explicit_spaced_weekday_ranges_preserve_start_and_deadline_times():
+    parsed = PostParser().parse_post(
+        XPost(
+            id="explicit-spaced-weekday-ranges",
+            created_at=datetime(2026, 6, 18, 3, 0, tzinfo=JST),
+            text=(
+                "✮••┈┈┈••✮\n"
+                "IDOL STORM\n"
+                "✮••┈┈┈••✮\n\n"
+                "⟣date：8/15（土）\n"
+                "⟣place : Music restaurant APEXIA\n"
+                "⟣open/start：10:30/10:50\n"
+                "⟣price：前方 ¥8,000 / 一般 ¥2,500（各＋1D）\n\n"
+                "【先行抽選】\n"
+                "6/18 (木) 21:00 - 7/7 (火) 23:59\n"
+                "【先着販売】\n"
+                "7/8 (水) 21:00 - 8/15 (土) 16:00\n"
+                "🔗 https://ticketdive.com/event/idolstorm_0815"
+            ),
+        )
+    )
+
+    assert parsed is not None
+    lottery_periods = [period for period in parsed.ticket_sales if period.sale_type == "抽選"]
+    first_come_periods = [period for period in parsed.ticket_sales if period.sale_type == "先着"]
+    assert lottery_periods
+    assert first_come_periods
+    assert all(period.start_at == datetime(2026, 6, 18, 21, 0, tzinfo=JST) for period in lottery_periods)
+    assert all(period.deadline_at == datetime(2026, 7, 7, 23, 59, tzinfo=JST) for period in lottery_periods)
+    assert all(period.start_at == datetime(2026, 7, 8, 21, 0, tzinfo=JST) for period in first_come_periods)
+    assert all(period.deadline_at == datetime(2026, 8, 15, 16, 0, tzinfo=JST) for period in first_come_periods)
+
+
+def test_open_ended_general_sales_are_preserved_with_lottery_period():
+    parsed = PostParser().parse_post(
+        XPost(
+            id="2021543846337818936",
+            created_at=datetime(2026, 2, 1, 3, 0, tzinfo=JST),
+            raw={"url": "https://x.com/info_myojou/status/2021543846337818936"},
+            text=(
+                "✮••┈┈┈┈••✮••┈┈┈┈••✮\n"
+                "           Appare! ひなまつり\n"
+                "✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n"
+                "🎙9:15-9:30\n"
+                "📸9:40-10:40\n\n"
+                "⟣date：2026年3月3日（火）\n"
+                "⟣place : 有楽町ヒューリックホール\n"
+                "⟣open/start：8:30/9:00（予定）\n"
+                "⟣price：ひなまつりチケット¥8,000/一般チケット：¥3,500（各+1D）\n\n"
+                "<ひなまつりチケット>\n"
+                "抽選受付：2/5(木)20:00〜2/23(月祝)23:59\n"
+                "一般発売：2/24(火)20:00〜\n"
+                "<一般チケット>\n"
+                "一般発売：2/5(木)20:00〜\n"
+                "🔗 https://t-dv.com/appare-hinamatsuri"
+            ),
+        )
+    )
+
+    assert parsed is not None
+    lottery_periods = [period for period in parsed.ticket_sales if period.sale_type == "抽選"]
+    general_periods = [period for period in parsed.ticket_sales if period.sale_type == "一般"]
+    assert lottery_periods
+    assert len(general_periods) == 2
+    assert all(period.start_at == datetime(2026, 2, 5, 20, 0, tzinfo=JST) for period in lottery_periods)
+    assert all(period.deadline_at == datetime(2026, 2, 23, 23, 59, tzinfo=JST) for period in lottery_periods)
+    assert {period.start_at for period in general_periods} == {
+        datetime(2026, 2, 5, 20, 0, tzinfo=JST),
+        datetime(2026, 2, 24, 20, 0, tzinfo=JST),
+    }
+    assert all(period.deadline_at is None for period in general_periods)
+
+
+def test_ticket_sale_years_are_anchored_to_event_date_not_post_date():
+    parsed = PostParser().parse_post(
+        XPost(
+            id="sale-year-anchor",
+            created_at=datetime(2026, 7, 1, 3, 0, tzinfo=JST),
+            text=(
+                "LEADING SPRING\n"
+                "日付：2026/3/21(土)\n"
+                "会場：渋谷近未来会館\n"
+                "料金：前方 8,000円 / 一般 3,000円\n"
+                "【先行抽選】\n"
+                "2/16(月) 21:00〜3/9(月) 23:59\n"
+                "【一般販売】\n"
+                "3/10(火) 21:00〜\n"
+                "https://ticketdive.com/event/leading-spring"
+            ),
+        )
+    )
+
+    assert parsed is not None
+    lottery_periods = [period for period in parsed.ticket_sales if period.sale_type == "抽選"]
+    general_periods = [period for period in parsed.ticket_sales if period.sale_type == "一般"]
+    assert lottery_periods
+    assert general_periods
+    assert all(period.start_at == datetime(2026, 2, 16, 21, 0, tzinfo=JST) for period in lottery_periods)
+    assert all(period.deadline_at == datetime(2026, 3, 9, 23, 59, tzinfo=JST) for period in lottery_periods)
+    assert all(period.start_at == datetime(2026, 3, 10, 21, 0, tzinfo=JST) for period in general_periods)
+    assert {period.start_at.year for period in parsed.ticket_sales if period.start_at} == {2026}
+    assert {period.deadline_at.year for period in parsed.ticket_sales if period.deadline_at} == {2026}
+
+
+def test_multiple_sale_phases_before_summer_event_use_same_event_year():
+    parsed = PostParser().parse_post(
+        XPost(
+            id="2073014604645703697",
+            created_at=datetime(2026, 7, 1, 3, 0, tzinfo=JST),
+            text=(
+                "1YOANI LIVE STATION\n"
+                "日付：2026/7/22(水)\n"
+                "会場：YOANI Live Station\n"
+                "料金：前方 6,000円 / 一般 2,500円\n"
+                "【先行抽選】\n"
+                "4/22(水)21:00-5/22(金)23:59\n"
+                "【一般販売】\n"
+                "5/23(土)21:00〜7/21(火)23:59\n"
+                "https://t-dv.com/1yoani-live-station"
+            ),
+        )
+    )
+
+    assert parsed is not None
+    lottery_periods = [period for period in parsed.ticket_sales if period.sale_type == "抽選"]
+    general_periods = [period for period in parsed.ticket_sales if period.sale_type == "一般"]
+    assert lottery_periods
+    assert general_periods
+    assert all(period.start_at == datetime(2026, 4, 22, 21, 0, tzinfo=JST) for period in lottery_periods)
+    assert all(period.deadline_at == datetime(2026, 5, 22, 23, 59, tzinfo=JST) for period in lottery_periods)
+    assert all(period.start_at == datetime(2026, 5, 23, 21, 0, tzinfo=JST) for period in general_periods)
+    assert all(period.deadline_at == datetime(2026, 7, 21, 23, 59, tzinfo=JST) for period in general_periods)
+
+
+def test_december_to_january_sale_range_uses_previous_year_for_early_event():
+    parsed = PostParser().parse_post(
+        XPost(
+            id="winter-year-crossing-sale",
+            created_at=datetime(2026, 6, 1, 3, 0, tzinfo=JST),
+            text=(
+                "NEW YEAR LIVE\n"
+                "日付：2026/1/15(木)\n"
+                "会場：Spotify O-nest\n"
+                "料金：一般 3,000円\n"
+                "【先行抽選】\n"
+                "12/20(土) 20:00〜1/10(土) 23:59\n"
+                "https://t-dv.com/new-year-live"
+            ),
+        )
+    )
+
+    assert parsed is not None
+    dated_periods = [period for period in parsed.ticket_sales if period.deadline_at]
+    assert dated_periods
+    assert all(period.start_at == datetime(2025, 12, 20, 20, 0, tzinfo=JST) for period in dated_periods)
+    assert all(period.deadline_at == datetime(2026, 1, 10, 23, 59, tzinfo=JST) for period in dated_periods)
+
+
+def test_multi_day_event_anchors_ticket_deadline_to_last_event_date():
+    parsed = PostParser().parse_post(
+        XPost(
+            id="multi-day-sale-anchor",
+            created_at=datetime(2026, 7, 4, 21, 0, tzinfo=JST),
+            text=(
+                "超NATSUZOME 2026 Day2\n"
+                "⟣date：7/4(土)、7/5(日)\n"
+                "⟣place : 幕張海浜公園Gブロック特設会場\n"
+                "⟣price：1Day前売り¥8,000/2Days通し券¥14,000\n"
+                "【一般販売】\n"
+                "5/22（金）20:30-7/5（日）5:59\n"
+                "https://ticketdive.com/event/natsuzome"
+            ),
+        )
+    )
+
+    assert parsed is not None
+    assert parsed.event_date == date(2026, 7, 4)
+    assert parsed.event_dates == [date(2026, 7, 4), date(2026, 7, 5)]
+    dated_periods = [period for period in parsed.ticket_sales if period.deadline_at]
+    assert dated_periods
+    assert all(period.start_at == datetime(2026, 5, 22, 20, 30, tzinfo=JST) for period in dated_periods)
+    assert all(period.deadline_at == datetime(2026, 7, 5, 5, 59, tzinfo=JST) for period in dated_periods)
+
+
+def test_secondary_first_come_header_preserves_neo_kassen_sale_dates():
+    parsed = PostParser().parse_post(
+        XPost(
+            id="2066430868936380727",
+            created_at=datetime(2026, 6, 14, 3, 0, tzinfo=JST),
+            text=(
+                "NEO JAPONISM主催フェス 「NEO KASSEN2026」\n"
+                "date: 8/10（日）\n"
+                "place: Spotify O-EAST\n"
+                "price：SS¥2,026/一般¥6,500/当日 ¥7,500\n"
+                "【二次先行先着】\n"
+                "6月15日(月) 17:00 ~ 7月6日(月) 23:59\n"
+                "https://ticketdive.com/event/neokassen2026"
+            ),
+        )
+    )
+
+    assert parsed is not None
+    dated_periods = [period for period in parsed.ticket_sales if period.deadline_at]
+    assert dated_periods
+    assert {period.sale_type for period in dated_periods} == {"先着"}
+    assert all(period.start_at == datetime(2026, 6, 15, 17, 0, tzinfo=JST) for period in dated_periods)
+    assert all(period.deadline_at == datetime(2026, 7, 6, 23, 59, tzinfo=JST) for period in dated_periods)
+    assert {(period.ticket_tier, period.price) for period in dated_periods} >= {("SS", 2026), ("一般", 6500)}
+
+
+def test_general_first_come_header_preserves_neat_meets_premium_dates():
+    parsed = PostParser().parse_post(
+        XPost(
+            id="2042217750677127571",
+            created_at=datetime(2026, 4, 6, 3, 0, tzinfo=JST),
+            text=(
+                "Neat Meets vol.18 -PREMIUM-\n"
+                "date：4/25(土)\n"
+                "place：Spotify O-WEST\n"
+                "price：前方チケット¥8,000/一般チケット¥3,500\n"
+                "【一般先着】\n"
+                "4/6(月)20:00〜4/24(金)23:59\n"
+                "https://t-dv.com/neat18-premium"
+            ),
+        )
+    )
+
+    assert parsed is not None
+    dated_periods = [period for period in parsed.ticket_sales if period.deadline_at]
+    assert len(dated_periods) == 2
+    assert {period.price for period in dated_periods} == {8000, 3500}
+    assert all(period.sale_type == "先着" for period in dated_periods)
+    assert all(period.start_at == datetime(2026, 4, 6, 20, 0, tzinfo=JST) for period in dated_periods)
+    assert all(period.deadline_at == datetime(2026, 4, 24, 23, 59, tzinfo=JST) for period in dated_periods)
+
+
+def test_selfish_lottery_and_general_first_come_periods_are_preserved():
+    parsed = PostParser().parse_post(
+        XPost(
+            id="2034601219575169118",
+            created_at=datetime(2026, 3, 8, 3, 0, tzinfo=JST),
+            text=(
+                "selfish主催 selfish festival\n"
+                "date：3/25(水)\n"
+                "place：白金高輪SELENE b2\n"
+                "price：前方 ¥6,000 / 一般 ¥2,000\n"
+                "【抽選期間】\n"
+                "3月9日(月)22:00〜3月13日(金)23:59\n"
+                "【一般先着】\n"
+                "3月14日(土)22:00〜3月24日(火)23:59\n"
+                "https://ticketdive.com/event/selfish"
+            ),
+        )
+    )
+
+    assert parsed is not None
+    dated_periods = [period for period in parsed.ticket_sales if period.deadline_at]
+    assert len(dated_periods) == 4
+    lottery_periods = [period for period in dated_periods if period.sale_type == "抽選"]
+    general_periods = [period for period in dated_periods if period.sale_type == "先着"]
+    assert len(lottery_periods) == 2
+    assert len(general_periods) == 2
+    assert all(period.start_at == datetime(2026, 3, 9, 22, 0, tzinfo=JST) for period in lottery_periods)
+    assert all(period.deadline_at == datetime(2026, 3, 13, 23, 59, tzinfo=JST) for period in lottery_periods)
+    assert all(period.start_at == datetime(2026, 3, 14, 22, 0, tzinfo=JST) for period in general_periods)
+    assert all(period.deadline_at == datetime(2026, 3, 24, 23, 59, tzinfo=JST) for period in general_periods)
+
+
+def test_one_and_only_keeps_lottery_general_and_same_day_ticket_periods():
+    parsed = PostParser().parse_post(
+        XPost(
+            id="one-and-only-sale-phases",
+            created_at=datetime(2026, 6, 15, 3, 0, tzinfo=JST),
+            text=(
+                "ONE AND ONLY 2nd Anniversary day2\n"
+                "date：7/16(木)\n"
+                "place：Zepp Shinjuku\n"
+                "price：前方優先エリア¥11,000/一般¥4,500/女性･学生¥3,500/当日¥5,000\n"
+                "【先行（抽選）】\n"
+                "6/15(月) 20:30 ~ 6/29(月) 23:59\n"
+                "【一般発売】\n"
+                "7/4(土) 20:00 ~ 7/15(火) 23:59\n"
+                "https://w.pia.jp/t/oneandonly/"
+            ),
+        )
+    )
+
+    assert parsed is not None
+    assert len(parsed.ticket_sales) == 5
+    lottery_periods = [period for period in parsed.ticket_sales if period.sale_type == "抽選"]
+    general_periods = [period for period in parsed.ticket_sales if period.sale_type == "一般"]
+    same_day_periods = [period for period in parsed.ticket_sales if period.sale_type == "当日券"]
+    assert len(lottery_periods) == 2
+    assert len(general_periods) == 2
+    assert len(same_day_periods) == 1
+    assert all(period.start_at == datetime(2026, 6, 15, 20, 30, tzinfo=JST) for period in lottery_periods)
+    assert all(period.deadline_at == datetime(2026, 6, 29, 23, 59, tzinfo=JST) for period in lottery_periods)
+    assert all(period.start_at == datetime(2026, 7, 4, 20, 0, tzinfo=JST) for period in general_periods)
+    assert all(period.deadline_at == datetime(2026, 7, 15, 23, 59, tzinfo=JST) for period in general_periods)
+    assert same_day_periods[0].price == 5000
+
+
+def test_no_sale_period_text_does_not_fabricate_ticket_deadline():
+    parsed = PostParser().parse_post(
+        XPost(
+            id="no-sale-period",
+            created_at=datetime(2026, 7, 10, 3, 0, tzinfo=JST),
+            text=(
+                "✮••┈┈┈••✮\n"
+                "俺フェス！ Vol.2\n"
+                "✮••┈┈┈••✮\n\n"
+                "⟣date：8/21（金）\n"
+                "⟣place : 白金高輪SELENE b2\n"
+                "⟣open/start：16:00/16:30\n"
+                "⟣price：前方¥5,000/一般¥2,000（各+1D）\n"
+                "⟣入場特典：明星カード（サインありチェキ）"
+            ),
+        )
+    )
+
+    assert parsed is not None
+    assert parsed.ticket_application_deadline_at is None
+    assert all(period.deadline_at is None for period in parsed.ticket_sales)
+
+
 def test_global_first_come_deadline_labels_do_not_create_extra_periods():
     parsed = PostParser().parse_post(
         XPost(
@@ -638,7 +1045,7 @@ def test_note_tweet_audit_tiered_free_price_is_not_global_free(tmp_path, mock_po
     assert parsed.priority_ticket_name == "前方"
     assert parsed.priority_ticket_price == 4500
     assert any(period.ticket_name == "後方観覧" and period.price == 0 for period in parsed.ticket_sales)
-    assert ticket_summary(CanonicalEvent.from_extracted(parsed)) == "一般 1,000円 / 前方 4,500円 / 後方観覧 無料"
+    assert ticket_summary(CanonicalEvent.from_extracted(parsed)) == "一般 1,000円 / 前方 4,500円 / 後方観覧 無料 / 7/5締切"
 
 
 def test_note_tweet_audit_avilla_named_ticket_tiers_do_not_infer_general_price(tmp_path, mock_posts_dir):
@@ -659,7 +1066,7 @@ def test_note_tweet_audit_avilla_named_ticket_tiers_do_not_infer_general_price(t
     assert "要予約" in (parsed.notes or "")
     assert "各+1D" in (parsed.notes or "")
     assert ticket_summary(CanonicalEvent.from_extracted(parsed)) == (
-        "VIPチケット 15,000円 / Tシャツ付きチケット 6,000円 / 無料チケット 0円"
+        "VIPチケット 15,000円 / Tシャツ付きチケット 6,000円 / 無料チケット 0円 / 8/20締切"
     )
 
 
@@ -763,7 +1170,7 @@ def test_note_tweet_audit_avilla_pipeline_keeps_review_false(tmp_path, mock_post
 
     assert event.needs_review is False
     assert event.general_ticket_price is None
-    assert ticket_summary(event) == "VIPチケット 15,000円 / Tシャツ付きチケット 6,000円 / 無料チケット 0円"
+    assert ticket_summary(event) == "VIPチケット 15,000円 / Tシャツ付きチケット 6,000円 / 無料チケット 0円 / 8/20締切"
 
 
 def test_sold_out_event_does_not_report_missing_ticket_deadline_reason(tmp_path, mock_posts_dir):
