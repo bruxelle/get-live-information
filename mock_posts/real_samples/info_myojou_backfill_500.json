@@ -2,6 +2,1553 @@
   "captured_at": "2026-06-10T16:19:36.141820+00:00",
   "data": [
     {
+      "api_text": "✯••┈┈Tiktok┈┈••✯\n蛍夏-myojou\nhttps://t.co/MtgH8YlPfX\n\nよければいいね♡拡散♻︎コメント📝お願いします🙇‍♂️\n\n#myojou",
+      "attachments": {},
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "no live-event signal",
+        "source_kind": "other"
+      },
+      "created_at": "2026-07-16T12:45:43+00:00",
+      "entities": {
+        "hashtags": [
+          {
+            "end": 88,
+            "start": 81,
+            "tag": "myojou"
+          }
+        ],
+        "urls": [
+          {
+            "display_url": "vt.tiktok.com/ZSXUAHP5d/",
+            "end": 50,
+            "expanded_url": "https://vt.tiktok.com/ZSXUAHP5d/",
+            "images": [
+              {
+                "height": 630,
+                "url": "https://pbs.twimg.com/news_img/2077736213994463232/doVaBFZn?format=jpg&name=orig",
+                "width": 1200
+              },
+              {
+                "height": 150,
+                "url": "https://pbs.twimg.com/news_img/2077736213994463232/doVaBFZn?format=jpg&name=150x150",
+                "width": 150
+              }
+            ],
+            "start": 27,
+            "status": 200,
+            "title": "TikTok · myojou",
+            "unwound_url": "https://www.tiktok.com/@myojou2/video/7663100077644188936?_r=1&_t=ZS-9856VJOCGDg",
+            "url": "https://t.co/MtgH8YlPfX"
+          }
+        ]
+      },
+      "full_text_source": "text",
+      "id": "2077736434019246146",
+      "media": [],
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "note_tweet": null,
+      "parsed_fields": null,
+      "raw": {
+        "api_text": "✯••┈┈Tiktok┈┈••✯\n蛍夏-myojou\nhttps://t.co/MtgH8YlPfX\n\nよければいいね♡拡散♻︎コメント📝お願いします🙇‍♂️\n\n#myojou",
+        "created_at": "2026-07-16T12:45:43.000Z",
+        "edit_history_tweet_ids": [
+          "2077736171632030129",
+          "2077736434019246146"
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "end": 88,
+              "start": 81,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "vt.tiktok.com/ZSXUAHP5d/",
+              "end": 50,
+              "expanded_url": "https://vt.tiktok.com/ZSXUAHP5d/",
+              "images": [
+                {
+                  "height": 630,
+                  "url": "https://pbs.twimg.com/news_img/2077736213994463232/doVaBFZn?format=jpg&name=orig",
+                  "width": 1200
+                },
+                {
+                  "height": 150,
+                  "url": "https://pbs.twimg.com/news_img/2077736213994463232/doVaBFZn?format=jpg&name=150x150",
+                  "width": 150
+                }
+              ],
+              "start": 27,
+              "status": 200,
+              "title": "TikTok · myojou",
+              "unwound_url": "https://www.tiktok.com/@myojou2/video/7663100077644188936?_r=1&_t=ZS-9856VJOCGDg",
+              "url": "https://t.co/MtgH8YlPfX"
+            }
+          ]
+        },
+        "full_text": "✯••┈┈Tiktok┈┈••✯\n蛍夏-myojou\nhttps://t.co/MtgH8YlPfX\n\nよければいいね♡拡散♻︎コメント📝お願いします🙇‍♂️\n\n#myojou",
+        "full_text_source": "text",
+        "id": "2077736434019246146",
+        "text": "✯••┈┈Tiktok┈┈••✯\n蛍夏-myojou\nhttps://t.co/MtgH8YlPfX\n\nよければいいね♡拡散♻︎コメント📝お願いします🙇‍♂️\n\n#myojou",
+        "truncated_text": null
+      },
+      "referenced_tweets": [],
+      "text": "✯••┈┈Tiktok┈┈••✯\n蛍夏-myojou\nhttps://t.co/MtgH8YlPfX\n\nよければいいね♡拡散♻︎コメント📝お願いします🙇‍♂️\n\n#myojou",
+      "truncated_text": null,
+      "url": "https://x.com/info_myojou/status/2077736434019246146"
+    },
+    {
+      "api_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n  myojou フリーライブイベント\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n14:00-「整理番号付入場券」お持ちの方入場\n14:10-フリー入場開始\n14:15-ライブ･特典会\n\n⟣date：7/26(日) 14:15～\n⟣place : 東京ドームシティ ラクーアガーデンステージ https://t.co/D2Hq2SvjEG",
+      "attachments": {
+        "media_keys": [
+          "3_2077723801719316481"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "ticket_update"
+      },
+      "created_at": "2026-07-16T11:55:36+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/D2Hq2SvjEG",
+            "end": 189,
+            "expanded_url": "https://x.com/info_myojou/status/2077723825337426419/photo/1",
+            "media_key": "3_2077723801719316481",
+            "start": 166,
+            "url": "https://t.co/D2Hq2SvjEG"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2077723825337426419",
+      "media": [
+        {
+          "height": 1234,
+          "media_key": "3_2077723801719316481",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HNWOyhbaoAE7Dig.jpg",
+          "width": 2048
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 406,
+              "start": 399,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "limista.mi-im.com/product-detail…",
+              "end": 397,
+              "expanded_url": "https://limista.mi-im.com/product-detail/3155",
+              "start": 374,
+              "url": "https://t.co/LMyZmZXE8n"
+            }
+          ]
+        },
+        "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n  myojou フリーライブイベント\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n14:00-「整理番号付入場券」お持ちの方入場\n14:10-フリー入場開始\n14:15-ライブ･特典会\n\n⟣date：7/26(日) 14:15～\n⟣place : 東京ドームシティ ラクーアガーデンステージ\n⟣price：myojouデジタルブロマイドvol.1 ¥1,000\n＜購入特典＞\nイベント整理番号付き入場券、特典券1枚\n\n※本公演は、スマートフォン・一眼レフカメラを問わず、静止画のみ撮影可能です。\n撮影の際は、周りのお客様へのご配慮をお願いいたします。\nなお、一脚・三脚・脚立の使用は禁止とさせていただきます。あらかじめご了承ください。\n\n【販売期間】\n7/21（火）18:00-7/26（日）15:30\n🔗 https://t.co/LMyZmZXE8n\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": "14:15",
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-07-26",
+        "event_dates": [
+          "2026-07-26"
+        ],
+        "event_name": "myojou フリーライブイベント",
+        "extraction_confidence": 0.85,
+        "general_ticket_price": null,
+        "lottery_result_at": null,
+        "myojou_performance_time": "14:15",
+        "notes": "※本公演は、スマートフォン・一眼レフカメラを問わず、静止画のみ撮影可能です。",
+        "open_time": null,
+        "payment_deadline_at": null,
+        "priority_ticket_name": "カメラを問わず、静止画のみ撮影可能です。",
+        "priority_ticket_price": null,
+        "same_day_ticket_price": null,
+        "source_kind": "ticket_update",
+        "source_post_id": "2077723825337426419",
+        "source_posted_at": "2026-07-16T11:55:36Z",
+        "source_raw": {
+          "api_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n  myojou フリーライブイベント\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n14:00-「整理番号付入場券」お持ちの方入場\n14:10-フリー入場開始\n14:15-ライブ･特典会\n\n⟣date：7/26(日) 14:15～\n⟣place : 東京ドームシティ ラクーアガーデンステージ https://t.co/D2Hq2SvjEG",
+          "attachments": {
+            "media_keys": [
+              "3_2077723801719316481"
+            ]
+          },
+          "created_at": "2026-07-16T11:55:36.000Z",
+          "edit_history_tweet_ids": [
+            "2077723825337426419"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/D2Hq2SvjEG",
+                "end": 189,
+                "expanded_url": "https://x.com/info_myojou/status/2077723825337426419/photo/1",
+                "media_key": "3_2077723801719316481",
+                "start": 166,
+                "url": "https://t.co/D2Hq2SvjEG"
+              }
+            ]
+          },
+          "full_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n  myojou フリーライブイベント\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n14:00-「整理番号付入場券」お持ちの方入場\n14:10-フリー入場開始\n14:15-ライブ･特典会\n\n⟣date：7/26(日) 14:15～\n⟣place : 東京ドームシティ ラクーアガーデンステージ\n⟣price：myojouデジタルブロマイドvol.1 ¥1,000\n＜購入特典＞\nイベント整理番号付き入場券、特典券1枚\n\n※本公演は、スマートフォン・一眼レフカメラを問わず、静止画のみ撮影可能です。\n撮影の際は、周りのお客様へのご配慮をお願いいたします。\nなお、一脚・三脚・脚立の使用は禁止とさせていただきます。あらかじめご了承ください。\n\n【販売期間】\n7/21（火）18:00-7/26（日）15:30\n🔗 https://t.co/LMyZmZXE8n\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2077723825337426419",
+          "media": [
+            {
+              "height": 1234,
+              "media_key": "3_2077723801719316481",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HNWOyhbaoAE7Dig.jpg",
+              "width": 2048
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 406,
+                  "start": 399,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "limista.mi-im.com/product-detail…",
+                  "end": 397,
+                  "expanded_url": "https://limista.mi-im.com/product-detail/3155",
+                  "start": 374,
+                  "url": "https://t.co/LMyZmZXE8n"
+                }
+              ]
+            },
+            "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n  myojou フリーライブイベント\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n14:00-「整理番号付入場券」お持ちの方入場\n14:10-フリー入場開始\n14:15-ライブ･特典会\n\n⟣date：7/26(日) 14:15～\n⟣place : 東京ドームシティ ラクーアガーデンステージ\n⟣price：myojouデジタルブロマイドvol.1 ¥1,000\n＜購入特典＞\nイベント整理番号付き入場券、特典券1枚\n\n※本公演は、スマートフォン・一眼レフカメラを問わず、静止画のみ撮影可能です。\n撮影の際は、周りのお客様へのご配慮をお願いいたします。\nなお、一脚・三脚・脚立の使用は禁止とさせていただきます。あらかじめご了承ください。\n\n【販売期間】\n7/21（火）18:00-7/26（日）15:30\n🔗 https://t.co/LMyZmZXE8n\n\n#myojou"
+          },
+          "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n  myojou フリーライブイベント\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n14:00-「整理番号付入場券」お持ちの方入場\n14:10-フリー入場開始\n14:15-ライブ･特典会\n\n⟣date：7/26(日) 14:15～\n⟣place : 東京ドームシティ ラクーアガーデンステージ https://t.co/D2Hq2SvjEG",
+          "truncated_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n  myojou フリーライブイベント\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n14:00-「整理番号付入場券」お持ちの方入場\n14:10-フリー入場開始\n14:15-ライブ･特典会\n\n⟣date：7/26(日) 14:15～\n⟣place : 東京ドームシティ ラクーアガーデンステージ https://t.co/D2Hq2SvjEG"
+        },
+        "source_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n  myojou フリーライブイベント\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n14:00-「整理番号付入場券」お持ちの方入場\n14:10-フリー入場開始\n14:15-ライブ･特典会\n\n⟣date：7/26(日) 14:15～\n⟣place : 東京ドームシティ ラクーアガーデンステージ\n⟣price：myojouデジタルブロマイドvol.1 ¥1,000\n＜購入特典＞\nイベント整理番号付き入場券、特典券1枚\n\n※本公演は、スマートフォン・一眼レフカメラを問わず、静止画のみ撮影可能です。\n撮影の際は、周りのお客様へのご配慮をお願いいたします。\nなお、一脚・三脚・脚立の使用は禁止とさせていただきます。あらかじめご了承ください。\n\n【販売期間】\n7/21（火）18:00-7/26（日）15:30\n🔗 https://t.co/LMyZmZXE8n\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2077723825337426419",
+        "start_time": null,
+        "ticket_application_deadline_at": "2026-07-26T15:30:00+09:00",
+        "ticket_application_start_at": "2026-07-21T18:00:00+09:00",
+        "ticket_sale_type": "不明",
+        "ticket_sales": [
+          {
+            "deadline_at": "2026-07-26T15:30:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": null,
+            "result_at": null,
+            "sale_type": "不明",
+            "source_post_id": "2077723825337426419",
+            "source_url": "https://x.com/info_myojou/status/2077723825337426419",
+            "start_at": "2026-07-21T18:00:00+09:00",
+            "status": "不明",
+            "ticket_name": null,
+            "ticket_tier": "不明"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": null,
+        "venue": "東京ドームシティ ラクーアガーデンステージ"
+      },
+      "raw": {
+        "api_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n  myojou フリーライブイベント\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n14:00-「整理番号付入場券」お持ちの方入場\n14:10-フリー入場開始\n14:15-ライブ･特典会\n\n⟣date：7/26(日) 14:15～\n⟣place : 東京ドームシティ ラクーアガーデンステージ https://t.co/D2Hq2SvjEG",
+        "attachments": {
+          "media_keys": [
+            "3_2077723801719316481"
+          ]
+        },
+        "created_at": "2026-07-16T11:55:36.000Z",
+        "edit_history_tweet_ids": [
+          "2077723825337426419"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/D2Hq2SvjEG",
+              "end": 189,
+              "expanded_url": "https://x.com/info_myojou/status/2077723825337426419/photo/1",
+              "media_key": "3_2077723801719316481",
+              "start": 166,
+              "url": "https://t.co/D2Hq2SvjEG"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n  myojou フリーライブイベント\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n14:00-「整理番号付入場券」お持ちの方入場\n14:10-フリー入場開始\n14:15-ライブ･特典会\n\n⟣date：7/26(日) 14:15～\n⟣place : 東京ドームシティ ラクーアガーデンステージ\n⟣price：myojouデジタルブロマイドvol.1 ¥1,000\n＜購入特典＞\nイベント整理番号付き入場券、特典券1枚\n\n※本公演は、スマートフォン・一眼レフカメラを問わず、静止画のみ撮影可能です。\n撮影の際は、周りのお客様へのご配慮をお願いいたします。\nなお、一脚・三脚・脚立の使用は禁止とさせていただきます。あらかじめご了承ください。\n\n【販売期間】\n7/21（火）18:00-7/26（日）15:30\n🔗 https://t.co/LMyZmZXE8n\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2077723825337426419",
+        "media": [
+          {
+            "height": 1234,
+            "media_key": "3_2077723801719316481",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HNWOyhbaoAE7Dig.jpg",
+            "width": 2048
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 406,
+                "start": 399,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "limista.mi-im.com/product-detail…",
+                "end": 397,
+                "expanded_url": "https://limista.mi-im.com/product-detail/3155",
+                "start": 374,
+                "url": "https://t.co/LMyZmZXE8n"
+              }
+            ]
+          },
+          "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n  myojou フリーライブイベント\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n14:00-「整理番号付入場券」お持ちの方入場\n14:10-フリー入場開始\n14:15-ライブ･特典会\n\n⟣date：7/26(日) 14:15～\n⟣place : 東京ドームシティ ラクーアガーデンステージ\n⟣price：myojouデジタルブロマイドvol.1 ¥1,000\n＜購入特典＞\nイベント整理番号付き入場券、特典券1枚\n\n※本公演は、スマートフォン・一眼レフカメラを問わず、静止画のみ撮影可能です。\n撮影の際は、周りのお客様へのご配慮をお願いいたします。\nなお、一脚・三脚・脚立の使用は禁止とさせていただきます。あらかじめご了承ください。\n\n【販売期間】\n7/21（火）18:00-7/26（日）15:30\n🔗 https://t.co/LMyZmZXE8n\n\n#myojou"
+        },
+        "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n  myojou フリーライブイベント\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n14:00-「整理番号付入場券」お持ちの方入場\n14:10-フリー入場開始\n14:15-ライブ･特典会\n\n⟣date：7/26(日) 14:15～\n⟣place : 東京ドームシティ ラクーアガーデンステージ https://t.co/D2Hq2SvjEG",
+        "truncated_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n  myojou フリーライブイベント\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n14:00-「整理番号付入場券」お持ちの方入場\n14:10-フリー入場開始\n14:15-ライブ･特典会\n\n⟣date：7/26(日) 14:15～\n⟣place : 東京ドームシティ ラクーアガーデンステージ https://t.co/D2Hq2SvjEG"
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n  myojou フリーライブイベント\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n14:00-「整理番号付入場券」お持ちの方入場\n14:10-フリー入場開始\n14:15-ライブ･特典会\n\n⟣date：7/26(日) 14:15～\n⟣place : 東京ドームシティ ラクーアガーデンステージ\n⟣price：myojouデジタルブロマイドvol.1 ¥1,000\n＜購入特典＞\nイベント整理番号付き入場券、特典券1枚\n\n※本公演は、スマートフォン・一眼レフカメラを問わず、静止画のみ撮影可能です。\n撮影の際は、周りのお客様へのご配慮をお願いいたします。\nなお、一脚・三脚・脚立の使用は禁止とさせていただきます。あらかじめご了承ください。\n\n【販売期間】\n7/21（火）18:00-7/26（日）15:30\n🔗 https://t.co/LMyZmZXE8n\n\n#myojou",
+      "truncated_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n  myojou フリーライブイベント\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n14:00-「整理番号付入場券」お持ちの方入場\n14:10-フリー入場開始\n14:15-ライブ･特典会\n\n⟣date：7/26(日) 14:15～\n⟣place : 東京ドームシティ ラクーアガーデンステージ https://t.co/D2Hq2SvjEG",
+      "url": "https://x.com/info_myojou/status/2077723825337426419"
+    },
+    {
+      "api_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n        13th Anniversary「アイドル甲子園 \n              in duo MUSIC EXCHANGE」    \n                   supported by My-th\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n🎙20:40-21:05\n📸21:30-22:50 \n\n⟣date：7/25（土） https://t.co/p6ewXLpPoZ",
+      "attachments": {
+        "media_keys": [
+          "3_2077702403584131072"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "ticket_update"
+      },
+      "created_at": "2026-07-16T10:30:31+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/p6ewXLpPoZ",
+            "end": 231,
+            "expanded_url": "https://x.com/info_myojou/status/2077702411628802142/photo/1",
+            "media_key": "3_2077702403584131072",
+            "start": 208,
+            "url": "https://t.co/p6ewXLpPoZ"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2077702411628802142",
+      "media": [
+        {
+          "height": 2000,
+          "media_key": "3_2077702403584131072",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HNV7U_KbgAAF58G.jpg",
+          "width": 1500
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 389,
+              "start": 382,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "user.my-th.jp/?redirect=/tic…",
+              "end": 380,
+              "expanded_url": "https://user.my-th.jp/?redirect=/tickets/event/aikou13th_duo",
+              "start": 357,
+              "url": "https://t.co/rzPXUu52wN"
+            }
+          ]
+        },
+        "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n        13th Anniversary「アイドル甲子園 \n              in duo MUSIC EXCHANGE」    \n                   supported by My-th\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n🎙20:40-21:05\n📸21:30-22:50 \n\n⟣date：7/25（土）\n⟣place : duo MUSIC EXCHANGE\n⟣open/start：8:20/8:45\n⟣price：前方¥9,000/一般 ¥4,500/当日各+¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n7/8（水）20:00-7/25（土）8:19\n🔗 https://t.co/rzPXUu52wN\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": "21:30-22:50",
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-07-25",
+        "event_dates": [
+          "2026-07-25"
+        ],
+        "event_name": "13th Anniversary「アイドル甲子園",
+        "extraction_confidence": 0.95,
+        "general_ticket_price": 4500,
+        "lottery_result_at": null,
+        "myojou_performance_time": "20:40-21:05",
+        "notes": "ドリンク代: 各+1D\n⟣入場特典:明星カード(サインありチェキ)",
+        "open_time": "08:20",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "前方",
+        "priority_ticket_price": 9000,
+        "same_day_ticket_price": 1000,
+        "source_kind": "ticket_update",
+        "source_post_id": "2077702411628802142",
+        "source_posted_at": "2026-07-16T10:30:31Z",
+        "source_raw": {
+          "api_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n        13th Anniversary「アイドル甲子園 \n              in duo MUSIC EXCHANGE」    \n                   supported by My-th\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n🎙20:40-21:05\n📸21:30-22:50 \n\n⟣date：7/25（土） https://t.co/p6ewXLpPoZ",
+          "attachments": {
+            "media_keys": [
+              "3_2077702403584131072"
+            ]
+          },
+          "created_at": "2026-07-16T10:30:31.000Z",
+          "edit_history_tweet_ids": [
+            "2077702411628802142"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/p6ewXLpPoZ",
+                "end": 231,
+                "expanded_url": "https://x.com/info_myojou/status/2077702411628802142/photo/1",
+                "media_key": "3_2077702403584131072",
+                "start": 208,
+                "url": "https://t.co/p6ewXLpPoZ"
+              }
+            ]
+          },
+          "full_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n        13th Anniversary「アイドル甲子園 \n              in duo MUSIC EXCHANGE」    \n                   supported by My-th\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n🎙20:40-21:05\n📸21:30-22:50 \n\n⟣date：7/25（土）\n⟣place : duo MUSIC EXCHANGE\n⟣open/start：8:20/8:45\n⟣price：前方¥9,000/一般 ¥4,500/当日各+¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n7/8（水）20:00-7/25（土）8:19\n🔗 https://t.co/rzPXUu52wN\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2077702411628802142",
+          "media": [
+            {
+              "height": 2000,
+              "media_key": "3_2077702403584131072",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HNV7U_KbgAAF58G.jpg",
+              "width": 1500
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 389,
+                  "start": 382,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "user.my-th.jp/?redirect=/tic…",
+                  "end": 380,
+                  "expanded_url": "https://user.my-th.jp/?redirect=/tickets/event/aikou13th_duo",
+                  "start": 357,
+                  "url": "https://t.co/rzPXUu52wN"
+                }
+              ]
+            },
+            "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n        13th Anniversary「アイドル甲子園 \n              in duo MUSIC EXCHANGE」    \n                   supported by My-th\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n🎙20:40-21:05\n📸21:30-22:50 \n\n⟣date：7/25（土）\n⟣place : duo MUSIC EXCHANGE\n⟣open/start：8:20/8:45\n⟣price：前方¥9,000/一般 ¥4,500/当日各+¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n7/8（水）20:00-7/25（土）8:19\n🔗 https://t.co/rzPXUu52wN\n\n#myojou"
+          },
+          "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n        13th Anniversary「アイドル甲子園 \n              in duo MUSIC EXCHANGE」    \n                   supported by My-th\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n🎙20:40-21:05\n📸21:30-22:50 \n\n⟣date：7/25（土） https://t.co/p6ewXLpPoZ",
+          "truncated_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n        13th Anniversary「アイドル甲子園 \n              in duo MUSIC EXCHANGE」    \n                   supported by My-th\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n🎙20:40-21:05\n📸21:30-22:50 \n\n⟣date：7/25（土） https://t.co/p6ewXLpPoZ"
+        },
+        "source_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n        13th Anniversary「アイドル甲子園 \n              in duo MUSIC EXCHANGE」    \n                   supported by My-th\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n🎙20:40-21:05\n📸21:30-22:50 \n\n⟣date：7/25（土）\n⟣place : duo MUSIC EXCHANGE\n⟣open/start：8:20/8:45\n⟣price：前方¥9,000/一般 ¥4,500/当日各+¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n7/8（水）20:00-7/25（土）8:19\n🔗 https://t.co/rzPXUu52wN\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2077702411628802142",
+        "start_time": "08:45",
+        "ticket_application_deadline_at": "2026-07-25T08:19:00+09:00",
+        "ticket_application_start_at": "2026-07-08T20:00:00+09:00",
+        "ticket_sale_type": "一般",
+        "ticket_sales": [
+          {
+            "deadline_at": "2026-07-25T08:19:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 9000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2077702411628802142",
+            "source_url": "https://x.com/info_myojou/status/2077702411628802142",
+            "start_at": "2026-07-08T20:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "前方",
+            "ticket_tier": "前方"
+          },
+          {
+            "deadline_at": "2026-07-25T08:19:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 4500,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2077702411628802142",
+            "source_url": "https://x.com/info_myojou/status/2077702411628802142",
+            "start_at": "2026-07-08T20:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 1000,
+            "result_at": null,
+            "sale_type": "当日券",
+            "source_post_id": "2077702411628802142",
+            "source_url": "https://x.com/info_myojou/status/2077702411628802142",
+            "start_at": null,
+            "status": "販売中",
+            "ticket_name": "当日券",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": null,
+        "venue": "duo MUSIC EXCHANGE"
+      },
+      "raw": {
+        "api_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n        13th Anniversary「アイドル甲子園 \n              in duo MUSIC EXCHANGE」    \n                   supported by My-th\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n🎙20:40-21:05\n📸21:30-22:50 \n\n⟣date：7/25（土） https://t.co/p6ewXLpPoZ",
+        "attachments": {
+          "media_keys": [
+            "3_2077702403584131072"
+          ]
+        },
+        "created_at": "2026-07-16T10:30:31.000Z",
+        "edit_history_tweet_ids": [
+          "2077702411628802142"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/p6ewXLpPoZ",
+              "end": 231,
+              "expanded_url": "https://x.com/info_myojou/status/2077702411628802142/photo/1",
+              "media_key": "3_2077702403584131072",
+              "start": 208,
+              "url": "https://t.co/p6ewXLpPoZ"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n        13th Anniversary「アイドル甲子園 \n              in duo MUSIC EXCHANGE」    \n                   supported by My-th\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n🎙20:40-21:05\n📸21:30-22:50 \n\n⟣date：7/25（土）\n⟣place : duo MUSIC EXCHANGE\n⟣open/start：8:20/8:45\n⟣price：前方¥9,000/一般 ¥4,500/当日各+¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n7/8（水）20:00-7/25（土）8:19\n🔗 https://t.co/rzPXUu52wN\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2077702411628802142",
+        "media": [
+          {
+            "height": 2000,
+            "media_key": "3_2077702403584131072",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HNV7U_KbgAAF58G.jpg",
+            "width": 1500
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 389,
+                "start": 382,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "user.my-th.jp/?redirect=/tic…",
+                "end": 380,
+                "expanded_url": "https://user.my-th.jp/?redirect=/tickets/event/aikou13th_duo",
+                "start": 357,
+                "url": "https://t.co/rzPXUu52wN"
+              }
+            ]
+          },
+          "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n        13th Anniversary「アイドル甲子園 \n              in duo MUSIC EXCHANGE」    \n                   supported by My-th\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n🎙20:40-21:05\n📸21:30-22:50 \n\n⟣date：7/25（土）\n⟣place : duo MUSIC EXCHANGE\n⟣open/start：8:20/8:45\n⟣price：前方¥9,000/一般 ¥4,500/当日各+¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n7/8（水）20:00-7/25（土）8:19\n🔗 https://t.co/rzPXUu52wN\n\n#myojou"
+        },
+        "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n        13th Anniversary「アイドル甲子園 \n              in duo MUSIC EXCHANGE」    \n                   supported by My-th\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n🎙20:40-21:05\n📸21:30-22:50 \n\n⟣date：7/25（土） https://t.co/p6ewXLpPoZ",
+        "truncated_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n        13th Anniversary「アイドル甲子園 \n              in duo MUSIC EXCHANGE」    \n                   supported by My-th\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n🎙20:40-21:05\n📸21:30-22:50 \n\n⟣date：7/25（土） https://t.co/p6ewXLpPoZ"
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n        13th Anniversary「アイドル甲子園 \n              in duo MUSIC EXCHANGE」    \n                   supported by My-th\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n🎙20:40-21:05\n📸21:30-22:50 \n\n⟣date：7/25（土）\n⟣place : duo MUSIC EXCHANGE\n⟣open/start：8:20/8:45\n⟣price：前方¥9,000/一般 ¥4,500/当日各+¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n7/8（水）20:00-7/25（土）8:19\n🔗 https://t.co/rzPXUu52wN\n\n#myojou",
+      "truncated_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n        13th Anniversary「アイドル甲子園 \n              in duo MUSIC EXCHANGE」    \n                   supported by My-th\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n🎙20:40-21:05\n📸21:30-22:50 \n\n⟣date：7/25（土） https://t.co/p6ewXLpPoZ",
+      "url": "https://x.com/info_myojou/status/2077702411628802142"
+    },
+    {
+      "api_text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「ッスッゴイライブ」\n\n🎙14:10-14:30\n📸14:35-15:35\n\n⟣date：7/18（土）\n⟣place :品川インターシティホール\n⟣open/start：8:30/9:00\n⟣price：前方¥8,000/一般 ¥3,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【販売期間】 https://t.co/bP7wrIy3ud",
+      "attachments": {
+        "media_keys": [
+          "3_2077689839764533248"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "initial_announcement"
+      },
+      "created_at": "2026-07-16T09:40:35+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/bP7wrIy3ud",
+            "end": 204,
+            "expanded_url": "https://x.com/info_myojou/status/2077689846722646260/photo/1",
+            "media_key": "3_2077689839764533248",
+            "start": 181,
+            "url": "https://t.co/bP7wrIy3ud"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2077689846722646260",
+      "media": [
+        {
+          "height": 3508,
+          "media_key": "3_2077689839764533248",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HNVv5rSacAARZV9.jpg",
+          "width": 2482
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 236,
+              "start": 229,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "ticketdive.com/event/ssuggoil…",
+              "end": 227,
+              "expanded_url": "https://ticketdive.com/event/ssuggoilive_0718_ICH",
+              "start": 204,
+              "url": "https://t.co/2TivIW6u0w"
+            }
+          ]
+        },
+        "text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「ッスッゴイライブ」\n\n🎙14:10-14:30\n📸14:35-15:35\n\n⟣date：7/18（土）\n⟣place :品川インターシティホール\n⟣open/start：8:30/9:00\n⟣price：前方¥8,000/一般 ¥3,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【販売期間】\n7/10（金）-7/17（金）23:59\n🔗 https://t.co/2TivIW6u0w\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": "14:35-15:35",
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-07-18",
+        "event_dates": [
+          "2026-07-18"
+        ],
+        "event_name": "ッスッゴイライブ",
+        "extraction_confidence": 0.95,
+        "general_ticket_price": 3500,
+        "lottery_result_at": null,
+        "myojou_performance_time": "14:10-14:30",
+        "notes": "ドリンク代: 各+1D\n⟣入場特典:明星カード(サインありチェキ)",
+        "open_time": "08:30",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "前方",
+        "priority_ticket_price": 8000,
+        "same_day_ticket_price": null,
+        "source_kind": "initial_announcement",
+        "source_post_id": "2077689846722646260",
+        "source_posted_at": "2026-07-16T09:40:35Z",
+        "source_raw": {
+          "api_text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「ッスッゴイライブ」\n\n🎙14:10-14:30\n📸14:35-15:35\n\n⟣date：7/18（土）\n⟣place :品川インターシティホール\n⟣open/start：8:30/9:00\n⟣price：前方¥8,000/一般 ¥3,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【販売期間】 https://t.co/bP7wrIy3ud",
+          "attachments": {
+            "media_keys": [
+              "3_2077689839764533248"
+            ]
+          },
+          "created_at": "2026-07-16T09:40:35.000Z",
+          "edit_history_tweet_ids": [
+            "2077689846722646260"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/bP7wrIy3ud",
+                "end": 204,
+                "expanded_url": "https://x.com/info_myojou/status/2077689846722646260/photo/1",
+                "media_key": "3_2077689839764533248",
+                "start": 181,
+                "url": "https://t.co/bP7wrIy3ud"
+              }
+            ]
+          },
+          "full_text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「ッスッゴイライブ」\n\n🎙14:10-14:30\n📸14:35-15:35\n\n⟣date：7/18（土）\n⟣place :品川インターシティホール\n⟣open/start：8:30/9:00\n⟣price：前方¥8,000/一般 ¥3,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【販売期間】\n7/10（金）-7/17（金）23:59\n🔗 https://t.co/2TivIW6u0w\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2077689846722646260",
+          "media": [
+            {
+              "height": 3508,
+              "media_key": "3_2077689839764533248",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HNVv5rSacAARZV9.jpg",
+              "width": 2482
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 236,
+                  "start": 229,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "ticketdive.com/event/ssuggoil…",
+                  "end": 227,
+                  "expanded_url": "https://ticketdive.com/event/ssuggoilive_0718_ICH",
+                  "start": 204,
+                  "url": "https://t.co/2TivIW6u0w"
+                }
+              ]
+            },
+            "text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「ッスッゴイライブ」\n\n🎙14:10-14:30\n📸14:35-15:35\n\n⟣date：7/18（土）\n⟣place :品川インターシティホール\n⟣open/start：8:30/9:00\n⟣price：前方¥8,000/一般 ¥3,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【販売期間】\n7/10（金）-7/17（金）23:59\n🔗 https://t.co/2TivIW6u0w\n\n#myojou"
+          },
+          "text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「ッスッゴイライブ」\n\n🎙14:10-14:30\n📸14:35-15:35\n\n⟣date：7/18（土）\n⟣place :品川インターシティホール\n⟣open/start：8:30/9:00\n⟣price：前方¥8,000/一般 ¥3,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【販売期間】 https://t.co/bP7wrIy3ud",
+          "truncated_text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「ッスッゴイライブ」\n\n🎙14:10-14:30\n📸14:35-15:35\n\n⟣date：7/18（土）\n⟣place :品川インターシティホール\n⟣open/start：8:30/9:00\n⟣price：前方¥8,000/一般 ¥3,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【販売期間】 https://t.co/bP7wrIy3ud"
+        },
+        "source_text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「ッスッゴイライブ」\n\n🎙14:10-14:30\n📸14:35-15:35\n\n⟣date：7/18（土）\n⟣place :品川インターシティホール\n⟣open/start：8:30/9:00\n⟣price：前方¥8,000/一般 ¥3,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【販売期間】\n7/10（金）-7/17（金）23:59\n🔗 https://t.co/2TivIW6u0w\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2077689846722646260",
+        "start_time": "09:00",
+        "ticket_application_deadline_at": "2026-07-17T23:59:00+09:00",
+        "ticket_application_start_at": null,
+        "ticket_sale_type": "不明",
+        "ticket_sales": [
+          {
+            "deadline_at": "2026-07-17T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 8000,
+            "result_at": null,
+            "sale_type": "不明",
+            "source_post_id": "2077689846722646260",
+            "source_url": "https://x.com/info_myojou/status/2077689846722646260",
+            "start_at": null,
+            "status": "不明",
+            "ticket_name": "前方",
+            "ticket_tier": "前方"
+          },
+          {
+            "deadline_at": "2026-07-17T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 3500,
+            "result_at": null,
+            "sale_type": "不明",
+            "source_post_id": "2077689846722646260",
+            "source_url": "https://x.com/info_myojou/status/2077689846722646260",
+            "start_at": null,
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "https://ticketdive.com/event/ssuggoilive_0718_ICH",
+        "venue": "品川インターシティホール"
+      },
+      "raw": {
+        "api_text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「ッスッゴイライブ」\n\n🎙14:10-14:30\n📸14:35-15:35\n\n⟣date：7/18（土）\n⟣place :品川インターシティホール\n⟣open/start：8:30/9:00\n⟣price：前方¥8,000/一般 ¥3,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【販売期間】 https://t.co/bP7wrIy3ud",
+        "attachments": {
+          "media_keys": [
+            "3_2077689839764533248"
+          ]
+        },
+        "created_at": "2026-07-16T09:40:35.000Z",
+        "edit_history_tweet_ids": [
+          "2077689846722646260"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/bP7wrIy3ud",
+              "end": 204,
+              "expanded_url": "https://x.com/info_myojou/status/2077689846722646260/photo/1",
+              "media_key": "3_2077689839764533248",
+              "start": 181,
+              "url": "https://t.co/bP7wrIy3ud"
+            }
+          ]
+        },
+        "full_text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「ッスッゴイライブ」\n\n🎙14:10-14:30\n📸14:35-15:35\n\n⟣date：7/18（土）\n⟣place :品川インターシティホール\n⟣open/start：8:30/9:00\n⟣price：前方¥8,000/一般 ¥3,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【販売期間】\n7/10（金）-7/17（金）23:59\n🔗 https://t.co/2TivIW6u0w\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2077689846722646260",
+        "media": [
+          {
+            "height": 3508,
+            "media_key": "3_2077689839764533248",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HNVv5rSacAARZV9.jpg",
+            "width": 2482
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 236,
+                "start": 229,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "ticketdive.com/event/ssuggoil…",
+                "end": 227,
+                "expanded_url": "https://ticketdive.com/event/ssuggoilive_0718_ICH",
+                "start": 204,
+                "url": "https://t.co/2TivIW6u0w"
+              }
+            ]
+          },
+          "text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「ッスッゴイライブ」\n\n🎙14:10-14:30\n📸14:35-15:35\n\n⟣date：7/18（土）\n⟣place :品川インターシティホール\n⟣open/start：8:30/9:00\n⟣price：前方¥8,000/一般 ¥3,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【販売期間】\n7/10（金）-7/17（金）23:59\n🔗 https://t.co/2TivIW6u0w\n\n#myojou"
+        },
+        "text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「ッスッゴイライブ」\n\n🎙14:10-14:30\n📸14:35-15:35\n\n⟣date：7/18（土）\n⟣place :品川インターシティホール\n⟣open/start：8:30/9:00\n⟣price：前方¥8,000/一般 ¥3,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【販売期間】 https://t.co/bP7wrIy3ud",
+        "truncated_text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「ッスッゴイライブ」\n\n🎙14:10-14:30\n📸14:35-15:35\n\n⟣date：7/18（土）\n⟣place :品川インターシティホール\n⟣open/start：8:30/9:00\n⟣price：前方¥8,000/一般 ¥3,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【販売期間】 https://t.co/bP7wrIy3ud"
+      },
+      "referenced_tweets": [],
+      "text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「ッスッゴイライブ」\n\n🎙14:10-14:30\n📸14:35-15:35\n\n⟣date：7/18（土）\n⟣place :品川インターシティホール\n⟣open/start：8:30/9:00\n⟣price：前方¥8,000/一般 ¥3,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【販売期間】\n7/10（金）-7/17（金）23:59\n🔗 https://t.co/2TivIW6u0w\n\n#myojou",
+      "truncated_text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「ッスッゴイライブ」\n\n🎙14:10-14:30\n📸14:35-15:35\n\n⟣date：7/18（土）\n⟣place :品川インターシティホール\n⟣open/start：8:30/9:00\n⟣price：前方¥8,000/一般 ¥3,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【販売期間】 https://t.co/bP7wrIy3ud",
+      "url": "https://x.com/info_myojou/status/2077689846722646260"
+    },
+    {
+      "api_text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n                 ONE AND ONLY \n           2nd Anniversary day2\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「ONE AND ONLY 2nd Anniversary day2」ありがとうございました⋆˙⟡\n\n上段左から https://t.co/X7AdVF3AGW",
+      "attachments": {
+        "media_keys": [
+          "3_2077689056792891392"
+        ]
+      },
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "profile/member introduction",
+        "source_kind": "other"
+      },
+      "created_at": "2026-07-16T09:37:28+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/X7AdVF3AGW",
+            "end": 224,
+            "expanded_url": "https://x.com/info_myojou/status/2077689061347864879/photo/1",
+            "media_key": "3_2077689056792891392",
+            "start": 201,
+            "url": "https://t.co/X7AdVF3AGW"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2077689061347864879",
+      "media": [
+        {
+          "alt_text": "M1,アンチコンプリート \nM2,蛍夏\nM3,星景讃歌\nM4,yoakeno\nM5,HeartBeat",
+          "height": 952,
+          "media_key": "3_2077689056792891392",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HNVvMGfbUAA1IXg.jpg",
+          "width": 1231
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 344,
+              "start": 337,
+              "tag": "myojou"
+            }
+          ],
+          "mentions": [
+            {
+              "end": 217,
+              "id": "1981655668626165760",
+              "start": 205,
+              "username": "myojou_ruka"
+            },
+            {
+              "end": 234,
+              "id": "2009245855694675968",
+              "start": 223,
+              "username": "myojou_miu"
+            },
+            {
+              "end": 255,
+              "id": "1344586625901158401",
+              "start": 240,
+              "username": "myojou_usukura"
+            },
+            {
+              "end": 283,
+              "id": "1590652199407083520",
+              "start": 269,
+              "username": "myojou_cocone"
+            },
+            {
+              "end": 302,
+              "id": "1754991922807177216",
+              "start": 289,
+              "username": "myojou_shino"
+            },
+            {
+              "end": 319,
+              "id": "2009274765895450624",
+              "start": 308,
+              "username": "myojou_yun"
+            }
+          ]
+        },
+        "text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n                 ONE AND ONLY \n           2nd Anniversary day2\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「ONE AND ONLY 2nd Anniversary day2」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n日陽みう@myojou_miu \n薄倉りな@myojou_usukura \n\n下段左から\n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n澪奈ゆん@myojou_yun \n\nSETLIST▶︎ALT\n\n #myojou"
+      },
+      "parsed_fields": null,
+      "raw": {
+        "api_text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n                 ONE AND ONLY \n           2nd Anniversary day2\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「ONE AND ONLY 2nd Anniversary day2」ありがとうございました⋆˙⟡\n\n上段左から https://t.co/X7AdVF3AGW",
+        "attachments": {
+          "media_keys": [
+            "3_2077689056792891392"
+          ]
+        },
+        "created_at": "2026-07-16T09:37:28.000Z",
+        "edit_history_tweet_ids": [
+          "2077689061347864879"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/X7AdVF3AGW",
+              "end": 224,
+              "expanded_url": "https://x.com/info_myojou/status/2077689061347864879/photo/1",
+              "media_key": "3_2077689056792891392",
+              "start": 201,
+              "url": "https://t.co/X7AdVF3AGW"
+            }
+          ]
+        },
+        "full_text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n                 ONE AND ONLY \n           2nd Anniversary day2\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「ONE AND ONLY 2nd Anniversary day2」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n日陽みう@myojou_miu \n薄倉りな@myojou_usukura \n\n下段左から\n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n澪奈ゆん@myojou_yun \n\nSETLIST▶︎ALT\n\n #myojou",
+        "full_text_source": "note_tweet",
+        "id": "2077689061347864879",
+        "media": [
+          {
+            "alt_text": "M1,アンチコンプリート \nM2,蛍夏\nM3,星景讃歌\nM4,yoakeno\nM5,HeartBeat",
+            "height": 952,
+            "media_key": "3_2077689056792891392",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HNVvMGfbUAA1IXg.jpg",
+            "width": 1231
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 344,
+                "start": 337,
+                "tag": "myojou"
+              }
+            ],
+            "mentions": [
+              {
+                "end": 217,
+                "id": "1981655668626165760",
+                "start": 205,
+                "username": "myojou_ruka"
+              },
+              {
+                "end": 234,
+                "id": "2009245855694675968",
+                "start": 223,
+                "username": "myojou_miu"
+              },
+              {
+                "end": 255,
+                "id": "1344586625901158401",
+                "start": 240,
+                "username": "myojou_usukura"
+              },
+              {
+                "end": 283,
+                "id": "1590652199407083520",
+                "start": 269,
+                "username": "myojou_cocone"
+              },
+              {
+                "end": 302,
+                "id": "1754991922807177216",
+                "start": 289,
+                "username": "myojou_shino"
+              },
+              {
+                "end": 319,
+                "id": "2009274765895450624",
+                "start": 308,
+                "username": "myojou_yun"
+              }
+            ]
+          },
+          "text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n                 ONE AND ONLY \n           2nd Anniversary day2\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「ONE AND ONLY 2nd Anniversary day2」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n日陽みう@myojou_miu \n薄倉りな@myojou_usukura \n\n下段左から\n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n澪奈ゆん@myojou_yun \n\nSETLIST▶︎ALT\n\n #myojou"
+        },
+        "text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n                 ONE AND ONLY \n           2nd Anniversary day2\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「ONE AND ONLY 2nd Anniversary day2」ありがとうございました⋆˙⟡\n\n上段左から https://t.co/X7AdVF3AGW",
+        "truncated_text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n                 ONE AND ONLY \n           2nd Anniversary day2\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「ONE AND ONLY 2nd Anniversary day2」ありがとうございました⋆˙⟡\n\n上段左から https://t.co/X7AdVF3AGW"
+      },
+      "referenced_tweets": [],
+      "text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n                 ONE AND ONLY \n           2nd Anniversary day2\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「ONE AND ONLY 2nd Anniversary day2」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n日陽みう@myojou_miu \n薄倉りな@myojou_usukura \n\n下段左から\n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n澪奈ゆん@myojou_yun \n\nSETLIST▶︎ALT\n\n #myojou",
+      "truncated_text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n                 ONE AND ONLY \n           2nd Anniversary day2\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「ONE AND ONLY 2nd Anniversary day2」ありがとうございました⋆˙⟡\n\n上段左から https://t.co/X7AdVF3AGW",
+      "url": "https://x.com/info_myojou/status/2077689061347864879"
+    },
+    {
+      "api_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n                    hilfe'''!!\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n🎙19:00-19:35\n📸20:50-22:10\n\n⟣date：7/21（火）\n⟣place : 渋谷clubasia\n⟣open/start：18:30/19:00\n⟣price：優先¥3,000/一般¥1,000\n⟣入場特典：明星カード（サインありチェキ） https://t.co/hoblEkEfDT",
+      "attachments": {
+        "media_keys": [
+          "3_2077634527061762048"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "ticket_update"
+      },
+      "created_at": "2026-07-16T06:00:49+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/hoblEkEfDT",
+            "end": 227,
+            "expanded_url": "https://x.com/info_myojou/status/2077634539896422535/photo/1",
+            "media_key": "3_2077634527061762048",
+            "start": 204,
+            "url": "https://t.co/hoblEkEfDT"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2077634539896422535",
+      "media": [
+        {
+          "height": 3508,
+          "media_key": "3_2077634527061762048",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HNU9mDaaYAAE2dA.jpg",
+          "width": 2481
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 305,
+              "start": 298,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "t-dv.com/hilfe_0721",
+              "end": 296,
+              "expanded_url": "https://t-dv.com/hilfe_0721",
+              "start": 273,
+              "url": "https://t.co/TmigFAhT51"
+            }
+          ]
+        },
+        "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n                    hilfe'''!!\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n🎙19:00-19:35\n📸20:50-22:10\n\n⟣date：7/21（火）\n⟣place : 渋谷clubasia\n⟣open/start：18:30/19:00\n⟣price：優先¥3,000/一般¥1,000\n⟣入場特典：明星カード（サインありチェキ）\n\n【抽選受付】\n7/16（木）15:00-7/17（金）23:59\n【一般受付】\n7/18（土）12:00-7/20（月）23:59\n🔗 https://t.co/TmigFAhT51\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": "20:50-22:10",
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-07-21",
+        "event_dates": [
+          "2026-07-21"
+        ],
+        "event_name": "hilfe'''!!",
+        "extraction_confidence": 0.95,
+        "general_ticket_price": 1000,
+        "lottery_result_at": null,
+        "myojou_performance_time": "19:00-19:35",
+        "notes": "⟣入場特典:明星カード(サインありチェキ)",
+        "open_time": "18:30",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "優先",
+        "priority_ticket_price": 3000,
+        "same_day_ticket_price": null,
+        "source_kind": "ticket_update",
+        "source_post_id": "2077634539896422535",
+        "source_posted_at": "2026-07-16T06:00:49Z",
+        "source_raw": {
+          "api_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n                    hilfe'''!!\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n🎙19:00-19:35\n📸20:50-22:10\n\n⟣date：7/21（火）\n⟣place : 渋谷clubasia\n⟣open/start：18:30/19:00\n⟣price：優先¥3,000/一般¥1,000\n⟣入場特典：明星カード（サインありチェキ） https://t.co/hoblEkEfDT",
+          "attachments": {
+            "media_keys": [
+              "3_2077634527061762048"
+            ]
+          },
+          "created_at": "2026-07-16T06:00:49.000Z",
+          "edit_history_tweet_ids": [
+            "2077634539896422535"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/hoblEkEfDT",
+                "end": 227,
+                "expanded_url": "https://x.com/info_myojou/status/2077634539896422535/photo/1",
+                "media_key": "3_2077634527061762048",
+                "start": 204,
+                "url": "https://t.co/hoblEkEfDT"
+              }
+            ]
+          },
+          "full_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n                    hilfe'''!!\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n🎙19:00-19:35\n📸20:50-22:10\n\n⟣date：7/21（火）\n⟣place : 渋谷clubasia\n⟣open/start：18:30/19:00\n⟣price：優先¥3,000/一般¥1,000\n⟣入場特典：明星カード（サインありチェキ）\n\n【抽選受付】\n7/16（木）15:00-7/17（金）23:59\n【一般受付】\n7/18（土）12:00-7/20（月）23:59\n🔗 https://t.co/TmigFAhT51\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2077634539896422535",
+          "media": [
+            {
+              "height": 3508,
+              "media_key": "3_2077634527061762048",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HNU9mDaaYAAE2dA.jpg",
+              "width": 2481
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 305,
+                  "start": 298,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "t-dv.com/hilfe_0721",
+                  "end": 296,
+                  "expanded_url": "https://t-dv.com/hilfe_0721",
+                  "start": 273,
+                  "url": "https://t.co/TmigFAhT51"
+                }
+              ]
+            },
+            "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n                    hilfe'''!!\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n🎙19:00-19:35\n📸20:50-22:10\n\n⟣date：7/21（火）\n⟣place : 渋谷clubasia\n⟣open/start：18:30/19:00\n⟣price：優先¥3,000/一般¥1,000\n⟣入場特典：明星カード（サインありチェキ）\n\n【抽選受付】\n7/16（木）15:00-7/17（金）23:59\n【一般受付】\n7/18（土）12:00-7/20（月）23:59\n🔗 https://t.co/TmigFAhT51\n\n#myojou"
+          },
+          "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n                    hilfe'''!!\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n🎙19:00-19:35\n📸20:50-22:10\n\n⟣date：7/21（火）\n⟣place : 渋谷clubasia\n⟣open/start：18:30/19:00\n⟣price：優先¥3,000/一般¥1,000\n⟣入場特典：明星カード（サインありチェキ） https://t.co/hoblEkEfDT",
+          "truncated_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n                    hilfe'''!!\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n🎙19:00-19:35\n📸20:50-22:10\n\n⟣date：7/21（火）\n⟣place : 渋谷clubasia\n⟣open/start：18:30/19:00\n⟣price：優先¥3,000/一般¥1,000\n⟣入場特典：明星カード（サインありチェキ） https://t.co/hoblEkEfDT"
+        },
+        "source_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n                    hilfe'''!!\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n🎙19:00-19:35\n📸20:50-22:10\n\n⟣date：7/21（火）\n⟣place : 渋谷clubasia\n⟣open/start：18:30/19:00\n⟣price：優先¥3,000/一般¥1,000\n⟣入場特典：明星カード（サインありチェキ）\n\n【抽選受付】\n7/16（木）15:00-7/17（金）23:59\n【一般受付】\n7/18（土）12:00-7/20（月）23:59\n🔗 https://t.co/TmigFAhT51\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2077634539896422535",
+        "start_time": "19:00",
+        "ticket_application_deadline_at": "2026-07-17T23:59:00+09:00",
+        "ticket_application_start_at": "2026-07-16T15:00:00+09:00",
+        "ticket_sale_type": "一般",
+        "ticket_sales": [
+          {
+            "deadline_at": "2026-07-17T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 3000,
+            "result_at": null,
+            "sale_type": "抽選",
+            "source_post_id": "2077634539896422535",
+            "source_url": "https://x.com/info_myojou/status/2077634539896422535",
+            "start_at": "2026-07-16T15:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "優先",
+            "ticket_tier": "優先"
+          },
+          {
+            "deadline_at": "2026-07-17T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 1000,
+            "result_at": null,
+            "sale_type": "抽選",
+            "source_post_id": "2077634539896422535",
+            "source_url": "https://x.com/info_myojou/status/2077634539896422535",
+            "start_at": "2026-07-16T15:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          },
+          {
+            "deadline_at": "2026-07-20T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 3000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2077634539896422535",
+            "source_url": "https://x.com/info_myojou/status/2077634539896422535",
+            "start_at": "2026-07-18T12:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "優先",
+            "ticket_tier": "優先"
+          },
+          {
+            "deadline_at": "2026-07-20T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 1000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2077634539896422535",
+            "source_url": "https://x.com/info_myojou/status/2077634539896422535",
+            "start_at": "2026-07-18T12:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "https://t-dv.com/hilfe_0721",
+        "venue": "渋谷clubasia"
+      },
+      "raw": {
+        "api_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n                    hilfe'''!!\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n🎙19:00-19:35\n📸20:50-22:10\n\n⟣date：7/21（火）\n⟣place : 渋谷clubasia\n⟣open/start：18:30/19:00\n⟣price：優先¥3,000/一般¥1,000\n⟣入場特典：明星カード（サインありチェキ） https://t.co/hoblEkEfDT",
+        "attachments": {
+          "media_keys": [
+            "3_2077634527061762048"
+          ]
+        },
+        "created_at": "2026-07-16T06:00:49.000Z",
+        "edit_history_tweet_ids": [
+          "2077634539896422535"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/hoblEkEfDT",
+              "end": 227,
+              "expanded_url": "https://x.com/info_myojou/status/2077634539896422535/photo/1",
+              "media_key": "3_2077634527061762048",
+              "start": 204,
+              "url": "https://t.co/hoblEkEfDT"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n                    hilfe'''!!\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n🎙19:00-19:35\n📸20:50-22:10\n\n⟣date：7/21（火）\n⟣place : 渋谷clubasia\n⟣open/start：18:30/19:00\n⟣price：優先¥3,000/一般¥1,000\n⟣入場特典：明星カード（サインありチェキ）\n\n【抽選受付】\n7/16（木）15:00-7/17（金）23:59\n【一般受付】\n7/18（土）12:00-7/20（月）23:59\n🔗 https://t.co/TmigFAhT51\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2077634539896422535",
+        "media": [
+          {
+            "height": 3508,
+            "media_key": "3_2077634527061762048",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HNU9mDaaYAAE2dA.jpg",
+            "width": 2481
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 305,
+                "start": 298,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "t-dv.com/hilfe_0721",
+                "end": 296,
+                "expanded_url": "https://t-dv.com/hilfe_0721",
+                "start": 273,
+                "url": "https://t.co/TmigFAhT51"
+              }
+            ]
+          },
+          "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n                    hilfe'''!!\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n🎙19:00-19:35\n📸20:50-22:10\n\n⟣date：7/21（火）\n⟣place : 渋谷clubasia\n⟣open/start：18:30/19:00\n⟣price：優先¥3,000/一般¥1,000\n⟣入場特典：明星カード（サインありチェキ）\n\n【抽選受付】\n7/16（木）15:00-7/17（金）23:59\n【一般受付】\n7/18（土）12:00-7/20（月）23:59\n🔗 https://t.co/TmigFAhT51\n\n#myojou"
+        },
+        "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n                    hilfe'''!!\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n🎙19:00-19:35\n📸20:50-22:10\n\n⟣date：7/21（火）\n⟣place : 渋谷clubasia\n⟣open/start：18:30/19:00\n⟣price：優先¥3,000/一般¥1,000\n⟣入場特典：明星カード（サインありチェキ） https://t.co/hoblEkEfDT",
+        "truncated_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n                    hilfe'''!!\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n🎙19:00-19:35\n📸20:50-22:10\n\n⟣date：7/21（火）\n⟣place : 渋谷clubasia\n⟣open/start：18:30/19:00\n⟣price：優先¥3,000/一般¥1,000\n⟣入場特典：明星カード（サインありチェキ） https://t.co/hoblEkEfDT"
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n                    hilfe'''!!\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n🎙19:00-19:35\n📸20:50-22:10\n\n⟣date：7/21（火）\n⟣place : 渋谷clubasia\n⟣open/start：18:30/19:00\n⟣price：優先¥3,000/一般¥1,000\n⟣入場特典：明星カード（サインありチェキ）\n\n【抽選受付】\n7/16（木）15:00-7/17（金）23:59\n【一般受付】\n7/18（土）12:00-7/20（月）23:59\n🔗 https://t.co/TmigFAhT51\n\n#myojou",
+      "truncated_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n                    hilfe'''!!\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n🎙19:00-19:35\n📸20:50-22:10\n\n⟣date：7/21（火）\n⟣place : 渋谷clubasia\n⟣open/start：18:30/19:00\n⟣price：優先¥3,000/一般¥1,000\n⟣入場特典：明星カード（サインありチェキ） https://t.co/hoblEkEfDT",
+      "url": "https://x.com/info_myojou/status/2077634539896422535"
+    },
+    {
+      "api_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「ONE AND ONLY 2nd Anniversary day2」\n \n🎙16:00-16:20\n📸16:30-17:30 A\n\n⟣date：7/16（木）\n⟣place : Spotify O-EAST\n⟣open/start：15:00/16:00\n⟣price：前方優先エリア¥11,000/ 一般 ¥4,500/女性･学生¥3,500/当日¥5,000（各＋1D） https://t.co/YZyJxpMHl9",
+      "attachments": {
+        "media_keys": [
+          "3_2077591250354749440"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "same_day_reminder"
+      },
+      "created_at": "2026-07-16T03:08:49+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/YZyJxpMHl9",
+            "end": 235,
+            "expanded_url": "https://x.com/info_myojou/status/2077591255228555767/photo/1",
+            "media_key": "3_2077591250354749440",
+            "start": 212,
+            "url": "https://t.co/YZyJxpMHl9"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2077591255228555767",
+      "media": [
+        {
+          "height": 2047,
+          "media_key": "3_2077591250354749440",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HNUWPBHawAAzgMx.jpg",
+          "width": 1447
+        }
+      ],
+      "needs_review": true,
+      "needs_review_reasons": [
+        "ambiguous event match",
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 242,
+              "start": 235,
+              "tag": "myojou"
+            }
+          ]
+        },
+        "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「ONE AND ONLY 2nd Anniversary day2」\n \n🎙16:00-16:20\n📸16:30-17:30 A\n\n⟣date：7/16（木）\n⟣place : Spotify O-EAST\n⟣open/start：15:00/16:00\n⟣price：前方優先エリア¥11,000/ 一般 ¥4,500/女性･学生¥3,500/当日¥5,000（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": "16:30-17:30",
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-07-16",
+        "event_dates": [
+          "2026-07-16"
+        ],
+        "event_name": "ONE AND ONLY 2nd Anniversary day2",
+        "extraction_confidence": 0.95,
+        "general_ticket_price": 4500,
+        "lottery_result_at": null,
+        "myojou_performance_time": "16:00-16:20",
+        "notes": "ドリンク代: 各+1D\n⟣入場特典:明星カード(サインありチェキ)",
+        "open_time": "15:00",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "前方優先エリア",
+        "priority_ticket_price": 11000,
+        "same_day_ticket_price": 5000,
+        "source_kind": "same_day_reminder",
+        "source_post_id": "2077591255228555767",
+        "source_posted_at": "2026-07-16T03:08:49Z",
+        "source_raw": {
+          "api_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「ONE AND ONLY 2nd Anniversary day2」\n \n🎙16:00-16:20\n📸16:30-17:30 A\n\n⟣date：7/16（木）\n⟣place : Spotify O-EAST\n⟣open/start：15:00/16:00\n⟣price：前方優先エリア¥11,000/ 一般 ¥4,500/女性･学生¥3,500/当日¥5,000（各＋1D） https://t.co/YZyJxpMHl9",
+          "attachments": {
+            "media_keys": [
+              "3_2077591250354749440"
+            ]
+          },
+          "created_at": "2026-07-16T03:08:49.000Z",
+          "edit_history_tweet_ids": [
+            "2077591255228555767"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/YZyJxpMHl9",
+                "end": 235,
+                "expanded_url": "https://x.com/info_myojou/status/2077591255228555767/photo/1",
+                "media_key": "3_2077591250354749440",
+                "start": 212,
+                "url": "https://t.co/YZyJxpMHl9"
+              }
+            ]
+          },
+          "full_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「ONE AND ONLY 2nd Anniversary day2」\n \n🎙16:00-16:20\n📸16:30-17:30 A\n\n⟣date：7/16（木）\n⟣place : Spotify O-EAST\n⟣open/start：15:00/16:00\n⟣price：前方優先エリア¥11,000/ 一般 ¥4,500/女性･学生¥3,500/当日¥5,000（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2077591255228555767",
+          "media": [
+            {
+              "height": 2047,
+              "media_key": "3_2077591250354749440",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HNUWPBHawAAzgMx.jpg",
+              "width": 1447
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 242,
+                  "start": 235,
+                  "tag": "myojou"
+                }
+              ]
+            },
+            "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「ONE AND ONLY 2nd Anniversary day2」\n \n🎙16:00-16:20\n📸16:30-17:30 A\n\n⟣date：7/16（木）\n⟣place : Spotify O-EAST\n⟣open/start：15:00/16:00\n⟣price：前方優先エリア¥11,000/ 一般 ¥4,500/女性･学生¥3,500/当日¥5,000（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n#myojou"
+          },
+          "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「ONE AND ONLY 2nd Anniversary day2」\n \n🎙16:00-16:20\n📸16:30-17:30 A\n\n⟣date：7/16（木）\n⟣place : Spotify O-EAST\n⟣open/start：15:00/16:00\n⟣price：前方優先エリア¥11,000/ 一般 ¥4,500/女性･学生¥3,500/当日¥5,000（各＋1D） https://t.co/YZyJxpMHl9",
+          "truncated_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「ONE AND ONLY 2nd Anniversary day2」\n \n🎙16:00-16:20\n📸16:30-17:30 A\n\n⟣date：7/16（木）\n⟣place : Spotify O-EAST\n⟣open/start：15:00/16:00\n⟣price：前方優先エリア¥11,000/ 一般 ¥4,500/女性･学生¥3,500/当日¥5,000（各＋1D） https://t.co/YZyJxpMHl9"
+        },
+        "source_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「ONE AND ONLY 2nd Anniversary day2」\n \n🎙16:00-16:20\n📸16:30-17:30 A\n\n⟣date：7/16（木）\n⟣place : Spotify O-EAST\n⟣open/start：15:00/16:00\n⟣price：前方優先エリア¥11,000/ 一般 ¥4,500/女性･学生¥3,500/当日¥5,000（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2077591255228555767",
+        "start_time": "16:00",
+        "ticket_application_deadline_at": null,
+        "ticket_application_start_at": null,
+        "ticket_sale_type": null,
+        "ticket_sales": [
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 11000,
+            "result_at": null,
+            "sale_type": "不明",
+            "source_post_id": "2077591255228555767",
+            "source_url": "https://x.com/info_myojou/status/2077591255228555767",
+            "start_at": null,
+            "status": "不明",
+            "ticket_name": "前方",
+            "ticket_tier": "前方"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 4500,
+            "result_at": null,
+            "sale_type": "不明",
+            "source_post_id": "2077591255228555767",
+            "source_url": "https://x.com/info_myojou/status/2077591255228555767",
+            "start_at": null,
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 5000,
+            "result_at": null,
+            "sale_type": "当日券",
+            "source_post_id": "2077591255228555767",
+            "source_url": "https://x.com/info_myojou/status/2077591255228555767",
+            "start_at": null,
+            "status": "販売中",
+            "ticket_name": "当日券",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": null,
+        "venue": "Spotify O-EAST"
+      },
+      "raw": {
+        "api_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「ONE AND ONLY 2nd Anniversary day2」\n \n🎙16:00-16:20\n📸16:30-17:30 A\n\n⟣date：7/16（木）\n⟣place : Spotify O-EAST\n⟣open/start：15:00/16:00\n⟣price：前方優先エリア¥11,000/ 一般 ¥4,500/女性･学生¥3,500/当日¥5,000（各＋1D） https://t.co/YZyJxpMHl9",
+        "attachments": {
+          "media_keys": [
+            "3_2077591250354749440"
+          ]
+        },
+        "created_at": "2026-07-16T03:08:49.000Z",
+        "edit_history_tweet_ids": [
+          "2077591255228555767"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/YZyJxpMHl9",
+              "end": 235,
+              "expanded_url": "https://x.com/info_myojou/status/2077591255228555767/photo/1",
+              "media_key": "3_2077591250354749440",
+              "start": 212,
+              "url": "https://t.co/YZyJxpMHl9"
+            }
+          ]
+        },
+        "full_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「ONE AND ONLY 2nd Anniversary day2」\n \n🎙16:00-16:20\n📸16:30-17:30 A\n\n⟣date：7/16（木）\n⟣place : Spotify O-EAST\n⟣open/start：15:00/16:00\n⟣price：前方優先エリア¥11,000/ 一般 ¥4,500/女性･学生¥3,500/当日¥5,000（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2077591255228555767",
+        "media": [
+          {
+            "height": 2047,
+            "media_key": "3_2077591250354749440",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HNUWPBHawAAzgMx.jpg",
+            "width": 1447
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 242,
+                "start": 235,
+                "tag": "myojou"
+              }
+            ]
+          },
+          "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「ONE AND ONLY 2nd Anniversary day2」\n \n🎙16:00-16:20\n📸16:30-17:30 A\n\n⟣date：7/16（木）\n⟣place : Spotify O-EAST\n⟣open/start：15:00/16:00\n⟣price：前方優先エリア¥11,000/ 一般 ¥4,500/女性･学生¥3,500/当日¥5,000（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n#myojou"
+        },
+        "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「ONE AND ONLY 2nd Anniversary day2」\n \n🎙16:00-16:20\n📸16:30-17:30 A\n\n⟣date：7/16（木）\n⟣place : Spotify O-EAST\n⟣open/start：15:00/16:00\n⟣price：前方優先エリア¥11,000/ 一般 ¥4,500/女性･学生¥3,500/当日¥5,000（各＋1D） https://t.co/YZyJxpMHl9",
+        "truncated_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「ONE AND ONLY 2nd Anniversary day2」\n \n🎙16:00-16:20\n📸16:30-17:30 A\n\n⟣date：7/16（木）\n⟣place : Spotify O-EAST\n⟣open/start：15:00/16:00\n⟣price：前方優先エリア¥11,000/ 一般 ¥4,500/女性･学生¥3,500/当日¥5,000（各＋1D） https://t.co/YZyJxpMHl9"
+      },
+      "referenced_tweets": [],
+      "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「ONE AND ONLY 2nd Anniversary day2」\n \n🎙16:00-16:20\n📸16:30-17:30 A\n\n⟣date：7/16（木）\n⟣place : Spotify O-EAST\n⟣open/start：15:00/16:00\n⟣price：前方優先エリア¥11,000/ 一般 ¥4,500/女性･学生¥3,500/当日¥5,000（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n#myojou",
+      "truncated_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「ONE AND ONLY 2nd Anniversary day2」\n \n🎙16:00-16:20\n📸16:30-17:30 A\n\n⟣date：7/16（木）\n⟣place : Spotify O-EAST\n⟣open/start：15:00/16:00\n⟣price：前方優先エリア¥11,000/ 一般 ¥4,500/女性･学生¥3,500/当日¥5,000（各＋1D） https://t.co/YZyJxpMHl9",
+      "url": "https://x.com/info_myojou/status/2077591255228555767"
+    },
+    {
       "api_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            UTAGE FES Vol.5\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n①YOANI LIVE STATION\n🎙11:00-11:20\n📸11:35-12:35（GUNKAN東新宿B1F A）\n\n②西武新宿付近野外特設ステージ\n🎙14:40-15:05\n📸15:20-16:30（新宿プリンスホテル25F B）\n\n③Music https://t.co/ysuBOZYVWZ",
       "attachments": {
         "media_keys": [
@@ -119681,7 +121228,7 @@
     "backfill": true,
     "dry_run": true,
     "estimated_x_post_reads": 411,
-    "latest_post_id": "2077377150584594793",
+    "latest_post_id": "2077736434019246146",
     "max_pages": 10,
     "max_posts": 500,
     "max_results": 5,
@@ -119724,16 +121271,16 @@
       }
     ],
     "pages_fetched": 5,
-    "posts_fetched": 555,
+    "posts_fetched": 562,
     "rate_limit_headers": {
       "x-rate-limit-limit": "10000",
       "x-rate-limit-remaining": "9993",
       "x-rate-limit-reset": "1781108896"
     },
-    "total_posts": 555,
-    "updated_at": "2026-07-15T20:13:00.758892+00:00",
+    "total_posts": 562,
+    "updated_at": "2026-07-16T20:04:26.810462+00:00",
     "username": "info_myojou"
   },
   "source": "x_api",
-  "updated_at": "2026-07-15T20:13:00.758892+00:00"
+  "updated_at": "2026-07-16T20:04:26.810462+00:00"
 }
