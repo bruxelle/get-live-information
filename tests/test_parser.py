@@ -4,6 +4,8 @@ import json
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
+import pytest
+
 from myojou_sync.models import SourceKind
 from myojou_sync.models import CanonicalEvent
 from myojou_sync.models import PostClassification
@@ -533,6 +535,32 @@ def test_explicit_spaced_weekday_ranges_preserve_start_and_deadline_times():
     assert all(period.deadline_at == datetime(2026, 7, 7, 23, 59, tzinfo=JST) for period in lottery_periods)
     assert all(period.start_at == datetime(2026, 7, 8, 21, 0, tzinfo=JST) for period in first_come_periods)
     assert all(period.deadline_at == datetime(2026, 8, 15, 16, 0, tzinfo=JST) for period in first_come_periods)
+
+
+@pytest.mark.parametrize("header", ("先行受付", "先行販売"))
+def test_ambiguous_advance_sale_headers_preserve_following_range(header):
+    parsed = PostParser().parse_post(
+        XPost(
+            id=f"ambiguous-advance-header-{header}",
+            created_at=datetime(2026, 6, 18, 3, 0, tzinfo=JST),
+            text=(
+                "TEST LIVE\n"
+                "日付：2026/8/15(土)\n"
+                "会場：Spotify O-WEST\n"
+                "料金：一般 3,000円\n"
+                f"【{header}】\n"
+                "6/18(木)21:00-7/7(火)23:59\n"
+                "https://tiget.net/events/test"
+            ),
+        )
+    )
+
+    assert parsed is not None
+    dated_periods = [period for period in parsed.ticket_sales if period.start_at or period.deadline_at]
+    assert len(dated_periods) == 1
+    assert dated_periods[0].sale_type == "不明"
+    assert dated_periods[0].start_at == datetime(2026, 6, 18, 21, 0, tzinfo=JST)
+    assert dated_periods[0].deadline_at == datetime(2026, 7, 7, 23, 59, tzinfo=JST)
 
 
 def test_open_ended_general_sales_are_preserved_with_lottery_period():

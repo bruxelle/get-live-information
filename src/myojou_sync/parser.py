@@ -71,6 +71,7 @@ NON_EVENT_KEYWORDS = (
 _URL_RE = re.compile(r"https?://[^\s)）]+")
 _TIME_RE = re.compile(r"\d{1,2}(?:[:：]\d{2}|時\d{0,2}分?)")
 _JST = timezone(timedelta(hours=9))
+_TICKET_SALE_ANCHOR_WINDOW_DAYS = 14
 _TICKET_URL_DOMAINS = (
     "ticketdive.com",
     "t-dv.com",
@@ -715,9 +716,10 @@ class PostParser:
                 )
                 pending_sale_type = None
                 continue
+            normalized_line = _normalize(line)
             sale_type = _sale_type_from_text(line)
-            if sale_type and _is_sale_period_header(line):
-                pending_sale_type = sale_type
+            if _is_sale_period_header(line) and not _DATETIME_RE.search(normalized_line):
+                pending_sale_type = sale_type or "不明"
             elif _is_generic_sale_period_header(line):
                 pending_sale_type = "不明"
 
@@ -1429,8 +1431,11 @@ def _date_from_match(match: re.Match[str], posted_date: date, *, event_date: dat
 def _ticket_sale_anchor_date(event_dates: list[date], event_date: date | None) -> date | None:
     if not event_date:
         return None
-    anchor_window_days = 14
-    occurrence_dates = [candidate for candidate in event_dates if abs((candidate - event_date).days) <= anchor_window_days]
+    occurrence_dates = [
+        candidate
+        for candidate in event_dates
+        if abs((candidate - event_date).days) <= _TICKET_SALE_ANCHOR_WINDOW_DAYS
+    ]
     return max(occurrence_dates) if occurrence_dates else event_date
 
 
