@@ -499,9 +499,7 @@ def _merge_candidates(
 ) -> list[dict[str, Any]]:
     partial_by_new: dict[str, set[str]] = defaultdict(set)
     for (old_id, new_id), item in partials.items():
-        old_dates = set(item["old_occurrence_dates"])
-        new_dates = set(item["new_occurrence_dates"])
-        if old_dates < new_dates or not new_dates.issubset(old_dates):
+        if old_dates < new_dates:
             partial_by_new[new_id].add(old_id)
     new_ids = sorted(set(candidates) | set(partial_by_new))
     return [
