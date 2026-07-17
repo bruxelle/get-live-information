@@ -2,6 +2,938 @@
   "captured_at": "2026-06-10T16:19:36.141820+00:00",
   "data": [
     {
+      "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「ッスッゴイライブ」\n\n🎙14:10-14:30\n📸14:35-15:35\n\n⟣date：7/18（土）\n⟣place :品川インターシティホール\n⟣open/start：8:30/9:00\n⟣price：前方¥8,000/一般 ¥3,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【販売期間】 https://t.co/zLvGmqj8Aw",
+      "attachments": {
+        "media_keys": [
+          "3_2078079297273974784"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "day_before_reminder"
+      },
+      "created_at": "2026-07-17T12:30:00+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/zLvGmqj8Aw",
+            "end": 204,
+            "expanded_url": "https://x.com/info_myojou/status/2078094867830325263/photo/1",
+            "media_key": "3_2078079297273974784",
+            "start": 181,
+            "url": "https://t.co/zLvGmqj8Aw"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2078094867830325263",
+      "media": [
+        {
+          "height": 2048,
+          "media_key": "3_2078079297273974784",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HNbSHFkb0AAcqXE.jpg",
+          "width": 1449
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 235,
+              "start": 228,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "ticketdive.com/event/ssuggoil…",
+              "end": 226,
+              "expanded_url": "https://ticketdive.com/event/ssuggoilive_0718_ICH",
+              "start": 203,
+              "url": "https://t.co/2TivIW6u0w"
+            }
+          ]
+        },
+        "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「ッスッゴイライブ」\n\n🎙14:10-14:30\n📸14:35-15:35\n\n⟣date：7/18（土）\n⟣place :品川インターシティホール\n⟣open/start：8:30/9:00\n⟣price：前方¥8,000/一般 ¥3,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【販売期間】\n7/10（金）-7/17（金）23:59\n🔗https://t.co/2TivIW6u0w\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": "14:35-15:35",
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-07-18",
+        "event_dates": [
+          "2026-07-18"
+        ],
+        "event_name": "ッスッゴイライブ",
+        "extraction_confidence": 0.95,
+        "general_ticket_price": 3500,
+        "lottery_result_at": null,
+        "myojou_performance_time": "14:10-14:30",
+        "notes": "ドリンク代: 各+1D\n⟣入場特典:明星カード(サインありチェキ)",
+        "open_time": "08:30",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "前方",
+        "priority_ticket_price": 8000,
+        "same_day_ticket_price": null,
+        "source_kind": "day_before_reminder",
+        "source_post_id": "2078094867830325263",
+        "source_posted_at": "2026-07-17T12:30:00Z",
+        "source_raw": {
+          "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「ッスッゴイライブ」\n\n🎙14:10-14:30\n📸14:35-15:35\n\n⟣date：7/18（土）\n⟣place :品川インターシティホール\n⟣open/start：8:30/9:00\n⟣price：前方¥8,000/一般 ¥3,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【販売期間】 https://t.co/zLvGmqj8Aw",
+          "attachments": {
+            "media_keys": [
+              "3_2078079297273974784"
+            ]
+          },
+          "created_at": "2026-07-17T12:30:00.000Z",
+          "edit_history_tweet_ids": [
+            "2078094867830325263"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/zLvGmqj8Aw",
+                "end": 204,
+                "expanded_url": "https://x.com/info_myojou/status/2078094867830325263/photo/1",
+                "media_key": "3_2078079297273974784",
+                "start": 181,
+                "url": "https://t.co/zLvGmqj8Aw"
+              }
+            ]
+          },
+          "full_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「ッスッゴイライブ」\n\n🎙14:10-14:30\n📸14:35-15:35\n\n⟣date：7/18（土）\n⟣place :品川インターシティホール\n⟣open/start：8:30/9:00\n⟣price：前方¥8,000/一般 ¥3,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【販売期間】\n7/10（金）-7/17（金）23:59\n🔗https://t.co/2TivIW6u0w\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2078094867830325263",
+          "media": [
+            {
+              "height": 2048,
+              "media_key": "3_2078079297273974784",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HNbSHFkb0AAcqXE.jpg",
+              "width": 1449
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 235,
+                  "start": 228,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "ticketdive.com/event/ssuggoil…",
+                  "end": 226,
+                  "expanded_url": "https://ticketdive.com/event/ssuggoilive_0718_ICH",
+                  "start": 203,
+                  "url": "https://t.co/2TivIW6u0w"
+                }
+              ]
+            },
+            "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「ッスッゴイライブ」\n\n🎙14:10-14:30\n📸14:35-15:35\n\n⟣date：7/18（土）\n⟣place :品川インターシティホール\n⟣open/start：8:30/9:00\n⟣price：前方¥8,000/一般 ¥3,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【販売期間】\n7/10（金）-7/17（金）23:59\n🔗https://t.co/2TivIW6u0w\n\n#myojou"
+          },
+          "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「ッスッゴイライブ」\n\n🎙14:10-14:30\n📸14:35-15:35\n\n⟣date：7/18（土）\n⟣place :品川インターシティホール\n⟣open/start：8:30/9:00\n⟣price：前方¥8,000/一般 ¥3,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【販売期間】 https://t.co/zLvGmqj8Aw",
+          "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「ッスッゴイライブ」\n\n🎙14:10-14:30\n📸14:35-15:35\n\n⟣date：7/18（土）\n⟣place :品川インターシティホール\n⟣open/start：8:30/9:00\n⟣price：前方¥8,000/一般 ¥3,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【販売期間】 https://t.co/zLvGmqj8Aw"
+        },
+        "source_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「ッスッゴイライブ」\n\n🎙14:10-14:30\n📸14:35-15:35\n\n⟣date：7/18（土）\n⟣place :品川インターシティホール\n⟣open/start：8:30/9:00\n⟣price：前方¥8,000/一般 ¥3,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【販売期間】\n7/10（金）-7/17（金）23:59\n🔗https://t.co/2TivIW6u0w\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2078094867830325263",
+        "start_time": "09:00",
+        "ticket_application_deadline_at": "2026-07-17T23:59:00+09:00",
+        "ticket_application_start_at": null,
+        "ticket_sale_type": "不明",
+        "ticket_sales": [
+          {
+            "deadline_at": "2026-07-17T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 8000,
+            "result_at": null,
+            "sale_type": "不明",
+            "source_post_id": "2078094867830325263",
+            "source_url": "https://x.com/info_myojou/status/2078094867830325263",
+            "start_at": null,
+            "status": "不明",
+            "ticket_name": "前方",
+            "ticket_tier": "前方"
+          },
+          {
+            "deadline_at": "2026-07-17T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 3500,
+            "result_at": null,
+            "sale_type": "不明",
+            "source_post_id": "2078094867830325263",
+            "source_url": "https://x.com/info_myojou/status/2078094867830325263",
+            "start_at": null,
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "https://ticketdive.com/event/ssuggoilive_0718_ICH",
+        "venue": "品川インターシティホール"
+      },
+      "raw": {
+        "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「ッスッゴイライブ」\n\n🎙14:10-14:30\n📸14:35-15:35\n\n⟣date：7/18（土）\n⟣place :品川インターシティホール\n⟣open/start：8:30/9:00\n⟣price：前方¥8,000/一般 ¥3,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【販売期間】 https://t.co/zLvGmqj8Aw",
+        "attachments": {
+          "media_keys": [
+            "3_2078079297273974784"
+          ]
+        },
+        "created_at": "2026-07-17T12:30:00.000Z",
+        "edit_history_tweet_ids": [
+          "2078094867830325263"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/zLvGmqj8Aw",
+              "end": 204,
+              "expanded_url": "https://x.com/info_myojou/status/2078094867830325263/photo/1",
+              "media_key": "3_2078079297273974784",
+              "start": 181,
+              "url": "https://t.co/zLvGmqj8Aw"
+            }
+          ]
+        },
+        "full_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「ッスッゴイライブ」\n\n🎙14:10-14:30\n📸14:35-15:35\n\n⟣date：7/18（土）\n⟣place :品川インターシティホール\n⟣open/start：8:30/9:00\n⟣price：前方¥8,000/一般 ¥3,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【販売期間】\n7/10（金）-7/17（金）23:59\n🔗https://t.co/2TivIW6u0w\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2078094867830325263",
+        "media": [
+          {
+            "height": 2048,
+            "media_key": "3_2078079297273974784",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HNbSHFkb0AAcqXE.jpg",
+            "width": 1449
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 235,
+                "start": 228,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "ticketdive.com/event/ssuggoil…",
+                "end": 226,
+                "expanded_url": "https://ticketdive.com/event/ssuggoilive_0718_ICH",
+                "start": 203,
+                "url": "https://t.co/2TivIW6u0w"
+              }
+            ]
+          },
+          "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「ッスッゴイライブ」\n\n🎙14:10-14:30\n📸14:35-15:35\n\n⟣date：7/18（土）\n⟣place :品川インターシティホール\n⟣open/start：8:30/9:00\n⟣price：前方¥8,000/一般 ¥3,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【販売期間】\n7/10（金）-7/17（金）23:59\n🔗https://t.co/2TivIW6u0w\n\n#myojou"
+        },
+        "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「ッスッゴイライブ」\n\n🎙14:10-14:30\n📸14:35-15:35\n\n⟣date：7/18（土）\n⟣place :品川インターシティホール\n⟣open/start：8:30/9:00\n⟣price：前方¥8,000/一般 ¥3,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【販売期間】 https://t.co/zLvGmqj8Aw",
+        "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「ッスッゴイライブ」\n\n🎙14:10-14:30\n📸14:35-15:35\n\n⟣date：7/18（土）\n⟣place :品川インターシティホール\n⟣open/start：8:30/9:00\n⟣price：前方¥8,000/一般 ¥3,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【販売期間】 https://t.co/zLvGmqj8Aw"
+      },
+      "referenced_tweets": [],
+      "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「ッスッゴイライブ」\n\n🎙14:10-14:30\n📸14:35-15:35\n\n⟣date：7/18（土）\n⟣place :品川インターシティホール\n⟣open/start：8:30/9:00\n⟣price：前方¥8,000/一般 ¥3,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【販売期間】\n7/10（金）-7/17（金）23:59\n🔗https://t.co/2TivIW6u0w\n\n#myojou",
+      "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「ッスッゴイライブ」\n\n🎙14:10-14:30\n📸14:35-15:35\n\n⟣date：7/18（土）\n⟣place :品川インターシティホール\n⟣open/start：8:30/9:00\n⟣price：前方¥8,000/一般 ¥3,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【販売期間】 https://t.co/zLvGmqj8Aw",
+      "url": "https://x.com/info_myojou/status/2078094867830325263"
+    },
+    {
+      "api_text": "✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n      myojou oneman live\"明夏\"\n                      「灯火」\n✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n\n⟣2026.07.17 22:00プレミア公開\n⟣ myojou公式YouTubeチャンネル\n🔗 https://t.co/uVu7rw1j3i\n\n #myojou",
+      "attachments": {},
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "initial_announcement"
+      },
+      "created_at": "2026-07-17T12:00:02+00:00",
+      "entities": {
+        "hashtags": [
+          {
+            "end": 177,
+            "start": 170,
+            "tag": "myojou"
+          }
+        ],
+        "urls": [
+          {
+            "description": "「6人の少女が夜明けの空に描くストーリー」 公式X : https://x.com/info_myojou公式TikTok : ...",
+            "display_url": "youtu.be/VEX80J7x5IA",
+            "end": 167,
+            "expanded_url": "https://youtu.be/VEX80J7x5IA",
+            "images": [
+              {
+                "height": 720,
+                "url": "https://pbs.twimg.com/news_img/2078087371577565185/L2dcWkoF?format=jpg&name=orig",
+                "width": 1280
+              },
+              {
+                "height": 150,
+                "url": "https://pbs.twimg.com/news_img/2078087371577565185/L2dcWkoF?format=jpg&name=150x150",
+                "width": 150
+              }
+            ],
+            "start": 144,
+            "status": 200,
+            "title": "『LIVE VIDEO』灯火/myojou",
+            "unwound_url": "https://www.youtube.com/watch?v=VEX80J7x5IA&feature=youtu.be",
+            "url": "https://t.co/uVu7rw1j3i"
+          }
+        ]
+      },
+      "full_text_source": "text",
+      "id": "2078087325834412092",
+      "media": [],
+      "needs_review": true,
+      "needs_review_reasons": [
+        "missing venue",
+        "missing ticket deadline",
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": null,
+      "parsed_fields": {
+        "benefit_event_time": null,
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-07-17",
+        "event_dates": [
+          "2026-07-17"
+        ],
+        "event_name": "myojou oneman live\"明夏\"",
+        "extraction_confidence": 0.6,
+        "general_ticket_price": null,
+        "lottery_result_at": null,
+        "myojou_performance_time": null,
+        "notes": null,
+        "open_time": null,
+        "payment_deadline_at": null,
+        "priority_ticket_name": null,
+        "priority_ticket_price": null,
+        "same_day_ticket_price": null,
+        "source_kind": "initial_announcement",
+        "source_post_id": "2078087325834412092",
+        "source_posted_at": "2026-07-17T12:00:02Z",
+        "source_raw": {
+          "api_text": "✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n      myojou oneman live\"明夏\"\n                      「灯火」\n✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n\n⟣2026.07.17 22:00プレミア公開\n⟣ myojou公式YouTubeチャンネル\n🔗 https://t.co/uVu7rw1j3i\n\n #myojou",
+          "created_at": "2026-07-17T12:00:02.000Z",
+          "edit_history_tweet_ids": [
+            "2078087325834412092"
+          ],
+          "entities": {
+            "hashtags": [
+              {
+                "end": 177,
+                "start": 170,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "description": "「6人の少女が夜明けの空に描くストーリー」 公式X : https://x.com/info_myojou公式TikTok : ...",
+                "display_url": "youtu.be/VEX80J7x5IA",
+                "end": 167,
+                "expanded_url": "https://youtu.be/VEX80J7x5IA",
+                "images": [
+                  {
+                    "height": 720,
+                    "url": "https://pbs.twimg.com/news_img/2078087371577565185/L2dcWkoF?format=jpg&name=orig",
+                    "width": 1280
+                  },
+                  {
+                    "height": 150,
+                    "url": "https://pbs.twimg.com/news_img/2078087371577565185/L2dcWkoF?format=jpg&name=150x150",
+                    "width": 150
+                  }
+                ],
+                "start": 144,
+                "status": 200,
+                "title": "『LIVE VIDEO』灯火/myojou",
+                "unwound_url": "https://www.youtube.com/watch?v=VEX80J7x5IA&feature=youtu.be",
+                "url": "https://t.co/uVu7rw1j3i"
+              }
+            ]
+          },
+          "full_text": "✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n      myojou oneman live\"明夏\"\n                      「灯火」\n✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n\n⟣2026.07.17 22:00プレミア公開\n⟣ myojou公式YouTubeチャンネル\n🔗 https://t.co/uVu7rw1j3i\n\n #myojou",
+          "full_text_source": "text",
+          "id": "2078087325834412092",
+          "text": "✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n      myojou oneman live\"明夏\"\n                      「灯火」\n✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n\n⟣2026.07.17 22:00プレミア公開\n⟣ myojou公式YouTubeチャンネル\n🔗 https://t.co/uVu7rw1j3i\n\n #myojou",
+          "truncated_text": null
+        },
+        "source_text": "✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n      myojou oneman live\"明夏\"\n                      「灯火」\n✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n\n⟣2026.07.17 22:00プレミア公開\n⟣ myojou公式YouTubeチャンネル\n🔗 https://t.co/uVu7rw1j3i\n\n #myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2078087325834412092",
+        "start_time": null,
+        "ticket_application_deadline_at": null,
+        "ticket_application_start_at": null,
+        "ticket_sale_type": null,
+        "ticket_sales": [],
+        "ticket_status": null,
+        "ticket_url": null,
+        "venue": null
+      },
+      "raw": {
+        "api_text": "✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n      myojou oneman live\"明夏\"\n                      「灯火」\n✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n\n⟣2026.07.17 22:00プレミア公開\n⟣ myojou公式YouTubeチャンネル\n🔗 https://t.co/uVu7rw1j3i\n\n #myojou",
+        "created_at": "2026-07-17T12:00:02.000Z",
+        "edit_history_tweet_ids": [
+          "2078087325834412092"
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "end": 177,
+              "start": 170,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "description": "「6人の少女が夜明けの空に描くストーリー」 公式X : https://x.com/info_myojou公式TikTok : ...",
+              "display_url": "youtu.be/VEX80J7x5IA",
+              "end": 167,
+              "expanded_url": "https://youtu.be/VEX80J7x5IA",
+              "images": [
+                {
+                  "height": 720,
+                  "url": "https://pbs.twimg.com/news_img/2078087371577565185/L2dcWkoF?format=jpg&name=orig",
+                  "width": 1280
+                },
+                {
+                  "height": 150,
+                  "url": "https://pbs.twimg.com/news_img/2078087371577565185/L2dcWkoF?format=jpg&name=150x150",
+                  "width": 150
+                }
+              ],
+              "start": 144,
+              "status": 200,
+              "title": "『LIVE VIDEO』灯火/myojou",
+              "unwound_url": "https://www.youtube.com/watch?v=VEX80J7x5IA&feature=youtu.be",
+              "url": "https://t.co/uVu7rw1j3i"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n      myojou oneman live\"明夏\"\n                      「灯火」\n✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n\n⟣2026.07.17 22:00プレミア公開\n⟣ myojou公式YouTubeチャンネル\n🔗 https://t.co/uVu7rw1j3i\n\n #myojou",
+        "full_text_source": "text",
+        "id": "2078087325834412092",
+        "text": "✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n      myojou oneman live\"明夏\"\n                      「灯火」\n✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n\n⟣2026.07.17 22:00プレミア公開\n⟣ myojou公式YouTubeチャンネル\n🔗 https://t.co/uVu7rw1j3i\n\n #myojou",
+        "truncated_text": null
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n      myojou oneman live\"明夏\"\n                      「灯火」\n✮••┈┈┈┈┈┈┈┈┈┈┈┈••✮\n\n⟣2026.07.17 22:00プレミア公開\n⟣ myojou公式YouTubeチャンネル\n🔗 https://t.co/uVu7rw1j3i\n\n #myojou",
+      "truncated_text": null,
+      "url": "https://x.com/info_myojou/status/2078087325834412092"
+    },
+    {
+      "api_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n               ガラスガール\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n真希しの・栗原ここねが、ガラスガール様より取材していただきました！\n\nTIF2026メインステージ争奪LIVEへの意気込みや想いをお話ししています⟡.·\n\nぜひご覧下さい！ https://t.co/1Z2hZOfcMx",
+      "attachments": {},
+      "classification": {
+        "classification": "event",
+        "confidence": "medium",
+        "reason": "live keywords with partial structured information",
+        "source_kind": "initial_announcement"
+      },
+      "created_at": "2026-07-17T09:15:58+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "x.com/glassgirl_info…",
+            "end": 173,
+            "expanded_url": "https://twitter.com/glassgirl_info/status/2078043027654975580",
+            "start": 150,
+            "url": "https://t.co/1Z2hZOfcMx"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2078046038070554817",
+      "media": [],
+      "needs_review": true,
+      "needs_review_reasons": [
+        "missing venue",
+        "missing ticket deadline",
+        "classification: live keywords with partial structured information"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 185,
+              "start": 178,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "glassgirl.info/article/post-3…",
+              "end": 175,
+              "expanded_url": "https://glassgirl.info/article/post-37533/",
+              "start": 152,
+              "url": "https://t.co/uWRfd3IlyE"
+            }
+          ]
+        },
+        "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n               ガラスガール\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n真希しの・栗原ここねが、ガラスガール様より取材していただきました！\n\nTIF2026メインステージ争奪LIVEへの意気込みや想いをお話ししています⟡.·\n\nぜひご覧下さい！\n\n🔗https://t.co/uWRfd3IlyE\n\n #myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": null,
+        "classification": "event",
+        "classification_confidence": "medium",
+        "classification_reason": "live keywords with partial structured information",
+        "event_date": null,
+        "event_dates": [],
+        "event_name": "TIF2026メインステージ争奪LIVEへの意気込みや想いをお話ししています⟡.·",
+        "extraction_confidence": 0.4,
+        "general_ticket_price": null,
+        "lottery_result_at": null,
+        "myojou_performance_time": null,
+        "notes": null,
+        "open_time": null,
+        "payment_deadline_at": null,
+        "priority_ticket_name": null,
+        "priority_ticket_price": null,
+        "same_day_ticket_price": null,
+        "source_kind": "initial_announcement",
+        "source_post_id": "2078046038070554817",
+        "source_posted_at": "2026-07-17T09:15:58Z",
+        "source_raw": {
+          "api_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n               ガラスガール\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n真希しの・栗原ここねが、ガラスガール様より取材していただきました！\n\nTIF2026メインステージ争奪LIVEへの意気込みや想いをお話ししています⟡.·\n\nぜひご覧下さい！ https://t.co/1Z2hZOfcMx",
+          "created_at": "2026-07-17T09:15:58.000Z",
+          "edit_history_tweet_ids": [
+            "2078046038070554817"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "x.com/glassgirl_info…",
+                "end": 173,
+                "expanded_url": "https://twitter.com/glassgirl_info/status/2078043027654975580",
+                "start": 150,
+                "url": "https://t.co/1Z2hZOfcMx"
+              }
+            ]
+          },
+          "full_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n               ガラスガール\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n真希しの・栗原ここねが、ガラスガール様より取材していただきました！\n\nTIF2026メインステージ争奪LIVEへの意気込みや想いをお話ししています⟡.·\n\nぜひご覧下さい！\n\n🔗https://t.co/uWRfd3IlyE\n\n #myojou",
+          "full_text_source": "note_tweet",
+          "id": "2078046038070554817",
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 185,
+                  "start": 178,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "glassgirl.info/article/post-3…",
+                  "end": 175,
+                  "expanded_url": "https://glassgirl.info/article/post-37533/",
+                  "start": 152,
+                  "url": "https://t.co/uWRfd3IlyE"
+                }
+              ]
+            },
+            "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n               ガラスガール\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n真希しの・栗原ここねが、ガラスガール様より取材していただきました！\n\nTIF2026メインステージ争奪LIVEへの意気込みや想いをお話ししています⟡.·\n\nぜひご覧下さい！\n\n🔗https://t.co/uWRfd3IlyE\n\n #myojou"
+          },
+          "referenced_tweets": [
+            {
+              "id": "2078043027654975580",
+              "type": "quoted"
+            }
+          ],
+          "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n               ガラスガール\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n真希しの・栗原ここねが、ガラスガール様より取材していただきました！\n\nTIF2026メインステージ争奪LIVEへの意気込みや想いをお話ししています⟡.·\n\nぜひご覧下さい！ https://t.co/1Z2hZOfcMx",
+          "truncated_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n               ガラスガール\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n真希しの・栗原ここねが、ガラスガール様より取材していただきました！\n\nTIF2026メインステージ争奪LIVEへの意気込みや想いをお話ししています⟡.·\n\nぜひご覧下さい！ https://t.co/1Z2hZOfcMx"
+        },
+        "source_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n               ガラスガール\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n真希しの・栗原ここねが、ガラスガール様より取材していただきました！\n\nTIF2026メインステージ争奪LIVEへの意気込みや想いをお話ししています⟡.·\n\nぜひご覧下さい！\n\n🔗https://t.co/uWRfd3IlyE\n\n #myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2078046038070554817",
+        "start_time": null,
+        "ticket_application_deadline_at": null,
+        "ticket_application_start_at": null,
+        "ticket_sale_type": null,
+        "ticket_sales": [],
+        "ticket_status": null,
+        "ticket_url": null,
+        "venue": null
+      },
+      "raw": {
+        "api_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n               ガラスガール\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n真希しの・栗原ここねが、ガラスガール様より取材していただきました！\n\nTIF2026メインステージ争奪LIVEへの意気込みや想いをお話ししています⟡.·\n\nぜひご覧下さい！ https://t.co/1Z2hZOfcMx",
+        "created_at": "2026-07-17T09:15:58.000Z",
+        "edit_history_tweet_ids": [
+          "2078046038070554817"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "x.com/glassgirl_info…",
+              "end": 173,
+              "expanded_url": "https://twitter.com/glassgirl_info/status/2078043027654975580",
+              "start": 150,
+              "url": "https://t.co/1Z2hZOfcMx"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n               ガラスガール\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n真希しの・栗原ここねが、ガラスガール様より取材していただきました！\n\nTIF2026メインステージ争奪LIVEへの意気込みや想いをお話ししています⟡.·\n\nぜひご覧下さい！\n\n🔗https://t.co/uWRfd3IlyE\n\n #myojou",
+        "full_text_source": "note_tweet",
+        "id": "2078046038070554817",
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 185,
+                "start": 178,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "glassgirl.info/article/post-3…",
+                "end": 175,
+                "expanded_url": "https://glassgirl.info/article/post-37533/",
+                "start": 152,
+                "url": "https://t.co/uWRfd3IlyE"
+              }
+            ]
+          },
+          "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n               ガラスガール\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n真希しの・栗原ここねが、ガラスガール様より取材していただきました！\n\nTIF2026メインステージ争奪LIVEへの意気込みや想いをお話ししています⟡.·\n\nぜひご覧下さい！\n\n🔗https://t.co/uWRfd3IlyE\n\n #myojou"
+        },
+        "referenced_tweets": [
+          {
+            "id": "2078043027654975580",
+            "type": "quoted"
+          }
+        ],
+        "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n               ガラスガール\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n真希しの・栗原ここねが、ガラスガール様より取材していただきました！\n\nTIF2026メインステージ争奪LIVEへの意気込みや想いをお話ししています⟡.·\n\nぜひご覧下さい！ https://t.co/1Z2hZOfcMx",
+        "truncated_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n               ガラスガール\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n真希しの・栗原ここねが、ガラスガール様より取材していただきました！\n\nTIF2026メインステージ争奪LIVEへの意気込みや想いをお話ししています⟡.·\n\nぜひご覧下さい！ https://t.co/1Z2hZOfcMx"
+      },
+      "referenced_tweets": [
+        {
+          "id": "2078043027654975580",
+          "type": "quoted"
+        }
+      ],
+      "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n               ガラスガール\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n真希しの・栗原ここねが、ガラスガール様より取材していただきました！\n\nTIF2026メインステージ争奪LIVEへの意気込みや想いをお話ししています⟡.·\n\nぜひご覧下さい！\n\n🔗https://t.co/uWRfd3IlyE\n\n #myojou",
+      "truncated_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n               ガラスガール\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n真希しの・栗原ここねが、ガラスガール様より取材していただきました！\n\nTIF2026メインステージ争奪LIVEへの意気込みや想いをお話ししています⟡.·\n\nぜひご覧下さい！ https://t.co/1Z2hZOfcMx",
+      "url": "https://x.com/info_myojou/status/2078046038070554817"
+    },
+    {
+      "api_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n                    #TIF2026 \n      メインステージ争奪LIVE決勝\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\nローソンチケットにて対象のTIF2026先行販売チケットをご購入いただいていた方を対象に「入場整理券抽選受付」、「オンライン事前投票」 https://t.co/bGrPAUIhmr",
+      "attachments": {
+        "media_keys": [
+          "3_2078042165809381376"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "ticket_update"
+      },
+      "created_at": "2026-07-17T09:00:36+00:00",
+      "entities": {
+        "hashtags": [
+          {
+            "end": 50,
+            "start": 42,
+            "tag": "TIF2026"
+          }
+        ],
+        "urls": [
+          {
+            "display_url": "pic.x.com/bGrPAUIhmr",
+            "end": 188,
+            "expanded_url": "https://x.com/info_myojou/status/2078042171023003962/photo/1",
+            "media_key": "3_2078042165809381376",
+            "start": 165,
+            "url": "https://t.co/bGrPAUIhmr"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2078042171023003962",
+      "media": [
+        {
+          "height": 2000,
+          "media_key": "3_2078042165809381376",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HNawVwFaAAA1mUF.jpg",
+          "width": 1414
+        }
+      ],
+      "needs_review": true,
+      "needs_review_reasons": [
+        "missing ticket deadline",
+        "ambiguous event match",
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 50,
+              "start": 42,
+              "tag": "TIF2026"
+            },
+            {
+              "end": 308,
+              "start": 301,
+              "tag": "myojou"
+            },
+            {
+              "end": 319,
+              "start": 309,
+              "tag": "ミョージョーサマー"
+            },
+            {
+              "end": 328,
+              "start": 320,
+              "tag": "TIF2026"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "official.idolfes.com/s/tif2026/?ima…",
+              "end": 299,
+              "expanded_url": "https://official.idolfes.com/s/tif2026/?ima=0000",
+              "start": 276,
+              "url": "https://t.co/o85SfM7H5g"
+            }
+          ]
+        },
+        "text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n                    #TIF2026 \n      メインステージ争奪LIVE決勝\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\nローソンチケットにて対象のTIF2026先行販売チケットをご購入いただいていた方を対象に「入場整理券抽選受付」、「オンライン事前投票」\nの受付開始！\n対象者にはローソンチケットよりメールにてご案内いたします。\n\n⟣date：7/31（金）\n⟣place :HEAT STAGE（Zepp Diver City（Tokyo））\n\n【TIF2026 HP】\n🔗 https://t.co/o85SfM7H5g\n\n#myojou\n#ミョージョーサマー\n#TIF2026"
+      },
+      "parsed_fields": {
+        "benefit_event_time": null,
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-07-31",
+        "event_dates": [
+          "2026-07-31"
+        ],
+        "event_name": "メインステージ争奪LIVE決勝",
+        "extraction_confidence": 0.75,
+        "general_ticket_price": null,
+        "lottery_result_at": null,
+        "myojou_performance_time": null,
+        "notes": null,
+        "open_time": null,
+        "payment_deadline_at": null,
+        "priority_ticket_name": null,
+        "priority_ticket_price": null,
+        "same_day_ticket_price": null,
+        "source_kind": "ticket_update",
+        "source_post_id": "2078042171023003962",
+        "source_posted_at": "2026-07-17T09:00:36Z",
+        "source_raw": {
+          "api_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n                    #TIF2026 \n      メインステージ争奪LIVE決勝\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\nローソンチケットにて対象のTIF2026先行販売チケットをご購入いただいていた方を対象に「入場整理券抽選受付」、「オンライン事前投票」 https://t.co/bGrPAUIhmr",
+          "attachments": {
+            "media_keys": [
+              "3_2078042165809381376"
+            ]
+          },
+          "created_at": "2026-07-17T09:00:36.000Z",
+          "edit_history_tweet_ids": [
+            "2078042171023003962"
+          ],
+          "entities": {
+            "hashtags": [
+              {
+                "end": 50,
+                "start": 42,
+                "tag": "TIF2026"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "pic.x.com/bGrPAUIhmr",
+                "end": 188,
+                "expanded_url": "https://x.com/info_myojou/status/2078042171023003962/photo/1",
+                "media_key": "3_2078042165809381376",
+                "start": 165,
+                "url": "https://t.co/bGrPAUIhmr"
+              }
+            ]
+          },
+          "full_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n                    #TIF2026 \n      メインステージ争奪LIVE決勝\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\nローソンチケットにて対象のTIF2026先行販売チケットをご購入いただいていた方を対象に「入場整理券抽選受付」、「オンライン事前投票」\nの受付開始！\n対象者にはローソンチケットよりメールにてご案内いたします。\n\n⟣date：7/31（金）\n⟣place :HEAT STAGE（Zepp Diver City（Tokyo））\n\n【TIF2026 HP】\n🔗 https://t.co/o85SfM7H5g\n\n#myojou\n#ミョージョーサマー\n#TIF2026",
+          "full_text_source": "note_tweet",
+          "id": "2078042171023003962",
+          "media": [
+            {
+              "height": 2000,
+              "media_key": "3_2078042165809381376",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HNawVwFaAAA1mUF.jpg",
+              "width": 1414
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 50,
+                  "start": 42,
+                  "tag": "TIF2026"
+                },
+                {
+                  "end": 308,
+                  "start": 301,
+                  "tag": "myojou"
+                },
+                {
+                  "end": 319,
+                  "start": 309,
+                  "tag": "ミョージョーサマー"
+                },
+                {
+                  "end": 328,
+                  "start": 320,
+                  "tag": "TIF2026"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "official.idolfes.com/s/tif2026/?ima…",
+                  "end": 299,
+                  "expanded_url": "https://official.idolfes.com/s/tif2026/?ima=0000",
+                  "start": 276,
+                  "url": "https://t.co/o85SfM7H5g"
+                }
+              ]
+            },
+            "text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n                    #TIF2026 \n      メインステージ争奪LIVE決勝\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\nローソンチケットにて対象のTIF2026先行販売チケットをご購入いただいていた方を対象に「入場整理券抽選受付」、「オンライン事前投票」\nの受付開始！\n対象者にはローソンチケットよりメールにてご案内いたします。\n\n⟣date：7/31（金）\n⟣place :HEAT STAGE（Zepp Diver City（Tokyo））\n\n【TIF2026 HP】\n🔗 https://t.co/o85SfM7H5g\n\n#myojou\n#ミョージョーサマー\n#TIF2026"
+          },
+          "text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n                    #TIF2026 \n      メインステージ争奪LIVE決勝\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\nローソンチケットにて対象のTIF2026先行販売チケットをご購入いただいていた方を対象に「入場整理券抽選受付」、「オンライン事前投票」 https://t.co/bGrPAUIhmr",
+          "truncated_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n                    #TIF2026 \n      メインステージ争奪LIVE決勝\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\nローソンチケットにて対象のTIF2026先行販売チケットをご購入いただいていた方を対象に「入場整理券抽選受付」、「オンライン事前投票」 https://t.co/bGrPAUIhmr"
+        },
+        "source_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n                    #TIF2026 \n      メインステージ争奪LIVE決勝\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\nローソンチケットにて対象のTIF2026先行販売チケットをご購入いただいていた方を対象に「入場整理券抽選受付」、「オンライン事前投票」\nの受付開始！\n対象者にはローソンチケットよりメールにてご案内いたします。\n\n⟣date：7/31（金）\n⟣place :HEAT STAGE（Zepp Diver City（Tokyo））\n\n【TIF2026 HP】\n🔗 https://t.co/o85SfM7H5g\n\n#myojou\n#ミョージョーサマー\n#TIF2026",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2078042171023003962",
+        "start_time": null,
+        "ticket_application_deadline_at": null,
+        "ticket_application_start_at": null,
+        "ticket_sale_type": "抽選",
+        "ticket_sales": [
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 2026,
+            "result_at": null,
+            "sale_type": "抽選",
+            "source_post_id": "2078042171023003962",
+            "source_url": "https://x.com/info_myojou/status/2078042171023003962",
+            "start_at": null,
+            "status": "不明",
+            "ticket_name": "ローソンチケット",
+            "ticket_tier": "不明"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": null,
+        "venue": "HEAT STAGE(Zepp Diver City(Tokyo))"
+      },
+      "raw": {
+        "api_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n                    #TIF2026 \n      メインステージ争奪LIVE決勝\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\nローソンチケットにて対象のTIF2026先行販売チケットをご購入いただいていた方を対象に「入場整理券抽選受付」、「オンライン事前投票」 https://t.co/bGrPAUIhmr",
+        "attachments": {
+          "media_keys": [
+            "3_2078042165809381376"
+          ]
+        },
+        "created_at": "2026-07-17T09:00:36.000Z",
+        "edit_history_tweet_ids": [
+          "2078042171023003962"
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "end": 50,
+              "start": 42,
+              "tag": "TIF2026"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "pic.x.com/bGrPAUIhmr",
+              "end": 188,
+              "expanded_url": "https://x.com/info_myojou/status/2078042171023003962/photo/1",
+              "media_key": "3_2078042165809381376",
+              "start": 165,
+              "url": "https://t.co/bGrPAUIhmr"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n                    #TIF2026 \n      メインステージ争奪LIVE決勝\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\nローソンチケットにて対象のTIF2026先行販売チケットをご購入いただいていた方を対象に「入場整理券抽選受付」、「オンライン事前投票」\nの受付開始！\n対象者にはローソンチケットよりメールにてご案内いたします。\n\n⟣date：7/31（金）\n⟣place :HEAT STAGE（Zepp Diver City（Tokyo））\n\n【TIF2026 HP】\n🔗 https://t.co/o85SfM7H5g\n\n#myojou\n#ミョージョーサマー\n#TIF2026",
+        "full_text_source": "note_tweet",
+        "id": "2078042171023003962",
+        "media": [
+          {
+            "height": 2000,
+            "media_key": "3_2078042165809381376",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HNawVwFaAAA1mUF.jpg",
+            "width": 1414
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 50,
+                "start": 42,
+                "tag": "TIF2026"
+              },
+              {
+                "end": 308,
+                "start": 301,
+                "tag": "myojou"
+              },
+              {
+                "end": 319,
+                "start": 309,
+                "tag": "ミョージョーサマー"
+              },
+              {
+                "end": 328,
+                "start": 320,
+                "tag": "TIF2026"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "official.idolfes.com/s/tif2026/?ima…",
+                "end": 299,
+                "expanded_url": "https://official.idolfes.com/s/tif2026/?ima=0000",
+                "start": 276,
+                "url": "https://t.co/o85SfM7H5g"
+              }
+            ]
+          },
+          "text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n                    #TIF2026 \n      メインステージ争奪LIVE決勝\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\nローソンチケットにて対象のTIF2026先行販売チケットをご購入いただいていた方を対象に「入場整理券抽選受付」、「オンライン事前投票」\nの受付開始！\n対象者にはローソンチケットよりメールにてご案内いたします。\n\n⟣date：7/31（金）\n⟣place :HEAT STAGE（Zepp Diver City（Tokyo））\n\n【TIF2026 HP】\n🔗 https://t.co/o85SfM7H5g\n\n#myojou\n#ミョージョーサマー\n#TIF2026"
+        },
+        "text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n                    #TIF2026 \n      メインステージ争奪LIVE決勝\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\nローソンチケットにて対象のTIF2026先行販売チケットをご購入いただいていた方を対象に「入場整理券抽選受付」、「オンライン事前投票」 https://t.co/bGrPAUIhmr",
+        "truncated_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n                    #TIF2026 \n      メインステージ争奪LIVE決勝\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\nローソンチケットにて対象のTIF2026先行販売チケットをご購入いただいていた方を対象に「入場整理券抽選受付」、「オンライン事前投票」 https://t.co/bGrPAUIhmr"
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n                    #TIF2026 \n      メインステージ争奪LIVE決勝\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\nローソンチケットにて対象のTIF2026先行販売チケットをご購入いただいていた方を対象に「入場整理券抽選受付」、「オンライン事前投票」\nの受付開始！\n対象者にはローソンチケットよりメールにてご案内いたします。\n\n⟣date：7/31（金）\n⟣place :HEAT STAGE（Zepp Diver City（Tokyo））\n\n【TIF2026 HP】\n🔗 https://t.co/o85SfM7H5g\n\n#myojou\n#ミョージョーサマー\n#TIF2026",
+      "truncated_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n                    #TIF2026 \n      メインステージ争奪LIVE決勝\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\nローソンチケットにて対象のTIF2026先行販売チケットをご購入いただいていた方を対象に「入場整理券抽選受付」、「オンライン事前投票」 https://t.co/bGrPAUIhmr",
+      "url": "https://x.com/info_myojou/status/2078042171023003962"
+    },
+    {
       "api_text": "✯••┈┈Tiktok┈┈••✯\n蛍夏-myojou\nhttps://t.co/MtgH8YlPfX\n\nよければいいね♡拡散♻︎コメント📝お願いします🙇‍♂️\n\n#myojou",
       "attachments": {},
       "classification": {
@@ -121228,7 +122160,7 @@
     "backfill": true,
     "dry_run": true,
     "estimated_x_post_reads": 411,
-    "latest_post_id": "2077736434019246146",
+    "latest_post_id": "2078094867830325263",
     "max_pages": 10,
     "max_posts": 500,
     "max_results": 5,
@@ -121271,16 +122203,16 @@
       }
     ],
     "pages_fetched": 5,
-    "posts_fetched": 562,
+    "posts_fetched": 566,
     "rate_limit_headers": {
       "x-rate-limit-limit": "10000",
       "x-rate-limit-remaining": "9993",
       "x-rate-limit-reset": "1781108896"
     },
-    "total_posts": 562,
-    "updated_at": "2026-07-16T20:04:26.810462+00:00",
+    "total_posts": 566,
+    "updated_at": "2026-07-17T20:08:31.694645+00:00",
     "username": "info_myojou"
   },
   "source": "x_api",
-  "updated_at": "2026-07-16T20:04:26.810462+00:00"
+  "updated_at": "2026-07-17T20:08:31.694645+00:00"
 }
