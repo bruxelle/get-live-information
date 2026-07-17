@@ -217,12 +217,31 @@ def test_multi_day_parents_require_the_complete_occurrence_set():
 
     complete_report = reconcile_public_rows(before, complete)
     partial_report = reconcile_public_rows(before, partial)
+    expanded_report = reconcile_public_rows(partial, before)
+    reversed_partial_report = reconcile_public_rows(list(reversed(before)), list(reversed(partial)))
 
     assert complete_report["metrics"]["matched_parent_count"] == 1
     assert partial_report["metrics"]["matched_parent_count"] == 0
     assert partial_report["ambiguous"][0]["reason"] == "partial_multi_day_overlap"
     assert partial_report["metrics"]["split_candidate_count"] == 1
     assert partial_report["metrics"]["merge_candidate_count"] == 0
+    assert partial_report == reversed_partial_report
+    assert expanded_report["metrics"]["matched_parent_count"] == 0
+    assert expanded_report["metrics"]["split_candidate_count"] == 0
+    assert expanded_report["metrics"]["merge_candidate_count"] == 1
+    assert expanded_report["ambiguous"][0]["reason"] == "partial_multi_day_overlap"
+
+
+def test_disjoint_multi_day_occurrence_sets_do_not_match():
+    before = _multi("old", ["2026-09-21", "2026-09-22"])
+    after = _multi("new", ["2026-09-23", "2026-09-24"])
+
+    report = reconcile_public_rows(before, after)
+
+    assert report["metrics"]["matched_parent_count"] == 0
+    assert report["metrics"]["ambiguous_match_count"] == 0
+    assert report["metrics"]["added_parent_count"] == 1
+    assert report["metrics"]["removed_parent_count"] == 1
 
 
 def test_different_input_row_order_produces_identical_report():
