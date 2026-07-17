@@ -479,9 +479,7 @@ def _split_candidates(
 ) -> list[dict[str, Any]]:
     partial_by_old: dict[str, set[str]] = defaultdict(set)
     for (old_id, new_id), item in partials.items():
-        old_dates = set(item["old_occurrence_dates"])
-        new_dates = set(item["new_occurrence_dates"])
-        if new_dates < old_dates or not old_dates.issubset(new_dates):
+        if new_dates < old_dates:
             partial_by_old[old_id].add(new_id)
     old_ids = sorted(set(candidates) | set(partial_by_old))
     return [
