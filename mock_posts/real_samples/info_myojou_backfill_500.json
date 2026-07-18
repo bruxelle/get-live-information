@@ -2,6 +2,718 @@
   "captured_at": "2026-06-10T16:19:36.141820+00:00",
   "data": [
     {
+      "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                HYPE IDOL！Summer\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：8/11（火祝）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:30/11:00 ※変更の可能あり\n⟣price：前方¥8,000 / 一般¥3,000 (各＋１D） https://t.co/58IHMGt9ek",
+      "attachments": {
+        "media_keys": [
+          "3_2078464881481883648"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "correction"
+      },
+      "created_at": "2026-07-18T13:00:24+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/58IHMGt9ek",
+            "end": 213,
+            "expanded_url": "https://x.com/info_myojou/status/2078464905188151335/photo/1",
+            "media_key": "3_2078464881481883648",
+            "start": 190,
+            "url": "https://t.co/58IHMGt9ek"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2078464905188151335",
+      "media": [
+        {
+          "height": 4096,
+          "media_key": "3_2078464881481883648",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HNgwzCraIAAbB3A.jpg",
+          "width": 2896
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 361,
+              "start": 354,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "t-dv.com/HYPEIDOLSummer…",
+              "end": 352,
+              "expanded_url": "https://t-dv.com/HYPEIDOLSummer_0811",
+              "start": 329,
+              "url": "https://t.co/ZWrXtwHOtA"
+            }
+          ]
+        },
+        "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                HYPE IDOL！Summer\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：8/11（火祝）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:30/11:00 ※変更の可能あり\n⟣price：前方¥8,000 / 一般¥3,000 (各＋１D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【VIP先行抽選】\n7/18（土）22:00 - 07/26（日）23:59\n【一般先着販売】\n7/18（土）22:00 - 8/11（火）22:00\n【VIP先着販売】\n7/27（月）19:00 - 8/11（火）22:00\n🔗 https://t.co/ZWrXtwHOtA\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": null,
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-08-11",
+        "event_dates": [
+          "2026-08-11"
+        ],
+        "event_name": "HYPE IDOL!Summer",
+        "extraction_confidence": 0.9,
+        "general_ticket_price": 3000,
+        "lottery_result_at": null,
+        "myojou_performance_time": null,
+        "notes": "⟣open/start:9:30/11:00 ※変更の可能あり",
+        "open_time": "09:30",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "前方",
+        "priority_ticket_price": 8000,
+        "same_day_ticket_price": null,
+        "source_kind": "correction",
+        "source_post_id": "2078464905188151335",
+        "source_posted_at": "2026-07-18T13:00:24Z",
+        "source_raw": {
+          "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                HYPE IDOL！Summer\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：8/11（火祝）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:30/11:00 ※変更の可能あり\n⟣price：前方¥8,000 / 一般¥3,000 (各＋１D） https://t.co/58IHMGt9ek",
+          "attachments": {
+            "media_keys": [
+              "3_2078464881481883648"
+            ]
+          },
+          "created_at": "2026-07-18T13:00:24.000Z",
+          "edit_history_tweet_ids": [
+            "2078464905188151335"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/58IHMGt9ek",
+                "end": 213,
+                "expanded_url": "https://x.com/info_myojou/status/2078464905188151335/photo/1",
+                "media_key": "3_2078464881481883648",
+                "start": 190,
+                "url": "https://t.co/58IHMGt9ek"
+              }
+            ]
+          },
+          "full_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                HYPE IDOL！Summer\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：8/11（火祝）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:30/11:00 ※変更の可能あり\n⟣price：前方¥8,000 / 一般¥3,000 (各＋１D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【VIP先行抽選】\n7/18（土）22:00 - 07/26（日）23:59\n【一般先着販売】\n7/18（土）22:00 - 8/11（火）22:00\n【VIP先着販売】\n7/27（月）19:00 - 8/11（火）22:00\n🔗 https://t.co/ZWrXtwHOtA\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2078464905188151335",
+          "media": [
+            {
+              "height": 4096,
+              "media_key": "3_2078464881481883648",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HNgwzCraIAAbB3A.jpg",
+              "width": 2896
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 361,
+                  "start": 354,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "t-dv.com/HYPEIDOLSummer…",
+                  "end": 352,
+                  "expanded_url": "https://t-dv.com/HYPEIDOLSummer_0811",
+                  "start": 329,
+                  "url": "https://t.co/ZWrXtwHOtA"
+                }
+              ]
+            },
+            "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                HYPE IDOL！Summer\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：8/11（火祝）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:30/11:00 ※変更の可能あり\n⟣price：前方¥8,000 / 一般¥3,000 (各＋１D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【VIP先行抽選】\n7/18（土）22:00 - 07/26（日）23:59\n【一般先着販売】\n7/18（土）22:00 - 8/11（火）22:00\n【VIP先着販売】\n7/27（月）19:00 - 8/11（火）22:00\n🔗 https://t.co/ZWrXtwHOtA\n\n#myojou"
+          },
+          "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                HYPE IDOL！Summer\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：8/11（火祝）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:30/11:00 ※変更の可能あり\n⟣price：前方¥8,000 / 一般¥3,000 (各＋１D） https://t.co/58IHMGt9ek",
+          "truncated_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                HYPE IDOL！Summer\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：8/11（火祝）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:30/11:00 ※変更の可能あり\n⟣price：前方¥8,000 / 一般¥3,000 (各＋１D） https://t.co/58IHMGt9ek"
+        },
+        "source_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                HYPE IDOL！Summer\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：8/11（火祝）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:30/11:00 ※変更の可能あり\n⟣price：前方¥8,000 / 一般¥3,000 (各＋１D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【VIP先行抽選】\n7/18（土）22:00 - 07/26（日）23:59\n【一般先着販売】\n7/18（土）22:00 - 8/11（火）22:00\n【VIP先着販売】\n7/27（月）19:00 - 8/11（火）22:00\n🔗 https://t.co/ZWrXtwHOtA\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2078464905188151335",
+        "start_time": "11:00",
+        "ticket_application_deadline_at": "2026-07-26T23:59:00+09:00",
+        "ticket_application_start_at": "2026-07-18T22:00:00+09:00",
+        "ticket_sale_type": "抽選",
+        "ticket_sales": [
+          {
+            "deadline_at": "2026-07-26T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 8000,
+            "result_at": null,
+            "sale_type": "抽選",
+            "source_post_id": "2078464905188151335",
+            "source_url": "https://x.com/info_myojou/status/2078464905188151335",
+            "start_at": "2026-07-18T22:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "前方",
+            "ticket_tier": "前方"
+          },
+          {
+            "deadline_at": "2026-07-26T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 3000,
+            "result_at": null,
+            "sale_type": "抽選",
+            "source_post_id": "2078464905188151335",
+            "source_url": "https://x.com/info_myojou/status/2078464905188151335",
+            "start_at": "2026-07-18T22:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          },
+          {
+            "deadline_at": "2026-08-11T22:00:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 8000,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2078464905188151335",
+            "source_url": "https://x.com/info_myojou/status/2078464905188151335",
+            "start_at": "2026-07-18T22:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "前方",
+            "ticket_tier": "前方"
+          },
+          {
+            "deadline_at": "2026-08-11T22:00:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 3000,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2078464905188151335",
+            "source_url": "https://x.com/info_myojou/status/2078464905188151335",
+            "start_at": "2026-07-18T22:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          },
+          {
+            "deadline_at": "2026-08-11T22:00:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 8000,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2078464905188151335",
+            "source_url": "https://x.com/info_myojou/status/2078464905188151335",
+            "start_at": "2026-07-27T19:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "前方",
+            "ticket_tier": "前方"
+          },
+          {
+            "deadline_at": "2026-08-11T22:00:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 3000,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2078464905188151335",
+            "source_url": "https://x.com/info_myojou/status/2078464905188151335",
+            "start_at": "2026-07-27T19:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "https://t-dv.com/HYPEIDOLSummer_0811",
+        "venue": "KANDA SQUARE HALL"
+      },
+      "raw": {
+        "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                HYPE IDOL！Summer\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：8/11（火祝）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:30/11:00 ※変更の可能あり\n⟣price：前方¥8,000 / 一般¥3,000 (各＋１D） https://t.co/58IHMGt9ek",
+        "attachments": {
+          "media_keys": [
+            "3_2078464881481883648"
+          ]
+        },
+        "created_at": "2026-07-18T13:00:24.000Z",
+        "edit_history_tweet_ids": [
+          "2078464905188151335"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/58IHMGt9ek",
+              "end": 213,
+              "expanded_url": "https://x.com/info_myojou/status/2078464905188151335/photo/1",
+              "media_key": "3_2078464881481883648",
+              "start": 190,
+              "url": "https://t.co/58IHMGt9ek"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                HYPE IDOL！Summer\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：8/11（火祝）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:30/11:00 ※変更の可能あり\n⟣price：前方¥8,000 / 一般¥3,000 (各＋１D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【VIP先行抽選】\n7/18（土）22:00 - 07/26（日）23:59\n【一般先着販売】\n7/18（土）22:00 - 8/11（火）22:00\n【VIP先着販売】\n7/27（月）19:00 - 8/11（火）22:00\n🔗 https://t.co/ZWrXtwHOtA\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2078464905188151335",
+        "media": [
+          {
+            "height": 4096,
+            "media_key": "3_2078464881481883648",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HNgwzCraIAAbB3A.jpg",
+            "width": 2896
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 361,
+                "start": 354,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "t-dv.com/HYPEIDOLSummer…",
+                "end": 352,
+                "expanded_url": "https://t-dv.com/HYPEIDOLSummer_0811",
+                "start": 329,
+                "url": "https://t.co/ZWrXtwHOtA"
+              }
+            ]
+          },
+          "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                HYPE IDOL！Summer\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：8/11（火祝）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:30/11:00 ※変更の可能あり\n⟣price：前方¥8,000 / 一般¥3,000 (各＋１D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【VIP先行抽選】\n7/18（土）22:00 - 07/26（日）23:59\n【一般先着販売】\n7/18（土）22:00 - 8/11（火）22:00\n【VIP先着販売】\n7/27（月）19:00 - 8/11（火）22:00\n🔗 https://t.co/ZWrXtwHOtA\n\n#myojou"
+        },
+        "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                HYPE IDOL！Summer\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：8/11（火祝）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:30/11:00 ※変更の可能あり\n⟣price：前方¥8,000 / 一般¥3,000 (各＋１D） https://t.co/58IHMGt9ek",
+        "truncated_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                HYPE IDOL！Summer\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：8/11（火祝）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:30/11:00 ※変更の可能あり\n⟣price：前方¥8,000 / 一般¥3,000 (各＋１D） https://t.co/58IHMGt9ek"
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                HYPE IDOL！Summer\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：8/11（火祝）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:30/11:00 ※変更の可能あり\n⟣price：前方¥8,000 / 一般¥3,000 (各＋１D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【VIP先行抽選】\n7/18（土）22:00 - 07/26（日）23:59\n【一般先着販売】\n7/18（土）22:00 - 8/11（火）22:00\n【VIP先着販売】\n7/27（月）19:00 - 8/11（火）22:00\n🔗 https://t.co/ZWrXtwHOtA\n\n#myojou",
+      "truncated_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                HYPE IDOL！Summer\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：8/11（火祝）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:30/11:00 ※変更の可能あり\n⟣price：前方¥8,000 / 一般¥3,000 (各＋１D） https://t.co/58IHMGt9ek",
+      "url": "https://x.com/info_myojou/status/2078464905188151335"
+    },
+    {
+      "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「myojou Summer Vol.03」\n\n⟣date：7/19（日）\n⟣place : 渋谷音楽堂\n⟣open/start：17:30/18:00\n⟣price：SOLD OUT\n\n#myojou\n#ミョージョーサマー https://t.co/jNHS0HTlgT",
+      "attachments": {
+        "media_keys": [
+          "3_2078397763948298240"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "sold_out"
+      },
+      "created_at": "2026-07-18T08:33:39+00:00",
+      "entities": {
+        "hashtags": [
+          {
+            "end": 124,
+            "start": 117,
+            "tag": "myojou"
+          },
+          {
+            "end": 135,
+            "start": 125,
+            "tag": "ミョージョーサマー"
+          }
+        ],
+        "urls": [
+          {
+            "display_url": "pic.x.com/jNHS0HTlgT",
+            "end": 159,
+            "expanded_url": "https://x.com/info_myojou/status/2078397775151239500/photo/1",
+            "media_key": "3_2078397763948298240",
+            "start": 136,
+            "url": "https://t.co/jNHS0HTlgT"
+          }
+        ]
+      },
+      "full_text_source": "text",
+      "id": "2078397775151239500",
+      "media": [
+        {
+          "height": 2481,
+          "media_key": "3_2078397763948298240",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HNfzwSYawAAa1u2.jpg",
+          "width": 3508
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": null,
+      "parsed_fields": {
+        "benefit_event_time": null,
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-07-19",
+        "event_dates": [
+          "2026-07-19"
+        ],
+        "event_name": "myojou Summer Vol.03",
+        "extraction_confidence": 0.85,
+        "general_ticket_price": null,
+        "lottery_result_at": null,
+        "myojou_performance_time": null,
+        "notes": null,
+        "open_time": "17:30",
+        "payment_deadline_at": null,
+        "priority_ticket_name": null,
+        "priority_ticket_price": null,
+        "same_day_ticket_price": null,
+        "source_kind": "sold_out",
+        "source_post_id": "2078397775151239500",
+        "source_posted_at": "2026-07-18T08:33:39Z",
+        "source_raw": {
+          "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「myojou Summer Vol.03」\n\n⟣date：7/19（日）\n⟣place : 渋谷音楽堂\n⟣open/start：17:30/18:00\n⟣price：SOLD OUT\n\n#myojou\n#ミョージョーサマー https://t.co/jNHS0HTlgT",
+          "attachments": {
+            "media_keys": [
+              "3_2078397763948298240"
+            ]
+          },
+          "created_at": "2026-07-18T08:33:39.000Z",
+          "edit_history_tweet_ids": [
+            "2078397775151239500"
+          ],
+          "entities": {
+            "hashtags": [
+              {
+                "end": 124,
+                "start": 117,
+                "tag": "myojou"
+              },
+              {
+                "end": 135,
+                "start": 125,
+                "tag": "ミョージョーサマー"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "pic.x.com/jNHS0HTlgT",
+                "end": 159,
+                "expanded_url": "https://x.com/info_myojou/status/2078397775151239500/photo/1",
+                "media_key": "3_2078397763948298240",
+                "start": 136,
+                "url": "https://t.co/jNHS0HTlgT"
+              }
+            ]
+          },
+          "full_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「myojou Summer Vol.03」\n\n⟣date：7/19（日）\n⟣place : 渋谷音楽堂\n⟣open/start：17:30/18:00\n⟣price：SOLD OUT\n\n#myojou\n#ミョージョーサマー https://t.co/jNHS0HTlgT",
+          "full_text_source": "text",
+          "id": "2078397775151239500",
+          "media": [
+            {
+              "height": 2481,
+              "media_key": "3_2078397763948298240",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HNfzwSYawAAa1u2.jpg",
+              "width": 3508
+            }
+          ],
+          "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「myojou Summer Vol.03」\n\n⟣date：7/19（日）\n⟣place : 渋谷音楽堂\n⟣open/start：17:30/18:00\n⟣price：SOLD OUT\n\n#myojou\n#ミョージョーサマー https://t.co/jNHS0HTlgT",
+          "truncated_text": null
+        },
+        "source_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「myojou Summer Vol.03」\n\n⟣date：7/19（日）\n⟣place : 渋谷音楽堂\n⟣open/start：17:30/18:00\n⟣price：SOLD OUT\n\n#myojou\n#ミョージョーサマー https://t.co/jNHS0HTlgT",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2078397775151239500",
+        "start_time": "18:00",
+        "ticket_application_deadline_at": null,
+        "ticket_application_start_at": null,
+        "ticket_sale_type": null,
+        "ticket_sales": [],
+        "ticket_status": "sold_out",
+        "ticket_url": null,
+        "venue": "渋谷音楽堂"
+      },
+      "raw": {
+        "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「myojou Summer Vol.03」\n\n⟣date：7/19（日）\n⟣place : 渋谷音楽堂\n⟣open/start：17:30/18:00\n⟣price：SOLD OUT\n\n#myojou\n#ミョージョーサマー https://t.co/jNHS0HTlgT",
+        "attachments": {
+          "media_keys": [
+            "3_2078397763948298240"
+          ]
+        },
+        "created_at": "2026-07-18T08:33:39.000Z",
+        "edit_history_tweet_ids": [
+          "2078397775151239500"
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "end": 124,
+              "start": 117,
+              "tag": "myojou"
+            },
+            {
+              "end": 135,
+              "start": 125,
+              "tag": "ミョージョーサマー"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "pic.x.com/jNHS0HTlgT",
+              "end": 159,
+              "expanded_url": "https://x.com/info_myojou/status/2078397775151239500/photo/1",
+              "media_key": "3_2078397763948298240",
+              "start": 136,
+              "url": "https://t.co/jNHS0HTlgT"
+            }
+          ]
+        },
+        "full_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「myojou Summer Vol.03」\n\n⟣date：7/19（日）\n⟣place : 渋谷音楽堂\n⟣open/start：17:30/18:00\n⟣price：SOLD OUT\n\n#myojou\n#ミョージョーサマー https://t.co/jNHS0HTlgT",
+        "full_text_source": "text",
+        "id": "2078397775151239500",
+        "media": [
+          {
+            "height": 2481,
+            "media_key": "3_2078397763948298240",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HNfzwSYawAAa1u2.jpg",
+            "width": 3508
+          }
+        ],
+        "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「myojou Summer Vol.03」\n\n⟣date：7/19（日）\n⟣place : 渋谷音楽堂\n⟣open/start：17:30/18:00\n⟣price：SOLD OUT\n\n#myojou\n#ミョージョーサマー https://t.co/jNHS0HTlgT",
+        "truncated_text": null
+      },
+      "referenced_tweets": [],
+      "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「myojou Summer Vol.03」\n\n⟣date：7/19（日）\n⟣place : 渋谷音楽堂\n⟣open/start：17:30/18:00\n⟣price：SOLD OUT\n\n#myojou\n#ミョージョーサマー https://t.co/jNHS0HTlgT",
+      "truncated_text": null,
+      "url": "https://x.com/info_myojou/status/2078397775151239500"
+    },
+    {
+      "api_text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n               ッスッゴイライブ\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「ッスッゴイライブ」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n日陽みう@myojou_miu https://t.co/Nqa8z0jMpE",
+      "attachments": {
+        "media_keys": [
+          "3_2078385209075228672"
+        ]
+      },
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "thank-you/recap post",
+        "source_kind": "other"
+      },
+      "created_at": "2026-07-18T07:43:44+00:00",
+      "entities": {
+        "mentions": [
+          {
+            "end": 153,
+            "id": "1981655668626165760",
+            "start": 141,
+            "username": "myojou_ruka"
+          },
+          {
+            "end": 170,
+            "id": "2009245855694675968",
+            "start": 159,
+            "username": "myojou_miu"
+          }
+        ],
+        "urls": [
+          {
+            "display_url": "pic.x.com/Nqa8z0jMpE",
+            "end": 194,
+            "expanded_url": "https://x.com/info_myojou/status/2078385215161151848/photo/1",
+            "media_key": "3_2078385209075228672",
+            "start": 171,
+            "url": "https://t.co/Nqa8z0jMpE"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2078385215161151848",
+      "media": [
+        {
+          "alt_text": "M1,星景讃歌\nM2,蛍夏\nM3,軌跡まで\nM4,アンチコンプリート\nM5,HeartBeat",
+          "height": 1108,
+          "media_key": "3_2078385209075228672",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HNfoVf1a4AAsBbD.jpg",
+          "width": 1477
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 280,
+              "start": 273,
+              "tag": "myojou"
+            }
+          ],
+          "mentions": [
+            {
+              "end": 153,
+              "id": "1981655668626165760",
+              "start": 141,
+              "username": "myojou_ruka"
+            },
+            {
+              "end": 170,
+              "id": "2009245855694675968",
+              "start": 159,
+              "username": "myojou_miu"
+            },
+            {
+              "end": 191,
+              "id": "1344586625901158401",
+              "start": 176,
+              "username": "myojou_usukura"
+            },
+            {
+              "end": 219,
+              "id": "1590652199407083520",
+              "start": 205,
+              "username": "myojou_cocone"
+            },
+            {
+              "end": 238,
+              "id": "1754991922807177216",
+              "start": 225,
+              "username": "myojou_shino"
+            },
+            {
+              "end": 255,
+              "id": "2009274765895450624",
+              "start": 244,
+              "username": "myojou_yun"
+            }
+          ]
+        },
+        "text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n               ッスッゴイライブ\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「ッスッゴイライブ」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n日陽みう@myojou_miu \n薄倉りな@myojou_usukura \n\n下段左から\n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n澪奈ゆん@myojou_yun \n\nSETLIST▶︎ALT\n\n #myojou"
+      },
+      "parsed_fields": null,
+      "raw": {
+        "api_text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n               ッスッゴイライブ\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「ッスッゴイライブ」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n日陽みう@myojou_miu https://t.co/Nqa8z0jMpE",
+        "attachments": {
+          "media_keys": [
+            "3_2078385209075228672"
+          ]
+        },
+        "created_at": "2026-07-18T07:43:44.000Z",
+        "edit_history_tweet_ids": [
+          "2078385215161151848"
+        ],
+        "entities": {
+          "mentions": [
+            {
+              "end": 153,
+              "id": "1981655668626165760",
+              "start": 141,
+              "username": "myojou_ruka"
+            },
+            {
+              "end": 170,
+              "id": "2009245855694675968",
+              "start": 159,
+              "username": "myojou_miu"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "pic.x.com/Nqa8z0jMpE",
+              "end": 194,
+              "expanded_url": "https://x.com/info_myojou/status/2078385215161151848/photo/1",
+              "media_key": "3_2078385209075228672",
+              "start": 171,
+              "url": "https://t.co/Nqa8z0jMpE"
+            }
+          ]
+        },
+        "full_text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n               ッスッゴイライブ\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「ッスッゴイライブ」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n日陽みう@myojou_miu \n薄倉りな@myojou_usukura \n\n下段左から\n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n澪奈ゆん@myojou_yun \n\nSETLIST▶︎ALT\n\n #myojou",
+        "full_text_source": "note_tweet",
+        "id": "2078385215161151848",
+        "media": [
+          {
+            "alt_text": "M1,星景讃歌\nM2,蛍夏\nM3,軌跡まで\nM4,アンチコンプリート\nM5,HeartBeat",
+            "height": 1108,
+            "media_key": "3_2078385209075228672",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HNfoVf1a4AAsBbD.jpg",
+            "width": 1477
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 280,
+                "start": 273,
+                "tag": "myojou"
+              }
+            ],
+            "mentions": [
+              {
+                "end": 153,
+                "id": "1981655668626165760",
+                "start": 141,
+                "username": "myojou_ruka"
+              },
+              {
+                "end": 170,
+                "id": "2009245855694675968",
+                "start": 159,
+                "username": "myojou_miu"
+              },
+              {
+                "end": 191,
+                "id": "1344586625901158401",
+                "start": 176,
+                "username": "myojou_usukura"
+              },
+              {
+                "end": 219,
+                "id": "1590652199407083520",
+                "start": 205,
+                "username": "myojou_cocone"
+              },
+              {
+                "end": 238,
+                "id": "1754991922807177216",
+                "start": 225,
+                "username": "myojou_shino"
+              },
+              {
+                "end": 255,
+                "id": "2009274765895450624",
+                "start": 244,
+                "username": "myojou_yun"
+              }
+            ]
+          },
+          "text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n               ッスッゴイライブ\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「ッスッゴイライブ」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n日陽みう@myojou_miu \n薄倉りな@myojou_usukura \n\n下段左から\n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n澪奈ゆん@myojou_yun \n\nSETLIST▶︎ALT\n\n #myojou"
+        },
+        "text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n               ッスッゴイライブ\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「ッスッゴイライブ」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n日陽みう@myojou_miu https://t.co/Nqa8z0jMpE",
+        "truncated_text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n               ッスッゴイライブ\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「ッスッゴイライブ」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n日陽みう@myojou_miu https://t.co/Nqa8z0jMpE"
+      },
+      "referenced_tweets": [],
+      "text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n               ッスッゴイライブ\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「ッスッゴイライブ」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n日陽みう@myojou_miu \n薄倉りな@myojou_usukura \n\n下段左から\n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n澪奈ゆん@myojou_yun \n\nSETLIST▶︎ALT\n\n #myojou",
+      "truncated_text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n               ッスッゴイライブ\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「ッスッゴイライブ」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n日陽みう@myojou_miu https://t.co/Nqa8z0jMpE",
+      "url": "https://x.com/info_myojou/status/2078385215161151848"
+    },
+    {
       "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「ッスッゴイライブ」\n\n🎙14:10-14:30\n📸14:35-15:35\n\n⟣date：7/18（土）\n⟣place :品川インターシティホール\n⟣open/start：8:30/9:00\n⟣price：前方¥8,000/一般 ¥3,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【販売期間】 https://t.co/zLvGmqj8Aw",
       "attachments": {
         "media_keys": [
@@ -122160,7 +122872,7 @@
     "backfill": true,
     "dry_run": true,
     "estimated_x_post_reads": 411,
-    "latest_post_id": "2078094867830325263",
+    "latest_post_id": "2078464905188151335",
     "max_pages": 10,
     "max_posts": 500,
     "max_results": 5,
@@ -122203,16 +122915,16 @@
       }
     ],
     "pages_fetched": 5,
-    "posts_fetched": 566,
+    "posts_fetched": 569,
     "rate_limit_headers": {
       "x-rate-limit-limit": "10000",
       "x-rate-limit-remaining": "9993",
       "x-rate-limit-reset": "1781108896"
     },
-    "total_posts": 566,
-    "updated_at": "2026-07-17T20:08:31.694645+00:00",
+    "total_posts": 569,
+    "updated_at": "2026-07-18T20:05:00.899320+00:00",
     "username": "info_myojou"
   },
   "source": "x_api",
-  "updated_at": "2026-07-17T20:08:31.694645+00:00"
+  "updated_at": "2026-07-18T20:05:00.899320+00:00"
 }
