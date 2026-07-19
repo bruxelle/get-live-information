@@ -2,6 +2,1661 @@
   "captured_at": "2026-06-10T16:19:36.141820+00:00",
   "data": [
     {
+      "api_text": "読み方は「なつぞらもよう」です。",
+      "attachments": {},
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "no live-event signal",
+        "source_kind": "other"
+      },
+      "created_at": "2026-07-19T14:39:55+00:00",
+      "entities": {},
+      "full_text_source": "text",
+      "id": "2078852339235250674",
+      "media": [],
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "note_tweet": null,
+      "parsed_fields": null,
+      "raw": {
+        "api_text": "読み方は「なつぞらもよう」です。",
+        "created_at": "2026-07-19T14:39:55.000Z",
+        "edit_history_tweet_ids": [
+          "2078852339235250674"
+        ],
+        "full_text": "読み方は「なつぞらもよう」です。",
+        "full_text_source": "text",
+        "id": "2078852339235250674",
+        "referenced_tweets": [
+          {
+            "id": "2078814143424143489",
+            "type": "replied_to"
+          }
+        ],
+        "text": "読み方は「なつぞらもよう」です。",
+        "truncated_text": null
+      },
+      "referenced_tweets": [
+        {
+          "id": "2078814143424143489",
+          "type": "replied_to"
+        }
+      ],
+      "text": "読み方は「なつぞらもよう」です。",
+      "truncated_text": null,
+      "url": "https://x.com/info_myojou/status/2078852339235250674"
+    },
+    {
+      "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「「アイドル甲子園 in KANDA SQUARE HALL」supported by My-th」\n\n🎙13:20-13:45\n📸14:05-15:25\n\n⟣date：7/20（月祝）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:15/9:30 https://t.co/vGcLMqf9AZ",
+      "attachments": {
+        "media_keys": [
+          "3_2078844449497747456",
+          "3_2078844449497677824"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "day_before_reminder"
+      },
+      "created_at": "2026-07-19T14:08:37+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/vGcLMqf9AZ",
+            "end": 189,
+            "expanded_url": "https://x.com/info_myojou/status/2078844462885998719/photo/1",
+            "media_key": "3_2078844449497747456",
+            "start": 166,
+            "url": "https://t.co/vGcLMqf9AZ"
+          },
+          {
+            "display_url": "pic.x.com/vGcLMqf9AZ",
+            "end": 189,
+            "expanded_url": "https://x.com/info_myojou/status/2078844462885998719/photo/1",
+            "media_key": "3_2078844449497677824",
+            "start": 166,
+            "url": "https://t.co/vGcLMqf9AZ"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2078844462885998719",
+      "media": [
+        {
+          "height": 2000,
+          "media_key": "3_2078844449497747456",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HNmKAzubEAAs7VE.jpg",
+          "width": 1500
+        },
+        {
+          "height": 2048,
+          "media_key": "3_2078844449497677824",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HNmKAzuaAAAkYIW.jpg",
+          "width": 1448
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 549,
+              "start": 542,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "user.my-th.jp/?redirect=/tic…",
+              "end": 311,
+              "expanded_url": "https://user.my-th.jp/?redirect=/tickets/event/aikou_0720",
+              "start": 288,
+              "url": "https://t.co/MwdKUq24y9"
+            },
+            {
+              "display_url": "ticketdive.com/event/idolstor…",
+              "end": 540,
+              "expanded_url": "https://ticketdive.com/event/idolstorm_0720",
+              "start": 517,
+              "url": "https://t.co/OcUjrz0sB4"
+            }
+          ]
+        },
+        "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「「アイドル甲子園 in KANDA SQUARE HALL」supported by My-th」\n\n🎙13:20-13:45\n📸14:05-15:25\n\n⟣date：7/20（月祝）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:15/9:30\n⟣price：前方エリアチケット¥8,500/一般チケット¥3,500/前方当日¥9,500/一般当日¥4,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n6/23（火）20:00-7/20（月祝）9:14\n🔗 https://t.co/MwdKUq24y9\n\n「IDOL STORM」\n\n🎙17:05-17:25\n📸18:10-19:10 （A）\n\n⟣date：7/20（月祝）\n⟣place :キネマ倶楽部\n⟣open/start：11:30/11:50\n⟣price：前売前方¥8,000/前売通常¥3,000 / 前売女性¥2,000 / 当日+500円（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n-7/20（月祝）21:59\n🔗 https://t.co/OcUjrz0sB4\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": "14:05-15:25",
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-07-20",
+        "event_dates": [
+          "2026-07-20"
+        ],
+        "event_name": "アイドル甲子園 in KANDA SQUARE HALL",
+        "extraction_confidence": 0.95,
+        "general_ticket_price": 3500,
+        "lottery_result_at": null,
+        "myojou_performance_time": "13:20-13:45",
+        "notes": "ドリンク代: 各+1D\n⟣入場特典:明星カード(サインありチェキ)",
+        "open_time": "09:15",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "前方エリアチケット",
+        "priority_ticket_price": 8500,
+        "same_day_ticket_price": 9500,
+        "source_kind": "day_before_reminder",
+        "source_post_id": "2078844462885998719",
+        "source_posted_at": "2026-07-19T14:08:37Z",
+        "source_raw": {
+          "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「「アイドル甲子園 in KANDA SQUARE HALL」supported by My-th」\n\n🎙13:20-13:45\n📸14:05-15:25\n\n⟣date：7/20（月祝）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:15/9:30 https://t.co/vGcLMqf9AZ",
+          "attachments": {
+            "media_keys": [
+              "3_2078844449497747456",
+              "3_2078844449497677824"
+            ]
+          },
+          "created_at": "2026-07-19T14:08:37.000Z",
+          "edit_history_tweet_ids": [
+            "2078844462885998719"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/vGcLMqf9AZ",
+                "end": 189,
+                "expanded_url": "https://x.com/info_myojou/status/2078844462885998719/photo/1",
+                "media_key": "3_2078844449497747456",
+                "start": 166,
+                "url": "https://t.co/vGcLMqf9AZ"
+              },
+              {
+                "display_url": "pic.x.com/vGcLMqf9AZ",
+                "end": 189,
+                "expanded_url": "https://x.com/info_myojou/status/2078844462885998719/photo/1",
+                "media_key": "3_2078844449497677824",
+                "start": 166,
+                "url": "https://t.co/vGcLMqf9AZ"
+              }
+            ]
+          },
+          "full_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「「アイドル甲子園 in KANDA SQUARE HALL」supported by My-th」\n\n🎙13:20-13:45\n📸14:05-15:25\n\n⟣date：7/20（月祝）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:15/9:30\n⟣price：前方エリアチケット¥8,500/一般チケット¥3,500/前方当日¥9,500/一般当日¥4,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n6/23（火）20:00-7/20（月祝）9:14\n🔗 https://t.co/MwdKUq24y9\n\n「IDOL STORM」\n\n🎙17:05-17:25\n📸18:10-19:10 （A）\n\n⟣date：7/20（月祝）\n⟣place :キネマ倶楽部\n⟣open/start：11:30/11:50\n⟣price：前売前方¥8,000/前売通常¥3,000 / 前売女性¥2,000 / 当日+500円（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n-7/20（月祝）21:59\n🔗 https://t.co/OcUjrz0sB4\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2078844462885998719",
+          "media": [
+            {
+              "height": 2000,
+              "media_key": "3_2078844449497747456",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HNmKAzubEAAs7VE.jpg",
+              "width": 1500
+            },
+            {
+              "height": 2048,
+              "media_key": "3_2078844449497677824",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HNmKAzuaAAAkYIW.jpg",
+              "width": 1448
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 549,
+                  "start": 542,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "user.my-th.jp/?redirect=/tic…",
+                  "end": 311,
+                  "expanded_url": "https://user.my-th.jp/?redirect=/tickets/event/aikou_0720",
+                  "start": 288,
+                  "url": "https://t.co/MwdKUq24y9"
+                },
+                {
+                  "display_url": "ticketdive.com/event/idolstor…",
+                  "end": 540,
+                  "expanded_url": "https://ticketdive.com/event/idolstorm_0720",
+                  "start": 517,
+                  "url": "https://t.co/OcUjrz0sB4"
+                }
+              ]
+            },
+            "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「「アイドル甲子園 in KANDA SQUARE HALL」supported by My-th」\n\n🎙13:20-13:45\n📸14:05-15:25\n\n⟣date：7/20（月祝）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:15/9:30\n⟣price：前方エリアチケット¥8,500/一般チケット¥3,500/前方当日¥9,500/一般当日¥4,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n6/23（火）20:00-7/20（月祝）9:14\n🔗 https://t.co/MwdKUq24y9\n\n「IDOL STORM」\n\n🎙17:05-17:25\n📸18:10-19:10 （A）\n\n⟣date：7/20（月祝）\n⟣place :キネマ倶楽部\n⟣open/start：11:30/11:50\n⟣price：前売前方¥8,000/前売通常¥3,000 / 前売女性¥2,000 / 当日+500円（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n-7/20（月祝）21:59\n🔗 https://t.co/OcUjrz0sB4\n\n#myojou"
+          },
+          "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「「アイドル甲子園 in KANDA SQUARE HALL」supported by My-th」\n\n🎙13:20-13:45\n📸14:05-15:25\n\n⟣date：7/20（月祝）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:15/9:30 https://t.co/vGcLMqf9AZ",
+          "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「「アイドル甲子園 in KANDA SQUARE HALL」supported by My-th」\n\n🎙13:20-13:45\n📸14:05-15:25\n\n⟣date：7/20（月祝）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:15/9:30 https://t.co/vGcLMqf9AZ"
+        },
+        "source_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「「アイドル甲子園 in KANDA SQUARE HALL」supported by My-th」\n\n🎙13:20-13:45\n📸14:05-15:25\n\n⟣date：7/20（月祝）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:15/9:30\n⟣price：前方エリアチケット¥8,500/一般チケット¥3,500/前方当日¥9,500/一般当日¥4,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n6/23（火）20:00-7/20（月祝）9:14\n🔗 https://t.co/MwdKUq24y9\n\n「IDOL STORM」\n\n🎙17:05-17:25\n📸18:10-19:10 （A）\n\n⟣date：7/20（月祝）\n⟣place :キネマ倶楽部\n⟣open/start：11:30/11:50\n⟣price：前売前方¥8,000/前売通常¥3,000 / 前売女性¥2,000 / 当日+500円（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n-7/20（月祝）21:59\n🔗 https://t.co/OcUjrz0sB4\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2078844462885998719",
+        "start_time": "09:30",
+        "ticket_application_deadline_at": "2026-07-20T09:14:00+09:00",
+        "ticket_application_start_at": "2026-06-23T20:00:00+09:00",
+        "ticket_sale_type": "先着",
+        "ticket_sales": [
+          {
+            "deadline_at": "2026-07-20T09:14:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 8500,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2078844462885998719",
+            "source_url": "https://x.com/info_myojou/status/2078844462885998719",
+            "start_at": "2026-06-23T20:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "前方エリアチケット",
+            "ticket_tier": "前方"
+          },
+          {
+            "deadline_at": "2026-07-20T09:14:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 3500,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2078844462885998719",
+            "source_url": "https://x.com/info_myojou/status/2078844462885998719",
+            "start_at": "2026-06-23T20:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般チケット",
+            "ticket_tier": "一般"
+          },
+          {
+            "deadline_at": "2026-07-20T09:14:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 8000,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2078844462885998719",
+            "source_url": "https://x.com/info_myojou/status/2078844462885998719",
+            "start_at": "2026-06-23T20:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "前方",
+            "ticket_tier": "前方"
+          },
+          {
+            "deadline_at": "2026-07-20T09:14:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 3000,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2078844462885998719",
+            "source_url": "https://x.com/info_myojou/status/2078844462885998719",
+            "start_at": "2026-06-23T20:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          },
+          {
+            "deadline_at": "2026-07-20T21:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 8500,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2078844462885998719",
+            "source_url": "https://x.com/info_myojou/status/2078844462885998719",
+            "start_at": null,
+            "status": "不明",
+            "ticket_name": "前方エリアチケット",
+            "ticket_tier": "前方"
+          },
+          {
+            "deadline_at": "2026-07-20T21:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 3500,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2078844462885998719",
+            "source_url": "https://x.com/info_myojou/status/2078844462885998719",
+            "start_at": null,
+            "status": "不明",
+            "ticket_name": "一般チケット",
+            "ticket_tier": "一般"
+          },
+          {
+            "deadline_at": "2026-07-20T21:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 8000,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2078844462885998719",
+            "source_url": "https://x.com/info_myojou/status/2078844462885998719",
+            "start_at": null,
+            "status": "不明",
+            "ticket_name": "前方",
+            "ticket_tier": "前方"
+          },
+          {
+            "deadline_at": "2026-07-20T21:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 3000,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2078844462885998719",
+            "source_url": "https://x.com/info_myojou/status/2078844462885998719",
+            "start_at": null,
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 9500,
+            "result_at": null,
+            "sale_type": "当日券",
+            "source_post_id": "2078844462885998719",
+            "source_url": "https://x.com/info_myojou/status/2078844462885998719",
+            "start_at": null,
+            "status": "販売中",
+            "ticket_name": "当日券",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "https://ticketdive.com/event/idolstorm_0720",
+        "venue": "KANDA SQUARE HALL"
+      },
+      "raw": {
+        "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「「アイドル甲子園 in KANDA SQUARE HALL」supported by My-th」\n\n🎙13:20-13:45\n📸14:05-15:25\n\n⟣date：7/20（月祝）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:15/9:30 https://t.co/vGcLMqf9AZ",
+        "attachments": {
+          "media_keys": [
+            "3_2078844449497747456",
+            "3_2078844449497677824"
+          ]
+        },
+        "created_at": "2026-07-19T14:08:37.000Z",
+        "edit_history_tweet_ids": [
+          "2078844462885998719"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/vGcLMqf9AZ",
+              "end": 189,
+              "expanded_url": "https://x.com/info_myojou/status/2078844462885998719/photo/1",
+              "media_key": "3_2078844449497747456",
+              "start": 166,
+              "url": "https://t.co/vGcLMqf9AZ"
+            },
+            {
+              "display_url": "pic.x.com/vGcLMqf9AZ",
+              "end": 189,
+              "expanded_url": "https://x.com/info_myojou/status/2078844462885998719/photo/1",
+              "media_key": "3_2078844449497677824",
+              "start": 166,
+              "url": "https://t.co/vGcLMqf9AZ"
+            }
+          ]
+        },
+        "full_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「「アイドル甲子園 in KANDA SQUARE HALL」supported by My-th」\n\n🎙13:20-13:45\n📸14:05-15:25\n\n⟣date：7/20（月祝）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:15/9:30\n⟣price：前方エリアチケット¥8,500/一般チケット¥3,500/前方当日¥9,500/一般当日¥4,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n6/23（火）20:00-7/20（月祝）9:14\n🔗 https://t.co/MwdKUq24y9\n\n「IDOL STORM」\n\n🎙17:05-17:25\n📸18:10-19:10 （A）\n\n⟣date：7/20（月祝）\n⟣place :キネマ倶楽部\n⟣open/start：11:30/11:50\n⟣price：前売前方¥8,000/前売通常¥3,000 / 前売女性¥2,000 / 当日+500円（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n-7/20（月祝）21:59\n🔗 https://t.co/OcUjrz0sB4\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2078844462885998719",
+        "media": [
+          {
+            "height": 2000,
+            "media_key": "3_2078844449497747456",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HNmKAzubEAAs7VE.jpg",
+            "width": 1500
+          },
+          {
+            "height": 2048,
+            "media_key": "3_2078844449497677824",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HNmKAzuaAAAkYIW.jpg",
+            "width": 1448
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 549,
+                "start": 542,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "user.my-th.jp/?redirect=/tic…",
+                "end": 311,
+                "expanded_url": "https://user.my-th.jp/?redirect=/tickets/event/aikou_0720",
+                "start": 288,
+                "url": "https://t.co/MwdKUq24y9"
+              },
+              {
+                "display_url": "ticketdive.com/event/idolstor…",
+                "end": 540,
+                "expanded_url": "https://ticketdive.com/event/idolstorm_0720",
+                "start": 517,
+                "url": "https://t.co/OcUjrz0sB4"
+              }
+            ]
+          },
+          "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「「アイドル甲子園 in KANDA SQUARE HALL」supported by My-th」\n\n🎙13:20-13:45\n📸14:05-15:25\n\n⟣date：7/20（月祝）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:15/9:30\n⟣price：前方エリアチケット¥8,500/一般チケット¥3,500/前方当日¥9,500/一般当日¥4,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n6/23（火）20:00-7/20（月祝）9:14\n🔗 https://t.co/MwdKUq24y9\n\n「IDOL STORM」\n\n🎙17:05-17:25\n📸18:10-19:10 （A）\n\n⟣date：7/20（月祝）\n⟣place :キネマ倶楽部\n⟣open/start：11:30/11:50\n⟣price：前売前方¥8,000/前売通常¥3,000 / 前売女性¥2,000 / 当日+500円（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n-7/20（月祝）21:59\n🔗 https://t.co/OcUjrz0sB4\n\n#myojou"
+        },
+        "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「「アイドル甲子園 in KANDA SQUARE HALL」supported by My-th」\n\n🎙13:20-13:45\n📸14:05-15:25\n\n⟣date：7/20（月祝）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:15/9:30 https://t.co/vGcLMqf9AZ",
+        "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「「アイドル甲子園 in KANDA SQUARE HALL」supported by My-th」\n\n🎙13:20-13:45\n📸14:05-15:25\n\n⟣date：7/20（月祝）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:15/9:30 https://t.co/vGcLMqf9AZ"
+      },
+      "referenced_tweets": [],
+      "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「「アイドル甲子園 in KANDA SQUARE HALL」supported by My-th」\n\n🎙13:20-13:45\n📸14:05-15:25\n\n⟣date：7/20（月祝）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:15/9:30\n⟣price：前方エリアチケット¥8,500/一般チケット¥3,500/前方当日¥9,500/一般当日¥4,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n6/23（火）20:00-7/20（月祝）9:14\n🔗 https://t.co/MwdKUq24y9\n\n「IDOL STORM」\n\n🎙17:05-17:25\n📸18:10-19:10 （A）\n\n⟣date：7/20（月祝）\n⟣place :キネマ倶楽部\n⟣open/start：11:30/11:50\n⟣price：前売前方¥8,000/前売通常¥3,000 / 前売女性¥2,000 / 当日+500円（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n-7/20（月祝）21:59\n🔗 https://t.co/OcUjrz0sB4\n\n#myojou",
+      "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「「アイドル甲子園 in KANDA SQUARE HALL」supported by My-th」\n\n🎙13:20-13:45\n📸14:05-15:25\n\n⟣date：7/20（月祝）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:15/9:30 https://t.co/vGcLMqf9AZ",
+      "url": "https://x.com/info_myojou/status/2078844462885998719"
+    },
+    {
+      "api_text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n           myojou Summer Vol.03\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「 myojou Summer Vol.03」ありがとうございました⋆˙⟡\n\n左から\n日陽みう\n澪奈ゆん\n真希しの\n薄倉りな\n栗原ここね\n姫乃るか https://t.co/tIyUFjJTNb",
+      "attachments": {
+        "media_keys": [
+          "3_2078835017573433344"
+        ]
+      },
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "profile/member introduction",
+        "source_kind": "other"
+      },
+      "created_at": "2026-07-19T13:31:09+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/tIyUFjJTNb",
+            "end": 210,
+            "expanded_url": "https://x.com/info_myojou/status/2078835032102408258/photo/1",
+            "media_key": "3_2078835017573433344",
+            "start": 187,
+            "url": "https://t.co/tIyUFjJTNb"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2078835032102408258",
+      "media": [
+        {
+          "alt_text": "M1,夏、空模様\nM2,僕彩色\nM3,yoakeno\nM4,CHRONOS\nM5,アンチコンプリート\nM6,HeartBeat\nM7,星景讃歌\nM8,夏、空模様\nM9,HeartBeat\nM10,蛍夏",
+          "height": 1300,
+          "media_key": "3_2078835017573433344",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HNmBbzEbgAAXIBd.jpg",
+          "width": 2048
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 210,
+              "start": 203,
+              "tag": "myojou"
+            }
+          ]
+        },
+        "text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n           myojou Summer Vol.03\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「 myojou Summer Vol.03」ありがとうございました⋆˙⟡\n\n左から\n日陽みう\n澪奈ゆん\n真希しの\n薄倉りな\n栗原ここね\n姫乃るか\n\nSETLIST▶︎ALT\n\n #myojou"
+      },
+      "parsed_fields": null,
+      "raw": {
+        "api_text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n           myojou Summer Vol.03\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「 myojou Summer Vol.03」ありがとうございました⋆˙⟡\n\n左から\n日陽みう\n澪奈ゆん\n真希しの\n薄倉りな\n栗原ここね\n姫乃るか https://t.co/tIyUFjJTNb",
+        "attachments": {
+          "media_keys": [
+            "3_2078835017573433344"
+          ]
+        },
+        "created_at": "2026-07-19T13:31:09.000Z",
+        "edit_history_tweet_ids": [
+          "2078835032102408258"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/tIyUFjJTNb",
+              "end": 210,
+              "expanded_url": "https://x.com/info_myojou/status/2078835032102408258/photo/1",
+              "media_key": "3_2078835017573433344",
+              "start": 187,
+              "url": "https://t.co/tIyUFjJTNb"
+            }
+          ]
+        },
+        "full_text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n           myojou Summer Vol.03\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「 myojou Summer Vol.03」ありがとうございました⋆˙⟡\n\n左から\n日陽みう\n澪奈ゆん\n真希しの\n薄倉りな\n栗原ここね\n姫乃るか\n\nSETLIST▶︎ALT\n\n #myojou",
+        "full_text_source": "note_tweet",
+        "id": "2078835032102408258",
+        "media": [
+          {
+            "alt_text": "M1,夏、空模様\nM2,僕彩色\nM3,yoakeno\nM4,CHRONOS\nM5,アンチコンプリート\nM6,HeartBeat\nM7,星景讃歌\nM8,夏、空模様\nM9,HeartBeat\nM10,蛍夏",
+            "height": 1300,
+            "media_key": "3_2078835017573433344",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HNmBbzEbgAAXIBd.jpg",
+            "width": 2048
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 210,
+                "start": 203,
+                "tag": "myojou"
+              }
+            ]
+          },
+          "text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n           myojou Summer Vol.03\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「 myojou Summer Vol.03」ありがとうございました⋆˙⟡\n\n左から\n日陽みう\n澪奈ゆん\n真希しの\n薄倉りな\n栗原ここね\n姫乃るか\n\nSETLIST▶︎ALT\n\n #myojou"
+        },
+        "text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n           myojou Summer Vol.03\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「 myojou Summer Vol.03」ありがとうございました⋆˙⟡\n\n左から\n日陽みう\n澪奈ゆん\n真希しの\n薄倉りな\n栗原ここね\n姫乃るか https://t.co/tIyUFjJTNb",
+        "truncated_text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n           myojou Summer Vol.03\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「 myojou Summer Vol.03」ありがとうございました⋆˙⟡\n\n左から\n日陽みう\n澪奈ゆん\n真希しの\n薄倉りな\n栗原ここね\n姫乃るか https://t.co/tIyUFjJTNb"
+      },
+      "referenced_tweets": [],
+      "text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n           myojou Summer Vol.03\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「 myojou Summer Vol.03」ありがとうございました⋆˙⟡\n\n左から\n日陽みう\n澪奈ゆん\n真希しの\n薄倉りな\n栗原ここね\n姫乃るか\n\nSETLIST▶︎ALT\n\n #myojou",
+      "truncated_text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n           myojou Summer Vol.03\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「 myojou Summer Vol.03」ありがとうございました⋆˙⟡\n\n左から\n日陽みう\n澪奈ゆん\n真希しの\n薄倉りな\n栗原ここね\n姫乃るか https://t.co/tIyUFjJTNb",
+      "url": "https://x.com/info_myojou/status/2078835032102408258"
+    },
+    {
+      "api_text": "▶️LIVE DIGEST\nmyojou Summer Vol.03\n「夏、空模様」\n\n#myojou https://t.co/Adg62z1oOD",
+      "attachments": {
+        "media_keys": [
+          "13_2078813834442416128"
+        ]
+      },
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "live digest recap",
+        "source_kind": "other"
+      },
+      "created_at": "2026-07-19T12:08:08+00:00",
+      "entities": {
+        "hashtags": [
+          {
+            "end": 51,
+            "start": 44,
+            "tag": "myojou"
+          }
+        ],
+        "urls": [
+          {
+            "display_url": "pic.x.com/Adg62z1oOD",
+            "end": 75,
+            "expanded_url": "https://x.com/info_myojou/status/2078814143424143489/video/1",
+            "media_key": "13_2078813834442416128",
+            "start": 52,
+            "url": "https://t.co/Adg62z1oOD"
+          }
+        ]
+      },
+      "full_text_source": "text",
+      "id": "2078814143424143489",
+      "media": [
+        {
+          "height": 1080,
+          "media_key": "13_2078813834442416128",
+          "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2078813834442416128/img/tcihghMLMixwNv0p.jpg",
+          "type": "video",
+          "width": 1920
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "note_tweet": null,
+      "parsed_fields": null,
+      "raw": {
+        "api_text": "▶️LIVE DIGEST\nmyojou Summer Vol.03\n「夏、空模様」\n\n#myojou https://t.co/Adg62z1oOD",
+        "attachments": {
+          "media_keys": [
+            "13_2078813834442416128"
+          ]
+        },
+        "created_at": "2026-07-19T12:08:08.000Z",
+        "edit_history_tweet_ids": [
+          "2078814143424143489"
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "end": 51,
+              "start": 44,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "pic.x.com/Adg62z1oOD",
+              "end": 75,
+              "expanded_url": "https://x.com/info_myojou/status/2078814143424143489/video/1",
+              "media_key": "13_2078813834442416128",
+              "start": 52,
+              "url": "https://t.co/Adg62z1oOD"
+            }
+          ]
+        },
+        "full_text": "▶️LIVE DIGEST\nmyojou Summer Vol.03\n「夏、空模様」\n\n#myojou https://t.co/Adg62z1oOD",
+        "full_text_source": "text",
+        "id": "2078814143424143489",
+        "media": [
+          {
+            "height": 1080,
+            "media_key": "13_2078813834442416128",
+            "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2078813834442416128/img/tcihghMLMixwNv0p.jpg",
+            "type": "video",
+            "width": 1920
+          }
+        ],
+        "text": "▶️LIVE DIGEST\nmyojou Summer Vol.03\n「夏、空模様」\n\n#myojou https://t.co/Adg62z1oOD",
+        "truncated_text": null
+      },
+      "referenced_tweets": [],
+      "text": "▶️LIVE DIGEST\nmyojou Summer Vol.03\n「夏、空模様」\n\n#myojou https://t.co/Adg62z1oOD",
+      "truncated_text": null,
+      "url": "https://x.com/info_myojou/status/2078814143424143489"
+    },
+    {
+      "api_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n      myojou Summer FINAL\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣date：8/13(木)\n⟣place : WOMB LIVE\n⟣open/start：18:30/19:00\n⟣price：優先¥6,000（限定Tシャツ付き）/一般¥0（各+1D）\n\n【一般販売】\n7/20（月祝）22:00-8/12（水）23:59\n🔗 https://t.co/1paW6zOoJE",
+      "attachments": {
+        "media_keys": [
+          "3_2078803427883417600"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "ticket_update"
+      },
+      "created_at": "2026-07-19T11:25:35+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/1paW6zOoJE",
+            "end": 221,
+            "expanded_url": "https://x.com/info_myojou/status/2078803434145505436/photo/1",
+            "media_key": "3_2078803427883417600",
+            "start": 198,
+            "url": "https://t.co/1paW6zOoJE"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2078803434145505436",
+      "media": [
+        {
+          "height": 2481,
+          "media_key": "3_2078803427883417600",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HNlktCTbAAAQsUW.jpg",
+          "width": 3508
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 230,
+              "start": 223,
+              "tag": "myojou"
+            },
+            {
+              "end": 241,
+              "start": 231,
+              "tag": "ミョージョーサマー"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "t-dv.com/myojou_0813",
+              "end": 221,
+              "expanded_url": "https://t-dv.com/myojou_0813",
+              "start": 198,
+              "url": "https://t.co/yuJJhqrXAl"
+            }
+          ]
+        },
+        "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n      myojou Summer FINAL\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣date：8/13(木)\n⟣place : WOMB LIVE\n⟣open/start：18:30/19:00\n⟣price：優先¥6,000（限定Tシャツ付き）/一般¥0（各+1D）\n\n【一般販売】\n7/20（月祝）22:00-8/12（水）23:59\n🔗 https://t.co/yuJJhqrXAl\n\n#myojou\n#ミョージョーサマー"
+      },
+      "parsed_fields": {
+        "benefit_event_time": null,
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-08-13",
+        "event_dates": [
+          "2026-08-13"
+        ],
+        "event_name": "myojou Summer FINAL",
+        "extraction_confidence": 0.9,
+        "general_ticket_price": 0,
+        "lottery_result_at": null,
+        "myojou_performance_time": null,
+        "notes": "ドリンク代: 各+1D",
+        "open_time": "18:30",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "優先",
+        "priority_ticket_price": 6000,
+        "same_day_ticket_price": null,
+        "source_kind": "ticket_update",
+        "source_post_id": "2078803434145505436",
+        "source_posted_at": "2026-07-19T11:25:35Z",
+        "source_raw": {
+          "api_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n      myojou Summer FINAL\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣date：8/13(木)\n⟣place : WOMB LIVE\n⟣open/start：18:30/19:00\n⟣price：優先¥6,000（限定Tシャツ付き）/一般¥0（各+1D）\n\n【一般販売】\n7/20（月祝）22:00-8/12（水）23:59\n🔗 https://t.co/1paW6zOoJE",
+          "attachments": {
+            "media_keys": [
+              "3_2078803427883417600"
+            ]
+          },
+          "created_at": "2026-07-19T11:25:35.000Z",
+          "edit_history_tweet_ids": [
+            "2078803434145505436"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/1paW6zOoJE",
+                "end": 221,
+                "expanded_url": "https://x.com/info_myojou/status/2078803434145505436/photo/1",
+                "media_key": "3_2078803427883417600",
+                "start": 198,
+                "url": "https://t.co/1paW6zOoJE"
+              }
+            ]
+          },
+          "full_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n      myojou Summer FINAL\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣date：8/13(木)\n⟣place : WOMB LIVE\n⟣open/start：18:30/19:00\n⟣price：優先¥6,000（限定Tシャツ付き）/一般¥0（各+1D）\n\n【一般販売】\n7/20（月祝）22:00-8/12（水）23:59\n🔗 https://t.co/yuJJhqrXAl\n\n#myojou\n#ミョージョーサマー",
+          "full_text_source": "note_tweet",
+          "id": "2078803434145505436",
+          "media": [
+            {
+              "height": 2481,
+              "media_key": "3_2078803427883417600",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HNlktCTbAAAQsUW.jpg",
+              "width": 3508
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 230,
+                  "start": 223,
+                  "tag": "myojou"
+                },
+                {
+                  "end": 241,
+                  "start": 231,
+                  "tag": "ミョージョーサマー"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "t-dv.com/myojou_0813",
+                  "end": 221,
+                  "expanded_url": "https://t-dv.com/myojou_0813",
+                  "start": 198,
+                  "url": "https://t.co/yuJJhqrXAl"
+                }
+              ]
+            },
+            "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n      myojou Summer FINAL\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣date：8/13(木)\n⟣place : WOMB LIVE\n⟣open/start：18:30/19:00\n⟣price：優先¥6,000（限定Tシャツ付き）/一般¥0（各+1D）\n\n【一般販売】\n7/20（月祝）22:00-8/12（水）23:59\n🔗 https://t.co/yuJJhqrXAl\n\n#myojou\n#ミョージョーサマー"
+          },
+          "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n      myojou Summer FINAL\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣date：8/13(木)\n⟣place : WOMB LIVE\n⟣open/start：18:30/19:00\n⟣price：優先¥6,000（限定Tシャツ付き）/一般¥0（各+1D）\n\n【一般販売】\n7/20（月祝）22:00-8/12（水）23:59\n🔗 https://t.co/1paW6zOoJE",
+          "truncated_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n      myojou Summer FINAL\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣date：8/13(木)\n⟣place : WOMB LIVE\n⟣open/start：18:30/19:00\n⟣price：優先¥6,000（限定Tシャツ付き）/一般¥0（各+1D）\n\n【一般販売】\n7/20（月祝）22:00-8/12（水）23:59\n🔗 https://t.co/1paW6zOoJE"
+        },
+        "source_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n      myojou Summer FINAL\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣date：8/13(木)\n⟣place : WOMB LIVE\n⟣open/start：18:30/19:00\n⟣price：優先¥6,000（限定Tシャツ付き）/一般¥0（各+1D）\n\n【一般販売】\n7/20（月祝）22:00-8/12（水）23:59\n🔗 https://t.co/yuJJhqrXAl\n\n#myojou\n#ミョージョーサマー",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2078803434145505436",
+        "start_time": "19:00",
+        "ticket_application_deadline_at": "2026-08-12T23:59:00+09:00",
+        "ticket_application_start_at": "2026-07-20T22:00:00+09:00",
+        "ticket_sale_type": "無料",
+        "ticket_sales": [
+          {
+            "deadline_at": "2026-08-12T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 6000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2078803434145505436",
+            "source_url": "https://x.com/info_myojou/status/2078803434145505436",
+            "start_at": "2026-07-20T22:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "優先",
+            "ticket_tier": "優先"
+          },
+          {
+            "deadline_at": "2026-08-12T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 0,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2078803434145505436",
+            "source_url": "https://x.com/info_myojou/status/2078803434145505436",
+            "start_at": "2026-07-20T22:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "https://t-dv.com/myojou_0813",
+        "venue": "WOMB LIVE"
+      },
+      "raw": {
+        "api_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n      myojou Summer FINAL\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣date：8/13(木)\n⟣place : WOMB LIVE\n⟣open/start：18:30/19:00\n⟣price：優先¥6,000（限定Tシャツ付き）/一般¥0（各+1D）\n\n【一般販売】\n7/20（月祝）22:00-8/12（水）23:59\n🔗 https://t.co/1paW6zOoJE",
+        "attachments": {
+          "media_keys": [
+            "3_2078803427883417600"
+          ]
+        },
+        "created_at": "2026-07-19T11:25:35.000Z",
+        "edit_history_tweet_ids": [
+          "2078803434145505436"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/1paW6zOoJE",
+              "end": 221,
+              "expanded_url": "https://x.com/info_myojou/status/2078803434145505436/photo/1",
+              "media_key": "3_2078803427883417600",
+              "start": 198,
+              "url": "https://t.co/1paW6zOoJE"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n      myojou Summer FINAL\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣date：8/13(木)\n⟣place : WOMB LIVE\n⟣open/start：18:30/19:00\n⟣price：優先¥6,000（限定Tシャツ付き）/一般¥0（各+1D）\n\n【一般販売】\n7/20（月祝）22:00-8/12（水）23:59\n🔗 https://t.co/yuJJhqrXAl\n\n#myojou\n#ミョージョーサマー",
+        "full_text_source": "note_tweet",
+        "id": "2078803434145505436",
+        "media": [
+          {
+            "height": 2481,
+            "media_key": "3_2078803427883417600",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HNlktCTbAAAQsUW.jpg",
+            "width": 3508
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 230,
+                "start": 223,
+                "tag": "myojou"
+              },
+              {
+                "end": 241,
+                "start": 231,
+                "tag": "ミョージョーサマー"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "t-dv.com/myojou_0813",
+                "end": 221,
+                "expanded_url": "https://t-dv.com/myojou_0813",
+                "start": 198,
+                "url": "https://t.co/yuJJhqrXAl"
+              }
+            ]
+          },
+          "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n      myojou Summer FINAL\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣date：8/13(木)\n⟣place : WOMB LIVE\n⟣open/start：18:30/19:00\n⟣price：優先¥6,000（限定Tシャツ付き）/一般¥0（各+1D）\n\n【一般販売】\n7/20（月祝）22:00-8/12（水）23:59\n🔗 https://t.co/yuJJhqrXAl\n\n#myojou\n#ミョージョーサマー"
+        },
+        "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n      myojou Summer FINAL\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣date：8/13(木)\n⟣place : WOMB LIVE\n⟣open/start：18:30/19:00\n⟣price：優先¥6,000（限定Tシャツ付き）/一般¥0（各+1D）\n\n【一般販売】\n7/20（月祝）22:00-8/12（水）23:59\n🔗 https://t.co/1paW6zOoJE",
+        "truncated_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n      myojou Summer FINAL\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣date：8/13(木)\n⟣place : WOMB LIVE\n⟣open/start：18:30/19:00\n⟣price：優先¥6,000（限定Tシャツ付き）/一般¥0（各+1D）\n\n【一般販売】\n7/20（月祝）22:00-8/12（水）23:59\n🔗 https://t.co/1paW6zOoJE"
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n      myojou Summer FINAL\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣date：8/13(木)\n⟣place : WOMB LIVE\n⟣open/start：18:30/19:00\n⟣price：優先¥6,000（限定Tシャツ付き）/一般¥0（各+1D）\n\n【一般販売】\n7/20（月祝）22:00-8/12（水）23:59\n🔗 https://t.co/yuJJhqrXAl\n\n#myojou\n#ミョージョーサマー",
+      "truncated_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n      myojou Summer FINAL\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣date：8/13(木)\n⟣place : WOMB LIVE\n⟣open/start：18:30/19:00\n⟣price：優先¥6,000（限定Tシャツ付き）/一般¥0（各+1D）\n\n【一般販売】\n7/20（月祝）22:00-8/12（水）23:59\n🔗 https://t.co/1paW6zOoJE",
+      "url": "https://x.com/info_myojou/status/2078803434145505436"
+    },
+    {
+      "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n               TOKYO GIRLS GIRLS\n            ~ 6th Anniversary day3 ~\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙18:25-18:45\n📸18:55-20:15 A\n\n⟣date：7/26（日）\n⟣place : 品川インターシティホール / 品川グランドホール https://t.co/hcLnJamYHV",
+      "attachments": {
+        "media_keys": [
+          "3_2078797086901018624"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "correction"
+      },
+      "created_at": "2026-07-19T11:00:23+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/hcLnJamYHV",
+            "end": 219,
+            "expanded_url": "https://x.com/info_myojou/status/2078797093716791371/photo/1",
+            "media_key": "3_2078797086901018624",
+            "start": 196,
+            "url": "https://t.co/hcLnJamYHV"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2078797093716791371",
+      "media": [
+        {
+          "height": 2920,
+          "media_key": "3_2078797086901018624",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HNle78TaIAA0Cwx.jpg",
+          "width": 4096
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "missing ticket deadline",
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 347,
+              "start": 340,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "tiget.net/events/502979",
+              "end": 338,
+              "expanded_url": "http://tiget.net/events/502979",
+              "start": 315,
+              "url": "https://t.co/qC8pDYEKdu"
+            }
+          ]
+        },
+        "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n               TOKYO GIRLS GIRLS\n            ~ 6th Anniversary day3 ~\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙18:25-18:45\n📸18:55-20:15 A\n\n⟣date：7/26（日）\n⟣place : 品川インターシティホール / 品川グランドホール\n⟣open/start：8:00/8:15 ※変更の可能性あり\n⟣price：前方¥10,000/通常¥4,000/当日¥5,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/2(木) 20:00-\n🔗 https://t.co/qC8pDYEKdu\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": "18:55-20:15",
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-07-26",
+        "event_dates": [
+          "2026-07-26"
+        ],
+        "event_name": "TOKYO GIRLS GIRLS ~ 6th Anniversary day3 ~",
+        "extraction_confidence": 0.95,
+        "general_ticket_price": 4000,
+        "lottery_result_at": null,
+        "myojou_performance_time": "18:25-18:45",
+        "notes": "⟣open/start:8:00/8:15 ※変更の可能性あり",
+        "open_time": "08:00",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "前方",
+        "priority_ticket_price": 10000,
+        "same_day_ticket_price": 5000,
+        "source_kind": "correction",
+        "source_post_id": "2078797093716791371",
+        "source_posted_at": "2026-07-19T11:00:23Z",
+        "source_raw": {
+          "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n               TOKYO GIRLS GIRLS\n            ~ 6th Anniversary day3 ~\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙18:25-18:45\n📸18:55-20:15 A\n\n⟣date：7/26（日）\n⟣place : 品川インターシティホール / 品川グランドホール https://t.co/hcLnJamYHV",
+          "attachments": {
+            "media_keys": [
+              "3_2078797086901018624"
+            ]
+          },
+          "created_at": "2026-07-19T11:00:23.000Z",
+          "edit_history_tweet_ids": [
+            "2078797093716791371"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/hcLnJamYHV",
+                "end": 219,
+                "expanded_url": "https://x.com/info_myojou/status/2078797093716791371/photo/1",
+                "media_key": "3_2078797086901018624",
+                "start": 196,
+                "url": "https://t.co/hcLnJamYHV"
+              }
+            ]
+          },
+          "full_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n               TOKYO GIRLS GIRLS\n            ~ 6th Anniversary day3 ~\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙18:25-18:45\n📸18:55-20:15 A\n\n⟣date：7/26（日）\n⟣place : 品川インターシティホール / 品川グランドホール\n⟣open/start：8:00/8:15 ※変更の可能性あり\n⟣price：前方¥10,000/通常¥4,000/当日¥5,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/2(木) 20:00-\n🔗 https://t.co/qC8pDYEKdu\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2078797093716791371",
+          "media": [
+            {
+              "height": 2920,
+              "media_key": "3_2078797086901018624",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HNle78TaIAA0Cwx.jpg",
+              "width": 4096
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 347,
+                  "start": 340,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "tiget.net/events/502979",
+                  "end": 338,
+                  "expanded_url": "http://tiget.net/events/502979",
+                  "start": 315,
+                  "url": "https://t.co/qC8pDYEKdu"
+                }
+              ]
+            },
+            "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n               TOKYO GIRLS GIRLS\n            ~ 6th Anniversary day3 ~\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙18:25-18:45\n📸18:55-20:15 A\n\n⟣date：7/26（日）\n⟣place : 品川インターシティホール / 品川グランドホール\n⟣open/start：8:00/8:15 ※変更の可能性あり\n⟣price：前方¥10,000/通常¥4,000/当日¥5,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/2(木) 20:00-\n🔗 https://t.co/qC8pDYEKdu\n\n#myojou"
+          },
+          "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n               TOKYO GIRLS GIRLS\n            ~ 6th Anniversary day3 ~\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙18:25-18:45\n📸18:55-20:15 A\n\n⟣date：7/26（日）\n⟣place : 品川インターシティホール / 品川グランドホール https://t.co/hcLnJamYHV",
+          "truncated_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n               TOKYO GIRLS GIRLS\n            ~ 6th Anniversary day3 ~\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙18:25-18:45\n📸18:55-20:15 A\n\n⟣date：7/26（日）\n⟣place : 品川インターシティホール / 品川グランドホール https://t.co/hcLnJamYHV"
+        },
+        "source_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n               TOKYO GIRLS GIRLS\n            ~ 6th Anniversary day3 ~\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙18:25-18:45\n📸18:55-20:15 A\n\n⟣date：7/26（日）\n⟣place : 品川インターシティホール / 品川グランドホール\n⟣open/start：8:00/8:15 ※変更の可能性あり\n⟣price：前方¥10,000/通常¥4,000/当日¥5,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/2(木) 20:00-\n🔗 https://t.co/qC8pDYEKdu\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2078797093716791371",
+        "start_time": "08:15",
+        "ticket_application_deadline_at": null,
+        "ticket_application_start_at": "2026-07-02T20:00:00+09:00",
+        "ticket_sale_type": "先着",
+        "ticket_sales": [
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 10000,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2078797093716791371",
+            "source_url": "https://x.com/info_myojou/status/2078797093716791371",
+            "start_at": "2026-07-02T20:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "前方",
+            "ticket_tier": "前方"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 4000,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2078797093716791371",
+            "source_url": "https://x.com/info_myojou/status/2078797093716791371",
+            "start_at": "2026-07-02T20:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 5000,
+            "result_at": null,
+            "sale_type": "当日券",
+            "source_post_id": "2078797093716791371",
+            "source_url": "https://x.com/info_myojou/status/2078797093716791371",
+            "start_at": null,
+            "status": "販売中",
+            "ticket_name": "当日券",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "http://tiget.net/events/502979",
+        "venue": "品川インターシティホール / 品川グランドホール"
+      },
+      "raw": {
+        "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n               TOKYO GIRLS GIRLS\n            ~ 6th Anniversary day3 ~\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙18:25-18:45\n📸18:55-20:15 A\n\n⟣date：7/26（日）\n⟣place : 品川インターシティホール / 品川グランドホール https://t.co/hcLnJamYHV",
+        "attachments": {
+          "media_keys": [
+            "3_2078797086901018624"
+          ]
+        },
+        "created_at": "2026-07-19T11:00:23.000Z",
+        "edit_history_tweet_ids": [
+          "2078797093716791371"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/hcLnJamYHV",
+              "end": 219,
+              "expanded_url": "https://x.com/info_myojou/status/2078797093716791371/photo/1",
+              "media_key": "3_2078797086901018624",
+              "start": 196,
+              "url": "https://t.co/hcLnJamYHV"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n               TOKYO GIRLS GIRLS\n            ~ 6th Anniversary day3 ~\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙18:25-18:45\n📸18:55-20:15 A\n\n⟣date：7/26（日）\n⟣place : 品川インターシティホール / 品川グランドホール\n⟣open/start：8:00/8:15 ※変更の可能性あり\n⟣price：前方¥10,000/通常¥4,000/当日¥5,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/2(木) 20:00-\n🔗 https://t.co/qC8pDYEKdu\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2078797093716791371",
+        "media": [
+          {
+            "height": 2920,
+            "media_key": "3_2078797086901018624",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HNle78TaIAA0Cwx.jpg",
+            "width": 4096
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 347,
+                "start": 340,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "tiget.net/events/502979",
+                "end": 338,
+                "expanded_url": "http://tiget.net/events/502979",
+                "start": 315,
+                "url": "https://t.co/qC8pDYEKdu"
+              }
+            ]
+          },
+          "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n               TOKYO GIRLS GIRLS\n            ~ 6th Anniversary day3 ~\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙18:25-18:45\n📸18:55-20:15 A\n\n⟣date：7/26（日）\n⟣place : 品川インターシティホール / 品川グランドホール\n⟣open/start：8:00/8:15 ※変更の可能性あり\n⟣price：前方¥10,000/通常¥4,000/当日¥5,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/2(木) 20:00-\n🔗 https://t.co/qC8pDYEKdu\n\n#myojou"
+        },
+        "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n               TOKYO GIRLS GIRLS\n            ~ 6th Anniversary day3 ~\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙18:25-18:45\n📸18:55-20:15 A\n\n⟣date：7/26（日）\n⟣place : 品川インターシティホール / 品川グランドホール https://t.co/hcLnJamYHV",
+        "truncated_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n               TOKYO GIRLS GIRLS\n            ~ 6th Anniversary day3 ~\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙18:25-18:45\n📸18:55-20:15 A\n\n⟣date：7/26（日）\n⟣place : 品川インターシティホール / 品川グランドホール https://t.co/hcLnJamYHV"
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n               TOKYO GIRLS GIRLS\n            ~ 6th Anniversary day3 ~\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙18:25-18:45\n📸18:55-20:15 A\n\n⟣date：7/26（日）\n⟣place : 品川インターシティホール / 品川グランドホール\n⟣open/start：8:00/8:15 ※変更の可能性あり\n⟣price：前方¥10,000/通常¥4,000/当日¥5,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/2(木) 20:00-\n🔗 https://t.co/qC8pDYEKdu\n\n#myojou",
+      "truncated_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n               TOKYO GIRLS GIRLS\n            ~ 6th Anniversary day3 ~\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙18:25-18:45\n📸18:55-20:15 A\n\n⟣date：7/26（日）\n⟣place : 品川インターシティホール / 品川グランドホール https://t.co/hcLnJamYHV",
+      "url": "https://x.com/info_myojou/status/2078797093716791371"
+    },
+    {
+      "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n               TOKYO GIRLS GIRLS\n            ~ 6th Anniversary day1 ~\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙14:00-14:20\n📸14:30-15:50 E\n\n⟣date：7/24（金）\n⟣place : 品川インターシティホール\n⟣open/start：10:00/10:15 https://t.co/psZkTow9ia",
+      "attachments": {
+        "media_keys": [
+          "3_2078797062309920769"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "correction"
+      },
+      "created_at": "2026-07-19T11:00:18+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/psZkTow9ia",
+            "end": 231,
+            "expanded_url": "https://x.com/info_myojou/status/2078797068710359218/photo/1",
+            "media_key": "3_2078797062309920769",
+            "start": 208,
+            "url": "https://t.co/psZkTow9ia"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2078797068710359218",
+      "media": [
+        {
+          "height": 4096,
+          "media_key": "3_2078797062309920769",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HNle6gsbwAEMI3r.jpg",
+          "width": 2920
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "missing ticket deadline",
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 337,
+              "start": 330,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "tiget.net/events/502975",
+              "end": 328,
+              "expanded_url": "http://tiget.net/events/502975",
+              "start": 305,
+              "url": "https://t.co/jcqgc8HAIw"
+            }
+          ]
+        },
+        "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n               TOKYO GIRLS GIRLS\n            ~ 6th Anniversary day1 ~\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙14:00-14:20\n📸14:30-15:50 E\n\n⟣date：7/24（金）\n⟣place : 品川インターシティホール\n⟣open/start：10:00/10:15 ※変更の可能性あり\n⟣price：前方¥10,000/通常¥4,000/当日¥5,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/2(木) 20:00-\n🔗 https://t.co/jcqgc8HAIw\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": "14:30-15:50",
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-07-24",
+        "event_dates": [
+          "2026-07-24"
+        ],
+        "event_name": "TOKYO GIRLS GIRLS ~ 6th Anniversary day1 ~",
+        "extraction_confidence": 0.95,
+        "general_ticket_price": 4000,
+        "lottery_result_at": null,
+        "myojou_performance_time": "14:00-14:20",
+        "notes": "⟣open/start:10:00/10:15 ※変更の可能性あり",
+        "open_time": "10:00",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "前方",
+        "priority_ticket_price": 10000,
+        "same_day_ticket_price": 5000,
+        "source_kind": "correction",
+        "source_post_id": "2078797068710359218",
+        "source_posted_at": "2026-07-19T11:00:18Z",
+        "source_raw": {
+          "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n               TOKYO GIRLS GIRLS\n            ~ 6th Anniversary day1 ~\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙14:00-14:20\n📸14:30-15:50 E\n\n⟣date：7/24（金）\n⟣place : 品川インターシティホール\n⟣open/start：10:00/10:15 https://t.co/psZkTow9ia",
+          "attachments": {
+            "media_keys": [
+              "3_2078797062309920769"
+            ]
+          },
+          "created_at": "2026-07-19T11:00:18.000Z",
+          "edit_history_tweet_ids": [
+            "2078797068710359218"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/psZkTow9ia",
+                "end": 231,
+                "expanded_url": "https://x.com/info_myojou/status/2078797068710359218/photo/1",
+                "media_key": "3_2078797062309920769",
+                "start": 208,
+                "url": "https://t.co/psZkTow9ia"
+              }
+            ]
+          },
+          "full_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n               TOKYO GIRLS GIRLS\n            ~ 6th Anniversary day1 ~\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙14:00-14:20\n📸14:30-15:50 E\n\n⟣date：7/24（金）\n⟣place : 品川インターシティホール\n⟣open/start：10:00/10:15 ※変更の可能性あり\n⟣price：前方¥10,000/通常¥4,000/当日¥5,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/2(木) 20:00-\n🔗 https://t.co/jcqgc8HAIw\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2078797068710359218",
+          "media": [
+            {
+              "height": 4096,
+              "media_key": "3_2078797062309920769",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HNle6gsbwAEMI3r.jpg",
+              "width": 2920
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 337,
+                  "start": 330,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "tiget.net/events/502975",
+                  "end": 328,
+                  "expanded_url": "http://tiget.net/events/502975",
+                  "start": 305,
+                  "url": "https://t.co/jcqgc8HAIw"
+                }
+              ]
+            },
+            "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n               TOKYO GIRLS GIRLS\n            ~ 6th Anniversary day1 ~\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙14:00-14:20\n📸14:30-15:50 E\n\n⟣date：7/24（金）\n⟣place : 品川インターシティホール\n⟣open/start：10:00/10:15 ※変更の可能性あり\n⟣price：前方¥10,000/通常¥4,000/当日¥5,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/2(木) 20:00-\n🔗 https://t.co/jcqgc8HAIw\n\n#myojou"
+          },
+          "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n               TOKYO GIRLS GIRLS\n            ~ 6th Anniversary day1 ~\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙14:00-14:20\n📸14:30-15:50 E\n\n⟣date：7/24（金）\n⟣place : 品川インターシティホール\n⟣open/start：10:00/10:15 https://t.co/psZkTow9ia",
+          "truncated_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n               TOKYO GIRLS GIRLS\n            ~ 6th Anniversary day1 ~\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙14:00-14:20\n📸14:30-15:50 E\n\n⟣date：7/24（金）\n⟣place : 品川インターシティホール\n⟣open/start：10:00/10:15 https://t.co/psZkTow9ia"
+        },
+        "source_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n               TOKYO GIRLS GIRLS\n            ~ 6th Anniversary day1 ~\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙14:00-14:20\n📸14:30-15:50 E\n\n⟣date：7/24（金）\n⟣place : 品川インターシティホール\n⟣open/start：10:00/10:15 ※変更の可能性あり\n⟣price：前方¥10,000/通常¥4,000/当日¥5,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/2(木) 20:00-\n🔗 https://t.co/jcqgc8HAIw\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2078797068710359218",
+        "start_time": "10:15",
+        "ticket_application_deadline_at": null,
+        "ticket_application_start_at": "2026-07-02T20:00:00+09:00",
+        "ticket_sale_type": "先着",
+        "ticket_sales": [
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 10000,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2078797068710359218",
+            "source_url": "https://x.com/info_myojou/status/2078797068710359218",
+            "start_at": "2026-07-02T20:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "前方",
+            "ticket_tier": "前方"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 4000,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2078797068710359218",
+            "source_url": "https://x.com/info_myojou/status/2078797068710359218",
+            "start_at": "2026-07-02T20:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 5000,
+            "result_at": null,
+            "sale_type": "当日券",
+            "source_post_id": "2078797068710359218",
+            "source_url": "https://x.com/info_myojou/status/2078797068710359218",
+            "start_at": null,
+            "status": "販売中",
+            "ticket_name": "当日券",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "http://tiget.net/events/502975",
+        "venue": "品川インターシティホール"
+      },
+      "raw": {
+        "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n               TOKYO GIRLS GIRLS\n            ~ 6th Anniversary day1 ~\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙14:00-14:20\n📸14:30-15:50 E\n\n⟣date：7/24（金）\n⟣place : 品川インターシティホール\n⟣open/start：10:00/10:15 https://t.co/psZkTow9ia",
+        "attachments": {
+          "media_keys": [
+            "3_2078797062309920769"
+          ]
+        },
+        "created_at": "2026-07-19T11:00:18.000Z",
+        "edit_history_tweet_ids": [
+          "2078797068710359218"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/psZkTow9ia",
+              "end": 231,
+              "expanded_url": "https://x.com/info_myojou/status/2078797068710359218/photo/1",
+              "media_key": "3_2078797062309920769",
+              "start": 208,
+              "url": "https://t.co/psZkTow9ia"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n               TOKYO GIRLS GIRLS\n            ~ 6th Anniversary day1 ~\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙14:00-14:20\n📸14:30-15:50 E\n\n⟣date：7/24（金）\n⟣place : 品川インターシティホール\n⟣open/start：10:00/10:15 ※変更の可能性あり\n⟣price：前方¥10,000/通常¥4,000/当日¥5,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/2(木) 20:00-\n🔗 https://t.co/jcqgc8HAIw\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2078797068710359218",
+        "media": [
+          {
+            "height": 4096,
+            "media_key": "3_2078797062309920769",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HNle6gsbwAEMI3r.jpg",
+            "width": 2920
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 337,
+                "start": 330,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "tiget.net/events/502975",
+                "end": 328,
+                "expanded_url": "http://tiget.net/events/502975",
+                "start": 305,
+                "url": "https://t.co/jcqgc8HAIw"
+              }
+            ]
+          },
+          "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n               TOKYO GIRLS GIRLS\n            ~ 6th Anniversary day1 ~\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙14:00-14:20\n📸14:30-15:50 E\n\n⟣date：7/24（金）\n⟣place : 品川インターシティホール\n⟣open/start：10:00/10:15 ※変更の可能性あり\n⟣price：前方¥10,000/通常¥4,000/当日¥5,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/2(木) 20:00-\n🔗 https://t.co/jcqgc8HAIw\n\n#myojou"
+        },
+        "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n               TOKYO GIRLS GIRLS\n            ~ 6th Anniversary day1 ~\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙14:00-14:20\n📸14:30-15:50 E\n\n⟣date：7/24（金）\n⟣place : 品川インターシティホール\n⟣open/start：10:00/10:15 https://t.co/psZkTow9ia",
+        "truncated_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n               TOKYO GIRLS GIRLS\n            ~ 6th Anniversary day1 ~\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙14:00-14:20\n📸14:30-15:50 E\n\n⟣date：7/24（金）\n⟣place : 品川インターシティホール\n⟣open/start：10:00/10:15 https://t.co/psZkTow9ia"
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n               TOKYO GIRLS GIRLS\n            ~ 6th Anniversary day1 ~\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙14:00-14:20\n📸14:30-15:50 E\n\n⟣date：7/24（金）\n⟣place : 品川インターシティホール\n⟣open/start：10:00/10:15 ※変更の可能性あり\n⟣price：前方¥10,000/通常¥4,000/当日¥5,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/2(木) 20:00-\n🔗 https://t.co/jcqgc8HAIw\n\n#myojou",
+      "truncated_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n               TOKYO GIRLS GIRLS\n            ~ 6th Anniversary day1 ~\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙14:00-14:20\n📸14:30-15:50 E\n\n⟣date：7/24（金）\n⟣place : 品川インターシティホール\n⟣open/start：10:00/10:15 https://t.co/psZkTow9ia",
+      "url": "https://x.com/info_myojou/status/2078797068710359218"
+    },
+    {
+      "api_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「myojou Summer Vol.03」\n\n⟣date：7/19（日）\n⟣place : 渋谷音楽堂\n⟣open/start：17:30/18:00\n⟣price：SOLD OUT\n\n#myojou\n#ミョージョーサマー https://t.co/jzT7r9PVno",
+      "attachments": {
+        "media_keys": [
+          "3_2078708011560996864"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "sold_out"
+      },
+      "created_at": "2026-07-19T05:06:26+00:00",
+      "entities": {
+        "hashtags": [
+          {
+            "end": 124,
+            "start": 117,
+            "tag": "myojou"
+          },
+          {
+            "end": 135,
+            "start": 125,
+            "tag": "ミョージョーサマー"
+          }
+        ],
+        "urls": [
+          {
+            "display_url": "pic.x.com/jzT7r9PVno",
+            "end": 159,
+            "expanded_url": "https://x.com/info_myojou/status/2078708018179698916/photo/1",
+            "media_key": "3_2078708011560996864",
+            "start": 136,
+            "url": "https://t.co/jzT7r9PVno"
+          }
+        ]
+      },
+      "full_text_source": "text",
+      "id": "2078708018179698916",
+      "media": [
+        {
+          "height": 2481,
+          "media_key": "3_2078708011560996864",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HNkN7EzaEAAFhfW.jpg",
+          "width": 3508
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": null,
+      "parsed_fields": {
+        "benefit_event_time": null,
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-07-19",
+        "event_dates": [
+          "2026-07-19"
+        ],
+        "event_name": "myojou Summer Vol.03",
+        "extraction_confidence": 0.85,
+        "general_ticket_price": null,
+        "lottery_result_at": null,
+        "myojou_performance_time": null,
+        "notes": null,
+        "open_time": "17:30",
+        "payment_deadline_at": null,
+        "priority_ticket_name": null,
+        "priority_ticket_price": null,
+        "same_day_ticket_price": null,
+        "source_kind": "sold_out",
+        "source_post_id": "2078708018179698916",
+        "source_posted_at": "2026-07-19T05:06:26Z",
+        "source_raw": {
+          "api_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「myojou Summer Vol.03」\n\n⟣date：7/19（日）\n⟣place : 渋谷音楽堂\n⟣open/start：17:30/18:00\n⟣price：SOLD OUT\n\n#myojou\n#ミョージョーサマー https://t.co/jzT7r9PVno",
+          "attachments": {
+            "media_keys": [
+              "3_2078708011560996864"
+            ]
+          },
+          "created_at": "2026-07-19T05:06:26.000Z",
+          "edit_history_tweet_ids": [
+            "2078708018179698916"
+          ],
+          "entities": {
+            "hashtags": [
+              {
+                "end": 124,
+                "start": 117,
+                "tag": "myojou"
+              },
+              {
+                "end": 135,
+                "start": 125,
+                "tag": "ミョージョーサマー"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "pic.x.com/jzT7r9PVno",
+                "end": 159,
+                "expanded_url": "https://x.com/info_myojou/status/2078708018179698916/photo/1",
+                "media_key": "3_2078708011560996864",
+                "start": 136,
+                "url": "https://t.co/jzT7r9PVno"
+              }
+            ]
+          },
+          "full_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「myojou Summer Vol.03」\n\n⟣date：7/19（日）\n⟣place : 渋谷音楽堂\n⟣open/start：17:30/18:00\n⟣price：SOLD OUT\n\n#myojou\n#ミョージョーサマー https://t.co/jzT7r9PVno",
+          "full_text_source": "text",
+          "id": "2078708018179698916",
+          "media": [
+            {
+              "height": 2481,
+              "media_key": "3_2078708011560996864",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HNkN7EzaEAAFhfW.jpg",
+              "width": 3508
+            }
+          ],
+          "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「myojou Summer Vol.03」\n\n⟣date：7/19（日）\n⟣place : 渋谷音楽堂\n⟣open/start：17:30/18:00\n⟣price：SOLD OUT\n\n#myojou\n#ミョージョーサマー https://t.co/jzT7r9PVno",
+          "truncated_text": null
+        },
+        "source_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「myojou Summer Vol.03」\n\n⟣date：7/19（日）\n⟣place : 渋谷音楽堂\n⟣open/start：17:30/18:00\n⟣price：SOLD OUT\n\n#myojou\n#ミョージョーサマー https://t.co/jzT7r9PVno",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2078708018179698916",
+        "start_time": "18:00",
+        "ticket_application_deadline_at": null,
+        "ticket_application_start_at": null,
+        "ticket_sale_type": null,
+        "ticket_sales": [],
+        "ticket_status": "sold_out",
+        "ticket_url": null,
+        "venue": "渋谷音楽堂"
+      },
+      "raw": {
+        "api_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「myojou Summer Vol.03」\n\n⟣date：7/19（日）\n⟣place : 渋谷音楽堂\n⟣open/start：17:30/18:00\n⟣price：SOLD OUT\n\n#myojou\n#ミョージョーサマー https://t.co/jzT7r9PVno",
+        "attachments": {
+          "media_keys": [
+            "3_2078708011560996864"
+          ]
+        },
+        "created_at": "2026-07-19T05:06:26.000Z",
+        "edit_history_tweet_ids": [
+          "2078708018179698916"
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "end": 124,
+              "start": 117,
+              "tag": "myojou"
+            },
+            {
+              "end": 135,
+              "start": 125,
+              "tag": "ミョージョーサマー"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "pic.x.com/jzT7r9PVno",
+              "end": 159,
+              "expanded_url": "https://x.com/info_myojou/status/2078708018179698916/photo/1",
+              "media_key": "3_2078708011560996864",
+              "start": 136,
+              "url": "https://t.co/jzT7r9PVno"
+            }
+          ]
+        },
+        "full_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「myojou Summer Vol.03」\n\n⟣date：7/19（日）\n⟣place : 渋谷音楽堂\n⟣open/start：17:30/18:00\n⟣price：SOLD OUT\n\n#myojou\n#ミョージョーサマー https://t.co/jzT7r9PVno",
+        "full_text_source": "text",
+        "id": "2078708018179698916",
+        "media": [
+          {
+            "height": 2481,
+            "media_key": "3_2078708011560996864",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HNkN7EzaEAAFhfW.jpg",
+            "width": 3508
+          }
+        ],
+        "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「myojou Summer Vol.03」\n\n⟣date：7/19（日）\n⟣place : 渋谷音楽堂\n⟣open/start：17:30/18:00\n⟣price：SOLD OUT\n\n#myojou\n#ミョージョーサマー https://t.co/jzT7r9PVno",
+        "truncated_text": null
+      },
+      "referenced_tweets": [],
+      "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「myojou Summer Vol.03」\n\n⟣date：7/19（日）\n⟣place : 渋谷音楽堂\n⟣open/start：17:30/18:00\n⟣price：SOLD OUT\n\n#myojou\n#ミョージョーサマー https://t.co/jzT7r9PVno",
+      "truncated_text": null,
+      "url": "https://x.com/info_myojou/status/2078708018179698916"
+    },
+    {
       "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                HYPE IDOL！Summer\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：8/11（火祝）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:30/11:00 ※変更の可能あり\n⟣price：前方¥8,000 / 一般¥3,000 (各＋１D） https://t.co/58IHMGt9ek",
       "attachments": {
         "media_keys": [
@@ -122872,7 +124527,7 @@
     "backfill": true,
     "dry_run": true,
     "estimated_x_post_reads": 411,
-    "latest_post_id": "2078464905188151335",
+    "latest_post_id": "2078852339235250674",
     "max_pages": 10,
     "max_posts": 500,
     "max_results": 5,
@@ -122915,16 +124570,16 @@
       }
     ],
     "pages_fetched": 5,
-    "posts_fetched": 569,
+    "posts_fetched": 577,
     "rate_limit_headers": {
       "x-rate-limit-limit": "10000",
       "x-rate-limit-remaining": "9993",
       "x-rate-limit-reset": "1781108896"
     },
-    "total_posts": 569,
-    "updated_at": "2026-07-18T20:05:00.899320+00:00",
+    "total_posts": 577,
+    "updated_at": "2026-07-19T20:08:29.233855+00:00",
     "username": "info_myojou"
   },
   "source": "x_api",
-  "updated_at": "2026-07-18T20:05:00.899320+00:00"
+  "updated_at": "2026-07-19T20:08:29.233855+00:00"
 }
