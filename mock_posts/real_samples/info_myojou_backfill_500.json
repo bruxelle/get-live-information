@@ -2,6 +2,1297 @@
   "captured_at": "2026-06-10T16:19:36.141820+00:00",
   "data": [
     {
+      "api_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n      A Villa idol festival HOKKAIDO 2026\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n🎙14:15-14:40\n\n⟣date：8/29（土）\n⟣place : 安平町ときわ公園\n⟣open/start：9:00/10:00（予定）\n⟣price：VIPチケット https://t.co/s4jtA4cWfo",
+      "attachments": {
+        "media_keys": [
+          "3_2079159483012640768"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "ticket_update"
+      },
+      "created_at": "2026-07-20T11:00:25+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/s4jtA4cWfo",
+            "end": 206,
+            "expanded_url": "https://x.com/info_myojou/status/2079159489757065461/photo/1",
+            "media_key": "3_2079159483012640768",
+            "start": 183,
+            "url": "https://t.co/s4jtA4cWfo"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2079159489757065461",
+      "media": [
+        {
+          "height": 1522,
+          "media_key": "3_2079159483012640768",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HNqoiLBacAAcnkh.jpg",
+          "width": 1076
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 432,
+              "start": 425,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "l-tike.com/search/?lcd=12…",
+              "end": 331,
+              "expanded_url": "https://l-tike.com/search/?lcd=12016",
+              "start": 308,
+              "url": "https://t.co/9bAiXJPyyy"
+            },
+            {
+              "display_url": "t.pia.jp/pia/event/even…",
+              "end": 358,
+              "expanded_url": "https://t.pia.jp/pia/event/event.do?eventCd=2614434",
+              "start": 335,
+              "url": "https://t.co/iAbHJj4lkL"
+            },
+            {
+              "display_url": "eplus.jp/avilla_2026/",
+              "end": 388,
+              "expanded_url": "http://eplus.jp/avilla_2026/",
+              "start": 365,
+              "url": "https://t.co/wDRq71uRlU"
+            },
+            {
+              "display_url": "ticketdive.com/event/a_villa2…",
+              "end": 423,
+              "expanded_url": "https://ticketdive.com/event/a_villa2026",
+              "start": 400,
+              "url": "https://t.co/LvbhMZo9ie"
+            }
+          ]
+        },
+        "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n      A Villa idol festival HOKKAIDO 2026\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n🎙14:15-14:40\n\n⟣date：8/29（土）\n⟣place : 安平町ときわ公園\n⟣open/start：9:00/10:00（予定）\n⟣price：VIPチケット ¥15,000（VIPエリア&Tシャツ付き）/Tシャツ付きチケット ¥6,000/無料チケット¥0 ※要予約（各+1D）\n⟣入場特典 : 明星カード1枚(サインありチェキ)\n\n【販売期間】\n6/9（火）20:00-8/20（木）23:59\nローチケ：https://t.co/9bAiXJPyyy\nぴあ：https://t.co/iAbHJj4lkL\nイープラス：https://t.co/wDRq71uRlU\n無料チケット※要予約：https://t.co/LvbhMZo9ie\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": null,
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-08-29",
+        "event_dates": [
+          "2026-08-29"
+        ],
+        "event_name": "A Villa idol festival HOKKAIDO 2026",
+        "extraction_confidence": 0.95,
+        "general_ticket_price": null,
+        "lottery_result_at": null,
+        "myojou_performance_time": "14:15-14:40",
+        "notes": "要予約\nドリンク代: 各+1D\n⟣入場特典 : 明星カード1枚(サインありチェキ)",
+        "open_time": "09:00",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "VIPチケット",
+        "priority_ticket_price": 15000,
+        "same_day_ticket_price": null,
+        "source_kind": "ticket_update",
+        "source_post_id": "2079159489757065461",
+        "source_posted_at": "2026-07-20T11:00:25Z",
+        "source_raw": {
+          "api_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n      A Villa idol festival HOKKAIDO 2026\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n🎙14:15-14:40\n\n⟣date：8/29（土）\n⟣place : 安平町ときわ公園\n⟣open/start：9:00/10:00（予定）\n⟣price：VIPチケット https://t.co/s4jtA4cWfo",
+          "attachments": {
+            "media_keys": [
+              "3_2079159483012640768"
+            ]
+          },
+          "created_at": "2026-07-20T11:00:25.000Z",
+          "edit_history_tweet_ids": [
+            "2079159489757065461"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/s4jtA4cWfo",
+                "end": 206,
+                "expanded_url": "https://x.com/info_myojou/status/2079159489757065461/photo/1",
+                "media_key": "3_2079159483012640768",
+                "start": 183,
+                "url": "https://t.co/s4jtA4cWfo"
+              }
+            ]
+          },
+          "full_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n      A Villa idol festival HOKKAIDO 2026\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n🎙14:15-14:40\n\n⟣date：8/29（土）\n⟣place : 安平町ときわ公園\n⟣open/start：9:00/10:00（予定）\n⟣price：VIPチケット ¥15,000（VIPエリア&Tシャツ付き）/Tシャツ付きチケット ¥6,000/無料チケット¥0 ※要予約（各+1D）\n⟣入場特典 : 明星カード1枚(サインありチェキ)\n\n【販売期間】\n6/9（火）20:00-8/20（木）23:59\nローチケ：https://t.co/9bAiXJPyyy\nぴあ：https://t.co/iAbHJj4lkL\nイープラス：https://t.co/wDRq71uRlU\n無料チケット※要予約：https://t.co/LvbhMZo9ie\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2079159489757065461",
+          "media": [
+            {
+              "height": 1522,
+              "media_key": "3_2079159483012640768",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HNqoiLBacAAcnkh.jpg",
+              "width": 1076
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 432,
+                  "start": 425,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "l-tike.com/search/?lcd=12…",
+                  "end": 331,
+                  "expanded_url": "https://l-tike.com/search/?lcd=12016",
+                  "start": 308,
+                  "url": "https://t.co/9bAiXJPyyy"
+                },
+                {
+                  "display_url": "t.pia.jp/pia/event/even…",
+                  "end": 358,
+                  "expanded_url": "https://t.pia.jp/pia/event/event.do?eventCd=2614434",
+                  "start": 335,
+                  "url": "https://t.co/iAbHJj4lkL"
+                },
+                {
+                  "display_url": "eplus.jp/avilla_2026/",
+                  "end": 388,
+                  "expanded_url": "http://eplus.jp/avilla_2026/",
+                  "start": 365,
+                  "url": "https://t.co/wDRq71uRlU"
+                },
+                {
+                  "display_url": "ticketdive.com/event/a_villa2…",
+                  "end": 423,
+                  "expanded_url": "https://ticketdive.com/event/a_villa2026",
+                  "start": 400,
+                  "url": "https://t.co/LvbhMZo9ie"
+                }
+              ]
+            },
+            "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n      A Villa idol festival HOKKAIDO 2026\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n🎙14:15-14:40\n\n⟣date：8/29（土）\n⟣place : 安平町ときわ公園\n⟣open/start：9:00/10:00（予定）\n⟣price：VIPチケット ¥15,000（VIPエリア&Tシャツ付き）/Tシャツ付きチケット ¥6,000/無料チケット¥0 ※要予約（各+1D）\n⟣入場特典 : 明星カード1枚(サインありチェキ)\n\n【販売期間】\n6/9（火）20:00-8/20（木）23:59\nローチケ：https://t.co/9bAiXJPyyy\nぴあ：https://t.co/iAbHJj4lkL\nイープラス：https://t.co/wDRq71uRlU\n無料チケット※要予約：https://t.co/LvbhMZo9ie\n\n#myojou"
+          },
+          "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n      A Villa idol festival HOKKAIDO 2026\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n🎙14:15-14:40\n\n⟣date：8/29（土）\n⟣place : 安平町ときわ公園\n⟣open/start：9:00/10:00（予定）\n⟣price：VIPチケット https://t.co/s4jtA4cWfo",
+          "truncated_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n      A Villa idol festival HOKKAIDO 2026\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n🎙14:15-14:40\n\n⟣date：8/29（土）\n⟣place : 安平町ときわ公園\n⟣open/start：9:00/10:00（予定）\n⟣price：VIPチケット https://t.co/s4jtA4cWfo"
+        },
+        "source_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n      A Villa idol festival HOKKAIDO 2026\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n🎙14:15-14:40\n\n⟣date：8/29（土）\n⟣place : 安平町ときわ公園\n⟣open/start：9:00/10:00（予定）\n⟣price：VIPチケット ¥15,000（VIPエリア&Tシャツ付き）/Tシャツ付きチケット ¥6,000/無料チケット¥0 ※要予約（各+1D）\n⟣入場特典 : 明星カード1枚(サインありチェキ)\n\n【販売期間】\n6/9（火）20:00-8/20（木）23:59\nローチケ：https://t.co/9bAiXJPyyy\nぴあ：https://t.co/iAbHJj4lkL\nイープラス：https://t.co/wDRq71uRlU\n無料チケット※要予約：https://t.co/LvbhMZo9ie\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2079159489757065461",
+        "start_time": "10:00",
+        "ticket_application_deadline_at": "2026-08-20T23:59:00+09:00",
+        "ticket_application_start_at": "2026-06-09T20:00:00+09:00",
+        "ticket_sale_type": "不明",
+        "ticket_sales": [
+          {
+            "deadline_at": "2026-08-20T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 15000,
+            "result_at": null,
+            "sale_type": "不明",
+            "source_post_id": "2079159489757065461",
+            "source_url": "https://x.com/info_myojou/status/2079159489757065461",
+            "start_at": "2026-06-09T20:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "VIPチケット",
+            "ticket_tier": "VIP"
+          },
+          {
+            "deadline_at": "2026-08-20T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 6000,
+            "result_at": null,
+            "sale_type": "不明",
+            "source_post_id": "2079159489757065461",
+            "source_url": "https://x.com/info_myojou/status/2079159489757065461",
+            "start_at": "2026-06-09T20:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "Tシャツ付きチケット",
+            "ticket_tier": "その他"
+          },
+          {
+            "deadline_at": "2026-08-20T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 0,
+            "result_at": null,
+            "sale_type": "不明",
+            "source_post_id": "2079159489757065461",
+            "source_url": "https://x.com/info_myojou/status/2079159489757065461",
+            "start_at": "2026-06-09T20:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "無料チケット",
+            "ticket_tier": "その他"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "https://l-tike.com/search/?lcd=12016",
+        "venue": "安平町ときわ公園"
+      },
+      "raw": {
+        "api_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n      A Villa idol festival HOKKAIDO 2026\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n🎙14:15-14:40\n\n⟣date：8/29（土）\n⟣place : 安平町ときわ公園\n⟣open/start：9:00/10:00（予定）\n⟣price：VIPチケット https://t.co/s4jtA4cWfo",
+        "attachments": {
+          "media_keys": [
+            "3_2079159483012640768"
+          ]
+        },
+        "created_at": "2026-07-20T11:00:25.000Z",
+        "edit_history_tweet_ids": [
+          "2079159489757065461"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/s4jtA4cWfo",
+              "end": 206,
+              "expanded_url": "https://x.com/info_myojou/status/2079159489757065461/photo/1",
+              "media_key": "3_2079159483012640768",
+              "start": 183,
+              "url": "https://t.co/s4jtA4cWfo"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n      A Villa idol festival HOKKAIDO 2026\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n🎙14:15-14:40\n\n⟣date：8/29（土）\n⟣place : 安平町ときわ公園\n⟣open/start：9:00/10:00（予定）\n⟣price：VIPチケット ¥15,000（VIPエリア&Tシャツ付き）/Tシャツ付きチケット ¥6,000/無料チケット¥0 ※要予約（各+1D）\n⟣入場特典 : 明星カード1枚(サインありチェキ)\n\n【販売期間】\n6/9（火）20:00-8/20（木）23:59\nローチケ：https://t.co/9bAiXJPyyy\nぴあ：https://t.co/iAbHJj4lkL\nイープラス：https://t.co/wDRq71uRlU\n無料チケット※要予約：https://t.co/LvbhMZo9ie\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2079159489757065461",
+        "media": [
+          {
+            "height": 1522,
+            "media_key": "3_2079159483012640768",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HNqoiLBacAAcnkh.jpg",
+            "width": 1076
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 432,
+                "start": 425,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "l-tike.com/search/?lcd=12…",
+                "end": 331,
+                "expanded_url": "https://l-tike.com/search/?lcd=12016",
+                "start": 308,
+                "url": "https://t.co/9bAiXJPyyy"
+              },
+              {
+                "display_url": "t.pia.jp/pia/event/even…",
+                "end": 358,
+                "expanded_url": "https://t.pia.jp/pia/event/event.do?eventCd=2614434",
+                "start": 335,
+                "url": "https://t.co/iAbHJj4lkL"
+              },
+              {
+                "display_url": "eplus.jp/avilla_2026/",
+                "end": 388,
+                "expanded_url": "http://eplus.jp/avilla_2026/",
+                "start": 365,
+                "url": "https://t.co/wDRq71uRlU"
+              },
+              {
+                "display_url": "ticketdive.com/event/a_villa2…",
+                "end": 423,
+                "expanded_url": "https://ticketdive.com/event/a_villa2026",
+                "start": 400,
+                "url": "https://t.co/LvbhMZo9ie"
+              }
+            ]
+          },
+          "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n      A Villa idol festival HOKKAIDO 2026\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n🎙14:15-14:40\n\n⟣date：8/29（土）\n⟣place : 安平町ときわ公園\n⟣open/start：9:00/10:00（予定）\n⟣price：VIPチケット ¥15,000（VIPエリア&Tシャツ付き）/Tシャツ付きチケット ¥6,000/無料チケット¥0 ※要予約（各+1D）\n⟣入場特典 : 明星カード1枚(サインありチェキ)\n\n【販売期間】\n6/9（火）20:00-8/20（木）23:59\nローチケ：https://t.co/9bAiXJPyyy\nぴあ：https://t.co/iAbHJj4lkL\nイープラス：https://t.co/wDRq71uRlU\n無料チケット※要予約：https://t.co/LvbhMZo9ie\n\n#myojou"
+        },
+        "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n      A Villa idol festival HOKKAIDO 2026\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n🎙14:15-14:40\n\n⟣date：8/29（土）\n⟣place : 安平町ときわ公園\n⟣open/start：9:00/10:00（予定）\n⟣price：VIPチケット https://t.co/s4jtA4cWfo",
+        "truncated_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n      A Villa idol festival HOKKAIDO 2026\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n🎙14:15-14:40\n\n⟣date：8/29（土）\n⟣place : 安平町ときわ公園\n⟣open/start：9:00/10:00（予定）\n⟣price：VIPチケット https://t.co/s4jtA4cWfo"
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n      A Villa idol festival HOKKAIDO 2026\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n🎙14:15-14:40\n\n⟣date：8/29（土）\n⟣place : 安平町ときわ公園\n⟣open/start：9:00/10:00（予定）\n⟣price：VIPチケット ¥15,000（VIPエリア&Tシャツ付き）/Tシャツ付きチケット ¥6,000/無料チケット¥0 ※要予約（各+1D）\n⟣入場特典 : 明星カード1枚(サインありチェキ)\n\n【販売期間】\n6/9（火）20:00-8/20（木）23:59\nローチケ：https://t.co/9bAiXJPyyy\nぴあ：https://t.co/iAbHJj4lkL\nイープラス：https://t.co/wDRq71uRlU\n無料チケット※要予約：https://t.co/LvbhMZo9ie\n\n#myojou",
+      "truncated_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n      A Villa idol festival HOKKAIDO 2026\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n🎙14:15-14:40\n\n⟣date：8/29（土）\n⟣place : 安平町ときわ公園\n⟣open/start：9:00/10:00（予定）\n⟣price：VIPチケット https://t.co/s4jtA4cWfo",
+      "url": "https://x.com/info_myojou/status/2079159489757065461"
+    },
+    {
+      "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n 「hilfe'''!!」\n\n🎙19:00-19:35\n📸20:50-22:10\n\n⟣date：7/21（火）\n⟣place : 渋谷clubasia\n⟣open/start：18:30/19:00\n⟣price：SOLD OUT\n⟣入場特典：明星カード（サインありチェキ）\n\n#myojou https://t.co/N1wUOQaXUr",
+      "attachments": {
+        "media_keys": [
+          "3_2079157656552718336"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "sold_out"
+      },
+      "created_at": "2026-07-20T10:53:11+00:00",
+      "entities": {
+        "hashtags": [
+          {
+            "end": 169,
+            "start": 162,
+            "tag": "myojou"
+          }
+        ],
+        "urls": [
+          {
+            "display_url": "pic.x.com/N1wUOQaXUr",
+            "end": 193,
+            "expanded_url": "https://x.com/info_myojou/status/2079157667130683881/photo/1",
+            "media_key": "3_2079157656552718336",
+            "start": 170,
+            "url": "https://t.co/N1wUOQaXUr"
+          }
+        ]
+      },
+      "full_text_source": "text",
+      "id": "2079157667130683881",
+      "media": [
+        {
+          "height": 3508,
+          "media_key": "3_2079157656552718336",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HNqm327bwAApSRh.jpg",
+          "width": 2481
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": null,
+      "parsed_fields": {
+        "benefit_event_time": "20:50-22:10",
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-07-21",
+        "event_dates": [
+          "2026-07-21"
+        ],
+        "event_name": "hilfe'''!!",
+        "extraction_confidence": 0.95,
+        "general_ticket_price": null,
+        "lottery_result_at": null,
+        "myojou_performance_time": "19:00-19:35",
+        "notes": null,
+        "open_time": "18:30",
+        "payment_deadline_at": null,
+        "priority_ticket_name": null,
+        "priority_ticket_price": null,
+        "same_day_ticket_price": null,
+        "source_kind": "sold_out",
+        "source_post_id": "2079157667130683881",
+        "source_posted_at": "2026-07-20T10:53:11Z",
+        "source_raw": {
+          "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n 「hilfe'''!!」\n\n🎙19:00-19:35\n📸20:50-22:10\n\n⟣date：7/21（火）\n⟣place : 渋谷clubasia\n⟣open/start：18:30/19:00\n⟣price：SOLD OUT\n⟣入場特典：明星カード（サインありチェキ）\n\n#myojou https://t.co/N1wUOQaXUr",
+          "attachments": {
+            "media_keys": [
+              "3_2079157656552718336"
+            ]
+          },
+          "created_at": "2026-07-20T10:53:11.000Z",
+          "edit_history_tweet_ids": [
+            "2079157667130683881"
+          ],
+          "entities": {
+            "hashtags": [
+              {
+                "end": 169,
+                "start": 162,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "pic.x.com/N1wUOQaXUr",
+                "end": 193,
+                "expanded_url": "https://x.com/info_myojou/status/2079157667130683881/photo/1",
+                "media_key": "3_2079157656552718336",
+                "start": 170,
+                "url": "https://t.co/N1wUOQaXUr"
+              }
+            ]
+          },
+          "full_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n 「hilfe'''!!」\n\n🎙19:00-19:35\n📸20:50-22:10\n\n⟣date：7/21（火）\n⟣place : 渋谷clubasia\n⟣open/start：18:30/19:00\n⟣price：SOLD OUT\n⟣入場特典：明星カード（サインありチェキ）\n\n#myojou https://t.co/N1wUOQaXUr",
+          "full_text_source": "text",
+          "id": "2079157667130683881",
+          "media": [
+            {
+              "height": 3508,
+              "media_key": "3_2079157656552718336",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HNqm327bwAApSRh.jpg",
+              "width": 2481
+            }
+          ],
+          "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n 「hilfe'''!!」\n\n🎙19:00-19:35\n📸20:50-22:10\n\n⟣date：7/21（火）\n⟣place : 渋谷clubasia\n⟣open/start：18:30/19:00\n⟣price：SOLD OUT\n⟣入場特典：明星カード（サインありチェキ）\n\n#myojou https://t.co/N1wUOQaXUr",
+          "truncated_text": null
+        },
+        "source_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n 「hilfe'''!!」\n\n🎙19:00-19:35\n📸20:50-22:10\n\n⟣date：7/21（火）\n⟣place : 渋谷clubasia\n⟣open/start：18:30/19:00\n⟣price：SOLD OUT\n⟣入場特典：明星カード（サインありチェキ）\n\n#myojou https://t.co/N1wUOQaXUr",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2079157667130683881",
+        "start_time": "19:00",
+        "ticket_application_deadline_at": null,
+        "ticket_application_start_at": null,
+        "ticket_sale_type": null,
+        "ticket_sales": [],
+        "ticket_status": "sold_out",
+        "ticket_url": null,
+        "venue": "渋谷clubasia"
+      },
+      "raw": {
+        "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n 「hilfe'''!!」\n\n🎙19:00-19:35\n📸20:50-22:10\n\n⟣date：7/21（火）\n⟣place : 渋谷clubasia\n⟣open/start：18:30/19:00\n⟣price：SOLD OUT\n⟣入場特典：明星カード（サインありチェキ）\n\n#myojou https://t.co/N1wUOQaXUr",
+        "attachments": {
+          "media_keys": [
+            "3_2079157656552718336"
+          ]
+        },
+        "created_at": "2026-07-20T10:53:11.000Z",
+        "edit_history_tweet_ids": [
+          "2079157667130683881"
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "end": 169,
+              "start": 162,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "pic.x.com/N1wUOQaXUr",
+              "end": 193,
+              "expanded_url": "https://x.com/info_myojou/status/2079157667130683881/photo/1",
+              "media_key": "3_2079157656552718336",
+              "start": 170,
+              "url": "https://t.co/N1wUOQaXUr"
+            }
+          ]
+        },
+        "full_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n 「hilfe'''!!」\n\n🎙19:00-19:35\n📸20:50-22:10\n\n⟣date：7/21（火）\n⟣place : 渋谷clubasia\n⟣open/start：18:30/19:00\n⟣price：SOLD OUT\n⟣入場特典：明星カード（サインありチェキ）\n\n#myojou https://t.co/N1wUOQaXUr",
+        "full_text_source": "text",
+        "id": "2079157667130683881",
+        "media": [
+          {
+            "height": 3508,
+            "media_key": "3_2079157656552718336",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HNqm327bwAApSRh.jpg",
+            "width": 2481
+          }
+        ],
+        "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n 「hilfe'''!!」\n\n🎙19:00-19:35\n📸20:50-22:10\n\n⟣date：7/21（火）\n⟣place : 渋谷clubasia\n⟣open/start：18:30/19:00\n⟣price：SOLD OUT\n⟣入場特典：明星カード（サインありチェキ）\n\n#myojou https://t.co/N1wUOQaXUr",
+        "truncated_text": null
+      },
+      "referenced_tweets": [],
+      "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n 「hilfe'''!!」\n\n🎙19:00-19:35\n📸20:50-22:10\n\n⟣date：7/21（火）\n⟣place : 渋谷clubasia\n⟣open/start：18:30/19:00\n⟣price：SOLD OUT\n⟣入場特典：明星カード（サインありチェキ）\n\n#myojou https://t.co/N1wUOQaXUr",
+      "truncated_text": null,
+      "url": "https://x.com/info_myojou/status/2079157667130683881"
+    },
+    {
+      "api_text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n                   IDOL STORM\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「IDOL STORM」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n日陽みう@myojou_miu \n薄倉りな@myojou_usukura https://t.co/O14b441e0b",
+      "attachments": {
+        "media_keys": [
+          "3_2079157335092781056"
+        ]
+      },
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "profile/member introduction",
+        "source_kind": "other"
+      },
+      "created_at": "2026-07-20T10:51:53+00:00",
+      "entities": {
+        "mentions": [
+          {
+            "end": 161,
+            "id": "1981655668626165760",
+            "start": 149,
+            "username": "myojou_ruka"
+          },
+          {
+            "end": 178,
+            "id": "2009245855694675968",
+            "start": 167,
+            "username": "myojou_miu"
+          },
+          {
+            "end": 199,
+            "id": "1344586625901158401",
+            "start": 184,
+            "username": "myojou_usukura"
+          }
+        ],
+        "urls": [
+          {
+            "display_url": "pic.x.com/O14b441e0b",
+            "end": 223,
+            "expanded_url": "https://x.com/info_myojou/status/2079157342172754065/photo/1",
+            "media_key": "3_2079157335092781056",
+            "start": 200,
+            "url": "https://t.co/O14b441e0b"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2079157342172754065",
+      "media": [
+        {
+          "alt_text": "M1,HeartBeat\nM2,蛍夏\nM3,灯火\nM4,アンチコンプリート\nM5,CHRONOS",
+          "height": 1108,
+          "media_key": "3_2079157335092781056",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HNqmlJZaYAAZyz3.jpg",
+          "width": 1477
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 291,
+              "start": 284,
+              "tag": "myojou"
+            }
+          ],
+          "mentions": [
+            {
+              "end": 161,
+              "id": "1981655668626165760",
+              "start": 149,
+              "username": "myojou_ruka"
+            },
+            {
+              "end": 178,
+              "id": "2009245855694675968",
+              "start": 167,
+              "username": "myojou_miu"
+            },
+            {
+              "end": 199,
+              "id": "1344586625901158401",
+              "start": 184,
+              "username": "myojou_usukura"
+            },
+            {
+              "end": 227,
+              "id": "1590652199407083520",
+              "start": 213,
+              "username": "myojou_cocone"
+            },
+            {
+              "end": 245,
+              "id": "1694573455864381440",
+              "start": 233,
+              "username": "shinonosubb"
+            },
+            {
+              "end": 266,
+              "id": "1344586625901158401",
+              "start": 251,
+              "username": "myojou_usukura"
+            }
+          ]
+        },
+        "text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n                   IDOL STORM\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「IDOL STORM」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n日陽みう@myojou_miu \n薄倉りな@myojou_usukura \n\n下段左から\n栗原ここね@myojou_cocone \n真希しの@shinonosubb \n薄倉りな@myojou_usukura \n\nSETLIST▶︎ALT\n\n #myojou"
+      },
+      "parsed_fields": null,
+      "raw": {
+        "api_text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n                   IDOL STORM\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「IDOL STORM」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n日陽みう@myojou_miu \n薄倉りな@myojou_usukura https://t.co/O14b441e0b",
+        "attachments": {
+          "media_keys": [
+            "3_2079157335092781056"
+          ]
+        },
+        "created_at": "2026-07-20T10:51:53.000Z",
+        "edit_history_tweet_ids": [
+          "2079157342172754065"
+        ],
+        "entities": {
+          "mentions": [
+            {
+              "end": 161,
+              "id": "1981655668626165760",
+              "start": 149,
+              "username": "myojou_ruka"
+            },
+            {
+              "end": 178,
+              "id": "2009245855694675968",
+              "start": 167,
+              "username": "myojou_miu"
+            },
+            {
+              "end": 199,
+              "id": "1344586625901158401",
+              "start": 184,
+              "username": "myojou_usukura"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "pic.x.com/O14b441e0b",
+              "end": 223,
+              "expanded_url": "https://x.com/info_myojou/status/2079157342172754065/photo/1",
+              "media_key": "3_2079157335092781056",
+              "start": 200,
+              "url": "https://t.co/O14b441e0b"
+            }
+          ]
+        },
+        "full_text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n                   IDOL STORM\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「IDOL STORM」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n日陽みう@myojou_miu \n薄倉りな@myojou_usukura \n\n下段左から\n栗原ここね@myojou_cocone \n真希しの@shinonosubb \n薄倉りな@myojou_usukura \n\nSETLIST▶︎ALT\n\n #myojou",
+        "full_text_source": "note_tweet",
+        "id": "2079157342172754065",
+        "media": [
+          {
+            "alt_text": "M1,HeartBeat\nM2,蛍夏\nM3,灯火\nM4,アンチコンプリート\nM5,CHRONOS",
+            "height": 1108,
+            "media_key": "3_2079157335092781056",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HNqmlJZaYAAZyz3.jpg",
+            "width": 1477
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 291,
+                "start": 284,
+                "tag": "myojou"
+              }
+            ],
+            "mentions": [
+              {
+                "end": 161,
+                "id": "1981655668626165760",
+                "start": 149,
+                "username": "myojou_ruka"
+              },
+              {
+                "end": 178,
+                "id": "2009245855694675968",
+                "start": 167,
+                "username": "myojou_miu"
+              },
+              {
+                "end": 199,
+                "id": "1344586625901158401",
+                "start": 184,
+                "username": "myojou_usukura"
+              },
+              {
+                "end": 227,
+                "id": "1590652199407083520",
+                "start": 213,
+                "username": "myojou_cocone"
+              },
+              {
+                "end": 245,
+                "id": "1694573455864381440",
+                "start": 233,
+                "username": "shinonosubb"
+              },
+              {
+                "end": 266,
+                "id": "1344586625901158401",
+                "start": 251,
+                "username": "myojou_usukura"
+              }
+            ]
+          },
+          "text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n                   IDOL STORM\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「IDOL STORM」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n日陽みう@myojou_miu \n薄倉りな@myojou_usukura \n\n下段左から\n栗原ここね@myojou_cocone \n真希しの@shinonosubb \n薄倉りな@myojou_usukura \n\nSETLIST▶︎ALT\n\n #myojou"
+        },
+        "text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n                   IDOL STORM\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「IDOL STORM」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n日陽みう@myojou_miu \n薄倉りな@myojou_usukura https://t.co/O14b441e0b",
+        "truncated_text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n                   IDOL STORM\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「IDOL STORM」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n日陽みう@myojou_miu \n薄倉りな@myojou_usukura https://t.co/O14b441e0b"
+      },
+      "referenced_tweets": [],
+      "text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n                   IDOL STORM\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「IDOL STORM」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n日陽みう@myojou_miu \n薄倉りな@myojou_usukura \n\n下段左から\n栗原ここね@myojou_cocone \n真希しの@shinonosubb \n薄倉りな@myojou_usukura \n\nSETLIST▶︎ALT\n\n #myojou",
+      "truncated_text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n                   IDOL STORM\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「IDOL STORM」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n日陽みう@myojou_miu \n薄倉りな@myojou_usukura https://t.co/O14b441e0b",
+      "url": "https://x.com/info_myojou/status/2079157342172754065"
+    },
+    {
+      "api_text": "✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n                            ⟡.·*.御礼.*·.⟡\n 「アイドル甲子園 in KANDA SQUAREHALL」\n                   supported by My-th\n✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n\n本日は「 「アイドル甲子園 in KANDA SQUARE https://t.co/EM8n0FsATQ",
+      "attachments": {
+        "media_keys": [
+          "3_2079109679805087744"
+        ]
+      },
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "thank-you/recap post",
+        "source_kind": "other"
+      },
+      "created_at": "2026-07-20T07:42:32+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/EM8n0FsATQ",
+            "end": 216,
+            "expanded_url": "https://x.com/info_myojou/status/2079109687589663015/photo/1",
+            "media_key": "3_2079109679805087744",
+            "start": 193,
+            "url": "https://t.co/EM8n0FsATQ"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2079109687589663015",
+      "media": [
+        {
+          "alt_text": "M1,星景讃歌\nM2,僕彩色\nM3,軌跡まで\nM4,夏、空模様\nM5,HeartBeat\nM6,アンチコンプリート",
+          "height": 1108,
+          "media_key": "3_2079109679805087744",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HNp7PPnbwAA5mPV.jpg",
+          "width": 1477
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 414,
+              "start": 407,
+              "tag": "myojou"
+            }
+          ],
+          "mentions": [
+            {
+              "end": 295,
+              "id": "1694573455864381440",
+              "start": 283,
+              "username": "shinonosubb"
+            },
+            {
+              "end": 312,
+              "id": "2009274765895450624",
+              "start": 301,
+              "username": "myojou_yun"
+            },
+            {
+              "end": 333,
+              "id": "1590652199407083520",
+              "start": 319,
+              "username": "myojou_cocone"
+            },
+            {
+              "end": 354,
+              "id": "1344586625901158401",
+              "start": 339,
+              "username": "myojou_usukura"
+            },
+            {
+              "end": 372,
+              "id": "1981655668626165760",
+              "start": 360,
+              "username": "myojou_ruka"
+            },
+            {
+              "end": 389,
+              "id": "2009245855694675968",
+              "start": 378,
+              "username": "myojou_miu"
+            }
+          ]
+        },
+        "text": "✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n                            ⟡.·*.御礼.*·.⟡\n 「アイドル甲子園 in KANDA SQUAREHALL」\n                   supported by My-th\n✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n\n本日は「 「アイドル甲子園 in KANDA SQUARE HALL」supported by My-th」ありがとうございました⋆˙⟡\n\nこのあとキネマ倶楽部にて17:05より、「IDOL STORM」出演いたします！\n\n左から\n真希しの@shinonosubb \n澪奈ゆん@myojou_yun \n栗原ここね@myojou_cocone \n薄倉りな@myojou_usukura \n姫乃るか@myojou_ruka \n日陽みう@myojou_miu \n\nSETLIST▶︎ALT\n\n #myojou"
+      },
+      "parsed_fields": null,
+      "raw": {
+        "api_text": "✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n                            ⟡.·*.御礼.*·.⟡\n 「アイドル甲子園 in KANDA SQUAREHALL」\n                   supported by My-th\n✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n\n本日は「 「アイドル甲子園 in KANDA SQUARE https://t.co/EM8n0FsATQ",
+        "attachments": {
+          "media_keys": [
+            "3_2079109679805087744"
+          ]
+        },
+        "created_at": "2026-07-20T07:42:32.000Z",
+        "edit_history_tweet_ids": [
+          "2079109687589663015"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/EM8n0FsATQ",
+              "end": 216,
+              "expanded_url": "https://x.com/info_myojou/status/2079109687589663015/photo/1",
+              "media_key": "3_2079109679805087744",
+              "start": 193,
+              "url": "https://t.co/EM8n0FsATQ"
+            }
+          ]
+        },
+        "full_text": "✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n                            ⟡.·*.御礼.*·.⟡\n 「アイドル甲子園 in KANDA SQUAREHALL」\n                   supported by My-th\n✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n\n本日は「 「アイドル甲子園 in KANDA SQUARE HALL」supported by My-th」ありがとうございました⋆˙⟡\n\nこのあとキネマ倶楽部にて17:05より、「IDOL STORM」出演いたします！\n\n左から\n真希しの@shinonosubb \n澪奈ゆん@myojou_yun \n栗原ここね@myojou_cocone \n薄倉りな@myojou_usukura \n姫乃るか@myojou_ruka \n日陽みう@myojou_miu \n\nSETLIST▶︎ALT\n\n #myojou",
+        "full_text_source": "note_tweet",
+        "id": "2079109687589663015",
+        "media": [
+          {
+            "alt_text": "M1,星景讃歌\nM2,僕彩色\nM3,軌跡まで\nM4,夏、空模様\nM5,HeartBeat\nM6,アンチコンプリート",
+            "height": 1108,
+            "media_key": "3_2079109679805087744",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HNp7PPnbwAA5mPV.jpg",
+            "width": 1477
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 414,
+                "start": 407,
+                "tag": "myojou"
+              }
+            ],
+            "mentions": [
+              {
+                "end": 295,
+                "id": "1694573455864381440",
+                "start": 283,
+                "username": "shinonosubb"
+              },
+              {
+                "end": 312,
+                "id": "2009274765895450624",
+                "start": 301,
+                "username": "myojou_yun"
+              },
+              {
+                "end": 333,
+                "id": "1590652199407083520",
+                "start": 319,
+                "username": "myojou_cocone"
+              },
+              {
+                "end": 354,
+                "id": "1344586625901158401",
+                "start": 339,
+                "username": "myojou_usukura"
+              },
+              {
+                "end": 372,
+                "id": "1981655668626165760",
+                "start": 360,
+                "username": "myojou_ruka"
+              },
+              {
+                "end": 389,
+                "id": "2009245855694675968",
+                "start": 378,
+                "username": "myojou_miu"
+              }
+            ]
+          },
+          "text": "✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n                            ⟡.·*.御礼.*·.⟡\n 「アイドル甲子園 in KANDA SQUAREHALL」\n                   supported by My-th\n✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n\n本日は「 「アイドル甲子園 in KANDA SQUARE HALL」supported by My-th」ありがとうございました⋆˙⟡\n\nこのあとキネマ倶楽部にて17:05より、「IDOL STORM」出演いたします！\n\n左から\n真希しの@shinonosubb \n澪奈ゆん@myojou_yun \n栗原ここね@myojou_cocone \n薄倉りな@myojou_usukura \n姫乃るか@myojou_ruka \n日陽みう@myojou_miu \n\nSETLIST▶︎ALT\n\n #myojou"
+        },
+        "text": "✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n                            ⟡.·*.御礼.*·.⟡\n 「アイドル甲子園 in KANDA SQUAREHALL」\n                   supported by My-th\n✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n\n本日は「 「アイドル甲子園 in KANDA SQUARE https://t.co/EM8n0FsATQ",
+        "truncated_text": "✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n                            ⟡.·*.御礼.*·.⟡\n 「アイドル甲子園 in KANDA SQUAREHALL」\n                   supported by My-th\n✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n\n本日は「 「アイドル甲子園 in KANDA SQUARE https://t.co/EM8n0FsATQ"
+      },
+      "referenced_tweets": [],
+      "text": "✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n                            ⟡.·*.御礼.*·.⟡\n 「アイドル甲子園 in KANDA SQUAREHALL」\n                   supported by My-th\n✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n\n本日は「 「アイドル甲子園 in KANDA SQUARE HALL」supported by My-th」ありがとうございました⋆˙⟡\n\nこのあとキネマ倶楽部にて17:05より、「IDOL STORM」出演いたします！\n\n左から\n真希しの@shinonosubb \n澪奈ゆん@myojou_yun \n栗原ここね@myojou_cocone \n薄倉りな@myojou_usukura \n姫乃るか@myojou_ruka \n日陽みう@myojou_miu \n\nSETLIST▶︎ALT\n\n #myojou",
+      "truncated_text": "✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n                            ⟡.·*.御礼.*·.⟡\n 「アイドル甲子園 in KANDA SQUAREHALL」\n                   supported by My-th\n✯••┈┈┈┈┈┈┈••✯••┈┈┈┈┈┈┈••✯\n\n本日は「 「アイドル甲子園 in KANDA SQUARE https://t.co/EM8n0FsATQ",
+      "url": "https://x.com/info_myojou/status/2079109687589663015"
+    },
+    {
+      "api_text": "▶️LIVE CUT\n僕らは、同じように泣いてたんだ\n生まれたその日、誰もが\n\n僕彩色-myojou\nhttps://t.co/1u586kK1sj https://t.co/tz9kjMclpM",
+      "attachments": {
+        "media_keys": [
+          "13_2079101227468730368"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "medium",
+        "reason": "live keywords with partial structured information",
+        "source_kind": "initial_announcement"
+      },
+      "created_at": "2026-07-20T07:09:45+00:00",
+      "entities": {
+        "urls": [
+          {
+            "description": "シングル • 2026年 • 1曲 • 4分",
+            "display_url": "linkco.re/zuhssmz3?lang=…",
+            "end": 74,
+            "expanded_url": "https://linkco.re/zuhssmz3?lang=ja",
+            "images": [
+              {
+                "height": 800,
+                "url": "https://pbs.twimg.com/news_img/2079101481123495936/C3Dh3EIs?format=jpg&name=orig",
+                "width": 800
+              },
+              {
+                "height": 150,
+                "url": "https://pbs.twimg.com/news_img/2079101481123495936/C3Dh3EIs?format=jpg&name=150x150",
+                "width": 150
+              }
+            ],
+            "start": 51,
+            "status": 200,
+            "title": "僕彩色 by myojou",
+            "unwound_url": "https://linkco.re/zuhssmz3?lang=ja",
+            "url": "https://t.co/1u586kK1sj"
+          },
+          {
+            "display_url": "pic.x.com/tz9kjMclpM",
+            "end": 98,
+            "expanded_url": "https://x.com/info_myojou/status/2079101438438105444/video/1",
+            "media_key": "13_2079101227468730368",
+            "start": 75,
+            "url": "https://t.co/tz9kjMclpM"
+          }
+        ]
+      },
+      "full_text_source": "text",
+      "id": "2079101438438105444",
+      "media": [
+        {
+          "height": 1080,
+          "media_key": "13_2079101227468730368",
+          "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2079101227468730368/img/H0rKVACwhXfJOnNY.jpg",
+          "type": "video",
+          "width": 1920
+        }
+      ],
+      "needs_review": true,
+      "needs_review_reasons": [
+        "missing venue",
+        "missing ticket deadline",
+        "classification: live keywords with partial structured information"
+      ],
+      "note_tweet": null,
+      "parsed_fields": {
+        "benefit_event_time": null,
+        "classification": "event",
+        "classification_confidence": "medium",
+        "classification_reason": "live keywords with partial structured information",
+        "event_date": null,
+        "event_dates": [],
+        "event_name": "▶️LIVE CUT",
+        "extraction_confidence": 0.4,
+        "general_ticket_price": null,
+        "lottery_result_at": null,
+        "myojou_performance_time": null,
+        "notes": null,
+        "open_time": null,
+        "payment_deadline_at": null,
+        "priority_ticket_name": null,
+        "priority_ticket_price": null,
+        "same_day_ticket_price": null,
+        "source_kind": "initial_announcement",
+        "source_post_id": "2079101438438105444",
+        "source_posted_at": "2026-07-20T07:09:45Z",
+        "source_raw": {
+          "api_text": "▶️LIVE CUT\n僕らは、同じように泣いてたんだ\n生まれたその日、誰もが\n\n僕彩色-myojou\nhttps://t.co/1u586kK1sj https://t.co/tz9kjMclpM",
+          "attachments": {
+            "media_keys": [
+              "13_2079101227468730368"
+            ]
+          },
+          "created_at": "2026-07-20T07:09:45.000Z",
+          "edit_history_tweet_ids": [
+            "2079101438438105444"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "description": "シングル • 2026年 • 1曲 • 4分",
+                "display_url": "linkco.re/zuhssmz3?lang=…",
+                "end": 74,
+                "expanded_url": "https://linkco.re/zuhssmz3?lang=ja",
+                "images": [
+                  {
+                    "height": 800,
+                    "url": "https://pbs.twimg.com/news_img/2079101481123495936/C3Dh3EIs?format=jpg&name=orig",
+                    "width": 800
+                  },
+                  {
+                    "height": 150,
+                    "url": "https://pbs.twimg.com/news_img/2079101481123495936/C3Dh3EIs?format=jpg&name=150x150",
+                    "width": 150
+                  }
+                ],
+                "start": 51,
+                "status": 200,
+                "title": "僕彩色 by myojou",
+                "unwound_url": "https://linkco.re/zuhssmz3?lang=ja",
+                "url": "https://t.co/1u586kK1sj"
+              },
+              {
+                "display_url": "pic.x.com/tz9kjMclpM",
+                "end": 98,
+                "expanded_url": "https://x.com/info_myojou/status/2079101438438105444/video/1",
+                "media_key": "13_2079101227468730368",
+                "start": 75,
+                "url": "https://t.co/tz9kjMclpM"
+              }
+            ]
+          },
+          "full_text": "▶️LIVE CUT\n僕らは、同じように泣いてたんだ\n生まれたその日、誰もが\n\n僕彩色-myojou\nhttps://t.co/1u586kK1sj https://t.co/tz9kjMclpM",
+          "full_text_source": "text",
+          "id": "2079101438438105444",
+          "media": [
+            {
+              "height": 1080,
+              "media_key": "13_2079101227468730368",
+              "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2079101227468730368/img/H0rKVACwhXfJOnNY.jpg",
+              "type": "video",
+              "width": 1920
+            }
+          ],
+          "text": "▶️LIVE CUT\n僕らは、同じように泣いてたんだ\n生まれたその日、誰もが\n\n僕彩色-myojou\nhttps://t.co/1u586kK1sj https://t.co/tz9kjMclpM",
+          "truncated_text": null
+        },
+        "source_text": "▶️LIVE CUT\n僕らは、同じように泣いてたんだ\n生まれたその日、誰もが\n\n僕彩色-myojou\nhttps://t.co/1u586kK1sj https://t.co/tz9kjMclpM",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2079101438438105444",
+        "start_time": null,
+        "ticket_application_deadline_at": null,
+        "ticket_application_start_at": null,
+        "ticket_sale_type": null,
+        "ticket_sales": [],
+        "ticket_status": null,
+        "ticket_url": null,
+        "venue": null
+      },
+      "raw": {
+        "api_text": "▶️LIVE CUT\n僕らは、同じように泣いてたんだ\n生まれたその日、誰もが\n\n僕彩色-myojou\nhttps://t.co/1u586kK1sj https://t.co/tz9kjMclpM",
+        "attachments": {
+          "media_keys": [
+            "13_2079101227468730368"
+          ]
+        },
+        "created_at": "2026-07-20T07:09:45.000Z",
+        "edit_history_tweet_ids": [
+          "2079101438438105444"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "description": "シングル • 2026年 • 1曲 • 4分",
+              "display_url": "linkco.re/zuhssmz3?lang=…",
+              "end": 74,
+              "expanded_url": "https://linkco.re/zuhssmz3?lang=ja",
+              "images": [
+                {
+                  "height": 800,
+                  "url": "https://pbs.twimg.com/news_img/2079101481123495936/C3Dh3EIs?format=jpg&name=orig",
+                  "width": 800
+                },
+                {
+                  "height": 150,
+                  "url": "https://pbs.twimg.com/news_img/2079101481123495936/C3Dh3EIs?format=jpg&name=150x150",
+                  "width": 150
+                }
+              ],
+              "start": 51,
+              "status": 200,
+              "title": "僕彩色 by myojou",
+              "unwound_url": "https://linkco.re/zuhssmz3?lang=ja",
+              "url": "https://t.co/1u586kK1sj"
+            },
+            {
+              "display_url": "pic.x.com/tz9kjMclpM",
+              "end": 98,
+              "expanded_url": "https://x.com/info_myojou/status/2079101438438105444/video/1",
+              "media_key": "13_2079101227468730368",
+              "start": 75,
+              "url": "https://t.co/tz9kjMclpM"
+            }
+          ]
+        },
+        "full_text": "▶️LIVE CUT\n僕らは、同じように泣いてたんだ\n生まれたその日、誰もが\n\n僕彩色-myojou\nhttps://t.co/1u586kK1sj https://t.co/tz9kjMclpM",
+        "full_text_source": "text",
+        "id": "2079101438438105444",
+        "media": [
+          {
+            "height": 1080,
+            "media_key": "13_2079101227468730368",
+            "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2079101227468730368/img/H0rKVACwhXfJOnNY.jpg",
+            "type": "video",
+            "width": 1920
+          }
+        ],
+        "text": "▶️LIVE CUT\n僕らは、同じように泣いてたんだ\n生まれたその日、誰もが\n\n僕彩色-myojou\nhttps://t.co/1u586kK1sj https://t.co/tz9kjMclpM",
+        "truncated_text": null
+      },
+      "referenced_tweets": [],
+      "text": "▶️LIVE CUT\n僕らは、同じように泣いてたんだ\n生まれたその日、誰もが\n\n僕彩色-myojou\nhttps://t.co/1u586kK1sj https://t.co/tz9kjMclpM",
+      "truncated_text": null,
+      "url": "https://x.com/info_myojou/status/2079101438438105444"
+    },
+    {
+      "api_text": "【真希しの Xアカウントに関するお知らせ】\n\n昨日より、「真希しの」のXアカウント（@myojou_shino）が凍結されており、使用ができない状態となっております。\n\n現在問い合わせ対応等を行っております。 https://t.co/nhZJ7Hrof6",
+      "attachments": {
+        "media_keys": [
+          "3_2079095723401121792"
+        ]
+      },
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "profile/member introduction",
+        "source_kind": "other"
+      },
+      "created_at": "2026-07-20T06:47:05+00:00",
+      "entities": {
+        "mentions": [
+          {
+            "end": 55,
+            "id": "1754991922807177216",
+            "start": 42,
+            "username": "myojou_shino"
+          }
+        ],
+        "urls": [
+          {
+            "display_url": "pic.x.com/nhZJ7Hrof6",
+            "end": 128,
+            "expanded_url": "https://x.com/info_myojou/status/2079095736315388266/photo/1",
+            "media_key": "3_2079095723401121792",
+            "start": 105,
+            "url": "https://t.co/nhZJ7Hrof6"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2079095736315388266",
+      "media": [
+        {
+          "height": 4096,
+          "media_key": "3_2079095723401121792",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HNpui39bkAA9lfF.jpg",
+          "width": 2730
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 236,
+              "start": 229,
+              "tag": "myojou"
+            },
+            {
+              "end": 242,
+              "start": 237,
+              "tag": "真希しの"
+            }
+          ],
+          "mentions": [
+            {
+              "end": 55,
+              "id": "1754991922807177216",
+              "start": 42,
+              "username": "myojou_shino"
+            }
+          ]
+        },
+        "text": "【真希しの Xアカウントに関するお知らせ】\n\n昨日より、「真希しの」のXアカウント（@myojou_shino）が凍結されており、使用ができない状態となっております。\n\n現在問い合わせ対応等を行っております。\n\n今後の対応およびアカウントに関するご案内につきましては、本人とも協議し決まり次第myojou公式Xより改めてお知らせさせていただきます。\n\nご心配・ご不便をおかけしておりますことをお詫び申し上げます。何卒ご理解のほどよろしくお願いいたします。\n\n#myojou\n#真希しの"
+      },
+      "parsed_fields": null,
+      "raw": {
+        "api_text": "【真希しの Xアカウントに関するお知らせ】\n\n昨日より、「真希しの」のXアカウント（@myojou_shino）が凍結されており、使用ができない状態となっております。\n\n現在問い合わせ対応等を行っております。 https://t.co/nhZJ7Hrof6",
+        "attachments": {
+          "media_keys": [
+            "3_2079095723401121792"
+          ]
+        },
+        "created_at": "2026-07-20T06:47:05.000Z",
+        "edit_history_tweet_ids": [
+          "2079095736315388266"
+        ],
+        "entities": {
+          "mentions": [
+            {
+              "end": 55,
+              "id": "1754991922807177216",
+              "start": 42,
+              "username": "myojou_shino"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "pic.x.com/nhZJ7Hrof6",
+              "end": 128,
+              "expanded_url": "https://x.com/info_myojou/status/2079095736315388266/photo/1",
+              "media_key": "3_2079095723401121792",
+              "start": 105,
+              "url": "https://t.co/nhZJ7Hrof6"
+            }
+          ]
+        },
+        "full_text": "【真希しの Xアカウントに関するお知らせ】\n\n昨日より、「真希しの」のXアカウント（@myojou_shino）が凍結されており、使用ができない状態となっております。\n\n現在問い合わせ対応等を行っております。\n\n今後の対応およびアカウントに関するご案内につきましては、本人とも協議し決まり次第myojou公式Xより改めてお知らせさせていただきます。\n\nご心配・ご不便をおかけしておりますことをお詫び申し上げます。何卒ご理解のほどよろしくお願いいたします。\n\n#myojou\n#真希しの",
+        "full_text_source": "note_tweet",
+        "id": "2079095736315388266",
+        "media": [
+          {
+            "height": 4096,
+            "media_key": "3_2079095723401121792",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HNpui39bkAA9lfF.jpg",
+            "width": 2730
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 236,
+                "start": 229,
+                "tag": "myojou"
+              },
+              {
+                "end": 242,
+                "start": 237,
+                "tag": "真希しの"
+              }
+            ],
+            "mentions": [
+              {
+                "end": 55,
+                "id": "1754991922807177216",
+                "start": 42,
+                "username": "myojou_shino"
+              }
+            ]
+          },
+          "text": "【真希しの Xアカウントに関するお知らせ】\n\n昨日より、「真希しの」のXアカウント（@myojou_shino）が凍結されており、使用ができない状態となっております。\n\n現在問い合わせ対応等を行っております。\n\n今後の対応およびアカウントに関するご案内につきましては、本人とも協議し決まり次第myojou公式Xより改めてお知らせさせていただきます。\n\nご心配・ご不便をおかけしておりますことをお詫び申し上げます。何卒ご理解のほどよろしくお願いいたします。\n\n#myojou\n#真希しの"
+        },
+        "text": "【真希しの Xアカウントに関するお知らせ】\n\n昨日より、「真希しの」のXアカウント（@myojou_shino）が凍結されており、使用ができない状態となっております。\n\n現在問い合わせ対応等を行っております。 https://t.co/nhZJ7Hrof6",
+        "truncated_text": "【真希しの Xアカウントに関するお知らせ】\n\n昨日より、「真希しの」のXアカウント（@myojou_shino）が凍結されており、使用ができない状態となっております。\n\n現在問い合わせ対応等を行っております。 https://t.co/nhZJ7Hrof6"
+      },
+      "referenced_tweets": [],
+      "text": "【真希しの Xアカウントに関するお知らせ】\n\n昨日より、「真希しの」のXアカウント（@myojou_shino）が凍結されており、使用ができない状態となっております。\n\n現在問い合わせ対応等を行っております。\n\n今後の対応およびアカウントに関するご案内につきましては、本人とも協議し決まり次第myojou公式Xより改めてお知らせさせていただきます。\n\nご心配・ご不便をおかけしておりますことをお詫び申し上げます。何卒ご理解のほどよろしくお願いいたします。\n\n#myojou\n#真希しの",
+      "truncated_text": "【真希しの Xアカウントに関するお知らせ】\n\n昨日より、「真希しの」のXアカウント（@myojou_shino）が凍結されており、使用ができない状態となっております。\n\n現在問い合わせ対応等を行っております。 https://t.co/nhZJ7Hrof6",
+      "url": "https://x.com/info_myojou/status/2079095736315388266"
+    },
+    {
       "api_text": "読み方は「なつぞらもよう」です。",
       "attachments": {},
       "classification": {
@@ -124527,7 +125818,7 @@
     "backfill": true,
     "dry_run": true,
     "estimated_x_post_reads": 411,
-    "latest_post_id": "2078852339235250674",
+    "latest_post_id": "2079159489757065461",
     "max_pages": 10,
     "max_posts": 500,
     "max_results": 5,
@@ -124570,16 +125861,16 @@
       }
     ],
     "pages_fetched": 5,
-    "posts_fetched": 577,
+    "posts_fetched": 583,
     "rate_limit_headers": {
       "x-rate-limit-limit": "10000",
       "x-rate-limit-remaining": "9993",
       "x-rate-limit-reset": "1781108896"
     },
-    "total_posts": 577,
-    "updated_at": "2026-07-19T20:08:29.233855+00:00",
+    "total_posts": 583,
+    "updated_at": "2026-07-20T20:23:59.072836+00:00",
     "username": "info_myojou"
   },
   "source": "x_api",
-  "updated_at": "2026-07-19T20:08:29.233855+00:00"
+  "updated_at": "2026-07-20T20:23:59.072836+00:00"
 }
