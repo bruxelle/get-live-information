@@ -2,6 +2,1409 @@
   "captured_at": "2026-06-10T16:19:36.141820+00:00",
   "data": [
     {
+      "api_text": "✯••┈┈┈••✯••┈┈┈••✯\n            ⟡.·*.御礼.*·.⟡\n                 hilfe'''!!\n✯••┈┈┈••✯••┈┈┈••✯\n\n本日は「hilfe'''!!」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka \n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n日陽みう@myojou_miu https://t.co/y3qgV3Q1qP",
+      "attachments": {
+        "media_keys": [
+          "3_2079577371368427520"
+        ]
+      },
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "profile/member introduction",
+        "source_kind": "other"
+      },
+      "created_at": "2026-07-21T14:40:58+00:00",
+      "entities": {
+        "mentions": [
+          {
+            "end": 141,
+            "id": "1981655668626165760",
+            "start": 129,
+            "username": "myojou_ruka"
+          },
+          {
+            "end": 162,
+            "id": "1590652199407083520",
+            "start": 148,
+            "username": "myojou_cocone"
+          },
+          {
+            "end": 181,
+            "id": "1754991922807177216",
+            "start": 168,
+            "username": "myojou_shino"
+          },
+          {
+            "end": 198,
+            "id": "2009245855694675968",
+            "start": 187,
+            "username": "myojou_miu"
+          }
+        ],
+        "urls": [
+          {
+            "display_url": "pic.x.com/y3qgV3Q1qP",
+            "end": 222,
+            "expanded_url": "https://x.com/info_myojou/status/2079577377303400496/photo/1",
+            "media_key": "3_2079577371368427520",
+            "start": 199,
+            "url": "https://t.co/y3qgV3Q1qP"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2079577377303400496",
+      "media": [
+        {
+          "alt_text": "M1,星景讃歌 板付\nM2,yoakeno\nM3,灯火\nM4,蛍夏\nM5,夏、空模様\nM6,CHRONOS\nM7,HeartBeat\nM8,アンチコンプリート\nM9,アンチコンプリート",
+          "height": 1044,
+          "media_key": "3_2079577371368427520",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HNwkmedbEAAEL8Q.jpg",
+          "width": 1566
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 261,
+              "start": 254,
+              "tag": "myojou"
+            }
+          ],
+          "mentions": [
+            {
+              "end": 141,
+              "id": "1981655668626165760",
+              "start": 129,
+              "username": "myojou_ruka"
+            },
+            {
+              "end": 162,
+              "id": "1590652199407083520",
+              "start": 148,
+              "username": "myojou_cocone"
+            },
+            {
+              "end": 181,
+              "id": "1754991922807177216",
+              "start": 168,
+              "username": "myojou_shino"
+            },
+            {
+              "end": 198,
+              "id": "2009245855694675968",
+              "start": 187,
+              "username": "myojou_miu"
+            },
+            {
+              "end": 219,
+              "id": "1344586625901158401",
+              "start": 204,
+              "username": "myojou_usukura"
+            },
+            {
+              "end": 236,
+              "id": "2009274765895450624",
+              "start": 225,
+              "username": "myojou_yun"
+            }
+          ]
+        },
+        "text": "✯••┈┈┈••✯••┈┈┈••✯\n            ⟡.·*.御礼.*·.⟡\n                 hilfe'''!!\n✯••┈┈┈••✯••┈┈┈••✯\n\n本日は「hilfe'''!!」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka \n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n日陽みう@myojou_miu \n薄倉りな@myojou_usukura \n澪奈ゆん@myojou_yun \n\nSETLIST▶︎ALT\n\n #myojou"
+      },
+      "parsed_fields": null,
+      "raw": {
+        "api_text": "✯••┈┈┈••✯••┈┈┈••✯\n            ⟡.·*.御礼.*·.⟡\n                 hilfe'''!!\n✯••┈┈┈••✯••┈┈┈••✯\n\n本日は「hilfe'''!!」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka \n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n日陽みう@myojou_miu https://t.co/y3qgV3Q1qP",
+        "attachments": {
+          "media_keys": [
+            "3_2079577371368427520"
+          ]
+        },
+        "created_at": "2026-07-21T14:40:58.000Z",
+        "edit_history_tweet_ids": [
+          "2079575894323253588",
+          "2079577377303400496"
+        ],
+        "entities": {
+          "mentions": [
+            {
+              "end": 141,
+              "id": "1981655668626165760",
+              "start": 129,
+              "username": "myojou_ruka"
+            },
+            {
+              "end": 162,
+              "id": "1590652199407083520",
+              "start": 148,
+              "username": "myojou_cocone"
+            },
+            {
+              "end": 181,
+              "id": "1754991922807177216",
+              "start": 168,
+              "username": "myojou_shino"
+            },
+            {
+              "end": 198,
+              "id": "2009245855694675968",
+              "start": 187,
+              "username": "myojou_miu"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "pic.x.com/y3qgV3Q1qP",
+              "end": 222,
+              "expanded_url": "https://x.com/info_myojou/status/2079577377303400496/photo/1",
+              "media_key": "3_2079577371368427520",
+              "start": 199,
+              "url": "https://t.co/y3qgV3Q1qP"
+            }
+          ]
+        },
+        "full_text": "✯••┈┈┈••✯••┈┈┈••✯\n            ⟡.·*.御礼.*·.⟡\n                 hilfe'''!!\n✯••┈┈┈••✯••┈┈┈••✯\n\n本日は「hilfe'''!!」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka \n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n日陽みう@myojou_miu \n薄倉りな@myojou_usukura \n澪奈ゆん@myojou_yun \n\nSETLIST▶︎ALT\n\n #myojou",
+        "full_text_source": "note_tweet",
+        "id": "2079577377303400496",
+        "media": [
+          {
+            "alt_text": "M1,星景讃歌 板付\nM2,yoakeno\nM3,灯火\nM4,蛍夏\nM5,夏、空模様\nM6,CHRONOS\nM7,HeartBeat\nM8,アンチコンプリート\nM9,アンチコンプリート",
+            "height": 1044,
+            "media_key": "3_2079577371368427520",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HNwkmedbEAAEL8Q.jpg",
+            "width": 1566
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 261,
+                "start": 254,
+                "tag": "myojou"
+              }
+            ],
+            "mentions": [
+              {
+                "end": 141,
+                "id": "1981655668626165760",
+                "start": 129,
+                "username": "myojou_ruka"
+              },
+              {
+                "end": 162,
+                "id": "1590652199407083520",
+                "start": 148,
+                "username": "myojou_cocone"
+              },
+              {
+                "end": 181,
+                "id": "1754991922807177216",
+                "start": 168,
+                "username": "myojou_shino"
+              },
+              {
+                "end": 198,
+                "id": "2009245855694675968",
+                "start": 187,
+                "username": "myojou_miu"
+              },
+              {
+                "end": 219,
+                "id": "1344586625901158401",
+                "start": 204,
+                "username": "myojou_usukura"
+              },
+              {
+                "end": 236,
+                "id": "2009274765895450624",
+                "start": 225,
+                "username": "myojou_yun"
+              }
+            ]
+          },
+          "text": "✯••┈┈┈••✯••┈┈┈••✯\n            ⟡.·*.御礼.*·.⟡\n                 hilfe'''!!\n✯••┈┈┈••✯••┈┈┈••✯\n\n本日は「hilfe'''!!」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka \n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n日陽みう@myojou_miu \n薄倉りな@myojou_usukura \n澪奈ゆん@myojou_yun \n\nSETLIST▶︎ALT\n\n #myojou"
+        },
+        "text": "✯••┈┈┈••✯••┈┈┈••✯\n            ⟡.·*.御礼.*·.⟡\n                 hilfe'''!!\n✯••┈┈┈••✯••┈┈┈••✯\n\n本日は「hilfe'''!!」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka \n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n日陽みう@myojou_miu https://t.co/y3qgV3Q1qP",
+        "truncated_text": "✯••┈┈┈••✯••┈┈┈••✯\n            ⟡.·*.御礼.*·.⟡\n                 hilfe'''!!\n✯••┈┈┈••✯••┈┈┈••✯\n\n本日は「hilfe'''!!」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka \n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n日陽みう@myojou_miu https://t.co/y3qgV3Q1qP"
+      },
+      "referenced_tweets": [],
+      "text": "✯••┈┈┈••✯••┈┈┈••✯\n            ⟡.·*.御礼.*·.⟡\n                 hilfe'''!!\n✯••┈┈┈••✯••┈┈┈••✯\n\n本日は「hilfe'''!!」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka \n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n日陽みう@myojou_miu \n薄倉りな@myojou_usukura \n澪奈ゆん@myojou_yun \n\nSETLIST▶︎ALT\n\n #myojou",
+      "truncated_text": "✯••┈┈┈••✯••┈┈┈••✯\n            ⟡.·*.御礼.*·.⟡\n                 hilfe'''!!\n✯••┈┈┈••✯••┈┈┈••✯\n\n本日は「hilfe'''!!」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka \n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n日陽みう@myojou_miu https://t.co/y3qgV3Q1qP",
+      "url": "https://x.com/info_myojou/status/2079577377303400496"
+    },
+    {
+      "api_text": "https://t.co/5a4zFejidd",
+      "attachments": {
+        "media_keys": [
+          "3_2079576024195768321",
+          "3_2079576024199950336",
+          "3_2079576024195698688",
+          "3_2079576024204062720"
+        ]
+      },
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "no live-event signal",
+        "source_kind": "other"
+      },
+      "created_at": "2026-07-21T14:35:39+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/5a4zFejidd",
+            "end": 23,
+            "expanded_url": "https://x.com/info_myojou/status/2079576041132380432/photo/1",
+            "media_key": "3_2079576024195768321",
+            "start": 0,
+            "url": "https://t.co/5a4zFejidd"
+          },
+          {
+            "display_url": "pic.x.com/5a4zFejidd",
+            "end": 23,
+            "expanded_url": "https://x.com/info_myojou/status/2079576041132380432/photo/1",
+            "media_key": "3_2079576024199950336",
+            "start": 0,
+            "url": "https://t.co/5a4zFejidd"
+          },
+          {
+            "display_url": "pic.x.com/5a4zFejidd",
+            "end": 23,
+            "expanded_url": "https://x.com/info_myojou/status/2079576041132380432/photo/1",
+            "media_key": "3_2079576024195698688",
+            "start": 0,
+            "url": "https://t.co/5a4zFejidd"
+          },
+          {
+            "display_url": "pic.x.com/5a4zFejidd",
+            "end": 23,
+            "expanded_url": "https://x.com/info_myojou/status/2079576041132380432/photo/1",
+            "media_key": "3_2079576024204062720",
+            "start": 0,
+            "url": "https://t.co/5a4zFejidd"
+          }
+        ]
+      },
+      "full_text_source": "text",
+      "id": "2079576041132380432",
+      "media": [
+        {
+          "height": 3508,
+          "media_key": "3_2079576024195768321",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HNwjYD2boAENqqF.jpg",
+          "width": 2481
+        },
+        {
+          "height": 3508,
+          "media_key": "3_2079576024199950336",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HNwjYD3bcAA3IP5.jpg",
+          "width": 2481
+        },
+        {
+          "height": 1514,
+          "media_key": "3_2079576024195698688",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HNwjYD2akAA9Hvn.jpg",
+          "width": 1076
+        },
+        {
+          "height": 1515,
+          "media_key": "3_2079576024204062720",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HNwjYD4aMAAxohy.jpg",
+          "width": 1076
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "note_tweet": null,
+      "parsed_fields": null,
+      "raw": {
+        "api_text": "https://t.co/5a4zFejidd",
+        "attachments": {
+          "media_keys": [
+            "3_2079576024195768321",
+            "3_2079576024199950336",
+            "3_2079576024195698688",
+            "3_2079576024204062720"
+          ]
+        },
+        "created_at": "2026-07-21T14:35:39.000Z",
+        "edit_history_tweet_ids": [
+          "2079576041132380432"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/5a4zFejidd",
+              "end": 23,
+              "expanded_url": "https://x.com/info_myojou/status/2079576041132380432/photo/1",
+              "media_key": "3_2079576024195768321",
+              "start": 0,
+              "url": "https://t.co/5a4zFejidd"
+            },
+            {
+              "display_url": "pic.x.com/5a4zFejidd",
+              "end": 23,
+              "expanded_url": "https://x.com/info_myojou/status/2079576041132380432/photo/1",
+              "media_key": "3_2079576024199950336",
+              "start": 0,
+              "url": "https://t.co/5a4zFejidd"
+            },
+            {
+              "display_url": "pic.x.com/5a4zFejidd",
+              "end": 23,
+              "expanded_url": "https://x.com/info_myojou/status/2079576041132380432/photo/1",
+              "media_key": "3_2079576024195698688",
+              "start": 0,
+              "url": "https://t.co/5a4zFejidd"
+            },
+            {
+              "display_url": "pic.x.com/5a4zFejidd",
+              "end": 23,
+              "expanded_url": "https://x.com/info_myojou/status/2079576041132380432/photo/1",
+              "media_key": "3_2079576024204062720",
+              "start": 0,
+              "url": "https://t.co/5a4zFejidd"
+            }
+          ]
+        },
+        "full_text": "https://t.co/5a4zFejidd",
+        "full_text_source": "text",
+        "id": "2079576041132380432",
+        "media": [
+          {
+            "height": 3508,
+            "media_key": "3_2079576024195768321",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HNwjYD2boAENqqF.jpg",
+            "width": 2481
+          },
+          {
+            "height": 3508,
+            "media_key": "3_2079576024199950336",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HNwjYD3bcAA3IP5.jpg",
+            "width": 2481
+          },
+          {
+            "height": 1514,
+            "media_key": "3_2079576024195698688",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HNwjYD2akAA9Hvn.jpg",
+            "width": 1076
+          },
+          {
+            "height": 1515,
+            "media_key": "3_2079576024204062720",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HNwjYD4aMAAxohy.jpg",
+            "width": 1076
+          }
+        ],
+        "referenced_tweets": [
+          {
+            "id": "2079575978939187595",
+            "type": "replied_to"
+          }
+        ],
+        "text": "https://t.co/5a4zFejidd",
+        "truncated_text": null
+      },
+      "referenced_tweets": [
+        {
+          "id": "2079575978939187595",
+          "type": "replied_to"
+        }
+      ],
+      "text": "https://t.co/5a4zFejidd",
+      "truncated_text": null,
+      "url": "https://x.com/info_myojou/status/2079576041132380432"
+    },
+    {
+      "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「UTAGE FES Vol.5」\n\n①YOANI LIVE STATION\n🎙11:00-11:20\n📸11:35-12:35（GUNKAN東新宿B1F A）\n\n②西武新宿付近野外特設ステージ\n🎙14:40-15:05\n📸15:20-16:30（新宿プリンスホテル25F B）\n\n③Music Restaurant APEXIA\n🎙17:55-18:15 https://t.co/8A9vOxNP3Q",
+      "attachments": {
+        "media_keys": [
+          "3_2079575954532581377",
+          "3_2079575954545168384",
+          "3_2079575954599682049",
+          "3_2079575954528370688"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "day_before_reminder"
+      },
+      "created_at": "2026-07-21T14:35:24+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/8A9vOxNP3Q",
+            "end": 225,
+            "expanded_url": "https://x.com/info_myojou/status/2079575978939187595/photo/1",
+            "media_key": "3_2079575954532581377",
+            "start": 202,
+            "url": "https://t.co/8A9vOxNP3Q"
+          },
+          {
+            "display_url": "pic.x.com/8A9vOxNP3Q",
+            "end": 225,
+            "expanded_url": "https://x.com/info_myojou/status/2079575978939187595/photo/1",
+            "media_key": "3_2079575954545168384",
+            "start": 202,
+            "url": "https://t.co/8A9vOxNP3Q"
+          },
+          {
+            "display_url": "pic.x.com/8A9vOxNP3Q",
+            "end": 225,
+            "expanded_url": "https://x.com/info_myojou/status/2079575978939187595/photo/1",
+            "media_key": "3_2079575954599682049",
+            "start": 202,
+            "url": "https://t.co/8A9vOxNP3Q"
+          },
+          {
+            "display_url": "pic.x.com/8A9vOxNP3Q",
+            "end": 225,
+            "expanded_url": "https://x.com/info_myojou/status/2079575978939187595/photo/1",
+            "media_key": "3_2079575954528370688",
+            "start": 202,
+            "url": "https://t.co/8A9vOxNP3Q"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2079575978939187595",
+      "media": [
+        {
+          "height": 2759,
+          "media_key": "3_2079575954532581377",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HNwjUAVbwAElaiA.jpg",
+          "width": 4096
+        },
+        {
+          "height": 2759,
+          "media_key": "3_2079575954545168384",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HNwjUAYb0AAHNv0.jpg",
+          "width": 4096
+        },
+        {
+          "height": 2481,
+          "media_key": "3_2079575954599682049",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HNwjUAlboAEed3V.jpg",
+          "width": 3508
+        },
+        {
+          "height": 2719,
+          "media_key": "3_2079575954528370688",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HNwjUAUbgAAcdGN.jpg",
+          "width": 4096
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 523,
+              "start": 516,
+              "tag": "myojou"
+            },
+            {
+              "end": 536,
+              "start": 526,
+              "tag": "ミョージョーサマー"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "t-dv.com/0722_UTAGEFES",
+              "end": 514,
+              "expanded_url": "http://t-dv.com/0722_UTAGEFES",
+              "start": 491,
+              "url": "https://t.co/6QDyvdqbvX"
+            }
+          ]
+        },
+        "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「UTAGE FES Vol.5」\n\n①YOANI LIVE STATION\n🎙11:00-11:20\n📸11:35-12:35（GUNKAN東新宿B1F A）\n\n②西武新宿付近野外特設ステージ\n🎙14:40-15:05\n📸15:20-16:30（新宿プリンスホテル25F B）\n\n③Music Restaurant APEXIA\n🎙17:55-18:15\n📸19:10-20:10（終演後特典会）\n\n⟣date：7/22(水)\n⟣place : Zepp Shinjuku / KABUKICHO TOWER STAGE / 新宿LOFT / SHINJUKU WALLY / Zirco Tokyo / 新宿Marble / YOANI LIVE STATION / 新宿ACB\n⟣open/start：10:00/10:30(予定)\n⟣price：VIP ¥10,000 (Tシャツ付) / 一般¥2,500\n⟣入場特典：明星カード2枚（サインありチェキ）\n\n【一般販売】\n5/23(土)21:00-7/21(火)23:59\n🔗 https://t.co/6QDyvdqbvX\n\n#myojou \n #ミョージョーサマー"
+      },
+      "parsed_fields": {
+        "benefit_event_time": "11:35-12:35",
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-07-22",
+        "event_dates": [
+          "2026-07-22"
+        ],
+        "event_name": "UTAGE FES Vol.5",
+        "extraction_confidence": 0.95,
+        "general_ticket_price": 2500,
+        "lottery_result_at": null,
+        "myojou_performance_time": "11:00-11:20",
+        "notes": "⟣入場特典:明星カード2枚(サインありチェキ)",
+        "open_time": "10:00",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "VIP",
+        "priority_ticket_price": 10000,
+        "same_day_ticket_price": null,
+        "source_kind": "day_before_reminder",
+        "source_post_id": "2079575978939187595",
+        "source_posted_at": "2026-07-21T14:35:24Z",
+        "source_raw": {
+          "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「UTAGE FES Vol.5」\n\n①YOANI LIVE STATION\n🎙11:00-11:20\n📸11:35-12:35（GUNKAN東新宿B1F A）\n\n②西武新宿付近野外特設ステージ\n🎙14:40-15:05\n📸15:20-16:30（新宿プリンスホテル25F B）\n\n③Music Restaurant APEXIA\n🎙17:55-18:15 https://t.co/8A9vOxNP3Q",
+          "attachments": {
+            "media_keys": [
+              "3_2079575954532581377",
+              "3_2079575954545168384",
+              "3_2079575954599682049",
+              "3_2079575954528370688"
+            ]
+          },
+          "created_at": "2026-07-21T14:35:24.000Z",
+          "edit_history_tweet_ids": [
+            "2079575978939187595"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/8A9vOxNP3Q",
+                "end": 225,
+                "expanded_url": "https://x.com/info_myojou/status/2079575978939187595/photo/1",
+                "media_key": "3_2079575954532581377",
+                "start": 202,
+                "url": "https://t.co/8A9vOxNP3Q"
+              },
+              {
+                "display_url": "pic.x.com/8A9vOxNP3Q",
+                "end": 225,
+                "expanded_url": "https://x.com/info_myojou/status/2079575978939187595/photo/1",
+                "media_key": "3_2079575954545168384",
+                "start": 202,
+                "url": "https://t.co/8A9vOxNP3Q"
+              },
+              {
+                "display_url": "pic.x.com/8A9vOxNP3Q",
+                "end": 225,
+                "expanded_url": "https://x.com/info_myojou/status/2079575978939187595/photo/1",
+                "media_key": "3_2079575954599682049",
+                "start": 202,
+                "url": "https://t.co/8A9vOxNP3Q"
+              },
+              {
+                "display_url": "pic.x.com/8A9vOxNP3Q",
+                "end": 225,
+                "expanded_url": "https://x.com/info_myojou/status/2079575978939187595/photo/1",
+                "media_key": "3_2079575954528370688",
+                "start": 202,
+                "url": "https://t.co/8A9vOxNP3Q"
+              }
+            ]
+          },
+          "full_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「UTAGE FES Vol.5」\n\n①YOANI LIVE STATION\n🎙11:00-11:20\n📸11:35-12:35（GUNKAN東新宿B1F A）\n\n②西武新宿付近野外特設ステージ\n🎙14:40-15:05\n📸15:20-16:30（新宿プリンスホテル25F B）\n\n③Music Restaurant APEXIA\n🎙17:55-18:15\n📸19:10-20:10（終演後特典会）\n\n⟣date：7/22(水)\n⟣place : Zepp Shinjuku / KABUKICHO TOWER STAGE / 新宿LOFT / SHINJUKU WALLY / Zirco Tokyo / 新宿Marble / YOANI LIVE STATION / 新宿ACB\n⟣open/start：10:00/10:30(予定)\n⟣price：VIP ¥10,000 (Tシャツ付) / 一般¥2,500\n⟣入場特典：明星カード2枚（サインありチェキ）\n\n【一般販売】\n5/23(土)21:00-7/21(火)23:59\n🔗 https://t.co/6QDyvdqbvX\n\n#myojou \n #ミョージョーサマー",
+          "full_text_source": "note_tweet",
+          "id": "2079575978939187595",
+          "media": [
+            {
+              "height": 2759,
+              "media_key": "3_2079575954532581377",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HNwjUAVbwAElaiA.jpg",
+              "width": 4096
+            },
+            {
+              "height": 2759,
+              "media_key": "3_2079575954545168384",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HNwjUAYb0AAHNv0.jpg",
+              "width": 4096
+            },
+            {
+              "height": 2481,
+              "media_key": "3_2079575954599682049",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HNwjUAlboAEed3V.jpg",
+              "width": 3508
+            },
+            {
+              "height": 2719,
+              "media_key": "3_2079575954528370688",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HNwjUAUbgAAcdGN.jpg",
+              "width": 4096
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 523,
+                  "start": 516,
+                  "tag": "myojou"
+                },
+                {
+                  "end": 536,
+                  "start": 526,
+                  "tag": "ミョージョーサマー"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "t-dv.com/0722_UTAGEFES",
+                  "end": 514,
+                  "expanded_url": "http://t-dv.com/0722_UTAGEFES",
+                  "start": 491,
+                  "url": "https://t.co/6QDyvdqbvX"
+                }
+              ]
+            },
+            "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「UTAGE FES Vol.5」\n\n①YOANI LIVE STATION\n🎙11:00-11:20\n📸11:35-12:35（GUNKAN東新宿B1F A）\n\n②西武新宿付近野外特設ステージ\n🎙14:40-15:05\n📸15:20-16:30（新宿プリンスホテル25F B）\n\n③Music Restaurant APEXIA\n🎙17:55-18:15\n📸19:10-20:10（終演後特典会）\n\n⟣date：7/22(水)\n⟣place : Zepp Shinjuku / KABUKICHO TOWER STAGE / 新宿LOFT / SHINJUKU WALLY / Zirco Tokyo / 新宿Marble / YOANI LIVE STATION / 新宿ACB\n⟣open/start：10:00/10:30(予定)\n⟣price：VIP ¥10,000 (Tシャツ付) / 一般¥2,500\n⟣入場特典：明星カード2枚（サインありチェキ）\n\n【一般販売】\n5/23(土)21:00-7/21(火)23:59\n🔗 https://t.co/6QDyvdqbvX\n\n#myojou \n #ミョージョーサマー"
+          },
+          "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「UTAGE FES Vol.5」\n\n①YOANI LIVE STATION\n🎙11:00-11:20\n📸11:35-12:35（GUNKAN東新宿B1F A）\n\n②西武新宿付近野外特設ステージ\n🎙14:40-15:05\n📸15:20-16:30（新宿プリンスホテル25F B）\n\n③Music Restaurant APEXIA\n🎙17:55-18:15 https://t.co/8A9vOxNP3Q",
+          "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「UTAGE FES Vol.5」\n\n①YOANI LIVE STATION\n🎙11:00-11:20\n📸11:35-12:35（GUNKAN東新宿B1F A）\n\n②西武新宿付近野外特設ステージ\n🎙14:40-15:05\n📸15:20-16:30（新宿プリンスホテル25F B）\n\n③Music Restaurant APEXIA\n🎙17:55-18:15 https://t.co/8A9vOxNP3Q"
+        },
+        "source_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「UTAGE FES Vol.5」\n\n①YOANI LIVE STATION\n🎙11:00-11:20\n📸11:35-12:35（GUNKAN東新宿B1F A）\n\n②西武新宿付近野外特設ステージ\n🎙14:40-15:05\n📸15:20-16:30（新宿プリンスホテル25F B）\n\n③Music Restaurant APEXIA\n🎙17:55-18:15\n📸19:10-20:10（終演後特典会）\n\n⟣date：7/22(水)\n⟣place : Zepp Shinjuku / KABUKICHO TOWER STAGE / 新宿LOFT / SHINJUKU WALLY / Zirco Tokyo / 新宿Marble / YOANI LIVE STATION / 新宿ACB\n⟣open/start：10:00/10:30(予定)\n⟣price：VIP ¥10,000 (Tシャツ付) / 一般¥2,500\n⟣入場特典：明星カード2枚（サインありチェキ）\n\n【一般販売】\n5/23(土)21:00-7/21(火)23:59\n🔗 https://t.co/6QDyvdqbvX\n\n#myojou \n #ミョージョーサマー",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2079575978939187595",
+        "start_time": "10:30",
+        "ticket_application_deadline_at": "2026-07-21T23:59:00+09:00",
+        "ticket_application_start_at": "2026-05-23T21:00:00+09:00",
+        "ticket_sale_type": "一般",
+        "ticket_sales": [
+          {
+            "deadline_at": "2026-07-21T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 10000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2079575978939187595",
+            "source_url": "https://x.com/info_myojou/status/2079575978939187595",
+            "start_at": "2026-05-23T21:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "VIP",
+            "ticket_tier": "VIP"
+          },
+          {
+            "deadline_at": "2026-07-21T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 2500,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2079575978939187595",
+            "source_url": "https://x.com/info_myojou/status/2079575978939187595",
+            "start_at": "2026-05-23T21:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "http://t-dv.com/0722_UTAGEFES",
+        "venue": "Zepp Shinjuku / KABUKICHO TOWER STAGE / 新宿LOFT / SHINJUKU WALLY / Zirco Tokyo / 新宿Marble / YOANI LIVE STATION / 新宿ACB"
+      },
+      "raw": {
+        "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「UTAGE FES Vol.5」\n\n①YOANI LIVE STATION\n🎙11:00-11:20\n📸11:35-12:35（GUNKAN東新宿B1F A）\n\n②西武新宿付近野外特設ステージ\n🎙14:40-15:05\n📸15:20-16:30（新宿プリンスホテル25F B）\n\n③Music Restaurant APEXIA\n🎙17:55-18:15 https://t.co/8A9vOxNP3Q",
+        "attachments": {
+          "media_keys": [
+            "3_2079575954532581377",
+            "3_2079575954545168384",
+            "3_2079575954599682049",
+            "3_2079575954528370688"
+          ]
+        },
+        "created_at": "2026-07-21T14:35:24.000Z",
+        "edit_history_tweet_ids": [
+          "2079575978939187595"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/8A9vOxNP3Q",
+              "end": 225,
+              "expanded_url": "https://x.com/info_myojou/status/2079575978939187595/photo/1",
+              "media_key": "3_2079575954532581377",
+              "start": 202,
+              "url": "https://t.co/8A9vOxNP3Q"
+            },
+            {
+              "display_url": "pic.x.com/8A9vOxNP3Q",
+              "end": 225,
+              "expanded_url": "https://x.com/info_myojou/status/2079575978939187595/photo/1",
+              "media_key": "3_2079575954545168384",
+              "start": 202,
+              "url": "https://t.co/8A9vOxNP3Q"
+            },
+            {
+              "display_url": "pic.x.com/8A9vOxNP3Q",
+              "end": 225,
+              "expanded_url": "https://x.com/info_myojou/status/2079575978939187595/photo/1",
+              "media_key": "3_2079575954599682049",
+              "start": 202,
+              "url": "https://t.co/8A9vOxNP3Q"
+            },
+            {
+              "display_url": "pic.x.com/8A9vOxNP3Q",
+              "end": 225,
+              "expanded_url": "https://x.com/info_myojou/status/2079575978939187595/photo/1",
+              "media_key": "3_2079575954528370688",
+              "start": 202,
+              "url": "https://t.co/8A9vOxNP3Q"
+            }
+          ]
+        },
+        "full_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「UTAGE FES Vol.5」\n\n①YOANI LIVE STATION\n🎙11:00-11:20\n📸11:35-12:35（GUNKAN東新宿B1F A）\n\n②西武新宿付近野外特設ステージ\n🎙14:40-15:05\n📸15:20-16:30（新宿プリンスホテル25F B）\n\n③Music Restaurant APEXIA\n🎙17:55-18:15\n📸19:10-20:10（終演後特典会）\n\n⟣date：7/22(水)\n⟣place : Zepp Shinjuku / KABUKICHO TOWER STAGE / 新宿LOFT / SHINJUKU WALLY / Zirco Tokyo / 新宿Marble / YOANI LIVE STATION / 新宿ACB\n⟣open/start：10:00/10:30(予定)\n⟣price：VIP ¥10,000 (Tシャツ付) / 一般¥2,500\n⟣入場特典：明星カード2枚（サインありチェキ）\n\n【一般販売】\n5/23(土)21:00-7/21(火)23:59\n🔗 https://t.co/6QDyvdqbvX\n\n#myojou \n #ミョージョーサマー",
+        "full_text_source": "note_tweet",
+        "id": "2079575978939187595",
+        "media": [
+          {
+            "height": 2759,
+            "media_key": "3_2079575954532581377",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HNwjUAVbwAElaiA.jpg",
+            "width": 4096
+          },
+          {
+            "height": 2759,
+            "media_key": "3_2079575954545168384",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HNwjUAYb0AAHNv0.jpg",
+            "width": 4096
+          },
+          {
+            "height": 2481,
+            "media_key": "3_2079575954599682049",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HNwjUAlboAEed3V.jpg",
+            "width": 3508
+          },
+          {
+            "height": 2719,
+            "media_key": "3_2079575954528370688",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HNwjUAUbgAAcdGN.jpg",
+            "width": 4096
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 523,
+                "start": 516,
+                "tag": "myojou"
+              },
+              {
+                "end": 536,
+                "start": 526,
+                "tag": "ミョージョーサマー"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "t-dv.com/0722_UTAGEFES",
+                "end": 514,
+                "expanded_url": "http://t-dv.com/0722_UTAGEFES",
+                "start": 491,
+                "url": "https://t.co/6QDyvdqbvX"
+              }
+            ]
+          },
+          "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「UTAGE FES Vol.5」\n\n①YOANI LIVE STATION\n🎙11:00-11:20\n📸11:35-12:35（GUNKAN東新宿B1F A）\n\n②西武新宿付近野外特設ステージ\n🎙14:40-15:05\n📸15:20-16:30（新宿プリンスホテル25F B）\n\n③Music Restaurant APEXIA\n🎙17:55-18:15\n📸19:10-20:10（終演後特典会）\n\n⟣date：7/22(水)\n⟣place : Zepp Shinjuku / KABUKICHO TOWER STAGE / 新宿LOFT / SHINJUKU WALLY / Zirco Tokyo / 新宿Marble / YOANI LIVE STATION / 新宿ACB\n⟣open/start：10:00/10:30(予定)\n⟣price：VIP ¥10,000 (Tシャツ付) / 一般¥2,500\n⟣入場特典：明星カード2枚（サインありチェキ）\n\n【一般販売】\n5/23(土)21:00-7/21(火)23:59\n🔗 https://t.co/6QDyvdqbvX\n\n#myojou \n #ミョージョーサマー"
+        },
+        "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「UTAGE FES Vol.5」\n\n①YOANI LIVE STATION\n🎙11:00-11:20\n📸11:35-12:35（GUNKAN東新宿B1F A）\n\n②西武新宿付近野外特設ステージ\n🎙14:40-15:05\n📸15:20-16:30（新宿プリンスホテル25F B）\n\n③Music Restaurant APEXIA\n🎙17:55-18:15 https://t.co/8A9vOxNP3Q",
+        "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「UTAGE FES Vol.5」\n\n①YOANI LIVE STATION\n🎙11:00-11:20\n📸11:35-12:35（GUNKAN東新宿B1F A）\n\n②西武新宿付近野外特設ステージ\n🎙14:40-15:05\n📸15:20-16:30（新宿プリンスホテル25F B）\n\n③Music Restaurant APEXIA\n🎙17:55-18:15 https://t.co/8A9vOxNP3Q"
+      },
+      "referenced_tweets": [],
+      "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「UTAGE FES Vol.5」\n\n①YOANI LIVE STATION\n🎙11:00-11:20\n📸11:35-12:35（GUNKAN東新宿B1F A）\n\n②西武新宿付近野外特設ステージ\n🎙14:40-15:05\n📸15:20-16:30（新宿プリンスホテル25F B）\n\n③Music Restaurant APEXIA\n🎙17:55-18:15\n📸19:10-20:10（終演後特典会）\n\n⟣date：7/22(水)\n⟣place : Zepp Shinjuku / KABUKICHO TOWER STAGE / 新宿LOFT / SHINJUKU WALLY / Zirco Tokyo / 新宿Marble / YOANI LIVE STATION / 新宿ACB\n⟣open/start：10:00/10:30(予定)\n⟣price：VIP ¥10,000 (Tシャツ付) / 一般¥2,500\n⟣入場特典：明星カード2枚（サインありチェキ）\n\n【一般販売】\n5/23(土)21:00-7/21(火)23:59\n🔗 https://t.co/6QDyvdqbvX\n\n#myojou \n #ミョージョーサマー",
+      "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「UTAGE FES Vol.5」\n\n①YOANI LIVE STATION\n🎙11:00-11:20\n📸11:35-12:35（GUNKAN東新宿B1F A）\n\n②西武新宿付近野外特設ステージ\n🎙14:40-15:05\n📸15:20-16:30（新宿プリンスホテル25F B）\n\n③Music Restaurant APEXIA\n🎙17:55-18:15 https://t.co/8A9vOxNP3Q",
+      "url": "https://x.com/info_myojou/status/2079575978939187595"
+    },
+    {
+      "api_text": "▶️LIVE DIGEST\nhilfe'''!!\n「星景讃歌」\n\n#myojou https://t.co/kTFl1nZQbU",
+      "attachments": {
+        "media_keys": [
+          "13_2079551259875704832"
+        ]
+      },
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "live digest recap",
+        "source_kind": "other"
+      },
+      "created_at": "2026-07-21T12:59:03+00:00",
+      "entities": {
+        "hashtags": [
+          {
+            "end": 40,
+            "start": 33,
+            "tag": "myojou"
+          }
+        ],
+        "urls": [
+          {
+            "display_url": "pic.x.com/kTFl1nZQbU",
+            "end": 64,
+            "expanded_url": "https://x.com/info_myojou/status/2079551729306411471/video/1",
+            "media_key": "13_2079551259875704832",
+            "start": 41,
+            "url": "https://t.co/kTFl1nZQbU"
+          }
+        ]
+      },
+      "full_text_source": "text",
+      "id": "2079551729306411471",
+      "media": [
+        {
+          "height": 1080,
+          "media_key": "13_2079551259875704832",
+          "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2079551259875704832/img/BMbvXFA16mPghWGV.jpg",
+          "type": "video",
+          "width": 1920
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "note_tweet": null,
+      "parsed_fields": null,
+      "raw": {
+        "api_text": "▶️LIVE DIGEST\nhilfe'''!!\n「星景讃歌」\n\n#myojou https://t.co/kTFl1nZQbU",
+        "attachments": {
+          "media_keys": [
+            "13_2079551259875704832"
+          ]
+        },
+        "created_at": "2026-07-21T12:59:03.000Z",
+        "edit_history_tweet_ids": [
+          "2079551729306411471"
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "end": 40,
+              "start": 33,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "pic.x.com/kTFl1nZQbU",
+              "end": 64,
+              "expanded_url": "https://x.com/info_myojou/status/2079551729306411471/video/1",
+              "media_key": "13_2079551259875704832",
+              "start": 41,
+              "url": "https://t.co/kTFl1nZQbU"
+            }
+          ]
+        },
+        "full_text": "▶️LIVE DIGEST\nhilfe'''!!\n「星景讃歌」\n\n#myojou https://t.co/kTFl1nZQbU",
+        "full_text_source": "text",
+        "id": "2079551729306411471",
+        "media": [
+          {
+            "height": 1080,
+            "media_key": "13_2079551259875704832",
+            "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2079551259875704832/img/BMbvXFA16mPghWGV.jpg",
+            "type": "video",
+            "width": 1920
+          }
+        ],
+        "text": "▶️LIVE DIGEST\nhilfe'''!!\n「星景讃歌」\n\n#myojou https://t.co/kTFl1nZQbU",
+        "truncated_text": null
+      },
+      "referenced_tweets": [],
+      "text": "▶️LIVE DIGEST\nhilfe'''!!\n「星景讃歌」\n\n#myojou https://t.co/kTFl1nZQbU",
+      "truncated_text": null,
+      "url": "https://x.com/info_myojou/status/2079551729306411471"
+    },
+    {
+      "api_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n       myojou Summer FINAL\n            限定Tシャツ公開\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣date：8/13(木)\n⟣place : WOMB LIVE\n⟣open/start：18:30/19:00\n⟣price：優先¥6,000（限定Tシャツ付き）/一般¥0（各+1D）\n\n【一般販売】 https://t.co/u9R7iZg5eB",
+      "attachments": {
+        "media_keys": [
+          "3_2079456850861498369",
+          "3_2079456850865713152"
+        ]
+      },
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "goods/number lottery announcement",
+        "source_kind": "other"
+      },
+      "created_at": "2026-07-21T06:42:04+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/u9R7iZg5eB",
+            "end": 214,
+            "expanded_url": "https://x.com/info_myojou/status/2079456858155401299/photo/1",
+            "media_key": "3_2079456850861498369",
+            "start": 191,
+            "url": "https://t.co/u9R7iZg5eB"
+          },
+          {
+            "display_url": "pic.x.com/u9R7iZg5eB",
+            "end": 214,
+            "expanded_url": "https://x.com/info_myojou/status/2079456858155401299/photo/1",
+            "media_key": "3_2079456850865713152",
+            "start": 191,
+            "url": "https://t.co/u9R7iZg5eB"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2079456858155401299",
+      "media": [
+        {
+          "height": 2198,
+          "media_key": "3_2079456850861498369",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HNu2_QlaIAELr_j.jpg",
+          "width": 3107
+        },
+        {
+          "height": 2481,
+          "media_key": "3_2079456850865713152",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HNu2_QmacAAySYG.jpg",
+          "width": 3508
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 252,
+              "start": 245,
+              "tag": "myojou"
+            },
+            {
+              "end": 263,
+              "start": 253,
+              "tag": "ミョージョーサマー"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "t-dv.com/myojou_0813",
+              "end": 243,
+              "expanded_url": "http://t-dv.com/myojou_0813",
+              "start": 220,
+              "url": "https://t.co/4xnB68nbxW"
+            }
+          ]
+        },
+        "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n       myojou Summer FINAL\n            限定Tシャツ公開\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣date：8/13(木)\n⟣place : WOMB LIVE\n⟣open/start：18:30/19:00\n⟣price：優先¥6,000（限定Tシャツ付き）/一般¥0（各+1D）\n\n【一般販売】\n7/20（月祝）22:00-8/12（水）23:59\n🔗 https://t.co/4xnB68nbxW\n\n#myojou\n#ミョージョーサマー"
+      },
+      "parsed_fields": null,
+      "raw": {
+        "api_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n       myojou Summer FINAL\n            限定Tシャツ公開\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣date：8/13(木)\n⟣place : WOMB LIVE\n⟣open/start：18:30/19:00\n⟣price：優先¥6,000（限定Tシャツ付き）/一般¥0（各+1D）\n\n【一般販売】 https://t.co/u9R7iZg5eB",
+        "attachments": {
+          "media_keys": [
+            "3_2079456850861498369",
+            "3_2079456850865713152"
+          ]
+        },
+        "created_at": "2026-07-21T06:42:04.000Z",
+        "edit_history_tweet_ids": [
+          "2079456858155401299"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/u9R7iZg5eB",
+              "end": 214,
+              "expanded_url": "https://x.com/info_myojou/status/2079456858155401299/photo/1",
+              "media_key": "3_2079456850861498369",
+              "start": 191,
+              "url": "https://t.co/u9R7iZg5eB"
+            },
+            {
+              "display_url": "pic.x.com/u9R7iZg5eB",
+              "end": 214,
+              "expanded_url": "https://x.com/info_myojou/status/2079456858155401299/photo/1",
+              "media_key": "3_2079456850865713152",
+              "start": 191,
+              "url": "https://t.co/u9R7iZg5eB"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n       myojou Summer FINAL\n            限定Tシャツ公開\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣date：8/13(木)\n⟣place : WOMB LIVE\n⟣open/start：18:30/19:00\n⟣price：優先¥6,000（限定Tシャツ付き）/一般¥0（各+1D）\n\n【一般販売】\n7/20（月祝）22:00-8/12（水）23:59\n🔗 https://t.co/4xnB68nbxW\n\n#myojou\n#ミョージョーサマー",
+        "full_text_source": "note_tweet",
+        "id": "2079456858155401299",
+        "media": [
+          {
+            "height": 2198,
+            "media_key": "3_2079456850861498369",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HNu2_QlaIAELr_j.jpg",
+            "width": 3107
+          },
+          {
+            "height": 2481,
+            "media_key": "3_2079456850865713152",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HNu2_QmacAAySYG.jpg",
+            "width": 3508
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 252,
+                "start": 245,
+                "tag": "myojou"
+              },
+              {
+                "end": 263,
+                "start": 253,
+                "tag": "ミョージョーサマー"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "t-dv.com/myojou_0813",
+                "end": 243,
+                "expanded_url": "http://t-dv.com/myojou_0813",
+                "start": 220,
+                "url": "https://t.co/4xnB68nbxW"
+              }
+            ]
+          },
+          "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n       myojou Summer FINAL\n            限定Tシャツ公開\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣date：8/13(木)\n⟣place : WOMB LIVE\n⟣open/start：18:30/19:00\n⟣price：優先¥6,000（限定Tシャツ付き）/一般¥0（各+1D）\n\n【一般販売】\n7/20（月祝）22:00-8/12（水）23:59\n🔗 https://t.co/4xnB68nbxW\n\n#myojou\n#ミョージョーサマー"
+        },
+        "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n       myojou Summer FINAL\n            限定Tシャツ公開\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣date：8/13(木)\n⟣place : WOMB LIVE\n⟣open/start：18:30/19:00\n⟣price：優先¥6,000（限定Tシャツ付き）/一般¥0（各+1D）\n\n【一般販売】 https://t.co/u9R7iZg5eB",
+        "truncated_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n       myojou Summer FINAL\n            限定Tシャツ公開\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣date：8/13(木)\n⟣place : WOMB LIVE\n⟣open/start：18:30/19:00\n⟣price：優先¥6,000（限定Tシャツ付き）/一般¥0（各+1D）\n\n【一般販売】 https://t.co/u9R7iZg5eB"
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n       myojou Summer FINAL\n            限定Tシャツ公開\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣date：8/13(木)\n⟣place : WOMB LIVE\n⟣open/start：18:30/19:00\n⟣price：優先¥6,000（限定Tシャツ付き）/一般¥0（各+1D）\n\n【一般販売】\n7/20（月祝）22:00-8/12（水）23:59\n🔗 https://t.co/4xnB68nbxW\n\n#myojou\n#ミョージョーサマー",
+      "truncated_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n       myojou Summer FINAL\n            限定Tシャツ公開\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣date：8/13(木)\n⟣place : WOMB LIVE\n⟣open/start：18:30/19:00\n⟣price：優先¥6,000（限定Tシャツ付き）/一般¥0（各+1D）\n\n【一般販売】 https://t.co/u9R7iZg5eB",
+      "url": "https://x.com/info_myojou/status/2079456858155401299"
+    },
+    {
+      "api_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n 「hilfe'''!!」\n\n🎙19:00-19:35\n📸20:50-22:10\n\n⟣date：7/21（火）\n⟣place : 渋谷clubasia\n⟣open/start：18:30/19:00\n⟣price：SOLD OUT\n⟣入場特典：明星カード（サインありチェキ）\n\n#myojou https://t.co/5m9wbHVl1Y",
+      "attachments": {
+        "media_keys": [
+          "3_2079432985896783872"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "sold_out"
+      },
+      "created_at": "2026-07-21T05:07:14+00:00",
+      "entities": {
+        "hashtags": [
+          {
+            "end": 169,
+            "start": 162,
+            "tag": "myojou"
+          }
+        ],
+        "urls": [
+          {
+            "display_url": "pic.x.com/5m9wbHVl1Y",
+            "end": 193,
+            "expanded_url": "https://x.com/info_myojou/status/2079432992355979353/photo/1",
+            "media_key": "3_2079432985896783872",
+            "start": 170,
+            "url": "https://t.co/5m9wbHVl1Y"
+          }
+        ]
+      },
+      "full_text_source": "text",
+      "id": "2079432992355979353",
+      "media": [
+        {
+          "height": 3508,
+          "media_key": "3_2079432985896783872",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HNuhSIqbkAAmKR8.jpg",
+          "width": 2481
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": null,
+      "parsed_fields": {
+        "benefit_event_time": "20:50-22:10",
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-07-21",
+        "event_dates": [
+          "2026-07-21"
+        ],
+        "event_name": "hilfe'''!!",
+        "extraction_confidence": 0.95,
+        "general_ticket_price": null,
+        "lottery_result_at": null,
+        "myojou_performance_time": "19:00-19:35",
+        "notes": null,
+        "open_time": "18:30",
+        "payment_deadline_at": null,
+        "priority_ticket_name": null,
+        "priority_ticket_price": null,
+        "same_day_ticket_price": null,
+        "source_kind": "sold_out",
+        "source_post_id": "2079432992355979353",
+        "source_posted_at": "2026-07-21T05:07:14Z",
+        "source_raw": {
+          "api_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n 「hilfe'''!!」\n\n🎙19:00-19:35\n📸20:50-22:10\n\n⟣date：7/21（火）\n⟣place : 渋谷clubasia\n⟣open/start：18:30/19:00\n⟣price：SOLD OUT\n⟣入場特典：明星カード（サインありチェキ）\n\n#myojou https://t.co/5m9wbHVl1Y",
+          "attachments": {
+            "media_keys": [
+              "3_2079432985896783872"
+            ]
+          },
+          "created_at": "2026-07-21T05:07:14.000Z",
+          "edit_history_tweet_ids": [
+            "2079432992355979353"
+          ],
+          "entities": {
+            "hashtags": [
+              {
+                "end": 169,
+                "start": 162,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "pic.x.com/5m9wbHVl1Y",
+                "end": 193,
+                "expanded_url": "https://x.com/info_myojou/status/2079432992355979353/photo/1",
+                "media_key": "3_2079432985896783872",
+                "start": 170,
+                "url": "https://t.co/5m9wbHVl1Y"
+              }
+            ]
+          },
+          "full_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n 「hilfe'''!!」\n\n🎙19:00-19:35\n📸20:50-22:10\n\n⟣date：7/21（火）\n⟣place : 渋谷clubasia\n⟣open/start：18:30/19:00\n⟣price：SOLD OUT\n⟣入場特典：明星カード（サインありチェキ）\n\n#myojou https://t.co/5m9wbHVl1Y",
+          "full_text_source": "text",
+          "id": "2079432992355979353",
+          "media": [
+            {
+              "height": 3508,
+              "media_key": "3_2079432985896783872",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HNuhSIqbkAAmKR8.jpg",
+              "width": 2481
+            }
+          ],
+          "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n 「hilfe'''!!」\n\n🎙19:00-19:35\n📸20:50-22:10\n\n⟣date：7/21（火）\n⟣place : 渋谷clubasia\n⟣open/start：18:30/19:00\n⟣price：SOLD OUT\n⟣入場特典：明星カード（サインありチェキ）\n\n#myojou https://t.co/5m9wbHVl1Y",
+          "truncated_text": null
+        },
+        "source_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n 「hilfe'''!!」\n\n🎙19:00-19:35\n📸20:50-22:10\n\n⟣date：7/21（火）\n⟣place : 渋谷clubasia\n⟣open/start：18:30/19:00\n⟣price：SOLD OUT\n⟣入場特典：明星カード（サインありチェキ）\n\n#myojou https://t.co/5m9wbHVl1Y",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2079432992355979353",
+        "start_time": "19:00",
+        "ticket_application_deadline_at": null,
+        "ticket_application_start_at": null,
+        "ticket_sale_type": null,
+        "ticket_sales": [],
+        "ticket_status": "sold_out",
+        "ticket_url": null,
+        "venue": "渋谷clubasia"
+      },
+      "raw": {
+        "api_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n 「hilfe'''!!」\n\n🎙19:00-19:35\n📸20:50-22:10\n\n⟣date：7/21（火）\n⟣place : 渋谷clubasia\n⟣open/start：18:30/19:00\n⟣price：SOLD OUT\n⟣入場特典：明星カード（サインありチェキ）\n\n#myojou https://t.co/5m9wbHVl1Y",
+        "attachments": {
+          "media_keys": [
+            "3_2079432985896783872"
+          ]
+        },
+        "created_at": "2026-07-21T05:07:14.000Z",
+        "edit_history_tweet_ids": [
+          "2079432992355979353"
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "end": 169,
+              "start": 162,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "pic.x.com/5m9wbHVl1Y",
+              "end": 193,
+              "expanded_url": "https://x.com/info_myojou/status/2079432992355979353/photo/1",
+              "media_key": "3_2079432985896783872",
+              "start": 170,
+              "url": "https://t.co/5m9wbHVl1Y"
+            }
+          ]
+        },
+        "full_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n 「hilfe'''!!」\n\n🎙19:00-19:35\n📸20:50-22:10\n\n⟣date：7/21（火）\n⟣place : 渋谷clubasia\n⟣open/start：18:30/19:00\n⟣price：SOLD OUT\n⟣入場特典：明星カード（サインありチェキ）\n\n#myojou https://t.co/5m9wbHVl1Y",
+        "full_text_source": "text",
+        "id": "2079432992355979353",
+        "media": [
+          {
+            "height": 3508,
+            "media_key": "3_2079432985896783872",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HNuhSIqbkAAmKR8.jpg",
+            "width": 2481
+          }
+        ],
+        "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n 「hilfe'''!!」\n\n🎙19:00-19:35\n📸20:50-22:10\n\n⟣date：7/21（火）\n⟣place : 渋谷clubasia\n⟣open/start：18:30/19:00\n⟣price：SOLD OUT\n⟣入場特典：明星カード（サインありチェキ）\n\n#myojou https://t.co/5m9wbHVl1Y",
+        "truncated_text": null
+      },
+      "referenced_tweets": [],
+      "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n 「hilfe'''!!」\n\n🎙19:00-19:35\n📸20:50-22:10\n\n⟣date：7/21（火）\n⟣place : 渋谷clubasia\n⟣open/start：18:30/19:00\n⟣price：SOLD OUT\n⟣入場特典：明星カード（サインありチェキ）\n\n#myojou https://t.co/5m9wbHVl1Y",
+      "truncated_text": null,
+      "url": "https://x.com/info_myojou/status/2079432992355979353"
+    },
+    {
+      "api_text": "【真希しの Xアカウントに関するお知らせ】\n\n昨日お知らせいたしました、真希しののXアカウント（@myojou_shino）の凍結につきまして、本日無事に解除され、通常通り運用を再開いたしました。\n\nこの度は、ご心配とご不便をおかけしましたこと、心よりお詫び申し上げます。 https://t.co/R4vVLDYWvo",
+      "attachments": {},
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "profile/member introduction",
+        "source_kind": "other"
+      },
+      "created_at": "2026-07-21T04:26:55+00:00",
+      "entities": {
+        "mentions": [
+          {
+            "end": 61,
+            "id": "1754991922807177216",
+            "start": 48,
+            "username": "myojou_shino"
+          }
+        ],
+        "urls": [
+          {
+            "display_url": "x.com/info_myojou/st…",
+            "end": 160,
+            "expanded_url": "https://twitter.com/info_myojou/status/2079095736315388266",
+            "start": 137,
+            "url": "https://t.co/R4vVLDYWvo"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2079422849128018021",
+      "media": [],
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 190,
+              "start": 183,
+              "tag": "myojou"
+            }
+          ],
+          "mentions": [
+            {
+              "end": 61,
+              "id": "1754991922807177216",
+              "start": 48,
+              "username": "myojou_shino"
+            }
+          ]
+        },
+        "text": "【真希しの Xアカウントに関するお知らせ】\n\n昨日お知らせいたしました、真希しののXアカウント（@myojou_shino）の凍結につきまして、本日無事に解除され、通常通り運用を再開いたしました。\n\nこの度は、ご心配とご不便をおかけしましたこと、心よりお詫び申し上げます。\n\n今後ともmyojouならびに真希しのへの温かいご声援を、何卒よろしくお願いいたします。\n\n#myojou"
+      },
+      "parsed_fields": null,
+      "raw": {
+        "api_text": "【真希しの Xアカウントに関するお知らせ】\n\n昨日お知らせいたしました、真希しののXアカウント（@myojou_shino）の凍結につきまして、本日無事に解除され、通常通り運用を再開いたしました。\n\nこの度は、ご心配とご不便をおかけしましたこと、心よりお詫び申し上げます。 https://t.co/R4vVLDYWvo",
+        "created_at": "2026-07-21T04:26:55.000Z",
+        "edit_history_tweet_ids": [
+          "2079422849128018021"
+        ],
+        "entities": {
+          "mentions": [
+            {
+              "end": 61,
+              "id": "1754991922807177216",
+              "start": 48,
+              "username": "myojou_shino"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "x.com/info_myojou/st…",
+              "end": 160,
+              "expanded_url": "https://twitter.com/info_myojou/status/2079095736315388266",
+              "start": 137,
+              "url": "https://t.co/R4vVLDYWvo"
+            }
+          ]
+        },
+        "full_text": "【真希しの Xアカウントに関するお知らせ】\n\n昨日お知らせいたしました、真希しののXアカウント（@myojou_shino）の凍結につきまして、本日無事に解除され、通常通り運用を再開いたしました。\n\nこの度は、ご心配とご不便をおかけしましたこと、心よりお詫び申し上げます。\n\n今後ともmyojouならびに真希しのへの温かいご声援を、何卒よろしくお願いいたします。\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2079422849128018021",
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 190,
+                "start": 183,
+                "tag": "myojou"
+              }
+            ],
+            "mentions": [
+              {
+                "end": 61,
+                "id": "1754991922807177216",
+                "start": 48,
+                "username": "myojou_shino"
+              }
+            ]
+          },
+          "text": "【真希しの Xアカウントに関するお知らせ】\n\n昨日お知らせいたしました、真希しののXアカウント（@myojou_shino）の凍結につきまして、本日無事に解除され、通常通り運用を再開いたしました。\n\nこの度は、ご心配とご不便をおかけしましたこと、心よりお詫び申し上げます。\n\n今後ともmyojouならびに真希しのへの温かいご声援を、何卒よろしくお願いいたします。\n\n#myojou"
+        },
+        "referenced_tweets": [
+          {
+            "id": "2079095736315388266",
+            "type": "quoted"
+          }
+        ],
+        "text": "【真希しの Xアカウントに関するお知らせ】\n\n昨日お知らせいたしました、真希しののXアカウント（@myojou_shino）の凍結につきまして、本日無事に解除され、通常通り運用を再開いたしました。\n\nこの度は、ご心配とご不便をおかけしましたこと、心よりお詫び申し上げます。 https://t.co/R4vVLDYWvo",
+        "truncated_text": "【真希しの Xアカウントに関するお知らせ】\n\n昨日お知らせいたしました、真希しののXアカウント（@myojou_shino）の凍結につきまして、本日無事に解除され、通常通り運用を再開いたしました。\n\nこの度は、ご心配とご不便をおかけしましたこと、心よりお詫び申し上げます。 https://t.co/R4vVLDYWvo"
+      },
+      "referenced_tweets": [
+        {
+          "id": "2079095736315388266",
+          "type": "quoted"
+        }
+      ],
+      "text": "【真希しの Xアカウントに関するお知らせ】\n\n昨日お知らせいたしました、真希しののXアカウント（@myojou_shino）の凍結につきまして、本日無事に解除され、通常通り運用を再開いたしました。\n\nこの度は、ご心配とご不便をおかけしましたこと、心よりお詫び申し上げます。\n\n今後ともmyojouならびに真希しのへの温かいご声援を、何卒よろしくお願いいたします。\n\n#myojou",
+      "truncated_text": "【真希しの Xアカウントに関するお知らせ】\n\n昨日お知らせいたしました、真希しののXアカウント（@myojou_shino）の凍結につきまして、本日無事に解除され、通常通り運用を再開いたしました。\n\nこの度は、ご心配とご不便をおかけしましたこと、心よりお詫び申し上げます。 https://t.co/R4vVLDYWvo",
+      "url": "https://x.com/info_myojou/status/2079422849128018021"
+    },
+    {
       "api_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n      A Villa idol festival HOKKAIDO 2026\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n🎙14:15-14:40\n\n⟣date：8/29（土）\n⟣place : 安平町ときわ公園\n⟣open/start：9:00/10:00（予定）\n⟣price：VIPチケット https://t.co/s4jtA4cWfo",
       "attachments": {
         "media_keys": [
@@ -125818,7 +127221,7 @@
     "backfill": true,
     "dry_run": true,
     "estimated_x_post_reads": 411,
-    "latest_post_id": "2079159489757065461",
+    "latest_post_id": "2079577377303400496",
     "max_pages": 10,
     "max_posts": 500,
     "max_results": 5,
@@ -125861,16 +127264,16 @@
       }
     ],
     "pages_fetched": 5,
-    "posts_fetched": 583,
+    "posts_fetched": 590,
     "rate_limit_headers": {
       "x-rate-limit-limit": "10000",
       "x-rate-limit-remaining": "9993",
       "x-rate-limit-reset": "1781108896"
     },
-    "total_posts": 583,
-    "updated_at": "2026-07-20T20:23:59.072836+00:00",
+    "total_posts": 590,
+    "updated_at": "2026-07-21T20:19:52.064495+00:00",
     "username": "info_myojou"
   },
   "source": "x_api",
-  "updated_at": "2026-07-20T20:23:59.072836+00:00"
+  "updated_at": "2026-07-21T20:19:52.064495+00:00"
 }
