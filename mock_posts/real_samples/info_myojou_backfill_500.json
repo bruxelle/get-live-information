@@ -2,6 +2,1787 @@
   "captured_at": "2026-06-10T16:19:36.141820+00:00",
   "data": [
     {
+      "api_text": "▶️LIVE DIGEST\nUTAGE FES Vol.5\n「pepe\"灼熱の\"アンチコンプリート」\n\nFEEL \"392.00°F\" OVER🔥\n\n#myojou https://t.co/MroJfoB7kr",
+      "attachments": {
+        "media_keys": [
+          "13_2079932383441403904"
+        ]
+      },
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "content/MV-like post",
+        "source_kind": "other"
+      },
+      "created_at": "2026-07-22T14:14:15+00:00",
+      "entities": {
+        "hashtags": [
+          {
+            "end": 82,
+            "start": 75,
+            "tag": "myojou"
+          }
+        ],
+        "urls": [
+          {
+            "display_url": "pic.x.com/MroJfoB7kr",
+            "end": 106,
+            "expanded_url": "https://x.com/info_myojou/status/2079933042337202264/video/1",
+            "media_key": "13_2079932383441403904",
+            "start": 83,
+            "url": "https://t.co/MroJfoB7kr"
+          }
+        ]
+      },
+      "full_text_source": "text",
+      "id": "2079933042337202264",
+      "media": [
+        {
+          "height": 2160,
+          "media_key": "13_2079932383441403904",
+          "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2079932383441403904/img/FE3bc7GgoPOWmWQs.jpg",
+          "type": "video",
+          "width": 3840
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "note_tweet": null,
+      "parsed_fields": null,
+      "raw": {
+        "api_text": "▶️LIVE DIGEST\nUTAGE FES Vol.5\n「pepe\"灼熱の\"アンチコンプリート」\n\nFEEL \"392.00°F\" OVER🔥\n\n#myojou https://t.co/MroJfoB7kr",
+        "attachments": {
+          "media_keys": [
+            "13_2079932383441403904"
+          ]
+        },
+        "created_at": "2026-07-22T14:14:15.000Z",
+        "edit_history_tweet_ids": [
+          "2079933042337202264"
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "end": 82,
+              "start": 75,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "pic.x.com/MroJfoB7kr",
+              "end": 106,
+              "expanded_url": "https://x.com/info_myojou/status/2079933042337202264/video/1",
+              "media_key": "13_2079932383441403904",
+              "start": 83,
+              "url": "https://t.co/MroJfoB7kr"
+            }
+          ]
+        },
+        "full_text": "▶️LIVE DIGEST\nUTAGE FES Vol.5\n「pepe\"灼熱の\"アンチコンプリート」\n\nFEEL \"392.00°F\" OVER🔥\n\n#myojou https://t.co/MroJfoB7kr",
+        "full_text_source": "text",
+        "id": "2079933042337202264",
+        "media": [
+          {
+            "height": 2160,
+            "media_key": "13_2079932383441403904",
+            "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2079932383441403904/img/FE3bc7GgoPOWmWQs.jpg",
+            "type": "video",
+            "width": 3840
+          }
+        ],
+        "text": "▶️LIVE DIGEST\nUTAGE FES Vol.5\n「pepe\"灼熱の\"アンチコンプリート」\n\nFEEL \"392.00°F\" OVER🔥\n\n#myojou https://t.co/MroJfoB7kr",
+        "truncated_text": null
+      },
+      "referenced_tweets": [],
+      "text": "▶️LIVE DIGEST\nUTAGE FES Vol.5\n「pepe\"灼熱の\"アンチコンプリート」\n\nFEEL \"392.00°F\" OVER🔥\n\n#myojou https://t.co/MroJfoB7kr",
+      "truncated_text": null,
+      "url": "https://x.com/info_myojou/status/2079933042337202264"
+    },
+    {
+      "api_text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「TOKYO GIRLS GIRLS ~ 6th Anniversary day1 ~」\n\n🎙14:00-14:20\n📸14:30-15:50 E\n\n⟣date：7/24（金）\n⟣place : 品川インターシティホール\n⟣open/start：10:00/10:15 ※変更の可能性あり\n⟣price：前方¥10,000/通常¥4,000/当日¥5,000（各+1D） https://t.co/BWEUQkysg4",
+      "attachments": {
+        "media_keys": [
+          "3_2079914159530213376"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "correction"
+      },
+      "created_at": "2026-07-22T12:59:14+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/BWEUQkysg4",
+            "end": 232,
+            "expanded_url": "https://x.com/info_myojou/status/2079914165188370686/photo/1",
+            "media_key": "3_2079914159530213376",
+            "start": 209,
+            "url": "https://t.co/BWEUQkysg4"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2079914165188370686",
+      "media": [
+        {
+          "height": 2048,
+          "media_key": "3_2079914159530213376",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HN1W6IIagAALT-J.jpg",
+          "width": 1460
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "missing ticket deadline",
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 287,
+              "start": 280,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "tiget.net/events/502975",
+              "end": 278,
+              "expanded_url": "http://tiget.net/events/502975",
+              "start": 255,
+              "url": "https://t.co/jcqgc8HAIw"
+            }
+          ]
+        },
+        "text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「TOKYO GIRLS GIRLS ~ 6th Anniversary day1 ~」\n\n🎙14:00-14:20\n📸14:30-15:50 E\n\n⟣date：7/24（金）\n⟣place : 品川インターシティホール\n⟣open/start：10:00/10:15 ※変更の可能性あり\n⟣price：前方¥10,000/通常¥4,000/当日¥5,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/2(木) 20:00-\n🔗 https://t.co/jcqgc8HAIw\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": "14:30-15:50",
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-07-24",
+        "event_dates": [
+          "2026-07-24"
+        ],
+        "event_name": "TOKYO GIRLS GIRLS ~ 6th Anniversary day1 ~",
+        "extraction_confidence": 0.95,
+        "general_ticket_price": 4000,
+        "lottery_result_at": null,
+        "myojou_performance_time": "14:00-14:20",
+        "notes": "⟣open/start:10:00/10:15 ※変更の可能性あり",
+        "open_time": "10:00",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "前方",
+        "priority_ticket_price": 10000,
+        "same_day_ticket_price": 5000,
+        "source_kind": "correction",
+        "source_post_id": "2079914165188370686",
+        "source_posted_at": "2026-07-22T12:59:14Z",
+        "source_raw": {
+          "api_text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「TOKYO GIRLS GIRLS ~ 6th Anniversary day1 ~」\n\n🎙14:00-14:20\n📸14:30-15:50 E\n\n⟣date：7/24（金）\n⟣place : 品川インターシティホール\n⟣open/start：10:00/10:15 ※変更の可能性あり\n⟣price：前方¥10,000/通常¥4,000/当日¥5,000（各+1D） https://t.co/BWEUQkysg4",
+          "attachments": {
+            "media_keys": [
+              "3_2079914159530213376"
+            ]
+          },
+          "created_at": "2026-07-22T12:59:14.000Z",
+          "edit_history_tweet_ids": [
+            "2079914165188370686"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/BWEUQkysg4",
+                "end": 232,
+                "expanded_url": "https://x.com/info_myojou/status/2079914165188370686/photo/1",
+                "media_key": "3_2079914159530213376",
+                "start": 209,
+                "url": "https://t.co/BWEUQkysg4"
+              }
+            ]
+          },
+          "full_text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「TOKYO GIRLS GIRLS ~ 6th Anniversary day1 ~」\n\n🎙14:00-14:20\n📸14:30-15:50 E\n\n⟣date：7/24（金）\n⟣place : 品川インターシティホール\n⟣open/start：10:00/10:15 ※変更の可能性あり\n⟣price：前方¥10,000/通常¥4,000/当日¥5,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/2(木) 20:00-\n🔗 https://t.co/jcqgc8HAIw\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2079914165188370686",
+          "media": [
+            {
+              "height": 2048,
+              "media_key": "3_2079914159530213376",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HN1W6IIagAALT-J.jpg",
+              "width": 1460
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 287,
+                  "start": 280,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "tiget.net/events/502975",
+                  "end": 278,
+                  "expanded_url": "http://tiget.net/events/502975",
+                  "start": 255,
+                  "url": "https://t.co/jcqgc8HAIw"
+                }
+              ]
+            },
+            "text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「TOKYO GIRLS GIRLS ~ 6th Anniversary day1 ~」\n\n🎙14:00-14:20\n📸14:30-15:50 E\n\n⟣date：7/24（金）\n⟣place : 品川インターシティホール\n⟣open/start：10:00/10:15 ※変更の可能性あり\n⟣price：前方¥10,000/通常¥4,000/当日¥5,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/2(木) 20:00-\n🔗 https://t.co/jcqgc8HAIw\n\n#myojou"
+          },
+          "text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「TOKYO GIRLS GIRLS ~ 6th Anniversary day1 ~」\n\n🎙14:00-14:20\n📸14:30-15:50 E\n\n⟣date：7/24（金）\n⟣place : 品川インターシティホール\n⟣open/start：10:00/10:15 ※変更の可能性あり\n⟣price：前方¥10,000/通常¥4,000/当日¥5,000（各+1D） https://t.co/BWEUQkysg4",
+          "truncated_text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「TOKYO GIRLS GIRLS ~ 6th Anniversary day1 ~」\n\n🎙14:00-14:20\n📸14:30-15:50 E\n\n⟣date：7/24（金）\n⟣place : 品川インターシティホール\n⟣open/start：10:00/10:15 ※変更の可能性あり\n⟣price：前方¥10,000/通常¥4,000/当日¥5,000（各+1D） https://t.co/BWEUQkysg4"
+        },
+        "source_text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「TOKYO GIRLS GIRLS ~ 6th Anniversary day1 ~」\n\n🎙14:00-14:20\n📸14:30-15:50 E\n\n⟣date：7/24（金）\n⟣place : 品川インターシティホール\n⟣open/start：10:00/10:15 ※変更の可能性あり\n⟣price：前方¥10,000/通常¥4,000/当日¥5,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/2(木) 20:00-\n🔗 https://t.co/jcqgc8HAIw\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2079914165188370686",
+        "start_time": "10:15",
+        "ticket_application_deadline_at": null,
+        "ticket_application_start_at": "2026-07-02T20:00:00+09:00",
+        "ticket_sale_type": "先着",
+        "ticket_sales": [
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 10000,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2079914165188370686",
+            "source_url": "https://x.com/info_myojou/status/2079914165188370686",
+            "start_at": "2026-07-02T20:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "前方",
+            "ticket_tier": "前方"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 4000,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2079914165188370686",
+            "source_url": "https://x.com/info_myojou/status/2079914165188370686",
+            "start_at": "2026-07-02T20:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 5000,
+            "result_at": null,
+            "sale_type": "当日券",
+            "source_post_id": "2079914165188370686",
+            "source_url": "https://x.com/info_myojou/status/2079914165188370686",
+            "start_at": null,
+            "status": "販売中",
+            "ticket_name": "当日券",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "http://tiget.net/events/502975",
+        "venue": "品川インターシティホール"
+      },
+      "raw": {
+        "api_text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「TOKYO GIRLS GIRLS ~ 6th Anniversary day1 ~」\n\n🎙14:00-14:20\n📸14:30-15:50 E\n\n⟣date：7/24（金）\n⟣place : 品川インターシティホール\n⟣open/start：10:00/10:15 ※変更の可能性あり\n⟣price：前方¥10,000/通常¥4,000/当日¥5,000（各+1D） https://t.co/BWEUQkysg4",
+        "attachments": {
+          "media_keys": [
+            "3_2079914159530213376"
+          ]
+        },
+        "created_at": "2026-07-22T12:59:14.000Z",
+        "edit_history_tweet_ids": [
+          "2079914165188370686"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/BWEUQkysg4",
+              "end": 232,
+              "expanded_url": "https://x.com/info_myojou/status/2079914165188370686/photo/1",
+              "media_key": "3_2079914159530213376",
+              "start": 209,
+              "url": "https://t.co/BWEUQkysg4"
+            }
+          ]
+        },
+        "full_text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「TOKYO GIRLS GIRLS ~ 6th Anniversary day1 ~」\n\n🎙14:00-14:20\n📸14:30-15:50 E\n\n⟣date：7/24（金）\n⟣place : 品川インターシティホール\n⟣open/start：10:00/10:15 ※変更の可能性あり\n⟣price：前方¥10,000/通常¥4,000/当日¥5,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/2(木) 20:00-\n🔗 https://t.co/jcqgc8HAIw\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2079914165188370686",
+        "media": [
+          {
+            "height": 2048,
+            "media_key": "3_2079914159530213376",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HN1W6IIagAALT-J.jpg",
+            "width": 1460
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 287,
+                "start": 280,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "tiget.net/events/502975",
+                "end": 278,
+                "expanded_url": "http://tiget.net/events/502975",
+                "start": 255,
+                "url": "https://t.co/jcqgc8HAIw"
+              }
+            ]
+          },
+          "text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「TOKYO GIRLS GIRLS ~ 6th Anniversary day1 ~」\n\n🎙14:00-14:20\n📸14:30-15:50 E\n\n⟣date：7/24（金）\n⟣place : 品川インターシティホール\n⟣open/start：10:00/10:15 ※変更の可能性あり\n⟣price：前方¥10,000/通常¥4,000/当日¥5,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/2(木) 20:00-\n🔗 https://t.co/jcqgc8HAIw\n\n#myojou"
+        },
+        "text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「TOKYO GIRLS GIRLS ~ 6th Anniversary day1 ~」\n\n🎙14:00-14:20\n📸14:30-15:50 E\n\n⟣date：7/24（金）\n⟣place : 品川インターシティホール\n⟣open/start：10:00/10:15 ※変更の可能性あり\n⟣price：前方¥10,000/通常¥4,000/当日¥5,000（各+1D） https://t.co/BWEUQkysg4",
+        "truncated_text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「TOKYO GIRLS GIRLS ~ 6th Anniversary day1 ~」\n\n🎙14:00-14:20\n📸14:30-15:50 E\n\n⟣date：7/24（金）\n⟣place : 品川インターシティホール\n⟣open/start：10:00/10:15 ※変更の可能性あり\n⟣price：前方¥10,000/通常¥4,000/当日¥5,000（各+1D） https://t.co/BWEUQkysg4"
+      },
+      "referenced_tweets": [],
+      "text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「TOKYO GIRLS GIRLS ~ 6th Anniversary day1 ~」\n\n🎙14:00-14:20\n📸14:30-15:50 E\n\n⟣date：7/24（金）\n⟣place : 品川インターシティホール\n⟣open/start：10:00/10:15 ※変更の可能性あり\n⟣price：前方¥10,000/通常¥4,000/当日¥5,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/2(木) 20:00-\n🔗 https://t.co/jcqgc8HAIw\n\n#myojou",
+      "truncated_text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「TOKYO GIRLS GIRLS ~ 6th Anniversary day1 ~」\n\n🎙14:00-14:20\n📸14:30-15:50 E\n\n⟣date：7/24（金）\n⟣place : 品川インターシティホール\n⟣open/start：10:00/10:15 ※変更の可能性あり\n⟣price：前方¥10,000/通常¥4,000/当日¥5,000（各+1D） https://t.co/BWEUQkysg4",
+      "url": "https://x.com/info_myojou/status/2079914165188370686"
+    },
+    {
+      "api_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            ˚.⋆ラジオ配信˖°⋆\n          myojou天体観測 #14\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣2026.07.22 22:00 プレミア公開\n⟣ myojou公式YouTubeチャンネル\n🔗 https://t.co/JyVUS4K20R\n\n #myojou",
+      "attachments": {},
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "radio/non-live",
+        "source_kind": "other"
+      },
+      "created_at": "2026-07-22T12:06:35+00:00",
+      "entities": {
+        "hashtags": [
+          {
+            "end": 173,
+            "start": 166,
+            "tag": "myojou"
+          }
+        ],
+        "urls": [
+          {
+            "description": "「6人の少女が夜明けの空に描くストーリー」 公式X : https://x.com/info_myojou公式TikTok : ...",
+            "display_url": "youtu.be/bLzkDYJnbW0",
+            "end": 163,
+            "expanded_url": "https://youtu.be/bLzkDYJnbW0",
+            "images": [
+              {
+                "height": 720,
+                "url": "https://pbs.twimg.com/news_img/2079900961657823232/hK0jhFXR?format=jpg&name=orig",
+                "width": 1280
+              },
+              {
+                "height": 150,
+                "url": "https://pbs.twimg.com/news_img/2079900961657823232/hK0jhFXR?format=jpg&name=150x150",
+                "width": 150
+              }
+            ],
+            "start": 140,
+            "status": 200,
+            "title": "myojou天体観測 #14",
+            "unwound_url": "https://www.youtube.com/watch?v=bLzkDYJnbW0&feature=youtu.be",
+            "url": "https://t.co/JyVUS4K20R"
+          }
+        ]
+      },
+      "full_text_source": "text",
+      "id": "2079900915499442614",
+      "media": [],
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "note_tweet": null,
+      "parsed_fields": null,
+      "raw": {
+        "api_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            ˚.⋆ラジオ配信˖°⋆\n          myojou天体観測 #14\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣2026.07.22 22:00 プレミア公開\n⟣ myojou公式YouTubeチャンネル\n🔗 https://t.co/JyVUS4K20R\n\n #myojou",
+        "created_at": "2026-07-22T12:06:35.000Z",
+        "edit_history_tweet_ids": [
+          "2079900915499442614"
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "end": 173,
+              "start": 166,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "description": "「6人の少女が夜明けの空に描くストーリー」 公式X : https://x.com/info_myojou公式TikTok : ...",
+              "display_url": "youtu.be/bLzkDYJnbW0",
+              "end": 163,
+              "expanded_url": "https://youtu.be/bLzkDYJnbW0",
+              "images": [
+                {
+                  "height": 720,
+                  "url": "https://pbs.twimg.com/news_img/2079900961657823232/hK0jhFXR?format=jpg&name=orig",
+                  "width": 1280
+                },
+                {
+                  "height": 150,
+                  "url": "https://pbs.twimg.com/news_img/2079900961657823232/hK0jhFXR?format=jpg&name=150x150",
+                  "width": 150
+                }
+              ],
+              "start": 140,
+              "status": 200,
+              "title": "myojou天体観測 #14",
+              "unwound_url": "https://www.youtube.com/watch?v=bLzkDYJnbW0&feature=youtu.be",
+              "url": "https://t.co/JyVUS4K20R"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            ˚.⋆ラジオ配信˖°⋆\n          myojou天体観測 #14\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣2026.07.22 22:00 プレミア公開\n⟣ myojou公式YouTubeチャンネル\n🔗 https://t.co/JyVUS4K20R\n\n #myojou",
+        "full_text_source": "text",
+        "id": "2079900915499442614",
+        "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            ˚.⋆ラジオ配信˖°⋆\n          myojou天体観測 #14\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣2026.07.22 22:00 プレミア公開\n⟣ myojou公式YouTubeチャンネル\n🔗 https://t.co/JyVUS4K20R\n\n #myojou",
+        "truncated_text": null
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            ˚.⋆ラジオ配信˖°⋆\n          myojou天体観測 #14\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣2026.07.22 22:00 プレミア公開\n⟣ myojou公式YouTubeチャンネル\n🔗 https://t.co/JyVUS4K20R\n\n #myojou",
+      "truncated_text": null,
+      "url": "https://x.com/info_myojou/status/2079900915499442614"
+    },
+    {
+      "api_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n         #TIF2026 公式コラボ「オリガチャ」\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\nmyojou × #TIF2026 公式コラボ「オリガチャ」開催決定！\n\n⟣price ：500円/回\n\n【第1弾】\n7/25(土)   9:00 〜 7/27(月) 23:59 https://t.co/hxCJNnys3X",
+      "attachments": {
+        "media_keys": [
+          "13_2079899960259330049",
+          "3_2079899960213209088"
+        ]
+      },
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "strong non-event keyword without live structure",
+        "source_kind": "other"
+      },
+      "created_at": "2026-07-22T12:06:34+00:00",
+      "entities": {
+        "hashtags": [
+          {
+            "end": 43,
+            "start": 35,
+            "tag": "TIF2026"
+          },
+          {
+            "end": 101,
+            "start": 93,
+            "tag": "TIF2026"
+          }
+        ],
+        "urls": [
+          {
+            "display_url": "pic.x.com/hxCJNnys3X",
+            "end": 197,
+            "expanded_url": "https://x.com/info_myojou/status/2079900911556841665/video/1",
+            "media_key": "13_2079899960259330049",
+            "start": 174,
+            "url": "https://t.co/hxCJNnys3X"
+          },
+          {
+            "display_url": "pic.x.com/hxCJNnys3X",
+            "end": 197,
+            "expanded_url": "https://x.com/info_myojou/status/2079900911556841665/video/1",
+            "media_key": "3_2079899960213209088",
+            "start": 174,
+            "url": "https://t.co/hxCJNnys3X"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2079900911556841665",
+      "media": [
+        {
+          "height": 2160,
+          "media_key": "13_2079899960259330049",
+          "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2079899960259330049/img/na4R83JIpg6Z9Epz.jpg",
+          "type": "video",
+          "width": 3840
+        },
+        {
+          "height": 2435,
+          "media_key": "3_2079899960213209088",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HN1J_njbgAAG4y0.jpg",
+          "width": 1722
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 43,
+              "start": 35,
+              "tag": "TIF2026"
+            },
+            {
+              "end": 101,
+              "start": 93,
+              "tag": "TIF2026"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "oregacha.com/myojou",
+              "end": 264,
+              "expanded_url": "https://oregacha.com/myojou",
+              "start": 241,
+              "url": "https://t.co/TnSFXFsZPL"
+            }
+          ]
+        },
+        "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n         #TIF2026 公式コラボ「オリガチャ」\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\nmyojou × #TIF2026 公式コラボ「オリガチャ」開催決定！\n\n⟣price ：500円/回\n\n【第1弾】\n7/25(土)   9:00 〜 7/27(月) 23:59\n｢朝の元気チャージ｣ガチャ\n【第2弾】\n7/28(火) 21:00 〜 7/30(木) 23:59\n｢夜の癒しチャージ｣ガチャ\n\n🔗 https://t.co/TnSFXFsZPL\n※グッズ発送は9月中旬予定\n※アプリ内ブラウザは購入不可（Safari・Chromeにて購入お願いいたします。）"
+      },
+      "parsed_fields": null,
+      "raw": {
+        "api_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n         #TIF2026 公式コラボ「オリガチャ」\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\nmyojou × #TIF2026 公式コラボ「オリガチャ」開催決定！\n\n⟣price ：500円/回\n\n【第1弾】\n7/25(土)   9:00 〜 7/27(月) 23:59 https://t.co/hxCJNnys3X",
+        "attachments": {
+          "media_keys": [
+            "13_2079899960259330049",
+            "3_2079899960213209088"
+          ]
+        },
+        "created_at": "2026-07-22T12:06:34.000Z",
+        "edit_history_tweet_ids": [
+          "2079900911556841665"
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "end": 43,
+              "start": 35,
+              "tag": "TIF2026"
+            },
+            {
+              "end": 101,
+              "start": 93,
+              "tag": "TIF2026"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "pic.x.com/hxCJNnys3X",
+              "end": 197,
+              "expanded_url": "https://x.com/info_myojou/status/2079900911556841665/video/1",
+              "media_key": "13_2079899960259330049",
+              "start": 174,
+              "url": "https://t.co/hxCJNnys3X"
+            },
+            {
+              "display_url": "pic.x.com/hxCJNnys3X",
+              "end": 197,
+              "expanded_url": "https://x.com/info_myojou/status/2079900911556841665/video/1",
+              "media_key": "3_2079899960213209088",
+              "start": 174,
+              "url": "https://t.co/hxCJNnys3X"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n         #TIF2026 公式コラボ「オリガチャ」\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\nmyojou × #TIF2026 公式コラボ「オリガチャ」開催決定！\n\n⟣price ：500円/回\n\n【第1弾】\n7/25(土)   9:00 〜 7/27(月) 23:59\n｢朝の元気チャージ｣ガチャ\n【第2弾】\n7/28(火) 21:00 〜 7/30(木) 23:59\n｢夜の癒しチャージ｣ガチャ\n\n🔗 https://t.co/TnSFXFsZPL\n※グッズ発送は9月中旬予定\n※アプリ内ブラウザは購入不可（Safari・Chromeにて購入お願いいたします。）",
+        "full_text_source": "note_tweet",
+        "id": "2079900911556841665",
+        "media": [
+          {
+            "height": 2160,
+            "media_key": "13_2079899960259330049",
+            "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2079899960259330049/img/na4R83JIpg6Z9Epz.jpg",
+            "type": "video",
+            "width": 3840
+          },
+          {
+            "height": 2435,
+            "media_key": "3_2079899960213209088",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HN1J_njbgAAG4y0.jpg",
+            "width": 1722
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 43,
+                "start": 35,
+                "tag": "TIF2026"
+              },
+              {
+                "end": 101,
+                "start": 93,
+                "tag": "TIF2026"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "oregacha.com/myojou",
+                "end": 264,
+                "expanded_url": "https://oregacha.com/myojou",
+                "start": 241,
+                "url": "https://t.co/TnSFXFsZPL"
+              }
+            ]
+          },
+          "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n         #TIF2026 公式コラボ「オリガチャ」\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\nmyojou × #TIF2026 公式コラボ「オリガチャ」開催決定！\n\n⟣price ：500円/回\n\n【第1弾】\n7/25(土)   9:00 〜 7/27(月) 23:59\n｢朝の元気チャージ｣ガチャ\n【第2弾】\n7/28(火) 21:00 〜 7/30(木) 23:59\n｢夜の癒しチャージ｣ガチャ\n\n🔗 https://t.co/TnSFXFsZPL\n※グッズ発送は9月中旬予定\n※アプリ内ブラウザは購入不可（Safari・Chromeにて購入お願いいたします。）"
+        },
+        "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n         #TIF2026 公式コラボ「オリガチャ」\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\nmyojou × #TIF2026 公式コラボ「オリガチャ」開催決定！\n\n⟣price ：500円/回\n\n【第1弾】\n7/25(土)   9:00 〜 7/27(月) 23:59 https://t.co/hxCJNnys3X",
+        "truncated_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n         #TIF2026 公式コラボ「オリガチャ」\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\nmyojou × #TIF2026 公式コラボ「オリガチャ」開催決定！\n\n⟣price ：500円/回\n\n【第1弾】\n7/25(土)   9:00 〜 7/27(月) 23:59 https://t.co/hxCJNnys3X"
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n         #TIF2026 公式コラボ「オリガチャ」\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\nmyojou × #TIF2026 公式コラボ「オリガチャ」開催決定！\n\n⟣price ：500円/回\n\n【第1弾】\n7/25(土)   9:00 〜 7/27(月) 23:59\n｢朝の元気チャージ｣ガチャ\n【第2弾】\n7/28(火) 21:00 〜 7/30(木) 23:59\n｢夜の癒しチャージ｣ガチャ\n\n🔗 https://t.co/TnSFXFsZPL\n※グッズ発送は9月中旬予定\n※アプリ内ブラウザは購入不可（Safari・Chromeにて購入お願いいたします。）",
+      "truncated_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n         #TIF2026 公式コラボ「オリガチャ」\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\nmyojou × #TIF2026 公式コラボ「オリガチャ」開催決定！\n\n⟣price ：500円/回\n\n【第1弾】\n7/25(土)   9:00 〜 7/27(月) 23:59 https://t.co/hxCJNnys3X",
+      "url": "https://x.com/info_myojou/status/2079900911556841665"
+    },
+    {
+      "api_text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n               UTAGE FES Vol.5\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「UTAGE FES Vol.5」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n薄倉りな@myojou_usukura https://t.co/uCgfC42tr9",
+      "attachments": {
+        "media_keys": [
+          "3_2079891767412035584"
+        ]
+      },
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "profile/member introduction",
+        "source_kind": "other"
+      },
+      "created_at": "2026-07-22T11:30:16+00:00",
+      "entities": {
+        "mentions": [
+          {
+            "end": 167,
+            "id": "1981655668626165760",
+            "start": 155,
+            "username": "myojou_ruka"
+          },
+          {
+            "end": 188,
+            "id": "1344586625901158401",
+            "start": 173,
+            "username": "myojou_usukura"
+          }
+        ],
+        "urls": [
+          {
+            "display_url": "pic.x.com/uCgfC42tr9",
+            "end": 212,
+            "expanded_url": "https://x.com/info_myojou/status/2079891774626316516/photo/1",
+            "media_key": "3_2079891767412035584",
+            "start": 189,
+            "url": "https://t.co/uCgfC42tr9"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2079891774626316516",
+      "media": [
+        {
+          "alt_text": "📍YOANI LIVE STATION\nM1,星景讃歌\nM2,CHRONOS\nM3,僕彩色\nM4,HeartBeat\nM5,アンチコンプリート\n\n📍西武新宿付近野外特設ステージ\nM1,蛍夏\nM2,星景讃歌\nM3,夏、空模様\nM5,アンチコンプリート\nM6,HeartBeat\n\n📍Music Restaurant APEXIA\nM1,yoakeno\nM2,軌跡まで\nM3,星景讃歌\nM4,夏、空模様\nM5,アンチコンプリート",
+          "height": 1108,
+          "media_key": "3_2079891767412035584",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HN1Ciu_akAAsvYm.jpg",
+          "width": 1477
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 294,
+              "start": 287,
+              "tag": "myojou"
+            }
+          ],
+          "mentions": [
+            {
+              "end": 167,
+              "id": "1981655668626165760",
+              "start": 155,
+              "username": "myojou_ruka"
+            },
+            {
+              "end": 188,
+              "id": "1344586625901158401",
+              "start": 173,
+              "username": "myojou_usukura"
+            },
+            {
+              "end": 205,
+              "id": "2009245855694675968",
+              "start": 194,
+              "username": "myojou_miu"
+            },
+            {
+              "end": 233,
+              "id": "1590652199407083520",
+              "start": 219,
+              "username": "myojou_cocone"
+            },
+            {
+              "end": 252,
+              "id": "1754991922807177216",
+              "start": 239,
+              "username": "myojou_shino"
+            },
+            {
+              "end": 269,
+              "id": "2009274765895450624",
+              "start": 258,
+              "username": "myojou_yun"
+            }
+          ]
+        },
+        "text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n               UTAGE FES Vol.5\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「UTAGE FES Vol.5」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n薄倉りな@myojou_usukura \n日陽みう@myojou_miu \n\n下段左から\n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n澪奈ゆん@myojou_yun \n\nSETLIST▶︎ALT\n\n #myojou"
+      },
+      "parsed_fields": null,
+      "raw": {
+        "api_text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n               UTAGE FES Vol.5\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「UTAGE FES Vol.5」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n薄倉りな@myojou_usukura https://t.co/uCgfC42tr9",
+        "attachments": {
+          "media_keys": [
+            "3_2079891767412035584"
+          ]
+        },
+        "created_at": "2026-07-22T11:30:16.000Z",
+        "edit_history_tweet_ids": [
+          "2079891774626316516"
+        ],
+        "entities": {
+          "mentions": [
+            {
+              "end": 167,
+              "id": "1981655668626165760",
+              "start": 155,
+              "username": "myojou_ruka"
+            },
+            {
+              "end": 188,
+              "id": "1344586625901158401",
+              "start": 173,
+              "username": "myojou_usukura"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "pic.x.com/uCgfC42tr9",
+              "end": 212,
+              "expanded_url": "https://x.com/info_myojou/status/2079891774626316516/photo/1",
+              "media_key": "3_2079891767412035584",
+              "start": 189,
+              "url": "https://t.co/uCgfC42tr9"
+            }
+          ]
+        },
+        "full_text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n               UTAGE FES Vol.5\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「UTAGE FES Vol.5」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n薄倉りな@myojou_usukura \n日陽みう@myojou_miu \n\n下段左から\n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n澪奈ゆん@myojou_yun \n\nSETLIST▶︎ALT\n\n #myojou",
+        "full_text_source": "note_tweet",
+        "id": "2079891774626316516",
+        "media": [
+          {
+            "alt_text": "📍YOANI LIVE STATION\nM1,星景讃歌\nM2,CHRONOS\nM3,僕彩色\nM4,HeartBeat\nM5,アンチコンプリート\n\n📍西武新宿付近野外特設ステージ\nM1,蛍夏\nM2,星景讃歌\nM3,夏、空模様\nM5,アンチコンプリート\nM6,HeartBeat\n\n📍Music Restaurant APEXIA\nM1,yoakeno\nM2,軌跡まで\nM3,星景讃歌\nM4,夏、空模様\nM5,アンチコンプリート",
+            "height": 1108,
+            "media_key": "3_2079891767412035584",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HN1Ciu_akAAsvYm.jpg",
+            "width": 1477
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 294,
+                "start": 287,
+                "tag": "myojou"
+              }
+            ],
+            "mentions": [
+              {
+                "end": 167,
+                "id": "1981655668626165760",
+                "start": 155,
+                "username": "myojou_ruka"
+              },
+              {
+                "end": 188,
+                "id": "1344586625901158401",
+                "start": 173,
+                "username": "myojou_usukura"
+              },
+              {
+                "end": 205,
+                "id": "2009245855694675968",
+                "start": 194,
+                "username": "myojou_miu"
+              },
+              {
+                "end": 233,
+                "id": "1590652199407083520",
+                "start": 219,
+                "username": "myojou_cocone"
+              },
+              {
+                "end": 252,
+                "id": "1754991922807177216",
+                "start": 239,
+                "username": "myojou_shino"
+              },
+              {
+                "end": 269,
+                "id": "2009274765895450624",
+                "start": 258,
+                "username": "myojou_yun"
+              }
+            ]
+          },
+          "text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n               UTAGE FES Vol.5\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「UTAGE FES Vol.5」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n薄倉りな@myojou_usukura \n日陽みう@myojou_miu \n\n下段左から\n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n澪奈ゆん@myojou_yun \n\nSETLIST▶︎ALT\n\n #myojou"
+        },
+        "text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n               UTAGE FES Vol.5\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「UTAGE FES Vol.5」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n薄倉りな@myojou_usukura https://t.co/uCgfC42tr9",
+        "truncated_text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n               UTAGE FES Vol.5\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「UTAGE FES Vol.5」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n薄倉りな@myojou_usukura https://t.co/uCgfC42tr9"
+      },
+      "referenced_tweets": [],
+      "text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n               UTAGE FES Vol.5\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「UTAGE FES Vol.5」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n薄倉りな@myojou_usukura \n日陽みう@myojou_miu \n\n下段左から\n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n澪奈ゆん@myojou_yun \n\nSETLIST▶︎ALT\n\n #myojou",
+      "truncated_text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n               UTAGE FES Vol.5\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「UTAGE FES Vol.5」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n薄倉りな@myojou_usukura https://t.co/uCgfC42tr9",
+      "url": "https://x.com/info_myojou/status/2079891774626316516"
+    },
+    {
+      "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                    「アイドル甲子園 \n           in KANDA SQUARE HALL」\n          supported by My-th -DAY2-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：8/16（日）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:00/9:15 https://t.co/EFzGkifVUZ",
+      "attachments": {
+        "media_keys": [
+          "3_2079884229744500736"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "ticket_update"
+      },
+      "created_at": "2026-07-22T11:00:27+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/EFzGkifVUZ",
+            "end": 234,
+            "expanded_url": "https://x.com/info_myojou/status/2079884271591080202/photo/1",
+            "media_key": "3_2079884229744500736",
+            "start": 211,
+            "url": "https://t.co/EFzGkifVUZ"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2079884271591080202",
+      "media": [
+        {
+          "height": 2000,
+          "media_key": "3_2079884229744500736",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HN07r-_boAAqf9u.jpg",
+          "width": 1500
+        }
+      ],
+      "needs_review": true,
+      "needs_review_reasons": [
+        "ambiguous event match",
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 342,
+              "start": 335,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "user.my-th.jp/tickets/event/…",
+              "end": 333,
+              "expanded_url": "https://user.my-th.jp/tickets/event/aikou_0816",
+              "start": 310,
+              "url": "https://t.co/wjyaqHlZi3"
+            }
+          ]
+        },
+        "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                    「アイドル甲子園 \n           in KANDA SQUARE HALL」\n          supported by My-th -DAY2-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：8/16（日）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:00/9:15\n⟣price：前方¥8,500/一般¥3,500/当日各＋¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/23（木）21:00-8/16（日）8:59\n🔗 https://t.co/wjyaqHlZi3\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": null,
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-08-16",
+        "event_dates": [
+          "2026-08-16"
+        ],
+        "event_name": "アイドル甲子園",
+        "extraction_confidence": 0.9,
+        "general_ticket_price": 3500,
+        "lottery_result_at": null,
+        "myojou_performance_time": null,
+        "notes": "ドリンク代: 各+1D\n⟣入場特典:明星カード(サインありチェキ)",
+        "open_time": "09:00",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "前方",
+        "priority_ticket_price": 8500,
+        "same_day_ticket_price": 1000,
+        "source_kind": "ticket_update",
+        "source_post_id": "2079884271591080202",
+        "source_posted_at": "2026-07-22T11:00:27Z",
+        "source_raw": {
+          "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                    「アイドル甲子園 \n           in KANDA SQUARE HALL」\n          supported by My-th -DAY2-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：8/16（日）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:00/9:15 https://t.co/EFzGkifVUZ",
+          "attachments": {
+            "media_keys": [
+              "3_2079884229744500736"
+            ]
+          },
+          "created_at": "2026-07-22T11:00:27.000Z",
+          "edit_history_tweet_ids": [
+            "2079884271591080202"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/EFzGkifVUZ",
+                "end": 234,
+                "expanded_url": "https://x.com/info_myojou/status/2079884271591080202/photo/1",
+                "media_key": "3_2079884229744500736",
+                "start": 211,
+                "url": "https://t.co/EFzGkifVUZ"
+              }
+            ]
+          },
+          "full_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                    「アイドル甲子園 \n           in KANDA SQUARE HALL」\n          supported by My-th -DAY2-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：8/16（日）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:00/9:15\n⟣price：前方¥8,500/一般¥3,500/当日各＋¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/23（木）21:00-8/16（日）8:59\n🔗 https://t.co/wjyaqHlZi3\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2079884271591080202",
+          "media": [
+            {
+              "height": 2000,
+              "media_key": "3_2079884229744500736",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HN07r-_boAAqf9u.jpg",
+              "width": 1500
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 342,
+                  "start": 335,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "user.my-th.jp/tickets/event/…",
+                  "end": 333,
+                  "expanded_url": "https://user.my-th.jp/tickets/event/aikou_0816",
+                  "start": 310,
+                  "url": "https://t.co/wjyaqHlZi3"
+                }
+              ]
+            },
+            "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                    「アイドル甲子園 \n           in KANDA SQUARE HALL」\n          supported by My-th -DAY2-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：8/16（日）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:00/9:15\n⟣price：前方¥8,500/一般¥3,500/当日各＋¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/23（木）21:00-8/16（日）8:59\n🔗 https://t.co/wjyaqHlZi3\n\n#myojou"
+          },
+          "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                    「アイドル甲子園 \n           in KANDA SQUARE HALL」\n          supported by My-th -DAY2-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：8/16（日）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:00/9:15 https://t.co/EFzGkifVUZ",
+          "truncated_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                    「アイドル甲子園 \n           in KANDA SQUARE HALL」\n          supported by My-th -DAY2-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：8/16（日）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:00/9:15 https://t.co/EFzGkifVUZ"
+        },
+        "source_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                    「アイドル甲子園 \n           in KANDA SQUARE HALL」\n          supported by My-th -DAY2-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：8/16（日）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:00/9:15\n⟣price：前方¥8,500/一般¥3,500/当日各＋¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/23（木）21:00-8/16（日）8:59\n🔗 https://t.co/wjyaqHlZi3\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2079884271591080202",
+        "start_time": "09:15",
+        "ticket_application_deadline_at": "2026-08-16T08:59:00+09:00",
+        "ticket_application_start_at": "2026-07-23T21:00:00+09:00",
+        "ticket_sale_type": "先着",
+        "ticket_sales": [
+          {
+            "deadline_at": "2026-08-16T08:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 8500,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2079884271591080202",
+            "source_url": "https://x.com/info_myojou/status/2079884271591080202",
+            "start_at": "2026-07-23T21:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "前方",
+            "ticket_tier": "前方"
+          },
+          {
+            "deadline_at": "2026-08-16T08:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 3500,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2079884271591080202",
+            "source_url": "https://x.com/info_myojou/status/2079884271591080202",
+            "start_at": "2026-07-23T21:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 1000,
+            "result_at": null,
+            "sale_type": "当日券",
+            "source_post_id": "2079884271591080202",
+            "source_url": "https://x.com/info_myojou/status/2079884271591080202",
+            "start_at": null,
+            "status": "販売中",
+            "ticket_name": "当日券",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "https://user.my-th.jp/tickets/event/aikou_0816",
+        "venue": "KANDA SQUARE HALL"
+      },
+      "raw": {
+        "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                    「アイドル甲子園 \n           in KANDA SQUARE HALL」\n          supported by My-th -DAY2-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：8/16（日）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:00/9:15 https://t.co/EFzGkifVUZ",
+        "attachments": {
+          "media_keys": [
+            "3_2079884229744500736"
+          ]
+        },
+        "created_at": "2026-07-22T11:00:27.000Z",
+        "edit_history_tweet_ids": [
+          "2079884271591080202"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/EFzGkifVUZ",
+              "end": 234,
+              "expanded_url": "https://x.com/info_myojou/status/2079884271591080202/photo/1",
+              "media_key": "3_2079884229744500736",
+              "start": 211,
+              "url": "https://t.co/EFzGkifVUZ"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                    「アイドル甲子園 \n           in KANDA SQUARE HALL」\n          supported by My-th -DAY2-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：8/16（日）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:00/9:15\n⟣price：前方¥8,500/一般¥3,500/当日各＋¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/23（木）21:00-8/16（日）8:59\n🔗 https://t.co/wjyaqHlZi3\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2079884271591080202",
+        "media": [
+          {
+            "height": 2000,
+            "media_key": "3_2079884229744500736",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HN07r-_boAAqf9u.jpg",
+            "width": 1500
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 342,
+                "start": 335,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "user.my-th.jp/tickets/event/…",
+                "end": 333,
+                "expanded_url": "https://user.my-th.jp/tickets/event/aikou_0816",
+                "start": 310,
+                "url": "https://t.co/wjyaqHlZi3"
+              }
+            ]
+          },
+          "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                    「アイドル甲子園 \n           in KANDA SQUARE HALL」\n          supported by My-th -DAY2-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：8/16（日）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:00/9:15\n⟣price：前方¥8,500/一般¥3,500/当日各＋¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/23（木）21:00-8/16（日）8:59\n🔗 https://t.co/wjyaqHlZi3\n\n#myojou"
+        },
+        "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                    「アイドル甲子園 \n           in KANDA SQUARE HALL」\n          supported by My-th -DAY2-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：8/16（日）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:00/9:15 https://t.co/EFzGkifVUZ",
+        "truncated_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                    「アイドル甲子園 \n           in KANDA SQUARE HALL」\n          supported by My-th -DAY2-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：8/16（日）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:00/9:15 https://t.co/EFzGkifVUZ"
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                    「アイドル甲子園 \n           in KANDA SQUARE HALL」\n          supported by My-th -DAY2-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：8/16（日）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:00/9:15\n⟣price：前方¥8,500/一般¥3,500/当日各＋¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/23（木）21:00-8/16（日）8:59\n🔗 https://t.co/wjyaqHlZi3\n\n#myojou",
+      "truncated_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                    「アイドル甲子園 \n           in KANDA SQUARE HALL」\n          supported by My-th -DAY2-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：8/16（日）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:00/9:15 https://t.co/EFzGkifVUZ",
+      "url": "https://x.com/info_myojou/status/2079884271591080202"
+    },
+    {
+      "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             マリークラウンPresents\n           『 MARIE PARADE -vol,2- 』\n                Special 2man Live\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙19:15-19:45\n📸20:30-22:00\n\n⟣date：7/28（火）\n⟣place : 渋谷WOMB LIVE https://t.co/LWhjuSeq1m",
+      "attachments": {
+        "media_keys": [
+          "3_2079862646095106048"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "sold_out"
+      },
+      "created_at": "2026-07-22T09:34:33+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/LWhjuSeq1m",
+            "end": 233,
+            "expanded_url": "https://x.com/info_myojou/status/2079862656417325367/photo/1",
+            "media_key": "3_2079862646095106048",
+            "start": 210,
+            "url": "https://t.co/LWhjuSeq1m"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2079862656417325367",
+      "media": [
+        {
+          "height": 1519,
+          "media_key": "3_2079862646095106048",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HN0oDpoaUAACZt5.jpg",
+          "width": 1078
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 280,
+              "start": 273,
+              "tag": "myojou"
+            }
+          ]
+        },
+        "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             マリークラウンPresents\n           『 MARIE PARADE -vol,2- 』\n                Special 2man Live\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙19:15-19:45\n📸20:30-22:00\n\n⟣date：7/28（火）\n⟣place : 渋谷WOMB LIVE\n⟣open/start：18:30/19:45\n⟣price：SOLD OUT\n⟣入場特典：明星カード（サインありチェキ）\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": "20:30-22:00",
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-07-28",
+        "event_dates": [
+          "2026-07-28"
+        ],
+        "event_name": "Special 2man Live",
+        "extraction_confidence": 0.95,
+        "general_ticket_price": null,
+        "lottery_result_at": null,
+        "myojou_performance_time": "19:15-19:45",
+        "notes": null,
+        "open_time": "18:30",
+        "payment_deadline_at": null,
+        "priority_ticket_name": null,
+        "priority_ticket_price": null,
+        "same_day_ticket_price": null,
+        "source_kind": "sold_out",
+        "source_post_id": "2079862656417325367",
+        "source_posted_at": "2026-07-22T09:34:33Z",
+        "source_raw": {
+          "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             マリークラウンPresents\n           『 MARIE PARADE -vol,2- 』\n                Special 2man Live\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙19:15-19:45\n📸20:30-22:00\n\n⟣date：7/28（火）\n⟣place : 渋谷WOMB LIVE https://t.co/LWhjuSeq1m",
+          "attachments": {
+            "media_keys": [
+              "3_2079862646095106048"
+            ]
+          },
+          "created_at": "2026-07-22T09:34:33.000Z",
+          "edit_history_tweet_ids": [
+            "2079862656417325367"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/LWhjuSeq1m",
+                "end": 233,
+                "expanded_url": "https://x.com/info_myojou/status/2079862656417325367/photo/1",
+                "media_key": "3_2079862646095106048",
+                "start": 210,
+                "url": "https://t.co/LWhjuSeq1m"
+              }
+            ]
+          },
+          "full_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             マリークラウンPresents\n           『 MARIE PARADE -vol,2- 』\n                Special 2man Live\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙19:15-19:45\n📸20:30-22:00\n\n⟣date：7/28（火）\n⟣place : 渋谷WOMB LIVE\n⟣open/start：18:30/19:45\n⟣price：SOLD OUT\n⟣入場特典：明星カード（サインありチェキ）\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2079862656417325367",
+          "media": [
+            {
+              "height": 1519,
+              "media_key": "3_2079862646095106048",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HN0oDpoaUAACZt5.jpg",
+              "width": 1078
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 280,
+                  "start": 273,
+                  "tag": "myojou"
+                }
+              ]
+            },
+            "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             マリークラウンPresents\n           『 MARIE PARADE -vol,2- 』\n                Special 2man Live\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙19:15-19:45\n📸20:30-22:00\n\n⟣date：7/28（火）\n⟣place : 渋谷WOMB LIVE\n⟣open/start：18:30/19:45\n⟣price：SOLD OUT\n⟣入場特典：明星カード（サインありチェキ）\n\n#myojou"
+          },
+          "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             マリークラウンPresents\n           『 MARIE PARADE -vol,2- 』\n                Special 2man Live\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙19:15-19:45\n📸20:30-22:00\n\n⟣date：7/28（火）\n⟣place : 渋谷WOMB LIVE https://t.co/LWhjuSeq1m",
+          "truncated_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             マリークラウンPresents\n           『 MARIE PARADE -vol,2- 』\n                Special 2man Live\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙19:15-19:45\n📸20:30-22:00\n\n⟣date：7/28（火）\n⟣place : 渋谷WOMB LIVE https://t.co/LWhjuSeq1m"
+        },
+        "source_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             マリークラウンPresents\n           『 MARIE PARADE -vol,2- 』\n                Special 2man Live\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙19:15-19:45\n📸20:30-22:00\n\n⟣date：7/28（火）\n⟣place : 渋谷WOMB LIVE\n⟣open/start：18:30/19:45\n⟣price：SOLD OUT\n⟣入場特典：明星カード（サインありチェキ）\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2079862656417325367",
+        "start_time": "19:45",
+        "ticket_application_deadline_at": null,
+        "ticket_application_start_at": null,
+        "ticket_sale_type": null,
+        "ticket_sales": [],
+        "ticket_status": "sold_out",
+        "ticket_url": null,
+        "venue": "渋谷WOMB LIVE"
+      },
+      "raw": {
+        "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             マリークラウンPresents\n           『 MARIE PARADE -vol,2- 』\n                Special 2man Live\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙19:15-19:45\n📸20:30-22:00\n\n⟣date：7/28（火）\n⟣place : 渋谷WOMB LIVE https://t.co/LWhjuSeq1m",
+        "attachments": {
+          "media_keys": [
+            "3_2079862646095106048"
+          ]
+        },
+        "created_at": "2026-07-22T09:34:33.000Z",
+        "edit_history_tweet_ids": [
+          "2079862656417325367"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/LWhjuSeq1m",
+              "end": 233,
+              "expanded_url": "https://x.com/info_myojou/status/2079862656417325367/photo/1",
+              "media_key": "3_2079862646095106048",
+              "start": 210,
+              "url": "https://t.co/LWhjuSeq1m"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             マリークラウンPresents\n           『 MARIE PARADE -vol,2- 』\n                Special 2man Live\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙19:15-19:45\n📸20:30-22:00\n\n⟣date：7/28（火）\n⟣place : 渋谷WOMB LIVE\n⟣open/start：18:30/19:45\n⟣price：SOLD OUT\n⟣入場特典：明星カード（サインありチェキ）\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2079862656417325367",
+        "media": [
+          {
+            "height": 1519,
+            "media_key": "3_2079862646095106048",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HN0oDpoaUAACZt5.jpg",
+            "width": 1078
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 280,
+                "start": 273,
+                "tag": "myojou"
+              }
+            ]
+          },
+          "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             マリークラウンPresents\n           『 MARIE PARADE -vol,2- 』\n                Special 2man Live\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙19:15-19:45\n📸20:30-22:00\n\n⟣date：7/28（火）\n⟣place : 渋谷WOMB LIVE\n⟣open/start：18:30/19:45\n⟣price：SOLD OUT\n⟣入場特典：明星カード（サインありチェキ）\n\n#myojou"
+        },
+        "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             マリークラウンPresents\n           『 MARIE PARADE -vol,2- 』\n                Special 2man Live\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙19:15-19:45\n📸20:30-22:00\n\n⟣date：7/28（火）\n⟣place : 渋谷WOMB LIVE https://t.co/LWhjuSeq1m",
+        "truncated_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             マリークラウンPresents\n           『 MARIE PARADE -vol,2- 』\n                Special 2man Live\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙19:15-19:45\n📸20:30-22:00\n\n⟣date：7/28（火）\n⟣place : 渋谷WOMB LIVE https://t.co/LWhjuSeq1m"
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             マリークラウンPresents\n           『 MARIE PARADE -vol,2- 』\n                Special 2man Live\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙19:15-19:45\n📸20:30-22:00\n\n⟣date：7/28（火）\n⟣place : 渋谷WOMB LIVE\n⟣open/start：18:30/19:45\n⟣price：SOLD OUT\n⟣入場特典：明星カード（サインありチェキ）\n\n#myojou",
+      "truncated_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             マリークラウンPresents\n           『 MARIE PARADE -vol,2- 』\n                Special 2man Live\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙19:15-19:45\n📸20:30-22:00\n\n⟣date：7/28（火）\n⟣place : 渋谷WOMB LIVE https://t.co/LWhjuSeq1m",
+      "url": "https://x.com/info_myojou/status/2079862656417325367"
+    },
+    {
+      "api_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            UTAGE FES Vol.5\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\nこのあとMusic Restaurant APEXIAにて、18:00頃より出演いたします！\n\n #myojou https://t.co/vpQSHfXESc",
+      "attachments": {
+        "media_keys": [
+          "3_2079853310761476096"
+        ]
+      },
+      "classification": {
+        "classification": "needs_review",
+        "confidence": "low",
+        "reason": "event-like words but insufficient structured information",
+        "source_kind": "other"
+      },
+      "created_at": "2026-07-22T08:57:29+00:00",
+      "entities": {
+        "hashtags": [
+          {
+            "end": 125,
+            "start": 118,
+            "tag": "myojou"
+          }
+        ],
+        "urls": [
+          {
+            "display_url": "pic.x.com/vpQSHfXESc",
+            "end": 149,
+            "expanded_url": "https://x.com/info_myojou/status/2079853327920324615/photo/1",
+            "media_key": "3_2079853310761476096",
+            "start": 126,
+            "url": "https://t.co/vpQSHfXESc"
+          }
+        ]
+      },
+      "full_text_source": "text",
+      "id": "2079853327920324615",
+      "media": [
+        {
+          "height": 3024,
+          "media_key": "3_2079853310761476096",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HN0fkQzboAA5LsJ.jpg",
+          "width": 4032
+        }
+      ],
+      "needs_review": true,
+      "needs_review_reasons": [
+        "missing venue",
+        "missing ticket deadline",
+        "classification: event-like words but insufficient structured information"
+      ],
+      "note_tweet": null,
+      "parsed_fields": {
+        "benefit_event_time": null,
+        "classification": "needs_review",
+        "classification_confidence": "low",
+        "classification_reason": "event-like words but insufficient structured information",
+        "event_date": null,
+        "event_dates": [],
+        "event_name": "UTAGE FES Vol.5",
+        "extraction_confidence": 0.5,
+        "general_ticket_price": null,
+        "lottery_result_at": null,
+        "myojou_performance_time": "18:00",
+        "notes": null,
+        "open_time": null,
+        "payment_deadline_at": null,
+        "priority_ticket_name": null,
+        "priority_ticket_price": null,
+        "same_day_ticket_price": null,
+        "source_kind": "other",
+        "source_post_id": "2079853327920324615",
+        "source_posted_at": "2026-07-22T08:57:29Z",
+        "source_raw": {
+          "api_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            UTAGE FES Vol.5\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\nこのあとMusic Restaurant APEXIAにて、18:00頃より出演いたします！\n\n #myojou https://t.co/vpQSHfXESc",
+          "attachments": {
+            "media_keys": [
+              "3_2079853310761476096"
+            ]
+          },
+          "created_at": "2026-07-22T08:57:29.000Z",
+          "edit_history_tweet_ids": [
+            "2079853327920324615"
+          ],
+          "entities": {
+            "hashtags": [
+              {
+                "end": 125,
+                "start": 118,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "pic.x.com/vpQSHfXESc",
+                "end": 149,
+                "expanded_url": "https://x.com/info_myojou/status/2079853327920324615/photo/1",
+                "media_key": "3_2079853310761476096",
+                "start": 126,
+                "url": "https://t.co/vpQSHfXESc"
+              }
+            ]
+          },
+          "full_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            UTAGE FES Vol.5\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\nこのあとMusic Restaurant APEXIAにて、18:00頃より出演いたします！\n\n #myojou https://t.co/vpQSHfXESc",
+          "full_text_source": "text",
+          "id": "2079853327920324615",
+          "media": [
+            {
+              "height": 3024,
+              "media_key": "3_2079853310761476096",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HN0fkQzboAA5LsJ.jpg",
+              "width": 4032
+            }
+          ],
+          "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            UTAGE FES Vol.5\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\nこのあとMusic Restaurant APEXIAにて、18:00頃より出演いたします！\n\n #myojou https://t.co/vpQSHfXESc",
+          "truncated_text": null
+        },
+        "source_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            UTAGE FES Vol.5\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\nこのあとMusic Restaurant APEXIAにて、18:00頃より出演いたします！\n\n #myojou https://t.co/vpQSHfXESc",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2079853327920324615",
+        "start_time": null,
+        "ticket_application_deadline_at": null,
+        "ticket_application_start_at": null,
+        "ticket_sale_type": null,
+        "ticket_sales": [],
+        "ticket_status": null,
+        "ticket_url": null,
+        "venue": null
+      },
+      "raw": {
+        "api_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            UTAGE FES Vol.5\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\nこのあとMusic Restaurant APEXIAにて、18:00頃より出演いたします！\n\n #myojou https://t.co/vpQSHfXESc",
+        "attachments": {
+          "media_keys": [
+            "3_2079853310761476096"
+          ]
+        },
+        "created_at": "2026-07-22T08:57:29.000Z",
+        "edit_history_tweet_ids": [
+          "2079853327920324615"
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "end": 125,
+              "start": 118,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "pic.x.com/vpQSHfXESc",
+              "end": 149,
+              "expanded_url": "https://x.com/info_myojou/status/2079853327920324615/photo/1",
+              "media_key": "3_2079853310761476096",
+              "start": 126,
+              "url": "https://t.co/vpQSHfXESc"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            UTAGE FES Vol.5\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\nこのあとMusic Restaurant APEXIAにて、18:00頃より出演いたします！\n\n #myojou https://t.co/vpQSHfXESc",
+        "full_text_source": "text",
+        "id": "2079853327920324615",
+        "media": [
+          {
+            "height": 3024,
+            "media_key": "3_2079853310761476096",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HN0fkQzboAA5LsJ.jpg",
+            "width": 4032
+          }
+        ],
+        "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            UTAGE FES Vol.5\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\nこのあとMusic Restaurant APEXIAにて、18:00頃より出演いたします！\n\n #myojou https://t.co/vpQSHfXESc",
+        "truncated_text": null
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            UTAGE FES Vol.5\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\nこのあとMusic Restaurant APEXIAにて、18:00頃より出演いたします！\n\n #myojou https://t.co/vpQSHfXESc",
+      "truncated_text": null,
+      "url": "https://x.com/info_myojou/status/2079853327920324615"
+    },
+    {
+      "api_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            UTAGE FES Vol.5\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n西武新宿付近野外特設ステージありがとうございました！⋆˙⟡\n\nこのあとMusic Restaurant APEXIAにて、17:55より出演いたします！\n\n #myojou https://t.co/b6GlzAvk3T",
+      "attachments": {
+        "media_keys": [
+          "3_2079820881413718016"
+        ]
+      },
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "thank-you/recap post",
+        "source_kind": "other"
+      },
+      "created_at": "2026-07-22T06:48:37+00:00",
+      "entities": {
+        "hashtags": [
+          {
+            "end": 155,
+            "start": 148,
+            "tag": "myojou"
+          }
+        ],
+        "urls": [
+          {
+            "display_url": "pic.x.com/b6GlzAvk3T",
+            "end": 179,
+            "expanded_url": "https://x.com/info_myojou/status/2079820895762501712/photo/1",
+            "media_key": "3_2079820881413718016",
+            "start": 156,
+            "url": "https://t.co/b6GlzAvk3T"
+          }
+        ]
+      },
+      "full_text_source": "text",
+      "id": "2079820895762501712",
+      "media": [
+        {
+          "height": 3024,
+          "media_key": "3_2079820881413718016",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HN0CEoEawAAmBSu.jpg",
+          "width": 4032
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "note_tweet": null,
+      "parsed_fields": null,
+      "raw": {
+        "api_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            UTAGE FES Vol.5\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n西武新宿付近野外特設ステージありがとうございました！⋆˙⟡\n\nこのあとMusic Restaurant APEXIAにて、17:55より出演いたします！\n\n #myojou https://t.co/b6GlzAvk3T",
+        "attachments": {
+          "media_keys": [
+            "3_2079820881413718016"
+          ]
+        },
+        "created_at": "2026-07-22T06:48:37.000Z",
+        "edit_history_tweet_ids": [
+          "2079820895762501712"
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "end": 155,
+              "start": 148,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "pic.x.com/b6GlzAvk3T",
+              "end": 179,
+              "expanded_url": "https://x.com/info_myojou/status/2079820895762501712/photo/1",
+              "media_key": "3_2079820881413718016",
+              "start": 156,
+              "url": "https://t.co/b6GlzAvk3T"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            UTAGE FES Vol.5\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n西武新宿付近野外特設ステージありがとうございました！⋆˙⟡\n\nこのあとMusic Restaurant APEXIAにて、17:55より出演いたします！\n\n #myojou https://t.co/b6GlzAvk3T",
+        "full_text_source": "text",
+        "id": "2079820895762501712",
+        "media": [
+          {
+            "height": 3024,
+            "media_key": "3_2079820881413718016",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HN0CEoEawAAmBSu.jpg",
+            "width": 4032
+          }
+        ],
+        "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            UTAGE FES Vol.5\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n西武新宿付近野外特設ステージありがとうございました！⋆˙⟡\n\nこのあとMusic Restaurant APEXIAにて、17:55より出演いたします！\n\n #myojou https://t.co/b6GlzAvk3T",
+        "truncated_text": null
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            UTAGE FES Vol.5\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n西武新宿付近野外特設ステージありがとうございました！⋆˙⟡\n\nこのあとMusic Restaurant APEXIAにて、17:55より出演いたします！\n\n #myojou https://t.co/b6GlzAvk3T",
+      "truncated_text": null,
+      "url": "https://x.com/info_myojou/status/2079820895762501712"
+    },
+    {
+      "api_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            UTAGE FES Vol.5\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\nこのあとYOANI LIVE STATIONにて、11:00より出演いたします⋆˙⟡\n\n #myojou https://t.co/3PO8qMQFcr",
+      "attachments": {
+        "media_keys": [
+          "3_2079741678760640512"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "medium",
+        "reason": "live keywords with partial structured information",
+        "source_kind": "initial_announcement"
+      },
+      "created_at": "2026-07-22T01:33:54+00:00",
+      "entities": {
+        "hashtags": [
+          {
+            "end": 121,
+            "start": 114,
+            "tag": "myojou"
+          }
+        ],
+        "urls": [
+          {
+            "display_url": "pic.x.com/3PO8qMQFcr",
+            "end": 145,
+            "expanded_url": "https://x.com/info_myojou/status/2079741693944119373/photo/1",
+            "media_key": "3_2079741678760640512",
+            "start": 122,
+            "url": "https://t.co/3PO8qMQFcr"
+          }
+        ]
+      },
+      "full_text_source": "text",
+      "id": "2079741693944119373",
+      "media": [
+        {
+          "height": 3024,
+          "media_key": "3_2079741678760640512",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HNy6CbMaQAAQTLZ.jpg",
+          "width": 4032
+        }
+      ],
+      "needs_review": true,
+      "needs_review_reasons": [
+        "missing venue",
+        "missing ticket deadline",
+        "classification: live keywords with partial structured information"
+      ],
+      "note_tweet": null,
+      "parsed_fields": {
+        "benefit_event_time": null,
+        "classification": "event",
+        "classification_confidence": "medium",
+        "classification_reason": "live keywords with partial structured information",
+        "event_date": null,
+        "event_dates": [],
+        "event_name": "このあとYOANI LIVE STATIONにて、11:00より出演いたします⋆ ̇⟡",
+        "extraction_confidence": 0.5,
+        "general_ticket_price": null,
+        "lottery_result_at": null,
+        "myojou_performance_time": "11:00",
+        "notes": null,
+        "open_time": null,
+        "payment_deadline_at": null,
+        "priority_ticket_name": null,
+        "priority_ticket_price": null,
+        "same_day_ticket_price": null,
+        "source_kind": "initial_announcement",
+        "source_post_id": "2079741693944119373",
+        "source_posted_at": "2026-07-22T01:33:54Z",
+        "source_raw": {
+          "api_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            UTAGE FES Vol.5\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\nこのあとYOANI LIVE STATIONにて、11:00より出演いたします⋆˙⟡\n\n #myojou https://t.co/3PO8qMQFcr",
+          "attachments": {
+            "media_keys": [
+              "3_2079741678760640512"
+            ]
+          },
+          "created_at": "2026-07-22T01:33:54.000Z",
+          "edit_history_tweet_ids": [
+            "2079741693944119373"
+          ],
+          "entities": {
+            "hashtags": [
+              {
+                "end": 121,
+                "start": 114,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "pic.x.com/3PO8qMQFcr",
+                "end": 145,
+                "expanded_url": "https://x.com/info_myojou/status/2079741693944119373/photo/1",
+                "media_key": "3_2079741678760640512",
+                "start": 122,
+                "url": "https://t.co/3PO8qMQFcr"
+              }
+            ]
+          },
+          "full_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            UTAGE FES Vol.5\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\nこのあとYOANI LIVE STATIONにて、11:00より出演いたします⋆˙⟡\n\n #myojou https://t.co/3PO8qMQFcr",
+          "full_text_source": "text",
+          "id": "2079741693944119373",
+          "media": [
+            {
+              "height": 3024,
+              "media_key": "3_2079741678760640512",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HNy6CbMaQAAQTLZ.jpg",
+              "width": 4032
+            }
+          ],
+          "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            UTAGE FES Vol.5\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\nこのあとYOANI LIVE STATIONにて、11:00より出演いたします⋆˙⟡\n\n #myojou https://t.co/3PO8qMQFcr",
+          "truncated_text": null
+        },
+        "source_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            UTAGE FES Vol.5\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\nこのあとYOANI LIVE STATIONにて、11:00より出演いたします⋆˙⟡\n\n #myojou https://t.co/3PO8qMQFcr",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2079741693944119373",
+        "start_time": null,
+        "ticket_application_deadline_at": null,
+        "ticket_application_start_at": null,
+        "ticket_sale_type": null,
+        "ticket_sales": [],
+        "ticket_status": null,
+        "ticket_url": null,
+        "venue": null
+      },
+      "raw": {
+        "api_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            UTAGE FES Vol.5\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\nこのあとYOANI LIVE STATIONにて、11:00より出演いたします⋆˙⟡\n\n #myojou https://t.co/3PO8qMQFcr",
+        "attachments": {
+          "media_keys": [
+            "3_2079741678760640512"
+          ]
+        },
+        "created_at": "2026-07-22T01:33:54.000Z",
+        "edit_history_tweet_ids": [
+          "2079741693944119373"
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "end": 121,
+              "start": 114,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "pic.x.com/3PO8qMQFcr",
+              "end": 145,
+              "expanded_url": "https://x.com/info_myojou/status/2079741693944119373/photo/1",
+              "media_key": "3_2079741678760640512",
+              "start": 122,
+              "url": "https://t.co/3PO8qMQFcr"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            UTAGE FES Vol.5\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\nこのあとYOANI LIVE STATIONにて、11:00より出演いたします⋆˙⟡\n\n #myojou https://t.co/3PO8qMQFcr",
+        "full_text_source": "text",
+        "id": "2079741693944119373",
+        "media": [
+          {
+            "height": 3024,
+            "media_key": "3_2079741678760640512",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HNy6CbMaQAAQTLZ.jpg",
+            "width": 4032
+          }
+        ],
+        "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            UTAGE FES Vol.5\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\nこのあとYOANI LIVE STATIONにて、11:00より出演いたします⋆˙⟡\n\n #myojou https://t.co/3PO8qMQFcr",
+        "truncated_text": null
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            UTAGE FES Vol.5\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\nこのあとYOANI LIVE STATIONにて、11:00より出演いたします⋆˙⟡\n\n #myojou https://t.co/3PO8qMQFcr",
+      "truncated_text": null,
+      "url": "https://x.com/info_myojou/status/2079741693944119373"
+    },
+    {
       "api_text": "✯••┈┈┈••✯••┈┈┈••✯\n            ⟡.·*.御礼.*·.⟡\n                 hilfe'''!!\n✯••┈┈┈••✯••┈┈┈••✯\n\n本日は「hilfe'''!!」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka \n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n日陽みう@myojou_miu https://t.co/y3qgV3Q1qP",
       "attachments": {
         "media_keys": [
@@ -127221,7 +129002,7 @@
     "backfill": true,
     "dry_run": true,
     "estimated_x_post_reads": 411,
-    "latest_post_id": "2079577377303400496",
+    "latest_post_id": "2079933042337202264",
     "max_pages": 10,
     "max_posts": 500,
     "max_results": 5,
@@ -127264,16 +129045,16 @@
       }
     ],
     "pages_fetched": 5,
-    "posts_fetched": 590,
+    "posts_fetched": 600,
     "rate_limit_headers": {
       "x-rate-limit-limit": "10000",
       "x-rate-limit-remaining": "9993",
       "x-rate-limit-reset": "1781108896"
     },
-    "total_posts": 590,
-    "updated_at": "2026-07-21T20:19:52.064495+00:00",
+    "total_posts": 600,
+    "updated_at": "2026-07-22T20:12:44.905639+00:00",
     "username": "info_myojou"
   },
   "source": "x_api",
-  "updated_at": "2026-07-21T20:19:52.064495+00:00"
+  "updated_at": "2026-07-22T20:12:44.905639+00:00"
 }
