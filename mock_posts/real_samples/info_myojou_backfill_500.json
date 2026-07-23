@@ -2,6 +2,617 @@
   "captured_at": "2026-06-10T16:19:36.141820+00:00",
   "data": [
     {
+      "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「TOKYO GIRLS GIRLS ~ 6th Anniversary day1 ~」\n\n🎙14:00-14:20\n📸14:30-15:50 E\n\n⟣date：7/24（金）\n⟣place : 品川インターシティホール\n⟣open/start：10:00/10:15 ※変更の可能性あり\n⟣price：前方¥10,000/通常¥4,000/当日¥5,000（各+1D） https://t.co/tr6fkSlCyP",
+      "attachments": {
+        "media_keys": [
+          "3_2080274735334875139"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "correction"
+      },
+      "created_at": "2026-07-23T12:52:02+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/tr6fkSlCyP",
+            "end": 232,
+            "expanded_url": "https://x.com/info_myojou/status/2080274740976157078/photo/1",
+            "media_key": "3_2080274735334875139",
+            "start": 209,
+            "url": "https://t.co/tr6fkSlCyP"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2080274740976157078",
+      "media": [
+        {
+          "height": 2048,
+          "media_key": "3_2080274735334875139",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HN6e2Zra4AMEVk_.jpg",
+          "width": 1460
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "missing ticket deadline",
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 287,
+              "start": 280,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "tiget.net/events/502975",
+              "end": 278,
+              "expanded_url": "http://tiget.net/events/502975",
+              "start": 255,
+              "url": "https://t.co/jcqgc8HAIw"
+            }
+          ]
+        },
+        "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「TOKYO GIRLS GIRLS ~ 6th Anniversary day1 ~」\n\n🎙14:00-14:20\n📸14:30-15:50 E\n\n⟣date：7/24（金）\n⟣place : 品川インターシティホール\n⟣open/start：10:00/10:15 ※変更の可能性あり\n⟣price：前方¥10,000/通常¥4,000/当日¥5,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/2(木) 20:00-\n🔗 https://t.co/jcqgc8HAIw\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": "14:30-15:50",
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-07-24",
+        "event_dates": [
+          "2026-07-24"
+        ],
+        "event_name": "TOKYO GIRLS GIRLS ~ 6th Anniversary day1 ~",
+        "extraction_confidence": 0.95,
+        "general_ticket_price": 4000,
+        "lottery_result_at": null,
+        "myojou_performance_time": "14:00-14:20",
+        "notes": "⟣open/start:10:00/10:15 ※変更の可能性あり",
+        "open_time": "10:00",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "前方",
+        "priority_ticket_price": 10000,
+        "same_day_ticket_price": 5000,
+        "source_kind": "correction",
+        "source_post_id": "2080274740976157078",
+        "source_posted_at": "2026-07-23T12:52:02Z",
+        "source_raw": {
+          "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「TOKYO GIRLS GIRLS ~ 6th Anniversary day1 ~」\n\n🎙14:00-14:20\n📸14:30-15:50 E\n\n⟣date：7/24（金）\n⟣place : 品川インターシティホール\n⟣open/start：10:00/10:15 ※変更の可能性あり\n⟣price：前方¥10,000/通常¥4,000/当日¥5,000（各+1D） https://t.co/tr6fkSlCyP",
+          "attachments": {
+            "media_keys": [
+              "3_2080274735334875139"
+            ]
+          },
+          "created_at": "2026-07-23T12:52:02.000Z",
+          "edit_history_tweet_ids": [
+            "2080274740976157078"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/tr6fkSlCyP",
+                "end": 232,
+                "expanded_url": "https://x.com/info_myojou/status/2080274740976157078/photo/1",
+                "media_key": "3_2080274735334875139",
+                "start": 209,
+                "url": "https://t.co/tr6fkSlCyP"
+              }
+            ]
+          },
+          "full_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「TOKYO GIRLS GIRLS ~ 6th Anniversary day1 ~」\n\n🎙14:00-14:20\n📸14:30-15:50 E\n\n⟣date：7/24（金）\n⟣place : 品川インターシティホール\n⟣open/start：10:00/10:15 ※変更の可能性あり\n⟣price：前方¥10,000/通常¥4,000/当日¥5,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/2(木) 20:00-\n🔗 https://t.co/jcqgc8HAIw\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2080274740976157078",
+          "media": [
+            {
+              "height": 2048,
+              "media_key": "3_2080274735334875139",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HN6e2Zra4AMEVk_.jpg",
+              "width": 1460
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 287,
+                  "start": 280,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "tiget.net/events/502975",
+                  "end": 278,
+                  "expanded_url": "http://tiget.net/events/502975",
+                  "start": 255,
+                  "url": "https://t.co/jcqgc8HAIw"
+                }
+              ]
+            },
+            "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「TOKYO GIRLS GIRLS ~ 6th Anniversary day1 ~」\n\n🎙14:00-14:20\n📸14:30-15:50 E\n\n⟣date：7/24（金）\n⟣place : 品川インターシティホール\n⟣open/start：10:00/10:15 ※変更の可能性あり\n⟣price：前方¥10,000/通常¥4,000/当日¥5,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/2(木) 20:00-\n🔗 https://t.co/jcqgc8HAIw\n\n#myojou"
+          },
+          "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「TOKYO GIRLS GIRLS ~ 6th Anniversary day1 ~」\n\n🎙14:00-14:20\n📸14:30-15:50 E\n\n⟣date：7/24（金）\n⟣place : 品川インターシティホール\n⟣open/start：10:00/10:15 ※変更の可能性あり\n⟣price：前方¥10,000/通常¥4,000/当日¥5,000（各+1D） https://t.co/tr6fkSlCyP",
+          "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「TOKYO GIRLS GIRLS ~ 6th Anniversary day1 ~」\n\n🎙14:00-14:20\n📸14:30-15:50 E\n\n⟣date：7/24（金）\n⟣place : 品川インターシティホール\n⟣open/start：10:00/10:15 ※変更の可能性あり\n⟣price：前方¥10,000/通常¥4,000/当日¥5,000（各+1D） https://t.co/tr6fkSlCyP"
+        },
+        "source_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「TOKYO GIRLS GIRLS ~ 6th Anniversary day1 ~」\n\n🎙14:00-14:20\n📸14:30-15:50 E\n\n⟣date：7/24（金）\n⟣place : 品川インターシティホール\n⟣open/start：10:00/10:15 ※変更の可能性あり\n⟣price：前方¥10,000/通常¥4,000/当日¥5,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/2(木) 20:00-\n🔗 https://t.co/jcqgc8HAIw\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2080274740976157078",
+        "start_time": "10:15",
+        "ticket_application_deadline_at": null,
+        "ticket_application_start_at": "2026-07-02T20:00:00+09:00",
+        "ticket_sale_type": "先着",
+        "ticket_sales": [
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 10000,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2080274740976157078",
+            "source_url": "https://x.com/info_myojou/status/2080274740976157078",
+            "start_at": "2026-07-02T20:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "前方",
+            "ticket_tier": "前方"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 4000,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2080274740976157078",
+            "source_url": "https://x.com/info_myojou/status/2080274740976157078",
+            "start_at": "2026-07-02T20:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 5000,
+            "result_at": null,
+            "sale_type": "当日券",
+            "source_post_id": "2080274740976157078",
+            "source_url": "https://x.com/info_myojou/status/2080274740976157078",
+            "start_at": null,
+            "status": "販売中",
+            "ticket_name": "当日券",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "http://tiget.net/events/502975",
+        "venue": "品川インターシティホール"
+      },
+      "raw": {
+        "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「TOKYO GIRLS GIRLS ~ 6th Anniversary day1 ~」\n\n🎙14:00-14:20\n📸14:30-15:50 E\n\n⟣date：7/24（金）\n⟣place : 品川インターシティホール\n⟣open/start：10:00/10:15 ※変更の可能性あり\n⟣price：前方¥10,000/通常¥4,000/当日¥5,000（各+1D） https://t.co/tr6fkSlCyP",
+        "attachments": {
+          "media_keys": [
+            "3_2080274735334875139"
+          ]
+        },
+        "created_at": "2026-07-23T12:52:02.000Z",
+        "edit_history_tweet_ids": [
+          "2080274740976157078"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/tr6fkSlCyP",
+              "end": 232,
+              "expanded_url": "https://x.com/info_myojou/status/2080274740976157078/photo/1",
+              "media_key": "3_2080274735334875139",
+              "start": 209,
+              "url": "https://t.co/tr6fkSlCyP"
+            }
+          ]
+        },
+        "full_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「TOKYO GIRLS GIRLS ~ 6th Anniversary day1 ~」\n\n🎙14:00-14:20\n📸14:30-15:50 E\n\n⟣date：7/24（金）\n⟣place : 品川インターシティホール\n⟣open/start：10:00/10:15 ※変更の可能性あり\n⟣price：前方¥10,000/通常¥4,000/当日¥5,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/2(木) 20:00-\n🔗 https://t.co/jcqgc8HAIw\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2080274740976157078",
+        "media": [
+          {
+            "height": 2048,
+            "media_key": "3_2080274735334875139",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HN6e2Zra4AMEVk_.jpg",
+            "width": 1460
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 287,
+                "start": 280,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "tiget.net/events/502975",
+                "end": 278,
+                "expanded_url": "http://tiget.net/events/502975",
+                "start": 255,
+                "url": "https://t.co/jcqgc8HAIw"
+              }
+            ]
+          },
+          "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「TOKYO GIRLS GIRLS ~ 6th Anniversary day1 ~」\n\n🎙14:00-14:20\n📸14:30-15:50 E\n\n⟣date：7/24（金）\n⟣place : 品川インターシティホール\n⟣open/start：10:00/10:15 ※変更の可能性あり\n⟣price：前方¥10,000/通常¥4,000/当日¥5,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/2(木) 20:00-\n🔗 https://t.co/jcqgc8HAIw\n\n#myojou"
+        },
+        "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「TOKYO GIRLS GIRLS ~ 6th Anniversary day1 ~」\n\n🎙14:00-14:20\n📸14:30-15:50 E\n\n⟣date：7/24（金）\n⟣place : 品川インターシティホール\n⟣open/start：10:00/10:15 ※変更の可能性あり\n⟣price：前方¥10,000/通常¥4,000/当日¥5,000（各+1D） https://t.co/tr6fkSlCyP",
+        "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「TOKYO GIRLS GIRLS ~ 6th Anniversary day1 ~」\n\n🎙14:00-14:20\n📸14:30-15:50 E\n\n⟣date：7/24（金）\n⟣place : 品川インターシティホール\n⟣open/start：10:00/10:15 ※変更の可能性あり\n⟣price：前方¥10,000/通常¥4,000/当日¥5,000（各+1D） https://t.co/tr6fkSlCyP"
+      },
+      "referenced_tweets": [],
+      "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「TOKYO GIRLS GIRLS ~ 6th Anniversary day1 ~」\n\n🎙14:00-14:20\n📸14:30-15:50 E\n\n⟣date：7/24（金）\n⟣place : 品川インターシティホール\n⟣open/start：10:00/10:15 ※変更の可能性あり\n⟣price：前方¥10,000/通常¥4,000/当日¥5,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/2(木) 20:00-\n🔗 https://t.co/jcqgc8HAIw\n\n#myojou",
+      "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「TOKYO GIRLS GIRLS ~ 6th Anniversary day1 ~」\n\n🎙14:00-14:20\n📸14:30-15:50 E\n\n⟣date：7/24（金）\n⟣place : 品川インターシティホール\n⟣open/start：10:00/10:15 ※変更の可能性あり\n⟣price：前方¥10,000/通常¥4,000/当日¥5,000（各+1D） https://t.co/tr6fkSlCyP",
+      "url": "https://x.com/info_myojou/status/2080274740976157078"
+    },
+    {
+      "api_text": "▶️LIVE DIGEST\nhilfe'''!!\n「灯火」\n\n#myojou https://t.co/AqMTR5NUaR",
+      "attachments": {
+        "media_keys": [
+          "13_2080214317954461696"
+        ]
+      },
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "live digest recap",
+        "source_kind": "other"
+      },
+      "created_at": "2026-07-23T08:53:10+00:00",
+      "entities": {
+        "hashtags": [
+          {
+            "end": 38,
+            "start": 31,
+            "tag": "myojou"
+          }
+        ],
+        "urls": [
+          {
+            "display_url": "pic.x.com/AqMTR5NUaR",
+            "end": 62,
+            "expanded_url": "https://x.com/info_myojou/status/2080214626911011097/video/1",
+            "media_key": "13_2080214317954461696",
+            "start": 39,
+            "url": "https://t.co/AqMTR5NUaR"
+          }
+        ]
+      },
+      "full_text_source": "text",
+      "id": "2080214626911011097",
+      "media": [
+        {
+          "height": 1080,
+          "media_key": "13_2080214317954461696",
+          "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2080214317954461696/img/JDFt-kcQkFJ7KHbm.jpg",
+          "type": "video",
+          "width": 1920
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "note_tweet": null,
+      "parsed_fields": null,
+      "raw": {
+        "api_text": "▶️LIVE DIGEST\nhilfe'''!!\n「灯火」\n\n#myojou https://t.co/AqMTR5NUaR",
+        "attachments": {
+          "media_keys": [
+            "13_2080214317954461696"
+          ]
+        },
+        "created_at": "2026-07-23T08:53:10.000Z",
+        "edit_history_tweet_ids": [
+          "2080214626911011097"
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "end": 38,
+              "start": 31,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "pic.x.com/AqMTR5NUaR",
+              "end": 62,
+              "expanded_url": "https://x.com/info_myojou/status/2080214626911011097/video/1",
+              "media_key": "13_2080214317954461696",
+              "start": 39,
+              "url": "https://t.co/AqMTR5NUaR"
+            }
+          ]
+        },
+        "full_text": "▶️LIVE DIGEST\nhilfe'''!!\n「灯火」\n\n#myojou https://t.co/AqMTR5NUaR",
+        "full_text_source": "text",
+        "id": "2080214626911011097",
+        "media": [
+          {
+            "height": 1080,
+            "media_key": "13_2080214317954461696",
+            "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2080214317954461696/img/JDFt-kcQkFJ7KHbm.jpg",
+            "type": "video",
+            "width": 1920
+          }
+        ],
+        "text": "▶️LIVE DIGEST\nhilfe'''!!\n「灯火」\n\n#myojou https://t.co/AqMTR5NUaR",
+        "truncated_text": null
+      },
+      "referenced_tweets": [],
+      "text": "▶️LIVE DIGEST\nhilfe'''!!\n「灯火」\n\n#myojou https://t.co/AqMTR5NUaR",
+      "truncated_text": null,
+      "url": "https://x.com/info_myojou/status/2080214626911011097"
+    },
+    {
+      "api_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            IDOL BIBLE vol.1\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n🎙20:00-20:30\n📸終演後特典会\n\n⟣date：7/30（木）\n⟣place : Veats Shibuya\n⟣open/start：16:00/16:40\n⟣price：前方チケット¥5,000/一般チケット¥1,500（各+1D） https://t.co/aLmT3XtoWi",
+      "attachments": {
+        "media_keys": [
+          "3_2080116883001667584"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "ticket_update"
+      },
+      "created_at": "2026-07-23T02:24:47+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/aLmT3XtoWi",
+            "end": 215,
+            "expanded_url": "https://x.com/info_myojou/status/2080116887921529185/photo/1",
+            "media_key": "3_2080116883001667584",
+            "start": 192,
+            "url": "https://t.co/aLmT3XtoWi"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2080116887921529185",
+      "media": [
+        {
+          "height": 2048,
+          "media_key": "3_2080116883001667584",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HN4PSL6bcAACiss.jpg",
+          "width": 1448
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 279,
+              "start": 272,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "t-dv.com/idol_bibile",
+              "end": 270,
+              "expanded_url": "http://t-dv.com/idol_bibile",
+              "start": 247,
+              "url": "https://t.co/nuy6QxfqJF"
+            }
+          ]
+        },
+        "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            IDOL BIBLE vol.1\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n🎙20:00-20:30\n📸終演後特典会\n\n⟣date：7/30（木）\n⟣place : Veats Shibuya\n⟣open/start：16:00/16:40\n⟣price：前方チケット¥5,000/一般チケット¥1,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n7/3 21:30-7/29（水）23:59\n🔗 https://t.co/nuy6QxfqJF\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": null,
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-07-30",
+        "event_dates": [
+          "2026-07-30"
+        ],
+        "event_name": "IDOL BIBLE vol.1",
+        "extraction_confidence": 0.95,
+        "general_ticket_price": 1500,
+        "lottery_result_at": null,
+        "myojou_performance_time": "20:00-20:30",
+        "notes": "ドリンク代: 各+1D\n⟣入場特典:明星カード(サインありチェキ)",
+        "open_time": "16:00",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "前方チケット",
+        "priority_ticket_price": 5000,
+        "same_day_ticket_price": null,
+        "source_kind": "ticket_update",
+        "source_post_id": "2080116887921529185",
+        "source_posted_at": "2026-07-23T02:24:47Z",
+        "source_raw": {
+          "api_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            IDOL BIBLE vol.1\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n🎙20:00-20:30\n📸終演後特典会\n\n⟣date：7/30（木）\n⟣place : Veats Shibuya\n⟣open/start：16:00/16:40\n⟣price：前方チケット¥5,000/一般チケット¥1,500（各+1D） https://t.co/aLmT3XtoWi",
+          "attachments": {
+            "media_keys": [
+              "3_2080116883001667584"
+            ]
+          },
+          "created_at": "2026-07-23T02:24:47.000Z",
+          "edit_history_tweet_ids": [
+            "2080116887921529185"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/aLmT3XtoWi",
+                "end": 215,
+                "expanded_url": "https://x.com/info_myojou/status/2080116887921529185/photo/1",
+                "media_key": "3_2080116883001667584",
+                "start": 192,
+                "url": "https://t.co/aLmT3XtoWi"
+              }
+            ]
+          },
+          "full_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            IDOL BIBLE vol.1\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n🎙20:00-20:30\n📸終演後特典会\n\n⟣date：7/30（木）\n⟣place : Veats Shibuya\n⟣open/start：16:00/16:40\n⟣price：前方チケット¥5,000/一般チケット¥1,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n7/3 21:30-7/29（水）23:59\n🔗 https://t.co/nuy6QxfqJF\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2080116887921529185",
+          "media": [
+            {
+              "height": 2048,
+              "media_key": "3_2080116883001667584",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HN4PSL6bcAACiss.jpg",
+              "width": 1448
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 279,
+                  "start": 272,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "t-dv.com/idol_bibile",
+                  "end": 270,
+                  "expanded_url": "http://t-dv.com/idol_bibile",
+                  "start": 247,
+                  "url": "https://t.co/nuy6QxfqJF"
+                }
+              ]
+            },
+            "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            IDOL BIBLE vol.1\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n🎙20:00-20:30\n📸終演後特典会\n\n⟣date：7/30（木）\n⟣place : Veats Shibuya\n⟣open/start：16:00/16:40\n⟣price：前方チケット¥5,000/一般チケット¥1,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n7/3 21:30-7/29（水）23:59\n🔗 https://t.co/nuy6QxfqJF\n\n#myojou"
+          },
+          "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            IDOL BIBLE vol.1\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n🎙20:00-20:30\n📸終演後特典会\n\n⟣date：7/30（木）\n⟣place : Veats Shibuya\n⟣open/start：16:00/16:40\n⟣price：前方チケット¥5,000/一般チケット¥1,500（各+1D） https://t.co/aLmT3XtoWi",
+          "truncated_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            IDOL BIBLE vol.1\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n🎙20:00-20:30\n📸終演後特典会\n\n⟣date：7/30（木）\n⟣place : Veats Shibuya\n⟣open/start：16:00/16:40\n⟣price：前方チケット¥5,000/一般チケット¥1,500（各+1D） https://t.co/aLmT3XtoWi"
+        },
+        "source_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            IDOL BIBLE vol.1\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n🎙20:00-20:30\n📸終演後特典会\n\n⟣date：7/30（木）\n⟣place : Veats Shibuya\n⟣open/start：16:00/16:40\n⟣price：前方チケット¥5,000/一般チケット¥1,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n7/3 21:30-7/29（水）23:59\n🔗 https://t.co/nuy6QxfqJF\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2080116887921529185",
+        "start_time": "16:40",
+        "ticket_application_deadline_at": "2026-07-29T23:59:00+09:00",
+        "ticket_application_start_at": "2026-07-03T21:30:00+09:00",
+        "ticket_sale_type": "一般",
+        "ticket_sales": [
+          {
+            "deadline_at": "2026-07-29T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 5000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2080116887921529185",
+            "source_url": "https://x.com/info_myojou/status/2080116887921529185",
+            "start_at": "2026-07-03T21:30:00+09:00",
+            "status": "不明",
+            "ticket_name": "前方チケット",
+            "ticket_tier": "前方"
+          },
+          {
+            "deadline_at": "2026-07-29T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 1500,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2080116887921529185",
+            "source_url": "https://x.com/info_myojou/status/2080116887921529185",
+            "start_at": "2026-07-03T21:30:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般チケット",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "http://t-dv.com/idol_bibile",
+        "venue": "Veats Shibuya"
+      },
+      "raw": {
+        "api_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            IDOL BIBLE vol.1\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n🎙20:00-20:30\n📸終演後特典会\n\n⟣date：7/30（木）\n⟣place : Veats Shibuya\n⟣open/start：16:00/16:40\n⟣price：前方チケット¥5,000/一般チケット¥1,500（各+1D） https://t.co/aLmT3XtoWi",
+        "attachments": {
+          "media_keys": [
+            "3_2080116883001667584"
+          ]
+        },
+        "created_at": "2026-07-23T02:24:47.000Z",
+        "edit_history_tweet_ids": [
+          "2080116887921529185"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/aLmT3XtoWi",
+              "end": 215,
+              "expanded_url": "https://x.com/info_myojou/status/2080116887921529185/photo/1",
+              "media_key": "3_2080116883001667584",
+              "start": 192,
+              "url": "https://t.co/aLmT3XtoWi"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            IDOL BIBLE vol.1\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n🎙20:00-20:30\n📸終演後特典会\n\n⟣date：7/30（木）\n⟣place : Veats Shibuya\n⟣open/start：16:00/16:40\n⟣price：前方チケット¥5,000/一般チケット¥1,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n7/3 21:30-7/29（水）23:59\n🔗 https://t.co/nuy6QxfqJF\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2080116887921529185",
+        "media": [
+          {
+            "height": 2048,
+            "media_key": "3_2080116883001667584",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HN4PSL6bcAACiss.jpg",
+            "width": 1448
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 279,
+                "start": 272,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "t-dv.com/idol_bibile",
+                "end": 270,
+                "expanded_url": "http://t-dv.com/idol_bibile",
+                "start": 247,
+                "url": "https://t.co/nuy6QxfqJF"
+              }
+            ]
+          },
+          "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            IDOL BIBLE vol.1\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n🎙20:00-20:30\n📸終演後特典会\n\n⟣date：7/30（木）\n⟣place : Veats Shibuya\n⟣open/start：16:00/16:40\n⟣price：前方チケット¥5,000/一般チケット¥1,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n7/3 21:30-7/29（水）23:59\n🔗 https://t.co/nuy6QxfqJF\n\n#myojou"
+        },
+        "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            IDOL BIBLE vol.1\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n🎙20:00-20:30\n📸終演後特典会\n\n⟣date：7/30（木）\n⟣place : Veats Shibuya\n⟣open/start：16:00/16:40\n⟣price：前方チケット¥5,000/一般チケット¥1,500（各+1D） https://t.co/aLmT3XtoWi",
+        "truncated_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            IDOL BIBLE vol.1\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n🎙20:00-20:30\n📸終演後特典会\n\n⟣date：7/30（木）\n⟣place : Veats Shibuya\n⟣open/start：16:00/16:40\n⟣price：前方チケット¥5,000/一般チケット¥1,500（各+1D） https://t.co/aLmT3XtoWi"
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            IDOL BIBLE vol.1\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n🎙20:00-20:30\n📸終演後特典会\n\n⟣date：7/30（木）\n⟣place : Veats Shibuya\n⟣open/start：16:00/16:40\n⟣price：前方チケット¥5,000/一般チケット¥1,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n7/3 21:30-7/29（水）23:59\n🔗 https://t.co/nuy6QxfqJF\n\n#myojou",
+      "truncated_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            IDOL BIBLE vol.1\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n🎙20:00-20:30\n📸終演後特典会\n\n⟣date：7/30（木）\n⟣place : Veats Shibuya\n⟣open/start：16:00/16:40\n⟣price：前方チケット¥5,000/一般チケット¥1,500（各+1D） https://t.co/aLmT3XtoWi",
+      "url": "https://x.com/info_myojou/status/2080116887921529185"
+    },
+    {
       "api_text": "▶️LIVE DIGEST\nUTAGE FES Vol.5\n「pepe\"灼熱の\"アンチコンプリート」\n\nFEEL \"392.00°F\" OVER🔥\n\n#myojou https://t.co/MroJfoB7kr",
       "attachments": {
         "media_keys": [
@@ -129002,7 +129613,7 @@
     "backfill": true,
     "dry_run": true,
     "estimated_x_post_reads": 411,
-    "latest_post_id": "2079933042337202264",
+    "latest_post_id": "2080274740976157078",
     "max_pages": 10,
     "max_posts": 500,
     "max_results": 5,
@@ -129045,16 +129656,16 @@
       }
     ],
     "pages_fetched": 5,
-    "posts_fetched": 600,
+    "posts_fetched": 603,
     "rate_limit_headers": {
       "x-rate-limit-limit": "10000",
       "x-rate-limit-remaining": "9993",
       "x-rate-limit-reset": "1781108896"
     },
-    "total_posts": 600,
-    "updated_at": "2026-07-22T20:12:44.905639+00:00",
+    "total_posts": 603,
+    "updated_at": "2026-07-23T20:16:27.424988+00:00",
     "username": "info_myojou"
   },
   "source": "x_api",
-  "updated_at": "2026-07-22T20:12:44.905639+00:00"
+  "updated_at": "2026-07-23T20:16:27.424988+00:00"
 }
