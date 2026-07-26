@@ -2,6 +2,1130 @@
   "captured_at": "2026-06-10T16:19:36.141820+00:00",
   "data": [
     {
+      "api_text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「マリークラウンPresents『 MARIE PARADE -vol,2- 』Special 2man Live」\n\n🎙19:15-19:45\n📸20:30-22:00\n\n⟣date：7/28（火）\n⟣place : 渋谷WOMB LIVE\n⟣open/start：18:30/19:45\n⟣price：SOLD OUT\n⟣入場特典：明星カード（サインありチェキ）\n\n#myojou https://t.co/u6e1iXh896",
+      "attachments": {
+        "media_keys": [
+          "3_2081351591974903808"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "sold_out"
+      },
+      "created_at": "2026-07-26T12:11:05+00:00",
+      "entities": {
+        "hashtags": [
+          {
+            "end": 215,
+            "start": 208,
+            "tag": "myojou"
+          }
+        ],
+        "urls": [
+          {
+            "display_url": "pic.x.com/u6e1iXh896",
+            "end": 239,
+            "expanded_url": "https://x.com/info_myojou/status/2081351596907393148/photo/1",
+            "media_key": "3_2081351591974903808",
+            "start": 216,
+            "url": "https://t.co/u6e1iXh896"
+          }
+        ]
+      },
+      "full_text_source": "text",
+      "id": "2081351596907393148",
+      "media": [
+        {
+          "height": 1519,
+          "media_key": "3_2081351591974903808",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HOJyPtRboAAEhBH.jpg",
+          "width": 1078
+        }
+      ],
+      "needs_review": true,
+      "needs_review_reasons": [
+        "ambiguous event match",
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": null,
+      "parsed_fields": {
+        "benefit_event_time": "20:30-22:00",
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-07-28",
+        "event_dates": [
+          "2026-07-28"
+        ],
+        "event_name": "マリークラウンPresents『 MARIE PARADE -vol,2- 』Special 2man Live",
+        "extraction_confidence": 0.95,
+        "general_ticket_price": null,
+        "lottery_result_at": null,
+        "myojou_performance_time": "19:15-19:45",
+        "notes": null,
+        "open_time": "18:30",
+        "payment_deadline_at": null,
+        "priority_ticket_name": null,
+        "priority_ticket_price": null,
+        "same_day_ticket_price": null,
+        "source_kind": "sold_out",
+        "source_post_id": "2081351596907393148",
+        "source_posted_at": "2026-07-26T12:11:05Z",
+        "source_raw": {
+          "api_text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「マリークラウンPresents『 MARIE PARADE -vol,2- 』Special 2man Live」\n\n🎙19:15-19:45\n📸20:30-22:00\n\n⟣date：7/28（火）\n⟣place : 渋谷WOMB LIVE\n⟣open/start：18:30/19:45\n⟣price：SOLD OUT\n⟣入場特典：明星カード（サインありチェキ）\n\n#myojou https://t.co/u6e1iXh896",
+          "attachments": {
+            "media_keys": [
+              "3_2081351591974903808"
+            ]
+          },
+          "created_at": "2026-07-26T12:11:05.000Z",
+          "edit_history_tweet_ids": [
+            "2081351596907393148"
+          ],
+          "entities": {
+            "hashtags": [
+              {
+                "end": 215,
+                "start": 208,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "pic.x.com/u6e1iXh896",
+                "end": 239,
+                "expanded_url": "https://x.com/info_myojou/status/2081351596907393148/photo/1",
+                "media_key": "3_2081351591974903808",
+                "start": 216,
+                "url": "https://t.co/u6e1iXh896"
+              }
+            ]
+          },
+          "full_text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「マリークラウンPresents『 MARIE PARADE -vol,2- 』Special 2man Live」\n\n🎙19:15-19:45\n📸20:30-22:00\n\n⟣date：7/28（火）\n⟣place : 渋谷WOMB LIVE\n⟣open/start：18:30/19:45\n⟣price：SOLD OUT\n⟣入場特典：明星カード（サインありチェキ）\n\n#myojou https://t.co/u6e1iXh896",
+          "full_text_source": "text",
+          "id": "2081351596907393148",
+          "media": [
+            {
+              "height": 1519,
+              "media_key": "3_2081351591974903808",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HOJyPtRboAAEhBH.jpg",
+              "width": 1078
+            }
+          ],
+          "text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「マリークラウンPresents『 MARIE PARADE -vol,2- 』Special 2man Live」\n\n🎙19:15-19:45\n📸20:30-22:00\n\n⟣date：7/28（火）\n⟣place : 渋谷WOMB LIVE\n⟣open/start：18:30/19:45\n⟣price：SOLD OUT\n⟣入場特典：明星カード（サインありチェキ）\n\n#myojou https://t.co/u6e1iXh896",
+          "truncated_text": null
+        },
+        "source_text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「マリークラウンPresents『 MARIE PARADE -vol,2- 』Special 2man Live」\n\n🎙19:15-19:45\n📸20:30-22:00\n\n⟣date：7/28（火）\n⟣place : 渋谷WOMB LIVE\n⟣open/start：18:30/19:45\n⟣price：SOLD OUT\n⟣入場特典：明星カード（サインありチェキ）\n\n#myojou https://t.co/u6e1iXh896",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2081351596907393148",
+        "start_time": "19:45",
+        "ticket_application_deadline_at": null,
+        "ticket_application_start_at": null,
+        "ticket_sale_type": null,
+        "ticket_sales": [],
+        "ticket_status": "sold_out",
+        "ticket_url": null,
+        "venue": "渋谷WOMB LIVE"
+      },
+      "raw": {
+        "api_text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「マリークラウンPresents『 MARIE PARADE -vol,2- 』Special 2man Live」\n\n🎙19:15-19:45\n📸20:30-22:00\n\n⟣date：7/28（火）\n⟣place : 渋谷WOMB LIVE\n⟣open/start：18:30/19:45\n⟣price：SOLD OUT\n⟣入場特典：明星カード（サインありチェキ）\n\n#myojou https://t.co/u6e1iXh896",
+        "attachments": {
+          "media_keys": [
+            "3_2081351591974903808"
+          ]
+        },
+        "created_at": "2026-07-26T12:11:05.000Z",
+        "edit_history_tweet_ids": [
+          "2081351596907393148"
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "end": 215,
+              "start": 208,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "pic.x.com/u6e1iXh896",
+              "end": 239,
+              "expanded_url": "https://x.com/info_myojou/status/2081351596907393148/photo/1",
+              "media_key": "3_2081351591974903808",
+              "start": 216,
+              "url": "https://t.co/u6e1iXh896"
+            }
+          ]
+        },
+        "full_text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「マリークラウンPresents『 MARIE PARADE -vol,2- 』Special 2man Live」\n\n🎙19:15-19:45\n📸20:30-22:00\n\n⟣date：7/28（火）\n⟣place : 渋谷WOMB LIVE\n⟣open/start：18:30/19:45\n⟣price：SOLD OUT\n⟣入場特典：明星カード（サインありチェキ）\n\n#myojou https://t.co/u6e1iXh896",
+        "full_text_source": "text",
+        "id": "2081351596907393148",
+        "media": [
+          {
+            "height": 1519,
+            "media_key": "3_2081351591974903808",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HOJyPtRboAAEhBH.jpg",
+            "width": 1078
+          }
+        ],
+        "text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「マリークラウンPresents『 MARIE PARADE -vol,2- 』Special 2man Live」\n\n🎙19:15-19:45\n📸20:30-22:00\n\n⟣date：7/28（火）\n⟣place : 渋谷WOMB LIVE\n⟣open/start：18:30/19:45\n⟣price：SOLD OUT\n⟣入場特典：明星カード（サインありチェキ）\n\n#myojou https://t.co/u6e1iXh896",
+        "truncated_text": null
+      },
+      "referenced_tweets": [],
+      "text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「マリークラウンPresents『 MARIE PARADE -vol,2- 』Special 2man Live」\n\n🎙19:15-19:45\n📸20:30-22:00\n\n⟣date：7/28（火）\n⟣place : 渋谷WOMB LIVE\n⟣open/start：18:30/19:45\n⟣price：SOLD OUT\n⟣入場特典：明星カード（サインありチェキ）\n\n#myojou https://t.co/u6e1iXh896",
+      "truncated_text": null,
+      "url": "https://x.com/info_myojou/status/2081351596907393148"
+    },
+    {
+      "api_text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n     myojou フリーライブイベント\n                             &amp;\n            TOKYO GIRLS GIRLS\n        ~ 6th Anniversary day3 ~\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯ https://t.co/STDz7kBjJY",
+      "attachments": {
+        "media_keys": [
+          "3_2081351244896149504"
+        ]
+      },
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "thank-you/recap post",
+        "source_kind": "other"
+      },
+      "created_at": "2026-07-26T12:09:44+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/STDz7kBjJY",
+            "end": 221,
+            "expanded_url": "https://x.com/info_myojou/status/2081351257277821078/photo/1",
+            "media_key": "3_2081351244896149504",
+            "start": 198,
+            "url": "https://t.co/STDz7kBjJY"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2081351257277821078",
+      "media": [
+        {
+          "alt_text": "myojouフリーライブイベント\nM1,yoakeno\nM2,夏、空模様\nM3,僕彩色\nM4,HeartBeat\nM5,星景讃歌\nM6,アンチコンプリート\n\nTOKYO GIRLS GIRLS ~ 6th Anniversary day3 ~\nM1,CHRONOS\nM2,軌跡まで\nM3,Star\nM4,蛍夏\nM5,アンチコンプリート",
+          "height": 3072,
+          "media_key": "3_2081351244896149504",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HOJx7gTaIAAqiZp.jpg",
+          "width": 4096
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 416,
+              "start": 409,
+              "tag": "myojou"
+            }
+          ],
+          "mentions": [
+            {
+              "end": 296,
+              "id": "1981655668626165760",
+              "start": 284,
+              "username": "myojou_ruka"
+            },
+            {
+              "end": 317,
+              "id": "1590652199407083520",
+              "start": 303,
+              "username": "myojou_cocone"
+            },
+            {
+              "end": 336,
+              "id": "1754991922807177216",
+              "start": 323,
+              "username": "myojou_shino"
+            },
+            {
+              "end": 353,
+              "id": "2009245855694675968",
+              "start": 342,
+              "username": "myojou_miu"
+            },
+            {
+              "end": 374,
+              "id": "1344586625901158401",
+              "start": 359,
+              "username": "myojou_usukura"
+            },
+            {
+              "end": 391,
+              "id": "2009274765895450624",
+              "start": 380,
+              "username": "myojou_yun"
+            }
+          ]
+        },
+        "text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n     myojou フリーライブイベント\n                             &\n            TOKYO GIRLS GIRLS\n        ~ 6th Anniversary day3 ~\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「myojouフリーライブイベント」、「TOKYO GIRLS GIRLS~ 6th Anniversary day3 ~」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka \n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n日陽みう@myojou_miu \n薄倉りな@myojou_usukura \n澪奈ゆん@myojou_yun \n\nSETLIST▶︎ALT\n\n #myojou"
+      },
+      "parsed_fields": null,
+      "raw": {
+        "api_text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n     myojou フリーライブイベント\n                             &amp;\n            TOKYO GIRLS GIRLS\n        ~ 6th Anniversary day3 ~\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯ https://t.co/STDz7kBjJY",
+        "attachments": {
+          "media_keys": [
+            "3_2081351244896149504"
+          ]
+        },
+        "created_at": "2026-07-26T12:09:44.000Z",
+        "edit_history_tweet_ids": [
+          "2081351257277821078"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/STDz7kBjJY",
+              "end": 221,
+              "expanded_url": "https://x.com/info_myojou/status/2081351257277821078/photo/1",
+              "media_key": "3_2081351244896149504",
+              "start": 198,
+              "url": "https://t.co/STDz7kBjJY"
+            }
+          ]
+        },
+        "full_text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n     myojou フリーライブイベント\n                             &\n            TOKYO GIRLS GIRLS\n        ~ 6th Anniversary day3 ~\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「myojouフリーライブイベント」、「TOKYO GIRLS GIRLS~ 6th Anniversary day3 ~」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka \n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n日陽みう@myojou_miu \n薄倉りな@myojou_usukura \n澪奈ゆん@myojou_yun \n\nSETLIST▶︎ALT\n\n #myojou",
+        "full_text_source": "note_tweet",
+        "id": "2081351257277821078",
+        "media": [
+          {
+            "alt_text": "myojouフリーライブイベント\nM1,yoakeno\nM2,夏、空模様\nM3,僕彩色\nM4,HeartBeat\nM5,星景讃歌\nM6,アンチコンプリート\n\nTOKYO GIRLS GIRLS ~ 6th Anniversary day3 ~\nM1,CHRONOS\nM2,軌跡まで\nM3,Star\nM4,蛍夏\nM5,アンチコンプリート",
+            "height": 3072,
+            "media_key": "3_2081351244896149504",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HOJx7gTaIAAqiZp.jpg",
+            "width": 4096
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 416,
+                "start": 409,
+                "tag": "myojou"
+              }
+            ],
+            "mentions": [
+              {
+                "end": 296,
+                "id": "1981655668626165760",
+                "start": 284,
+                "username": "myojou_ruka"
+              },
+              {
+                "end": 317,
+                "id": "1590652199407083520",
+                "start": 303,
+                "username": "myojou_cocone"
+              },
+              {
+                "end": 336,
+                "id": "1754991922807177216",
+                "start": 323,
+                "username": "myojou_shino"
+              },
+              {
+                "end": 353,
+                "id": "2009245855694675968",
+                "start": 342,
+                "username": "myojou_miu"
+              },
+              {
+                "end": 374,
+                "id": "1344586625901158401",
+                "start": 359,
+                "username": "myojou_usukura"
+              },
+              {
+                "end": 391,
+                "id": "2009274765895450624",
+                "start": 380,
+                "username": "myojou_yun"
+              }
+            ]
+          },
+          "text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n     myojou フリーライブイベント\n                             &\n            TOKYO GIRLS GIRLS\n        ~ 6th Anniversary day3 ~\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「myojouフリーライブイベント」、「TOKYO GIRLS GIRLS~ 6th Anniversary day3 ~」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka \n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n日陽みう@myojou_miu \n薄倉りな@myojou_usukura \n澪奈ゆん@myojou_yun \n\nSETLIST▶︎ALT\n\n #myojou"
+        },
+        "text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n     myojou フリーライブイベント\n                             &amp;\n            TOKYO GIRLS GIRLS\n        ~ 6th Anniversary day3 ~\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯ https://t.co/STDz7kBjJY",
+        "truncated_text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n     myojou フリーライブイベント\n                             &amp;\n            TOKYO GIRLS GIRLS\n        ~ 6th Anniversary day3 ~\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯ https://t.co/STDz7kBjJY"
+      },
+      "referenced_tweets": [],
+      "text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n     myojou フリーライブイベント\n                             &\n            TOKYO GIRLS GIRLS\n        ~ 6th Anniversary day3 ~\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「myojouフリーライブイベント」、「TOKYO GIRLS GIRLS~ 6th Anniversary day3 ~」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka \n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n日陽みう@myojou_miu \n薄倉りな@myojou_usukura \n澪奈ゆん@myojou_yun \n\nSETLIST▶︎ALT\n\n #myojou",
+      "truncated_text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n     myojou フリーライブイベント\n                             &amp;\n            TOKYO GIRLS GIRLS\n        ~ 6th Anniversary day3 ~\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯ https://t.co/STDz7kBjJY",
+      "url": "https://x.com/info_myojou/status/2081351257277821078"
+    },
+    {
+      "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n        IDOL SUMMER JUNGLE 2026\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\nDay1\n📍SNAKE STAGE\n🎙19:50-20:05\n\nDay2\n📍MONKEY STAGE\n🎙14:15-14:35\n\n⟣date：8/7（金）,8/8（土）\n⟣place : お台場R地区\n⟣open/start：9:00/10:00 https://t.co/wjaVTmirfX",
+      "attachments": {
+        "media_keys": [
+          "3_2081304083521249284",
+          "3_2081304083487686656"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "ticket_update"
+      },
+      "created_at": "2026-07-26T09:02:18+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/wjaVTmirfX",
+            "end": 228,
+            "expanded_url": "https://x.com/info_myojou/status/2081304092199313779/photo/1",
+            "media_key": "3_2081304083521249284",
+            "start": 205,
+            "url": "https://t.co/wjaVTmirfX"
+          },
+          {
+            "display_url": "pic.x.com/wjaVTmirfX",
+            "end": 228,
+            "expanded_url": "https://x.com/info_myojou/status/2081304092199313779/photo/1",
+            "media_key": "3_2081304083487686656",
+            "start": 205,
+            "url": "https://t.co/wjaVTmirfX"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2081304092199313779",
+      "media": [
+        {
+          "height": 4042,
+          "media_key": "3_2081304083521249284",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HOJHCWfaoAQ6FZq.jpg",
+          "width": 2890
+        },
+        {
+          "height": 4042,
+          "media_key": "3_2081304083487686656",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HOJHCWXagAAqoWv.jpg",
+          "width": 2890
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 381,
+              "start": 374,
+              "tag": "myojou"
+            },
+            {
+              "end": 392,
+              "start": 382,
+              "tag": "ミョージョーサマー"
+            },
+            {
+              "end": 403,
+              "start": 393,
+              "tag": "サマジャン2026"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "ticketdive.com/event/idolsumm…",
+              "end": 372,
+              "expanded_url": "https://ticketdive.com/event/idolsummerjungle2026",
+              "start": 349,
+              "url": "https://t.co/vGPzCwXlpR"
+            }
+          ]
+        },
+        "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n        IDOL SUMMER JUNGLE 2026\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\nDay1\n📍SNAKE STAGE\n🎙19:50-20:05\n\nDay2\n📍MONKEY STAGE\n🎙14:15-14:35\n\n⟣date：8/7（金）,8/8（土）\n⟣place : お台場R地区\n⟣open/start：9:00/10:00\n⟣price：VIPチケット¥28,000/一般チケット¥5,000/女性チケット¥4,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n･VIPチケット\n【一般販売】\n7/6（月）18:00-\n･一般チケット,女性チケット\n【一般販売】\n6/9（火）18:00-\n\n🔗 https://t.co/vGPzCwXlpR\n\n#myojou\n#ミョージョーサマー\n#サマジャン2026"
+      },
+      "parsed_fields": {
+        "benefit_event_time": null,
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-08-07",
+        "event_dates": [
+          "2026-08-07",
+          "2026-08-08"
+        ],
+        "event_name": "IDOL SUMMER JUNGLE 2026",
+        "extraction_confidence": 0.95,
+        "general_ticket_price": 5000,
+        "lottery_result_at": null,
+        "myojou_performance_time": "19:50-20:05",
+        "notes": "ドリンク代: 各+1D\n⟣入場特典:明星カード(サインありチェキ)",
+        "open_time": "09:00",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "VIPチケット",
+        "priority_ticket_price": 28000,
+        "same_day_ticket_price": null,
+        "source_kind": "ticket_update",
+        "source_post_id": "2081304092199313779",
+        "source_posted_at": "2026-07-26T09:02:18Z",
+        "source_raw": {
+          "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n        IDOL SUMMER JUNGLE 2026\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\nDay1\n📍SNAKE STAGE\n🎙19:50-20:05\n\nDay2\n📍MONKEY STAGE\n🎙14:15-14:35\n\n⟣date：8/7（金）,8/8（土）\n⟣place : お台場R地区\n⟣open/start：9:00/10:00 https://t.co/wjaVTmirfX",
+          "attachments": {
+            "media_keys": [
+              "3_2081304083521249284",
+              "3_2081304083487686656"
+            ]
+          },
+          "created_at": "2026-07-26T09:02:18.000Z",
+          "edit_history_tweet_ids": [
+            "2081304092199313779"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/wjaVTmirfX",
+                "end": 228,
+                "expanded_url": "https://x.com/info_myojou/status/2081304092199313779/photo/1",
+                "media_key": "3_2081304083521249284",
+                "start": 205,
+                "url": "https://t.co/wjaVTmirfX"
+              },
+              {
+                "display_url": "pic.x.com/wjaVTmirfX",
+                "end": 228,
+                "expanded_url": "https://x.com/info_myojou/status/2081304092199313779/photo/1",
+                "media_key": "3_2081304083487686656",
+                "start": 205,
+                "url": "https://t.co/wjaVTmirfX"
+              }
+            ]
+          },
+          "full_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n        IDOL SUMMER JUNGLE 2026\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\nDay1\n📍SNAKE STAGE\n🎙19:50-20:05\n\nDay2\n📍MONKEY STAGE\n🎙14:15-14:35\n\n⟣date：8/7（金）,8/8（土）\n⟣place : お台場R地区\n⟣open/start：9:00/10:00\n⟣price：VIPチケット¥28,000/一般チケット¥5,000/女性チケット¥4,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n･VIPチケット\n【一般販売】\n7/6（月）18:00-\n･一般チケット,女性チケット\n【一般販売】\n6/9（火）18:00-\n\n🔗 https://t.co/vGPzCwXlpR\n\n#myojou\n#ミョージョーサマー\n#サマジャン2026",
+          "full_text_source": "note_tweet",
+          "id": "2081304092199313779",
+          "media": [
+            {
+              "height": 4042,
+              "media_key": "3_2081304083521249284",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HOJHCWfaoAQ6FZq.jpg",
+              "width": 2890
+            },
+            {
+              "height": 4042,
+              "media_key": "3_2081304083487686656",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HOJHCWXagAAqoWv.jpg",
+              "width": 2890
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 381,
+                  "start": 374,
+                  "tag": "myojou"
+                },
+                {
+                  "end": 392,
+                  "start": 382,
+                  "tag": "ミョージョーサマー"
+                },
+                {
+                  "end": 403,
+                  "start": 393,
+                  "tag": "サマジャン2026"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "ticketdive.com/event/idolsumm…",
+                  "end": 372,
+                  "expanded_url": "https://ticketdive.com/event/idolsummerjungle2026",
+                  "start": 349,
+                  "url": "https://t.co/vGPzCwXlpR"
+                }
+              ]
+            },
+            "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n        IDOL SUMMER JUNGLE 2026\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\nDay1\n📍SNAKE STAGE\n🎙19:50-20:05\n\nDay2\n📍MONKEY STAGE\n🎙14:15-14:35\n\n⟣date：8/7（金）,8/8（土）\n⟣place : お台場R地区\n⟣open/start：9:00/10:00\n⟣price：VIPチケット¥28,000/一般チケット¥5,000/女性チケット¥4,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n･VIPチケット\n【一般販売】\n7/6（月）18:00-\n･一般チケット,女性チケット\n【一般販売】\n6/9（火）18:00-\n\n🔗 https://t.co/vGPzCwXlpR\n\n#myojou\n#ミョージョーサマー\n#サマジャン2026"
+          },
+          "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n        IDOL SUMMER JUNGLE 2026\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\nDay1\n📍SNAKE STAGE\n🎙19:50-20:05\n\nDay2\n📍MONKEY STAGE\n🎙14:15-14:35\n\n⟣date：8/7（金）,8/8（土）\n⟣place : お台場R地区\n⟣open/start：9:00/10:00 https://t.co/wjaVTmirfX",
+          "truncated_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n        IDOL SUMMER JUNGLE 2026\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\nDay1\n📍SNAKE STAGE\n🎙19:50-20:05\n\nDay2\n📍MONKEY STAGE\n🎙14:15-14:35\n\n⟣date：8/7（金）,8/8（土）\n⟣place : お台場R地区\n⟣open/start：9:00/10:00 https://t.co/wjaVTmirfX"
+        },
+        "source_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n        IDOL SUMMER JUNGLE 2026\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\nDay1\n📍SNAKE STAGE\n🎙19:50-20:05\n\nDay2\n📍MONKEY STAGE\n🎙14:15-14:35\n\n⟣date：8/7（金）,8/8（土）\n⟣place : お台場R地区\n⟣open/start：9:00/10:00\n⟣price：VIPチケット¥28,000/一般チケット¥5,000/女性チケット¥4,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n･VIPチケット\n【一般販売】\n7/6（月）18:00-\n･一般チケット,女性チケット\n【一般販売】\n6/9（火）18:00-\n\n🔗 https://t.co/vGPzCwXlpR\n\n#myojou\n#ミョージョーサマー\n#サマジャン2026",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2081304092199313779",
+        "start_time": "10:00",
+        "ticket_application_deadline_at": null,
+        "ticket_application_start_at": "2026-06-09T18:00:00+09:00",
+        "ticket_sale_type": "一般",
+        "ticket_sales": [
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 28000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2081304092199313779",
+            "source_url": "https://x.com/info_myojou/status/2081304092199313779",
+            "start_at": "2026-07-06T18:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "VIPチケット",
+            "ticket_tier": "VIP"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 5000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2081304092199313779",
+            "source_url": "https://x.com/info_myojou/status/2081304092199313779",
+            "start_at": "2026-07-06T18:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般チケット",
+            "ticket_tier": "一般"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 28000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2081304092199313779",
+            "source_url": "https://x.com/info_myojou/status/2081304092199313779",
+            "start_at": "2026-06-09T18:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "VIPチケット",
+            "ticket_tier": "VIP"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 5000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2081304092199313779",
+            "source_url": "https://x.com/info_myojou/status/2081304092199313779",
+            "start_at": "2026-06-09T18:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般チケット",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "https://ticketdive.com/event/idolsummerjungle2026",
+        "venue": "お台場R地区"
+      },
+      "raw": {
+        "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n        IDOL SUMMER JUNGLE 2026\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\nDay1\n📍SNAKE STAGE\n🎙19:50-20:05\n\nDay2\n📍MONKEY STAGE\n🎙14:15-14:35\n\n⟣date：8/7（金）,8/8（土）\n⟣place : お台場R地区\n⟣open/start：9:00/10:00 https://t.co/wjaVTmirfX",
+        "attachments": {
+          "media_keys": [
+            "3_2081304083521249284",
+            "3_2081304083487686656"
+          ]
+        },
+        "created_at": "2026-07-26T09:02:18.000Z",
+        "edit_history_tweet_ids": [
+          "2081304092199313779"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/wjaVTmirfX",
+              "end": 228,
+              "expanded_url": "https://x.com/info_myojou/status/2081304092199313779/photo/1",
+              "media_key": "3_2081304083521249284",
+              "start": 205,
+              "url": "https://t.co/wjaVTmirfX"
+            },
+            {
+              "display_url": "pic.x.com/wjaVTmirfX",
+              "end": 228,
+              "expanded_url": "https://x.com/info_myojou/status/2081304092199313779/photo/1",
+              "media_key": "3_2081304083487686656",
+              "start": 205,
+              "url": "https://t.co/wjaVTmirfX"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n        IDOL SUMMER JUNGLE 2026\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\nDay1\n📍SNAKE STAGE\n🎙19:50-20:05\n\nDay2\n📍MONKEY STAGE\n🎙14:15-14:35\n\n⟣date：8/7（金）,8/8（土）\n⟣place : お台場R地区\n⟣open/start：9:00/10:00\n⟣price：VIPチケット¥28,000/一般チケット¥5,000/女性チケット¥4,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n･VIPチケット\n【一般販売】\n7/6（月）18:00-\n･一般チケット,女性チケット\n【一般販売】\n6/9（火）18:00-\n\n🔗 https://t.co/vGPzCwXlpR\n\n#myojou\n#ミョージョーサマー\n#サマジャン2026",
+        "full_text_source": "note_tweet",
+        "id": "2081304092199313779",
+        "media": [
+          {
+            "height": 4042,
+            "media_key": "3_2081304083521249284",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HOJHCWfaoAQ6FZq.jpg",
+            "width": 2890
+          },
+          {
+            "height": 4042,
+            "media_key": "3_2081304083487686656",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HOJHCWXagAAqoWv.jpg",
+            "width": 2890
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 381,
+                "start": 374,
+                "tag": "myojou"
+              },
+              {
+                "end": 392,
+                "start": 382,
+                "tag": "ミョージョーサマー"
+              },
+              {
+                "end": 403,
+                "start": 393,
+                "tag": "サマジャン2026"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "ticketdive.com/event/idolsumm…",
+                "end": 372,
+                "expanded_url": "https://ticketdive.com/event/idolsummerjungle2026",
+                "start": 349,
+                "url": "https://t.co/vGPzCwXlpR"
+              }
+            ]
+          },
+          "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n        IDOL SUMMER JUNGLE 2026\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\nDay1\n📍SNAKE STAGE\n🎙19:50-20:05\n\nDay2\n📍MONKEY STAGE\n🎙14:15-14:35\n\n⟣date：8/7（金）,8/8（土）\n⟣place : お台場R地区\n⟣open/start：9:00/10:00\n⟣price：VIPチケット¥28,000/一般チケット¥5,000/女性チケット¥4,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n･VIPチケット\n【一般販売】\n7/6（月）18:00-\n･一般チケット,女性チケット\n【一般販売】\n6/9（火）18:00-\n\n🔗 https://t.co/vGPzCwXlpR\n\n#myojou\n#ミョージョーサマー\n#サマジャン2026"
+        },
+        "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n        IDOL SUMMER JUNGLE 2026\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\nDay1\n📍SNAKE STAGE\n🎙19:50-20:05\n\nDay2\n📍MONKEY STAGE\n🎙14:15-14:35\n\n⟣date：8/7（金）,8/8（土）\n⟣place : お台場R地区\n⟣open/start：9:00/10:00 https://t.co/wjaVTmirfX",
+        "truncated_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n        IDOL SUMMER JUNGLE 2026\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\nDay1\n📍SNAKE STAGE\n🎙19:50-20:05\n\nDay2\n📍MONKEY STAGE\n🎙14:15-14:35\n\n⟣date：8/7（金）,8/8（土）\n⟣place : お台場R地区\n⟣open/start：9:00/10:00 https://t.co/wjaVTmirfX"
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n        IDOL SUMMER JUNGLE 2026\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\nDay1\n📍SNAKE STAGE\n🎙19:50-20:05\n\nDay2\n📍MONKEY STAGE\n🎙14:15-14:35\n\n⟣date：8/7（金）,8/8（土）\n⟣place : お台場R地区\n⟣open/start：9:00/10:00\n⟣price：VIPチケット¥28,000/一般チケット¥5,000/女性チケット¥4,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n･VIPチケット\n【一般販売】\n7/6（月）18:00-\n･一般チケット,女性チケット\n【一般販売】\n6/9（火）18:00-\n\n🔗 https://t.co/vGPzCwXlpR\n\n#myojou\n#ミョージョーサマー\n#サマジャン2026",
+      "truncated_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n        IDOL SUMMER JUNGLE 2026\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\nDay1\n📍SNAKE STAGE\n🎙19:50-20:05\n\nDay2\n📍MONKEY STAGE\n🎙14:15-14:35\n\n⟣date：8/7（金）,8/8（土）\n⟣place : お台場R地区\n⟣open/start：9:00/10:00 https://t.co/wjaVTmirfX",
+      "url": "https://x.com/info_myojou/status/2081304092199313779"
+    },
+    {
+      "api_text": "【本日の「myojouフリーライブイベント」特典券について】\n\n本日開催の「myojouフリーライブイベント」にて、時間の都合上、撮影しきれなかったデジタル特典券につきましては、有効期限を8/26（水）まで延長し、他イベントで使用可能とさせていただきます。 https://t.co/jXMHxs7PBs",
+      "attachments": {},
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "same_day_reminder"
+      },
+      "created_at": "2026-07-26T07:45:51+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "x.com/info_myojou/st…",
+            "end": 152,
+            "expanded_url": "https://twitter.com/info_myojou/status/2081223414430433303",
+            "start": 129,
+            "url": "https://t.co/jXMHxs7PBs"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2081284852779810906",
+      "media": [],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "missing venue",
+        "missing ticket deadline",
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 223,
+              "start": 216,
+              "tag": "myojou"
+            }
+          ]
+        },
+        "text": "【本日の「myojouフリーライブイベント」特典券について】\n\n本日開催の「myojouフリーライブイベント」にて、時間の都合上、撮影しきれなかったデジタル特典券につきましては、有効期限を8/26（水）まで延長し、他イベントで使用可能とさせていただきます。\n\nデジタル特典券をご使用の際は、物販卓にて通常の特典券へ引き換えさせていただきますので、物販卓までお越しください。\n\nご理解・ご協力のほど、何卒よろしくお願いいたします。\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": null,
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-08-26",
+        "event_dates": [
+          "2026-08-26"
+        ],
+        "event_name": "myojouフリーライブイベント",
+        "extraction_confidence": 0.65,
+        "general_ticket_price": null,
+        "lottery_result_at": null,
+        "myojou_performance_time": null,
+        "notes": null,
+        "open_time": null,
+        "payment_deadline_at": null,
+        "priority_ticket_name": null,
+        "priority_ticket_price": null,
+        "same_day_ticket_price": null,
+        "source_kind": "same_day_reminder",
+        "source_post_id": "2081284852779810906",
+        "source_posted_at": "2026-07-26T07:45:51Z",
+        "source_raw": {
+          "api_text": "【本日の「myojouフリーライブイベント」特典券について】\n\n本日開催の「myojouフリーライブイベント」にて、時間の都合上、撮影しきれなかったデジタル特典券につきましては、有効期限を8/26（水）まで延長し、他イベントで使用可能とさせていただきます。 https://t.co/jXMHxs7PBs",
+          "created_at": "2026-07-26T07:45:51.000Z",
+          "edit_history_tweet_ids": [
+            "2081284852779810906"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "x.com/info_myojou/st…",
+                "end": 152,
+                "expanded_url": "https://twitter.com/info_myojou/status/2081223414430433303",
+                "start": 129,
+                "url": "https://t.co/jXMHxs7PBs"
+              }
+            ]
+          },
+          "full_text": "【本日の「myojouフリーライブイベント」特典券について】\n\n本日開催の「myojouフリーライブイベント」にて、時間の都合上、撮影しきれなかったデジタル特典券につきましては、有効期限を8/26（水）まで延長し、他イベントで使用可能とさせていただきます。\n\nデジタル特典券をご使用の際は、物販卓にて通常の特典券へ引き換えさせていただきますので、物販卓までお越しください。\n\nご理解・ご協力のほど、何卒よろしくお願いいたします。\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2081284852779810906",
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 223,
+                  "start": 216,
+                  "tag": "myojou"
+                }
+              ]
+            },
+            "text": "【本日の「myojouフリーライブイベント」特典券について】\n\n本日開催の「myojouフリーライブイベント」にて、時間の都合上、撮影しきれなかったデジタル特典券につきましては、有効期限を8/26（水）まで延長し、他イベントで使用可能とさせていただきます。\n\nデジタル特典券をご使用の際は、物販卓にて通常の特典券へ引き換えさせていただきますので、物販卓までお越しください。\n\nご理解・ご協力のほど、何卒よろしくお願いいたします。\n\n#myojou"
+          },
+          "referenced_tweets": [
+            {
+              "id": "2081223414430433303",
+              "type": "quoted"
+            }
+          ],
+          "text": "【本日の「myojouフリーライブイベント」特典券について】\n\n本日開催の「myojouフリーライブイベント」にて、時間の都合上、撮影しきれなかったデジタル特典券につきましては、有効期限を8/26（水）まで延長し、他イベントで使用可能とさせていただきます。 https://t.co/jXMHxs7PBs",
+          "truncated_text": "【本日の「myojouフリーライブイベント」特典券について】\n\n本日開催の「myojouフリーライブイベント」にて、時間の都合上、撮影しきれなかったデジタル特典券につきましては、有効期限を8/26（水）まで延長し、他イベントで使用可能とさせていただきます。 https://t.co/jXMHxs7PBs"
+        },
+        "source_text": "【本日の「myojouフリーライブイベント」特典券について】\n\n本日開催の「myojouフリーライブイベント」にて、時間の都合上、撮影しきれなかったデジタル特典券につきましては、有効期限を8/26（水）まで延長し、他イベントで使用可能とさせていただきます。\n\nデジタル特典券をご使用の際は、物販卓にて通常の特典券へ引き換えさせていただきますので、物販卓までお越しください。\n\nご理解・ご協力のほど、何卒よろしくお願いいたします。\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2081284852779810906",
+        "start_time": null,
+        "ticket_application_deadline_at": null,
+        "ticket_application_start_at": null,
+        "ticket_sale_type": null,
+        "ticket_sales": [],
+        "ticket_status": null,
+        "ticket_url": null,
+        "venue": null
+      },
+      "raw": {
+        "api_text": "【本日の「myojouフリーライブイベント」特典券について】\n\n本日開催の「myojouフリーライブイベント」にて、時間の都合上、撮影しきれなかったデジタル特典券につきましては、有効期限を8/26（水）まで延長し、他イベントで使用可能とさせていただきます。 https://t.co/jXMHxs7PBs",
+        "created_at": "2026-07-26T07:45:51.000Z",
+        "edit_history_tweet_ids": [
+          "2081284852779810906"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "x.com/info_myojou/st…",
+              "end": 152,
+              "expanded_url": "https://twitter.com/info_myojou/status/2081223414430433303",
+              "start": 129,
+              "url": "https://t.co/jXMHxs7PBs"
+            }
+          ]
+        },
+        "full_text": "【本日の「myojouフリーライブイベント」特典券について】\n\n本日開催の「myojouフリーライブイベント」にて、時間の都合上、撮影しきれなかったデジタル特典券につきましては、有効期限を8/26（水）まで延長し、他イベントで使用可能とさせていただきます。\n\nデジタル特典券をご使用の際は、物販卓にて通常の特典券へ引き換えさせていただきますので、物販卓までお越しください。\n\nご理解・ご協力のほど、何卒よろしくお願いいたします。\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2081284852779810906",
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 223,
+                "start": 216,
+                "tag": "myojou"
+              }
+            ]
+          },
+          "text": "【本日の「myojouフリーライブイベント」特典券について】\n\n本日開催の「myojouフリーライブイベント」にて、時間の都合上、撮影しきれなかったデジタル特典券につきましては、有効期限を8/26（水）まで延長し、他イベントで使用可能とさせていただきます。\n\nデジタル特典券をご使用の際は、物販卓にて通常の特典券へ引き換えさせていただきますので、物販卓までお越しください。\n\nご理解・ご協力のほど、何卒よろしくお願いいたします。\n\n#myojou"
+        },
+        "referenced_tweets": [
+          {
+            "id": "2081223414430433303",
+            "type": "quoted"
+          }
+        ],
+        "text": "【本日の「myojouフリーライブイベント」特典券について】\n\n本日開催の「myojouフリーライブイベント」にて、時間の都合上、撮影しきれなかったデジタル特典券につきましては、有効期限を8/26（水）まで延長し、他イベントで使用可能とさせていただきます。 https://t.co/jXMHxs7PBs",
+        "truncated_text": "【本日の「myojouフリーライブイベント」特典券について】\n\n本日開催の「myojouフリーライブイベント」にて、時間の都合上、撮影しきれなかったデジタル特典券につきましては、有効期限を8/26（水）まで延長し、他イベントで使用可能とさせていただきます。 https://t.co/jXMHxs7PBs"
+      },
+      "referenced_tweets": [
+        {
+          "id": "2081223414430433303",
+          "type": "quoted"
+        }
+      ],
+      "text": "【本日の「myojouフリーライブイベント」特典券について】\n\n本日開催の「myojouフリーライブイベント」にて、時間の都合上、撮影しきれなかったデジタル特典券につきましては、有効期限を8/26（水）まで延長し、他イベントで使用可能とさせていただきます。\n\nデジタル特典券をご使用の際は、物販卓にて通常の特典券へ引き換えさせていただきますので、物販卓までお越しください。\n\nご理解・ご協力のほど、何卒よろしくお願いいたします。\n\n#myojou",
+      "truncated_text": "【本日の「myojouフリーライブイベント」特典券について】\n\n本日開催の「myojouフリーライブイベント」にて、時間の都合上、撮影しきれなかったデジタル特典券につきましては、有効期限を8/26（水）まで延長し、他イベントで使用可能とさせていただきます。 https://t.co/jXMHxs7PBs",
+      "url": "https://x.com/info_myojou/status/2081284852779810906"
+    },
+    {
+      "api_text": "ラクーアガーデンステージにてライブをさせて頂いている「myojou（みょうじょう）」です！\n\n本日初めてmyojouをご覧になられた方は、このあと14:45頃より特典会にてお好きなメンバー1名と無料でチェキ撮影出来ます📸\n\nお時間がある方はぜひご参加ください⋆˙⟡\n\n #myojou\n #ラクーアガーデン https://t.co/7bR5khaVNd https://t.co/jXMHxs8nr0",
+      "attachments": {
+        "media_keys": [
+          "13_2081252490985771008"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "same_day_reminder"
+      },
+      "created_at": "2026-07-26T05:38:47+00:00",
+      "entities": {
+        "hashtags": [
+          {
+            "end": 142,
+            "start": 135,
+            "tag": "myojou"
+          },
+          {
+            "end": 153,
+            "start": 144,
+            "tag": "ラクーアガーデン"
+          }
+        ],
+        "urls": [
+          {
+            "display_url": "pic.x.com/7bR5khaVNd",
+            "end": 177,
+            "expanded_url": "https://x.com/info_myojou/status/2081252872831078552/video/1",
+            "media_key": "13_2081252490985771008",
+            "start": 154,
+            "url": "https://t.co/7bR5khaVNd"
+          },
+          {
+            "display_url": "x.com/info_myojou/st…",
+            "end": 201,
+            "expanded_url": "https://twitter.com/info_myojou/status/2081223414430433303",
+            "start": 178,
+            "url": "https://t.co/jXMHxs8nr0"
+          }
+        ]
+      },
+      "full_text_source": "text",
+      "id": "2081252872831078552",
+      "media": [
+        {
+          "height": 1734,
+          "media_key": "13_2081252490985771008",
+          "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2081252490985771008/img/Df5cDWfXhTNptkyU.jpg",
+          "type": "video",
+          "width": 3084
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "missing venue",
+        "missing ticket deadline",
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": null,
+      "parsed_fields": {
+        "benefit_event_time": "14:45",
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-07-26",
+        "event_dates": [
+          "2026-07-26"
+        ],
+        "event_name": "ラクーアガーデンステージにてライブをさせて頂いている「myojou(みょうじょう)」です!",
+        "extraction_confidence": 0.75,
+        "general_ticket_price": null,
+        "lottery_result_at": null,
+        "myojou_performance_time": "14:45",
+        "notes": null,
+        "open_time": null,
+        "payment_deadline_at": null,
+        "priority_ticket_name": null,
+        "priority_ticket_price": null,
+        "same_day_ticket_price": null,
+        "source_kind": "same_day_reminder",
+        "source_post_id": "2081252872831078552",
+        "source_posted_at": "2026-07-26T05:38:47Z",
+        "source_raw": {
+          "api_text": "ラクーアガーデンステージにてライブをさせて頂いている「myojou（みょうじょう）」です！\n\n本日初めてmyojouをご覧になられた方は、このあと14:45頃より特典会にてお好きなメンバー1名と無料でチェキ撮影出来ます📸\n\nお時間がある方はぜひご参加ください⋆˙⟡\n\n #myojou\n #ラクーアガーデン https://t.co/7bR5khaVNd https://t.co/jXMHxs8nr0",
+          "attachments": {
+            "media_keys": [
+              "13_2081252490985771008"
+            ]
+          },
+          "created_at": "2026-07-26T05:38:47.000Z",
+          "edit_history_tweet_ids": [
+            "2081252872831078552"
+          ],
+          "entities": {
+            "hashtags": [
+              {
+                "end": 142,
+                "start": 135,
+                "tag": "myojou"
+              },
+              {
+                "end": 153,
+                "start": 144,
+                "tag": "ラクーアガーデン"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "pic.x.com/7bR5khaVNd",
+                "end": 177,
+                "expanded_url": "https://x.com/info_myojou/status/2081252872831078552/video/1",
+                "media_key": "13_2081252490985771008",
+                "start": 154,
+                "url": "https://t.co/7bR5khaVNd"
+              },
+              {
+                "display_url": "x.com/info_myojou/st…",
+                "end": 201,
+                "expanded_url": "https://twitter.com/info_myojou/status/2081223414430433303",
+                "start": 178,
+                "url": "https://t.co/jXMHxs8nr0"
+              }
+            ]
+          },
+          "full_text": "ラクーアガーデンステージにてライブをさせて頂いている「myojou（みょうじょう）」です！\n\n本日初めてmyojouをご覧になられた方は、このあと14:45頃より特典会にてお好きなメンバー1名と無料でチェキ撮影出来ます📸\n\nお時間がある方はぜひご参加ください⋆˙⟡\n\n #myojou\n #ラクーアガーデン https://t.co/7bR5khaVNd https://t.co/jXMHxs8nr0",
+          "full_text_source": "text",
+          "id": "2081252872831078552",
+          "media": [
+            {
+              "height": 1734,
+              "media_key": "13_2081252490985771008",
+              "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2081252490985771008/img/Df5cDWfXhTNptkyU.jpg",
+              "type": "video",
+              "width": 3084
+            }
+          ],
+          "referenced_tweets": [
+            {
+              "id": "2081223414430433303",
+              "type": "quoted"
+            }
+          ],
+          "text": "ラクーアガーデンステージにてライブをさせて頂いている「myojou（みょうじょう）」です！\n\n本日初めてmyojouをご覧になられた方は、このあと14:45頃より特典会にてお好きなメンバー1名と無料でチェキ撮影出来ます📸\n\nお時間がある方はぜひご参加ください⋆˙⟡\n\n #myojou\n #ラクーアガーデン https://t.co/7bR5khaVNd https://t.co/jXMHxs8nr0",
+          "truncated_text": null
+        },
+        "source_text": "ラクーアガーデンステージにてライブをさせて頂いている「myojou（みょうじょう）」です！\n\n本日初めてmyojouをご覧になられた方は、このあと14:45頃より特典会にてお好きなメンバー1名と無料でチェキ撮影出来ます📸\n\nお時間がある方はぜひご参加ください⋆˙⟡\n\n #myojou\n #ラクーアガーデン https://t.co/7bR5khaVNd https://t.co/jXMHxs8nr0",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2081252872831078552",
+        "start_time": null,
+        "ticket_application_deadline_at": null,
+        "ticket_application_start_at": null,
+        "ticket_sale_type": null,
+        "ticket_sales": [],
+        "ticket_status": null,
+        "ticket_url": null,
+        "venue": null
+      },
+      "raw": {
+        "api_text": "ラクーアガーデンステージにてライブをさせて頂いている「myojou（みょうじょう）」です！\n\n本日初めてmyojouをご覧になられた方は、このあと14:45頃より特典会にてお好きなメンバー1名と無料でチェキ撮影出来ます📸\n\nお時間がある方はぜひご参加ください⋆˙⟡\n\n #myojou\n #ラクーアガーデン https://t.co/7bR5khaVNd https://t.co/jXMHxs8nr0",
+        "attachments": {
+          "media_keys": [
+            "13_2081252490985771008"
+          ]
+        },
+        "created_at": "2026-07-26T05:38:47.000Z",
+        "edit_history_tweet_ids": [
+          "2081252872831078552"
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "end": 142,
+              "start": 135,
+              "tag": "myojou"
+            },
+            {
+              "end": 153,
+              "start": 144,
+              "tag": "ラクーアガーデン"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "pic.x.com/7bR5khaVNd",
+              "end": 177,
+              "expanded_url": "https://x.com/info_myojou/status/2081252872831078552/video/1",
+              "media_key": "13_2081252490985771008",
+              "start": 154,
+              "url": "https://t.co/7bR5khaVNd"
+            },
+            {
+              "display_url": "x.com/info_myojou/st…",
+              "end": 201,
+              "expanded_url": "https://twitter.com/info_myojou/status/2081223414430433303",
+              "start": 178,
+              "url": "https://t.co/jXMHxs8nr0"
+            }
+          ]
+        },
+        "full_text": "ラクーアガーデンステージにてライブをさせて頂いている「myojou（みょうじょう）」です！\n\n本日初めてmyojouをご覧になられた方は、このあと14:45頃より特典会にてお好きなメンバー1名と無料でチェキ撮影出来ます📸\n\nお時間がある方はぜひご参加ください⋆˙⟡\n\n #myojou\n #ラクーアガーデン https://t.co/7bR5khaVNd https://t.co/jXMHxs8nr0",
+        "full_text_source": "text",
+        "id": "2081252872831078552",
+        "media": [
+          {
+            "height": 1734,
+            "media_key": "13_2081252490985771008",
+            "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2081252490985771008/img/Df5cDWfXhTNptkyU.jpg",
+            "type": "video",
+            "width": 3084
+          }
+        ],
+        "referenced_tweets": [
+          {
+            "id": "2081223414430433303",
+            "type": "quoted"
+          }
+        ],
+        "text": "ラクーアガーデンステージにてライブをさせて頂いている「myojou（みょうじょう）」です！\n\n本日初めてmyojouをご覧になられた方は、このあと14:45頃より特典会にてお好きなメンバー1名と無料でチェキ撮影出来ます📸\n\nお時間がある方はぜひご参加ください⋆˙⟡\n\n #myojou\n #ラクーアガーデン https://t.co/7bR5khaVNd https://t.co/jXMHxs8nr0",
+        "truncated_text": null
+      },
+      "referenced_tweets": [
+        {
+          "id": "2081223414430433303",
+          "type": "quoted"
+        }
+      ],
+      "text": "ラクーアガーデンステージにてライブをさせて頂いている「myojou（みょうじょう）」です！\n\n本日初めてmyojouをご覧になられた方は、このあと14:45頃より特典会にてお好きなメンバー1名と無料でチェキ撮影出来ます📸\n\nお時間がある方はぜひご参加ください⋆˙⟡\n\n #myojou\n #ラクーアガーデン https://t.co/7bR5khaVNd https://t.co/jXMHxs8nr0",
+      "truncated_text": null,
+      "url": "https://x.com/info_myojou/status/2081252872831078552"
+    },
+    {
       "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「myojou フリーライブイベント」\n\n14:00-「整理番号付入場券」お持ちの方入場\n14:10-フリー入場開始\n14:15-ライブ･特典会\n\n⟣date：7/26(日) 14:15～\n⟣place : 東京ドームシティ ラクーアガーデンステージ\n⟣price：myojouデジタルブロマイドvol.1 ¥1,000 https://t.co/yIQaVg8WjA",
       "attachments": {
         "media_keys": [
@@ -131915,7 +133039,7 @@
     "backfill": true,
     "dry_run": true,
     "estimated_x_post_reads": 411,
-    "latest_post_id": "2081028186960523509",
+    "latest_post_id": "2081351596907393148",
     "max_pages": 10,
     "max_posts": 500,
     "max_results": 5,
@@ -131958,16 +133082,16 @@
       }
     ],
     "pages_fetched": 5,
-    "posts_fetched": 614,
+    "posts_fetched": 619,
     "rate_limit_headers": {
       "x-rate-limit-limit": "10000",
       "x-rate-limit-remaining": "9993",
       "x-rate-limit-reset": "1781108896"
     },
-    "total_posts": 614,
-    "updated_at": "2026-07-25T20:12:34.716019+00:00",
+    "total_posts": 619,
+    "updated_at": "2026-07-26T20:11:24.057793+00:00",
     "username": "info_myojou"
   },
   "source": "x_api",
-  "updated_at": "2026-07-25T20:12:34.716019+00:00"
+  "updated_at": "2026-07-26T20:11:24.057793+00:00"
 }
