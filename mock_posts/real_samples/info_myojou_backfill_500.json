@@ -2,6 +2,896 @@
   "captured_at": "2026-06-10T16:19:36.141820+00:00",
   "data": [
     {
+      "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             高山右近音楽フェス2026\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n推しのぼり旗販売決定🚩\n\n〈販売期間〉\n7/28（火）22:00〜8/9（日）23:59\n🔗 https://t.co/yROXjL6A1f\n\n⟣date：8/22（土）\n⟣place https://t.co/3DPLDXMmfx",
+      "attachments": {
+        "media_keys": [
+          "3_2081697772370374657",
+          "3_2081697772370296832"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "ticket_update"
+      },
+      "created_at": "2026-07-27T11:06:41+00:00",
+      "entities": {
+        "urls": [
+          {
+            "description": "推しを応援するための「オーダーメイドの\"推しのぼり旗\"」と「推し缶」を販売しています。推しにあなたの想いを届けるために是非ご利用くださいませ。購入した商品についてのお問い合わせは、「お問合せ」ページよりお願いします。特定のイベント用、推しの生誕祭、ファン同士でお祝いする推しの誕生会など幅広くご利用いただいてます。ご注文に関する以外の内容、商品にご興味のある方は画面右下の吹き出し型のアイコン『チャット』よりお問合せをお願いします。（チャットは、平日の日中の対応です。なおお答えできない内容もございます）",
+            "display_url": "supporthanks.official.ec",
+            "end": 146,
+            "expanded_url": "https://supporthanks.official.ec/",
+            "images": [
+              {
+                "height": 1200,
+                "url": "https://pbs.twimg.com/news_img/2081681028473901056/kMHgJYLC?format=jpg&name=orig",
+                "width": 1200
+              },
+              {
+                "height": 150,
+                "url": "https://pbs.twimg.com/news_img/2081681028473901056/kMHgJYLC?format=jpg&name=150x150",
+                "width": 150
+              }
+            ],
+            "start": 123,
+            "status": 200,
+            "title": "推しのぼり旗・推し缶 powered by BASE",
+            "unwound_url": "https://supporthanks.official.ec/",
+            "url": "https://t.co/yROXjL6A1f"
+          },
+          {
+            "display_url": "pic.x.com/3DPLDXMmfx",
+            "end": 192,
+            "expanded_url": "https://x.com/info_myojou/status/2081697780364607882/photo/1",
+            "media_key": "3_2081697772370374657",
+            "start": 169,
+            "url": "https://t.co/3DPLDXMmfx"
+          },
+          {
+            "display_url": "pic.x.com/3DPLDXMmfx",
+            "end": 192,
+            "expanded_url": "https://x.com/info_myojou/status/2081697780364607882/photo/1",
+            "media_key": "3_2081697772370296832",
+            "start": 169,
+            "url": "https://t.co/3DPLDXMmfx"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2081697780364607882",
+      "media": [
+        {
+          "height": 1414,
+          "media_key": "3_2081697772370374657",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HOOtGDvbsAEaJuF.jpg",
+          "width": 2000
+        },
+        {
+          "height": 2000,
+          "media_key": "3_2081697772370296832",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HOOtGDvagAAl8I-.jpg",
+          "width": 1414
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 366,
+              "start": 359,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "supporthanks.official.ec",
+              "end": 146,
+              "expanded_url": "https://supporthanks.official.ec/",
+              "start": 123,
+              "url": "https://t.co/2goZlfzti3"
+            },
+            {
+              "display_url": "tiget.net/events/491118",
+              "end": 327,
+              "expanded_url": "http://tiget.net/events/491118",
+              "start": 304,
+              "url": "https://t.co/XkIduIgUyQ"
+            },
+            {
+              "display_url": "tiget.net/events/501867",
+              "end": 357,
+              "expanded_url": "http://tiget.net/events/501867",
+              "start": 334,
+              "url": "https://t.co/ASHc7cjf8X"
+            }
+          ]
+        },
+        "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             高山右近音楽フェス2026\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n推しのぼり旗販売決定🚩\n\n〈販売期間〉\n7/28（火）22:00〜8/9（日）23:59\n🔗 https://t.co/2goZlfzti3\n\n⟣date：8/22（土）\n⟣place :ユーベルホール（大阪府豊能町）\n⟣open/start：1部 10:15/11:00 2部15:20/16:00\n⟣price：各部Sエリア¥8,800 Aエリア¥6,600\n\n【チケット販売期間】\n7/12（日）22:00-8/21（金）23:00まで\n〈1部〉\n🔗https://t.co/XkIduIgUyQ\n〈2部〉\n🔗https://t.co/ASHc7cjf8X\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": null,
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-08-22",
+        "event_dates": [
+          "2026-08-22"
+        ],
+        "event_name": "高山右近音楽フェス2026",
+        "extraction_confidence": 0.9,
+        "general_ticket_price": null,
+        "lottery_result_at": null,
+        "myojou_performance_time": null,
+        "notes": null,
+        "open_time": "10:15",
+        "payment_deadline_at": null,
+        "priority_ticket_name": null,
+        "priority_ticket_price": null,
+        "same_day_ticket_price": null,
+        "source_kind": "ticket_update",
+        "source_post_id": "2081697780364607882",
+        "source_posted_at": "2026-07-27T11:06:41Z",
+        "source_raw": {
+          "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             高山右近音楽フェス2026\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n推しのぼり旗販売決定🚩\n\n〈販売期間〉\n7/28（火）22:00〜8/9（日）23:59\n🔗 https://t.co/yROXjL6A1f\n\n⟣date：8/22（土）\n⟣place https://t.co/3DPLDXMmfx",
+          "attachments": {
+            "media_keys": [
+              "3_2081697772370374657",
+              "3_2081697772370296832"
+            ]
+          },
+          "created_at": "2026-07-27T11:06:41.000Z",
+          "edit_history_tweet_ids": [
+            "2081697780364607882"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "description": "推しを応援するための「オーダーメイドの\"推しのぼり旗\"」と「推し缶」を販売しています。推しにあなたの想いを届けるために是非ご利用くださいませ。購入した商品についてのお問い合わせは、「お問合せ」ページよりお願いします。特定のイベント用、推しの生誕祭、ファン同士でお祝いする推しの誕生会など幅広くご利用いただいてます。ご注文に関する以外の内容、商品にご興味のある方は画面右下の吹き出し型のアイコン『チャット』よりお問合せをお願いします。（チャットは、平日の日中の対応です。なおお答えできない内容もございます）",
+                "display_url": "supporthanks.official.ec",
+                "end": 146,
+                "expanded_url": "https://supporthanks.official.ec/",
+                "images": [
+                  {
+                    "height": 1200,
+                    "url": "https://pbs.twimg.com/news_img/2081681028473901056/kMHgJYLC?format=jpg&name=orig",
+                    "width": 1200
+                  },
+                  {
+                    "height": 150,
+                    "url": "https://pbs.twimg.com/news_img/2081681028473901056/kMHgJYLC?format=jpg&name=150x150",
+                    "width": 150
+                  }
+                ],
+                "start": 123,
+                "status": 200,
+                "title": "推しのぼり旗・推し缶 powered by BASE",
+                "unwound_url": "https://supporthanks.official.ec/",
+                "url": "https://t.co/yROXjL6A1f"
+              },
+              {
+                "display_url": "pic.x.com/3DPLDXMmfx",
+                "end": 192,
+                "expanded_url": "https://x.com/info_myojou/status/2081697780364607882/photo/1",
+                "media_key": "3_2081697772370374657",
+                "start": 169,
+                "url": "https://t.co/3DPLDXMmfx"
+              },
+              {
+                "display_url": "pic.x.com/3DPLDXMmfx",
+                "end": 192,
+                "expanded_url": "https://x.com/info_myojou/status/2081697780364607882/photo/1",
+                "media_key": "3_2081697772370296832",
+                "start": 169,
+                "url": "https://t.co/3DPLDXMmfx"
+              }
+            ]
+          },
+          "full_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             高山右近音楽フェス2026\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n推しのぼり旗販売決定🚩\n\n〈販売期間〉\n7/28（火）22:00〜8/9（日）23:59\n🔗 https://t.co/2goZlfzti3\n\n⟣date：8/22（土）\n⟣place :ユーベルホール（大阪府豊能町）\n⟣open/start：1部 10:15/11:00 2部15:20/16:00\n⟣price：各部Sエリア¥8,800 Aエリア¥6,600\n\n【チケット販売期間】\n7/12（日）22:00-8/21（金）23:00まで\n〈1部〉\n🔗https://t.co/XkIduIgUyQ\n〈2部〉\n🔗https://t.co/ASHc7cjf8X\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2081697780364607882",
+          "media": [
+            {
+              "height": 1414,
+              "media_key": "3_2081697772370374657",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HOOtGDvbsAEaJuF.jpg",
+              "width": 2000
+            },
+            {
+              "height": 2000,
+              "media_key": "3_2081697772370296832",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HOOtGDvagAAl8I-.jpg",
+              "width": 1414
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 366,
+                  "start": 359,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "supporthanks.official.ec",
+                  "end": 146,
+                  "expanded_url": "https://supporthanks.official.ec/",
+                  "start": 123,
+                  "url": "https://t.co/2goZlfzti3"
+                },
+                {
+                  "display_url": "tiget.net/events/491118",
+                  "end": 327,
+                  "expanded_url": "http://tiget.net/events/491118",
+                  "start": 304,
+                  "url": "https://t.co/XkIduIgUyQ"
+                },
+                {
+                  "display_url": "tiget.net/events/501867",
+                  "end": 357,
+                  "expanded_url": "http://tiget.net/events/501867",
+                  "start": 334,
+                  "url": "https://t.co/ASHc7cjf8X"
+                }
+              ]
+            },
+            "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             高山右近音楽フェス2026\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n推しのぼり旗販売決定🚩\n\n〈販売期間〉\n7/28（火）22:00〜8/9（日）23:59\n🔗 https://t.co/2goZlfzti3\n\n⟣date：8/22（土）\n⟣place :ユーベルホール（大阪府豊能町）\n⟣open/start：1部 10:15/11:00 2部15:20/16:00\n⟣price：各部Sエリア¥8,800 Aエリア¥6,600\n\n【チケット販売期間】\n7/12（日）22:00-8/21（金）23:00まで\n〈1部〉\n🔗https://t.co/XkIduIgUyQ\n〈2部〉\n🔗https://t.co/ASHc7cjf8X\n\n#myojou"
+          },
+          "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             高山右近音楽フェス2026\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n推しのぼり旗販売決定🚩\n\n〈販売期間〉\n7/28（火）22:00〜8/9（日）23:59\n🔗 https://t.co/yROXjL6A1f\n\n⟣date：8/22（土）\n⟣place https://t.co/3DPLDXMmfx",
+          "truncated_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             高山右近音楽フェス2026\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n推しのぼり旗販売決定🚩\n\n〈販売期間〉\n7/28（火）22:00〜8/9（日）23:59\n🔗 https://t.co/yROXjL6A1f\n\n⟣date：8/22（土）\n⟣place https://t.co/3DPLDXMmfx"
+        },
+        "source_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             高山右近音楽フェス2026\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n推しのぼり旗販売決定🚩\n\n〈販売期間〉\n7/28（火）22:00〜8/9（日）23:59\n🔗 https://t.co/2goZlfzti3\n\n⟣date：8/22（土）\n⟣place :ユーベルホール（大阪府豊能町）\n⟣open/start：1部 10:15/11:00 2部15:20/16:00\n⟣price：各部Sエリア¥8,800 Aエリア¥6,600\n\n【チケット販売期間】\n7/12（日）22:00-8/21（金）23:00まで\n〈1部〉\n🔗https://t.co/XkIduIgUyQ\n〈2部〉\n🔗https://t.co/ASHc7cjf8X\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2081697780364607882",
+        "start_time": "11:00",
+        "ticket_application_deadline_at": "2026-08-09T23:59:00+09:00",
+        "ticket_application_start_at": "2026-07-28T22:00:00+09:00",
+        "ticket_sale_type": "不明",
+        "ticket_sales": [
+          {
+            "deadline_at": "2026-08-09T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": null,
+            "result_at": null,
+            "sale_type": "不明",
+            "source_post_id": "2081697780364607882",
+            "source_url": "https://x.com/info_myojou/status/2081697780364607882",
+            "start_at": "2026-07-28T22:00:00+09:00",
+            "status": "不明",
+            "ticket_name": null,
+            "ticket_tier": "不明"
+          },
+          {
+            "deadline_at": "2026-08-21T23:00:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": null,
+            "result_at": null,
+            "sale_type": "不明",
+            "source_post_id": "2081697780364607882",
+            "source_url": "https://x.com/info_myojou/status/2081697780364607882",
+            "start_at": "2026-07-12T22:00:00+09:00",
+            "status": "不明",
+            "ticket_name": null,
+            "ticket_tier": "不明"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "http://tiget.net/events/491118",
+        "venue": "ユーベルホール(大阪府豊能町)"
+      },
+      "raw": {
+        "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             高山右近音楽フェス2026\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n推しのぼり旗販売決定🚩\n\n〈販売期間〉\n7/28（火）22:00〜8/9（日）23:59\n🔗 https://t.co/yROXjL6A1f\n\n⟣date：8/22（土）\n⟣place https://t.co/3DPLDXMmfx",
+        "attachments": {
+          "media_keys": [
+            "3_2081697772370374657",
+            "3_2081697772370296832"
+          ]
+        },
+        "created_at": "2026-07-27T11:06:41.000Z",
+        "edit_history_tweet_ids": [
+          "2081697780364607882"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "description": "推しを応援するための「オーダーメイドの\"推しのぼり旗\"」と「推し缶」を販売しています。推しにあなたの想いを届けるために是非ご利用くださいませ。購入した商品についてのお問い合わせは、「お問合せ」ページよりお願いします。特定のイベント用、推しの生誕祭、ファン同士でお祝いする推しの誕生会など幅広くご利用いただいてます。ご注文に関する以外の内容、商品にご興味のある方は画面右下の吹き出し型のアイコン『チャット』よりお問合せをお願いします。（チャットは、平日の日中の対応です。なおお答えできない内容もございます）",
+              "display_url": "supporthanks.official.ec",
+              "end": 146,
+              "expanded_url": "https://supporthanks.official.ec/",
+              "images": [
+                {
+                  "height": 1200,
+                  "url": "https://pbs.twimg.com/news_img/2081681028473901056/kMHgJYLC?format=jpg&name=orig",
+                  "width": 1200
+                },
+                {
+                  "height": 150,
+                  "url": "https://pbs.twimg.com/news_img/2081681028473901056/kMHgJYLC?format=jpg&name=150x150",
+                  "width": 150
+                }
+              ],
+              "start": 123,
+              "status": 200,
+              "title": "推しのぼり旗・推し缶 powered by BASE",
+              "unwound_url": "https://supporthanks.official.ec/",
+              "url": "https://t.co/yROXjL6A1f"
+            },
+            {
+              "display_url": "pic.x.com/3DPLDXMmfx",
+              "end": 192,
+              "expanded_url": "https://x.com/info_myojou/status/2081697780364607882/photo/1",
+              "media_key": "3_2081697772370374657",
+              "start": 169,
+              "url": "https://t.co/3DPLDXMmfx"
+            },
+            {
+              "display_url": "pic.x.com/3DPLDXMmfx",
+              "end": 192,
+              "expanded_url": "https://x.com/info_myojou/status/2081697780364607882/photo/1",
+              "media_key": "3_2081697772370296832",
+              "start": 169,
+              "url": "https://t.co/3DPLDXMmfx"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             高山右近音楽フェス2026\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n推しのぼり旗販売決定🚩\n\n〈販売期間〉\n7/28（火）22:00〜8/9（日）23:59\n🔗 https://t.co/2goZlfzti3\n\n⟣date：8/22（土）\n⟣place :ユーベルホール（大阪府豊能町）\n⟣open/start：1部 10:15/11:00 2部15:20/16:00\n⟣price：各部Sエリア¥8,800 Aエリア¥6,600\n\n【チケット販売期間】\n7/12（日）22:00-8/21（金）23:00まで\n〈1部〉\n🔗https://t.co/XkIduIgUyQ\n〈2部〉\n🔗https://t.co/ASHc7cjf8X\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2081697780364607882",
+        "media": [
+          {
+            "height": 1414,
+            "media_key": "3_2081697772370374657",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HOOtGDvbsAEaJuF.jpg",
+            "width": 2000
+          },
+          {
+            "height": 2000,
+            "media_key": "3_2081697772370296832",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HOOtGDvagAAl8I-.jpg",
+            "width": 1414
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 366,
+                "start": 359,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "supporthanks.official.ec",
+                "end": 146,
+                "expanded_url": "https://supporthanks.official.ec/",
+                "start": 123,
+                "url": "https://t.co/2goZlfzti3"
+              },
+              {
+                "display_url": "tiget.net/events/491118",
+                "end": 327,
+                "expanded_url": "http://tiget.net/events/491118",
+                "start": 304,
+                "url": "https://t.co/XkIduIgUyQ"
+              },
+              {
+                "display_url": "tiget.net/events/501867",
+                "end": 357,
+                "expanded_url": "http://tiget.net/events/501867",
+                "start": 334,
+                "url": "https://t.co/ASHc7cjf8X"
+              }
+            ]
+          },
+          "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             高山右近音楽フェス2026\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n推しのぼり旗販売決定🚩\n\n〈販売期間〉\n7/28（火）22:00〜8/9（日）23:59\n🔗 https://t.co/2goZlfzti3\n\n⟣date：8/22（土）\n⟣place :ユーベルホール（大阪府豊能町）\n⟣open/start：1部 10:15/11:00 2部15:20/16:00\n⟣price：各部Sエリア¥8,800 Aエリア¥6,600\n\n【チケット販売期間】\n7/12（日）22:00-8/21（金）23:00まで\n〈1部〉\n🔗https://t.co/XkIduIgUyQ\n〈2部〉\n🔗https://t.co/ASHc7cjf8X\n\n#myojou"
+        },
+        "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             高山右近音楽フェス2026\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n推しのぼり旗販売決定🚩\n\n〈販売期間〉\n7/28（火）22:00〜8/9（日）23:59\n🔗 https://t.co/yROXjL6A1f\n\n⟣date：8/22（土）\n⟣place https://t.co/3DPLDXMmfx",
+        "truncated_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             高山右近音楽フェス2026\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n推しのぼり旗販売決定🚩\n\n〈販売期間〉\n7/28（火）22:00〜8/9（日）23:59\n🔗 https://t.co/yROXjL6A1f\n\n⟣date：8/22（土）\n⟣place https://t.co/3DPLDXMmfx"
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             高山右近音楽フェス2026\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n推しのぼり旗販売決定🚩\n\n〈販売期間〉\n7/28（火）22:00〜8/9（日）23:59\n🔗 https://t.co/2goZlfzti3\n\n⟣date：8/22（土）\n⟣place :ユーベルホール（大阪府豊能町）\n⟣open/start：1部 10:15/11:00 2部15:20/16:00\n⟣price：各部Sエリア¥8,800 Aエリア¥6,600\n\n【チケット販売期間】\n7/12（日）22:00-8/21（金）23:00まで\n〈1部〉\n🔗https://t.co/XkIduIgUyQ\n〈2部〉\n🔗https://t.co/ASHc7cjf8X\n\n#myojou",
+      "truncated_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             高山右近音楽フェス2026\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n推しのぼり旗販売決定🚩\n\n〈販売期間〉\n7/28（火）22:00〜8/9（日）23:59\n🔗 https://t.co/yROXjL6A1f\n\n⟣date：8/22（土）\n⟣place https://t.co/3DPLDXMmfx",
+      "url": "https://x.com/info_myojou/status/2081697780364607882"
+    },
+    {
+      "api_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n            TOKYO IDOL FESTIVAL 2026\n         supported by にしたんクリニック\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\nDay1\n📍GREETING AREA\n📸12:00-14:30\n\n📍SMILE GARDEN\n🎙17:15-17:35\n\n📍HEAT GARAGE https://t.co/yfzgMGj2C4",
+      "attachments": {
+        "media_keys": [
+          "3_2081696195068780544"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "ticket_update"
+      },
+      "created_at": "2026-07-27T11:00:26+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/yfzgMGj2C4",
+            "end": 220,
+            "expanded_url": "https://x.com/info_myojou/status/2081696205445452258/photo/1",
+            "media_key": "3_2081696195068780544",
+            "start": 197,
+            "url": "https://t.co/yfzgMGj2C4"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2081696205445452258",
+      "media": [
+        {
+          "height": 4096,
+          "media_key": "3_2081696195068780544",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HOOrqP1bYAAJeYK.jpg",
+          "width": 2896
+        }
+      ],
+      "needs_review": true,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 643,
+              "start": 636,
+              "tag": "myojou"
+            },
+            {
+              "end": 654,
+              "start": 644,
+              "tag": "ミョージョーサマー"
+            },
+            {
+              "end": 663,
+              "start": 655,
+              "tag": "TIF2026"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "official.idolfes.com/s/tif2026/page…",
+              "end": 595,
+              "expanded_url": "https://official.idolfes.com/s/tif2026/page/ticket",
+              "start": 572,
+              "url": "https://t.co/POxE5fRFg5"
+            },
+            {
+              "display_url": "official.idolfes.com/s/tif2026/",
+              "end": 634,
+              "expanded_url": "http://official.idolfes.com/s/tif2026/",
+              "start": 611,
+              "url": "https://t.co/w8QQpaRs9t"
+            }
+          ]
+        },
+        "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n            TOKYO IDOL FESTIVAL 2026\n         supported by にしたんクリニック\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\nDay1\n📍GREETING AREA\n📸12:00-14:30\n\n📍SMILE GARDEN\n🎙17:15-17:35\n\n📍HEAT GARAGE\n🎙19:15-20:40（メインステージ争奪LIVE決勝戦）\n\nDay3\n📍SKY STAGE\n🎙11:20-11:35\n\n📍HOT STAGE\n🎙12:50-13:10（メインステージ争奪LIVE優勝時）\n\n📍TOROCCO PARK\n🎙17:20-17:40\n\n⟣date：7/31（金）、8/2（日）\n⟣place : お台場・青海周辺エリア\n⟣open/start：10:00/10:00（会場による）\n⟣price：\n【先行販売】\n通常チケット単日券¥10,500/通常チケット3日間通し券¥26,500/Tシャツ付きチケット単日券¥13,000/Tシャツ付きチケット3日間通し券¥29,000\n【一般販売】\n通常チケット単日券¥11,500/3日間通し券¥30,000\n\n【一般販売】\n6/15（月）10:00-各公演前日23:59\n🔗 https://t.co/POxE5fRFg5\n\nTIF2026公式HP\n🔗 https://t.co/w8QQpaRs9t\n\n#myojou\n#ミョージョーサマー\n#TIF2026"
+      },
+      "parsed_fields": {
+        "benefit_event_time": "12:00-14:30",
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-07-31",
+        "event_dates": [
+          "2026-07-31",
+          "2026-08-01",
+          "2026-08-02"
+        ],
+        "event_name": "TOKYO IDOL FESTIVAL 2026",
+        "extraction_confidence": 0.95,
+        "general_ticket_price": 10500,
+        "lottery_result_at": null,
+        "myojou_performance_time": "17:15-17:35",
+        "notes": null,
+        "open_time": "10:00",
+        "payment_deadline_at": null,
+        "priority_ticket_name": null,
+        "priority_ticket_price": null,
+        "same_day_ticket_price": null,
+        "source_kind": "ticket_update",
+        "source_post_id": "2081696205445452258",
+        "source_posted_at": "2026-07-27T11:00:26Z",
+        "source_raw": {
+          "api_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n            TOKYO IDOL FESTIVAL 2026\n         supported by にしたんクリニック\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\nDay1\n📍GREETING AREA\n📸12:00-14:30\n\n📍SMILE GARDEN\n🎙17:15-17:35\n\n📍HEAT GARAGE https://t.co/yfzgMGj2C4",
+          "attachments": {
+            "media_keys": [
+              "3_2081696195068780544"
+            ]
+          },
+          "created_at": "2026-07-27T11:00:26.000Z",
+          "edit_history_tweet_ids": [
+            "2081696205445452258"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/yfzgMGj2C4",
+                "end": 220,
+                "expanded_url": "https://x.com/info_myojou/status/2081696205445452258/photo/1",
+                "media_key": "3_2081696195068780544",
+                "start": 197,
+                "url": "https://t.co/yfzgMGj2C4"
+              }
+            ]
+          },
+          "full_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n            TOKYO IDOL FESTIVAL 2026\n         supported by にしたんクリニック\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\nDay1\n📍GREETING AREA\n📸12:00-14:30\n\n📍SMILE GARDEN\n🎙17:15-17:35\n\n📍HEAT GARAGE\n🎙19:15-20:40（メインステージ争奪LIVE決勝戦）\n\nDay3\n📍SKY STAGE\n🎙11:20-11:35\n\n📍HOT STAGE\n🎙12:50-13:10（メインステージ争奪LIVE優勝時）\n\n📍TOROCCO PARK\n🎙17:20-17:40\n\n⟣date：7/31（金）、8/2（日）\n⟣place : お台場・青海周辺エリア\n⟣open/start：10:00/10:00（会場による）\n⟣price：\n【先行販売】\n通常チケット単日券¥10,500/通常チケット3日間通し券¥26,500/Tシャツ付きチケット単日券¥13,000/Tシャツ付きチケット3日間通し券¥29,000\n【一般販売】\n通常チケット単日券¥11,500/3日間通し券¥30,000\n\n【一般販売】\n6/15（月）10:00-各公演前日23:59\n🔗 https://t.co/POxE5fRFg5\n\nTIF2026公式HP\n🔗 https://t.co/w8QQpaRs9t\n\n#myojou\n#ミョージョーサマー\n#TIF2026",
+          "full_text_source": "note_tweet",
+          "id": "2081696205445452258",
+          "media": [
+            {
+              "height": 4096,
+              "media_key": "3_2081696195068780544",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HOOrqP1bYAAJeYK.jpg",
+              "width": 2896
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 643,
+                  "start": 636,
+                  "tag": "myojou"
+                },
+                {
+                  "end": 654,
+                  "start": 644,
+                  "tag": "ミョージョーサマー"
+                },
+                {
+                  "end": 663,
+                  "start": 655,
+                  "tag": "TIF2026"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "official.idolfes.com/s/tif2026/page…",
+                  "end": 595,
+                  "expanded_url": "https://official.idolfes.com/s/tif2026/page/ticket",
+                  "start": 572,
+                  "url": "https://t.co/POxE5fRFg5"
+                },
+                {
+                  "display_url": "official.idolfes.com/s/tif2026/",
+                  "end": 634,
+                  "expanded_url": "http://official.idolfes.com/s/tif2026/",
+                  "start": 611,
+                  "url": "https://t.co/w8QQpaRs9t"
+                }
+              ]
+            },
+            "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n            TOKYO IDOL FESTIVAL 2026\n         supported by にしたんクリニック\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\nDay1\n📍GREETING AREA\n📸12:00-14:30\n\n📍SMILE GARDEN\n🎙17:15-17:35\n\n📍HEAT GARAGE\n🎙19:15-20:40（メインステージ争奪LIVE決勝戦）\n\nDay3\n📍SKY STAGE\n🎙11:20-11:35\n\n📍HOT STAGE\n🎙12:50-13:10（メインステージ争奪LIVE優勝時）\n\n📍TOROCCO PARK\n🎙17:20-17:40\n\n⟣date：7/31（金）、8/2（日）\n⟣place : お台場・青海周辺エリア\n⟣open/start：10:00/10:00（会場による）\n⟣price：\n【先行販売】\n通常チケット単日券¥10,500/通常チケット3日間通し券¥26,500/Tシャツ付きチケット単日券¥13,000/Tシャツ付きチケット3日間通し券¥29,000\n【一般販売】\n通常チケット単日券¥11,500/3日間通し券¥30,000\n\n【一般販売】\n6/15（月）10:00-各公演前日23:59\n🔗 https://t.co/POxE5fRFg5\n\nTIF2026公式HP\n🔗 https://t.co/w8QQpaRs9t\n\n#myojou\n#ミョージョーサマー\n#TIF2026"
+          },
+          "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n            TOKYO IDOL FESTIVAL 2026\n         supported by にしたんクリニック\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\nDay1\n📍GREETING AREA\n📸12:00-14:30\n\n📍SMILE GARDEN\n🎙17:15-17:35\n\n📍HEAT GARAGE https://t.co/yfzgMGj2C4",
+          "truncated_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n            TOKYO IDOL FESTIVAL 2026\n         supported by にしたんクリニック\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\nDay1\n📍GREETING AREA\n📸12:00-14:30\n\n📍SMILE GARDEN\n🎙17:15-17:35\n\n📍HEAT GARAGE https://t.co/yfzgMGj2C4"
+        },
+        "source_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n            TOKYO IDOL FESTIVAL 2026\n         supported by にしたんクリニック\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\nDay1\n📍GREETING AREA\n📸12:00-14:30\n\n📍SMILE GARDEN\n🎙17:15-17:35\n\n📍HEAT GARAGE\n🎙19:15-20:40（メインステージ争奪LIVE決勝戦）\n\nDay3\n📍SKY STAGE\n🎙11:20-11:35\n\n📍HOT STAGE\n🎙12:50-13:10（メインステージ争奪LIVE優勝時）\n\n📍TOROCCO PARK\n🎙17:20-17:40\n\n⟣date：7/31（金）、8/2（日）\n⟣place : お台場・青海周辺エリア\n⟣open/start：10:00/10:00（会場による）\n⟣price：\n【先行販売】\n通常チケット単日券¥10,500/通常チケット3日間通し券¥26,500/Tシャツ付きチケット単日券¥13,000/Tシャツ付きチケット3日間通し券¥29,000\n【一般販売】\n通常チケット単日券¥11,500/3日間通し券¥30,000\n\n【一般販売】\n6/15（月）10:00-各公演前日23:59\n🔗 https://t.co/POxE5fRFg5\n\nTIF2026公式HP\n🔗 https://t.co/w8QQpaRs9t\n\n#myojou\n#ミョージョーサマー\n#TIF2026",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2081696205445452258",
+        "start_time": "10:00",
+        "ticket_application_deadline_at": null,
+        "ticket_application_start_at": "2026-06-15T10:00:00+09:00",
+        "ticket_sale_type": "一般",
+        "ticket_sales": [
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 10500,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2081696205445452258",
+            "source_url": "https://x.com/info_myojou/status/2081696205445452258",
+            "start_at": "2026-06-15T10:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "通常チケット",
+            "ticket_tier": "一般"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 13000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2081696205445452258",
+            "source_url": "https://x.com/info_myojou/status/2081696205445452258",
+            "start_at": "2026-06-15T10:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "Tシャツ付きチケット",
+            "ticket_tier": "その他"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "https://official.idolfes.com/s/tif2026/page/ticket",
+        "venue": "お台場・青海周辺エリア"
+      },
+      "raw": {
+        "api_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n            TOKYO IDOL FESTIVAL 2026\n         supported by にしたんクリニック\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\nDay1\n📍GREETING AREA\n📸12:00-14:30\n\n📍SMILE GARDEN\n🎙17:15-17:35\n\n📍HEAT GARAGE https://t.co/yfzgMGj2C4",
+        "attachments": {
+          "media_keys": [
+            "3_2081696195068780544"
+          ]
+        },
+        "created_at": "2026-07-27T11:00:26.000Z",
+        "edit_history_tweet_ids": [
+          "2081696205445452258"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/yfzgMGj2C4",
+              "end": 220,
+              "expanded_url": "https://x.com/info_myojou/status/2081696205445452258/photo/1",
+              "media_key": "3_2081696195068780544",
+              "start": 197,
+              "url": "https://t.co/yfzgMGj2C4"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n            TOKYO IDOL FESTIVAL 2026\n         supported by にしたんクリニック\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\nDay1\n📍GREETING AREA\n📸12:00-14:30\n\n📍SMILE GARDEN\n🎙17:15-17:35\n\n📍HEAT GARAGE\n🎙19:15-20:40（メインステージ争奪LIVE決勝戦）\n\nDay3\n📍SKY STAGE\n🎙11:20-11:35\n\n📍HOT STAGE\n🎙12:50-13:10（メインステージ争奪LIVE優勝時）\n\n📍TOROCCO PARK\n🎙17:20-17:40\n\n⟣date：7/31（金）、8/2（日）\n⟣place : お台場・青海周辺エリア\n⟣open/start：10:00/10:00（会場による）\n⟣price：\n【先行販売】\n通常チケット単日券¥10,500/通常チケット3日間通し券¥26,500/Tシャツ付きチケット単日券¥13,000/Tシャツ付きチケット3日間通し券¥29,000\n【一般販売】\n通常チケット単日券¥11,500/3日間通し券¥30,000\n\n【一般販売】\n6/15（月）10:00-各公演前日23:59\n🔗 https://t.co/POxE5fRFg5\n\nTIF2026公式HP\n🔗 https://t.co/w8QQpaRs9t\n\n#myojou\n#ミョージョーサマー\n#TIF2026",
+        "full_text_source": "note_tweet",
+        "id": "2081696205445452258",
+        "media": [
+          {
+            "height": 4096,
+            "media_key": "3_2081696195068780544",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HOOrqP1bYAAJeYK.jpg",
+            "width": 2896
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 643,
+                "start": 636,
+                "tag": "myojou"
+              },
+              {
+                "end": 654,
+                "start": 644,
+                "tag": "ミョージョーサマー"
+              },
+              {
+                "end": 663,
+                "start": 655,
+                "tag": "TIF2026"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "official.idolfes.com/s/tif2026/page…",
+                "end": 595,
+                "expanded_url": "https://official.idolfes.com/s/tif2026/page/ticket",
+                "start": 572,
+                "url": "https://t.co/POxE5fRFg5"
+              },
+              {
+                "display_url": "official.idolfes.com/s/tif2026/",
+                "end": 634,
+                "expanded_url": "http://official.idolfes.com/s/tif2026/",
+                "start": 611,
+                "url": "https://t.co/w8QQpaRs9t"
+              }
+            ]
+          },
+          "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n            TOKYO IDOL FESTIVAL 2026\n         supported by にしたんクリニック\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\nDay1\n📍GREETING AREA\n📸12:00-14:30\n\n📍SMILE GARDEN\n🎙17:15-17:35\n\n📍HEAT GARAGE\n🎙19:15-20:40（メインステージ争奪LIVE決勝戦）\n\nDay3\n📍SKY STAGE\n🎙11:20-11:35\n\n📍HOT STAGE\n🎙12:50-13:10（メインステージ争奪LIVE優勝時）\n\n📍TOROCCO PARK\n🎙17:20-17:40\n\n⟣date：7/31（金）、8/2（日）\n⟣place : お台場・青海周辺エリア\n⟣open/start：10:00/10:00（会場による）\n⟣price：\n【先行販売】\n通常チケット単日券¥10,500/通常チケット3日間通し券¥26,500/Tシャツ付きチケット単日券¥13,000/Tシャツ付きチケット3日間通し券¥29,000\n【一般販売】\n通常チケット単日券¥11,500/3日間通し券¥30,000\n\n【一般販売】\n6/15（月）10:00-各公演前日23:59\n🔗 https://t.co/POxE5fRFg5\n\nTIF2026公式HP\n🔗 https://t.co/w8QQpaRs9t\n\n#myojou\n#ミョージョーサマー\n#TIF2026"
+        },
+        "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n            TOKYO IDOL FESTIVAL 2026\n         supported by にしたんクリニック\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\nDay1\n📍GREETING AREA\n📸12:00-14:30\n\n📍SMILE GARDEN\n🎙17:15-17:35\n\n📍HEAT GARAGE https://t.co/yfzgMGj2C4",
+        "truncated_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n            TOKYO IDOL FESTIVAL 2026\n         supported by にしたんクリニック\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\nDay1\n📍GREETING AREA\n📸12:00-14:30\n\n📍SMILE GARDEN\n🎙17:15-17:35\n\n📍HEAT GARAGE https://t.co/yfzgMGj2C4"
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n            TOKYO IDOL FESTIVAL 2026\n         supported by にしたんクリニック\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\nDay1\n📍GREETING AREA\n📸12:00-14:30\n\n📍SMILE GARDEN\n🎙17:15-17:35\n\n📍HEAT GARAGE\n🎙19:15-20:40（メインステージ争奪LIVE決勝戦）\n\nDay3\n📍SKY STAGE\n🎙11:20-11:35\n\n📍HOT STAGE\n🎙12:50-13:10（メインステージ争奪LIVE優勝時）\n\n📍TOROCCO PARK\n🎙17:20-17:40\n\n⟣date：7/31（金）、8/2（日）\n⟣place : お台場・青海周辺エリア\n⟣open/start：10:00/10:00（会場による）\n⟣price：\n【先行販売】\n通常チケット単日券¥10,500/通常チケット3日間通し券¥26,500/Tシャツ付きチケット単日券¥13,000/Tシャツ付きチケット3日間通し券¥29,000\n【一般販売】\n通常チケット単日券¥11,500/3日間通し券¥30,000\n\n【一般販売】\n6/15（月）10:00-各公演前日23:59\n🔗 https://t.co/POxE5fRFg5\n\nTIF2026公式HP\n🔗 https://t.co/w8QQpaRs9t\n\n#myojou\n#ミョージョーサマー\n#TIF2026",
+      "truncated_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n            TOKYO IDOL FESTIVAL 2026\n         supported by にしたんクリニック\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\nDay1\n📍GREETING AREA\n📸12:00-14:30\n\n📍SMILE GARDEN\n🎙17:15-17:35\n\n📍HEAT GARAGE https://t.co/yfzgMGj2C4",
+      "url": "https://x.com/info_myojou/status/2081696205445452258"
+    },
+    {
+      "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「マリークラウンPresents『 MARIE PARADE -vol,2- 』Special 2man Live」\n\n🎙19:15-19:45\n📸20:30-22:00\n\n⟣date：7/28（火）\n⟣place : 渋谷WOMB LIVE\n⟣open/start：18:30/19:45\n⟣price：SOLD OUT\n⟣入場特典：明星カード（サインありチェキ）\n\n#myojou https://t.co/iTMcpD7NT7",
+      "attachments": {
+        "media_keys": [
+          "3_2081659537157984256"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "sold_out"
+      },
+      "created_at": "2026-07-27T08:34:44+00:00",
+      "entities": {
+        "hashtags": [
+          {
+            "end": 215,
+            "start": 208,
+            "tag": "myojou"
+          }
+        ],
+        "urls": [
+          {
+            "display_url": "pic.x.com/iTMcpD7NT7",
+            "end": 239,
+            "expanded_url": "https://x.com/info_myojou/status/2081659541847167365/photo/1",
+            "media_key": "3_2081659537157984256",
+            "start": 216,
+            "url": "https://t.co/iTMcpD7NT7"
+          }
+        ]
+      },
+      "full_text_source": "text",
+      "id": "2081659541847167365",
+      "media": [
+        {
+          "height": 1519,
+          "media_key": "3_2081659537157984256",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HOOKUeebEAAo3c7.jpg",
+          "width": 1078
+        }
+      ],
+      "needs_review": true,
+      "needs_review_reasons": [
+        "ambiguous event match",
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": null,
+      "parsed_fields": {
+        "benefit_event_time": "20:30-22:00",
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-07-28",
+        "event_dates": [
+          "2026-07-28"
+        ],
+        "event_name": "マリークラウンPresents『 MARIE PARADE -vol,2- 』Special 2man Live",
+        "extraction_confidence": 0.95,
+        "general_ticket_price": null,
+        "lottery_result_at": null,
+        "myojou_performance_time": "19:15-19:45",
+        "notes": null,
+        "open_time": "18:30",
+        "payment_deadline_at": null,
+        "priority_ticket_name": null,
+        "priority_ticket_price": null,
+        "same_day_ticket_price": null,
+        "source_kind": "sold_out",
+        "source_post_id": "2081659541847167365",
+        "source_posted_at": "2026-07-27T08:34:44Z",
+        "source_raw": {
+          "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「マリークラウンPresents『 MARIE PARADE -vol,2- 』Special 2man Live」\n\n🎙19:15-19:45\n📸20:30-22:00\n\n⟣date：7/28（火）\n⟣place : 渋谷WOMB LIVE\n⟣open/start：18:30/19:45\n⟣price：SOLD OUT\n⟣入場特典：明星カード（サインありチェキ）\n\n#myojou https://t.co/iTMcpD7NT7",
+          "attachments": {
+            "media_keys": [
+              "3_2081659537157984256"
+            ]
+          },
+          "created_at": "2026-07-27T08:34:44.000Z",
+          "edit_history_tweet_ids": [
+            "2081659541847167365"
+          ],
+          "entities": {
+            "hashtags": [
+              {
+                "end": 215,
+                "start": 208,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "pic.x.com/iTMcpD7NT7",
+                "end": 239,
+                "expanded_url": "https://x.com/info_myojou/status/2081659541847167365/photo/1",
+                "media_key": "3_2081659537157984256",
+                "start": 216,
+                "url": "https://t.co/iTMcpD7NT7"
+              }
+            ]
+          },
+          "full_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「マリークラウンPresents『 MARIE PARADE -vol,2- 』Special 2man Live」\n\n🎙19:15-19:45\n📸20:30-22:00\n\n⟣date：7/28（火）\n⟣place : 渋谷WOMB LIVE\n⟣open/start：18:30/19:45\n⟣price：SOLD OUT\n⟣入場特典：明星カード（サインありチェキ）\n\n#myojou https://t.co/iTMcpD7NT7",
+          "full_text_source": "text",
+          "id": "2081659541847167365",
+          "media": [
+            {
+              "height": 1519,
+              "media_key": "3_2081659537157984256",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HOOKUeebEAAo3c7.jpg",
+              "width": 1078
+            }
+          ],
+          "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「マリークラウンPresents『 MARIE PARADE -vol,2- 』Special 2man Live」\n\n🎙19:15-19:45\n📸20:30-22:00\n\n⟣date：7/28（火）\n⟣place : 渋谷WOMB LIVE\n⟣open/start：18:30/19:45\n⟣price：SOLD OUT\n⟣入場特典：明星カード（サインありチェキ）\n\n#myojou https://t.co/iTMcpD7NT7",
+          "truncated_text": null
+        },
+        "source_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「マリークラウンPresents『 MARIE PARADE -vol,2- 』Special 2man Live」\n\n🎙19:15-19:45\n📸20:30-22:00\n\n⟣date：7/28（火）\n⟣place : 渋谷WOMB LIVE\n⟣open/start：18:30/19:45\n⟣price：SOLD OUT\n⟣入場特典：明星カード（サインありチェキ）\n\n#myojou https://t.co/iTMcpD7NT7",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2081659541847167365",
+        "start_time": "19:45",
+        "ticket_application_deadline_at": null,
+        "ticket_application_start_at": null,
+        "ticket_sale_type": null,
+        "ticket_sales": [],
+        "ticket_status": "sold_out",
+        "ticket_url": null,
+        "venue": "渋谷WOMB LIVE"
+      },
+      "raw": {
+        "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「マリークラウンPresents『 MARIE PARADE -vol,2- 』Special 2man Live」\n\n🎙19:15-19:45\n📸20:30-22:00\n\n⟣date：7/28（火）\n⟣place : 渋谷WOMB LIVE\n⟣open/start：18:30/19:45\n⟣price：SOLD OUT\n⟣入場特典：明星カード（サインありチェキ）\n\n#myojou https://t.co/iTMcpD7NT7",
+        "attachments": {
+          "media_keys": [
+            "3_2081659537157984256"
+          ]
+        },
+        "created_at": "2026-07-27T08:34:44.000Z",
+        "edit_history_tweet_ids": [
+          "2081659541847167365"
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "end": 215,
+              "start": 208,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "pic.x.com/iTMcpD7NT7",
+              "end": 239,
+              "expanded_url": "https://x.com/info_myojou/status/2081659541847167365/photo/1",
+              "media_key": "3_2081659537157984256",
+              "start": 216,
+              "url": "https://t.co/iTMcpD7NT7"
+            }
+          ]
+        },
+        "full_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「マリークラウンPresents『 MARIE PARADE -vol,2- 』Special 2man Live」\n\n🎙19:15-19:45\n📸20:30-22:00\n\n⟣date：7/28（火）\n⟣place : 渋谷WOMB LIVE\n⟣open/start：18:30/19:45\n⟣price：SOLD OUT\n⟣入場特典：明星カード（サインありチェキ）\n\n#myojou https://t.co/iTMcpD7NT7",
+        "full_text_source": "text",
+        "id": "2081659541847167365",
+        "media": [
+          {
+            "height": 1519,
+            "media_key": "3_2081659537157984256",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HOOKUeebEAAo3c7.jpg",
+            "width": 1078
+          }
+        ],
+        "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「マリークラウンPresents『 MARIE PARADE -vol,2- 』Special 2man Live」\n\n🎙19:15-19:45\n📸20:30-22:00\n\n⟣date：7/28（火）\n⟣place : 渋谷WOMB LIVE\n⟣open/start：18:30/19:45\n⟣price：SOLD OUT\n⟣入場特典：明星カード（サインありチェキ）\n\n#myojou https://t.co/iTMcpD7NT7",
+        "truncated_text": null
+      },
+      "referenced_tweets": [],
+      "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「マリークラウンPresents『 MARIE PARADE -vol,2- 』Special 2man Live」\n\n🎙19:15-19:45\n📸20:30-22:00\n\n⟣date：7/28（火）\n⟣place : 渋谷WOMB LIVE\n⟣open/start：18:30/19:45\n⟣price：SOLD OUT\n⟣入場特典：明星カード（サインありチェキ）\n\n#myojou https://t.co/iTMcpD7NT7",
+      "truncated_text": null,
+      "url": "https://x.com/info_myojou/status/2081659541847167365"
+    },
+    {
       "api_text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「マリークラウンPresents『 MARIE PARADE -vol,2- 』Special 2man Live」\n\n🎙19:15-19:45\n📸20:30-22:00\n\n⟣date：7/28（火）\n⟣place : 渋谷WOMB LIVE\n⟣open/start：18:30/19:45\n⟣price：SOLD OUT\n⟣入場特典：明星カード（サインありチェキ）\n\n#myojou https://t.co/u6e1iXh896",
       "attachments": {
         "media_keys": [
@@ -133039,7 +133929,7 @@
     "backfill": true,
     "dry_run": true,
     "estimated_x_post_reads": 411,
-    "latest_post_id": "2081351596907393148",
+    "latest_post_id": "2081697780364607882",
     "max_pages": 10,
     "max_posts": 500,
     "max_results": 5,
@@ -133082,16 +133972,16 @@
       }
     ],
     "pages_fetched": 5,
-    "posts_fetched": 619,
+    "posts_fetched": 622,
     "rate_limit_headers": {
       "x-rate-limit-limit": "10000",
       "x-rate-limit-remaining": "9993",
       "x-rate-limit-reset": "1781108896"
     },
-    "total_posts": 619,
-    "updated_at": "2026-07-26T20:11:24.057793+00:00",
+    "total_posts": 622,
+    "updated_at": "2026-07-27T20:25:11.171678+00:00",
     "username": "info_myojou"
   },
   "source": "x_api",
-  "updated_at": "2026-07-26T20:11:24.057793+00:00"
+  "updated_at": "2026-07-27T20:25:11.171678+00:00"
 }
