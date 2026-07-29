@@ -2,6 +2,1408 @@
   "captured_at": "2026-06-10T16:19:36.141820+00:00",
   "data": [
     {
+      "api_text": "期間限定公開(〜7/31)\n #ミョージョーサマー番外編 \n TIF2026直前決起集会 後半\n\nhttps://t.co/cTAmPZFcyg",
+      "attachments": {},
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "other"
+      },
+      "created_at": "2026-07-29T15:18:56+00:00",
+      "entities": {
+        "hashtags": [
+          {
+            "end": 28,
+            "start": 15,
+            "tag": "ミョージョーサマー番外編"
+          }
+        ],
+        "urls": [
+          {
+            "description": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.",
+            "display_url": "youtu.be/IpDZGNfd0uA?si…",
+            "end": 72,
+            "expanded_url": "https://youtu.be/IpDZGNfd0uA?si=BnYAj8coVjQ3AW0l",
+            "images": [
+              {
+                "height": 720,
+                "url": "https://pbs.twimg.com/news_img/2082486083812757504/yx4fEqom?format=jpg&name=orig",
+                "width": 1280
+              },
+              {
+                "height": 150,
+                "url": "https://pbs.twimg.com/news_img/2082486083812757504/yx4fEqom?format=jpg&name=150x150",
+                "width": 150
+              }
+            ],
+            "start": 49,
+            "status": 200,
+            "title": "［期間限定公開］TIF2026直前決起集会後半パート",
+            "unwound_url": "https://www.youtube.com/watch?si=BnYAj8coVjQ3AW0l&v=IpDZGNfd0uA&feature=youtu.be",
+            "url": "https://t.co/cTAmPZFcyg"
+          }
+        ]
+      },
+      "full_text_source": "text",
+      "id": "2082486037155373483",
+      "media": [],
+      "needs_review": true,
+      "needs_review_reasons": [
+        "missing venue",
+        "missing ticket deadline",
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": null,
+      "parsed_fields": {
+        "benefit_event_time": null,
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-07-31",
+        "event_dates": [
+          "2026-07-31"
+        ],
+        "event_name": "期間限定公開(〜7/31)",
+        "extraction_confidence": 0.6,
+        "general_ticket_price": null,
+        "lottery_result_at": null,
+        "myojou_performance_time": null,
+        "notes": null,
+        "open_time": null,
+        "payment_deadline_at": null,
+        "priority_ticket_name": null,
+        "priority_ticket_price": null,
+        "same_day_ticket_price": null,
+        "source_kind": "other",
+        "source_post_id": "2082486037155373483",
+        "source_posted_at": "2026-07-29T15:18:56Z",
+        "source_raw": {
+          "api_text": "期間限定公開(〜7/31)\n #ミョージョーサマー番外編 \n TIF2026直前決起集会 後半\n\nhttps://t.co/cTAmPZFcyg",
+          "created_at": "2026-07-29T15:18:56.000Z",
+          "edit_history_tweet_ids": [
+            "2082486037155373483"
+          ],
+          "entities": {
+            "hashtags": [
+              {
+                "end": 28,
+                "start": 15,
+                "tag": "ミョージョーサマー番外編"
+              }
+            ],
+            "urls": [
+              {
+                "description": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.",
+                "display_url": "youtu.be/IpDZGNfd0uA?si…",
+                "end": 72,
+                "expanded_url": "https://youtu.be/IpDZGNfd0uA?si=BnYAj8coVjQ3AW0l",
+                "images": [
+                  {
+                    "height": 720,
+                    "url": "https://pbs.twimg.com/news_img/2082486083812757504/yx4fEqom?format=jpg&name=orig",
+                    "width": 1280
+                  },
+                  {
+                    "height": 150,
+                    "url": "https://pbs.twimg.com/news_img/2082486083812757504/yx4fEqom?format=jpg&name=150x150",
+                    "width": 150
+                  }
+                ],
+                "start": 49,
+                "status": 200,
+                "title": "［期間限定公開］TIF2026直前決起集会後半パート",
+                "unwound_url": "https://www.youtube.com/watch?si=BnYAj8coVjQ3AW0l&v=IpDZGNfd0uA&feature=youtu.be",
+                "url": "https://t.co/cTAmPZFcyg"
+              }
+            ]
+          },
+          "full_text": "期間限定公開(〜7/31)\n #ミョージョーサマー番外編 \n TIF2026直前決起集会 後半\n\nhttps://t.co/cTAmPZFcyg",
+          "full_text_source": "text",
+          "id": "2082486037155373483",
+          "text": "期間限定公開(〜7/31)\n #ミョージョーサマー番外編 \n TIF2026直前決起集会 後半\n\nhttps://t.co/cTAmPZFcyg",
+          "truncated_text": null
+        },
+        "source_text": "期間限定公開(〜7/31)\n #ミョージョーサマー番外編 \n TIF2026直前決起集会 後半\n\nhttps://t.co/cTAmPZFcyg",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2082486037155373483",
+        "start_time": null,
+        "ticket_application_deadline_at": null,
+        "ticket_application_start_at": null,
+        "ticket_sale_type": null,
+        "ticket_sales": [],
+        "ticket_status": null,
+        "ticket_url": null,
+        "venue": null
+      },
+      "raw": {
+        "api_text": "期間限定公開(〜7/31)\n #ミョージョーサマー番外編 \n TIF2026直前決起集会 後半\n\nhttps://t.co/cTAmPZFcyg",
+        "created_at": "2026-07-29T15:18:56.000Z",
+        "edit_history_tweet_ids": [
+          "2082486037155373483"
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "end": 28,
+              "start": 15,
+              "tag": "ミョージョーサマー番外編"
+            }
+          ],
+          "urls": [
+            {
+              "description": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.",
+              "display_url": "youtu.be/IpDZGNfd0uA?si…",
+              "end": 72,
+              "expanded_url": "https://youtu.be/IpDZGNfd0uA?si=BnYAj8coVjQ3AW0l",
+              "images": [
+                {
+                  "height": 720,
+                  "url": "https://pbs.twimg.com/news_img/2082486083812757504/yx4fEqom?format=jpg&name=orig",
+                  "width": 1280
+                },
+                {
+                  "height": 150,
+                  "url": "https://pbs.twimg.com/news_img/2082486083812757504/yx4fEqom?format=jpg&name=150x150",
+                  "width": 150
+                }
+              ],
+              "start": 49,
+              "status": 200,
+              "title": "［期間限定公開］TIF2026直前決起集会後半パート",
+              "unwound_url": "https://www.youtube.com/watch?si=BnYAj8coVjQ3AW0l&v=IpDZGNfd0uA&feature=youtu.be",
+              "url": "https://t.co/cTAmPZFcyg"
+            }
+          ]
+        },
+        "full_text": "期間限定公開(〜7/31)\n #ミョージョーサマー番外編 \n TIF2026直前決起集会 後半\n\nhttps://t.co/cTAmPZFcyg",
+        "full_text_source": "text",
+        "id": "2082486037155373483",
+        "text": "期間限定公開(〜7/31)\n #ミョージョーサマー番外編 \n TIF2026直前決起集会 後半\n\nhttps://t.co/cTAmPZFcyg",
+        "truncated_text": null
+      },
+      "referenced_tweets": [],
+      "text": "期間限定公開(〜7/31)\n #ミョージョーサマー番外編 \n TIF2026直前決起集会 後半\n\nhttps://t.co/cTAmPZFcyg",
+      "truncated_text": null,
+      "url": "https://x.com/info_myojou/status/2082486037155373483"
+    },
+    {
+      "api_text": "▶️LIVE DIGEST\n #ミョージョーサマー番外編 \n TIF2026直前決起集会\n\n「HeartBeat」\n\n#myojou https://t.co/wUI29jC6zg",
+      "attachments": {
+        "media_keys": [
+          "13_2082482399347421184"
+        ]
+      },
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "live digest recap",
+        "source_kind": "other"
+      },
+      "created_at": "2026-07-29T15:06:00+00:00",
+      "entities": {
+        "hashtags": [
+          {
+            "end": 28,
+            "start": 15,
+            "tag": "ミョージョーサマー番外編"
+          },
+          {
+            "end": 66,
+            "start": 59,
+            "tag": "myojou"
+          }
+        ],
+        "urls": [
+          {
+            "display_url": "pic.x.com/wUI29jC6zg",
+            "end": 90,
+            "expanded_url": "https://x.com/info_myojou/status/2082482783461724203/video/1",
+            "media_key": "13_2082482399347421184",
+            "start": 67,
+            "url": "https://t.co/wUI29jC6zg"
+          }
+        ]
+      },
+      "full_text_source": "text",
+      "id": "2082482783461724203",
+      "media": [
+        {
+          "height": 1080,
+          "media_key": "13_2082482399347421184",
+          "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2082482399347421184/img/mjxdLeqYCtTsTkQz.jpg",
+          "type": "video",
+          "width": 1920
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "note_tweet": null,
+      "parsed_fields": null,
+      "raw": {
+        "api_text": "▶️LIVE DIGEST\n #ミョージョーサマー番外編 \n TIF2026直前決起集会\n\n「HeartBeat」\n\n#myojou https://t.co/wUI29jC6zg",
+        "attachments": {
+          "media_keys": [
+            "13_2082482399347421184"
+          ]
+        },
+        "created_at": "2026-07-29T15:06:00.000Z",
+        "edit_history_tweet_ids": [
+          "2082482783461724203"
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "end": 28,
+              "start": 15,
+              "tag": "ミョージョーサマー番外編"
+            },
+            {
+              "end": 66,
+              "start": 59,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "pic.x.com/wUI29jC6zg",
+              "end": 90,
+              "expanded_url": "https://x.com/info_myojou/status/2082482783461724203/video/1",
+              "media_key": "13_2082482399347421184",
+              "start": 67,
+              "url": "https://t.co/wUI29jC6zg"
+            }
+          ]
+        },
+        "full_text": "▶️LIVE DIGEST\n #ミョージョーサマー番外編 \n TIF2026直前決起集会\n\n「HeartBeat」\n\n#myojou https://t.co/wUI29jC6zg",
+        "full_text_source": "text",
+        "id": "2082482783461724203",
+        "media": [
+          {
+            "height": 1080,
+            "media_key": "13_2082482399347421184",
+            "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2082482399347421184/img/mjxdLeqYCtTsTkQz.jpg",
+            "type": "video",
+            "width": 1920
+          }
+        ],
+        "text": "▶️LIVE DIGEST\n #ミョージョーサマー番外編 \n TIF2026直前決起集会\n\n「HeartBeat」\n\n#myojou https://t.co/wUI29jC6zg",
+        "truncated_text": null
+      },
+      "referenced_tweets": [],
+      "text": "▶️LIVE DIGEST\n #ミョージョーサマー番外編 \n TIF2026直前決起集会\n\n「HeartBeat」\n\n#myojou https://t.co/wUI29jC6zg",
+      "truncated_text": null,
+      "url": "https://x.com/info_myojou/status/2082482783461724203"
+    },
+    {
+      "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「IDOL BIBLE vol.1」\n\n🚨完売間近🚨\nお買い忘れのないよう、ぜひお早めにお求めください…！！\n\n🎙20:00-20:30\n📸終演後特典会\n\n⟣date：7/30（木）\n⟣place : Veats Shibuya\n⟣open/start：15:20/16:00\n⟣price：前方チケット¥5,000/一般チケット¥1,500（各+1D） https://t.co/biHiEoi1Xi",
+      "attachments": {
+        "media_keys": [
+          "3_2082477036359352320"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "sold_out"
+      },
+      "created_at": "2026-07-29T14:43:11+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/biHiEoi1Xi",
+            "end": 224,
+            "expanded_url": "https://x.com/info_myojou/status/2082477041509937262/photo/1",
+            "media_key": "3_2082477036359352320",
+            "start": 201,
+            "url": "https://t.co/biHiEoi1Xi"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2082477041509937262",
+      "media": [
+        {
+          "height": 2048,
+          "media_key": "3_2082477036359352320",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HOZx1MUbgAA6M5r.jpg",
+          "width": 1448
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 288,
+              "start": 281,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "t-dv.com/idol_bibile",
+              "end": 279,
+              "expanded_url": "http://t-dv.com/idol_bibile",
+              "start": 256,
+              "url": "https://t.co/nuy6QxfqJF"
+            }
+          ]
+        },
+        "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「IDOL BIBLE vol.1」\n\n🚨完売間近🚨\nお買い忘れのないよう、ぜひお早めにお求めください…！！\n\n🎙20:00-20:30\n📸終演後特典会\n\n⟣date：7/30（木）\n⟣place : Veats Shibuya\n⟣open/start：15:20/16:00\n⟣price：前方チケット¥5,000/一般チケット¥1,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n7/3 21:30-7/29（水）23:59\n🔗 https://t.co/nuy6QxfqJF\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": null,
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-07-30",
+        "event_dates": [
+          "2026-07-30"
+        ],
+        "event_name": "IDOL BIBLE vol.1",
+        "extraction_confidence": 0.95,
+        "general_ticket_price": 1500,
+        "lottery_result_at": null,
+        "myojou_performance_time": "20:00-20:30",
+        "notes": "🚨完売間近🚨",
+        "open_time": "15:20",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "前方チケット",
+        "priority_ticket_price": 5000,
+        "same_day_ticket_price": null,
+        "source_kind": "sold_out",
+        "source_post_id": "2082477041509937262",
+        "source_posted_at": "2026-07-29T14:43:11Z",
+        "source_raw": {
+          "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「IDOL BIBLE vol.1」\n\n🚨完売間近🚨\nお買い忘れのないよう、ぜひお早めにお求めください…！！\n\n🎙20:00-20:30\n📸終演後特典会\n\n⟣date：7/30（木）\n⟣place : Veats Shibuya\n⟣open/start：15:20/16:00\n⟣price：前方チケット¥5,000/一般チケット¥1,500（各+1D） https://t.co/biHiEoi1Xi",
+          "attachments": {
+            "media_keys": [
+              "3_2082477036359352320"
+            ]
+          },
+          "created_at": "2026-07-29T14:43:11.000Z",
+          "edit_history_tweet_ids": [
+            "2082477041509937262"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/biHiEoi1Xi",
+                "end": 224,
+                "expanded_url": "https://x.com/info_myojou/status/2082477041509937262/photo/1",
+                "media_key": "3_2082477036359352320",
+                "start": 201,
+                "url": "https://t.co/biHiEoi1Xi"
+              }
+            ]
+          },
+          "full_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「IDOL BIBLE vol.1」\n\n🚨完売間近🚨\nお買い忘れのないよう、ぜひお早めにお求めください…！！\n\n🎙20:00-20:30\n📸終演後特典会\n\n⟣date：7/30（木）\n⟣place : Veats Shibuya\n⟣open/start：15:20/16:00\n⟣price：前方チケット¥5,000/一般チケット¥1,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n7/3 21:30-7/29（水）23:59\n🔗 https://t.co/nuy6QxfqJF\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2082477041509937262",
+          "media": [
+            {
+              "height": 2048,
+              "media_key": "3_2082477036359352320",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HOZx1MUbgAA6M5r.jpg",
+              "width": 1448
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 288,
+                  "start": 281,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "t-dv.com/idol_bibile",
+                  "end": 279,
+                  "expanded_url": "http://t-dv.com/idol_bibile",
+                  "start": 256,
+                  "url": "https://t.co/nuy6QxfqJF"
+                }
+              ]
+            },
+            "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「IDOL BIBLE vol.1」\n\n🚨完売間近🚨\nお買い忘れのないよう、ぜひお早めにお求めください…！！\n\n🎙20:00-20:30\n📸終演後特典会\n\n⟣date：7/30（木）\n⟣place : Veats Shibuya\n⟣open/start：15:20/16:00\n⟣price：前方チケット¥5,000/一般チケット¥1,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n7/3 21:30-7/29（水）23:59\n🔗 https://t.co/nuy6QxfqJF\n\n#myojou"
+          },
+          "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「IDOL BIBLE vol.1」\n\n🚨完売間近🚨\nお買い忘れのないよう、ぜひお早めにお求めください…！！\n\n🎙20:00-20:30\n📸終演後特典会\n\n⟣date：7/30（木）\n⟣place : Veats Shibuya\n⟣open/start：15:20/16:00\n⟣price：前方チケット¥5,000/一般チケット¥1,500（各+1D） https://t.co/biHiEoi1Xi",
+          "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「IDOL BIBLE vol.1」\n\n🚨完売間近🚨\nお買い忘れのないよう、ぜひお早めにお求めください…！！\n\n🎙20:00-20:30\n📸終演後特典会\n\n⟣date：7/30（木）\n⟣place : Veats Shibuya\n⟣open/start：15:20/16:00\n⟣price：前方チケット¥5,000/一般チケット¥1,500（各+1D） https://t.co/biHiEoi1Xi"
+        },
+        "source_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「IDOL BIBLE vol.1」\n\n🚨完売間近🚨\nお買い忘れのないよう、ぜひお早めにお求めください…！！\n\n🎙20:00-20:30\n📸終演後特典会\n\n⟣date：7/30（木）\n⟣place : Veats Shibuya\n⟣open/start：15:20/16:00\n⟣price：前方チケット¥5,000/一般チケット¥1,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n7/3 21:30-7/29（水）23:59\n🔗 https://t.co/nuy6QxfqJF\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2082477041509937262",
+        "start_time": "16:00",
+        "ticket_application_deadline_at": "2026-07-29T23:59:00+09:00",
+        "ticket_application_start_at": "2026-07-03T21:30:00+09:00",
+        "ticket_sale_type": "一般",
+        "ticket_sales": [
+          {
+            "deadline_at": "2026-07-29T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 5000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2082477041509937262",
+            "source_url": "https://x.com/info_myojou/status/2082477041509937262",
+            "start_at": "2026-07-03T21:30:00+09:00",
+            "status": "完売",
+            "ticket_name": "前方チケット",
+            "ticket_tier": "前方"
+          },
+          {
+            "deadline_at": "2026-07-29T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 1500,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2082477041509937262",
+            "source_url": "https://x.com/info_myojou/status/2082477041509937262",
+            "start_at": "2026-07-03T21:30:00+09:00",
+            "status": "完売",
+            "ticket_name": "一般チケット",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": "sold_out",
+        "ticket_url": "http://t-dv.com/idol_bibile",
+        "venue": "Veats Shibuya"
+      },
+      "raw": {
+        "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「IDOL BIBLE vol.1」\n\n🚨完売間近🚨\nお買い忘れのないよう、ぜひお早めにお求めください…！！\n\n🎙20:00-20:30\n📸終演後特典会\n\n⟣date：7/30（木）\n⟣place : Veats Shibuya\n⟣open/start：15:20/16:00\n⟣price：前方チケット¥5,000/一般チケット¥1,500（各+1D） https://t.co/biHiEoi1Xi",
+        "attachments": {
+          "media_keys": [
+            "3_2082477036359352320"
+          ]
+        },
+        "created_at": "2026-07-29T14:43:11.000Z",
+        "edit_history_tweet_ids": [
+          "2082477041509937262"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/biHiEoi1Xi",
+              "end": 224,
+              "expanded_url": "https://x.com/info_myojou/status/2082477041509937262/photo/1",
+              "media_key": "3_2082477036359352320",
+              "start": 201,
+              "url": "https://t.co/biHiEoi1Xi"
+            }
+          ]
+        },
+        "full_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「IDOL BIBLE vol.1」\n\n🚨完売間近🚨\nお買い忘れのないよう、ぜひお早めにお求めください…！！\n\n🎙20:00-20:30\n📸終演後特典会\n\n⟣date：7/30（木）\n⟣place : Veats Shibuya\n⟣open/start：15:20/16:00\n⟣price：前方チケット¥5,000/一般チケット¥1,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n7/3 21:30-7/29（水）23:59\n🔗 https://t.co/nuy6QxfqJF\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2082477041509937262",
+        "media": [
+          {
+            "height": 2048,
+            "media_key": "3_2082477036359352320",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HOZx1MUbgAA6M5r.jpg",
+            "width": 1448
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 288,
+                "start": 281,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "t-dv.com/idol_bibile",
+                "end": 279,
+                "expanded_url": "http://t-dv.com/idol_bibile",
+                "start": 256,
+                "url": "https://t.co/nuy6QxfqJF"
+              }
+            ]
+          },
+          "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「IDOL BIBLE vol.1」\n\n🚨完売間近🚨\nお買い忘れのないよう、ぜひお早めにお求めください…！！\n\n🎙20:00-20:30\n📸終演後特典会\n\n⟣date：7/30（木）\n⟣place : Veats Shibuya\n⟣open/start：15:20/16:00\n⟣price：前方チケット¥5,000/一般チケット¥1,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n7/3 21:30-7/29（水）23:59\n🔗 https://t.co/nuy6QxfqJF\n\n#myojou"
+        },
+        "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「IDOL BIBLE vol.1」\n\n🚨完売間近🚨\nお買い忘れのないよう、ぜひお早めにお求めください…！！\n\n🎙20:00-20:30\n📸終演後特典会\n\n⟣date：7/30（木）\n⟣place : Veats Shibuya\n⟣open/start：15:20/16:00\n⟣price：前方チケット¥5,000/一般チケット¥1,500（各+1D） https://t.co/biHiEoi1Xi",
+        "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「IDOL BIBLE vol.1」\n\n🚨完売間近🚨\nお買い忘れのないよう、ぜひお早めにお求めください…！！\n\n🎙20:00-20:30\n📸終演後特典会\n\n⟣date：7/30（木）\n⟣place : Veats Shibuya\n⟣open/start：15:20/16:00\n⟣price：前方チケット¥5,000/一般チケット¥1,500（各+1D） https://t.co/biHiEoi1Xi"
+      },
+      "referenced_tweets": [],
+      "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「IDOL BIBLE vol.1」\n\n🚨完売間近🚨\nお買い忘れのないよう、ぜひお早めにお求めください…！！\n\n🎙20:00-20:30\n📸終演後特典会\n\n⟣date：7/30（木）\n⟣place : Veats Shibuya\n⟣open/start：15:20/16:00\n⟣price：前方チケット¥5,000/一般チケット¥1,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n7/3 21:30-7/29（水）23:59\n🔗 https://t.co/nuy6QxfqJF\n\n#myojou",
+      "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「IDOL BIBLE vol.1」\n\n🚨完売間近🚨\nお買い忘れのないよう、ぜひお早めにお求めください…！！\n\n🎙20:00-20:30\n📸終演後特典会\n\n⟣date：7/30（木）\n⟣place : Veats Shibuya\n⟣open/start：15:20/16:00\n⟣price：前方チケット¥5,000/一般チケット¥1,500（各+1D） https://t.co/biHiEoi1Xi",
+      "url": "https://x.com/info_myojou/status/2082477041509937262"
+    },
+    {
+      "api_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            ˚.⋆ラジオ配信˖°⋆\n          myojou天体観測 #15\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣2026.07.29 22:00 プレミア公開\n⟣ myojou公式YouTubeチャンネル\n🔗 https://t.co/7PUmfDc0iX\n\n #myojou",
+      "attachments": {},
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "radio/non-live",
+        "source_kind": "other"
+      },
+      "created_at": "2026-07-29T12:09:36+00:00",
+      "entities": {
+        "hashtags": [
+          {
+            "end": 173,
+            "start": 166,
+            "tag": "myojou"
+          }
+        ],
+        "urls": [
+          {
+            "description": "「6人の少女が夜明けの空に描くストーリー」 公式X : https://x.com/info_myojou公式TikTok : ...",
+            "display_url": "youtu.be/97bI7mhLp_w",
+            "end": 163,
+            "expanded_url": "https://youtu.be/97bI7mhLp_w",
+            "start": 140,
+            "status": 200,
+            "title": "myojou天体観測 #15",
+            "unwound_url": "https://www.youtube.com/watch?v=97bI7mhLp_w&feature=youtu.be",
+            "url": "https://t.co/7PUmfDc0iX"
+          }
+        ]
+      },
+      "full_text_source": "text",
+      "id": "2082438390650462683",
+      "media": [],
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "note_tweet": null,
+      "parsed_fields": null,
+      "raw": {
+        "api_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            ˚.⋆ラジオ配信˖°⋆\n          myojou天体観測 #15\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣2026.07.29 22:00 プレミア公開\n⟣ myojou公式YouTubeチャンネル\n🔗 https://t.co/7PUmfDc0iX\n\n #myojou",
+        "created_at": "2026-07-29T12:09:36.000Z",
+        "edit_history_tweet_ids": [
+          "2082438390650462683"
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "end": 173,
+              "start": 166,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "description": "「6人の少女が夜明けの空に描くストーリー」 公式X : https://x.com/info_myojou公式TikTok : ...",
+              "display_url": "youtu.be/97bI7mhLp_w",
+              "end": 163,
+              "expanded_url": "https://youtu.be/97bI7mhLp_w",
+              "start": 140,
+              "status": 200,
+              "title": "myojou天体観測 #15",
+              "unwound_url": "https://www.youtube.com/watch?v=97bI7mhLp_w&feature=youtu.be",
+              "url": "https://t.co/7PUmfDc0iX"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            ˚.⋆ラジオ配信˖°⋆\n          myojou天体観測 #15\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣2026.07.29 22:00 プレミア公開\n⟣ myojou公式YouTubeチャンネル\n🔗 https://t.co/7PUmfDc0iX\n\n #myojou",
+        "full_text_source": "text",
+        "id": "2082438390650462683",
+        "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            ˚.⋆ラジオ配信˖°⋆\n          myojou天体観測 #15\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣2026.07.29 22:00 プレミア公開\n⟣ myojou公式YouTubeチャンネル\n🔗 https://t.co/7PUmfDc0iX\n\n #myojou",
+        "truncated_text": null
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            ˚.⋆ラジオ配信˖°⋆\n          myojou天体観測 #15\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣2026.07.29 22:00 プレミア公開\n⟣ myojou公式YouTubeチャンネル\n🔗 https://t.co/7PUmfDc0iX\n\n #myojou",
+      "truncated_text": null,
+      "url": "https://x.com/info_myojou/status/2082438390650462683"
+    },
+    {
+      "api_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n          NEO KASSEN2026\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n🎙17:30-17:55\n\n⟣date：8/10（月）\n⟣place : Spotify O-EAST / Spotify O-WEST / Spotify O-nest / Spotify O-Crest / duo MUSIC EXCHANGE / club asia /\nWOMB LIVE / SHIBUYA RING / https://t.co/sOx8oD6wYR",
+      "attachments": {
+        "media_keys": [
+          "3_2082437083621445632",
+          "3_2082437083654938624"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "ticket_update"
+      },
+      "created_at": "2026-07-29T12:04:26+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/sOx8oD6wYR",
+            "end": 255,
+            "expanded_url": "https://x.com/info_myojou/status/2082437090252562901/photo/1",
+            "media_key": "3_2082437083621445632",
+            "start": 232,
+            "url": "https://t.co/sOx8oD6wYR"
+          },
+          {
+            "display_url": "pic.x.com/sOx8oD6wYR",
+            "end": 255,
+            "expanded_url": "https://x.com/info_myojou/status/2082437090252562901/photo/1",
+            "media_key": "3_2082437083654938624",
+            "start": 232,
+            "url": "https://t.co/sOx8oD6wYR"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2082437090252562901",
+      "media": [
+        {
+          "height": 2000,
+          "media_key": "3_2082437083621445632",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HOZNfoxbUAA3Oq5.jpg",
+          "width": 1500
+        },
+        {
+          "height": 1819,
+          "media_key": "3_2082437083654938624",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HOZNfo5aYAAt7ZD.jpg",
+          "width": 4096
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 495,
+              "start": 488,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "l-tike.com/neokassen/",
+              "end": 486,
+              "expanded_url": "https://l-tike.com/neokassen/",
+              "start": 463,
+              "url": "https://t.co/5pB2X0B1gU"
+            }
+          ]
+        },
+        "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n          NEO KASSEN2026\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n🎙17:30-17:55\n\n⟣date：8/10（月）\n⟣place : Spotify O-EAST / Spotify O-WEST / Spotify O-nest / Spotify O-Crest / duo MUSIC EXCHANGE / club asia /\nWOMB LIVE / SHIBUYA RING / SHIBUYA DESEO / Veats Shibuya / SHIBUYA VIDENT / GRIT at Shibuya\n⟣open/start：11:00/11:30\n⟣price：KASSENチケット（※オリジナルTシャツ付き、リストバンド交換時専用レーンあり、入場規制時、リストバンド+Tシャツ着用で優先案内） ¥10,000 / 一般チケット ¥6,500\n/当日チケット¥7,500（各+1D）\n\n【一般先着】\n-8/9(日) 23:59\n🔗 https://t.co/5pB2X0B1gU\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": null,
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-08-10",
+        "event_dates": [
+          "2026-08-10",
+          "2026-08-09"
+        ],
+        "event_name": "NEO KASSEN2026",
+        "extraction_confidence": 0.95,
+        "general_ticket_price": 6500,
+        "lottery_result_at": null,
+        "myojou_performance_time": "17:30-17:55",
+        "notes": "ドリンク代: 各+1D",
+        "open_time": "11:00",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "SSEN",
+        "priority_ticket_price": 2026,
+        "same_day_ticket_price": 7500,
+        "source_kind": "ticket_update",
+        "source_post_id": "2082437090252562901",
+        "source_posted_at": "2026-07-29T12:04:26Z",
+        "source_raw": {
+          "api_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n          NEO KASSEN2026\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n🎙17:30-17:55\n\n⟣date：8/10（月）\n⟣place : Spotify O-EAST / Spotify O-WEST / Spotify O-nest / Spotify O-Crest / duo MUSIC EXCHANGE / club asia /\nWOMB LIVE / SHIBUYA RING / https://t.co/sOx8oD6wYR",
+          "attachments": {
+            "media_keys": [
+              "3_2082437083621445632",
+              "3_2082437083654938624"
+            ]
+          },
+          "created_at": "2026-07-29T12:04:26.000Z",
+          "edit_history_tweet_ids": [
+            "2082437090252562901"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/sOx8oD6wYR",
+                "end": 255,
+                "expanded_url": "https://x.com/info_myojou/status/2082437090252562901/photo/1",
+                "media_key": "3_2082437083621445632",
+                "start": 232,
+                "url": "https://t.co/sOx8oD6wYR"
+              },
+              {
+                "display_url": "pic.x.com/sOx8oD6wYR",
+                "end": 255,
+                "expanded_url": "https://x.com/info_myojou/status/2082437090252562901/photo/1",
+                "media_key": "3_2082437083654938624",
+                "start": 232,
+                "url": "https://t.co/sOx8oD6wYR"
+              }
+            ]
+          },
+          "full_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n          NEO KASSEN2026\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n🎙17:30-17:55\n\n⟣date：8/10（月）\n⟣place : Spotify O-EAST / Spotify O-WEST / Spotify O-nest / Spotify O-Crest / duo MUSIC EXCHANGE / club asia /\nWOMB LIVE / SHIBUYA RING / SHIBUYA DESEO / Veats Shibuya / SHIBUYA VIDENT / GRIT at Shibuya\n⟣open/start：11:00/11:30\n⟣price：KASSENチケット（※オリジナルTシャツ付き、リストバンド交換時専用レーンあり、入場規制時、リストバンド+Tシャツ着用で優先案内） ¥10,000 / 一般チケット ¥6,500\n/当日チケット¥7,500（各+1D）\n\n【一般先着】\n-8/9(日) 23:59\n🔗 https://t.co/5pB2X0B1gU\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2082437090252562901",
+          "media": [
+            {
+              "height": 2000,
+              "media_key": "3_2082437083621445632",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HOZNfoxbUAA3Oq5.jpg",
+              "width": 1500
+            },
+            {
+              "height": 1819,
+              "media_key": "3_2082437083654938624",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HOZNfo5aYAAt7ZD.jpg",
+              "width": 4096
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 495,
+                  "start": 488,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "l-tike.com/neokassen/",
+                  "end": 486,
+                  "expanded_url": "https://l-tike.com/neokassen/",
+                  "start": 463,
+                  "url": "https://t.co/5pB2X0B1gU"
+                }
+              ]
+            },
+            "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n          NEO KASSEN2026\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n🎙17:30-17:55\n\n⟣date：8/10（月）\n⟣place : Spotify O-EAST / Spotify O-WEST / Spotify O-nest / Spotify O-Crest / duo MUSIC EXCHANGE / club asia /\nWOMB LIVE / SHIBUYA RING / SHIBUYA DESEO / Veats Shibuya / SHIBUYA VIDENT / GRIT at Shibuya\n⟣open/start：11:00/11:30\n⟣price：KASSENチケット（※オリジナルTシャツ付き、リストバンド交換時専用レーンあり、入場規制時、リストバンド+Tシャツ着用で優先案内） ¥10,000 / 一般チケット ¥6,500\n/当日チケット¥7,500（各+1D）\n\n【一般先着】\n-8/9(日) 23:59\n🔗 https://t.co/5pB2X0B1gU\n\n#myojou"
+          },
+          "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n          NEO KASSEN2026\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n🎙17:30-17:55\n\n⟣date：8/10（月）\n⟣place : Spotify O-EAST / Spotify O-WEST / Spotify O-nest / Spotify O-Crest / duo MUSIC EXCHANGE / club asia /\nWOMB LIVE / SHIBUYA RING / https://t.co/sOx8oD6wYR",
+          "truncated_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n          NEO KASSEN2026\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n🎙17:30-17:55\n\n⟣date：8/10（月）\n⟣place : Spotify O-EAST / Spotify O-WEST / Spotify O-nest / Spotify O-Crest / duo MUSIC EXCHANGE / club asia /\nWOMB LIVE / SHIBUYA RING / https://t.co/sOx8oD6wYR"
+        },
+        "source_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n          NEO KASSEN2026\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n🎙17:30-17:55\n\n⟣date：8/10（月）\n⟣place : Spotify O-EAST / Spotify O-WEST / Spotify O-nest / Spotify O-Crest / duo MUSIC EXCHANGE / club asia /\nWOMB LIVE / SHIBUYA RING / SHIBUYA DESEO / Veats Shibuya / SHIBUYA VIDENT / GRIT at Shibuya\n⟣open/start：11:00/11:30\n⟣price：KASSENチケット（※オリジナルTシャツ付き、リストバンド交換時専用レーンあり、入場規制時、リストバンド+Tシャツ着用で優先案内） ¥10,000 / 一般チケット ¥6,500\n/当日チケット¥7,500（各+1D）\n\n【一般先着】\n-8/9(日) 23:59\n🔗 https://t.co/5pB2X0B1gU\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2082437090252562901",
+        "start_time": "11:30",
+        "ticket_application_deadline_at": "2026-08-09T23:59:00+09:00",
+        "ticket_application_start_at": null,
+        "ticket_sale_type": "先着",
+        "ticket_sales": [
+          {
+            "deadline_at": "2026-08-09T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 2026,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2082437090252562901",
+            "source_url": "https://x.com/info_myojou/status/2082437090252562901",
+            "start_at": null,
+            "status": "不明",
+            "ticket_name": "SS",
+            "ticket_tier": "SS"
+          },
+          {
+            "deadline_at": "2026-08-09T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 10000,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2082437090252562901",
+            "source_url": "https://x.com/info_myojou/status/2082437090252562901",
+            "start_at": null,
+            "status": "不明",
+            "ticket_name": "KASSENチケット",
+            "ticket_tier": "SS"
+          },
+          {
+            "deadline_at": "2026-08-09T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 6500,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2082437090252562901",
+            "source_url": "https://x.com/info_myojou/status/2082437090252562901",
+            "start_at": null,
+            "status": "不明",
+            "ticket_name": "一般チケット",
+            "ticket_tier": "一般"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 7500,
+            "result_at": null,
+            "sale_type": "当日券",
+            "source_post_id": "2082437090252562901",
+            "source_url": "https://x.com/info_myojou/status/2082437090252562901",
+            "start_at": null,
+            "status": "販売中",
+            "ticket_name": "当日券",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "https://l-tike.com/neokassen/",
+        "venue": "Spotify O-EAST / Spotify O-WEST / Spotify O-nest / Spotify O-Crest / duo MUSIC EXCHANGE / club asia"
+      },
+      "raw": {
+        "api_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n          NEO KASSEN2026\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n🎙17:30-17:55\n\n⟣date：8/10（月）\n⟣place : Spotify O-EAST / Spotify O-WEST / Spotify O-nest / Spotify O-Crest / duo MUSIC EXCHANGE / club asia /\nWOMB LIVE / SHIBUYA RING / https://t.co/sOx8oD6wYR",
+        "attachments": {
+          "media_keys": [
+            "3_2082437083621445632",
+            "3_2082437083654938624"
+          ]
+        },
+        "created_at": "2026-07-29T12:04:26.000Z",
+        "edit_history_tweet_ids": [
+          "2082437090252562901"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/sOx8oD6wYR",
+              "end": 255,
+              "expanded_url": "https://x.com/info_myojou/status/2082437090252562901/photo/1",
+              "media_key": "3_2082437083621445632",
+              "start": 232,
+              "url": "https://t.co/sOx8oD6wYR"
+            },
+            {
+              "display_url": "pic.x.com/sOx8oD6wYR",
+              "end": 255,
+              "expanded_url": "https://x.com/info_myojou/status/2082437090252562901/photo/1",
+              "media_key": "3_2082437083654938624",
+              "start": 232,
+              "url": "https://t.co/sOx8oD6wYR"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n          NEO KASSEN2026\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n🎙17:30-17:55\n\n⟣date：8/10（月）\n⟣place : Spotify O-EAST / Spotify O-WEST / Spotify O-nest / Spotify O-Crest / duo MUSIC EXCHANGE / club asia /\nWOMB LIVE / SHIBUYA RING / SHIBUYA DESEO / Veats Shibuya / SHIBUYA VIDENT / GRIT at Shibuya\n⟣open/start：11:00/11:30\n⟣price：KASSENチケット（※オリジナルTシャツ付き、リストバンド交換時専用レーンあり、入場規制時、リストバンド+Tシャツ着用で優先案内） ¥10,000 / 一般チケット ¥6,500\n/当日チケット¥7,500（各+1D）\n\n【一般先着】\n-8/9(日) 23:59\n🔗 https://t.co/5pB2X0B1gU\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2082437090252562901",
+        "media": [
+          {
+            "height": 2000,
+            "media_key": "3_2082437083621445632",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HOZNfoxbUAA3Oq5.jpg",
+            "width": 1500
+          },
+          {
+            "height": 1819,
+            "media_key": "3_2082437083654938624",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HOZNfo5aYAAt7ZD.jpg",
+            "width": 4096
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 495,
+                "start": 488,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "l-tike.com/neokassen/",
+                "end": 486,
+                "expanded_url": "https://l-tike.com/neokassen/",
+                "start": 463,
+                "url": "https://t.co/5pB2X0B1gU"
+              }
+            ]
+          },
+          "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n          NEO KASSEN2026\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n🎙17:30-17:55\n\n⟣date：8/10（月）\n⟣place : Spotify O-EAST / Spotify O-WEST / Spotify O-nest / Spotify O-Crest / duo MUSIC EXCHANGE / club asia /\nWOMB LIVE / SHIBUYA RING / SHIBUYA DESEO / Veats Shibuya / SHIBUYA VIDENT / GRIT at Shibuya\n⟣open/start：11:00/11:30\n⟣price：KASSENチケット（※オリジナルTシャツ付き、リストバンド交換時専用レーンあり、入場規制時、リストバンド+Tシャツ着用で優先案内） ¥10,000 / 一般チケット ¥6,500\n/当日チケット¥7,500（各+1D）\n\n【一般先着】\n-8/9(日) 23:59\n🔗 https://t.co/5pB2X0B1gU\n\n#myojou"
+        },
+        "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n          NEO KASSEN2026\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n🎙17:30-17:55\n\n⟣date：8/10（月）\n⟣place : Spotify O-EAST / Spotify O-WEST / Spotify O-nest / Spotify O-Crest / duo MUSIC EXCHANGE / club asia /\nWOMB LIVE / SHIBUYA RING / https://t.co/sOx8oD6wYR",
+        "truncated_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n          NEO KASSEN2026\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n🎙17:30-17:55\n\n⟣date：8/10（月）\n⟣place : Spotify O-EAST / Spotify O-WEST / Spotify O-nest / Spotify O-Crest / duo MUSIC EXCHANGE / club asia /\nWOMB LIVE / SHIBUYA RING / https://t.co/sOx8oD6wYR"
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n          NEO KASSEN2026\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n🎙17:30-17:55\n\n⟣date：8/10（月）\n⟣place : Spotify O-EAST / Spotify O-WEST / Spotify O-nest / Spotify O-Crest / duo MUSIC EXCHANGE / club asia /\nWOMB LIVE / SHIBUYA RING / SHIBUYA DESEO / Veats Shibuya / SHIBUYA VIDENT / GRIT at Shibuya\n⟣open/start：11:00/11:30\n⟣price：KASSENチケット（※オリジナルTシャツ付き、リストバンド交換時専用レーンあり、入場規制時、リストバンド+Tシャツ着用で優先案内） ¥10,000 / 一般チケット ¥6,500\n/当日チケット¥7,500（各+1D）\n\n【一般先着】\n-8/9(日) 23:59\n🔗 https://t.co/5pB2X0B1gU\n\n#myojou",
+      "truncated_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n          NEO KASSEN2026\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n🎙17:30-17:55\n\n⟣date：8/10（月）\n⟣place : Spotify O-EAST / Spotify O-WEST / Spotify O-nest / Spotify O-Crest / duo MUSIC EXCHANGE / club asia /\nWOMB LIVE / SHIBUYA RING / https://t.co/sOx8oD6wYR",
+      "url": "https://x.com/info_myojou/status/2082437090252562901"
+    },
+    {
+      "api_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n            TOKYO IDOL FESTIVAL 2026\n         supported by にしたんクリニック\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\nDay1\n📍GREETING AREA\n📸12:00-14:30\n\n📍SMILE GARDEN\n🎙17:15-17:35\n\n📍HEAT GARAGE https://t.co/qMTf0WwFiZ",
+      "attachments": {
+        "media_keys": [
+          "3_2082432613047054336"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "ticket_update"
+      },
+      "created_at": "2026-07-29T11:46:41+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/qMTf0WwFiZ",
+            "end": 220,
+            "expanded_url": "https://x.com/info_myojou/status/2082432620248654167/photo/1",
+            "media_key": "3_2082432613047054336",
+            "start": 197,
+            "url": "https://t.co/qMTf0WwFiZ"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2082432620248654167",
+      "media": [
+        {
+          "height": 4096,
+          "media_key": "3_2082432613047054336",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HOZJbalbsAAPlZI.jpg",
+          "width": 2896
+        }
+      ],
+      "needs_review": true,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 667,
+              "start": 660,
+              "tag": "myojou"
+            },
+            {
+              "end": 678,
+              "start": 668,
+              "tag": "ミョージョーサマー"
+            },
+            {
+              "end": 687,
+              "start": 679,
+              "tag": "TIF2026"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "official.idolfes.com/s/tif2026/page…",
+              "end": 619,
+              "expanded_url": "https://official.idolfes.com/s/tif2026/page/ticket",
+              "start": 596,
+              "url": "https://t.co/POxE5fRFg5"
+            },
+            {
+              "display_url": "official.idolfes.com/s/tif2026/",
+              "end": 658,
+              "expanded_url": "http://official.idolfes.com/s/tif2026/",
+              "start": 635,
+              "url": "https://t.co/w8QQpaRs9t"
+            }
+          ]
+        },
+        "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n            TOKYO IDOL FESTIVAL 2026\n         supported by にしたんクリニック\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\nDay1\n📍GREETING AREA\n📸12:00-14:30\n\n📍SMILE GARDEN\n🎙17:15-17:35\n\n📍HEAT GARAGE\n🎙19:15-20:40（メインステージ争奪LIVE決勝戦）\n\nDay3\n📍SKY STAGE\n🎙11:20-11:35\n\n📍HOT STAGE\n🎙12:50-13:10（メインステージ争奪LIVE優勝時）\n\n📍TOROCCO PARK\n🎙17:20-17:40\n\n📍縁日エリアG･H\n🎣18:00-18:30\n\n⟣date：7/31（金）、8/2（日）\n⟣place : お台場・青海周辺エリア\n⟣open/start：10:00/10:00（会場による）\n⟣price：\n【先行販売】\n通常チケット単日券¥10,500/通常チケット3日間通し券¥26,500/Tシャツ付きチケット単日券¥13,000/Tシャツ付きチケット3日間通し券¥29,000\n【一般販売】\n通常チケット単日券¥11,500/3日間通し券¥30,000\n\n【一般販売】\n6/15（月）10:00-各公演前日23:59\n🔗 https://t.co/POxE5fRFg5\n\nTIF2026公式HP\n🔗 https://t.co/w8QQpaRs9t\n\n#myojou\n#ミョージョーサマー\n#TIF2026"
+      },
+      "parsed_fields": {
+        "benefit_event_time": "12:00-14:30",
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-07-31",
+        "event_dates": [
+          "2026-07-31",
+          "2026-08-01",
+          "2026-08-02"
+        ],
+        "event_name": "TOKYO IDOL FESTIVAL 2026",
+        "extraction_confidence": 0.95,
+        "general_ticket_price": 10500,
+        "lottery_result_at": null,
+        "myojou_performance_time": "17:15-17:35",
+        "notes": null,
+        "open_time": "10:00",
+        "payment_deadline_at": null,
+        "priority_ticket_name": null,
+        "priority_ticket_price": null,
+        "same_day_ticket_price": null,
+        "source_kind": "ticket_update",
+        "source_post_id": "2082432620248654167",
+        "source_posted_at": "2026-07-29T11:46:41Z",
+        "source_raw": {
+          "api_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n            TOKYO IDOL FESTIVAL 2026\n         supported by にしたんクリニック\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\nDay1\n📍GREETING AREA\n📸12:00-14:30\n\n📍SMILE GARDEN\n🎙17:15-17:35\n\n📍HEAT GARAGE https://t.co/qMTf0WwFiZ",
+          "attachments": {
+            "media_keys": [
+              "3_2082432613047054336"
+            ]
+          },
+          "created_at": "2026-07-29T11:46:41.000Z",
+          "edit_history_tweet_ids": [
+            "2082432620248654167"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/qMTf0WwFiZ",
+                "end": 220,
+                "expanded_url": "https://x.com/info_myojou/status/2082432620248654167/photo/1",
+                "media_key": "3_2082432613047054336",
+                "start": 197,
+                "url": "https://t.co/qMTf0WwFiZ"
+              }
+            ]
+          },
+          "full_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n            TOKYO IDOL FESTIVAL 2026\n         supported by にしたんクリニック\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\nDay1\n📍GREETING AREA\n📸12:00-14:30\n\n📍SMILE GARDEN\n🎙17:15-17:35\n\n📍HEAT GARAGE\n🎙19:15-20:40（メインステージ争奪LIVE決勝戦）\n\nDay3\n📍SKY STAGE\n🎙11:20-11:35\n\n📍HOT STAGE\n🎙12:50-13:10（メインステージ争奪LIVE優勝時）\n\n📍TOROCCO PARK\n🎙17:20-17:40\n\n📍縁日エリアG･H\n🎣18:00-18:30\n\n⟣date：7/31（金）、8/2（日）\n⟣place : お台場・青海周辺エリア\n⟣open/start：10:00/10:00（会場による）\n⟣price：\n【先行販売】\n通常チケット単日券¥10,500/通常チケット3日間通し券¥26,500/Tシャツ付きチケット単日券¥13,000/Tシャツ付きチケット3日間通し券¥29,000\n【一般販売】\n通常チケット単日券¥11,500/3日間通し券¥30,000\n\n【一般販売】\n6/15（月）10:00-各公演前日23:59\n🔗 https://t.co/POxE5fRFg5\n\nTIF2026公式HP\n🔗 https://t.co/w8QQpaRs9t\n\n#myojou\n#ミョージョーサマー\n#TIF2026",
+          "full_text_source": "note_tweet",
+          "id": "2082432620248654167",
+          "media": [
+            {
+              "height": 4096,
+              "media_key": "3_2082432613047054336",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HOZJbalbsAAPlZI.jpg",
+              "width": 2896
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 667,
+                  "start": 660,
+                  "tag": "myojou"
+                },
+                {
+                  "end": 678,
+                  "start": 668,
+                  "tag": "ミョージョーサマー"
+                },
+                {
+                  "end": 687,
+                  "start": 679,
+                  "tag": "TIF2026"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "official.idolfes.com/s/tif2026/page…",
+                  "end": 619,
+                  "expanded_url": "https://official.idolfes.com/s/tif2026/page/ticket",
+                  "start": 596,
+                  "url": "https://t.co/POxE5fRFg5"
+                },
+                {
+                  "display_url": "official.idolfes.com/s/tif2026/",
+                  "end": 658,
+                  "expanded_url": "http://official.idolfes.com/s/tif2026/",
+                  "start": 635,
+                  "url": "https://t.co/w8QQpaRs9t"
+                }
+              ]
+            },
+            "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n            TOKYO IDOL FESTIVAL 2026\n         supported by にしたんクリニック\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\nDay1\n📍GREETING AREA\n📸12:00-14:30\n\n📍SMILE GARDEN\n🎙17:15-17:35\n\n📍HEAT GARAGE\n🎙19:15-20:40（メインステージ争奪LIVE決勝戦）\n\nDay3\n📍SKY STAGE\n🎙11:20-11:35\n\n📍HOT STAGE\n🎙12:50-13:10（メインステージ争奪LIVE優勝時）\n\n📍TOROCCO PARK\n🎙17:20-17:40\n\n📍縁日エリアG･H\n🎣18:00-18:30\n\n⟣date：7/31（金）、8/2（日）\n⟣place : お台場・青海周辺エリア\n⟣open/start：10:00/10:00（会場による）\n⟣price：\n【先行販売】\n通常チケット単日券¥10,500/通常チケット3日間通し券¥26,500/Tシャツ付きチケット単日券¥13,000/Tシャツ付きチケット3日間通し券¥29,000\n【一般販売】\n通常チケット単日券¥11,500/3日間通し券¥30,000\n\n【一般販売】\n6/15（月）10:00-各公演前日23:59\n🔗 https://t.co/POxE5fRFg5\n\nTIF2026公式HP\n🔗 https://t.co/w8QQpaRs9t\n\n#myojou\n#ミョージョーサマー\n#TIF2026"
+          },
+          "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n            TOKYO IDOL FESTIVAL 2026\n         supported by にしたんクリニック\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\nDay1\n📍GREETING AREA\n📸12:00-14:30\n\n📍SMILE GARDEN\n🎙17:15-17:35\n\n📍HEAT GARAGE https://t.co/qMTf0WwFiZ",
+          "truncated_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n            TOKYO IDOL FESTIVAL 2026\n         supported by にしたんクリニック\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\nDay1\n📍GREETING AREA\n📸12:00-14:30\n\n📍SMILE GARDEN\n🎙17:15-17:35\n\n📍HEAT GARAGE https://t.co/qMTf0WwFiZ"
+        },
+        "source_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n            TOKYO IDOL FESTIVAL 2026\n         supported by にしたんクリニック\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\nDay1\n📍GREETING AREA\n📸12:00-14:30\n\n📍SMILE GARDEN\n🎙17:15-17:35\n\n📍HEAT GARAGE\n🎙19:15-20:40（メインステージ争奪LIVE決勝戦）\n\nDay3\n📍SKY STAGE\n🎙11:20-11:35\n\n📍HOT STAGE\n🎙12:50-13:10（メインステージ争奪LIVE優勝時）\n\n📍TOROCCO PARK\n🎙17:20-17:40\n\n📍縁日エリアG･H\n🎣18:00-18:30\n\n⟣date：7/31（金）、8/2（日）\n⟣place : お台場・青海周辺エリア\n⟣open/start：10:00/10:00（会場による）\n⟣price：\n【先行販売】\n通常チケット単日券¥10,500/通常チケット3日間通し券¥26,500/Tシャツ付きチケット単日券¥13,000/Tシャツ付きチケット3日間通し券¥29,000\n【一般販売】\n通常チケット単日券¥11,500/3日間通し券¥30,000\n\n【一般販売】\n6/15（月）10:00-各公演前日23:59\n🔗 https://t.co/POxE5fRFg5\n\nTIF2026公式HP\n🔗 https://t.co/w8QQpaRs9t\n\n#myojou\n#ミョージョーサマー\n#TIF2026",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2082432620248654167",
+        "start_time": "10:00",
+        "ticket_application_deadline_at": null,
+        "ticket_application_start_at": "2026-06-15T10:00:00+09:00",
+        "ticket_sale_type": "一般",
+        "ticket_sales": [
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 10500,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2082432620248654167",
+            "source_url": "https://x.com/info_myojou/status/2082432620248654167",
+            "start_at": "2026-06-15T10:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "通常チケット",
+            "ticket_tier": "一般"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 13000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2082432620248654167",
+            "source_url": "https://x.com/info_myojou/status/2082432620248654167",
+            "start_at": "2026-06-15T10:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "Tシャツ付きチケット",
+            "ticket_tier": "その他"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "https://official.idolfes.com/s/tif2026/page/ticket",
+        "venue": "お台場・青海周辺エリア"
+      },
+      "raw": {
+        "api_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n            TOKYO IDOL FESTIVAL 2026\n         supported by にしたんクリニック\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\nDay1\n📍GREETING AREA\n📸12:00-14:30\n\n📍SMILE GARDEN\n🎙17:15-17:35\n\n📍HEAT GARAGE https://t.co/qMTf0WwFiZ",
+        "attachments": {
+          "media_keys": [
+            "3_2082432613047054336"
+          ]
+        },
+        "created_at": "2026-07-29T11:46:41.000Z",
+        "edit_history_tweet_ids": [
+          "2082432620248654167"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/qMTf0WwFiZ",
+              "end": 220,
+              "expanded_url": "https://x.com/info_myojou/status/2082432620248654167/photo/1",
+              "media_key": "3_2082432613047054336",
+              "start": 197,
+              "url": "https://t.co/qMTf0WwFiZ"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n            TOKYO IDOL FESTIVAL 2026\n         supported by にしたんクリニック\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\nDay1\n📍GREETING AREA\n📸12:00-14:30\n\n📍SMILE GARDEN\n🎙17:15-17:35\n\n📍HEAT GARAGE\n🎙19:15-20:40（メインステージ争奪LIVE決勝戦）\n\nDay3\n📍SKY STAGE\n🎙11:20-11:35\n\n📍HOT STAGE\n🎙12:50-13:10（メインステージ争奪LIVE優勝時）\n\n📍TOROCCO PARK\n🎙17:20-17:40\n\n📍縁日エリアG･H\n🎣18:00-18:30\n\n⟣date：7/31（金）、8/2（日）\n⟣place : お台場・青海周辺エリア\n⟣open/start：10:00/10:00（会場による）\n⟣price：\n【先行販売】\n通常チケット単日券¥10,500/通常チケット3日間通し券¥26,500/Tシャツ付きチケット単日券¥13,000/Tシャツ付きチケット3日間通し券¥29,000\n【一般販売】\n通常チケット単日券¥11,500/3日間通し券¥30,000\n\n【一般販売】\n6/15（月）10:00-各公演前日23:59\n🔗 https://t.co/POxE5fRFg5\n\nTIF2026公式HP\n🔗 https://t.co/w8QQpaRs9t\n\n#myojou\n#ミョージョーサマー\n#TIF2026",
+        "full_text_source": "note_tweet",
+        "id": "2082432620248654167",
+        "media": [
+          {
+            "height": 4096,
+            "media_key": "3_2082432613047054336",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HOZJbalbsAAPlZI.jpg",
+            "width": 2896
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 667,
+                "start": 660,
+                "tag": "myojou"
+              },
+              {
+                "end": 678,
+                "start": 668,
+                "tag": "ミョージョーサマー"
+              },
+              {
+                "end": 687,
+                "start": 679,
+                "tag": "TIF2026"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "official.idolfes.com/s/tif2026/page…",
+                "end": 619,
+                "expanded_url": "https://official.idolfes.com/s/tif2026/page/ticket",
+                "start": 596,
+                "url": "https://t.co/POxE5fRFg5"
+              },
+              {
+                "display_url": "official.idolfes.com/s/tif2026/",
+                "end": 658,
+                "expanded_url": "http://official.idolfes.com/s/tif2026/",
+                "start": 635,
+                "url": "https://t.co/w8QQpaRs9t"
+              }
+            ]
+          },
+          "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n            TOKYO IDOL FESTIVAL 2026\n         supported by にしたんクリニック\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\nDay1\n📍GREETING AREA\n📸12:00-14:30\n\n📍SMILE GARDEN\n🎙17:15-17:35\n\n📍HEAT GARAGE\n🎙19:15-20:40（メインステージ争奪LIVE決勝戦）\n\nDay3\n📍SKY STAGE\n🎙11:20-11:35\n\n📍HOT STAGE\n🎙12:50-13:10（メインステージ争奪LIVE優勝時）\n\n📍TOROCCO PARK\n🎙17:20-17:40\n\n📍縁日エリアG･H\n🎣18:00-18:30\n\n⟣date：7/31（金）、8/2（日）\n⟣place : お台場・青海周辺エリア\n⟣open/start：10:00/10:00（会場による）\n⟣price：\n【先行販売】\n通常チケット単日券¥10,500/通常チケット3日間通し券¥26,500/Tシャツ付きチケット単日券¥13,000/Tシャツ付きチケット3日間通し券¥29,000\n【一般販売】\n通常チケット単日券¥11,500/3日間通し券¥30,000\n\n【一般販売】\n6/15（月）10:00-各公演前日23:59\n🔗 https://t.co/POxE5fRFg5\n\nTIF2026公式HP\n🔗 https://t.co/w8QQpaRs9t\n\n#myojou\n#ミョージョーサマー\n#TIF2026"
+        },
+        "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n            TOKYO IDOL FESTIVAL 2026\n         supported by にしたんクリニック\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\nDay1\n📍GREETING AREA\n📸12:00-14:30\n\n📍SMILE GARDEN\n🎙17:15-17:35\n\n📍HEAT GARAGE https://t.co/qMTf0WwFiZ",
+        "truncated_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n            TOKYO IDOL FESTIVAL 2026\n         supported by にしたんクリニック\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\nDay1\n📍GREETING AREA\n📸12:00-14:30\n\n📍SMILE GARDEN\n🎙17:15-17:35\n\n📍HEAT GARAGE https://t.co/qMTf0WwFiZ"
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n            TOKYO IDOL FESTIVAL 2026\n         supported by にしたんクリニック\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\nDay1\n📍GREETING AREA\n📸12:00-14:30\n\n📍SMILE GARDEN\n🎙17:15-17:35\n\n📍HEAT GARAGE\n🎙19:15-20:40（メインステージ争奪LIVE決勝戦）\n\nDay3\n📍SKY STAGE\n🎙11:20-11:35\n\n📍HOT STAGE\n🎙12:50-13:10（メインステージ争奪LIVE優勝時）\n\n📍TOROCCO PARK\n🎙17:20-17:40\n\n📍縁日エリアG･H\n🎣18:00-18:30\n\n⟣date：7/31（金）、8/2（日）\n⟣place : お台場・青海周辺エリア\n⟣open/start：10:00/10:00（会場による）\n⟣price：\n【先行販売】\n通常チケット単日券¥10,500/通常チケット3日間通し券¥26,500/Tシャツ付きチケット単日券¥13,000/Tシャツ付きチケット3日間通し券¥29,000\n【一般販売】\n通常チケット単日券¥11,500/3日間通し券¥30,000\n\n【一般販売】\n6/15（月）10:00-各公演前日23:59\n🔗 https://t.co/POxE5fRFg5\n\nTIF2026公式HP\n🔗 https://t.co/w8QQpaRs9t\n\n#myojou\n#ミョージョーサマー\n#TIF2026",
+      "truncated_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n            TOKYO IDOL FESTIVAL 2026\n         supported by にしたんクリニック\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\nDay1\n📍GREETING AREA\n📸12:00-14:30\n\n📍SMILE GARDEN\n🎙17:15-17:35\n\n📍HEAT GARAGE https://t.co/qMTf0WwFiZ",
+      "url": "https://x.com/info_myojou/status/2082432620248654167"
+    },
+    {
+      "api_text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n       #ミョージョーサマー番外編 \n           TIF2026直前決起集会\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「 #ミョージョーサマー番外編 TIF2026直前決起集会」ありがとうございました⋆˙⟡\n\n左から https://t.co/9GQDEwvnYK",
+      "attachments": {
+        "media_keys": [
+          "3_2082429686320361472"
+        ]
+      },
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "profile/member introduction",
+        "source_kind": "other"
+      },
+      "created_at": "2026-07-29T11:35:04+00:00",
+      "entities": {
+        "hashtags": [
+          {
+            "end": 75,
+            "start": 62,
+            "tag": "ミョージョーサマー番外編"
+          },
+          {
+            "end": 143,
+            "start": 130,
+            "tag": "ミョージョーサマー番外編"
+          }
+        ],
+        "urls": [
+          {
+            "display_url": "pic.x.com/9GQDEwvnYK",
+            "end": 201,
+            "expanded_url": "https://x.com/info_myojou/status/2082429697850474943/photo/1",
+            "media_key": "3_2082429686320361472",
+            "start": 178,
+            "url": "https://t.co/9GQDEwvnYK"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2082429697850474943",
+      "media": [
+        {
+          "alt_text": "M0,SE(明夏)\nM1 僕彩色\nM2,蛍夏\nM3,CHRONOS\nM4,HeartBeat\nM5,アンチコンプリート\nM6,CHRONOS\nM7,HeartBeat\nM8,アンチコンプリート\nMC\nM9,アンチコンプリート\nM10,アンチコンプリート\nM11,アンチコンプリート\nM12,HeartBeat\nEN1,アンチコンプリート\nEN2,HeartBeat",
+          "height": 1365,
+          "media_key": "3_2082429686320361472",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HOZGxDracAA2vtQ.jpg",
+          "width": 2048
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 75,
+              "start": 62,
+              "tag": "ミョージョーサマー番外編"
+            },
+            {
+              "end": 143,
+              "start": 130,
+              "tag": "ミョージョーサマー番外編"
+            },
+            {
+              "end": 232,
+              "start": 225,
+              "tag": "myojou"
+            }
+          ]
+        },
+        "text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n       #ミョージョーサマー番外編 \n           TIF2026直前決起集会\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「 #ミョージョーサマー番外編 TIF2026直前決起集会」ありがとうございました⋆˙⟡\n\n左から\n日陽みう\n澪奈ゆん\n真希しの\n薄倉りな\n栗原ここね\n姫乃るか\n\nSETLIST▶︎ALT\n\n #myojou"
+      },
+      "parsed_fields": null,
+      "raw": {
+        "api_text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n       #ミョージョーサマー番外編 \n           TIF2026直前決起集会\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「 #ミョージョーサマー番外編 TIF2026直前決起集会」ありがとうございました⋆˙⟡\n\n左から https://t.co/9GQDEwvnYK",
+        "attachments": {
+          "media_keys": [
+            "3_2082429686320361472"
+          ]
+        },
+        "created_at": "2026-07-29T11:35:04.000Z",
+        "edit_history_tweet_ids": [
+          "2082429697850474943"
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "end": 75,
+              "start": 62,
+              "tag": "ミョージョーサマー番外編"
+            },
+            {
+              "end": 143,
+              "start": 130,
+              "tag": "ミョージョーサマー番外編"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "pic.x.com/9GQDEwvnYK",
+              "end": 201,
+              "expanded_url": "https://x.com/info_myojou/status/2082429697850474943/photo/1",
+              "media_key": "3_2082429686320361472",
+              "start": 178,
+              "url": "https://t.co/9GQDEwvnYK"
+            }
+          ]
+        },
+        "full_text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n       #ミョージョーサマー番外編 \n           TIF2026直前決起集会\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「 #ミョージョーサマー番外編 TIF2026直前決起集会」ありがとうございました⋆˙⟡\n\n左から\n日陽みう\n澪奈ゆん\n真希しの\n薄倉りな\n栗原ここね\n姫乃るか\n\nSETLIST▶︎ALT\n\n #myojou",
+        "full_text_source": "note_tweet",
+        "id": "2082429697850474943",
+        "media": [
+          {
+            "alt_text": "M0,SE(明夏)\nM1 僕彩色\nM2,蛍夏\nM3,CHRONOS\nM4,HeartBeat\nM5,アンチコンプリート\nM6,CHRONOS\nM7,HeartBeat\nM8,アンチコンプリート\nMC\nM9,アンチコンプリート\nM10,アンチコンプリート\nM11,アンチコンプリート\nM12,HeartBeat\nEN1,アンチコンプリート\nEN2,HeartBeat",
+            "height": 1365,
+            "media_key": "3_2082429686320361472",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HOZGxDracAA2vtQ.jpg",
+            "width": 2048
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 75,
+                "start": 62,
+                "tag": "ミョージョーサマー番外編"
+              },
+              {
+                "end": 143,
+                "start": 130,
+                "tag": "ミョージョーサマー番外編"
+              },
+              {
+                "end": 232,
+                "start": 225,
+                "tag": "myojou"
+              }
+            ]
+          },
+          "text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n       #ミョージョーサマー番外編 \n           TIF2026直前決起集会\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「 #ミョージョーサマー番外編 TIF2026直前決起集会」ありがとうございました⋆˙⟡\n\n左から\n日陽みう\n澪奈ゆん\n真希しの\n薄倉りな\n栗原ここね\n姫乃るか\n\nSETLIST▶︎ALT\n\n #myojou"
+        },
+        "text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n       #ミョージョーサマー番外編 \n           TIF2026直前決起集会\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「 #ミョージョーサマー番外編 TIF2026直前決起集会」ありがとうございました⋆˙⟡\n\n左から https://t.co/9GQDEwvnYK",
+        "truncated_text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n       #ミョージョーサマー番外編 \n           TIF2026直前決起集会\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「 #ミョージョーサマー番外編 TIF2026直前決起集会」ありがとうございました⋆˙⟡\n\n左から https://t.co/9GQDEwvnYK"
+      },
+      "referenced_tweets": [],
+      "text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n       #ミョージョーサマー番外編 \n           TIF2026直前決起集会\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「 #ミョージョーサマー番外編 TIF2026直前決起集会」ありがとうございました⋆˙⟡\n\n左から\n日陽みう\n澪奈ゆん\n真希しの\n薄倉りな\n栗原ここね\n姫乃るか\n\nSETLIST▶︎ALT\n\n #myojou",
+      "truncated_text": "✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n                    ⟡.·*.御礼.*·.⟡\n       #ミョージョーサマー番外編 \n           TIF2026直前決起集会\n✯••┈┈┈┈┈••✯••┈┈┈┈┈••✯\n\n本日は「 #ミョージョーサマー番外編 TIF2026直前決起集会」ありがとうございました⋆˙⟡\n\n左から https://t.co/9GQDEwvnYK",
+      "url": "https://x.com/info_myojou/status/2082429697850474943"
+    },
+    {
       "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「#ミョージョーサマー番外編 TIF2026直前決起集会」\n\n⟣date：7/29（水）\n⟣place :WOMB LIVE\n⟣open/start：18:30/19:00\n⟣price：VIP¥5,000/一般¥0（各+1D）\n⟣入場特典：VIP:明星カード2枚（サインありチェキ）/一般:明星カード1枚（サインありチェキ） https://t.co/MWePWI04Q3",
       "attachments": {
         "media_keys": [
@@ -135368,7 +136770,7 @@
     "backfill": true,
     "dry_run": true,
     "estimated_x_post_reads": 411,
-    "latest_post_id": "2082102442200883519",
+    "latest_post_id": "2082486037155373483",
     "max_pages": 10,
     "max_posts": 500,
     "max_results": 5,
@@ -135411,16 +136813,16 @@
       }
     ],
     "pages_fetched": 5,
-    "posts_fetched": 630,
+    "posts_fetched": 637,
     "rate_limit_headers": {
       "x-rate-limit-limit": "10000",
       "x-rate-limit-remaining": "9993",
       "x-rate-limit-reset": "1781108896"
     },
-    "total_posts": 630,
-    "updated_at": "2026-07-28T20:17:42.837942+00:00",
+    "total_posts": 637,
+    "updated_at": "2026-07-29T20:14:32.358898+00:00",
     "username": "info_myojou"
   },
   "source": "x_api",
-  "updated_at": "2026-07-28T20:17:42.837942+00:00"
+  "updated_at": "2026-07-29T20:14:32.358898+00:00"
 }
