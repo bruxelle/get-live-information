@@ -2,6 +2,790 @@
   "captured_at": "2026-06-10T16:19:36.141820+00:00",
   "data": [
     {
+      "api_text": "初めまして、myojouです。 https://t.co/WOpQAJdIGi",
+      "attachments": {
+        "media_keys": [
+          "13_2083205101372706816"
+        ]
+      },
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "no live-event signal",
+        "source_kind": "other"
+      },
+      "created_at": "2026-07-31T14:57:23+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/WOpQAJdIGi",
+            "end": 39,
+            "expanded_url": "https://x.com/info_myojou/status/2083205388988792909/video/1",
+            "media_key": "13_2083205101372706816",
+            "start": 16,
+            "url": "https://t.co/WOpQAJdIGi"
+          }
+        ]
+      },
+      "full_text_source": "text",
+      "id": "2083205388988792909",
+      "media": [
+        {
+          "height": 3840,
+          "media_key": "13_2083205101372706816",
+          "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2083205101372706816/img/uTnWfaDFewATCTSS.jpg",
+          "type": "video",
+          "width": 2160
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "note_tweet": null,
+      "parsed_fields": null,
+      "raw": {
+        "api_text": "初めまして、myojouです。 https://t.co/WOpQAJdIGi",
+        "attachments": {
+          "media_keys": [
+            "13_2083205101372706816"
+          ]
+        },
+        "created_at": "2026-07-31T14:57:23.000Z",
+        "edit_history_tweet_ids": [
+          "2083205388988792909"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/WOpQAJdIGi",
+              "end": 39,
+              "expanded_url": "https://x.com/info_myojou/status/2083205388988792909/video/1",
+              "media_key": "13_2083205101372706816",
+              "start": 16,
+              "url": "https://t.co/WOpQAJdIGi"
+            }
+          ]
+        },
+        "full_text": "初めまして、myojouです。 https://t.co/WOpQAJdIGi",
+        "full_text_source": "text",
+        "id": "2083205388988792909",
+        "media": [
+          {
+            "height": 3840,
+            "media_key": "13_2083205101372706816",
+            "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2083205101372706816/img/uTnWfaDFewATCTSS.jpg",
+            "type": "video",
+            "width": 2160
+          }
+        ],
+        "text": "初めまして、myojouです。 https://t.co/WOpQAJdIGi",
+        "truncated_text": null
+      },
+      "referenced_tweets": [],
+      "text": "初めまして、myojouです。 https://t.co/WOpQAJdIGi",
+      "truncated_text": null,
+      "url": "https://x.com/info_myojou/status/2083205388988792909"
+    },
+    {
+      "api_text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「TOKYO IDOL FESTIVAL 2026 supported by にしたんクリニック Day3」\n\n📍SKY STAGE\n🎙11:20-11:35\n\n📍GREETING AREA B-2\n📸13:00-15:30\n※13:00-13:30は販売のみ、13:30より撮影開始となります。 https://t.co/46jvZc1c3O",
+      "attachments": {
+        "media_keys": [
+          "3_2083197482620817409"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "correction"
+      },
+      "created_at": "2026-07-31T14:25:59+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/46jvZc1c3O",
+            "end": 195,
+            "expanded_url": "https://x.com/info_myojou/status/2083197488740344153/photo/1",
+            "media_key": "3_2083197482620817409",
+            "start": 172,
+            "url": "https://t.co/46jvZc1c3O"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2083197488740344153",
+      "media": [
+        {
+          "height": 3508,
+          "media_key": "3_2083197482620817409",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HOkBEryaEAEnNh7.jpg",
+          "width": 2481
+        }
+      ],
+      "needs_review": true,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 578,
+              "start": 571,
+              "tag": "myojou"
+            },
+            {
+              "end": 589,
+              "start": 579,
+              "tag": "ミョージョーサマー"
+            },
+            {
+              "end": 598,
+              "start": 590,
+              "tag": "TIF2026"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "official.idolfes.com/s/tif2026/page…",
+              "end": 530,
+              "expanded_url": "https://official.idolfes.com/s/tif2026/page/ticket",
+              "start": 507,
+              "url": "https://t.co/POxE5fRFg5"
+            },
+            {
+              "display_url": "official.idolfes.com/s/tif2026/",
+              "end": 569,
+              "expanded_url": "http://official.idolfes.com/s/tif2026/",
+              "start": 546,
+              "url": "https://t.co/w8QQpaRs9t"
+            }
+          ]
+        },
+        "text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「TOKYO IDOL FESTIVAL 2026 supported by にしたんクリニック Day3」\n\n📍SKY STAGE\n🎙11:20-11:35\n\n📍GREETING AREA B-2\n📸13:00-15:30\n※13:00-13:30は販売のみ、13:30より撮影開始となります。\n※体調等を考慮し、スケジュールを変更させていただく場合がございます。あらかじめご了承ください。\n\n📍TOROCCO PARK\n🎙17:20-17:40\n\n📍縁日エリアG･H\n🎣18:00-18:30\n\n⟣date：8/2（日）\n⟣place : お台場・青海周辺エリア\n⟣open/start：10:00/10:00（会場による）\n⟣price：\n【先行販売】\n通常チケット単日券¥10,500/通常チケット3日間通し券¥26,500/Tシャツ付きチケット単日券¥13,000/Tシャツ付きチケット3日間通し券¥29,000\n【一般販売】\n通常チケット単日券¥11,500/3日間通し券¥30,000\n\n【一般販売】\n6/15（月）10:00-各公演前日23:59\n🔗 https://t.co/POxE5fRFg5\n\nTIF2026公式HP\n🔗 https://t.co/w8QQpaRs9t\n\n#myojou\n#ミョージョーサマー\n#TIF2026"
+      },
+      "parsed_fields": {
+        "benefit_event_time": "13:00-15:30",
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-08-02",
+        "event_dates": [
+          "2026-08-02"
+        ],
+        "event_name": "TOKYO IDOL FESTIVAL 2026 supported by にしたんクリニック Day3",
+        "extraction_confidence": 0.95,
+        "general_ticket_price": 10500,
+        "lottery_result_at": null,
+        "myojou_performance_time": "11:20-11:35",
+        "notes": "※体調等を考慮し、スケジュールを変更させていただく場合がございます。あらかじめご了承ください。",
+        "open_time": "10:00",
+        "payment_deadline_at": null,
+        "priority_ticket_name": null,
+        "priority_ticket_price": null,
+        "same_day_ticket_price": null,
+        "source_kind": "correction",
+        "source_post_id": "2083197488740344153",
+        "source_posted_at": "2026-07-31T14:25:59Z",
+        "source_raw": {
+          "api_text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「TOKYO IDOL FESTIVAL 2026 supported by にしたんクリニック Day3」\n\n📍SKY STAGE\n🎙11:20-11:35\n\n📍GREETING AREA B-2\n📸13:00-15:30\n※13:00-13:30は販売のみ、13:30より撮影開始となります。 https://t.co/46jvZc1c3O",
+          "attachments": {
+            "media_keys": [
+              "3_2083197482620817409"
+            ]
+          },
+          "created_at": "2026-07-31T14:25:59.000Z",
+          "edit_history_tweet_ids": [
+            "2083197488740344153"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/46jvZc1c3O",
+                "end": 195,
+                "expanded_url": "https://x.com/info_myojou/status/2083197488740344153/photo/1",
+                "media_key": "3_2083197482620817409",
+                "start": 172,
+                "url": "https://t.co/46jvZc1c3O"
+              }
+            ]
+          },
+          "full_text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「TOKYO IDOL FESTIVAL 2026 supported by にしたんクリニック Day3」\n\n📍SKY STAGE\n🎙11:20-11:35\n\n📍GREETING AREA B-2\n📸13:00-15:30\n※13:00-13:30は販売のみ、13:30より撮影開始となります。\n※体調等を考慮し、スケジュールを変更させていただく場合がございます。あらかじめご了承ください。\n\n📍TOROCCO PARK\n🎙17:20-17:40\n\n📍縁日エリアG･H\n🎣18:00-18:30\n\n⟣date：8/2（日）\n⟣place : お台場・青海周辺エリア\n⟣open/start：10:00/10:00（会場による）\n⟣price：\n【先行販売】\n通常チケット単日券¥10,500/通常チケット3日間通し券¥26,500/Tシャツ付きチケット単日券¥13,000/Tシャツ付きチケット3日間通し券¥29,000\n【一般販売】\n通常チケット単日券¥11,500/3日間通し券¥30,000\n\n【一般販売】\n6/15（月）10:00-各公演前日23:59\n🔗 https://t.co/POxE5fRFg5\n\nTIF2026公式HP\n🔗 https://t.co/w8QQpaRs9t\n\n#myojou\n#ミョージョーサマー\n#TIF2026",
+          "full_text_source": "note_tweet",
+          "id": "2083197488740344153",
+          "media": [
+            {
+              "height": 3508,
+              "media_key": "3_2083197482620817409",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HOkBEryaEAEnNh7.jpg",
+              "width": 2481
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 578,
+                  "start": 571,
+                  "tag": "myojou"
+                },
+                {
+                  "end": 589,
+                  "start": 579,
+                  "tag": "ミョージョーサマー"
+                },
+                {
+                  "end": 598,
+                  "start": 590,
+                  "tag": "TIF2026"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "official.idolfes.com/s/tif2026/page…",
+                  "end": 530,
+                  "expanded_url": "https://official.idolfes.com/s/tif2026/page/ticket",
+                  "start": 507,
+                  "url": "https://t.co/POxE5fRFg5"
+                },
+                {
+                  "display_url": "official.idolfes.com/s/tif2026/",
+                  "end": 569,
+                  "expanded_url": "http://official.idolfes.com/s/tif2026/",
+                  "start": 546,
+                  "url": "https://t.co/w8QQpaRs9t"
+                }
+              ]
+            },
+            "text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「TOKYO IDOL FESTIVAL 2026 supported by にしたんクリニック Day3」\n\n📍SKY STAGE\n🎙11:20-11:35\n\n📍GREETING AREA B-2\n📸13:00-15:30\n※13:00-13:30は販売のみ、13:30より撮影開始となります。\n※体調等を考慮し、スケジュールを変更させていただく場合がございます。あらかじめご了承ください。\n\n📍TOROCCO PARK\n🎙17:20-17:40\n\n📍縁日エリアG･H\n🎣18:00-18:30\n\n⟣date：8/2（日）\n⟣place : お台場・青海周辺エリア\n⟣open/start：10:00/10:00（会場による）\n⟣price：\n【先行販売】\n通常チケット単日券¥10,500/通常チケット3日間通し券¥26,500/Tシャツ付きチケット単日券¥13,000/Tシャツ付きチケット3日間通し券¥29,000\n【一般販売】\n通常チケット単日券¥11,500/3日間通し券¥30,000\n\n【一般販売】\n6/15（月）10:00-各公演前日23:59\n🔗 https://t.co/POxE5fRFg5\n\nTIF2026公式HP\n🔗 https://t.co/w8QQpaRs9t\n\n#myojou\n#ミョージョーサマー\n#TIF2026"
+          },
+          "text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「TOKYO IDOL FESTIVAL 2026 supported by にしたんクリニック Day3」\n\n📍SKY STAGE\n🎙11:20-11:35\n\n📍GREETING AREA B-2\n📸13:00-15:30\n※13:00-13:30は販売のみ、13:30より撮影開始となります。 https://t.co/46jvZc1c3O",
+          "truncated_text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「TOKYO IDOL FESTIVAL 2026 supported by にしたんクリニック Day3」\n\n📍SKY STAGE\n🎙11:20-11:35\n\n📍GREETING AREA B-2\n📸13:00-15:30\n※13:00-13:30は販売のみ、13:30より撮影開始となります。 https://t.co/46jvZc1c3O"
+        },
+        "source_text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「TOKYO IDOL FESTIVAL 2026 supported by にしたんクリニック Day3」\n\n📍SKY STAGE\n🎙11:20-11:35\n\n📍GREETING AREA B-2\n📸13:00-15:30\n※13:00-13:30は販売のみ、13:30より撮影開始となります。\n※体調等を考慮し、スケジュールを変更させていただく場合がございます。あらかじめご了承ください。\n\n📍TOROCCO PARK\n🎙17:20-17:40\n\n📍縁日エリアG･H\n🎣18:00-18:30\n\n⟣date：8/2（日）\n⟣place : お台場・青海周辺エリア\n⟣open/start：10:00/10:00（会場による）\n⟣price：\n【先行販売】\n通常チケット単日券¥10,500/通常チケット3日間通し券¥26,500/Tシャツ付きチケット単日券¥13,000/Tシャツ付きチケット3日間通し券¥29,000\n【一般販売】\n通常チケット単日券¥11,500/3日間通し券¥30,000\n\n【一般販売】\n6/15（月）10:00-各公演前日23:59\n🔗 https://t.co/POxE5fRFg5\n\nTIF2026公式HP\n🔗 https://t.co/w8QQpaRs9t\n\n#myojou\n#ミョージョーサマー\n#TIF2026",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2083197488740344153",
+        "start_time": "10:00",
+        "ticket_application_deadline_at": null,
+        "ticket_application_start_at": "2026-06-15T10:00:00+09:00",
+        "ticket_sale_type": "一般",
+        "ticket_sales": [
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 10500,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2083197488740344153",
+            "source_url": "https://x.com/info_myojou/status/2083197488740344153",
+            "start_at": "2026-06-15T10:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "通常チケット",
+            "ticket_tier": "一般"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 13000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2083197488740344153",
+            "source_url": "https://x.com/info_myojou/status/2083197488740344153",
+            "start_at": "2026-06-15T10:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "Tシャツ付きチケット",
+            "ticket_tier": "その他"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "https://official.idolfes.com/s/tif2026/page/ticket",
+        "venue": "お台場・青海周辺エリア"
+      },
+      "raw": {
+        "api_text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「TOKYO IDOL FESTIVAL 2026 supported by にしたんクリニック Day3」\n\n📍SKY STAGE\n🎙11:20-11:35\n\n📍GREETING AREA B-2\n📸13:00-15:30\n※13:00-13:30は販売のみ、13:30より撮影開始となります。 https://t.co/46jvZc1c3O",
+        "attachments": {
+          "media_keys": [
+            "3_2083197482620817409"
+          ]
+        },
+        "created_at": "2026-07-31T14:25:59.000Z",
+        "edit_history_tweet_ids": [
+          "2083197488740344153"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/46jvZc1c3O",
+              "end": 195,
+              "expanded_url": "https://x.com/info_myojou/status/2083197488740344153/photo/1",
+              "media_key": "3_2083197482620817409",
+              "start": 172,
+              "url": "https://t.co/46jvZc1c3O"
+            }
+          ]
+        },
+        "full_text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「TOKYO IDOL FESTIVAL 2026 supported by にしたんクリニック Day3」\n\n📍SKY STAGE\n🎙11:20-11:35\n\n📍GREETING AREA B-2\n📸13:00-15:30\n※13:00-13:30は販売のみ、13:30より撮影開始となります。\n※体調等を考慮し、スケジュールを変更させていただく場合がございます。あらかじめご了承ください。\n\n📍TOROCCO PARK\n🎙17:20-17:40\n\n📍縁日エリアG･H\n🎣18:00-18:30\n\n⟣date：8/2（日）\n⟣place : お台場・青海周辺エリア\n⟣open/start：10:00/10:00（会場による）\n⟣price：\n【先行販売】\n通常チケット単日券¥10,500/通常チケット3日間通し券¥26,500/Tシャツ付きチケット単日券¥13,000/Tシャツ付きチケット3日間通し券¥29,000\n【一般販売】\n通常チケット単日券¥11,500/3日間通し券¥30,000\n\n【一般販売】\n6/15（月）10:00-各公演前日23:59\n🔗 https://t.co/POxE5fRFg5\n\nTIF2026公式HP\n🔗 https://t.co/w8QQpaRs9t\n\n#myojou\n#ミョージョーサマー\n#TIF2026",
+        "full_text_source": "note_tweet",
+        "id": "2083197488740344153",
+        "media": [
+          {
+            "height": 3508,
+            "media_key": "3_2083197482620817409",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HOkBEryaEAEnNh7.jpg",
+            "width": 2481
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 578,
+                "start": 571,
+                "tag": "myojou"
+              },
+              {
+                "end": 589,
+                "start": 579,
+                "tag": "ミョージョーサマー"
+              },
+              {
+                "end": 598,
+                "start": 590,
+                "tag": "TIF2026"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "official.idolfes.com/s/tif2026/page…",
+                "end": 530,
+                "expanded_url": "https://official.idolfes.com/s/tif2026/page/ticket",
+                "start": 507,
+                "url": "https://t.co/POxE5fRFg5"
+              },
+              {
+                "display_url": "official.idolfes.com/s/tif2026/",
+                "end": 569,
+                "expanded_url": "http://official.idolfes.com/s/tif2026/",
+                "start": 546,
+                "url": "https://t.co/w8QQpaRs9t"
+              }
+            ]
+          },
+          "text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「TOKYO IDOL FESTIVAL 2026 supported by にしたんクリニック Day3」\n\n📍SKY STAGE\n🎙11:20-11:35\n\n📍GREETING AREA B-2\n📸13:00-15:30\n※13:00-13:30は販売のみ、13:30より撮影開始となります。\n※体調等を考慮し、スケジュールを変更させていただく場合がございます。あらかじめご了承ください。\n\n📍TOROCCO PARK\n🎙17:20-17:40\n\n📍縁日エリアG･H\n🎣18:00-18:30\n\n⟣date：8/2（日）\n⟣place : お台場・青海周辺エリア\n⟣open/start：10:00/10:00（会場による）\n⟣price：\n【先行販売】\n通常チケット単日券¥10,500/通常チケット3日間通し券¥26,500/Tシャツ付きチケット単日券¥13,000/Tシャツ付きチケット3日間通し券¥29,000\n【一般販売】\n通常チケット単日券¥11,500/3日間通し券¥30,000\n\n【一般販売】\n6/15（月）10:00-各公演前日23:59\n🔗 https://t.co/POxE5fRFg5\n\nTIF2026公式HP\n🔗 https://t.co/w8QQpaRs9t\n\n#myojou\n#ミョージョーサマー\n#TIF2026"
+        },
+        "text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「TOKYO IDOL FESTIVAL 2026 supported by にしたんクリニック Day3」\n\n📍SKY STAGE\n🎙11:20-11:35\n\n📍GREETING AREA B-2\n📸13:00-15:30\n※13:00-13:30は販売のみ、13:30より撮影開始となります。 https://t.co/46jvZc1c3O",
+        "truncated_text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「TOKYO IDOL FESTIVAL 2026 supported by にしたんクリニック Day3」\n\n📍SKY STAGE\n🎙11:20-11:35\n\n📍GREETING AREA B-2\n📸13:00-15:30\n※13:00-13:30は販売のみ、13:30より撮影開始となります。 https://t.co/46jvZc1c3O"
+      },
+      "referenced_tweets": [],
+      "text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「TOKYO IDOL FESTIVAL 2026 supported by にしたんクリニック Day3」\n\n📍SKY STAGE\n🎙11:20-11:35\n\n📍GREETING AREA B-2\n📸13:00-15:30\n※13:00-13:30は販売のみ、13:30より撮影開始となります。\n※体調等を考慮し、スケジュールを変更させていただく場合がございます。あらかじめご了承ください。\n\n📍TOROCCO PARK\n🎙17:20-17:40\n\n📍縁日エリアG･H\n🎣18:00-18:30\n\n⟣date：8/2（日）\n⟣place : お台場・青海周辺エリア\n⟣open/start：10:00/10:00（会場による）\n⟣price：\n【先行販売】\n通常チケット単日券¥10,500/通常チケット3日間通し券¥26,500/Tシャツ付きチケット単日券¥13,000/Tシャツ付きチケット3日間通し券¥29,000\n【一般販売】\n通常チケット単日券¥11,500/3日間通し券¥30,000\n\n【一般販売】\n6/15（月）10:00-各公演前日23:59\n🔗 https://t.co/POxE5fRFg5\n\nTIF2026公式HP\n🔗 https://t.co/w8QQpaRs9t\n\n#myojou\n#ミョージョーサマー\n#TIF2026",
+      "truncated_text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「TOKYO IDOL FESTIVAL 2026 supported by にしたんクリニック Day3」\n\n📍SKY STAGE\n🎙11:20-11:35\n\n📍GREETING AREA B-2\n📸13:00-15:30\n※13:00-13:30は販売のみ、13:30より撮影開始となります。 https://t.co/46jvZc1c3O",
+      "url": "https://x.com/info_myojou/status/2083197488740344153"
+    },
+    {
+      "api_text": "初めてのTIFの舞台、初めての夏、初めての争奪戦。\n\nたくさんのご声援、本当にありがとうございました。願った未来ではなくとも、ステージではmyojouらしく、最高のライブをお見せできたと思います。 https://t.co/NFYxYHbP1o",
+      "attachments": {
+        "media_keys": [
+          "3_2083194949265408001"
+        ]
+      },
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "thank-you/recap post",
+        "source_kind": "other"
+      },
+      "created_at": "2026-07-31T14:15:56+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/NFYxYHbP1o",
+            "end": 122,
+            "expanded_url": "https://x.com/info_myojou/status/2083194957691756875/photo/1",
+            "media_key": "3_2083194949265408001",
+            "start": 99,
+            "url": "https://t.co/NFYxYHbP1o"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2083194957691756875",
+      "media": [
+        {
+          "height": 2730,
+          "media_key": "3_2083194949265408001",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HOj-xOTaQAE1oFt.jpg",
+          "width": 4096
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 218,
+              "start": 211,
+              "tag": "myojou"
+            }
+          ]
+        },
+        "text": "初めてのTIFの舞台、初めての夏、初めての争奪戦。\n\nたくさんのご声援、本当にありがとうございました。願った未来ではなくとも、ステージではmyojouらしく、最高のライブをお見せできたと思います。\n\n全てをぶつけられる場所、ステージがある限り、みなさまからもらった輝きを、この一瞬を胸に抱いてmyojouは走り続けます。\n\n今はまだ涙はこぼさぬようただ上を見て、前へ進んでいきましょう。\n\n\"さあ、ここからが未来だ\"\n\n #myojou"
+      },
+      "parsed_fields": null,
+      "raw": {
+        "api_text": "初めてのTIFの舞台、初めての夏、初めての争奪戦。\n\nたくさんのご声援、本当にありがとうございました。願った未来ではなくとも、ステージではmyojouらしく、最高のライブをお見せできたと思います。 https://t.co/NFYxYHbP1o",
+        "attachments": {
+          "media_keys": [
+            "3_2083194949265408001"
+          ]
+        },
+        "created_at": "2026-07-31T14:15:56.000Z",
+        "edit_history_tweet_ids": [
+          "2083194957691756875"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/NFYxYHbP1o",
+              "end": 122,
+              "expanded_url": "https://x.com/info_myojou/status/2083194957691756875/photo/1",
+              "media_key": "3_2083194949265408001",
+              "start": 99,
+              "url": "https://t.co/NFYxYHbP1o"
+            }
+          ]
+        },
+        "full_text": "初めてのTIFの舞台、初めての夏、初めての争奪戦。\n\nたくさんのご声援、本当にありがとうございました。願った未来ではなくとも、ステージではmyojouらしく、最高のライブをお見せできたと思います。\n\n全てをぶつけられる場所、ステージがある限り、みなさまからもらった輝きを、この一瞬を胸に抱いてmyojouは走り続けます。\n\n今はまだ涙はこぼさぬようただ上を見て、前へ進んでいきましょう。\n\n\"さあ、ここからが未来だ\"\n\n #myojou",
+        "full_text_source": "note_tweet",
+        "id": "2083194957691756875",
+        "media": [
+          {
+            "height": 2730,
+            "media_key": "3_2083194949265408001",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HOj-xOTaQAE1oFt.jpg",
+            "width": 4096
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 218,
+                "start": 211,
+                "tag": "myojou"
+              }
+            ]
+          },
+          "text": "初めてのTIFの舞台、初めての夏、初めての争奪戦。\n\nたくさんのご声援、本当にありがとうございました。願った未来ではなくとも、ステージではmyojouらしく、最高のライブをお見せできたと思います。\n\n全てをぶつけられる場所、ステージがある限り、みなさまからもらった輝きを、この一瞬を胸に抱いてmyojouは走り続けます。\n\n今はまだ涙はこぼさぬようただ上を見て、前へ進んでいきましょう。\n\n\"さあ、ここからが未来だ\"\n\n #myojou"
+        },
+        "text": "初めてのTIFの舞台、初めての夏、初めての争奪戦。\n\nたくさんのご声援、本当にありがとうございました。願った未来ではなくとも、ステージではmyojouらしく、最高のライブをお見せできたと思います。 https://t.co/NFYxYHbP1o",
+        "truncated_text": "初めてのTIFの舞台、初めての夏、初めての争奪戦。\n\nたくさんのご声援、本当にありがとうございました。願った未来ではなくとも、ステージではmyojouらしく、最高のライブをお見せできたと思います。 https://t.co/NFYxYHbP1o"
+      },
+      "referenced_tweets": [],
+      "text": "初めてのTIFの舞台、初めての夏、初めての争奪戦。\n\nたくさんのご声援、本当にありがとうございました。願った未来ではなくとも、ステージではmyojouらしく、最高のライブをお見せできたと思います。\n\n全てをぶつけられる場所、ステージがある限り、みなさまからもらった輝きを、この一瞬を胸に抱いてmyojouは走り続けます。\n\n今はまだ涙はこぼさぬようただ上を見て、前へ進んでいきましょう。\n\n\"さあ、ここからが未来だ\"\n\n #myojou",
+      "truncated_text": "初めてのTIFの舞台、初めての夏、初めての争奪戦。\n\nたくさんのご声援、本当にありがとうございました。願った未来ではなくとも、ステージではmyojouらしく、最高のライブをお見せできたと思います。 https://t.co/NFYxYHbP1o",
+      "url": "https://x.com/info_myojou/status/2083194957691756875"
+    },
+    {
+      "api_text": "▶️LIVE DIGEST\nTOKYO IDOL FESTIVAL 2026\n「スマイルガーデン\"魂の\"アンチコンプリート」\n\n初めてのTIF、心を燃やせ🔥\nこのあとHEAT GARAGEでメインステージ争奪戦⚔️\n\n#myojou https://t.co/9NDocGyGMB",
+      "attachments": {
+        "media_keys": [
+          "13_2083119776927531008"
+        ]
+      },
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "content/MV-like post",
+        "source_kind": "other"
+      },
+      "created_at": "2026-07-31T09:26:29+00:00",
+      "entities": {
+        "hashtags": [
+          {
+            "end": 116,
+            "start": 109,
+            "tag": "myojou"
+          }
+        ],
+        "urls": [
+          {
+            "display_url": "pic.x.com/9NDocGyGMB",
+            "end": 140,
+            "expanded_url": "https://x.com/info_myojou/status/2083122115520385136/video/1",
+            "media_key": "13_2083119776927531008",
+            "start": 117,
+            "url": "https://t.co/9NDocGyGMB"
+          }
+        ]
+      },
+      "full_text_source": "text",
+      "id": "2083122115520385136",
+      "media": [
+        {
+          "height": 2160,
+          "media_key": "13_2083119776927531008",
+          "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2083119776927531008/img/XB7Sj65xXgHIjipa.jpg",
+          "type": "video",
+          "width": 3840
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "note_tweet": null,
+      "parsed_fields": null,
+      "raw": {
+        "api_text": "▶️LIVE DIGEST\nTOKYO IDOL FESTIVAL 2026\n「スマイルガーデン\"魂の\"アンチコンプリート」\n\n初めてのTIF、心を燃やせ🔥\nこのあとHEAT GARAGEでメインステージ争奪戦⚔️\n\n#myojou https://t.co/9NDocGyGMB",
+        "attachments": {
+          "media_keys": [
+            "13_2083119776927531008"
+          ]
+        },
+        "created_at": "2026-07-31T09:26:29.000Z",
+        "edit_history_tweet_ids": [
+          "2083122115520385136"
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "end": 116,
+              "start": 109,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "pic.x.com/9NDocGyGMB",
+              "end": 140,
+              "expanded_url": "https://x.com/info_myojou/status/2083122115520385136/video/1",
+              "media_key": "13_2083119776927531008",
+              "start": 117,
+              "url": "https://t.co/9NDocGyGMB"
+            }
+          ]
+        },
+        "full_text": "▶️LIVE DIGEST\nTOKYO IDOL FESTIVAL 2026\n「スマイルガーデン\"魂の\"アンチコンプリート」\n\n初めてのTIF、心を燃やせ🔥\nこのあとHEAT GARAGEでメインステージ争奪戦⚔️\n\n#myojou https://t.co/9NDocGyGMB",
+        "full_text_source": "text",
+        "id": "2083122115520385136",
+        "media": [
+          {
+            "height": 2160,
+            "media_key": "13_2083119776927531008",
+            "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2083119776927531008/img/XB7Sj65xXgHIjipa.jpg",
+            "type": "video",
+            "width": 3840
+          }
+        ],
+        "text": "▶️LIVE DIGEST\nTOKYO IDOL FESTIVAL 2026\n「スマイルガーデン\"魂の\"アンチコンプリート」\n\n初めてのTIF、心を燃やせ🔥\nこのあとHEAT GARAGEでメインステージ争奪戦⚔️\n\n#myojou https://t.co/9NDocGyGMB",
+        "truncated_text": null
+      },
+      "referenced_tweets": [],
+      "text": "▶️LIVE DIGEST\nTOKYO IDOL FESTIVAL 2026\n「スマイルガーデン\"魂の\"アンチコンプリート」\n\n初めてのTIF、心を燃やせ🔥\nこのあとHEAT GARAGEでメインステージ争奪戦⚔️\n\n#myojou https://t.co/9NDocGyGMB",
+      "truncated_text": null,
+      "url": "https://x.com/info_myojou/status/2083122115520385136"
+    },
+    {
+      "api_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n            TOKYO IDOL FESTIVAL 2026\n         supported by にしたんクリニック\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\nこのあと17:15より、SMILE GARDENにて出演いたします⟡.·*.\n\n#myojou\n#TIF2026 https://t.co/5QltBve7tN",
+      "attachments": {
+        "media_keys": [
+          "3_2083100791603363840"
+        ]
+      },
+      "classification": {
+        "classification": "needs_review",
+        "confidence": "low",
+        "reason": "event-like words but insufficient structured information",
+        "source_kind": "other"
+      },
+      "created_at": "2026-07-31T08:01:53+00:00",
+      "entities": {
+        "hashtags": [
+          {
+            "end": 169,
+            "start": 162,
+            "tag": "myojou"
+          },
+          {
+            "end": 178,
+            "start": 170,
+            "tag": "TIF2026"
+          }
+        ],
+        "urls": [
+          {
+            "display_url": "pic.x.com/5QltBve7tN",
+            "end": 202,
+            "expanded_url": "https://x.com/info_myojou/status/2083100825459863983/photo/1",
+            "media_key": "3_2083100791603363840",
+            "start": 179,
+            "url": "https://t.co/5QltBve7tN"
+          }
+        ]
+      },
+      "full_text_source": "text",
+      "id": "2083100825459863983",
+      "media": [
+        {
+          "height": 2730,
+          "media_key": "3_2083100791603363840",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HOipIhragAAyRjP.jpg",
+          "width": 4096
+        }
+      ],
+      "needs_review": true,
+      "needs_review_reasons": [
+        "missing venue",
+        "missing ticket deadline",
+        "ambiguous event match",
+        "classification: event-like words but insufficient structured information"
+      ],
+      "note_tweet": null,
+      "parsed_fields": {
+        "benefit_event_time": null,
+        "classification": "needs_review",
+        "classification_confidence": "low",
+        "classification_reason": "event-like words but insufficient structured information",
+        "event_date": null,
+        "event_dates": [],
+        "event_name": "TOKYO IDOL FESTIVAL 2026",
+        "extraction_confidence": 0.5,
+        "general_ticket_price": null,
+        "lottery_result_at": null,
+        "myojou_performance_time": "17:15",
+        "notes": null,
+        "open_time": null,
+        "payment_deadline_at": null,
+        "priority_ticket_name": null,
+        "priority_ticket_price": null,
+        "same_day_ticket_price": null,
+        "source_kind": "other",
+        "source_post_id": "2083100825459863983",
+        "source_posted_at": "2026-07-31T08:01:53Z",
+        "source_raw": {
+          "api_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n            TOKYO IDOL FESTIVAL 2026\n         supported by にしたんクリニック\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\nこのあと17:15より、SMILE GARDENにて出演いたします⟡.·*.\n\n#myojou\n#TIF2026 https://t.co/5QltBve7tN",
+          "attachments": {
+            "media_keys": [
+              "3_2083100791603363840"
+            ]
+          },
+          "created_at": "2026-07-31T08:01:53.000Z",
+          "edit_history_tweet_ids": [
+            "2083100825459863983"
+          ],
+          "entities": {
+            "hashtags": [
+              {
+                "end": 169,
+                "start": 162,
+                "tag": "myojou"
+              },
+              {
+                "end": 178,
+                "start": 170,
+                "tag": "TIF2026"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "pic.x.com/5QltBve7tN",
+                "end": 202,
+                "expanded_url": "https://x.com/info_myojou/status/2083100825459863983/photo/1",
+                "media_key": "3_2083100791603363840",
+                "start": 179,
+                "url": "https://t.co/5QltBve7tN"
+              }
+            ]
+          },
+          "full_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n            TOKYO IDOL FESTIVAL 2026\n         supported by にしたんクリニック\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\nこのあと17:15より、SMILE GARDENにて出演いたします⟡.·*.\n\n#myojou\n#TIF2026 https://t.co/5QltBve7tN",
+          "full_text_source": "text",
+          "id": "2083100825459863983",
+          "media": [
+            {
+              "height": 2730,
+              "media_key": "3_2083100791603363840",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HOipIhragAAyRjP.jpg",
+              "width": 4096
+            }
+          ],
+          "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n            TOKYO IDOL FESTIVAL 2026\n         supported by にしたんクリニック\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\nこのあと17:15より、SMILE GARDENにて出演いたします⟡.·*.\n\n#myojou\n#TIF2026 https://t.co/5QltBve7tN",
+          "truncated_text": null
+        },
+        "source_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n            TOKYO IDOL FESTIVAL 2026\n         supported by にしたんクリニック\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\nこのあと17:15より、SMILE GARDENにて出演いたします⟡.·*.\n\n#myojou\n#TIF2026 https://t.co/5QltBve7tN",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2083100825459863983",
+        "start_time": null,
+        "ticket_application_deadline_at": null,
+        "ticket_application_start_at": null,
+        "ticket_sale_type": null,
+        "ticket_sales": [],
+        "ticket_status": null,
+        "ticket_url": null,
+        "venue": null
+      },
+      "raw": {
+        "api_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n            TOKYO IDOL FESTIVAL 2026\n         supported by にしたんクリニック\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\nこのあと17:15より、SMILE GARDENにて出演いたします⟡.·*.\n\n#myojou\n#TIF2026 https://t.co/5QltBve7tN",
+        "attachments": {
+          "media_keys": [
+            "3_2083100791603363840"
+          ]
+        },
+        "created_at": "2026-07-31T08:01:53.000Z",
+        "edit_history_tweet_ids": [
+          "2083100825459863983"
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "end": 169,
+              "start": 162,
+              "tag": "myojou"
+            },
+            {
+              "end": 178,
+              "start": 170,
+              "tag": "TIF2026"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "pic.x.com/5QltBve7tN",
+              "end": 202,
+              "expanded_url": "https://x.com/info_myojou/status/2083100825459863983/photo/1",
+              "media_key": "3_2083100791603363840",
+              "start": 179,
+              "url": "https://t.co/5QltBve7tN"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n            TOKYO IDOL FESTIVAL 2026\n         supported by にしたんクリニック\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\nこのあと17:15より、SMILE GARDENにて出演いたします⟡.·*.\n\n#myojou\n#TIF2026 https://t.co/5QltBve7tN",
+        "full_text_source": "text",
+        "id": "2083100825459863983",
+        "media": [
+          {
+            "height": 2730,
+            "media_key": "3_2083100791603363840",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HOipIhragAAyRjP.jpg",
+            "width": 4096
+          }
+        ],
+        "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n            TOKYO IDOL FESTIVAL 2026\n         supported by にしたんクリニック\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\nこのあと17:15より、SMILE GARDENにて出演いたします⟡.·*.\n\n#myojou\n#TIF2026 https://t.co/5QltBve7tN",
+        "truncated_text": null
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n            TOKYO IDOL FESTIVAL 2026\n         supported by にしたんクリニック\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\nこのあと17:15より、SMILE GARDENにて出演いたします⟡.·*.\n\n#myojou\n#TIF2026 https://t.co/5QltBve7tN",
+      "truncated_text": null,
+      "url": "https://x.com/info_myojou/status/2083100825459863983"
+    },
+    {
       "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n    TIF2026メインステージ争奪LIVE\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n明日myojouはTIF2026メインステージ争奪LIVEに挑みます。 https://t.co/p7Ig6KmWcs",
       "attachments": {
         "media_keys": [
@@ -138656,7 +139440,7 @@
     "backfill": true,
     "dry_run": true,
     "estimated_x_post_reads": 411,
-    "latest_post_id": "2082824954702352416",
+    "latest_post_id": "2083205388988792909",
     "max_pages": 10,
     "max_posts": 500,
     "max_results": 5,
@@ -138699,16 +139483,16 @@
       }
     ],
     "pages_fetched": 5,
-    "posts_fetched": 644,
+    "posts_fetched": 649,
     "rate_limit_headers": {
       "x-rate-limit-limit": "10000",
       "x-rate-limit-remaining": "9993",
       "x-rate-limit-reset": "1781108896"
     },
-    "total_posts": 644,
-    "updated_at": "2026-07-30T20:16:48.815045+00:00",
+    "total_posts": 649,
+    "updated_at": "2026-07-31T20:21:44.986814+00:00",
     "username": "info_myojou"
   },
   "source": "x_api",
-  "updated_at": "2026-07-30T20:16:48.815045+00:00"
+  "updated_at": "2026-07-31T20:21:44.986814+00:00"
 }
