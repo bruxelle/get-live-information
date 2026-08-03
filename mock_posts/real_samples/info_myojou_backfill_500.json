@@ -2,6 +2,846 @@
   "captured_at": "2026-06-10T16:19:36.141820+00:00",
   "data": [
     {
+      "api_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n          NEO KASSEN2026\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n📍KAGURA STAGE（Veats Shibuya）\n🎙17:30-17:55\n📸18:10-19:10（シブテナ宇田川 4F 11）\n\n⟣date：8/10（月）\n⟣place : Spotify O-EAST / Spotify O-WEST / Spotify O-nest / Spotify https://t.co/WUmW9kD4s7",
+      "attachments": {
+        "media_keys": [
+          "3_2084248470697934848",
+          "3_2084248470693830657"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "ticket_update"
+      },
+      "created_at": "2026-08-03T12:02:15+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/WUmW9kD4s7",
+            "end": 242,
+            "expanded_url": "https://x.com/info_myojou/status/2084248480772747487/photo/1",
+            "media_key": "3_2084248470697934848",
+            "start": 219,
+            "url": "https://t.co/WUmW9kD4s7"
+          },
+          {
+            "display_url": "pic.x.com/WUmW9kD4s7",
+            "end": 242,
+            "expanded_url": "https://x.com/info_myojou/status/2084248480772747487/photo/1",
+            "media_key": "3_2084248470693830657",
+            "start": 219,
+            "url": "https://t.co/WUmW9kD4s7"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2084248480772747487",
+      "media": [
+        {
+          "height": 2000,
+          "media_key": "3_2084248470697934848",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HOy88PeaAAA0TJ5.jpg",
+          "width": 1500
+        },
+        {
+          "height": 1819,
+          "media_key": "3_2084248470693830657",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HOy88PdbYAEkBsH.jpg",
+          "width": 4096
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 552,
+              "start": 545,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "l-tike.com/neokassen/",
+              "end": 543,
+              "expanded_url": "http://l-tike.com/neokassen/",
+              "start": 520,
+              "url": "https://t.co/6UgcHK28Pm"
+            }
+          ]
+        },
+        "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n          NEO KASSEN2026\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n📍KAGURA STAGE（Veats Shibuya）\n🎙17:30-17:55\n📸18:10-19:10（シブテナ宇田川 4F 11）\n\n⟣date：8/10（月）\n⟣place : Spotify O-EAST / Spotify O-WEST / Spotify O-nest / Spotify O-Crest / duo MUSIC EXCHANGE / club asia /\nWOMB LIVE / SHIBUYA RING / SHIBUYA DESEO / Veats Shibuya / SHIBUYA VIDENT / GRIT at Shibuya\n⟣open/start：11:00/11:30\n⟣price：KASSENチケット（※オリジナルTシャツ付き、リストバンド交換時専用レーンあり、入場規制時、リストバンド+Tシャツ着用で優先案内） ¥10,000 / 一般チケット ¥6,500\n/当日チケット¥7,500（各+1D）\n\n【一般先着】\n-8/9(日) 23:59\n🔗 https://t.co/6UgcHK28Pm\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": "18:10-19:10",
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-08-10",
+        "event_dates": [
+          "2026-08-10",
+          "2026-08-09"
+        ],
+        "event_name": "NEO KASSEN2026",
+        "extraction_confidence": 0.95,
+        "general_ticket_price": 6500,
+        "lottery_result_at": null,
+        "myojou_performance_time": "17:30-17:55",
+        "notes": "ドリンク代: 各+1D",
+        "open_time": "11:00",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "SSEN",
+        "priority_ticket_price": 2026,
+        "same_day_ticket_price": 7500,
+        "source_kind": "ticket_update",
+        "source_post_id": "2084248480772747487",
+        "source_posted_at": "2026-08-03T12:02:15Z",
+        "source_raw": {
+          "api_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n          NEO KASSEN2026\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n📍KAGURA STAGE（Veats Shibuya）\n🎙17:30-17:55\n📸18:10-19:10（シブテナ宇田川 4F 11）\n\n⟣date：8/10（月）\n⟣place : Spotify O-EAST / Spotify O-WEST / Spotify O-nest / Spotify https://t.co/WUmW9kD4s7",
+          "attachments": {
+            "media_keys": [
+              "3_2084248470697934848",
+              "3_2084248470693830657"
+            ]
+          },
+          "created_at": "2026-08-03T12:02:15.000Z",
+          "edit_history_tweet_ids": [
+            "2084248480772747487"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/WUmW9kD4s7",
+                "end": 242,
+                "expanded_url": "https://x.com/info_myojou/status/2084248480772747487/photo/1",
+                "media_key": "3_2084248470697934848",
+                "start": 219,
+                "url": "https://t.co/WUmW9kD4s7"
+              },
+              {
+                "display_url": "pic.x.com/WUmW9kD4s7",
+                "end": 242,
+                "expanded_url": "https://x.com/info_myojou/status/2084248480772747487/photo/1",
+                "media_key": "3_2084248470693830657",
+                "start": 219,
+                "url": "https://t.co/WUmW9kD4s7"
+              }
+            ]
+          },
+          "full_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n          NEO KASSEN2026\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n📍KAGURA STAGE（Veats Shibuya）\n🎙17:30-17:55\n📸18:10-19:10（シブテナ宇田川 4F 11）\n\n⟣date：8/10（月）\n⟣place : Spotify O-EAST / Spotify O-WEST / Spotify O-nest / Spotify O-Crest / duo MUSIC EXCHANGE / club asia /\nWOMB LIVE / SHIBUYA RING / SHIBUYA DESEO / Veats Shibuya / SHIBUYA VIDENT / GRIT at Shibuya\n⟣open/start：11:00/11:30\n⟣price：KASSENチケット（※オリジナルTシャツ付き、リストバンド交換時専用レーンあり、入場規制時、リストバンド+Tシャツ着用で優先案内） ¥10,000 / 一般チケット ¥6,500\n/当日チケット¥7,500（各+1D）\n\n【一般先着】\n-8/9(日) 23:59\n🔗 https://t.co/6UgcHK28Pm\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2084248480772747487",
+          "media": [
+            {
+              "height": 2000,
+              "media_key": "3_2084248470697934848",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HOy88PeaAAA0TJ5.jpg",
+              "width": 1500
+            },
+            {
+              "height": 1819,
+              "media_key": "3_2084248470693830657",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HOy88PdbYAEkBsH.jpg",
+              "width": 4096
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 552,
+                  "start": 545,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "l-tike.com/neokassen/",
+                  "end": 543,
+                  "expanded_url": "http://l-tike.com/neokassen/",
+                  "start": 520,
+                  "url": "https://t.co/6UgcHK28Pm"
+                }
+              ]
+            },
+            "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n          NEO KASSEN2026\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n📍KAGURA STAGE（Veats Shibuya）\n🎙17:30-17:55\n📸18:10-19:10（シブテナ宇田川 4F 11）\n\n⟣date：8/10（月）\n⟣place : Spotify O-EAST / Spotify O-WEST / Spotify O-nest / Spotify O-Crest / duo MUSIC EXCHANGE / club asia /\nWOMB LIVE / SHIBUYA RING / SHIBUYA DESEO / Veats Shibuya / SHIBUYA VIDENT / GRIT at Shibuya\n⟣open/start：11:00/11:30\n⟣price：KASSENチケット（※オリジナルTシャツ付き、リストバンド交換時専用レーンあり、入場規制時、リストバンド+Tシャツ着用で優先案内） ¥10,000 / 一般チケット ¥6,500\n/当日チケット¥7,500（各+1D）\n\n【一般先着】\n-8/9(日) 23:59\n🔗 https://t.co/6UgcHK28Pm\n\n#myojou"
+          },
+          "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n          NEO KASSEN2026\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n📍KAGURA STAGE（Veats Shibuya）\n🎙17:30-17:55\n📸18:10-19:10（シブテナ宇田川 4F 11）\n\n⟣date：8/10（月）\n⟣place : Spotify O-EAST / Spotify O-WEST / Spotify O-nest / Spotify https://t.co/WUmW9kD4s7",
+          "truncated_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n          NEO KASSEN2026\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n📍KAGURA STAGE（Veats Shibuya）\n🎙17:30-17:55\n📸18:10-19:10（シブテナ宇田川 4F 11）\n\n⟣date：8/10（月）\n⟣place : Spotify O-EAST / Spotify O-WEST / Spotify O-nest / Spotify https://t.co/WUmW9kD4s7"
+        },
+        "source_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n          NEO KASSEN2026\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n📍KAGURA STAGE（Veats Shibuya）\n🎙17:30-17:55\n📸18:10-19:10（シブテナ宇田川 4F 11）\n\n⟣date：8/10（月）\n⟣place : Spotify O-EAST / Spotify O-WEST / Spotify O-nest / Spotify O-Crest / duo MUSIC EXCHANGE / club asia /\nWOMB LIVE / SHIBUYA RING / SHIBUYA DESEO / Veats Shibuya / SHIBUYA VIDENT / GRIT at Shibuya\n⟣open/start：11:00/11:30\n⟣price：KASSENチケット（※オリジナルTシャツ付き、リストバンド交換時専用レーンあり、入場規制時、リストバンド+Tシャツ着用で優先案内） ¥10,000 / 一般チケット ¥6,500\n/当日チケット¥7,500（各+1D）\n\n【一般先着】\n-8/9(日) 23:59\n🔗 https://t.co/6UgcHK28Pm\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2084248480772747487",
+        "start_time": "11:30",
+        "ticket_application_deadline_at": "2026-08-09T23:59:00+09:00",
+        "ticket_application_start_at": null,
+        "ticket_sale_type": "先着",
+        "ticket_sales": [
+          {
+            "deadline_at": "2026-08-09T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 2026,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2084248480772747487",
+            "source_url": "https://x.com/info_myojou/status/2084248480772747487",
+            "start_at": null,
+            "status": "不明",
+            "ticket_name": "SS",
+            "ticket_tier": "SS"
+          },
+          {
+            "deadline_at": "2026-08-09T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 10000,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2084248480772747487",
+            "source_url": "https://x.com/info_myojou/status/2084248480772747487",
+            "start_at": null,
+            "status": "不明",
+            "ticket_name": "KASSENチケット",
+            "ticket_tier": "SS"
+          },
+          {
+            "deadline_at": "2026-08-09T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 6500,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2084248480772747487",
+            "source_url": "https://x.com/info_myojou/status/2084248480772747487",
+            "start_at": null,
+            "status": "不明",
+            "ticket_name": "一般チケット",
+            "ticket_tier": "一般"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 7500,
+            "result_at": null,
+            "sale_type": "当日券",
+            "source_post_id": "2084248480772747487",
+            "source_url": "https://x.com/info_myojou/status/2084248480772747487",
+            "start_at": null,
+            "status": "販売中",
+            "ticket_name": "当日券",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "http://l-tike.com/neokassen/",
+        "venue": "Spotify O-EAST / Spotify O-WEST / Spotify O-nest / Spotify O-Crest / duo MUSIC EXCHANGE / club asia"
+      },
+      "raw": {
+        "api_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n          NEO KASSEN2026\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n📍KAGURA STAGE（Veats Shibuya）\n🎙17:30-17:55\n📸18:10-19:10（シブテナ宇田川 4F 11）\n\n⟣date：8/10（月）\n⟣place : Spotify O-EAST / Spotify O-WEST / Spotify O-nest / Spotify https://t.co/WUmW9kD4s7",
+        "attachments": {
+          "media_keys": [
+            "3_2084248470697934848",
+            "3_2084248470693830657"
+          ]
+        },
+        "created_at": "2026-08-03T12:02:15.000Z",
+        "edit_history_tweet_ids": [
+          "2084248480772747487"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/WUmW9kD4s7",
+              "end": 242,
+              "expanded_url": "https://x.com/info_myojou/status/2084248480772747487/photo/1",
+              "media_key": "3_2084248470697934848",
+              "start": 219,
+              "url": "https://t.co/WUmW9kD4s7"
+            },
+            {
+              "display_url": "pic.x.com/WUmW9kD4s7",
+              "end": 242,
+              "expanded_url": "https://x.com/info_myojou/status/2084248480772747487/photo/1",
+              "media_key": "3_2084248470693830657",
+              "start": 219,
+              "url": "https://t.co/WUmW9kD4s7"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n          NEO KASSEN2026\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n📍KAGURA STAGE（Veats Shibuya）\n🎙17:30-17:55\n📸18:10-19:10（シブテナ宇田川 4F 11）\n\n⟣date：8/10（月）\n⟣place : Spotify O-EAST / Spotify O-WEST / Spotify O-nest / Spotify O-Crest / duo MUSIC EXCHANGE / club asia /\nWOMB LIVE / SHIBUYA RING / SHIBUYA DESEO / Veats Shibuya / SHIBUYA VIDENT / GRIT at Shibuya\n⟣open/start：11:00/11:30\n⟣price：KASSENチケット（※オリジナルTシャツ付き、リストバンド交換時専用レーンあり、入場規制時、リストバンド+Tシャツ着用で優先案内） ¥10,000 / 一般チケット ¥6,500\n/当日チケット¥7,500（各+1D）\n\n【一般先着】\n-8/9(日) 23:59\n🔗 https://t.co/6UgcHK28Pm\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2084248480772747487",
+        "media": [
+          {
+            "height": 2000,
+            "media_key": "3_2084248470697934848",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HOy88PeaAAA0TJ5.jpg",
+            "width": 1500
+          },
+          {
+            "height": 1819,
+            "media_key": "3_2084248470693830657",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HOy88PdbYAEkBsH.jpg",
+            "width": 4096
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 552,
+                "start": 545,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "l-tike.com/neokassen/",
+                "end": 543,
+                "expanded_url": "http://l-tike.com/neokassen/",
+                "start": 520,
+                "url": "https://t.co/6UgcHK28Pm"
+              }
+            ]
+          },
+          "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n          NEO KASSEN2026\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n📍KAGURA STAGE（Veats Shibuya）\n🎙17:30-17:55\n📸18:10-19:10（シブテナ宇田川 4F 11）\n\n⟣date：8/10（月）\n⟣place : Spotify O-EAST / Spotify O-WEST / Spotify O-nest / Spotify O-Crest / duo MUSIC EXCHANGE / club asia /\nWOMB LIVE / SHIBUYA RING / SHIBUYA DESEO / Veats Shibuya / SHIBUYA VIDENT / GRIT at Shibuya\n⟣open/start：11:00/11:30\n⟣price：KASSENチケット（※オリジナルTシャツ付き、リストバンド交換時専用レーンあり、入場規制時、リストバンド+Tシャツ着用で優先案内） ¥10,000 / 一般チケット ¥6,500\n/当日チケット¥7,500（各+1D）\n\n【一般先着】\n-8/9(日) 23:59\n🔗 https://t.co/6UgcHK28Pm\n\n#myojou"
+        },
+        "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n          NEO KASSEN2026\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n📍KAGURA STAGE（Veats Shibuya）\n🎙17:30-17:55\n📸18:10-19:10（シブテナ宇田川 4F 11）\n\n⟣date：8/10（月）\n⟣place : Spotify O-EAST / Spotify O-WEST / Spotify O-nest / Spotify https://t.co/WUmW9kD4s7",
+        "truncated_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n          NEO KASSEN2026\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n📍KAGURA STAGE（Veats Shibuya）\n🎙17:30-17:55\n📸18:10-19:10（シブテナ宇田川 4F 11）\n\n⟣date：8/10（月）\n⟣place : Spotify O-EAST / Spotify O-WEST / Spotify O-nest / Spotify https://t.co/WUmW9kD4s7"
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n          NEO KASSEN2026\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n📍KAGURA STAGE（Veats Shibuya）\n🎙17:30-17:55\n📸18:10-19:10（シブテナ宇田川 4F 11）\n\n⟣date：8/10（月）\n⟣place : Spotify O-EAST / Spotify O-WEST / Spotify O-nest / Spotify O-Crest / duo MUSIC EXCHANGE / club asia /\nWOMB LIVE / SHIBUYA RING / SHIBUYA DESEO / Veats Shibuya / SHIBUYA VIDENT / GRIT at Shibuya\n⟣open/start：11:00/11:30\n⟣price：KASSENチケット（※オリジナルTシャツ付き、リストバンド交換時専用レーンあり、入場規制時、リストバンド+Tシャツ着用で優先案内） ¥10,000 / 一般チケット ¥6,500\n/当日チケット¥7,500（各+1D）\n\n【一般先着】\n-8/9(日) 23:59\n🔗 https://t.co/6UgcHK28Pm\n\n#myojou",
+      "truncated_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n          NEO KASSEN2026\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n📍KAGURA STAGE（Veats Shibuya）\n🎙17:30-17:55\n📸18:10-19:10（シブテナ宇田川 4F 11）\n\n⟣date：8/10（月）\n⟣place : Spotify O-EAST / Spotify O-WEST / Spotify O-nest / Spotify https://t.co/WUmW9kD4s7",
+      "url": "https://x.com/info_myojou/status/2084248480772747487"
+    },
+    {
+      "api_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n           URA A Villa DAY.2\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣date：8/30（日）\n⟣place : SYNC north\n⟣open/start：9:30/10:00\n⟣price：VIP¥8,000/一般¥4,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】 https://t.co/VaTjcEmlDm",
+      "attachments": {
+        "media_keys": [
+          "3_2084247988776628224"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "ticket_update"
+      },
+      "created_at": "2026-08-03T12:00:21+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/VaTjcEmlDm",
+            "end": 212,
+            "expanded_url": "https://x.com/info_myojou/status/2084248000327798995/photo/1",
+            "media_key": "3_2084247988776628224",
+            "start": 189,
+            "url": "https://t.co/VaTjcEmlDm"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2084248000327798995",
+      "media": [
+        {
+          "height": 3600,
+          "media_key": "3_2084247988776628224",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HOy8gMLacAAv7m6.jpg",
+          "width": 2700
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "missing event_name",
+        "missing ticket deadline",
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 236,
+              "start": 229,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "t-dv.com/ura_a_villa2",
+              "end": 227,
+              "expanded_url": "https://t-dv.com/ura_a_villa2",
+              "start": 204,
+              "url": "https://t.co/wIvcjRVvKC"
+            }
+          ]
+        },
+        "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n           URA A Villa DAY.2\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣date：8/30（日）\n⟣place : SYNC north\n⟣open/start：9:30/10:00\n⟣price：VIP¥8,000/一般¥4,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n8/5(水)21:30-\n🔗 https://t.co/wIvcjRVvKC\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": null,
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-08-30",
+        "event_dates": [
+          "2026-08-30"
+        ],
+        "event_name": null,
+        "extraction_confidence": 0.7,
+        "general_ticket_price": 4000,
+        "lottery_result_at": null,
+        "myojou_performance_time": null,
+        "notes": "ドリンク代: 各+1D\n⟣入場特典:明星カード(サインありチェキ)",
+        "open_time": "09:30",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "VIP",
+        "priority_ticket_price": 8000,
+        "same_day_ticket_price": null,
+        "source_kind": "ticket_update",
+        "source_post_id": "2084248000327798995",
+        "source_posted_at": "2026-08-03T12:00:21Z",
+        "source_raw": {
+          "api_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n           URA A Villa DAY.2\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣date：8/30（日）\n⟣place : SYNC north\n⟣open/start：9:30/10:00\n⟣price：VIP¥8,000/一般¥4,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】 https://t.co/VaTjcEmlDm",
+          "attachments": {
+            "media_keys": [
+              "3_2084247988776628224"
+            ]
+          },
+          "created_at": "2026-08-03T12:00:21.000Z",
+          "edit_history_tweet_ids": [
+            "2084248000327798995"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/VaTjcEmlDm",
+                "end": 212,
+                "expanded_url": "https://x.com/info_myojou/status/2084248000327798995/photo/1",
+                "media_key": "3_2084247988776628224",
+                "start": 189,
+                "url": "https://t.co/VaTjcEmlDm"
+              }
+            ]
+          },
+          "full_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n           URA A Villa DAY.2\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣date：8/30（日）\n⟣place : SYNC north\n⟣open/start：9:30/10:00\n⟣price：VIP¥8,000/一般¥4,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n8/5(水)21:30-\n🔗 https://t.co/wIvcjRVvKC\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2084248000327798995",
+          "media": [
+            {
+              "height": 3600,
+              "media_key": "3_2084247988776628224",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HOy8gMLacAAv7m6.jpg",
+              "width": 2700
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 236,
+                  "start": 229,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "t-dv.com/ura_a_villa2",
+                  "end": 227,
+                  "expanded_url": "https://t-dv.com/ura_a_villa2",
+                  "start": 204,
+                  "url": "https://t.co/wIvcjRVvKC"
+                }
+              ]
+            },
+            "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n           URA A Villa DAY.2\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣date：8/30（日）\n⟣place : SYNC north\n⟣open/start：9:30/10:00\n⟣price：VIP¥8,000/一般¥4,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n8/5(水)21:30-\n🔗 https://t.co/wIvcjRVvKC\n\n#myojou"
+          },
+          "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n           URA A Villa DAY.2\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣date：8/30（日）\n⟣place : SYNC north\n⟣open/start：9:30/10:00\n⟣price：VIP¥8,000/一般¥4,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】 https://t.co/VaTjcEmlDm",
+          "truncated_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n           URA A Villa DAY.2\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣date：8/30（日）\n⟣place : SYNC north\n⟣open/start：9:30/10:00\n⟣price：VIP¥8,000/一般¥4,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】 https://t.co/VaTjcEmlDm"
+        },
+        "source_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n           URA A Villa DAY.2\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣date：8/30（日）\n⟣place : SYNC north\n⟣open/start：9:30/10:00\n⟣price：VIP¥8,000/一般¥4,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n8/5(水)21:30-\n🔗 https://t.co/wIvcjRVvKC\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2084248000327798995",
+        "start_time": "10:00",
+        "ticket_application_deadline_at": null,
+        "ticket_application_start_at": "2026-08-05T21:30:00+09:00",
+        "ticket_sale_type": "一般",
+        "ticket_sales": [
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 8000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2084248000327798995",
+            "source_url": "https://x.com/info_myojou/status/2084248000327798995",
+            "start_at": "2026-08-05T21:30:00+09:00",
+            "status": "不明",
+            "ticket_name": "VIP",
+            "ticket_tier": "VIP"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 4000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2084248000327798995",
+            "source_url": "https://x.com/info_myojou/status/2084248000327798995",
+            "start_at": "2026-08-05T21:30:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "https://t-dv.com/ura_a_villa2",
+        "venue": "SYNC north"
+      },
+      "raw": {
+        "api_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n           URA A Villa DAY.2\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣date：8/30（日）\n⟣place : SYNC north\n⟣open/start：9:30/10:00\n⟣price：VIP¥8,000/一般¥4,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】 https://t.co/VaTjcEmlDm",
+        "attachments": {
+          "media_keys": [
+            "3_2084247988776628224"
+          ]
+        },
+        "created_at": "2026-08-03T12:00:21.000Z",
+        "edit_history_tweet_ids": [
+          "2084248000327798995"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/VaTjcEmlDm",
+              "end": 212,
+              "expanded_url": "https://x.com/info_myojou/status/2084248000327798995/photo/1",
+              "media_key": "3_2084247988776628224",
+              "start": 189,
+              "url": "https://t.co/VaTjcEmlDm"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n           URA A Villa DAY.2\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣date：8/30（日）\n⟣place : SYNC north\n⟣open/start：9:30/10:00\n⟣price：VIP¥8,000/一般¥4,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n8/5(水)21:30-\n🔗 https://t.co/wIvcjRVvKC\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2084248000327798995",
+        "media": [
+          {
+            "height": 3600,
+            "media_key": "3_2084247988776628224",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HOy8gMLacAAv7m6.jpg",
+            "width": 2700
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 236,
+                "start": 229,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "t-dv.com/ura_a_villa2",
+                "end": 227,
+                "expanded_url": "https://t-dv.com/ura_a_villa2",
+                "start": 204,
+                "url": "https://t.co/wIvcjRVvKC"
+              }
+            ]
+          },
+          "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n           URA A Villa DAY.2\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣date：8/30（日）\n⟣place : SYNC north\n⟣open/start：9:30/10:00\n⟣price：VIP¥8,000/一般¥4,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n8/5(水)21:30-\n🔗 https://t.co/wIvcjRVvKC\n\n#myojou"
+        },
+        "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n           URA A Villa DAY.2\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣date：8/30（日）\n⟣place : SYNC north\n⟣open/start：9:30/10:00\n⟣price：VIP¥8,000/一般¥4,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】 https://t.co/VaTjcEmlDm",
+        "truncated_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n           URA A Villa DAY.2\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣date：8/30（日）\n⟣place : SYNC north\n⟣open/start：9:30/10:00\n⟣price：VIP¥8,000/一般¥4,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】 https://t.co/VaTjcEmlDm"
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n           URA A Villa DAY.2\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣date：8/30（日）\n⟣place : SYNC north\n⟣open/start：9:30/10:00\n⟣price：VIP¥8,000/一般¥4,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n8/5(水)21:30-\n🔗 https://t.co/wIvcjRVvKC\n\n#myojou",
+      "truncated_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n           URA A Villa DAY.2\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣date：8/30（日）\n⟣place : SYNC north\n⟣open/start：9:30/10:00\n⟣price：VIP¥8,000/一般¥4,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】 https://t.co/VaTjcEmlDm",
+      "url": "https://x.com/info_myojou/status/2084248000327798995"
+    },
+    {
+      "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                    「アイドル甲子園 \n           in KANDA SQUARE HALL」\n          supported by My-th -DAY2-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙19:05-19:30\n📸19:50-21:10 B\n\n⟣date：8/16（日）\n⟣place : KANDA SQUARE HALL https://t.co/JIYxphJfNz",
+      "attachments": {
+        "media_keys": [
+          "3_2084232907493974016"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "ticket_update"
+      },
+      "created_at": "2026-08-03T11:00:24+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/JIYxphJfNz",
+            "end": 241,
+            "expanded_url": "https://x.com/info_myojou/status/2084232912610918589/photo/1",
+            "media_key": "3_2084232907493974016",
+            "start": 218,
+            "url": "https://t.co/JIYxphJfNz"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2084232912610918589",
+      "media": [
+        {
+          "height": 2000,
+          "media_key": "3_2084232907493974016",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HOyuyWBboAAAZ60.jpg",
+          "width": 1500
+        }
+      ],
+      "needs_review": true,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 371,
+              "start": 364,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "user.my-th.jp/tickets/event/…",
+              "end": 362,
+              "expanded_url": "https://user.my-th.jp/tickets/event/aikou_0816",
+              "start": 339,
+              "url": "https://t.co/wjyaqHlZi3"
+            }
+          ]
+        },
+        "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                    「アイドル甲子園 \n           in KANDA SQUARE HALL」\n          supported by My-th -DAY2-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙19:05-19:30\n📸19:50-21:10 B\n\n⟣date：8/16（日）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:00/9:15\n⟣price：前方¥8,500/一般¥3,500/当日各＋¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/23（木）21:00-8/16（日）8:59\n🔗 https://t.co/wjyaqHlZi3\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": "19:50-21:10",
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-08-16",
+        "event_dates": [
+          "2026-08-16"
+        ],
+        "event_name": "アイドル甲子園",
+        "extraction_confidence": 0.95,
+        "general_ticket_price": 3500,
+        "lottery_result_at": null,
+        "myojou_performance_time": "19:05-19:30",
+        "notes": "ドリンク代: 各+1D\n⟣入場特典:明星カード(サインありチェキ)",
+        "open_time": "09:00",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "前方",
+        "priority_ticket_price": 8500,
+        "same_day_ticket_price": 1000,
+        "source_kind": "ticket_update",
+        "source_post_id": "2084232912610918589",
+        "source_posted_at": "2026-08-03T11:00:24Z",
+        "source_raw": {
+          "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                    「アイドル甲子園 \n           in KANDA SQUARE HALL」\n          supported by My-th -DAY2-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙19:05-19:30\n📸19:50-21:10 B\n\n⟣date：8/16（日）\n⟣place : KANDA SQUARE HALL https://t.co/JIYxphJfNz",
+          "attachments": {
+            "media_keys": [
+              "3_2084232907493974016"
+            ]
+          },
+          "created_at": "2026-08-03T11:00:24.000Z",
+          "edit_history_tweet_ids": [
+            "2084232912610918589"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/JIYxphJfNz",
+                "end": 241,
+                "expanded_url": "https://x.com/info_myojou/status/2084232912610918589/photo/1",
+                "media_key": "3_2084232907493974016",
+                "start": 218,
+                "url": "https://t.co/JIYxphJfNz"
+              }
+            ]
+          },
+          "full_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                    「アイドル甲子園 \n           in KANDA SQUARE HALL」\n          supported by My-th -DAY2-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙19:05-19:30\n📸19:50-21:10 B\n\n⟣date：8/16（日）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:00/9:15\n⟣price：前方¥8,500/一般¥3,500/当日各＋¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/23（木）21:00-8/16（日）8:59\n🔗 https://t.co/wjyaqHlZi3\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2084232912610918589",
+          "media": [
+            {
+              "height": 2000,
+              "media_key": "3_2084232907493974016",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HOyuyWBboAAAZ60.jpg",
+              "width": 1500
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 371,
+                  "start": 364,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "user.my-th.jp/tickets/event/…",
+                  "end": 362,
+                  "expanded_url": "https://user.my-th.jp/tickets/event/aikou_0816",
+                  "start": 339,
+                  "url": "https://t.co/wjyaqHlZi3"
+                }
+              ]
+            },
+            "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                    「アイドル甲子園 \n           in KANDA SQUARE HALL」\n          supported by My-th -DAY2-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙19:05-19:30\n📸19:50-21:10 B\n\n⟣date：8/16（日）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:00/9:15\n⟣price：前方¥8,500/一般¥3,500/当日各＋¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/23（木）21:00-8/16（日）8:59\n🔗 https://t.co/wjyaqHlZi3\n\n#myojou"
+          },
+          "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                    「アイドル甲子園 \n           in KANDA SQUARE HALL」\n          supported by My-th -DAY2-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙19:05-19:30\n📸19:50-21:10 B\n\n⟣date：8/16（日）\n⟣place : KANDA SQUARE HALL https://t.co/JIYxphJfNz",
+          "truncated_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                    「アイドル甲子園 \n           in KANDA SQUARE HALL」\n          supported by My-th -DAY2-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙19:05-19:30\n📸19:50-21:10 B\n\n⟣date：8/16（日）\n⟣place : KANDA SQUARE HALL https://t.co/JIYxphJfNz"
+        },
+        "source_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                    「アイドル甲子園 \n           in KANDA SQUARE HALL」\n          supported by My-th -DAY2-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙19:05-19:30\n📸19:50-21:10 B\n\n⟣date：8/16（日）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:00/9:15\n⟣price：前方¥8,500/一般¥3,500/当日各＋¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/23（木）21:00-8/16（日）8:59\n🔗 https://t.co/wjyaqHlZi3\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2084232912610918589",
+        "start_time": "09:15",
+        "ticket_application_deadline_at": "2026-08-16T08:59:00+09:00",
+        "ticket_application_start_at": "2026-07-23T21:00:00+09:00",
+        "ticket_sale_type": "先着",
+        "ticket_sales": [
+          {
+            "deadline_at": "2026-08-16T08:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 8500,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2084232912610918589",
+            "source_url": "https://x.com/info_myojou/status/2084232912610918589",
+            "start_at": "2026-07-23T21:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "前方",
+            "ticket_tier": "前方"
+          },
+          {
+            "deadline_at": "2026-08-16T08:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 3500,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2084232912610918589",
+            "source_url": "https://x.com/info_myojou/status/2084232912610918589",
+            "start_at": "2026-07-23T21:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 1000,
+            "result_at": null,
+            "sale_type": "当日券",
+            "source_post_id": "2084232912610918589",
+            "source_url": "https://x.com/info_myojou/status/2084232912610918589",
+            "start_at": null,
+            "status": "販売中",
+            "ticket_name": "当日券",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "https://user.my-th.jp/tickets/event/aikou_0816",
+        "venue": "KANDA SQUARE HALL"
+      },
+      "raw": {
+        "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                    「アイドル甲子園 \n           in KANDA SQUARE HALL」\n          supported by My-th -DAY2-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙19:05-19:30\n📸19:50-21:10 B\n\n⟣date：8/16（日）\n⟣place : KANDA SQUARE HALL https://t.co/JIYxphJfNz",
+        "attachments": {
+          "media_keys": [
+            "3_2084232907493974016"
+          ]
+        },
+        "created_at": "2026-08-03T11:00:24.000Z",
+        "edit_history_tweet_ids": [
+          "2084232912610918589"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/JIYxphJfNz",
+              "end": 241,
+              "expanded_url": "https://x.com/info_myojou/status/2084232912610918589/photo/1",
+              "media_key": "3_2084232907493974016",
+              "start": 218,
+              "url": "https://t.co/JIYxphJfNz"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                    「アイドル甲子園 \n           in KANDA SQUARE HALL」\n          supported by My-th -DAY2-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙19:05-19:30\n📸19:50-21:10 B\n\n⟣date：8/16（日）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:00/9:15\n⟣price：前方¥8,500/一般¥3,500/当日各＋¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/23（木）21:00-8/16（日）8:59\n🔗 https://t.co/wjyaqHlZi3\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2084232912610918589",
+        "media": [
+          {
+            "height": 2000,
+            "media_key": "3_2084232907493974016",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HOyuyWBboAAAZ60.jpg",
+            "width": 1500
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 371,
+                "start": 364,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "user.my-th.jp/tickets/event/…",
+                "end": 362,
+                "expanded_url": "https://user.my-th.jp/tickets/event/aikou_0816",
+                "start": 339,
+                "url": "https://t.co/wjyaqHlZi3"
+              }
+            ]
+          },
+          "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                    「アイドル甲子園 \n           in KANDA SQUARE HALL」\n          supported by My-th -DAY2-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙19:05-19:30\n📸19:50-21:10 B\n\n⟣date：8/16（日）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:00/9:15\n⟣price：前方¥8,500/一般¥3,500/当日各＋¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/23（木）21:00-8/16（日）8:59\n🔗 https://t.co/wjyaqHlZi3\n\n#myojou"
+        },
+        "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                    「アイドル甲子園 \n           in KANDA SQUARE HALL」\n          supported by My-th -DAY2-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙19:05-19:30\n📸19:50-21:10 B\n\n⟣date：8/16（日）\n⟣place : KANDA SQUARE HALL https://t.co/JIYxphJfNz",
+        "truncated_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                    「アイドル甲子園 \n           in KANDA SQUARE HALL」\n          supported by My-th -DAY2-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙19:05-19:30\n📸19:50-21:10 B\n\n⟣date：8/16（日）\n⟣place : KANDA SQUARE HALL https://t.co/JIYxphJfNz"
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                    「アイドル甲子園 \n           in KANDA SQUARE HALL」\n          supported by My-th -DAY2-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙19:05-19:30\n📸19:50-21:10 B\n\n⟣date：8/16（日）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:00/9:15\n⟣price：前方¥8,500/一般¥3,500/当日各＋¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/23（木）21:00-8/16（日）8:59\n🔗 https://t.co/wjyaqHlZi3\n\n#myojou",
+      "truncated_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                    「アイドル甲子園 \n           in KANDA SQUARE HALL」\n          supported by My-th -DAY2-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙19:05-19:30\n📸19:50-21:10 B\n\n⟣date：8/16（日）\n⟣place : KANDA SQUARE HALL https://t.co/JIYxphJfNz",
+      "url": "https://x.com/info_myojou/status/2084232912610918589"
+    },
+    {
       "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n        IDOL SUMMER JUNGLE 2026\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\nDay1\n📍SNAKE STAGE\n🎙19:50-20:05\n📸17:10-18:10 （12）\n\nDay2\n📍MONKEY STAGE\n🎙14:15-14:35\n📸14:55-15:55（5）\n🏮17:55-19:05（6） https://t.co/DLak2G3EcS",
       "attachments": {
         "media_keys": [
@@ -141011,7 +141851,7 @@
     "backfill": true,
     "dry_run": true,
     "estimated_x_post_reads": 411,
-    "latest_post_id": "2083888321017896974",
+    "latest_post_id": "2084248480772747487",
     "max_pages": 10,
     "max_posts": 500,
     "max_results": 5,
@@ -141054,16 +141894,16 @@
       }
     ],
     "pages_fetched": 5,
-    "posts_fetched": 656,
+    "posts_fetched": 659,
     "rate_limit_headers": {
       "x-rate-limit-limit": "10000",
       "x-rate-limit-remaining": "9993",
       "x-rate-limit-reset": "1781108896"
     },
-    "total_posts": 656,
-    "updated_at": "2026-08-02T20:11:46.626677+00:00",
+    "total_posts": 659,
+    "updated_at": "2026-08-03T20:27:58.131477+00:00",
     "username": "info_myojou"
   },
   "source": "x_api",
-  "updated_at": "2026-08-02T20:11:46.626677+00:00"
+  "updated_at": "2026-08-03T20:27:58.131477+00:00"
 }
