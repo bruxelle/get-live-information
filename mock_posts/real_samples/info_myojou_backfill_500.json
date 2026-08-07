@@ -2,6 +2,1503 @@
   "captured_at": "2026-06-10T16:19:36.141820+00:00",
   "data": [
     {
+      "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「IDOL SUMMER JUNGLE 2026」\n\n📍SNAKE STAGE\n🎙19:50-20:05\n📸17:10-18:10 （12）\n\n⟣date：8/7（金）,8/8（土）\n⟣place : お台場R地区\n⟣open/start：9:00/10:00\n⟣price：VIPチケット¥28,000/一般チケット¥5,000/女性チケット¥4,000（各+1D） https://t.co/pqnccJK2JJ",
+      "attachments": {
+        "media_keys": [
+          "3_2085360387269226496",
+          "3_2085360387248291840"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "day_before_reminder"
+      },
+      "created_at": "2026-08-06T13:40:37+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/pqnccJK2JJ",
+            "end": 231,
+            "expanded_url": "https://x.com/info_myojou/status/2085360399235625402/photo/1",
+            "media_key": "3_2085360387269226496",
+            "start": 208,
+            "url": "https://t.co/pqnccJK2JJ"
+          },
+          {
+            "display_url": "pic.x.com/pqnccJK2JJ",
+            "end": 231,
+            "expanded_url": "https://x.com/info_myojou/status/2085360399235625402/photo/1",
+            "media_key": "3_2085360387248291840",
+            "start": 208,
+            "url": "https://t.co/pqnccJK2JJ"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2085360399235625402",
+      "media": [
+        {
+          "height": 4042,
+          "media_key": "3_2085360387269226496",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HPCwOTfacAA41A2.jpg",
+          "width": 2890
+        },
+        {
+          "height": 2480,
+          "media_key": "3_2085360387248291840",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HPCwOTabAAAIFPS.jpg",
+          "width": 3508
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 330,
+              "start": 323,
+              "tag": "myojou"
+            },
+            {
+              "end": 341,
+              "start": 331,
+              "tag": "ミョージョーサマー"
+            },
+            {
+              "end": 352,
+              "start": 342,
+              "tag": "サマジャン2026"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "ticketdive.com/event/idolsumm…",
+              "end": 321,
+              "expanded_url": "https://ticketdive.com/event/idolsummerjungle2026",
+              "start": 298,
+              "url": "https://t.co/vGPzCwXlpR"
+            }
+          ]
+        },
+        "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「IDOL SUMMER JUNGLE 2026」\n\n📍SNAKE STAGE\n🎙19:50-20:05\n📸17:10-18:10 （12）\n\n⟣date：8/7（金）,8/8（土）\n⟣place : お台場R地区\n⟣open/start：9:00/10:00\n⟣price：VIPチケット¥28,000/一般チケット¥5,000/女性チケット¥4,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n･VIPチケット\n【一般販売】\n7/6（月）18:00-\n･一般チケット,女性チケット\n【一般販売】\n6/9（火）18:00-\n\n🔗 https://t.co/vGPzCwXlpR\n\n#myojou\n#ミョージョーサマー\n#サマジャン2026"
+      },
+      "parsed_fields": {
+        "benefit_event_time": "17:10-18:10",
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-08-07",
+        "event_dates": [
+          "2026-08-07",
+          "2026-08-08"
+        ],
+        "event_name": "IDOL SUMMER JUNGLE 2026",
+        "extraction_confidence": 0.95,
+        "general_ticket_price": 5000,
+        "lottery_result_at": null,
+        "myojou_performance_time": "19:50-20:05",
+        "notes": "ドリンク代: 各+1D\n⟣入場特典:明星カード(サインありチェキ)",
+        "open_time": "09:00",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "VIPチケット",
+        "priority_ticket_price": 28000,
+        "same_day_ticket_price": null,
+        "source_kind": "day_before_reminder",
+        "source_post_id": "2085360399235625402",
+        "source_posted_at": "2026-08-06T13:40:37Z",
+        "source_raw": {
+          "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「IDOL SUMMER JUNGLE 2026」\n\n📍SNAKE STAGE\n🎙19:50-20:05\n📸17:10-18:10 （12）\n\n⟣date：8/7（金）,8/8（土）\n⟣place : お台場R地区\n⟣open/start：9:00/10:00\n⟣price：VIPチケット¥28,000/一般チケット¥5,000/女性チケット¥4,000（各+1D） https://t.co/pqnccJK2JJ",
+          "attachments": {
+            "media_keys": [
+              "3_2085360387269226496",
+              "3_2085360387248291840"
+            ]
+          },
+          "created_at": "2026-08-06T13:40:37.000Z",
+          "edit_history_tweet_ids": [
+            "2085360399235625402"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/pqnccJK2JJ",
+                "end": 231,
+                "expanded_url": "https://x.com/info_myojou/status/2085360399235625402/photo/1",
+                "media_key": "3_2085360387269226496",
+                "start": 208,
+                "url": "https://t.co/pqnccJK2JJ"
+              },
+              {
+                "display_url": "pic.x.com/pqnccJK2JJ",
+                "end": 231,
+                "expanded_url": "https://x.com/info_myojou/status/2085360399235625402/photo/1",
+                "media_key": "3_2085360387248291840",
+                "start": 208,
+                "url": "https://t.co/pqnccJK2JJ"
+              }
+            ]
+          },
+          "full_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「IDOL SUMMER JUNGLE 2026」\n\n📍SNAKE STAGE\n🎙19:50-20:05\n📸17:10-18:10 （12）\n\n⟣date：8/7（金）,8/8（土）\n⟣place : お台場R地区\n⟣open/start：9:00/10:00\n⟣price：VIPチケット¥28,000/一般チケット¥5,000/女性チケット¥4,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n･VIPチケット\n【一般販売】\n7/6（月）18:00-\n･一般チケット,女性チケット\n【一般販売】\n6/9（火）18:00-\n\n🔗 https://t.co/vGPzCwXlpR\n\n#myojou\n#ミョージョーサマー\n#サマジャン2026",
+          "full_text_source": "note_tweet",
+          "id": "2085360399235625402",
+          "media": [
+            {
+              "height": 4042,
+              "media_key": "3_2085360387269226496",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HPCwOTfacAA41A2.jpg",
+              "width": 2890
+            },
+            {
+              "height": 2480,
+              "media_key": "3_2085360387248291840",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HPCwOTabAAAIFPS.jpg",
+              "width": 3508
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 330,
+                  "start": 323,
+                  "tag": "myojou"
+                },
+                {
+                  "end": 341,
+                  "start": 331,
+                  "tag": "ミョージョーサマー"
+                },
+                {
+                  "end": 352,
+                  "start": 342,
+                  "tag": "サマジャン2026"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "ticketdive.com/event/idolsumm…",
+                  "end": 321,
+                  "expanded_url": "https://ticketdive.com/event/idolsummerjungle2026",
+                  "start": 298,
+                  "url": "https://t.co/vGPzCwXlpR"
+                }
+              ]
+            },
+            "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「IDOL SUMMER JUNGLE 2026」\n\n📍SNAKE STAGE\n🎙19:50-20:05\n📸17:10-18:10 （12）\n\n⟣date：8/7（金）,8/8（土）\n⟣place : お台場R地区\n⟣open/start：9:00/10:00\n⟣price：VIPチケット¥28,000/一般チケット¥5,000/女性チケット¥4,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n･VIPチケット\n【一般販売】\n7/6（月）18:00-\n･一般チケット,女性チケット\n【一般販売】\n6/9（火）18:00-\n\n🔗 https://t.co/vGPzCwXlpR\n\n#myojou\n#ミョージョーサマー\n#サマジャン2026"
+          },
+          "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「IDOL SUMMER JUNGLE 2026」\n\n📍SNAKE STAGE\n🎙19:50-20:05\n📸17:10-18:10 （12）\n\n⟣date：8/7（金）,8/8（土）\n⟣place : お台場R地区\n⟣open/start：9:00/10:00\n⟣price：VIPチケット¥28,000/一般チケット¥5,000/女性チケット¥4,000（各+1D） https://t.co/pqnccJK2JJ",
+          "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「IDOL SUMMER JUNGLE 2026」\n\n📍SNAKE STAGE\n🎙19:50-20:05\n📸17:10-18:10 （12）\n\n⟣date：8/7（金）,8/8（土）\n⟣place : お台場R地区\n⟣open/start：9:00/10:00\n⟣price：VIPチケット¥28,000/一般チケット¥5,000/女性チケット¥4,000（各+1D） https://t.co/pqnccJK2JJ"
+        },
+        "source_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「IDOL SUMMER JUNGLE 2026」\n\n📍SNAKE STAGE\n🎙19:50-20:05\n📸17:10-18:10 （12）\n\n⟣date：8/7（金）,8/8（土）\n⟣place : お台場R地区\n⟣open/start：9:00/10:00\n⟣price：VIPチケット¥28,000/一般チケット¥5,000/女性チケット¥4,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n･VIPチケット\n【一般販売】\n7/6（月）18:00-\n･一般チケット,女性チケット\n【一般販売】\n6/9（火）18:00-\n\n🔗 https://t.co/vGPzCwXlpR\n\n#myojou\n#ミョージョーサマー\n#サマジャン2026",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2085360399235625402",
+        "start_time": "10:00",
+        "ticket_application_deadline_at": null,
+        "ticket_application_start_at": "2026-06-09T18:00:00+09:00",
+        "ticket_sale_type": "一般",
+        "ticket_sales": [
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 28000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2085360399235625402",
+            "source_url": "https://x.com/info_myojou/status/2085360399235625402",
+            "start_at": "2026-07-06T18:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "VIPチケット",
+            "ticket_tier": "VIP"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 5000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2085360399235625402",
+            "source_url": "https://x.com/info_myojou/status/2085360399235625402",
+            "start_at": "2026-07-06T18:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般チケット",
+            "ticket_tier": "一般"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 28000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2085360399235625402",
+            "source_url": "https://x.com/info_myojou/status/2085360399235625402",
+            "start_at": "2026-06-09T18:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "VIPチケット",
+            "ticket_tier": "VIP"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 5000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2085360399235625402",
+            "source_url": "https://x.com/info_myojou/status/2085360399235625402",
+            "start_at": "2026-06-09T18:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般チケット",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "https://ticketdive.com/event/idolsummerjungle2026",
+        "venue": "お台場R地区"
+      },
+      "raw": {
+        "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「IDOL SUMMER JUNGLE 2026」\n\n📍SNAKE STAGE\n🎙19:50-20:05\n📸17:10-18:10 （12）\n\n⟣date：8/7（金）,8/8（土）\n⟣place : お台場R地区\n⟣open/start：9:00/10:00\n⟣price：VIPチケット¥28,000/一般チケット¥5,000/女性チケット¥4,000（各+1D） https://t.co/pqnccJK2JJ",
+        "attachments": {
+          "media_keys": [
+            "3_2085360387269226496",
+            "3_2085360387248291840"
+          ]
+        },
+        "created_at": "2026-08-06T13:40:37.000Z",
+        "edit_history_tweet_ids": [
+          "2085360399235625402"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/pqnccJK2JJ",
+              "end": 231,
+              "expanded_url": "https://x.com/info_myojou/status/2085360399235625402/photo/1",
+              "media_key": "3_2085360387269226496",
+              "start": 208,
+              "url": "https://t.co/pqnccJK2JJ"
+            },
+            {
+              "display_url": "pic.x.com/pqnccJK2JJ",
+              "end": 231,
+              "expanded_url": "https://x.com/info_myojou/status/2085360399235625402/photo/1",
+              "media_key": "3_2085360387248291840",
+              "start": 208,
+              "url": "https://t.co/pqnccJK2JJ"
+            }
+          ]
+        },
+        "full_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「IDOL SUMMER JUNGLE 2026」\n\n📍SNAKE STAGE\n🎙19:50-20:05\n📸17:10-18:10 （12）\n\n⟣date：8/7（金）,8/8（土）\n⟣place : お台場R地区\n⟣open/start：9:00/10:00\n⟣price：VIPチケット¥28,000/一般チケット¥5,000/女性チケット¥4,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n･VIPチケット\n【一般販売】\n7/6（月）18:00-\n･一般チケット,女性チケット\n【一般販売】\n6/9（火）18:00-\n\n🔗 https://t.co/vGPzCwXlpR\n\n#myojou\n#ミョージョーサマー\n#サマジャン2026",
+        "full_text_source": "note_tweet",
+        "id": "2085360399235625402",
+        "media": [
+          {
+            "height": 4042,
+            "media_key": "3_2085360387269226496",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HPCwOTfacAA41A2.jpg",
+            "width": 2890
+          },
+          {
+            "height": 2480,
+            "media_key": "3_2085360387248291840",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HPCwOTabAAAIFPS.jpg",
+            "width": 3508
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 330,
+                "start": 323,
+                "tag": "myojou"
+              },
+              {
+                "end": 341,
+                "start": 331,
+                "tag": "ミョージョーサマー"
+              },
+              {
+                "end": 352,
+                "start": 342,
+                "tag": "サマジャン2026"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "ticketdive.com/event/idolsumm…",
+                "end": 321,
+                "expanded_url": "https://ticketdive.com/event/idolsummerjungle2026",
+                "start": 298,
+                "url": "https://t.co/vGPzCwXlpR"
+              }
+            ]
+          },
+          "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「IDOL SUMMER JUNGLE 2026」\n\n📍SNAKE STAGE\n🎙19:50-20:05\n📸17:10-18:10 （12）\n\n⟣date：8/7（金）,8/8（土）\n⟣place : お台場R地区\n⟣open/start：9:00/10:00\n⟣price：VIPチケット¥28,000/一般チケット¥5,000/女性チケット¥4,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n･VIPチケット\n【一般販売】\n7/6（月）18:00-\n･一般チケット,女性チケット\n【一般販売】\n6/9（火）18:00-\n\n🔗 https://t.co/vGPzCwXlpR\n\n#myojou\n#ミョージョーサマー\n#サマジャン2026"
+        },
+        "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「IDOL SUMMER JUNGLE 2026」\n\n📍SNAKE STAGE\n🎙19:50-20:05\n📸17:10-18:10 （12）\n\n⟣date：8/7（金）,8/8（土）\n⟣place : お台場R地区\n⟣open/start：9:00/10:00\n⟣price：VIPチケット¥28,000/一般チケット¥5,000/女性チケット¥4,000（各+1D） https://t.co/pqnccJK2JJ",
+        "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「IDOL SUMMER JUNGLE 2026」\n\n📍SNAKE STAGE\n🎙19:50-20:05\n📸17:10-18:10 （12）\n\n⟣date：8/7（金）,8/8（土）\n⟣place : お台場R地区\n⟣open/start：9:00/10:00\n⟣price：VIPチケット¥28,000/一般チケット¥5,000/女性チケット¥4,000（各+1D） https://t.co/pqnccJK2JJ"
+      },
+      "referenced_tweets": [],
+      "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「IDOL SUMMER JUNGLE 2026」\n\n📍SNAKE STAGE\n🎙19:50-20:05\n📸17:10-18:10 （12）\n\n⟣date：8/7（金）,8/8（土）\n⟣place : お台場R地区\n⟣open/start：9:00/10:00\n⟣price：VIPチケット¥28,000/一般チケット¥5,000/女性チケット¥4,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n･VIPチケット\n【一般販売】\n7/6（月）18:00-\n･一般チケット,女性チケット\n【一般販売】\n6/9（火）18:00-\n\n🔗 https://t.co/vGPzCwXlpR\n\n#myojou\n#ミョージョーサマー\n#サマジャン2026",
+      "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「IDOL SUMMER JUNGLE 2026」\n\n📍SNAKE STAGE\n🎙19:50-20:05\n📸17:10-18:10 （12）\n\n⟣date：8/7（金）,8/8（土）\n⟣place : お台場R地区\n⟣open/start：9:00/10:00\n⟣price：VIPチケット¥28,000/一般チケット¥5,000/女性チケット¥4,000（各+1D） https://t.co/pqnccJK2JJ",
+      "url": "https://x.com/info_myojou/status/2085360399235625402"
+    },
+    {
+      "api_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                        ⟡.·*.御礼.*·.⟡\n            PLAYYTE Premium Party\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「 PLAYYTE Premium Party」ありがとうございました⋆˙⟡\n\n左上から\n真希しの@myojou_shino https://t.co/j6DPcGpvhL",
+      "attachments": {
+        "media_keys": [
+          "3_2085359836083236864",
+          "3_2085359836049678336"
+        ]
+      },
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "profile/member introduction",
+        "source_kind": "other"
+      },
+      "created_at": "2026-08-06T13:38:26+00:00",
+      "entities": {
+        "mentions": [
+          {
+            "end": 185,
+            "id": "1754991922807177216",
+            "start": 172,
+            "username": "myojou_shino"
+          }
+        ],
+        "urls": [
+          {
+            "display_url": "pic.x.com/j6DPcGpvhL",
+            "end": 209,
+            "expanded_url": "https://x.com/info_myojou/status/2085359847361692051/photo/1",
+            "media_key": "3_2085359836083236864",
+            "start": 186,
+            "url": "https://t.co/j6DPcGpvhL"
+          },
+          {
+            "display_url": "pic.x.com/j6DPcGpvhL",
+            "end": 209,
+            "expanded_url": "https://x.com/info_myojou/status/2085359847361692051/photo/1",
+            "media_key": "3_2085359836049678336",
+            "start": 186,
+            "url": "https://t.co/j6DPcGpvhL"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2085359847361692051",
+      "media": [
+        {
+          "height": 2048,
+          "media_key": "3_2085359836083236864",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HPCvuOKbsAAEapU.jpg",
+          "width": 1365
+        },
+        {
+          "height": 2304,
+          "media_key": "3_2085359836049678336",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HPCvuOCboAAbeP4.jpg",
+          "width": 4096
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 310,
+              "start": 303,
+              "tag": "myojou"
+            }
+          ],
+          "mentions": [
+            {
+              "end": 185,
+              "id": "1754991922807177216",
+              "start": 172,
+              "username": "myojou_shino"
+            },
+            {
+              "end": 206,
+              "id": "1590652199407083520",
+              "start": 192,
+              "username": "myojou_cocone"
+            },
+            {
+              "end": 223,
+              "id": "2009274765895450624",
+              "start": 212,
+              "username": "myojou_yun"
+            },
+            {
+              "end": 250,
+              "id": "1344586625901158401",
+              "start": 235,
+              "username": "myojou_usukura"
+            },
+            {
+              "end": 267,
+              "id": "2009245855694675968",
+              "start": 256,
+              "username": "myojou_miu"
+            },
+            {
+              "end": 285,
+              "id": "1981655668626165760",
+              "start": 273,
+              "username": "myojou_ruka"
+            }
+          ]
+        },
+        "text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                        ⟡.·*.御礼.*·.⟡\n            PLAYYTE Premium Party\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「 PLAYYTE Premium Party」ありがとうございました⋆˙⟡\n\n左上から\n真希しの@myojou_shino \n栗原ここね@myojou_cocone \n澪奈ゆん@myojou_yun \n\n右上から\n薄倉りな@myojou_usukura \n日陽みう@myojou_miu \n姫乃るか@myojou_ruka \n\nSETLIST▶︎ALT\n\n #myojou"
+      },
+      "parsed_fields": null,
+      "raw": {
+        "api_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                        ⟡.·*.御礼.*·.⟡\n            PLAYYTE Premium Party\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「 PLAYYTE Premium Party」ありがとうございました⋆˙⟡\n\n左上から\n真希しの@myojou_shino https://t.co/j6DPcGpvhL",
+        "attachments": {
+          "media_keys": [
+            "3_2085359836083236864",
+            "3_2085359836049678336"
+          ]
+        },
+        "created_at": "2026-08-06T13:38:26.000Z",
+        "edit_history_tweet_ids": [
+          "2085359847361692051"
+        ],
+        "entities": {
+          "mentions": [
+            {
+              "end": 185,
+              "id": "1754991922807177216",
+              "start": 172,
+              "username": "myojou_shino"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "pic.x.com/j6DPcGpvhL",
+              "end": 209,
+              "expanded_url": "https://x.com/info_myojou/status/2085359847361692051/photo/1",
+              "media_key": "3_2085359836083236864",
+              "start": 186,
+              "url": "https://t.co/j6DPcGpvhL"
+            },
+            {
+              "display_url": "pic.x.com/j6DPcGpvhL",
+              "end": 209,
+              "expanded_url": "https://x.com/info_myojou/status/2085359847361692051/photo/1",
+              "media_key": "3_2085359836049678336",
+              "start": 186,
+              "url": "https://t.co/j6DPcGpvhL"
+            }
+          ]
+        },
+        "full_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                        ⟡.·*.御礼.*·.⟡\n            PLAYYTE Premium Party\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「 PLAYYTE Premium Party」ありがとうございました⋆˙⟡\n\n左上から\n真希しの@myojou_shino \n栗原ここね@myojou_cocone \n澪奈ゆん@myojou_yun \n\n右上から\n薄倉りな@myojou_usukura \n日陽みう@myojou_miu \n姫乃るか@myojou_ruka \n\nSETLIST▶︎ALT\n\n #myojou",
+        "full_text_source": "note_tweet",
+        "id": "2085359847361692051",
+        "media": [
+          {
+            "height": 2048,
+            "media_key": "3_2085359836083236864",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HPCvuOKbsAAEapU.jpg",
+            "width": 1365
+          },
+          {
+            "height": 2304,
+            "media_key": "3_2085359836049678336",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HPCvuOCboAAbeP4.jpg",
+            "width": 4096
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 310,
+                "start": 303,
+                "tag": "myojou"
+              }
+            ],
+            "mentions": [
+              {
+                "end": 185,
+                "id": "1754991922807177216",
+                "start": 172,
+                "username": "myojou_shino"
+              },
+              {
+                "end": 206,
+                "id": "1590652199407083520",
+                "start": 192,
+                "username": "myojou_cocone"
+              },
+              {
+                "end": 223,
+                "id": "2009274765895450624",
+                "start": 212,
+                "username": "myojou_yun"
+              },
+              {
+                "end": 250,
+                "id": "1344586625901158401",
+                "start": 235,
+                "username": "myojou_usukura"
+              },
+              {
+                "end": 267,
+                "id": "2009245855694675968",
+                "start": 256,
+                "username": "myojou_miu"
+              },
+              {
+                "end": 285,
+                "id": "1981655668626165760",
+                "start": 273,
+                "username": "myojou_ruka"
+              }
+            ]
+          },
+          "text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                        ⟡.·*.御礼.*·.⟡\n            PLAYYTE Premium Party\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「 PLAYYTE Premium Party」ありがとうございました⋆˙⟡\n\n左上から\n真希しの@myojou_shino \n栗原ここね@myojou_cocone \n澪奈ゆん@myojou_yun \n\n右上から\n薄倉りな@myojou_usukura \n日陽みう@myojou_miu \n姫乃るか@myojou_ruka \n\nSETLIST▶︎ALT\n\n #myojou"
+        },
+        "text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                        ⟡.·*.御礼.*·.⟡\n            PLAYYTE Premium Party\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「 PLAYYTE Premium Party」ありがとうございました⋆˙⟡\n\n左上から\n真希しの@myojou_shino https://t.co/j6DPcGpvhL",
+        "truncated_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                        ⟡.·*.御礼.*·.⟡\n            PLAYYTE Premium Party\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「 PLAYYTE Premium Party」ありがとうございました⋆˙⟡\n\n左上から\n真希しの@myojou_shino https://t.co/j6DPcGpvhL"
+      },
+      "referenced_tweets": [],
+      "text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                        ⟡.·*.御礼.*·.⟡\n            PLAYYTE Premium Party\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「 PLAYYTE Premium Party」ありがとうございました⋆˙⟡\n\n左上から\n真希しの@myojou_shino \n栗原ここね@myojou_cocone \n澪奈ゆん@myojou_yun \n\n右上から\n薄倉りな@myojou_usukura \n日陽みう@myojou_miu \n姫乃るか@myojou_ruka \n\nSETLIST▶︎ALT\n\n #myojou",
+      "truncated_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                        ⟡.·*.御礼.*·.⟡\n            PLAYYTE Premium Party\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「 PLAYYTE Premium Party」ありがとうございました⋆˙⟡\n\n左上から\n真希しの@myojou_shino https://t.co/j6DPcGpvhL",
+      "url": "https://x.com/info_myojou/status/2085359847361692051"
+    },
+    {
+      "api_text": "▶️LIVE DIGEST\nPLAYYTE Premium Party\n「蛍夏」\n蛍火のように、この一瞬に命をかけて。\n\n#myojou https://t.co/vjZOShecyI",
+      "attachments": {
+        "media_keys": [
+          "13_2085353194784452608"
+        ]
+      },
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "live digest recap",
+        "source_kind": "other"
+      },
+      "created_at": "2026-08-06T13:16:15+00:00",
+      "entities": {
+        "hashtags": [
+          {
+            "end": 68,
+            "start": 61,
+            "tag": "myojou"
+          }
+        ],
+        "urls": [
+          {
+            "display_url": "pic.x.com/vjZOShecyI",
+            "end": 92,
+            "expanded_url": "https://x.com/info_myojou/status/2085354266538230124/video/1",
+            "media_key": "13_2085353194784452608",
+            "start": 69,
+            "url": "https://t.co/vjZOShecyI"
+          }
+        ]
+      },
+      "full_text_source": "text",
+      "id": "2085354266538230124",
+      "media": [
+        {
+          "height": 2160,
+          "media_key": "13_2085353194784452608",
+          "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2085353194784452608/img/QZPJLnowWMP1NYBt.jpg",
+          "type": "video",
+          "width": 3840
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "note_tweet": null,
+      "parsed_fields": null,
+      "raw": {
+        "api_text": "▶️LIVE DIGEST\nPLAYYTE Premium Party\n「蛍夏」\n蛍火のように、この一瞬に命をかけて。\n\n#myojou https://t.co/vjZOShecyI",
+        "attachments": {
+          "media_keys": [
+            "13_2085353194784452608"
+          ]
+        },
+        "created_at": "2026-08-06T13:16:15.000Z",
+        "edit_history_tweet_ids": [
+          "2085354266538230124"
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "end": 68,
+              "start": 61,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "pic.x.com/vjZOShecyI",
+              "end": 92,
+              "expanded_url": "https://x.com/info_myojou/status/2085354266538230124/video/1",
+              "media_key": "13_2085353194784452608",
+              "start": 69,
+              "url": "https://t.co/vjZOShecyI"
+            }
+          ]
+        },
+        "full_text": "▶️LIVE DIGEST\nPLAYYTE Premium Party\n「蛍夏」\n蛍火のように、この一瞬に命をかけて。\n\n#myojou https://t.co/vjZOShecyI",
+        "full_text_source": "text",
+        "id": "2085354266538230124",
+        "media": [
+          {
+            "height": 2160,
+            "media_key": "13_2085353194784452608",
+            "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2085353194784452608/img/QZPJLnowWMP1NYBt.jpg",
+            "type": "video",
+            "width": 3840
+          }
+        ],
+        "text": "▶️LIVE DIGEST\nPLAYYTE Premium Party\n「蛍夏」\n蛍火のように、この一瞬に命をかけて。\n\n#myojou https://t.co/vjZOShecyI",
+        "truncated_text": null
+      },
+      "referenced_tweets": [],
+      "text": "▶️LIVE DIGEST\nPLAYYTE Premium Party\n「蛍夏」\n蛍火のように、この一瞬に命をかけて。\n\n#myojou https://t.co/vjZOShecyI",
+      "truncated_text": null,
+      "url": "https://x.com/info_myojou/status/2085354266538230124"
+    },
+    {
+      "api_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n          myojou Greeting Event\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：8/9（日）\n⟣place : TIME SHARING 新宿8A （東京都新宿区歌舞伎町1-1-15 東信同和ビル8F）\n⟣time : 16:00-18:00 浴衣\n⟣price： ¥0\n\n【受付期間】 https://t.co/xRvznk0VPn",
+      "attachments": {
+        "media_keys": [
+          "3_2085274730110844928"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "ticket_update"
+      },
+      "created_at": "2026-08-06T08:00:52+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/xRvznk0VPn",
+            "end": 210,
+            "expanded_url": "https://x.com/info_myojou/status/2085274896268202138/photo/1",
+            "media_key": "3_2085274730110844928",
+            "start": 187,
+            "url": "https://t.co/xRvznk0VPn"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2085274896268202138",
+      "media": [
+        {
+          "height": 3508,
+          "media_key": "3_2085274730110844928",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HPBiUZtbAAAvGro.jpg",
+          "width": 2480
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 234,
+              "start": 227,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "t-dv.com/myojou_0809",
+              "end": 225,
+              "expanded_url": "https://t-dv.com/myojou_0809",
+              "start": 202,
+              "url": "https://t.co/80kcAkapY5"
+            }
+          ]
+        },
+        "text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n          myojou Greeting Event\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：8/9（日）\n⟣place : TIME SHARING 新宿8A （東京都新宿区歌舞伎町1-1-15 東信同和ビル8F）\n⟣time : 16:00-18:00 浴衣\n⟣price： ¥0\n\n【受付期間】\n-8/9（日）17:30\n🔗 https://t.co/80kcAkapY5\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": null,
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-08-09",
+        "event_dates": [
+          "2026-08-09"
+        ],
+        "event_name": "myojou Greeting Event",
+        "extraction_confidence": 0.8,
+        "general_ticket_price": 0,
+        "lottery_result_at": null,
+        "myojou_performance_time": null,
+        "notes": null,
+        "open_time": null,
+        "payment_deadline_at": null,
+        "priority_ticket_name": null,
+        "priority_ticket_price": null,
+        "same_day_ticket_price": null,
+        "source_kind": "ticket_update",
+        "source_post_id": "2085274896268202138",
+        "source_posted_at": "2026-08-06T08:00:52Z",
+        "source_raw": {
+          "api_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n          myojou Greeting Event\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：8/9（日）\n⟣place : TIME SHARING 新宿8A （東京都新宿区歌舞伎町1-1-15 東信同和ビル8F）\n⟣time : 16:00-18:00 浴衣\n⟣price： ¥0\n\n【受付期間】 https://t.co/xRvznk0VPn",
+          "attachments": {
+            "media_keys": [
+              "3_2085274730110844928"
+            ]
+          },
+          "created_at": "2026-08-06T08:00:52.000Z",
+          "edit_history_tweet_ids": [
+            "2085274742437609610",
+            "2085274896268202138"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/xRvznk0VPn",
+                "end": 210,
+                "expanded_url": "https://x.com/info_myojou/status/2085274896268202138/photo/1",
+                "media_key": "3_2085274730110844928",
+                "start": 187,
+                "url": "https://t.co/xRvznk0VPn"
+              }
+            ]
+          },
+          "full_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n          myojou Greeting Event\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：8/9（日）\n⟣place : TIME SHARING 新宿8A （東京都新宿区歌舞伎町1-1-15 東信同和ビル8F）\n⟣time : 16:00-18:00 浴衣\n⟣price： ¥0\n\n【受付期間】\n-8/9（日）17:30\n🔗 https://t.co/80kcAkapY5\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2085274896268202138",
+          "media": [
+            {
+              "height": 3508,
+              "media_key": "3_2085274730110844928",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HPBiUZtbAAAvGro.jpg",
+              "width": 2480
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 234,
+                  "start": 227,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "t-dv.com/myojou_0809",
+                  "end": 225,
+                  "expanded_url": "https://t-dv.com/myojou_0809",
+                  "start": 202,
+                  "url": "https://t.co/80kcAkapY5"
+                }
+              ]
+            },
+            "text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n          myojou Greeting Event\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：8/9（日）\n⟣place : TIME SHARING 新宿8A （東京都新宿区歌舞伎町1-1-15 東信同和ビル8F）\n⟣time : 16:00-18:00 浴衣\n⟣price： ¥0\n\n【受付期間】\n-8/9（日）17:30\n🔗 https://t.co/80kcAkapY5\n\n#myojou"
+          },
+          "text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n          myojou Greeting Event\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：8/9（日）\n⟣place : TIME SHARING 新宿8A （東京都新宿区歌舞伎町1-1-15 東信同和ビル8F）\n⟣time : 16:00-18:00 浴衣\n⟣price： ¥0\n\n【受付期間】 https://t.co/xRvznk0VPn",
+          "truncated_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n          myojou Greeting Event\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：8/9（日）\n⟣place : TIME SHARING 新宿8A （東京都新宿区歌舞伎町1-1-15 東信同和ビル8F）\n⟣time : 16:00-18:00 浴衣\n⟣price： ¥0\n\n【受付期間】 https://t.co/xRvznk0VPn"
+        },
+        "source_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n          myojou Greeting Event\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：8/9（日）\n⟣place : TIME SHARING 新宿8A （東京都新宿区歌舞伎町1-1-15 東信同和ビル8F）\n⟣time : 16:00-18:00 浴衣\n⟣price： ¥0\n\n【受付期間】\n-8/9（日）17:30\n🔗 https://t.co/80kcAkapY5\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2085274896268202138",
+        "start_time": null,
+        "ticket_application_deadline_at": "2026-08-09T17:30:00+09:00",
+        "ticket_application_start_at": null,
+        "ticket_sale_type": "無料",
+        "ticket_sales": [
+          {
+            "deadline_at": "2026-08-09T17:30:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 0,
+            "result_at": null,
+            "sale_type": "不明",
+            "source_post_id": "2085274896268202138",
+            "source_url": "https://x.com/info_myojou/status/2085274896268202138",
+            "start_at": null,
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "https://t-dv.com/myojou_0809",
+        "venue": "TIME SHARING 新宿8A (東京都新宿区歌舞伎町1-1-15 東信同和ビル8F)"
+      },
+      "raw": {
+        "api_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n          myojou Greeting Event\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：8/9（日）\n⟣place : TIME SHARING 新宿8A （東京都新宿区歌舞伎町1-1-15 東信同和ビル8F）\n⟣time : 16:00-18:00 浴衣\n⟣price： ¥0\n\n【受付期間】 https://t.co/xRvznk0VPn",
+        "attachments": {
+          "media_keys": [
+            "3_2085274730110844928"
+          ]
+        },
+        "created_at": "2026-08-06T08:00:52.000Z",
+        "edit_history_tweet_ids": [
+          "2085274742437609610",
+          "2085274896268202138"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/xRvznk0VPn",
+              "end": 210,
+              "expanded_url": "https://x.com/info_myojou/status/2085274896268202138/photo/1",
+              "media_key": "3_2085274730110844928",
+              "start": 187,
+              "url": "https://t.co/xRvznk0VPn"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n          myojou Greeting Event\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：8/9（日）\n⟣place : TIME SHARING 新宿8A （東京都新宿区歌舞伎町1-1-15 東信同和ビル8F）\n⟣time : 16:00-18:00 浴衣\n⟣price： ¥0\n\n【受付期間】\n-8/9（日）17:30\n🔗 https://t.co/80kcAkapY5\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2085274896268202138",
+        "media": [
+          {
+            "height": 3508,
+            "media_key": "3_2085274730110844928",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HPBiUZtbAAAvGro.jpg",
+            "width": 2480
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 234,
+                "start": 227,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "t-dv.com/myojou_0809",
+                "end": 225,
+                "expanded_url": "https://t-dv.com/myojou_0809",
+                "start": 202,
+                "url": "https://t.co/80kcAkapY5"
+              }
+            ]
+          },
+          "text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n          myojou Greeting Event\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：8/9（日）\n⟣place : TIME SHARING 新宿8A （東京都新宿区歌舞伎町1-1-15 東信同和ビル8F）\n⟣time : 16:00-18:00 浴衣\n⟣price： ¥0\n\n【受付期間】\n-8/9（日）17:30\n🔗 https://t.co/80kcAkapY5\n\n#myojou"
+        },
+        "text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n          myojou Greeting Event\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：8/9（日）\n⟣place : TIME SHARING 新宿8A （東京都新宿区歌舞伎町1-1-15 東信同和ビル8F）\n⟣time : 16:00-18:00 浴衣\n⟣price： ¥0\n\n【受付期間】 https://t.co/xRvznk0VPn",
+        "truncated_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n          myojou Greeting Event\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：8/9（日）\n⟣place : TIME SHARING 新宿8A （東京都新宿区歌舞伎町1-1-15 東信同和ビル8F）\n⟣time : 16:00-18:00 浴衣\n⟣price： ¥0\n\n【受付期間】 https://t.co/xRvznk0VPn"
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n          myojou Greeting Event\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：8/9（日）\n⟣place : TIME SHARING 新宿8A （東京都新宿区歌舞伎町1-1-15 東信同和ビル8F）\n⟣time : 16:00-18:00 浴衣\n⟣price： ¥0\n\n【受付期間】\n-8/9（日）17:30\n🔗 https://t.co/80kcAkapY5\n\n#myojou",
+      "truncated_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n          myojou Greeting Event\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n⟣date：8/9（日）\n⟣place : TIME SHARING 新宿8A （東京都新宿区歌舞伎町1-1-15 東信同和ビル8F）\n⟣time : 16:00-18:00 浴衣\n⟣price： ¥0\n\n【受付期間】 https://t.co/xRvznk0VPn",
+      "url": "https://x.com/info_myojou/status/2085274896268202138"
+    },
+    {
+      "api_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n      A Villa idol festival HOKKAIDO 2026\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n🎙14:15-14:40\n📸15:15-16:35\n\n⟣date：8/29（土）\n⟣place : 安平町ときわ公園\n⟣open/start：9:00/10:00（予定）\n⟣price：VIPチケット https://t.co/tnwlEfWTT7",
+      "attachments": {
+        "media_keys": [
+          "3_2085219980753436672"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "ticket_update"
+      },
+      "created_at": "2026-08-06T04:22:40+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/tnwlEfWTT7",
+            "end": 219,
+            "expanded_url": "https://x.com/info_myojou/status/2085219986310893840/photo/1",
+            "media_key": "3_2085219980753436672",
+            "start": 196,
+            "url": "https://t.co/tnwlEfWTT7"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2085219986310893840",
+      "media": [
+        {
+          "height": 1684,
+          "media_key": "3_2085219980753436672",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HPAwhkdbAAAa4KX.jpg",
+          "width": 1190
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 445,
+              "start": 438,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "l-tike.com/search/?lcd=12…",
+              "end": 344,
+              "expanded_url": "https://l-tike.com/search/?lcd=12016",
+              "start": 321,
+              "url": "https://t.co/9bAiXJPyyy"
+            },
+            {
+              "display_url": "t.pia.jp/pia/event/even…",
+              "end": 371,
+              "expanded_url": "https://t.pia.jp/pia/event/event.do?eventCd=2614434",
+              "start": 348,
+              "url": "https://t.co/iAbHJj4lkL"
+            },
+            {
+              "display_url": "eplus.jp/avilla_2026/",
+              "end": 401,
+              "expanded_url": "http://eplus.jp/avilla_2026/",
+              "start": 378,
+              "url": "https://t.co/wDRq71uRlU"
+            },
+            {
+              "display_url": "ticketdive.com/event/a_villa2…",
+              "end": 436,
+              "expanded_url": "https://ticketdive.com/event/a_villa2026",
+              "start": 413,
+              "url": "https://t.co/LvbhMZo9ie"
+            }
+          ]
+        },
+        "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n      A Villa idol festival HOKKAIDO 2026\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n🎙14:15-14:40\n📸15:15-16:35\n\n⟣date：8/29（土）\n⟣place : 安平町ときわ公園\n⟣open/start：9:00/10:00（予定）\n⟣price：VIPチケット ¥15,000（VIPエリア&Tシャツ付き）/Tシャツ付きチケット ¥6,000/無料チケット¥0 ※要予約（各+1D）\n⟣入場特典 : 明星カード1枚(サインありチェキ)\n\n【販売期間】\n6/9（火）20:00-8/20（木）23:59\nローチケ：https://t.co/9bAiXJPyyy\nぴあ：https://t.co/iAbHJj4lkL\nイープラス：https://t.co/wDRq71uRlU\n無料チケット※要予約：https://t.co/LvbhMZo9ie\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": "15:15-16:35",
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-08-29",
+        "event_dates": [
+          "2026-08-29"
+        ],
+        "event_name": "A Villa idol festival HOKKAIDO 2026",
+        "extraction_confidence": 0.95,
+        "general_ticket_price": null,
+        "lottery_result_at": null,
+        "myojou_performance_time": "14:15-14:40",
+        "notes": "要予約\nドリンク代: 各+1D\n⟣入場特典 : 明星カード1枚(サインありチェキ)",
+        "open_time": "09:00",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "VIPチケット",
+        "priority_ticket_price": 15000,
+        "same_day_ticket_price": null,
+        "source_kind": "ticket_update",
+        "source_post_id": "2085219986310893840",
+        "source_posted_at": "2026-08-06T04:22:40Z",
+        "source_raw": {
+          "api_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n      A Villa idol festival HOKKAIDO 2026\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n🎙14:15-14:40\n📸15:15-16:35\n\n⟣date：8/29（土）\n⟣place : 安平町ときわ公園\n⟣open/start：9:00/10:00（予定）\n⟣price：VIPチケット https://t.co/tnwlEfWTT7",
+          "attachments": {
+            "media_keys": [
+              "3_2085219980753436672"
+            ]
+          },
+          "created_at": "2026-08-06T04:22:40.000Z",
+          "edit_history_tweet_ids": [
+            "2085219986310893840"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/tnwlEfWTT7",
+                "end": 219,
+                "expanded_url": "https://x.com/info_myojou/status/2085219986310893840/photo/1",
+                "media_key": "3_2085219980753436672",
+                "start": 196,
+                "url": "https://t.co/tnwlEfWTT7"
+              }
+            ]
+          },
+          "full_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n      A Villa idol festival HOKKAIDO 2026\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n🎙14:15-14:40\n📸15:15-16:35\n\n⟣date：8/29（土）\n⟣place : 安平町ときわ公園\n⟣open/start：9:00/10:00（予定）\n⟣price：VIPチケット ¥15,000（VIPエリア&Tシャツ付き）/Tシャツ付きチケット ¥6,000/無料チケット¥0 ※要予約（各+1D）\n⟣入場特典 : 明星カード1枚(サインありチェキ)\n\n【販売期間】\n6/9（火）20:00-8/20（木）23:59\nローチケ：https://t.co/9bAiXJPyyy\nぴあ：https://t.co/iAbHJj4lkL\nイープラス：https://t.co/wDRq71uRlU\n無料チケット※要予約：https://t.co/LvbhMZo9ie\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2085219986310893840",
+          "media": [
+            {
+              "height": 1684,
+              "media_key": "3_2085219980753436672",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HPAwhkdbAAAa4KX.jpg",
+              "width": 1190
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 445,
+                  "start": 438,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "l-tike.com/search/?lcd=12…",
+                  "end": 344,
+                  "expanded_url": "https://l-tike.com/search/?lcd=12016",
+                  "start": 321,
+                  "url": "https://t.co/9bAiXJPyyy"
+                },
+                {
+                  "display_url": "t.pia.jp/pia/event/even…",
+                  "end": 371,
+                  "expanded_url": "https://t.pia.jp/pia/event/event.do?eventCd=2614434",
+                  "start": 348,
+                  "url": "https://t.co/iAbHJj4lkL"
+                },
+                {
+                  "display_url": "eplus.jp/avilla_2026/",
+                  "end": 401,
+                  "expanded_url": "http://eplus.jp/avilla_2026/",
+                  "start": 378,
+                  "url": "https://t.co/wDRq71uRlU"
+                },
+                {
+                  "display_url": "ticketdive.com/event/a_villa2…",
+                  "end": 436,
+                  "expanded_url": "https://ticketdive.com/event/a_villa2026",
+                  "start": 413,
+                  "url": "https://t.co/LvbhMZo9ie"
+                }
+              ]
+            },
+            "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n      A Villa idol festival HOKKAIDO 2026\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n🎙14:15-14:40\n📸15:15-16:35\n\n⟣date：8/29（土）\n⟣place : 安平町ときわ公園\n⟣open/start：9:00/10:00（予定）\n⟣price：VIPチケット ¥15,000（VIPエリア&Tシャツ付き）/Tシャツ付きチケット ¥6,000/無料チケット¥0 ※要予約（各+1D）\n⟣入場特典 : 明星カード1枚(サインありチェキ)\n\n【販売期間】\n6/9（火）20:00-8/20（木）23:59\nローチケ：https://t.co/9bAiXJPyyy\nぴあ：https://t.co/iAbHJj4lkL\nイープラス：https://t.co/wDRq71uRlU\n無料チケット※要予約：https://t.co/LvbhMZo9ie\n\n#myojou"
+          },
+          "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n      A Villa idol festival HOKKAIDO 2026\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n🎙14:15-14:40\n📸15:15-16:35\n\n⟣date：8/29（土）\n⟣place : 安平町ときわ公園\n⟣open/start：9:00/10:00（予定）\n⟣price：VIPチケット https://t.co/tnwlEfWTT7",
+          "truncated_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n      A Villa idol festival HOKKAIDO 2026\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n🎙14:15-14:40\n📸15:15-16:35\n\n⟣date：8/29（土）\n⟣place : 安平町ときわ公園\n⟣open/start：9:00/10:00（予定）\n⟣price：VIPチケット https://t.co/tnwlEfWTT7"
+        },
+        "source_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n      A Villa idol festival HOKKAIDO 2026\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n🎙14:15-14:40\n📸15:15-16:35\n\n⟣date：8/29（土）\n⟣place : 安平町ときわ公園\n⟣open/start：9:00/10:00（予定）\n⟣price：VIPチケット ¥15,000（VIPエリア&Tシャツ付き）/Tシャツ付きチケット ¥6,000/無料チケット¥0 ※要予約（各+1D）\n⟣入場特典 : 明星カード1枚(サインありチェキ)\n\n【販売期間】\n6/9（火）20:00-8/20（木）23:59\nローチケ：https://t.co/9bAiXJPyyy\nぴあ：https://t.co/iAbHJj4lkL\nイープラス：https://t.co/wDRq71uRlU\n無料チケット※要予約：https://t.co/LvbhMZo9ie\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2085219986310893840",
+        "start_time": "10:00",
+        "ticket_application_deadline_at": "2026-08-20T23:59:00+09:00",
+        "ticket_application_start_at": "2026-06-09T20:00:00+09:00",
+        "ticket_sale_type": "不明",
+        "ticket_sales": [
+          {
+            "deadline_at": "2026-08-20T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 15000,
+            "result_at": null,
+            "sale_type": "不明",
+            "source_post_id": "2085219986310893840",
+            "source_url": "https://x.com/info_myojou/status/2085219986310893840",
+            "start_at": "2026-06-09T20:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "VIPチケット",
+            "ticket_tier": "VIP"
+          },
+          {
+            "deadline_at": "2026-08-20T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 6000,
+            "result_at": null,
+            "sale_type": "不明",
+            "source_post_id": "2085219986310893840",
+            "source_url": "https://x.com/info_myojou/status/2085219986310893840",
+            "start_at": "2026-06-09T20:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "Tシャツ付きチケット",
+            "ticket_tier": "その他"
+          },
+          {
+            "deadline_at": "2026-08-20T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 0,
+            "result_at": null,
+            "sale_type": "不明",
+            "source_post_id": "2085219986310893840",
+            "source_url": "https://x.com/info_myojou/status/2085219986310893840",
+            "start_at": "2026-06-09T20:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "無料チケット",
+            "ticket_tier": "その他"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "https://l-tike.com/search/?lcd=12016",
+        "venue": "安平町ときわ公園"
+      },
+      "raw": {
+        "api_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n      A Villa idol festival HOKKAIDO 2026\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n🎙14:15-14:40\n📸15:15-16:35\n\n⟣date：8/29（土）\n⟣place : 安平町ときわ公園\n⟣open/start：9:00/10:00（予定）\n⟣price：VIPチケット https://t.co/tnwlEfWTT7",
+        "attachments": {
+          "media_keys": [
+            "3_2085219980753436672"
+          ]
+        },
+        "created_at": "2026-08-06T04:22:40.000Z",
+        "edit_history_tweet_ids": [
+          "2085219986310893840"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/tnwlEfWTT7",
+              "end": 219,
+              "expanded_url": "https://x.com/info_myojou/status/2085219986310893840/photo/1",
+              "media_key": "3_2085219980753436672",
+              "start": 196,
+              "url": "https://t.co/tnwlEfWTT7"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n      A Villa idol festival HOKKAIDO 2026\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n🎙14:15-14:40\n📸15:15-16:35\n\n⟣date：8/29（土）\n⟣place : 安平町ときわ公園\n⟣open/start：9:00/10:00（予定）\n⟣price：VIPチケット ¥15,000（VIPエリア&Tシャツ付き）/Tシャツ付きチケット ¥6,000/無料チケット¥0 ※要予約（各+1D）\n⟣入場特典 : 明星カード1枚(サインありチェキ)\n\n【販売期間】\n6/9（火）20:00-8/20（木）23:59\nローチケ：https://t.co/9bAiXJPyyy\nぴあ：https://t.co/iAbHJj4lkL\nイープラス：https://t.co/wDRq71uRlU\n無料チケット※要予約：https://t.co/LvbhMZo9ie\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2085219986310893840",
+        "media": [
+          {
+            "height": 1684,
+            "media_key": "3_2085219980753436672",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HPAwhkdbAAAa4KX.jpg",
+            "width": 1190
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 445,
+                "start": 438,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "l-tike.com/search/?lcd=12…",
+                "end": 344,
+                "expanded_url": "https://l-tike.com/search/?lcd=12016",
+                "start": 321,
+                "url": "https://t.co/9bAiXJPyyy"
+              },
+              {
+                "display_url": "t.pia.jp/pia/event/even…",
+                "end": 371,
+                "expanded_url": "https://t.pia.jp/pia/event/event.do?eventCd=2614434",
+                "start": 348,
+                "url": "https://t.co/iAbHJj4lkL"
+              },
+              {
+                "display_url": "eplus.jp/avilla_2026/",
+                "end": 401,
+                "expanded_url": "http://eplus.jp/avilla_2026/",
+                "start": 378,
+                "url": "https://t.co/wDRq71uRlU"
+              },
+              {
+                "display_url": "ticketdive.com/event/a_villa2…",
+                "end": 436,
+                "expanded_url": "https://ticketdive.com/event/a_villa2026",
+                "start": 413,
+                "url": "https://t.co/LvbhMZo9ie"
+              }
+            ]
+          },
+          "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n      A Villa idol festival HOKKAIDO 2026\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n🎙14:15-14:40\n📸15:15-16:35\n\n⟣date：8/29（土）\n⟣place : 安平町ときわ公園\n⟣open/start：9:00/10:00（予定）\n⟣price：VIPチケット ¥15,000（VIPエリア&Tシャツ付き）/Tシャツ付きチケット ¥6,000/無料チケット¥0 ※要予約（各+1D）\n⟣入場特典 : 明星カード1枚(サインありチェキ)\n\n【販売期間】\n6/9（火）20:00-8/20（木）23:59\nローチケ：https://t.co/9bAiXJPyyy\nぴあ：https://t.co/iAbHJj4lkL\nイープラス：https://t.co/wDRq71uRlU\n無料チケット※要予約：https://t.co/LvbhMZo9ie\n\n#myojou"
+        },
+        "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n      A Villa idol festival HOKKAIDO 2026\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n🎙14:15-14:40\n📸15:15-16:35\n\n⟣date：8/29（土）\n⟣place : 安平町ときわ公園\n⟣open/start：9:00/10:00（予定）\n⟣price：VIPチケット https://t.co/tnwlEfWTT7",
+        "truncated_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n      A Villa idol festival HOKKAIDO 2026\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n🎙14:15-14:40\n📸15:15-16:35\n\n⟣date：8/29（土）\n⟣place : 安平町ときわ公園\n⟣open/start：9:00/10:00（予定）\n⟣price：VIPチケット https://t.co/tnwlEfWTT7"
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n      A Villa idol festival HOKKAIDO 2026\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n🎙14:15-14:40\n📸15:15-16:35\n\n⟣date：8/29（土）\n⟣place : 安平町ときわ公園\n⟣open/start：9:00/10:00（予定）\n⟣price：VIPチケット ¥15,000（VIPエリア&Tシャツ付き）/Tシャツ付きチケット ¥6,000/無料チケット¥0 ※要予約（各+1D）\n⟣入場特典 : 明星カード1枚(サインありチェキ)\n\n【販売期間】\n6/9（火）20:00-8/20（木）23:59\nローチケ：https://t.co/9bAiXJPyyy\nぴあ：https://t.co/iAbHJj4lkL\nイープラス：https://t.co/wDRq71uRlU\n無料チケット※要予約：https://t.co/LvbhMZo9ie\n\n#myojou",
+      "truncated_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n      A Villa idol festival HOKKAIDO 2026\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n🎙14:15-14:40\n📸15:15-16:35\n\n⟣date：8/29（土）\n⟣place : 安平町ときわ公園\n⟣open/start：9:00/10:00（予定）\n⟣price：VIPチケット https://t.co/tnwlEfWTT7",
+      "url": "https://x.com/info_myojou/status/2085219986310893840"
+    },
+    {
+      "api_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「PLAYYTE Premium Party」\n\n🎙17:30-18:00\n📸終演後特典会\n\n⟣date：8/6（木）\n⟣place :ステラボール\n⟣open/start：16:15/17:00\n⟣price：VIP¥7,000 / 一般¥0 (1D事前徴収)\n\n【一般先行販売】\n7/13（月）21:00-8/6（木）21:15\n【VIP先行販売】 https://t.co/O9XOAZdUxG",
+      "attachments": {
+        "media_keys": [
+          "3_2085194349181362176"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "same_day_reminder"
+      },
+      "created_at": "2026-08-06T02:40:50+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/O9XOAZdUxG",
+            "end": 223,
+            "expanded_url": "https://x.com/info_myojou/status/2085194356403912855/photo/1",
+            "media_key": "3_2085194349181362176",
+            "start": 200,
+            "url": "https://t.co/O9XOAZdUxG"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2085194356403912855",
+      "media": [
+        {
+          "height": 3508,
+          "media_key": "3_2085194349181362176",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HPAZNnabYAA0wMi.jpg",
+          "width": 2481
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 259,
+              "start": 252,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "t-dv.com/PPP_0806",
+              "end": 250,
+              "expanded_url": "http://t-dv.com/PPP_0806",
+              "start": 227,
+              "url": "https://t.co/KELwsp18RF"
+            }
+          ]
+        },
+        "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「PLAYYTE Premium Party」\n\n🎙17:30-18:00\n📸終演後特典会\n\n⟣date：8/6（木）\n⟣place :ステラボール\n⟣open/start：16:15/17:00\n⟣price：VIP¥7,000 / 一般¥0 (1D事前徴収)\n\n【一般先行販売】\n7/13（月）21:00-8/6（木）21:15\n【VIP先行販売】\n7/28（火）21:00-8/6（木）21:15\n🔗 https://t.co/KELwsp18RF\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": null,
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-08-06",
+        "event_dates": [
+          "2026-08-06"
+        ],
+        "event_name": "PLAYYTE Premium Party",
+        "extraction_confidence": 0.95,
+        "general_ticket_price": 0,
+        "lottery_result_at": null,
+        "myojou_performance_time": "17:30-18:00",
+        "notes": "ドリンク代: +1D",
+        "open_time": "16:15",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "VIP",
+        "priority_ticket_price": 7000,
+        "same_day_ticket_price": null,
+        "source_kind": "same_day_reminder",
+        "source_post_id": "2085194356403912855",
+        "source_posted_at": "2026-08-06T02:40:50Z",
+        "source_raw": {
+          "api_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「PLAYYTE Premium Party」\n\n🎙17:30-18:00\n📸終演後特典会\n\n⟣date：8/6（木）\n⟣place :ステラボール\n⟣open/start：16:15/17:00\n⟣price：VIP¥7,000 / 一般¥0 (1D事前徴収)\n\n【一般先行販売】\n7/13（月）21:00-8/6（木）21:15\n【VIP先行販売】 https://t.co/O9XOAZdUxG",
+          "attachments": {
+            "media_keys": [
+              "3_2085194349181362176"
+            ]
+          },
+          "created_at": "2026-08-06T02:40:50.000Z",
+          "edit_history_tweet_ids": [
+            "2085194356403912855"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/O9XOAZdUxG",
+                "end": 223,
+                "expanded_url": "https://x.com/info_myojou/status/2085194356403912855/photo/1",
+                "media_key": "3_2085194349181362176",
+                "start": 200,
+                "url": "https://t.co/O9XOAZdUxG"
+              }
+            ]
+          },
+          "full_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「PLAYYTE Premium Party」\n\n🎙17:30-18:00\n📸終演後特典会\n\n⟣date：8/6（木）\n⟣place :ステラボール\n⟣open/start：16:15/17:00\n⟣price：VIP¥7,000 / 一般¥0 (1D事前徴収)\n\n【一般先行販売】\n7/13（月）21:00-8/6（木）21:15\n【VIP先行販売】\n7/28（火）21:00-8/6（木）21:15\n🔗 https://t.co/KELwsp18RF\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2085194356403912855",
+          "media": [
+            {
+              "height": 3508,
+              "media_key": "3_2085194349181362176",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HPAZNnabYAA0wMi.jpg",
+              "width": 2481
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 259,
+                  "start": 252,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "t-dv.com/PPP_0806",
+                  "end": 250,
+                  "expanded_url": "http://t-dv.com/PPP_0806",
+                  "start": 227,
+                  "url": "https://t.co/KELwsp18RF"
+                }
+              ]
+            },
+            "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「PLAYYTE Premium Party」\n\n🎙17:30-18:00\n📸終演後特典会\n\n⟣date：8/6（木）\n⟣place :ステラボール\n⟣open/start：16:15/17:00\n⟣price：VIP¥7,000 / 一般¥0 (1D事前徴収)\n\n【一般先行販売】\n7/13（月）21:00-8/6（木）21:15\n【VIP先行販売】\n7/28（火）21:00-8/6（木）21:15\n🔗 https://t.co/KELwsp18RF\n\n#myojou"
+          },
+          "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「PLAYYTE Premium Party」\n\n🎙17:30-18:00\n📸終演後特典会\n\n⟣date：8/6（木）\n⟣place :ステラボール\n⟣open/start：16:15/17:00\n⟣price：VIP¥7,000 / 一般¥0 (1D事前徴収)\n\n【一般先行販売】\n7/13（月）21:00-8/6（木）21:15\n【VIP先行販売】 https://t.co/O9XOAZdUxG",
+          "truncated_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「PLAYYTE Premium Party」\n\n🎙17:30-18:00\n📸終演後特典会\n\n⟣date：8/6（木）\n⟣place :ステラボール\n⟣open/start：16:15/17:00\n⟣price：VIP¥7,000 / 一般¥0 (1D事前徴収)\n\n【一般先行販売】\n7/13（月）21:00-8/6（木）21:15\n【VIP先行販売】 https://t.co/O9XOAZdUxG"
+        },
+        "source_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「PLAYYTE Premium Party」\n\n🎙17:30-18:00\n📸終演後特典会\n\n⟣date：8/6（木）\n⟣place :ステラボール\n⟣open/start：16:15/17:00\n⟣price：VIP¥7,000 / 一般¥0 (1D事前徴収)\n\n【一般先行販売】\n7/13（月）21:00-8/6（木）21:15\n【VIP先行販売】\n7/28（火）21:00-8/6（木）21:15\n🔗 https://t.co/KELwsp18RF\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2085194356403912855",
+        "start_time": "17:00",
+        "ticket_application_deadline_at": null,
+        "ticket_application_start_at": null,
+        "ticket_sale_type": "無料",
+        "ticket_sales": [
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 7000,
+            "result_at": null,
+            "sale_type": "無料",
+            "source_post_id": "2085194356403912855",
+            "source_url": "https://x.com/info_myojou/status/2085194356403912855",
+            "start_at": null,
+            "status": "不明",
+            "ticket_name": "VIP",
+            "ticket_tier": "VIP"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 0,
+            "result_at": null,
+            "sale_type": "無料",
+            "source_post_id": "2085194356403912855",
+            "source_url": "https://x.com/info_myojou/status/2085194356403912855",
+            "start_at": null,
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "http://t-dv.com/PPP_0806",
+        "venue": "ステラボール"
+      },
+      "raw": {
+        "api_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「PLAYYTE Premium Party」\n\n🎙17:30-18:00\n📸終演後特典会\n\n⟣date：8/6（木）\n⟣place :ステラボール\n⟣open/start：16:15/17:00\n⟣price：VIP¥7,000 / 一般¥0 (1D事前徴収)\n\n【一般先行販売】\n7/13（月）21:00-8/6（木）21:15\n【VIP先行販売】 https://t.co/O9XOAZdUxG",
+        "attachments": {
+          "media_keys": [
+            "3_2085194349181362176"
+          ]
+        },
+        "created_at": "2026-08-06T02:40:50.000Z",
+        "edit_history_tweet_ids": [
+          "2085194356403912855"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/O9XOAZdUxG",
+              "end": 223,
+              "expanded_url": "https://x.com/info_myojou/status/2085194356403912855/photo/1",
+              "media_key": "3_2085194349181362176",
+              "start": 200,
+              "url": "https://t.co/O9XOAZdUxG"
+            }
+          ]
+        },
+        "full_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「PLAYYTE Premium Party」\n\n🎙17:30-18:00\n📸終演後特典会\n\n⟣date：8/6（木）\n⟣place :ステラボール\n⟣open/start：16:15/17:00\n⟣price：VIP¥7,000 / 一般¥0 (1D事前徴収)\n\n【一般先行販売】\n7/13（月）21:00-8/6（木）21:15\n【VIP先行販売】\n7/28（火）21:00-8/6（木）21:15\n🔗 https://t.co/KELwsp18RF\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2085194356403912855",
+        "media": [
+          {
+            "height": 3508,
+            "media_key": "3_2085194349181362176",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HPAZNnabYAA0wMi.jpg",
+            "width": 2481
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 259,
+                "start": 252,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "t-dv.com/PPP_0806",
+                "end": 250,
+                "expanded_url": "http://t-dv.com/PPP_0806",
+                "start": 227,
+                "url": "https://t.co/KELwsp18RF"
+              }
+            ]
+          },
+          "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「PLAYYTE Premium Party」\n\n🎙17:30-18:00\n📸終演後特典会\n\n⟣date：8/6（木）\n⟣place :ステラボール\n⟣open/start：16:15/17:00\n⟣price：VIP¥7,000 / 一般¥0 (1D事前徴収)\n\n【一般先行販売】\n7/13（月）21:00-8/6（木）21:15\n【VIP先行販売】\n7/28（火）21:00-8/6（木）21:15\n🔗 https://t.co/KELwsp18RF\n\n#myojou"
+        },
+        "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「PLAYYTE Premium Party」\n\n🎙17:30-18:00\n📸終演後特典会\n\n⟣date：8/6（木）\n⟣place :ステラボール\n⟣open/start：16:15/17:00\n⟣price：VIP¥7,000 / 一般¥0 (1D事前徴収)\n\n【一般先行販売】\n7/13（月）21:00-8/6（木）21:15\n【VIP先行販売】 https://t.co/O9XOAZdUxG",
+        "truncated_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「PLAYYTE Premium Party」\n\n🎙17:30-18:00\n📸終演後特典会\n\n⟣date：8/6（木）\n⟣place :ステラボール\n⟣open/start：16:15/17:00\n⟣price：VIP¥7,000 / 一般¥0 (1D事前徴収)\n\n【一般先行販売】\n7/13（月）21:00-8/6（木）21:15\n【VIP先行販売】 https://t.co/O9XOAZdUxG"
+      },
+      "referenced_tweets": [],
+      "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「PLAYYTE Premium Party」\n\n🎙17:30-18:00\n📸終演後特典会\n\n⟣date：8/6（木）\n⟣place :ステラボール\n⟣open/start：16:15/17:00\n⟣price：VIP¥7,000 / 一般¥0 (1D事前徴収)\n\n【一般先行販売】\n7/13（月）21:00-8/6（木）21:15\n【VIP先行販売】\n7/28（火）21:00-8/6（木）21:15\n🔗 https://t.co/KELwsp18RF\n\n#myojou",
+      "truncated_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「PLAYYTE Premium Party」\n\n🎙17:30-18:00\n📸終演後特典会\n\n⟣date：8/6（木）\n⟣place :ステラボール\n⟣open/start：16:15/17:00\n⟣price：VIP¥7,000 / 一般¥0 (1D事前徴収)\n\n【一般先行販売】\n7/13（月）21:00-8/6（木）21:15\n【VIP先行販売】 https://t.co/O9XOAZdUxG",
+      "url": "https://x.com/info_myojou/status/2085194356403912855"
+    },
+    {
       "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「PLAYYTE Premium Party」\n\n🎙17:30-18:00\n📸終演後特典会\n\n⟣date：8/6（木）\n⟣place :ステラボール\n⟣open/start：16:15/17:00\n⟣price：VIP¥7,000 / 一般¥0 (1D事前徴収)\n\n【一般先行販売】\n7/13（月）21:00-8/6（木）21:15\n【VIP先行販売】 https://t.co/khIkdNoraq",
       "attachments": {
         "media_keys": [
@@ -143916,7 +145413,7 @@
     "backfill": true,
     "dry_run": true,
     "estimated_x_post_reads": 411,
-    "latest_post_id": "2084988039026143542",
+    "latest_post_id": "2085360399235625402",
     "max_pages": 10,
     "max_posts": 500,
     "max_results": 5,
@@ -143959,16 +145456,16 @@
       }
     ],
     "pages_fetched": 5,
-    "posts_fetched": 667,
+    "posts_fetched": 673,
     "rate_limit_headers": {
       "x-rate-limit-limit": "10000",
       "x-rate-limit-remaining": "9993",
       "x-rate-limit-reset": "1781108896"
     },
-    "total_posts": 667,
-    "updated_at": "2026-08-05T20:34:46.982404+00:00",
+    "total_posts": 673,
+    "updated_at": "2026-08-07T00:42:26.217940+00:00",
     "username": "info_myojou"
   },
   "source": "x_api",
-  "updated_at": "2026-08-05T20:34:46.982404+00:00"
+  "updated_at": "2026-08-07T00:42:26.217940+00:00"
 }
