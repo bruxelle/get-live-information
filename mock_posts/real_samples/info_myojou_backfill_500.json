@@ -2,6 +2,1451 @@
   "captured_at": "2026-06-10T16:19:36.141820+00:00",
   "data": [
     {
+      "api_text": "▶️LIVE DIGEST\nIDOL SUMMER JUNGLE 2026\n「軌跡まで」\n\n#myojou https://t.co/apbQlWhc3v",
+      "attachments": {
+        "media_keys": [
+          "13_2085719273742520320"
+        ]
+      },
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "live digest recap",
+        "source_kind": "other"
+      },
+      "created_at": "2026-08-07T13:29:09+00:00",
+      "entities": {
+        "hashtags": [
+          {
+            "end": 53,
+            "start": 46,
+            "tag": "myojou"
+          }
+        ],
+        "urls": [
+          {
+            "display_url": "pic.x.com/apbQlWhc3v",
+            "end": 77,
+            "expanded_url": "https://x.com/info_myojou/status/2085719897632596191/video/1",
+            "media_key": "13_2085719273742520320",
+            "start": 54,
+            "url": "https://t.co/apbQlWhc3v"
+          }
+        ]
+      },
+      "full_text_source": "text",
+      "id": "2085719897632596191",
+      "media": [
+        {
+          "height": 2160,
+          "media_key": "13_2085719273742520320",
+          "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2085719273742520320/img/umrZ4dkwNAio6r7-.jpg",
+          "type": "video",
+          "width": 3840
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "note_tweet": null,
+      "parsed_fields": null,
+      "raw": {
+        "api_text": "▶️LIVE DIGEST\nIDOL SUMMER JUNGLE 2026\n「軌跡まで」\n\n#myojou https://t.co/apbQlWhc3v",
+        "attachments": {
+          "media_keys": [
+            "13_2085719273742520320"
+          ]
+        },
+        "created_at": "2026-08-07T13:29:09.000Z",
+        "edit_history_tweet_ids": [
+          "2085719897632596191"
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "end": 53,
+              "start": 46,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "pic.x.com/apbQlWhc3v",
+              "end": 77,
+              "expanded_url": "https://x.com/info_myojou/status/2085719897632596191/video/1",
+              "media_key": "13_2085719273742520320",
+              "start": 54,
+              "url": "https://t.co/apbQlWhc3v"
+            }
+          ]
+        },
+        "full_text": "▶️LIVE DIGEST\nIDOL SUMMER JUNGLE 2026\n「軌跡まで」\n\n#myojou https://t.co/apbQlWhc3v",
+        "full_text_source": "text",
+        "id": "2085719897632596191",
+        "media": [
+          {
+            "height": 2160,
+            "media_key": "13_2085719273742520320",
+            "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2085719273742520320/img/umrZ4dkwNAio6r7-.jpg",
+            "type": "video",
+            "width": 3840
+          }
+        ],
+        "text": "▶️LIVE DIGEST\nIDOL SUMMER JUNGLE 2026\n「軌跡まで」\n\n#myojou https://t.co/apbQlWhc3v",
+        "truncated_text": null
+      },
+      "referenced_tweets": [],
+      "text": "▶️LIVE DIGEST\nIDOL SUMMER JUNGLE 2026\n「軌跡まで」\n\n#myojou https://t.co/apbQlWhc3v",
+      "truncated_text": null,
+      "url": "https://x.com/info_myojou/status/2085719897632596191"
+    },
+    {
+      "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「IDOL SUMMER JUNGLE 2026 Day2」\n\n📍MONKEY STAGE\n🎙14:15-14:35\n📸14:55-15:55（5）\n🏮17:55-19:05（6）\n\n⟣date：8/8（土）\n⟣place : お台場R地区\n⟣open/start：9:00/10:00\n⟣price：VIPチケット¥28,000/一般チケット¥5,000/女性チケット¥4,000（各+1D） https://t.co/s0jFatWrsv",
+      "attachments": {
+        "media_keys": [
+          "3_2085708288784818176",
+          "3_2085708288822579200",
+          "3_2085708288822538240"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "day_before_reminder"
+      },
+      "created_at": "2026-08-07T12:43:06+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/s0jFatWrsv",
+            "end": 244,
+            "expanded_url": "https://x.com/info_myojou/status/2085708308992983211/photo/1",
+            "media_key": "3_2085708288784818176",
+            "start": 221,
+            "url": "https://t.co/s0jFatWrsv"
+          },
+          {
+            "display_url": "pic.x.com/s0jFatWrsv",
+            "end": 244,
+            "expanded_url": "https://x.com/info_myojou/status/2085708308992983211/photo/1",
+            "media_key": "3_2085708288822579200",
+            "start": 221,
+            "url": "https://t.co/s0jFatWrsv"
+          },
+          {
+            "display_url": "pic.x.com/s0jFatWrsv",
+            "end": 244,
+            "expanded_url": "https://x.com/info_myojou/status/2085708308992983211/photo/1",
+            "media_key": "3_2085708288822538240",
+            "start": 221,
+            "url": "https://t.co/s0jFatWrsv"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2085708308992983211",
+      "media": [
+        {
+          "height": 4042,
+          "media_key": "3_2085708288784818176",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HPHso1obYAAayX3.jpg",
+          "width": 2890
+        },
+        {
+          "height": 2480,
+          "media_key": "3_2085708288822579200",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HPHso1xbkAAc8R5.jpg",
+          "width": 3508
+        },
+        {
+          "height": 2480,
+          "media_key": "3_2085708288822538240",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HPHso1xa8AA-lq6.jpg",
+          "width": 3508
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 407,
+              "start": 400,
+              "tag": "myojou"
+            },
+            {
+              "end": 418,
+              "start": 408,
+              "tag": "ミョージョーサマー"
+            },
+            {
+              "end": 429,
+              "start": 419,
+              "tag": "サマジャン2026"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "ticketdive.com/event/idolsumm…",
+              "end": 398,
+              "expanded_url": "https://ticketdive.com/event/idolsummerjungle2026",
+              "start": 375,
+              "url": "https://t.co/vGPzCwXlpR"
+            }
+          ]
+        },
+        "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「IDOL SUMMER JUNGLE 2026 Day2」\n\n📍MONKEY STAGE\n🎙14:15-14:35\n📸14:55-15:55（5）\n🏮17:55-19:05（6）\n\n⟣date：8/8（土）\n⟣place : お台場R地区\n⟣open/start：9:00/10:00\n⟣price：VIPチケット¥28,000/一般チケット¥5,000/女性チケット¥4,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n※入場時に配布される共通入場特典は、物販卓にて引き換えを行わずにご使用頂けます。撮影希望メンバーの列にそのままお並びください。\n\n･VIPチケット\n【一般販売】\n7/6（月）18:00-\n･一般チケット,女性チケット\n【一般販売】\n6/9（火）18:00-\n\n🔗 https://t.co/vGPzCwXlpR\n\n#myojou\n#ミョージョーサマー\n#サマジャン2026"
+      },
+      "parsed_fields": {
+        "benefit_event_time": "14:55-15:55",
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-08-08",
+        "event_dates": [
+          "2026-08-08"
+        ],
+        "event_name": "IDOL SUMMER JUNGLE 2026 Day2",
+        "extraction_confidence": 0.95,
+        "general_ticket_price": 5000,
+        "lottery_result_at": null,
+        "myojou_performance_time": "14:15-14:35",
+        "notes": "ドリンク代: 各+1D\n⟣入場特典:明星カード(サインありチェキ)\n※入場時に配布される共通入場特典は、物販卓にて引き換えを行わずにご使用頂けます。撮影希望メンバーの列にそのままお並びください。",
+        "open_time": "09:00",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "VIPチケット",
+        "priority_ticket_price": 28000,
+        "same_day_ticket_price": null,
+        "source_kind": "day_before_reminder",
+        "source_post_id": "2085708308992983211",
+        "source_posted_at": "2026-08-07T12:43:06Z",
+        "source_raw": {
+          "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「IDOL SUMMER JUNGLE 2026 Day2」\n\n📍MONKEY STAGE\n🎙14:15-14:35\n📸14:55-15:55（5）\n🏮17:55-19:05（6）\n\n⟣date：8/8（土）\n⟣place : お台場R地区\n⟣open/start：9:00/10:00\n⟣price：VIPチケット¥28,000/一般チケット¥5,000/女性チケット¥4,000（各+1D） https://t.co/s0jFatWrsv",
+          "attachments": {
+            "media_keys": [
+              "3_2085708288784818176",
+              "3_2085708288822579200",
+              "3_2085708288822538240"
+            ]
+          },
+          "created_at": "2026-08-07T12:43:06.000Z",
+          "edit_history_tweet_ids": [
+            "2085708308992983211"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/s0jFatWrsv",
+                "end": 244,
+                "expanded_url": "https://x.com/info_myojou/status/2085708308992983211/photo/1",
+                "media_key": "3_2085708288784818176",
+                "start": 221,
+                "url": "https://t.co/s0jFatWrsv"
+              },
+              {
+                "display_url": "pic.x.com/s0jFatWrsv",
+                "end": 244,
+                "expanded_url": "https://x.com/info_myojou/status/2085708308992983211/photo/1",
+                "media_key": "3_2085708288822579200",
+                "start": 221,
+                "url": "https://t.co/s0jFatWrsv"
+              },
+              {
+                "display_url": "pic.x.com/s0jFatWrsv",
+                "end": 244,
+                "expanded_url": "https://x.com/info_myojou/status/2085708308992983211/photo/1",
+                "media_key": "3_2085708288822538240",
+                "start": 221,
+                "url": "https://t.co/s0jFatWrsv"
+              }
+            ]
+          },
+          "full_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「IDOL SUMMER JUNGLE 2026 Day2」\n\n📍MONKEY STAGE\n🎙14:15-14:35\n📸14:55-15:55（5）\n🏮17:55-19:05（6）\n\n⟣date：8/8（土）\n⟣place : お台場R地区\n⟣open/start：9:00/10:00\n⟣price：VIPチケット¥28,000/一般チケット¥5,000/女性チケット¥4,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n※入場時に配布される共通入場特典は、物販卓にて引き換えを行わずにご使用頂けます。撮影希望メンバーの列にそのままお並びください。\n\n･VIPチケット\n【一般販売】\n7/6（月）18:00-\n･一般チケット,女性チケット\n【一般販売】\n6/9（火）18:00-\n\n🔗 https://t.co/vGPzCwXlpR\n\n#myojou\n#ミョージョーサマー\n#サマジャン2026",
+          "full_text_source": "note_tweet",
+          "id": "2085708308992983211",
+          "media": [
+            {
+              "height": 4042,
+              "media_key": "3_2085708288784818176",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HPHso1obYAAayX3.jpg",
+              "width": 2890
+            },
+            {
+              "height": 2480,
+              "media_key": "3_2085708288822579200",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HPHso1xbkAAc8R5.jpg",
+              "width": 3508
+            },
+            {
+              "height": 2480,
+              "media_key": "3_2085708288822538240",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HPHso1xa8AA-lq6.jpg",
+              "width": 3508
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 407,
+                  "start": 400,
+                  "tag": "myojou"
+                },
+                {
+                  "end": 418,
+                  "start": 408,
+                  "tag": "ミョージョーサマー"
+                },
+                {
+                  "end": 429,
+                  "start": 419,
+                  "tag": "サマジャン2026"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "ticketdive.com/event/idolsumm…",
+                  "end": 398,
+                  "expanded_url": "https://ticketdive.com/event/idolsummerjungle2026",
+                  "start": 375,
+                  "url": "https://t.co/vGPzCwXlpR"
+                }
+              ]
+            },
+            "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「IDOL SUMMER JUNGLE 2026 Day2」\n\n📍MONKEY STAGE\n🎙14:15-14:35\n📸14:55-15:55（5）\n🏮17:55-19:05（6）\n\n⟣date：8/8（土）\n⟣place : お台場R地区\n⟣open/start：9:00/10:00\n⟣price：VIPチケット¥28,000/一般チケット¥5,000/女性チケット¥4,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n※入場時に配布される共通入場特典は、物販卓にて引き換えを行わずにご使用頂けます。撮影希望メンバーの列にそのままお並びください。\n\n･VIPチケット\n【一般販売】\n7/6（月）18:00-\n･一般チケット,女性チケット\n【一般販売】\n6/9（火）18:00-\n\n🔗 https://t.co/vGPzCwXlpR\n\n#myojou\n#ミョージョーサマー\n#サマジャン2026"
+          },
+          "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「IDOL SUMMER JUNGLE 2026 Day2」\n\n📍MONKEY STAGE\n🎙14:15-14:35\n📸14:55-15:55（5）\n🏮17:55-19:05（6）\n\n⟣date：8/8（土）\n⟣place : お台場R地区\n⟣open/start：9:00/10:00\n⟣price：VIPチケット¥28,000/一般チケット¥5,000/女性チケット¥4,000（各+1D） https://t.co/s0jFatWrsv",
+          "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「IDOL SUMMER JUNGLE 2026 Day2」\n\n📍MONKEY STAGE\n🎙14:15-14:35\n📸14:55-15:55（5）\n🏮17:55-19:05（6）\n\n⟣date：8/8（土）\n⟣place : お台場R地区\n⟣open/start：9:00/10:00\n⟣price：VIPチケット¥28,000/一般チケット¥5,000/女性チケット¥4,000（各+1D） https://t.co/s0jFatWrsv"
+        },
+        "source_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「IDOL SUMMER JUNGLE 2026 Day2」\n\n📍MONKEY STAGE\n🎙14:15-14:35\n📸14:55-15:55（5）\n🏮17:55-19:05（6）\n\n⟣date：8/8（土）\n⟣place : お台場R地区\n⟣open/start：9:00/10:00\n⟣price：VIPチケット¥28,000/一般チケット¥5,000/女性チケット¥4,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n※入場時に配布される共通入場特典は、物販卓にて引き換えを行わずにご使用頂けます。撮影希望メンバーの列にそのままお並びください。\n\n･VIPチケット\n【一般販売】\n7/6（月）18:00-\n･一般チケット,女性チケット\n【一般販売】\n6/9（火）18:00-\n\n🔗 https://t.co/vGPzCwXlpR\n\n#myojou\n#ミョージョーサマー\n#サマジャン2026",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2085708308992983211",
+        "start_time": "10:00",
+        "ticket_application_deadline_at": null,
+        "ticket_application_start_at": "2026-06-09T18:00:00+09:00",
+        "ticket_sale_type": "一般",
+        "ticket_sales": [
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 28000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2085708308992983211",
+            "source_url": "https://x.com/info_myojou/status/2085708308992983211",
+            "start_at": "2026-07-06T18:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "VIPチケット",
+            "ticket_tier": "VIP"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 5000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2085708308992983211",
+            "source_url": "https://x.com/info_myojou/status/2085708308992983211",
+            "start_at": "2026-07-06T18:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般チケット",
+            "ticket_tier": "一般"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 28000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2085708308992983211",
+            "source_url": "https://x.com/info_myojou/status/2085708308992983211",
+            "start_at": "2026-06-09T18:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "VIPチケット",
+            "ticket_tier": "VIP"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 5000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2085708308992983211",
+            "source_url": "https://x.com/info_myojou/status/2085708308992983211",
+            "start_at": "2026-06-09T18:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般チケット",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "https://ticketdive.com/event/idolsummerjungle2026",
+        "venue": "お台場R地区"
+      },
+      "raw": {
+        "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「IDOL SUMMER JUNGLE 2026 Day2」\n\n📍MONKEY STAGE\n🎙14:15-14:35\n📸14:55-15:55（5）\n🏮17:55-19:05（6）\n\n⟣date：8/8（土）\n⟣place : お台場R地区\n⟣open/start：9:00/10:00\n⟣price：VIPチケット¥28,000/一般チケット¥5,000/女性チケット¥4,000（各+1D） https://t.co/s0jFatWrsv",
+        "attachments": {
+          "media_keys": [
+            "3_2085708288784818176",
+            "3_2085708288822579200",
+            "3_2085708288822538240"
+          ]
+        },
+        "created_at": "2026-08-07T12:43:06.000Z",
+        "edit_history_tweet_ids": [
+          "2085708308992983211"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/s0jFatWrsv",
+              "end": 244,
+              "expanded_url": "https://x.com/info_myojou/status/2085708308992983211/photo/1",
+              "media_key": "3_2085708288784818176",
+              "start": 221,
+              "url": "https://t.co/s0jFatWrsv"
+            },
+            {
+              "display_url": "pic.x.com/s0jFatWrsv",
+              "end": 244,
+              "expanded_url": "https://x.com/info_myojou/status/2085708308992983211/photo/1",
+              "media_key": "3_2085708288822579200",
+              "start": 221,
+              "url": "https://t.co/s0jFatWrsv"
+            },
+            {
+              "display_url": "pic.x.com/s0jFatWrsv",
+              "end": 244,
+              "expanded_url": "https://x.com/info_myojou/status/2085708308992983211/photo/1",
+              "media_key": "3_2085708288822538240",
+              "start": 221,
+              "url": "https://t.co/s0jFatWrsv"
+            }
+          ]
+        },
+        "full_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「IDOL SUMMER JUNGLE 2026 Day2」\n\n📍MONKEY STAGE\n🎙14:15-14:35\n📸14:55-15:55（5）\n🏮17:55-19:05（6）\n\n⟣date：8/8（土）\n⟣place : お台場R地区\n⟣open/start：9:00/10:00\n⟣price：VIPチケット¥28,000/一般チケット¥5,000/女性チケット¥4,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n※入場時に配布される共通入場特典は、物販卓にて引き換えを行わずにご使用頂けます。撮影希望メンバーの列にそのままお並びください。\n\n･VIPチケット\n【一般販売】\n7/6（月）18:00-\n･一般チケット,女性チケット\n【一般販売】\n6/9（火）18:00-\n\n🔗 https://t.co/vGPzCwXlpR\n\n#myojou\n#ミョージョーサマー\n#サマジャン2026",
+        "full_text_source": "note_tweet",
+        "id": "2085708308992983211",
+        "media": [
+          {
+            "height": 4042,
+            "media_key": "3_2085708288784818176",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HPHso1obYAAayX3.jpg",
+            "width": 2890
+          },
+          {
+            "height": 2480,
+            "media_key": "3_2085708288822579200",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HPHso1xbkAAc8R5.jpg",
+            "width": 3508
+          },
+          {
+            "height": 2480,
+            "media_key": "3_2085708288822538240",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HPHso1xa8AA-lq6.jpg",
+            "width": 3508
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 407,
+                "start": 400,
+                "tag": "myojou"
+              },
+              {
+                "end": 418,
+                "start": 408,
+                "tag": "ミョージョーサマー"
+              },
+              {
+                "end": 429,
+                "start": 419,
+                "tag": "サマジャン2026"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "ticketdive.com/event/idolsumm…",
+                "end": 398,
+                "expanded_url": "https://ticketdive.com/event/idolsummerjungle2026",
+                "start": 375,
+                "url": "https://t.co/vGPzCwXlpR"
+              }
+            ]
+          },
+          "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「IDOL SUMMER JUNGLE 2026 Day2」\n\n📍MONKEY STAGE\n🎙14:15-14:35\n📸14:55-15:55（5）\n🏮17:55-19:05（6）\n\n⟣date：8/8（土）\n⟣place : お台場R地区\n⟣open/start：9:00/10:00\n⟣price：VIPチケット¥28,000/一般チケット¥5,000/女性チケット¥4,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n※入場時に配布される共通入場特典は、物販卓にて引き換えを行わずにご使用頂けます。撮影希望メンバーの列にそのままお並びください。\n\n･VIPチケット\n【一般販売】\n7/6（月）18:00-\n･一般チケット,女性チケット\n【一般販売】\n6/9（火）18:00-\n\n🔗 https://t.co/vGPzCwXlpR\n\n#myojou\n#ミョージョーサマー\n#サマジャン2026"
+        },
+        "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「IDOL SUMMER JUNGLE 2026 Day2」\n\n📍MONKEY STAGE\n🎙14:15-14:35\n📸14:55-15:55（5）\n🏮17:55-19:05（6）\n\n⟣date：8/8（土）\n⟣place : お台場R地区\n⟣open/start：9:00/10:00\n⟣price：VIPチケット¥28,000/一般チケット¥5,000/女性チケット¥4,000（各+1D） https://t.co/s0jFatWrsv",
+        "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「IDOL SUMMER JUNGLE 2026 Day2」\n\n📍MONKEY STAGE\n🎙14:15-14:35\n📸14:55-15:55（5）\n🏮17:55-19:05（6）\n\n⟣date：8/8（土）\n⟣place : お台場R地区\n⟣open/start：9:00/10:00\n⟣price：VIPチケット¥28,000/一般チケット¥5,000/女性チケット¥4,000（各+1D） https://t.co/s0jFatWrsv"
+      },
+      "referenced_tweets": [],
+      "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「IDOL SUMMER JUNGLE 2026 Day2」\n\n📍MONKEY STAGE\n🎙14:15-14:35\n📸14:55-15:55（5）\n🏮17:55-19:05（6）\n\n⟣date：8/8（土）\n⟣place : お台場R地区\n⟣open/start：9:00/10:00\n⟣price：VIPチケット¥28,000/一般チケット¥5,000/女性チケット¥4,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n※入場時に配布される共通入場特典は、物販卓にて引き換えを行わずにご使用頂けます。撮影希望メンバーの列にそのままお並びください。\n\n･VIPチケット\n【一般販売】\n7/6（月）18:00-\n･一般チケット,女性チケット\n【一般販売】\n6/9（火）18:00-\n\n🔗 https://t.co/vGPzCwXlpR\n\n#myojou\n#ミョージョーサマー\n#サマジャン2026",
+      "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「IDOL SUMMER JUNGLE 2026 Day2」\n\n📍MONKEY STAGE\n🎙14:15-14:35\n📸14:55-15:55（5）\n🏮17:55-19:05（6）\n\n⟣date：8/8（土）\n⟣place : お台場R地区\n⟣open/start：9:00/10:00\n⟣price：VIPチケット¥28,000/一般チケット¥5,000/女性チケット¥4,000（各+1D） https://t.co/s0jFatWrsv",
+      "url": "https://x.com/info_myojou/status/2085708308992983211"
+    },
+    {
+      "api_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                        ⟡.·*.御礼.*·.⟡\n  IDOL SUMMER JUNGLE 2026 Day1\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「 IDOL SUMMER JUNGLE 2026 Day1」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka https://t.co/by9eTl6dE0",
+      "attachments": {
+        "media_keys": [
+          "3_2085707846440931328",
+          "3_2085707846449340416"
+        ]
+      },
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "profile/member introduction",
+        "source_kind": "other"
+      },
+      "created_at": "2026-08-07T12:41:18+00:00",
+      "entities": {
+        "mentions": [
+          {
+            "end": 187,
+            "id": "1981655668626165760",
+            "start": 175,
+            "username": "myojou_ruka"
+          }
+        ],
+        "urls": [
+          {
+            "display_url": "pic.x.com/by9eTl6dE0",
+            "end": 211,
+            "expanded_url": "https://x.com/info_myojou/status/2085707856427552960/photo/1",
+            "media_key": "3_2085707846440931328",
+            "start": 188,
+            "url": "https://t.co/by9eTl6dE0"
+          },
+          {
+            "display_url": "pic.x.com/by9eTl6dE0",
+            "end": 211,
+            "expanded_url": "https://x.com/info_myojou/status/2085707856427552960/photo/1",
+            "media_key": "3_2085707846449340416",
+            "start": 188,
+            "url": "https://t.co/by9eTl6dE0"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2085707856427552960",
+      "media": [
+        {
+          "height": 1064,
+          "media_key": "3_2085707846440931328",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HPHsPFxbUAAyO33.jpg",
+          "width": 1538
+        },
+        {
+          "height": 1050,
+          "media_key": "3_2085707846449340416",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HPHsPFzboAAj7Wf.jpg",
+          "width": 1558
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 307,
+              "start": 300,
+              "tag": "myojou"
+            }
+          ],
+          "mentions": [
+            {
+              "end": 187,
+              "id": "1981655668626165760",
+              "start": 175,
+              "username": "myojou_ruka"
+            },
+            {
+              "end": 208,
+              "id": "1590652199407083520",
+              "start": 194,
+              "username": "myojou_cocone"
+            },
+            {
+              "end": 227,
+              "id": "1754991922807177216",
+              "start": 214,
+              "username": "myojou_shino"
+            },
+            {
+              "end": 244,
+              "id": "2009274765895450624",
+              "start": 233,
+              "username": "myojou_yun"
+            },
+            {
+              "end": 265,
+              "id": "1344586625901158401",
+              "start": 250,
+              "username": "myojou_usukura"
+            },
+            {
+              "end": 282,
+              "id": "2009245855694675968",
+              "start": 271,
+              "username": "myojou_miu"
+            }
+          ]
+        },
+        "text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                        ⟡.·*.御礼.*·.⟡\n  IDOL SUMMER JUNGLE 2026 Day1\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「 IDOL SUMMER JUNGLE 2026 Day1」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka \n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n澪奈ゆん@myojou_yun \n薄倉りな@myojou_usukura \n日陽みう@myojou_miu \n\nSETLIST▶︎ALT\n\n #myojou"
+      },
+      "parsed_fields": null,
+      "raw": {
+        "api_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                        ⟡.·*.御礼.*·.⟡\n  IDOL SUMMER JUNGLE 2026 Day1\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「 IDOL SUMMER JUNGLE 2026 Day1」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka https://t.co/by9eTl6dE0",
+        "attachments": {
+          "media_keys": [
+            "3_2085707846440931328",
+            "3_2085707846449340416"
+          ]
+        },
+        "created_at": "2026-08-07T12:41:18.000Z",
+        "edit_history_tweet_ids": [
+          "2085707856427552960"
+        ],
+        "entities": {
+          "mentions": [
+            {
+              "end": 187,
+              "id": "1981655668626165760",
+              "start": 175,
+              "username": "myojou_ruka"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "pic.x.com/by9eTl6dE0",
+              "end": 211,
+              "expanded_url": "https://x.com/info_myojou/status/2085707856427552960/photo/1",
+              "media_key": "3_2085707846440931328",
+              "start": 188,
+              "url": "https://t.co/by9eTl6dE0"
+            },
+            {
+              "display_url": "pic.x.com/by9eTl6dE0",
+              "end": 211,
+              "expanded_url": "https://x.com/info_myojou/status/2085707856427552960/photo/1",
+              "media_key": "3_2085707846449340416",
+              "start": 188,
+              "url": "https://t.co/by9eTl6dE0"
+            }
+          ]
+        },
+        "full_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                        ⟡.·*.御礼.*·.⟡\n  IDOL SUMMER JUNGLE 2026 Day1\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「 IDOL SUMMER JUNGLE 2026 Day1」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka \n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n澪奈ゆん@myojou_yun \n薄倉りな@myojou_usukura \n日陽みう@myojou_miu \n\nSETLIST▶︎ALT\n\n #myojou",
+        "full_text_source": "note_tweet",
+        "id": "2085707856427552960",
+        "media": [
+          {
+            "height": 1064,
+            "media_key": "3_2085707846440931328",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HPHsPFxbUAAyO33.jpg",
+            "width": 1538
+          },
+          {
+            "height": 1050,
+            "media_key": "3_2085707846449340416",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HPHsPFzboAAj7Wf.jpg",
+            "width": 1558
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 307,
+                "start": 300,
+                "tag": "myojou"
+              }
+            ],
+            "mentions": [
+              {
+                "end": 187,
+                "id": "1981655668626165760",
+                "start": 175,
+                "username": "myojou_ruka"
+              },
+              {
+                "end": 208,
+                "id": "1590652199407083520",
+                "start": 194,
+                "username": "myojou_cocone"
+              },
+              {
+                "end": 227,
+                "id": "1754991922807177216",
+                "start": 214,
+                "username": "myojou_shino"
+              },
+              {
+                "end": 244,
+                "id": "2009274765895450624",
+                "start": 233,
+                "username": "myojou_yun"
+              },
+              {
+                "end": 265,
+                "id": "1344586625901158401",
+                "start": 250,
+                "username": "myojou_usukura"
+              },
+              {
+                "end": 282,
+                "id": "2009245855694675968",
+                "start": 271,
+                "username": "myojou_miu"
+              }
+            ]
+          },
+          "text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                        ⟡.·*.御礼.*·.⟡\n  IDOL SUMMER JUNGLE 2026 Day1\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「 IDOL SUMMER JUNGLE 2026 Day1」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka \n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n澪奈ゆん@myojou_yun \n薄倉りな@myojou_usukura \n日陽みう@myojou_miu \n\nSETLIST▶︎ALT\n\n #myojou"
+        },
+        "text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                        ⟡.·*.御礼.*·.⟡\n  IDOL SUMMER JUNGLE 2026 Day1\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「 IDOL SUMMER JUNGLE 2026 Day1」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka https://t.co/by9eTl6dE0",
+        "truncated_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                        ⟡.·*.御礼.*·.⟡\n  IDOL SUMMER JUNGLE 2026 Day1\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「 IDOL SUMMER JUNGLE 2026 Day1」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka https://t.co/by9eTl6dE0"
+      },
+      "referenced_tweets": [],
+      "text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                        ⟡.·*.御礼.*·.⟡\n  IDOL SUMMER JUNGLE 2026 Day1\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「 IDOL SUMMER JUNGLE 2026 Day1」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka \n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n澪奈ゆん@myojou_yun \n薄倉りな@myojou_usukura \n日陽みう@myojou_miu \n\nSETLIST▶︎ALT\n\n #myojou",
+      "truncated_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                        ⟡.·*.御礼.*·.⟡\n  IDOL SUMMER JUNGLE 2026 Day1\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「 IDOL SUMMER JUNGLE 2026 Day1」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka https://t.co/by9eTl6dE0",
+      "url": "https://x.com/info_myojou/status/2085707856427552960"
+    },
+    {
+      "api_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n                   LadySteady \n       supported by BUZZチケ\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n🎙16:45-17:10\n📸17:20-18:20\n\n⟣date：9/7（月）\n⟣place :Spotify O-EAST\n⟣open/start：14:30/15:00\n⟣price：前方¥8,000/一般 https://t.co/qM9kYKlioL",
+      "attachments": {
+        "media_keys": [
+          "3_2085691092448825344"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "ticket_update"
+      },
+      "created_at": "2026-08-07T11:34:44+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/qM9kYKlioL",
+            "end": 232,
+            "expanded_url": "https://x.com/info_myojou/status/2085691103827857481/photo/1",
+            "media_key": "3_2085691092448825344",
+            "start": 209,
+            "url": "https://t.co/qM9kYKlioL"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2085691103827857481",
+      "media": [
+        {
+          "height": 2821,
+          "media_key": "3_2085691092448825344",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HPHc_4Sb0AAoDib.jpg",
+          "width": 2000
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 311,
+              "start": 304,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "buzz-ticket.com/e/ladysteady_0…",
+              "end": 302,
+              "expanded_url": "https://buzz-ticket.com/e/ladysteady_0907",
+              "start": 279,
+              "url": "https://t.co/KUaSDFoZEb"
+            }
+          ]
+        },
+        "text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n                   LadySteady \n       supported by BUZZチケ\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n🎙16:45-17:10\n📸17:20-18:20\n\n⟣date：9/7（月）\n⟣place :Spotify O-EAST\n⟣open/start：14:30/15:00\n⟣price：前方¥8,000/一般 ¥3,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/16（木）22:00-9/6（日）23:59\n🔗 https://t.co/KUaSDFoZEb\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": "17:20-18:20",
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-09-07",
+        "event_dates": [
+          "2026-09-07"
+        ],
+        "event_name": "LadySteady",
+        "extraction_confidence": 0.95,
+        "general_ticket_price": 3500,
+        "lottery_result_at": null,
+        "myojou_performance_time": "16:45-17:10",
+        "notes": "ドリンク代: 各+1D\n⟣入場特典:明星カード(サインありチェキ)",
+        "open_time": "14:30",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "前方",
+        "priority_ticket_price": 8000,
+        "same_day_ticket_price": null,
+        "source_kind": "ticket_update",
+        "source_post_id": "2085691103827857481",
+        "source_posted_at": "2026-08-07T11:34:44Z",
+        "source_raw": {
+          "api_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n                   LadySteady \n       supported by BUZZチケ\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n🎙16:45-17:10\n📸17:20-18:20\n\n⟣date：9/7（月）\n⟣place :Spotify O-EAST\n⟣open/start：14:30/15:00\n⟣price：前方¥8,000/一般 https://t.co/qM9kYKlioL",
+          "attachments": {
+            "media_keys": [
+              "3_2085691092448825344"
+            ]
+          },
+          "created_at": "2026-08-07T11:34:44.000Z",
+          "edit_history_tweet_ids": [
+            "2085691103827857481"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/qM9kYKlioL",
+                "end": 232,
+                "expanded_url": "https://x.com/info_myojou/status/2085691103827857481/photo/1",
+                "media_key": "3_2085691092448825344",
+                "start": 209,
+                "url": "https://t.co/qM9kYKlioL"
+              }
+            ]
+          },
+          "full_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n                   LadySteady \n       supported by BUZZチケ\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n🎙16:45-17:10\n📸17:20-18:20\n\n⟣date：9/7（月）\n⟣place :Spotify O-EAST\n⟣open/start：14:30/15:00\n⟣price：前方¥8,000/一般 ¥3,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/16（木）22:00-9/6（日）23:59\n🔗 https://t.co/KUaSDFoZEb\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2085691103827857481",
+          "media": [
+            {
+              "height": 2821,
+              "media_key": "3_2085691092448825344",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HPHc_4Sb0AAoDib.jpg",
+              "width": 2000
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 311,
+                  "start": 304,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "buzz-ticket.com/e/ladysteady_0…",
+                  "end": 302,
+                  "expanded_url": "https://buzz-ticket.com/e/ladysteady_0907",
+                  "start": 279,
+                  "url": "https://t.co/KUaSDFoZEb"
+                }
+              ]
+            },
+            "text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n                   LadySteady \n       supported by BUZZチケ\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n🎙16:45-17:10\n📸17:20-18:20\n\n⟣date：9/7（月）\n⟣place :Spotify O-EAST\n⟣open/start：14:30/15:00\n⟣price：前方¥8,000/一般 ¥3,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/16（木）22:00-9/6（日）23:59\n🔗 https://t.co/KUaSDFoZEb\n\n#myojou"
+          },
+          "text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n                   LadySteady \n       supported by BUZZチケ\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n🎙16:45-17:10\n📸17:20-18:20\n\n⟣date：9/7（月）\n⟣place :Spotify O-EAST\n⟣open/start：14:30/15:00\n⟣price：前方¥8,000/一般 https://t.co/qM9kYKlioL",
+          "truncated_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n                   LadySteady \n       supported by BUZZチケ\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n🎙16:45-17:10\n📸17:20-18:20\n\n⟣date：9/7（月）\n⟣place :Spotify O-EAST\n⟣open/start：14:30/15:00\n⟣price：前方¥8,000/一般 https://t.co/qM9kYKlioL"
+        },
+        "source_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n                   LadySteady \n       supported by BUZZチケ\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n🎙16:45-17:10\n📸17:20-18:20\n\n⟣date：9/7（月）\n⟣place :Spotify O-EAST\n⟣open/start：14:30/15:00\n⟣price：前方¥8,000/一般 ¥3,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/16（木）22:00-9/6（日）23:59\n🔗 https://t.co/KUaSDFoZEb\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2085691103827857481",
+        "start_time": "15:00",
+        "ticket_application_deadline_at": "2026-09-06T23:59:00+09:00",
+        "ticket_application_start_at": "2026-07-16T22:00:00+09:00",
+        "ticket_sale_type": "先着",
+        "ticket_sales": [
+          {
+            "deadline_at": "2026-09-06T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 8000,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2085691103827857481",
+            "source_url": "https://x.com/info_myojou/status/2085691103827857481",
+            "start_at": "2026-07-16T22:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "前方",
+            "ticket_tier": "前方"
+          },
+          {
+            "deadline_at": "2026-09-06T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 3500,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2085691103827857481",
+            "source_url": "https://x.com/info_myojou/status/2085691103827857481",
+            "start_at": "2026-07-16T22:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": null,
+        "venue": "Spotify O-EAST"
+      },
+      "raw": {
+        "api_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n                   LadySteady \n       supported by BUZZチケ\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n🎙16:45-17:10\n📸17:20-18:20\n\n⟣date：9/7（月）\n⟣place :Spotify O-EAST\n⟣open/start：14:30/15:00\n⟣price：前方¥8,000/一般 https://t.co/qM9kYKlioL",
+        "attachments": {
+          "media_keys": [
+            "3_2085691092448825344"
+          ]
+        },
+        "created_at": "2026-08-07T11:34:44.000Z",
+        "edit_history_tweet_ids": [
+          "2085691103827857481"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/qM9kYKlioL",
+              "end": 232,
+              "expanded_url": "https://x.com/info_myojou/status/2085691103827857481/photo/1",
+              "media_key": "3_2085691092448825344",
+              "start": 209,
+              "url": "https://t.co/qM9kYKlioL"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n                   LadySteady \n       supported by BUZZチケ\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n🎙16:45-17:10\n📸17:20-18:20\n\n⟣date：9/7（月）\n⟣place :Spotify O-EAST\n⟣open/start：14:30/15:00\n⟣price：前方¥8,000/一般 ¥3,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/16（木）22:00-9/6（日）23:59\n🔗 https://t.co/KUaSDFoZEb\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2085691103827857481",
+        "media": [
+          {
+            "height": 2821,
+            "media_key": "3_2085691092448825344",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HPHc_4Sb0AAoDib.jpg",
+            "width": 2000
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 311,
+                "start": 304,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "buzz-ticket.com/e/ladysteady_0…",
+                "end": 302,
+                "expanded_url": "https://buzz-ticket.com/e/ladysteady_0907",
+                "start": 279,
+                "url": "https://t.co/KUaSDFoZEb"
+              }
+            ]
+          },
+          "text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n                   LadySteady \n       supported by BUZZチケ\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n🎙16:45-17:10\n📸17:20-18:20\n\n⟣date：9/7（月）\n⟣place :Spotify O-EAST\n⟣open/start：14:30/15:00\n⟣price：前方¥8,000/一般 ¥3,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/16（木）22:00-9/6（日）23:59\n🔗 https://t.co/KUaSDFoZEb\n\n#myojou"
+        },
+        "text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n                   LadySteady \n       supported by BUZZチケ\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n🎙16:45-17:10\n📸17:20-18:20\n\n⟣date：9/7（月）\n⟣place :Spotify O-EAST\n⟣open/start：14:30/15:00\n⟣price：前方¥8,000/一般 https://t.co/qM9kYKlioL",
+        "truncated_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n                   LadySteady \n       supported by BUZZチケ\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n🎙16:45-17:10\n📸17:20-18:20\n\n⟣date：9/7（月）\n⟣place :Spotify O-EAST\n⟣open/start：14:30/15:00\n⟣price：前方¥8,000/一般 https://t.co/qM9kYKlioL"
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n                   LadySteady \n       supported by BUZZチケ\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n🎙16:45-17:10\n📸17:20-18:20\n\n⟣date：9/7（月）\n⟣place :Spotify O-EAST\n⟣open/start：14:30/15:00\n⟣price：前方¥8,000/一般 ¥3,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/16（木）22:00-9/6（日）23:59\n🔗 https://t.co/KUaSDFoZEb\n\n#myojou",
+      "truncated_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n                   LadySteady \n       supported by BUZZチケ\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n🎙16:45-17:10\n📸17:20-18:20\n\n⟣date：9/7（月）\n⟣place :Spotify O-EAST\n⟣open/start：14:30/15:00\n⟣price：前方¥8,000/一般 https://t.co/qM9kYKlioL",
+      "url": "https://x.com/info_myojou/status/2085691103827857481"
+    },
+    {
+      "api_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n   IDOL SUMMER JUNGLE 2026 Day1\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\nこの後SNAKE STAGEにて、19:50より初のトリを努めさせて頂きます⟡.·\n\n #myojou\n #サマジャン2026 https://t.co/IWfsKyQqPZ",
+      "attachments": {
+        "media_keys": [
+          "3_2085679787197235200"
+        ]
+      },
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "no live-event signal",
+        "source_kind": "other"
+      },
+      "created_at": "2026-08-07T10:49:48+00:00",
+      "entities": {
+        "hashtags": [
+          {
+            "end": 132,
+            "start": 125,
+            "tag": "myojou"
+          },
+          {
+            "end": 144,
+            "start": 134,
+            "tag": "サマジャン2026"
+          }
+        ],
+        "urls": [
+          {
+            "display_url": "pic.x.com/IWfsKyQqPZ",
+            "end": 168,
+            "expanded_url": "https://x.com/info_myojou/status/2085679798169563536/photo/1",
+            "media_key": "3_2085679787197235200",
+            "start": 145,
+            "url": "https://t.co/IWfsKyQqPZ"
+          }
+        ]
+      },
+      "full_text_source": "text",
+      "id": "2085679798169563536",
+      "media": [
+        {
+          "height": 3024,
+          "media_key": "3_2085679787197235200",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HPHSt08agAAY5Av.jpg",
+          "width": 4032
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "note_tweet": null,
+      "parsed_fields": null,
+      "raw": {
+        "api_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n   IDOL SUMMER JUNGLE 2026 Day1\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\nこの後SNAKE STAGEにて、19:50より初のトリを努めさせて頂きます⟡.·\n\n #myojou\n #サマジャン2026 https://t.co/IWfsKyQqPZ",
+        "attachments": {
+          "media_keys": [
+            "3_2085679787197235200"
+          ]
+        },
+        "created_at": "2026-08-07T10:49:48.000Z",
+        "edit_history_tweet_ids": [
+          "2085679798169563536"
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "end": 132,
+              "start": 125,
+              "tag": "myojou"
+            },
+            {
+              "end": 144,
+              "start": 134,
+              "tag": "サマジャン2026"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "pic.x.com/IWfsKyQqPZ",
+              "end": 168,
+              "expanded_url": "https://x.com/info_myojou/status/2085679798169563536/photo/1",
+              "media_key": "3_2085679787197235200",
+              "start": 145,
+              "url": "https://t.co/IWfsKyQqPZ"
+            }
+          ]
+        },
+        "full_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n   IDOL SUMMER JUNGLE 2026 Day1\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\nこの後SNAKE STAGEにて、19:50より初のトリを努めさせて頂きます⟡.·\n\n #myojou\n #サマジャン2026 https://t.co/IWfsKyQqPZ",
+        "full_text_source": "text",
+        "id": "2085679798169563536",
+        "media": [
+          {
+            "height": 3024,
+            "media_key": "3_2085679787197235200",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HPHSt08agAAY5Av.jpg",
+            "width": 4032
+          }
+        ],
+        "text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n   IDOL SUMMER JUNGLE 2026 Day1\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\nこの後SNAKE STAGEにて、19:50より初のトリを努めさせて頂きます⟡.·\n\n #myojou\n #サマジャン2026 https://t.co/IWfsKyQqPZ",
+        "truncated_text": null
+      },
+      "referenced_tweets": [],
+      "text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n   IDOL SUMMER JUNGLE 2026 Day1\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\nこの後SNAKE STAGEにて、19:50より初のトリを努めさせて頂きます⟡.·\n\n #myojou\n #サマジャン2026 https://t.co/IWfsKyQqPZ",
+      "truncated_text": null,
+      "url": "https://x.com/info_myojou/status/2085679798169563536"
+    },
+    {
+      "api_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「IDOL SUMMER JUNGLE 2026」\n\n📍SNAKE STAGE\n🎙19:50-20:05\n📸17:10-18:10 （12）\n\n⟣date：8/7（金）,8/8（土）\n⟣place : お台場R地区\n⟣open/start：9:00/10:00\n⟣price：VIPチケット¥28,000/一般チケット¥5,000/女性チケット¥4,000（各+1D） https://t.co/O34oK6WRfl",
+      "attachments": {
+        "media_keys": [
+          "3_2085546509198856192",
+          "3_2085546509194711040"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "same_day_reminder"
+      },
+      "created_at": "2026-08-07T02:00:11+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/O34oK6WRfl",
+            "end": 231,
+            "expanded_url": "https://x.com/info_myojou/status/2085546516106879360/photo/1",
+            "media_key": "3_2085546509198856192",
+            "start": 208,
+            "url": "https://t.co/O34oK6WRfl"
+          },
+          {
+            "display_url": "pic.x.com/O34oK6WRfl",
+            "end": 231,
+            "expanded_url": "https://x.com/info_myojou/status/2085546516106879360/photo/1",
+            "media_key": "3_2085546509194711040",
+            "start": 208,
+            "url": "https://t.co/O34oK6WRfl"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2085546516106879360",
+      "media": [
+        {
+          "height": 2048,
+          "media_key": "3_2085546509198856192",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HPFZgBtakAA6EBd.jpg",
+          "width": 1464
+        },
+        {
+          "height": 1448,
+          "media_key": "3_2085546509194711040",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HPFZgBsbUAASyi0.jpg",
+          "width": 2048
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 394,
+              "start": 387,
+              "tag": "myojou"
+            },
+            {
+              "end": 405,
+              "start": 395,
+              "tag": "ミョージョーサマー"
+            },
+            {
+              "end": 416,
+              "start": 406,
+              "tag": "サマジャン2026"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "ticketdive.com/event/idolsumm…",
+              "end": 385,
+              "expanded_url": "https://ticketdive.com/event/idolsummerjungle2026",
+              "start": 362,
+              "url": "https://t.co/vGPzCwXlpR"
+            }
+          ]
+        },
+        "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「IDOL SUMMER JUNGLE 2026」\n\n📍SNAKE STAGE\n🎙19:50-20:05\n📸17:10-18:10 （12）\n\n⟣date：8/7（金）,8/8（土）\n⟣place : お台場R地区\n⟣open/start：9:00/10:00\n⟣price：VIPチケット¥28,000/一般チケット¥5,000/女性チケット¥4,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n※入場時に配布される共通入場特典は、物販卓にて引き換えを行わずにご使用頂けます。撮影希望メンバーの列にそのままお並びください。\n\n･VIPチケット\n【一般販売】\n7/6（月）18:00-\n･一般チケット,女性チケット\n【一般販売】\n6/9（火）18:00-\n\n🔗 https://t.co/vGPzCwXlpR\n\n#myojou\n#ミョージョーサマー\n#サマジャン2026"
+      },
+      "parsed_fields": {
+        "benefit_event_time": "17:10-18:10",
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-08-07",
+        "event_dates": [
+          "2026-08-07",
+          "2026-08-08"
+        ],
+        "event_name": "SNAKE STAGE",
+        "extraction_confidence": 0.95,
+        "general_ticket_price": 5000,
+        "lottery_result_at": null,
+        "myojou_performance_time": "19:50-20:05",
+        "notes": "ドリンク代: 各+1D\n⟣入場特典:明星カード(サインありチェキ)\n※入場時に配布される共通入場特典は、物販卓にて引き換えを行わずにご使用頂けます。撮影希望メンバーの列にそのままお並びください。",
+        "open_time": "09:00",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "VIPチケット",
+        "priority_ticket_price": 28000,
+        "same_day_ticket_price": null,
+        "source_kind": "same_day_reminder",
+        "source_post_id": "2085546516106879360",
+        "source_posted_at": "2026-08-07T02:00:11Z",
+        "source_raw": {
+          "api_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「IDOL SUMMER JUNGLE 2026」\n\n📍SNAKE STAGE\n🎙19:50-20:05\n📸17:10-18:10 （12）\n\n⟣date：8/7（金）,8/8（土）\n⟣place : お台場R地区\n⟣open/start：9:00/10:00\n⟣price：VIPチケット¥28,000/一般チケット¥5,000/女性チケット¥4,000（各+1D） https://t.co/O34oK6WRfl",
+          "attachments": {
+            "media_keys": [
+              "3_2085546509198856192",
+              "3_2085546509194711040"
+            ]
+          },
+          "created_at": "2026-08-07T02:00:11.000Z",
+          "edit_history_tweet_ids": [
+            "2085546516106879360"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/O34oK6WRfl",
+                "end": 231,
+                "expanded_url": "https://x.com/info_myojou/status/2085546516106879360/photo/1",
+                "media_key": "3_2085546509198856192",
+                "start": 208,
+                "url": "https://t.co/O34oK6WRfl"
+              },
+              {
+                "display_url": "pic.x.com/O34oK6WRfl",
+                "end": 231,
+                "expanded_url": "https://x.com/info_myojou/status/2085546516106879360/photo/1",
+                "media_key": "3_2085546509194711040",
+                "start": 208,
+                "url": "https://t.co/O34oK6WRfl"
+              }
+            ]
+          },
+          "full_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「IDOL SUMMER JUNGLE 2026」\n\n📍SNAKE STAGE\n🎙19:50-20:05\n📸17:10-18:10 （12）\n\n⟣date：8/7（金）,8/8（土）\n⟣place : お台場R地区\n⟣open/start：9:00/10:00\n⟣price：VIPチケット¥28,000/一般チケット¥5,000/女性チケット¥4,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n※入場時に配布される共通入場特典は、物販卓にて引き換えを行わずにご使用頂けます。撮影希望メンバーの列にそのままお並びください。\n\n･VIPチケット\n【一般販売】\n7/6（月）18:00-\n･一般チケット,女性チケット\n【一般販売】\n6/9（火）18:00-\n\n🔗 https://t.co/vGPzCwXlpR\n\n#myojou\n#ミョージョーサマー\n#サマジャン2026",
+          "full_text_source": "note_tweet",
+          "id": "2085546516106879360",
+          "media": [
+            {
+              "height": 2048,
+              "media_key": "3_2085546509198856192",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HPFZgBtakAA6EBd.jpg",
+              "width": 1464
+            },
+            {
+              "height": 1448,
+              "media_key": "3_2085546509194711040",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HPFZgBsbUAASyi0.jpg",
+              "width": 2048
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 394,
+                  "start": 387,
+                  "tag": "myojou"
+                },
+                {
+                  "end": 405,
+                  "start": 395,
+                  "tag": "ミョージョーサマー"
+                },
+                {
+                  "end": 416,
+                  "start": 406,
+                  "tag": "サマジャン2026"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "ticketdive.com/event/idolsumm…",
+                  "end": 385,
+                  "expanded_url": "https://ticketdive.com/event/idolsummerjungle2026",
+                  "start": 362,
+                  "url": "https://t.co/vGPzCwXlpR"
+                }
+              ]
+            },
+            "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「IDOL SUMMER JUNGLE 2026」\n\n📍SNAKE STAGE\n🎙19:50-20:05\n📸17:10-18:10 （12）\n\n⟣date：8/7（金）,8/8（土）\n⟣place : お台場R地区\n⟣open/start：9:00/10:00\n⟣price：VIPチケット¥28,000/一般チケット¥5,000/女性チケット¥4,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n※入場時に配布される共通入場特典は、物販卓にて引き換えを行わずにご使用頂けます。撮影希望メンバーの列にそのままお並びください。\n\n･VIPチケット\n【一般販売】\n7/6（月）18:00-\n･一般チケット,女性チケット\n【一般販売】\n6/9（火）18:00-\n\n🔗 https://t.co/vGPzCwXlpR\n\n#myojou\n#ミョージョーサマー\n#サマジャン2026"
+          },
+          "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「IDOL SUMMER JUNGLE 2026」\n\n📍SNAKE STAGE\n🎙19:50-20:05\n📸17:10-18:10 （12）\n\n⟣date：8/7（金）,8/8（土）\n⟣place : お台場R地区\n⟣open/start：9:00/10:00\n⟣price：VIPチケット¥28,000/一般チケット¥5,000/女性チケット¥4,000（各+1D） https://t.co/O34oK6WRfl",
+          "truncated_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「IDOL SUMMER JUNGLE 2026」\n\n📍SNAKE STAGE\n🎙19:50-20:05\n📸17:10-18:10 （12）\n\n⟣date：8/7（金）,8/8（土）\n⟣place : お台場R地区\n⟣open/start：9:00/10:00\n⟣price：VIPチケット¥28,000/一般チケット¥5,000/女性チケット¥4,000（各+1D） https://t.co/O34oK6WRfl"
+        },
+        "source_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「IDOL SUMMER JUNGLE 2026」\n\n📍SNAKE STAGE\n🎙19:50-20:05\n📸17:10-18:10 （12）\n\n⟣date：8/7（金）,8/8（土）\n⟣place : お台場R地区\n⟣open/start：9:00/10:00\n⟣price：VIPチケット¥28,000/一般チケット¥5,000/女性チケット¥4,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n※入場時に配布される共通入場特典は、物販卓にて引き換えを行わずにご使用頂けます。撮影希望メンバーの列にそのままお並びください。\n\n･VIPチケット\n【一般販売】\n7/6（月）18:00-\n･一般チケット,女性チケット\n【一般販売】\n6/9（火）18:00-\n\n🔗 https://t.co/vGPzCwXlpR\n\n#myojou\n#ミョージョーサマー\n#サマジャン2026",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2085546516106879360",
+        "start_time": "10:00",
+        "ticket_application_deadline_at": null,
+        "ticket_application_start_at": "2026-06-09T18:00:00+09:00",
+        "ticket_sale_type": "一般",
+        "ticket_sales": [
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 28000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2085546516106879360",
+            "source_url": "https://x.com/info_myojou/status/2085546516106879360",
+            "start_at": "2026-07-06T18:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "VIPチケット",
+            "ticket_tier": "VIP"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 5000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2085546516106879360",
+            "source_url": "https://x.com/info_myojou/status/2085546516106879360",
+            "start_at": "2026-07-06T18:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般チケット",
+            "ticket_tier": "一般"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 28000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2085546516106879360",
+            "source_url": "https://x.com/info_myojou/status/2085546516106879360",
+            "start_at": "2026-06-09T18:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "VIPチケット",
+            "ticket_tier": "VIP"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 5000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2085546516106879360",
+            "source_url": "https://x.com/info_myojou/status/2085546516106879360",
+            "start_at": "2026-06-09T18:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般チケット",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "https://ticketdive.com/event/idolsummerjungle2026",
+        "venue": "お台場R地区"
+      },
+      "raw": {
+        "api_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「IDOL SUMMER JUNGLE 2026」\n\n📍SNAKE STAGE\n🎙19:50-20:05\n📸17:10-18:10 （12）\n\n⟣date：8/7（金）,8/8（土）\n⟣place : お台場R地区\n⟣open/start：9:00/10:00\n⟣price：VIPチケット¥28,000/一般チケット¥5,000/女性チケット¥4,000（各+1D） https://t.co/O34oK6WRfl",
+        "attachments": {
+          "media_keys": [
+            "3_2085546509198856192",
+            "3_2085546509194711040"
+          ]
+        },
+        "created_at": "2026-08-07T02:00:11.000Z",
+        "edit_history_tweet_ids": [
+          "2085546516106879360"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/O34oK6WRfl",
+              "end": 231,
+              "expanded_url": "https://x.com/info_myojou/status/2085546516106879360/photo/1",
+              "media_key": "3_2085546509198856192",
+              "start": 208,
+              "url": "https://t.co/O34oK6WRfl"
+            },
+            {
+              "display_url": "pic.x.com/O34oK6WRfl",
+              "end": 231,
+              "expanded_url": "https://x.com/info_myojou/status/2085546516106879360/photo/1",
+              "media_key": "3_2085546509194711040",
+              "start": 208,
+              "url": "https://t.co/O34oK6WRfl"
+            }
+          ]
+        },
+        "full_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「IDOL SUMMER JUNGLE 2026」\n\n📍SNAKE STAGE\n🎙19:50-20:05\n📸17:10-18:10 （12）\n\n⟣date：8/7（金）,8/8（土）\n⟣place : お台場R地区\n⟣open/start：9:00/10:00\n⟣price：VIPチケット¥28,000/一般チケット¥5,000/女性チケット¥4,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n※入場時に配布される共通入場特典は、物販卓にて引き換えを行わずにご使用頂けます。撮影希望メンバーの列にそのままお並びください。\n\n･VIPチケット\n【一般販売】\n7/6（月）18:00-\n･一般チケット,女性チケット\n【一般販売】\n6/9（火）18:00-\n\n🔗 https://t.co/vGPzCwXlpR\n\n#myojou\n#ミョージョーサマー\n#サマジャン2026",
+        "full_text_source": "note_tweet",
+        "id": "2085546516106879360",
+        "media": [
+          {
+            "height": 2048,
+            "media_key": "3_2085546509198856192",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HPFZgBtakAA6EBd.jpg",
+            "width": 1464
+          },
+          {
+            "height": 1448,
+            "media_key": "3_2085546509194711040",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HPFZgBsbUAASyi0.jpg",
+            "width": 2048
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 394,
+                "start": 387,
+                "tag": "myojou"
+              },
+              {
+                "end": 405,
+                "start": 395,
+                "tag": "ミョージョーサマー"
+              },
+              {
+                "end": 416,
+                "start": 406,
+                "tag": "サマジャン2026"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "ticketdive.com/event/idolsumm…",
+                "end": 385,
+                "expanded_url": "https://ticketdive.com/event/idolsummerjungle2026",
+                "start": 362,
+                "url": "https://t.co/vGPzCwXlpR"
+              }
+            ]
+          },
+          "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「IDOL SUMMER JUNGLE 2026」\n\n📍SNAKE STAGE\n🎙19:50-20:05\n📸17:10-18:10 （12）\n\n⟣date：8/7（金）,8/8（土）\n⟣place : お台場R地区\n⟣open/start：9:00/10:00\n⟣price：VIPチケット¥28,000/一般チケット¥5,000/女性チケット¥4,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n※入場時に配布される共通入場特典は、物販卓にて引き換えを行わずにご使用頂けます。撮影希望メンバーの列にそのままお並びください。\n\n･VIPチケット\n【一般販売】\n7/6（月）18:00-\n･一般チケット,女性チケット\n【一般販売】\n6/9（火）18:00-\n\n🔗 https://t.co/vGPzCwXlpR\n\n#myojou\n#ミョージョーサマー\n#サマジャン2026"
+        },
+        "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「IDOL SUMMER JUNGLE 2026」\n\n📍SNAKE STAGE\n🎙19:50-20:05\n📸17:10-18:10 （12）\n\n⟣date：8/7（金）,8/8（土）\n⟣place : お台場R地区\n⟣open/start：9:00/10:00\n⟣price：VIPチケット¥28,000/一般チケット¥5,000/女性チケット¥4,000（各+1D） https://t.co/O34oK6WRfl",
+        "truncated_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「IDOL SUMMER JUNGLE 2026」\n\n📍SNAKE STAGE\n🎙19:50-20:05\n📸17:10-18:10 （12）\n\n⟣date：8/7（金）,8/8（土）\n⟣place : お台場R地区\n⟣open/start：9:00/10:00\n⟣price：VIPチケット¥28,000/一般チケット¥5,000/女性チケット¥4,000（各+1D） https://t.co/O34oK6WRfl"
+      },
+      "referenced_tweets": [],
+      "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「IDOL SUMMER JUNGLE 2026」\n\n📍SNAKE STAGE\n🎙19:50-20:05\n📸17:10-18:10 （12）\n\n⟣date：8/7（金）,8/8（土）\n⟣place : お台場R地区\n⟣open/start：9:00/10:00\n⟣price：VIPチケット¥28,000/一般チケット¥5,000/女性チケット¥4,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n※入場時に配布される共通入場特典は、物販卓にて引き換えを行わずにご使用頂けます。撮影希望メンバーの列にそのままお並びください。\n\n･VIPチケット\n【一般販売】\n7/6（月）18:00-\n･一般チケット,女性チケット\n【一般販売】\n6/9（火）18:00-\n\n🔗 https://t.co/vGPzCwXlpR\n\n#myojou\n#ミョージョーサマー\n#サマジャン2026",
+      "truncated_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「IDOL SUMMER JUNGLE 2026」\n\n📍SNAKE STAGE\n🎙19:50-20:05\n📸17:10-18:10 （12）\n\n⟣date：8/7（金）,8/8（土）\n⟣place : お台場R地区\n⟣open/start：9:00/10:00\n⟣price：VIPチケット¥28,000/一般チケット¥5,000/女性チケット¥4,000（各+1D） https://t.co/O34oK6WRfl",
+      "url": "https://x.com/info_myojou/status/2085546516106879360"
+    },
+    {
       "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「IDOL SUMMER JUNGLE 2026」\n\n📍SNAKE STAGE\n🎙19:50-20:05\n📸17:10-18:10 （12）\n\n⟣date：8/7（金）,8/8（土）\n⟣place : お台場R地区\n⟣open/start：9:00/10:00\n⟣price：VIPチケット¥28,000/一般チケット¥5,000/女性チケット¥4,000（各+1D） https://t.co/pqnccJK2JJ",
       "attachments": {
         "media_keys": [
@@ -145413,7 +146858,7 @@
     "backfill": true,
     "dry_run": true,
     "estimated_x_post_reads": 411,
-    "latest_post_id": "2085360399235625402",
+    "latest_post_id": "2085719897632596191",
     "max_pages": 10,
     "max_posts": 500,
     "max_results": 5,
@@ -145456,16 +146901,16 @@
       }
     ],
     "pages_fetched": 5,
-    "posts_fetched": 673,
+    "posts_fetched": 679,
     "rate_limit_headers": {
       "x-rate-limit-limit": "10000",
       "x-rate-limit-remaining": "9993",
       "x-rate-limit-reset": "1781108896"
     },
-    "total_posts": 673,
-    "updated_at": "2026-08-07T00:42:26.217940+00:00",
+    "total_posts": 679,
+    "updated_at": "2026-08-07T19:53:31.118084+00:00",
     "username": "info_myojou"
   },
   "source": "x_api",
-  "updated_at": "2026-08-07T00:42:26.217940+00:00"
+  "updated_at": "2026-08-07T19:53:31.118084+00:00"
 }
