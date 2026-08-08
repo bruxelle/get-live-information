@@ -2,6 +2,739 @@
   "captured_at": "2026-06-10T16:19:36.141820+00:00",
   "data": [
     {
+      "api_text": "https://t.co/E0gr2kQehn https://t.co/x64IJT1BL8",
+      "attachments": {
+        "media_keys": [
+          "3_2086067667895783424"
+        ]
+      },
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "no live-event signal",
+        "source_kind": "other"
+      },
+      "created_at": "2026-08-08T12:31:06+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/E0gr2kQehn",
+            "end": 23,
+            "expanded_url": "https://x.com/info_myojou/status/2086067677941141781/photo/1",
+            "media_key": "3_2086067667895783424",
+            "start": 0,
+            "url": "https://t.co/E0gr2kQehn"
+          },
+          {
+            "display_url": "x.com/info_myojou/st…",
+            "end": 47,
+            "expanded_url": "https://twitter.com/info_myojou/status/2084610361320431903",
+            "start": 24,
+            "url": "https://t.co/x64IJT1BL8"
+          }
+        ]
+      },
+      "full_text_source": "text",
+      "id": "2086067677941141781",
+      "media": [
+        {
+          "height": 4096,
+          "media_key": "3_2086067667895783424",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HPMzfdJbEAAjd0d.jpg",
+          "width": 2896
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "note_tweet": null,
+      "parsed_fields": null,
+      "raw": {
+        "api_text": "https://t.co/E0gr2kQehn https://t.co/x64IJT1BL8",
+        "attachments": {
+          "media_keys": [
+            "3_2086067667895783424"
+          ]
+        },
+        "created_at": "2026-08-08T12:31:06.000Z",
+        "edit_history_tweet_ids": [
+          "2086067677941141781"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/E0gr2kQehn",
+              "end": 23,
+              "expanded_url": "https://x.com/info_myojou/status/2086067677941141781/photo/1",
+              "media_key": "3_2086067667895783424",
+              "start": 0,
+              "url": "https://t.co/E0gr2kQehn"
+            },
+            {
+              "display_url": "x.com/info_myojou/st…",
+              "end": 47,
+              "expanded_url": "https://twitter.com/info_myojou/status/2084610361320431903",
+              "start": 24,
+              "url": "https://t.co/x64IJT1BL8"
+            }
+          ]
+        },
+        "full_text": "https://t.co/E0gr2kQehn https://t.co/x64IJT1BL8",
+        "full_text_source": "text",
+        "id": "2086067677941141781",
+        "media": [
+          {
+            "height": 4096,
+            "media_key": "3_2086067667895783424",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HPMzfdJbEAAjd0d.jpg",
+            "width": 2896
+          }
+        ],
+        "referenced_tweets": [
+          {
+            "id": "2084610361320431903",
+            "type": "quoted"
+          }
+        ],
+        "text": "https://t.co/E0gr2kQehn https://t.co/x64IJT1BL8",
+        "truncated_text": null
+      },
+      "referenced_tweets": [
+        {
+          "id": "2084610361320431903",
+          "type": "quoted"
+        }
+      ],
+      "text": "https://t.co/E0gr2kQehn https://t.co/x64IJT1BL8",
+      "truncated_text": null,
+      "url": "https://x.com/info_myojou/status/2086067677941141781"
+    },
+    {
+      "api_text": "▶️LIVE DIGEST\nIDOL SUMMER JUNGLE 2026\n「アンチコンプリート」\n\n#myojou https://t.co/9HJ2FYbVn0",
+      "attachments": {
+        "media_keys": [
+          "13_2086064022676451328"
+        ]
+      },
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "content/MV-like post",
+        "source_kind": "other"
+      },
+      "created_at": "2026-08-08T12:16:57+00:00",
+      "entities": {
+        "hashtags": [
+          {
+            "end": 58,
+            "start": 51,
+            "tag": "myojou"
+          }
+        ],
+        "urls": [
+          {
+            "display_url": "pic.x.com/9HJ2FYbVn0",
+            "end": 82,
+            "expanded_url": "https://x.com/info_myojou/status/2086064117111292198/video/1",
+            "media_key": "13_2086064022676451328",
+            "start": 59,
+            "url": "https://t.co/9HJ2FYbVn0"
+          }
+        ]
+      },
+      "full_text_source": "text",
+      "id": "2086064117111292198",
+      "media": [
+        {
+          "height": 720,
+          "media_key": "13_2086064022676451328",
+          "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2086064022676451328/img/f6m6Bq-FLLbcx97h.jpg",
+          "type": "video",
+          "width": 1280
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "note_tweet": null,
+      "parsed_fields": null,
+      "raw": {
+        "api_text": "▶️LIVE DIGEST\nIDOL SUMMER JUNGLE 2026\n「アンチコンプリート」\n\n#myojou https://t.co/9HJ2FYbVn0",
+        "attachments": {
+          "media_keys": [
+            "13_2086064022676451328"
+          ]
+        },
+        "created_at": "2026-08-08T12:16:57.000Z",
+        "edit_history_tweet_ids": [
+          "2086064117111292198"
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "end": 58,
+              "start": 51,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "pic.x.com/9HJ2FYbVn0",
+              "end": 82,
+              "expanded_url": "https://x.com/info_myojou/status/2086064117111292198/video/1",
+              "media_key": "13_2086064022676451328",
+              "start": 59,
+              "url": "https://t.co/9HJ2FYbVn0"
+            }
+          ]
+        },
+        "full_text": "▶️LIVE DIGEST\nIDOL SUMMER JUNGLE 2026\n「アンチコンプリート」\n\n#myojou https://t.co/9HJ2FYbVn0",
+        "full_text_source": "text",
+        "id": "2086064117111292198",
+        "media": [
+          {
+            "height": 720,
+            "media_key": "13_2086064022676451328",
+            "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2086064022676451328/img/f6m6Bq-FLLbcx97h.jpg",
+            "type": "video",
+            "width": 1280
+          }
+        ],
+        "text": "▶️LIVE DIGEST\nIDOL SUMMER JUNGLE 2026\n「アンチコンプリート」\n\n#myojou https://t.co/9HJ2FYbVn0",
+        "truncated_text": null
+      },
+      "referenced_tweets": [],
+      "text": "▶️LIVE DIGEST\nIDOL SUMMER JUNGLE 2026\n「アンチコンプリート」\n\n#myojou https://t.co/9HJ2FYbVn0",
+      "truncated_text": null,
+      "url": "https://x.com/info_myojou/status/2086064117111292198"
+    },
+    {
+      "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「myojou Greeting Event」\n\n⟣date：8/9（日）\n⟣place : TIME SHARING 新宿8A （東京都新宿区歌舞伎町1-1-15 東信同和ビル8F）\n⟣time : 16:00-18:00 浴衣\n⟣price： ¥0\n\n【受付期間】\n-8/9（日）17:30\n🔗 https://t.co/qFSIFQtwm7\n\n#myojou https://t.co/nmj1svpqVQ",
+      "attachments": {
+        "media_keys": [
+          "3_2086042996840288256"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "day_before_reminder"
+      },
+      "created_at": "2026-08-08T10:53:04+00:00",
+      "entities": {
+        "hashtags": [
+          {
+            "end": 205,
+            "start": 198,
+            "tag": "myojou"
+          }
+        ],
+        "urls": [
+          {
+            "description": "【日付】2026/08/09 【場所】TIME SHARING 新宿8A 【出演者】myojou",
+            "display_url": "t-dv.com/myojou_0809",
+            "end": 196,
+            "expanded_url": "http://t-dv.com/myojou_0809",
+            "start": 173,
+            "status": 200,
+            "title": "myojou Greeting Event | TicketDive",
+            "unwound_url": "https://ticketdive.com/event/myojou_0809",
+            "url": "https://t.co/qFSIFQtwm7"
+          },
+          {
+            "display_url": "pic.x.com/nmj1svpqVQ",
+            "end": 229,
+            "expanded_url": "https://x.com/info_myojou/status/2086043008030626210/photo/1",
+            "media_key": "3_2086042996840288256",
+            "start": 206,
+            "url": "https://t.co/nmj1svpqVQ"
+          }
+        ]
+      },
+      "full_text_source": "text",
+      "id": "2086043008030626210",
+      "media": [
+        {
+          "height": 3508,
+          "media_key": "3_2086042996840288256",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HPMdDaTbUAAsuPc.jpg",
+          "width": 2480
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": null,
+      "parsed_fields": {
+        "benefit_event_time": null,
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-08-09",
+        "event_dates": [
+          "2026-08-09"
+        ],
+        "event_name": "myojou Greeting Event",
+        "extraction_confidence": 0.85,
+        "general_ticket_price": 0,
+        "lottery_result_at": null,
+        "myojou_performance_time": null,
+        "notes": null,
+        "open_time": null,
+        "payment_deadline_at": null,
+        "priority_ticket_name": null,
+        "priority_ticket_price": null,
+        "same_day_ticket_price": null,
+        "source_kind": "day_before_reminder",
+        "source_post_id": "2086043008030626210",
+        "source_posted_at": "2026-08-08T10:53:04Z",
+        "source_raw": {
+          "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「myojou Greeting Event」\n\n⟣date：8/9（日）\n⟣place : TIME SHARING 新宿8A （東京都新宿区歌舞伎町1-1-15 東信同和ビル8F）\n⟣time : 16:00-18:00 浴衣\n⟣price： ¥0\n\n【受付期間】\n-8/9（日）17:30\n🔗 https://t.co/qFSIFQtwm7\n\n#myojou https://t.co/nmj1svpqVQ",
+          "attachments": {
+            "media_keys": [
+              "3_2086042996840288256"
+            ]
+          },
+          "created_at": "2026-08-08T10:53:04.000Z",
+          "edit_history_tweet_ids": [
+            "2086043008030626210"
+          ],
+          "entities": {
+            "hashtags": [
+              {
+                "end": 205,
+                "start": 198,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "description": "【日付】2026/08/09 【場所】TIME SHARING 新宿8A 【出演者】myojou",
+                "display_url": "t-dv.com/myojou_0809",
+                "end": 196,
+                "expanded_url": "http://t-dv.com/myojou_0809",
+                "start": 173,
+                "status": 200,
+                "title": "myojou Greeting Event | TicketDive",
+                "unwound_url": "https://ticketdive.com/event/myojou_0809",
+                "url": "https://t.co/qFSIFQtwm7"
+              },
+              {
+                "display_url": "pic.x.com/nmj1svpqVQ",
+                "end": 229,
+                "expanded_url": "https://x.com/info_myojou/status/2086043008030626210/photo/1",
+                "media_key": "3_2086042996840288256",
+                "start": 206,
+                "url": "https://t.co/nmj1svpqVQ"
+              }
+            ]
+          },
+          "full_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「myojou Greeting Event」\n\n⟣date：8/9（日）\n⟣place : TIME SHARING 新宿8A （東京都新宿区歌舞伎町1-1-15 東信同和ビル8F）\n⟣time : 16:00-18:00 浴衣\n⟣price： ¥0\n\n【受付期間】\n-8/9（日）17:30\n🔗 https://t.co/qFSIFQtwm7\n\n#myojou https://t.co/nmj1svpqVQ",
+          "full_text_source": "text",
+          "id": "2086043008030626210",
+          "media": [
+            {
+              "height": 3508,
+              "media_key": "3_2086042996840288256",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HPMdDaTbUAAsuPc.jpg",
+              "width": 2480
+            }
+          ],
+          "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「myojou Greeting Event」\n\n⟣date：8/9（日）\n⟣place : TIME SHARING 新宿8A （東京都新宿区歌舞伎町1-1-15 東信同和ビル8F）\n⟣time : 16:00-18:00 浴衣\n⟣price： ¥0\n\n【受付期間】\n-8/9（日）17:30\n🔗 https://t.co/qFSIFQtwm7\n\n#myojou https://t.co/nmj1svpqVQ",
+          "truncated_text": null
+        },
+        "source_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「myojou Greeting Event」\n\n⟣date：8/9（日）\n⟣place : TIME SHARING 新宿8A （東京都新宿区歌舞伎町1-1-15 東信同和ビル8F）\n⟣time : 16:00-18:00 浴衣\n⟣price： ¥0\n\n【受付期間】\n-8/9（日）17:30\n🔗 https://t.co/qFSIFQtwm7\n\n#myojou https://t.co/nmj1svpqVQ",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2086043008030626210",
+        "start_time": null,
+        "ticket_application_deadline_at": "2026-08-09T17:30:00+09:00",
+        "ticket_application_start_at": null,
+        "ticket_sale_type": "無料",
+        "ticket_sales": [
+          {
+            "deadline_at": "2026-08-09T17:30:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 0,
+            "result_at": null,
+            "sale_type": "不明",
+            "source_post_id": "2086043008030626210",
+            "source_url": "https://x.com/info_myojou/status/2086043008030626210",
+            "start_at": null,
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "http://t-dv.com/myojou_0809",
+        "venue": "TIME SHARING 新宿8A (東京都新宿区歌舞伎町1-1-15 東信同和ビル8F)"
+      },
+      "raw": {
+        "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「myojou Greeting Event」\n\n⟣date：8/9（日）\n⟣place : TIME SHARING 新宿8A （東京都新宿区歌舞伎町1-1-15 東信同和ビル8F）\n⟣time : 16:00-18:00 浴衣\n⟣price： ¥0\n\n【受付期間】\n-8/9（日）17:30\n🔗 https://t.co/qFSIFQtwm7\n\n#myojou https://t.co/nmj1svpqVQ",
+        "attachments": {
+          "media_keys": [
+            "3_2086042996840288256"
+          ]
+        },
+        "created_at": "2026-08-08T10:53:04.000Z",
+        "edit_history_tweet_ids": [
+          "2086043008030626210"
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "end": 205,
+              "start": 198,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "description": "【日付】2026/08/09 【場所】TIME SHARING 新宿8A 【出演者】myojou",
+              "display_url": "t-dv.com/myojou_0809",
+              "end": 196,
+              "expanded_url": "http://t-dv.com/myojou_0809",
+              "start": 173,
+              "status": 200,
+              "title": "myojou Greeting Event | TicketDive",
+              "unwound_url": "https://ticketdive.com/event/myojou_0809",
+              "url": "https://t.co/qFSIFQtwm7"
+            },
+            {
+              "display_url": "pic.x.com/nmj1svpqVQ",
+              "end": 229,
+              "expanded_url": "https://x.com/info_myojou/status/2086043008030626210/photo/1",
+              "media_key": "3_2086042996840288256",
+              "start": 206,
+              "url": "https://t.co/nmj1svpqVQ"
+            }
+          ]
+        },
+        "full_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「myojou Greeting Event」\n\n⟣date：8/9（日）\n⟣place : TIME SHARING 新宿8A （東京都新宿区歌舞伎町1-1-15 東信同和ビル8F）\n⟣time : 16:00-18:00 浴衣\n⟣price： ¥0\n\n【受付期間】\n-8/9（日）17:30\n🔗 https://t.co/qFSIFQtwm7\n\n#myojou https://t.co/nmj1svpqVQ",
+        "full_text_source": "text",
+        "id": "2086043008030626210",
+        "media": [
+          {
+            "height": 3508,
+            "media_key": "3_2086042996840288256",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HPMdDaTbUAAsuPc.jpg",
+            "width": 2480
+          }
+        ],
+        "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「myojou Greeting Event」\n\n⟣date：8/9（日）\n⟣place : TIME SHARING 新宿8A （東京都新宿区歌舞伎町1-1-15 東信同和ビル8F）\n⟣time : 16:00-18:00 浴衣\n⟣price： ¥0\n\n【受付期間】\n-8/9（日）17:30\n🔗 https://t.co/qFSIFQtwm7\n\n#myojou https://t.co/nmj1svpqVQ",
+        "truncated_text": null
+      },
+      "referenced_tweets": [],
+      "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「myojou Greeting Event」\n\n⟣date：8/9（日）\n⟣place : TIME SHARING 新宿8A （東京都新宿区歌舞伎町1-1-15 東信同和ビル8F）\n⟣time : 16:00-18:00 浴衣\n⟣price： ¥0\n\n【受付期間】\n-8/9（日）17:30\n🔗 https://t.co/qFSIFQtwm7\n\n#myojou https://t.co/nmj1svpqVQ",
+      "truncated_text": null,
+      "url": "https://x.com/info_myojou/status/2086043008030626210"
+    },
+    {
+      "api_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                        ⟡.·*.御礼.*·.⟡\n  IDOL SUMMER JUNGLE 2026 Day2\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「 IDOL SUMMER JUNGLE 2026 Day2」ありがとうございました⋆˙⟡\n\n左から\n栗原ここね@myojou_cocone https://t.co/VFIQlVnrqU",
+      "attachments": {
+        "media_keys": [
+          "3_2086041314299346944"
+        ]
+      },
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "profile/member introduction",
+        "source_kind": "other"
+      },
+      "created_at": "2026-08-08T10:46:22+00:00",
+      "entities": {
+        "mentions": [
+          {
+            "end": 190,
+            "id": "1590652199407083520",
+            "start": 176,
+            "username": "myojou_cocone"
+          }
+        ],
+        "urls": [
+          {
+            "display_url": "pic.x.com/VFIQlVnrqU",
+            "end": 214,
+            "expanded_url": "https://x.com/info_myojou/status/2086041322826473575/photo/1",
+            "media_key": "3_2086041314299346944",
+            "start": 191,
+            "url": "https://t.co/VFIQlVnrqU"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2086041322826473575",
+      "media": [
+        {
+          "alt_text": "M1,CHRONOS\nM2,星景讃歌\nM3,蛍夏\nM4,HeartBeat\nM5,アンチコンプリート",
+          "height": 1044,
+          "media_key": "3_2086041314299346944",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HPMbheWaAAAyMgy.jpg",
+          "width": 1566
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 307,
+              "start": 300,
+              "tag": "myojou"
+            }
+          ],
+          "mentions": [
+            {
+              "end": 190,
+              "id": "1590652199407083520",
+              "start": 176,
+              "username": "myojou_cocone"
+            },
+            {
+              "end": 208,
+              "id": "1981655668626165760",
+              "start": 196,
+              "username": "myojou_ruka"
+            },
+            {
+              "end": 229,
+              "id": "1344586625901158401",
+              "start": 214,
+              "username": "myojou_usukura"
+            },
+            {
+              "end": 248,
+              "id": "1754991922807177216",
+              "start": 235,
+              "username": "myojou_shino"
+            },
+            {
+              "end": 265,
+              "id": "2009245855694675968",
+              "start": 254,
+              "username": "myojou_miu"
+            },
+            {
+              "end": 282,
+              "id": "2009274765895450624",
+              "start": 271,
+              "username": "myojou_yun"
+            }
+          ]
+        },
+        "text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                        ⟡.·*.御礼.*·.⟡\n  IDOL SUMMER JUNGLE 2026 Day2\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「 IDOL SUMMER JUNGLE 2026 Day2」ありがとうございました⋆˙⟡\n\n左から\n栗原ここね@myojou_cocone \n姫乃るか@myojou_ruka \n薄倉りな@myojou_usukura \n真希しの@myojou_shino \n日陽みう@myojou_miu \n澪奈ゆん@myojou_yun \n\nSETLIST▶︎ALT\n\n #myojou"
+      },
+      "parsed_fields": null,
+      "raw": {
+        "api_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                        ⟡.·*.御礼.*·.⟡\n  IDOL SUMMER JUNGLE 2026 Day2\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「 IDOL SUMMER JUNGLE 2026 Day2」ありがとうございました⋆˙⟡\n\n左から\n栗原ここね@myojou_cocone https://t.co/VFIQlVnrqU",
+        "attachments": {
+          "media_keys": [
+            "3_2086041314299346944"
+          ]
+        },
+        "created_at": "2026-08-08T10:46:22.000Z",
+        "edit_history_tweet_ids": [
+          "2086041322826473575"
+        ],
+        "entities": {
+          "mentions": [
+            {
+              "end": 190,
+              "id": "1590652199407083520",
+              "start": 176,
+              "username": "myojou_cocone"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "pic.x.com/VFIQlVnrqU",
+              "end": 214,
+              "expanded_url": "https://x.com/info_myojou/status/2086041322826473575/photo/1",
+              "media_key": "3_2086041314299346944",
+              "start": 191,
+              "url": "https://t.co/VFIQlVnrqU"
+            }
+          ]
+        },
+        "full_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                        ⟡.·*.御礼.*·.⟡\n  IDOL SUMMER JUNGLE 2026 Day2\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「 IDOL SUMMER JUNGLE 2026 Day2」ありがとうございました⋆˙⟡\n\n左から\n栗原ここね@myojou_cocone \n姫乃るか@myojou_ruka \n薄倉りな@myojou_usukura \n真希しの@myojou_shino \n日陽みう@myojou_miu \n澪奈ゆん@myojou_yun \n\nSETLIST▶︎ALT\n\n #myojou",
+        "full_text_source": "note_tweet",
+        "id": "2086041322826473575",
+        "media": [
+          {
+            "alt_text": "M1,CHRONOS\nM2,星景讃歌\nM3,蛍夏\nM4,HeartBeat\nM5,アンチコンプリート",
+            "height": 1044,
+            "media_key": "3_2086041314299346944",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HPMbheWaAAAyMgy.jpg",
+            "width": 1566
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 307,
+                "start": 300,
+                "tag": "myojou"
+              }
+            ],
+            "mentions": [
+              {
+                "end": 190,
+                "id": "1590652199407083520",
+                "start": 176,
+                "username": "myojou_cocone"
+              },
+              {
+                "end": 208,
+                "id": "1981655668626165760",
+                "start": 196,
+                "username": "myojou_ruka"
+              },
+              {
+                "end": 229,
+                "id": "1344586625901158401",
+                "start": 214,
+                "username": "myojou_usukura"
+              },
+              {
+                "end": 248,
+                "id": "1754991922807177216",
+                "start": 235,
+                "username": "myojou_shino"
+              },
+              {
+                "end": 265,
+                "id": "2009245855694675968",
+                "start": 254,
+                "username": "myojou_miu"
+              },
+              {
+                "end": 282,
+                "id": "2009274765895450624",
+                "start": 271,
+                "username": "myojou_yun"
+              }
+            ]
+          },
+          "text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                        ⟡.·*.御礼.*·.⟡\n  IDOL SUMMER JUNGLE 2026 Day2\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「 IDOL SUMMER JUNGLE 2026 Day2」ありがとうございました⋆˙⟡\n\n左から\n栗原ここね@myojou_cocone \n姫乃るか@myojou_ruka \n薄倉りな@myojou_usukura \n真希しの@myojou_shino \n日陽みう@myojou_miu \n澪奈ゆん@myojou_yun \n\nSETLIST▶︎ALT\n\n #myojou"
+        },
+        "text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                        ⟡.·*.御礼.*·.⟡\n  IDOL SUMMER JUNGLE 2026 Day2\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「 IDOL SUMMER JUNGLE 2026 Day2」ありがとうございました⋆˙⟡\n\n左から\n栗原ここね@myojou_cocone https://t.co/VFIQlVnrqU",
+        "truncated_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                        ⟡.·*.御礼.*·.⟡\n  IDOL SUMMER JUNGLE 2026 Day2\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「 IDOL SUMMER JUNGLE 2026 Day2」ありがとうございました⋆˙⟡\n\n左から\n栗原ここね@myojou_cocone https://t.co/VFIQlVnrqU"
+      },
+      "referenced_tweets": [],
+      "text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                        ⟡.·*.御礼.*·.⟡\n  IDOL SUMMER JUNGLE 2026 Day2\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「 IDOL SUMMER JUNGLE 2026 Day2」ありがとうございました⋆˙⟡\n\n左から\n栗原ここね@myojou_cocone \n姫乃るか@myojou_ruka \n薄倉りな@myojou_usukura \n真希しの@myojou_shino \n日陽みう@myojou_miu \n澪奈ゆん@myojou_yun \n\nSETLIST▶︎ALT\n\n #myojou",
+      "truncated_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                        ⟡.·*.御礼.*·.⟡\n  IDOL SUMMER JUNGLE 2026 Day2\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「 IDOL SUMMER JUNGLE 2026 Day2」ありがとうございました⋆˙⟡\n\n左から\n栗原ここね@myojou_cocone https://t.co/VFIQlVnrqU",
+      "url": "https://x.com/info_myojou/status/2086041322826473575"
+    },
+    {
+      "api_text": "▶️LIVE DIGEST\nIDOL SUMMER JUNGLE 2026\n「蛍夏」\n\n#myojou https://t.co/S8w5YV3HM9",
+      "attachments": {
+        "media_keys": [
+          "13_2086000533756891136"
+        ]
+      },
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "live digest recap",
+        "source_kind": "other"
+      },
+      "created_at": "2026-08-08T08:20:09+00:00",
+      "entities": {
+        "hashtags": [
+          {
+            "end": 51,
+            "start": 44,
+            "tag": "myojou"
+          }
+        ],
+        "urls": [
+          {
+            "display_url": "pic.x.com/S8w5YV3HM9",
+            "end": 75,
+            "expanded_url": "https://x.com/info_myojou/status/2086004523726958976/video/1",
+            "media_key": "13_2086000533756891136",
+            "start": 52,
+            "url": "https://t.co/S8w5YV3HM9"
+          }
+        ]
+      },
+      "full_text_source": "text",
+      "id": "2086004523726958976",
+      "media": [
+        {
+          "height": 1080,
+          "media_key": "13_2086000533756891136",
+          "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2086000533756891136/img/szUhJm8fWbJIkbvp.jpg",
+          "type": "video",
+          "width": 1920
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "note_tweet": null,
+      "parsed_fields": null,
+      "raw": {
+        "api_text": "▶️LIVE DIGEST\nIDOL SUMMER JUNGLE 2026\n「蛍夏」\n\n#myojou https://t.co/S8w5YV3HM9",
+        "attachments": {
+          "media_keys": [
+            "13_2086000533756891136"
+          ]
+        },
+        "created_at": "2026-08-08T08:20:09.000Z",
+        "edit_history_tweet_ids": [
+          "2086004523726958976"
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "end": 51,
+              "start": 44,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "pic.x.com/S8w5YV3HM9",
+              "end": 75,
+              "expanded_url": "https://x.com/info_myojou/status/2086004523726958976/video/1",
+              "media_key": "13_2086000533756891136",
+              "start": 52,
+              "url": "https://t.co/S8w5YV3HM9"
+            }
+          ]
+        },
+        "full_text": "▶️LIVE DIGEST\nIDOL SUMMER JUNGLE 2026\n「蛍夏」\n\n#myojou https://t.co/S8w5YV3HM9",
+        "full_text_source": "text",
+        "id": "2086004523726958976",
+        "media": [
+          {
+            "height": 1080,
+            "media_key": "13_2086000533756891136",
+            "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2086000533756891136/img/szUhJm8fWbJIkbvp.jpg",
+            "type": "video",
+            "width": 1920
+          }
+        ],
+        "text": "▶️LIVE DIGEST\nIDOL SUMMER JUNGLE 2026\n「蛍夏」\n\n#myojou https://t.co/S8w5YV3HM9",
+        "truncated_text": null
+      },
+      "referenced_tweets": [],
+      "text": "▶️LIVE DIGEST\nIDOL SUMMER JUNGLE 2026\n「蛍夏」\n\n#myojou https://t.co/S8w5YV3HM9",
+      "truncated_text": null,
+      "url": "https://x.com/info_myojou/status/2086004523726958976"
+    },
+    {
       "api_text": "▶️LIVE DIGEST\nIDOL SUMMER JUNGLE 2026\n「軌跡まで」\n\n#myojou https://t.co/apbQlWhc3v",
       "attachments": {
         "media_keys": [
@@ -146858,7 +147591,7 @@
     "backfill": true,
     "dry_run": true,
     "estimated_x_post_reads": 411,
-    "latest_post_id": "2085719897632596191",
+    "latest_post_id": "2086067677941141781",
     "max_pages": 10,
     "max_posts": 500,
     "max_results": 5,
@@ -146901,16 +147634,16 @@
       }
     ],
     "pages_fetched": 5,
-    "posts_fetched": 679,
+    "posts_fetched": 684,
     "rate_limit_headers": {
       "x-rate-limit-limit": "10000",
       "x-rate-limit-remaining": "9993",
       "x-rate-limit-reset": "1781108896"
     },
-    "total_posts": 679,
-    "updated_at": "2026-08-07T19:53:31.118084+00:00",
+    "total_posts": 684,
+    "updated_at": "2026-08-08T19:33:05.886756+00:00",
     "username": "info_myojou"
   },
   "source": "x_api",
-  "updated_at": "2026-08-07T19:53:31.118084+00:00"
+  "updated_at": "2026-08-08T19:33:05.886756+00:00"
 }
