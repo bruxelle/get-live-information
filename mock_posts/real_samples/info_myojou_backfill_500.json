@@ -2,6 +2,1917 @@
   "captured_at": "2026-06-10T16:19:36.141820+00:00",
   "data": [
     {
+      "api_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                        ⟡.·*.御礼.*·.⟡\n                  NEO KASSEN2026\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「NEO KASSEN2026」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n日陽みう@myojou_miu https://t.co/DP1RSHS2WR",
+      "attachments": {
+        "media_keys": [
+          "3_2086811001459257344"
+        ]
+      },
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "profile/member introduction",
+        "source_kind": "other"
+      },
+      "created_at": "2026-08-10T13:44:49+00:00",
+      "entities": {
+        "mentions": [
+          {
+            "end": 176,
+            "id": "1981655668626165760",
+            "start": 164,
+            "username": "myojou_ruka"
+          },
+          {
+            "end": 193,
+            "id": "2009245855694675968",
+            "start": 182,
+            "username": "myojou_miu"
+          }
+        ],
+        "urls": [
+          {
+            "display_url": "pic.x.com/DP1RSHS2WR",
+            "end": 217,
+            "expanded_url": "https://x.com/info_myojou/status/2086811007591252145/photo/1",
+            "media_key": "3_2086811001459257344",
+            "start": 194,
+            "url": "https://t.co/DP1RSHS2WR"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2086811007591252145",
+      "media": [
+        {
+          "alt_text": "M0,SE short\nM1,yoakeno\nM2,夏、空模様\nM3,星景讃歌\nM4,アンチコンプリート\nM5,蛍夏\nM6,HeartBeat",
+          "height": 1108,
+          "media_key": "3_2086811001459257344",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HPXXjKdbMAAndHY.jpg",
+          "width": 1477
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 302,
+              "start": 295,
+              "tag": "myojou"
+            }
+          ],
+          "mentions": [
+            {
+              "end": 176,
+              "id": "1981655668626165760",
+              "start": 164,
+              "username": "myojou_ruka"
+            },
+            {
+              "end": 193,
+              "id": "2009245855694675968",
+              "start": 182,
+              "username": "myojou_miu"
+            },
+            {
+              "end": 214,
+              "id": "1344586625901158401",
+              "start": 199,
+              "username": "myojou_usukura"
+            },
+            {
+              "end": 241,
+              "id": "1590652199407083520",
+              "start": 227,
+              "username": "myojou_cocone"
+            },
+            {
+              "end": 260,
+              "id": "1754991922807177216",
+              "start": 247,
+              "username": "myojou_shino"
+            },
+            {
+              "end": 277,
+              "id": "2009274765895450624",
+              "start": 266,
+              "username": "myojou_yun"
+            }
+          ]
+        },
+        "text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                        ⟡.·*.御礼.*·.⟡\n                  NEO KASSEN2026\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「NEO KASSEN2026」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n日陽みう@myojou_miu \n薄倉りな@myojou_usukura \n下段左から\n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n澪奈ゆん@myojou_yun \n\nSETLIST▶︎ALT\n\n #myojou"
+      },
+      "parsed_fields": null,
+      "raw": {
+        "api_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                        ⟡.·*.御礼.*·.⟡\n                  NEO KASSEN2026\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「NEO KASSEN2026」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n日陽みう@myojou_miu https://t.co/DP1RSHS2WR",
+        "attachments": {
+          "media_keys": [
+            "3_2086811001459257344"
+          ]
+        },
+        "created_at": "2026-08-10T13:44:49.000Z",
+        "edit_history_tweet_ids": [
+          "2086811007591252145"
+        ],
+        "entities": {
+          "mentions": [
+            {
+              "end": 176,
+              "id": "1981655668626165760",
+              "start": 164,
+              "username": "myojou_ruka"
+            },
+            {
+              "end": 193,
+              "id": "2009245855694675968",
+              "start": 182,
+              "username": "myojou_miu"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "pic.x.com/DP1RSHS2WR",
+              "end": 217,
+              "expanded_url": "https://x.com/info_myojou/status/2086811007591252145/photo/1",
+              "media_key": "3_2086811001459257344",
+              "start": 194,
+              "url": "https://t.co/DP1RSHS2WR"
+            }
+          ]
+        },
+        "full_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                        ⟡.·*.御礼.*·.⟡\n                  NEO KASSEN2026\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「NEO KASSEN2026」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n日陽みう@myojou_miu \n薄倉りな@myojou_usukura \n下段左から\n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n澪奈ゆん@myojou_yun \n\nSETLIST▶︎ALT\n\n #myojou",
+        "full_text_source": "note_tweet",
+        "id": "2086811007591252145",
+        "media": [
+          {
+            "alt_text": "M0,SE short\nM1,yoakeno\nM2,夏、空模様\nM3,星景讃歌\nM4,アンチコンプリート\nM5,蛍夏\nM6,HeartBeat",
+            "height": 1108,
+            "media_key": "3_2086811001459257344",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HPXXjKdbMAAndHY.jpg",
+            "width": 1477
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 302,
+                "start": 295,
+                "tag": "myojou"
+              }
+            ],
+            "mentions": [
+              {
+                "end": 176,
+                "id": "1981655668626165760",
+                "start": 164,
+                "username": "myojou_ruka"
+              },
+              {
+                "end": 193,
+                "id": "2009245855694675968",
+                "start": 182,
+                "username": "myojou_miu"
+              },
+              {
+                "end": 214,
+                "id": "1344586625901158401",
+                "start": 199,
+                "username": "myojou_usukura"
+              },
+              {
+                "end": 241,
+                "id": "1590652199407083520",
+                "start": 227,
+                "username": "myojou_cocone"
+              },
+              {
+                "end": 260,
+                "id": "1754991922807177216",
+                "start": 247,
+                "username": "myojou_shino"
+              },
+              {
+                "end": 277,
+                "id": "2009274765895450624",
+                "start": 266,
+                "username": "myojou_yun"
+              }
+            ]
+          },
+          "text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                        ⟡.·*.御礼.*·.⟡\n                  NEO KASSEN2026\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「NEO KASSEN2026」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n日陽みう@myojou_miu \n薄倉りな@myojou_usukura \n下段左から\n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n澪奈ゆん@myojou_yun \n\nSETLIST▶︎ALT\n\n #myojou"
+        },
+        "text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                        ⟡.·*.御礼.*·.⟡\n                  NEO KASSEN2026\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「NEO KASSEN2026」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n日陽みう@myojou_miu https://t.co/DP1RSHS2WR",
+        "truncated_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                        ⟡.·*.御礼.*·.⟡\n                  NEO KASSEN2026\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「NEO KASSEN2026」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n日陽みう@myojou_miu https://t.co/DP1RSHS2WR"
+      },
+      "referenced_tweets": [],
+      "text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                        ⟡.·*.御礼.*·.⟡\n                  NEO KASSEN2026\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「NEO KASSEN2026」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n日陽みう@myojou_miu \n薄倉りな@myojou_usukura \n下段左から\n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n澪奈ゆん@myojou_yun \n\nSETLIST▶︎ALT\n\n #myojou",
+      "truncated_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                        ⟡.·*.御礼.*·.⟡\n                  NEO KASSEN2026\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「NEO KASSEN2026」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n日陽みう@myojou_miu https://t.co/DP1RSHS2WR",
+      "url": "https://x.com/info_myojou/status/2086811007591252145"
+    },
+    {
+      "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n     UtaGe!×FES☆TIVE 主催サーキット\n                         『超宴祭！』\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n📍Spotify O-WEST\n🎙12:40-13:10\n📸13:20-14:30 （ATOM 4F C）\n\n⟣date：8/16（日）\n⟣place : Spotify O-WEST / duo https://t.co/nBeyWSekU5",
+      "attachments": {
+        "media_keys": [
+          "3_2086800339194527744",
+          "3_2086800339135766529"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "correction"
+      },
+      "created_at": "2026-08-10T13:02:28+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/nBeyWSekU5",
+            "end": 232,
+            "expanded_url": "https://x.com/info_myojou/status/2086800348975694263/photo/1",
+            "media_key": "3_2086800339194527744",
+            "start": 209,
+            "url": "https://t.co/nBeyWSekU5"
+          },
+          {
+            "display_url": "pic.x.com/nBeyWSekU5",
+            "end": 232,
+            "expanded_url": "https://x.com/info_myojou/status/2086800348975694263/photo/1",
+            "media_key": "3_2086800339135766529",
+            "start": 209,
+            "url": "https://t.co/nBeyWSekU5"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2086800348975694263",
+      "media": [
+        {
+          "height": 1849,
+          "media_key": "3_2086800339194527744",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HPXN2ibawAASFvy.jpg",
+          "width": 2048
+        },
+        {
+          "height": 3699,
+          "media_key": "3_2086800339135766529",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HPXN2iNaIAE57bG.jpg",
+          "width": 4096
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 375,
+              "start": 368,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "ticketdive.com/event/chouutag…",
+              "end": 366,
+              "expanded_url": "https://ticketdive.com/event/chouutagematuri",
+              "start": 343,
+              "url": "https://t.co/pQAOQ92kC0"
+            }
+          ]
+        },
+        "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n     UtaGe!×FES☆TIVE 主催サーキット\n                         『超宴祭！』\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n📍Spotify O-WEST\n🎙12:40-13:10\n📸13:20-14:30 （ATOM 4F C）\n\n⟣date：8/16（日）\n⟣place : Spotify O-WEST / duo MUSIC EXCHANGE / WOMB LIVE / SHIBUYA RING\n⟣open/start：10:00/11:00※変更の可能性あり\n⟣price：一般 ¥3,500（各+1D）\n\n【一般販売】\n7/22（水）20:00-8:15（土）23:69\n🔗 https://t.co/pQAOQ92kC0\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": "13:20-14:30",
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-08-16",
+        "event_dates": [
+          "2026-08-16"
+        ],
+        "event_name": "UtaGe!×FES☆TIVE 主催サーキット",
+        "extraction_confidence": 0.95,
+        "general_ticket_price": 3500,
+        "lottery_result_at": null,
+        "myojou_performance_time": "12:40-13:10",
+        "notes": "⟣open/start:10:00/11:00※変更の可能性あり",
+        "open_time": "10:00",
+        "payment_deadline_at": null,
+        "priority_ticket_name": null,
+        "priority_ticket_price": null,
+        "same_day_ticket_price": null,
+        "source_kind": "correction",
+        "source_post_id": "2086800348975694263",
+        "source_posted_at": "2026-08-10T13:02:28Z",
+        "source_raw": {
+          "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n     UtaGe!×FES☆TIVE 主催サーキット\n                         『超宴祭！』\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n📍Spotify O-WEST\n🎙12:40-13:10\n📸13:20-14:30 （ATOM 4F C）\n\n⟣date：8/16（日）\n⟣place : Spotify O-WEST / duo https://t.co/nBeyWSekU5",
+          "attachments": {
+            "media_keys": [
+              "3_2086800339194527744",
+              "3_2086800339135766529"
+            ]
+          },
+          "created_at": "2026-08-10T13:02:28.000Z",
+          "edit_history_tweet_ids": [
+            "2086800348975694263"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/nBeyWSekU5",
+                "end": 232,
+                "expanded_url": "https://x.com/info_myojou/status/2086800348975694263/photo/1",
+                "media_key": "3_2086800339194527744",
+                "start": 209,
+                "url": "https://t.co/nBeyWSekU5"
+              },
+              {
+                "display_url": "pic.x.com/nBeyWSekU5",
+                "end": 232,
+                "expanded_url": "https://x.com/info_myojou/status/2086800348975694263/photo/1",
+                "media_key": "3_2086800339135766529",
+                "start": 209,
+                "url": "https://t.co/nBeyWSekU5"
+              }
+            ]
+          },
+          "full_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n     UtaGe!×FES☆TIVE 主催サーキット\n                         『超宴祭！』\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n📍Spotify O-WEST\n🎙12:40-13:10\n📸13:20-14:30 （ATOM 4F C）\n\n⟣date：8/16（日）\n⟣place : Spotify O-WEST / duo MUSIC EXCHANGE / WOMB LIVE / SHIBUYA RING\n⟣open/start：10:00/11:00※変更の可能性あり\n⟣price：一般 ¥3,500（各+1D）\n\n【一般販売】\n7/22（水）20:00-8:15（土）23:69\n🔗 https://t.co/pQAOQ92kC0\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2086800348975694263",
+          "media": [
+            {
+              "height": 1849,
+              "media_key": "3_2086800339194527744",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HPXN2ibawAASFvy.jpg",
+              "width": 2048
+            },
+            {
+              "height": 3699,
+              "media_key": "3_2086800339135766529",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HPXN2iNaIAE57bG.jpg",
+              "width": 4096
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 375,
+                  "start": 368,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "ticketdive.com/event/chouutag…",
+                  "end": 366,
+                  "expanded_url": "https://ticketdive.com/event/chouutagematuri",
+                  "start": 343,
+                  "url": "https://t.co/pQAOQ92kC0"
+                }
+              ]
+            },
+            "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n     UtaGe!×FES☆TIVE 主催サーキット\n                         『超宴祭！』\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n📍Spotify O-WEST\n🎙12:40-13:10\n📸13:20-14:30 （ATOM 4F C）\n\n⟣date：8/16（日）\n⟣place : Spotify O-WEST / duo MUSIC EXCHANGE / WOMB LIVE / SHIBUYA RING\n⟣open/start：10:00/11:00※変更の可能性あり\n⟣price：一般 ¥3,500（各+1D）\n\n【一般販売】\n7/22（水）20:00-8:15（土）23:69\n🔗 https://t.co/pQAOQ92kC0\n\n#myojou"
+          },
+          "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n     UtaGe!×FES☆TIVE 主催サーキット\n                         『超宴祭！』\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n📍Spotify O-WEST\n🎙12:40-13:10\n📸13:20-14:30 （ATOM 4F C）\n\n⟣date：8/16（日）\n⟣place : Spotify O-WEST / duo https://t.co/nBeyWSekU5",
+          "truncated_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n     UtaGe!×FES☆TIVE 主催サーキット\n                         『超宴祭！』\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n📍Spotify O-WEST\n🎙12:40-13:10\n📸13:20-14:30 （ATOM 4F C）\n\n⟣date：8/16（日）\n⟣place : Spotify O-WEST / duo https://t.co/nBeyWSekU5"
+        },
+        "source_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n     UtaGe!×FES☆TIVE 主催サーキット\n                         『超宴祭！』\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n📍Spotify O-WEST\n🎙12:40-13:10\n📸13:20-14:30 （ATOM 4F C）\n\n⟣date：8/16（日）\n⟣place : Spotify O-WEST / duo MUSIC EXCHANGE / WOMB LIVE / SHIBUYA RING\n⟣open/start：10:00/11:00※変更の可能性あり\n⟣price：一般 ¥3,500（各+1D）\n\n【一般販売】\n7/22（水）20:00-8:15（土）23:69\n🔗 https://t.co/pQAOQ92kC0\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2086800348975694263",
+        "start_time": "11:00",
+        "ticket_application_deadline_at": null,
+        "ticket_application_start_at": "2026-07-22T20:00:00+09:00",
+        "ticket_sale_type": "一般",
+        "ticket_sales": [
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 3500,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2086800348975694263",
+            "source_url": "https://x.com/info_myojou/status/2086800348975694263",
+            "start_at": "2026-07-22T20:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "https://ticketdive.com/event/chouutagematuri",
+        "venue": "Spotify O-WEST / duo MUSIC EXCHANGE / WOMB LIVE / SHIBUYA RING"
+      },
+      "raw": {
+        "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n     UtaGe!×FES☆TIVE 主催サーキット\n                         『超宴祭！』\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n📍Spotify O-WEST\n🎙12:40-13:10\n📸13:20-14:30 （ATOM 4F C）\n\n⟣date：8/16（日）\n⟣place : Spotify O-WEST / duo https://t.co/nBeyWSekU5",
+        "attachments": {
+          "media_keys": [
+            "3_2086800339194527744",
+            "3_2086800339135766529"
+          ]
+        },
+        "created_at": "2026-08-10T13:02:28.000Z",
+        "edit_history_tweet_ids": [
+          "2086800348975694263"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/nBeyWSekU5",
+              "end": 232,
+              "expanded_url": "https://x.com/info_myojou/status/2086800348975694263/photo/1",
+              "media_key": "3_2086800339194527744",
+              "start": 209,
+              "url": "https://t.co/nBeyWSekU5"
+            },
+            {
+              "display_url": "pic.x.com/nBeyWSekU5",
+              "end": 232,
+              "expanded_url": "https://x.com/info_myojou/status/2086800348975694263/photo/1",
+              "media_key": "3_2086800339135766529",
+              "start": 209,
+              "url": "https://t.co/nBeyWSekU5"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n     UtaGe!×FES☆TIVE 主催サーキット\n                         『超宴祭！』\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n📍Spotify O-WEST\n🎙12:40-13:10\n📸13:20-14:30 （ATOM 4F C）\n\n⟣date：8/16（日）\n⟣place : Spotify O-WEST / duo MUSIC EXCHANGE / WOMB LIVE / SHIBUYA RING\n⟣open/start：10:00/11:00※変更の可能性あり\n⟣price：一般 ¥3,500（各+1D）\n\n【一般販売】\n7/22（水）20:00-8:15（土）23:69\n🔗 https://t.co/pQAOQ92kC0\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2086800348975694263",
+        "media": [
+          {
+            "height": 1849,
+            "media_key": "3_2086800339194527744",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HPXN2ibawAASFvy.jpg",
+            "width": 2048
+          },
+          {
+            "height": 3699,
+            "media_key": "3_2086800339135766529",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HPXN2iNaIAE57bG.jpg",
+            "width": 4096
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 375,
+                "start": 368,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "ticketdive.com/event/chouutag…",
+                "end": 366,
+                "expanded_url": "https://ticketdive.com/event/chouutagematuri",
+                "start": 343,
+                "url": "https://t.co/pQAOQ92kC0"
+              }
+            ]
+          },
+          "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n     UtaGe!×FES☆TIVE 主催サーキット\n                         『超宴祭！』\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n📍Spotify O-WEST\n🎙12:40-13:10\n📸13:20-14:30 （ATOM 4F C）\n\n⟣date：8/16（日）\n⟣place : Spotify O-WEST / duo MUSIC EXCHANGE / WOMB LIVE / SHIBUYA RING\n⟣open/start：10:00/11:00※変更の可能性あり\n⟣price：一般 ¥3,500（各+1D）\n\n【一般販売】\n7/22（水）20:00-8:15（土）23:69\n🔗 https://t.co/pQAOQ92kC0\n\n#myojou"
+        },
+        "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n     UtaGe!×FES☆TIVE 主催サーキット\n                         『超宴祭！』\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n📍Spotify O-WEST\n🎙12:40-13:10\n📸13:20-14:30 （ATOM 4F C）\n\n⟣date：8/16（日）\n⟣place : Spotify O-WEST / duo https://t.co/nBeyWSekU5",
+        "truncated_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n     UtaGe!×FES☆TIVE 主催サーキット\n                         『超宴祭！』\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n📍Spotify O-WEST\n🎙12:40-13:10\n📸13:20-14:30 （ATOM 4F C）\n\n⟣date：8/16（日）\n⟣place : Spotify O-WEST / duo https://t.co/nBeyWSekU5"
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n     UtaGe!×FES☆TIVE 主催サーキット\n                         『超宴祭！』\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n📍Spotify O-WEST\n🎙12:40-13:10\n📸13:20-14:30 （ATOM 4F C）\n\n⟣date：8/16（日）\n⟣place : Spotify O-WEST / duo MUSIC EXCHANGE / WOMB LIVE / SHIBUYA RING\n⟣open/start：10:00/11:00※変更の可能性あり\n⟣price：一般 ¥3,500（各+1D）\n\n【一般販売】\n7/22（水）20:00-8:15（土）23:69\n🔗 https://t.co/pQAOQ92kC0\n\n#myojou",
+      "truncated_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n     UtaGe!×FES☆TIVE 主催サーキット\n                         『超宴祭！』\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n📍Spotify O-WEST\n🎙12:40-13:10\n📸13:20-14:30 （ATOM 4F C）\n\n⟣date：8/16（日）\n⟣place : Spotify O-WEST / duo https://t.co/nBeyWSekU5",
+      "url": "https://x.com/info_myojou/status/2086800348975694263"
+    },
+    {
+      "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「HYPE IDOL！Summer」\n\n🎙15:40-16:00\n📸16:10-17:10 （C）\n\n⟣date：8/11（火祝）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:30/11:00 ※変更の可能あり\n⟣price：前方¥8,000 / 一般¥3,000 (各＋１D）\n⟣入場特典：明星カード（サインありチェキ） https://t.co/hPZmghxKqc",
+      "attachments": {
+        "media_keys": [
+          "3_2086797068182716416"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "correction"
+      },
+      "created_at": "2026-08-10T12:49:31+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/hPZmghxKqc",
+            "end": 227,
+            "expanded_url": "https://x.com/info_myojou/status/2086797087996620987/photo/1",
+            "media_key": "3_2086797068182716416",
+            "start": 204,
+            "url": "https://t.co/hPZmghxKqc"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2086797087996620987",
+      "media": [
+        {
+          "height": 4096,
+          "media_key": "3_2086797068182716416",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HPXK4I9bgAAENYf.jpg",
+          "width": 2896
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 314,
+              "start": 307,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "ticketdive.com/event/HYPEIDOL…",
+              "end": 305,
+              "expanded_url": "https://ticketdive.com/event/HYPEIDOLSummer_0811",
+              "start": 282,
+              "url": "https://t.co/CCmLNpoJeC"
+            }
+          ]
+        },
+        "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「HYPE IDOL！Summer」\n\n🎙15:40-16:00\n📸16:10-17:10 （C）\n\n⟣date：8/11（火祝）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:30/11:00 ※変更の可能あり\n⟣price：前方¥8,000 / 一般¥3,000 (各＋１D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般先着販売】\n7/18（土）22:00 - 8/11（火）22:00\n【VIP先着販売】\n7/27（月）19:00 - 8/11（火）22:00\n🔗 https://t.co/CCmLNpoJeC\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": "16:10-17:10",
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-08-11",
+        "event_dates": [
+          "2026-08-11"
+        ],
+        "event_name": "HYPE IDOL!Summer",
+        "extraction_confidence": 0.95,
+        "general_ticket_price": 3000,
+        "lottery_result_at": null,
+        "myojou_performance_time": "15:40-16:00",
+        "notes": "⟣open/start:9:30/11:00 ※変更の可能あり",
+        "open_time": "09:30",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "前方",
+        "priority_ticket_price": 8000,
+        "same_day_ticket_price": null,
+        "source_kind": "correction",
+        "source_post_id": "2086797087996620987",
+        "source_posted_at": "2026-08-10T12:49:31Z",
+        "source_raw": {
+          "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「HYPE IDOL！Summer」\n\n🎙15:40-16:00\n📸16:10-17:10 （C）\n\n⟣date：8/11（火祝）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:30/11:00 ※変更の可能あり\n⟣price：前方¥8,000 / 一般¥3,000 (各＋１D）\n⟣入場特典：明星カード（サインありチェキ） https://t.co/hPZmghxKqc",
+          "attachments": {
+            "media_keys": [
+              "3_2086797068182716416"
+            ]
+          },
+          "created_at": "2026-08-10T12:49:31.000Z",
+          "edit_history_tweet_ids": [
+            "2086797087996620987"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/hPZmghxKqc",
+                "end": 227,
+                "expanded_url": "https://x.com/info_myojou/status/2086797087996620987/photo/1",
+                "media_key": "3_2086797068182716416",
+                "start": 204,
+                "url": "https://t.co/hPZmghxKqc"
+              }
+            ]
+          },
+          "full_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「HYPE IDOL！Summer」\n\n🎙15:40-16:00\n📸16:10-17:10 （C）\n\n⟣date：8/11（火祝）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:30/11:00 ※変更の可能あり\n⟣price：前方¥8,000 / 一般¥3,000 (各＋１D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般先着販売】\n7/18（土）22:00 - 8/11（火）22:00\n【VIP先着販売】\n7/27（月）19:00 - 8/11（火）22:00\n🔗 https://t.co/CCmLNpoJeC\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2086797087996620987",
+          "media": [
+            {
+              "height": 4096,
+              "media_key": "3_2086797068182716416",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HPXK4I9bgAAENYf.jpg",
+              "width": 2896
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 314,
+                  "start": 307,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "ticketdive.com/event/HYPEIDOL…",
+                  "end": 305,
+                  "expanded_url": "https://ticketdive.com/event/HYPEIDOLSummer_0811",
+                  "start": 282,
+                  "url": "https://t.co/CCmLNpoJeC"
+                }
+              ]
+            },
+            "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「HYPE IDOL！Summer」\n\n🎙15:40-16:00\n📸16:10-17:10 （C）\n\n⟣date：8/11（火祝）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:30/11:00 ※変更の可能あり\n⟣price：前方¥8,000 / 一般¥3,000 (各＋１D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般先着販売】\n7/18（土）22:00 - 8/11（火）22:00\n【VIP先着販売】\n7/27（月）19:00 - 8/11（火）22:00\n🔗 https://t.co/CCmLNpoJeC\n\n#myojou"
+          },
+          "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「HYPE IDOL！Summer」\n\n🎙15:40-16:00\n📸16:10-17:10 （C）\n\n⟣date：8/11（火祝）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:30/11:00 ※変更の可能あり\n⟣price：前方¥8,000 / 一般¥3,000 (各＋１D）\n⟣入場特典：明星カード（サインありチェキ） https://t.co/hPZmghxKqc",
+          "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「HYPE IDOL！Summer」\n\n🎙15:40-16:00\n📸16:10-17:10 （C）\n\n⟣date：8/11（火祝）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:30/11:00 ※変更の可能あり\n⟣price：前方¥8,000 / 一般¥3,000 (各＋１D）\n⟣入場特典：明星カード（サインありチェキ） https://t.co/hPZmghxKqc"
+        },
+        "source_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「HYPE IDOL！Summer」\n\n🎙15:40-16:00\n📸16:10-17:10 （C）\n\n⟣date：8/11（火祝）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:30/11:00 ※変更の可能あり\n⟣price：前方¥8,000 / 一般¥3,000 (各＋１D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般先着販売】\n7/18（土）22:00 - 8/11（火）22:00\n【VIP先着販売】\n7/27（月）19:00 - 8/11（火）22:00\n🔗 https://t.co/CCmLNpoJeC\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2086797087996620987",
+        "start_time": "11:00",
+        "ticket_application_deadline_at": "2026-08-11T22:00:00+09:00",
+        "ticket_application_start_at": "2026-07-18T22:00:00+09:00",
+        "ticket_sale_type": "先着",
+        "ticket_sales": [
+          {
+            "deadline_at": "2026-08-11T22:00:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 8000,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2086797087996620987",
+            "source_url": "https://x.com/info_myojou/status/2086797087996620987",
+            "start_at": "2026-07-18T22:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "前方",
+            "ticket_tier": "前方"
+          },
+          {
+            "deadline_at": "2026-08-11T22:00:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 3000,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2086797087996620987",
+            "source_url": "https://x.com/info_myojou/status/2086797087996620987",
+            "start_at": "2026-07-18T22:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          },
+          {
+            "deadline_at": "2026-08-11T22:00:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 8000,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2086797087996620987",
+            "source_url": "https://x.com/info_myojou/status/2086797087996620987",
+            "start_at": "2026-07-27T19:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "前方",
+            "ticket_tier": "前方"
+          },
+          {
+            "deadline_at": "2026-08-11T22:00:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 3000,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2086797087996620987",
+            "source_url": "https://x.com/info_myojou/status/2086797087996620987",
+            "start_at": "2026-07-27T19:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "https://ticketdive.com/event/HYPEIDOLSummer_0811",
+        "venue": "KANDA SQUARE HALL"
+      },
+      "raw": {
+        "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「HYPE IDOL！Summer」\n\n🎙15:40-16:00\n📸16:10-17:10 （C）\n\n⟣date：8/11（火祝）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:30/11:00 ※変更の可能あり\n⟣price：前方¥8,000 / 一般¥3,000 (各＋１D）\n⟣入場特典：明星カード（サインありチェキ） https://t.co/hPZmghxKqc",
+        "attachments": {
+          "media_keys": [
+            "3_2086797068182716416"
+          ]
+        },
+        "created_at": "2026-08-10T12:49:31.000Z",
+        "edit_history_tweet_ids": [
+          "2086797087996620987"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/hPZmghxKqc",
+              "end": 227,
+              "expanded_url": "https://x.com/info_myojou/status/2086797087996620987/photo/1",
+              "media_key": "3_2086797068182716416",
+              "start": 204,
+              "url": "https://t.co/hPZmghxKqc"
+            }
+          ]
+        },
+        "full_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「HYPE IDOL！Summer」\n\n🎙15:40-16:00\n📸16:10-17:10 （C）\n\n⟣date：8/11（火祝）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:30/11:00 ※変更の可能あり\n⟣price：前方¥8,000 / 一般¥3,000 (各＋１D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般先着販売】\n7/18（土）22:00 - 8/11（火）22:00\n【VIP先着販売】\n7/27（月）19:00 - 8/11（火）22:00\n🔗 https://t.co/CCmLNpoJeC\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2086797087996620987",
+        "media": [
+          {
+            "height": 4096,
+            "media_key": "3_2086797068182716416",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HPXK4I9bgAAENYf.jpg",
+            "width": 2896
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 314,
+                "start": 307,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "ticketdive.com/event/HYPEIDOL…",
+                "end": 305,
+                "expanded_url": "https://ticketdive.com/event/HYPEIDOLSummer_0811",
+                "start": 282,
+                "url": "https://t.co/CCmLNpoJeC"
+              }
+            ]
+          },
+          "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「HYPE IDOL！Summer」\n\n🎙15:40-16:00\n📸16:10-17:10 （C）\n\n⟣date：8/11（火祝）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:30/11:00 ※変更の可能あり\n⟣price：前方¥8,000 / 一般¥3,000 (各＋１D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般先着販売】\n7/18（土）22:00 - 8/11（火）22:00\n【VIP先着販売】\n7/27（月）19:00 - 8/11（火）22:00\n🔗 https://t.co/CCmLNpoJeC\n\n#myojou"
+        },
+        "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「HYPE IDOL！Summer」\n\n🎙15:40-16:00\n📸16:10-17:10 （C）\n\n⟣date：8/11（火祝）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:30/11:00 ※変更の可能あり\n⟣price：前方¥8,000 / 一般¥3,000 (各＋１D）\n⟣入場特典：明星カード（サインありチェキ） https://t.co/hPZmghxKqc",
+        "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「HYPE IDOL！Summer」\n\n🎙15:40-16:00\n📸16:10-17:10 （C）\n\n⟣date：8/11（火祝）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:30/11:00 ※変更の可能あり\n⟣price：前方¥8,000 / 一般¥3,000 (各＋１D）\n⟣入場特典：明星カード（サインありチェキ） https://t.co/hPZmghxKqc"
+      },
+      "referenced_tweets": [],
+      "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「HYPE IDOL！Summer」\n\n🎙15:40-16:00\n📸16:10-17:10 （C）\n\n⟣date：8/11（火祝）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:30/11:00 ※変更の可能あり\n⟣price：前方¥8,000 / 一般¥3,000 (各＋１D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般先着販売】\n7/18（土）22:00 - 8/11（火）22:00\n【VIP先着販売】\n7/27（月）19:00 - 8/11（火）22:00\n🔗 https://t.co/CCmLNpoJeC\n\n#myojou",
+      "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「HYPE IDOL！Summer」\n\n🎙15:40-16:00\n📸16:10-17:10 （C）\n\n⟣date：8/11（火祝）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:30/11:00 ※変更の可能あり\n⟣price：前方¥8,000 / 一般¥3,000 (各＋１D）\n⟣入場特典：明星カード（サインありチェキ） https://t.co/hPZmghxKqc",
+      "url": "https://x.com/info_myojou/status/2086797087996620987"
+    },
+    {
+      "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n      myojou autumn tour 2026 \"秋星\"\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\nmyojou秋ツアー開幕！！\nツアー初日に新衣装お披露目決定！\n\n⟣price：VIP¥8,000（会場限定ノベルティ付き）/一般¥2,000（各+1D） https://t.co/LraFSvijnm",
+      "attachments": {
+        "media_keys": [
+          "3_2086784636550828032",
+          "3_2086784636504756224"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "ticket_update"
+      },
+      "created_at": "2026-08-10T12:00:48+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/LraFSvijnm",
+            "end": 185,
+            "expanded_url": "https://x.com/info_myojou/status/2086784829832503370/photo/1",
+            "media_key": "3_2086784636550828032",
+            "start": 162,
+            "url": "https://t.co/LraFSvijnm"
+          },
+          {
+            "display_url": "pic.x.com/LraFSvijnm",
+            "end": 185,
+            "expanded_url": "https://x.com/info_myojou/status/2086784829832503370/photo/1",
+            "media_key": "3_2086784636504756224",
+            "start": 162,
+            "url": "https://t.co/LraFSvijnm"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2086784829832503370",
+      "media": [
+        {
+          "height": 3508,
+          "media_key": "3_2086784636550828032",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HPW_khha0AAYDa5.jpg",
+          "width": 2481
+        },
+        {
+          "height": 3508,
+          "media_key": "3_2086784636504756224",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HPW_khWb0AAU5qC.jpg",
+          "width": 2481
+        }
+      ],
+      "needs_review": true,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 381,
+              "start": 374,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "t-dv.com/myojou_0905",
+              "end": 267,
+              "expanded_url": "https://t-dv.com/myojou_0905",
+              "start": 244,
+              "url": "https://t.co/TWN92wgHvF"
+            },
+            {
+              "display_url": "t-dv.com/myojou_0920",
+              "end": 372,
+              "expanded_url": "https://t-dv.com/myojou_0920",
+              "start": 349,
+              "url": "https://t.co/LGLg9pHbK3"
+            }
+          ]
+        },
+        "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n      myojou autumn tour 2026 \"秋星\"\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\nmyojou秋ツアー開幕！！\nツアー初日に新衣装お披露目決定！\n\n⟣price：VIP¥8,000（会場限定ノベルティ付き）/一般¥2,000（各+1D）\n\n【名古屋公演抽選受付期間】\n8/10（月）21:00-8/17（月）23:59\n【名古屋公演一般受付期間】\n8/18（火）21:00-9/4（金）23:59\n🔗 https://t.co/TWN92wgHvF\n\n【大阪公演抽選受付期間】\n8/10（月）21:00-8/24（月）23:59\n【大阪公演一般受付期間】\n8/25（火）21:00-9/19（土）23:59\n🔗 https://t.co/LGLg9pHbK3\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": null,
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": null,
+        "event_dates": [],
+        "event_name": "myojou autumn tour 2026 \"秋星\"",
+        "extraction_confidence": 0.6,
+        "general_ticket_price": 2000,
+        "lottery_result_at": null,
+        "myojou_performance_time": null,
+        "notes": "ドリンク代: 各+1D",
+        "open_time": null,
+        "payment_deadline_at": null,
+        "priority_ticket_name": "VIP",
+        "priority_ticket_price": 8000,
+        "same_day_ticket_price": null,
+        "source_kind": "ticket_update",
+        "source_post_id": "2086784829832503370",
+        "source_posted_at": "2026-08-10T12:00:48Z",
+        "source_raw": {
+          "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n      myojou autumn tour 2026 \"秋星\"\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\nmyojou秋ツアー開幕！！\nツアー初日に新衣装お披露目決定！\n\n⟣price：VIP¥8,000（会場限定ノベルティ付き）/一般¥2,000（各+1D） https://t.co/LraFSvijnm",
+          "attachments": {
+            "media_keys": [
+              "3_2086784636550828032",
+              "3_2086784636504756224"
+            ]
+          },
+          "created_at": "2026-08-10T12:00:48.000Z",
+          "edit_history_tweet_ids": [
+            "2086784646080348623",
+            "2086784829832503370"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/LraFSvijnm",
+                "end": 185,
+                "expanded_url": "https://x.com/info_myojou/status/2086784829832503370/photo/1",
+                "media_key": "3_2086784636550828032",
+                "start": 162,
+                "url": "https://t.co/LraFSvijnm"
+              },
+              {
+                "display_url": "pic.x.com/LraFSvijnm",
+                "end": 185,
+                "expanded_url": "https://x.com/info_myojou/status/2086784829832503370/photo/1",
+                "media_key": "3_2086784636504756224",
+                "start": 162,
+                "url": "https://t.co/LraFSvijnm"
+              }
+            ]
+          },
+          "full_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n      myojou autumn tour 2026 \"秋星\"\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\nmyojou秋ツアー開幕！！\nツアー初日に新衣装お披露目決定！\n\n⟣price：VIP¥8,000（会場限定ノベルティ付き）/一般¥2,000（各+1D）\n\n【名古屋公演抽選受付期間】\n8/10（月）21:00-8/17（月）23:59\n【名古屋公演一般受付期間】\n8/18（火）21:00-9/4（金）23:59\n🔗 https://t.co/TWN92wgHvF\n\n【大阪公演抽選受付期間】\n8/10（月）21:00-8/24（月）23:59\n【大阪公演一般受付期間】\n8/25（火）21:00-9/19（土）23:59\n🔗 https://t.co/LGLg9pHbK3\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2086784829832503370",
+          "media": [
+            {
+              "height": 3508,
+              "media_key": "3_2086784636550828032",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HPW_khha0AAYDa5.jpg",
+              "width": 2481
+            },
+            {
+              "height": 3508,
+              "media_key": "3_2086784636504756224",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HPW_khWb0AAU5qC.jpg",
+              "width": 2481
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 381,
+                  "start": 374,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "t-dv.com/myojou_0905",
+                  "end": 267,
+                  "expanded_url": "https://t-dv.com/myojou_0905",
+                  "start": 244,
+                  "url": "https://t.co/TWN92wgHvF"
+                },
+                {
+                  "display_url": "t-dv.com/myojou_0920",
+                  "end": 372,
+                  "expanded_url": "https://t-dv.com/myojou_0920",
+                  "start": 349,
+                  "url": "https://t.co/LGLg9pHbK3"
+                }
+              ]
+            },
+            "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n      myojou autumn tour 2026 \"秋星\"\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\nmyojou秋ツアー開幕！！\nツアー初日に新衣装お披露目決定！\n\n⟣price：VIP¥8,000（会場限定ノベルティ付き）/一般¥2,000（各+1D）\n\n【名古屋公演抽選受付期間】\n8/10（月）21:00-8/17（月）23:59\n【名古屋公演一般受付期間】\n8/18（火）21:00-9/4（金）23:59\n🔗 https://t.co/TWN92wgHvF\n\n【大阪公演抽選受付期間】\n8/10（月）21:00-8/24（月）23:59\n【大阪公演一般受付期間】\n8/25（火）21:00-9/19（土）23:59\n🔗 https://t.co/LGLg9pHbK3\n\n#myojou"
+          },
+          "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n      myojou autumn tour 2026 \"秋星\"\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\nmyojou秋ツアー開幕！！\nツアー初日に新衣装お披露目決定！\n\n⟣price：VIP¥8,000（会場限定ノベルティ付き）/一般¥2,000（各+1D） https://t.co/LraFSvijnm",
+          "truncated_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n      myojou autumn tour 2026 \"秋星\"\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\nmyojou秋ツアー開幕！！\nツアー初日に新衣装お披露目決定！\n\n⟣price：VIP¥8,000（会場限定ノベルティ付き）/一般¥2,000（各+1D） https://t.co/LraFSvijnm"
+        },
+        "source_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n      myojou autumn tour 2026 \"秋星\"\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\nmyojou秋ツアー開幕！！\nツアー初日に新衣装お披露目決定！\n\n⟣price：VIP¥8,000（会場限定ノベルティ付き）/一般¥2,000（各+1D）\n\n【名古屋公演抽選受付期間】\n8/10（月）21:00-8/17（月）23:59\n【名古屋公演一般受付期間】\n8/18（火）21:00-9/4（金）23:59\n🔗 https://t.co/TWN92wgHvF\n\n【大阪公演抽選受付期間】\n8/10（月）21:00-8/24（月）23:59\n【大阪公演一般受付期間】\n8/25（火）21:00-9/19（土）23:59\n🔗 https://t.co/LGLg9pHbK3\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2086784829832503370",
+        "start_time": null,
+        "ticket_application_deadline_at": "2026-08-17T23:59:00+09:00",
+        "ticket_application_start_at": "2026-08-10T21:00:00+09:00",
+        "ticket_sale_type": "一般",
+        "ticket_sales": [
+          {
+            "deadline_at": "2026-08-17T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 8000,
+            "result_at": null,
+            "sale_type": "抽選",
+            "source_post_id": "2086784829832503370",
+            "source_url": "https://x.com/info_myojou/status/2086784829832503370",
+            "start_at": "2026-08-10T21:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "VIP",
+            "ticket_tier": "VIP"
+          },
+          {
+            "deadline_at": "2026-08-17T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 2000,
+            "result_at": null,
+            "sale_type": "抽選",
+            "source_post_id": "2086784829832503370",
+            "source_url": "https://x.com/info_myojou/status/2086784829832503370",
+            "start_at": "2026-08-10T21:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          },
+          {
+            "deadline_at": "2026-09-04T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 8000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2086784829832503370",
+            "source_url": "https://x.com/info_myojou/status/2086784829832503370",
+            "start_at": "2026-08-18T21:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "VIP",
+            "ticket_tier": "VIP"
+          },
+          {
+            "deadline_at": "2026-09-04T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 2000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2086784829832503370",
+            "source_url": "https://x.com/info_myojou/status/2086784829832503370",
+            "start_at": "2026-08-18T21:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          },
+          {
+            "deadline_at": "2026-08-24T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 8000,
+            "result_at": null,
+            "sale_type": "抽選",
+            "source_post_id": "2086784829832503370",
+            "source_url": "https://x.com/info_myojou/status/2086784829832503370",
+            "start_at": "2026-08-10T21:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "VIP",
+            "ticket_tier": "VIP"
+          },
+          {
+            "deadline_at": "2026-08-24T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 2000,
+            "result_at": null,
+            "sale_type": "抽選",
+            "source_post_id": "2086784829832503370",
+            "source_url": "https://x.com/info_myojou/status/2086784829832503370",
+            "start_at": "2026-08-10T21:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          },
+          {
+            "deadline_at": "2026-09-19T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 8000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2086784829832503370",
+            "source_url": "https://x.com/info_myojou/status/2086784829832503370",
+            "start_at": "2026-08-25T21:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "VIP",
+            "ticket_tier": "VIP"
+          },
+          {
+            "deadline_at": "2026-09-19T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 2000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2086784829832503370",
+            "source_url": "https://x.com/info_myojou/status/2086784829832503370",
+            "start_at": "2026-08-25T21:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "https://t-dv.com/myojou_0905",
+        "venue": "限定ノベルティ付き)/一般¥2,000(各+1D)"
+      },
+      "raw": {
+        "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n      myojou autumn tour 2026 \"秋星\"\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\nmyojou秋ツアー開幕！！\nツアー初日に新衣装お披露目決定！\n\n⟣price：VIP¥8,000（会場限定ノベルティ付き）/一般¥2,000（各+1D） https://t.co/LraFSvijnm",
+        "attachments": {
+          "media_keys": [
+            "3_2086784636550828032",
+            "3_2086784636504756224"
+          ]
+        },
+        "created_at": "2026-08-10T12:00:48.000Z",
+        "edit_history_tweet_ids": [
+          "2086784646080348623",
+          "2086784829832503370"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/LraFSvijnm",
+              "end": 185,
+              "expanded_url": "https://x.com/info_myojou/status/2086784829832503370/photo/1",
+              "media_key": "3_2086784636550828032",
+              "start": 162,
+              "url": "https://t.co/LraFSvijnm"
+            },
+            {
+              "display_url": "pic.x.com/LraFSvijnm",
+              "end": 185,
+              "expanded_url": "https://x.com/info_myojou/status/2086784829832503370/photo/1",
+              "media_key": "3_2086784636504756224",
+              "start": 162,
+              "url": "https://t.co/LraFSvijnm"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n      myojou autumn tour 2026 \"秋星\"\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\nmyojou秋ツアー開幕！！\nツアー初日に新衣装お披露目決定！\n\n⟣price：VIP¥8,000（会場限定ノベルティ付き）/一般¥2,000（各+1D）\n\n【名古屋公演抽選受付期間】\n8/10（月）21:00-8/17（月）23:59\n【名古屋公演一般受付期間】\n8/18（火）21:00-9/4（金）23:59\n🔗 https://t.co/TWN92wgHvF\n\n【大阪公演抽選受付期間】\n8/10（月）21:00-8/24（月）23:59\n【大阪公演一般受付期間】\n8/25（火）21:00-9/19（土）23:59\n🔗 https://t.co/LGLg9pHbK3\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2086784829832503370",
+        "media": [
+          {
+            "height": 3508,
+            "media_key": "3_2086784636550828032",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HPW_khha0AAYDa5.jpg",
+            "width": 2481
+          },
+          {
+            "height": 3508,
+            "media_key": "3_2086784636504756224",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HPW_khWb0AAU5qC.jpg",
+            "width": 2481
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 381,
+                "start": 374,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "t-dv.com/myojou_0905",
+                "end": 267,
+                "expanded_url": "https://t-dv.com/myojou_0905",
+                "start": 244,
+                "url": "https://t.co/TWN92wgHvF"
+              },
+              {
+                "display_url": "t-dv.com/myojou_0920",
+                "end": 372,
+                "expanded_url": "https://t-dv.com/myojou_0920",
+                "start": 349,
+                "url": "https://t.co/LGLg9pHbK3"
+              }
+            ]
+          },
+          "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n      myojou autumn tour 2026 \"秋星\"\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\nmyojou秋ツアー開幕！！\nツアー初日に新衣装お披露目決定！\n\n⟣price：VIP¥8,000（会場限定ノベルティ付き）/一般¥2,000（各+1D）\n\n【名古屋公演抽選受付期間】\n8/10（月）21:00-8/17（月）23:59\n【名古屋公演一般受付期間】\n8/18（火）21:00-9/4（金）23:59\n🔗 https://t.co/TWN92wgHvF\n\n【大阪公演抽選受付期間】\n8/10（月）21:00-8/24（月）23:59\n【大阪公演一般受付期間】\n8/25（火）21:00-9/19（土）23:59\n🔗 https://t.co/LGLg9pHbK3\n\n#myojou"
+        },
+        "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n      myojou autumn tour 2026 \"秋星\"\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\nmyojou秋ツアー開幕！！\nツアー初日に新衣装お披露目決定！\n\n⟣price：VIP¥8,000（会場限定ノベルティ付き）/一般¥2,000（各+1D） https://t.co/LraFSvijnm",
+        "truncated_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n      myojou autumn tour 2026 \"秋星\"\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\nmyojou秋ツアー開幕！！\nツアー初日に新衣装お披露目決定！\n\n⟣price：VIP¥8,000（会場限定ノベルティ付き）/一般¥2,000（各+1D） https://t.co/LraFSvijnm"
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n      myojou autumn tour 2026 \"秋星\"\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\nmyojou秋ツアー開幕！！\nツアー初日に新衣装お披露目決定！\n\n⟣price：VIP¥8,000（会場限定ノベルティ付き）/一般¥2,000（各+1D）\n\n【名古屋公演抽選受付期間】\n8/10（月）21:00-8/17（月）23:59\n【名古屋公演一般受付期間】\n8/18（火）21:00-9/4（金）23:59\n🔗 https://t.co/TWN92wgHvF\n\n【大阪公演抽選受付期間】\n8/10（月）21:00-8/24（月）23:59\n【大阪公演一般受付期間】\n8/25（火）21:00-9/19（土）23:59\n🔗 https://t.co/LGLg9pHbK3\n\n#myojou",
+      "truncated_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n      myojou autumn tour 2026 \"秋星\"\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\nmyojou秋ツアー開幕！！\nツアー初日に新衣装お披露目決定！\n\n⟣price：VIP¥8,000（会場限定ノベルティ付き）/一般¥2,000（各+1D） https://t.co/LraFSvijnm",
+      "url": "https://x.com/info_myojou/status/2086784829832503370"
+    },
+    {
+      "api_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n         A Villa 2026 前夜祭\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n📍SYNC north\n🎙16:55-17:20\n\n⟣date：8/28（金）\n⟣place : SYNC north / Sound lab mole / cube garden / SPiCE\n⟣open/start：15:00/16:00\n⟣price：前方¥8,000/ https://t.co/2SrXILlljK",
+      "attachments": {
+        "media_keys": [
+          "3_2086769551723966464"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "ticket_update"
+      },
+      "created_at": "2026-08-10T11:00:07+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/2SrXILlljK",
+            "end": 230,
+            "expanded_url": "https://x.com/info_myojou/status/2086769559248269335/photo/1",
+            "media_key": "3_2086769551723966464",
+            "start": 207,
+            "url": "https://t.co/2SrXILlljK"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2086769559248269335",
+      "media": [
+        {
+          "height": 1522,
+          "media_key": "3_2086769551723966464",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HPWx2eKbsAAFR9u.jpg",
+          "width": 1076
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "missing ticket deadline",
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 310,
+              "start": 303,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "t-dv.com/a_villa_zenya",
+              "end": 301,
+              "expanded_url": "https://t-dv.com/a_villa_zenya",
+              "start": 278,
+              "url": "https://t.co/KOLUViIh0Y"
+            }
+          ]
+        },
+        "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n         A Villa 2026 前夜祭\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n📍SYNC north\n🎙16:55-17:20\n\n⟣date：8/28（金）\n⟣place : SYNC north / Sound lab mole / cube garden / SPiCE\n⟣open/start：15:00/16:00\n⟣price：前方¥8,000/ 前売¥3,500/SPiCE会場¥0（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n8/13（木）20:00-\n🔗 https://t.co/KOLUViIh0Y\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": null,
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-08-28",
+        "event_dates": [
+          "2026-08-28"
+        ],
+        "event_name": "A Villa 2026 前夜祭",
+        "extraction_confidence": 0.95,
+        "general_ticket_price": 3500,
+        "lottery_result_at": null,
+        "myojou_performance_time": "16:55-17:20",
+        "notes": "ドリンク代: 各+1D\n⟣入場特典:明星カード(サインありチェキ)",
+        "open_time": "15:00",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "前方",
+        "priority_ticket_price": 8000,
+        "same_day_ticket_price": null,
+        "source_kind": "ticket_update",
+        "source_post_id": "2086769559248269335",
+        "source_posted_at": "2026-08-10T11:00:07Z",
+        "source_raw": {
+          "api_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n         A Villa 2026 前夜祭\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n📍SYNC north\n🎙16:55-17:20\n\n⟣date：8/28（金）\n⟣place : SYNC north / Sound lab mole / cube garden / SPiCE\n⟣open/start：15:00/16:00\n⟣price：前方¥8,000/ https://t.co/2SrXILlljK",
+          "attachments": {
+            "media_keys": [
+              "3_2086769551723966464"
+            ]
+          },
+          "created_at": "2026-08-10T11:00:07.000Z",
+          "edit_history_tweet_ids": [
+            "2086769559248269335"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/2SrXILlljK",
+                "end": 230,
+                "expanded_url": "https://x.com/info_myojou/status/2086769559248269335/photo/1",
+                "media_key": "3_2086769551723966464",
+                "start": 207,
+                "url": "https://t.co/2SrXILlljK"
+              }
+            ]
+          },
+          "full_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n         A Villa 2026 前夜祭\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n📍SYNC north\n🎙16:55-17:20\n\n⟣date：8/28（金）\n⟣place : SYNC north / Sound lab mole / cube garden / SPiCE\n⟣open/start：15:00/16:00\n⟣price：前方¥8,000/ 前売¥3,500/SPiCE会場¥0（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n8/13（木）20:00-\n🔗 https://t.co/KOLUViIh0Y\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2086769559248269335",
+          "media": [
+            {
+              "height": 1522,
+              "media_key": "3_2086769551723966464",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HPWx2eKbsAAFR9u.jpg",
+              "width": 1076
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 310,
+                  "start": 303,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "t-dv.com/a_villa_zenya",
+                  "end": 301,
+                  "expanded_url": "https://t-dv.com/a_villa_zenya",
+                  "start": 278,
+                  "url": "https://t.co/KOLUViIh0Y"
+                }
+              ]
+            },
+            "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n         A Villa 2026 前夜祭\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n📍SYNC north\n🎙16:55-17:20\n\n⟣date：8/28（金）\n⟣place : SYNC north / Sound lab mole / cube garden / SPiCE\n⟣open/start：15:00/16:00\n⟣price：前方¥8,000/ 前売¥3,500/SPiCE会場¥0（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n8/13（木）20:00-\n🔗 https://t.co/KOLUViIh0Y\n\n#myojou"
+          },
+          "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n         A Villa 2026 前夜祭\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n📍SYNC north\n🎙16:55-17:20\n\n⟣date：8/28（金）\n⟣place : SYNC north / Sound lab mole / cube garden / SPiCE\n⟣open/start：15:00/16:00\n⟣price：前方¥8,000/ https://t.co/2SrXILlljK",
+          "truncated_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n         A Villa 2026 前夜祭\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n📍SYNC north\n🎙16:55-17:20\n\n⟣date：8/28（金）\n⟣place : SYNC north / Sound lab mole / cube garden / SPiCE\n⟣open/start：15:00/16:00\n⟣price：前方¥8,000/ https://t.co/2SrXILlljK"
+        },
+        "source_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n         A Villa 2026 前夜祭\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n📍SYNC north\n🎙16:55-17:20\n\n⟣date：8/28（金）\n⟣place : SYNC north / Sound lab mole / cube garden / SPiCE\n⟣open/start：15:00/16:00\n⟣price：前方¥8,000/ 前売¥3,500/SPiCE会場¥0（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n8/13（木）20:00-\n🔗 https://t.co/KOLUViIh0Y\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2086769559248269335",
+        "start_time": "16:00",
+        "ticket_application_deadline_at": null,
+        "ticket_application_start_at": "2026-08-13T20:00:00+09:00",
+        "ticket_sale_type": "先着",
+        "ticket_sales": [
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 8000,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2086769559248269335",
+            "source_url": "https://x.com/info_myojou/status/2086769559248269335",
+            "start_at": "2026-08-13T20:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "前方",
+            "ticket_tier": "前方"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 3500,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2086769559248269335",
+            "source_url": "https://x.com/info_myojou/status/2086769559248269335",
+            "start_at": "2026-08-13T20:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "https://t-dv.com/a_villa_zenya",
+        "venue": "SYNC north / Sound lab mole / cube garden / SPiCE"
+      },
+      "raw": {
+        "api_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n         A Villa 2026 前夜祭\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n📍SYNC north\n🎙16:55-17:20\n\n⟣date：8/28（金）\n⟣place : SYNC north / Sound lab mole / cube garden / SPiCE\n⟣open/start：15:00/16:00\n⟣price：前方¥8,000/ https://t.co/2SrXILlljK",
+        "attachments": {
+          "media_keys": [
+            "3_2086769551723966464"
+          ]
+        },
+        "created_at": "2026-08-10T11:00:07.000Z",
+        "edit_history_tweet_ids": [
+          "2086769559248269335"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/2SrXILlljK",
+              "end": 230,
+              "expanded_url": "https://x.com/info_myojou/status/2086769559248269335/photo/1",
+              "media_key": "3_2086769551723966464",
+              "start": 207,
+              "url": "https://t.co/2SrXILlljK"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n         A Villa 2026 前夜祭\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n📍SYNC north\n🎙16:55-17:20\n\n⟣date：8/28（金）\n⟣place : SYNC north / Sound lab mole / cube garden / SPiCE\n⟣open/start：15:00/16:00\n⟣price：前方¥8,000/ 前売¥3,500/SPiCE会場¥0（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n8/13（木）20:00-\n🔗 https://t.co/KOLUViIh0Y\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2086769559248269335",
+        "media": [
+          {
+            "height": 1522,
+            "media_key": "3_2086769551723966464",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HPWx2eKbsAAFR9u.jpg",
+            "width": 1076
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 310,
+                "start": 303,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "t-dv.com/a_villa_zenya",
+                "end": 301,
+                "expanded_url": "https://t-dv.com/a_villa_zenya",
+                "start": 278,
+                "url": "https://t.co/KOLUViIh0Y"
+              }
+            ]
+          },
+          "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n         A Villa 2026 前夜祭\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n📍SYNC north\n🎙16:55-17:20\n\n⟣date：8/28（金）\n⟣place : SYNC north / Sound lab mole / cube garden / SPiCE\n⟣open/start：15:00/16:00\n⟣price：前方¥8,000/ 前売¥3,500/SPiCE会場¥0（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n8/13（木）20:00-\n🔗 https://t.co/KOLUViIh0Y\n\n#myojou"
+        },
+        "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n         A Villa 2026 前夜祭\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n📍SYNC north\n🎙16:55-17:20\n\n⟣date：8/28（金）\n⟣place : SYNC north / Sound lab mole / cube garden / SPiCE\n⟣open/start：15:00/16:00\n⟣price：前方¥8,000/ https://t.co/2SrXILlljK",
+        "truncated_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n         A Villa 2026 前夜祭\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n📍SYNC north\n🎙16:55-17:20\n\n⟣date：8/28（金）\n⟣place : SYNC north / Sound lab mole / cube garden / SPiCE\n⟣open/start：15:00/16:00\n⟣price：前方¥8,000/ https://t.co/2SrXILlljK"
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n         A Villa 2026 前夜祭\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n📍SYNC north\n🎙16:55-17:20\n\n⟣date：8/28（金）\n⟣place : SYNC north / Sound lab mole / cube garden / SPiCE\n⟣open/start：15:00/16:00\n⟣price：前方¥8,000/ 前売¥3,500/SPiCE会場¥0（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n8/13（木）20:00-\n🔗 https://t.co/KOLUViIh0Y\n\n#myojou",
+      "truncated_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n         A Villa 2026 前夜祭\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n📍SYNC north\n🎙16:55-17:20\n\n⟣date：8/28（金）\n⟣place : SYNC north / Sound lab mole / cube garden / SPiCE\n⟣open/start：15:00/16:00\n⟣price：前方¥8,000/ https://t.co/2SrXILlljK",
+      "url": "https://x.com/info_myojou/status/2086769559248269335"
+    },
+    {
+      "api_text": "▶️LIVE DIGEST\nNEO KASSEN2026\n「Heart Beat」\n\n瞬いて煌いて\n未来をまた見つめて\n\"闘う\"\nやっと見つけたアンサー\n命を燃やす\n\n#myojou https://t.co/AZJVSxXVdA",
+      "attachments": {
+        "media_keys": [
+          "13_2086764192493912064"
+        ]
+      },
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "live digest recap",
+        "source_kind": "other"
+      },
+      "created_at": "2026-08-10T10:43:46+00:00",
+      "entities": {
+        "hashtags": [
+          {
+            "end": 91,
+            "start": 84,
+            "tag": "myojou"
+          }
+        ],
+        "urls": [
+          {
+            "display_url": "pic.x.com/AZJVSxXVdA",
+            "end": 115,
+            "expanded_url": "https://x.com/info_myojou/status/2086765444413985085/video/1",
+            "media_key": "13_2086764192493912064",
+            "start": 92,
+            "url": "https://t.co/AZJVSxXVdA"
+          }
+        ]
+      },
+      "full_text_source": "text",
+      "id": "2086765444413985085",
+      "media": [
+        {
+          "height": 1080,
+          "media_key": "13_2086764192493912064",
+          "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2086764192493912064/img/tv_lyAFuaQgDlias.jpg",
+          "type": "video",
+          "width": 1920
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "note_tweet": null,
+      "parsed_fields": null,
+      "raw": {
+        "api_text": "▶️LIVE DIGEST\nNEO KASSEN2026\n「Heart Beat」\n\n瞬いて煌いて\n未来をまた見つめて\n\"闘う\"\nやっと見つけたアンサー\n命を燃やす\n\n#myojou https://t.co/AZJVSxXVdA",
+        "attachments": {
+          "media_keys": [
+            "13_2086764192493912064"
+          ]
+        },
+        "created_at": "2026-08-10T10:43:46.000Z",
+        "edit_history_tweet_ids": [
+          "2086765444413985085"
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "end": 91,
+              "start": 84,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "pic.x.com/AZJVSxXVdA",
+              "end": 115,
+              "expanded_url": "https://x.com/info_myojou/status/2086765444413985085/video/1",
+              "media_key": "13_2086764192493912064",
+              "start": 92,
+              "url": "https://t.co/AZJVSxXVdA"
+            }
+          ]
+        },
+        "full_text": "▶️LIVE DIGEST\nNEO KASSEN2026\n「Heart Beat」\n\n瞬いて煌いて\n未来をまた見つめて\n\"闘う\"\nやっと見つけたアンサー\n命を燃やす\n\n#myojou https://t.co/AZJVSxXVdA",
+        "full_text_source": "text",
+        "id": "2086765444413985085",
+        "media": [
+          {
+            "height": 1080,
+            "media_key": "13_2086764192493912064",
+            "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2086764192493912064/img/tv_lyAFuaQgDlias.jpg",
+            "type": "video",
+            "width": 1920
+          }
+        ],
+        "text": "▶️LIVE DIGEST\nNEO KASSEN2026\n「Heart Beat」\n\n瞬いて煌いて\n未来をまた見つめて\n\"闘う\"\nやっと見つけたアンサー\n命を燃やす\n\n#myojou https://t.co/AZJVSxXVdA",
+        "truncated_text": null
+      },
+      "referenced_tweets": [],
+      "text": "▶️LIVE DIGEST\nNEO KASSEN2026\n「Heart Beat」\n\n瞬いて煌いて\n未来をまた見つめて\n\"闘う\"\nやっと見つけたアンサー\n命を燃やす\n\n#myojou https://t.co/AZJVSxXVdA",
+      "truncated_text": null,
+      "url": "https://x.com/info_myojou/status/2086765444413985085"
+    },
+    {
+      "api_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「NEO KASSEN2026」\n\n🎙17:30-17:55\n📸18:10-19:10 （シブテナ宇田川町 4F-11）\n※ リストバンド交換は\nKASSENチケット 9:00よりZ MARUYAMA\n一般チケット 9:30よりO-EASTビル M階\nにて行います。\n※落ち着き次第、KASSENチケットの引換場所もO-EASTビル https://t.co/M7IuRQcL8G",
+      "attachments": {
+        "media_keys": [
+          "3_2086652072083308544",
+          "3_2086652072087502848",
+          "3_2086652072091660289"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "same_day_reminder"
+      },
+      "created_at": "2026-08-10T03:13:18+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/M7IuRQcL8G",
+            "end": 213,
+            "expanded_url": "https://x.com/info_myojou/status/2086652078567620989/photo/1",
+            "media_key": "3_2086652072083308544",
+            "start": 190,
+            "url": "https://t.co/M7IuRQcL8G"
+          },
+          {
+            "display_url": "pic.x.com/M7IuRQcL8G",
+            "end": 213,
+            "expanded_url": "https://x.com/info_myojou/status/2086652078567620989/photo/1",
+            "media_key": "3_2086652072087502848",
+            "start": 190,
+            "url": "https://t.co/M7IuRQcL8G"
+          },
+          {
+            "display_url": "pic.x.com/M7IuRQcL8G",
+            "end": 213,
+            "expanded_url": "https://x.com/info_myojou/status/2086652078567620989/photo/1",
+            "media_key": "3_2086652072091660289",
+            "start": 190,
+            "url": "https://t.co/M7IuRQcL8G"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2086652078567620989",
+      "media": [
+        {
+          "height": 2000,
+          "media_key": "3_2086652072083308544",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HPVHAQZbwAAU2W_.jpg",
+          "width": 1500
+        },
+        {
+          "height": 1819,
+          "media_key": "3_2086652072087502848",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HPVHAQabwAAZyly.jpg",
+          "width": 4096
+        },
+        {
+          "height": 2164,
+          "media_key": "3_2086652072091660289",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HPVHAQbbMAEny4j.jpg",
+          "width": 3840
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 617,
+              "start": 610,
+              "tag": "myojou"
+            },
+            {
+              "end": 626,
+              "start": 619,
+              "tag": "KASSEN"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "l-tike.com/neokassen/",
+              "end": 608,
+              "expanded_url": "http://l-tike.com/neokassen/",
+              "start": 585,
+              "url": "https://t.co/6UgcHK28Pm"
+            }
+          ]
+        },
+        "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「NEO KASSEN2026」\n\n🎙17:30-17:55\n📸18:10-19:10 （シブテナ宇田川町 4F-11）\n※ リストバンド交換は\nKASSENチケット 9:00よりZ MARUYAMA\n一般チケット 9:30よりO-EASTビル M階\nにて行います。\n※落ち着き次第、KASSENチケットの引換場所もO-EASTビル M階に移動いたします。\n\n⟣date：8/10（月）\n⟣place : Spotify O-EAST / Spotify O-WEST / Spotify O-nest / Spotify O-Crest / duo MUSIC EXCHANGE / club asia /\nWOMB LIVE / SHIBUYA RING / SHIBUYA DESEO / Veats Shibuya / SHIBUYA VIDENT / GRIT at Shibuya\n⟣open/start：11:00/11:30\n⟣price：KASSENチケット（※オリジナルTシャツ付き、リストバンド交換時専用レーンあり、入場規制時、リストバンド+Tシャツ着用で優先案内） ¥10,000 / 一般チケット ¥6,500\n/当日チケット¥7,500（各+1D）\n\n【当日券】\n-8/10（月）20:00\n🔗 https://t.co/6UgcHK28Pm\n\n#myojou \n#KASSEN"
+      },
+      "parsed_fields": {
+        "benefit_event_time": "18:10-19:10",
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-08-10",
+        "event_dates": [
+          "2026-08-10"
+        ],
+        "event_name": "NEO KASSEN2026",
+        "extraction_confidence": 0.95,
+        "general_ticket_price": 6500,
+        "lottery_result_at": null,
+        "myojou_performance_time": "17:30-17:55",
+        "notes": "※ リストバンド交換は\n※落ち着き次第、KASSENチケットの引換場所もO-EASTビル M階に移動いたします。\nドリンク代: 各+1D",
+        "open_time": "11:00",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "SSEN",
+        "priority_ticket_price": 2026,
+        "same_day_ticket_price": 7500,
+        "source_kind": "same_day_reminder",
+        "source_post_id": "2086652078567620989",
+        "source_posted_at": "2026-08-10T03:13:18Z",
+        "source_raw": {
+          "api_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「NEO KASSEN2026」\n\n🎙17:30-17:55\n📸18:10-19:10 （シブテナ宇田川町 4F-11）\n※ リストバンド交換は\nKASSENチケット 9:00よりZ MARUYAMA\n一般チケット 9:30よりO-EASTビル M階\nにて行います。\n※落ち着き次第、KASSENチケットの引換場所もO-EASTビル https://t.co/M7IuRQcL8G",
+          "attachments": {
+            "media_keys": [
+              "3_2086652072083308544",
+              "3_2086652072087502848",
+              "3_2086652072091660289"
+            ]
+          },
+          "created_at": "2026-08-10T03:13:18.000Z",
+          "edit_history_tweet_ids": [
+            "2086652078567620989"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/M7IuRQcL8G",
+                "end": 213,
+                "expanded_url": "https://x.com/info_myojou/status/2086652078567620989/photo/1",
+                "media_key": "3_2086652072083308544",
+                "start": 190,
+                "url": "https://t.co/M7IuRQcL8G"
+              },
+              {
+                "display_url": "pic.x.com/M7IuRQcL8G",
+                "end": 213,
+                "expanded_url": "https://x.com/info_myojou/status/2086652078567620989/photo/1",
+                "media_key": "3_2086652072087502848",
+                "start": 190,
+                "url": "https://t.co/M7IuRQcL8G"
+              },
+              {
+                "display_url": "pic.x.com/M7IuRQcL8G",
+                "end": 213,
+                "expanded_url": "https://x.com/info_myojou/status/2086652078567620989/photo/1",
+                "media_key": "3_2086652072091660289",
+                "start": 190,
+                "url": "https://t.co/M7IuRQcL8G"
+              }
+            ]
+          },
+          "full_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「NEO KASSEN2026」\n\n🎙17:30-17:55\n📸18:10-19:10 （シブテナ宇田川町 4F-11）\n※ リストバンド交換は\nKASSENチケット 9:00よりZ MARUYAMA\n一般チケット 9:30よりO-EASTビル M階\nにて行います。\n※落ち着き次第、KASSENチケットの引換場所もO-EASTビル M階に移動いたします。\n\n⟣date：8/10（月）\n⟣place : Spotify O-EAST / Spotify O-WEST / Spotify O-nest / Spotify O-Crest / duo MUSIC EXCHANGE / club asia /\nWOMB LIVE / SHIBUYA RING / SHIBUYA DESEO / Veats Shibuya / SHIBUYA VIDENT / GRIT at Shibuya\n⟣open/start：11:00/11:30\n⟣price：KASSENチケット（※オリジナルTシャツ付き、リストバンド交換時専用レーンあり、入場規制時、リストバンド+Tシャツ着用で優先案内） ¥10,000 / 一般チケット ¥6,500\n/当日チケット¥7,500（各+1D）\n\n【当日券】\n-8/10（月）20:00\n🔗 https://t.co/6UgcHK28Pm\n\n#myojou \n#KASSEN",
+          "full_text_source": "note_tweet",
+          "id": "2086652078567620989",
+          "media": [
+            {
+              "height": 2000,
+              "media_key": "3_2086652072083308544",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HPVHAQZbwAAU2W_.jpg",
+              "width": 1500
+            },
+            {
+              "height": 1819,
+              "media_key": "3_2086652072087502848",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HPVHAQabwAAZyly.jpg",
+              "width": 4096
+            },
+            {
+              "height": 2164,
+              "media_key": "3_2086652072091660289",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HPVHAQbbMAEny4j.jpg",
+              "width": 3840
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 617,
+                  "start": 610,
+                  "tag": "myojou"
+                },
+                {
+                  "end": 626,
+                  "start": 619,
+                  "tag": "KASSEN"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "l-tike.com/neokassen/",
+                  "end": 608,
+                  "expanded_url": "http://l-tike.com/neokassen/",
+                  "start": 585,
+                  "url": "https://t.co/6UgcHK28Pm"
+                }
+              ]
+            },
+            "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「NEO KASSEN2026」\n\n🎙17:30-17:55\n📸18:10-19:10 （シブテナ宇田川町 4F-11）\n※ リストバンド交換は\nKASSENチケット 9:00よりZ MARUYAMA\n一般チケット 9:30よりO-EASTビル M階\nにて行います。\n※落ち着き次第、KASSENチケットの引換場所もO-EASTビル M階に移動いたします。\n\n⟣date：8/10（月）\n⟣place : Spotify O-EAST / Spotify O-WEST / Spotify O-nest / Spotify O-Crest / duo MUSIC EXCHANGE / club asia /\nWOMB LIVE / SHIBUYA RING / SHIBUYA DESEO / Veats Shibuya / SHIBUYA VIDENT / GRIT at Shibuya\n⟣open/start：11:00/11:30\n⟣price：KASSENチケット（※オリジナルTシャツ付き、リストバンド交換時専用レーンあり、入場規制時、リストバンド+Tシャツ着用で優先案内） ¥10,000 / 一般チケット ¥6,500\n/当日チケット¥7,500（各+1D）\n\n【当日券】\n-8/10（月）20:00\n🔗 https://t.co/6UgcHK28Pm\n\n#myojou \n#KASSEN"
+          },
+          "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「NEO KASSEN2026」\n\n🎙17:30-17:55\n📸18:10-19:10 （シブテナ宇田川町 4F-11）\n※ リストバンド交換は\nKASSENチケット 9:00よりZ MARUYAMA\n一般チケット 9:30よりO-EASTビル M階\nにて行います。\n※落ち着き次第、KASSENチケットの引換場所もO-EASTビル https://t.co/M7IuRQcL8G",
+          "truncated_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「NEO KASSEN2026」\n\n🎙17:30-17:55\n📸18:10-19:10 （シブテナ宇田川町 4F-11）\n※ リストバンド交換は\nKASSENチケット 9:00よりZ MARUYAMA\n一般チケット 9:30よりO-EASTビル M階\nにて行います。\n※落ち着き次第、KASSENチケットの引換場所もO-EASTビル https://t.co/M7IuRQcL8G"
+        },
+        "source_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「NEO KASSEN2026」\n\n🎙17:30-17:55\n📸18:10-19:10 （シブテナ宇田川町 4F-11）\n※ リストバンド交換は\nKASSENチケット 9:00よりZ MARUYAMA\n一般チケット 9:30よりO-EASTビル M階\nにて行います。\n※落ち着き次第、KASSENチケットの引換場所もO-EASTビル M階に移動いたします。\n\n⟣date：8/10（月）\n⟣place : Spotify O-EAST / Spotify O-WEST / Spotify O-nest / Spotify O-Crest / duo MUSIC EXCHANGE / club asia /\nWOMB LIVE / SHIBUYA RING / SHIBUYA DESEO / Veats Shibuya / SHIBUYA VIDENT / GRIT at Shibuya\n⟣open/start：11:00/11:30\n⟣price：KASSENチケット（※オリジナルTシャツ付き、リストバンド交換時専用レーンあり、入場規制時、リストバンド+Tシャツ着用で優先案内） ¥10,000 / 一般チケット ¥6,500\n/当日チケット¥7,500（各+1D）\n\n【当日券】\n-8/10（月）20:00\n🔗 https://t.co/6UgcHK28Pm\n\n#myojou \n#KASSEN",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2086652078567620989",
+        "start_time": "11:30",
+        "ticket_application_deadline_at": null,
+        "ticket_application_start_at": null,
+        "ticket_sale_type": "当日券",
+        "ticket_sales": [
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 6500,
+            "result_at": null,
+            "sale_type": "当日券",
+            "source_post_id": "2086652078567620989",
+            "source_url": "https://x.com/info_myojou/status/2086652078567620989",
+            "start_at": null,
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 2026,
+            "result_at": null,
+            "sale_type": "当日券",
+            "source_post_id": "2086652078567620989",
+            "source_url": "https://x.com/info_myojou/status/2086652078567620989",
+            "start_at": null,
+            "status": "不明",
+            "ticket_name": "SS",
+            "ticket_tier": "SS"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 10000,
+            "result_at": null,
+            "sale_type": "当日券",
+            "source_post_id": "2086652078567620989",
+            "source_url": "https://x.com/info_myojou/status/2086652078567620989",
+            "start_at": null,
+            "status": "不明",
+            "ticket_name": "KASSENチケット",
+            "ticket_tier": "SS"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 6500,
+            "result_at": null,
+            "sale_type": "当日券",
+            "source_post_id": "2086652078567620989",
+            "source_url": "https://x.com/info_myojou/status/2086652078567620989",
+            "start_at": null,
+            "status": "不明",
+            "ticket_name": "一般チケット",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "http://l-tike.com/neokassen/",
+        "venue": "もO-EASTビル M階に移動いたします。"
+      },
+      "raw": {
+        "api_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「NEO KASSEN2026」\n\n🎙17:30-17:55\n📸18:10-19:10 （シブテナ宇田川町 4F-11）\n※ リストバンド交換は\nKASSENチケット 9:00よりZ MARUYAMA\n一般チケット 9:30よりO-EASTビル M階\nにて行います。\n※落ち着き次第、KASSENチケットの引換場所もO-EASTビル https://t.co/M7IuRQcL8G",
+        "attachments": {
+          "media_keys": [
+            "3_2086652072083308544",
+            "3_2086652072087502848",
+            "3_2086652072091660289"
+          ]
+        },
+        "created_at": "2026-08-10T03:13:18.000Z",
+        "edit_history_tweet_ids": [
+          "2086652078567620989"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/M7IuRQcL8G",
+              "end": 213,
+              "expanded_url": "https://x.com/info_myojou/status/2086652078567620989/photo/1",
+              "media_key": "3_2086652072083308544",
+              "start": 190,
+              "url": "https://t.co/M7IuRQcL8G"
+            },
+            {
+              "display_url": "pic.x.com/M7IuRQcL8G",
+              "end": 213,
+              "expanded_url": "https://x.com/info_myojou/status/2086652078567620989/photo/1",
+              "media_key": "3_2086652072087502848",
+              "start": 190,
+              "url": "https://t.co/M7IuRQcL8G"
+            },
+            {
+              "display_url": "pic.x.com/M7IuRQcL8G",
+              "end": 213,
+              "expanded_url": "https://x.com/info_myojou/status/2086652078567620989/photo/1",
+              "media_key": "3_2086652072091660289",
+              "start": 190,
+              "url": "https://t.co/M7IuRQcL8G"
+            }
+          ]
+        },
+        "full_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「NEO KASSEN2026」\n\n🎙17:30-17:55\n📸18:10-19:10 （シブテナ宇田川町 4F-11）\n※ リストバンド交換は\nKASSENチケット 9:00よりZ MARUYAMA\n一般チケット 9:30よりO-EASTビル M階\nにて行います。\n※落ち着き次第、KASSENチケットの引換場所もO-EASTビル M階に移動いたします。\n\n⟣date：8/10（月）\n⟣place : Spotify O-EAST / Spotify O-WEST / Spotify O-nest / Spotify O-Crest / duo MUSIC EXCHANGE / club asia /\nWOMB LIVE / SHIBUYA RING / SHIBUYA DESEO / Veats Shibuya / SHIBUYA VIDENT / GRIT at Shibuya\n⟣open/start：11:00/11:30\n⟣price：KASSENチケット（※オリジナルTシャツ付き、リストバンド交換時専用レーンあり、入場規制時、リストバンド+Tシャツ着用で優先案内） ¥10,000 / 一般チケット ¥6,500\n/当日チケット¥7,500（各+1D）\n\n【当日券】\n-8/10（月）20:00\n🔗 https://t.co/6UgcHK28Pm\n\n#myojou \n#KASSEN",
+        "full_text_source": "note_tweet",
+        "id": "2086652078567620989",
+        "media": [
+          {
+            "height": 2000,
+            "media_key": "3_2086652072083308544",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HPVHAQZbwAAU2W_.jpg",
+            "width": 1500
+          },
+          {
+            "height": 1819,
+            "media_key": "3_2086652072087502848",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HPVHAQabwAAZyly.jpg",
+            "width": 4096
+          },
+          {
+            "height": 2164,
+            "media_key": "3_2086652072091660289",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HPVHAQbbMAEny4j.jpg",
+            "width": 3840
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 617,
+                "start": 610,
+                "tag": "myojou"
+              },
+              {
+                "end": 626,
+                "start": 619,
+                "tag": "KASSEN"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "l-tike.com/neokassen/",
+                "end": 608,
+                "expanded_url": "http://l-tike.com/neokassen/",
+                "start": 585,
+                "url": "https://t.co/6UgcHK28Pm"
+              }
+            ]
+          },
+          "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「NEO KASSEN2026」\n\n🎙17:30-17:55\n📸18:10-19:10 （シブテナ宇田川町 4F-11）\n※ リストバンド交換は\nKASSENチケット 9:00よりZ MARUYAMA\n一般チケット 9:30よりO-EASTビル M階\nにて行います。\n※落ち着き次第、KASSENチケットの引換場所もO-EASTビル M階に移動いたします。\n\n⟣date：8/10（月）\n⟣place : Spotify O-EAST / Spotify O-WEST / Spotify O-nest / Spotify O-Crest / duo MUSIC EXCHANGE / club asia /\nWOMB LIVE / SHIBUYA RING / SHIBUYA DESEO / Veats Shibuya / SHIBUYA VIDENT / GRIT at Shibuya\n⟣open/start：11:00/11:30\n⟣price：KASSENチケット（※オリジナルTシャツ付き、リストバンド交換時専用レーンあり、入場規制時、リストバンド+Tシャツ着用で優先案内） ¥10,000 / 一般チケット ¥6,500\n/当日チケット¥7,500（各+1D）\n\n【当日券】\n-8/10（月）20:00\n🔗 https://t.co/6UgcHK28Pm\n\n#myojou \n#KASSEN"
+        },
+        "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「NEO KASSEN2026」\n\n🎙17:30-17:55\n📸18:10-19:10 （シブテナ宇田川町 4F-11）\n※ リストバンド交換は\nKASSENチケット 9:00よりZ MARUYAMA\n一般チケット 9:30よりO-EASTビル M階\nにて行います。\n※落ち着き次第、KASSENチケットの引換場所もO-EASTビル https://t.co/M7IuRQcL8G",
+        "truncated_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「NEO KASSEN2026」\n\n🎙17:30-17:55\n📸18:10-19:10 （シブテナ宇田川町 4F-11）\n※ リストバンド交換は\nKASSENチケット 9:00よりZ MARUYAMA\n一般チケット 9:30よりO-EASTビル M階\nにて行います。\n※落ち着き次第、KASSENチケットの引換場所もO-EASTビル https://t.co/M7IuRQcL8G"
+      },
+      "referenced_tweets": [],
+      "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「NEO KASSEN2026」\n\n🎙17:30-17:55\n📸18:10-19:10 （シブテナ宇田川町 4F-11）\n※ リストバンド交換は\nKASSENチケット 9:00よりZ MARUYAMA\n一般チケット 9:30よりO-EASTビル M階\nにて行います。\n※落ち着き次第、KASSENチケットの引換場所もO-EASTビル M階に移動いたします。\n\n⟣date：8/10（月）\n⟣place : Spotify O-EAST / Spotify O-WEST / Spotify O-nest / Spotify O-Crest / duo MUSIC EXCHANGE / club asia /\nWOMB LIVE / SHIBUYA RING / SHIBUYA DESEO / Veats Shibuya / SHIBUYA VIDENT / GRIT at Shibuya\n⟣open/start：11:00/11:30\n⟣price：KASSENチケット（※オリジナルTシャツ付き、リストバンド交換時専用レーンあり、入場規制時、リストバンド+Tシャツ着用で優先案内） ¥10,000 / 一般チケット ¥6,500\n/当日チケット¥7,500（各+1D）\n\n【当日券】\n-8/10（月）20:00\n🔗 https://t.co/6UgcHK28Pm\n\n#myojou \n#KASSEN",
+      "truncated_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「NEO KASSEN2026」\n\n🎙17:30-17:55\n📸18:10-19:10 （シブテナ宇田川町 4F-11）\n※ リストバンド交換は\nKASSENチケット 9:00よりZ MARUYAMA\n一般チケット 9:30よりO-EASTビル M階\nにて行います。\n※落ち着き次第、KASSENチケットの引換場所もO-EASTビル https://t.co/M7IuRQcL8G",
+      "url": "https://x.com/info_myojou/status/2086652078567620989"
+    },
+    {
       "api_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n               IDOL STORM\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n🎙14:35-14:55\n📸16:10-17:10\n\n⟣date：8/15（土）\n⟣place : Music restaurant APEXIA\n⟣open/start：10:30/10:50\n⟣price：前方 ¥8,000 / 一般 ¥2,500（各＋1D） https://t.co/YylDA8Qh7R",
       "attachments": {
         "media_keys": [
@@ -148428,7 +150339,7 @@
     "backfill": true,
     "dry_run": true,
     "estimated_x_post_reads": 411,
-    "latest_post_id": "2086441502054678858",
+    "latest_post_id": "2086811007591252145",
     "max_pages": 10,
     "max_posts": 500,
     "max_results": 5,
@@ -148471,16 +150382,16 @@
       }
     ],
     "pages_fetched": 5,
-    "posts_fetched": 687,
+    "posts_fetched": 694,
     "rate_limit_headers": {
       "x-rate-limit-limit": "10000",
       "x-rate-limit-remaining": "9993",
       "x-rate-limit-reset": "1781108896"
     },
-    "total_posts": 687,
-    "updated_at": "2026-08-09T19:35:56.005867+00:00",
+    "total_posts": 694,
+    "updated_at": "2026-08-10T19:55:53.373287+00:00",
     "username": "info_myojou"
   },
   "source": "x_api",
-  "updated_at": "2026-08-09T19:35:56.005867+00:00"
+  "updated_at": "2026-08-10T19:55:53.373287+00:00"
 }
