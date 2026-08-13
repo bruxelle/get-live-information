@@ -2,6 +2,1804 @@
   "captured_at": "2026-06-10T16:19:36.141820+00:00",
   "data": [
     {
+      "api_text": "▶️LIVE DIGEST\nmyojou Summer FINAL\n\n「Beyond」\n\n#myojou https://t.co/2Pu7MuCBre",
+      "attachments": {
+        "media_keys": [
+          "13_2087894452581072897"
+        ]
+      },
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "live digest recap",
+        "source_kind": "other"
+      },
+      "created_at": "2026-08-13T13:31:46+00:00",
+      "entities": {
+        "hashtags": [
+          {
+            "end": 52,
+            "start": 45,
+            "tag": "myojou"
+          }
+        ],
+        "urls": [
+          {
+            "display_url": "pic.x.com/2Pu7MuCBre",
+            "end": 76,
+            "expanded_url": "https://x.com/info_myojou/status/2087894883449426385/video/1",
+            "media_key": "13_2087894452581072897",
+            "start": 53,
+            "url": "https://t.co/2Pu7MuCBre"
+          }
+        ]
+      },
+      "full_text_source": "text",
+      "id": "2087894883449426385",
+      "media": [
+        {
+          "height": 1080,
+          "media_key": "13_2087894452581072897",
+          "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2087894452581072897/img/wp_7LOX9-FezbwS0.jpg",
+          "type": "video",
+          "width": 1920
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "note_tweet": null,
+      "parsed_fields": null,
+      "raw": {
+        "api_text": "▶️LIVE DIGEST\nmyojou Summer FINAL\n\n「Beyond」\n\n#myojou https://t.co/2Pu7MuCBre",
+        "attachments": {
+          "media_keys": [
+            "13_2087894452581072897"
+          ]
+        },
+        "created_at": "2026-08-13T13:31:46.000Z",
+        "edit_history_tweet_ids": [
+          "2087894883449426385"
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "end": 52,
+              "start": 45,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "pic.x.com/2Pu7MuCBre",
+              "end": 76,
+              "expanded_url": "https://x.com/info_myojou/status/2087894883449426385/video/1",
+              "media_key": "13_2087894452581072897",
+              "start": 53,
+              "url": "https://t.co/2Pu7MuCBre"
+            }
+          ]
+        },
+        "full_text": "▶️LIVE DIGEST\nmyojou Summer FINAL\n\n「Beyond」\n\n#myojou https://t.co/2Pu7MuCBre",
+        "full_text_source": "text",
+        "id": "2087894883449426385",
+        "media": [
+          {
+            "height": 1080,
+            "media_key": "13_2087894452581072897",
+            "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2087894452581072897/img/wp_7LOX9-FezbwS0.jpg",
+            "type": "video",
+            "width": 1920
+          }
+        ],
+        "text": "▶️LIVE DIGEST\nmyojou Summer FINAL\n\n「Beyond」\n\n#myojou https://t.co/2Pu7MuCBre",
+        "truncated_text": null
+      },
+      "referenced_tweets": [],
+      "text": "▶️LIVE DIGEST\nmyojou Summer FINAL\n\n「Beyond」\n\n#myojou https://t.co/2Pu7MuCBre",
+      "truncated_text": null,
+      "url": "https://x.com/info_myojou/status/2087894883449426385"
+    },
+    {
+      "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「SHOW TIME」\n\n🎙18:25-18:50\n📸18:55-19:55\n\n⟣date：8/14（金）\n⟣place : ヒューリックホール東京\n⟣open/start：13:40/14:10\n⟣price：前方¥5,000 / 一般¥2,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【前方エリアチケット】\n8月5日(水) https://t.co/LPAjKGecsM",
+      "attachments": {
+        "media_keys": [
+          "3_2087888801154875392"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "day_before_reminder"
+      },
+      "created_at": "2026-08-13T13:07:38+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/LPAjKGecsM",
+            "end": 221,
+            "expanded_url": "https://x.com/info_myojou/status/2087888813909750167/photo/1",
+            "media_key": "3_2087888801154875392",
+            "start": 198,
+            "url": "https://t.co/LPAjKGecsM"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2087888813909750167",
+      "media": [
+        {
+          "height": 1754,
+          "media_key": "3_2087888801154875392",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HPmrzXNaQAAMIre.jpg",
+          "width": 1241
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "missing ticket deadline",
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 294,
+              "start": 287,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "t-dv.com/SHOWTIME0814",
+              "end": 285,
+              "expanded_url": "http://t-dv.com/SHOWTIME0814",
+              "start": 262,
+              "url": "https://t.co/K1IPUrfLL3"
+            }
+          ]
+        },
+        "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「SHOW TIME」\n\n🎙18:25-18:50\n📸18:55-19:55\n\n⟣date：8/14（金）\n⟣place : ヒューリックホール東京\n⟣open/start：13:40/14:10\n⟣price：前方¥5,000 / 一般¥2,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【前方エリアチケット】\n8月5日(水) 21:00-8月13日(木) 23:59\n【一般エリアチケット】\n8月5日(水) 21:30-8月13日(木) 23:59\n🔗 https://t.co/K1IPUrfLL3\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": "18:55-19:55",
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-08-14",
+        "event_dates": [
+          "2026-08-14"
+        ],
+        "event_name": "SHOW TIME",
+        "extraction_confidence": 0.95,
+        "general_ticket_price": 2000,
+        "lottery_result_at": null,
+        "myojou_performance_time": "18:25-18:50",
+        "notes": "ドリンク代: 各+1D\n⟣入場特典:明星カード(サインありチェキ)",
+        "open_time": "13:40",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "前方",
+        "priority_ticket_price": 5000,
+        "same_day_ticket_price": null,
+        "source_kind": "day_before_reminder",
+        "source_post_id": "2087888813909750167",
+        "source_posted_at": "2026-08-13T13:07:38Z",
+        "source_raw": {
+          "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「SHOW TIME」\n\n🎙18:25-18:50\n📸18:55-19:55\n\n⟣date：8/14（金）\n⟣place : ヒューリックホール東京\n⟣open/start：13:40/14:10\n⟣price：前方¥5,000 / 一般¥2,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【前方エリアチケット】\n8月5日(水) https://t.co/LPAjKGecsM",
+          "attachments": {
+            "media_keys": [
+              "3_2087888801154875392"
+            ]
+          },
+          "created_at": "2026-08-13T13:07:38.000Z",
+          "edit_history_tweet_ids": [
+            "2087888813909750167"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/LPAjKGecsM",
+                "end": 221,
+                "expanded_url": "https://x.com/info_myojou/status/2087888813909750167/photo/1",
+                "media_key": "3_2087888801154875392",
+                "start": 198,
+                "url": "https://t.co/LPAjKGecsM"
+              }
+            ]
+          },
+          "full_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「SHOW TIME」\n\n🎙18:25-18:50\n📸18:55-19:55\n\n⟣date：8/14（金）\n⟣place : ヒューリックホール東京\n⟣open/start：13:40/14:10\n⟣price：前方¥5,000 / 一般¥2,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【前方エリアチケット】\n8月5日(水) 21:00-8月13日(木) 23:59\n【一般エリアチケット】\n8月5日(水) 21:30-8月13日(木) 23:59\n🔗 https://t.co/K1IPUrfLL3\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2087888813909750167",
+          "media": [
+            {
+              "height": 1754,
+              "media_key": "3_2087888801154875392",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HPmrzXNaQAAMIre.jpg",
+              "width": 1241
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 294,
+                  "start": 287,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "t-dv.com/SHOWTIME0814",
+                  "end": 285,
+                  "expanded_url": "http://t-dv.com/SHOWTIME0814",
+                  "start": 262,
+                  "url": "https://t.co/K1IPUrfLL3"
+                }
+              ]
+            },
+            "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「SHOW TIME」\n\n🎙18:25-18:50\n📸18:55-19:55\n\n⟣date：8/14（金）\n⟣place : ヒューリックホール東京\n⟣open/start：13:40/14:10\n⟣price：前方¥5,000 / 一般¥2,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【前方エリアチケット】\n8月5日(水) 21:00-8月13日(木) 23:59\n【一般エリアチケット】\n8月5日(水) 21:30-8月13日(木) 23:59\n🔗 https://t.co/K1IPUrfLL3\n\n#myojou"
+          },
+          "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「SHOW TIME」\n\n🎙18:25-18:50\n📸18:55-19:55\n\n⟣date：8/14（金）\n⟣place : ヒューリックホール東京\n⟣open/start：13:40/14:10\n⟣price：前方¥5,000 / 一般¥2,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【前方エリアチケット】\n8月5日(水) https://t.co/LPAjKGecsM",
+          "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「SHOW TIME」\n\n🎙18:25-18:50\n📸18:55-19:55\n\n⟣date：8/14（金）\n⟣place : ヒューリックホール東京\n⟣open/start：13:40/14:10\n⟣price：前方¥5,000 / 一般¥2,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【前方エリアチケット】\n8月5日(水) https://t.co/LPAjKGecsM"
+        },
+        "source_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「SHOW TIME」\n\n🎙18:25-18:50\n📸18:55-19:55\n\n⟣date：8/14（金）\n⟣place : ヒューリックホール東京\n⟣open/start：13:40/14:10\n⟣price：前方¥5,000 / 一般¥2,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【前方エリアチケット】\n8月5日(水) 21:00-8月13日(木) 23:59\n【一般エリアチケット】\n8月5日(水) 21:30-8月13日(木) 23:59\n🔗 https://t.co/K1IPUrfLL3\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2087888813909750167",
+        "start_time": "14:10",
+        "ticket_application_deadline_at": null,
+        "ticket_application_start_at": null,
+        "ticket_sale_type": null,
+        "ticket_sales": [
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 5000,
+            "result_at": null,
+            "sale_type": "不明",
+            "source_post_id": "2087888813909750167",
+            "source_url": "https://x.com/info_myojou/status/2087888813909750167",
+            "start_at": null,
+            "status": "不明",
+            "ticket_name": "前方",
+            "ticket_tier": "前方"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 2000,
+            "result_at": null,
+            "sale_type": "不明",
+            "source_post_id": "2087888813909750167",
+            "source_url": "https://x.com/info_myojou/status/2087888813909750167",
+            "start_at": null,
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "http://t-dv.com/SHOWTIME0814",
+        "venue": "ヒューリックホール東京"
+      },
+      "raw": {
+        "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「SHOW TIME」\n\n🎙18:25-18:50\n📸18:55-19:55\n\n⟣date：8/14（金）\n⟣place : ヒューリックホール東京\n⟣open/start：13:40/14:10\n⟣price：前方¥5,000 / 一般¥2,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【前方エリアチケット】\n8月5日(水) https://t.co/LPAjKGecsM",
+        "attachments": {
+          "media_keys": [
+            "3_2087888801154875392"
+          ]
+        },
+        "created_at": "2026-08-13T13:07:38.000Z",
+        "edit_history_tweet_ids": [
+          "2087888813909750167"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/LPAjKGecsM",
+              "end": 221,
+              "expanded_url": "https://x.com/info_myojou/status/2087888813909750167/photo/1",
+              "media_key": "3_2087888801154875392",
+              "start": 198,
+              "url": "https://t.co/LPAjKGecsM"
+            }
+          ]
+        },
+        "full_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「SHOW TIME」\n\n🎙18:25-18:50\n📸18:55-19:55\n\n⟣date：8/14（金）\n⟣place : ヒューリックホール東京\n⟣open/start：13:40/14:10\n⟣price：前方¥5,000 / 一般¥2,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【前方エリアチケット】\n8月5日(水) 21:00-8月13日(木) 23:59\n【一般エリアチケット】\n8月5日(水) 21:30-8月13日(木) 23:59\n🔗 https://t.co/K1IPUrfLL3\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2087888813909750167",
+        "media": [
+          {
+            "height": 1754,
+            "media_key": "3_2087888801154875392",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HPmrzXNaQAAMIre.jpg",
+            "width": 1241
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 294,
+                "start": 287,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "t-dv.com/SHOWTIME0814",
+                "end": 285,
+                "expanded_url": "http://t-dv.com/SHOWTIME0814",
+                "start": 262,
+                "url": "https://t.co/K1IPUrfLL3"
+              }
+            ]
+          },
+          "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「SHOW TIME」\n\n🎙18:25-18:50\n📸18:55-19:55\n\n⟣date：8/14（金）\n⟣place : ヒューリックホール東京\n⟣open/start：13:40/14:10\n⟣price：前方¥5,000 / 一般¥2,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【前方エリアチケット】\n8月5日(水) 21:00-8月13日(木) 23:59\n【一般エリアチケット】\n8月5日(水) 21:30-8月13日(木) 23:59\n🔗 https://t.co/K1IPUrfLL3\n\n#myojou"
+        },
+        "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「SHOW TIME」\n\n🎙18:25-18:50\n📸18:55-19:55\n\n⟣date：8/14（金）\n⟣place : ヒューリックホール東京\n⟣open/start：13:40/14:10\n⟣price：前方¥5,000 / 一般¥2,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【前方エリアチケット】\n8月5日(水) https://t.co/LPAjKGecsM",
+        "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「SHOW TIME」\n\n🎙18:25-18:50\n📸18:55-19:55\n\n⟣date：8/14（金）\n⟣place : ヒューリックホール東京\n⟣open/start：13:40/14:10\n⟣price：前方¥5,000 / 一般¥2,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【前方エリアチケット】\n8月5日(水) https://t.co/LPAjKGecsM"
+      },
+      "referenced_tweets": [],
+      "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「SHOW TIME」\n\n🎙18:25-18:50\n📸18:55-19:55\n\n⟣date：8/14（金）\n⟣place : ヒューリックホール東京\n⟣open/start：13:40/14:10\n⟣price：前方¥5,000 / 一般¥2,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【前方エリアチケット】\n8月5日(水) 21:00-8月13日(木) 23:59\n【一般エリアチケット】\n8月5日(水) 21:30-8月13日(木) 23:59\n🔗 https://t.co/K1IPUrfLL3\n\n#myojou",
+      "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「SHOW TIME」\n\n🎙18:25-18:50\n📸18:55-19:55\n\n⟣date：8/14（金）\n⟣place : ヒューリックホール東京\n⟣open/start：13:40/14:10\n⟣price：前方¥5,000 / 一般¥2,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【前方エリアチケット】\n8月5日(水) https://t.co/LPAjKGecsM",
+      "url": "https://x.com/info_myojou/status/2087888813909750167"
+    },
+    {
+      "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                「アイドル甲子園 in \n　　　KANDA SQUARE  HALL」\n　　　　supported by My-th\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：9/13（日）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:15/9:30 https://t.co/8Kx99amKK4",
+      "attachments": {
+        "media_keys": [
+          "3_2087869881748525056"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "ticket_update"
+      },
+      "created_at": "2026-08-13T11:52:26+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/8Kx99amKK4",
+            "end": 210,
+            "expanded_url": "https://x.com/info_myojou/status/2087869886353874999/photo/1",
+            "media_key": "3_2087869881748525056",
+            "start": 187,
+            "url": "https://t.co/8Kx99amKK4"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2087869886353874999",
+      "media": [
+        {
+          "height": 2000,
+          "media_key": "3_2087869881748525056",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HPmamG7bkAAQG6N.jpg",
+          "width": 1500
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 314,
+              "start": 307,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "user.my-th.jp/tickets/event/…",
+              "end": 305,
+              "expanded_url": "https://user.my-th.jp/tickets/event/aikou_0913",
+              "start": 282,
+              "url": "https://t.co/CHtAZBpKLF"
+            }
+          ]
+        },
+        "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                「アイドル甲子園 in \n　　　KANDA SQUARE  HALL」\n　　　　supported by My-th\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：9/13（日）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:15/9:30\n⟣price：前方¥8,500/一般¥3,500/当日各＋¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n8/14（金）20:00-9/13（日）\n🔗 https://t.co/CHtAZBpKLF\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": null,
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-09-13",
+        "event_dates": [
+          "2026-09-13"
+        ],
+        "event_name": "アイドル甲子園 in",
+        "extraction_confidence": 0.9,
+        "general_ticket_price": 3500,
+        "lottery_result_at": null,
+        "myojou_performance_time": null,
+        "notes": "ドリンク代: 各+1D\n⟣入場特典:明星カード(サインありチェキ)",
+        "open_time": "09:15",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "前方",
+        "priority_ticket_price": 8500,
+        "same_day_ticket_price": 1000,
+        "source_kind": "ticket_update",
+        "source_post_id": "2087869886353874999",
+        "source_posted_at": "2026-08-13T11:52:26Z",
+        "source_raw": {
+          "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                「アイドル甲子園 in \n　　　KANDA SQUARE  HALL」\n　　　　supported by My-th\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：9/13（日）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:15/9:30 https://t.co/8Kx99amKK4",
+          "attachments": {
+            "media_keys": [
+              "3_2087869881748525056"
+            ]
+          },
+          "created_at": "2026-08-13T11:52:26.000Z",
+          "edit_history_tweet_ids": [
+            "2087869886353874999"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/8Kx99amKK4",
+                "end": 210,
+                "expanded_url": "https://x.com/info_myojou/status/2087869886353874999/photo/1",
+                "media_key": "3_2087869881748525056",
+                "start": 187,
+                "url": "https://t.co/8Kx99amKK4"
+              }
+            ]
+          },
+          "full_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                「アイドル甲子園 in \n　　　KANDA SQUARE  HALL」\n　　　　supported by My-th\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：9/13（日）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:15/9:30\n⟣price：前方¥8,500/一般¥3,500/当日各＋¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n8/14（金）20:00-9/13（日）\n🔗 https://t.co/CHtAZBpKLF\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2087869886353874999",
+          "media": [
+            {
+              "height": 2000,
+              "media_key": "3_2087869881748525056",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HPmamG7bkAAQG6N.jpg",
+              "width": 1500
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 314,
+                  "start": 307,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "user.my-th.jp/tickets/event/…",
+                  "end": 305,
+                  "expanded_url": "https://user.my-th.jp/tickets/event/aikou_0913",
+                  "start": 282,
+                  "url": "https://t.co/CHtAZBpKLF"
+                }
+              ]
+            },
+            "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                「アイドル甲子園 in \n　　　KANDA SQUARE  HALL」\n　　　　supported by My-th\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：9/13（日）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:15/9:30\n⟣price：前方¥8,500/一般¥3,500/当日各＋¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n8/14（金）20:00-9/13（日）\n🔗 https://t.co/CHtAZBpKLF\n\n#myojou"
+          },
+          "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                「アイドル甲子園 in \n　　　KANDA SQUARE  HALL」\n　　　　supported by My-th\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：9/13（日）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:15/9:30 https://t.co/8Kx99amKK4",
+          "truncated_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                「アイドル甲子園 in \n　　　KANDA SQUARE  HALL」\n　　　　supported by My-th\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：9/13（日）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:15/9:30 https://t.co/8Kx99amKK4"
+        },
+        "source_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                「アイドル甲子園 in \n　　　KANDA SQUARE  HALL」\n　　　　supported by My-th\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：9/13（日）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:15/9:30\n⟣price：前方¥8,500/一般¥3,500/当日各＋¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n8/14（金）20:00-9/13（日）\n🔗 https://t.co/CHtAZBpKLF\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2087869886353874999",
+        "start_time": "09:30",
+        "ticket_application_deadline_at": "2026-09-13T00:00:00+09:00",
+        "ticket_application_start_at": "2026-08-14T20:00:00+09:00",
+        "ticket_sale_type": "先着",
+        "ticket_sales": [
+          {
+            "deadline_at": "2026-09-13T00:00:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 8500,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2087869886353874999",
+            "source_url": "https://x.com/info_myojou/status/2087869886353874999",
+            "start_at": "2026-08-14T20:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "前方",
+            "ticket_tier": "前方"
+          },
+          {
+            "deadline_at": "2026-09-13T00:00:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 3500,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2087869886353874999",
+            "source_url": "https://x.com/info_myojou/status/2087869886353874999",
+            "start_at": "2026-08-14T20:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 1000,
+            "result_at": null,
+            "sale_type": "当日券",
+            "source_post_id": "2087869886353874999",
+            "source_url": "https://x.com/info_myojou/status/2087869886353874999",
+            "start_at": null,
+            "status": "販売中",
+            "ticket_name": "当日券",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "https://user.my-th.jp/tickets/event/aikou_0913",
+        "venue": "KANDA SQUARE HALL"
+      },
+      "raw": {
+        "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                「アイドル甲子園 in \n　　　KANDA SQUARE  HALL」\n　　　　supported by My-th\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：9/13（日）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:15/9:30 https://t.co/8Kx99amKK4",
+        "attachments": {
+          "media_keys": [
+            "3_2087869881748525056"
+          ]
+        },
+        "created_at": "2026-08-13T11:52:26.000Z",
+        "edit_history_tweet_ids": [
+          "2087869886353874999"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/8Kx99amKK4",
+              "end": 210,
+              "expanded_url": "https://x.com/info_myojou/status/2087869886353874999/photo/1",
+              "media_key": "3_2087869881748525056",
+              "start": 187,
+              "url": "https://t.co/8Kx99amKK4"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                「アイドル甲子園 in \n　　　KANDA SQUARE  HALL」\n　　　　supported by My-th\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：9/13（日）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:15/9:30\n⟣price：前方¥8,500/一般¥3,500/当日各＋¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n8/14（金）20:00-9/13（日）\n🔗 https://t.co/CHtAZBpKLF\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2087869886353874999",
+        "media": [
+          {
+            "height": 2000,
+            "media_key": "3_2087869881748525056",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HPmamG7bkAAQG6N.jpg",
+            "width": 1500
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 314,
+                "start": 307,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "user.my-th.jp/tickets/event/…",
+                "end": 305,
+                "expanded_url": "https://user.my-th.jp/tickets/event/aikou_0913",
+                "start": 282,
+                "url": "https://t.co/CHtAZBpKLF"
+              }
+            ]
+          },
+          "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                「アイドル甲子園 in \n　　　KANDA SQUARE  HALL」\n　　　　supported by My-th\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：9/13（日）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:15/9:30\n⟣price：前方¥8,500/一般¥3,500/当日各＋¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n8/14（金）20:00-9/13（日）\n🔗 https://t.co/CHtAZBpKLF\n\n#myojou"
+        },
+        "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                「アイドル甲子園 in \n　　　KANDA SQUARE  HALL」\n　　　　supported by My-th\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：9/13（日）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:15/9:30 https://t.co/8Kx99amKK4",
+        "truncated_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                「アイドル甲子園 in \n　　　KANDA SQUARE  HALL」\n　　　　supported by My-th\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：9/13（日）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:15/9:30 https://t.co/8Kx99amKK4"
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                「アイドル甲子園 in \n　　　KANDA SQUARE  HALL」\n　　　　supported by My-th\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：9/13（日）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:15/9:30\n⟣price：前方¥8,500/一般¥3,500/当日各＋¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n8/14（金）20:00-9/13（日）\n🔗 https://t.co/CHtAZBpKLF\n\n#myojou",
+      "truncated_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                「アイドル甲子園 in \n　　　KANDA SQUARE  HALL」\n　　　　supported by My-th\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：9/13（日）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:15/9:30 https://t.co/8Kx99amKK4",
+      "url": "https://x.com/info_myojou/status/2087869886353874999"
+    },
+    {
+      "api_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                        ⟡.·*.御礼.*·.⟡\n             myojou Summer FINAL\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「myojou Summer FINAL」ありがとうございました⋆˙⟡\n\n左から\n日陽みう@myojou_miu \n澪奈ゆん@myojou_yun https://t.co/LDkt720rgs",
+      "attachments": {
+        "media_keys": [
+          "3_2087866682668892160"
+        ]
+      },
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "profile/member introduction",
+        "source_kind": "other"
+      },
+      "created_at": "2026-08-13T11:39:43+00:00",
+      "entities": {
+        "mentions": [
+          {
+            "end": 178,
+            "id": "2009245855694675968",
+            "start": 167,
+            "username": "myojou_miu"
+          },
+          {
+            "end": 195,
+            "id": "2009274765895450624",
+            "start": 184,
+            "username": "myojou_yun"
+          }
+        ],
+        "urls": [
+          {
+            "display_url": "pic.x.com/LDkt720rgs",
+            "end": 219,
+            "expanded_url": "https://x.com/info_myojou/status/2087866688578720199/photo/1",
+            "media_key": "3_2087866682668892160",
+            "start": 196,
+            "url": "https://t.co/LDkt720rgs"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2087866688578720199",
+      "media": [
+        {
+          "alt_text": "M0,SE(明夏)\nM1,星景讃歌\nM2,Beyond\nM3,蛍夏\nM4,夏、空模様\nM5,灯火\nM6,yoakeno\nM7,僕彩色\nM8,CHRONOS\nM9.軌跡まで\nMC\nM10,HeartBeat\nM11,Beyond\nM12,アンチコンプリート\n\nEN1,幸せのかたすみ\nEN2,Beyond\nEN3,HeartBeat",
+          "height": 1338,
+          "media_key": "3_2087866682668892160",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HPmXr5baQAA6YY1.jpg",
+          "width": 2048
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 295,
+              "start": 288,
+              "tag": "myojou"
+            }
+          ],
+          "mentions": [
+            {
+              "end": 178,
+              "id": "2009245855694675968",
+              "start": 167,
+              "username": "myojou_miu"
+            },
+            {
+              "end": 195,
+              "id": "2009274765895450624",
+              "start": 184,
+              "username": "myojou_yun"
+            },
+            {
+              "end": 214,
+              "id": "1754991922807177216",
+              "start": 201,
+              "username": "myojou_shino"
+            },
+            {
+              "end": 231,
+              "id": "2009245855694675968",
+              "start": 220,
+              "username": "myojou_miu"
+            },
+            {
+              "end": 252,
+              "id": "1590652199407083520",
+              "start": 238,
+              "username": "myojou_cocone"
+            },
+            {
+              "end": 270,
+              "id": "1981655668626165760",
+              "start": 258,
+              "username": "myojou_ruka"
+            }
+          ]
+        },
+        "text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                        ⟡.·*.御礼.*·.⟡\n             myojou Summer FINAL\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「myojou Summer FINAL」ありがとうございました⋆˙⟡\n\n左から\n日陽みう@myojou_miu \n澪奈ゆん@myojou_yun \n真希しの@myojou_shino \n薄倉りな@myojou_miu \n栗原ここね@myojou_cocone \n姫乃るか@myojou_ruka \n\nSETLIST▶︎ALT\n\n #myojou"
+      },
+      "parsed_fields": null,
+      "raw": {
+        "api_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                        ⟡.·*.御礼.*·.⟡\n             myojou Summer FINAL\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「myojou Summer FINAL」ありがとうございました⋆˙⟡\n\n左から\n日陽みう@myojou_miu \n澪奈ゆん@myojou_yun https://t.co/LDkt720rgs",
+        "attachments": {
+          "media_keys": [
+            "3_2087866682668892160"
+          ]
+        },
+        "created_at": "2026-08-13T11:39:43.000Z",
+        "edit_history_tweet_ids": [
+          "2087866688578720199"
+        ],
+        "entities": {
+          "mentions": [
+            {
+              "end": 178,
+              "id": "2009245855694675968",
+              "start": 167,
+              "username": "myojou_miu"
+            },
+            {
+              "end": 195,
+              "id": "2009274765895450624",
+              "start": 184,
+              "username": "myojou_yun"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "pic.x.com/LDkt720rgs",
+              "end": 219,
+              "expanded_url": "https://x.com/info_myojou/status/2087866688578720199/photo/1",
+              "media_key": "3_2087866682668892160",
+              "start": 196,
+              "url": "https://t.co/LDkt720rgs"
+            }
+          ]
+        },
+        "full_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                        ⟡.·*.御礼.*·.⟡\n             myojou Summer FINAL\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「myojou Summer FINAL」ありがとうございました⋆˙⟡\n\n左から\n日陽みう@myojou_miu \n澪奈ゆん@myojou_yun \n真希しの@myojou_shino \n薄倉りな@myojou_miu \n栗原ここね@myojou_cocone \n姫乃るか@myojou_ruka \n\nSETLIST▶︎ALT\n\n #myojou",
+        "full_text_source": "note_tweet",
+        "id": "2087866688578720199",
+        "media": [
+          {
+            "alt_text": "M0,SE(明夏)\nM1,星景讃歌\nM2,Beyond\nM3,蛍夏\nM4,夏、空模様\nM5,灯火\nM6,yoakeno\nM7,僕彩色\nM8,CHRONOS\nM9.軌跡まで\nMC\nM10,HeartBeat\nM11,Beyond\nM12,アンチコンプリート\n\nEN1,幸せのかたすみ\nEN2,Beyond\nEN3,HeartBeat",
+            "height": 1338,
+            "media_key": "3_2087866682668892160",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HPmXr5baQAA6YY1.jpg",
+            "width": 2048
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 295,
+                "start": 288,
+                "tag": "myojou"
+              }
+            ],
+            "mentions": [
+              {
+                "end": 178,
+                "id": "2009245855694675968",
+                "start": 167,
+                "username": "myojou_miu"
+              },
+              {
+                "end": 195,
+                "id": "2009274765895450624",
+                "start": 184,
+                "username": "myojou_yun"
+              },
+              {
+                "end": 214,
+                "id": "1754991922807177216",
+                "start": 201,
+                "username": "myojou_shino"
+              },
+              {
+                "end": 231,
+                "id": "2009245855694675968",
+                "start": 220,
+                "username": "myojou_miu"
+              },
+              {
+                "end": 252,
+                "id": "1590652199407083520",
+                "start": 238,
+                "username": "myojou_cocone"
+              },
+              {
+                "end": 270,
+                "id": "1981655668626165760",
+                "start": 258,
+                "username": "myojou_ruka"
+              }
+            ]
+          },
+          "text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                        ⟡.·*.御礼.*·.⟡\n             myojou Summer FINAL\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「myojou Summer FINAL」ありがとうございました⋆˙⟡\n\n左から\n日陽みう@myojou_miu \n澪奈ゆん@myojou_yun \n真希しの@myojou_shino \n薄倉りな@myojou_miu \n栗原ここね@myojou_cocone \n姫乃るか@myojou_ruka \n\nSETLIST▶︎ALT\n\n #myojou"
+        },
+        "text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                        ⟡.·*.御礼.*·.⟡\n             myojou Summer FINAL\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「myojou Summer FINAL」ありがとうございました⋆˙⟡\n\n左から\n日陽みう@myojou_miu \n澪奈ゆん@myojou_yun https://t.co/LDkt720rgs",
+        "truncated_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                        ⟡.·*.御礼.*·.⟡\n             myojou Summer FINAL\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「myojou Summer FINAL」ありがとうございました⋆˙⟡\n\n左から\n日陽みう@myojou_miu \n澪奈ゆん@myojou_yun https://t.co/LDkt720rgs"
+      },
+      "referenced_tweets": [],
+      "text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                        ⟡.·*.御礼.*·.⟡\n             myojou Summer FINAL\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「myojou Summer FINAL」ありがとうございました⋆˙⟡\n\n左から\n日陽みう@myojou_miu \n澪奈ゆん@myojou_yun \n真希しの@myojou_shino \n薄倉りな@myojou_miu \n栗原ここね@myojou_cocone \n姫乃るか@myojou_ruka \n\nSETLIST▶︎ALT\n\n #myojou",
+      "truncated_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                        ⟡.·*.御礼.*·.⟡\n             myojou Summer FINAL\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「myojou Summer FINAL」ありがとうございました⋆˙⟡\n\n左から\n日陽みう@myojou_miu \n澪奈ゆん@myojou_yun https://t.co/LDkt720rgs",
+      "url": "https://x.com/info_myojou/status/2087866688578720199"
+    },
+    {
+      "api_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n                    myojou\n           ONLINE MEETING\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣date：8/17（月）\n⟣1部 : 17:00-19:00浴衣\n⟣price : ¥2,000/枚\n🔗 https://t.co/xrFkpmzH5h\n🔗公式YouTubeチャンネル : https://t.co/S5PYXhtmSF https://t.co/2vlsu21YWX",
+      "attachments": {
+        "media_keys": [
+          "3_2087827028267732992"
+        ]
+      },
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "online signing/benefit-detail content",
+        "source_kind": "other"
+      },
+      "created_at": "2026-08-13T09:02:09+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "limista.com/projects/7711",
+            "end": 171,
+            "expanded_url": "https://limista.com/projects/7711",
+            "start": 148,
+            "status": 403,
+            "unwound_url": "https://limista.com/projects/7711",
+            "url": "https://t.co/xrFkpmzH5h"
+          },
+          {
+            "description": "「6人の少女が夜明けの空に描くストーリー」 公式X : https://x.com/info_myojou 公式TikTok : https://www.tiktok.com/@myojou2 【メンバー】 真希 しの(Maki Shino) 公式X : https://x.com/myojou_shino 栗原 ここね(Kurihara Cocone) 公式X : https://x.com/myojou_cocone 薄倉 りな(Usukura Rina) 公式X : https://x.com/myojou_usukura 姫乃 るか(Himeno Ruka) 公式X : https://x.com/myojou_ruka 日陽 みう(Hinata Miu) 公式X : https://x.com/myojou_miu 澪奈 ゆん(Miona Yun) 公式X : https://x.com/myojou_yun #myojou",
+            "display_url": "youtube.com/@myojou-m8y?si…",
+            "end": 213,
+            "expanded_url": "https://youtube.com/@myojou-m8y?si=jyVgqcwl1g0LIPnY",
+            "start": 190,
+            "status": 200,
+            "title": "myojou",
+            "unwound_url": "https://www.youtube.com/@myojou-m8y?si=jyVgqcwl1g0LIPnY",
+            "url": "https://t.co/S5PYXhtmSF"
+          },
+          {
+            "display_url": "pic.x.com/2vlsu21YWX",
+            "end": 237,
+            "expanded_url": "https://x.com/info_myojou/status/2087827035087650842/photo/1",
+            "media_key": "3_2087827028267732992",
+            "start": 214,
+            "url": "https://t.co/2vlsu21YWX"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2087827035087650842",
+      "media": [
+        {
+          "height": 3508,
+          "media_key": "3_2087827028267732992",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HPlzntRbkAAT8Ht.jpg",
+          "width": 2480
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 351,
+              "start": 344,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "limista.com/projects/7711",
+              "end": 171,
+              "expanded_url": "https://limista.com/projects/7711",
+              "start": 148,
+              "url": "https://t.co/4ijGUubIyv"
+            },
+            {
+              "display_url": "youtube.com/@myojou-m8y?si…",
+              "end": 213,
+              "expanded_url": "https://youtube.com/@myojou-m8y?si=jyVgqcwl1g0LIPnY",
+              "start": 190,
+              "url": "https://t.co/50wFE5FGtr"
+            }
+          ]
+        },
+        "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n                    myojou\n           ONLINE MEETING\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣date：8/17（月）\n⟣1部 : 17:00-19:00浴衣\n⟣price : ¥2,000/枚\n🔗 https://t.co/4ijGUubIyv\n🔗公式YouTubeチャンネル : https://t.co/50wFE5FGtr\n\n※チェキには「ニックネーム･サイン･日付･コメント」を記入してお届けします。\n※各部開始から30分後に販売締切。\n※ 本イベントはインターネットサイン会になります。公式YouTubeチャンネルより、あなただけの限定チェキを作成する様子をお届け致します。\n\n #myojou"
+      },
+      "parsed_fields": null,
+      "raw": {
+        "api_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n                    myojou\n           ONLINE MEETING\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣date：8/17（月）\n⟣1部 : 17:00-19:00浴衣\n⟣price : ¥2,000/枚\n🔗 https://t.co/xrFkpmzH5h\n🔗公式YouTubeチャンネル : https://t.co/S5PYXhtmSF https://t.co/2vlsu21YWX",
+        "attachments": {
+          "media_keys": [
+            "3_2087827028267732992"
+          ]
+        },
+        "created_at": "2026-08-13T09:02:09.000Z",
+        "edit_history_tweet_ids": [
+          "2087827035087650842"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "limista.com/projects/7711",
+              "end": 171,
+              "expanded_url": "https://limista.com/projects/7711",
+              "start": 148,
+              "status": 403,
+              "unwound_url": "https://limista.com/projects/7711",
+              "url": "https://t.co/xrFkpmzH5h"
+            },
+            {
+              "description": "「6人の少女が夜明けの空に描くストーリー」 公式X : https://x.com/info_myojou 公式TikTok : https://www.tiktok.com/@myojou2 【メンバー】 真希 しの(Maki Shino) 公式X : https://x.com/myojou_shino 栗原 ここね(Kurihara Cocone) 公式X : https://x.com/myojou_cocone 薄倉 りな(Usukura Rina) 公式X : https://x.com/myojou_usukura 姫乃 るか(Himeno Ruka) 公式X : https://x.com/myojou_ruka 日陽 みう(Hinata Miu) 公式X : https://x.com/myojou_miu 澪奈 ゆん(Miona Yun) 公式X : https://x.com/myojou_yun #myojou",
+              "display_url": "youtube.com/@myojou-m8y?si…",
+              "end": 213,
+              "expanded_url": "https://youtube.com/@myojou-m8y?si=jyVgqcwl1g0LIPnY",
+              "start": 190,
+              "status": 200,
+              "title": "myojou",
+              "unwound_url": "https://www.youtube.com/@myojou-m8y?si=jyVgqcwl1g0LIPnY",
+              "url": "https://t.co/S5PYXhtmSF"
+            },
+            {
+              "display_url": "pic.x.com/2vlsu21YWX",
+              "end": 237,
+              "expanded_url": "https://x.com/info_myojou/status/2087827035087650842/photo/1",
+              "media_key": "3_2087827028267732992",
+              "start": 214,
+              "url": "https://t.co/2vlsu21YWX"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n                    myojou\n           ONLINE MEETING\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣date：8/17（月）\n⟣1部 : 17:00-19:00浴衣\n⟣price : ¥2,000/枚\n🔗 https://t.co/4ijGUubIyv\n🔗公式YouTubeチャンネル : https://t.co/50wFE5FGtr\n\n※チェキには「ニックネーム･サイン･日付･コメント」を記入してお届けします。\n※各部開始から30分後に販売締切。\n※ 本イベントはインターネットサイン会になります。公式YouTubeチャンネルより、あなただけの限定チェキを作成する様子をお届け致します。\n\n #myojou",
+        "full_text_source": "note_tweet",
+        "id": "2087827035087650842",
+        "media": [
+          {
+            "height": 3508,
+            "media_key": "3_2087827028267732992",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HPlzntRbkAAT8Ht.jpg",
+            "width": 2480
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 351,
+                "start": 344,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "limista.com/projects/7711",
+                "end": 171,
+                "expanded_url": "https://limista.com/projects/7711",
+                "start": 148,
+                "url": "https://t.co/4ijGUubIyv"
+              },
+              {
+                "display_url": "youtube.com/@myojou-m8y?si…",
+                "end": 213,
+                "expanded_url": "https://youtube.com/@myojou-m8y?si=jyVgqcwl1g0LIPnY",
+                "start": 190,
+                "url": "https://t.co/50wFE5FGtr"
+              }
+            ]
+          },
+          "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n                    myojou\n           ONLINE MEETING\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣date：8/17（月）\n⟣1部 : 17:00-19:00浴衣\n⟣price : ¥2,000/枚\n🔗 https://t.co/4ijGUubIyv\n🔗公式YouTubeチャンネル : https://t.co/50wFE5FGtr\n\n※チェキには「ニックネーム･サイン･日付･コメント」を記入してお届けします。\n※各部開始から30分後に販売締切。\n※ 本イベントはインターネットサイン会になります。公式YouTubeチャンネルより、あなただけの限定チェキを作成する様子をお届け致します。\n\n #myojou"
+        },
+        "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n                    myojou\n           ONLINE MEETING\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣date：8/17（月）\n⟣1部 : 17:00-19:00浴衣\n⟣price : ¥2,000/枚\n🔗 https://t.co/xrFkpmzH5h\n🔗公式YouTubeチャンネル : https://t.co/S5PYXhtmSF https://t.co/2vlsu21YWX",
+        "truncated_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n                    myojou\n           ONLINE MEETING\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣date：8/17（月）\n⟣1部 : 17:00-19:00浴衣\n⟣price : ¥2,000/枚\n🔗 https://t.co/xrFkpmzH5h\n🔗公式YouTubeチャンネル : https://t.co/S5PYXhtmSF https://t.co/2vlsu21YWX"
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n                    myojou\n           ONLINE MEETING\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣date：8/17（月）\n⟣1部 : 17:00-19:00浴衣\n⟣price : ¥2,000/枚\n🔗 https://t.co/4ijGUubIyv\n🔗公式YouTubeチャンネル : https://t.co/50wFE5FGtr\n\n※チェキには「ニックネーム･サイン･日付･コメント」を記入してお届けします。\n※各部開始から30分後に販売締切。\n※ 本イベントはインターネットサイン会になります。公式YouTubeチャンネルより、あなただけの限定チェキを作成する様子をお届け致します。\n\n #myojou",
+      "truncated_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n                    myojou\n           ONLINE MEETING\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣date：8/17（月）\n⟣1部 : 17:00-19:00浴衣\n⟣price : ¥2,000/枚\n🔗 https://t.co/xrFkpmzH5h\n🔗公式YouTubeチャンネル : https://t.co/S5PYXhtmSF https://t.co/2vlsu21YWX",
+      "url": "https://x.com/info_myojou/status/2087827035087650842"
+    },
+    {
+      "api_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「myojou Summer FINAL」\n\n⟣date：8/13(木)\n⟣place : WOMB LIVE\n⟣open/start：18:30/19:00\n⟣事前特典会：16:30-17:30\n⟣price：優先¥6,000（限定Tシャツ付き）/一般¥0（各+1D）\n\n【一般販売】\n7/20（月祝）22:00-8/13（木）20:00\n🔗 https://t.co/ZQTThv5cRL https://t.co/EpyCNkFQNg",
+      "attachments": {
+        "media_keys": [
+          "3_2087732352965619712"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "same_day_reminder"
+      },
+      "created_at": "2026-08-13T02:45:57+00:00",
+      "entities": {
+        "urls": [
+          {
+            "description": "【日付】2026/08/13 【場所】WOMB LIVE 【出演者】myojou",
+            "display_url": "t-dv.com/myojou_0813",
+            "end": 219,
+            "expanded_url": "http://t-dv.com/myojou_0813",
+            "start": 196,
+            "status": 200,
+            "title": "myojou Summer FINAL | TicketDive",
+            "unwound_url": "https://ticketdive.com/event/myojou_0813",
+            "url": "https://t.co/ZQTThv5cRL"
+          },
+          {
+            "display_url": "pic.x.com/EpyCNkFQNg",
+            "end": 243,
+            "expanded_url": "https://x.com/info_myojou/status/2087732358669857179/photo/1",
+            "media_key": "3_2087732352965619712",
+            "start": 220,
+            "url": "https://t.co/EpyCNkFQNg"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2087732358669857179",
+      "media": [
+        {
+          "height": 1448,
+          "media_key": "3_2087732352965619712",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HPkdg4SbMAAstZw.jpg",
+          "width": 2047
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 228,
+              "start": 221,
+              "tag": "myojou"
+            },
+            {
+              "end": 239,
+              "start": 229,
+              "tag": "ミョージョーサマー"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "t-dv.com/myojou_0813",
+              "end": 219,
+              "expanded_url": "http://t-dv.com/myojou_0813",
+              "start": 196,
+              "url": "https://t.co/4xnB68nbxW"
+            }
+          ]
+        },
+        "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「myojou Summer FINAL」\n\n⟣date：8/13(木)\n⟣place : WOMB LIVE\n⟣open/start：18:30/19:00\n⟣事前特典会：16:30-17:30\n⟣price：優先¥6,000（限定Tシャツ付き）/一般¥0（各+1D）\n\n【一般販売】\n7/20（月祝）22:00-8/13（木）20:00\n🔗 https://t.co/4xnB68nbxW\n\n#myojou\n#ミョージョーサマー"
+      },
+      "parsed_fields": {
+        "benefit_event_time": "16:30-17:30",
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-08-13",
+        "event_dates": [
+          "2026-08-13"
+        ],
+        "event_name": "myojou Summer FINAL",
+        "extraction_confidence": 0.95,
+        "general_ticket_price": 0,
+        "lottery_result_at": null,
+        "myojou_performance_time": null,
+        "notes": "ドリンク代: 各+1D",
+        "open_time": "18:30",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "優先",
+        "priority_ticket_price": 6000,
+        "same_day_ticket_price": null,
+        "source_kind": "same_day_reminder",
+        "source_post_id": "2087732358669857179",
+        "source_posted_at": "2026-08-13T02:45:57Z",
+        "source_raw": {
+          "api_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「myojou Summer FINAL」\n\n⟣date：8/13(木)\n⟣place : WOMB LIVE\n⟣open/start：18:30/19:00\n⟣事前特典会：16:30-17:30\n⟣price：優先¥6,000（限定Tシャツ付き）/一般¥0（各+1D）\n\n【一般販売】\n7/20（月祝）22:00-8/13（木）20:00\n🔗 https://t.co/ZQTThv5cRL https://t.co/EpyCNkFQNg",
+          "attachments": {
+            "media_keys": [
+              "3_2087732352965619712"
+            ]
+          },
+          "created_at": "2026-08-13T02:45:57.000Z",
+          "edit_history_tweet_ids": [
+            "2087732358669857179"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "description": "【日付】2026/08/13 【場所】WOMB LIVE 【出演者】myojou",
+                "display_url": "t-dv.com/myojou_0813",
+                "end": 219,
+                "expanded_url": "http://t-dv.com/myojou_0813",
+                "start": 196,
+                "status": 200,
+                "title": "myojou Summer FINAL | TicketDive",
+                "unwound_url": "https://ticketdive.com/event/myojou_0813",
+                "url": "https://t.co/ZQTThv5cRL"
+              },
+              {
+                "display_url": "pic.x.com/EpyCNkFQNg",
+                "end": 243,
+                "expanded_url": "https://x.com/info_myojou/status/2087732358669857179/photo/1",
+                "media_key": "3_2087732352965619712",
+                "start": 220,
+                "url": "https://t.co/EpyCNkFQNg"
+              }
+            ]
+          },
+          "full_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「myojou Summer FINAL」\n\n⟣date：8/13(木)\n⟣place : WOMB LIVE\n⟣open/start：18:30/19:00\n⟣事前特典会：16:30-17:30\n⟣price：優先¥6,000（限定Tシャツ付き）/一般¥0（各+1D）\n\n【一般販売】\n7/20（月祝）22:00-8/13（木）20:00\n🔗 https://t.co/4xnB68nbxW\n\n#myojou\n#ミョージョーサマー",
+          "full_text_source": "note_tweet",
+          "id": "2087732358669857179",
+          "media": [
+            {
+              "height": 1448,
+              "media_key": "3_2087732352965619712",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HPkdg4SbMAAstZw.jpg",
+              "width": 2047
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 228,
+                  "start": 221,
+                  "tag": "myojou"
+                },
+                {
+                  "end": 239,
+                  "start": 229,
+                  "tag": "ミョージョーサマー"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "t-dv.com/myojou_0813",
+                  "end": 219,
+                  "expanded_url": "http://t-dv.com/myojou_0813",
+                  "start": 196,
+                  "url": "https://t.co/4xnB68nbxW"
+                }
+              ]
+            },
+            "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「myojou Summer FINAL」\n\n⟣date：8/13(木)\n⟣place : WOMB LIVE\n⟣open/start：18:30/19:00\n⟣事前特典会：16:30-17:30\n⟣price：優先¥6,000（限定Tシャツ付き）/一般¥0（各+1D）\n\n【一般販売】\n7/20（月祝）22:00-8/13（木）20:00\n🔗 https://t.co/4xnB68nbxW\n\n#myojou\n#ミョージョーサマー"
+          },
+          "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「myojou Summer FINAL」\n\n⟣date：8/13(木)\n⟣place : WOMB LIVE\n⟣open/start：18:30/19:00\n⟣事前特典会：16:30-17:30\n⟣price：優先¥6,000（限定Tシャツ付き）/一般¥0（各+1D）\n\n【一般販売】\n7/20（月祝）22:00-8/13（木）20:00\n🔗 https://t.co/ZQTThv5cRL https://t.co/EpyCNkFQNg",
+          "truncated_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「myojou Summer FINAL」\n\n⟣date：8/13(木)\n⟣place : WOMB LIVE\n⟣open/start：18:30/19:00\n⟣事前特典会：16:30-17:30\n⟣price：優先¥6,000（限定Tシャツ付き）/一般¥0（各+1D）\n\n【一般販売】\n7/20（月祝）22:00-8/13（木）20:00\n🔗 https://t.co/ZQTThv5cRL https://t.co/EpyCNkFQNg"
+        },
+        "source_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「myojou Summer FINAL」\n\n⟣date：8/13(木)\n⟣place : WOMB LIVE\n⟣open/start：18:30/19:00\n⟣事前特典会：16:30-17:30\n⟣price：優先¥6,000（限定Tシャツ付き）/一般¥0（各+1D）\n\n【一般販売】\n7/20（月祝）22:00-8/13（木）20:00\n🔗 https://t.co/4xnB68nbxW\n\n#myojou\n#ミョージョーサマー",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2087732358669857179",
+        "start_time": "19:00",
+        "ticket_application_deadline_at": "2026-08-13T20:00:00+09:00",
+        "ticket_application_start_at": "2026-07-20T22:00:00+09:00",
+        "ticket_sale_type": "無料",
+        "ticket_sales": [
+          {
+            "deadline_at": "2026-08-13T20:00:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 6000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2087732358669857179",
+            "source_url": "https://x.com/info_myojou/status/2087732358669857179",
+            "start_at": "2026-07-20T22:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "優先",
+            "ticket_tier": "優先"
+          },
+          {
+            "deadline_at": "2026-08-13T20:00:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 0,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2087732358669857179",
+            "source_url": "https://x.com/info_myojou/status/2087732358669857179",
+            "start_at": "2026-07-20T22:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "http://t-dv.com/myojou_0813",
+        "venue": "WOMB LIVE"
+      },
+      "raw": {
+        "api_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「myojou Summer FINAL」\n\n⟣date：8/13(木)\n⟣place : WOMB LIVE\n⟣open/start：18:30/19:00\n⟣事前特典会：16:30-17:30\n⟣price：優先¥6,000（限定Tシャツ付き）/一般¥0（各+1D）\n\n【一般販売】\n7/20（月祝）22:00-8/13（木）20:00\n🔗 https://t.co/ZQTThv5cRL https://t.co/EpyCNkFQNg",
+        "attachments": {
+          "media_keys": [
+            "3_2087732352965619712"
+          ]
+        },
+        "created_at": "2026-08-13T02:45:57.000Z",
+        "edit_history_tweet_ids": [
+          "2087732358669857179"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "description": "【日付】2026/08/13 【場所】WOMB LIVE 【出演者】myojou",
+              "display_url": "t-dv.com/myojou_0813",
+              "end": 219,
+              "expanded_url": "http://t-dv.com/myojou_0813",
+              "start": 196,
+              "status": 200,
+              "title": "myojou Summer FINAL | TicketDive",
+              "unwound_url": "https://ticketdive.com/event/myojou_0813",
+              "url": "https://t.co/ZQTThv5cRL"
+            },
+            {
+              "display_url": "pic.x.com/EpyCNkFQNg",
+              "end": 243,
+              "expanded_url": "https://x.com/info_myojou/status/2087732358669857179/photo/1",
+              "media_key": "3_2087732352965619712",
+              "start": 220,
+              "url": "https://t.co/EpyCNkFQNg"
+            }
+          ]
+        },
+        "full_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「myojou Summer FINAL」\n\n⟣date：8/13(木)\n⟣place : WOMB LIVE\n⟣open/start：18:30/19:00\n⟣事前特典会：16:30-17:30\n⟣price：優先¥6,000（限定Tシャツ付き）/一般¥0（各+1D）\n\n【一般販売】\n7/20（月祝）22:00-8/13（木）20:00\n🔗 https://t.co/4xnB68nbxW\n\n#myojou\n#ミョージョーサマー",
+        "full_text_source": "note_tweet",
+        "id": "2087732358669857179",
+        "media": [
+          {
+            "height": 1448,
+            "media_key": "3_2087732352965619712",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HPkdg4SbMAAstZw.jpg",
+            "width": 2047
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 228,
+                "start": 221,
+                "tag": "myojou"
+              },
+              {
+                "end": 239,
+                "start": 229,
+                "tag": "ミョージョーサマー"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "t-dv.com/myojou_0813",
+                "end": 219,
+                "expanded_url": "http://t-dv.com/myojou_0813",
+                "start": 196,
+                "url": "https://t.co/4xnB68nbxW"
+              }
+            ]
+          },
+          "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「myojou Summer FINAL」\n\n⟣date：8/13(木)\n⟣place : WOMB LIVE\n⟣open/start：18:30/19:00\n⟣事前特典会：16:30-17:30\n⟣price：優先¥6,000（限定Tシャツ付き）/一般¥0（各+1D）\n\n【一般販売】\n7/20（月祝）22:00-8/13（木）20:00\n🔗 https://t.co/4xnB68nbxW\n\n#myojou\n#ミョージョーサマー"
+        },
+        "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「myojou Summer FINAL」\n\n⟣date：8/13(木)\n⟣place : WOMB LIVE\n⟣open/start：18:30/19:00\n⟣事前特典会：16:30-17:30\n⟣price：優先¥6,000（限定Tシャツ付き）/一般¥0（各+1D）\n\n【一般販売】\n7/20（月祝）22:00-8/13（木）20:00\n🔗 https://t.co/ZQTThv5cRL https://t.co/EpyCNkFQNg",
+        "truncated_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「myojou Summer FINAL」\n\n⟣date：8/13(木)\n⟣place : WOMB LIVE\n⟣open/start：18:30/19:00\n⟣事前特典会：16:30-17:30\n⟣price：優先¥6,000（限定Tシャツ付き）/一般¥0（各+1D）\n\n【一般販売】\n7/20（月祝）22:00-8/13（木）20:00\n🔗 https://t.co/ZQTThv5cRL https://t.co/EpyCNkFQNg"
+      },
+      "referenced_tweets": [],
+      "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「myojou Summer FINAL」\n\n⟣date：8/13(木)\n⟣place : WOMB LIVE\n⟣open/start：18:30/19:00\n⟣事前特典会：16:30-17:30\n⟣price：優先¥6,000（限定Tシャツ付き）/一般¥0（各+1D）\n\n【一般販売】\n7/20（月祝）22:00-8/13（木）20:00\n🔗 https://t.co/4xnB68nbxW\n\n#myojou\n#ミョージョーサマー",
+      "truncated_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「myojou Summer FINAL」\n\n⟣date：8/13(木)\n⟣place : WOMB LIVE\n⟣open/start：18:30/19:00\n⟣事前特典会：16:30-17:30\n⟣price：優先¥6,000（限定Tシャツ付き）/一般¥0（各+1D）\n\n【一般販売】\n7/20（月祝）22:00-8/13（木）20:00\n🔗 https://t.co/ZQTThv5cRL https://t.co/EpyCNkFQNg",
+      "url": "https://x.com/info_myojou/status/2087732358669857179"
+    },
+    {
+      "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n              碧の途中式 Debut Live\n             『世界が僕を見つけた日』\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：9/9（水）\n⟣place :Veats Shibuya\n⟣open/start：TBA/TBA\n⟣price：Sチケット¥5,000/Aチケット¥0（各＋1D） https://t.co/cXHgwwrf87",
+      "attachments": {
+        "media_keys": [
+          "3_2087731964283645952"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "ticket_update"
+      },
+      "created_at": "2026-08-13T02:44:24+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/cXHgwwrf87",
+            "end": 217,
+            "expanded_url": "https://x.com/info_myojou/status/2087731970440859714/photo/1",
+            "media_key": "3_2087731964283645952",
+            "start": 194,
+            "url": "https://t.co/cXHgwwrf87"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2087731970440859714",
+      "media": [
+        {
+          "height": 2048,
+          "media_key": "3_2087731964283645952",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HPkdKQVa8AAllF-.jpg",
+          "width": 1448
+        }
+      ],
+      "needs_review": true,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 270,
+              "start": 263,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "ticketdive.com/event/aoshiki_…",
+              "end": 261,
+              "expanded_url": "https://ticketdive.com/event/aoshiki_debut",
+              "start": 238,
+              "url": "https://t.co/f4992QXc0o"
+            }
+          ]
+        },
+        "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n              碧の途中式 Debut Live\n             『世界が僕を見つけた日』\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：9/9（水）\n⟣place :Veats Shibuya\n⟣open/start：TBA/TBA\n⟣price：Sチケット¥5,000/Aチケット¥0（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n-9/8（火）23:59\n🔗https://t.co/f4992QXc0o\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": null,
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-09-09",
+        "event_dates": [
+          "2026-09-09"
+        ],
+        "event_name": "碧の途中式 Debut Live",
+        "extraction_confidence": 0.8,
+        "general_ticket_price": 0,
+        "lottery_result_at": null,
+        "myojou_performance_time": null,
+        "notes": "ドリンク代: 各+1D\n⟣入場特典:明星カード(サインありチェキ)",
+        "open_time": null,
+        "payment_deadline_at": null,
+        "priority_ticket_name": "Sチケット",
+        "priority_ticket_price": 5000,
+        "same_day_ticket_price": null,
+        "source_kind": "ticket_update",
+        "source_post_id": "2087731970440859714",
+        "source_posted_at": "2026-08-13T02:44:24Z",
+        "source_raw": {
+          "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n              碧の途中式 Debut Live\n             『世界が僕を見つけた日』\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：9/9（水）\n⟣place :Veats Shibuya\n⟣open/start：TBA/TBA\n⟣price：Sチケット¥5,000/Aチケット¥0（各＋1D） https://t.co/cXHgwwrf87",
+          "attachments": {
+            "media_keys": [
+              "3_2087731964283645952"
+            ]
+          },
+          "created_at": "2026-08-13T02:44:24.000Z",
+          "edit_history_tweet_ids": [
+            "2087731970440859714"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/cXHgwwrf87",
+                "end": 217,
+                "expanded_url": "https://x.com/info_myojou/status/2087731970440859714/photo/1",
+                "media_key": "3_2087731964283645952",
+                "start": 194,
+                "url": "https://t.co/cXHgwwrf87"
+              }
+            ]
+          },
+          "full_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n              碧の途中式 Debut Live\n             『世界が僕を見つけた日』\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：9/9（水）\n⟣place :Veats Shibuya\n⟣open/start：TBA/TBA\n⟣price：Sチケット¥5,000/Aチケット¥0（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n-9/8（火）23:59\n🔗https://t.co/f4992QXc0o\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2087731970440859714",
+          "media": [
+            {
+              "height": 2048,
+              "media_key": "3_2087731964283645952",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HPkdKQVa8AAllF-.jpg",
+              "width": 1448
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 270,
+                  "start": 263,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "ticketdive.com/event/aoshiki_…",
+                  "end": 261,
+                  "expanded_url": "https://ticketdive.com/event/aoshiki_debut",
+                  "start": 238,
+                  "url": "https://t.co/f4992QXc0o"
+                }
+              ]
+            },
+            "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n              碧の途中式 Debut Live\n             『世界が僕を見つけた日』\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：9/9（水）\n⟣place :Veats Shibuya\n⟣open/start：TBA/TBA\n⟣price：Sチケット¥5,000/Aチケット¥0（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n-9/8（火）23:59\n🔗https://t.co/f4992QXc0o\n\n#myojou"
+          },
+          "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n              碧の途中式 Debut Live\n             『世界が僕を見つけた日』\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：9/9（水）\n⟣place :Veats Shibuya\n⟣open/start：TBA/TBA\n⟣price：Sチケット¥5,000/Aチケット¥0（各＋1D） https://t.co/cXHgwwrf87",
+          "truncated_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n              碧の途中式 Debut Live\n             『世界が僕を見つけた日』\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：9/9（水）\n⟣place :Veats Shibuya\n⟣open/start：TBA/TBA\n⟣price：Sチケット¥5,000/Aチケット¥0（各＋1D） https://t.co/cXHgwwrf87"
+        },
+        "source_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n              碧の途中式 Debut Live\n             『世界が僕を見つけた日』\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：9/9（水）\n⟣place :Veats Shibuya\n⟣open/start：TBA/TBA\n⟣price：Sチケット¥5,000/Aチケット¥0（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n-9/8（火）23:59\n🔗https://t.co/f4992QXc0o\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2087731970440859714",
+        "start_time": null,
+        "ticket_application_deadline_at": "2026-09-08T23:59:00+09:00",
+        "ticket_application_start_at": null,
+        "ticket_sale_type": "無料",
+        "ticket_sales": [
+          {
+            "deadline_at": "2026-09-08T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 0,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2087731970440859714",
+            "source_url": "https://x.com/info_myojou/status/2087731970440859714",
+            "start_at": null,
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 5000,
+            "result_at": null,
+            "sale_type": "無料",
+            "source_post_id": "2087731970440859714",
+            "source_url": "https://x.com/info_myojou/status/2087731970440859714",
+            "start_at": null,
+            "status": "不明",
+            "ticket_name": "Sチケット",
+            "ticket_tier": "不明"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "https://ticketdive.com/event/aoshiki_debut",
+        "venue": "Veats Shibuya"
+      },
+      "raw": {
+        "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n              碧の途中式 Debut Live\n             『世界が僕を見つけた日』\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：9/9（水）\n⟣place :Veats Shibuya\n⟣open/start：TBA/TBA\n⟣price：Sチケット¥5,000/Aチケット¥0（各＋1D） https://t.co/cXHgwwrf87",
+        "attachments": {
+          "media_keys": [
+            "3_2087731964283645952"
+          ]
+        },
+        "created_at": "2026-08-13T02:44:24.000Z",
+        "edit_history_tweet_ids": [
+          "2087731970440859714"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/cXHgwwrf87",
+              "end": 217,
+              "expanded_url": "https://x.com/info_myojou/status/2087731970440859714/photo/1",
+              "media_key": "3_2087731964283645952",
+              "start": 194,
+              "url": "https://t.co/cXHgwwrf87"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n              碧の途中式 Debut Live\n             『世界が僕を見つけた日』\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：9/9（水）\n⟣place :Veats Shibuya\n⟣open/start：TBA/TBA\n⟣price：Sチケット¥5,000/Aチケット¥0（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n-9/8（火）23:59\n🔗https://t.co/f4992QXc0o\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2087731970440859714",
+        "media": [
+          {
+            "height": 2048,
+            "media_key": "3_2087731964283645952",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HPkdKQVa8AAllF-.jpg",
+            "width": 1448
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 270,
+                "start": 263,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "ticketdive.com/event/aoshiki_…",
+                "end": 261,
+                "expanded_url": "https://ticketdive.com/event/aoshiki_debut",
+                "start": 238,
+                "url": "https://t.co/f4992QXc0o"
+              }
+            ]
+          },
+          "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n              碧の途中式 Debut Live\n             『世界が僕を見つけた日』\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：9/9（水）\n⟣place :Veats Shibuya\n⟣open/start：TBA/TBA\n⟣price：Sチケット¥5,000/Aチケット¥0（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n-9/8（火）23:59\n🔗https://t.co/f4992QXc0o\n\n#myojou"
+        },
+        "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n              碧の途中式 Debut Live\n             『世界が僕を見つけた日』\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：9/9（水）\n⟣place :Veats Shibuya\n⟣open/start：TBA/TBA\n⟣price：Sチケット¥5,000/Aチケット¥0（各＋1D） https://t.co/cXHgwwrf87",
+        "truncated_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n              碧の途中式 Debut Live\n             『世界が僕を見つけた日』\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：9/9（水）\n⟣place :Veats Shibuya\n⟣open/start：TBA/TBA\n⟣price：Sチケット¥5,000/Aチケット¥0（各＋1D） https://t.co/cXHgwwrf87"
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n              碧の途中式 Debut Live\n             『世界が僕を見つけた日』\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：9/9（水）\n⟣place :Veats Shibuya\n⟣open/start：TBA/TBA\n⟣price：Sチケット¥5,000/Aチケット¥0（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n-9/8（火）23:59\n🔗https://t.co/f4992QXc0o\n\n#myojou",
+      "truncated_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n              碧の途中式 Debut Live\n             『世界が僕を見つけた日』\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n⟣date：9/9（水）\n⟣place :Veats Shibuya\n⟣open/start：TBA/TBA\n⟣price：Sチケット¥5,000/Aチケット¥0（各＋1D） https://t.co/cXHgwwrf87",
+      "url": "https://x.com/info_myojou/status/2087731970440859714"
+    },
+    {
+      "api_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n                俺フェス！ Vol.2\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n🎙18:15-18:35\n📸18:45-19:45 C\n\n⟣date：8/21（金）\n⟣place : 白金高輪SELENE b2\n⟣open/start：16:00/16:30\n⟣price：前方¥5,000/一般¥2,000（各+1D） https://t.co/5T9C37KCBY",
+      "attachments": {
+        "media_keys": [
+          "3_2087730933097254912"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "ticket_update"
+      },
+      "created_at": "2026-08-13T02:40:18+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/5T9C37KCBY",
+            "end": 217,
+            "expanded_url": "https://x.com/info_myojou/status/2087730939715826082/photo/1",
+            "media_key": "3_2087730933097254912",
+            "start": 194,
+            "url": "https://t.co/5T9C37KCBY"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2087730939715826082",
+      "media": [
+        {
+          "height": 2048,
+          "media_key": "3_2087730933097254912",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HPkcOO3bUAAIVHv.jpg",
+          "width": 1448
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 273,
+              "start": 266,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "ticketdive.com/event/orefes08…",
+              "end": 263,
+              "expanded_url": "https://ticketdive.com/event/orefes0821",
+              "start": 240,
+              "url": "https://t.co/fVj4sUL9n4"
+            }
+          ]
+        },
+        "text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n                俺フェス！ Vol.2\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n🎙18:15-18:35\n📸18:45-19:45 C\n\n⟣date：8/21（金）\n⟣place : 白金高輪SELENE b2\n⟣open/start：16:00/16:30\n⟣price：前方¥5,000/一般¥2,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n-8/20（木）23:59\n🔗 https://t.co/fVj4sUL9n4\n\n #myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": "18:45-19:45",
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-08-21",
+        "event_dates": [
+          "2026-08-21"
+        ],
+        "event_name": "俺フェス! Vol.2",
+        "extraction_confidence": 0.95,
+        "general_ticket_price": 2000,
+        "lottery_result_at": null,
+        "myojou_performance_time": "18:15-18:35",
+        "notes": "ドリンク代: 各+1D\n⟣入場特典:明星カード(サインありチェキ)",
+        "open_time": "16:00",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "前方",
+        "priority_ticket_price": 5000,
+        "same_day_ticket_price": null,
+        "source_kind": "ticket_update",
+        "source_post_id": "2087730939715826082",
+        "source_posted_at": "2026-08-13T02:40:18Z",
+        "source_raw": {
+          "api_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n                俺フェス！ Vol.2\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n🎙18:15-18:35\n📸18:45-19:45 C\n\n⟣date：8/21（金）\n⟣place : 白金高輪SELENE b2\n⟣open/start：16:00/16:30\n⟣price：前方¥5,000/一般¥2,000（各+1D） https://t.co/5T9C37KCBY",
+          "attachments": {
+            "media_keys": [
+              "3_2087730933097254912"
+            ]
+          },
+          "created_at": "2026-08-13T02:40:18.000Z",
+          "edit_history_tweet_ids": [
+            "2087730939715826082"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/5T9C37KCBY",
+                "end": 217,
+                "expanded_url": "https://x.com/info_myojou/status/2087730939715826082/photo/1",
+                "media_key": "3_2087730933097254912",
+                "start": 194,
+                "url": "https://t.co/5T9C37KCBY"
+              }
+            ]
+          },
+          "full_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n                俺フェス！ Vol.2\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n🎙18:15-18:35\n📸18:45-19:45 C\n\n⟣date：8/21（金）\n⟣place : 白金高輪SELENE b2\n⟣open/start：16:00/16:30\n⟣price：前方¥5,000/一般¥2,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n-8/20（木）23:59\n🔗 https://t.co/fVj4sUL9n4\n\n #myojou",
+          "full_text_source": "note_tweet",
+          "id": "2087730939715826082",
+          "media": [
+            {
+              "height": 2048,
+              "media_key": "3_2087730933097254912",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HPkcOO3bUAAIVHv.jpg",
+              "width": 1448
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 273,
+                  "start": 266,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "ticketdive.com/event/orefes08…",
+                  "end": 263,
+                  "expanded_url": "https://ticketdive.com/event/orefes0821",
+                  "start": 240,
+                  "url": "https://t.co/fVj4sUL9n4"
+                }
+              ]
+            },
+            "text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n                俺フェス！ Vol.2\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n🎙18:15-18:35\n📸18:45-19:45 C\n\n⟣date：8/21（金）\n⟣place : 白金高輪SELENE b2\n⟣open/start：16:00/16:30\n⟣price：前方¥5,000/一般¥2,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n-8/20（木）23:59\n🔗 https://t.co/fVj4sUL9n4\n\n #myojou"
+          },
+          "text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n                俺フェス！ Vol.2\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n🎙18:15-18:35\n📸18:45-19:45 C\n\n⟣date：8/21（金）\n⟣place : 白金高輪SELENE b2\n⟣open/start：16:00/16:30\n⟣price：前方¥5,000/一般¥2,000（各+1D） https://t.co/5T9C37KCBY",
+          "truncated_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n                俺フェス！ Vol.2\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n🎙18:15-18:35\n📸18:45-19:45 C\n\n⟣date：8/21（金）\n⟣place : 白金高輪SELENE b2\n⟣open/start：16:00/16:30\n⟣price：前方¥5,000/一般¥2,000（各+1D） https://t.co/5T9C37KCBY"
+        },
+        "source_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n                俺フェス！ Vol.2\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n🎙18:15-18:35\n📸18:45-19:45 C\n\n⟣date：8/21（金）\n⟣place : 白金高輪SELENE b2\n⟣open/start：16:00/16:30\n⟣price：前方¥5,000/一般¥2,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n-8/20（木）23:59\n🔗 https://t.co/fVj4sUL9n4\n\n #myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2087730939715826082",
+        "start_time": "16:30",
+        "ticket_application_deadline_at": "2026-08-20T23:59:00+09:00",
+        "ticket_application_start_at": null,
+        "ticket_sale_type": "一般",
+        "ticket_sales": [
+          {
+            "deadline_at": "2026-08-20T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 5000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2087730939715826082",
+            "source_url": "https://x.com/info_myojou/status/2087730939715826082",
+            "start_at": null,
+            "status": "不明",
+            "ticket_name": "前方",
+            "ticket_tier": "前方"
+          },
+          {
+            "deadline_at": "2026-08-20T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 2000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2087730939715826082",
+            "source_url": "https://x.com/info_myojou/status/2087730939715826082",
+            "start_at": null,
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "https://ticketdive.com/event/orefes0821",
+        "venue": "白金高輪SELENE b2"
+      },
+      "raw": {
+        "api_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n                俺フェス！ Vol.2\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n🎙18:15-18:35\n📸18:45-19:45 C\n\n⟣date：8/21（金）\n⟣place : 白金高輪SELENE b2\n⟣open/start：16:00/16:30\n⟣price：前方¥5,000/一般¥2,000（各+1D） https://t.co/5T9C37KCBY",
+        "attachments": {
+          "media_keys": [
+            "3_2087730933097254912"
+          ]
+        },
+        "created_at": "2026-08-13T02:40:18.000Z",
+        "edit_history_tweet_ids": [
+          "2087730939715826082"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/5T9C37KCBY",
+              "end": 217,
+              "expanded_url": "https://x.com/info_myojou/status/2087730939715826082/photo/1",
+              "media_key": "3_2087730933097254912",
+              "start": 194,
+              "url": "https://t.co/5T9C37KCBY"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n                俺フェス！ Vol.2\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n🎙18:15-18:35\n📸18:45-19:45 C\n\n⟣date：8/21（金）\n⟣place : 白金高輪SELENE b2\n⟣open/start：16:00/16:30\n⟣price：前方¥5,000/一般¥2,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n-8/20（木）23:59\n🔗 https://t.co/fVj4sUL9n4\n\n #myojou",
+        "full_text_source": "note_tweet",
+        "id": "2087730939715826082",
+        "media": [
+          {
+            "height": 2048,
+            "media_key": "3_2087730933097254912",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HPkcOO3bUAAIVHv.jpg",
+            "width": 1448
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 273,
+                "start": 266,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "ticketdive.com/event/orefes08…",
+                "end": 263,
+                "expanded_url": "https://ticketdive.com/event/orefes0821",
+                "start": 240,
+                "url": "https://t.co/fVj4sUL9n4"
+              }
+            ]
+          },
+          "text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n                俺フェス！ Vol.2\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n🎙18:15-18:35\n📸18:45-19:45 C\n\n⟣date：8/21（金）\n⟣place : 白金高輪SELENE b2\n⟣open/start：16:00/16:30\n⟣price：前方¥5,000/一般¥2,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n-8/20（木）23:59\n🔗 https://t.co/fVj4sUL9n4\n\n #myojou"
+        },
+        "text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n                俺フェス！ Vol.2\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n🎙18:15-18:35\n📸18:45-19:45 C\n\n⟣date：8/21（金）\n⟣place : 白金高輪SELENE b2\n⟣open/start：16:00/16:30\n⟣price：前方¥5,000/一般¥2,000（各+1D） https://t.co/5T9C37KCBY",
+        "truncated_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n                俺フェス！ Vol.2\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n🎙18:15-18:35\n📸18:45-19:45 C\n\n⟣date：8/21（金）\n⟣place : 白金高輪SELENE b2\n⟣open/start：16:00/16:30\n⟣price：前方¥5,000/一般¥2,000（各+1D） https://t.co/5T9C37KCBY"
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n                俺フェス！ Vol.2\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n🎙18:15-18:35\n📸18:45-19:45 C\n\n⟣date：8/21（金）\n⟣place : 白金高輪SELENE b2\n⟣open/start：16:00/16:30\n⟣price：前方¥5,000/一般¥2,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n-8/20（木）23:59\n🔗 https://t.co/fVj4sUL9n4\n\n #myojou",
+      "truncated_text": "✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n                俺フェス！ Vol.2\n✮••┈┈┈┈┈••✮••┈┈┈┈┈••✮\n\n🎙18:15-18:35\n📸18:45-19:45 C\n\n⟣date：8/21（金）\n⟣place : 白金高輪SELENE b2\n⟣open/start：16:00/16:30\n⟣price：前方¥5,000/一般¥2,000（各+1D） https://t.co/5T9C37KCBY",
+      "url": "https://x.com/info_myojou/status/2087730939715826082"
+    },
+    {
       "api_text": "SOLD OUTとなっていた一般チケットですが、\n追加販売が決定いたしました！\n\nさらに、チケット販売期間も【当日20:00まで】延長決定！\n\n皆さまのご来場、お待ちしております！\n\n#myojou https://t.co/iZafnaYfo6",
       "attachments": {},
       "classification": {
@@ -152153,7 +153951,7 @@
     "backfill": true,
     "dry_run": true,
     "estimated_x_post_reads": 411,
-    "latest_post_id": "2087522957467996282",
+    "latest_post_id": "2087894883449426385",
     "max_pages": 10,
     "max_posts": 500,
     "max_results": 5,
@@ -152196,16 +153994,16 @@
       }
     ],
     "pages_fetched": 5,
-    "posts_fetched": 702,
+    "posts_fetched": 710,
     "rate_limit_headers": {
       "x-rate-limit-limit": "10000",
       "x-rate-limit-remaining": "9993",
       "x-rate-limit-reset": "1781108896"
     },
-    "total_posts": 702,
-    "updated_at": "2026-08-12T20:01:04.811508+00:00",
+    "total_posts": 710,
+    "updated_at": "2026-08-13T19:56:38.144753+00:00",
     "username": "info_myojou"
   },
   "source": "x_api",
-  "updated_at": "2026-08-12T20:01:04.811508+00:00"
+  "updated_at": "2026-08-13T19:56:38.144753+00:00"
 }
