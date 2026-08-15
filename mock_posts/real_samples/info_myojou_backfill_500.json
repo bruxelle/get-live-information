@@ -2,6 +2,1571 @@
   "captured_at": "2026-06-10T16:19:36.141820+00:00",
   "data": [
     {
+      "api_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            Appare! Presents \n      エンドレスサマー 2026\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n📍duo MUSIC EXCHANGE\n🎙15:35-16:00\n\n⟣date：8/25（火）\n⟣place : Spotify O-EAST / O-WEST / O-Crest / O-nest / duo MUSIC EXCHANGE / clubasia / https://t.co/BhcoxhCHT0",
+      "attachments": {
+        "media_keys": [
+          "3_2088596585471156225"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "ticket_update"
+      },
+      "created_at": "2026-08-15T12:00:09+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/BhcoxhCHT0",
+            "end": 248,
+            "expanded_url": "https://x.com/info_myojou/status/2088596606488846338/photo/1",
+            "media_key": "3_2088596585471156225",
+            "start": 225,
+            "url": "https://t.co/BhcoxhCHT0"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2088596606488846338",
+      "media": [
+        {
+          "height": 2298,
+          "media_key": "3_2088596585471156225",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HPwvh1QaIAEeyOq.jpg",
+          "width": 4096
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 470,
+              "start": 463,
+              "tag": "myojou"
+            },
+            {
+              "end": 481,
+              "start": 471,
+              "tag": "ミョージョーサマー"
+            },
+            {
+              "end": 495,
+              "start": 482,
+              "tag": "エンドレスサマー2026"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "ticketdive.com/event/endlessu…",
+              "end": 461,
+              "expanded_url": "https://ticketdive.com/event/endlessummer2026",
+              "start": 438,
+              "url": "https://t.co/9jtj6Uxfqj"
+            }
+          ]
+        },
+        "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            Appare! Presents \n      エンドレスサマー 2026\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n📍duo MUSIC EXCHANGE\n🎙15:35-16:00\n\n⟣date：8/25（火）\n⟣place : Spotify O-EAST / O-WEST / O-Crest / O-nest / duo MUSIC EXCHANGE / clubasia / WOMB / Veats Shibuya　※8会場連動\n⟣open/start：10:30/11:00 ※リストバンド交換あり\n⟣price：夏は終わらない！チケット（限定Tシャツ付）¥10,000 / 一般チケット：¥4,000（各+1D）\n\n･夏は終わらない！チケット\n【一般販売】\n8/10(月)21:00-8/24(月)23:59\n\n･一般チケット\n【一般販売】\n7/2(木)21:00-8/24(月)23:59\n🔗 https://t.co/9jtj6Uxfqj\n\n#myojou\n#ミョージョーサマー\n#エンドレスサマー2026"
+      },
+      "parsed_fields": {
+        "benefit_event_time": null,
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-08-25",
+        "event_dates": [
+          "2026-08-25"
+        ],
+        "event_name": "エンドレスサマー 2026",
+        "extraction_confidence": 0.95,
+        "general_ticket_price": 4000,
+        "lottery_result_at": null,
+        "myojou_performance_time": "15:35-16:00",
+        "notes": "ドリンク代: 各+1D",
+        "open_time": "10:30",
+        "payment_deadline_at": null,
+        "priority_ticket_name": null,
+        "priority_ticket_price": null,
+        "same_day_ticket_price": null,
+        "source_kind": "ticket_update",
+        "source_post_id": "2088596606488846338",
+        "source_posted_at": "2026-08-15T12:00:09Z",
+        "source_raw": {
+          "api_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            Appare! Presents \n      エンドレスサマー 2026\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n📍duo MUSIC EXCHANGE\n🎙15:35-16:00\n\n⟣date：8/25（火）\n⟣place : Spotify O-EAST / O-WEST / O-Crest / O-nest / duo MUSIC EXCHANGE / clubasia / https://t.co/BhcoxhCHT0",
+          "attachments": {
+            "media_keys": [
+              "3_2088596585471156225"
+            ]
+          },
+          "created_at": "2026-08-15T12:00:09.000Z",
+          "edit_history_tweet_ids": [
+            "2088596606488846338"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/BhcoxhCHT0",
+                "end": 248,
+                "expanded_url": "https://x.com/info_myojou/status/2088596606488846338/photo/1",
+                "media_key": "3_2088596585471156225",
+                "start": 225,
+                "url": "https://t.co/BhcoxhCHT0"
+              }
+            ]
+          },
+          "full_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            Appare! Presents \n      エンドレスサマー 2026\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n📍duo MUSIC EXCHANGE\n🎙15:35-16:00\n\n⟣date：8/25（火）\n⟣place : Spotify O-EAST / O-WEST / O-Crest / O-nest / duo MUSIC EXCHANGE / clubasia / WOMB / Veats Shibuya　※8会場連動\n⟣open/start：10:30/11:00 ※リストバンド交換あり\n⟣price：夏は終わらない！チケット（限定Tシャツ付）¥10,000 / 一般チケット：¥4,000（各+1D）\n\n･夏は終わらない！チケット\n【一般販売】\n8/10(月)21:00-8/24(月)23:59\n\n･一般チケット\n【一般販売】\n7/2(木)21:00-8/24(月)23:59\n🔗 https://t.co/9jtj6Uxfqj\n\n#myojou\n#ミョージョーサマー\n#エンドレスサマー2026",
+          "full_text_source": "note_tweet",
+          "id": "2088596606488846338",
+          "media": [
+            {
+              "height": 2298,
+              "media_key": "3_2088596585471156225",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HPwvh1QaIAEeyOq.jpg",
+              "width": 4096
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 470,
+                  "start": 463,
+                  "tag": "myojou"
+                },
+                {
+                  "end": 481,
+                  "start": 471,
+                  "tag": "ミョージョーサマー"
+                },
+                {
+                  "end": 495,
+                  "start": 482,
+                  "tag": "エンドレスサマー2026"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "ticketdive.com/event/endlessu…",
+                  "end": 461,
+                  "expanded_url": "https://ticketdive.com/event/endlessummer2026",
+                  "start": 438,
+                  "url": "https://t.co/9jtj6Uxfqj"
+                }
+              ]
+            },
+            "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            Appare! Presents \n      エンドレスサマー 2026\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n📍duo MUSIC EXCHANGE\n🎙15:35-16:00\n\n⟣date：8/25（火）\n⟣place : Spotify O-EAST / O-WEST / O-Crest / O-nest / duo MUSIC EXCHANGE / clubasia / WOMB / Veats Shibuya　※8会場連動\n⟣open/start：10:30/11:00 ※リストバンド交換あり\n⟣price：夏は終わらない！チケット（限定Tシャツ付）¥10,000 / 一般チケット：¥4,000（各+1D）\n\n･夏は終わらない！チケット\n【一般販売】\n8/10(月)21:00-8/24(月)23:59\n\n･一般チケット\n【一般販売】\n7/2(木)21:00-8/24(月)23:59\n🔗 https://t.co/9jtj6Uxfqj\n\n#myojou\n#ミョージョーサマー\n#エンドレスサマー2026"
+          },
+          "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            Appare! Presents \n      エンドレスサマー 2026\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n📍duo MUSIC EXCHANGE\n🎙15:35-16:00\n\n⟣date：8/25（火）\n⟣place : Spotify O-EAST / O-WEST / O-Crest / O-nest / duo MUSIC EXCHANGE / clubasia / https://t.co/BhcoxhCHT0",
+          "truncated_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            Appare! Presents \n      エンドレスサマー 2026\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n📍duo MUSIC EXCHANGE\n🎙15:35-16:00\n\n⟣date：8/25（火）\n⟣place : Spotify O-EAST / O-WEST / O-Crest / O-nest / duo MUSIC EXCHANGE / clubasia / https://t.co/BhcoxhCHT0"
+        },
+        "source_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            Appare! Presents \n      エンドレスサマー 2026\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n📍duo MUSIC EXCHANGE\n🎙15:35-16:00\n\n⟣date：8/25（火）\n⟣place : Spotify O-EAST / O-WEST / O-Crest / O-nest / duo MUSIC EXCHANGE / clubasia / WOMB / Veats Shibuya　※8会場連動\n⟣open/start：10:30/11:00 ※リストバンド交換あり\n⟣price：夏は終わらない！チケット（限定Tシャツ付）¥10,000 / 一般チケット：¥4,000（各+1D）\n\n･夏は終わらない！チケット\n【一般販売】\n8/10(月)21:00-8/24(月)23:59\n\n･一般チケット\n【一般販売】\n7/2(木)21:00-8/24(月)23:59\n🔗 https://t.co/9jtj6Uxfqj\n\n#myojou\n#ミョージョーサマー\n#エンドレスサマー2026",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2088596606488846338",
+        "start_time": "11:00",
+        "ticket_application_deadline_at": "2026-08-24T23:59:00+09:00",
+        "ticket_application_start_at": "2026-07-02T21:00:00+09:00",
+        "ticket_sale_type": "一般",
+        "ticket_sales": [
+          {
+            "deadline_at": "2026-08-24T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 10000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2088596606488846338",
+            "source_url": "https://x.com/info_myojou/status/2088596606488846338",
+            "start_at": "2026-08-10T21:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "夏は終わらない!チケット",
+            "ticket_tier": "その他"
+          },
+          {
+            "deadline_at": "2026-08-24T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 4000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2088596606488846338",
+            "source_url": "https://x.com/info_myojou/status/2088596606488846338",
+            "start_at": "2026-08-10T21:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般チケット",
+            "ticket_tier": "一般"
+          },
+          {
+            "deadline_at": "2026-08-24T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 10000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2088596606488846338",
+            "source_url": "https://x.com/info_myojou/status/2088596606488846338",
+            "start_at": "2026-07-02T21:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "夏は終わらない!チケット",
+            "ticket_tier": "その他"
+          },
+          {
+            "deadline_at": "2026-08-24T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 4000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2088596606488846338",
+            "source_url": "https://x.com/info_myojou/status/2088596606488846338",
+            "start_at": "2026-07-02T21:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般チケット",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "https://ticketdive.com/event/endlessummer2026",
+        "venue": "Spotify O-EAST / O-WEST / O-Crest / O-nest / duo MUSIC EXCHANGE / clubasia / WOMB / Veats Shibuya ※8会場連動"
+      },
+      "raw": {
+        "api_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            Appare! Presents \n      エンドレスサマー 2026\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n📍duo MUSIC EXCHANGE\n🎙15:35-16:00\n\n⟣date：8/25（火）\n⟣place : Spotify O-EAST / O-WEST / O-Crest / O-nest / duo MUSIC EXCHANGE / clubasia / https://t.co/BhcoxhCHT0",
+        "attachments": {
+          "media_keys": [
+            "3_2088596585471156225"
+          ]
+        },
+        "created_at": "2026-08-15T12:00:09.000Z",
+        "edit_history_tweet_ids": [
+          "2088596606488846338"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/BhcoxhCHT0",
+              "end": 248,
+              "expanded_url": "https://x.com/info_myojou/status/2088596606488846338/photo/1",
+              "media_key": "3_2088596585471156225",
+              "start": 225,
+              "url": "https://t.co/BhcoxhCHT0"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            Appare! Presents \n      エンドレスサマー 2026\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n📍duo MUSIC EXCHANGE\n🎙15:35-16:00\n\n⟣date：8/25（火）\n⟣place : Spotify O-EAST / O-WEST / O-Crest / O-nest / duo MUSIC EXCHANGE / clubasia / WOMB / Veats Shibuya　※8会場連動\n⟣open/start：10:30/11:00 ※リストバンド交換あり\n⟣price：夏は終わらない！チケット（限定Tシャツ付）¥10,000 / 一般チケット：¥4,000（各+1D）\n\n･夏は終わらない！チケット\n【一般販売】\n8/10(月)21:00-8/24(月)23:59\n\n･一般チケット\n【一般販売】\n7/2(木)21:00-8/24(月)23:59\n🔗 https://t.co/9jtj6Uxfqj\n\n#myojou\n#ミョージョーサマー\n#エンドレスサマー2026",
+        "full_text_source": "note_tweet",
+        "id": "2088596606488846338",
+        "media": [
+          {
+            "height": 2298,
+            "media_key": "3_2088596585471156225",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HPwvh1QaIAEeyOq.jpg",
+            "width": 4096
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 470,
+                "start": 463,
+                "tag": "myojou"
+              },
+              {
+                "end": 481,
+                "start": 471,
+                "tag": "ミョージョーサマー"
+              },
+              {
+                "end": 495,
+                "start": 482,
+                "tag": "エンドレスサマー2026"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "ticketdive.com/event/endlessu…",
+                "end": 461,
+                "expanded_url": "https://ticketdive.com/event/endlessummer2026",
+                "start": 438,
+                "url": "https://t.co/9jtj6Uxfqj"
+              }
+            ]
+          },
+          "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            Appare! Presents \n      エンドレスサマー 2026\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n📍duo MUSIC EXCHANGE\n🎙15:35-16:00\n\n⟣date：8/25（火）\n⟣place : Spotify O-EAST / O-WEST / O-Crest / O-nest / duo MUSIC EXCHANGE / clubasia / WOMB / Veats Shibuya　※8会場連動\n⟣open/start：10:30/11:00 ※リストバンド交換あり\n⟣price：夏は終わらない！チケット（限定Tシャツ付）¥10,000 / 一般チケット：¥4,000（各+1D）\n\n･夏は終わらない！チケット\n【一般販売】\n8/10(月)21:00-8/24(月)23:59\n\n･一般チケット\n【一般販売】\n7/2(木)21:00-8/24(月)23:59\n🔗 https://t.co/9jtj6Uxfqj\n\n#myojou\n#ミョージョーサマー\n#エンドレスサマー2026"
+        },
+        "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            Appare! Presents \n      エンドレスサマー 2026\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n📍duo MUSIC EXCHANGE\n🎙15:35-16:00\n\n⟣date：8/25（火）\n⟣place : Spotify O-EAST / O-WEST / O-Crest / O-nest / duo MUSIC EXCHANGE / clubasia / https://t.co/BhcoxhCHT0",
+        "truncated_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            Appare! Presents \n      エンドレスサマー 2026\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n📍duo MUSIC EXCHANGE\n🎙15:35-16:00\n\n⟣date：8/25（火）\n⟣place : Spotify O-EAST / O-WEST / O-Crest / O-nest / duo MUSIC EXCHANGE / clubasia / https://t.co/BhcoxhCHT0"
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            Appare! Presents \n      エンドレスサマー 2026\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n📍duo MUSIC EXCHANGE\n🎙15:35-16:00\n\n⟣date：8/25（火）\n⟣place : Spotify O-EAST / O-WEST / O-Crest / O-nest / duo MUSIC EXCHANGE / clubasia / WOMB / Veats Shibuya　※8会場連動\n⟣open/start：10:30/11:00 ※リストバンド交換あり\n⟣price：夏は終わらない！チケット（限定Tシャツ付）¥10,000 / 一般チケット：¥4,000（各+1D）\n\n･夏は終わらない！チケット\n【一般販売】\n8/10(月)21:00-8/24(月)23:59\n\n･一般チケット\n【一般販売】\n7/2(木)21:00-8/24(月)23:59\n🔗 https://t.co/9jtj6Uxfqj\n\n#myojou\n#ミョージョーサマー\n#エンドレスサマー2026",
+      "truncated_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            Appare! Presents \n      エンドレスサマー 2026\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n📍duo MUSIC EXCHANGE\n🎙15:35-16:00\n\n⟣date：8/25（火）\n⟣place : Spotify O-EAST / O-WEST / O-Crest / O-nest / duo MUSIC EXCHANGE / clubasia / https://t.co/BhcoxhCHT0",
+      "url": "https://x.com/info_myojou/status/2088596606488846338"
+    },
+    {
+      "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「UtaGe!×FES☆TIVE 主催サーキット『超宴祭！』」\n\n📍Spotify O-WEST\n🎙12:40-13:10\n📸13:20-14:30 （ATOM 4F C）\n\n⟣date：8/16（日）\n⟣place : Spotify O-WEST / duo MUSIC EXCHANGE / WOMB LIVE / SHIBUYA RING\n⟣open/start：10:00/11:00※変更の可能性あり https://t.co/sH0Ib0sTaM",
+      "attachments": {
+        "media_keys": [
+          "3_2088581469044346880",
+          "3_2088581469044453377",
+          "3_2088581469056933888"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "correction"
+      },
+      "created_at": "2026-08-15T11:00:04+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/sH0Ib0sTaM",
+            "end": 253,
+            "expanded_url": "https://x.com/info_myojou/status/2088581485628645752/photo/1",
+            "media_key": "3_2088581469044346880",
+            "start": 230,
+            "url": "https://t.co/sH0Ib0sTaM"
+          },
+          {
+            "display_url": "pic.x.com/sH0Ib0sTaM",
+            "end": 253,
+            "expanded_url": "https://x.com/info_myojou/status/2088581485628645752/photo/1",
+            "media_key": "3_2088581469044453377",
+            "start": 230,
+            "url": "https://t.co/sH0Ib0sTaM"
+          },
+          {
+            "display_url": "pic.x.com/sH0Ib0sTaM",
+            "end": 253,
+            "expanded_url": "https://x.com/info_myojou/status/2088581485628645752/photo/1",
+            "media_key": "3_2088581469056933888",
+            "start": 230,
+            "url": "https://t.co/sH0Ib0sTaM"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2088581485628645752",
+      "media": [
+        {
+          "height": 1849,
+          "media_key": "3_2088581469044346880",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HPwhx8LaEAAs1cK.jpg",
+          "width": 2048
+        },
+        {
+          "height": 1850,
+          "media_key": "3_2088581469044453377",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HPwhx8LbsAE3HfB.jpg",
+          "width": 2048
+        },
+        {
+          "height": 2000,
+          "media_key": "3_2088581469056933888",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HPwhx8OaIAALewd.jpg",
+          "width": 1500
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 596,
+              "start": 589,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "ticketdive.com/event/chouutag…",
+              "end": 312,
+              "expanded_url": "https://ticketdive.com/event/chouutagematuri",
+              "start": 289,
+              "url": "https://t.co/pQAOQ92kC0"
+            },
+            {
+              "display_url": "user.my-th.jp/tickets/event/…",
+              "end": 587,
+              "expanded_url": "https://user.my-th.jp/tickets/event/aikou_0816",
+              "start": 564,
+              "url": "https://t.co/wjyaqHlZi3"
+            }
+          ]
+        },
+        "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「UtaGe!×FES☆TIVE 主催サーキット『超宴祭！』」\n\n📍Spotify O-WEST\n🎙12:40-13:10\n📸13:20-14:30 （ATOM 4F C）\n\n⟣date：8/16（日）\n⟣place : Spotify O-WEST / duo MUSIC EXCHANGE / WOMB LIVE / SHIBUYA RING\n⟣open/start：10:00/11:00※変更の可能性あり\n⟣price：一般 ¥3,500（各+1D）\n\n【一般販売】\n7/22（水）20:00-8:15（土）23:69\n🔗 https://t.co/pQAOQ92kC0\n\n「「アイドル甲子園 in KANDA SQUARE HALL」supported by My-th -DAY2-」\n\n🎙19:05-19:30\n📸19:50-21:10 B\n\n⟣date：8/16（日）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:00/9:15\n⟣price：前方¥8,500/一般¥3,500/当日各＋¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/23（木）21:00-8/16（日）8:59\n🔗 https://t.co/wjyaqHlZi3\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": "13:20-14:30",
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-08-16",
+        "event_dates": [
+          "2026-08-16"
+        ],
+        "event_name": "UtaGe!×FES☆TIVE 主催サーキット『超宴祭!』",
+        "extraction_confidence": 0.95,
+        "general_ticket_price": 3500,
+        "lottery_result_at": null,
+        "myojou_performance_time": "12:40-13:10",
+        "notes": "⟣open/start:10:00/11:00※変更の可能性あり",
+        "open_time": "10:00",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "前方",
+        "priority_ticket_price": 8500,
+        "same_day_ticket_price": 1000,
+        "source_kind": "correction",
+        "source_post_id": "2088581485628645752",
+        "source_posted_at": "2026-08-15T11:00:04Z",
+        "source_raw": {
+          "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「UtaGe!×FES☆TIVE 主催サーキット『超宴祭！』」\n\n📍Spotify O-WEST\n🎙12:40-13:10\n📸13:20-14:30 （ATOM 4F C）\n\n⟣date：8/16（日）\n⟣place : Spotify O-WEST / duo MUSIC EXCHANGE / WOMB LIVE / SHIBUYA RING\n⟣open/start：10:00/11:00※変更の可能性あり https://t.co/sH0Ib0sTaM",
+          "attachments": {
+            "media_keys": [
+              "3_2088581469044346880",
+              "3_2088581469044453377",
+              "3_2088581469056933888"
+            ]
+          },
+          "created_at": "2026-08-15T11:00:04.000Z",
+          "edit_history_tweet_ids": [
+            "2088581485628645752"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/sH0Ib0sTaM",
+                "end": 253,
+                "expanded_url": "https://x.com/info_myojou/status/2088581485628645752/photo/1",
+                "media_key": "3_2088581469044346880",
+                "start": 230,
+                "url": "https://t.co/sH0Ib0sTaM"
+              },
+              {
+                "display_url": "pic.x.com/sH0Ib0sTaM",
+                "end": 253,
+                "expanded_url": "https://x.com/info_myojou/status/2088581485628645752/photo/1",
+                "media_key": "3_2088581469044453377",
+                "start": 230,
+                "url": "https://t.co/sH0Ib0sTaM"
+              },
+              {
+                "display_url": "pic.x.com/sH0Ib0sTaM",
+                "end": 253,
+                "expanded_url": "https://x.com/info_myojou/status/2088581485628645752/photo/1",
+                "media_key": "3_2088581469056933888",
+                "start": 230,
+                "url": "https://t.co/sH0Ib0sTaM"
+              }
+            ]
+          },
+          "full_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「UtaGe!×FES☆TIVE 主催サーキット『超宴祭！』」\n\n📍Spotify O-WEST\n🎙12:40-13:10\n📸13:20-14:30 （ATOM 4F C）\n\n⟣date：8/16（日）\n⟣place : Spotify O-WEST / duo MUSIC EXCHANGE / WOMB LIVE / SHIBUYA RING\n⟣open/start：10:00/11:00※変更の可能性あり\n⟣price：一般 ¥3,500（各+1D）\n\n【一般販売】\n7/22（水）20:00-8:15（土）23:69\n🔗 https://t.co/pQAOQ92kC0\n\n「「アイドル甲子園 in KANDA SQUARE HALL」supported by My-th -DAY2-」\n\n🎙19:05-19:30\n📸19:50-21:10 B\n\n⟣date：8/16（日）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:00/9:15\n⟣price：前方¥8,500/一般¥3,500/当日各＋¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/23（木）21:00-8/16（日）8:59\n🔗 https://t.co/wjyaqHlZi3\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2088581485628645752",
+          "media": [
+            {
+              "height": 1849,
+              "media_key": "3_2088581469044346880",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HPwhx8LaEAAs1cK.jpg",
+              "width": 2048
+            },
+            {
+              "height": 1850,
+              "media_key": "3_2088581469044453377",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HPwhx8LbsAE3HfB.jpg",
+              "width": 2048
+            },
+            {
+              "height": 2000,
+              "media_key": "3_2088581469056933888",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HPwhx8OaIAALewd.jpg",
+              "width": 1500
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 596,
+                  "start": 589,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "ticketdive.com/event/chouutag…",
+                  "end": 312,
+                  "expanded_url": "https://ticketdive.com/event/chouutagematuri",
+                  "start": 289,
+                  "url": "https://t.co/pQAOQ92kC0"
+                },
+                {
+                  "display_url": "user.my-th.jp/tickets/event/…",
+                  "end": 587,
+                  "expanded_url": "https://user.my-th.jp/tickets/event/aikou_0816",
+                  "start": 564,
+                  "url": "https://t.co/wjyaqHlZi3"
+                }
+              ]
+            },
+            "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「UtaGe!×FES☆TIVE 主催サーキット『超宴祭！』」\n\n📍Spotify O-WEST\n🎙12:40-13:10\n📸13:20-14:30 （ATOM 4F C）\n\n⟣date：8/16（日）\n⟣place : Spotify O-WEST / duo MUSIC EXCHANGE / WOMB LIVE / SHIBUYA RING\n⟣open/start：10:00/11:00※変更の可能性あり\n⟣price：一般 ¥3,500（各+1D）\n\n【一般販売】\n7/22（水）20:00-8:15（土）23:69\n🔗 https://t.co/pQAOQ92kC0\n\n「「アイドル甲子園 in KANDA SQUARE HALL」supported by My-th -DAY2-」\n\n🎙19:05-19:30\n📸19:50-21:10 B\n\n⟣date：8/16（日）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:00/9:15\n⟣price：前方¥8,500/一般¥3,500/当日各＋¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/23（木）21:00-8/16（日）8:59\n🔗 https://t.co/wjyaqHlZi3\n\n#myojou"
+          },
+          "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「UtaGe!×FES☆TIVE 主催サーキット『超宴祭！』」\n\n📍Spotify O-WEST\n🎙12:40-13:10\n📸13:20-14:30 （ATOM 4F C）\n\n⟣date：8/16（日）\n⟣place : Spotify O-WEST / duo MUSIC EXCHANGE / WOMB LIVE / SHIBUYA RING\n⟣open/start：10:00/11:00※変更の可能性あり https://t.co/sH0Ib0sTaM",
+          "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「UtaGe!×FES☆TIVE 主催サーキット『超宴祭！』」\n\n📍Spotify O-WEST\n🎙12:40-13:10\n📸13:20-14:30 （ATOM 4F C）\n\n⟣date：8/16（日）\n⟣place : Spotify O-WEST / duo MUSIC EXCHANGE / WOMB LIVE / SHIBUYA RING\n⟣open/start：10:00/11:00※変更の可能性あり https://t.co/sH0Ib0sTaM"
+        },
+        "source_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「UtaGe!×FES☆TIVE 主催サーキット『超宴祭！』」\n\n📍Spotify O-WEST\n🎙12:40-13:10\n📸13:20-14:30 （ATOM 4F C）\n\n⟣date：8/16（日）\n⟣place : Spotify O-WEST / duo MUSIC EXCHANGE / WOMB LIVE / SHIBUYA RING\n⟣open/start：10:00/11:00※変更の可能性あり\n⟣price：一般 ¥3,500（各+1D）\n\n【一般販売】\n7/22（水）20:00-8:15（土）23:69\n🔗 https://t.co/pQAOQ92kC0\n\n「「アイドル甲子園 in KANDA SQUARE HALL」supported by My-th -DAY2-」\n\n🎙19:05-19:30\n📸19:50-21:10 B\n\n⟣date：8/16（日）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:00/9:15\n⟣price：前方¥8,500/一般¥3,500/当日各＋¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/23（木）21:00-8/16（日）8:59\n🔗 https://t.co/wjyaqHlZi3\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2088581485628645752",
+        "start_time": "11:00",
+        "ticket_application_deadline_at": null,
+        "ticket_application_start_at": "2026-07-22T20:00:00+09:00",
+        "ticket_sale_type": "一般",
+        "ticket_sales": [
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 3500,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2088581485628645752",
+            "source_url": "https://x.com/info_myojou/status/2088581485628645752",
+            "start_at": "2026-07-22T20:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 8500,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2088581485628645752",
+            "source_url": "https://x.com/info_myojou/status/2088581485628645752",
+            "start_at": "2026-07-22T20:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "前方",
+            "ticket_tier": "前方"
+          },
+          {
+            "deadline_at": "2026-08-16T08:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 3500,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2088581485628645752",
+            "source_url": "https://x.com/info_myojou/status/2088581485628645752",
+            "start_at": "2026-07-23T21:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          },
+          {
+            "deadline_at": "2026-08-16T08:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 8500,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2088581485628645752",
+            "source_url": "https://x.com/info_myojou/status/2088581485628645752",
+            "start_at": "2026-07-23T21:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "前方",
+            "ticket_tier": "前方"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 1000,
+            "result_at": null,
+            "sale_type": "当日券",
+            "source_post_id": "2088581485628645752",
+            "source_url": "https://x.com/info_myojou/status/2088581485628645752",
+            "start_at": null,
+            "status": "販売中",
+            "ticket_name": "当日券",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "https://ticketdive.com/event/chouutagematuri",
+        "venue": "Spotify O-WEST / duo MUSIC EXCHANGE / WOMB LIVE / SHIBUYA RING"
+      },
+      "raw": {
+        "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「UtaGe!×FES☆TIVE 主催サーキット『超宴祭！』」\n\n📍Spotify O-WEST\n🎙12:40-13:10\n📸13:20-14:30 （ATOM 4F C）\n\n⟣date：8/16（日）\n⟣place : Spotify O-WEST / duo MUSIC EXCHANGE / WOMB LIVE / SHIBUYA RING\n⟣open/start：10:00/11:00※変更の可能性あり https://t.co/sH0Ib0sTaM",
+        "attachments": {
+          "media_keys": [
+            "3_2088581469044346880",
+            "3_2088581469044453377",
+            "3_2088581469056933888"
+          ]
+        },
+        "created_at": "2026-08-15T11:00:04.000Z",
+        "edit_history_tweet_ids": [
+          "2088581485628645752"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/sH0Ib0sTaM",
+              "end": 253,
+              "expanded_url": "https://x.com/info_myojou/status/2088581485628645752/photo/1",
+              "media_key": "3_2088581469044346880",
+              "start": 230,
+              "url": "https://t.co/sH0Ib0sTaM"
+            },
+            {
+              "display_url": "pic.x.com/sH0Ib0sTaM",
+              "end": 253,
+              "expanded_url": "https://x.com/info_myojou/status/2088581485628645752/photo/1",
+              "media_key": "3_2088581469044453377",
+              "start": 230,
+              "url": "https://t.co/sH0Ib0sTaM"
+            },
+            {
+              "display_url": "pic.x.com/sH0Ib0sTaM",
+              "end": 253,
+              "expanded_url": "https://x.com/info_myojou/status/2088581485628645752/photo/1",
+              "media_key": "3_2088581469056933888",
+              "start": 230,
+              "url": "https://t.co/sH0Ib0sTaM"
+            }
+          ]
+        },
+        "full_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「UtaGe!×FES☆TIVE 主催サーキット『超宴祭！』」\n\n📍Spotify O-WEST\n🎙12:40-13:10\n📸13:20-14:30 （ATOM 4F C）\n\n⟣date：8/16（日）\n⟣place : Spotify O-WEST / duo MUSIC EXCHANGE / WOMB LIVE / SHIBUYA RING\n⟣open/start：10:00/11:00※変更の可能性あり\n⟣price：一般 ¥3,500（各+1D）\n\n【一般販売】\n7/22（水）20:00-8:15（土）23:69\n🔗 https://t.co/pQAOQ92kC0\n\n「「アイドル甲子園 in KANDA SQUARE HALL」supported by My-th -DAY2-」\n\n🎙19:05-19:30\n📸19:50-21:10 B\n\n⟣date：8/16（日）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:00/9:15\n⟣price：前方¥8,500/一般¥3,500/当日各＋¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/23（木）21:00-8/16（日）8:59\n🔗 https://t.co/wjyaqHlZi3\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2088581485628645752",
+        "media": [
+          {
+            "height": 1849,
+            "media_key": "3_2088581469044346880",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HPwhx8LaEAAs1cK.jpg",
+            "width": 2048
+          },
+          {
+            "height": 1850,
+            "media_key": "3_2088581469044453377",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HPwhx8LbsAE3HfB.jpg",
+            "width": 2048
+          },
+          {
+            "height": 2000,
+            "media_key": "3_2088581469056933888",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HPwhx8OaIAALewd.jpg",
+            "width": 1500
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 596,
+                "start": 589,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "ticketdive.com/event/chouutag…",
+                "end": 312,
+                "expanded_url": "https://ticketdive.com/event/chouutagematuri",
+                "start": 289,
+                "url": "https://t.co/pQAOQ92kC0"
+              },
+              {
+                "display_url": "user.my-th.jp/tickets/event/…",
+                "end": 587,
+                "expanded_url": "https://user.my-th.jp/tickets/event/aikou_0816",
+                "start": 564,
+                "url": "https://t.co/wjyaqHlZi3"
+              }
+            ]
+          },
+          "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「UtaGe!×FES☆TIVE 主催サーキット『超宴祭！』」\n\n📍Spotify O-WEST\n🎙12:40-13:10\n📸13:20-14:30 （ATOM 4F C）\n\n⟣date：8/16（日）\n⟣place : Spotify O-WEST / duo MUSIC EXCHANGE / WOMB LIVE / SHIBUYA RING\n⟣open/start：10:00/11:00※変更の可能性あり\n⟣price：一般 ¥3,500（各+1D）\n\n【一般販売】\n7/22（水）20:00-8:15（土）23:69\n🔗 https://t.co/pQAOQ92kC0\n\n「「アイドル甲子園 in KANDA SQUARE HALL」supported by My-th -DAY2-」\n\n🎙19:05-19:30\n📸19:50-21:10 B\n\n⟣date：8/16（日）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:00/9:15\n⟣price：前方¥8,500/一般¥3,500/当日各＋¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/23（木）21:00-8/16（日）8:59\n🔗 https://t.co/wjyaqHlZi3\n\n#myojou"
+        },
+        "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「UtaGe!×FES☆TIVE 主催サーキット『超宴祭！』」\n\n📍Spotify O-WEST\n🎙12:40-13:10\n📸13:20-14:30 （ATOM 4F C）\n\n⟣date：8/16（日）\n⟣place : Spotify O-WEST / duo MUSIC EXCHANGE / WOMB LIVE / SHIBUYA RING\n⟣open/start：10:00/11:00※変更の可能性あり https://t.co/sH0Ib0sTaM",
+        "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「UtaGe!×FES☆TIVE 主催サーキット『超宴祭！』」\n\n📍Spotify O-WEST\n🎙12:40-13:10\n📸13:20-14:30 （ATOM 4F C）\n\n⟣date：8/16（日）\n⟣place : Spotify O-WEST / duo MUSIC EXCHANGE / WOMB LIVE / SHIBUYA RING\n⟣open/start：10:00/11:00※変更の可能性あり https://t.co/sH0Ib0sTaM"
+      },
+      "referenced_tweets": [],
+      "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「UtaGe!×FES☆TIVE 主催サーキット『超宴祭！』」\n\n📍Spotify O-WEST\n🎙12:40-13:10\n📸13:20-14:30 （ATOM 4F C）\n\n⟣date：8/16（日）\n⟣place : Spotify O-WEST / duo MUSIC EXCHANGE / WOMB LIVE / SHIBUYA RING\n⟣open/start：10:00/11:00※変更の可能性あり\n⟣price：一般 ¥3,500（各+1D）\n\n【一般販売】\n7/22（水）20:00-8:15（土）23:69\n🔗 https://t.co/pQAOQ92kC0\n\n「「アイドル甲子園 in KANDA SQUARE HALL」supported by My-th -DAY2-」\n\n🎙19:05-19:30\n📸19:50-21:10 B\n\n⟣date：8/16（日）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:00/9:15\n⟣price：前方¥8,500/一般¥3,500/当日各＋¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/23（木）21:00-8/16（日）8:59\n🔗 https://t.co/wjyaqHlZi3\n\n#myojou",
+      "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「UtaGe!×FES☆TIVE 主催サーキット『超宴祭！』」\n\n📍Spotify O-WEST\n🎙12:40-13:10\n📸13:20-14:30 （ATOM 4F C）\n\n⟣date：8/16（日）\n⟣place : Spotify O-WEST / duo MUSIC EXCHANGE / WOMB LIVE / SHIBUYA RING\n⟣open/start：10:00/11:00※変更の可能性あり https://t.co/sH0Ib0sTaM",
+      "url": "https://x.com/info_myojou/status/2088581485628645752"
+    },
+    {
+      "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n     サンキュー！ #ミョージョーサマー\n                     プレゼント企画\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\nmyojou Summer FINALを終えて、ここまで共にmyojouと夏を駆けてくださった皆さま、本当にありがとうございます！ https://t.co/aayUNeZ7gG",
+      "attachments": {
+        "media_keys": [
+          "3_2088555234780135425",
+          "3_2088555234784333824",
+          "3_2088555234759147520",
+          "3_2088555234780135424"
+        ]
+      },
+      "classification": {
+        "classification": "needs_review",
+        "confidence": "low",
+        "reason": "event-like words but insufficient structured information",
+        "source_kind": "ticket_update"
+      },
+      "created_at": "2026-08-15T09:15:49+00:00",
+      "entities": {
+        "hashtags": [
+          {
+            "end": 46,
+            "start": 36,
+            "tag": "ミョージョーサマー"
+          }
+        ],
+        "urls": [
+          {
+            "display_url": "pic.x.com/aayUNeZ7gG",
+            "end": 190,
+            "expanded_url": "https://x.com/info_myojou/status/2088555249930023085/photo/1",
+            "media_key": "3_2088555234780135425",
+            "start": 167,
+            "url": "https://t.co/aayUNeZ7gG"
+          },
+          {
+            "display_url": "pic.x.com/aayUNeZ7gG",
+            "end": 190,
+            "expanded_url": "https://x.com/info_myojou/status/2088555249930023085/photo/1",
+            "media_key": "3_2088555234784333824",
+            "start": 167,
+            "url": "https://t.co/aayUNeZ7gG"
+          },
+          {
+            "display_url": "pic.x.com/aayUNeZ7gG",
+            "end": 190,
+            "expanded_url": "https://x.com/info_myojou/status/2088555249930023085/photo/1",
+            "media_key": "3_2088555234759147520",
+            "start": 167,
+            "url": "https://t.co/aayUNeZ7gG"
+          },
+          {
+            "display_url": "pic.x.com/aayUNeZ7gG",
+            "end": 190,
+            "expanded_url": "https://x.com/info_myojou/status/2088555249930023085/photo/1",
+            "media_key": "3_2088555234780135424",
+            "start": 167,
+            "url": "https://t.co/aayUNeZ7gG"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2088555249930023085",
+      "media": [
+        {
+          "height": 1338,
+          "media_key": "3_2088555234780135425",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HPwJ657aQAEZ63j.jpg",
+          "width": 2048
+        },
+        {
+          "height": 1300,
+          "media_key": "3_2088555234784333824",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HPwJ658aUAAxUGb.jpg",
+          "width": 2048
+        },
+        {
+          "height": 1044,
+          "media_key": "3_2088555234759147520",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HPwJ652aAAAUaJj.jpg",
+          "width": 1566
+        },
+        {
+          "height": 1077,
+          "media_key": "3_2088555234780135424",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HPwJ657aQAAmJtN.jpg",
+          "width": 1521
+        }
+      ],
+      "needs_review": true,
+      "needs_review_reasons": [
+        "missing venue",
+        "missing ticket deadline",
+        "classification: event-like words but insufficient structured information"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 46,
+              "start": 36,
+              "tag": "ミョージョーサマー"
+            },
+            {
+              "end": 360,
+              "start": 353,
+              "tag": "myojou"
+            }
+          ]
+        },
+        "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n     サンキュー！ #ミョージョーサマー\n                     プレゼント企画\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\nmyojou Summer FINALを終えて、ここまで共にmyojouと夏を駆けてくださった皆さま、本当にありがとうございます！\n\nまだmyojouの夏は終わりません。\n最後まで、myojouとの「初めての夏」を一緒に駆け抜けましょう！\n\nここまで応援してくださった皆さまへ、日頃の感謝を込めて、全メンバーサイン入り「myojou Summer FINAL」Tシャツを抽選で5名様にプレゼント！🎁\n\n⟣応募方法：本ポストをRP＋myojou公式Xフォロー\n⟣受付期間：8/17（月）23:59まで\n\n #myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": null,
+        "classification": "needs_review",
+        "classification_confidence": "low",
+        "classification_reason": "event-like words but insufficient structured information",
+        "event_date": null,
+        "event_dates": [],
+        "event_name": "サンキュー!",
+        "extraction_confidence": 0.4,
+        "general_ticket_price": null,
+        "lottery_result_at": null,
+        "myojou_performance_time": null,
+        "notes": null,
+        "open_time": null,
+        "payment_deadline_at": null,
+        "priority_ticket_name": null,
+        "priority_ticket_price": null,
+        "same_day_ticket_price": null,
+        "source_kind": "ticket_update",
+        "source_post_id": "2088555249930023085",
+        "source_posted_at": "2026-08-15T09:15:49Z",
+        "source_raw": {
+          "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n     サンキュー！ #ミョージョーサマー\n                     プレゼント企画\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\nmyojou Summer FINALを終えて、ここまで共にmyojouと夏を駆けてくださった皆さま、本当にありがとうございます！ https://t.co/aayUNeZ7gG",
+          "attachments": {
+            "media_keys": [
+              "3_2088555234780135425",
+              "3_2088555234784333824",
+              "3_2088555234759147520",
+              "3_2088555234780135424"
+            ]
+          },
+          "created_at": "2026-08-15T09:15:49.000Z",
+          "edit_history_tweet_ids": [
+            "2088555249930023085"
+          ],
+          "entities": {
+            "hashtags": [
+              {
+                "end": 46,
+                "start": 36,
+                "tag": "ミョージョーサマー"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "pic.x.com/aayUNeZ7gG",
+                "end": 190,
+                "expanded_url": "https://x.com/info_myojou/status/2088555249930023085/photo/1",
+                "media_key": "3_2088555234780135425",
+                "start": 167,
+                "url": "https://t.co/aayUNeZ7gG"
+              },
+              {
+                "display_url": "pic.x.com/aayUNeZ7gG",
+                "end": 190,
+                "expanded_url": "https://x.com/info_myojou/status/2088555249930023085/photo/1",
+                "media_key": "3_2088555234784333824",
+                "start": 167,
+                "url": "https://t.co/aayUNeZ7gG"
+              },
+              {
+                "display_url": "pic.x.com/aayUNeZ7gG",
+                "end": 190,
+                "expanded_url": "https://x.com/info_myojou/status/2088555249930023085/photo/1",
+                "media_key": "3_2088555234759147520",
+                "start": 167,
+                "url": "https://t.co/aayUNeZ7gG"
+              },
+              {
+                "display_url": "pic.x.com/aayUNeZ7gG",
+                "end": 190,
+                "expanded_url": "https://x.com/info_myojou/status/2088555249930023085/photo/1",
+                "media_key": "3_2088555234780135424",
+                "start": 167,
+                "url": "https://t.co/aayUNeZ7gG"
+              }
+            ]
+          },
+          "full_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n     サンキュー！ #ミョージョーサマー\n                     プレゼント企画\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\nmyojou Summer FINALを終えて、ここまで共にmyojouと夏を駆けてくださった皆さま、本当にありがとうございます！\n\nまだmyojouの夏は終わりません。\n最後まで、myojouとの「初めての夏」を一緒に駆け抜けましょう！\n\nここまで応援してくださった皆さまへ、日頃の感謝を込めて、全メンバーサイン入り「myojou Summer FINAL」Tシャツを抽選で5名様にプレゼント！🎁\n\n⟣応募方法：本ポストをRP＋myojou公式Xフォロー\n⟣受付期間：8/17（月）23:59まで\n\n #myojou",
+          "full_text_source": "note_tweet",
+          "id": "2088555249930023085",
+          "media": [
+            {
+              "height": 1338,
+              "media_key": "3_2088555234780135425",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HPwJ657aQAEZ63j.jpg",
+              "width": 2048
+            },
+            {
+              "height": 1300,
+              "media_key": "3_2088555234784333824",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HPwJ658aUAAxUGb.jpg",
+              "width": 2048
+            },
+            {
+              "height": 1044,
+              "media_key": "3_2088555234759147520",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HPwJ652aAAAUaJj.jpg",
+              "width": 1566
+            },
+            {
+              "height": 1077,
+              "media_key": "3_2088555234780135424",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HPwJ657aQAAmJtN.jpg",
+              "width": 1521
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 46,
+                  "start": 36,
+                  "tag": "ミョージョーサマー"
+                },
+                {
+                  "end": 360,
+                  "start": 353,
+                  "tag": "myojou"
+                }
+              ]
+            },
+            "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n     サンキュー！ #ミョージョーサマー\n                     プレゼント企画\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\nmyojou Summer FINALを終えて、ここまで共にmyojouと夏を駆けてくださった皆さま、本当にありがとうございます！\n\nまだmyojouの夏は終わりません。\n最後まで、myojouとの「初めての夏」を一緒に駆け抜けましょう！\n\nここまで応援してくださった皆さまへ、日頃の感謝を込めて、全メンバーサイン入り「myojou Summer FINAL」Tシャツを抽選で5名様にプレゼント！🎁\n\n⟣応募方法：本ポストをRP＋myojou公式Xフォロー\n⟣受付期間：8/17（月）23:59まで\n\n #myojou"
+          },
+          "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n     サンキュー！ #ミョージョーサマー\n                     プレゼント企画\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\nmyojou Summer FINALを終えて、ここまで共にmyojouと夏を駆けてくださった皆さま、本当にありがとうございます！ https://t.co/aayUNeZ7gG",
+          "truncated_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n     サンキュー！ #ミョージョーサマー\n                     プレゼント企画\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\nmyojou Summer FINALを終えて、ここまで共にmyojouと夏を駆けてくださった皆さま、本当にありがとうございます！ https://t.co/aayUNeZ7gG"
+        },
+        "source_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n     サンキュー！ #ミョージョーサマー\n                     プレゼント企画\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\nmyojou Summer FINALを終えて、ここまで共にmyojouと夏を駆けてくださった皆さま、本当にありがとうございます！\n\nまだmyojouの夏は終わりません。\n最後まで、myojouとの「初めての夏」を一緒に駆け抜けましょう！\n\nここまで応援してくださった皆さまへ、日頃の感謝を込めて、全メンバーサイン入り「myojou Summer FINAL」Tシャツを抽選で5名様にプレゼント！🎁\n\n⟣応募方法：本ポストをRP＋myojou公式Xフォロー\n⟣受付期間：8/17（月）23:59まで\n\n #myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2088555249930023085",
+        "start_time": null,
+        "ticket_application_deadline_at": null,
+        "ticket_application_start_at": "2026-08-17T23:59:00+09:00",
+        "ticket_sale_type": "抽選",
+        "ticket_sales": [
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": null,
+            "result_at": null,
+            "sale_type": "不明",
+            "source_post_id": "2088555249930023085",
+            "source_url": "https://x.com/info_myojou/status/2088555249930023085",
+            "start_at": "2026-08-17T23:59:00+09:00",
+            "status": "不明",
+            "ticket_name": null,
+            "ticket_tier": "不明"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": null,
+        "venue": null
+      },
+      "raw": {
+        "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n     サンキュー！ #ミョージョーサマー\n                     プレゼント企画\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\nmyojou Summer FINALを終えて、ここまで共にmyojouと夏を駆けてくださった皆さま、本当にありがとうございます！ https://t.co/aayUNeZ7gG",
+        "attachments": {
+          "media_keys": [
+            "3_2088555234780135425",
+            "3_2088555234784333824",
+            "3_2088555234759147520",
+            "3_2088555234780135424"
+          ]
+        },
+        "created_at": "2026-08-15T09:15:49.000Z",
+        "edit_history_tweet_ids": [
+          "2088555249930023085"
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "end": 46,
+              "start": 36,
+              "tag": "ミョージョーサマー"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "pic.x.com/aayUNeZ7gG",
+              "end": 190,
+              "expanded_url": "https://x.com/info_myojou/status/2088555249930023085/photo/1",
+              "media_key": "3_2088555234780135425",
+              "start": 167,
+              "url": "https://t.co/aayUNeZ7gG"
+            },
+            {
+              "display_url": "pic.x.com/aayUNeZ7gG",
+              "end": 190,
+              "expanded_url": "https://x.com/info_myojou/status/2088555249930023085/photo/1",
+              "media_key": "3_2088555234784333824",
+              "start": 167,
+              "url": "https://t.co/aayUNeZ7gG"
+            },
+            {
+              "display_url": "pic.x.com/aayUNeZ7gG",
+              "end": 190,
+              "expanded_url": "https://x.com/info_myojou/status/2088555249930023085/photo/1",
+              "media_key": "3_2088555234759147520",
+              "start": 167,
+              "url": "https://t.co/aayUNeZ7gG"
+            },
+            {
+              "display_url": "pic.x.com/aayUNeZ7gG",
+              "end": 190,
+              "expanded_url": "https://x.com/info_myojou/status/2088555249930023085/photo/1",
+              "media_key": "3_2088555234780135424",
+              "start": 167,
+              "url": "https://t.co/aayUNeZ7gG"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n     サンキュー！ #ミョージョーサマー\n                     プレゼント企画\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\nmyojou Summer FINALを終えて、ここまで共にmyojouと夏を駆けてくださった皆さま、本当にありがとうございます！\n\nまだmyojouの夏は終わりません。\n最後まで、myojouとの「初めての夏」を一緒に駆け抜けましょう！\n\nここまで応援してくださった皆さまへ、日頃の感謝を込めて、全メンバーサイン入り「myojou Summer FINAL」Tシャツを抽選で5名様にプレゼント！🎁\n\n⟣応募方法：本ポストをRP＋myojou公式Xフォロー\n⟣受付期間：8/17（月）23:59まで\n\n #myojou",
+        "full_text_source": "note_tweet",
+        "id": "2088555249930023085",
+        "media": [
+          {
+            "height": 1338,
+            "media_key": "3_2088555234780135425",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HPwJ657aQAEZ63j.jpg",
+            "width": 2048
+          },
+          {
+            "height": 1300,
+            "media_key": "3_2088555234784333824",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HPwJ658aUAAxUGb.jpg",
+            "width": 2048
+          },
+          {
+            "height": 1044,
+            "media_key": "3_2088555234759147520",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HPwJ652aAAAUaJj.jpg",
+            "width": 1566
+          },
+          {
+            "height": 1077,
+            "media_key": "3_2088555234780135424",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HPwJ657aQAAmJtN.jpg",
+            "width": 1521
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 46,
+                "start": 36,
+                "tag": "ミョージョーサマー"
+              },
+              {
+                "end": 360,
+                "start": 353,
+                "tag": "myojou"
+              }
+            ]
+          },
+          "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n     サンキュー！ #ミョージョーサマー\n                     プレゼント企画\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\nmyojou Summer FINALを終えて、ここまで共にmyojouと夏を駆けてくださった皆さま、本当にありがとうございます！\n\nまだmyojouの夏は終わりません。\n最後まで、myojouとの「初めての夏」を一緒に駆け抜けましょう！\n\nここまで応援してくださった皆さまへ、日頃の感謝を込めて、全メンバーサイン入り「myojou Summer FINAL」Tシャツを抽選で5名様にプレゼント！🎁\n\n⟣応募方法：本ポストをRP＋myojou公式Xフォロー\n⟣受付期間：8/17（月）23:59まで\n\n #myojou"
+        },
+        "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n     サンキュー！ #ミョージョーサマー\n                     プレゼント企画\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\nmyojou Summer FINALを終えて、ここまで共にmyojouと夏を駆けてくださった皆さま、本当にありがとうございます！ https://t.co/aayUNeZ7gG",
+        "truncated_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n     サンキュー！ #ミョージョーサマー\n                     プレゼント企画\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\nmyojou Summer FINALを終えて、ここまで共にmyojouと夏を駆けてくださった皆さま、本当にありがとうございます！ https://t.co/aayUNeZ7gG"
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n     サンキュー！ #ミョージョーサマー\n                     プレゼント企画\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\nmyojou Summer FINALを終えて、ここまで共にmyojouと夏を駆けてくださった皆さま、本当にありがとうございます！\n\nまだmyojouの夏は終わりません。\n最後まで、myojouとの「初めての夏」を一緒に駆け抜けましょう！\n\nここまで応援してくださった皆さまへ、日頃の感謝を込めて、全メンバーサイン入り「myojou Summer FINAL」Tシャツを抽選で5名様にプレゼント！🎁\n\n⟣応募方法：本ポストをRP＋myojou公式Xフォロー\n⟣受付期間：8/17（月）23:59まで\n\n #myojou",
+      "truncated_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n     サンキュー！ #ミョージョーサマー\n                     プレゼント企画\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\nmyojou Summer FINALを終えて、ここまで共にmyojouと夏を駆けてくださった皆さま、本当にありがとうございます！ https://t.co/aayUNeZ7gG",
+      "url": "https://x.com/info_myojou/status/2088555249930023085"
+    },
+    {
+      "api_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                        ⟡.·*.御礼.*·.⟡\n                      IDOL STORM\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「IDOL STORM」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka \n栗原ここね@myojou_cocone https://t.co/W75UpUzY6j",
+      "attachments": {
+        "media_keys": [
+          "3_2088552449649074176"
+        ]
+      },
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "profile/member introduction",
+        "source_kind": "other"
+      },
+      "created_at": "2026-08-15T09:04:47+00:00",
+      "entities": {
+        "mentions": [
+          {
+            "end": 170,
+            "id": "1981655668626165760",
+            "start": 158,
+            "username": "myojou_ruka"
+          },
+          {
+            "end": 191,
+            "id": "1590652199407083520",
+            "start": 177,
+            "username": "myojou_cocone"
+          }
+        ],
+        "urls": [
+          {
+            "display_url": "pic.x.com/W75UpUzY6j",
+            "end": 215,
+            "expanded_url": "https://x.com/info_myojou/status/2088552473166553336/photo/1",
+            "media_key": "3_2088552449649074176",
+            "start": 192,
+            "url": "https://t.co/W75UpUzY6j"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2088552473166553336",
+      "media": [
+        {
+          "alt_text": "M0,SE Short\nM1,HeartBeat\nM2,軌跡まで\nM3,夏、空模様\nM4,アンチコンプリート\nM5,Beyond",
+          "height": 3072,
+          "media_key": "3_2088552449649074176",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HPwHYyga4AAD4uu.jpg",
+          "width": 4096
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 290,
+              "start": 283,
+              "tag": "myojou"
+            }
+          ],
+          "mentions": [
+            {
+              "end": 170,
+              "id": "1981655668626165760",
+              "start": 158,
+              "username": "myojou_ruka"
+            },
+            {
+              "end": 191,
+              "id": "1590652199407083520",
+              "start": 177,
+              "username": "myojou_cocone"
+            },
+            {
+              "end": 210,
+              "id": "1754991922807177216",
+              "start": 197,
+              "username": "myojou_shino"
+            },
+            {
+              "end": 227,
+              "id": "2009274765895450624",
+              "start": 216,
+              "username": "myojou_yun"
+            },
+            {
+              "end": 248,
+              "id": "1344586625901158401",
+              "start": 233,
+              "username": "myojou_usukura"
+            },
+            {
+              "end": 265,
+              "id": "2009245855694675968",
+              "start": 254,
+              "username": "myojou_miu"
+            }
+          ]
+        },
+        "text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                        ⟡.·*.御礼.*·.⟡\n                      IDOL STORM\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「IDOL STORM」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka \n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n澪奈ゆん@myojou_yun \n薄倉りな@myojou_usukura \n日陽みう@myojou_miu \n\nSETLIST▶︎ALT\n\n #myojou"
+      },
+      "parsed_fields": null,
+      "raw": {
+        "api_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                        ⟡.·*.御礼.*·.⟡\n                      IDOL STORM\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「IDOL STORM」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka \n栗原ここね@myojou_cocone https://t.co/W75UpUzY6j",
+        "attachments": {
+          "media_keys": [
+            "3_2088552449649074176"
+          ]
+        },
+        "created_at": "2026-08-15T09:04:47.000Z",
+        "edit_history_tweet_ids": [
+          "2088552473166553336"
+        ],
+        "entities": {
+          "mentions": [
+            {
+              "end": 170,
+              "id": "1981655668626165760",
+              "start": 158,
+              "username": "myojou_ruka"
+            },
+            {
+              "end": 191,
+              "id": "1590652199407083520",
+              "start": 177,
+              "username": "myojou_cocone"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "pic.x.com/W75UpUzY6j",
+              "end": 215,
+              "expanded_url": "https://x.com/info_myojou/status/2088552473166553336/photo/1",
+              "media_key": "3_2088552449649074176",
+              "start": 192,
+              "url": "https://t.co/W75UpUzY6j"
+            }
+          ]
+        },
+        "full_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                        ⟡.·*.御礼.*·.⟡\n                      IDOL STORM\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「IDOL STORM」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka \n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n澪奈ゆん@myojou_yun \n薄倉りな@myojou_usukura \n日陽みう@myojou_miu \n\nSETLIST▶︎ALT\n\n #myojou",
+        "full_text_source": "note_tweet",
+        "id": "2088552473166553336",
+        "media": [
+          {
+            "alt_text": "M0,SE Short\nM1,HeartBeat\nM2,軌跡まで\nM3,夏、空模様\nM4,アンチコンプリート\nM5,Beyond",
+            "height": 3072,
+            "media_key": "3_2088552449649074176",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HPwHYyga4AAD4uu.jpg",
+            "width": 4096
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 290,
+                "start": 283,
+                "tag": "myojou"
+              }
+            ],
+            "mentions": [
+              {
+                "end": 170,
+                "id": "1981655668626165760",
+                "start": 158,
+                "username": "myojou_ruka"
+              },
+              {
+                "end": 191,
+                "id": "1590652199407083520",
+                "start": 177,
+                "username": "myojou_cocone"
+              },
+              {
+                "end": 210,
+                "id": "1754991922807177216",
+                "start": 197,
+                "username": "myojou_shino"
+              },
+              {
+                "end": 227,
+                "id": "2009274765895450624",
+                "start": 216,
+                "username": "myojou_yun"
+              },
+              {
+                "end": 248,
+                "id": "1344586625901158401",
+                "start": 233,
+                "username": "myojou_usukura"
+              },
+              {
+                "end": 265,
+                "id": "2009245855694675968",
+                "start": 254,
+                "username": "myojou_miu"
+              }
+            ]
+          },
+          "text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                        ⟡.·*.御礼.*·.⟡\n                      IDOL STORM\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「IDOL STORM」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka \n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n澪奈ゆん@myojou_yun \n薄倉りな@myojou_usukura \n日陽みう@myojou_miu \n\nSETLIST▶︎ALT\n\n #myojou"
+        },
+        "text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                        ⟡.·*.御礼.*·.⟡\n                      IDOL STORM\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「IDOL STORM」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka \n栗原ここね@myojou_cocone https://t.co/W75UpUzY6j",
+        "truncated_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                        ⟡.·*.御礼.*·.⟡\n                      IDOL STORM\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「IDOL STORM」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka \n栗原ここね@myojou_cocone https://t.co/W75UpUzY6j"
+      },
+      "referenced_tweets": [],
+      "text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                        ⟡.·*.御礼.*·.⟡\n                      IDOL STORM\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「IDOL STORM」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka \n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n澪奈ゆん@myojou_yun \n薄倉りな@myojou_usukura \n日陽みう@myojou_miu \n\nSETLIST▶︎ALT\n\n #myojou",
+      "truncated_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                        ⟡.·*.御礼.*·.⟡\n                      IDOL STORM\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「IDOL STORM」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka \n栗原ここね@myojou_cocone https://t.co/W75UpUzY6j",
+      "url": "https://x.com/info_myojou/status/2088552473166553336"
+    },
+    {
+      "api_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「IDOL STORM」\n\n🎙14:35-14:55\n📸16:10-17:10\n\n⟣date：8/15（土）\n⟣place : Music restaurant APEXIA\n⟣open/start：10:30/10:50\n⟣price：前方 ¥8,000 / 一般 ¥2,500（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/8 (水) 21:00 - https://t.co/8UtPZpro7B",
+      "attachments": {
+        "media_keys": [
+          "3_2088471041303785473"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "same_day_reminder"
+      },
+      "created_at": "2026-08-15T03:41:15+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/8UtPZpro7B",
+            "end": 239,
+            "expanded_url": "https://x.com/info_myojou/status/2088471052527522117/photo/1",
+            "media_key": "3_2088471041303785473",
+            "start": 216,
+            "url": "https://t.co/8UtPZpro7B"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2088471052527522117",
+      "media": [
+        {
+          "height": 3508,
+          "media_key": "3_2088471041303785473",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HPu9WMyaMAERwix.jpg",
+          "width": 2480
+        }
+      ],
+      "needs_review": true,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 265,
+              "start": 258,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "t-dv.com/IDOLSTORM_0815",
+              "end": 256,
+              "expanded_url": "http://t-dv.com/IDOLSTORM_0815",
+              "start": 233,
+              "url": "https://t.co/fdGRP70lrx"
+            }
+          ]
+        },
+        "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「IDOL STORM」\n\n🎙14:35-14:55\n📸16:10-17:10\n\n⟣date：8/15（土）\n⟣place : Music restaurant APEXIA\n⟣open/start：10:30/10:50\n⟣price：前方 ¥8,000 / 一般 ¥2,500（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/8 (水) 21:00 - 8/15 (土) 16:00\n🔗 https://t.co/fdGRP70lrx\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": "16:10-17:10",
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-08-15",
+        "event_dates": [
+          "2026-08-15"
+        ],
+        "event_name": "IDOL STORM",
+        "extraction_confidence": 0.95,
+        "general_ticket_price": 2500,
+        "lottery_result_at": null,
+        "myojou_performance_time": "14:35-14:55",
+        "notes": "ドリンク代: 各+1D\n⟣入場特典:明星カード(サインありチェキ)",
+        "open_time": "10:30",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "前方",
+        "priority_ticket_price": 8000,
+        "same_day_ticket_price": null,
+        "source_kind": "same_day_reminder",
+        "source_post_id": "2088471052527522117",
+        "source_posted_at": "2026-08-15T03:41:15Z",
+        "source_raw": {
+          "api_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「IDOL STORM」\n\n🎙14:35-14:55\n📸16:10-17:10\n\n⟣date：8/15（土）\n⟣place : Music restaurant APEXIA\n⟣open/start：10:30/10:50\n⟣price：前方 ¥8,000 / 一般 ¥2,500（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/8 (水) 21:00 - https://t.co/8UtPZpro7B",
+          "attachments": {
+            "media_keys": [
+              "3_2088471041303785473"
+            ]
+          },
+          "created_at": "2026-08-15T03:41:15.000Z",
+          "edit_history_tweet_ids": [
+            "2088471052527522117"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/8UtPZpro7B",
+                "end": 239,
+                "expanded_url": "https://x.com/info_myojou/status/2088471052527522117/photo/1",
+                "media_key": "3_2088471041303785473",
+                "start": 216,
+                "url": "https://t.co/8UtPZpro7B"
+              }
+            ]
+          },
+          "full_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「IDOL STORM」\n\n🎙14:35-14:55\n📸16:10-17:10\n\n⟣date：8/15（土）\n⟣place : Music restaurant APEXIA\n⟣open/start：10:30/10:50\n⟣price：前方 ¥8,000 / 一般 ¥2,500（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/8 (水) 21:00 - 8/15 (土) 16:00\n🔗 https://t.co/fdGRP70lrx\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2088471052527522117",
+          "media": [
+            {
+              "height": 3508,
+              "media_key": "3_2088471041303785473",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HPu9WMyaMAERwix.jpg",
+              "width": 2480
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 265,
+                  "start": 258,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "t-dv.com/IDOLSTORM_0815",
+                  "end": 256,
+                  "expanded_url": "http://t-dv.com/IDOLSTORM_0815",
+                  "start": 233,
+                  "url": "https://t.co/fdGRP70lrx"
+                }
+              ]
+            },
+            "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「IDOL STORM」\n\n🎙14:35-14:55\n📸16:10-17:10\n\n⟣date：8/15（土）\n⟣place : Music restaurant APEXIA\n⟣open/start：10:30/10:50\n⟣price：前方 ¥8,000 / 一般 ¥2,500（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/8 (水) 21:00 - 8/15 (土) 16:00\n🔗 https://t.co/fdGRP70lrx\n\n#myojou"
+          },
+          "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「IDOL STORM」\n\n🎙14:35-14:55\n📸16:10-17:10\n\n⟣date：8/15（土）\n⟣place : Music restaurant APEXIA\n⟣open/start：10:30/10:50\n⟣price：前方 ¥8,000 / 一般 ¥2,500（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/8 (水) 21:00 - https://t.co/8UtPZpro7B",
+          "truncated_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「IDOL STORM」\n\n🎙14:35-14:55\n📸16:10-17:10\n\n⟣date：8/15（土）\n⟣place : Music restaurant APEXIA\n⟣open/start：10:30/10:50\n⟣price：前方 ¥8,000 / 一般 ¥2,500（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/8 (水) 21:00 - https://t.co/8UtPZpro7B"
+        },
+        "source_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「IDOL STORM」\n\n🎙14:35-14:55\n📸16:10-17:10\n\n⟣date：8/15（土）\n⟣place : Music restaurant APEXIA\n⟣open/start：10:30/10:50\n⟣price：前方 ¥8,000 / 一般 ¥2,500（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/8 (水) 21:00 - 8/15 (土) 16:00\n🔗 https://t.co/fdGRP70lrx\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2088471052527522117",
+        "start_time": "10:50",
+        "ticket_application_deadline_at": "2026-08-15T16:00:00+09:00",
+        "ticket_application_start_at": "2026-07-08T21:00:00+09:00",
+        "ticket_sale_type": "先着",
+        "ticket_sales": [
+          {
+            "deadline_at": "2026-08-15T16:00:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 8000,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2088471052527522117",
+            "source_url": "https://x.com/info_myojou/status/2088471052527522117",
+            "start_at": "2026-07-08T21:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "前方",
+            "ticket_tier": "前方"
+          },
+          {
+            "deadline_at": "2026-08-15T16:00:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 2500,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2088471052527522117",
+            "source_url": "https://x.com/info_myojou/status/2088471052527522117",
+            "start_at": "2026-07-08T21:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "http://t-dv.com/IDOLSTORM_0815",
+        "venue": "Music restaurant APEXIA"
+      },
+      "raw": {
+        "api_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「IDOL STORM」\n\n🎙14:35-14:55\n📸16:10-17:10\n\n⟣date：8/15（土）\n⟣place : Music restaurant APEXIA\n⟣open/start：10:30/10:50\n⟣price：前方 ¥8,000 / 一般 ¥2,500（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/8 (水) 21:00 - https://t.co/8UtPZpro7B",
+        "attachments": {
+          "media_keys": [
+            "3_2088471041303785473"
+          ]
+        },
+        "created_at": "2026-08-15T03:41:15.000Z",
+        "edit_history_tweet_ids": [
+          "2088471052527522117"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/8UtPZpro7B",
+              "end": 239,
+              "expanded_url": "https://x.com/info_myojou/status/2088471052527522117/photo/1",
+              "media_key": "3_2088471041303785473",
+              "start": 216,
+              "url": "https://t.co/8UtPZpro7B"
+            }
+          ]
+        },
+        "full_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「IDOL STORM」\n\n🎙14:35-14:55\n📸16:10-17:10\n\n⟣date：8/15（土）\n⟣place : Music restaurant APEXIA\n⟣open/start：10:30/10:50\n⟣price：前方 ¥8,000 / 一般 ¥2,500（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/8 (水) 21:00 - 8/15 (土) 16:00\n🔗 https://t.co/fdGRP70lrx\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2088471052527522117",
+        "media": [
+          {
+            "height": 3508,
+            "media_key": "3_2088471041303785473",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HPu9WMyaMAERwix.jpg",
+            "width": 2480
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 265,
+                "start": 258,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "t-dv.com/IDOLSTORM_0815",
+                "end": 256,
+                "expanded_url": "http://t-dv.com/IDOLSTORM_0815",
+                "start": 233,
+                "url": "https://t.co/fdGRP70lrx"
+              }
+            ]
+          },
+          "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「IDOL STORM」\n\n🎙14:35-14:55\n📸16:10-17:10\n\n⟣date：8/15（土）\n⟣place : Music restaurant APEXIA\n⟣open/start：10:30/10:50\n⟣price：前方 ¥8,000 / 一般 ¥2,500（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/8 (水) 21:00 - 8/15 (土) 16:00\n🔗 https://t.co/fdGRP70lrx\n\n#myojou"
+        },
+        "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「IDOL STORM」\n\n🎙14:35-14:55\n📸16:10-17:10\n\n⟣date：8/15（土）\n⟣place : Music restaurant APEXIA\n⟣open/start：10:30/10:50\n⟣price：前方 ¥8,000 / 一般 ¥2,500（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/8 (水) 21:00 - https://t.co/8UtPZpro7B",
+        "truncated_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「IDOL STORM」\n\n🎙14:35-14:55\n📸16:10-17:10\n\n⟣date：8/15（土）\n⟣place : Music restaurant APEXIA\n⟣open/start：10:30/10:50\n⟣price：前方 ¥8,000 / 一般 ¥2,500（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/8 (水) 21:00 - https://t.co/8UtPZpro7B"
+      },
+      "referenced_tweets": [],
+      "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「IDOL STORM」\n\n🎙14:35-14:55\n📸16:10-17:10\n\n⟣date：8/15（土）\n⟣place : Music restaurant APEXIA\n⟣open/start：10:30/10:50\n⟣price：前方 ¥8,000 / 一般 ¥2,500（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/8 (水) 21:00 - 8/15 (土) 16:00\n🔗 https://t.co/fdGRP70lrx\n\n#myojou",
+      "truncated_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「IDOL STORM」\n\n🎙14:35-14:55\n📸16:10-17:10\n\n⟣date：8/15（土）\n⟣place : Music restaurant APEXIA\n⟣open/start：10:30/10:50\n⟣price：前方 ¥8,000 / 一般 ¥2,500（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/8 (水) 21:00 - https://t.co/8UtPZpro7B",
+      "url": "https://x.com/info_myojou/status/2088471052527522117"
+    },
+    {
       "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「IDOL STORM」\n\n🎙14:35-14:55\n📸16:10-17:10\n\n⟣date：8/15（土）\n⟣place : Music restaurant APEXIA\n⟣open/start：10:30/10:50\n⟣price：前方 ¥8,000 / 一般 ¥2,500（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/8 (水) 21:00 - https://t.co/TZEtwvNIbD",
       "attachments": {
         "media_keys": [
@@ -154830,7 +156395,7 @@
     "backfill": true,
     "dry_run": true,
     "estimated_x_post_reads": 411,
-    "latest_post_id": "2088229957306916890",
+    "latest_post_id": "2088596606488846338",
     "max_pages": 10,
     "max_posts": 500,
     "max_results": 5,
@@ -154873,16 +156438,16 @@
       }
     ],
     "pages_fetched": 5,
-    "posts_fetched": 714,
+    "posts_fetched": 719,
     "rate_limit_headers": {
       "x-rate-limit-limit": "10000",
       "x-rate-limit-remaining": "9993",
       "x-rate-limit-reset": "1781108896"
     },
-    "total_posts": 714,
-    "updated_at": "2026-08-14T19:50:08.928525+00:00",
+    "total_posts": 719,
+    "updated_at": "2026-08-15T19:23:42.379331+00:00",
     "username": "info_myojou"
   },
   "source": "x_api",
-  "updated_at": "2026-08-14T19:50:08.928525+00:00"
+  "updated_at": "2026-08-15T19:23:42.379331+00:00"
 }
