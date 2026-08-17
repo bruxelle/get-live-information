@@ -2,6 +2,1207 @@
   "captured_at": "2026-06-10T16:19:36.141820+00:00",
   "data": [
     {
+      "api_text": "⚠️名古屋公演抽選受付 本日23:59まで⚠️ https://t.co/B2UTOk6iqk",
+      "attachments": {},
+      "classification": {
+        "classification": "event",
+        "confidence": "medium",
+        "reason": "live keywords with partial structured information",
+        "source_kind": "same_day_reminder"
+      },
+      "created_at": "2026-08-17T14:02:57+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "x.com/info_myojou/st…",
+            "end": 47,
+            "expanded_url": "https://twitter.com/info_myojou/status/2086784829832503370",
+            "start": 24,
+            "url": "https://t.co/B2UTOk6iqk"
+          }
+        ]
+      },
+      "full_text_source": "text",
+      "id": "2089352283469554062",
+      "media": [],
+      "needs_review": true,
+      "needs_review_reasons": [
+        "missing venue",
+        "missing ticket deadline",
+        "ambiguous event match",
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": null,
+      "parsed_fields": {
+        "benefit_event_time": null,
+        "classification": "event",
+        "classification_confidence": "medium",
+        "classification_reason": "live keywords with partial structured information",
+        "event_date": "2026-08-17",
+        "event_dates": [
+          "2026-08-17"
+        ],
+        "event_name": null,
+        "extraction_confidence": 0.45,
+        "general_ticket_price": null,
+        "lottery_result_at": null,
+        "myojou_performance_time": null,
+        "notes": null,
+        "open_time": null,
+        "payment_deadline_at": null,
+        "priority_ticket_name": null,
+        "priority_ticket_price": null,
+        "same_day_ticket_price": null,
+        "source_kind": "same_day_reminder",
+        "source_post_id": "2089352283469554062",
+        "source_posted_at": "2026-08-17T14:02:57Z",
+        "source_raw": {
+          "api_text": "⚠️名古屋公演抽選受付 本日23:59まで⚠️ https://t.co/B2UTOk6iqk",
+          "created_at": "2026-08-17T14:02:57.000Z",
+          "edit_history_tweet_ids": [
+            "2089352283469554062"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "x.com/info_myojou/st…",
+                "end": 47,
+                "expanded_url": "https://twitter.com/info_myojou/status/2086784829832503370",
+                "start": 24,
+                "url": "https://t.co/B2UTOk6iqk"
+              }
+            ]
+          },
+          "full_text": "⚠️名古屋公演抽選受付 本日23:59まで⚠️ https://t.co/B2UTOk6iqk",
+          "full_text_source": "text",
+          "id": "2089352283469554062",
+          "referenced_tweets": [
+            {
+              "id": "2086784829832503370",
+              "type": "quoted"
+            }
+          ],
+          "text": "⚠️名古屋公演抽選受付 本日23:59まで⚠️ https://t.co/B2UTOk6iqk",
+          "truncated_text": null
+        },
+        "source_text": "⚠️名古屋公演抽選受付 本日23:59まで⚠️ https://t.co/B2UTOk6iqk",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2089352283469554062",
+        "start_time": null,
+        "ticket_application_deadline_at": null,
+        "ticket_application_start_at": null,
+        "ticket_sale_type": "抽選",
+        "ticket_sales": [],
+        "ticket_status": null,
+        "ticket_url": null,
+        "venue": null
+      },
+      "raw": {
+        "api_text": "⚠️名古屋公演抽選受付 本日23:59まで⚠️ https://t.co/B2UTOk6iqk",
+        "created_at": "2026-08-17T14:02:57.000Z",
+        "edit_history_tweet_ids": [
+          "2089352283469554062"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "x.com/info_myojou/st…",
+              "end": 47,
+              "expanded_url": "https://twitter.com/info_myojou/status/2086784829832503370",
+              "start": 24,
+              "url": "https://t.co/B2UTOk6iqk"
+            }
+          ]
+        },
+        "full_text": "⚠️名古屋公演抽選受付 本日23:59まで⚠️ https://t.co/B2UTOk6iqk",
+        "full_text_source": "text",
+        "id": "2089352283469554062",
+        "referenced_tweets": [
+          {
+            "id": "2086784829832503370",
+            "type": "quoted"
+          }
+        ],
+        "text": "⚠️名古屋公演抽選受付 本日23:59まで⚠️ https://t.co/B2UTOk6iqk",
+        "truncated_text": null
+      },
+      "referenced_tweets": [
+        {
+          "id": "2086784829832503370",
+          "type": "quoted"
+        }
+      ],
+      "text": "⚠️名古屋公演抽選受付 本日23:59まで⚠️ https://t.co/B2UTOk6iqk",
+      "truncated_text": null,
+      "url": "https://x.com/info_myojou/status/2089352283469554062"
+    },
+    {
+      "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「#バチュコリ -Summer SP-」\n\n🎙16:10-16:35 \n📸16:45-18:00 （B）\n\n⟣date：8/18（火）\n⟣place : EX THEATER ROPPONGI\n⟣open/start：13:45/14:30\n⟣price：SA¥6,000/SB¥6,000/一般¥1,800/女性¥1,000（各＋1D）\n※SA=前方エリア（B3F）入場 https://t.co/rivxC7SZS1",
+      "attachments": {
+        "media_keys": [
+          "3_2089300850921598976"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "day_before_reminder"
+      },
+      "created_at": "2026-08-17T11:36:32+00:00",
+      "entities": {
+        "hashtags": [
+          {
+            "end": 30,
+            "start": 24,
+            "tag": "バチュコリ"
+          }
+        ],
+        "urls": [
+          {
+            "display_url": "pic.x.com/rivxC7SZS1",
+            "end": 233,
+            "expanded_url": "https://x.com/info_myojou/status/2089315437381296263/photo/1",
+            "media_key": "3_2089300850921598976",
+            "start": 210,
+            "url": "https://t.co/rivxC7SZS1"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2089315437381296263",
+      "media": [
+        {
+          "height": 2829,
+          "media_key": "3_2089300850921598976",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HP6wDegacAA4VhD.jpg",
+          "width": 2000
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 30,
+              "start": 24,
+              "tag": "バチュコリ"
+            },
+            {
+              "end": 344,
+              "start": 337,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "livepocket.jp/e/btclss",
+              "end": 335,
+              "expanded_url": "http://livepocket.jp/e/btclss",
+              "start": 312,
+              "url": "https://t.co/GQsjPwxIUM"
+            }
+          ]
+        },
+        "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「#バチュコリ -Summer SP-」\n\n🎙16:10-16:35 \n📸16:45-18:00 （B）\n\n⟣date：8/18（火）\n⟣place : EX THEATER ROPPONGI\n⟣open/start：13:45/14:30\n⟣price：SA¥6,000/SB¥6,000/一般¥1,800/女性¥1,000（各＋1D）\n※SA=前方エリア（B3F）入場\n※SB=B1Fスタンド席入場（全席自由席）\nステージとアリーナがB3Fとなります。\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般先着販売】\n8/4(火) 21:00~8/18(火)22:00\n🔗 https://t.co/GQsjPwxIUM\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": "16:45-18:00",
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-08-18",
+        "event_dates": [
+          "2026-08-18"
+        ],
+        "event_name": "Summer SP",
+        "extraction_confidence": 0.95,
+        "general_ticket_price": 1800,
+        "lottery_result_at": null,
+        "myojou_performance_time": "16:10-16:35",
+        "notes": "ドリンク代: 各+1D\n※SA=前方エリア(B3F)入場\n※SB=B1Fスタンド席入場(全席自由席)\n⟣入場特典:明星カード(サインありチェキ)",
+        "open_time": "13:45",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "前方エリア(B",
+        "priority_ticket_price": null,
+        "same_day_ticket_price": null,
+        "source_kind": "day_before_reminder",
+        "source_post_id": "2089315437381296263",
+        "source_posted_at": "2026-08-17T11:36:32Z",
+        "source_raw": {
+          "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「#バチュコリ -Summer SP-」\n\n🎙16:10-16:35 \n📸16:45-18:00 （B）\n\n⟣date：8/18（火）\n⟣place : EX THEATER ROPPONGI\n⟣open/start：13:45/14:30\n⟣price：SA¥6,000/SB¥6,000/一般¥1,800/女性¥1,000（各＋1D）\n※SA=前方エリア（B3F）入場 https://t.co/rivxC7SZS1",
+          "attachments": {
+            "media_keys": [
+              "3_2089300850921598976"
+            ]
+          },
+          "created_at": "2026-08-17T11:36:32.000Z",
+          "edit_history_tweet_ids": [
+            "2089300859394138390",
+            "2089315437381296263"
+          ],
+          "entities": {
+            "hashtags": [
+              {
+                "end": 30,
+                "start": 24,
+                "tag": "バチュコリ"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "pic.x.com/rivxC7SZS1",
+                "end": 233,
+                "expanded_url": "https://x.com/info_myojou/status/2089315437381296263/photo/1",
+                "media_key": "3_2089300850921598976",
+                "start": 210,
+                "url": "https://t.co/rivxC7SZS1"
+              }
+            ]
+          },
+          "full_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「#バチュコリ -Summer SP-」\n\n🎙16:10-16:35 \n📸16:45-18:00 （B）\n\n⟣date：8/18（火）\n⟣place : EX THEATER ROPPONGI\n⟣open/start：13:45/14:30\n⟣price：SA¥6,000/SB¥6,000/一般¥1,800/女性¥1,000（各＋1D）\n※SA=前方エリア（B3F）入場\n※SB=B1Fスタンド席入場（全席自由席）\nステージとアリーナがB3Fとなります。\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般先着販売】\n8/4(火) 21:00~8/18(火)22:00\n🔗 https://t.co/GQsjPwxIUM\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2089315437381296263",
+          "media": [
+            {
+              "height": 2829,
+              "media_key": "3_2089300850921598976",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HP6wDegacAA4VhD.jpg",
+              "width": 2000
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 30,
+                  "start": 24,
+                  "tag": "バチュコリ"
+                },
+                {
+                  "end": 344,
+                  "start": 337,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "livepocket.jp/e/btclss",
+                  "end": 335,
+                  "expanded_url": "http://livepocket.jp/e/btclss",
+                  "start": 312,
+                  "url": "https://t.co/GQsjPwxIUM"
+                }
+              ]
+            },
+            "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「#バチュコリ -Summer SP-」\n\n🎙16:10-16:35 \n📸16:45-18:00 （B）\n\n⟣date：8/18（火）\n⟣place : EX THEATER ROPPONGI\n⟣open/start：13:45/14:30\n⟣price：SA¥6,000/SB¥6,000/一般¥1,800/女性¥1,000（各＋1D）\n※SA=前方エリア（B3F）入場\n※SB=B1Fスタンド席入場（全席自由席）\nステージとアリーナがB3Fとなります。\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般先着販売】\n8/4(火) 21:00~8/18(火)22:00\n🔗 https://t.co/GQsjPwxIUM\n\n#myojou"
+          },
+          "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「#バチュコリ -Summer SP-」\n\n🎙16:10-16:35 \n📸16:45-18:00 （B）\n\n⟣date：8/18（火）\n⟣place : EX THEATER ROPPONGI\n⟣open/start：13:45/14:30\n⟣price：SA¥6,000/SB¥6,000/一般¥1,800/女性¥1,000（各＋1D）\n※SA=前方エリア（B3F）入場 https://t.co/rivxC7SZS1",
+          "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「#バチュコリ -Summer SP-」\n\n🎙16:10-16:35 \n📸16:45-18:00 （B）\n\n⟣date：8/18（火）\n⟣place : EX THEATER ROPPONGI\n⟣open/start：13:45/14:30\n⟣price：SA¥6,000/SB¥6,000/一般¥1,800/女性¥1,000（各＋1D）\n※SA=前方エリア（B3F）入場 https://t.co/rivxC7SZS1"
+        },
+        "source_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「#バチュコリ -Summer SP-」\n\n🎙16:10-16:35 \n📸16:45-18:00 （B）\n\n⟣date：8/18（火）\n⟣place : EX THEATER ROPPONGI\n⟣open/start：13:45/14:30\n⟣price：SA¥6,000/SB¥6,000/一般¥1,800/女性¥1,000（各＋1D）\n※SA=前方エリア（B3F）入場\n※SB=B1Fスタンド席入場（全席自由席）\nステージとアリーナがB3Fとなります。\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般先着販売】\n8/4(火) 21:00~8/18(火)22:00\n🔗 https://t.co/GQsjPwxIUM\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2089315437381296263",
+        "start_time": "14:30",
+        "ticket_application_deadline_at": "2026-08-18T22:00:00+09:00",
+        "ticket_application_start_at": "2026-08-04T21:00:00+09:00",
+        "ticket_sale_type": "先着",
+        "ticket_sales": [
+          {
+            "deadline_at": "2026-08-18T22:00:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 1800,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2089315437381296263",
+            "source_url": "https://x.com/info_myojou/status/2089315437381296263",
+            "start_at": "2026-08-04T21:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "http://livepocket.jp/e/btclss",
+        "venue": "EX THEATER ROPPONGI"
+      },
+      "raw": {
+        "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「#バチュコリ -Summer SP-」\n\n🎙16:10-16:35 \n📸16:45-18:00 （B）\n\n⟣date：8/18（火）\n⟣place : EX THEATER ROPPONGI\n⟣open/start：13:45/14:30\n⟣price：SA¥6,000/SB¥6,000/一般¥1,800/女性¥1,000（各＋1D）\n※SA=前方エリア（B3F）入場 https://t.co/rivxC7SZS1",
+        "attachments": {
+          "media_keys": [
+            "3_2089300850921598976"
+          ]
+        },
+        "created_at": "2026-08-17T11:36:32.000Z",
+        "edit_history_tweet_ids": [
+          "2089300859394138390",
+          "2089315437381296263"
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "end": 30,
+              "start": 24,
+              "tag": "バチュコリ"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "pic.x.com/rivxC7SZS1",
+              "end": 233,
+              "expanded_url": "https://x.com/info_myojou/status/2089315437381296263/photo/1",
+              "media_key": "3_2089300850921598976",
+              "start": 210,
+              "url": "https://t.co/rivxC7SZS1"
+            }
+          ]
+        },
+        "full_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「#バチュコリ -Summer SP-」\n\n🎙16:10-16:35 \n📸16:45-18:00 （B）\n\n⟣date：8/18（火）\n⟣place : EX THEATER ROPPONGI\n⟣open/start：13:45/14:30\n⟣price：SA¥6,000/SB¥6,000/一般¥1,800/女性¥1,000（各＋1D）\n※SA=前方エリア（B3F）入場\n※SB=B1Fスタンド席入場（全席自由席）\nステージとアリーナがB3Fとなります。\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般先着販売】\n8/4(火) 21:00~8/18(火)22:00\n🔗 https://t.co/GQsjPwxIUM\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2089315437381296263",
+        "media": [
+          {
+            "height": 2829,
+            "media_key": "3_2089300850921598976",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HP6wDegacAA4VhD.jpg",
+            "width": 2000
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 30,
+                "start": 24,
+                "tag": "バチュコリ"
+              },
+              {
+                "end": 344,
+                "start": 337,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "livepocket.jp/e/btclss",
+                "end": 335,
+                "expanded_url": "http://livepocket.jp/e/btclss",
+                "start": 312,
+                "url": "https://t.co/GQsjPwxIUM"
+              }
+            ]
+          },
+          "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「#バチュコリ -Summer SP-」\n\n🎙16:10-16:35 \n📸16:45-18:00 （B）\n\n⟣date：8/18（火）\n⟣place : EX THEATER ROPPONGI\n⟣open/start：13:45/14:30\n⟣price：SA¥6,000/SB¥6,000/一般¥1,800/女性¥1,000（各＋1D）\n※SA=前方エリア（B3F）入場\n※SB=B1Fスタンド席入場（全席自由席）\nステージとアリーナがB3Fとなります。\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般先着販売】\n8/4(火) 21:00~8/18(火)22:00\n🔗 https://t.co/GQsjPwxIUM\n\n#myojou"
+        },
+        "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「#バチュコリ -Summer SP-」\n\n🎙16:10-16:35 \n📸16:45-18:00 （B）\n\n⟣date：8/18（火）\n⟣place : EX THEATER ROPPONGI\n⟣open/start：13:45/14:30\n⟣price：SA¥6,000/SB¥6,000/一般¥1,800/女性¥1,000（各＋1D）\n※SA=前方エリア（B3F）入場 https://t.co/rivxC7SZS1",
+        "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「#バチュコリ -Summer SP-」\n\n🎙16:10-16:35 \n📸16:45-18:00 （B）\n\n⟣date：8/18（火）\n⟣place : EX THEATER ROPPONGI\n⟣open/start：13:45/14:30\n⟣price：SA¥6,000/SB¥6,000/一般¥1,800/女性¥1,000（各＋1D）\n※SA=前方エリア（B3F）入場 https://t.co/rivxC7SZS1"
+      },
+      "referenced_tweets": [],
+      "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「#バチュコリ -Summer SP-」\n\n🎙16:10-16:35 \n📸16:45-18:00 （B）\n\n⟣date：8/18（火）\n⟣place : EX THEATER ROPPONGI\n⟣open/start：13:45/14:30\n⟣price：SA¥6,000/SB¥6,000/一般¥1,800/女性¥1,000（各＋1D）\n※SA=前方エリア（B3F）入場\n※SB=B1Fスタンド席入場（全席自由席）\nステージとアリーナがB3Fとなります。\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般先着販売】\n8/4(火) 21:00~8/18(火)22:00\n🔗 https://t.co/GQsjPwxIUM\n\n#myojou",
+      "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「#バチュコリ -Summer SP-」\n\n🎙16:10-16:35 \n📸16:45-18:00 （B）\n\n⟣date：8/18（火）\n⟣place : EX THEATER ROPPONGI\n⟣open/start：13:45/14:30\n⟣price：SA¥6,000/SB¥6,000/一般¥1,800/女性¥1,000（各＋1D）\n※SA=前方エリア（B3F）入場 https://t.co/rivxC7SZS1",
+      "url": "https://x.com/info_myojou/status/2089315437381296263"
+    },
+    {
+      "api_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n        サンキュー！ #ミョージョーサマー\n         第一弾 myojou Summer  定点公開\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n第四回myojou Summer定点動画を公開！\n※期間限定公開となります\n\n⟣2026.08.17 21:00 プレミア公開\n⟣ https://t.co/SanqP7ZZmy https://t.co/PVpoQEBiE3",
+      "attachments": {
+        "media_keys": [
+          "13_2089306327579504640"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "other"
+      },
+      "created_at": "2026-08-17T11:01:26+00:00",
+      "entities": {
+        "hashtags": [
+          {
+            "end": 51,
+            "start": 41,
+            "tag": "ミョージョーサマー"
+          }
+        ],
+        "urls": [
+          {
+            "display_url": "pic.x.com/SanqP7ZZmy",
+            "end": 201,
+            "expanded_url": "https://x.com/info_myojou/status/2089306603711312062/video/1",
+            "media_key": "13_2089306327579504640",
+            "start": 178,
+            "url": "https://t.co/SanqP7ZZmy"
+          },
+          {
+            "display_url": "x.com/info_myojou/st…",
+            "end": 225,
+            "expanded_url": "https://twitter.com/info_myojou/status/2088555249930023085",
+            "start": 202,
+            "url": "https://t.co/PVpoQEBiE3"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2089306603711312062",
+      "media": [
+        {
+          "height": 1080,
+          "media_key": "13_2089306327579504640",
+          "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2089306327579504640/img/I84BPX3y6gGtSdZn.jpg",
+          "type": "video",
+          "width": 1920
+        }
+      ],
+      "needs_review": true,
+      "needs_review_reasons": [
+        "missing venue",
+        "missing ticket deadline",
+        "ambiguous event match",
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 51,
+              "start": 41,
+              "tag": "ミョージョーサマー"
+            },
+            {
+              "end": 234,
+              "start": 227,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "youtu.be/E5-loyxXylQ?si…",
+              "end": 224,
+              "expanded_url": "https://youtu.be/E5-loyxXylQ?si=LvkRCOT92pjQuqGi",
+              "start": 201,
+              "url": "https://t.co/64uw6ilMlg"
+            }
+          ]
+        },
+        "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n        サンキュー！ #ミョージョーサマー\n         第一弾 myojou Summer  定点公開\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n第四回myojou Summer定点動画を公開！\n※期間限定公開となります\n\n⟣2026.08.17 21:00 プレミア公開\n⟣ myojou公式YouTubeチャンネル\n🔗 https://t.co/64uw6ilMlg\n\n #myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": null,
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-08-17",
+        "event_dates": [
+          "2026-08-17"
+        ],
+        "event_name": "サンキュー!",
+        "extraction_confidence": 0.6,
+        "general_ticket_price": null,
+        "lottery_result_at": null,
+        "myojou_performance_time": null,
+        "notes": "※期間限定公開となります",
+        "open_time": null,
+        "payment_deadline_at": null,
+        "priority_ticket_name": null,
+        "priority_ticket_price": null,
+        "same_day_ticket_price": null,
+        "source_kind": "other",
+        "source_post_id": "2089306603711312062",
+        "source_posted_at": "2026-08-17T11:01:26Z",
+        "source_raw": {
+          "api_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n        サンキュー！ #ミョージョーサマー\n         第一弾 myojou Summer  定点公開\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n第四回myojou Summer定点動画を公開！\n※期間限定公開となります\n\n⟣2026.08.17 21:00 プレミア公開\n⟣ https://t.co/SanqP7ZZmy https://t.co/PVpoQEBiE3",
+          "attachments": {
+            "media_keys": [
+              "13_2089306327579504640"
+            ]
+          },
+          "created_at": "2026-08-17T11:01:26.000Z",
+          "edit_history_tweet_ids": [
+            "2089306603711312062"
+          ],
+          "entities": {
+            "hashtags": [
+              {
+                "end": 51,
+                "start": 41,
+                "tag": "ミョージョーサマー"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "pic.x.com/SanqP7ZZmy",
+                "end": 201,
+                "expanded_url": "https://x.com/info_myojou/status/2089306603711312062/video/1",
+                "media_key": "13_2089306327579504640",
+                "start": 178,
+                "url": "https://t.co/SanqP7ZZmy"
+              },
+              {
+                "display_url": "x.com/info_myojou/st…",
+                "end": 225,
+                "expanded_url": "https://twitter.com/info_myojou/status/2088555249930023085",
+                "start": 202,
+                "url": "https://t.co/PVpoQEBiE3"
+              }
+            ]
+          },
+          "full_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n        サンキュー！ #ミョージョーサマー\n         第一弾 myojou Summer  定点公開\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n第四回myojou Summer定点動画を公開！\n※期間限定公開となります\n\n⟣2026.08.17 21:00 プレミア公開\n⟣ myojou公式YouTubeチャンネル\n🔗 https://t.co/64uw6ilMlg\n\n #myojou",
+          "full_text_source": "note_tweet",
+          "id": "2089306603711312062",
+          "media": [
+            {
+              "height": 1080,
+              "media_key": "13_2089306327579504640",
+              "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2089306327579504640/img/I84BPX3y6gGtSdZn.jpg",
+              "type": "video",
+              "width": 1920
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 51,
+                  "start": 41,
+                  "tag": "ミョージョーサマー"
+                },
+                {
+                  "end": 234,
+                  "start": 227,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "youtu.be/E5-loyxXylQ?si…",
+                  "end": 224,
+                  "expanded_url": "https://youtu.be/E5-loyxXylQ?si=LvkRCOT92pjQuqGi",
+                  "start": 201,
+                  "url": "https://t.co/64uw6ilMlg"
+                }
+              ]
+            },
+            "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n        サンキュー！ #ミョージョーサマー\n         第一弾 myojou Summer  定点公開\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n第四回myojou Summer定点動画を公開！\n※期間限定公開となります\n\n⟣2026.08.17 21:00 プレミア公開\n⟣ myojou公式YouTubeチャンネル\n🔗 https://t.co/64uw6ilMlg\n\n #myojou"
+          },
+          "referenced_tweets": [
+            {
+              "id": "2088555249930023085",
+              "type": "quoted"
+            }
+          ],
+          "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n        サンキュー！ #ミョージョーサマー\n         第一弾 myojou Summer  定点公開\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n第四回myojou Summer定点動画を公開！\n※期間限定公開となります\n\n⟣2026.08.17 21:00 プレミア公開\n⟣ https://t.co/SanqP7ZZmy https://t.co/PVpoQEBiE3",
+          "truncated_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n        サンキュー！ #ミョージョーサマー\n         第一弾 myojou Summer  定点公開\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n第四回myojou Summer定点動画を公開！\n※期間限定公開となります\n\n⟣2026.08.17 21:00 プレミア公開\n⟣ https://t.co/SanqP7ZZmy https://t.co/PVpoQEBiE3"
+        },
+        "source_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n        サンキュー！ #ミョージョーサマー\n         第一弾 myojou Summer  定点公開\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n第四回myojou Summer定点動画を公開！\n※期間限定公開となります\n\n⟣2026.08.17 21:00 プレミア公開\n⟣ myojou公式YouTubeチャンネル\n🔗 https://t.co/64uw6ilMlg\n\n #myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2089306603711312062",
+        "start_time": null,
+        "ticket_application_deadline_at": null,
+        "ticket_application_start_at": null,
+        "ticket_sale_type": null,
+        "ticket_sales": [],
+        "ticket_status": null,
+        "ticket_url": null,
+        "venue": null
+      },
+      "raw": {
+        "api_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n        サンキュー！ #ミョージョーサマー\n         第一弾 myojou Summer  定点公開\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n第四回myojou Summer定点動画を公開！\n※期間限定公開となります\n\n⟣2026.08.17 21:00 プレミア公開\n⟣ https://t.co/SanqP7ZZmy https://t.co/PVpoQEBiE3",
+        "attachments": {
+          "media_keys": [
+            "13_2089306327579504640"
+          ]
+        },
+        "created_at": "2026-08-17T11:01:26.000Z",
+        "edit_history_tweet_ids": [
+          "2089306603711312062"
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "end": 51,
+              "start": 41,
+              "tag": "ミョージョーサマー"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "pic.x.com/SanqP7ZZmy",
+              "end": 201,
+              "expanded_url": "https://x.com/info_myojou/status/2089306603711312062/video/1",
+              "media_key": "13_2089306327579504640",
+              "start": 178,
+              "url": "https://t.co/SanqP7ZZmy"
+            },
+            {
+              "display_url": "x.com/info_myojou/st…",
+              "end": 225,
+              "expanded_url": "https://twitter.com/info_myojou/status/2088555249930023085",
+              "start": 202,
+              "url": "https://t.co/PVpoQEBiE3"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n        サンキュー！ #ミョージョーサマー\n         第一弾 myojou Summer  定点公開\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n第四回myojou Summer定点動画を公開！\n※期間限定公開となります\n\n⟣2026.08.17 21:00 プレミア公開\n⟣ myojou公式YouTubeチャンネル\n🔗 https://t.co/64uw6ilMlg\n\n #myojou",
+        "full_text_source": "note_tweet",
+        "id": "2089306603711312062",
+        "media": [
+          {
+            "height": 1080,
+            "media_key": "13_2089306327579504640",
+            "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2089306327579504640/img/I84BPX3y6gGtSdZn.jpg",
+            "type": "video",
+            "width": 1920
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 51,
+                "start": 41,
+                "tag": "ミョージョーサマー"
+              },
+              {
+                "end": 234,
+                "start": 227,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "youtu.be/E5-loyxXylQ?si…",
+                "end": 224,
+                "expanded_url": "https://youtu.be/E5-loyxXylQ?si=LvkRCOT92pjQuqGi",
+                "start": 201,
+                "url": "https://t.co/64uw6ilMlg"
+              }
+            ]
+          },
+          "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n        サンキュー！ #ミョージョーサマー\n         第一弾 myojou Summer  定点公開\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n第四回myojou Summer定点動画を公開！\n※期間限定公開となります\n\n⟣2026.08.17 21:00 プレミア公開\n⟣ myojou公式YouTubeチャンネル\n🔗 https://t.co/64uw6ilMlg\n\n #myojou"
+        },
+        "referenced_tweets": [
+          {
+            "id": "2088555249930023085",
+            "type": "quoted"
+          }
+        ],
+        "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n        サンキュー！ #ミョージョーサマー\n         第一弾 myojou Summer  定点公開\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n第四回myojou Summer定点動画を公開！\n※期間限定公開となります\n\n⟣2026.08.17 21:00 プレミア公開\n⟣ https://t.co/SanqP7ZZmy https://t.co/PVpoQEBiE3",
+        "truncated_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n        サンキュー！ #ミョージョーサマー\n         第一弾 myojou Summer  定点公開\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n第四回myojou Summer定点動画を公開！\n※期間限定公開となります\n\n⟣2026.08.17 21:00 プレミア公開\n⟣ https://t.co/SanqP7ZZmy https://t.co/PVpoQEBiE3"
+      },
+      "referenced_tweets": [
+        {
+          "id": "2088555249930023085",
+          "type": "quoted"
+        }
+      ],
+      "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n        サンキュー！ #ミョージョーサマー\n         第一弾 myojou Summer  定点公開\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n第四回myojou Summer定点動画を公開！\n※期間限定公開となります\n\n⟣2026.08.17 21:00 プレミア公開\n⟣ myojou公式YouTubeチャンネル\n🔗 https://t.co/64uw6ilMlg\n\n #myojou",
+      "truncated_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n        サンキュー！ #ミョージョーサマー\n         第一弾 myojou Summer  定点公開\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n第四回myojou Summer定点動画を公開！\n※期間限定公開となります\n\n⟣2026.08.17 21:00 プレミア公開\n⟣ https://t.co/SanqP7ZZmy https://t.co/PVpoQEBiE3",
+      "url": "https://x.com/info_myojou/status/2089306603711312062"
+    },
+    {
+      "api_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n            myojou ONLINE MEETING\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「myojou ONLINE MEETING」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka https://t.co/KC42QZJ2rZ",
+      "attachments": {
+        "media_keys": [
+          "3_2089300352038473728"
+        ]
+      },
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "profile/member introduction",
+        "source_kind": "other"
+      },
+      "created_at": "2026-08-17T10:36:39+00:00",
+      "entities": {
+        "mentions": [
+          {
+            "end": 181,
+            "id": "1981655668626165760",
+            "start": 169,
+            "username": "myojou_ruka"
+          }
+        ],
+        "urls": [
+          {
+            "display_url": "pic.x.com/KC42QZJ2rZ",
+            "end": 205,
+            "expanded_url": "https://x.com/info_myojou/status/2089300365309255808/photo/1",
+            "media_key": "3_2089300352038473728",
+            "start": 182,
+            "url": "https://t.co/KC42QZJ2rZ"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2089300365309255808",
+      "media": [
+        {
+          "height": 3024,
+          "media_key": "3_2089300352038473728",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HP6vmcBaEAAKLu6.jpg",
+          "width": 4032
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 287,
+              "start": 280,
+              "tag": "myojou"
+            }
+          ],
+          "mentions": [
+            {
+              "end": 181,
+              "id": "1981655668626165760",
+              "start": 169,
+              "username": "myojou_ruka"
+            },
+            {
+              "end": 202,
+              "id": "1590652199407083520",
+              "start": 188,
+              "username": "myojou_cocone"
+            },
+            {
+              "end": 221,
+              "id": "1754991922807177216",
+              "start": 208,
+              "username": "myojou_shino"
+            },
+            {
+              "end": 242,
+              "id": "1344586625901158401",
+              "start": 227,
+              "username": "myojou_usukura"
+            },
+            {
+              "end": 259,
+              "id": "2009274765895450624",
+              "start": 248,
+              "username": "myojou_yun"
+            },
+            {
+              "end": 276,
+              "id": "2009245855694675968",
+              "start": 265,
+              "username": "myojou_miu"
+            }
+          ]
+        },
+        "text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n            myojou ONLINE MEETING\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「myojou ONLINE MEETING」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka \n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n薄倉りな@myojou_usukura \n澪奈ゆん@myojou_yun \n日陽みう@myojou_miu \n\n #myojou"
+      },
+      "parsed_fields": null,
+      "raw": {
+        "api_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n            myojou ONLINE MEETING\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「myojou ONLINE MEETING」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka https://t.co/KC42QZJ2rZ",
+        "attachments": {
+          "media_keys": [
+            "3_2089300352038473728"
+          ]
+        },
+        "created_at": "2026-08-17T10:36:39.000Z",
+        "edit_history_tweet_ids": [
+          "2089300365309255808"
+        ],
+        "entities": {
+          "mentions": [
+            {
+              "end": 181,
+              "id": "1981655668626165760",
+              "start": 169,
+              "username": "myojou_ruka"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "pic.x.com/KC42QZJ2rZ",
+              "end": 205,
+              "expanded_url": "https://x.com/info_myojou/status/2089300365309255808/photo/1",
+              "media_key": "3_2089300352038473728",
+              "start": 182,
+              "url": "https://t.co/KC42QZJ2rZ"
+            }
+          ]
+        },
+        "full_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n            myojou ONLINE MEETING\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「myojou ONLINE MEETING」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka \n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n薄倉りな@myojou_usukura \n澪奈ゆん@myojou_yun \n日陽みう@myojou_miu \n\n #myojou",
+        "full_text_source": "note_tweet",
+        "id": "2089300365309255808",
+        "media": [
+          {
+            "height": 3024,
+            "media_key": "3_2089300352038473728",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HP6vmcBaEAAKLu6.jpg",
+            "width": 4032
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 287,
+                "start": 280,
+                "tag": "myojou"
+              }
+            ],
+            "mentions": [
+              {
+                "end": 181,
+                "id": "1981655668626165760",
+                "start": 169,
+                "username": "myojou_ruka"
+              },
+              {
+                "end": 202,
+                "id": "1590652199407083520",
+                "start": 188,
+                "username": "myojou_cocone"
+              },
+              {
+                "end": 221,
+                "id": "1754991922807177216",
+                "start": 208,
+                "username": "myojou_shino"
+              },
+              {
+                "end": 242,
+                "id": "1344586625901158401",
+                "start": 227,
+                "username": "myojou_usukura"
+              },
+              {
+                "end": 259,
+                "id": "2009274765895450624",
+                "start": 248,
+                "username": "myojou_yun"
+              },
+              {
+                "end": 276,
+                "id": "2009245855694675968",
+                "start": 265,
+                "username": "myojou_miu"
+              }
+            ]
+          },
+          "text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n            myojou ONLINE MEETING\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「myojou ONLINE MEETING」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka \n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n薄倉りな@myojou_usukura \n澪奈ゆん@myojou_yun \n日陽みう@myojou_miu \n\n #myojou"
+        },
+        "text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n            myojou ONLINE MEETING\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「myojou ONLINE MEETING」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka https://t.co/KC42QZJ2rZ",
+        "truncated_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n            myojou ONLINE MEETING\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「myojou ONLINE MEETING」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka https://t.co/KC42QZJ2rZ"
+      },
+      "referenced_tweets": [],
+      "text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n            myojou ONLINE MEETING\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「myojou ONLINE MEETING」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka \n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n薄倉りな@myojou_usukura \n澪奈ゆん@myojou_yun \n日陽みう@myojou_miu \n\n #myojou",
+      "truncated_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n            myojou ONLINE MEETING\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「myojou ONLINE MEETING」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka https://t.co/KC42QZJ2rZ",
+      "url": "https://x.com/info_myojou/status/2089300365309255808"
+    },
+    {
+      "api_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n        サンキュー！ #ミョージョーサマー\n         第一弾 myojou Summer  定点公開\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n第三回myojou Summer定点動画を公開！\n※期間限定公開となります\n\n⟣2026.08.17 15:00 プレミア公開\n⟣ https://t.co/gi83yfdPeb https://t.co/PVpoQEBQtB",
+      "attachments": {
+        "media_keys": [
+          "13_2089215681644691456"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "other"
+      },
+      "created_at": "2026-08-17T05:01:58+00:00",
+      "entities": {
+        "hashtags": [
+          {
+            "end": 51,
+            "start": 41,
+            "tag": "ミョージョーサマー"
+          }
+        ],
+        "urls": [
+          {
+            "display_url": "pic.x.com/gi83yfdPeb",
+            "end": 201,
+            "expanded_url": "https://x.com/info_myojou/status/2089216141600440419/video/1",
+            "media_key": "13_2089215681644691456",
+            "start": 178,
+            "url": "https://t.co/gi83yfdPeb"
+          },
+          {
+            "display_url": "x.com/info_myojou/st…",
+            "end": 225,
+            "expanded_url": "https://twitter.com/info_myojou/status/2088555249930023085",
+            "start": 202,
+            "url": "https://t.co/PVpoQEBQtB"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2089216141600440419",
+      "media": [
+        {
+          "height": 1080,
+          "media_key": "13_2089215681644691456",
+          "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2089215681644691456/img/dSLEPoicv09y48Qs.jpg",
+          "type": "video",
+          "width": 1920
+        }
+      ],
+      "needs_review": true,
+      "needs_review_reasons": [
+        "missing venue",
+        "missing ticket deadline",
+        "ambiguous event match",
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 51,
+              "start": 41,
+              "tag": "ミョージョーサマー"
+            },
+            {
+              "end": 234,
+              "start": 227,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "youtu.be/rhRgbQi8VLQ?si…",
+              "end": 224,
+              "expanded_url": "https://youtu.be/rhRgbQi8VLQ?si=4QaCX826q96gjtye",
+              "start": 201,
+              "url": "https://t.co/vhUfGfm5Z7"
+            }
+          ]
+        },
+        "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n        サンキュー！ #ミョージョーサマー\n         第一弾 myojou Summer  定点公開\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n第三回myojou Summer定点動画を公開！\n※期間限定公開となります\n\n⟣2026.08.17 15:00 プレミア公開\n⟣ myojou公式YouTubeチャンネル\n🔗 https://t.co/vhUfGfm5Z7\n\n #myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": null,
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-08-17",
+        "event_dates": [
+          "2026-08-17"
+        ],
+        "event_name": "サンキュー!",
+        "extraction_confidence": 0.6,
+        "general_ticket_price": null,
+        "lottery_result_at": null,
+        "myojou_performance_time": null,
+        "notes": "※期間限定公開となります",
+        "open_time": null,
+        "payment_deadline_at": null,
+        "priority_ticket_name": null,
+        "priority_ticket_price": null,
+        "same_day_ticket_price": null,
+        "source_kind": "other",
+        "source_post_id": "2089216141600440419",
+        "source_posted_at": "2026-08-17T05:01:58Z",
+        "source_raw": {
+          "api_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n        サンキュー！ #ミョージョーサマー\n         第一弾 myojou Summer  定点公開\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n第三回myojou Summer定点動画を公開！\n※期間限定公開となります\n\n⟣2026.08.17 15:00 プレミア公開\n⟣ https://t.co/gi83yfdPeb https://t.co/PVpoQEBQtB",
+          "attachments": {
+            "media_keys": [
+              "13_2089215681644691456"
+            ]
+          },
+          "created_at": "2026-08-17T05:01:58.000Z",
+          "edit_history_tweet_ids": [
+            "2089216141600440419"
+          ],
+          "entities": {
+            "hashtags": [
+              {
+                "end": 51,
+                "start": 41,
+                "tag": "ミョージョーサマー"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "pic.x.com/gi83yfdPeb",
+                "end": 201,
+                "expanded_url": "https://x.com/info_myojou/status/2089216141600440419/video/1",
+                "media_key": "13_2089215681644691456",
+                "start": 178,
+                "url": "https://t.co/gi83yfdPeb"
+              },
+              {
+                "display_url": "x.com/info_myojou/st…",
+                "end": 225,
+                "expanded_url": "https://twitter.com/info_myojou/status/2088555249930023085",
+                "start": 202,
+                "url": "https://t.co/PVpoQEBQtB"
+              }
+            ]
+          },
+          "full_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n        サンキュー！ #ミョージョーサマー\n         第一弾 myojou Summer  定点公開\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n第三回myojou Summer定点動画を公開！\n※期間限定公開となります\n\n⟣2026.08.17 15:00 プレミア公開\n⟣ myojou公式YouTubeチャンネル\n🔗 https://t.co/vhUfGfm5Z7\n\n #myojou",
+          "full_text_source": "note_tweet",
+          "id": "2089216141600440419",
+          "media": [
+            {
+              "height": 1080,
+              "media_key": "13_2089215681644691456",
+              "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2089215681644691456/img/dSLEPoicv09y48Qs.jpg",
+              "type": "video",
+              "width": 1920
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 51,
+                  "start": 41,
+                  "tag": "ミョージョーサマー"
+                },
+                {
+                  "end": 234,
+                  "start": 227,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "youtu.be/rhRgbQi8VLQ?si…",
+                  "end": 224,
+                  "expanded_url": "https://youtu.be/rhRgbQi8VLQ?si=4QaCX826q96gjtye",
+                  "start": 201,
+                  "url": "https://t.co/vhUfGfm5Z7"
+                }
+              ]
+            },
+            "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n        サンキュー！ #ミョージョーサマー\n         第一弾 myojou Summer  定点公開\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n第三回myojou Summer定点動画を公開！\n※期間限定公開となります\n\n⟣2026.08.17 15:00 プレミア公開\n⟣ myojou公式YouTubeチャンネル\n🔗 https://t.co/vhUfGfm5Z7\n\n #myojou"
+          },
+          "referenced_tweets": [
+            {
+              "id": "2088555249930023085",
+              "type": "quoted"
+            }
+          ],
+          "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n        サンキュー！ #ミョージョーサマー\n         第一弾 myojou Summer  定点公開\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n第三回myojou Summer定点動画を公開！\n※期間限定公開となります\n\n⟣2026.08.17 15:00 プレミア公開\n⟣ https://t.co/gi83yfdPeb https://t.co/PVpoQEBQtB",
+          "truncated_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n        サンキュー！ #ミョージョーサマー\n         第一弾 myojou Summer  定点公開\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n第三回myojou Summer定点動画を公開！\n※期間限定公開となります\n\n⟣2026.08.17 15:00 プレミア公開\n⟣ https://t.co/gi83yfdPeb https://t.co/PVpoQEBQtB"
+        },
+        "source_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n        サンキュー！ #ミョージョーサマー\n         第一弾 myojou Summer  定点公開\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n第三回myojou Summer定点動画を公開！\n※期間限定公開となります\n\n⟣2026.08.17 15:00 プレミア公開\n⟣ myojou公式YouTubeチャンネル\n🔗 https://t.co/vhUfGfm5Z7\n\n #myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2089216141600440419",
+        "start_time": null,
+        "ticket_application_deadline_at": null,
+        "ticket_application_start_at": null,
+        "ticket_sale_type": null,
+        "ticket_sales": [],
+        "ticket_status": null,
+        "ticket_url": null,
+        "venue": null
+      },
+      "raw": {
+        "api_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n        サンキュー！ #ミョージョーサマー\n         第一弾 myojou Summer  定点公開\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n第三回myojou Summer定点動画を公開！\n※期間限定公開となります\n\n⟣2026.08.17 15:00 プレミア公開\n⟣ https://t.co/gi83yfdPeb https://t.co/PVpoQEBQtB",
+        "attachments": {
+          "media_keys": [
+            "13_2089215681644691456"
+          ]
+        },
+        "created_at": "2026-08-17T05:01:58.000Z",
+        "edit_history_tweet_ids": [
+          "2089216141600440419"
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "end": 51,
+              "start": 41,
+              "tag": "ミョージョーサマー"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "pic.x.com/gi83yfdPeb",
+              "end": 201,
+              "expanded_url": "https://x.com/info_myojou/status/2089216141600440419/video/1",
+              "media_key": "13_2089215681644691456",
+              "start": 178,
+              "url": "https://t.co/gi83yfdPeb"
+            },
+            {
+              "display_url": "x.com/info_myojou/st…",
+              "end": 225,
+              "expanded_url": "https://twitter.com/info_myojou/status/2088555249930023085",
+              "start": 202,
+              "url": "https://t.co/PVpoQEBQtB"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n        サンキュー！ #ミョージョーサマー\n         第一弾 myojou Summer  定点公開\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n第三回myojou Summer定点動画を公開！\n※期間限定公開となります\n\n⟣2026.08.17 15:00 プレミア公開\n⟣ myojou公式YouTubeチャンネル\n🔗 https://t.co/vhUfGfm5Z7\n\n #myojou",
+        "full_text_source": "note_tweet",
+        "id": "2089216141600440419",
+        "media": [
+          {
+            "height": 1080,
+            "media_key": "13_2089215681644691456",
+            "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2089215681644691456/img/dSLEPoicv09y48Qs.jpg",
+            "type": "video",
+            "width": 1920
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 51,
+                "start": 41,
+                "tag": "ミョージョーサマー"
+              },
+              {
+                "end": 234,
+                "start": 227,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "youtu.be/rhRgbQi8VLQ?si…",
+                "end": 224,
+                "expanded_url": "https://youtu.be/rhRgbQi8VLQ?si=4QaCX826q96gjtye",
+                "start": 201,
+                "url": "https://t.co/vhUfGfm5Z7"
+              }
+            ]
+          },
+          "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n        サンキュー！ #ミョージョーサマー\n         第一弾 myojou Summer  定点公開\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n第三回myojou Summer定点動画を公開！\n※期間限定公開となります\n\n⟣2026.08.17 15:00 プレミア公開\n⟣ myojou公式YouTubeチャンネル\n🔗 https://t.co/vhUfGfm5Z7\n\n #myojou"
+        },
+        "referenced_tweets": [
+          {
+            "id": "2088555249930023085",
+            "type": "quoted"
+          }
+        ],
+        "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n        サンキュー！ #ミョージョーサマー\n         第一弾 myojou Summer  定点公開\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n第三回myojou Summer定点動画を公開！\n※期間限定公開となります\n\n⟣2026.08.17 15:00 プレミア公開\n⟣ https://t.co/gi83yfdPeb https://t.co/PVpoQEBQtB",
+        "truncated_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n        サンキュー！ #ミョージョーサマー\n         第一弾 myojou Summer  定点公開\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n第三回myojou Summer定点動画を公開！\n※期間限定公開となります\n\n⟣2026.08.17 15:00 プレミア公開\n⟣ https://t.co/gi83yfdPeb https://t.co/PVpoQEBQtB"
+      },
+      "referenced_tweets": [
+        {
+          "id": "2088555249930023085",
+          "type": "quoted"
+        }
+      ],
+      "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n        サンキュー！ #ミョージョーサマー\n         第一弾 myojou Summer  定点公開\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n第三回myojou Summer定点動画を公開！\n※期間限定公開となります\n\n⟣2026.08.17 15:00 プレミア公開\n⟣ myojou公式YouTubeチャンネル\n🔗 https://t.co/vhUfGfm5Z7\n\n #myojou",
+      "truncated_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n        サンキュー！ #ミョージョーサマー\n         第一弾 myojou Summer  定点公開\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n第三回myojou Summer定点動画を公開！\n※期間限定公開となります\n\n⟣2026.08.17 15:00 プレミア公開\n⟣ https://t.co/gi83yfdPeb https://t.co/PVpoQEBQtB",
+      "url": "https://x.com/info_myojou/status/2089216141600440419"
+    },
+    {
       "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「myojou ONLINE MEETING」\n\n⟣date：8/17（月）\n⟣1部 : 17:00-19:00浴衣\n⟣price : ¥2,000/枚\n🔗 販売ページ：https://t.co/xrFkpmzH5h\n🔗公式YouTubeチャンネル : https://t.co/NahSGVGQYt https://t.co/pHhcNqmoSX",
       "attachments": {
         "media_keys": [
@@ -158504,7 +159705,7 @@
     "backfill": true,
     "dry_run": true,
     "estimated_x_post_reads": 411,
-    "latest_post_id": "2088982739391566246",
+    "latest_post_id": "2089352283469554062",
     "max_pages": 10,
     "max_posts": 500,
     "max_results": 5,
@@ -158547,16 +159748,16 @@
       }
     ],
     "pages_fetched": 5,
-    "posts_fetched": 728,
+    "posts_fetched": 733,
     "rate_limit_headers": {
       "x-rate-limit-limit": "10000",
       "x-rate-limit-remaining": "9993",
       "x-rate-limit-reset": "1781108896"
     },
-    "total_posts": 728,
-    "updated_at": "2026-08-16T19:22:55.548422+00:00",
+    "total_posts": 733,
+    "updated_at": "2026-08-17T19:30:35.954563+00:00",
     "username": "info_myojou"
   },
   "source": "x_api",
-  "updated_at": "2026-08-16T19:22:55.548422+00:00"
+  "updated_at": "2026-08-17T19:30:35.954563+00:00"
 }
