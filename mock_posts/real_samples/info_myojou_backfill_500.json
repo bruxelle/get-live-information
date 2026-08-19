@@ -2,6 +2,752 @@
   "captured_at": "2026-06-10T16:19:36.141820+00:00",
   "data": [
     {
+      "api_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            ˚.⋆ラジオ配信˖°⋆\n       myojou天体観測 #18\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣2026.08.19 22:00 プレミア公開\n⟣ myojou公式YouTubeチャンネル\n🔗 https://t.co/AHTZ5T8xsE\n\n #myojou",
+      "attachments": {},
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "radio/non-live",
+        "source_kind": "other"
+      },
+      "created_at": "2026-08-19T12:04:49+00:00",
+      "entities": {
+        "hashtags": [
+          {
+            "end": 170,
+            "start": 163,
+            "tag": "myojou"
+          }
+        ],
+        "urls": [
+          {
+            "description": "「6人の少女が夜明けの空に描くストーリー」 公式X : https://x.com/info_myojou公式TikTok : ...",
+            "display_url": "youtu.be/K5FBVUY065Q",
+            "end": 160,
+            "expanded_url": "https://youtu.be/K5FBVUY065Q",
+            "images": [
+              {
+                "height": 720,
+                "url": "https://pbs.twimg.com/news_img/2090047374614032384/eU5VrjPd?format=jpg&name=orig",
+                "width": 1280
+              },
+              {
+                "height": 150,
+                "url": "https://pbs.twimg.com/news_img/2090047374614032384/eU5VrjPd?format=jpg&name=150x150",
+                "width": 150
+              }
+            ],
+            "start": 137,
+            "status": 200,
+            "title": "myojou天体観測 #18",
+            "unwound_url": "https://www.youtube.com/watch?v=K5FBVUY065Q&feature=youtu.be",
+            "url": "https://t.co/AHTZ5T8xsE"
+          }
+        ]
+      },
+      "full_text_source": "text",
+      "id": "2090047331811074198",
+      "media": [],
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "note_tweet": null,
+      "parsed_fields": null,
+      "raw": {
+        "api_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            ˚.⋆ラジオ配信˖°⋆\n       myojou天体観測 #18\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣2026.08.19 22:00 プレミア公開\n⟣ myojou公式YouTubeチャンネル\n🔗 https://t.co/AHTZ5T8xsE\n\n #myojou",
+        "created_at": "2026-08-19T12:04:49.000Z",
+        "edit_history_tweet_ids": [
+          "2090047331811074198"
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "end": 170,
+              "start": 163,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "description": "「6人の少女が夜明けの空に描くストーリー」 公式X : https://x.com/info_myojou公式TikTok : ...",
+              "display_url": "youtu.be/K5FBVUY065Q",
+              "end": 160,
+              "expanded_url": "https://youtu.be/K5FBVUY065Q",
+              "images": [
+                {
+                  "height": 720,
+                  "url": "https://pbs.twimg.com/news_img/2090047374614032384/eU5VrjPd?format=jpg&name=orig",
+                  "width": 1280
+                },
+                {
+                  "height": 150,
+                  "url": "https://pbs.twimg.com/news_img/2090047374614032384/eU5VrjPd?format=jpg&name=150x150",
+                  "width": 150
+                }
+              ],
+              "start": 137,
+              "status": 200,
+              "title": "myojou天体観測 #18",
+              "unwound_url": "https://www.youtube.com/watch?v=K5FBVUY065Q&feature=youtu.be",
+              "url": "https://t.co/AHTZ5T8xsE"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            ˚.⋆ラジオ配信˖°⋆\n       myojou天体観測 #18\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣2026.08.19 22:00 プレミア公開\n⟣ myojou公式YouTubeチャンネル\n🔗 https://t.co/AHTZ5T8xsE\n\n #myojou",
+        "full_text_source": "text",
+        "id": "2090047331811074198",
+        "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            ˚.⋆ラジオ配信˖°⋆\n       myojou天体観測 #18\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣2026.08.19 22:00 プレミア公開\n⟣ myojou公式YouTubeチャンネル\n🔗 https://t.co/AHTZ5T8xsE\n\n #myojou",
+        "truncated_text": null
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            ˚.⋆ラジオ配信˖°⋆\n       myojou天体観測 #18\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣2026.08.19 22:00 プレミア公開\n⟣ myojou公式YouTubeチャンネル\n🔗 https://t.co/AHTZ5T8xsE\n\n #myojou",
+      "truncated_text": null,
+      "url": "https://x.com/info_myojou/status/2090047331811074198"
+    },
+    {
+      "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                        YON PIECE \n     -ROMANCE DAWN 冒険の夜明け-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n本日22:00より、一般販売開始！\n各券種若干数の販売になりますので、ご注意ください！\n\n🔗https://t.co/QOJpJuQ0WV\n\n#myojou https://t.co/93ymMvvMiv",
+      "attachments": {
+        "media_keys": [
+          "3_2090034484473372673",
+          "3_2090034484473475072"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "same_day_reminder"
+      },
+      "created_at": "2026-08-19T11:13:53+00:00",
+      "entities": {
+        "hashtags": [
+          {
+            "end": 189,
+            "start": 182,
+            "tag": "myojou"
+          }
+        ],
+        "urls": [
+          {
+            "description": "【日付】2026/09/14 【場所】Spotify O-EAST 【出演者】AKANECLUB. / HzMe / マリークラウン / myojou",
+            "display_url": "ticketdive.com/event/YON_PIECE",
+            "end": 180,
+            "expanded_url": "https://ticketdive.com/event/YON_PIECE",
+            "start": 157,
+            "status": 200,
+            "title": "YON PIECE -ROMANCE DAWN 冒険の夜明け- | TicketDive",
+            "unwound_url": "https://ticketdive.com/event/YON_PIECE",
+            "url": "https://t.co/QOJpJuQ0WV"
+          },
+          {
+            "display_url": "pic.x.com/93ymMvvMiv",
+            "end": 213,
+            "expanded_url": "https://x.com/info_myojou/status/2090034512667582639/photo/1",
+            "media_key": "3_2090034484473372673",
+            "start": 190,
+            "url": "https://t.co/93ymMvvMiv"
+          },
+          {
+            "display_url": "pic.x.com/93ymMvvMiv",
+            "end": 213,
+            "expanded_url": "https://x.com/info_myojou/status/2090034512667582639/photo/1",
+            "media_key": "3_2090034484473475072",
+            "start": 190,
+            "url": "https://t.co/93ymMvvMiv"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2090034512667582639",
+      "media": [
+        {
+          "height": 1154,
+          "media_key": "3_2090034484473372673",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HQFLSkdaIAEfQZu.jpg",
+          "width": 1731
+        },
+        {
+          "height": 4093,
+          "media_key": "3_2090034484473475072",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HQFLSkdbsAAGdPO.jpg",
+          "width": 2894
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "missing venue",
+        "missing ticket deadline",
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 189,
+              "start": 182,
+              "tag": "myojou"
+            },
+            {
+              "end": 194,
+              "start": 190,
+              "tag": "ヨンピ"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "ticketdive.com/event/YON_PIECE",
+              "end": 180,
+              "expanded_url": "https://ticketdive.com/event/YON_PIECE",
+              "start": 157,
+              "url": "https://t.co/O2W7L0A1xd"
+            }
+          ]
+        },
+        "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                        YON PIECE \n     -ROMANCE DAWN 冒険の夜明け-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n本日22:00より、一般販売開始！\n各券種若干数の販売になりますので、ご注意ください！\n\n🔗https://t.co/O2W7L0A1xd\n\n#myojou #ヨンピ"
+      },
+      "parsed_fields": {
+        "benefit_event_time": null,
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-08-19",
+        "event_dates": [
+          "2026-08-19"
+        ],
+        "event_name": "YON PIECE -ROMANCE DAWN 冒険の夜明け",
+        "extraction_confidence": 0.7,
+        "general_ticket_price": null,
+        "lottery_result_at": null,
+        "myojou_performance_time": null,
+        "notes": null,
+        "open_time": null,
+        "payment_deadline_at": null,
+        "priority_ticket_name": null,
+        "priority_ticket_price": null,
+        "same_day_ticket_price": null,
+        "source_kind": "same_day_reminder",
+        "source_post_id": "2090034512667582639",
+        "source_posted_at": "2026-08-19T11:13:53Z",
+        "source_raw": {
+          "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                        YON PIECE \n     -ROMANCE DAWN 冒険の夜明け-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n本日22:00より、一般販売開始！\n各券種若干数の販売になりますので、ご注意ください！\n\n🔗https://t.co/QOJpJuQ0WV\n\n#myojou https://t.co/93ymMvvMiv",
+          "attachments": {
+            "media_keys": [
+              "3_2090034484473372673",
+              "3_2090034484473475072"
+            ]
+          },
+          "created_at": "2026-08-19T11:13:53.000Z",
+          "edit_history_tweet_ids": [
+            "2090034512667582639"
+          ],
+          "entities": {
+            "hashtags": [
+              {
+                "end": 189,
+                "start": 182,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "description": "【日付】2026/09/14 【場所】Spotify O-EAST 【出演者】AKANECLUB. / HzMe / マリークラウン / myojou",
+                "display_url": "ticketdive.com/event/YON_PIECE",
+                "end": 180,
+                "expanded_url": "https://ticketdive.com/event/YON_PIECE",
+                "start": 157,
+                "status": 200,
+                "title": "YON PIECE -ROMANCE DAWN 冒険の夜明け- | TicketDive",
+                "unwound_url": "https://ticketdive.com/event/YON_PIECE",
+                "url": "https://t.co/QOJpJuQ0WV"
+              },
+              {
+                "display_url": "pic.x.com/93ymMvvMiv",
+                "end": 213,
+                "expanded_url": "https://x.com/info_myojou/status/2090034512667582639/photo/1",
+                "media_key": "3_2090034484473372673",
+                "start": 190,
+                "url": "https://t.co/93ymMvvMiv"
+              },
+              {
+                "display_url": "pic.x.com/93ymMvvMiv",
+                "end": 213,
+                "expanded_url": "https://x.com/info_myojou/status/2090034512667582639/photo/1",
+                "media_key": "3_2090034484473475072",
+                "start": 190,
+                "url": "https://t.co/93ymMvvMiv"
+              }
+            ]
+          },
+          "full_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                        YON PIECE \n     -ROMANCE DAWN 冒険の夜明け-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n本日22:00より、一般販売開始！\n各券種若干数の販売になりますので、ご注意ください！\n\n🔗https://t.co/O2W7L0A1xd\n\n#myojou #ヨンピ",
+          "full_text_source": "note_tweet",
+          "id": "2090034512667582639",
+          "media": [
+            {
+              "height": 1154,
+              "media_key": "3_2090034484473372673",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HQFLSkdaIAEfQZu.jpg",
+              "width": 1731
+            },
+            {
+              "height": 4093,
+              "media_key": "3_2090034484473475072",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HQFLSkdbsAAGdPO.jpg",
+              "width": 2894
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 189,
+                  "start": 182,
+                  "tag": "myojou"
+                },
+                {
+                  "end": 194,
+                  "start": 190,
+                  "tag": "ヨンピ"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "ticketdive.com/event/YON_PIECE",
+                  "end": 180,
+                  "expanded_url": "https://ticketdive.com/event/YON_PIECE",
+                  "start": 157,
+                  "url": "https://t.co/O2W7L0A1xd"
+                }
+              ]
+            },
+            "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                        YON PIECE \n     -ROMANCE DAWN 冒険の夜明け-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n本日22:00より、一般販売開始！\n各券種若干数の販売になりますので、ご注意ください！\n\n🔗https://t.co/O2W7L0A1xd\n\n#myojou #ヨンピ"
+          },
+          "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                        YON PIECE \n     -ROMANCE DAWN 冒険の夜明け-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n本日22:00より、一般販売開始！\n各券種若干数の販売になりますので、ご注意ください！\n\n🔗https://t.co/QOJpJuQ0WV\n\n#myojou https://t.co/93ymMvvMiv",
+          "truncated_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                        YON PIECE \n     -ROMANCE DAWN 冒険の夜明け-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n本日22:00より、一般販売開始！\n各券種若干数の販売になりますので、ご注意ください！\n\n🔗https://t.co/QOJpJuQ0WV\n\n#myojou https://t.co/93ymMvvMiv"
+        },
+        "source_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                        YON PIECE \n     -ROMANCE DAWN 冒険の夜明け-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n本日22:00より、一般販売開始！\n各券種若干数の販売になりますので、ご注意ください！\n\n🔗https://t.co/O2W7L0A1xd\n\n#myojou #ヨンピ",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2090034512667582639",
+        "start_time": null,
+        "ticket_application_deadline_at": null,
+        "ticket_application_start_at": null,
+        "ticket_sale_type": "一般",
+        "ticket_sales": [],
+        "ticket_status": null,
+        "ticket_url": "https://ticketdive.com/event/YON_PIECE",
+        "venue": null
+      },
+      "raw": {
+        "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                        YON PIECE \n     -ROMANCE DAWN 冒険の夜明け-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n本日22:00より、一般販売開始！\n各券種若干数の販売になりますので、ご注意ください！\n\n🔗https://t.co/QOJpJuQ0WV\n\n#myojou https://t.co/93ymMvvMiv",
+        "attachments": {
+          "media_keys": [
+            "3_2090034484473372673",
+            "3_2090034484473475072"
+          ]
+        },
+        "created_at": "2026-08-19T11:13:53.000Z",
+        "edit_history_tweet_ids": [
+          "2090034512667582639"
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "end": 189,
+              "start": 182,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "description": "【日付】2026/09/14 【場所】Spotify O-EAST 【出演者】AKANECLUB. / HzMe / マリークラウン / myojou",
+              "display_url": "ticketdive.com/event/YON_PIECE",
+              "end": 180,
+              "expanded_url": "https://ticketdive.com/event/YON_PIECE",
+              "start": 157,
+              "status": 200,
+              "title": "YON PIECE -ROMANCE DAWN 冒険の夜明け- | TicketDive",
+              "unwound_url": "https://ticketdive.com/event/YON_PIECE",
+              "url": "https://t.co/QOJpJuQ0WV"
+            },
+            {
+              "display_url": "pic.x.com/93ymMvvMiv",
+              "end": 213,
+              "expanded_url": "https://x.com/info_myojou/status/2090034512667582639/photo/1",
+              "media_key": "3_2090034484473372673",
+              "start": 190,
+              "url": "https://t.co/93ymMvvMiv"
+            },
+            {
+              "display_url": "pic.x.com/93ymMvvMiv",
+              "end": 213,
+              "expanded_url": "https://x.com/info_myojou/status/2090034512667582639/photo/1",
+              "media_key": "3_2090034484473475072",
+              "start": 190,
+              "url": "https://t.co/93ymMvvMiv"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                        YON PIECE \n     -ROMANCE DAWN 冒険の夜明け-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n本日22:00より、一般販売開始！\n各券種若干数の販売になりますので、ご注意ください！\n\n🔗https://t.co/O2W7L0A1xd\n\n#myojou #ヨンピ",
+        "full_text_source": "note_tweet",
+        "id": "2090034512667582639",
+        "media": [
+          {
+            "height": 1154,
+            "media_key": "3_2090034484473372673",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HQFLSkdaIAEfQZu.jpg",
+            "width": 1731
+          },
+          {
+            "height": 4093,
+            "media_key": "3_2090034484473475072",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HQFLSkdbsAAGdPO.jpg",
+            "width": 2894
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 189,
+                "start": 182,
+                "tag": "myojou"
+              },
+              {
+                "end": 194,
+                "start": 190,
+                "tag": "ヨンピ"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "ticketdive.com/event/YON_PIECE",
+                "end": 180,
+                "expanded_url": "https://ticketdive.com/event/YON_PIECE",
+                "start": 157,
+                "url": "https://t.co/O2W7L0A1xd"
+              }
+            ]
+          },
+          "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                        YON PIECE \n     -ROMANCE DAWN 冒険の夜明け-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n本日22:00より、一般販売開始！\n各券種若干数の販売になりますので、ご注意ください！\n\n🔗https://t.co/O2W7L0A1xd\n\n#myojou #ヨンピ"
+        },
+        "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                        YON PIECE \n     -ROMANCE DAWN 冒険の夜明け-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n本日22:00より、一般販売開始！\n各券種若干数の販売になりますので、ご注意ください！\n\n🔗https://t.co/QOJpJuQ0WV\n\n#myojou https://t.co/93ymMvvMiv",
+        "truncated_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                        YON PIECE \n     -ROMANCE DAWN 冒険の夜明け-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n本日22:00より、一般販売開始！\n各券種若干数の販売になりますので、ご注意ください！\n\n🔗https://t.co/QOJpJuQ0WV\n\n#myojou https://t.co/93ymMvvMiv"
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                        YON PIECE \n     -ROMANCE DAWN 冒険の夜明け-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n本日22:00より、一般販売開始！\n各券種若干数の販売になりますので、ご注意ください！\n\n🔗https://t.co/O2W7L0A1xd\n\n#myojou #ヨンピ",
+      "truncated_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                        YON PIECE \n     -ROMANCE DAWN 冒険の夜明け-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n本日22:00より、一般販売開始！\n各券種若干数の販売になりますので、ご注意ください！\n\n🔗https://t.co/QOJpJuQ0WV\n\n#myojou https://t.co/93ymMvvMiv",
+      "url": "https://x.com/info_myojou/status/2090034512667582639"
+    },
+    {
+      "api_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n                      文化放送presents\n      『idoLove You♫-On Stage QR-vol.2』\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：9/17（木）\n⟣place : ステラボール\n⟣open/start：9:30/10:00\n⟣price：VIPチケット ¥8,000 https://t.co/NUOxWxyNVb",
+      "attachments": {
+        "media_keys": [
+          "3_2090031078568603648"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "ticket_update"
+      },
+      "created_at": "2026-08-19T11:00:18+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/NUOxWxyNVb",
+            "end": 225,
+            "expanded_url": "https://x.com/info_myojou/status/2090031095639310528/photo/1",
+            "media_key": "3_2090031078568603648",
+            "start": 202,
+            "url": "https://t.co/NUOxWxyNVb"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2090031095639310528",
+      "media": [
+        {
+          "height": 3508,
+          "media_key": "3_2090031078568603648",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HQFIMUebsAAalDA.jpg",
+          "width": 2481
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 414,
+              "start": 407,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "t-dv.com/idoLoveYou_0917",
+              "end": 405,
+              "expanded_url": "https://t-dv.com/idoLoveYou_0917",
+              "start": 382,
+              "url": "https://t.co/uZlU94CQpO"
+            }
+          ]
+        },
+        "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n                      文化放送presents\n      『idoLove You♫-On Stage QR-vol.2』\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：9/17（木）\n⟣place : ステラボール\n⟣open/start：9:30/10:00\n⟣price：VIPチケット ¥8,000 （前方エリアあり）/ 一般チケット ¥3,000 （各＋1D）\n⟣入場特典 : 明星カード1枚(サインありチェキ)\n\n【VIPチケット先行抽選】\n8/19（水）20:00-8/27（木）23:59\n【一般チケット先着販売】\n8/19（水）20:00-9/16（水）23:59\n【VIPチケット先着販売】\n8/28（金）20:00-9/16（水）23:59\n🔗 https://t.co/uZlU94CQpO\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": null,
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-09-17",
+        "event_dates": [
+          "2026-09-17"
+        ],
+        "event_name": "idoLove You♫-On Stage QR-vol.2",
+        "extraction_confidence": 0.9,
+        "general_ticket_price": 3000,
+        "lottery_result_at": null,
+        "myojou_performance_time": null,
+        "notes": "ドリンク代: 各+1D\n⟣入場特典 : 明星カード1枚(サインありチェキ)",
+        "open_time": "09:30",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "VIPチケット",
+        "priority_ticket_price": 8000,
+        "same_day_ticket_price": null,
+        "source_kind": "ticket_update",
+        "source_post_id": "2090031095639310528",
+        "source_posted_at": "2026-08-19T11:00:18Z",
+        "source_raw": {
+          "api_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n                      文化放送presents\n      『idoLove You♫-On Stage QR-vol.2』\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：9/17（木）\n⟣place : ステラボール\n⟣open/start：9:30/10:00\n⟣price：VIPチケット ¥8,000 https://t.co/NUOxWxyNVb",
+          "attachments": {
+            "media_keys": [
+              "3_2090031078568603648"
+            ]
+          },
+          "created_at": "2026-08-19T11:00:18.000Z",
+          "edit_history_tweet_ids": [
+            "2090031095639310528"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/NUOxWxyNVb",
+                "end": 225,
+                "expanded_url": "https://x.com/info_myojou/status/2090031095639310528/photo/1",
+                "media_key": "3_2090031078568603648",
+                "start": 202,
+                "url": "https://t.co/NUOxWxyNVb"
+              }
+            ]
+          },
+          "full_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n                      文化放送presents\n      『idoLove You♫-On Stage QR-vol.2』\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：9/17（木）\n⟣place : ステラボール\n⟣open/start：9:30/10:00\n⟣price：VIPチケット ¥8,000 （前方エリアあり）/ 一般チケット ¥3,000 （各＋1D）\n⟣入場特典 : 明星カード1枚(サインありチェキ)\n\n【VIPチケット先行抽選】\n8/19（水）20:00-8/27（木）23:59\n【一般チケット先着販売】\n8/19（水）20:00-9/16（水）23:59\n【VIPチケット先着販売】\n8/28（金）20:00-9/16（水）23:59\n🔗 https://t.co/uZlU94CQpO\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2090031095639310528",
+          "media": [
+            {
+              "height": 3508,
+              "media_key": "3_2090031078568603648",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HQFIMUebsAAalDA.jpg",
+              "width": 2481
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 414,
+                  "start": 407,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "t-dv.com/idoLoveYou_0917",
+                  "end": 405,
+                  "expanded_url": "https://t-dv.com/idoLoveYou_0917",
+                  "start": 382,
+                  "url": "https://t.co/uZlU94CQpO"
+                }
+              ]
+            },
+            "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n                      文化放送presents\n      『idoLove You♫-On Stage QR-vol.2』\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：9/17（木）\n⟣place : ステラボール\n⟣open/start：9:30/10:00\n⟣price：VIPチケット ¥8,000 （前方エリアあり）/ 一般チケット ¥3,000 （各＋1D）\n⟣入場特典 : 明星カード1枚(サインありチェキ)\n\n【VIPチケット先行抽選】\n8/19（水）20:00-8/27（木）23:59\n【一般チケット先着販売】\n8/19（水）20:00-9/16（水）23:59\n【VIPチケット先着販売】\n8/28（金）20:00-9/16（水）23:59\n🔗 https://t.co/uZlU94CQpO\n\n#myojou"
+          },
+          "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n                      文化放送presents\n      『idoLove You♫-On Stage QR-vol.2』\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：9/17（木）\n⟣place : ステラボール\n⟣open/start：9:30/10:00\n⟣price：VIPチケット ¥8,000 https://t.co/NUOxWxyNVb",
+          "truncated_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n                      文化放送presents\n      『idoLove You♫-On Stage QR-vol.2』\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：9/17（木）\n⟣place : ステラボール\n⟣open/start：9:30/10:00\n⟣price：VIPチケット ¥8,000 https://t.co/NUOxWxyNVb"
+        },
+        "source_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n                      文化放送presents\n      『idoLove You♫-On Stage QR-vol.2』\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：9/17（木）\n⟣place : ステラボール\n⟣open/start：9:30/10:00\n⟣price：VIPチケット ¥8,000 （前方エリアあり）/ 一般チケット ¥3,000 （各＋1D）\n⟣入場特典 : 明星カード1枚(サインありチェキ)\n\n【VIPチケット先行抽選】\n8/19（水）20:00-8/27（木）23:59\n【一般チケット先着販売】\n8/19（水）20:00-9/16（水）23:59\n【VIPチケット先着販売】\n8/28（金）20:00-9/16（水）23:59\n🔗 https://t.co/uZlU94CQpO\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2090031095639310528",
+        "start_time": "10:00",
+        "ticket_application_deadline_at": "2026-08-27T23:59:00+09:00",
+        "ticket_application_start_at": "2026-08-19T20:00:00+09:00",
+        "ticket_sale_type": "抽選",
+        "ticket_sales": [
+          {
+            "deadline_at": "2026-08-27T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 8000,
+            "result_at": null,
+            "sale_type": "抽選",
+            "source_post_id": "2090031095639310528",
+            "source_url": "https://x.com/info_myojou/status/2090031095639310528",
+            "start_at": "2026-08-19T20:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "VIPチケット",
+            "ticket_tier": "VIP"
+          },
+          {
+            "deadline_at": "2026-08-27T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 3000,
+            "result_at": null,
+            "sale_type": "抽選",
+            "source_post_id": "2090031095639310528",
+            "source_url": "https://x.com/info_myojou/status/2090031095639310528",
+            "start_at": "2026-08-19T20:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般チケット",
+            "ticket_tier": "一般"
+          },
+          {
+            "deadline_at": "2026-09-16T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 8000,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2090031095639310528",
+            "source_url": "https://x.com/info_myojou/status/2090031095639310528",
+            "start_at": "2026-08-19T20:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "VIPチケット",
+            "ticket_tier": "VIP"
+          },
+          {
+            "deadline_at": "2026-09-16T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 3000,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2090031095639310528",
+            "source_url": "https://x.com/info_myojou/status/2090031095639310528",
+            "start_at": "2026-08-19T20:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般チケット",
+            "ticket_tier": "一般"
+          },
+          {
+            "deadline_at": "2026-09-16T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 8000,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2090031095639310528",
+            "source_url": "https://x.com/info_myojou/status/2090031095639310528",
+            "start_at": "2026-08-28T20:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "VIPチケット",
+            "ticket_tier": "VIP"
+          },
+          {
+            "deadline_at": "2026-09-16T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 3000,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2090031095639310528",
+            "source_url": "https://x.com/info_myojou/status/2090031095639310528",
+            "start_at": "2026-08-28T20:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般チケット",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "https://t-dv.com/idoLoveYou_0917",
+        "venue": "ステラボール"
+      },
+      "raw": {
+        "api_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n                      文化放送presents\n      『idoLove You♫-On Stage QR-vol.2』\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：9/17（木）\n⟣place : ステラボール\n⟣open/start：9:30/10:00\n⟣price：VIPチケット ¥8,000 https://t.co/NUOxWxyNVb",
+        "attachments": {
+          "media_keys": [
+            "3_2090031078568603648"
+          ]
+        },
+        "created_at": "2026-08-19T11:00:18.000Z",
+        "edit_history_tweet_ids": [
+          "2090031095639310528"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/NUOxWxyNVb",
+              "end": 225,
+              "expanded_url": "https://x.com/info_myojou/status/2090031095639310528/photo/1",
+              "media_key": "3_2090031078568603648",
+              "start": 202,
+              "url": "https://t.co/NUOxWxyNVb"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n                      文化放送presents\n      『idoLove You♫-On Stage QR-vol.2』\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：9/17（木）\n⟣place : ステラボール\n⟣open/start：9:30/10:00\n⟣price：VIPチケット ¥8,000 （前方エリアあり）/ 一般チケット ¥3,000 （各＋1D）\n⟣入場特典 : 明星カード1枚(サインありチェキ)\n\n【VIPチケット先行抽選】\n8/19（水）20:00-8/27（木）23:59\n【一般チケット先着販売】\n8/19（水）20:00-9/16（水）23:59\n【VIPチケット先着販売】\n8/28（金）20:00-9/16（水）23:59\n🔗 https://t.co/uZlU94CQpO\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2090031095639310528",
+        "media": [
+          {
+            "height": 3508,
+            "media_key": "3_2090031078568603648",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HQFIMUebsAAalDA.jpg",
+            "width": 2481
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 414,
+                "start": 407,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "t-dv.com/idoLoveYou_0917",
+                "end": 405,
+                "expanded_url": "https://t-dv.com/idoLoveYou_0917",
+                "start": 382,
+                "url": "https://t.co/uZlU94CQpO"
+              }
+            ]
+          },
+          "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n                      文化放送presents\n      『idoLove You♫-On Stage QR-vol.2』\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：9/17（木）\n⟣place : ステラボール\n⟣open/start：9:30/10:00\n⟣price：VIPチケット ¥8,000 （前方エリアあり）/ 一般チケット ¥3,000 （各＋1D）\n⟣入場特典 : 明星カード1枚(サインありチェキ)\n\n【VIPチケット先行抽選】\n8/19（水）20:00-8/27（木）23:59\n【一般チケット先着販売】\n8/19（水）20:00-9/16（水）23:59\n【VIPチケット先着販売】\n8/28（金）20:00-9/16（水）23:59\n🔗 https://t.co/uZlU94CQpO\n\n#myojou"
+        },
+        "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n                      文化放送presents\n      『idoLove You♫-On Stage QR-vol.2』\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：9/17（木）\n⟣place : ステラボール\n⟣open/start：9:30/10:00\n⟣price：VIPチケット ¥8,000 https://t.co/NUOxWxyNVb",
+        "truncated_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n                      文化放送presents\n      『idoLove You♫-On Stage QR-vol.2』\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：9/17（木）\n⟣place : ステラボール\n⟣open/start：9:30/10:00\n⟣price：VIPチケット ¥8,000 https://t.co/NUOxWxyNVb"
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n                      文化放送presents\n      『idoLove You♫-On Stage QR-vol.2』\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：9/17（木）\n⟣place : ステラボール\n⟣open/start：9:30/10:00\n⟣price：VIPチケット ¥8,000 （前方エリアあり）/ 一般チケット ¥3,000 （各＋1D）\n⟣入場特典 : 明星カード1枚(サインありチェキ)\n\n【VIPチケット先行抽選】\n8/19（水）20:00-8/27（木）23:59\n【一般チケット先着販売】\n8/19（水）20:00-9/16（水）23:59\n【VIPチケット先着販売】\n8/28（金）20:00-9/16（水）23:59\n🔗 https://t.co/uZlU94CQpO\n\n#myojou",
+      "truncated_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n                      文化放送presents\n      『idoLove You♫-On Stage QR-vol.2』\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：9/17（木）\n⟣place : ステラボール\n⟣open/start：9:30/10:00\n⟣price：VIPチケット ¥8,000 https://t.co/NUOxWxyNVb",
+      "url": "https://x.com/info_myojou/status/2090031095639310528"
+    },
+    {
       "api_text": "【⚠️抽選受付 本日23:59まで⚠️】\n\nお買い忘れないようご注意ください…！\n\n #myojou  #ヨンピ https://t.co/x64IJT1BL8",
       "attachments": {},
       "classification": {
@@ -161293,7 +162039,7 @@
     "backfill": true,
     "dry_run": true,
     "estimated_x_post_reads": 411,
-    "latest_post_id": "2089706803563229295",
+    "latest_post_id": "2090047331811074198",
     "max_pages": 10,
     "max_posts": 500,
     "max_results": 5,
@@ -161336,16 +162082,16 @@
       }
     ],
     "pages_fetched": 5,
-    "posts_fetched": 739,
+    "posts_fetched": 742,
     "rate_limit_headers": {
       "x-rate-limit-limit": "10000",
       "x-rate-limit-remaining": "9993",
       "x-rate-limit-reset": "1781108896"
     },
-    "total_posts": 739,
-    "updated_at": "2026-08-18T19:29:56.534020+00:00",
+    "total_posts": 742,
+    "updated_at": "2026-08-19T19:28:45.541650+00:00",
     "username": "info_myojou"
   },
   "source": "x_api",
-  "updated_at": "2026-08-18T19:29:56.534020+00:00"
+  "updated_at": "2026-08-19T19:28:45.541650+00:00"
 }
