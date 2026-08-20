@@ -2,6 +2,399 @@
   "captured_at": "2026-06-10T16:19:36.141820+00:00",
   "data": [
     {
+      "api_text": "✮••┈┈┈┈┈┈┈┈┈┈••✮\n                 楽曲公開 \n             \"夏、空模様\"\n✮••┈┈┈┈┈┈┈┈┈┈••✮\n\n2026.8.21より順次配信開始\n🔗 https://t.co/Um81qXeQb7\n\n #myojou https://t.co/syKlvQwH7A",
+      "attachments": {
+        "media_keys": [
+          "13_2090432118056943616"
+        ]
+      },
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "strong non-event keyword without live structure",
+        "source_kind": "other"
+      },
+      "created_at": "2026-08-20T13:34:27+00:00",
+      "entities": {
+        "hashtags": [
+          {
+            "end": 132,
+            "start": 125,
+            "tag": "myojou"
+          }
+        ],
+        "urls": [
+          {
+            "description": "音楽配信サービスで myojou （ミョウジョウ）を聴く。",
+            "display_url": "tunecore.co.jp/artists?id=107…",
+            "end": 122,
+            "expanded_url": "https://www.tunecore.co.jp/artists?id=1078390",
+            "images": [
+              {
+                "height": 500,
+                "url": "https://pbs.twimg.com/news_img/2090432326400716801/4BteU1Wn?format=png&name=orig",
+                "width": 500
+              },
+              {
+                "height": 150,
+                "url": "https://pbs.twimg.com/news_img/2090432326400716801/4BteU1Wn?format=png&name=150x150",
+                "width": 150
+              }
+            ],
+            "start": 99,
+            "status": 200,
+            "title": "myojou",
+            "unwound_url": "https://www.tunecore.co.jp/artists?id=1078390",
+            "url": "https://t.co/Um81qXeQb7"
+          },
+          {
+            "display_url": "pic.x.com/syKlvQwH7A",
+            "end": 156,
+            "expanded_url": "https://x.com/info_myojou/status/2090432274768752845/video/1",
+            "media_key": "13_2090432118056943616",
+            "start": 133,
+            "url": "https://t.co/syKlvQwH7A"
+          }
+        ]
+      },
+      "full_text_source": "text",
+      "id": "2090432274768752845",
+      "media": [
+        {
+          "height": 1080,
+          "media_key": "13_2090432118056943616",
+          "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2090432118056943616/img/peW2xyb8P1IhQWS4.jpg",
+          "type": "video",
+          "width": 1920
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "note_tweet": null,
+      "parsed_fields": null,
+      "raw": {
+        "api_text": "✮••┈┈┈┈┈┈┈┈┈┈••✮\n                 楽曲公開 \n             \"夏、空模様\"\n✮••┈┈┈┈┈┈┈┈┈┈••✮\n\n2026.8.21より順次配信開始\n🔗 https://t.co/Um81qXeQb7\n\n #myojou https://t.co/syKlvQwH7A",
+        "attachments": {
+          "media_keys": [
+            "13_2090432118056943616"
+          ]
+        },
+        "created_at": "2026-08-20T13:34:27.000Z",
+        "edit_history_tweet_ids": [
+          "2090432274768752845"
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "end": 132,
+              "start": 125,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "description": "音楽配信サービスで myojou （ミョウジョウ）を聴く。",
+              "display_url": "tunecore.co.jp/artists?id=107…",
+              "end": 122,
+              "expanded_url": "https://www.tunecore.co.jp/artists?id=1078390",
+              "images": [
+                {
+                  "height": 500,
+                  "url": "https://pbs.twimg.com/news_img/2090432326400716801/4BteU1Wn?format=png&name=orig",
+                  "width": 500
+                },
+                {
+                  "height": 150,
+                  "url": "https://pbs.twimg.com/news_img/2090432326400716801/4BteU1Wn?format=png&name=150x150",
+                  "width": 150
+                }
+              ],
+              "start": 99,
+              "status": 200,
+              "title": "myojou",
+              "unwound_url": "https://www.tunecore.co.jp/artists?id=1078390",
+              "url": "https://t.co/Um81qXeQb7"
+            },
+            {
+              "display_url": "pic.x.com/syKlvQwH7A",
+              "end": 156,
+              "expanded_url": "https://x.com/info_myojou/status/2090432274768752845/video/1",
+              "media_key": "13_2090432118056943616",
+              "start": 133,
+              "url": "https://t.co/syKlvQwH7A"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈┈┈┈┈┈┈••✮\n                 楽曲公開 \n             \"夏、空模様\"\n✮••┈┈┈┈┈┈┈┈┈┈••✮\n\n2026.8.21より順次配信開始\n🔗 https://t.co/Um81qXeQb7\n\n #myojou https://t.co/syKlvQwH7A",
+        "full_text_source": "text",
+        "id": "2090432274768752845",
+        "media": [
+          {
+            "height": 1080,
+            "media_key": "13_2090432118056943616",
+            "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2090432118056943616/img/peW2xyb8P1IhQWS4.jpg",
+            "type": "video",
+            "width": 1920
+          }
+        ],
+        "text": "✮••┈┈┈┈┈┈┈┈┈┈••✮\n                 楽曲公開 \n             \"夏、空模様\"\n✮••┈┈┈┈┈┈┈┈┈┈••✮\n\n2026.8.21より順次配信開始\n🔗 https://t.co/Um81qXeQb7\n\n #myojou https://t.co/syKlvQwH7A",
+        "truncated_text": null
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈┈┈┈┈┈┈••✮\n                 楽曲公開 \n             \"夏、空模様\"\n✮••┈┈┈┈┈┈┈┈┈┈••✮\n\n2026.8.21より順次配信開始\n🔗 https://t.co/Um81qXeQb7\n\n #myojou https://t.co/syKlvQwH7A",
+      "truncated_text": null,
+      "url": "https://x.com/info_myojou/status/2090432274768752845"
+    },
+    {
+      "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n 「俺フェス！ Vol.2」\n\n🎙18:15-18:35\n📸18:45-19:45 C\n\n⟣date：8/21（金）\n⟣place : 白金高輪SELENE b2\n⟣open/start：16:00/16:30\n⟣price：前方¥5,000/一般¥2,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n-8/20（木）23:59\n🔗 https://t.co/iAjkgdsffb",
+      "attachments": {
+        "media_keys": [
+          "3_2090411166820704256"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "day_before_reminder"
+      },
+      "created_at": "2026-08-20T12:10:38+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/iAjkgdsffb",
+            "end": 229,
+            "expanded_url": "https://x.com/info_myojou/status/2090411180502495448/photo/1",
+            "media_key": "3_2090411166820704256",
+            "start": 206,
+            "url": "https://t.co/iAjkgdsffb"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2090411180502495448",
+      "media": [
+        {
+          "height": 2048,
+          "media_key": "3_2090411166820704256",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HQKh4XjboAAbsok.jpg",
+          "width": 1448
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 239,
+              "start": 232,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "ticketdive.com/event/orefes08…",
+              "end": 229,
+              "expanded_url": "https://ticketdive.com/event/orefes0821",
+              "start": 206,
+              "url": "https://t.co/fVj4sUL9n4"
+            }
+          ]
+        },
+        "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n 「俺フェス！ Vol.2」\n\n🎙18:15-18:35\n📸18:45-19:45 C\n\n⟣date：8/21（金）\n⟣place : 白金高輪SELENE b2\n⟣open/start：16:00/16:30\n⟣price：前方¥5,000/一般¥2,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n-8/20（木）23:59\n🔗 https://t.co/fVj4sUL9n4\n\n #myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": "18:45-19:45",
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-08-21",
+        "event_dates": [
+          "2026-08-21"
+        ],
+        "event_name": "俺フェス! Vol.2",
+        "extraction_confidence": 0.95,
+        "general_ticket_price": 2000,
+        "lottery_result_at": null,
+        "myojou_performance_time": "18:15-18:35",
+        "notes": "ドリンク代: 各+1D\n⟣入場特典:明星カード(サインありチェキ)",
+        "open_time": "16:00",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "前方",
+        "priority_ticket_price": 5000,
+        "same_day_ticket_price": null,
+        "source_kind": "day_before_reminder",
+        "source_post_id": "2090411180502495448",
+        "source_posted_at": "2026-08-20T12:10:38Z",
+        "source_raw": {
+          "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n 「俺フェス！ Vol.2」\n\n🎙18:15-18:35\n📸18:45-19:45 C\n\n⟣date：8/21（金）\n⟣place : 白金高輪SELENE b2\n⟣open/start：16:00/16:30\n⟣price：前方¥5,000/一般¥2,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n-8/20（木）23:59\n🔗 https://t.co/iAjkgdsffb",
+          "attachments": {
+            "media_keys": [
+              "3_2090411166820704256"
+            ]
+          },
+          "created_at": "2026-08-20T12:10:38.000Z",
+          "edit_history_tweet_ids": [
+            "2090411180502495448"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/iAjkgdsffb",
+                "end": 229,
+                "expanded_url": "https://x.com/info_myojou/status/2090411180502495448/photo/1",
+                "media_key": "3_2090411166820704256",
+                "start": 206,
+                "url": "https://t.co/iAjkgdsffb"
+              }
+            ]
+          },
+          "full_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n 「俺フェス！ Vol.2」\n\n🎙18:15-18:35\n📸18:45-19:45 C\n\n⟣date：8/21（金）\n⟣place : 白金高輪SELENE b2\n⟣open/start：16:00/16:30\n⟣price：前方¥5,000/一般¥2,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n-8/20（木）23:59\n🔗 https://t.co/fVj4sUL9n4\n\n #myojou",
+          "full_text_source": "note_tweet",
+          "id": "2090411180502495448",
+          "media": [
+            {
+              "height": 2048,
+              "media_key": "3_2090411166820704256",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HQKh4XjboAAbsok.jpg",
+              "width": 1448
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 239,
+                  "start": 232,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "ticketdive.com/event/orefes08…",
+                  "end": 229,
+                  "expanded_url": "https://ticketdive.com/event/orefes0821",
+                  "start": 206,
+                  "url": "https://t.co/fVj4sUL9n4"
+                }
+              ]
+            },
+            "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n 「俺フェス！ Vol.2」\n\n🎙18:15-18:35\n📸18:45-19:45 C\n\n⟣date：8/21（金）\n⟣place : 白金高輪SELENE b2\n⟣open/start：16:00/16:30\n⟣price：前方¥5,000/一般¥2,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n-8/20（木）23:59\n🔗 https://t.co/fVj4sUL9n4\n\n #myojou"
+          },
+          "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n 「俺フェス！ Vol.2」\n\n🎙18:15-18:35\n📸18:45-19:45 C\n\n⟣date：8/21（金）\n⟣place : 白金高輪SELENE b2\n⟣open/start：16:00/16:30\n⟣price：前方¥5,000/一般¥2,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n-8/20（木）23:59\n🔗 https://t.co/iAjkgdsffb",
+          "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n 「俺フェス！ Vol.2」\n\n🎙18:15-18:35\n📸18:45-19:45 C\n\n⟣date：8/21（金）\n⟣place : 白金高輪SELENE b2\n⟣open/start：16:00/16:30\n⟣price：前方¥5,000/一般¥2,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n-8/20（木）23:59\n🔗 https://t.co/iAjkgdsffb"
+        },
+        "source_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n 「俺フェス！ Vol.2」\n\n🎙18:15-18:35\n📸18:45-19:45 C\n\n⟣date：8/21（金）\n⟣place : 白金高輪SELENE b2\n⟣open/start：16:00/16:30\n⟣price：前方¥5,000/一般¥2,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n-8/20（木）23:59\n🔗 https://t.co/fVj4sUL9n4\n\n #myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2090411180502495448",
+        "start_time": "16:30",
+        "ticket_application_deadline_at": "2026-08-20T23:59:00+09:00",
+        "ticket_application_start_at": null,
+        "ticket_sale_type": "一般",
+        "ticket_sales": [
+          {
+            "deadline_at": "2026-08-20T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 5000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2090411180502495448",
+            "source_url": "https://x.com/info_myojou/status/2090411180502495448",
+            "start_at": null,
+            "status": "不明",
+            "ticket_name": "前方",
+            "ticket_tier": "前方"
+          },
+          {
+            "deadline_at": "2026-08-20T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 2000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2090411180502495448",
+            "source_url": "https://x.com/info_myojou/status/2090411180502495448",
+            "start_at": null,
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "https://ticketdive.com/event/orefes0821",
+        "venue": "白金高輪SELENE b2"
+      },
+      "raw": {
+        "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n 「俺フェス！ Vol.2」\n\n🎙18:15-18:35\n📸18:45-19:45 C\n\n⟣date：8/21（金）\n⟣place : 白金高輪SELENE b2\n⟣open/start：16:00/16:30\n⟣price：前方¥5,000/一般¥2,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n-8/20（木）23:59\n🔗 https://t.co/iAjkgdsffb",
+        "attachments": {
+          "media_keys": [
+            "3_2090411166820704256"
+          ]
+        },
+        "created_at": "2026-08-20T12:10:38.000Z",
+        "edit_history_tweet_ids": [
+          "2090411180502495448"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/iAjkgdsffb",
+              "end": 229,
+              "expanded_url": "https://x.com/info_myojou/status/2090411180502495448/photo/1",
+              "media_key": "3_2090411166820704256",
+              "start": 206,
+              "url": "https://t.co/iAjkgdsffb"
+            }
+          ]
+        },
+        "full_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n 「俺フェス！ Vol.2」\n\n🎙18:15-18:35\n📸18:45-19:45 C\n\n⟣date：8/21（金）\n⟣place : 白金高輪SELENE b2\n⟣open/start：16:00/16:30\n⟣price：前方¥5,000/一般¥2,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n-8/20（木）23:59\n🔗 https://t.co/fVj4sUL9n4\n\n #myojou",
+        "full_text_source": "note_tweet",
+        "id": "2090411180502495448",
+        "media": [
+          {
+            "height": 2048,
+            "media_key": "3_2090411166820704256",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HQKh4XjboAAbsok.jpg",
+            "width": 1448
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 239,
+                "start": 232,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "ticketdive.com/event/orefes08…",
+                "end": 229,
+                "expanded_url": "https://ticketdive.com/event/orefes0821",
+                "start": 206,
+                "url": "https://t.co/fVj4sUL9n4"
+              }
+            ]
+          },
+          "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n 「俺フェス！ Vol.2」\n\n🎙18:15-18:35\n📸18:45-19:45 C\n\n⟣date：8/21（金）\n⟣place : 白金高輪SELENE b2\n⟣open/start：16:00/16:30\n⟣price：前方¥5,000/一般¥2,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n-8/20（木）23:59\n🔗 https://t.co/fVj4sUL9n4\n\n #myojou"
+        },
+        "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n 「俺フェス！ Vol.2」\n\n🎙18:15-18:35\n📸18:45-19:45 C\n\n⟣date：8/21（金）\n⟣place : 白金高輪SELENE b2\n⟣open/start：16:00/16:30\n⟣price：前方¥5,000/一般¥2,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n-8/20（木）23:59\n🔗 https://t.co/iAjkgdsffb",
+        "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n 「俺フェス！ Vol.2」\n\n🎙18:15-18:35\n📸18:45-19:45 C\n\n⟣date：8/21（金）\n⟣place : 白金高輪SELENE b2\n⟣open/start：16:00/16:30\n⟣price：前方¥5,000/一般¥2,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n-8/20（木）23:59\n🔗 https://t.co/iAjkgdsffb"
+      },
+      "referenced_tweets": [],
+      "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n 「俺フェス！ Vol.2」\n\n🎙18:15-18:35\n📸18:45-19:45 C\n\n⟣date：8/21（金）\n⟣place : 白金高輪SELENE b2\n⟣open/start：16:00/16:30\n⟣price：前方¥5,000/一般¥2,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n-8/20（木）23:59\n🔗 https://t.co/fVj4sUL9n4\n\n #myojou",
+      "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n 「俺フェス！ Vol.2」\n\n🎙18:15-18:35\n📸18:45-19:45 C\n\n⟣date：8/21（金）\n⟣place : 白金高輪SELENE b2\n⟣open/start：16:00/16:30\n⟣price：前方¥5,000/一般¥2,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n-8/20（木）23:59\n🔗 https://t.co/iAjkgdsffb",
+      "url": "https://x.com/info_myojou/status/2090411180502495448"
+    },
+    {
       "api_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            ˚.⋆ラジオ配信˖°⋆\n       myojou天体観測 #18\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣2026.08.19 22:00 プレミア公開\n⟣ myojou公式YouTubeチャンネル\n🔗 https://t.co/AHTZ5T8xsE\n\n #myojou",
       "attachments": {},
       "classification": {
@@ -162039,7 +162432,7 @@
     "backfill": true,
     "dry_run": true,
     "estimated_x_post_reads": 411,
-    "latest_post_id": "2090047331811074198",
+    "latest_post_id": "2090432274768752845",
     "max_pages": 10,
     "max_posts": 500,
     "max_results": 5,
@@ -162082,16 +162475,16 @@
       }
     ],
     "pages_fetched": 5,
-    "posts_fetched": 742,
+    "posts_fetched": 744,
     "rate_limit_headers": {
       "x-rate-limit-limit": "10000",
       "x-rate-limit-remaining": "9993",
       "x-rate-limit-reset": "1781108896"
     },
-    "total_posts": 742,
-    "updated_at": "2026-08-19T19:28:45.541650+00:00",
+    "total_posts": 744,
+    "updated_at": "2026-08-20T19:34:08.663268+00:00",
     "username": "info_myojou"
   },
   "source": "x_api",
-  "updated_at": "2026-08-19T19:28:45.541650+00:00"
+  "updated_at": "2026-08-20T19:34:08.663268+00:00"
 }
