@@ -2,6 +2,1008 @@
   "captured_at": "2026-06-10T16:19:36.141820+00:00",
   "data": [
     {
+      "api_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n         Mirror, Mirror Presents.「ミラスプ\n      ~5th ANNIVERSARY TOUR決起会～」\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：10/13（火）\n⟣place : Spotify O-WEST\n⟣open/start：18:30/19:00 https://t.co/KcAGMhOUCL",
+      "attachments": {
+        "media_keys": [
+          "3_2090784659508768768"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "ticket_update"
+      },
+      "created_at": "2026-08-21T12:55:02+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/KcAGMhOUCL",
+            "end": 211,
+            "expanded_url": "https://x.com/info_myojou/status/2090784744153952560/photo/1",
+            "media_key": "3_2090784659508768768",
+            "start": 188,
+            "url": "https://t.co/KcAGMhOUCL"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2090784744153952560",
+      "media": [
+        {
+          "height": 1199,
+          "media_key": "3_2090784659508768768",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HQP1kgPbMAAeyaL.jpg",
+          "width": 848
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 338,
+              "start": 331,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "ticketdive.com/event/MirrorMi…",
+              "end": 329,
+              "expanded_url": "https://ticketdive.com/event/MirrorMirror_20261013",
+              "start": 306,
+              "url": "https://t.co/7YFMoUAiFO"
+            }
+          ]
+        },
+        "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n         Mirror, Mirror Presents.「ミラスプ\n      ~5th ANNIVERSARY TOUR決起会～」\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：10/13（火）\n⟣place : Spotify O-WEST\n⟣open/start：18:30/19:00\n⟣price：前方エリアチケット¥5,000/一般チケット¥2,500（各＋1D）\n\n【オフィシャル先行抽選】\n8/21（金）21:00-8/24（月）23:59\n【一般販売】\n8/27（木）22:30-10/12（月）23:59\n🔗 https://t.co/7YFMoUAiFO\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": null,
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-10-13",
+        "event_dates": [
+          "2026-10-13"
+        ],
+        "event_name": "~5th ANNIVERSARY TOUR決起会~」",
+        "extraction_confidence": 0.9,
+        "general_ticket_price": 2500,
+        "lottery_result_at": null,
+        "myojou_performance_time": null,
+        "notes": "ドリンク代: 各+1D",
+        "open_time": "18:30",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "前方エリアチケット",
+        "priority_ticket_price": 5000,
+        "same_day_ticket_price": null,
+        "source_kind": "ticket_update",
+        "source_post_id": "2090784744153952560",
+        "source_posted_at": "2026-08-21T12:55:02Z",
+        "source_raw": {
+          "api_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n         Mirror, Mirror Presents.「ミラスプ\n      ~5th ANNIVERSARY TOUR決起会～」\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：10/13（火）\n⟣place : Spotify O-WEST\n⟣open/start：18:30/19:00 https://t.co/KcAGMhOUCL",
+          "attachments": {
+            "media_keys": [
+              "3_2090784659508768768"
+            ]
+          },
+          "created_at": "2026-08-21T12:55:02.000Z",
+          "edit_history_tweet_ids": [
+            "2090784744153952560"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/KcAGMhOUCL",
+                "end": 211,
+                "expanded_url": "https://x.com/info_myojou/status/2090784744153952560/photo/1",
+                "media_key": "3_2090784659508768768",
+                "start": 188,
+                "url": "https://t.co/KcAGMhOUCL"
+              }
+            ]
+          },
+          "full_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n         Mirror, Mirror Presents.「ミラスプ\n      ~5th ANNIVERSARY TOUR決起会～」\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：10/13（火）\n⟣place : Spotify O-WEST\n⟣open/start：18:30/19:00\n⟣price：前方エリアチケット¥5,000/一般チケット¥2,500（各＋1D）\n\n【オフィシャル先行抽選】\n8/21（金）21:00-8/24（月）23:59\n【一般販売】\n8/27（木）22:30-10/12（月）23:59\n🔗 https://t.co/7YFMoUAiFO\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2090784744153952560",
+          "media": [
+            {
+              "height": 1199,
+              "media_key": "3_2090784659508768768",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HQP1kgPbMAAeyaL.jpg",
+              "width": 848
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 338,
+                  "start": 331,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "ticketdive.com/event/MirrorMi…",
+                  "end": 329,
+                  "expanded_url": "https://ticketdive.com/event/MirrorMirror_20261013",
+                  "start": 306,
+                  "url": "https://t.co/7YFMoUAiFO"
+                }
+              ]
+            },
+            "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n         Mirror, Mirror Presents.「ミラスプ\n      ~5th ANNIVERSARY TOUR決起会～」\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：10/13（火）\n⟣place : Spotify O-WEST\n⟣open/start：18:30/19:00\n⟣price：前方エリアチケット¥5,000/一般チケット¥2,500（各＋1D）\n\n【オフィシャル先行抽選】\n8/21（金）21:00-8/24（月）23:59\n【一般販売】\n8/27（木）22:30-10/12（月）23:59\n🔗 https://t.co/7YFMoUAiFO\n\n#myojou"
+          },
+          "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n         Mirror, Mirror Presents.「ミラスプ\n      ~5th ANNIVERSARY TOUR決起会～」\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：10/13（火）\n⟣place : Spotify O-WEST\n⟣open/start：18:30/19:00 https://t.co/KcAGMhOUCL",
+          "truncated_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n         Mirror, Mirror Presents.「ミラスプ\n      ~5th ANNIVERSARY TOUR決起会～」\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：10/13（火）\n⟣place : Spotify O-WEST\n⟣open/start：18:30/19:00 https://t.co/KcAGMhOUCL"
+        },
+        "source_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n         Mirror, Mirror Presents.「ミラスプ\n      ~5th ANNIVERSARY TOUR決起会～」\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：10/13（火）\n⟣place : Spotify O-WEST\n⟣open/start：18:30/19:00\n⟣price：前方エリアチケット¥5,000/一般チケット¥2,500（各＋1D）\n\n【オフィシャル先行抽選】\n8/21（金）21:00-8/24（月）23:59\n【一般販売】\n8/27（木）22:30-10/12（月）23:59\n🔗 https://t.co/7YFMoUAiFO\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2090784744153952560",
+        "start_time": "19:00",
+        "ticket_application_deadline_at": "2026-08-24T23:59:00+09:00",
+        "ticket_application_start_at": "2026-08-21T21:00:00+09:00",
+        "ticket_sale_type": "一般",
+        "ticket_sales": [
+          {
+            "deadline_at": "2026-08-24T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 5000,
+            "result_at": null,
+            "sale_type": "抽選",
+            "source_post_id": "2090784744153952560",
+            "source_url": "https://x.com/info_myojou/status/2090784744153952560",
+            "start_at": "2026-08-21T21:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "前方エリアチケット",
+            "ticket_tier": "前方"
+          },
+          {
+            "deadline_at": "2026-08-24T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 2500,
+            "result_at": null,
+            "sale_type": "抽選",
+            "source_post_id": "2090784744153952560",
+            "source_url": "https://x.com/info_myojou/status/2090784744153952560",
+            "start_at": "2026-08-21T21:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般チケット",
+            "ticket_tier": "一般"
+          },
+          {
+            "deadline_at": "2026-10-12T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 5000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2090784744153952560",
+            "source_url": "https://x.com/info_myojou/status/2090784744153952560",
+            "start_at": "2026-08-27T22:30:00+09:00",
+            "status": "不明",
+            "ticket_name": "前方エリアチケット",
+            "ticket_tier": "前方"
+          },
+          {
+            "deadline_at": "2026-10-12T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 2500,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2090784744153952560",
+            "source_url": "https://x.com/info_myojou/status/2090784744153952560",
+            "start_at": "2026-08-27T22:30:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般チケット",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "https://ticketdive.com/event/MirrorMirror_20261013",
+        "venue": "Spotify O-WEST"
+      },
+      "raw": {
+        "api_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n         Mirror, Mirror Presents.「ミラスプ\n      ~5th ANNIVERSARY TOUR決起会～」\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：10/13（火）\n⟣place : Spotify O-WEST\n⟣open/start：18:30/19:00 https://t.co/KcAGMhOUCL",
+        "attachments": {
+          "media_keys": [
+            "3_2090784659508768768"
+          ]
+        },
+        "created_at": "2026-08-21T12:55:02.000Z",
+        "edit_history_tweet_ids": [
+          "2090784744153952560"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/KcAGMhOUCL",
+              "end": 211,
+              "expanded_url": "https://x.com/info_myojou/status/2090784744153952560/photo/1",
+              "media_key": "3_2090784659508768768",
+              "start": 188,
+              "url": "https://t.co/KcAGMhOUCL"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n         Mirror, Mirror Presents.「ミラスプ\n      ~5th ANNIVERSARY TOUR決起会～」\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：10/13（火）\n⟣place : Spotify O-WEST\n⟣open/start：18:30/19:00\n⟣price：前方エリアチケット¥5,000/一般チケット¥2,500（各＋1D）\n\n【オフィシャル先行抽選】\n8/21（金）21:00-8/24（月）23:59\n【一般販売】\n8/27（木）22:30-10/12（月）23:59\n🔗 https://t.co/7YFMoUAiFO\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2090784744153952560",
+        "media": [
+          {
+            "height": 1199,
+            "media_key": "3_2090784659508768768",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HQP1kgPbMAAeyaL.jpg",
+            "width": 848
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 338,
+                "start": 331,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "ticketdive.com/event/MirrorMi…",
+                "end": 329,
+                "expanded_url": "https://ticketdive.com/event/MirrorMirror_20261013",
+                "start": 306,
+                "url": "https://t.co/7YFMoUAiFO"
+              }
+            ]
+          },
+          "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n         Mirror, Mirror Presents.「ミラスプ\n      ~5th ANNIVERSARY TOUR決起会～」\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：10/13（火）\n⟣place : Spotify O-WEST\n⟣open/start：18:30/19:00\n⟣price：前方エリアチケット¥5,000/一般チケット¥2,500（各＋1D）\n\n【オフィシャル先行抽選】\n8/21（金）21:00-8/24（月）23:59\n【一般販売】\n8/27（木）22:30-10/12（月）23:59\n🔗 https://t.co/7YFMoUAiFO\n\n#myojou"
+        },
+        "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n         Mirror, Mirror Presents.「ミラスプ\n      ~5th ANNIVERSARY TOUR決起会～」\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：10/13（火）\n⟣place : Spotify O-WEST\n⟣open/start：18:30/19:00 https://t.co/KcAGMhOUCL",
+        "truncated_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n         Mirror, Mirror Presents.「ミラスプ\n      ~5th ANNIVERSARY TOUR決起会～」\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：10/13（火）\n⟣place : Spotify O-WEST\n⟣open/start：18:30/19:00 https://t.co/KcAGMhOUCL"
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n         Mirror, Mirror Presents.「ミラスプ\n      ~5th ANNIVERSARY TOUR決起会～」\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：10/13（火）\n⟣place : Spotify O-WEST\n⟣open/start：18:30/19:00\n⟣price：前方エリアチケット¥5,000/一般チケット¥2,500（各＋1D）\n\n【オフィシャル先行抽選】\n8/21（金）21:00-8/24（月）23:59\n【一般販売】\n8/27（木）22:30-10/12（月）23:59\n🔗 https://t.co/7YFMoUAiFO\n\n#myojou",
+      "truncated_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n         Mirror, Mirror Presents.「ミラスプ\n      ~5th ANNIVERSARY TOUR決起会～」\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：10/13（火）\n⟣place : Spotify O-WEST\n⟣open/start：18:30/19:00 https://t.co/KcAGMhOUCL",
+      "url": "https://x.com/info_myojou/status/2090784744153952560"
+    },
+    {
+      "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「高山右近音楽フェス2026」\n\n1部\n🎙13:10-13:35\n📸14:10-15:10\n\n2部\n🎙17:45-18:10\n📸19:15-20:15\n\n⟣date：8/22（土）\n⟣place :ユーベルホール（大阪府豊能町）\n⟣open/start：1部 10:15/11:00 2部15:20/16:00\n⟣price：各部Sエリア¥8,800 Aエリア¥6,600 https://t.co/YMUD0FWEYm",
+      "attachments": {
+        "media_keys": [
+          "3_2090764296657752065",
+          "3_2090764296674484224"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "day_before_reminder"
+      },
+      "created_at": "2026-08-21T11:37:18+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/YMUD0FWEYm",
+            "end": 233,
+            "expanded_url": "https://x.com/info_myojou/status/2090765183736336746/photo/1",
+            "media_key": "3_2090764296657752065",
+            "start": 210,
+            "url": "https://t.co/YMUD0FWEYm"
+          },
+          {
+            "display_url": "pic.x.com/YMUD0FWEYm",
+            "end": 233,
+            "expanded_url": "https://x.com/info_myojou/status/2090765183736336746/photo/1",
+            "media_key": "3_2090764296674484224",
+            "start": 210,
+            "url": "https://t.co/YMUD0FWEYm"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2090765183736336746",
+      "media": [
+        {
+          "height": 1076,
+          "media_key": "3_2090764296657752065",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HQPjDOta0AEe9Mz.jpg",
+          "width": 1522
+        },
+        {
+          "height": 1414,
+          "media_key": "3_2090764296674484224",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HQPjDOxaIAAq8gj.jpg",
+          "width": 2000
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 340,
+              "start": 333,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "tiget.net/events/491118",
+              "end": 301,
+              "expanded_url": "http://tiget.net/events/491118",
+              "start": 278,
+              "url": "https://t.co/XkIduIgUyQ"
+            },
+            {
+              "display_url": "tiget.net/events/501867",
+              "end": 331,
+              "expanded_url": "http://tiget.net/events/501867",
+              "start": 308,
+              "url": "https://t.co/ASHc7cjf8X"
+            }
+          ]
+        },
+        "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「高山右近音楽フェス2026」\n\n1部\n🎙13:10-13:35\n📸14:10-15:10\n\n2部\n🎙17:45-18:10\n📸19:15-20:15\n\n⟣date：8/22（土）\n⟣place :ユーベルホール（大阪府豊能町）\n⟣open/start：1部 10:15/11:00 2部15:20/16:00\n⟣price：各部Sエリア¥8,800 Aエリア¥6,600\n⟣入場特典：明星カード（サインありチェキ）\n\n【チケット販売期間】\n7/12（日）22:00-8/21（金）23:00まで\n〈1部〉\n🔗https://t.co/XkIduIgUyQ\n〈2部〉\n🔗https://t.co/ASHc7cjf8X\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": "14:10-15:10",
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-08-22",
+        "event_dates": [
+          "2026-08-22"
+        ],
+        "event_name": "高山右近音楽フェス2026",
+        "extraction_confidence": 0.95,
+        "general_ticket_price": null,
+        "lottery_result_at": null,
+        "myojou_performance_time": "13:10-13:35",
+        "notes": "⟣入場特典:明星カード(サインありチェキ)",
+        "open_time": "10:15",
+        "payment_deadline_at": null,
+        "priority_ticket_name": null,
+        "priority_ticket_price": null,
+        "same_day_ticket_price": null,
+        "source_kind": "day_before_reminder",
+        "source_post_id": "2090765183736336746",
+        "source_posted_at": "2026-08-21T11:37:18Z",
+        "source_raw": {
+          "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「高山右近音楽フェス2026」\n\n1部\n🎙13:10-13:35\n📸14:10-15:10\n\n2部\n🎙17:45-18:10\n📸19:15-20:15\n\n⟣date：8/22（土）\n⟣place :ユーベルホール（大阪府豊能町）\n⟣open/start：1部 10:15/11:00 2部15:20/16:00\n⟣price：各部Sエリア¥8,800 Aエリア¥6,600 https://t.co/YMUD0FWEYm",
+          "attachments": {
+            "media_keys": [
+              "3_2090764296657752065",
+              "3_2090764296674484224"
+            ]
+          },
+          "created_at": "2026-08-21T11:37:18.000Z",
+          "edit_history_tweet_ids": [
+            "2090765183736336746"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/YMUD0FWEYm",
+                "end": 233,
+                "expanded_url": "https://x.com/info_myojou/status/2090765183736336746/photo/1",
+                "media_key": "3_2090764296657752065",
+                "start": 210,
+                "url": "https://t.co/YMUD0FWEYm"
+              },
+              {
+                "display_url": "pic.x.com/YMUD0FWEYm",
+                "end": 233,
+                "expanded_url": "https://x.com/info_myojou/status/2090765183736336746/photo/1",
+                "media_key": "3_2090764296674484224",
+                "start": 210,
+                "url": "https://t.co/YMUD0FWEYm"
+              }
+            ]
+          },
+          "full_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「高山右近音楽フェス2026」\n\n1部\n🎙13:10-13:35\n📸14:10-15:10\n\n2部\n🎙17:45-18:10\n📸19:15-20:15\n\n⟣date：8/22（土）\n⟣place :ユーベルホール（大阪府豊能町）\n⟣open/start：1部 10:15/11:00 2部15:20/16:00\n⟣price：各部Sエリア¥8,800 Aエリア¥6,600\n⟣入場特典：明星カード（サインありチェキ）\n\n【チケット販売期間】\n7/12（日）22:00-8/21（金）23:00まで\n〈1部〉\n🔗https://t.co/XkIduIgUyQ\n〈2部〉\n🔗https://t.co/ASHc7cjf8X\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2090765183736336746",
+          "media": [
+            {
+              "height": 1076,
+              "media_key": "3_2090764296657752065",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HQPjDOta0AEe9Mz.jpg",
+              "width": 1522
+            },
+            {
+              "height": 1414,
+              "media_key": "3_2090764296674484224",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HQPjDOxaIAAq8gj.jpg",
+              "width": 2000
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 340,
+                  "start": 333,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "tiget.net/events/491118",
+                  "end": 301,
+                  "expanded_url": "http://tiget.net/events/491118",
+                  "start": 278,
+                  "url": "https://t.co/XkIduIgUyQ"
+                },
+                {
+                  "display_url": "tiget.net/events/501867",
+                  "end": 331,
+                  "expanded_url": "http://tiget.net/events/501867",
+                  "start": 308,
+                  "url": "https://t.co/ASHc7cjf8X"
+                }
+              ]
+            },
+            "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「高山右近音楽フェス2026」\n\n1部\n🎙13:10-13:35\n📸14:10-15:10\n\n2部\n🎙17:45-18:10\n📸19:15-20:15\n\n⟣date：8/22（土）\n⟣place :ユーベルホール（大阪府豊能町）\n⟣open/start：1部 10:15/11:00 2部15:20/16:00\n⟣price：各部Sエリア¥8,800 Aエリア¥6,600\n⟣入場特典：明星カード（サインありチェキ）\n\n【チケット販売期間】\n7/12（日）22:00-8/21（金）23:00まで\n〈1部〉\n🔗https://t.co/XkIduIgUyQ\n〈2部〉\n🔗https://t.co/ASHc7cjf8X\n\n#myojou"
+          },
+          "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「高山右近音楽フェス2026」\n\n1部\n🎙13:10-13:35\n📸14:10-15:10\n\n2部\n🎙17:45-18:10\n📸19:15-20:15\n\n⟣date：8/22（土）\n⟣place :ユーベルホール（大阪府豊能町）\n⟣open/start：1部 10:15/11:00 2部15:20/16:00\n⟣price：各部Sエリア¥8,800 Aエリア¥6,600 https://t.co/YMUD0FWEYm",
+          "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「高山右近音楽フェス2026」\n\n1部\n🎙13:10-13:35\n📸14:10-15:10\n\n2部\n🎙17:45-18:10\n📸19:15-20:15\n\n⟣date：8/22（土）\n⟣place :ユーベルホール（大阪府豊能町）\n⟣open/start：1部 10:15/11:00 2部15:20/16:00\n⟣price：各部Sエリア¥8,800 Aエリア¥6,600 https://t.co/YMUD0FWEYm"
+        },
+        "source_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「高山右近音楽フェス2026」\n\n1部\n🎙13:10-13:35\n📸14:10-15:10\n\n2部\n🎙17:45-18:10\n📸19:15-20:15\n\n⟣date：8/22（土）\n⟣place :ユーベルホール（大阪府豊能町）\n⟣open/start：1部 10:15/11:00 2部15:20/16:00\n⟣price：各部Sエリア¥8,800 Aエリア¥6,600\n⟣入場特典：明星カード（サインありチェキ）\n\n【チケット販売期間】\n7/12（日）22:00-8/21（金）23:00まで\n〈1部〉\n🔗https://t.co/XkIduIgUyQ\n〈2部〉\n🔗https://t.co/ASHc7cjf8X\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2090765183736336746",
+        "start_time": "11:00",
+        "ticket_application_deadline_at": "2026-08-21T23:00:00+09:00",
+        "ticket_application_start_at": "2026-07-12T22:00:00+09:00",
+        "ticket_sale_type": "不明",
+        "ticket_sales": [
+          {
+            "deadline_at": "2026-08-21T23:00:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": null,
+            "result_at": null,
+            "sale_type": "不明",
+            "source_post_id": "2090765183736336746",
+            "source_url": "https://x.com/info_myojou/status/2090765183736336746",
+            "start_at": "2026-07-12T22:00:00+09:00",
+            "status": "不明",
+            "ticket_name": null,
+            "ticket_tier": "不明"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "http://tiget.net/events/491118",
+        "venue": "ユーベルホール(大阪府豊能町)"
+      },
+      "raw": {
+        "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「高山右近音楽フェス2026」\n\n1部\n🎙13:10-13:35\n📸14:10-15:10\n\n2部\n🎙17:45-18:10\n📸19:15-20:15\n\n⟣date：8/22（土）\n⟣place :ユーベルホール（大阪府豊能町）\n⟣open/start：1部 10:15/11:00 2部15:20/16:00\n⟣price：各部Sエリア¥8,800 Aエリア¥6,600 https://t.co/YMUD0FWEYm",
+        "attachments": {
+          "media_keys": [
+            "3_2090764296657752065",
+            "3_2090764296674484224"
+          ]
+        },
+        "created_at": "2026-08-21T11:37:18.000Z",
+        "edit_history_tweet_ids": [
+          "2090765183736336746"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/YMUD0FWEYm",
+              "end": 233,
+              "expanded_url": "https://x.com/info_myojou/status/2090765183736336746/photo/1",
+              "media_key": "3_2090764296657752065",
+              "start": 210,
+              "url": "https://t.co/YMUD0FWEYm"
+            },
+            {
+              "display_url": "pic.x.com/YMUD0FWEYm",
+              "end": 233,
+              "expanded_url": "https://x.com/info_myojou/status/2090765183736336746/photo/1",
+              "media_key": "3_2090764296674484224",
+              "start": 210,
+              "url": "https://t.co/YMUD0FWEYm"
+            }
+          ]
+        },
+        "full_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「高山右近音楽フェス2026」\n\n1部\n🎙13:10-13:35\n📸14:10-15:10\n\n2部\n🎙17:45-18:10\n📸19:15-20:15\n\n⟣date：8/22（土）\n⟣place :ユーベルホール（大阪府豊能町）\n⟣open/start：1部 10:15/11:00 2部15:20/16:00\n⟣price：各部Sエリア¥8,800 Aエリア¥6,600\n⟣入場特典：明星カード（サインありチェキ）\n\n【チケット販売期間】\n7/12（日）22:00-8/21（金）23:00まで\n〈1部〉\n🔗https://t.co/XkIduIgUyQ\n〈2部〉\n🔗https://t.co/ASHc7cjf8X\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2090765183736336746",
+        "media": [
+          {
+            "height": 1076,
+            "media_key": "3_2090764296657752065",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HQPjDOta0AEe9Mz.jpg",
+            "width": 1522
+          },
+          {
+            "height": 1414,
+            "media_key": "3_2090764296674484224",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HQPjDOxaIAAq8gj.jpg",
+            "width": 2000
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 340,
+                "start": 333,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "tiget.net/events/491118",
+                "end": 301,
+                "expanded_url": "http://tiget.net/events/491118",
+                "start": 278,
+                "url": "https://t.co/XkIduIgUyQ"
+              },
+              {
+                "display_url": "tiget.net/events/501867",
+                "end": 331,
+                "expanded_url": "http://tiget.net/events/501867",
+                "start": 308,
+                "url": "https://t.co/ASHc7cjf8X"
+              }
+            ]
+          },
+          "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「高山右近音楽フェス2026」\n\n1部\n🎙13:10-13:35\n📸14:10-15:10\n\n2部\n🎙17:45-18:10\n📸19:15-20:15\n\n⟣date：8/22（土）\n⟣place :ユーベルホール（大阪府豊能町）\n⟣open/start：1部 10:15/11:00 2部15:20/16:00\n⟣price：各部Sエリア¥8,800 Aエリア¥6,600\n⟣入場特典：明星カード（サインありチェキ）\n\n【チケット販売期間】\n7/12（日）22:00-8/21（金）23:00まで\n〈1部〉\n🔗https://t.co/XkIduIgUyQ\n〈2部〉\n🔗https://t.co/ASHc7cjf8X\n\n#myojou"
+        },
+        "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「高山右近音楽フェス2026」\n\n1部\n🎙13:10-13:35\n📸14:10-15:10\n\n2部\n🎙17:45-18:10\n📸19:15-20:15\n\n⟣date：8/22（土）\n⟣place :ユーベルホール（大阪府豊能町）\n⟣open/start：1部 10:15/11:00 2部15:20/16:00\n⟣price：各部Sエリア¥8,800 Aエリア¥6,600 https://t.co/YMUD0FWEYm",
+        "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「高山右近音楽フェス2026」\n\n1部\n🎙13:10-13:35\n📸14:10-15:10\n\n2部\n🎙17:45-18:10\n📸19:15-20:15\n\n⟣date：8/22（土）\n⟣place :ユーベルホール（大阪府豊能町）\n⟣open/start：1部 10:15/11:00 2部15:20/16:00\n⟣price：各部Sエリア¥8,800 Aエリア¥6,600 https://t.co/YMUD0FWEYm"
+      },
+      "referenced_tweets": [],
+      "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「高山右近音楽フェス2026」\n\n1部\n🎙13:10-13:35\n📸14:10-15:10\n\n2部\n🎙17:45-18:10\n📸19:15-20:15\n\n⟣date：8/22（土）\n⟣place :ユーベルホール（大阪府豊能町）\n⟣open/start：1部 10:15/11:00 2部15:20/16:00\n⟣price：各部Sエリア¥8,800 Aエリア¥6,600\n⟣入場特典：明星カード（サインありチェキ）\n\n【チケット販売期間】\n7/12（日）22:00-8/21（金）23:00まで\n〈1部〉\n🔗https://t.co/XkIduIgUyQ\n〈2部〉\n🔗https://t.co/ASHc7cjf8X\n\n#myojou",
+      "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「高山右近音楽フェス2026」\n\n1部\n🎙13:10-13:35\n📸14:10-15:10\n\n2部\n🎙17:45-18:10\n📸19:15-20:15\n\n⟣date：8/22（土）\n⟣place :ユーベルホール（大阪府豊能町）\n⟣open/start：1部 10:15/11:00 2部15:20/16:00\n⟣price：各部Sエリア¥8,800 Aエリア¥6,600 https://t.co/YMUD0FWEYm",
+      "url": "https://x.com/info_myojou/status/2090765183736336746"
+    },
+    {
+      "api_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n                   俺フェス！ Vol.2\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「俺フェス！ Vol.2」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka \n栗原ここね@myojou_cocone https://t.co/L3W0ujdWBa",
+      "attachments": {
+        "media_keys": [
+          "3_2090763633731280897"
+        ]
+      },
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "profile/member introduction",
+        "source_kind": "other"
+      },
+      "created_at": "2026-08-21T11:31:12+00:00",
+      "entities": {
+        "mentions": [
+          {
+            "end": 168,
+            "id": "1981655668626165760",
+            "start": 156,
+            "username": "myojou_ruka"
+          },
+          {
+            "end": 189,
+            "id": "1590652199407083520",
+            "start": 175,
+            "username": "myojou_cocone"
+          }
+        ],
+        "urls": [
+          {
+            "display_url": "pic.x.com/L3W0ujdWBa",
+            "end": 213,
+            "expanded_url": "https://x.com/info_myojou/status/2090763647639572758/photo/1",
+            "media_key": "3_2090763633731280897",
+            "start": 190,
+            "url": "https://t.co/L3W0ujdWBa"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2090763647639572758",
+      "media": [
+        {
+          "alt_text": "M1,CHRONOS\nM2,夏、空模様\nM3,星景讃歌\nM4,軌跡まで\nM5,アンチコンプリート",
+          "height": 3072,
+          "media_key": "3_2090763633731280897",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HQPicpHboAEnkt7.jpg",
+          "width": 4096
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 288,
+              "start": 281,
+              "tag": "myojou"
+            }
+          ],
+          "mentions": [
+            {
+              "end": 168,
+              "id": "1981655668626165760",
+              "start": 156,
+              "username": "myojou_ruka"
+            },
+            {
+              "end": 189,
+              "id": "1590652199407083520",
+              "start": 175,
+              "username": "myojou_cocone"
+            },
+            {
+              "end": 208,
+              "id": "1754991922807177216",
+              "start": 195,
+              "username": "myojou_shino"
+            },
+            {
+              "end": 225,
+              "id": "2009245855694675968",
+              "start": 214,
+              "username": "myojou_miu"
+            },
+            {
+              "end": 242,
+              "id": "2009274765895450624",
+              "start": 231,
+              "username": "myojou_yun"
+            },
+            {
+              "end": 263,
+              "id": "1344586625901158401",
+              "start": 248,
+              "username": "myojou_usukura"
+            }
+          ]
+        },
+        "text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n                   俺フェス！ Vol.2\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「俺フェス！ Vol.2」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka \n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n日陽みう@myojou_miu \n澪奈ゆん@myojou_yun \n薄倉りな@myojou_usukura \n\nSETLIST▶︎ALT\n\n #myojou"
+      },
+      "parsed_fields": null,
+      "raw": {
+        "api_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n                   俺フェス！ Vol.2\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「俺フェス！ Vol.2」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka \n栗原ここね@myojou_cocone https://t.co/L3W0ujdWBa",
+        "attachments": {
+          "media_keys": [
+            "3_2090763633731280897"
+          ]
+        },
+        "created_at": "2026-08-21T11:31:12.000Z",
+        "edit_history_tweet_ids": [
+          "2090763647639572758"
+        ],
+        "entities": {
+          "mentions": [
+            {
+              "end": 168,
+              "id": "1981655668626165760",
+              "start": 156,
+              "username": "myojou_ruka"
+            },
+            {
+              "end": 189,
+              "id": "1590652199407083520",
+              "start": 175,
+              "username": "myojou_cocone"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "pic.x.com/L3W0ujdWBa",
+              "end": 213,
+              "expanded_url": "https://x.com/info_myojou/status/2090763647639572758/photo/1",
+              "media_key": "3_2090763633731280897",
+              "start": 190,
+              "url": "https://t.co/L3W0ujdWBa"
+            }
+          ]
+        },
+        "full_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n                   俺フェス！ Vol.2\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「俺フェス！ Vol.2」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka \n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n日陽みう@myojou_miu \n澪奈ゆん@myojou_yun \n薄倉りな@myojou_usukura \n\nSETLIST▶︎ALT\n\n #myojou",
+        "full_text_source": "note_tweet",
+        "id": "2090763647639572758",
+        "media": [
+          {
+            "alt_text": "M1,CHRONOS\nM2,夏、空模様\nM3,星景讃歌\nM4,軌跡まで\nM5,アンチコンプリート",
+            "height": 3072,
+            "media_key": "3_2090763633731280897",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HQPicpHboAEnkt7.jpg",
+            "width": 4096
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 288,
+                "start": 281,
+                "tag": "myojou"
+              }
+            ],
+            "mentions": [
+              {
+                "end": 168,
+                "id": "1981655668626165760",
+                "start": 156,
+                "username": "myojou_ruka"
+              },
+              {
+                "end": 189,
+                "id": "1590652199407083520",
+                "start": 175,
+                "username": "myojou_cocone"
+              },
+              {
+                "end": 208,
+                "id": "1754991922807177216",
+                "start": 195,
+                "username": "myojou_shino"
+              },
+              {
+                "end": 225,
+                "id": "2009245855694675968",
+                "start": 214,
+                "username": "myojou_miu"
+              },
+              {
+                "end": 242,
+                "id": "2009274765895450624",
+                "start": 231,
+                "username": "myojou_yun"
+              },
+              {
+                "end": 263,
+                "id": "1344586625901158401",
+                "start": 248,
+                "username": "myojou_usukura"
+              }
+            ]
+          },
+          "text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n                   俺フェス！ Vol.2\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「俺フェス！ Vol.2」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka \n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n日陽みう@myojou_miu \n澪奈ゆん@myojou_yun \n薄倉りな@myojou_usukura \n\nSETLIST▶︎ALT\n\n #myojou"
+        },
+        "text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n                   俺フェス！ Vol.2\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「俺フェス！ Vol.2」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka \n栗原ここね@myojou_cocone https://t.co/L3W0ujdWBa",
+        "truncated_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n                   俺フェス！ Vol.2\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「俺フェス！ Vol.2」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka \n栗原ここね@myojou_cocone https://t.co/L3W0ujdWBa"
+      },
+      "referenced_tweets": [],
+      "text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n                   俺フェス！ Vol.2\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「俺フェス！ Vol.2」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka \n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n日陽みう@myojou_miu \n澪奈ゆん@myojou_yun \n薄倉りな@myojou_usukura \n\nSETLIST▶︎ALT\n\n #myojou",
+      "truncated_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n                   俺フェス！ Vol.2\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「俺フェス！ Vol.2」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka \n栗原ここね@myojou_cocone https://t.co/L3W0ujdWBa",
+      "url": "https://x.com/info_myojou/status/2090763647639572758"
+    },
+    {
+      "api_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n 「俺フェス！ Vol.2」\n\n🎙18:15-18:35\n📸18:45-19:45 C\n\n⟣date：8/21（金）\n⟣place : 白金高輪SELENE b2\n⟣open/start：16:00/16:30\n⟣price：前方¥5,000/一般¥2,000/当日券 各+¥500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n #myojou https://t.co/Z4zX7erCMz",
+      "attachments": {
+        "media_keys": [
+          "3_2090586585020637184"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "same_day_reminder"
+      },
+      "created_at": "2026-08-20T23:47:39+00:00",
+      "entities": {
+        "hashtags": [
+          {
+            "end": 202,
+            "start": 195,
+            "tag": "myojou"
+          }
+        ],
+        "urls": [
+          {
+            "display_url": "pic.x.com/Z4zX7erCMz",
+            "end": 226,
+            "expanded_url": "https://x.com/info_myojou/status/2090586592318796031/photo/1",
+            "media_key": "3_2090586585020637184",
+            "start": 203,
+            "url": "https://t.co/Z4zX7erCMz"
+          }
+        ]
+      },
+      "full_text_source": "text",
+      "id": "2090586592318796031",
+      "media": [
+        {
+          "height": 2048,
+          "media_key": "3_2090586585020637184",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HQNBbDRaIAAuBMU.jpg",
+          "width": 1448
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": null,
+      "parsed_fields": {
+        "benefit_event_time": "18:45-19:45",
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-08-21",
+        "event_dates": [
+          "2026-08-21"
+        ],
+        "event_name": "俺フェス! Vol.2",
+        "extraction_confidence": 0.95,
+        "general_ticket_price": 2000,
+        "lottery_result_at": null,
+        "myojou_performance_time": "18:15-18:35",
+        "notes": "ドリンク代: 各+1D\n⟣入場特典:明星カード(サインありチェキ)",
+        "open_time": "16:00",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "前方",
+        "priority_ticket_price": 5000,
+        "same_day_ticket_price": 500,
+        "source_kind": "same_day_reminder",
+        "source_post_id": "2090586592318796031",
+        "source_posted_at": "2026-08-20T23:47:39Z",
+        "source_raw": {
+          "api_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n 「俺フェス！ Vol.2」\n\n🎙18:15-18:35\n📸18:45-19:45 C\n\n⟣date：8/21（金）\n⟣place : 白金高輪SELENE b2\n⟣open/start：16:00/16:30\n⟣price：前方¥5,000/一般¥2,000/当日券 各+¥500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n #myojou https://t.co/Z4zX7erCMz",
+          "attachments": {
+            "media_keys": [
+              "3_2090586585020637184"
+            ]
+          },
+          "created_at": "2026-08-20T23:47:39.000Z",
+          "edit_history_tweet_ids": [
+            "2090586592318796031"
+          ],
+          "entities": {
+            "hashtags": [
+              {
+                "end": 202,
+                "start": 195,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "pic.x.com/Z4zX7erCMz",
+                "end": 226,
+                "expanded_url": "https://x.com/info_myojou/status/2090586592318796031/photo/1",
+                "media_key": "3_2090586585020637184",
+                "start": 203,
+                "url": "https://t.co/Z4zX7erCMz"
+              }
+            ]
+          },
+          "full_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n 「俺フェス！ Vol.2」\n\n🎙18:15-18:35\n📸18:45-19:45 C\n\n⟣date：8/21（金）\n⟣place : 白金高輪SELENE b2\n⟣open/start：16:00/16:30\n⟣price：前方¥5,000/一般¥2,000/当日券 各+¥500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n #myojou https://t.co/Z4zX7erCMz",
+          "full_text_source": "text",
+          "id": "2090586592318796031",
+          "media": [
+            {
+              "height": 2048,
+              "media_key": "3_2090586585020637184",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HQNBbDRaIAAuBMU.jpg",
+              "width": 1448
+            }
+          ],
+          "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n 「俺フェス！ Vol.2」\n\n🎙18:15-18:35\n📸18:45-19:45 C\n\n⟣date：8/21（金）\n⟣place : 白金高輪SELENE b2\n⟣open/start：16:00/16:30\n⟣price：前方¥5,000/一般¥2,000/当日券 各+¥500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n #myojou https://t.co/Z4zX7erCMz",
+          "truncated_text": null
+        },
+        "source_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n 「俺フェス！ Vol.2」\n\n🎙18:15-18:35\n📸18:45-19:45 C\n\n⟣date：8/21（金）\n⟣place : 白金高輪SELENE b2\n⟣open/start：16:00/16:30\n⟣price：前方¥5,000/一般¥2,000/当日券 各+¥500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n #myojou https://t.co/Z4zX7erCMz",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2090586592318796031",
+        "start_time": "16:30",
+        "ticket_application_deadline_at": null,
+        "ticket_application_start_at": null,
+        "ticket_sale_type": "当日券",
+        "ticket_sales": [
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 5000,
+            "result_at": null,
+            "sale_type": "当日券",
+            "source_post_id": "2090586592318796031",
+            "source_url": "https://x.com/info_myojou/status/2090586592318796031",
+            "start_at": null,
+            "status": "不明",
+            "ticket_name": "前方",
+            "ticket_tier": "前方"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 2000,
+            "result_at": null,
+            "sale_type": "当日券",
+            "source_post_id": "2090586592318796031",
+            "source_url": "https://x.com/info_myojou/status/2090586592318796031",
+            "start_at": null,
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": null,
+        "venue": "白金高輪SELENE b2"
+      },
+      "raw": {
+        "api_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n 「俺フェス！ Vol.2」\n\n🎙18:15-18:35\n📸18:45-19:45 C\n\n⟣date：8/21（金）\n⟣place : 白金高輪SELENE b2\n⟣open/start：16:00/16:30\n⟣price：前方¥5,000/一般¥2,000/当日券 各+¥500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n #myojou https://t.co/Z4zX7erCMz",
+        "attachments": {
+          "media_keys": [
+            "3_2090586585020637184"
+          ]
+        },
+        "created_at": "2026-08-20T23:47:39.000Z",
+        "edit_history_tweet_ids": [
+          "2090586592318796031"
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "end": 202,
+              "start": 195,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "pic.x.com/Z4zX7erCMz",
+              "end": 226,
+              "expanded_url": "https://x.com/info_myojou/status/2090586592318796031/photo/1",
+              "media_key": "3_2090586585020637184",
+              "start": 203,
+              "url": "https://t.co/Z4zX7erCMz"
+            }
+          ]
+        },
+        "full_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n 「俺フェス！ Vol.2」\n\n🎙18:15-18:35\n📸18:45-19:45 C\n\n⟣date：8/21（金）\n⟣place : 白金高輪SELENE b2\n⟣open/start：16:00/16:30\n⟣price：前方¥5,000/一般¥2,000/当日券 各+¥500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n #myojou https://t.co/Z4zX7erCMz",
+        "full_text_source": "text",
+        "id": "2090586592318796031",
+        "media": [
+          {
+            "height": 2048,
+            "media_key": "3_2090586585020637184",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HQNBbDRaIAAuBMU.jpg",
+            "width": 1448
+          }
+        ],
+        "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n 「俺フェス！ Vol.2」\n\n🎙18:15-18:35\n📸18:45-19:45 C\n\n⟣date：8/21（金）\n⟣place : 白金高輪SELENE b2\n⟣open/start：16:00/16:30\n⟣price：前方¥5,000/一般¥2,000/当日券 各+¥500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n #myojou https://t.co/Z4zX7erCMz",
+        "truncated_text": null
+      },
+      "referenced_tweets": [],
+      "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n 「俺フェス！ Vol.2」\n\n🎙18:15-18:35\n📸18:45-19:45 C\n\n⟣date：8/21（金）\n⟣place : 白金高輪SELENE b2\n⟣open/start：16:00/16:30\n⟣price：前方¥5,000/一般¥2,000/当日券 各+¥500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n #myojou https://t.co/Z4zX7erCMz",
+      "truncated_text": null,
+      "url": "https://x.com/info_myojou/status/2090586592318796031"
+    },
+    {
       "api_text": "✮••┈┈┈┈┈┈┈┈┈┈••✮\n                 楽曲公開 \n             \"夏、空模様\"\n✮••┈┈┈┈┈┈┈┈┈┈••✮\n\n2026.8.21より順次配信開始\n🔗 https://t.co/Um81qXeQb7\n\n #myojou https://t.co/syKlvQwH7A",
       "attachments": {
         "media_keys": [
@@ -162432,7 +163434,7 @@
     "backfill": true,
     "dry_run": true,
     "estimated_x_post_reads": 411,
-    "latest_post_id": "2090432274768752845",
+    "latest_post_id": "2090784744153952560",
     "max_pages": 10,
     "max_posts": 500,
     "max_results": 5,
@@ -162475,16 +163477,16 @@
       }
     ],
     "pages_fetched": 5,
-    "posts_fetched": 744,
+    "posts_fetched": 748,
     "rate_limit_headers": {
       "x-rate-limit-limit": "10000",
       "x-rate-limit-remaining": "9993",
       "x-rate-limit-reset": "1781108896"
     },
-    "total_posts": 744,
-    "updated_at": "2026-08-20T19:34:08.663268+00:00",
+    "total_posts": 748,
+    "updated_at": "2026-08-21T19:28:15.566378+00:00",
     "username": "info_myojou"
   },
   "source": "x_api",
-  "updated_at": "2026-08-20T19:34:08.663268+00:00"
+  "updated_at": "2026-08-21T19:28:15.566378+00:00"
 }
