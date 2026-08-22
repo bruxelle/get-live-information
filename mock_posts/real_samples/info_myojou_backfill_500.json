@@ -2,6 +2,1357 @@
   "captured_at": "2026-06-10T16:19:36.141820+00:00",
   "data": [
     {
+      "api_text": "【物販・特典会について】\n\n・混雑緩和のため、栗原ここねの撮影は、1枚出しの枚数に制限を設けさせていただきます。状況により、スタッフより追加の枚数制限をお願いする場合がございます。スタッフの指示に従っていただきますよう、ご理解・ご協力をお願いいたします。 https://t.co/AGDNyRKc8d",
+      "attachments": {},
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "strong non-event keyword without live structure",
+        "source_kind": "ticket_update"
+      },
+      "created_at": "2026-08-22T14:28:24+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "x.com/info_myojou/st…",
+            "end": 151,
+            "expanded_url": "https://twitter.com/info_myojou/status/2091159042748231698",
+            "start": 128,
+            "url": "https://t.co/AGDNyRKc8d"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2091170626979717484",
+      "media": [],
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "note_tweet": {
+        "text": "【物販・特典会について】\n\n・混雑緩和のため、栗原ここねの撮影は、1枚出しの枚数に制限を設けさせていただきます。状況により、スタッフより追加の枚数制限をお願いする場合がございます。スタッフの指示に従っていただきますよう、ご理解・ご協力をお願いいたします。\n\n・混雑緩和のため、栗原ここねの特典会でご使用いただける特典券は、以下のものに限らせていただきます。\n「当日購入のチェキ券」\n「スタンプカード特典10秒動画券」\n「スタンプカード特典写メ券」\n\n・開場中物販を実施いたします。開場中は、特典券・グッズ・限定グッズくじを販売いたします。\n多くのご来場者様にお楽しみいただけるよう、開場中物販では以下の購入制限を設けさせていただきます。\n※事前特典会の実施はございませんので、ご注意ください。\n\n■特典券\n栗原ここねのみ、1会計につき5枚まで\n\n■グッズ\n全てのグッズ、1会計につき各1個まで\n※「色白×丸顔×もちもち×童顔 BIGアクリルキーホルダー」「生誕衣装アクリルスタンド」は引換券をお渡しし、終演後に商品と引き換えさせていただきます。\n\n■限定グッズくじ\n購入制限なし\n※「A賞 サイン入り限定フォトパネル」「C賞 ランダムめじるしチャーム」「D賞 ランダムアクリルキーホルダー」「E賞 ランダムブロマイド3枚セット」「ラストワン賞 サイン入り等身大パネル」は引換券をお渡しし、終演後に商品と引き換えさせていただきます。\n\n・ラストワン賞の引き換えは、20:30より開始いたします。"
+      },
+      "parsed_fields": null,
+      "raw": {
+        "api_text": "【物販・特典会について】\n\n・混雑緩和のため、栗原ここねの撮影は、1枚出しの枚数に制限を設けさせていただきます。状況により、スタッフより追加の枚数制限をお願いする場合がございます。スタッフの指示に従っていただきますよう、ご理解・ご協力をお願いいたします。 https://t.co/AGDNyRKc8d",
+        "created_at": "2026-08-22T14:28:24.000Z",
+        "edit_history_tweet_ids": [
+          "2091170626979717484"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "x.com/info_myojou/st…",
+              "end": 151,
+              "expanded_url": "https://twitter.com/info_myojou/status/2091159042748231698",
+              "start": 128,
+              "url": "https://t.co/AGDNyRKc8d"
+            }
+          ]
+        },
+        "full_text": "【物販・特典会について】\n\n・混雑緩和のため、栗原ここねの撮影は、1枚出しの枚数に制限を設けさせていただきます。状況により、スタッフより追加の枚数制限をお願いする場合がございます。スタッフの指示に従っていただきますよう、ご理解・ご協力をお願いいたします。\n\n・混雑緩和のため、栗原ここねの特典会でご使用いただける特典券は、以下のものに限らせていただきます。\n「当日購入のチェキ券」\n「スタンプカード特典10秒動画券」\n「スタンプカード特典写メ券」\n\n・開場中物販を実施いたします。開場中は、特典券・グッズ・限定グッズくじを販売いたします。\n多くのご来場者様にお楽しみいただけるよう、開場中物販では以下の購入制限を設けさせていただきます。\n※事前特典会の実施はございませんので、ご注意ください。\n\n■特典券\n栗原ここねのみ、1会計につき5枚まで\n\n■グッズ\n全てのグッズ、1会計につき各1個まで\n※「色白×丸顔×もちもち×童顔 BIGアクリルキーホルダー」「生誕衣装アクリルスタンド」は引換券をお渡しし、終演後に商品と引き換えさせていただきます。\n\n■限定グッズくじ\n購入制限なし\n※「A賞 サイン入り限定フォトパネル」「C賞 ランダムめじるしチャーム」「D賞 ランダムアクリルキーホルダー」「E賞 ランダムブロマイド3枚セット」「ラストワン賞 サイン入り等身大パネル」は引換券をお渡しし、終演後に商品と引き換えさせていただきます。\n\n・ラストワン賞の引き換えは、20:30より開始いたします。",
+        "full_text_source": "note_tweet",
+        "id": "2091170626979717484",
+        "note_tweet": {
+          "text": "【物販・特典会について】\n\n・混雑緩和のため、栗原ここねの撮影は、1枚出しの枚数に制限を設けさせていただきます。状況により、スタッフより追加の枚数制限をお願いする場合がございます。スタッフの指示に従っていただきますよう、ご理解・ご協力をお願いいたします。\n\n・混雑緩和のため、栗原ここねの特典会でご使用いただける特典券は、以下のものに限らせていただきます。\n「当日購入のチェキ券」\n「スタンプカード特典10秒動画券」\n「スタンプカード特典写メ券」\n\n・開場中物販を実施いたします。開場中は、特典券・グッズ・限定グッズくじを販売いたします。\n多くのご来場者様にお楽しみいただけるよう、開場中物販では以下の購入制限を設けさせていただきます。\n※事前特典会の実施はございませんので、ご注意ください。\n\n■特典券\n栗原ここねのみ、1会計につき5枚まで\n\n■グッズ\n全てのグッズ、1会計につき各1個まで\n※「色白×丸顔×もちもち×童顔 BIGアクリルキーホルダー」「生誕衣装アクリルスタンド」は引換券をお渡しし、終演後に商品と引き換えさせていただきます。\n\n■限定グッズくじ\n購入制限なし\n※「A賞 サイン入り限定フォトパネル」「C賞 ランダムめじるしチャーム」「D賞 ランダムアクリルキーホルダー」「E賞 ランダムブロマイド3枚セット」「ラストワン賞 サイン入り等身大パネル」は引換券をお渡しし、終演後に商品と引き換えさせていただきます。\n\n・ラストワン賞の引き換えは、20:30より開始いたします。"
+        },
+        "referenced_tweets": [
+          {
+            "id": "2091159042748231698",
+            "type": "quoted"
+          }
+        ],
+        "text": "【物販・特典会について】\n\n・混雑緩和のため、栗原ここねの撮影は、1枚出しの枚数に制限を設けさせていただきます。状況により、スタッフより追加の枚数制限をお願いする場合がございます。スタッフの指示に従っていただきますよう、ご理解・ご協力をお願いいたします。 https://t.co/AGDNyRKc8d",
+        "truncated_text": "【物販・特典会について】\n\n・混雑緩和のため、栗原ここねの撮影は、1枚出しの枚数に制限を設けさせていただきます。状況により、スタッフより追加の枚数制限をお願いする場合がございます。スタッフの指示に従っていただきますよう、ご理解・ご協力をお願いいたします。 https://t.co/AGDNyRKc8d"
+      },
+      "referenced_tweets": [
+        {
+          "id": "2091159042748231698",
+          "type": "quoted"
+        }
+      ],
+      "text": "【物販・特典会について】\n\n・混雑緩和のため、栗原ここねの撮影は、1枚出しの枚数に制限を設けさせていただきます。状況により、スタッフより追加の枚数制限をお願いする場合がございます。スタッフの指示に従っていただきますよう、ご理解・ご協力をお願いいたします。\n\n・混雑緩和のため、栗原ここねの特典会でご使用いただける特典券は、以下のものに限らせていただきます。\n「当日購入のチェキ券」\n「スタンプカード特典10秒動画券」\n「スタンプカード特典写メ券」\n\n・開場中物販を実施いたします。開場中は、特典券・グッズ・限定グッズくじを販売いたします。\n多くのご来場者様にお楽しみいただけるよう、開場中物販では以下の購入制限を設けさせていただきます。\n※事前特典会の実施はございませんので、ご注意ください。\n\n■特典券\n栗原ここねのみ、1会計につき5枚まで\n\n■グッズ\n全てのグッズ、1会計につき各1個まで\n※「色白×丸顔×もちもち×童顔 BIGアクリルキーホルダー」「生誕衣装アクリルスタンド」は引換券をお渡しし、終演後に商品と引き換えさせていただきます。\n\n■限定グッズくじ\n購入制限なし\n※「A賞 サイン入り限定フォトパネル」「C賞 ランダムめじるしチャーム」「D賞 ランダムアクリルキーホルダー」「E賞 ランダムブロマイド3枚セット」「ラストワン賞 サイン入り等身大パネル」は引換券をお渡しし、終演後に商品と引き換えさせていただきます。\n\n・ラストワン賞の引き換えは、20:30より開始いたします。",
+      "truncated_text": "【物販・特典会について】\n\n・混雑緩和のため、栗原ここねの撮影は、1枚出しの枚数に制限を設けさせていただきます。状況により、スタッフより追加の枚数制限をお願いする場合がございます。スタッフの指示に従っていただきますよう、ご理解・ご協力をお願いいたします。 https://t.co/AGDNyRKc8d",
+      "url": "https://x.com/info_myojou/status/2091170626979717484"
+    },
+    {
+      "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「ここちゃんのお誕生日会」\n\n⟣date：8/23（日）\n⟣place : 下北沢シャングリラ\n⟣open/start：18:00/18:30\n⟣price：VIP¥6,000/一般¥1,000（各+1D）\n\n【一般受付期間】\n8/8（土）22:00-8/22（土）23:59\n🔗 https://t.co/UaZqe50EFE\n\n#myojou https://t.co/KkISAvK8nS",
+      "attachments": {
+        "media_keys": [
+          "3_2091159031385882624",
+          "3_2091159031364898816",
+          "3_2091159031377440768"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "day_before_reminder"
+      },
+      "created_at": "2026-08-22T13:42:22+00:00",
+      "entities": {
+        "hashtags": [
+          {
+            "end": 196,
+            "start": 189,
+            "tag": "myojou"
+          }
+        ],
+        "urls": [
+          {
+            "description": "【日付】2026/08/23 【場所】下北沢シャングリラ 【出演者】myojou",
+            "display_url": "t-dv.com/myojou_0823",
+            "end": 187,
+            "expanded_url": "http://t-dv.com/myojou_0823",
+            "start": 164,
+            "status": 200,
+            "title": "ここちゃんのお誕生日会 | TicketDive",
+            "unwound_url": "https://ticketdive.com/event/myojou_0823",
+            "url": "https://t.co/UaZqe50EFE"
+          },
+          {
+            "display_url": "pic.x.com/KkISAvK8nS",
+            "end": 220,
+            "expanded_url": "https://x.com/info_myojou/status/2091159042748231698/photo/1",
+            "media_key": "3_2091159031385882624",
+            "start": 197,
+            "url": "https://t.co/KkISAvK8nS"
+          },
+          {
+            "display_url": "pic.x.com/KkISAvK8nS",
+            "end": 220,
+            "expanded_url": "https://x.com/info_myojou/status/2091159042748231698/photo/1",
+            "media_key": "3_2091159031364898816",
+            "start": 197,
+            "url": "https://t.co/KkISAvK8nS"
+          },
+          {
+            "display_url": "pic.x.com/KkISAvK8nS",
+            "end": 220,
+            "expanded_url": "https://x.com/info_myojou/status/2091159042748231698/photo/1",
+            "media_key": "3_2091159031377440768",
+            "start": 197,
+            "url": "https://t.co/KkISAvK8nS"
+          }
+        ]
+      },
+      "full_text_source": "text",
+      "id": "2091159042748231698",
+      "media": [
+        {
+          "height": 1848,
+          "media_key": "3_2091159031385882624",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HQVKD0KbAAA8aW6.jpg",
+          "width": 1320
+        },
+        {
+          "height": 2435,
+          "media_key": "3_2091159031364898816",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HQVKD0Fa0AASQKf.jpg",
+          "width": 1722
+        },
+        {
+          "height": 2481,
+          "media_key": "3_2091159031377440768",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HQVKD0IaMAA_4XD.jpg",
+          "width": 3508
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": null,
+      "parsed_fields": {
+        "benefit_event_time": null,
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-08-23",
+        "event_dates": [
+          "2026-08-23"
+        ],
+        "event_name": "ここちゃんのお誕生日会",
+        "extraction_confidence": 0.95,
+        "general_ticket_price": 1000,
+        "lottery_result_at": null,
+        "myojou_performance_time": null,
+        "notes": "ドリンク代: 各+1D",
+        "open_time": "18:00",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "VIP",
+        "priority_ticket_price": 6000,
+        "same_day_ticket_price": null,
+        "source_kind": "day_before_reminder",
+        "source_post_id": "2091159042748231698",
+        "source_posted_at": "2026-08-22T13:42:22Z",
+        "source_raw": {
+          "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「ここちゃんのお誕生日会」\n\n⟣date：8/23（日）\n⟣place : 下北沢シャングリラ\n⟣open/start：18:00/18:30\n⟣price：VIP¥6,000/一般¥1,000（各+1D）\n\n【一般受付期間】\n8/8（土）22:00-8/22（土）23:59\n🔗 https://t.co/UaZqe50EFE\n\n#myojou https://t.co/KkISAvK8nS",
+          "attachments": {
+            "media_keys": [
+              "3_2091159031385882624",
+              "3_2091159031364898816",
+              "3_2091159031377440768"
+            ]
+          },
+          "created_at": "2026-08-22T13:42:22.000Z",
+          "edit_history_tweet_ids": [
+            "2091159042748231698"
+          ],
+          "entities": {
+            "hashtags": [
+              {
+                "end": 196,
+                "start": 189,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "description": "【日付】2026/08/23 【場所】下北沢シャングリラ 【出演者】myojou",
+                "display_url": "t-dv.com/myojou_0823",
+                "end": 187,
+                "expanded_url": "http://t-dv.com/myojou_0823",
+                "start": 164,
+                "status": 200,
+                "title": "ここちゃんのお誕生日会 | TicketDive",
+                "unwound_url": "https://ticketdive.com/event/myojou_0823",
+                "url": "https://t.co/UaZqe50EFE"
+              },
+              {
+                "display_url": "pic.x.com/KkISAvK8nS",
+                "end": 220,
+                "expanded_url": "https://x.com/info_myojou/status/2091159042748231698/photo/1",
+                "media_key": "3_2091159031385882624",
+                "start": 197,
+                "url": "https://t.co/KkISAvK8nS"
+              },
+              {
+                "display_url": "pic.x.com/KkISAvK8nS",
+                "end": 220,
+                "expanded_url": "https://x.com/info_myojou/status/2091159042748231698/photo/1",
+                "media_key": "3_2091159031364898816",
+                "start": 197,
+                "url": "https://t.co/KkISAvK8nS"
+              },
+              {
+                "display_url": "pic.x.com/KkISAvK8nS",
+                "end": 220,
+                "expanded_url": "https://x.com/info_myojou/status/2091159042748231698/photo/1",
+                "media_key": "3_2091159031377440768",
+                "start": 197,
+                "url": "https://t.co/KkISAvK8nS"
+              }
+            ]
+          },
+          "full_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「ここちゃんのお誕生日会」\n\n⟣date：8/23（日）\n⟣place : 下北沢シャングリラ\n⟣open/start：18:00/18:30\n⟣price：VIP¥6,000/一般¥1,000（各+1D）\n\n【一般受付期間】\n8/8（土）22:00-8/22（土）23:59\n🔗 https://t.co/UaZqe50EFE\n\n#myojou https://t.co/KkISAvK8nS",
+          "full_text_source": "text",
+          "id": "2091159042748231698",
+          "media": [
+            {
+              "height": 1848,
+              "media_key": "3_2091159031385882624",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HQVKD0KbAAA8aW6.jpg",
+              "width": 1320
+            },
+            {
+              "height": 2435,
+              "media_key": "3_2091159031364898816",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HQVKD0Fa0AASQKf.jpg",
+              "width": 1722
+            },
+            {
+              "height": 2481,
+              "media_key": "3_2091159031377440768",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HQVKD0IaMAA_4XD.jpg",
+              "width": 3508
+            }
+          ],
+          "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「ここちゃんのお誕生日会」\n\n⟣date：8/23（日）\n⟣place : 下北沢シャングリラ\n⟣open/start：18:00/18:30\n⟣price：VIP¥6,000/一般¥1,000（各+1D）\n\n【一般受付期間】\n8/8（土）22:00-8/22（土）23:59\n🔗 https://t.co/UaZqe50EFE\n\n#myojou https://t.co/KkISAvK8nS",
+          "truncated_text": null
+        },
+        "source_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「ここちゃんのお誕生日会」\n\n⟣date：8/23（日）\n⟣place : 下北沢シャングリラ\n⟣open/start：18:00/18:30\n⟣price：VIP¥6,000/一般¥1,000（各+1D）\n\n【一般受付期間】\n8/8（土）22:00-8/22（土）23:59\n🔗 https://t.co/UaZqe50EFE\n\n#myojou https://t.co/KkISAvK8nS",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2091159042748231698",
+        "start_time": "18:30",
+        "ticket_application_deadline_at": "2026-08-22T23:59:00+09:00",
+        "ticket_application_start_at": "2026-08-08T22:00:00+09:00",
+        "ticket_sale_type": "一般",
+        "ticket_sales": [
+          {
+            "deadline_at": "2026-08-22T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 6000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2091159042748231698",
+            "source_url": "https://x.com/info_myojou/status/2091159042748231698",
+            "start_at": "2026-08-08T22:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "VIP",
+            "ticket_tier": "VIP"
+          },
+          {
+            "deadline_at": "2026-08-22T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 1000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2091159042748231698",
+            "source_url": "https://x.com/info_myojou/status/2091159042748231698",
+            "start_at": "2026-08-08T22:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "http://t-dv.com/myojou_0823",
+        "venue": "下北沢シャングリラ"
+      },
+      "raw": {
+        "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「ここちゃんのお誕生日会」\n\n⟣date：8/23（日）\n⟣place : 下北沢シャングリラ\n⟣open/start：18:00/18:30\n⟣price：VIP¥6,000/一般¥1,000（各+1D）\n\n【一般受付期間】\n8/8（土）22:00-8/22（土）23:59\n🔗 https://t.co/UaZqe50EFE\n\n#myojou https://t.co/KkISAvK8nS",
+        "attachments": {
+          "media_keys": [
+            "3_2091159031385882624",
+            "3_2091159031364898816",
+            "3_2091159031377440768"
+          ]
+        },
+        "created_at": "2026-08-22T13:42:22.000Z",
+        "edit_history_tweet_ids": [
+          "2091159042748231698"
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "end": 196,
+              "start": 189,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "description": "【日付】2026/08/23 【場所】下北沢シャングリラ 【出演者】myojou",
+              "display_url": "t-dv.com/myojou_0823",
+              "end": 187,
+              "expanded_url": "http://t-dv.com/myojou_0823",
+              "start": 164,
+              "status": 200,
+              "title": "ここちゃんのお誕生日会 | TicketDive",
+              "unwound_url": "https://ticketdive.com/event/myojou_0823",
+              "url": "https://t.co/UaZqe50EFE"
+            },
+            {
+              "display_url": "pic.x.com/KkISAvK8nS",
+              "end": 220,
+              "expanded_url": "https://x.com/info_myojou/status/2091159042748231698/photo/1",
+              "media_key": "3_2091159031385882624",
+              "start": 197,
+              "url": "https://t.co/KkISAvK8nS"
+            },
+            {
+              "display_url": "pic.x.com/KkISAvK8nS",
+              "end": 220,
+              "expanded_url": "https://x.com/info_myojou/status/2091159042748231698/photo/1",
+              "media_key": "3_2091159031364898816",
+              "start": 197,
+              "url": "https://t.co/KkISAvK8nS"
+            },
+            {
+              "display_url": "pic.x.com/KkISAvK8nS",
+              "end": 220,
+              "expanded_url": "https://x.com/info_myojou/status/2091159042748231698/photo/1",
+              "media_key": "3_2091159031377440768",
+              "start": 197,
+              "url": "https://t.co/KkISAvK8nS"
+            }
+          ]
+        },
+        "full_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「ここちゃんのお誕生日会」\n\n⟣date：8/23（日）\n⟣place : 下北沢シャングリラ\n⟣open/start：18:00/18:30\n⟣price：VIP¥6,000/一般¥1,000（各+1D）\n\n【一般受付期間】\n8/8（土）22:00-8/22（土）23:59\n🔗 https://t.co/UaZqe50EFE\n\n#myojou https://t.co/KkISAvK8nS",
+        "full_text_source": "text",
+        "id": "2091159042748231698",
+        "media": [
+          {
+            "height": 1848,
+            "media_key": "3_2091159031385882624",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HQVKD0KbAAA8aW6.jpg",
+            "width": 1320
+          },
+          {
+            "height": 2435,
+            "media_key": "3_2091159031364898816",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HQVKD0Fa0AASQKf.jpg",
+            "width": 1722
+          },
+          {
+            "height": 2481,
+            "media_key": "3_2091159031377440768",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HQVKD0IaMAA_4XD.jpg",
+            "width": 3508
+          }
+        ],
+        "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「ここちゃんのお誕生日会」\n\n⟣date：8/23（日）\n⟣place : 下北沢シャングリラ\n⟣open/start：18:00/18:30\n⟣price：VIP¥6,000/一般¥1,000（各+1D）\n\n【一般受付期間】\n8/8（土）22:00-8/22（土）23:59\n🔗 https://t.co/UaZqe50EFE\n\n#myojou https://t.co/KkISAvK8nS",
+        "truncated_text": null
+      },
+      "referenced_tweets": [],
+      "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「ここちゃんのお誕生日会」\n\n⟣date：8/23（日）\n⟣place : 下北沢シャングリラ\n⟣open/start：18:00/18:30\n⟣price：VIP¥6,000/一般¥1,000（各+1D）\n\n【一般受付期間】\n8/8（土）22:00-8/22（土）23:59\n🔗 https://t.co/UaZqe50EFE\n\n#myojou https://t.co/KkISAvK8nS",
+      "truncated_text": null,
+      "url": "https://x.com/info_myojou/status/2091159042748231698"
+    },
+    {
+      "api_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n            高山右近音楽フェス2026\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「高山右近音楽フェス20267」ありがとうございました⋆˙⟡\n\n左上から\n栗原ここね@myojou_cocone https://t.co/4KBHTDas7I",
+      "attachments": {
+        "media_keys": [
+          "3_2091146942952960000"
+        ]
+      },
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "profile/member introduction",
+        "source_kind": "other"
+      },
+      "created_at": "2026-08-22T12:54:19+00:00",
+      "entities": {
+        "mentions": [
+          {
+            "end": 170,
+            "id": "1590652199407083520",
+            "start": 156,
+            "username": "myojou_cocone"
+          }
+        ],
+        "urls": [
+          {
+            "display_url": "pic.x.com/4KBHTDas7I",
+            "end": 194,
+            "expanded_url": "https://x.com/info_myojou/status/2091146949332480293/photo/1",
+            "media_key": "3_2091146942952960000",
+            "start": 171,
+            "url": "https://t.co/4KBHTDas7I"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2091146949332480293",
+      "media": [
+        {
+          "alt_text": "1部\nM1,夏、空模様\nM2,灯火\nM3,yoakeno\nM4,HeartBeat\nM5,アンチコンプリート\nM6,軌跡まで\n\n2部\nM0,SE\nM1,CHRONOS\nM2,星景讃歌\nM3,僕彩色\nM4アンチコンプリート\nM6,HeartBeat",
+          "height": 1455,
+          "media_key": "3_2091146942952960000",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HQU_ELPa8AALiRl.jpg",
+          "width": 2048
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 293,
+              "start": 286,
+              "tag": "myojou"
+            }
+          ],
+          "mentions": [
+            {
+              "end": 170,
+              "id": "1590652199407083520",
+              "start": 156,
+              "username": "myojou_cocone"
+            },
+            {
+              "end": 187,
+              "id": "2009245855694675968",
+              "start": 176,
+              "username": "myojou_miu"
+            },
+            {
+              "end": 205,
+              "id": "1981655668626165760",
+              "start": 193,
+              "username": "myojou_ruka"
+            },
+            {
+              "end": 230,
+              "id": "1754991922807177216",
+              "start": 217,
+              "username": "myojou_shino"
+            },
+            {
+              "end": 251,
+              "id": "1344586625901158401",
+              "start": 236,
+              "username": "myojou_usukura"
+            },
+            {
+              "end": 268,
+              "id": "2009274765895450624",
+              "start": 257,
+              "username": "myojou_yun"
+            }
+          ]
+        },
+        "text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n            高山右近音楽フェス2026\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「高山右近音楽フェス20267」ありがとうございました⋆˙⟡\n\n左上から\n栗原ここね@myojou_cocone \n日陽みう@myojou_miu \n姫乃るか@myojou_ruka \n\n右上から\n真希しの@myojou_shino \n薄倉りな@myojou_usukura \n澪奈ゆん@myojou_yun \n\nSETLIST▶︎ALT\n\n #myojou"
+      },
+      "parsed_fields": null,
+      "raw": {
+        "api_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n            高山右近音楽フェス2026\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「高山右近音楽フェス20267」ありがとうございました⋆˙⟡\n\n左上から\n栗原ここね@myojou_cocone https://t.co/4KBHTDas7I",
+        "attachments": {
+          "media_keys": [
+            "3_2091146942952960000"
+          ]
+        },
+        "created_at": "2026-08-22T12:54:19.000Z",
+        "edit_history_tweet_ids": [
+          "2091146949332480293"
+        ],
+        "entities": {
+          "mentions": [
+            {
+              "end": 170,
+              "id": "1590652199407083520",
+              "start": 156,
+              "username": "myojou_cocone"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "pic.x.com/4KBHTDas7I",
+              "end": 194,
+              "expanded_url": "https://x.com/info_myojou/status/2091146949332480293/photo/1",
+              "media_key": "3_2091146942952960000",
+              "start": 171,
+              "url": "https://t.co/4KBHTDas7I"
+            }
+          ]
+        },
+        "full_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n            高山右近音楽フェス2026\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「高山右近音楽フェス20267」ありがとうございました⋆˙⟡\n\n左上から\n栗原ここね@myojou_cocone \n日陽みう@myojou_miu \n姫乃るか@myojou_ruka \n\n右上から\n真希しの@myojou_shino \n薄倉りな@myojou_usukura \n澪奈ゆん@myojou_yun \n\nSETLIST▶︎ALT\n\n #myojou",
+        "full_text_source": "note_tweet",
+        "id": "2091146949332480293",
+        "media": [
+          {
+            "alt_text": "1部\nM1,夏、空模様\nM2,灯火\nM3,yoakeno\nM4,HeartBeat\nM5,アンチコンプリート\nM6,軌跡まで\n\n2部\nM0,SE\nM1,CHRONOS\nM2,星景讃歌\nM3,僕彩色\nM4アンチコンプリート\nM6,HeartBeat",
+            "height": 1455,
+            "media_key": "3_2091146942952960000",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HQU_ELPa8AALiRl.jpg",
+            "width": 2048
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 293,
+                "start": 286,
+                "tag": "myojou"
+              }
+            ],
+            "mentions": [
+              {
+                "end": 170,
+                "id": "1590652199407083520",
+                "start": 156,
+                "username": "myojou_cocone"
+              },
+              {
+                "end": 187,
+                "id": "2009245855694675968",
+                "start": 176,
+                "username": "myojou_miu"
+              },
+              {
+                "end": 205,
+                "id": "1981655668626165760",
+                "start": 193,
+                "username": "myojou_ruka"
+              },
+              {
+                "end": 230,
+                "id": "1754991922807177216",
+                "start": 217,
+                "username": "myojou_shino"
+              },
+              {
+                "end": 251,
+                "id": "1344586625901158401",
+                "start": 236,
+                "username": "myojou_usukura"
+              },
+              {
+                "end": 268,
+                "id": "2009274765895450624",
+                "start": 257,
+                "username": "myojou_yun"
+              }
+            ]
+          },
+          "text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n            高山右近音楽フェス2026\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「高山右近音楽フェス20267」ありがとうございました⋆˙⟡\n\n左上から\n栗原ここね@myojou_cocone \n日陽みう@myojou_miu \n姫乃るか@myojou_ruka \n\n右上から\n真希しの@myojou_shino \n薄倉りな@myojou_usukura \n澪奈ゆん@myojou_yun \n\nSETLIST▶︎ALT\n\n #myojou"
+        },
+        "text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n            高山右近音楽フェス2026\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「高山右近音楽フェス20267」ありがとうございました⋆˙⟡\n\n左上から\n栗原ここね@myojou_cocone https://t.co/4KBHTDas7I",
+        "truncated_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n            高山右近音楽フェス2026\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「高山右近音楽フェス20267」ありがとうございました⋆˙⟡\n\n左上から\n栗原ここね@myojou_cocone https://t.co/4KBHTDas7I"
+      },
+      "referenced_tweets": [],
+      "text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n            高山右近音楽フェス2026\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「高山右近音楽フェス20267」ありがとうございました⋆˙⟡\n\n左上から\n栗原ここね@myojou_cocone \n日陽みう@myojou_miu \n姫乃るか@myojou_ruka \n\n右上から\n真希しの@myojou_shino \n薄倉りな@myojou_usukura \n澪奈ゆん@myojou_yun \n\nSETLIST▶︎ALT\n\n #myojou",
+      "truncated_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n            高山右近音楽フェス2026\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「高山右近音楽フェス20267」ありがとうございました⋆˙⟡\n\n左上から\n栗原ここね@myojou_cocone https://t.co/4KBHTDas7I",
+      "url": "https://x.com/info_myojou/status/2091146949332480293"
+    },
+    {
+      "api_text": "▶️LIVE DIGEST\n高山右近音楽フェス2026\n\n「夏、空模様」\nはじめての大阪の空。\nまたツアーでお会いしましょう✮\n\n#myojou https://t.co/oLRu65VmPm",
+      "attachments": {
+        "media_keys": [
+          "13_2091115439099465728"
+        ]
+      },
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "live digest recap",
+        "source_kind": "other"
+      },
+      "created_at": "2026-08-22T10:50:41+00:00",
+      "entities": {
+        "hashtags": [
+          {
+            "end": 72,
+            "start": 65,
+            "tag": "myojou"
+          }
+        ],
+        "urls": [
+          {
+            "display_url": "pic.x.com/oLRu65VmPm",
+            "end": 96,
+            "expanded_url": "https://x.com/info_myojou/status/2091115837109514696/video/1",
+            "media_key": "13_2091115439099465728",
+            "start": 73,
+            "url": "https://t.co/oLRu65VmPm"
+          }
+        ]
+      },
+      "full_text_source": "text",
+      "id": "2091115837109514696",
+      "media": [
+        {
+          "height": 1080,
+          "media_key": "13_2091115439099465728",
+          "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2091115439099465728/img/Bw1pIrW-VEQFibwe.jpg",
+          "type": "video",
+          "width": 1920
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "note_tweet": null,
+      "parsed_fields": null,
+      "raw": {
+        "api_text": "▶️LIVE DIGEST\n高山右近音楽フェス2026\n\n「夏、空模様」\nはじめての大阪の空。\nまたツアーでお会いしましょう✮\n\n#myojou https://t.co/oLRu65VmPm",
+        "attachments": {
+          "media_keys": [
+            "13_2091115439099465728"
+          ]
+        },
+        "created_at": "2026-08-22T10:50:41.000Z",
+        "edit_history_tweet_ids": [
+          "2091115837109514696"
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "end": 72,
+              "start": 65,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "pic.x.com/oLRu65VmPm",
+              "end": 96,
+              "expanded_url": "https://x.com/info_myojou/status/2091115837109514696/video/1",
+              "media_key": "13_2091115439099465728",
+              "start": 73,
+              "url": "https://t.co/oLRu65VmPm"
+            }
+          ]
+        },
+        "full_text": "▶️LIVE DIGEST\n高山右近音楽フェス2026\n\n「夏、空模様」\nはじめての大阪の空。\nまたツアーでお会いしましょう✮\n\n#myojou https://t.co/oLRu65VmPm",
+        "full_text_source": "text",
+        "id": "2091115837109514696",
+        "media": [
+          {
+            "height": 1080,
+            "media_key": "13_2091115439099465728",
+            "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2091115439099465728/img/Bw1pIrW-VEQFibwe.jpg",
+            "type": "video",
+            "width": 1920
+          }
+        ],
+        "text": "▶️LIVE DIGEST\n高山右近音楽フェス2026\n\n「夏、空模様」\nはじめての大阪の空。\nまたツアーでお会いしましょう✮\n\n#myojou https://t.co/oLRu65VmPm",
+        "truncated_text": null
+      },
+      "referenced_tweets": [],
+      "text": "▶️LIVE DIGEST\n高山右近音楽フェス2026\n\n「夏、空模様」\nはじめての大阪の空。\nまたツアーでお会いしましょう✮\n\n#myojou https://t.co/oLRu65VmPm",
+      "truncated_text": null,
+      "url": "https://x.com/info_myojou/status/2091115837109514696"
+    },
+    {
+      "api_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n      ここちゃんのお誕生日会\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\nここちゃんのお誕生日会限定グッズ販売決定！\nそして、生誕限定くじも実施いたします！\n\n⟣date：8/23（日）\n⟣place : 下北沢シャングリラ\n⟣open/start：18:00/18:30 https://t.co/jxW6MearVm",
+      "attachments": {
+        "media_keys": [
+          "3_2090997868895342592",
+          "3_2090997869243416576"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "ticket_update"
+      },
+      "created_at": "2026-08-22T03:02:00+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/jxW6MearVm",
+            "end": 182,
+            "expanded_url": "https://x.com/info_myojou/status/2090997888692437108/photo/1",
+            "media_key": "3_2090997868895342592",
+            "start": 159,
+            "url": "https://t.co/jxW6MearVm"
+          },
+          {
+            "display_url": "pic.x.com/jxW6MearVm",
+            "end": 182,
+            "expanded_url": "https://x.com/info_myojou/status/2090997888692437108/photo/1",
+            "media_key": "3_2090997869243416576",
+            "start": 159,
+            "url": "https://t.co/jxW6MearVm"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2090997888692437108",
+      "media": [
+        {
+          "height": 2435,
+          "media_key": "3_2090997868895342592",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HQS3e7GbEAAE0j3.jpg",
+          "width": 1722
+        },
+        {
+          "height": 2481,
+          "media_key": "3_2090997869243416576",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HQS3e8ZaQAAhhg3.jpg",
+          "width": 3508
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 294,
+              "start": 287,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "t-dv.com/myojou_0823",
+              "end": 285,
+              "expanded_url": "http://t-dv.com/myojou_0823",
+              "start": 262,
+              "url": "https://t.co/Bj70De96Vv"
+            }
+          ]
+        },
+        "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n      ここちゃんのお誕生日会\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\nここちゃんのお誕生日会限定グッズ販売決定！\nそして、生誕限定くじも実施いたします！\n\n⟣date：8/23（日）\n⟣place : 下北沢シャングリラ\n⟣open/start：18:00/18:30\n⟣price：VIP¥6,000/一般¥1,000（各+1D）\n\n【抽選受付期間】\n7/31（金）22:00-8/7（金）23:59\n【一般受付期間】\n8/8（土）22:00-8/22（土）23:59\n🔗 https://t.co/Bj70De96Vv\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": null,
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-08-23",
+        "event_dates": [
+          "2026-08-23"
+        ],
+        "event_name": "ここちゃんのお誕生日会",
+        "extraction_confidence": 0.9,
+        "general_ticket_price": 1000,
+        "lottery_result_at": null,
+        "myojou_performance_time": null,
+        "notes": "ドリンク代: 各+1D",
+        "open_time": "18:00",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "VIP",
+        "priority_ticket_price": 6000,
+        "same_day_ticket_price": null,
+        "source_kind": "ticket_update",
+        "source_post_id": "2090997888692437108",
+        "source_posted_at": "2026-08-22T03:02:00Z",
+        "source_raw": {
+          "api_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n      ここちゃんのお誕生日会\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\nここちゃんのお誕生日会限定グッズ販売決定！\nそして、生誕限定くじも実施いたします！\n\n⟣date：8/23（日）\n⟣place : 下北沢シャングリラ\n⟣open/start：18:00/18:30 https://t.co/jxW6MearVm",
+          "attachments": {
+            "media_keys": [
+              "3_2090997868895342592",
+              "3_2090997869243416576"
+            ]
+          },
+          "created_at": "2026-08-22T03:02:00.000Z",
+          "edit_history_tweet_ids": [
+            "2090997888692437108"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/jxW6MearVm",
+                "end": 182,
+                "expanded_url": "https://x.com/info_myojou/status/2090997888692437108/photo/1",
+                "media_key": "3_2090997868895342592",
+                "start": 159,
+                "url": "https://t.co/jxW6MearVm"
+              },
+              {
+                "display_url": "pic.x.com/jxW6MearVm",
+                "end": 182,
+                "expanded_url": "https://x.com/info_myojou/status/2090997888692437108/photo/1",
+                "media_key": "3_2090997869243416576",
+                "start": 159,
+                "url": "https://t.co/jxW6MearVm"
+              }
+            ]
+          },
+          "full_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n      ここちゃんのお誕生日会\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\nここちゃんのお誕生日会限定グッズ販売決定！\nそして、生誕限定くじも実施いたします！\n\n⟣date：8/23（日）\n⟣place : 下北沢シャングリラ\n⟣open/start：18:00/18:30\n⟣price：VIP¥6,000/一般¥1,000（各+1D）\n\n【抽選受付期間】\n7/31（金）22:00-8/7（金）23:59\n【一般受付期間】\n8/8（土）22:00-8/22（土）23:59\n🔗 https://t.co/Bj70De96Vv\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2090997888692437108",
+          "media": [
+            {
+              "height": 2435,
+              "media_key": "3_2090997868895342592",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HQS3e7GbEAAE0j3.jpg",
+              "width": 1722
+            },
+            {
+              "height": 2481,
+              "media_key": "3_2090997869243416576",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HQS3e8ZaQAAhhg3.jpg",
+              "width": 3508
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 294,
+                  "start": 287,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "t-dv.com/myojou_0823",
+                  "end": 285,
+                  "expanded_url": "http://t-dv.com/myojou_0823",
+                  "start": 262,
+                  "url": "https://t.co/Bj70De96Vv"
+                }
+              ]
+            },
+            "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n      ここちゃんのお誕生日会\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\nここちゃんのお誕生日会限定グッズ販売決定！\nそして、生誕限定くじも実施いたします！\n\n⟣date：8/23（日）\n⟣place : 下北沢シャングリラ\n⟣open/start：18:00/18:30\n⟣price：VIP¥6,000/一般¥1,000（各+1D）\n\n【抽選受付期間】\n7/31（金）22:00-8/7（金）23:59\n【一般受付期間】\n8/8（土）22:00-8/22（土）23:59\n🔗 https://t.co/Bj70De96Vv\n\n#myojou"
+          },
+          "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n      ここちゃんのお誕生日会\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\nここちゃんのお誕生日会限定グッズ販売決定！\nそして、生誕限定くじも実施いたします！\n\n⟣date：8/23（日）\n⟣place : 下北沢シャングリラ\n⟣open/start：18:00/18:30 https://t.co/jxW6MearVm",
+          "truncated_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n      ここちゃんのお誕生日会\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\nここちゃんのお誕生日会限定グッズ販売決定！\nそして、生誕限定くじも実施いたします！\n\n⟣date：8/23（日）\n⟣place : 下北沢シャングリラ\n⟣open/start：18:00/18:30 https://t.co/jxW6MearVm"
+        },
+        "source_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n      ここちゃんのお誕生日会\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\nここちゃんのお誕生日会限定グッズ販売決定！\nそして、生誕限定くじも実施いたします！\n\n⟣date：8/23（日）\n⟣place : 下北沢シャングリラ\n⟣open/start：18:00/18:30\n⟣price：VIP¥6,000/一般¥1,000（各+1D）\n\n【抽選受付期間】\n7/31（金）22:00-8/7（金）23:59\n【一般受付期間】\n8/8（土）22:00-8/22（土）23:59\n🔗 https://t.co/Bj70De96Vv\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2090997888692437108",
+        "start_time": "18:30",
+        "ticket_application_deadline_at": "2026-08-07T23:59:00+09:00",
+        "ticket_application_start_at": "2026-07-31T22:00:00+09:00",
+        "ticket_sale_type": "一般",
+        "ticket_sales": [
+          {
+            "deadline_at": "2026-08-07T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 6000,
+            "result_at": null,
+            "sale_type": "抽選",
+            "source_post_id": "2090997888692437108",
+            "source_url": "https://x.com/info_myojou/status/2090997888692437108",
+            "start_at": "2026-07-31T22:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "VIP",
+            "ticket_tier": "VIP"
+          },
+          {
+            "deadline_at": "2026-08-07T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 1000,
+            "result_at": null,
+            "sale_type": "抽選",
+            "source_post_id": "2090997888692437108",
+            "source_url": "https://x.com/info_myojou/status/2090997888692437108",
+            "start_at": "2026-07-31T22:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          },
+          {
+            "deadline_at": "2026-08-22T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 6000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2090997888692437108",
+            "source_url": "https://x.com/info_myojou/status/2090997888692437108",
+            "start_at": "2026-08-08T22:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "VIP",
+            "ticket_tier": "VIP"
+          },
+          {
+            "deadline_at": "2026-08-22T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 1000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2090997888692437108",
+            "source_url": "https://x.com/info_myojou/status/2090997888692437108",
+            "start_at": "2026-08-08T22:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "http://t-dv.com/myojou_0823",
+        "venue": "下北沢シャングリラ"
+      },
+      "raw": {
+        "api_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n      ここちゃんのお誕生日会\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\nここちゃんのお誕生日会限定グッズ販売決定！\nそして、生誕限定くじも実施いたします！\n\n⟣date：8/23（日）\n⟣place : 下北沢シャングリラ\n⟣open/start：18:00/18:30 https://t.co/jxW6MearVm",
+        "attachments": {
+          "media_keys": [
+            "3_2090997868895342592",
+            "3_2090997869243416576"
+          ]
+        },
+        "created_at": "2026-08-22T03:02:00.000Z",
+        "edit_history_tweet_ids": [
+          "2090997888692437108"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/jxW6MearVm",
+              "end": 182,
+              "expanded_url": "https://x.com/info_myojou/status/2090997888692437108/photo/1",
+              "media_key": "3_2090997868895342592",
+              "start": 159,
+              "url": "https://t.co/jxW6MearVm"
+            },
+            {
+              "display_url": "pic.x.com/jxW6MearVm",
+              "end": 182,
+              "expanded_url": "https://x.com/info_myojou/status/2090997888692437108/photo/1",
+              "media_key": "3_2090997869243416576",
+              "start": 159,
+              "url": "https://t.co/jxW6MearVm"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n      ここちゃんのお誕生日会\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\nここちゃんのお誕生日会限定グッズ販売決定！\nそして、生誕限定くじも実施いたします！\n\n⟣date：8/23（日）\n⟣place : 下北沢シャングリラ\n⟣open/start：18:00/18:30\n⟣price：VIP¥6,000/一般¥1,000（各+1D）\n\n【抽選受付期間】\n7/31（金）22:00-8/7（金）23:59\n【一般受付期間】\n8/8（土）22:00-8/22（土）23:59\n🔗 https://t.co/Bj70De96Vv\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2090997888692437108",
+        "media": [
+          {
+            "height": 2435,
+            "media_key": "3_2090997868895342592",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HQS3e7GbEAAE0j3.jpg",
+            "width": 1722
+          },
+          {
+            "height": 2481,
+            "media_key": "3_2090997869243416576",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HQS3e8ZaQAAhhg3.jpg",
+            "width": 3508
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 294,
+                "start": 287,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "t-dv.com/myojou_0823",
+                "end": 285,
+                "expanded_url": "http://t-dv.com/myojou_0823",
+                "start": 262,
+                "url": "https://t.co/Bj70De96Vv"
+              }
+            ]
+          },
+          "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n      ここちゃんのお誕生日会\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\nここちゃんのお誕生日会限定グッズ販売決定！\nそして、生誕限定くじも実施いたします！\n\n⟣date：8/23（日）\n⟣place : 下北沢シャングリラ\n⟣open/start：18:00/18:30\n⟣price：VIP¥6,000/一般¥1,000（各+1D）\n\n【抽選受付期間】\n7/31（金）22:00-8/7（金）23:59\n【一般受付期間】\n8/8（土）22:00-8/22（土）23:59\n🔗 https://t.co/Bj70De96Vv\n\n#myojou"
+        },
+        "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n      ここちゃんのお誕生日会\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\nここちゃんのお誕生日会限定グッズ販売決定！\nそして、生誕限定くじも実施いたします！\n\n⟣date：8/23（日）\n⟣place : 下北沢シャングリラ\n⟣open/start：18:00/18:30 https://t.co/jxW6MearVm",
+        "truncated_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n      ここちゃんのお誕生日会\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\nここちゃんのお誕生日会限定グッズ販売決定！\nそして、生誕限定くじも実施いたします！\n\n⟣date：8/23（日）\n⟣place : 下北沢シャングリラ\n⟣open/start：18:00/18:30 https://t.co/jxW6MearVm"
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n      ここちゃんのお誕生日会\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\nここちゃんのお誕生日会限定グッズ販売決定！\nそして、生誕限定くじも実施いたします！\n\n⟣date：8/23（日）\n⟣place : 下北沢シャングリラ\n⟣open/start：18:00/18:30\n⟣price：VIP¥6,000/一般¥1,000（各+1D）\n\n【抽選受付期間】\n7/31（金）22:00-8/7（金）23:59\n【一般受付期間】\n8/8（土）22:00-8/22（土）23:59\n🔗 https://t.co/Bj70De96Vv\n\n#myojou",
+      "truncated_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n      ここちゃんのお誕生日会\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\nここちゃんのお誕生日会限定グッズ販売決定！\nそして、生誕限定くじも実施いたします！\n\n⟣date：8/23（日）\n⟣place : 下北沢シャングリラ\n⟣open/start：18:00/18:30 https://t.co/jxW6MearVm",
+      "url": "https://x.com/info_myojou/status/2090997888692437108"
+    },
+    {
+      "api_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「高山右近音楽フェス2026」\n\n1部\n🎙13:10-13:35\n📸14:10-15:10\n\n2部\n🎙17:45-18:10\n📸19:15-20:15\n\n⟣date：8/22（土）\n⟣place :ユーベルホール（大阪府豊能町）\n⟣open/start：1部 10:15/11:00 2部15:20/16:00\n⟣price：各部当日券Aエリア¥7,000 https://t.co/8UKjDjMb3W",
+      "attachments": {
+        "media_keys": [
+          "3_2090918218424877057",
+          "3_2090918218382929920"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "same_day_reminder"
+      },
+      "created_at": "2026-08-21T21:45:27+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/8UKjDjMb3W",
+            "end": 225,
+            "expanded_url": "https://x.com/info_myojou/status/2090918226394005769/photo/1",
+            "media_key": "3_2090918218424877057",
+            "start": 202,
+            "url": "https://t.co/8UKjDjMb3W"
+          },
+          {
+            "display_url": "pic.x.com/8UKjDjMb3W",
+            "end": 225,
+            "expanded_url": "https://x.com/info_myojou/status/2090918226394005769/photo/1",
+            "media_key": "3_2090918218382929920",
+            "start": 202,
+            "url": "https://t.co/8UKjDjMb3W"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2090918226394005769",
+      "media": [
+        {
+          "height": 1076,
+          "media_key": "3_2090918218424877057",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HQRvCp-bgAEMUgF.jpg",
+          "width": 1522
+        },
+        {
+          "height": 1414,
+          "media_key": "3_2090918218382929920",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HQRvCp0bcAANO7q.jpg",
+          "width": 2000
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 320,
+              "start": 313,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "tiget.net/events/516266",
+              "end": 280,
+              "expanded_url": "http://tiget.net/events/516266",
+              "start": 257,
+              "url": "https://t.co/6Ye7mlVj1g"
+            },
+            {
+              "display_url": "tiget.net/events/516268",
+              "end": 311,
+              "expanded_url": "http://tiget.net/events/516268",
+              "start": 288,
+              "url": "https://t.co/wtlp8rqTCN"
+            }
+          ]
+        },
+        "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「高山右近音楽フェス2026」\n\n1部\n🎙13:10-13:35\n📸14:10-15:10\n\n2部\n🎙17:45-18:10\n📸19:15-20:15\n\n⟣date：8/22（土）\n⟣place :ユーベルホール（大阪府豊能町）\n⟣open/start：1部 10:15/11:00 2部15:20/16:00\n⟣price：各部当日券Aエリア¥7,000\n⟣入場特典：明星カード（サインありチェキ）\n\n【チケット販売期間】\n-8/22（土）18:00\n〈1部〉\n🔗 https://t.co/6Ye7mlVj1g\n〈2部〉\n🔗 https://t.co/wtlp8rqTCN\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": "14:10-15:10",
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-08-22",
+        "event_dates": [
+          "2026-08-22"
+        ],
+        "event_name": "高山右近音楽フェス2026",
+        "extraction_confidence": 0.95,
+        "general_ticket_price": null,
+        "lottery_result_at": null,
+        "myojou_performance_time": "13:10-13:35",
+        "notes": "⟣入場特典:明星カード(サインありチェキ)",
+        "open_time": "10:15",
+        "payment_deadline_at": null,
+        "priority_ticket_name": null,
+        "priority_ticket_price": null,
+        "same_day_ticket_price": 7000,
+        "source_kind": "same_day_reminder",
+        "source_post_id": "2090918226394005769",
+        "source_posted_at": "2026-08-21T21:45:27Z",
+        "source_raw": {
+          "api_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「高山右近音楽フェス2026」\n\n1部\n🎙13:10-13:35\n📸14:10-15:10\n\n2部\n🎙17:45-18:10\n📸19:15-20:15\n\n⟣date：8/22（土）\n⟣place :ユーベルホール（大阪府豊能町）\n⟣open/start：1部 10:15/11:00 2部15:20/16:00\n⟣price：各部当日券Aエリア¥7,000 https://t.co/8UKjDjMb3W",
+          "attachments": {
+            "media_keys": [
+              "3_2090918218424877057",
+              "3_2090918218382929920"
+            ]
+          },
+          "created_at": "2026-08-21T21:45:27.000Z",
+          "edit_history_tweet_ids": [
+            "2090918226394005769"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/8UKjDjMb3W",
+                "end": 225,
+                "expanded_url": "https://x.com/info_myojou/status/2090918226394005769/photo/1",
+                "media_key": "3_2090918218424877057",
+                "start": 202,
+                "url": "https://t.co/8UKjDjMb3W"
+              },
+              {
+                "display_url": "pic.x.com/8UKjDjMb3W",
+                "end": 225,
+                "expanded_url": "https://x.com/info_myojou/status/2090918226394005769/photo/1",
+                "media_key": "3_2090918218382929920",
+                "start": 202,
+                "url": "https://t.co/8UKjDjMb3W"
+              }
+            ]
+          },
+          "full_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「高山右近音楽フェス2026」\n\n1部\n🎙13:10-13:35\n📸14:10-15:10\n\n2部\n🎙17:45-18:10\n📸19:15-20:15\n\n⟣date：8/22（土）\n⟣place :ユーベルホール（大阪府豊能町）\n⟣open/start：1部 10:15/11:00 2部15:20/16:00\n⟣price：各部当日券Aエリア¥7,000\n⟣入場特典：明星カード（サインありチェキ）\n\n【チケット販売期間】\n-8/22（土）18:00\n〈1部〉\n🔗 https://t.co/6Ye7mlVj1g\n〈2部〉\n🔗 https://t.co/wtlp8rqTCN\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2090918226394005769",
+          "media": [
+            {
+              "height": 1076,
+              "media_key": "3_2090918218424877057",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HQRvCp-bgAEMUgF.jpg",
+              "width": 1522
+            },
+            {
+              "height": 1414,
+              "media_key": "3_2090918218382929920",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HQRvCp0bcAANO7q.jpg",
+              "width": 2000
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 320,
+                  "start": 313,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "tiget.net/events/516266",
+                  "end": 280,
+                  "expanded_url": "http://tiget.net/events/516266",
+                  "start": 257,
+                  "url": "https://t.co/6Ye7mlVj1g"
+                },
+                {
+                  "display_url": "tiget.net/events/516268",
+                  "end": 311,
+                  "expanded_url": "http://tiget.net/events/516268",
+                  "start": 288,
+                  "url": "https://t.co/wtlp8rqTCN"
+                }
+              ]
+            },
+            "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「高山右近音楽フェス2026」\n\n1部\n🎙13:10-13:35\n📸14:10-15:10\n\n2部\n🎙17:45-18:10\n📸19:15-20:15\n\n⟣date：8/22（土）\n⟣place :ユーベルホール（大阪府豊能町）\n⟣open/start：1部 10:15/11:00 2部15:20/16:00\n⟣price：各部当日券Aエリア¥7,000\n⟣入場特典：明星カード（サインありチェキ）\n\n【チケット販売期間】\n-8/22（土）18:00\n〈1部〉\n🔗 https://t.co/6Ye7mlVj1g\n〈2部〉\n🔗 https://t.co/wtlp8rqTCN\n\n#myojou"
+          },
+          "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「高山右近音楽フェス2026」\n\n1部\n🎙13:10-13:35\n📸14:10-15:10\n\n2部\n🎙17:45-18:10\n📸19:15-20:15\n\n⟣date：8/22（土）\n⟣place :ユーベルホール（大阪府豊能町）\n⟣open/start：1部 10:15/11:00 2部15:20/16:00\n⟣price：各部当日券Aエリア¥7,000 https://t.co/8UKjDjMb3W",
+          "truncated_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「高山右近音楽フェス2026」\n\n1部\n🎙13:10-13:35\n📸14:10-15:10\n\n2部\n🎙17:45-18:10\n📸19:15-20:15\n\n⟣date：8/22（土）\n⟣place :ユーベルホール（大阪府豊能町）\n⟣open/start：1部 10:15/11:00 2部15:20/16:00\n⟣price：各部当日券Aエリア¥7,000 https://t.co/8UKjDjMb3W"
+        },
+        "source_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「高山右近音楽フェス2026」\n\n1部\n🎙13:10-13:35\n📸14:10-15:10\n\n2部\n🎙17:45-18:10\n📸19:15-20:15\n\n⟣date：8/22（土）\n⟣place :ユーベルホール（大阪府豊能町）\n⟣open/start：1部 10:15/11:00 2部15:20/16:00\n⟣price：各部当日券Aエリア¥7,000\n⟣入場特典：明星カード（サインありチェキ）\n\n【チケット販売期間】\n-8/22（土）18:00\n〈1部〉\n🔗 https://t.co/6Ye7mlVj1g\n〈2部〉\n🔗 https://t.co/wtlp8rqTCN\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2090918226394005769",
+        "start_time": "11:00",
+        "ticket_application_deadline_at": "2026-08-22T18:00:00+09:00",
+        "ticket_application_start_at": null,
+        "ticket_sale_type": "当日券",
+        "ticket_sales": [
+          {
+            "deadline_at": "2026-08-22T18:00:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 7000,
+            "result_at": null,
+            "sale_type": "不明",
+            "source_post_id": "2090918226394005769",
+            "source_url": "https://x.com/info_myojou/status/2090918226394005769",
+            "start_at": null,
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 7000,
+            "result_at": null,
+            "sale_type": "当日券",
+            "source_post_id": "2090918226394005769",
+            "source_url": "https://x.com/info_myojou/status/2090918226394005769",
+            "start_at": null,
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "http://tiget.net/events/516266",
+        "venue": "ユーベルホール(大阪府豊能町)"
+      },
+      "raw": {
+        "api_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「高山右近音楽フェス2026」\n\n1部\n🎙13:10-13:35\n📸14:10-15:10\n\n2部\n🎙17:45-18:10\n📸19:15-20:15\n\n⟣date：8/22（土）\n⟣place :ユーベルホール（大阪府豊能町）\n⟣open/start：1部 10:15/11:00 2部15:20/16:00\n⟣price：各部当日券Aエリア¥7,000 https://t.co/8UKjDjMb3W",
+        "attachments": {
+          "media_keys": [
+            "3_2090918218424877057",
+            "3_2090918218382929920"
+          ]
+        },
+        "created_at": "2026-08-21T21:45:27.000Z",
+        "edit_history_tweet_ids": [
+          "2090918226394005769"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/8UKjDjMb3W",
+              "end": 225,
+              "expanded_url": "https://x.com/info_myojou/status/2090918226394005769/photo/1",
+              "media_key": "3_2090918218424877057",
+              "start": 202,
+              "url": "https://t.co/8UKjDjMb3W"
+            },
+            {
+              "display_url": "pic.x.com/8UKjDjMb3W",
+              "end": 225,
+              "expanded_url": "https://x.com/info_myojou/status/2090918226394005769/photo/1",
+              "media_key": "3_2090918218382929920",
+              "start": 202,
+              "url": "https://t.co/8UKjDjMb3W"
+            }
+          ]
+        },
+        "full_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「高山右近音楽フェス2026」\n\n1部\n🎙13:10-13:35\n📸14:10-15:10\n\n2部\n🎙17:45-18:10\n📸19:15-20:15\n\n⟣date：8/22（土）\n⟣place :ユーベルホール（大阪府豊能町）\n⟣open/start：1部 10:15/11:00 2部15:20/16:00\n⟣price：各部当日券Aエリア¥7,000\n⟣入場特典：明星カード（サインありチェキ）\n\n【チケット販売期間】\n-8/22（土）18:00\n〈1部〉\n🔗 https://t.co/6Ye7mlVj1g\n〈2部〉\n🔗 https://t.co/wtlp8rqTCN\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2090918226394005769",
+        "media": [
+          {
+            "height": 1076,
+            "media_key": "3_2090918218424877057",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HQRvCp-bgAEMUgF.jpg",
+            "width": 1522
+          },
+          {
+            "height": 1414,
+            "media_key": "3_2090918218382929920",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HQRvCp0bcAANO7q.jpg",
+            "width": 2000
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 320,
+                "start": 313,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "tiget.net/events/516266",
+                "end": 280,
+                "expanded_url": "http://tiget.net/events/516266",
+                "start": 257,
+                "url": "https://t.co/6Ye7mlVj1g"
+              },
+              {
+                "display_url": "tiget.net/events/516268",
+                "end": 311,
+                "expanded_url": "http://tiget.net/events/516268",
+                "start": 288,
+                "url": "https://t.co/wtlp8rqTCN"
+              }
+            ]
+          },
+          "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「高山右近音楽フェス2026」\n\n1部\n🎙13:10-13:35\n📸14:10-15:10\n\n2部\n🎙17:45-18:10\n📸19:15-20:15\n\n⟣date：8/22（土）\n⟣place :ユーベルホール（大阪府豊能町）\n⟣open/start：1部 10:15/11:00 2部15:20/16:00\n⟣price：各部当日券Aエリア¥7,000\n⟣入場特典：明星カード（サインありチェキ）\n\n【チケット販売期間】\n-8/22（土）18:00\n〈1部〉\n🔗 https://t.co/6Ye7mlVj1g\n〈2部〉\n🔗 https://t.co/wtlp8rqTCN\n\n#myojou"
+        },
+        "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「高山右近音楽フェス2026」\n\n1部\n🎙13:10-13:35\n📸14:10-15:10\n\n2部\n🎙17:45-18:10\n📸19:15-20:15\n\n⟣date：8/22（土）\n⟣place :ユーベルホール（大阪府豊能町）\n⟣open/start：1部 10:15/11:00 2部15:20/16:00\n⟣price：各部当日券Aエリア¥7,000 https://t.co/8UKjDjMb3W",
+        "truncated_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「高山右近音楽フェス2026」\n\n1部\n🎙13:10-13:35\n📸14:10-15:10\n\n2部\n🎙17:45-18:10\n📸19:15-20:15\n\n⟣date：8/22（土）\n⟣place :ユーベルホール（大阪府豊能町）\n⟣open/start：1部 10:15/11:00 2部15:20/16:00\n⟣price：各部当日券Aエリア¥7,000 https://t.co/8UKjDjMb3W"
+      },
+      "referenced_tweets": [],
+      "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「高山右近音楽フェス2026」\n\n1部\n🎙13:10-13:35\n📸14:10-15:10\n\n2部\n🎙17:45-18:10\n📸19:15-20:15\n\n⟣date：8/22（土）\n⟣place :ユーベルホール（大阪府豊能町）\n⟣open/start：1部 10:15/11:00 2部15:20/16:00\n⟣price：各部当日券Aエリア¥7,000\n⟣入場特典：明星カード（サインありチェキ）\n\n【チケット販売期間】\n-8/22（土）18:00\n〈1部〉\n🔗 https://t.co/6Ye7mlVj1g\n〈2部〉\n🔗 https://t.co/wtlp8rqTCN\n\n#myojou",
+      "truncated_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「高山右近音楽フェス2026」\n\n1部\n🎙13:10-13:35\n📸14:10-15:10\n\n2部\n🎙17:45-18:10\n📸19:15-20:15\n\n⟣date：8/22（土）\n⟣place :ユーベルホール（大阪府豊能町）\n⟣open/start：1部 10:15/11:00 2部15:20/16:00\n⟣price：各部当日券Aエリア¥7,000 https://t.co/8UKjDjMb3W",
+      "url": "https://x.com/info_myojou/status/2090918226394005769"
+    },
+    {
       "api_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n         Mirror, Mirror Presents.「ミラスプ\n      ~5th ANNIVERSARY TOUR決起会～」\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：10/13（火）\n⟣place : Spotify O-WEST\n⟣open/start：18:30/19:00 https://t.co/KcAGMhOUCL",
       "attachments": {
         "media_keys": [
@@ -163434,7 +164785,7 @@
     "backfill": true,
     "dry_run": true,
     "estimated_x_post_reads": 411,
-    "latest_post_id": "2090784744153952560",
+    "latest_post_id": "2091170626979717484",
     "max_pages": 10,
     "max_posts": 500,
     "max_results": 5,
@@ -163477,16 +164828,16 @@
       }
     ],
     "pages_fetched": 5,
-    "posts_fetched": 748,
+    "posts_fetched": 754,
     "rate_limit_headers": {
       "x-rate-limit-limit": "10000",
       "x-rate-limit-remaining": "9993",
       "x-rate-limit-reset": "1781108896"
     },
-    "total_posts": 748,
-    "updated_at": "2026-08-21T19:28:15.566378+00:00",
+    "total_posts": 754,
+    "updated_at": "2026-08-22T19:24:57.031131+00:00",
     "username": "info_myojou"
   },
   "source": "x_api",
-  "updated_at": "2026-08-21T19:28:15.566378+00:00"
+  "updated_at": "2026-08-22T19:24:57.031131+00:00"
 }
