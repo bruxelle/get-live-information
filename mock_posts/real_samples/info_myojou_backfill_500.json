@@ -2,6 +2,672 @@
   "captured_at": "2026-06-10T16:19:36.141820+00:00",
   "data": [
     {
+      "api_text": "▶️DIGEST\nここちゃんのお誕生日会🎂\n\nSo happy happy birthday Coco:)\n\n#myojou https://t.co/7COhgEVXV7",
+      "attachments": {
+        "media_keys": [
+          "13_2091544977344180224"
+        ]
+      },
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "no live-event signal",
+        "source_kind": "other"
+      },
+      "created_at": "2026-08-23T15:16:23+00:00",
+      "entities": {
+        "hashtags": [
+          {
+            "end": 62,
+            "start": 55,
+            "tag": "myojou"
+          }
+        ],
+        "urls": [
+          {
+            "display_url": "pic.x.com/7COhgEVXV7",
+            "end": 86,
+            "expanded_url": "https://x.com/info_myojou/status/2091545092813472101/video/1",
+            "media_key": "13_2091544977344180224",
+            "start": 63,
+            "url": "https://t.co/7COhgEVXV7"
+          }
+        ]
+      },
+      "full_text_source": "text",
+      "id": "2091545092813472101",
+      "media": [
+        {
+          "height": 1080,
+          "media_key": "13_2091544977344180224",
+          "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2091544977344180224/img/7sygAHCwJWsBAJwN.jpg",
+          "type": "video",
+          "width": 1920
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "note_tweet": null,
+      "parsed_fields": null,
+      "raw": {
+        "api_text": "▶️DIGEST\nここちゃんのお誕生日会🎂\n\nSo happy happy birthday Coco:)\n\n#myojou https://t.co/7COhgEVXV7",
+        "attachments": {
+          "media_keys": [
+            "13_2091544977344180224"
+          ]
+        },
+        "created_at": "2026-08-23T15:16:23.000Z",
+        "edit_history_tweet_ids": [
+          "2091545092813472101"
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "end": 62,
+              "start": 55,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "pic.x.com/7COhgEVXV7",
+              "end": 86,
+              "expanded_url": "https://x.com/info_myojou/status/2091545092813472101/video/1",
+              "media_key": "13_2091544977344180224",
+              "start": 63,
+              "url": "https://t.co/7COhgEVXV7"
+            }
+          ]
+        },
+        "full_text": "▶️DIGEST\nここちゃんのお誕生日会🎂\n\nSo happy happy birthday Coco:)\n\n#myojou https://t.co/7COhgEVXV7",
+        "full_text_source": "text",
+        "id": "2091545092813472101",
+        "media": [
+          {
+            "height": 1080,
+            "media_key": "13_2091544977344180224",
+            "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2091544977344180224/img/7sygAHCwJWsBAJwN.jpg",
+            "type": "video",
+            "width": 1920
+          }
+        ],
+        "text": "▶️DIGEST\nここちゃんのお誕生日会🎂\n\nSo happy happy birthday Coco:)\n\n#myojou https://t.co/7COhgEVXV7",
+        "truncated_text": null
+      },
+      "referenced_tweets": [],
+      "text": "▶️DIGEST\nここちゃんのお誕生日会🎂\n\nSo happy happy birthday Coco:)\n\n#myojou https://t.co/7COhgEVXV7",
+      "truncated_text": null,
+      "url": "https://x.com/info_myojou/status/2091545092813472101"
+    },
+    {
+      "api_text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「Appare! Presents エンドレスサマー 2026」\n\n📍duo MUSIC EXCHANGE\n🎙15:35-16:00\n📸16:15-17:15 8 （Z MARUYAMA）\n\n⟣date：8/25（火）\n⟣place : Spotify O-EAST / O-WEST / O-Crest / O-nest / duo MUSIC EXCHANGE / clubasia / WOMB / Veats Shibuya https://t.co/ciVd71UUAw",
+      "attachments": {
+        "media_keys": [
+          "3_2091513639752826880",
+          "3_2091513639748653056"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "initial_announcement"
+      },
+      "created_at": "2026-08-23T13:11:27+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/ciVd71UUAw",
+            "end": 263,
+            "expanded_url": "https://x.com/info_myojou/status/2091513649336881613/photo/1",
+            "media_key": "3_2091513639752826880",
+            "start": 240,
+            "url": "https://t.co/ciVd71UUAw"
+          },
+          {
+            "display_url": "pic.x.com/ciVd71UUAw",
+            "end": 263,
+            "expanded_url": "https://x.com/info_myojou/status/2091513649336881613/photo/1",
+            "media_key": "3_2091513639748653056",
+            "start": 240,
+            "url": "https://t.co/ciVd71UUAw"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2091513649336881613",
+      "media": [
+        {
+          "height": 2298,
+          "media_key": "3_2091513639752826880",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HQaMkvRaAAAfXk3.jpg",
+          "width": 4096
+        },
+        {
+          "height": 2298,
+          "media_key": "3_2091513639748653056",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HQaMkvQaUAAjAwW.jpg",
+          "width": 4096
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 464,
+              "start": 457,
+              "tag": "myojou"
+            },
+            {
+              "end": 475,
+              "start": 465,
+              "tag": "ミョージョーサマー"
+            },
+            {
+              "end": 489,
+              "start": 476,
+              "tag": "エンドレスサマー2026"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "ticketdive.com/event/endlessu…",
+              "end": 455,
+              "expanded_url": "https://ticketdive.com/event/endlessummer2026",
+              "start": 432,
+              "url": "https://t.co/9jtj6Uxfqj"
+            }
+          ]
+        },
+        "text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「Appare! Presents エンドレスサマー 2026」\n\n📍duo MUSIC EXCHANGE\n🎙15:35-16:00\n📸16:15-17:15 8 （Z MARUYAMA）\n\n⟣date：8/25（火）\n⟣place : Spotify O-EAST / O-WEST / O-Crest / O-nest / duo MUSIC EXCHANGE / clubasia / WOMB / Veats Shibuya　※8会場連動\n⟣open/start：10:30/11:00 ※リストバンド交換あり\n⟣price：夏は終わらない！チケット（限定Tシャツ付）¥10,000 / 一般チケット：¥4,000（各+1D）\n\n･夏は終わらない！チケット\n【一般販売】\n8/10(月)21:00-8/24(月)23:59\n\n･一般チケット\n【一般販売】\n7/2(木)21:00-8/24(月)23:59\n🔗 https://t.co/9jtj6Uxfqj\n\n#myojou\n#ミョージョーサマー\n#エンドレスサマー2026"
+      },
+      "parsed_fields": {
+        "benefit_event_time": "16:15-17:15",
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-08-25",
+        "event_dates": [
+          "2026-08-25"
+        ],
+        "event_name": "duo MUSIC EXCHANGE",
+        "extraction_confidence": 0.95,
+        "general_ticket_price": 4000,
+        "lottery_result_at": null,
+        "myojou_performance_time": "15:35-16:00",
+        "notes": "ドリンク代: 各+1D",
+        "open_time": "10:30",
+        "payment_deadline_at": null,
+        "priority_ticket_name": null,
+        "priority_ticket_price": null,
+        "same_day_ticket_price": null,
+        "source_kind": "initial_announcement",
+        "source_post_id": "2091513649336881613",
+        "source_posted_at": "2026-08-23T13:11:27Z",
+        "source_raw": {
+          "api_text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「Appare! Presents エンドレスサマー 2026」\n\n📍duo MUSIC EXCHANGE\n🎙15:35-16:00\n📸16:15-17:15 8 （Z MARUYAMA）\n\n⟣date：8/25（火）\n⟣place : Spotify O-EAST / O-WEST / O-Crest / O-nest / duo MUSIC EXCHANGE / clubasia / WOMB / Veats Shibuya https://t.co/ciVd71UUAw",
+          "attachments": {
+            "media_keys": [
+              "3_2091513639752826880",
+              "3_2091513639748653056"
+            ]
+          },
+          "created_at": "2026-08-23T13:11:27.000Z",
+          "edit_history_tweet_ids": [
+            "2091513649336881613"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/ciVd71UUAw",
+                "end": 263,
+                "expanded_url": "https://x.com/info_myojou/status/2091513649336881613/photo/1",
+                "media_key": "3_2091513639752826880",
+                "start": 240,
+                "url": "https://t.co/ciVd71UUAw"
+              },
+              {
+                "display_url": "pic.x.com/ciVd71UUAw",
+                "end": 263,
+                "expanded_url": "https://x.com/info_myojou/status/2091513649336881613/photo/1",
+                "media_key": "3_2091513639748653056",
+                "start": 240,
+                "url": "https://t.co/ciVd71UUAw"
+              }
+            ]
+          },
+          "full_text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「Appare! Presents エンドレスサマー 2026」\n\n📍duo MUSIC EXCHANGE\n🎙15:35-16:00\n📸16:15-17:15 8 （Z MARUYAMA）\n\n⟣date：8/25（火）\n⟣place : Spotify O-EAST / O-WEST / O-Crest / O-nest / duo MUSIC EXCHANGE / clubasia / WOMB / Veats Shibuya　※8会場連動\n⟣open/start：10:30/11:00 ※リストバンド交換あり\n⟣price：夏は終わらない！チケット（限定Tシャツ付）¥10,000 / 一般チケット：¥4,000（各+1D）\n\n･夏は終わらない！チケット\n【一般販売】\n8/10(月)21:00-8/24(月)23:59\n\n･一般チケット\n【一般販売】\n7/2(木)21:00-8/24(月)23:59\n🔗 https://t.co/9jtj6Uxfqj\n\n#myojou\n#ミョージョーサマー\n#エンドレスサマー2026",
+          "full_text_source": "note_tweet",
+          "id": "2091513649336881613",
+          "media": [
+            {
+              "height": 2298,
+              "media_key": "3_2091513639752826880",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HQaMkvRaAAAfXk3.jpg",
+              "width": 4096
+            },
+            {
+              "height": 2298,
+              "media_key": "3_2091513639748653056",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HQaMkvQaUAAjAwW.jpg",
+              "width": 4096
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 464,
+                  "start": 457,
+                  "tag": "myojou"
+                },
+                {
+                  "end": 475,
+                  "start": 465,
+                  "tag": "ミョージョーサマー"
+                },
+                {
+                  "end": 489,
+                  "start": 476,
+                  "tag": "エンドレスサマー2026"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "ticketdive.com/event/endlessu…",
+                  "end": 455,
+                  "expanded_url": "https://ticketdive.com/event/endlessummer2026",
+                  "start": 432,
+                  "url": "https://t.co/9jtj6Uxfqj"
+                }
+              ]
+            },
+            "text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「Appare! Presents エンドレスサマー 2026」\n\n📍duo MUSIC EXCHANGE\n🎙15:35-16:00\n📸16:15-17:15 8 （Z MARUYAMA）\n\n⟣date：8/25（火）\n⟣place : Spotify O-EAST / O-WEST / O-Crest / O-nest / duo MUSIC EXCHANGE / clubasia / WOMB / Veats Shibuya　※8会場連動\n⟣open/start：10:30/11:00 ※リストバンド交換あり\n⟣price：夏は終わらない！チケット（限定Tシャツ付）¥10,000 / 一般チケット：¥4,000（各+1D）\n\n･夏は終わらない！チケット\n【一般販売】\n8/10(月)21:00-8/24(月)23:59\n\n･一般チケット\n【一般販売】\n7/2(木)21:00-8/24(月)23:59\n🔗 https://t.co/9jtj6Uxfqj\n\n#myojou\n#ミョージョーサマー\n#エンドレスサマー2026"
+          },
+          "text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「Appare! Presents エンドレスサマー 2026」\n\n📍duo MUSIC EXCHANGE\n🎙15:35-16:00\n📸16:15-17:15 8 （Z MARUYAMA）\n\n⟣date：8/25（火）\n⟣place : Spotify O-EAST / O-WEST / O-Crest / O-nest / duo MUSIC EXCHANGE / clubasia / WOMB / Veats Shibuya https://t.co/ciVd71UUAw",
+          "truncated_text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「Appare! Presents エンドレスサマー 2026」\n\n📍duo MUSIC EXCHANGE\n🎙15:35-16:00\n📸16:15-17:15 8 （Z MARUYAMA）\n\n⟣date：8/25（火）\n⟣place : Spotify O-EAST / O-WEST / O-Crest / O-nest / duo MUSIC EXCHANGE / clubasia / WOMB / Veats Shibuya https://t.co/ciVd71UUAw"
+        },
+        "source_text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「Appare! Presents エンドレスサマー 2026」\n\n📍duo MUSIC EXCHANGE\n🎙15:35-16:00\n📸16:15-17:15 8 （Z MARUYAMA）\n\n⟣date：8/25（火）\n⟣place : Spotify O-EAST / O-WEST / O-Crest / O-nest / duo MUSIC EXCHANGE / clubasia / WOMB / Veats Shibuya　※8会場連動\n⟣open/start：10:30/11:00 ※リストバンド交換あり\n⟣price：夏は終わらない！チケット（限定Tシャツ付）¥10,000 / 一般チケット：¥4,000（各+1D）\n\n･夏は終わらない！チケット\n【一般販売】\n8/10(月)21:00-8/24(月)23:59\n\n･一般チケット\n【一般販売】\n7/2(木)21:00-8/24(月)23:59\n🔗 https://t.co/9jtj6Uxfqj\n\n#myojou\n#ミョージョーサマー\n#エンドレスサマー2026",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2091513649336881613",
+        "start_time": "11:00",
+        "ticket_application_deadline_at": "2026-08-24T23:59:00+09:00",
+        "ticket_application_start_at": "2026-07-02T21:00:00+09:00",
+        "ticket_sale_type": "一般",
+        "ticket_sales": [
+          {
+            "deadline_at": "2026-08-24T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 10000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2091513649336881613",
+            "source_url": "https://x.com/info_myojou/status/2091513649336881613",
+            "start_at": "2026-08-10T21:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "夏は終わらない!チケット",
+            "ticket_tier": "その他"
+          },
+          {
+            "deadline_at": "2026-08-24T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 4000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2091513649336881613",
+            "source_url": "https://x.com/info_myojou/status/2091513649336881613",
+            "start_at": "2026-08-10T21:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般チケット",
+            "ticket_tier": "一般"
+          },
+          {
+            "deadline_at": "2026-08-24T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 10000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2091513649336881613",
+            "source_url": "https://x.com/info_myojou/status/2091513649336881613",
+            "start_at": "2026-07-02T21:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "夏は終わらない!チケット",
+            "ticket_tier": "その他"
+          },
+          {
+            "deadline_at": "2026-08-24T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 4000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2091513649336881613",
+            "source_url": "https://x.com/info_myojou/status/2091513649336881613",
+            "start_at": "2026-07-02T21:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般チケット",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "https://ticketdive.com/event/endlessummer2026",
+        "venue": "Spotify O-EAST / O-WEST / O-Crest / O-nest / duo MUSIC EXCHANGE / clubasia / WOMB / Veats Shibuya ※8会場連動"
+      },
+      "raw": {
+        "api_text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「Appare! Presents エンドレスサマー 2026」\n\n📍duo MUSIC EXCHANGE\n🎙15:35-16:00\n📸16:15-17:15 8 （Z MARUYAMA）\n\n⟣date：8/25（火）\n⟣place : Spotify O-EAST / O-WEST / O-Crest / O-nest / duo MUSIC EXCHANGE / clubasia / WOMB / Veats Shibuya https://t.co/ciVd71UUAw",
+        "attachments": {
+          "media_keys": [
+            "3_2091513639752826880",
+            "3_2091513639748653056"
+          ]
+        },
+        "created_at": "2026-08-23T13:11:27.000Z",
+        "edit_history_tweet_ids": [
+          "2091513649336881613"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/ciVd71UUAw",
+              "end": 263,
+              "expanded_url": "https://x.com/info_myojou/status/2091513649336881613/photo/1",
+              "media_key": "3_2091513639752826880",
+              "start": 240,
+              "url": "https://t.co/ciVd71UUAw"
+            },
+            {
+              "display_url": "pic.x.com/ciVd71UUAw",
+              "end": 263,
+              "expanded_url": "https://x.com/info_myojou/status/2091513649336881613/photo/1",
+              "media_key": "3_2091513639748653056",
+              "start": 240,
+              "url": "https://t.co/ciVd71UUAw"
+            }
+          ]
+        },
+        "full_text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「Appare! Presents エンドレスサマー 2026」\n\n📍duo MUSIC EXCHANGE\n🎙15:35-16:00\n📸16:15-17:15 8 （Z MARUYAMA）\n\n⟣date：8/25（火）\n⟣place : Spotify O-EAST / O-WEST / O-Crest / O-nest / duo MUSIC EXCHANGE / clubasia / WOMB / Veats Shibuya　※8会場連動\n⟣open/start：10:30/11:00 ※リストバンド交換あり\n⟣price：夏は終わらない！チケット（限定Tシャツ付）¥10,000 / 一般チケット：¥4,000（各+1D）\n\n･夏は終わらない！チケット\n【一般販売】\n8/10(月)21:00-8/24(月)23:59\n\n･一般チケット\n【一般販売】\n7/2(木)21:00-8/24(月)23:59\n🔗 https://t.co/9jtj6Uxfqj\n\n#myojou\n#ミョージョーサマー\n#エンドレスサマー2026",
+        "full_text_source": "note_tweet",
+        "id": "2091513649336881613",
+        "media": [
+          {
+            "height": 2298,
+            "media_key": "3_2091513639752826880",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HQaMkvRaAAAfXk3.jpg",
+            "width": 4096
+          },
+          {
+            "height": 2298,
+            "media_key": "3_2091513639748653056",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HQaMkvQaUAAjAwW.jpg",
+            "width": 4096
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 464,
+                "start": 457,
+                "tag": "myojou"
+              },
+              {
+                "end": 475,
+                "start": 465,
+                "tag": "ミョージョーサマー"
+              },
+              {
+                "end": 489,
+                "start": 476,
+                "tag": "エンドレスサマー2026"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "ticketdive.com/event/endlessu…",
+                "end": 455,
+                "expanded_url": "https://ticketdive.com/event/endlessummer2026",
+                "start": 432,
+                "url": "https://t.co/9jtj6Uxfqj"
+              }
+            ]
+          },
+          "text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「Appare! Presents エンドレスサマー 2026」\n\n📍duo MUSIC EXCHANGE\n🎙15:35-16:00\n📸16:15-17:15 8 （Z MARUYAMA）\n\n⟣date：8/25（火）\n⟣place : Spotify O-EAST / O-WEST / O-Crest / O-nest / duo MUSIC EXCHANGE / clubasia / WOMB / Veats Shibuya　※8会場連動\n⟣open/start：10:30/11:00 ※リストバンド交換あり\n⟣price：夏は終わらない！チケット（限定Tシャツ付）¥10,000 / 一般チケット：¥4,000（各+1D）\n\n･夏は終わらない！チケット\n【一般販売】\n8/10(月)21:00-8/24(月)23:59\n\n･一般チケット\n【一般販売】\n7/2(木)21:00-8/24(月)23:59\n🔗 https://t.co/9jtj6Uxfqj\n\n#myojou\n#ミョージョーサマー\n#エンドレスサマー2026"
+        },
+        "text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「Appare! Presents エンドレスサマー 2026」\n\n📍duo MUSIC EXCHANGE\n🎙15:35-16:00\n📸16:15-17:15 8 （Z MARUYAMA）\n\n⟣date：8/25（火）\n⟣place : Spotify O-EAST / O-WEST / O-Crest / O-nest / duo MUSIC EXCHANGE / clubasia / WOMB / Veats Shibuya https://t.co/ciVd71UUAw",
+        "truncated_text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「Appare! Presents エンドレスサマー 2026」\n\n📍duo MUSIC EXCHANGE\n🎙15:35-16:00\n📸16:15-17:15 8 （Z MARUYAMA）\n\n⟣date：8/25（火）\n⟣place : Spotify O-EAST / O-WEST / O-Crest / O-nest / duo MUSIC EXCHANGE / clubasia / WOMB / Veats Shibuya https://t.co/ciVd71UUAw"
+      },
+      "referenced_tweets": [],
+      "text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「Appare! Presents エンドレスサマー 2026」\n\n📍duo MUSIC EXCHANGE\n🎙15:35-16:00\n📸16:15-17:15 8 （Z MARUYAMA）\n\n⟣date：8/25（火）\n⟣place : Spotify O-EAST / O-WEST / O-Crest / O-nest / duo MUSIC EXCHANGE / clubasia / WOMB / Veats Shibuya　※8会場連動\n⟣open/start：10:30/11:00 ※リストバンド交換あり\n⟣price：夏は終わらない！チケット（限定Tシャツ付）¥10,000 / 一般チケット：¥4,000（各+1D）\n\n･夏は終わらない！チケット\n【一般販売】\n8/10(月)21:00-8/24(月)23:59\n\n･一般チケット\n【一般販売】\n7/2(木)21:00-8/24(月)23:59\n🔗 https://t.co/9jtj6Uxfqj\n\n#myojou\n#ミョージョーサマー\n#エンドレスサマー2026",
+      "truncated_text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「Appare! Presents エンドレスサマー 2026」\n\n📍duo MUSIC EXCHANGE\n🎙15:35-16:00\n📸16:15-17:15 8 （Z MARUYAMA）\n\n⟣date：8/25（火）\n⟣place : Spotify O-EAST / O-WEST / O-Crest / O-nest / duo MUSIC EXCHANGE / clubasia / WOMB / Veats Shibuya https://t.co/ciVd71UUAw",
+      "url": "https://x.com/info_myojou/status/2091513649336881613"
+    },
+    {
+      "api_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n            ここちゃんのお誕生日会\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「ここちゃんのお誕生日会」ありがとうございました⋆˙⟡\n\n左上から\n日陽みう@myojou_miu \n澪奈ゆん@myojou_yun https://t.co/UgcwjWjbsX",
+      "attachments": {
+        "media_keys": [
+          "3_2091513096498188288"
+        ]
+      },
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "profile/member introduction",
+        "source_kind": "other"
+      },
+      "created_at": "2026-08-23T13:09:16+00:00",
+      "entities": {
+        "mentions": [
+          {
+            "end": 161,
+            "id": "2009245855694675968",
+            "start": 150,
+            "username": "myojou_miu"
+          },
+          {
+            "end": 178,
+            "id": "2009274765895450624",
+            "start": 167,
+            "username": "myojou_yun"
+          }
+        ],
+        "urls": [
+          {
+            "display_url": "pic.x.com/UgcwjWjbsX",
+            "end": 202,
+            "expanded_url": "https://x.com/info_myojou/status/2091513102785462539/photo/1",
+            "media_key": "3_2091513096498188288",
+            "start": 179,
+            "url": "https://t.co/UgcwjWjbsX"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2091513102785462539",
+      "media": [
+        {
+          "alt_text": "M0,SE\nM1,星景讃歌\nM2,僕彩色\nM3,CHRONOS\nM4,Never fade away （Cover）\nM5,蛍夏\nM6,軌跡まで\nM7,HeartBeat\nM8,アンチコンプリート\nM9,幸せのかたすみ\nENM1,夏、空模様 \nENM2,星景讃歌",
+          "height": 1348,
+          "media_key": "3_2091513096498188288",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HQaMFHfaEAAGJEC.jpg",
+          "width": 2048
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 282,
+              "start": 275,
+              "tag": "myojou"
+            }
+          ],
+          "mentions": [
+            {
+              "end": 161,
+              "id": "2009245855694675968",
+              "start": 150,
+              "username": "myojou_miu"
+            },
+            {
+              "end": 178,
+              "id": "2009274765895450624",
+              "start": 167,
+              "username": "myojou_yun"
+            },
+            {
+              "end": 197,
+              "id": "1754991922807177216",
+              "start": 184,
+              "username": "myojou_shino"
+            },
+            {
+              "end": 218,
+              "id": "1590652199407083520",
+              "start": 204,
+              "username": "myojou_cocone"
+            },
+            {
+              "end": 239,
+              "id": "1344586625901158401",
+              "start": 224,
+              "username": "myojou_usukura"
+            },
+            {
+              "end": 257,
+              "id": "1981655668626165760",
+              "start": 245,
+              "username": "myojou_ruka"
+            }
+          ]
+        },
+        "text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n            ここちゃんのお誕生日会\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「ここちゃんのお誕生日会」ありがとうございました⋆˙⟡\n\n左上から\n日陽みう@myojou_miu \n澪奈ゆん@myojou_yun \n真希しの@myojou_shino \n栗原ここね@myojou_cocone \n薄倉りな@myojou_usukura \n姫乃るか@myojou_ruka \n\nSETLIST▶︎ALT\n\n #myojou"
+      },
+      "parsed_fields": null,
+      "raw": {
+        "api_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n            ここちゃんのお誕生日会\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「ここちゃんのお誕生日会」ありがとうございました⋆˙⟡\n\n左上から\n日陽みう@myojou_miu \n澪奈ゆん@myojou_yun https://t.co/UgcwjWjbsX",
+        "attachments": {
+          "media_keys": [
+            "3_2091513096498188288"
+          ]
+        },
+        "created_at": "2026-08-23T13:09:16.000Z",
+        "edit_history_tweet_ids": [
+          "2091513102785462539"
+        ],
+        "entities": {
+          "mentions": [
+            {
+              "end": 161,
+              "id": "2009245855694675968",
+              "start": 150,
+              "username": "myojou_miu"
+            },
+            {
+              "end": 178,
+              "id": "2009274765895450624",
+              "start": 167,
+              "username": "myojou_yun"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "pic.x.com/UgcwjWjbsX",
+              "end": 202,
+              "expanded_url": "https://x.com/info_myojou/status/2091513102785462539/photo/1",
+              "media_key": "3_2091513096498188288",
+              "start": 179,
+              "url": "https://t.co/UgcwjWjbsX"
+            }
+          ]
+        },
+        "full_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n            ここちゃんのお誕生日会\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「ここちゃんのお誕生日会」ありがとうございました⋆˙⟡\n\n左上から\n日陽みう@myojou_miu \n澪奈ゆん@myojou_yun \n真希しの@myojou_shino \n栗原ここね@myojou_cocone \n薄倉りな@myojou_usukura \n姫乃るか@myojou_ruka \n\nSETLIST▶︎ALT\n\n #myojou",
+        "full_text_source": "note_tweet",
+        "id": "2091513102785462539",
+        "media": [
+          {
+            "alt_text": "M0,SE\nM1,星景讃歌\nM2,僕彩色\nM3,CHRONOS\nM4,Never fade away （Cover）\nM5,蛍夏\nM6,軌跡まで\nM7,HeartBeat\nM8,アンチコンプリート\nM9,幸せのかたすみ\nENM1,夏、空模様 \nENM2,星景讃歌",
+            "height": 1348,
+            "media_key": "3_2091513096498188288",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HQaMFHfaEAAGJEC.jpg",
+            "width": 2048
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 282,
+                "start": 275,
+                "tag": "myojou"
+              }
+            ],
+            "mentions": [
+              {
+                "end": 161,
+                "id": "2009245855694675968",
+                "start": 150,
+                "username": "myojou_miu"
+              },
+              {
+                "end": 178,
+                "id": "2009274765895450624",
+                "start": 167,
+                "username": "myojou_yun"
+              },
+              {
+                "end": 197,
+                "id": "1754991922807177216",
+                "start": 184,
+                "username": "myojou_shino"
+              },
+              {
+                "end": 218,
+                "id": "1590652199407083520",
+                "start": 204,
+                "username": "myojou_cocone"
+              },
+              {
+                "end": 239,
+                "id": "1344586625901158401",
+                "start": 224,
+                "username": "myojou_usukura"
+              },
+              {
+                "end": 257,
+                "id": "1981655668626165760",
+                "start": 245,
+                "username": "myojou_ruka"
+              }
+            ]
+          },
+          "text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n            ここちゃんのお誕生日会\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「ここちゃんのお誕生日会」ありがとうございました⋆˙⟡\n\n左上から\n日陽みう@myojou_miu \n澪奈ゆん@myojou_yun \n真希しの@myojou_shino \n栗原ここね@myojou_cocone \n薄倉りな@myojou_usukura \n姫乃るか@myojou_ruka \n\nSETLIST▶︎ALT\n\n #myojou"
+        },
+        "text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n            ここちゃんのお誕生日会\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「ここちゃんのお誕生日会」ありがとうございました⋆˙⟡\n\n左上から\n日陽みう@myojou_miu \n澪奈ゆん@myojou_yun https://t.co/UgcwjWjbsX",
+        "truncated_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n            ここちゃんのお誕生日会\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「ここちゃんのお誕生日会」ありがとうございました⋆˙⟡\n\n左上から\n日陽みう@myojou_miu \n澪奈ゆん@myojou_yun https://t.co/UgcwjWjbsX"
+      },
+      "referenced_tweets": [],
+      "text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n            ここちゃんのお誕生日会\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「ここちゃんのお誕生日会」ありがとうございました⋆˙⟡\n\n左上から\n日陽みう@myojou_miu \n澪奈ゆん@myojou_yun \n真希しの@myojou_shino \n栗原ここね@myojou_cocone \n薄倉りな@myojou_usukura \n姫乃るか@myojou_ruka \n\nSETLIST▶︎ALT\n\n #myojou",
+      "truncated_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n            ここちゃんのお誕生日会\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「ここちゃんのお誕生日会」ありがとうございました⋆˙⟡\n\n左上から\n日陽みう@myojou_miu \n澪奈ゆん@myojou_yun https://t.co/UgcwjWjbsX",
+      "url": "https://x.com/info_myojou/status/2091513102785462539"
+    },
+    {
       "api_text": "【物販・特典会について】\n\n・混雑緩和のため、栗原ここねの撮影は、1枚出しの枚数に制限を設けさせていただきます。状況により、スタッフより追加の枚数制限をお願いする場合がございます。スタッフの指示に従っていただきますよう、ご理解・ご協力をお願いいたします。 https://t.co/AGDNyRKc8d",
       "attachments": {},
       "classification": {
@@ -164785,7 +165451,7 @@
     "backfill": true,
     "dry_run": true,
     "estimated_x_post_reads": 411,
-    "latest_post_id": "2091170626979717484",
+    "latest_post_id": "2091545092813472101",
     "max_pages": 10,
     "max_posts": 500,
     "max_results": 5,
@@ -164828,16 +165494,16 @@
       }
     ],
     "pages_fetched": 5,
-    "posts_fetched": 754,
+    "posts_fetched": 757,
     "rate_limit_headers": {
       "x-rate-limit-limit": "10000",
       "x-rate-limit-remaining": "9993",
       "x-rate-limit-reset": "1781108896"
     },
-    "total_posts": 754,
-    "updated_at": "2026-08-22T19:24:57.031131+00:00",
+    "total_posts": 757,
+    "updated_at": "2026-08-23T19:24:25.365847+00:00",
     "username": "info_myojou"
   },
   "source": "x_api",
-  "updated_at": "2026-08-22T19:24:57.031131+00:00"
+  "updated_at": "2026-08-23T19:24:25.365847+00:00"
 }
