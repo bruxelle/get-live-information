@@ -2,6 +2,808 @@
   "captured_at": "2026-06-10T16:19:36.141820+00:00",
   "data": [
     {
+      "api_text": "⚠️大阪公演抽選受付本日23:59まで！⚠️\n\n #myojou https://t.co/B2UTOk6iqk",
+      "attachments": {},
+      "classification": {
+        "classification": "event",
+        "confidence": "medium",
+        "reason": "live keywords with partial structured information",
+        "source_kind": "same_day_reminder"
+      },
+      "created_at": "2026-08-24T13:46:58+00:00",
+      "entities": {
+        "hashtags": [
+          {
+            "end": 32,
+            "start": 25,
+            "tag": "myojou"
+          }
+        ],
+        "urls": [
+          {
+            "display_url": "x.com/info_myojou/st…",
+            "end": 56,
+            "expanded_url": "https://twitter.com/info_myojou/status/2086784829832503370",
+            "start": 33,
+            "url": "https://t.co/B2UTOk6iqk"
+          }
+        ]
+      },
+      "full_text_source": "text",
+      "id": "2091884977529200667",
+      "media": [],
+      "needs_review": true,
+      "needs_review_reasons": [
+        "missing event_name",
+        "missing venue",
+        "missing ticket deadline",
+        "classification: live keywords with partial structured information"
+      ],
+      "note_tweet": null,
+      "parsed_fields": {
+        "benefit_event_time": null,
+        "classification": "event",
+        "classification_confidence": "medium",
+        "classification_reason": "live keywords with partial structured information",
+        "event_date": "2026-08-24",
+        "event_dates": [
+          "2026-08-24"
+        ],
+        "event_name": null,
+        "extraction_confidence": 0.45,
+        "general_ticket_price": null,
+        "lottery_result_at": null,
+        "myojou_performance_time": null,
+        "notes": null,
+        "open_time": null,
+        "payment_deadline_at": null,
+        "priority_ticket_name": null,
+        "priority_ticket_price": null,
+        "same_day_ticket_price": null,
+        "source_kind": "same_day_reminder",
+        "source_post_id": "2091884977529200667",
+        "source_posted_at": "2026-08-24T13:46:58Z",
+        "source_raw": {
+          "api_text": "⚠️大阪公演抽選受付本日23:59まで！⚠️\n\n #myojou https://t.co/B2UTOk6iqk",
+          "created_at": "2026-08-24T13:46:58.000Z",
+          "edit_history_tweet_ids": [
+            "2091884977529200667"
+          ],
+          "entities": {
+            "hashtags": [
+              {
+                "end": 32,
+                "start": 25,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "x.com/info_myojou/st…",
+                "end": 56,
+                "expanded_url": "https://twitter.com/info_myojou/status/2086784829832503370",
+                "start": 33,
+                "url": "https://t.co/B2UTOk6iqk"
+              }
+            ]
+          },
+          "full_text": "⚠️大阪公演抽選受付本日23:59まで！⚠️\n\n #myojou https://t.co/B2UTOk6iqk",
+          "full_text_source": "text",
+          "id": "2091884977529200667",
+          "referenced_tweets": [
+            {
+              "id": "2086784829832503370",
+              "type": "quoted"
+            }
+          ],
+          "text": "⚠️大阪公演抽選受付本日23:59まで！⚠️\n\n #myojou https://t.co/B2UTOk6iqk",
+          "truncated_text": null
+        },
+        "source_text": "⚠️大阪公演抽選受付本日23:59まで！⚠️\n\n #myojou https://t.co/B2UTOk6iqk",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2091884977529200667",
+        "start_time": null,
+        "ticket_application_deadline_at": null,
+        "ticket_application_start_at": null,
+        "ticket_sale_type": "抽選",
+        "ticket_sales": [],
+        "ticket_status": null,
+        "ticket_url": null,
+        "venue": null
+      },
+      "raw": {
+        "api_text": "⚠️大阪公演抽選受付本日23:59まで！⚠️\n\n #myojou https://t.co/B2UTOk6iqk",
+        "created_at": "2026-08-24T13:46:58.000Z",
+        "edit_history_tweet_ids": [
+          "2091884977529200667"
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "end": 32,
+              "start": 25,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "x.com/info_myojou/st…",
+              "end": 56,
+              "expanded_url": "https://twitter.com/info_myojou/status/2086784829832503370",
+              "start": 33,
+              "url": "https://t.co/B2UTOk6iqk"
+            }
+          ]
+        },
+        "full_text": "⚠️大阪公演抽選受付本日23:59まで！⚠️\n\n #myojou https://t.co/B2UTOk6iqk",
+        "full_text_source": "text",
+        "id": "2091884977529200667",
+        "referenced_tweets": [
+          {
+            "id": "2086784829832503370",
+            "type": "quoted"
+          }
+        ],
+        "text": "⚠️大阪公演抽選受付本日23:59まで！⚠️\n\n #myojou https://t.co/B2UTOk6iqk",
+        "truncated_text": null
+      },
+      "referenced_tweets": [
+        {
+          "id": "2086784829832503370",
+          "type": "quoted"
+        }
+      ],
+      "text": "⚠️大阪公演抽選受付本日23:59まで！⚠️\n\n #myojou https://t.co/B2UTOk6iqk",
+      "truncated_text": null,
+      "url": "https://x.com/info_myojou/status/2091884977529200667"
+    },
+    {
+      "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「Appare! Presents エンドレスサマー 2026」\n\n📍duo MUSIC EXCHANGE\n🎙15:35-16:00\n📸16:15-17:15 8 （Z MARUYAMA）\n\n⟣date：8/25（火）\n⟣place : Spotify O-EAST / O-WEST / O-Crest / O-nest / duo MUSIC EXCHANGE / clubasia / WOMB / Veats Shibuya https://t.co/3xGscLaj4J",
+      "attachments": {
+        "media_keys": [
+          "3_2091861348003319808",
+          "3_2091861347948797952"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "day_before_reminder"
+      },
+      "created_at": "2026-08-24T12:13:06+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/3xGscLaj4J",
+            "end": 263,
+            "expanded_url": "https://x.com/info_myojou/status/2091861355339079812/photo/1",
+            "media_key": "3_2091861348003319808",
+            "start": 240,
+            "url": "https://t.co/3xGscLaj4J"
+          },
+          {
+            "display_url": "pic.x.com/3xGscLaj4J",
+            "end": 263,
+            "expanded_url": "https://x.com/info_myojou/status/2091861355339079812/photo/1",
+            "media_key": "3_2091861347948797952",
+            "start": 240,
+            "url": "https://t.co/3xGscLaj4J"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2091861355339079812",
+      "media": [
+        {
+          "height": 2298,
+          "media_key": "3_2091861348003319808",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HQfI0BcbkAAp897.jpg",
+          "width": 4096
+        },
+        {
+          "height": 2298,
+          "media_key": "3_2091861347948797952",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HQfI0BPboAAkhaC.jpg",
+          "width": 4096
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 464,
+              "start": 457,
+              "tag": "myojou"
+            },
+            {
+              "end": 475,
+              "start": 465,
+              "tag": "ミョージョーサマー"
+            },
+            {
+              "end": 489,
+              "start": 476,
+              "tag": "エンドレスサマー2026"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "t-dv.com/endlessummer20…",
+              "end": 455,
+              "expanded_url": "https://t-dv.com/endlessummer2026",
+              "start": 432,
+              "url": "https://t.co/2kcRX7z9wC"
+            }
+          ]
+        },
+        "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「Appare! Presents エンドレスサマー 2026」\n\n📍duo MUSIC EXCHANGE\n🎙15:35-16:00\n📸16:15-17:15 8 （Z MARUYAMA）\n\n⟣date：8/25（火）\n⟣place : Spotify O-EAST / O-WEST / O-Crest / O-nest / duo MUSIC EXCHANGE / clubasia / WOMB / Veats Shibuya　※8会場連動\n⟣open/start：10:30/11:00 ※リストバンド交換あり\n⟣price：夏は終わらない！チケット（限定Tシャツ付）¥10,000 / 一般チケット：¥4,000（各+1D）\n\n･夏は終わらない！チケット\n【一般販売】\n8/10(月)21:00-8/24(月)23:59\n\n･一般チケット\n【一般販売】\n7/2(木)21:00-8/24(月)23:59\n🔗 https://t.co/2kcRX7z9wC\n\n#myojou\n#ミョージョーサマー\n#エンドレスサマー2026"
+      },
+      "parsed_fields": {
+        "benefit_event_time": "16:15-17:15",
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-08-25",
+        "event_dates": [
+          "2026-08-25"
+        ],
+        "event_name": "エンドレスサマー 2026",
+        "extraction_confidence": 0.95,
+        "general_ticket_price": 4000,
+        "lottery_result_at": null,
+        "myojou_performance_time": "15:35-16:00",
+        "notes": "ドリンク代: 各+1D",
+        "open_time": "10:30",
+        "payment_deadline_at": null,
+        "priority_ticket_name": null,
+        "priority_ticket_price": null,
+        "same_day_ticket_price": null,
+        "source_kind": "day_before_reminder",
+        "source_post_id": "2091861355339079812",
+        "source_posted_at": "2026-08-24T12:13:06Z",
+        "source_raw": {
+          "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「Appare! Presents エンドレスサマー 2026」\n\n📍duo MUSIC EXCHANGE\n🎙15:35-16:00\n📸16:15-17:15 8 （Z MARUYAMA）\n\n⟣date：8/25（火）\n⟣place : Spotify O-EAST / O-WEST / O-Crest / O-nest / duo MUSIC EXCHANGE / clubasia / WOMB / Veats Shibuya https://t.co/3xGscLaj4J",
+          "attachments": {
+            "media_keys": [
+              "3_2091861348003319808",
+              "3_2091861347948797952"
+            ]
+          },
+          "created_at": "2026-08-24T12:13:06.000Z",
+          "edit_history_tweet_ids": [
+            "2091861355339079812"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/3xGscLaj4J",
+                "end": 263,
+                "expanded_url": "https://x.com/info_myojou/status/2091861355339079812/photo/1",
+                "media_key": "3_2091861348003319808",
+                "start": 240,
+                "url": "https://t.co/3xGscLaj4J"
+              },
+              {
+                "display_url": "pic.x.com/3xGscLaj4J",
+                "end": 263,
+                "expanded_url": "https://x.com/info_myojou/status/2091861355339079812/photo/1",
+                "media_key": "3_2091861347948797952",
+                "start": 240,
+                "url": "https://t.co/3xGscLaj4J"
+              }
+            ]
+          },
+          "full_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「Appare! Presents エンドレスサマー 2026」\n\n📍duo MUSIC EXCHANGE\n🎙15:35-16:00\n📸16:15-17:15 8 （Z MARUYAMA）\n\n⟣date：8/25（火）\n⟣place : Spotify O-EAST / O-WEST / O-Crest / O-nest / duo MUSIC EXCHANGE / clubasia / WOMB / Veats Shibuya　※8会場連動\n⟣open/start：10:30/11:00 ※リストバンド交換あり\n⟣price：夏は終わらない！チケット（限定Tシャツ付）¥10,000 / 一般チケット：¥4,000（各+1D）\n\n･夏は終わらない！チケット\n【一般販売】\n8/10(月)21:00-8/24(月)23:59\n\n･一般チケット\n【一般販売】\n7/2(木)21:00-8/24(月)23:59\n🔗 https://t.co/2kcRX7z9wC\n\n#myojou\n#ミョージョーサマー\n#エンドレスサマー2026",
+          "full_text_source": "note_tweet",
+          "id": "2091861355339079812",
+          "media": [
+            {
+              "height": 2298,
+              "media_key": "3_2091861348003319808",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HQfI0BcbkAAp897.jpg",
+              "width": 4096
+            },
+            {
+              "height": 2298,
+              "media_key": "3_2091861347948797952",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HQfI0BPboAAkhaC.jpg",
+              "width": 4096
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 464,
+                  "start": 457,
+                  "tag": "myojou"
+                },
+                {
+                  "end": 475,
+                  "start": 465,
+                  "tag": "ミョージョーサマー"
+                },
+                {
+                  "end": 489,
+                  "start": 476,
+                  "tag": "エンドレスサマー2026"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "t-dv.com/endlessummer20…",
+                  "end": 455,
+                  "expanded_url": "https://t-dv.com/endlessummer2026",
+                  "start": 432,
+                  "url": "https://t.co/2kcRX7z9wC"
+                }
+              ]
+            },
+            "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「Appare! Presents エンドレスサマー 2026」\n\n📍duo MUSIC EXCHANGE\n🎙15:35-16:00\n📸16:15-17:15 8 （Z MARUYAMA）\n\n⟣date：8/25（火）\n⟣place : Spotify O-EAST / O-WEST / O-Crest / O-nest / duo MUSIC EXCHANGE / clubasia / WOMB / Veats Shibuya　※8会場連動\n⟣open/start：10:30/11:00 ※リストバンド交換あり\n⟣price：夏は終わらない！チケット（限定Tシャツ付）¥10,000 / 一般チケット：¥4,000（各+1D）\n\n･夏は終わらない！チケット\n【一般販売】\n8/10(月)21:00-8/24(月)23:59\n\n･一般チケット\n【一般販売】\n7/2(木)21:00-8/24(月)23:59\n🔗 https://t.co/2kcRX7z9wC\n\n#myojou\n#ミョージョーサマー\n#エンドレスサマー2026"
+          },
+          "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「Appare! Presents エンドレスサマー 2026」\n\n📍duo MUSIC EXCHANGE\n🎙15:35-16:00\n📸16:15-17:15 8 （Z MARUYAMA）\n\n⟣date：8/25（火）\n⟣place : Spotify O-EAST / O-WEST / O-Crest / O-nest / duo MUSIC EXCHANGE / clubasia / WOMB / Veats Shibuya https://t.co/3xGscLaj4J",
+          "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「Appare! Presents エンドレスサマー 2026」\n\n📍duo MUSIC EXCHANGE\n🎙15:35-16:00\n📸16:15-17:15 8 （Z MARUYAMA）\n\n⟣date：8/25（火）\n⟣place : Spotify O-EAST / O-WEST / O-Crest / O-nest / duo MUSIC EXCHANGE / clubasia / WOMB / Veats Shibuya https://t.co/3xGscLaj4J"
+        },
+        "source_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「Appare! Presents エンドレスサマー 2026」\n\n📍duo MUSIC EXCHANGE\n🎙15:35-16:00\n📸16:15-17:15 8 （Z MARUYAMA）\n\n⟣date：8/25（火）\n⟣place : Spotify O-EAST / O-WEST / O-Crest / O-nest / duo MUSIC EXCHANGE / clubasia / WOMB / Veats Shibuya　※8会場連動\n⟣open/start：10:30/11:00 ※リストバンド交換あり\n⟣price：夏は終わらない！チケット（限定Tシャツ付）¥10,000 / 一般チケット：¥4,000（各+1D）\n\n･夏は終わらない！チケット\n【一般販売】\n8/10(月)21:00-8/24(月)23:59\n\n･一般チケット\n【一般販売】\n7/2(木)21:00-8/24(月)23:59\n🔗 https://t.co/2kcRX7z9wC\n\n#myojou\n#ミョージョーサマー\n#エンドレスサマー2026",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2091861355339079812",
+        "start_time": "11:00",
+        "ticket_application_deadline_at": "2026-08-24T23:59:00+09:00",
+        "ticket_application_start_at": "2026-07-02T21:00:00+09:00",
+        "ticket_sale_type": "一般",
+        "ticket_sales": [
+          {
+            "deadline_at": "2026-08-24T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 10000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2091861355339079812",
+            "source_url": "https://x.com/info_myojou/status/2091861355339079812",
+            "start_at": "2026-08-10T21:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "夏は終わらない!チケット",
+            "ticket_tier": "その他"
+          },
+          {
+            "deadline_at": "2026-08-24T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 4000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2091861355339079812",
+            "source_url": "https://x.com/info_myojou/status/2091861355339079812",
+            "start_at": "2026-08-10T21:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般チケット",
+            "ticket_tier": "一般"
+          },
+          {
+            "deadline_at": "2026-08-24T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 10000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2091861355339079812",
+            "source_url": "https://x.com/info_myojou/status/2091861355339079812",
+            "start_at": "2026-07-02T21:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "夏は終わらない!チケット",
+            "ticket_tier": "その他"
+          },
+          {
+            "deadline_at": "2026-08-24T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 4000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2091861355339079812",
+            "source_url": "https://x.com/info_myojou/status/2091861355339079812",
+            "start_at": "2026-07-02T21:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般チケット",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "https://t-dv.com/endlessummer2026",
+        "venue": "Spotify O-EAST / O-WEST / O-Crest / O-nest / duo MUSIC EXCHANGE / clubasia / WOMB / Veats Shibuya ※8会場連動"
+      },
+      "raw": {
+        "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「Appare! Presents エンドレスサマー 2026」\n\n📍duo MUSIC EXCHANGE\n🎙15:35-16:00\n📸16:15-17:15 8 （Z MARUYAMA）\n\n⟣date：8/25（火）\n⟣place : Spotify O-EAST / O-WEST / O-Crest / O-nest / duo MUSIC EXCHANGE / clubasia / WOMB / Veats Shibuya https://t.co/3xGscLaj4J",
+        "attachments": {
+          "media_keys": [
+            "3_2091861348003319808",
+            "3_2091861347948797952"
+          ]
+        },
+        "created_at": "2026-08-24T12:13:06.000Z",
+        "edit_history_tweet_ids": [
+          "2091861355339079812"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/3xGscLaj4J",
+              "end": 263,
+              "expanded_url": "https://x.com/info_myojou/status/2091861355339079812/photo/1",
+              "media_key": "3_2091861348003319808",
+              "start": 240,
+              "url": "https://t.co/3xGscLaj4J"
+            },
+            {
+              "display_url": "pic.x.com/3xGscLaj4J",
+              "end": 263,
+              "expanded_url": "https://x.com/info_myojou/status/2091861355339079812/photo/1",
+              "media_key": "3_2091861347948797952",
+              "start": 240,
+              "url": "https://t.co/3xGscLaj4J"
+            }
+          ]
+        },
+        "full_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「Appare! Presents エンドレスサマー 2026」\n\n📍duo MUSIC EXCHANGE\n🎙15:35-16:00\n📸16:15-17:15 8 （Z MARUYAMA）\n\n⟣date：8/25（火）\n⟣place : Spotify O-EAST / O-WEST / O-Crest / O-nest / duo MUSIC EXCHANGE / clubasia / WOMB / Veats Shibuya　※8会場連動\n⟣open/start：10:30/11:00 ※リストバンド交換あり\n⟣price：夏は終わらない！チケット（限定Tシャツ付）¥10,000 / 一般チケット：¥4,000（各+1D）\n\n･夏は終わらない！チケット\n【一般販売】\n8/10(月)21:00-8/24(月)23:59\n\n･一般チケット\n【一般販売】\n7/2(木)21:00-8/24(月)23:59\n🔗 https://t.co/2kcRX7z9wC\n\n#myojou\n#ミョージョーサマー\n#エンドレスサマー2026",
+        "full_text_source": "note_tweet",
+        "id": "2091861355339079812",
+        "media": [
+          {
+            "height": 2298,
+            "media_key": "3_2091861348003319808",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HQfI0BcbkAAp897.jpg",
+            "width": 4096
+          },
+          {
+            "height": 2298,
+            "media_key": "3_2091861347948797952",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HQfI0BPboAAkhaC.jpg",
+            "width": 4096
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 464,
+                "start": 457,
+                "tag": "myojou"
+              },
+              {
+                "end": 475,
+                "start": 465,
+                "tag": "ミョージョーサマー"
+              },
+              {
+                "end": 489,
+                "start": 476,
+                "tag": "エンドレスサマー2026"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "t-dv.com/endlessummer20…",
+                "end": 455,
+                "expanded_url": "https://t-dv.com/endlessummer2026",
+                "start": 432,
+                "url": "https://t.co/2kcRX7z9wC"
+              }
+            ]
+          },
+          "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「Appare! Presents エンドレスサマー 2026」\n\n📍duo MUSIC EXCHANGE\n🎙15:35-16:00\n📸16:15-17:15 8 （Z MARUYAMA）\n\n⟣date：8/25（火）\n⟣place : Spotify O-EAST / O-WEST / O-Crest / O-nest / duo MUSIC EXCHANGE / clubasia / WOMB / Veats Shibuya　※8会場連動\n⟣open/start：10:30/11:00 ※リストバンド交換あり\n⟣price：夏は終わらない！チケット（限定Tシャツ付）¥10,000 / 一般チケット：¥4,000（各+1D）\n\n･夏は終わらない！チケット\n【一般販売】\n8/10(月)21:00-8/24(月)23:59\n\n･一般チケット\n【一般販売】\n7/2(木)21:00-8/24(月)23:59\n🔗 https://t.co/2kcRX7z9wC\n\n#myojou\n#ミョージョーサマー\n#エンドレスサマー2026"
+        },
+        "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「Appare! Presents エンドレスサマー 2026」\n\n📍duo MUSIC EXCHANGE\n🎙15:35-16:00\n📸16:15-17:15 8 （Z MARUYAMA）\n\n⟣date：8/25（火）\n⟣place : Spotify O-EAST / O-WEST / O-Crest / O-nest / duo MUSIC EXCHANGE / clubasia / WOMB / Veats Shibuya https://t.co/3xGscLaj4J",
+        "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「Appare! Presents エンドレスサマー 2026」\n\n📍duo MUSIC EXCHANGE\n🎙15:35-16:00\n📸16:15-17:15 8 （Z MARUYAMA）\n\n⟣date：8/25（火）\n⟣place : Spotify O-EAST / O-WEST / O-Crest / O-nest / duo MUSIC EXCHANGE / clubasia / WOMB / Veats Shibuya https://t.co/3xGscLaj4J"
+      },
+      "referenced_tweets": [],
+      "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「Appare! Presents エンドレスサマー 2026」\n\n📍duo MUSIC EXCHANGE\n🎙15:35-16:00\n📸16:15-17:15 8 （Z MARUYAMA）\n\n⟣date：8/25（火）\n⟣place : Spotify O-EAST / O-WEST / O-Crest / O-nest / duo MUSIC EXCHANGE / clubasia / WOMB / Veats Shibuya　※8会場連動\n⟣open/start：10:30/11:00 ※リストバンド交換あり\n⟣price：夏は終わらない！チケット（限定Tシャツ付）¥10,000 / 一般チケット：¥4,000（各+1D）\n\n･夏は終わらない！チケット\n【一般販売】\n8/10(月)21:00-8/24(月)23:59\n\n･一般チケット\n【一般販売】\n7/2(木)21:00-8/24(月)23:59\n🔗 https://t.co/2kcRX7z9wC\n\n#myojou\n#ミョージョーサマー\n#エンドレスサマー2026",
+      "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「Appare! Presents エンドレスサマー 2026」\n\n📍duo MUSIC EXCHANGE\n🎙15:35-16:00\n📸16:15-17:15 8 （Z MARUYAMA）\n\n⟣date：8/25（火）\n⟣place : Spotify O-EAST / O-WEST / O-Crest / O-nest / duo MUSIC EXCHANGE / clubasia / WOMB / Veats Shibuya https://t.co/3xGscLaj4J",
+      "url": "https://x.com/info_myojou/status/2091861355339079812"
+    },
+    {
+      "api_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n                  TOKYO GIRLS GIRLS\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：10/6（火）\n⟣place : Shibuya LOVEZ\n⟣open/start：11:00/12:00\n⟣price：前方¥10,000/通常¥2,500/当日¥4,000（各＋1D）\n\n【前方抽選販売】 https://t.co/2yPjohHJZz",
+      "attachments": {
+        "media_keys": [
+          "3_2091844552584048640"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "ticket_update"
+      },
+      "created_at": "2026-08-24T11:06:22+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/2yPjohHJZz",
+            "end": 224,
+            "expanded_url": "https://x.com/info_myojou/status/2091844561069019573/photo/1",
+            "media_key": "3_2091844552584048640",
+            "start": 201,
+            "url": "https://t.co/2yPjohHJZz"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2091844561069019573",
+      "media": [
+        {
+          "height": 4096,
+          "media_key": "3_2091844552584048640",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HQe5iZobsAAjALw.jpg",
+          "width": 2920
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 282,
+              "start": 275,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "t-dv.com/tgg_1006",
+              "end": 273,
+              "expanded_url": "https://t-dv.com/tgg_1006",
+              "start": 250,
+              "url": "https://t.co/t08J8oFC2d"
+            }
+          ]
+        },
+        "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n                  TOKYO GIRLS GIRLS\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：10/6（火）\n⟣place : Shibuya LOVEZ\n⟣open/start：11:00/12:00\n⟣price：前方¥10,000/通常¥2,500/当日¥4,000（各＋1D）\n\n【前方抽選販売】\n8/10(月) 20:00-9/5(土)23:59\n【先着販売】\n9/6(日) 20:00~\n🔗 https://t.co/t08J8oFC2d\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": null,
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-10-06",
+        "event_dates": [
+          "2026-10-06"
+        ],
+        "event_name": "TOKYO GIRLS GIRLS",
+        "extraction_confidence": 0.9,
+        "general_ticket_price": 2500,
+        "lottery_result_at": null,
+        "myojou_performance_time": null,
+        "notes": "ドリンク代: 各+1D",
+        "open_time": "11:00",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "前方",
+        "priority_ticket_price": 10000,
+        "same_day_ticket_price": 4000,
+        "source_kind": "ticket_update",
+        "source_post_id": "2091844561069019573",
+        "source_posted_at": "2026-08-24T11:06:22Z",
+        "source_raw": {
+          "api_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n                  TOKYO GIRLS GIRLS\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：10/6（火）\n⟣place : Shibuya LOVEZ\n⟣open/start：11:00/12:00\n⟣price：前方¥10,000/通常¥2,500/当日¥4,000（各＋1D）\n\n【前方抽選販売】 https://t.co/2yPjohHJZz",
+          "attachments": {
+            "media_keys": [
+              "3_2091844552584048640"
+            ]
+          },
+          "created_at": "2026-08-24T11:06:22.000Z",
+          "edit_history_tweet_ids": [
+            "2091844561069019573"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/2yPjohHJZz",
+                "end": 224,
+                "expanded_url": "https://x.com/info_myojou/status/2091844561069019573/photo/1",
+                "media_key": "3_2091844552584048640",
+                "start": 201,
+                "url": "https://t.co/2yPjohHJZz"
+              }
+            ]
+          },
+          "full_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n                  TOKYO GIRLS GIRLS\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：10/6（火）\n⟣place : Shibuya LOVEZ\n⟣open/start：11:00/12:00\n⟣price：前方¥10,000/通常¥2,500/当日¥4,000（各＋1D）\n\n【前方抽選販売】\n8/10(月) 20:00-9/5(土)23:59\n【先着販売】\n9/6(日) 20:00~\n🔗 https://t.co/t08J8oFC2d\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2091844561069019573",
+          "media": [
+            {
+              "height": 4096,
+              "media_key": "3_2091844552584048640",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HQe5iZobsAAjALw.jpg",
+              "width": 2920
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 282,
+                  "start": 275,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "t-dv.com/tgg_1006",
+                  "end": 273,
+                  "expanded_url": "https://t-dv.com/tgg_1006",
+                  "start": 250,
+                  "url": "https://t.co/t08J8oFC2d"
+                }
+              ]
+            },
+            "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n                  TOKYO GIRLS GIRLS\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：10/6（火）\n⟣place : Shibuya LOVEZ\n⟣open/start：11:00/12:00\n⟣price：前方¥10,000/通常¥2,500/当日¥4,000（各＋1D）\n\n【前方抽選販売】\n8/10(月) 20:00-9/5(土)23:59\n【先着販売】\n9/6(日) 20:00~\n🔗 https://t.co/t08J8oFC2d\n\n#myojou"
+          },
+          "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n                  TOKYO GIRLS GIRLS\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：10/6（火）\n⟣place : Shibuya LOVEZ\n⟣open/start：11:00/12:00\n⟣price：前方¥10,000/通常¥2,500/当日¥4,000（各＋1D）\n\n【前方抽選販売】 https://t.co/2yPjohHJZz",
+          "truncated_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n                  TOKYO GIRLS GIRLS\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：10/6（火）\n⟣place : Shibuya LOVEZ\n⟣open/start：11:00/12:00\n⟣price：前方¥10,000/通常¥2,500/当日¥4,000（各＋1D）\n\n【前方抽選販売】 https://t.co/2yPjohHJZz"
+        },
+        "source_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n                  TOKYO GIRLS GIRLS\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：10/6（火）\n⟣place : Shibuya LOVEZ\n⟣open/start：11:00/12:00\n⟣price：前方¥10,000/通常¥2,500/当日¥4,000（各＋1D）\n\n【前方抽選販売】\n8/10(月) 20:00-9/5(土)23:59\n【先着販売】\n9/6(日) 20:00~\n🔗 https://t.co/t08J8oFC2d\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2091844561069019573",
+        "start_time": "12:00",
+        "ticket_application_deadline_at": "2026-09-05T23:59:00+09:00",
+        "ticket_application_start_at": "2026-08-10T20:00:00+09:00",
+        "ticket_sale_type": "抽選",
+        "ticket_sales": [
+          {
+            "deadline_at": "2026-09-05T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 10000,
+            "result_at": null,
+            "sale_type": "抽選",
+            "source_post_id": "2091844561069019573",
+            "source_url": "https://x.com/info_myojou/status/2091844561069019573",
+            "start_at": "2026-08-10T20:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "前方",
+            "ticket_tier": "前方"
+          },
+          {
+            "deadline_at": "2026-09-05T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 2500,
+            "result_at": null,
+            "sale_type": "抽選",
+            "source_post_id": "2091844561069019573",
+            "source_url": "https://x.com/info_myojou/status/2091844561069019573",
+            "start_at": "2026-08-10T20:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 10000,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2091844561069019573",
+            "source_url": "https://x.com/info_myojou/status/2091844561069019573",
+            "start_at": "2026-09-06T20:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "前方",
+            "ticket_tier": "前方"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 2500,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2091844561069019573",
+            "source_url": "https://x.com/info_myojou/status/2091844561069019573",
+            "start_at": "2026-09-06T20:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 4000,
+            "result_at": null,
+            "sale_type": "当日券",
+            "source_post_id": "2091844561069019573",
+            "source_url": "https://x.com/info_myojou/status/2091844561069019573",
+            "start_at": null,
+            "status": "販売中",
+            "ticket_name": "当日券",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "https://t-dv.com/tgg_1006",
+        "venue": "Shibuya LOVEZ"
+      },
+      "raw": {
+        "api_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n                  TOKYO GIRLS GIRLS\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：10/6（火）\n⟣place : Shibuya LOVEZ\n⟣open/start：11:00/12:00\n⟣price：前方¥10,000/通常¥2,500/当日¥4,000（各＋1D）\n\n【前方抽選販売】 https://t.co/2yPjohHJZz",
+        "attachments": {
+          "media_keys": [
+            "3_2091844552584048640"
+          ]
+        },
+        "created_at": "2026-08-24T11:06:22.000Z",
+        "edit_history_tweet_ids": [
+          "2091844561069019573"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/2yPjohHJZz",
+              "end": 224,
+              "expanded_url": "https://x.com/info_myojou/status/2091844561069019573/photo/1",
+              "media_key": "3_2091844552584048640",
+              "start": 201,
+              "url": "https://t.co/2yPjohHJZz"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n                  TOKYO GIRLS GIRLS\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：10/6（火）\n⟣place : Shibuya LOVEZ\n⟣open/start：11:00/12:00\n⟣price：前方¥10,000/通常¥2,500/当日¥4,000（各＋1D）\n\n【前方抽選販売】\n8/10(月) 20:00-9/5(土)23:59\n【先着販売】\n9/6(日) 20:00~\n🔗 https://t.co/t08J8oFC2d\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2091844561069019573",
+        "media": [
+          {
+            "height": 4096,
+            "media_key": "3_2091844552584048640",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HQe5iZobsAAjALw.jpg",
+            "width": 2920
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 282,
+                "start": 275,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "t-dv.com/tgg_1006",
+                "end": 273,
+                "expanded_url": "https://t-dv.com/tgg_1006",
+                "start": 250,
+                "url": "https://t.co/t08J8oFC2d"
+              }
+            ]
+          },
+          "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n                  TOKYO GIRLS GIRLS\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：10/6（火）\n⟣place : Shibuya LOVEZ\n⟣open/start：11:00/12:00\n⟣price：前方¥10,000/通常¥2,500/当日¥4,000（各＋1D）\n\n【前方抽選販売】\n8/10(月) 20:00-9/5(土)23:59\n【先着販売】\n9/6(日) 20:00~\n🔗 https://t.co/t08J8oFC2d\n\n#myojou"
+        },
+        "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n                  TOKYO GIRLS GIRLS\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：10/6（火）\n⟣place : Shibuya LOVEZ\n⟣open/start：11:00/12:00\n⟣price：前方¥10,000/通常¥2,500/当日¥4,000（各＋1D）\n\n【前方抽選販売】 https://t.co/2yPjohHJZz",
+        "truncated_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n                  TOKYO GIRLS GIRLS\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：10/6（火）\n⟣place : Shibuya LOVEZ\n⟣open/start：11:00/12:00\n⟣price：前方¥10,000/通常¥2,500/当日¥4,000（各＋1D）\n\n【前方抽選販売】 https://t.co/2yPjohHJZz"
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n                  TOKYO GIRLS GIRLS\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：10/6（火）\n⟣place : Shibuya LOVEZ\n⟣open/start：11:00/12:00\n⟣price：前方¥10,000/通常¥2,500/当日¥4,000（各＋1D）\n\n【前方抽選販売】\n8/10(月) 20:00-9/5(土)23:59\n【先着販売】\n9/6(日) 20:00~\n🔗 https://t.co/t08J8oFC2d\n\n#myojou",
+      "truncated_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n                  TOKYO GIRLS GIRLS\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：10/6（火）\n⟣place : Shibuya LOVEZ\n⟣open/start：11:00/12:00\n⟣price：前方¥10,000/通常¥2,500/当日¥4,000（各＋1D）\n\n【前方抽選販売】 https://t.co/2yPjohHJZz",
+      "url": "https://x.com/info_myojou/status/2091844561069019573"
+    },
+    {
       "api_text": "▶️DIGEST\nここちゃんのお誕生日会🎂\n\nSo happy happy birthday Coco:)\n\n#myojou https://t.co/7COhgEVXV7",
       "attachments": {
         "media_keys": [
@@ -165451,7 +166253,7 @@
     "backfill": true,
     "dry_run": true,
     "estimated_x_post_reads": 411,
-    "latest_post_id": "2091545092813472101",
+    "latest_post_id": "2091884977529200667",
     "max_pages": 10,
     "max_posts": 500,
     "max_results": 5,
@@ -165494,16 +166296,16 @@
       }
     ],
     "pages_fetched": 5,
-    "posts_fetched": 757,
+    "posts_fetched": 760,
     "rate_limit_headers": {
       "x-rate-limit-limit": "10000",
       "x-rate-limit-remaining": "9993",
       "x-rate-limit-reset": "1781108896"
     },
-    "total_posts": 757,
-    "updated_at": "2026-08-23T19:24:25.365847+00:00",
+    "total_posts": 760,
+    "updated_at": "2026-08-24T19:32:28.862740+00:00",
     "username": "info_myojou"
   },
   "source": "x_api",
-  "updated_at": "2026-08-23T19:24:25.365847+00:00"
+  "updated_at": "2026-08-24T19:32:28.862740+00:00"
 }
