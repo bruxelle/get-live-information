@@ -2,6 +2,903 @@
   "captured_at": "2026-06-10T16:19:36.141820+00:00",
   "data": [
     {
+      "api_text": "✮••┈┈┈┈┈┈┈┈┈┈••✮\n                 楽曲公開 \n         \"幸せのかたすみ\"\n✮••┈┈┈┈┈┈┈┈┈┈••✮\n\n2026.8.27より順次配信開始\n🔗 https://t.co/Um81qXeQb7\n\n #myojou https://t.co/5XNbG0N9SF",
+      "attachments": {
+        "media_keys": [
+          "13_2092598386847555584"
+        ]
+      },
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "strong non-event keyword without live structure",
+        "source_kind": "other"
+      },
+      "created_at": "2026-08-26T13:02:35+00:00",
+      "entities": {
+        "hashtags": [
+          {
+            "end": 130,
+            "start": 123,
+            "tag": "myojou"
+          }
+        ],
+        "urls": [
+          {
+            "description": "音楽配信サービスで myojou （ミョウジョウ）を聴く。",
+            "display_url": "tunecore.co.jp/artists?id=107…",
+            "end": 120,
+            "expanded_url": "https://www.tunecore.co.jp/artists?id=1078390",
+            "images": [
+              {
+                "height": 500,
+                "url": "https://pbs.twimg.com/news_img/2090432326400716801/4BteU1Wn?format=png&name=orig",
+                "width": 500
+              },
+              {
+                "height": 150,
+                "url": "https://pbs.twimg.com/news_img/2090432326400716801/4BteU1Wn?format=png&name=150x150",
+                "width": 150
+              }
+            ],
+            "start": 97,
+            "status": 200,
+            "title": "myojou",
+            "unwound_url": "https://www.tunecore.co.jp/artists?id=1078390",
+            "url": "https://t.co/Um81qXeQb7"
+          },
+          {
+            "display_url": "pic.x.com/5XNbG0N9SF",
+            "end": 154,
+            "expanded_url": "https://x.com/info_myojou/status/2092598584810312096/video/1",
+            "media_key": "13_2092598386847555584",
+            "start": 131,
+            "url": "https://t.co/5XNbG0N9SF"
+          }
+        ]
+      },
+      "full_text_source": "text",
+      "id": "2092598584810312096",
+      "media": [
+        {
+          "height": 1080,
+          "media_key": "13_2092598386847555584",
+          "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2092598386847555584/img/sQKYtaUUxZRAZ1sI.jpg",
+          "type": "video",
+          "width": 1920
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "note_tweet": null,
+      "parsed_fields": null,
+      "raw": {
+        "api_text": "✮••┈┈┈┈┈┈┈┈┈┈••✮\n                 楽曲公開 \n         \"幸せのかたすみ\"\n✮••┈┈┈┈┈┈┈┈┈┈••✮\n\n2026.8.27より順次配信開始\n🔗 https://t.co/Um81qXeQb7\n\n #myojou https://t.co/5XNbG0N9SF",
+        "attachments": {
+          "media_keys": [
+            "13_2092598386847555584"
+          ]
+        },
+        "created_at": "2026-08-26T13:02:35.000Z",
+        "edit_history_tweet_ids": [
+          "2092598584810312096"
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "end": 130,
+              "start": 123,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "description": "音楽配信サービスで myojou （ミョウジョウ）を聴く。",
+              "display_url": "tunecore.co.jp/artists?id=107…",
+              "end": 120,
+              "expanded_url": "https://www.tunecore.co.jp/artists?id=1078390",
+              "images": [
+                {
+                  "height": 500,
+                  "url": "https://pbs.twimg.com/news_img/2090432326400716801/4BteU1Wn?format=png&name=orig",
+                  "width": 500
+                },
+                {
+                  "height": 150,
+                  "url": "https://pbs.twimg.com/news_img/2090432326400716801/4BteU1Wn?format=png&name=150x150",
+                  "width": 150
+                }
+              ],
+              "start": 97,
+              "status": 200,
+              "title": "myojou",
+              "unwound_url": "https://www.tunecore.co.jp/artists?id=1078390",
+              "url": "https://t.co/Um81qXeQb7"
+            },
+            {
+              "display_url": "pic.x.com/5XNbG0N9SF",
+              "end": 154,
+              "expanded_url": "https://x.com/info_myojou/status/2092598584810312096/video/1",
+              "media_key": "13_2092598386847555584",
+              "start": 131,
+              "url": "https://t.co/5XNbG0N9SF"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈┈┈┈┈┈┈••✮\n                 楽曲公開 \n         \"幸せのかたすみ\"\n✮••┈┈┈┈┈┈┈┈┈┈••✮\n\n2026.8.27より順次配信開始\n🔗 https://t.co/Um81qXeQb7\n\n #myojou https://t.co/5XNbG0N9SF",
+        "full_text_source": "text",
+        "id": "2092598584810312096",
+        "media": [
+          {
+            "height": 1080,
+            "media_key": "13_2092598386847555584",
+            "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2092598386847555584/img/sQKYtaUUxZRAZ1sI.jpg",
+            "type": "video",
+            "width": 1920
+          }
+        ],
+        "text": "✮••┈┈┈┈┈┈┈┈┈┈••✮\n                 楽曲公開 \n         \"幸せのかたすみ\"\n✮••┈┈┈┈┈┈┈┈┈┈••✮\n\n2026.8.27より順次配信開始\n🔗 https://t.co/Um81qXeQb7\n\n #myojou https://t.co/5XNbG0N9SF",
+        "truncated_text": null
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈┈┈┈┈┈┈••✮\n                 楽曲公開 \n         \"幸せのかたすみ\"\n✮••┈┈┈┈┈┈┈┈┈┈••✮\n\n2026.8.27より順次配信開始\n🔗 https://t.co/Um81qXeQb7\n\n #myojou https://t.co/5XNbG0N9SF",
+      "truncated_text": null,
+      "url": "https://x.com/info_myojou/status/2092598584810312096"
+    },
+    {
+      "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「栗原ここね生誕インターネットサイン会」\n\n⟣date：8/27（木）\n⟣start：17:00\n⟣price：¥2,000/枚 （生誕衣装）\n\n【販売期間】\n-8/27（木）17:30\n🔗 https://t.co/NO1J5Pwefk\n🔗公式YouTubeチャンネル : https://t.co/NahSGVGj8V https://t.co/eKZlY6EaU2",
+      "attachments": {
+        "media_keys": [
+          "3_2092546489965051904"
+        ]
+      },
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "online signing/benefit-detail content",
+        "source_kind": "other"
+      },
+      "created_at": "2026-08-26T13:00:01+00:00",
+      "entities": {
+        "urls": [
+          {
+            "description": "栗原ここねのみの出演になります。●インターネットサイン会とは？・あなただけの限定チェキに　『ニックネーム・サイン・日付・一言コメント』を記入してお届けいたします。　※販売締切は当日17:30までとなります。※ご住所の不備による発送不備に関しましてはこちらで責任は負いかねますので、不備のないようご注意ください。・チェキにサインを記入する様子は　myojou公式YouTube(https://www.youtube.com/@myojou-m8y)にて生配信！　購入時に\"備考欄\"にメッセージを記入して読んでもらおう！※メッセージは1メンバー150文字までとさせていただきます。進行の都合上、長文のコメントは簡略化させていただく場合がございます。予めご了承ください。",
+            "display_url": "myojou.base.shop/items/155351739",
+            "end": 142,
+            "expanded_url": "https://myojou.base.shop/items/155351739",
+            "images": [
+              {
+                "height": 1697,
+                "url": "https://pbs.twimg.com/news_img/2092190502460497920/igHIzrBM?format=jpg&name=orig",
+                "width": 1200
+              },
+              {
+                "height": 150,
+                "url": "https://pbs.twimg.com/news_img/2092190502460497920/igHIzrBM?format=jpg&name=150x150",
+                "width": 150
+              }
+            ],
+            "start": 119,
+            "status": 200,
+            "title": "【栗原ここね生誕衣装】栗原ここね生誕インターネットサイン会 | myojou",
+            "unwound_url": "https://myojou.base.shop/items/155351739",
+            "url": "https://t.co/NO1J5Pwefk"
+          },
+          {
+            "description": "「6人の少女が夜明けの空に描くストーリー」 公式X : https://x.com/info_myojou 公式TikTok : https://www.tiktok.com/@myojou2 【メンバー】 真希 しの(Maki Shino) 公式X : https://x.com/myojou_shino 栗原 ここね(Kurihara Cocone) 公式X : https://x.com/myojou_cocone 薄倉 りな(Usukura Rina) 公式X : https://x.com/myojou_usukura 姫乃 るか(Himeno Ruka) 公式X : https://x.com/myojou_ruka 日陽 みう(Hinata Miu) 公式X : https://x.com/myojou_miu 澪奈 ゆん(Miona Yun) 公式X : https://x.com/myojou_yun #myojou",
+            "display_url": "youtube.com/@myojou-m8y",
+            "end": 184,
+            "expanded_url": "https://www.youtube.com/@myojou-m8y",
+            "images": [
+              {
+                "height": 900,
+                "url": "https://pbs.twimg.com/news_img/2092597941647167489/FZjt3_Zs?format=jpg&name=orig",
+                "width": 900
+              },
+              {
+                "height": 150,
+                "url": "https://pbs.twimg.com/news_img/2092597941647167489/FZjt3_Zs?format=jpg&name=150x150",
+                "width": 150
+              }
+            ],
+            "start": 161,
+            "status": 200,
+            "title": "myojou",
+            "unwound_url": "https://www.youtube.com/@myojou-m8y",
+            "url": "https://t.co/NahSGVGj8V"
+          },
+          {
+            "display_url": "pic.x.com/eKZlY6EaU2",
+            "end": 208,
+            "expanded_url": "https://x.com/info_myojou/status/2092597937196900623/photo/1",
+            "media_key": "3_2092546489965051904",
+            "start": 185,
+            "url": "https://t.co/eKZlY6EaU2"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2092597937196900623",
+      "media": [
+        {
+          "height": 2048,
+          "media_key": "3_2092546489965051904",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HQo38iJbgAAoY3I.jpg",
+          "width": 1448
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 321,
+              "start": 314,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "myojou.base.shop/items/155351739",
+              "end": 142,
+              "expanded_url": "http://myojou.base.shop/items/155351739",
+              "start": 119,
+              "url": "https://t.co/KtM1zLHoBV"
+            },
+            {
+              "display_url": "youtube.com/@myojou-m8y",
+              "end": 184,
+              "expanded_url": "https://www.youtube.com/@myojou-m8y",
+              "start": 161,
+              "url": "https://t.co/589BzZwlmi"
+            }
+          ]
+        },
+        "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「栗原ここね生誕インターネットサイン会」\n\n⟣date：8/27（木）\n⟣start：17:00\n⟣price：¥2,000/枚 （生誕衣装）\n\n【販売期間】\n-8/27（木）17:30\n🔗 https://t.co/KtM1zLHoBV\n🔗公式YouTubeチャンネル : https://t.co/589BzZwlmi\n\n※チェキには「ニックネーム･サイン･日付･コメント」を記入してお届けします。\n※各部開始から30分後に販売締切。\n※ 本イベントはインターネットサイン会になります。公式YouTubeチャンネルより、あなただけの限定チェキを作成する様子をお届け致します。\n\n#myojou"
+      },
+      "parsed_fields": null,
+      "raw": {
+        "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「栗原ここね生誕インターネットサイン会」\n\n⟣date：8/27（木）\n⟣start：17:00\n⟣price：¥2,000/枚 （生誕衣装）\n\n【販売期間】\n-8/27（木）17:30\n🔗 https://t.co/NO1J5Pwefk\n🔗公式YouTubeチャンネル : https://t.co/NahSGVGj8V https://t.co/eKZlY6EaU2",
+        "attachments": {
+          "media_keys": [
+            "3_2092546489965051904"
+          ]
+        },
+        "created_at": "2026-08-26T13:00:01.000Z",
+        "edit_history_tweet_ids": [
+          "2092597937196900623"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "description": "栗原ここねのみの出演になります。●インターネットサイン会とは？・あなただけの限定チェキに　『ニックネーム・サイン・日付・一言コメント』を記入してお届けいたします。　※販売締切は当日17:30までとなります。※ご住所の不備による発送不備に関しましてはこちらで責任は負いかねますので、不備のないようご注意ください。・チェキにサインを記入する様子は　myojou公式YouTube(https://www.youtube.com/@myojou-m8y)にて生配信！　購入時に\"備考欄\"にメッセージを記入して読んでもらおう！※メッセージは1メンバー150文字までとさせていただきます。進行の都合上、長文のコメントは簡略化させていただく場合がございます。予めご了承ください。",
+              "display_url": "myojou.base.shop/items/155351739",
+              "end": 142,
+              "expanded_url": "https://myojou.base.shop/items/155351739",
+              "images": [
+                {
+                  "height": 1697,
+                  "url": "https://pbs.twimg.com/news_img/2092190502460497920/igHIzrBM?format=jpg&name=orig",
+                  "width": 1200
+                },
+                {
+                  "height": 150,
+                  "url": "https://pbs.twimg.com/news_img/2092190502460497920/igHIzrBM?format=jpg&name=150x150",
+                  "width": 150
+                }
+              ],
+              "start": 119,
+              "status": 200,
+              "title": "【栗原ここね生誕衣装】栗原ここね生誕インターネットサイン会 | myojou",
+              "unwound_url": "https://myojou.base.shop/items/155351739",
+              "url": "https://t.co/NO1J5Pwefk"
+            },
+            {
+              "description": "「6人の少女が夜明けの空に描くストーリー」 公式X : https://x.com/info_myojou 公式TikTok : https://www.tiktok.com/@myojou2 【メンバー】 真希 しの(Maki Shino) 公式X : https://x.com/myojou_shino 栗原 ここね(Kurihara Cocone) 公式X : https://x.com/myojou_cocone 薄倉 りな(Usukura Rina) 公式X : https://x.com/myojou_usukura 姫乃 るか(Himeno Ruka) 公式X : https://x.com/myojou_ruka 日陽 みう(Hinata Miu) 公式X : https://x.com/myojou_miu 澪奈 ゆん(Miona Yun) 公式X : https://x.com/myojou_yun #myojou",
+              "display_url": "youtube.com/@myojou-m8y",
+              "end": 184,
+              "expanded_url": "https://www.youtube.com/@myojou-m8y",
+              "images": [
+                {
+                  "height": 900,
+                  "url": "https://pbs.twimg.com/news_img/2092597941647167489/FZjt3_Zs?format=jpg&name=orig",
+                  "width": 900
+                },
+                {
+                  "height": 150,
+                  "url": "https://pbs.twimg.com/news_img/2092597941647167489/FZjt3_Zs?format=jpg&name=150x150",
+                  "width": 150
+                }
+              ],
+              "start": 161,
+              "status": 200,
+              "title": "myojou",
+              "unwound_url": "https://www.youtube.com/@myojou-m8y",
+              "url": "https://t.co/NahSGVGj8V"
+            },
+            {
+              "display_url": "pic.x.com/eKZlY6EaU2",
+              "end": 208,
+              "expanded_url": "https://x.com/info_myojou/status/2092597937196900623/photo/1",
+              "media_key": "3_2092546489965051904",
+              "start": 185,
+              "url": "https://t.co/eKZlY6EaU2"
+            }
+          ]
+        },
+        "full_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「栗原ここね生誕インターネットサイン会」\n\n⟣date：8/27（木）\n⟣start：17:00\n⟣price：¥2,000/枚 （生誕衣装）\n\n【販売期間】\n-8/27（木）17:30\n🔗 https://t.co/KtM1zLHoBV\n🔗公式YouTubeチャンネル : https://t.co/589BzZwlmi\n\n※チェキには「ニックネーム･サイン･日付･コメント」を記入してお届けします。\n※各部開始から30分後に販売締切。\n※ 本イベントはインターネットサイン会になります。公式YouTubeチャンネルより、あなただけの限定チェキを作成する様子をお届け致します。\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2092597937196900623",
+        "media": [
+          {
+            "height": 2048,
+            "media_key": "3_2092546489965051904",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HQo38iJbgAAoY3I.jpg",
+            "width": 1448
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 321,
+                "start": 314,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "myojou.base.shop/items/155351739",
+                "end": 142,
+                "expanded_url": "http://myojou.base.shop/items/155351739",
+                "start": 119,
+                "url": "https://t.co/KtM1zLHoBV"
+              },
+              {
+                "display_url": "youtube.com/@myojou-m8y",
+                "end": 184,
+                "expanded_url": "https://www.youtube.com/@myojou-m8y",
+                "start": 161,
+                "url": "https://t.co/589BzZwlmi"
+              }
+            ]
+          },
+          "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「栗原ここね生誕インターネットサイン会」\n\n⟣date：8/27（木）\n⟣start：17:00\n⟣price：¥2,000/枚 （生誕衣装）\n\n【販売期間】\n-8/27（木）17:30\n🔗 https://t.co/KtM1zLHoBV\n🔗公式YouTubeチャンネル : https://t.co/589BzZwlmi\n\n※チェキには「ニックネーム･サイン･日付･コメント」を記入してお届けします。\n※各部開始から30分後に販売締切。\n※ 本イベントはインターネットサイン会になります。公式YouTubeチャンネルより、あなただけの限定チェキを作成する様子をお届け致します。\n\n#myojou"
+        },
+        "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「栗原ここね生誕インターネットサイン会」\n\n⟣date：8/27（木）\n⟣start：17:00\n⟣price：¥2,000/枚 （生誕衣装）\n\n【販売期間】\n-8/27（木）17:30\n🔗 https://t.co/NO1J5Pwefk\n🔗公式YouTubeチャンネル : https://t.co/NahSGVGj8V https://t.co/eKZlY6EaU2",
+        "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「栗原ここね生誕インターネットサイン会」\n\n⟣date：8/27（木）\n⟣start：17:00\n⟣price：¥2,000/枚 （生誕衣装）\n\n【販売期間】\n-8/27（木）17:30\n🔗 https://t.co/NO1J5Pwefk\n🔗公式YouTubeチャンネル : https://t.co/NahSGVGj8V https://t.co/eKZlY6EaU2"
+      },
+      "referenced_tweets": [],
+      "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「栗原ここね生誕インターネットサイン会」\n\n⟣date：8/27（木）\n⟣start：17:00\n⟣price：¥2,000/枚 （生誕衣装）\n\n【販売期間】\n-8/27（木）17:30\n🔗 https://t.co/KtM1zLHoBV\n🔗公式YouTubeチャンネル : https://t.co/589BzZwlmi\n\n※チェキには「ニックネーム･サイン･日付･コメント」を記入してお届けします。\n※各部開始から30分後に販売締切。\n※ 本イベントはインターネットサイン会になります。公式YouTubeチャンネルより、あなただけの限定チェキを作成する様子をお届け致します。\n\n#myojou",
+      "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「栗原ここね生誕インターネットサイン会」\n\n⟣date：8/27（木）\n⟣start：17:00\n⟣price：¥2,000/枚 （生誕衣装）\n\n【販売期間】\n-8/27（木）17:30\n🔗 https://t.co/NO1J5Pwefk\n🔗公式YouTubeチャンネル : https://t.co/NahSGVGj8V https://t.co/eKZlY6EaU2",
+      "url": "https://x.com/info_myojou/status/2092597937196900623"
+    },
+    {
+      "api_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            ˚.⋆ラジオ配信˖°⋆\n       myojou天体観測 #19\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣2026.08.26 22:00 プレミア公開\n⟣ myojou公式YouTubeチャンネル\n🔗 https://t.co/N125k0hfpN\n\n #myojou",
+      "attachments": {},
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "radio/non-live",
+        "source_kind": "other"
+      },
+      "created_at": "2026-08-26T12:00:01+00:00",
+      "entities": {
+        "hashtags": [
+          {
+            "end": 170,
+            "start": 163,
+            "tag": "myojou"
+          }
+        ],
+        "urls": [
+          {
+            "description": "「6人の少女が夜明けの空に描くストーリー」 公式X : https://x.com/info_myojou公式TikTok : ...",
+            "display_url": "youtu.be/KeL3UefVx1c?si…",
+            "end": 160,
+            "expanded_url": "https://youtu.be/KeL3UefVx1c?si=nyJZepcHfqBOcuim",
+            "images": [
+              {
+                "height": 720,
+                "url": "https://pbs.twimg.com/news_img/2092582843041849344/tIkfxG67?format=jpg&name=orig",
+                "width": 1280
+              },
+              {
+                "height": 150,
+                "url": "https://pbs.twimg.com/news_img/2092582843041849344/tIkfxG67?format=jpg&name=150x150",
+                "width": 150
+              }
+            ],
+            "start": 137,
+            "status": 200,
+            "title": "myojou天体観測 #19",
+            "unwound_url": "https://www.youtube.com/watch?si=nyJZepcHfqBOcuim&v=KeL3UefVx1c&feature=youtu.be",
+            "url": "https://t.co/N125k0hfpN"
+          }
+        ]
+      },
+      "full_text_source": "text",
+      "id": "2092582839598391391",
+      "media": [],
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "note_tweet": null,
+      "parsed_fields": null,
+      "raw": {
+        "api_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            ˚.⋆ラジオ配信˖°⋆\n       myojou天体観測 #19\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣2026.08.26 22:00 プレミア公開\n⟣ myojou公式YouTubeチャンネル\n🔗 https://t.co/N125k0hfpN\n\n #myojou",
+        "created_at": "2026-08-26T12:00:01.000Z",
+        "edit_history_tweet_ids": [
+          "2092582839598391391"
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "end": 170,
+              "start": 163,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "description": "「6人の少女が夜明けの空に描くストーリー」 公式X : https://x.com/info_myojou公式TikTok : ...",
+              "display_url": "youtu.be/KeL3UefVx1c?si…",
+              "end": 160,
+              "expanded_url": "https://youtu.be/KeL3UefVx1c?si=nyJZepcHfqBOcuim",
+              "images": [
+                {
+                  "height": 720,
+                  "url": "https://pbs.twimg.com/news_img/2092582843041849344/tIkfxG67?format=jpg&name=orig",
+                  "width": 1280
+                },
+                {
+                  "height": 150,
+                  "url": "https://pbs.twimg.com/news_img/2092582843041849344/tIkfxG67?format=jpg&name=150x150",
+                  "width": 150
+                }
+              ],
+              "start": 137,
+              "status": 200,
+              "title": "myojou天体観測 #19",
+              "unwound_url": "https://www.youtube.com/watch?si=nyJZepcHfqBOcuim&v=KeL3UefVx1c&feature=youtu.be",
+              "url": "https://t.co/N125k0hfpN"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            ˚.⋆ラジオ配信˖°⋆\n       myojou天体観測 #19\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣2026.08.26 22:00 プレミア公開\n⟣ myojou公式YouTubeチャンネル\n🔗 https://t.co/N125k0hfpN\n\n #myojou",
+        "full_text_source": "text",
+        "id": "2092582839598391391",
+        "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            ˚.⋆ラジオ配信˖°⋆\n       myojou天体観測 #19\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣2026.08.26 22:00 プレミア公開\n⟣ myojou公式YouTubeチャンネル\n🔗 https://t.co/N125k0hfpN\n\n #myojou",
+        "truncated_text": null
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            ˚.⋆ラジオ配信˖°⋆\n       myojou天体観測 #19\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣2026.08.26 22:00 プレミア公開\n⟣ myojou公式YouTubeチャンネル\n🔗 https://t.co/N125k0hfpN\n\n #myojou",
+      "truncated_text": null,
+      "url": "https://x.com/info_myojou/status/2092582839598391391"
+    },
+    {
+      "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n      【受注販売】浴衣アクリルスタンド\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n浴衣アクリルスタンドの受注販売決定！\n受付期間が短いためご注意ください！\n\n⟣price：¥2,000\n\n【受注受付期間】\n8/26（水）18:00-8/31（月）23:59\n🔗 https://t.co/NjrTng1hcV",
+      "attachments": {
+        "media_keys": [
+          "3_2092537556173029377"
+        ]
+      },
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "no live-event signal",
+        "source_kind": "ticket_update"
+      },
+      "created_at": "2026-08-26T09:00:09+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/NjrTng1hcV",
+            "end": 185,
+            "expanded_url": "https://x.com/info_myojou/status/2092537572589535244/photo/1",
+            "media_key": "3_2092537556173029377",
+            "start": 162,
+            "url": "https://t.co/NjrTng1hcV"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2092537572589535244",
+      "media": [
+        {
+          "height": 2481,
+          "media_key": "3_2092537556173029377",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HQov0hLbgAEGiem.jpg",
+          "width": 3508
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 195,
+              "start": 188,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "myojou.base.shop/items/155473465",
+              "end": 185,
+              "expanded_url": "https://myojou.base.shop/items/155473465",
+              "start": 162,
+              "url": "https://t.co/A7xsFxmSWG"
+            }
+          ]
+        },
+        "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n      【受注販売】浴衣アクリルスタンド\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n浴衣アクリルスタンドの受注販売決定！\n受付期間が短いためご注意ください！\n\n⟣price：¥2,000\n\n【受注受付期間】\n8/26（水）18:00-8/31（月）23:59\n🔗 https://t.co/A7xsFxmSWG\n\n #myojou"
+      },
+      "parsed_fields": null,
+      "raw": {
+        "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n      【受注販売】浴衣アクリルスタンド\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n浴衣アクリルスタンドの受注販売決定！\n受付期間が短いためご注意ください！\n\n⟣price：¥2,000\n\n【受注受付期間】\n8/26（水）18:00-8/31（月）23:59\n🔗 https://t.co/NjrTng1hcV",
+        "attachments": {
+          "media_keys": [
+            "3_2092537556173029377"
+          ]
+        },
+        "created_at": "2026-08-26T09:00:09.000Z",
+        "edit_history_tweet_ids": [
+          "2092537572589535244"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/NjrTng1hcV",
+              "end": 185,
+              "expanded_url": "https://x.com/info_myojou/status/2092537572589535244/photo/1",
+              "media_key": "3_2092537556173029377",
+              "start": 162,
+              "url": "https://t.co/NjrTng1hcV"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n      【受注販売】浴衣アクリルスタンド\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n浴衣アクリルスタンドの受注販売決定！\n受付期間が短いためご注意ください！\n\n⟣price：¥2,000\n\n【受注受付期間】\n8/26（水）18:00-8/31（月）23:59\n🔗 https://t.co/A7xsFxmSWG\n\n #myojou",
+        "full_text_source": "note_tweet",
+        "id": "2092537572589535244",
+        "media": [
+          {
+            "height": 2481,
+            "media_key": "3_2092537556173029377",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HQov0hLbgAEGiem.jpg",
+            "width": 3508
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 195,
+                "start": 188,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "myojou.base.shop/items/155473465",
+                "end": 185,
+                "expanded_url": "https://myojou.base.shop/items/155473465",
+                "start": 162,
+                "url": "https://t.co/A7xsFxmSWG"
+              }
+            ]
+          },
+          "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n      【受注販売】浴衣アクリルスタンド\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n浴衣アクリルスタンドの受注販売決定！\n受付期間が短いためご注意ください！\n\n⟣price：¥2,000\n\n【受注受付期間】\n8/26（水）18:00-8/31（月）23:59\n🔗 https://t.co/A7xsFxmSWG\n\n #myojou"
+        },
+        "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n      【受注販売】浴衣アクリルスタンド\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n浴衣アクリルスタンドの受注販売決定！\n受付期間が短いためご注意ください！\n\n⟣price：¥2,000\n\n【受注受付期間】\n8/26（水）18:00-8/31（月）23:59\n🔗 https://t.co/NjrTng1hcV",
+        "truncated_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n      【受注販売】浴衣アクリルスタンド\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n浴衣アクリルスタンドの受注販売決定！\n受付期間が短いためご注意ください！\n\n⟣price：¥2,000\n\n【受注受付期間】\n8/26（水）18:00-8/31（月）23:59\n🔗 https://t.co/NjrTng1hcV"
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n      【受注販売】浴衣アクリルスタンド\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n浴衣アクリルスタンドの受注販売決定！\n受付期間が短いためご注意ください！\n\n⟣price：¥2,000\n\n【受注受付期間】\n8/26（水）18:00-8/31（月）23:59\n🔗 https://t.co/A7xsFxmSWG\n\n #myojou",
+      "truncated_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n      【受注販売】浴衣アクリルスタンド\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n浴衣アクリルスタンドの受注販売決定！\n受付期間が短いためご注意ください！\n\n⟣price：¥2,000\n\n【受注受付期間】\n8/26（水）18:00-8/31（月）23:59\n🔗 https://t.co/NjrTng1hcV",
+      "url": "https://x.com/info_myojou/status/2092537572589535244"
+    },
+    {
+      "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n       idoLove You♬ -On The Radio-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\nmyojouより真希しのが、Appare!の朝比奈れいさんがオフィシャルアンバサダーを務める #文化放送「idoLove You♬ -On The https://t.co/D9f8gJt8rJ",
+      "attachments": {
+        "media_keys": [
+          "3_2092485879185248256"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "other"
+      },
+      "created_at": "2026-08-26T05:34:49+00:00",
+      "entities": {
+        "hashtags": [
+          {
+            "end": 136,
+            "start": 131,
+            "tag": "文化放送"
+          }
+        ],
+        "urls": [
+          {
+            "display_url": "pic.x.com/D9f8gJt8rJ",
+            "end": 181,
+            "expanded_url": "https://x.com/info_myojou/status/2092485898722226315/photo/1",
+            "media_key": "3_2092485879185248256",
+            "start": 158,
+            "url": "https://t.co/D9f8gJt8rJ"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2092485898722226315",
+      "media": [
+        {
+          "height": 3072,
+          "media_key": "3_2092485879185248256",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HQoA0hZbkAAnaaY.jpg",
+          "width": 4096
+        }
+      ],
+      "needs_review": true,
+      "needs_review_reasons": [
+        "missing venue",
+        "missing ticket deadline",
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 136,
+              "start": 131,
+              "tag": "文化放送"
+            },
+            {
+              "end": 282,
+              "start": 275,
+              "tag": "myojou"
+            },
+            {
+              "end": 292,
+              "start": 283,
+              "tag": "iLYRadio"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "joqr.co.jp/qr/program/ily/",
+              "end": 238,
+              "expanded_url": "https://joqr.co.jp/qr/program/ily/",
+              "start": 215,
+              "url": "https://t.co/UW39H2bM41"
+            },
+            {
+              "display_url": "radiko.jp/mobile/events/…",
+              "end": 273,
+              "expanded_url": "https://radiko.jp/mobile/events/13811001?player=true&t=20260826043000&pid=",
+              "start": 250,
+              "url": "https://t.co/H1cjuJh26s"
+            }
+          ]
+        },
+        "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n       idoLove You♬ -On The Radio-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\nmyojouより真希しのが、Appare!の朝比奈れいさんがオフィシャルアンバサダーを務める #文化放送「idoLove You♬ -On The Radio-」に2日間ゲスト出演いたします♬\n\n⟣date：9/1（火）,2（木）朝4:30-\n\n【公式HP】\n🔗https://t.co/UW39H2bM41\n【radiko】\n🔗 https://t.co/H1cjuJh26s\n\n#myojou\n#iLYRadio"
+      },
+      "parsed_fields": {
+        "benefit_event_time": null,
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-09-01",
+        "event_dates": [
+          "2026-09-01",
+          "2026-09-02"
+        ],
+        "event_name": "idoLove You♬ -On The Radio",
+        "extraction_confidence": 0.6,
+        "general_ticket_price": null,
+        "lottery_result_at": null,
+        "myojou_performance_time": null,
+        "notes": null,
+        "open_time": null,
+        "payment_deadline_at": null,
+        "priority_ticket_name": null,
+        "priority_ticket_price": null,
+        "same_day_ticket_price": null,
+        "source_kind": "other",
+        "source_post_id": "2092485898722226315",
+        "source_posted_at": "2026-08-26T05:34:49Z",
+        "source_raw": {
+          "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n       idoLove You♬ -On The Radio-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\nmyojouより真希しのが、Appare!の朝比奈れいさんがオフィシャルアンバサダーを務める #文化放送「idoLove You♬ -On The https://t.co/D9f8gJt8rJ",
+          "attachments": {
+            "media_keys": [
+              "3_2092485879185248256"
+            ]
+          },
+          "created_at": "2026-08-26T05:34:49.000Z",
+          "edit_history_tweet_ids": [
+            "2092485898722226315"
+          ],
+          "entities": {
+            "hashtags": [
+              {
+                "end": 136,
+                "start": 131,
+                "tag": "文化放送"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "pic.x.com/D9f8gJt8rJ",
+                "end": 181,
+                "expanded_url": "https://x.com/info_myojou/status/2092485898722226315/photo/1",
+                "media_key": "3_2092485879185248256",
+                "start": 158,
+                "url": "https://t.co/D9f8gJt8rJ"
+              }
+            ]
+          },
+          "full_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n       idoLove You♬ -On The Radio-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\nmyojouより真希しのが、Appare!の朝比奈れいさんがオフィシャルアンバサダーを務める #文化放送「idoLove You♬ -On The Radio-」に2日間ゲスト出演いたします♬\n\n⟣date：9/1（火）,2（木）朝4:30-\n\n【公式HP】\n🔗https://t.co/UW39H2bM41\n【radiko】\n🔗 https://t.co/H1cjuJh26s\n\n#myojou\n#iLYRadio",
+          "full_text_source": "note_tweet",
+          "id": "2092485898722226315",
+          "media": [
+            {
+              "height": 3072,
+              "media_key": "3_2092485879185248256",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HQoA0hZbkAAnaaY.jpg",
+              "width": 4096
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 136,
+                  "start": 131,
+                  "tag": "文化放送"
+                },
+                {
+                  "end": 282,
+                  "start": 275,
+                  "tag": "myojou"
+                },
+                {
+                  "end": 292,
+                  "start": 283,
+                  "tag": "iLYRadio"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "joqr.co.jp/qr/program/ily/",
+                  "end": 238,
+                  "expanded_url": "https://joqr.co.jp/qr/program/ily/",
+                  "start": 215,
+                  "url": "https://t.co/UW39H2bM41"
+                },
+                {
+                  "display_url": "radiko.jp/mobile/events/…",
+                  "end": 273,
+                  "expanded_url": "https://radiko.jp/mobile/events/13811001?player=true&t=20260826043000&pid=",
+                  "start": 250,
+                  "url": "https://t.co/H1cjuJh26s"
+                }
+              ]
+            },
+            "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n       idoLove You♬ -On The Radio-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\nmyojouより真希しのが、Appare!の朝比奈れいさんがオフィシャルアンバサダーを務める #文化放送「idoLove You♬ -On The Radio-」に2日間ゲスト出演いたします♬\n\n⟣date：9/1（火）,2（木）朝4:30-\n\n【公式HP】\n🔗https://t.co/UW39H2bM41\n【radiko】\n🔗 https://t.co/H1cjuJh26s\n\n#myojou\n#iLYRadio"
+          },
+          "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n       idoLove You♬ -On The Radio-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\nmyojouより真希しのが、Appare!の朝比奈れいさんがオフィシャルアンバサダーを務める #文化放送「idoLove You♬ -On The https://t.co/D9f8gJt8rJ",
+          "truncated_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n       idoLove You♬ -On The Radio-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\nmyojouより真希しのが、Appare!の朝比奈れいさんがオフィシャルアンバサダーを務める #文化放送「idoLove You♬ -On The https://t.co/D9f8gJt8rJ"
+        },
+        "source_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n       idoLove You♬ -On The Radio-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\nmyojouより真希しのが、Appare!の朝比奈れいさんがオフィシャルアンバサダーを務める #文化放送「idoLove You♬ -On The Radio-」に2日間ゲスト出演いたします♬\n\n⟣date：9/1（火）,2（木）朝4:30-\n\n【公式HP】\n🔗https://t.co/UW39H2bM41\n【radiko】\n🔗 https://t.co/H1cjuJh26s\n\n#myojou\n#iLYRadio",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2092485898722226315",
+        "start_time": null,
+        "ticket_application_deadline_at": null,
+        "ticket_application_start_at": null,
+        "ticket_sale_type": null,
+        "ticket_sales": [],
+        "ticket_status": null,
+        "ticket_url": null,
+        "venue": null
+      },
+      "raw": {
+        "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n       idoLove You♬ -On The Radio-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\nmyojouより真希しのが、Appare!の朝比奈れいさんがオフィシャルアンバサダーを務める #文化放送「idoLove You♬ -On The https://t.co/D9f8gJt8rJ",
+        "attachments": {
+          "media_keys": [
+            "3_2092485879185248256"
+          ]
+        },
+        "created_at": "2026-08-26T05:34:49.000Z",
+        "edit_history_tweet_ids": [
+          "2092485898722226315"
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "end": 136,
+              "start": 131,
+              "tag": "文化放送"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "pic.x.com/D9f8gJt8rJ",
+              "end": 181,
+              "expanded_url": "https://x.com/info_myojou/status/2092485898722226315/photo/1",
+              "media_key": "3_2092485879185248256",
+              "start": 158,
+              "url": "https://t.co/D9f8gJt8rJ"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n       idoLove You♬ -On The Radio-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\nmyojouより真希しのが、Appare!の朝比奈れいさんがオフィシャルアンバサダーを務める #文化放送「idoLove You♬ -On The Radio-」に2日間ゲスト出演いたします♬\n\n⟣date：9/1（火）,2（木）朝4:30-\n\n【公式HP】\n🔗https://t.co/UW39H2bM41\n【radiko】\n🔗 https://t.co/H1cjuJh26s\n\n#myojou\n#iLYRadio",
+        "full_text_source": "note_tweet",
+        "id": "2092485898722226315",
+        "media": [
+          {
+            "height": 3072,
+            "media_key": "3_2092485879185248256",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HQoA0hZbkAAnaaY.jpg",
+            "width": 4096
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 136,
+                "start": 131,
+                "tag": "文化放送"
+              },
+              {
+                "end": 282,
+                "start": 275,
+                "tag": "myojou"
+              },
+              {
+                "end": 292,
+                "start": 283,
+                "tag": "iLYRadio"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "joqr.co.jp/qr/program/ily/",
+                "end": 238,
+                "expanded_url": "https://joqr.co.jp/qr/program/ily/",
+                "start": 215,
+                "url": "https://t.co/UW39H2bM41"
+              },
+              {
+                "display_url": "radiko.jp/mobile/events/…",
+                "end": 273,
+                "expanded_url": "https://radiko.jp/mobile/events/13811001?player=true&t=20260826043000&pid=",
+                "start": 250,
+                "url": "https://t.co/H1cjuJh26s"
+              }
+            ]
+          },
+          "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n       idoLove You♬ -On The Radio-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\nmyojouより真希しのが、Appare!の朝比奈れいさんがオフィシャルアンバサダーを務める #文化放送「idoLove You♬ -On The Radio-」に2日間ゲスト出演いたします♬\n\n⟣date：9/1（火）,2（木）朝4:30-\n\n【公式HP】\n🔗https://t.co/UW39H2bM41\n【radiko】\n🔗 https://t.co/H1cjuJh26s\n\n#myojou\n#iLYRadio"
+        },
+        "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n       idoLove You♬ -On The Radio-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\nmyojouより真希しのが、Appare!の朝比奈れいさんがオフィシャルアンバサダーを務める #文化放送「idoLove You♬ -On The https://t.co/D9f8gJt8rJ",
+        "truncated_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n       idoLove You♬ -On The Radio-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\nmyojouより真希しのが、Appare!の朝比奈れいさんがオフィシャルアンバサダーを務める #文化放送「idoLove You♬ -On The https://t.co/D9f8gJt8rJ"
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n       idoLove You♬ -On The Radio-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\nmyojouより真希しのが、Appare!の朝比奈れいさんがオフィシャルアンバサダーを務める #文化放送「idoLove You♬ -On The Radio-」に2日間ゲスト出演いたします♬\n\n⟣date：9/1（火）,2（木）朝4:30-\n\n【公式HP】\n🔗https://t.co/UW39H2bM41\n【radiko】\n🔗 https://t.co/H1cjuJh26s\n\n#myojou\n#iLYRadio",
+      "truncated_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n       idoLove You♬ -On The Radio-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\nmyojouより真希しのが、Appare!の朝比奈れいさんがオフィシャルアンバサダーを務める #文化放送「idoLove You♬ -On The https://t.co/D9f8gJt8rJ",
+      "url": "https://x.com/info_myojou/status/2092485898722226315"
+    },
+    {
       "api_text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n「A Villa 2026 前夜祭」\n\n📍SYNC north\n🎙16:55-17:20\n📸17:30-18:40 C （MASH HALL）\n\n⟣date：8/28（金）\n⟣place : SYNC north / Sound lab mole / cube garden / SPiCE\n⟣open/start：15:00/16:00\n⟣price：前方¥8,000/ 前売¥3,500/SPiCE会場¥0（各＋1D） https://t.co/2tYHAlcGsW",
       "attachments": {
         "media_keys": [
@@ -167313,7 +168210,7 @@
     "backfill": true,
     "dry_run": true,
     "estimated_x_post_reads": 411,
-    "latest_post_id": "2092252451361657010",
+    "latest_post_id": "2092598584810312096",
     "max_pages": 10,
     "max_posts": 500,
     "max_results": 5,
@@ -167356,16 +168253,16 @@
       }
     ],
     "pages_fetched": 5,
-    "posts_fetched": 765,
+    "posts_fetched": 770,
     "rate_limit_headers": {
       "x-rate-limit-limit": "10000",
       "x-rate-limit-remaining": "9993",
       "x-rate-limit-reset": "1781108896"
     },
-    "total_posts": 765,
-    "updated_at": "2026-08-25T19:35:02.998506+00:00",
+    "total_posts": 770,
+    "updated_at": "2026-08-26T21:42:40.023604+00:00",
     "username": "info_myojou"
   },
   "source": "x_api",
-  "updated_at": "2026-08-25T19:35:02.998506+00:00"
+  "updated_at": "2026-08-26T21:42:40.023604+00:00"
 }
