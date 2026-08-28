@@ -2,6 +2,907 @@
   "captured_at": "2026-06-10T16:19:36.141820+00:00",
   "data": [
     {
+      "api_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「A Villa 2026 前夜祭」\n\n📍SYNC north\n🎙16:55-17:20\n📸17:30-18:40 C （MASH HALL）\n\n⟣date：8/28（金）\n⟣place : SYNC north / Sound lab mole / cube garden / SPiCE\n⟣open/start：15:00/16:00\n⟣price：前方¥8,000/ 前売¥3,500/SPiCE会場¥0（各＋1D） https://t.co/IHbjOlNT0V",
+      "attachments": {
+        "media_keys": [
+          "3_2093120513065484288",
+          "3_2093120513061294080"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "same_day_reminder"
+      },
+      "created_at": "2026-08-27T23:36:34+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/IHbjOlNT0V",
+            "end": 258,
+            "expanded_url": "https://x.com/info_myojou/status/2093120520208478413/photo/1",
+            "media_key": "3_2093120513065484288",
+            "start": 235,
+            "url": "https://t.co/IHbjOlNT0V"
+          },
+          {
+            "display_url": "pic.x.com/IHbjOlNT0V",
+            "end": 258,
+            "expanded_url": "https://x.com/info_myojou/status/2093120520208478413/photo/1",
+            "media_key": "3_2093120513061294080",
+            "start": 235,
+            "url": "https://t.co/IHbjOlNT0V"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2093120520208478413",
+      "media": [
+        {
+          "height": 1522,
+          "media_key": "3_2093120513065484288",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HQxCBE1aAAA_NHD.jpg",
+          "width": 1076
+        },
+        {
+          "height": 1684,
+          "media_key": "3_2093120513061294080",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HQxCBE0aEAApx4f.jpg",
+          "width": 1190
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "missing ticket deadline",
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 313,
+              "start": 306,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "t-dv.com/a_villa_zenya",
+              "end": 304,
+              "expanded_url": "http://t-dv.com/a_villa_zenya",
+              "start": 281,
+              "url": "https://t.co/iWbYFKTEUn"
+            }
+          ]
+        },
+        "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「A Villa 2026 前夜祭」\n\n📍SYNC north\n🎙16:55-17:20\n📸17:30-18:40 C （MASH HALL）\n\n⟣date：8/28（金）\n⟣place : SYNC north / Sound lab mole / cube garden / SPiCE\n⟣open/start：15:00/16:00\n⟣price：前方¥8,000/ 前売¥3,500/SPiCE会場¥0（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n8/13（木）20:00-\n🔗 https://t.co/iWbYFKTEUn\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": "17:30-18:40",
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-08-28",
+        "event_dates": [
+          "2026-08-28"
+        ],
+        "event_name": "A Villa 2026 前夜祭",
+        "extraction_confidence": 0.95,
+        "general_ticket_price": 3500,
+        "lottery_result_at": null,
+        "myojou_performance_time": "16:55-17:20",
+        "notes": "ドリンク代: 各+1D\n⟣入場特典:明星カード(サインありチェキ)",
+        "open_time": "15:00",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "前方",
+        "priority_ticket_price": 8000,
+        "same_day_ticket_price": null,
+        "source_kind": "same_day_reminder",
+        "source_post_id": "2093120520208478413",
+        "source_posted_at": "2026-08-27T23:36:34Z",
+        "source_raw": {
+          "api_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「A Villa 2026 前夜祭」\n\n📍SYNC north\n🎙16:55-17:20\n📸17:30-18:40 C （MASH HALL）\n\n⟣date：8/28（金）\n⟣place : SYNC north / Sound lab mole / cube garden / SPiCE\n⟣open/start：15:00/16:00\n⟣price：前方¥8,000/ 前売¥3,500/SPiCE会場¥0（各＋1D） https://t.co/IHbjOlNT0V",
+          "attachments": {
+            "media_keys": [
+              "3_2093120513065484288",
+              "3_2093120513061294080"
+            ]
+          },
+          "created_at": "2026-08-27T23:36:34.000Z",
+          "edit_history_tweet_ids": [
+            "2093120520208478413"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/IHbjOlNT0V",
+                "end": 258,
+                "expanded_url": "https://x.com/info_myojou/status/2093120520208478413/photo/1",
+                "media_key": "3_2093120513065484288",
+                "start": 235,
+                "url": "https://t.co/IHbjOlNT0V"
+              },
+              {
+                "display_url": "pic.x.com/IHbjOlNT0V",
+                "end": 258,
+                "expanded_url": "https://x.com/info_myojou/status/2093120520208478413/photo/1",
+                "media_key": "3_2093120513061294080",
+                "start": 235,
+                "url": "https://t.co/IHbjOlNT0V"
+              }
+            ]
+          },
+          "full_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「A Villa 2026 前夜祭」\n\n📍SYNC north\n🎙16:55-17:20\n📸17:30-18:40 C （MASH HALL）\n\n⟣date：8/28（金）\n⟣place : SYNC north / Sound lab mole / cube garden / SPiCE\n⟣open/start：15:00/16:00\n⟣price：前方¥8,000/ 前売¥3,500/SPiCE会場¥0（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n8/13（木）20:00-\n🔗 https://t.co/iWbYFKTEUn\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2093120520208478413",
+          "media": [
+            {
+              "height": 1522,
+              "media_key": "3_2093120513065484288",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HQxCBE1aAAA_NHD.jpg",
+              "width": 1076
+            },
+            {
+              "height": 1684,
+              "media_key": "3_2093120513061294080",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HQxCBE0aEAApx4f.jpg",
+              "width": 1190
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 313,
+                  "start": 306,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "t-dv.com/a_villa_zenya",
+                  "end": 304,
+                  "expanded_url": "http://t-dv.com/a_villa_zenya",
+                  "start": 281,
+                  "url": "https://t.co/iWbYFKTEUn"
+                }
+              ]
+            },
+            "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「A Villa 2026 前夜祭」\n\n📍SYNC north\n🎙16:55-17:20\n📸17:30-18:40 C （MASH HALL）\n\n⟣date：8/28（金）\n⟣place : SYNC north / Sound lab mole / cube garden / SPiCE\n⟣open/start：15:00/16:00\n⟣price：前方¥8,000/ 前売¥3,500/SPiCE会場¥0（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n8/13（木）20:00-\n🔗 https://t.co/iWbYFKTEUn\n\n#myojou"
+          },
+          "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「A Villa 2026 前夜祭」\n\n📍SYNC north\n🎙16:55-17:20\n📸17:30-18:40 C （MASH HALL）\n\n⟣date：8/28（金）\n⟣place : SYNC north / Sound lab mole / cube garden / SPiCE\n⟣open/start：15:00/16:00\n⟣price：前方¥8,000/ 前売¥3,500/SPiCE会場¥0（各＋1D） https://t.co/IHbjOlNT0V",
+          "truncated_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「A Villa 2026 前夜祭」\n\n📍SYNC north\n🎙16:55-17:20\n📸17:30-18:40 C （MASH HALL）\n\n⟣date：8/28（金）\n⟣place : SYNC north / Sound lab mole / cube garden / SPiCE\n⟣open/start：15:00/16:00\n⟣price：前方¥8,000/ 前売¥3,500/SPiCE会場¥0（各＋1D） https://t.co/IHbjOlNT0V"
+        },
+        "source_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「A Villa 2026 前夜祭」\n\n📍SYNC north\n🎙16:55-17:20\n📸17:30-18:40 C （MASH HALL）\n\n⟣date：8/28（金）\n⟣place : SYNC north / Sound lab mole / cube garden / SPiCE\n⟣open/start：15:00/16:00\n⟣price：前方¥8,000/ 前売¥3,500/SPiCE会場¥0（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n8/13（木）20:00-\n🔗 https://t.co/iWbYFKTEUn\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2093120520208478413",
+        "start_time": "16:00",
+        "ticket_application_deadline_at": null,
+        "ticket_application_start_at": "2026-08-13T20:00:00+09:00",
+        "ticket_sale_type": "先着",
+        "ticket_sales": [
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 8000,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2093120520208478413",
+            "source_url": "https://x.com/info_myojou/status/2093120520208478413",
+            "start_at": "2026-08-13T20:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "前方",
+            "ticket_tier": "前方"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 3500,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2093120520208478413",
+            "source_url": "https://x.com/info_myojou/status/2093120520208478413",
+            "start_at": "2026-08-13T20:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "http://t-dv.com/a_villa_zenya",
+        "venue": "SYNC north / Sound lab mole / cube garden / SPiCE"
+      },
+      "raw": {
+        "api_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「A Villa 2026 前夜祭」\n\n📍SYNC north\n🎙16:55-17:20\n📸17:30-18:40 C （MASH HALL）\n\n⟣date：8/28（金）\n⟣place : SYNC north / Sound lab mole / cube garden / SPiCE\n⟣open/start：15:00/16:00\n⟣price：前方¥8,000/ 前売¥3,500/SPiCE会場¥0（各＋1D） https://t.co/IHbjOlNT0V",
+        "attachments": {
+          "media_keys": [
+            "3_2093120513065484288",
+            "3_2093120513061294080"
+          ]
+        },
+        "created_at": "2026-08-27T23:36:34.000Z",
+        "edit_history_tweet_ids": [
+          "2093120520208478413"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/IHbjOlNT0V",
+              "end": 258,
+              "expanded_url": "https://x.com/info_myojou/status/2093120520208478413/photo/1",
+              "media_key": "3_2093120513065484288",
+              "start": 235,
+              "url": "https://t.co/IHbjOlNT0V"
+            },
+            {
+              "display_url": "pic.x.com/IHbjOlNT0V",
+              "end": 258,
+              "expanded_url": "https://x.com/info_myojou/status/2093120520208478413/photo/1",
+              "media_key": "3_2093120513061294080",
+              "start": 235,
+              "url": "https://t.co/IHbjOlNT0V"
+            }
+          ]
+        },
+        "full_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「A Villa 2026 前夜祭」\n\n📍SYNC north\n🎙16:55-17:20\n📸17:30-18:40 C （MASH HALL）\n\n⟣date：8/28（金）\n⟣place : SYNC north / Sound lab mole / cube garden / SPiCE\n⟣open/start：15:00/16:00\n⟣price：前方¥8,000/ 前売¥3,500/SPiCE会場¥0（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n8/13（木）20:00-\n🔗 https://t.co/iWbYFKTEUn\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2093120520208478413",
+        "media": [
+          {
+            "height": 1522,
+            "media_key": "3_2093120513065484288",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HQxCBE1aAAA_NHD.jpg",
+            "width": 1076
+          },
+          {
+            "height": 1684,
+            "media_key": "3_2093120513061294080",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HQxCBE0aEAApx4f.jpg",
+            "width": 1190
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 313,
+                "start": 306,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "t-dv.com/a_villa_zenya",
+                "end": 304,
+                "expanded_url": "http://t-dv.com/a_villa_zenya",
+                "start": 281,
+                "url": "https://t.co/iWbYFKTEUn"
+              }
+            ]
+          },
+          "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「A Villa 2026 前夜祭」\n\n📍SYNC north\n🎙16:55-17:20\n📸17:30-18:40 C （MASH HALL）\n\n⟣date：8/28（金）\n⟣place : SYNC north / Sound lab mole / cube garden / SPiCE\n⟣open/start：15:00/16:00\n⟣price：前方¥8,000/ 前売¥3,500/SPiCE会場¥0（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n8/13（木）20:00-\n🔗 https://t.co/iWbYFKTEUn\n\n#myojou"
+        },
+        "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「A Villa 2026 前夜祭」\n\n📍SYNC north\n🎙16:55-17:20\n📸17:30-18:40 C （MASH HALL）\n\n⟣date：8/28（金）\n⟣place : SYNC north / Sound lab mole / cube garden / SPiCE\n⟣open/start：15:00/16:00\n⟣price：前方¥8,000/ 前売¥3,500/SPiCE会場¥0（各＋1D） https://t.co/IHbjOlNT0V",
+        "truncated_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「A Villa 2026 前夜祭」\n\n📍SYNC north\n🎙16:55-17:20\n📸17:30-18:40 C （MASH HALL）\n\n⟣date：8/28（金）\n⟣place : SYNC north / Sound lab mole / cube garden / SPiCE\n⟣open/start：15:00/16:00\n⟣price：前方¥8,000/ 前売¥3,500/SPiCE会場¥0（各＋1D） https://t.co/IHbjOlNT0V"
+      },
+      "referenced_tweets": [],
+      "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「A Villa 2026 前夜祭」\n\n📍SYNC north\n🎙16:55-17:20\n📸17:30-18:40 C （MASH HALL）\n\n⟣date：8/28（金）\n⟣place : SYNC north / Sound lab mole / cube garden / SPiCE\n⟣open/start：15:00/16:00\n⟣price：前方¥8,000/ 前売¥3,500/SPiCE会場¥0（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n8/13（木）20:00-\n🔗 https://t.co/iWbYFKTEUn\n\n#myojou",
+      "truncated_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「A Villa 2026 前夜祭」\n\n📍SYNC north\n🎙16:55-17:20\n📸17:30-18:40 C （MASH HALL）\n\n⟣date：8/28（金）\n⟣place : SYNC north / Sound lab mole / cube garden / SPiCE\n⟣open/start：15:00/16:00\n⟣price：前方¥8,000/ 前売¥3,500/SPiCE会場¥0（各＋1D） https://t.co/IHbjOlNT0V",
+      "url": "https://x.com/info_myojou/status/2093120520208478413"
+    },
+    {
+      "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「A Villa 2026 前夜祭」\n\n📍SYNC north\n🎙16:55-17:20\n📸17:30-18:40 C （MASH HALL）\n\n⟣date：8/28（金）\n⟣place : SYNC north / Sound lab mole / cube garden / SPiCE\n⟣open/start：15:00/16:00\n⟣price：前方¥8,000/ 前売¥3,500/SPiCE会場¥0（各＋1D） https://t.co/R1KWLy49zx",
+      "attachments": {
+        "media_keys": [
+          "3_2092921546801315840",
+          "3_2092921546868465664"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "day_before_reminder"
+      },
+      "created_at": "2026-08-27T10:25:57+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/R1KWLy49zx",
+            "end": 258,
+            "expanded_url": "https://x.com/info_myojou/status/2092921551566037035/photo/1",
+            "media_key": "3_2092921546801315840",
+            "start": 235,
+            "url": "https://t.co/R1KWLy49zx"
+          },
+          {
+            "display_url": "pic.x.com/R1KWLy49zx",
+            "end": 258,
+            "expanded_url": "https://x.com/info_myojou/status/2092921551566037035/photo/1",
+            "media_key": "3_2092921546868465664",
+            "start": 235,
+            "url": "https://t.co/R1KWLy49zx"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2092921551566037035",
+      "media": [
+        {
+          "height": 1522,
+          "media_key": "3_2092921546801315840",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HQuNDtvagAAku1U.jpg",
+          "width": 1076
+        },
+        {
+          "height": 1684,
+          "media_key": "3_2092921546868465664",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HQuNDt_bIAAtBAb.jpg",
+          "width": 1190
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "missing ticket deadline",
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 313,
+              "start": 306,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "t-dv.com/a_villa_zenya",
+              "end": 304,
+              "expanded_url": "http://t-dv.com/a_villa_zenya",
+              "start": 281,
+              "url": "https://t.co/iWbYFKTEUn"
+            }
+          ]
+        },
+        "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「A Villa 2026 前夜祭」\n\n📍SYNC north\n🎙16:55-17:20\n📸17:30-18:40 C （MASH HALL）\n\n⟣date：8/28（金）\n⟣place : SYNC north / Sound lab mole / cube garden / SPiCE\n⟣open/start：15:00/16:00\n⟣price：前方¥8,000/ 前売¥3,500/SPiCE会場¥0（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n8/13（木）20:00-\n🔗 https://t.co/iWbYFKTEUn\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": "17:30-18:40",
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-08-28",
+        "event_dates": [
+          "2026-08-28"
+        ],
+        "event_name": "A Villa 2026 前夜祭",
+        "extraction_confidence": 0.95,
+        "general_ticket_price": 3500,
+        "lottery_result_at": null,
+        "myojou_performance_time": "16:55-17:20",
+        "notes": "ドリンク代: 各+1D\n⟣入場特典:明星カード(サインありチェキ)",
+        "open_time": "15:00",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "前方",
+        "priority_ticket_price": 8000,
+        "same_day_ticket_price": null,
+        "source_kind": "day_before_reminder",
+        "source_post_id": "2092921551566037035",
+        "source_posted_at": "2026-08-27T10:25:57Z",
+        "source_raw": {
+          "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「A Villa 2026 前夜祭」\n\n📍SYNC north\n🎙16:55-17:20\n📸17:30-18:40 C （MASH HALL）\n\n⟣date：8/28（金）\n⟣place : SYNC north / Sound lab mole / cube garden / SPiCE\n⟣open/start：15:00/16:00\n⟣price：前方¥8,000/ 前売¥3,500/SPiCE会場¥0（各＋1D） https://t.co/R1KWLy49zx",
+          "attachments": {
+            "media_keys": [
+              "3_2092921546801315840",
+              "3_2092921546868465664"
+            ]
+          },
+          "created_at": "2026-08-27T10:25:57.000Z",
+          "edit_history_tweet_ids": [
+            "2092921551566037035"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/R1KWLy49zx",
+                "end": 258,
+                "expanded_url": "https://x.com/info_myojou/status/2092921551566037035/photo/1",
+                "media_key": "3_2092921546801315840",
+                "start": 235,
+                "url": "https://t.co/R1KWLy49zx"
+              },
+              {
+                "display_url": "pic.x.com/R1KWLy49zx",
+                "end": 258,
+                "expanded_url": "https://x.com/info_myojou/status/2092921551566037035/photo/1",
+                "media_key": "3_2092921546868465664",
+                "start": 235,
+                "url": "https://t.co/R1KWLy49zx"
+              }
+            ]
+          },
+          "full_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「A Villa 2026 前夜祭」\n\n📍SYNC north\n🎙16:55-17:20\n📸17:30-18:40 C （MASH HALL）\n\n⟣date：8/28（金）\n⟣place : SYNC north / Sound lab mole / cube garden / SPiCE\n⟣open/start：15:00/16:00\n⟣price：前方¥8,000/ 前売¥3,500/SPiCE会場¥0（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n8/13（木）20:00-\n🔗 https://t.co/iWbYFKTEUn\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2092921551566037035",
+          "media": [
+            {
+              "height": 1522,
+              "media_key": "3_2092921546801315840",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HQuNDtvagAAku1U.jpg",
+              "width": 1076
+            },
+            {
+              "height": 1684,
+              "media_key": "3_2092921546868465664",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HQuNDt_bIAAtBAb.jpg",
+              "width": 1190
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 313,
+                  "start": 306,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "t-dv.com/a_villa_zenya",
+                  "end": 304,
+                  "expanded_url": "http://t-dv.com/a_villa_zenya",
+                  "start": 281,
+                  "url": "https://t.co/iWbYFKTEUn"
+                }
+              ]
+            },
+            "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「A Villa 2026 前夜祭」\n\n📍SYNC north\n🎙16:55-17:20\n📸17:30-18:40 C （MASH HALL）\n\n⟣date：8/28（金）\n⟣place : SYNC north / Sound lab mole / cube garden / SPiCE\n⟣open/start：15:00/16:00\n⟣price：前方¥8,000/ 前売¥3,500/SPiCE会場¥0（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n8/13（木）20:00-\n🔗 https://t.co/iWbYFKTEUn\n\n#myojou"
+          },
+          "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「A Villa 2026 前夜祭」\n\n📍SYNC north\n🎙16:55-17:20\n📸17:30-18:40 C （MASH HALL）\n\n⟣date：8/28（金）\n⟣place : SYNC north / Sound lab mole / cube garden / SPiCE\n⟣open/start：15:00/16:00\n⟣price：前方¥8,000/ 前売¥3,500/SPiCE会場¥0（各＋1D） https://t.co/R1KWLy49zx",
+          "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「A Villa 2026 前夜祭」\n\n📍SYNC north\n🎙16:55-17:20\n📸17:30-18:40 C （MASH HALL）\n\n⟣date：8/28（金）\n⟣place : SYNC north / Sound lab mole / cube garden / SPiCE\n⟣open/start：15:00/16:00\n⟣price：前方¥8,000/ 前売¥3,500/SPiCE会場¥0（各＋1D） https://t.co/R1KWLy49zx"
+        },
+        "source_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「A Villa 2026 前夜祭」\n\n📍SYNC north\n🎙16:55-17:20\n📸17:30-18:40 C （MASH HALL）\n\n⟣date：8/28（金）\n⟣place : SYNC north / Sound lab mole / cube garden / SPiCE\n⟣open/start：15:00/16:00\n⟣price：前方¥8,000/ 前売¥3,500/SPiCE会場¥0（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n8/13（木）20:00-\n🔗 https://t.co/iWbYFKTEUn\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2092921551566037035",
+        "start_time": "16:00",
+        "ticket_application_deadline_at": null,
+        "ticket_application_start_at": "2026-08-13T20:00:00+09:00",
+        "ticket_sale_type": "先着",
+        "ticket_sales": [
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 8000,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2092921551566037035",
+            "source_url": "https://x.com/info_myojou/status/2092921551566037035",
+            "start_at": "2026-08-13T20:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "前方",
+            "ticket_tier": "前方"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 3500,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2092921551566037035",
+            "source_url": "https://x.com/info_myojou/status/2092921551566037035",
+            "start_at": "2026-08-13T20:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "http://t-dv.com/a_villa_zenya",
+        "venue": "SYNC north / Sound lab mole / cube garden / SPiCE"
+      },
+      "raw": {
+        "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「A Villa 2026 前夜祭」\n\n📍SYNC north\n🎙16:55-17:20\n📸17:30-18:40 C （MASH HALL）\n\n⟣date：8/28（金）\n⟣place : SYNC north / Sound lab mole / cube garden / SPiCE\n⟣open/start：15:00/16:00\n⟣price：前方¥8,000/ 前売¥3,500/SPiCE会場¥0（各＋1D） https://t.co/R1KWLy49zx",
+        "attachments": {
+          "media_keys": [
+            "3_2092921546801315840",
+            "3_2092921546868465664"
+          ]
+        },
+        "created_at": "2026-08-27T10:25:57.000Z",
+        "edit_history_tweet_ids": [
+          "2092921551566037035"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/R1KWLy49zx",
+              "end": 258,
+              "expanded_url": "https://x.com/info_myojou/status/2092921551566037035/photo/1",
+              "media_key": "3_2092921546801315840",
+              "start": 235,
+              "url": "https://t.co/R1KWLy49zx"
+            },
+            {
+              "display_url": "pic.x.com/R1KWLy49zx",
+              "end": 258,
+              "expanded_url": "https://x.com/info_myojou/status/2092921551566037035/photo/1",
+              "media_key": "3_2092921546868465664",
+              "start": 235,
+              "url": "https://t.co/R1KWLy49zx"
+            }
+          ]
+        },
+        "full_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「A Villa 2026 前夜祭」\n\n📍SYNC north\n🎙16:55-17:20\n📸17:30-18:40 C （MASH HALL）\n\n⟣date：8/28（金）\n⟣place : SYNC north / Sound lab mole / cube garden / SPiCE\n⟣open/start：15:00/16:00\n⟣price：前方¥8,000/ 前売¥3,500/SPiCE会場¥0（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n8/13（木）20:00-\n🔗 https://t.co/iWbYFKTEUn\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2092921551566037035",
+        "media": [
+          {
+            "height": 1522,
+            "media_key": "3_2092921546801315840",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HQuNDtvagAAku1U.jpg",
+            "width": 1076
+          },
+          {
+            "height": 1684,
+            "media_key": "3_2092921546868465664",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HQuNDt_bIAAtBAb.jpg",
+            "width": 1190
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 313,
+                "start": 306,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "t-dv.com/a_villa_zenya",
+                "end": 304,
+                "expanded_url": "http://t-dv.com/a_villa_zenya",
+                "start": 281,
+                "url": "https://t.co/iWbYFKTEUn"
+              }
+            ]
+          },
+          "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「A Villa 2026 前夜祭」\n\n📍SYNC north\n🎙16:55-17:20\n📸17:30-18:40 C （MASH HALL）\n\n⟣date：8/28（金）\n⟣place : SYNC north / Sound lab mole / cube garden / SPiCE\n⟣open/start：15:00/16:00\n⟣price：前方¥8,000/ 前売¥3,500/SPiCE会場¥0（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n8/13（木）20:00-\n🔗 https://t.co/iWbYFKTEUn\n\n#myojou"
+        },
+        "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「A Villa 2026 前夜祭」\n\n📍SYNC north\n🎙16:55-17:20\n📸17:30-18:40 C （MASH HALL）\n\n⟣date：8/28（金）\n⟣place : SYNC north / Sound lab mole / cube garden / SPiCE\n⟣open/start：15:00/16:00\n⟣price：前方¥8,000/ 前売¥3,500/SPiCE会場¥0（各＋1D） https://t.co/R1KWLy49zx",
+        "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「A Villa 2026 前夜祭」\n\n📍SYNC north\n🎙16:55-17:20\n📸17:30-18:40 C （MASH HALL）\n\n⟣date：8/28（金）\n⟣place : SYNC north / Sound lab mole / cube garden / SPiCE\n⟣open/start：15:00/16:00\n⟣price：前方¥8,000/ 前売¥3,500/SPiCE会場¥0（各＋1D） https://t.co/R1KWLy49zx"
+      },
+      "referenced_tweets": [],
+      "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「A Villa 2026 前夜祭」\n\n📍SYNC north\n🎙16:55-17:20\n📸17:30-18:40 C （MASH HALL）\n\n⟣date：8/28（金）\n⟣place : SYNC north / Sound lab mole / cube garden / SPiCE\n⟣open/start：15:00/16:00\n⟣price：前方¥8,000/ 前売¥3,500/SPiCE会場¥0（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n8/13（木）20:00-\n🔗 https://t.co/iWbYFKTEUn\n\n#myojou",
+      "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「A Villa 2026 前夜祭」\n\n📍SYNC north\n🎙16:55-17:20\n📸17:30-18:40 C （MASH HALL）\n\n⟣date：8/28（金）\n⟣place : SYNC north / Sound lab mole / cube garden / SPiCE\n⟣open/start：15:00/16:00\n⟣price：前方¥8,000/ 前売¥3,500/SPiCE会場¥0（各＋1D） https://t.co/R1KWLy49zx",
+      "url": "https://x.com/info_myojou/status/2092921551566037035"
+    },
+    {
+      "api_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n                    栗原ここね生誕 \n             インターネットサイン会\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「栗原ここね生誕インターネットサイン会」ありがとうございました⋆˙⟡ https://t.co/z9firriwAt",
+      "attachments": {
+        "media_keys": [
+          "3_2092914899768987648"
+        ]
+      },
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "profile/member introduction",
+        "source_kind": "other"
+      },
+      "created_at": "2026-08-27T09:59:32+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/z9firriwAt",
+            "end": 200,
+            "expanded_url": "https://x.com/info_myojou/status/2092914906572153329/photo/1",
+            "media_key": "3_2092914899768987648",
+            "start": 177,
+            "url": "https://t.co/z9firriwAt"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2092914906572153329",
+      "media": [
+        {
+          "height": 2048,
+          "media_key": "3_2092914899768987648",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HQuHAznaUAAIEEu.jpg",
+          "width": 1365
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 186,
+              "start": 179,
+              "tag": "myojou"
+            }
+          ]
+        },
+        "text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n                    栗原ここね生誕 \n             インターネットサイン会\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「栗原ここね生誕インターネットサイン会」ありがとうございました⋆˙⟡\n\n #myojou"
+      },
+      "parsed_fields": null,
+      "raw": {
+        "api_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n                    栗原ここね生誕 \n             インターネットサイン会\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「栗原ここね生誕インターネットサイン会」ありがとうございました⋆˙⟡ https://t.co/z9firriwAt",
+        "attachments": {
+          "media_keys": [
+            "3_2092914899768987648"
+          ]
+        },
+        "created_at": "2026-08-27T09:59:32.000Z",
+        "edit_history_tweet_ids": [
+          "2092914906572153329"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/z9firriwAt",
+              "end": 200,
+              "expanded_url": "https://x.com/info_myojou/status/2092914906572153329/photo/1",
+              "media_key": "3_2092914899768987648",
+              "start": 177,
+              "url": "https://t.co/z9firriwAt"
+            }
+          ]
+        },
+        "full_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n                    栗原ここね生誕 \n             インターネットサイン会\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「栗原ここね生誕インターネットサイン会」ありがとうございました⋆˙⟡\n\n #myojou",
+        "full_text_source": "note_tweet",
+        "id": "2092914906572153329",
+        "media": [
+          {
+            "height": 2048,
+            "media_key": "3_2092914899768987648",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HQuHAznaUAAIEEu.jpg",
+            "width": 1365
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 186,
+                "start": 179,
+                "tag": "myojou"
+              }
+            ]
+          },
+          "text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n                    栗原ここね生誕 \n             インターネットサイン会\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「栗原ここね生誕インターネットサイン会」ありがとうございました⋆˙⟡\n\n #myojou"
+        },
+        "text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n                    栗原ここね生誕 \n             インターネットサイン会\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「栗原ここね生誕インターネットサイン会」ありがとうございました⋆˙⟡ https://t.co/z9firriwAt",
+        "truncated_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n                    栗原ここね生誕 \n             インターネットサイン会\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「栗原ここね生誕インターネットサイン会」ありがとうございました⋆˙⟡ https://t.co/z9firriwAt"
+      },
+      "referenced_tweets": [],
+      "text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n                    栗原ここね生誕 \n             インターネットサイン会\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「栗原ここね生誕インターネットサイン会」ありがとうございました⋆˙⟡\n\n #myojou",
+      "truncated_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n                    栗原ここね生誕 \n             インターネットサイン会\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「栗原ここね生誕インターネットサイン会」ありがとうございました⋆˙⟡ https://t.co/z9firriwAt",
+      "url": "https://x.com/info_myojou/status/2092914906572153329"
+    },
+    {
+      "api_text": "【お知らせ】\n\n薄倉りなは体調不良のため、以下公演を欠席とさせていただきます。\n\n8/28「A Villa 2026 前夜祭」\n8/29「A Villa idol festival HOKKAIDO 2026」\n8/30「URA A Villa DAY.2」、「HOKKAIDO IDOL PARTY」 https://t.co/47M245Gyy9",
+      "attachments": {
+        "media_keys": [
+          "3_2092838574584717312"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "initial_announcement"
+      },
+      "created_at": "2026-08-27T04:56:17+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/47M245Gyy9",
+            "end": 175,
+            "expanded_url": "https://x.com/info_myojou/status/2092838589944287538/photo/1",
+            "media_key": "3_2092838574584717312",
+            "start": 152,
+            "url": "https://t.co/47M245Gyy9"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2092838589944287538",
+      "media": [
+        {
+          "height": 4096,
+          "media_key": "3_2092838574584717312",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HQtBmGJbYAAx3r1.jpg",
+          "width": 2730
+        }
+      ],
+      "needs_review": true,
+      "needs_review_reasons": [
+        "missing venue",
+        "missing ticket deadline",
+        "ambiguous event match",
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 268,
+              "start": 261,
+              "tag": "myojou"
+            }
+          ]
+        },
+        "text": "【お知らせ】\n\n薄倉りなは体調不良のため、以下公演を欠席とさせていただきます。\n\n8/28「A Villa 2026 前夜祭」\n8/29「A Villa idol festival HOKKAIDO 2026」\n8/30「URA A Villa DAY.2」、「HOKKAIDO IDOL PARTY」\n\nまた、該当公演に薄倉りなをお目当てでご来場の方には物販卓にて「後日使用可能薄倉りなサインありチェキ券」をお渡しさせていただきます。\n\n直前のお知らせになり大変申し訳ございません。ご確認よろしくお願いいたします。\n\n #myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": null,
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-08-28",
+        "event_dates": [
+          "2026-08-28",
+          "2026-08-29",
+          "2026-08-30"
+        ],
+        "event_name": "薄倉りなは体調不良のため、以下公演を欠席とさせていただきます。",
+        "extraction_confidence": 0.6,
+        "general_ticket_price": null,
+        "lottery_result_at": null,
+        "myojou_performance_time": null,
+        "notes": null,
+        "open_time": null,
+        "payment_deadline_at": null,
+        "priority_ticket_name": null,
+        "priority_ticket_price": null,
+        "same_day_ticket_price": null,
+        "source_kind": "initial_announcement",
+        "source_post_id": "2092838589944287538",
+        "source_posted_at": "2026-08-27T04:56:17Z",
+        "source_raw": {
+          "api_text": "【お知らせ】\n\n薄倉りなは体調不良のため、以下公演を欠席とさせていただきます。\n\n8/28「A Villa 2026 前夜祭」\n8/29「A Villa idol festival HOKKAIDO 2026」\n8/30「URA A Villa DAY.2」、「HOKKAIDO IDOL PARTY」 https://t.co/47M245Gyy9",
+          "attachments": {
+            "media_keys": [
+              "3_2092838574584717312"
+            ]
+          },
+          "created_at": "2026-08-27T04:56:17.000Z",
+          "edit_history_tweet_ids": [
+            "2092838589944287538"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/47M245Gyy9",
+                "end": 175,
+                "expanded_url": "https://x.com/info_myojou/status/2092838589944287538/photo/1",
+                "media_key": "3_2092838574584717312",
+                "start": 152,
+                "url": "https://t.co/47M245Gyy9"
+              }
+            ]
+          },
+          "full_text": "【お知らせ】\n\n薄倉りなは体調不良のため、以下公演を欠席とさせていただきます。\n\n8/28「A Villa 2026 前夜祭」\n8/29「A Villa idol festival HOKKAIDO 2026」\n8/30「URA A Villa DAY.2」、「HOKKAIDO IDOL PARTY」\n\nまた、該当公演に薄倉りなをお目当てでご来場の方には物販卓にて「後日使用可能薄倉りなサインありチェキ券」をお渡しさせていただきます。\n\n直前のお知らせになり大変申し訳ございません。ご確認よろしくお願いいたします。\n\n #myojou",
+          "full_text_source": "note_tweet",
+          "id": "2092838589944287538",
+          "media": [
+            {
+              "height": 4096,
+              "media_key": "3_2092838574584717312",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HQtBmGJbYAAx3r1.jpg",
+              "width": 2730
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 268,
+                  "start": 261,
+                  "tag": "myojou"
+                }
+              ]
+            },
+            "text": "【お知らせ】\n\n薄倉りなは体調不良のため、以下公演を欠席とさせていただきます。\n\n8/28「A Villa 2026 前夜祭」\n8/29「A Villa idol festival HOKKAIDO 2026」\n8/30「URA A Villa DAY.2」、「HOKKAIDO IDOL PARTY」\n\nまた、該当公演に薄倉りなをお目当てでご来場の方には物販卓にて「後日使用可能薄倉りなサインありチェキ券」をお渡しさせていただきます。\n\n直前のお知らせになり大変申し訳ございません。ご確認よろしくお願いいたします。\n\n #myojou"
+          },
+          "text": "【お知らせ】\n\n薄倉りなは体調不良のため、以下公演を欠席とさせていただきます。\n\n8/28「A Villa 2026 前夜祭」\n8/29「A Villa idol festival HOKKAIDO 2026」\n8/30「URA A Villa DAY.2」、「HOKKAIDO IDOL PARTY」 https://t.co/47M245Gyy9",
+          "truncated_text": "【お知らせ】\n\n薄倉りなは体調不良のため、以下公演を欠席とさせていただきます。\n\n8/28「A Villa 2026 前夜祭」\n8/29「A Villa idol festival HOKKAIDO 2026」\n8/30「URA A Villa DAY.2」、「HOKKAIDO IDOL PARTY」 https://t.co/47M245Gyy9"
+        },
+        "source_text": "【お知らせ】\n\n薄倉りなは体調不良のため、以下公演を欠席とさせていただきます。\n\n8/28「A Villa 2026 前夜祭」\n8/29「A Villa idol festival HOKKAIDO 2026」\n8/30「URA A Villa DAY.2」、「HOKKAIDO IDOL PARTY」\n\nまた、該当公演に薄倉りなをお目当てでご来場の方には物販卓にて「後日使用可能薄倉りなサインありチェキ券」をお渡しさせていただきます。\n\n直前のお知らせになり大変申し訳ございません。ご確認よろしくお願いいたします。\n\n #myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2092838589944287538",
+        "start_time": null,
+        "ticket_application_deadline_at": null,
+        "ticket_application_start_at": null,
+        "ticket_sale_type": null,
+        "ticket_sales": [],
+        "ticket_status": null,
+        "ticket_url": null,
+        "venue": null
+      },
+      "raw": {
+        "api_text": "【お知らせ】\n\n薄倉りなは体調不良のため、以下公演を欠席とさせていただきます。\n\n8/28「A Villa 2026 前夜祭」\n8/29「A Villa idol festival HOKKAIDO 2026」\n8/30「URA A Villa DAY.2」、「HOKKAIDO IDOL PARTY」 https://t.co/47M245Gyy9",
+        "attachments": {
+          "media_keys": [
+            "3_2092838574584717312"
+          ]
+        },
+        "created_at": "2026-08-27T04:56:17.000Z",
+        "edit_history_tweet_ids": [
+          "2092838589944287538"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/47M245Gyy9",
+              "end": 175,
+              "expanded_url": "https://x.com/info_myojou/status/2092838589944287538/photo/1",
+              "media_key": "3_2092838574584717312",
+              "start": 152,
+              "url": "https://t.co/47M245Gyy9"
+            }
+          ]
+        },
+        "full_text": "【お知らせ】\n\n薄倉りなは体調不良のため、以下公演を欠席とさせていただきます。\n\n8/28「A Villa 2026 前夜祭」\n8/29「A Villa idol festival HOKKAIDO 2026」\n8/30「URA A Villa DAY.2」、「HOKKAIDO IDOL PARTY」\n\nまた、該当公演に薄倉りなをお目当てでご来場の方には物販卓にて「後日使用可能薄倉りなサインありチェキ券」をお渡しさせていただきます。\n\n直前のお知らせになり大変申し訳ございません。ご確認よろしくお願いいたします。\n\n #myojou",
+        "full_text_source": "note_tweet",
+        "id": "2092838589944287538",
+        "media": [
+          {
+            "height": 4096,
+            "media_key": "3_2092838574584717312",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HQtBmGJbYAAx3r1.jpg",
+            "width": 2730
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 268,
+                "start": 261,
+                "tag": "myojou"
+              }
+            ]
+          },
+          "text": "【お知らせ】\n\n薄倉りなは体調不良のため、以下公演を欠席とさせていただきます。\n\n8/28「A Villa 2026 前夜祭」\n8/29「A Villa idol festival HOKKAIDO 2026」\n8/30「URA A Villa DAY.2」、「HOKKAIDO IDOL PARTY」\n\nまた、該当公演に薄倉りなをお目当てでご来場の方には物販卓にて「後日使用可能薄倉りなサインありチェキ券」をお渡しさせていただきます。\n\n直前のお知らせになり大変申し訳ございません。ご確認よろしくお願いいたします。\n\n #myojou"
+        },
+        "text": "【お知らせ】\n\n薄倉りなは体調不良のため、以下公演を欠席とさせていただきます。\n\n8/28「A Villa 2026 前夜祭」\n8/29「A Villa idol festival HOKKAIDO 2026」\n8/30「URA A Villa DAY.2」、「HOKKAIDO IDOL PARTY」 https://t.co/47M245Gyy9",
+        "truncated_text": "【お知らせ】\n\n薄倉りなは体調不良のため、以下公演を欠席とさせていただきます。\n\n8/28「A Villa 2026 前夜祭」\n8/29「A Villa idol festival HOKKAIDO 2026」\n8/30「URA A Villa DAY.2」、「HOKKAIDO IDOL PARTY」 https://t.co/47M245Gyy9"
+      },
+      "referenced_tweets": [],
+      "text": "【お知らせ】\n\n薄倉りなは体調不良のため、以下公演を欠席とさせていただきます。\n\n8/28「A Villa 2026 前夜祭」\n8/29「A Villa idol festival HOKKAIDO 2026」\n8/30「URA A Villa DAY.2」、「HOKKAIDO IDOL PARTY」\n\nまた、該当公演に薄倉りなをお目当てでご来場の方には物販卓にて「後日使用可能薄倉りなサインありチェキ券」をお渡しさせていただきます。\n\n直前のお知らせになり大変申し訳ございません。ご確認よろしくお願いいたします。\n\n #myojou",
+      "truncated_text": "【お知らせ】\n\n薄倉りなは体調不良のため、以下公演を欠席とさせていただきます。\n\n8/28「A Villa 2026 前夜祭」\n8/29「A Villa idol festival HOKKAIDO 2026」\n8/30「URA A Villa DAY.2」、「HOKKAIDO IDOL PARTY」 https://t.co/47M245Gyy9",
+      "url": "https://x.com/info_myojou/status/2092838589944287538"
+    },
+    {
       "api_text": "✮••┈┈┈┈┈┈┈┈┈┈••✮\n                 楽曲公開 \n         \"幸せのかたすみ\"\n✮••┈┈┈┈┈┈┈┈┈┈••✮\n\n2026.8.27より順次配信開始\n🔗 https://t.co/Um81qXeQb7\n\n #myojou https://t.co/5XNbG0N9SF",
       "attachments": {
         "media_keys": [
@@ -168210,7 +169111,7 @@
     "backfill": true,
     "dry_run": true,
     "estimated_x_post_reads": 411,
-    "latest_post_id": "2092598584810312096",
+    "latest_post_id": "2093120520208478413",
     "max_pages": 10,
     "max_posts": 500,
     "max_results": 5,
@@ -168253,16 +169154,16 @@
       }
     ],
     "pages_fetched": 5,
-    "posts_fetched": 770,
+    "posts_fetched": 774,
     "rate_limit_headers": {
       "x-rate-limit-limit": "10000",
       "x-rate-limit-remaining": "9993",
       "x-rate-limit-reset": "1781108896"
     },
-    "total_posts": 770,
-    "updated_at": "2026-08-26T21:42:40.023604+00:00",
+    "total_posts": 774,
+    "updated_at": "2026-08-28T02:26:50.514179+00:00",
     "username": "info_myojou"
   },
   "source": "x_api",
-  "updated_at": "2026-08-26T21:42:40.023604+00:00"
+  "updated_at": "2026-08-28T02:26:50.514179+00:00"
 }
