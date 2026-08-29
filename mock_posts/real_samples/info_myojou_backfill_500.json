@@ -2,6 +2,668 @@
   "captured_at": "2026-06-10T16:19:36.141820+00:00",
   "data": [
     {
+      "api_text": "▶️LIVE DIGEST\nA Villa idol festival HOKKAIDO 2026\n\n「夏、空模様」\n\n #myojou https://t.co/uebiNfoRlu",
+      "attachments": {
+        "media_keys": [
+          "13_2093640371121373184"
+        ]
+      },
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "live digest recap",
+        "source_kind": "other"
+      },
+      "created_at": "2026-08-29T10:02:59+00:00",
+      "entities": {
+        "hashtags": [
+          {
+            "end": 68,
+            "start": 61,
+            "tag": "myojou"
+          }
+        ],
+        "urls": [
+          {
+            "display_url": "pic.x.com/uebiNfoRlu",
+            "end": 92,
+            "expanded_url": "https://x.com/info_myojou/status/2093640548481675380/video/1",
+            "media_key": "13_2093640371121373184",
+            "start": 69,
+            "url": "https://t.co/uebiNfoRlu"
+          }
+        ]
+      },
+      "full_text_source": "text",
+      "id": "2093640548481675380",
+      "media": [
+        {
+          "height": 1080,
+          "media_key": "13_2093640371121373184",
+          "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2093640371121373184/img/LKSVBSiOcBih3O5Q.jpg",
+          "type": "video",
+          "width": 1920
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "note_tweet": null,
+      "parsed_fields": null,
+      "raw": {
+        "api_text": "▶️LIVE DIGEST\nA Villa idol festival HOKKAIDO 2026\n\n「夏、空模様」\n\n #myojou https://t.co/uebiNfoRlu",
+        "attachments": {
+          "media_keys": [
+            "13_2093640371121373184"
+          ]
+        },
+        "created_at": "2026-08-29T10:02:59.000Z",
+        "edit_history_tweet_ids": [
+          "2093640548481675380"
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "end": 68,
+              "start": 61,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "pic.x.com/uebiNfoRlu",
+              "end": 92,
+              "expanded_url": "https://x.com/info_myojou/status/2093640548481675380/video/1",
+              "media_key": "13_2093640371121373184",
+              "start": 69,
+              "url": "https://t.co/uebiNfoRlu"
+            }
+          ]
+        },
+        "full_text": "▶️LIVE DIGEST\nA Villa idol festival HOKKAIDO 2026\n\n「夏、空模様」\n\n #myojou https://t.co/uebiNfoRlu",
+        "full_text_source": "text",
+        "id": "2093640548481675380",
+        "media": [
+          {
+            "height": 1080,
+            "media_key": "13_2093640371121373184",
+            "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2093640371121373184/img/LKSVBSiOcBih3O5Q.jpg",
+            "type": "video",
+            "width": 1920
+          }
+        ],
+        "text": "▶️LIVE DIGEST\nA Villa idol festival HOKKAIDO 2026\n\n「夏、空模様」\n\n #myojou https://t.co/uebiNfoRlu",
+        "truncated_text": null
+      },
+      "referenced_tweets": [],
+      "text": "▶️LIVE DIGEST\nA Villa idol festival HOKKAIDO 2026\n\n「夏、空模様」\n\n #myojou https://t.co/uebiNfoRlu",
+      "truncated_text": null,
+      "url": "https://x.com/info_myojou/status/2093640548481675380"
+    },
+    {
+      "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「URA A Villa DAY.2」\n\n🎙10:50-11:15\n📸11:25-12:45 C（SYNC north ロビー）\n\n⟣date：8/30（日）\n⟣place : SYNC north\n⟣open/start：9:30/10:00\n⟣price：VIP¥8,000/一般¥4,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】 https://t.co/GNIqtG8iN2",
+      "attachments": {
+        "media_keys": [
+          "3_2093635428800937984",
+          "3_2093635428889034752"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "day_before_reminder"
+      },
+      "created_at": "2026-08-29T09:42:41+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/GNIqtG8iN2",
+            "end": 231,
+            "expanded_url": "https://x.com/info_myojou/status/2093635439626486041/photo/1",
+            "media_key": "3_2093635428800937984",
+            "start": 208,
+            "url": "https://t.co/GNIqtG8iN2"
+          },
+          {
+            "display_url": "pic.x.com/GNIqtG8iN2",
+            "end": 231,
+            "expanded_url": "https://x.com/info_myojou/status/2093635439626486041/photo/1",
+            "media_key": "3_2093635428889034752",
+            "start": 208,
+            "url": "https://t.co/GNIqtG8iN2"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2093635439626486041",
+      "media": [
+        {
+          "height": 2364,
+          "media_key": "3_2093635428800937984",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HQ4WVHbaQAAdpUt.jpg",
+          "width": 1774
+        },
+        {
+          "height": 1772,
+          "media_key": "3_2093635428889034752",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HQ4WVHwagAA1aqe.jpg",
+          "width": 2363
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "missing ticket deadline",
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 463,
+              "start": 456,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "t-dv.com/ura_a_villa2",
+              "end": 246,
+              "expanded_url": "http://t-dv.com/ura_a_villa2",
+              "start": 223,
+              "url": "https://t.co/elCEJkwJW4"
+            },
+            {
+              "display_url": "ticketdive.com/event/hip_830",
+              "end": 454,
+              "expanded_url": "http://ticketdive.com/event/hip_830",
+              "start": 431,
+              "url": "https://t.co/BWjQh2crgx"
+            }
+          ]
+        },
+        "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「URA A Villa DAY.2」\n\n🎙10:50-11:15\n📸11:25-12:45 C（SYNC north ロビー）\n\n⟣date：8/30（日）\n⟣place : SYNC north\n⟣open/start：9:30/10:00\n⟣price：VIP¥8,000/一般¥4,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n8/5(水)21:30-\n🔗 https://t.co/elCEJkwJW4\n\n「HOKKAIDO IDOL PARTY」\n\n🎙16:40-17:08\n📸終演後\n\n⟣date：8/30（日）\n⟣place : Sound lab mole\n⟣open/start：15:30/16:00\n⟣price：前方¥4,000 / 前売¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n8/20（木）22:00-\n🔗 https://t.co/BWjQh2crgx\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": "11:25-12:45",
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-08-30",
+        "event_dates": [
+          "2026-08-30"
+        ],
+        "event_name": "URA A Villa DAY.2",
+        "extraction_confidence": 0.95,
+        "general_ticket_price": 4000,
+        "lottery_result_at": null,
+        "myojou_performance_time": "10:50-11:15",
+        "notes": "ドリンク代: 各+1D\n⟣入場特典:明星カード(サインありチェキ)",
+        "open_time": "09:30",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "VIP",
+        "priority_ticket_price": 8000,
+        "same_day_ticket_price": null,
+        "source_kind": "day_before_reminder",
+        "source_post_id": "2093635439626486041",
+        "source_posted_at": "2026-08-29T09:42:41Z",
+        "source_raw": {
+          "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「URA A Villa DAY.2」\n\n🎙10:50-11:15\n📸11:25-12:45 C（SYNC north ロビー）\n\n⟣date：8/30（日）\n⟣place : SYNC north\n⟣open/start：9:30/10:00\n⟣price：VIP¥8,000/一般¥4,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】 https://t.co/GNIqtG8iN2",
+          "attachments": {
+            "media_keys": [
+              "3_2093635428800937984",
+              "3_2093635428889034752"
+            ]
+          },
+          "created_at": "2026-08-29T09:42:41.000Z",
+          "edit_history_tweet_ids": [
+            "2093635439626486041"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/GNIqtG8iN2",
+                "end": 231,
+                "expanded_url": "https://x.com/info_myojou/status/2093635439626486041/photo/1",
+                "media_key": "3_2093635428800937984",
+                "start": 208,
+                "url": "https://t.co/GNIqtG8iN2"
+              },
+              {
+                "display_url": "pic.x.com/GNIqtG8iN2",
+                "end": 231,
+                "expanded_url": "https://x.com/info_myojou/status/2093635439626486041/photo/1",
+                "media_key": "3_2093635428889034752",
+                "start": 208,
+                "url": "https://t.co/GNIqtG8iN2"
+              }
+            ]
+          },
+          "full_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「URA A Villa DAY.2」\n\n🎙10:50-11:15\n📸11:25-12:45 C（SYNC north ロビー）\n\n⟣date：8/30（日）\n⟣place : SYNC north\n⟣open/start：9:30/10:00\n⟣price：VIP¥8,000/一般¥4,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n8/5(水)21:30-\n🔗 https://t.co/elCEJkwJW4\n\n「HOKKAIDO IDOL PARTY」\n\n🎙16:40-17:08\n📸終演後\n\n⟣date：8/30（日）\n⟣place : Sound lab mole\n⟣open/start：15:30/16:00\n⟣price：前方¥4,000 / 前売¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n8/20（木）22:00-\n🔗 https://t.co/BWjQh2crgx\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2093635439626486041",
+          "media": [
+            {
+              "height": 2364,
+              "media_key": "3_2093635428800937984",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HQ4WVHbaQAAdpUt.jpg",
+              "width": 1774
+            },
+            {
+              "height": 1772,
+              "media_key": "3_2093635428889034752",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HQ4WVHwagAA1aqe.jpg",
+              "width": 2363
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 463,
+                  "start": 456,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "t-dv.com/ura_a_villa2",
+                  "end": 246,
+                  "expanded_url": "http://t-dv.com/ura_a_villa2",
+                  "start": 223,
+                  "url": "https://t.co/elCEJkwJW4"
+                },
+                {
+                  "display_url": "ticketdive.com/event/hip_830",
+                  "end": 454,
+                  "expanded_url": "http://ticketdive.com/event/hip_830",
+                  "start": 431,
+                  "url": "https://t.co/BWjQh2crgx"
+                }
+              ]
+            },
+            "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「URA A Villa DAY.2」\n\n🎙10:50-11:15\n📸11:25-12:45 C（SYNC north ロビー）\n\n⟣date：8/30（日）\n⟣place : SYNC north\n⟣open/start：9:30/10:00\n⟣price：VIP¥8,000/一般¥4,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n8/5(水)21:30-\n🔗 https://t.co/elCEJkwJW4\n\n「HOKKAIDO IDOL PARTY」\n\n🎙16:40-17:08\n📸終演後\n\n⟣date：8/30（日）\n⟣place : Sound lab mole\n⟣open/start：15:30/16:00\n⟣price：前方¥4,000 / 前売¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n8/20（木）22:00-\n🔗 https://t.co/BWjQh2crgx\n\n#myojou"
+          },
+          "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「URA A Villa DAY.2」\n\n🎙10:50-11:15\n📸11:25-12:45 C（SYNC north ロビー）\n\n⟣date：8/30（日）\n⟣place : SYNC north\n⟣open/start：9:30/10:00\n⟣price：VIP¥8,000/一般¥4,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】 https://t.co/GNIqtG8iN2",
+          "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「URA A Villa DAY.2」\n\n🎙10:50-11:15\n📸11:25-12:45 C（SYNC north ロビー）\n\n⟣date：8/30（日）\n⟣place : SYNC north\n⟣open/start：9:30/10:00\n⟣price：VIP¥8,000/一般¥4,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】 https://t.co/GNIqtG8iN2"
+        },
+        "source_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「URA A Villa DAY.2」\n\n🎙10:50-11:15\n📸11:25-12:45 C（SYNC north ロビー）\n\n⟣date：8/30（日）\n⟣place : SYNC north\n⟣open/start：9:30/10:00\n⟣price：VIP¥8,000/一般¥4,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n8/5(水)21:30-\n🔗 https://t.co/elCEJkwJW4\n\n「HOKKAIDO IDOL PARTY」\n\n🎙16:40-17:08\n📸終演後\n\n⟣date：8/30（日）\n⟣place : Sound lab mole\n⟣open/start：15:30/16:00\n⟣price：前方¥4,000 / 前売¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n8/20（木）22:00-\n🔗 https://t.co/BWjQh2crgx\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2093635439626486041",
+        "start_time": "10:00",
+        "ticket_application_deadline_at": null,
+        "ticket_application_start_at": "2026-08-05T21:30:00+09:00",
+        "ticket_sale_type": "一般",
+        "ticket_sales": [
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 8000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2093635439626486041",
+            "source_url": "https://x.com/info_myojou/status/2093635439626486041",
+            "start_at": "2026-08-05T21:30:00+09:00",
+            "status": "不明",
+            "ticket_name": "VIP",
+            "ticket_tier": "VIP"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 4000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2093635439626486041",
+            "source_url": "https://x.com/info_myojou/status/2093635439626486041",
+            "start_at": "2026-08-05T21:30:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 4000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2093635439626486041",
+            "source_url": "https://x.com/info_myojou/status/2093635439626486041",
+            "start_at": "2026-08-05T21:30:00+09:00",
+            "status": "不明",
+            "ticket_name": "前方",
+            "ticket_tier": "前方"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 8000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2093635439626486041",
+            "source_url": "https://x.com/info_myojou/status/2093635439626486041",
+            "start_at": "2026-08-20T22:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "VIP",
+            "ticket_tier": "VIP"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 4000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2093635439626486041",
+            "source_url": "https://x.com/info_myojou/status/2093635439626486041",
+            "start_at": "2026-08-20T22:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 4000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2093635439626486041",
+            "source_url": "https://x.com/info_myojou/status/2093635439626486041",
+            "start_at": "2026-08-20T22:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "前方",
+            "ticket_tier": "前方"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "http://t-dv.com/ura_a_villa2",
+        "venue": "SYNC north"
+      },
+      "raw": {
+        "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「URA A Villa DAY.2」\n\n🎙10:50-11:15\n📸11:25-12:45 C（SYNC north ロビー）\n\n⟣date：8/30（日）\n⟣place : SYNC north\n⟣open/start：9:30/10:00\n⟣price：VIP¥8,000/一般¥4,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】 https://t.co/GNIqtG8iN2",
+        "attachments": {
+          "media_keys": [
+            "3_2093635428800937984",
+            "3_2093635428889034752"
+          ]
+        },
+        "created_at": "2026-08-29T09:42:41.000Z",
+        "edit_history_tweet_ids": [
+          "2093635439626486041"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/GNIqtG8iN2",
+              "end": 231,
+              "expanded_url": "https://x.com/info_myojou/status/2093635439626486041/photo/1",
+              "media_key": "3_2093635428800937984",
+              "start": 208,
+              "url": "https://t.co/GNIqtG8iN2"
+            },
+            {
+              "display_url": "pic.x.com/GNIqtG8iN2",
+              "end": 231,
+              "expanded_url": "https://x.com/info_myojou/status/2093635439626486041/photo/1",
+              "media_key": "3_2093635428889034752",
+              "start": 208,
+              "url": "https://t.co/GNIqtG8iN2"
+            }
+          ]
+        },
+        "full_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「URA A Villa DAY.2」\n\n🎙10:50-11:15\n📸11:25-12:45 C（SYNC north ロビー）\n\n⟣date：8/30（日）\n⟣place : SYNC north\n⟣open/start：9:30/10:00\n⟣price：VIP¥8,000/一般¥4,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n8/5(水)21:30-\n🔗 https://t.co/elCEJkwJW4\n\n「HOKKAIDO IDOL PARTY」\n\n🎙16:40-17:08\n📸終演後\n\n⟣date：8/30（日）\n⟣place : Sound lab mole\n⟣open/start：15:30/16:00\n⟣price：前方¥4,000 / 前売¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n8/20（木）22:00-\n🔗 https://t.co/BWjQh2crgx\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2093635439626486041",
+        "media": [
+          {
+            "height": 2364,
+            "media_key": "3_2093635428800937984",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HQ4WVHbaQAAdpUt.jpg",
+            "width": 1774
+          },
+          {
+            "height": 1772,
+            "media_key": "3_2093635428889034752",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HQ4WVHwagAA1aqe.jpg",
+            "width": 2363
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 463,
+                "start": 456,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "t-dv.com/ura_a_villa2",
+                "end": 246,
+                "expanded_url": "http://t-dv.com/ura_a_villa2",
+                "start": 223,
+                "url": "https://t.co/elCEJkwJW4"
+              },
+              {
+                "display_url": "ticketdive.com/event/hip_830",
+                "end": 454,
+                "expanded_url": "http://ticketdive.com/event/hip_830",
+                "start": 431,
+                "url": "https://t.co/BWjQh2crgx"
+              }
+            ]
+          },
+          "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「URA A Villa DAY.2」\n\n🎙10:50-11:15\n📸11:25-12:45 C（SYNC north ロビー）\n\n⟣date：8/30（日）\n⟣place : SYNC north\n⟣open/start：9:30/10:00\n⟣price：VIP¥8,000/一般¥4,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n8/5(水)21:30-\n🔗 https://t.co/elCEJkwJW4\n\n「HOKKAIDO IDOL PARTY」\n\n🎙16:40-17:08\n📸終演後\n\n⟣date：8/30（日）\n⟣place : Sound lab mole\n⟣open/start：15:30/16:00\n⟣price：前方¥4,000 / 前売¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n8/20（木）22:00-\n🔗 https://t.co/BWjQh2crgx\n\n#myojou"
+        },
+        "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「URA A Villa DAY.2」\n\n🎙10:50-11:15\n📸11:25-12:45 C（SYNC north ロビー）\n\n⟣date：8/30（日）\n⟣place : SYNC north\n⟣open/start：9:30/10:00\n⟣price：VIP¥8,000/一般¥4,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】 https://t.co/GNIqtG8iN2",
+        "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「URA A Villa DAY.2」\n\n🎙10:50-11:15\n📸11:25-12:45 C（SYNC north ロビー）\n\n⟣date：8/30（日）\n⟣place : SYNC north\n⟣open/start：9:30/10:00\n⟣price：VIP¥8,000/一般¥4,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】 https://t.co/GNIqtG8iN2"
+      },
+      "referenced_tweets": [],
+      "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「URA A Villa DAY.2」\n\n🎙10:50-11:15\n📸11:25-12:45 C（SYNC north ロビー）\n\n⟣date：8/30（日）\n⟣place : SYNC north\n⟣open/start：9:30/10:00\n⟣price：VIP¥8,000/一般¥4,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n8/5(水)21:30-\n🔗 https://t.co/elCEJkwJW4\n\n「HOKKAIDO IDOL PARTY」\n\n🎙16:40-17:08\n📸終演後\n\n⟣date：8/30（日）\n⟣place : Sound lab mole\n⟣open/start：15:30/16:00\n⟣price：前方¥4,000 / 前売¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n8/20（木）22:00-\n🔗 https://t.co/BWjQh2crgx\n\n#myojou",
+      "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「URA A Villa DAY.2」\n\n🎙10:50-11:15\n📸11:25-12:45 C（SYNC north ロビー）\n\n⟣date：8/30（日）\n⟣place : SYNC north\n⟣open/start：9:30/10:00\n⟣price：VIP¥8,000/一般¥4,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】 https://t.co/GNIqtG8iN2",
+      "url": "https://x.com/info_myojou/status/2093635439626486041"
+    },
+    {
+      "api_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n   A Villa idol festival HOKKAIDO 2026\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「A Villa idol festival HOKKAIDO 2026」ありがとうございました⋆˙⟡\n\n左上から\n姫乃るか@myojou_ruka https://t.co/dFMDKSTFBR",
+      "attachments": {
+        "media_keys": [
+          "3_2093634319487270912"
+        ]
+      },
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "profile/member introduction",
+        "source_kind": "other"
+      },
+      "created_at": "2026-08-29T09:38:17+00:00",
+      "entities": {
+        "mentions": [
+          {
+            "end": 201,
+            "id": "1981655668626165760",
+            "start": 189,
+            "username": "myojou_ruka"
+          }
+        ],
+        "urls": [
+          {
+            "display_url": "pic.x.com/dFMDKSTFBR",
+            "end": 225,
+            "expanded_url": "https://x.com/info_myojou/status/2093634333269778904/photo/1",
+            "media_key": "3_2093634319487270912",
+            "start": 202,
+            "url": "https://t.co/dFMDKSTFBR"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2093634333269778904",
+      "media": [
+        {
+          "alt_text": "M0,SE\nM1,星景讃歌\nM2,僕彩色\nM3,蛍夏\nM4,HeartBeat\nM5,アンチコンプリート\nM6,夏、空模様",
+          "height": 4096,
+          "media_key": "3_2093634319487270912",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HQ4VUi6bAAApq-M.jpg",
+          "width": 4096
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 300,
+              "start": 293,
+              "tag": "myojou"
+            }
+          ],
+          "mentions": [
+            {
+              "end": 201,
+              "id": "1981655668626165760",
+              "start": 189,
+              "username": "myojou_ruka"
+            },
+            {
+              "end": 222,
+              "id": "1590652199407083520",
+              "start": 208,
+              "username": "myojou_cocone"
+            },
+            {
+              "end": 241,
+              "id": "1754991922807177216",
+              "start": 228,
+              "username": "myojou_shino"
+            },
+            {
+              "end": 258,
+              "id": "2009274765895450624",
+              "start": 247,
+              "username": "myojou_yun"
+            },
+            {
+              "end": 275,
+              "id": "2009245855694675968",
+              "start": 264,
+              "username": "myojou_miu"
+            }
+          ]
+        },
+        "text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n   A Villa idol festival HOKKAIDO 2026\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「A Villa idol festival HOKKAIDO 2026」ありがとうございました⋆˙⟡\n\n左上から\n姫乃るか@myojou_ruka \n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n澪奈ゆん@myojou_yun \n日陽みう@myojou_miu \n\nSETLIST▶︎ALT\n\n #myojou"
+      },
+      "parsed_fields": null,
+      "raw": {
+        "api_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n   A Villa idol festival HOKKAIDO 2026\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「A Villa idol festival HOKKAIDO 2026」ありがとうございました⋆˙⟡\n\n左上から\n姫乃るか@myojou_ruka https://t.co/dFMDKSTFBR",
+        "attachments": {
+          "media_keys": [
+            "3_2093634319487270912"
+          ]
+        },
+        "created_at": "2026-08-29T09:38:17.000Z",
+        "edit_history_tweet_ids": [
+          "2093634333269778904"
+        ],
+        "entities": {
+          "mentions": [
+            {
+              "end": 201,
+              "id": "1981655668626165760",
+              "start": 189,
+              "username": "myojou_ruka"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "pic.x.com/dFMDKSTFBR",
+              "end": 225,
+              "expanded_url": "https://x.com/info_myojou/status/2093634333269778904/photo/1",
+              "media_key": "3_2093634319487270912",
+              "start": 202,
+              "url": "https://t.co/dFMDKSTFBR"
+            }
+          ]
+        },
+        "full_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n   A Villa idol festival HOKKAIDO 2026\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「A Villa idol festival HOKKAIDO 2026」ありがとうございました⋆˙⟡\n\n左上から\n姫乃るか@myojou_ruka \n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n澪奈ゆん@myojou_yun \n日陽みう@myojou_miu \n\nSETLIST▶︎ALT\n\n #myojou",
+        "full_text_source": "note_tweet",
+        "id": "2093634333269778904",
+        "media": [
+          {
+            "alt_text": "M0,SE\nM1,星景讃歌\nM2,僕彩色\nM3,蛍夏\nM4,HeartBeat\nM5,アンチコンプリート\nM6,夏、空模様",
+            "height": 4096,
+            "media_key": "3_2093634319487270912",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HQ4VUi6bAAApq-M.jpg",
+            "width": 4096
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 300,
+                "start": 293,
+                "tag": "myojou"
+              }
+            ],
+            "mentions": [
+              {
+                "end": 201,
+                "id": "1981655668626165760",
+                "start": 189,
+                "username": "myojou_ruka"
+              },
+              {
+                "end": 222,
+                "id": "1590652199407083520",
+                "start": 208,
+                "username": "myojou_cocone"
+              },
+              {
+                "end": 241,
+                "id": "1754991922807177216",
+                "start": 228,
+                "username": "myojou_shino"
+              },
+              {
+                "end": 258,
+                "id": "2009274765895450624",
+                "start": 247,
+                "username": "myojou_yun"
+              },
+              {
+                "end": 275,
+                "id": "2009245855694675968",
+                "start": 264,
+                "username": "myojou_miu"
+              }
+            ]
+          },
+          "text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n   A Villa idol festival HOKKAIDO 2026\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「A Villa idol festival HOKKAIDO 2026」ありがとうございました⋆˙⟡\n\n左上から\n姫乃るか@myojou_ruka \n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n澪奈ゆん@myojou_yun \n日陽みう@myojou_miu \n\nSETLIST▶︎ALT\n\n #myojou"
+        },
+        "text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n   A Villa idol festival HOKKAIDO 2026\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「A Villa idol festival HOKKAIDO 2026」ありがとうございました⋆˙⟡\n\n左上から\n姫乃るか@myojou_ruka https://t.co/dFMDKSTFBR",
+        "truncated_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n   A Villa idol festival HOKKAIDO 2026\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「A Villa idol festival HOKKAIDO 2026」ありがとうございました⋆˙⟡\n\n左上から\n姫乃るか@myojou_ruka https://t.co/dFMDKSTFBR"
+      },
+      "referenced_tweets": [],
+      "text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n   A Villa idol festival HOKKAIDO 2026\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「A Villa idol festival HOKKAIDO 2026」ありがとうございました⋆˙⟡\n\n左上から\n姫乃るか@myojou_ruka \n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n澪奈ゆん@myojou_yun \n日陽みう@myojou_miu \n\nSETLIST▶︎ALT\n\n #myojou",
+      "truncated_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n   A Villa idol festival HOKKAIDO 2026\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「A Villa idol festival HOKKAIDO 2026」ありがとうございました⋆˙⟡\n\n左上から\n姫乃るか@myojou_ruka https://t.co/dFMDKSTFBR",
+      "url": "https://x.com/info_myojou/status/2093634333269778904"
+    },
+    {
       "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                「アイドル甲子園 in \n　　　KANDA SQUARE  HALL」\n　　　　supported by My-th\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙18:35-19:00\n📸19:20-20:40\n\n⟣date：9/13（日）\n⟣place : KANDA SQUARE HALL https://t.co/awurlIwl7o",
       "attachments": {
         "media_keys": [
@@ -169987,7 +170649,7 @@
     "backfill": true,
     "dry_run": true,
     "estimated_x_post_reads": 411,
-    "latest_post_id": "2093292658307592442",
+    "latest_post_id": "2093640548481675380",
     "max_pages": 10,
     "max_posts": 500,
     "max_results": 5,
@@ -170030,16 +170692,16 @@
       }
     ],
     "pages_fetched": 5,
-    "posts_fetched": 778,
+    "posts_fetched": 781,
     "rate_limit_headers": {
       "x-rate-limit-limit": "10000",
       "x-rate-limit-remaining": "9993",
       "x-rate-limit-reset": "1781108896"
     },
-    "total_posts": 778,
-    "updated_at": "2026-08-29T02:01:11.537261+00:00",
+    "total_posts": 781,
+    "updated_at": "2026-08-29T21:33:43.316425+00:00",
     "username": "info_myojou"
   },
   "source": "x_api",
-  "updated_at": "2026-08-29T02:01:11.537261+00:00"
+  "updated_at": "2026-08-29T21:33:43.316425+00:00"
 }
