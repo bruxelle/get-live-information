@@ -2,6 +2,882 @@
   "captured_at": "2026-06-10T16:19:36.141820+00:00",
   "data": [
     {
+      "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                「アイドル甲子園 in \n　　　KANDA SQUARE  HALL」\n　　　　supported by My-th\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙18:35-19:00\n📸19:20-20:40\n\n⟣date：9/13（日）\n⟣place : KANDA SQUARE HALL https://t.co/awurlIwl7o",
+      "attachments": {
+        "media_keys": [
+          "3_2093292615181680640"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "ticket_update"
+      },
+      "created_at": "2026-08-28T11:00:35+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/awurlIwl7o",
+            "end": 215,
+            "expanded_url": "https://x.com/info_myojou/status/2093292658307592442/photo/1",
+            "media_key": "3_2093292615181680640",
+            "start": 192,
+            "url": "https://t.co/awurlIwl7o"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2093292658307592442",
+      "media": [
+        {
+          "height": 2000,
+          "media_key": "3_2093292615181680640",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HQzeivLaQAAg47u.jpg",
+          "width": 1500
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 341,
+              "start": 334,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "user.my-th.jp/?redirect=/tic…",
+              "end": 332,
+              "expanded_url": "https://user.my-th.jp/?redirect=/tickets/event/aikou_0913",
+              "start": 309,
+              "url": "https://t.co/wLYLAn9zEr"
+            }
+          ]
+        },
+        "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                「アイドル甲子園 in \n　　　KANDA SQUARE  HALL」\n　　　　supported by My-th\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙18:35-19:00\n📸19:20-20:40\n\n⟣date：9/13（日）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:15/9:30\n⟣price：前方¥8,500/一般¥3,500/当日各＋¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n8/14（金）20:00-9/13（日）\n🔗 https://t.co/wLYLAn9zEr\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": "19:20-20:40",
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-09-13",
+        "event_dates": [
+          "2026-09-13"
+        ],
+        "event_name": "アイドル甲子園 in",
+        "extraction_confidence": 0.95,
+        "general_ticket_price": 3500,
+        "lottery_result_at": null,
+        "myojou_performance_time": "18:35-19:00",
+        "notes": "ドリンク代: 各+1D\n⟣入場特典:明星カード(サインありチェキ)",
+        "open_time": "09:15",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "前方",
+        "priority_ticket_price": 8500,
+        "same_day_ticket_price": 1000,
+        "source_kind": "ticket_update",
+        "source_post_id": "2093292658307592442",
+        "source_posted_at": "2026-08-28T11:00:35Z",
+        "source_raw": {
+          "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                「アイドル甲子園 in \n　　　KANDA SQUARE  HALL」\n　　　　supported by My-th\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙18:35-19:00\n📸19:20-20:40\n\n⟣date：9/13（日）\n⟣place : KANDA SQUARE HALL https://t.co/awurlIwl7o",
+          "attachments": {
+            "media_keys": [
+              "3_2093292615181680640"
+            ]
+          },
+          "created_at": "2026-08-28T11:00:35.000Z",
+          "edit_history_tweet_ids": [
+            "2093292658307592442"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/awurlIwl7o",
+                "end": 215,
+                "expanded_url": "https://x.com/info_myojou/status/2093292658307592442/photo/1",
+                "media_key": "3_2093292615181680640",
+                "start": 192,
+                "url": "https://t.co/awurlIwl7o"
+              }
+            ]
+          },
+          "full_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                「アイドル甲子園 in \n　　　KANDA SQUARE  HALL」\n　　　　supported by My-th\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙18:35-19:00\n📸19:20-20:40\n\n⟣date：9/13（日）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:15/9:30\n⟣price：前方¥8,500/一般¥3,500/当日各＋¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n8/14（金）20:00-9/13（日）\n🔗 https://t.co/wLYLAn9zEr\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2093292658307592442",
+          "media": [
+            {
+              "height": 2000,
+              "media_key": "3_2093292615181680640",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HQzeivLaQAAg47u.jpg",
+              "width": 1500
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 341,
+                  "start": 334,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "user.my-th.jp/?redirect=/tic…",
+                  "end": 332,
+                  "expanded_url": "https://user.my-th.jp/?redirect=/tickets/event/aikou_0913",
+                  "start": 309,
+                  "url": "https://t.co/wLYLAn9zEr"
+                }
+              ]
+            },
+            "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                「アイドル甲子園 in \n　　　KANDA SQUARE  HALL」\n　　　　supported by My-th\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙18:35-19:00\n📸19:20-20:40\n\n⟣date：9/13（日）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:15/9:30\n⟣price：前方¥8,500/一般¥3,500/当日各＋¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n8/14（金）20:00-9/13（日）\n🔗 https://t.co/wLYLAn9zEr\n\n#myojou"
+          },
+          "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                「アイドル甲子園 in \n　　　KANDA SQUARE  HALL」\n　　　　supported by My-th\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙18:35-19:00\n📸19:20-20:40\n\n⟣date：9/13（日）\n⟣place : KANDA SQUARE HALL https://t.co/awurlIwl7o",
+          "truncated_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                「アイドル甲子園 in \n　　　KANDA SQUARE  HALL」\n　　　　supported by My-th\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙18:35-19:00\n📸19:20-20:40\n\n⟣date：9/13（日）\n⟣place : KANDA SQUARE HALL https://t.co/awurlIwl7o"
+        },
+        "source_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                「アイドル甲子園 in \n　　　KANDA SQUARE  HALL」\n　　　　supported by My-th\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙18:35-19:00\n📸19:20-20:40\n\n⟣date：9/13（日）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:15/9:30\n⟣price：前方¥8,500/一般¥3,500/当日各＋¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n8/14（金）20:00-9/13（日）\n🔗 https://t.co/wLYLAn9zEr\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2093292658307592442",
+        "start_time": "09:30",
+        "ticket_application_deadline_at": "2026-09-13T00:00:00+09:00",
+        "ticket_application_start_at": "2026-08-14T20:00:00+09:00",
+        "ticket_sale_type": "先着",
+        "ticket_sales": [
+          {
+            "deadline_at": "2026-09-13T00:00:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 8500,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2093292658307592442",
+            "source_url": "https://x.com/info_myojou/status/2093292658307592442",
+            "start_at": "2026-08-14T20:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "前方",
+            "ticket_tier": "前方"
+          },
+          {
+            "deadline_at": "2026-09-13T00:00:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 3500,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2093292658307592442",
+            "source_url": "https://x.com/info_myojou/status/2093292658307592442",
+            "start_at": "2026-08-14T20:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 1000,
+            "result_at": null,
+            "sale_type": "当日券",
+            "source_post_id": "2093292658307592442",
+            "source_url": "https://x.com/info_myojou/status/2093292658307592442",
+            "start_at": null,
+            "status": "販売中",
+            "ticket_name": "当日券",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": null,
+        "venue": "KANDA SQUARE HALL"
+      },
+      "raw": {
+        "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                「アイドル甲子園 in \n　　　KANDA SQUARE  HALL」\n　　　　supported by My-th\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙18:35-19:00\n📸19:20-20:40\n\n⟣date：9/13（日）\n⟣place : KANDA SQUARE HALL https://t.co/awurlIwl7o",
+        "attachments": {
+          "media_keys": [
+            "3_2093292615181680640"
+          ]
+        },
+        "created_at": "2026-08-28T11:00:35.000Z",
+        "edit_history_tweet_ids": [
+          "2093292658307592442"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/awurlIwl7o",
+              "end": 215,
+              "expanded_url": "https://x.com/info_myojou/status/2093292658307592442/photo/1",
+              "media_key": "3_2093292615181680640",
+              "start": 192,
+              "url": "https://t.co/awurlIwl7o"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                「アイドル甲子園 in \n　　　KANDA SQUARE  HALL」\n　　　　supported by My-th\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙18:35-19:00\n📸19:20-20:40\n\n⟣date：9/13（日）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:15/9:30\n⟣price：前方¥8,500/一般¥3,500/当日各＋¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n8/14（金）20:00-9/13（日）\n🔗 https://t.co/wLYLAn9zEr\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2093292658307592442",
+        "media": [
+          {
+            "height": 2000,
+            "media_key": "3_2093292615181680640",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HQzeivLaQAAg47u.jpg",
+            "width": 1500
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 341,
+                "start": 334,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "user.my-th.jp/?redirect=/tic…",
+                "end": 332,
+                "expanded_url": "https://user.my-th.jp/?redirect=/tickets/event/aikou_0913",
+                "start": 309,
+                "url": "https://t.co/wLYLAn9zEr"
+              }
+            ]
+          },
+          "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                「アイドル甲子園 in \n　　　KANDA SQUARE  HALL」\n　　　　supported by My-th\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙18:35-19:00\n📸19:20-20:40\n\n⟣date：9/13（日）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:15/9:30\n⟣price：前方¥8,500/一般¥3,500/当日各＋¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n8/14（金）20:00-9/13（日）\n🔗 https://t.co/wLYLAn9zEr\n\n#myojou"
+        },
+        "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                「アイドル甲子園 in \n　　　KANDA SQUARE  HALL」\n　　　　supported by My-th\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙18:35-19:00\n📸19:20-20:40\n\n⟣date：9/13（日）\n⟣place : KANDA SQUARE HALL https://t.co/awurlIwl7o",
+        "truncated_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                「アイドル甲子園 in \n　　　KANDA SQUARE  HALL」\n　　　　supported by My-th\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙18:35-19:00\n📸19:20-20:40\n\n⟣date：9/13（日）\n⟣place : KANDA SQUARE HALL https://t.co/awurlIwl7o"
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                「アイドル甲子園 in \n　　　KANDA SQUARE  HALL」\n　　　　supported by My-th\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙18:35-19:00\n📸19:20-20:40\n\n⟣date：9/13（日）\n⟣place : KANDA SQUARE HALL\n⟣open/start：9:15/9:30\n⟣price：前方¥8,500/一般¥3,500/当日各＋¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n8/14（金）20:00-9/13（日）\n🔗 https://t.co/wLYLAn9zEr\n\n#myojou",
+      "truncated_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                「アイドル甲子園 in \n　　　KANDA SQUARE  HALL」\n　　　　supported by My-th\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙18:35-19:00\n📸19:20-20:40\n\n⟣date：9/13（日）\n⟣place : KANDA SQUARE HALL https://t.co/awurlIwl7o",
+      "url": "https://x.com/info_myojou/status/2093292658307592442"
+    },
+    {
+      "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「A Villa idol festival HOKKAIDO 2026」\n\n🎙14:15-14:40\n📸15:15-16:35\n\n⟣date：8/29（土）\n⟣place : 安平町ときわ公園\n⟣open/start：9:00/9:40\n⟣price：VIPチケット ¥15,000（VIPエリア&amp;Tシャツ付き）/Tシャツ付きチケット ¥6,000/無料チケット¥0 https://t.co/hGRCO9fcsm",
+      "attachments": {
+        "media_keys": [
+          "3_2093281444819050496"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "day_before_reminder"
+      },
+      "created_at": "2026-08-28T10:16:03+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/hGRCO9fcsm",
+            "end": 235,
+            "expanded_url": "https://x.com/info_myojou/status/2093281451039129903/photo/1",
+            "media_key": "3_2093281444819050496",
+            "start": 212,
+            "url": "https://t.co/hGRCO9fcsm"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2093281451039129903",
+      "media": [
+        {
+          "height": 1684,
+          "media_key": "3_2093281444819050496",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HQzUYiVbIAA2DNu.jpg",
+          "width": 1190
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 395,
+              "start": 388,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "l-tike.com/search/?lcd=12…",
+              "end": 294,
+              "expanded_url": "https://l-tike.com/search/?lcd=12016",
+              "start": 271,
+              "url": "https://t.co/9bAiXJPyyy"
+            },
+            {
+              "display_url": "t.pia.jp/pia/event/even…",
+              "end": 321,
+              "expanded_url": "https://t.pia.jp/pia/event/event.do?eventCd=2614434",
+              "start": 298,
+              "url": "https://t.co/iAbHJj4lkL"
+            },
+            {
+              "display_url": "eplus.jp/avilla_2026/",
+              "end": 351,
+              "expanded_url": "http://eplus.jp/avilla_2026/",
+              "start": 328,
+              "url": "https://t.co/wDRq71uRlU"
+            },
+            {
+              "display_url": "ticketdive.com/event/a_villa2…",
+              "end": 386,
+              "expanded_url": "https://ticketdive.com/event/a_villa2026",
+              "start": 363,
+              "url": "https://t.co/LvbhMZo9ie"
+            }
+          ]
+        },
+        "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「A Villa idol festival HOKKAIDO 2026」\n\n🎙14:15-14:40\n📸15:15-16:35\n\n⟣date：8/29（土）\n⟣place : 安平町ときわ公園\n⟣open/start：9:00/9:40\n⟣price：VIPチケット ¥15,000（VIPエリア&Tシャツ付き）/Tシャツ付きチケット ¥6,000/無料チケット¥0 ※要予約（各+1D）\n⟣入場特典 : 明星カード1枚(サインありチェキ)\n\n【販売期間】\n6/9（火）20:00-\nローチケ：https://t.co/9bAiXJPyyy\nぴあ：https://t.co/iAbHJj4lkL\nイープラス：https://t.co/wDRq71uRlU\n無料チケット※要予約：https://t.co/LvbhMZo9ie\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": "15:15-16:35",
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-08-29",
+        "event_dates": [
+          "2026-08-29"
+        ],
+        "event_name": "A Villa idol festival HOKKAIDO 2026",
+        "extraction_confidence": 0.95,
+        "general_ticket_price": null,
+        "lottery_result_at": null,
+        "myojou_performance_time": "14:15-14:40",
+        "notes": "要予約\nドリンク代: 各+1D\n⟣入場特典 : 明星カード1枚(サインありチェキ)",
+        "open_time": "09:00",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "VIPチケット",
+        "priority_ticket_price": 15000,
+        "same_day_ticket_price": null,
+        "source_kind": "day_before_reminder",
+        "source_post_id": "2093281451039129903",
+        "source_posted_at": "2026-08-28T10:16:03Z",
+        "source_raw": {
+          "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「A Villa idol festival HOKKAIDO 2026」\n\n🎙14:15-14:40\n📸15:15-16:35\n\n⟣date：8/29（土）\n⟣place : 安平町ときわ公園\n⟣open/start：9:00/9:40\n⟣price：VIPチケット ¥15,000（VIPエリア&amp;Tシャツ付き）/Tシャツ付きチケット ¥6,000/無料チケット¥0 https://t.co/hGRCO9fcsm",
+          "attachments": {
+            "media_keys": [
+              "3_2093281444819050496"
+            ]
+          },
+          "created_at": "2026-08-28T10:16:03.000Z",
+          "edit_history_tweet_ids": [
+            "2093281451039129903"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/hGRCO9fcsm",
+                "end": 235,
+                "expanded_url": "https://x.com/info_myojou/status/2093281451039129903/photo/1",
+                "media_key": "3_2093281444819050496",
+                "start": 212,
+                "url": "https://t.co/hGRCO9fcsm"
+              }
+            ]
+          },
+          "full_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「A Villa idol festival HOKKAIDO 2026」\n\n🎙14:15-14:40\n📸15:15-16:35\n\n⟣date：8/29（土）\n⟣place : 安平町ときわ公園\n⟣open/start：9:00/9:40\n⟣price：VIPチケット ¥15,000（VIPエリア&Tシャツ付き）/Tシャツ付きチケット ¥6,000/無料チケット¥0 ※要予約（各+1D）\n⟣入場特典 : 明星カード1枚(サインありチェキ)\n\n【販売期間】\n6/9（火）20:00-\nローチケ：https://t.co/9bAiXJPyyy\nぴあ：https://t.co/iAbHJj4lkL\nイープラス：https://t.co/wDRq71uRlU\n無料チケット※要予約：https://t.co/LvbhMZo9ie\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2093281451039129903",
+          "media": [
+            {
+              "height": 1684,
+              "media_key": "3_2093281444819050496",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HQzUYiVbIAA2DNu.jpg",
+              "width": 1190
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 395,
+                  "start": 388,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "l-tike.com/search/?lcd=12…",
+                  "end": 294,
+                  "expanded_url": "https://l-tike.com/search/?lcd=12016",
+                  "start": 271,
+                  "url": "https://t.co/9bAiXJPyyy"
+                },
+                {
+                  "display_url": "t.pia.jp/pia/event/even…",
+                  "end": 321,
+                  "expanded_url": "https://t.pia.jp/pia/event/event.do?eventCd=2614434",
+                  "start": 298,
+                  "url": "https://t.co/iAbHJj4lkL"
+                },
+                {
+                  "display_url": "eplus.jp/avilla_2026/",
+                  "end": 351,
+                  "expanded_url": "http://eplus.jp/avilla_2026/",
+                  "start": 328,
+                  "url": "https://t.co/wDRq71uRlU"
+                },
+                {
+                  "display_url": "ticketdive.com/event/a_villa2…",
+                  "end": 386,
+                  "expanded_url": "https://ticketdive.com/event/a_villa2026",
+                  "start": 363,
+                  "url": "https://t.co/LvbhMZo9ie"
+                }
+              ]
+            },
+            "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「A Villa idol festival HOKKAIDO 2026」\n\n🎙14:15-14:40\n📸15:15-16:35\n\n⟣date：8/29（土）\n⟣place : 安平町ときわ公園\n⟣open/start：9:00/9:40\n⟣price：VIPチケット ¥15,000（VIPエリア&Tシャツ付き）/Tシャツ付きチケット ¥6,000/無料チケット¥0 ※要予約（各+1D）\n⟣入場特典 : 明星カード1枚(サインありチェキ)\n\n【販売期間】\n6/9（火）20:00-\nローチケ：https://t.co/9bAiXJPyyy\nぴあ：https://t.co/iAbHJj4lkL\nイープラス：https://t.co/wDRq71uRlU\n無料チケット※要予約：https://t.co/LvbhMZo9ie\n\n#myojou"
+          },
+          "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「A Villa idol festival HOKKAIDO 2026」\n\n🎙14:15-14:40\n📸15:15-16:35\n\n⟣date：8/29（土）\n⟣place : 安平町ときわ公園\n⟣open/start：9:00/9:40\n⟣price：VIPチケット ¥15,000（VIPエリア&amp;Tシャツ付き）/Tシャツ付きチケット ¥6,000/無料チケット¥0 https://t.co/hGRCO9fcsm",
+          "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「A Villa idol festival HOKKAIDO 2026」\n\n🎙14:15-14:40\n📸15:15-16:35\n\n⟣date：8/29（土）\n⟣place : 安平町ときわ公園\n⟣open/start：9:00/9:40\n⟣price：VIPチケット ¥15,000（VIPエリア&amp;Tシャツ付き）/Tシャツ付きチケット ¥6,000/無料チケット¥0 https://t.co/hGRCO9fcsm"
+        },
+        "source_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「A Villa idol festival HOKKAIDO 2026」\n\n🎙14:15-14:40\n📸15:15-16:35\n\n⟣date：8/29（土）\n⟣place : 安平町ときわ公園\n⟣open/start：9:00/9:40\n⟣price：VIPチケット ¥15,000（VIPエリア&Tシャツ付き）/Tシャツ付きチケット ¥6,000/無料チケット¥0 ※要予約（各+1D）\n⟣入場特典 : 明星カード1枚(サインありチェキ)\n\n【販売期間】\n6/9（火）20:00-\nローチケ：https://t.co/9bAiXJPyyy\nぴあ：https://t.co/iAbHJj4lkL\nイープラス：https://t.co/wDRq71uRlU\n無料チケット※要予約：https://t.co/LvbhMZo9ie\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2093281451039129903",
+        "start_time": "09:40",
+        "ticket_application_deadline_at": null,
+        "ticket_application_start_at": "2026-06-09T20:00:00+09:00",
+        "ticket_sale_type": "不明",
+        "ticket_sales": [
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 15000,
+            "result_at": null,
+            "sale_type": "不明",
+            "source_post_id": "2093281451039129903",
+            "source_url": "https://x.com/info_myojou/status/2093281451039129903",
+            "start_at": "2026-06-09T20:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "VIPチケット",
+            "ticket_tier": "VIP"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 6000,
+            "result_at": null,
+            "sale_type": "不明",
+            "source_post_id": "2093281451039129903",
+            "source_url": "https://x.com/info_myojou/status/2093281451039129903",
+            "start_at": "2026-06-09T20:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "Tシャツ付きチケット",
+            "ticket_tier": "その他"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 0,
+            "result_at": null,
+            "sale_type": "不明",
+            "source_post_id": "2093281451039129903",
+            "source_url": "https://x.com/info_myojou/status/2093281451039129903",
+            "start_at": "2026-06-09T20:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "無料チケット",
+            "ticket_tier": "その他"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "https://l-tike.com/search/?lcd=12016",
+        "venue": "安平町ときわ公園"
+      },
+      "raw": {
+        "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「A Villa idol festival HOKKAIDO 2026」\n\n🎙14:15-14:40\n📸15:15-16:35\n\n⟣date：8/29（土）\n⟣place : 安平町ときわ公園\n⟣open/start：9:00/9:40\n⟣price：VIPチケット ¥15,000（VIPエリア&amp;Tシャツ付き）/Tシャツ付きチケット ¥6,000/無料チケット¥0 https://t.co/hGRCO9fcsm",
+        "attachments": {
+          "media_keys": [
+            "3_2093281444819050496"
+          ]
+        },
+        "created_at": "2026-08-28T10:16:03.000Z",
+        "edit_history_tweet_ids": [
+          "2093281451039129903"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/hGRCO9fcsm",
+              "end": 235,
+              "expanded_url": "https://x.com/info_myojou/status/2093281451039129903/photo/1",
+              "media_key": "3_2093281444819050496",
+              "start": 212,
+              "url": "https://t.co/hGRCO9fcsm"
+            }
+          ]
+        },
+        "full_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「A Villa idol festival HOKKAIDO 2026」\n\n🎙14:15-14:40\n📸15:15-16:35\n\n⟣date：8/29（土）\n⟣place : 安平町ときわ公園\n⟣open/start：9:00/9:40\n⟣price：VIPチケット ¥15,000（VIPエリア&Tシャツ付き）/Tシャツ付きチケット ¥6,000/無料チケット¥0 ※要予約（各+1D）\n⟣入場特典 : 明星カード1枚(サインありチェキ)\n\n【販売期間】\n6/9（火）20:00-\nローチケ：https://t.co/9bAiXJPyyy\nぴあ：https://t.co/iAbHJj4lkL\nイープラス：https://t.co/wDRq71uRlU\n無料チケット※要予約：https://t.co/LvbhMZo9ie\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2093281451039129903",
+        "media": [
+          {
+            "height": 1684,
+            "media_key": "3_2093281444819050496",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HQzUYiVbIAA2DNu.jpg",
+            "width": 1190
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 395,
+                "start": 388,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "l-tike.com/search/?lcd=12…",
+                "end": 294,
+                "expanded_url": "https://l-tike.com/search/?lcd=12016",
+                "start": 271,
+                "url": "https://t.co/9bAiXJPyyy"
+              },
+              {
+                "display_url": "t.pia.jp/pia/event/even…",
+                "end": 321,
+                "expanded_url": "https://t.pia.jp/pia/event/event.do?eventCd=2614434",
+                "start": 298,
+                "url": "https://t.co/iAbHJj4lkL"
+              },
+              {
+                "display_url": "eplus.jp/avilla_2026/",
+                "end": 351,
+                "expanded_url": "http://eplus.jp/avilla_2026/",
+                "start": 328,
+                "url": "https://t.co/wDRq71uRlU"
+              },
+              {
+                "display_url": "ticketdive.com/event/a_villa2…",
+                "end": 386,
+                "expanded_url": "https://ticketdive.com/event/a_villa2026",
+                "start": 363,
+                "url": "https://t.co/LvbhMZo9ie"
+              }
+            ]
+          },
+          "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「A Villa idol festival HOKKAIDO 2026」\n\n🎙14:15-14:40\n📸15:15-16:35\n\n⟣date：8/29（土）\n⟣place : 安平町ときわ公園\n⟣open/start：9:00/9:40\n⟣price：VIPチケット ¥15,000（VIPエリア&Tシャツ付き）/Tシャツ付きチケット ¥6,000/無料チケット¥0 ※要予約（各+1D）\n⟣入場特典 : 明星カード1枚(サインありチェキ)\n\n【販売期間】\n6/9（火）20:00-\nローチケ：https://t.co/9bAiXJPyyy\nぴあ：https://t.co/iAbHJj4lkL\nイープラス：https://t.co/wDRq71uRlU\n無料チケット※要予約：https://t.co/LvbhMZo9ie\n\n#myojou"
+        },
+        "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「A Villa idol festival HOKKAIDO 2026」\n\n🎙14:15-14:40\n📸15:15-16:35\n\n⟣date：8/29（土）\n⟣place : 安平町ときわ公園\n⟣open/start：9:00/9:40\n⟣price：VIPチケット ¥15,000（VIPエリア&amp;Tシャツ付き）/Tシャツ付きチケット ¥6,000/無料チケット¥0 https://t.co/hGRCO9fcsm",
+        "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「A Villa idol festival HOKKAIDO 2026」\n\n🎙14:15-14:40\n📸15:15-16:35\n\n⟣date：8/29（土）\n⟣place : 安平町ときわ公園\n⟣open/start：9:00/9:40\n⟣price：VIPチケット ¥15,000（VIPエリア&amp;Tシャツ付き）/Tシャツ付きチケット ¥6,000/無料チケット¥0 https://t.co/hGRCO9fcsm"
+      },
+      "referenced_tweets": [],
+      "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「A Villa idol festival HOKKAIDO 2026」\n\n🎙14:15-14:40\n📸15:15-16:35\n\n⟣date：8/29（土）\n⟣place : 安平町ときわ公園\n⟣open/start：9:00/9:40\n⟣price：VIPチケット ¥15,000（VIPエリア&Tシャツ付き）/Tシャツ付きチケット ¥6,000/無料チケット¥0 ※要予約（各+1D）\n⟣入場特典 : 明星カード1枚(サインありチェキ)\n\n【販売期間】\n6/9（火）20:00-\nローチケ：https://t.co/9bAiXJPyyy\nぴあ：https://t.co/iAbHJj4lkL\nイープラス：https://t.co/wDRq71uRlU\n無料チケット※要予約：https://t.co/LvbhMZo9ie\n\n#myojou",
+      "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「A Villa idol festival HOKKAIDO 2026」\n\n🎙14:15-14:40\n📸15:15-16:35\n\n⟣date：8/29（土）\n⟣place : 安平町ときわ公園\n⟣open/start：9:00/9:40\n⟣price：VIPチケット ¥15,000（VIPエリア&amp;Tシャツ付き）/Tシャツ付きチケット ¥6,000/無料チケット¥0 https://t.co/hGRCO9fcsm",
+      "url": "https://x.com/info_myojou/status/2093281451039129903"
+    },
+    {
+      "api_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n                  A Villa 2026 前夜祭\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「A Villa 2026 前夜祭」ありがとうございました⋆˙⟡\n\n左上から\n姫乃るか@myojou_ruka https://t.co/mV3osmpoWu",
+      "attachments": {
+        "media_keys": [
+          "3_2093280181243002880"
+        ]
+      },
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "profile/member introduction",
+        "source_kind": "other"
+      },
+      "created_at": "2026-08-28T10:11:04+00:00",
+      "entities": {
+        "mentions": [
+          {
+            "end": 178,
+            "id": "1981655668626165760",
+            "start": 166,
+            "username": "myojou_ruka"
+          }
+        ],
+        "urls": [
+          {
+            "display_url": "pic.x.com/mV3osmpoWu",
+            "end": 202,
+            "expanded_url": "https://x.com/info_myojou/status/2093280195835023705/photo/1",
+            "media_key": "3_2093280181243002880",
+            "start": 179,
+            "url": "https://t.co/mV3osmpoWu"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2093280195835023705",
+      "media": [
+        {
+          "alt_text": "M0,SE short\nM1,yoakeno\nM2,灯火\nM3,蛍夏\nM4,CHRONOS\nM5,HeartBeat\nM6,アンチコンプリート",
+          "height": 3072,
+          "media_key": "3_2093280181243002880",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HQzTO_JawAAQnis.jpg",
+          "width": 4096
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 277,
+              "start": 270,
+              "tag": "myojou"
+            }
+          ],
+          "mentions": [
+            {
+              "end": 178,
+              "id": "1981655668626165760",
+              "start": 166,
+              "username": "myojou_ruka"
+            },
+            {
+              "end": 199,
+              "id": "1590652199407083520",
+              "start": 185,
+              "username": "myojou_cocone"
+            },
+            {
+              "end": 218,
+              "id": "1754991922807177216",
+              "start": 205,
+              "username": "myojou_shino"
+            },
+            {
+              "end": 235,
+              "id": "2009274765895450624",
+              "start": 224,
+              "username": "myojou_yun"
+            },
+            {
+              "end": 252,
+              "id": "2009245855694675968",
+              "start": 241,
+              "username": "myojou_miu"
+            }
+          ]
+        },
+        "text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n                  A Villa 2026 前夜祭\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「A Villa 2026 前夜祭」ありがとうございました⋆˙⟡\n\n左上から\n姫乃るか@myojou_ruka \n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n澪奈ゆん@myojou_yun \n日陽みう@myojou_miu \n\nSETLIST▶︎ALT\n\n #myojou"
+      },
+      "parsed_fields": null,
+      "raw": {
+        "api_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n                  A Villa 2026 前夜祭\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「A Villa 2026 前夜祭」ありがとうございました⋆˙⟡\n\n左上から\n姫乃るか@myojou_ruka https://t.co/mV3osmpoWu",
+        "attachments": {
+          "media_keys": [
+            "3_2093280181243002880"
+          ]
+        },
+        "created_at": "2026-08-28T10:11:04.000Z",
+        "edit_history_tweet_ids": [
+          "2093280195835023705"
+        ],
+        "entities": {
+          "mentions": [
+            {
+              "end": 178,
+              "id": "1981655668626165760",
+              "start": 166,
+              "username": "myojou_ruka"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "pic.x.com/mV3osmpoWu",
+              "end": 202,
+              "expanded_url": "https://x.com/info_myojou/status/2093280195835023705/photo/1",
+              "media_key": "3_2093280181243002880",
+              "start": 179,
+              "url": "https://t.co/mV3osmpoWu"
+            }
+          ]
+        },
+        "full_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n                  A Villa 2026 前夜祭\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「A Villa 2026 前夜祭」ありがとうございました⋆˙⟡\n\n左上から\n姫乃るか@myojou_ruka \n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n澪奈ゆん@myojou_yun \n日陽みう@myojou_miu \n\nSETLIST▶︎ALT\n\n #myojou",
+        "full_text_source": "note_tweet",
+        "id": "2093280195835023705",
+        "media": [
+          {
+            "alt_text": "M0,SE short\nM1,yoakeno\nM2,灯火\nM3,蛍夏\nM4,CHRONOS\nM5,HeartBeat\nM6,アンチコンプリート",
+            "height": 3072,
+            "media_key": "3_2093280181243002880",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HQzTO_JawAAQnis.jpg",
+            "width": 4096
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 277,
+                "start": 270,
+                "tag": "myojou"
+              }
+            ],
+            "mentions": [
+              {
+                "end": 178,
+                "id": "1981655668626165760",
+                "start": 166,
+                "username": "myojou_ruka"
+              },
+              {
+                "end": 199,
+                "id": "1590652199407083520",
+                "start": 185,
+                "username": "myojou_cocone"
+              },
+              {
+                "end": 218,
+                "id": "1754991922807177216",
+                "start": 205,
+                "username": "myojou_shino"
+              },
+              {
+                "end": 235,
+                "id": "2009274765895450624",
+                "start": 224,
+                "username": "myojou_yun"
+              },
+              {
+                "end": 252,
+                "id": "2009245855694675968",
+                "start": 241,
+                "username": "myojou_miu"
+              }
+            ]
+          },
+          "text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n                  A Villa 2026 前夜祭\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「A Villa 2026 前夜祭」ありがとうございました⋆˙⟡\n\n左上から\n姫乃るか@myojou_ruka \n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n澪奈ゆん@myojou_yun \n日陽みう@myojou_miu \n\nSETLIST▶︎ALT\n\n #myojou"
+        },
+        "text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n                  A Villa 2026 前夜祭\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「A Villa 2026 前夜祭」ありがとうございました⋆˙⟡\n\n左上から\n姫乃るか@myojou_ruka https://t.co/mV3osmpoWu",
+        "truncated_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n                  A Villa 2026 前夜祭\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「A Villa 2026 前夜祭」ありがとうございました⋆˙⟡\n\n左上から\n姫乃るか@myojou_ruka https://t.co/mV3osmpoWu"
+      },
+      "referenced_tweets": [],
+      "text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n                  A Villa 2026 前夜祭\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「A Villa 2026 前夜祭」ありがとうございました⋆˙⟡\n\n左上から\n姫乃るか@myojou_ruka \n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n澪奈ゆん@myojou_yun \n日陽みう@myojou_miu \n\nSETLIST▶︎ALT\n\n #myojou",
+      "truncated_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n                  A Villa 2026 前夜祭\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「A Villa 2026 前夜祭」ありがとうございました⋆˙⟡\n\n左上から\n姫乃るか@myojou_ruka https://t.co/mV3osmpoWu",
+      "url": "https://x.com/info_myojou/status/2093280195835023705"
+    },
+    {
+      "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             Made it to HOKKAIDO！\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n #myojou https://t.co/ch4mXa3nqH",
+      "attachments": {
+        "media_keys": [
+          "3_2093200391651594240"
+        ]
+      },
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "no live-event signal",
+        "source_kind": "other"
+      },
+      "created_at": "2026-08-28T04:54:08+00:00",
+      "entities": {
+        "hashtags": [
+          {
+            "end": 91,
+            "start": 84,
+            "tag": "myojou"
+          }
+        ],
+        "urls": [
+          {
+            "display_url": "pic.x.com/ch4mXa3nqH",
+            "end": 115,
+            "expanded_url": "https://x.com/info_myojou/status/2093200435012321741/photo/1",
+            "media_key": "3_2093200391651594240",
+            "start": 92,
+            "url": "https://t.co/ch4mXa3nqH"
+          }
+        ]
+      },
+      "full_text_source": "text",
+      "id": "2093200435012321741",
+      "media": [
+        {
+          "height": 3072,
+          "media_key": "3_2093200391651594240",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HQyKqnwaEAAzTYE.jpg",
+          "width": 4096
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "note_tweet": null,
+      "parsed_fields": null,
+      "raw": {
+        "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             Made it to HOKKAIDO！\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n #myojou https://t.co/ch4mXa3nqH",
+        "attachments": {
+          "media_keys": [
+            "3_2093200391651594240"
+          ]
+        },
+        "created_at": "2026-08-28T04:54:08.000Z",
+        "edit_history_tweet_ids": [
+          "2093200435012321741"
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "end": 91,
+              "start": 84,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "pic.x.com/ch4mXa3nqH",
+              "end": 115,
+              "expanded_url": "https://x.com/info_myojou/status/2093200435012321741/photo/1",
+              "media_key": "3_2093200391651594240",
+              "start": 92,
+              "url": "https://t.co/ch4mXa3nqH"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             Made it to HOKKAIDO！\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n #myojou https://t.co/ch4mXa3nqH",
+        "full_text_source": "text",
+        "id": "2093200435012321741",
+        "media": [
+          {
+            "height": 3072,
+            "media_key": "3_2093200391651594240",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HQyKqnwaEAAzTYE.jpg",
+            "width": 4096
+          }
+        ],
+        "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             Made it to HOKKAIDO！\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n #myojou https://t.co/ch4mXa3nqH",
+        "truncated_text": null
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n             Made it to HOKKAIDO！\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n #myojou https://t.co/ch4mXa3nqH",
+      "truncated_text": null,
+      "url": "https://x.com/info_myojou/status/2093200435012321741"
+    },
+    {
       "api_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「A Villa 2026 前夜祭」\n\n📍SYNC north\n🎙16:55-17:20\n📸17:30-18:40 C （MASH HALL）\n\n⟣date：8/28（金）\n⟣place : SYNC north / Sound lab mole / cube garden / SPiCE\n⟣open/start：15:00/16:00\n⟣price：前方¥8,000/ 前売¥3,500/SPiCE会場¥0（各＋1D） https://t.co/IHbjOlNT0V",
       "attachments": {
         "media_keys": [
@@ -169111,7 +169987,7 @@
     "backfill": true,
     "dry_run": true,
     "estimated_x_post_reads": 411,
-    "latest_post_id": "2093120520208478413",
+    "latest_post_id": "2093292658307592442",
     "max_pages": 10,
     "max_posts": 500,
     "max_results": 5,
@@ -169154,16 +170030,16 @@
       }
     ],
     "pages_fetched": 5,
-    "posts_fetched": 774,
+    "posts_fetched": 778,
     "rate_limit_headers": {
       "x-rate-limit-limit": "10000",
       "x-rate-limit-remaining": "9993",
       "x-rate-limit-reset": "1781108896"
     },
-    "total_posts": 774,
-    "updated_at": "2026-08-28T02:26:50.514179+00:00",
+    "total_posts": 778,
+    "updated_at": "2026-08-29T02:01:11.537261+00:00",
     "username": "info_myojou"
   },
   "source": "x_api",
-  "updated_at": "2026-08-28T02:26:50.514179+00:00"
+  "updated_at": "2026-08-29T02:01:11.537261+00:00"
 }
