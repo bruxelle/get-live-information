@@ -2,6 +2,995 @@
   "captured_at": "2026-06-10T16:19:36.141820+00:00",
   "data": [
     {
+      "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「松葉-MATSUBA- Prelude Live『Needle Point #2 』」\n\n⟣date：8/31（月）\n⟣place :BLAZE GOTANDA\n⟣open/start：18:00/18:30\n⟣price：優先¥3,500/一般¥2,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【販売期間】\n7/16（木）21:00-\n🔗 https://t.co/tnyVDiAVRX",
+      "attachments": {
+        "media_keys": [
+          "3_2094014354794713088"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "day_before_reminder"
+      },
+      "created_at": "2026-08-30T10:48:23+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/tnyVDiAVRX",
+            "end": 229,
+            "expanded_url": "https://x.com/info_myojou/status/2094014360414998775/photo/1",
+            "media_key": "3_2094014354794713088",
+            "start": 206,
+            "url": "https://t.co/tnyVDiAVRX"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2094014360414998775",
+      "media": [
+        {
+          "height": 2048,
+          "media_key": "3_2094014354794713088",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HQ9u9gwbkAA9L_I.jpg",
+          "width": 1447
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "missing ticket deadline",
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 238,
+              "start": 231,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "t-dv.com/NeedlePoint2",
+              "end": 229,
+              "expanded_url": "http://t-dv.com/NeedlePoint2",
+              "start": 206,
+              "url": "https://t.co/XiEWalTCn5"
+            }
+          ]
+        },
+        "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「松葉-MATSUBA- Prelude Live『Needle Point #2 』」\n\n⟣date：8/31（月）\n⟣place :BLAZE GOTANDA\n⟣open/start：18:00/18:30\n⟣price：優先¥3,500/一般¥2,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【販売期間】\n7/16（木）21:00-\n🔗 https://t.co/XiEWalTCn5\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": null,
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-08-31",
+        "event_dates": [
+          "2026-08-31"
+        ],
+        "event_name": "松葉-MATSUBA- Prelude Live『Needle Point 』",
+        "extraction_confidence": 0.95,
+        "general_ticket_price": 2000,
+        "lottery_result_at": null,
+        "myojou_performance_time": null,
+        "notes": "ドリンク代: 各+1D\n⟣入場特典:明星カード(サインありチェキ)",
+        "open_time": "18:00",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "優先",
+        "priority_ticket_price": 3500,
+        "same_day_ticket_price": null,
+        "source_kind": "day_before_reminder",
+        "source_post_id": "2094014360414998775",
+        "source_posted_at": "2026-08-30T10:48:23Z",
+        "source_raw": {
+          "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「松葉-MATSUBA- Prelude Live『Needle Point #2 』」\n\n⟣date：8/31（月）\n⟣place :BLAZE GOTANDA\n⟣open/start：18:00/18:30\n⟣price：優先¥3,500/一般¥2,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【販売期間】\n7/16（木）21:00-\n🔗 https://t.co/tnyVDiAVRX",
+          "attachments": {
+            "media_keys": [
+              "3_2094014354794713088"
+            ]
+          },
+          "created_at": "2026-08-30T10:48:23.000Z",
+          "edit_history_tweet_ids": [
+            "2094014360414998775"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/tnyVDiAVRX",
+                "end": 229,
+                "expanded_url": "https://x.com/info_myojou/status/2094014360414998775/photo/1",
+                "media_key": "3_2094014354794713088",
+                "start": 206,
+                "url": "https://t.co/tnyVDiAVRX"
+              }
+            ]
+          },
+          "full_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「松葉-MATSUBA- Prelude Live『Needle Point #2 』」\n\n⟣date：8/31（月）\n⟣place :BLAZE GOTANDA\n⟣open/start：18:00/18:30\n⟣price：優先¥3,500/一般¥2,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【販売期間】\n7/16（木）21:00-\n🔗 https://t.co/XiEWalTCn5\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2094014360414998775",
+          "media": [
+            {
+              "height": 2048,
+              "media_key": "3_2094014354794713088",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HQ9u9gwbkAA9L_I.jpg",
+              "width": 1447
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 238,
+                  "start": 231,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "t-dv.com/NeedlePoint2",
+                  "end": 229,
+                  "expanded_url": "http://t-dv.com/NeedlePoint2",
+                  "start": 206,
+                  "url": "https://t.co/XiEWalTCn5"
+                }
+              ]
+            },
+            "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「松葉-MATSUBA- Prelude Live『Needle Point #2 』」\n\n⟣date：8/31（月）\n⟣place :BLAZE GOTANDA\n⟣open/start：18:00/18:30\n⟣price：優先¥3,500/一般¥2,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【販売期間】\n7/16（木）21:00-\n🔗 https://t.co/XiEWalTCn5\n\n#myojou"
+          },
+          "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「松葉-MATSUBA- Prelude Live『Needle Point #2 』」\n\n⟣date：8/31（月）\n⟣place :BLAZE GOTANDA\n⟣open/start：18:00/18:30\n⟣price：優先¥3,500/一般¥2,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【販売期間】\n7/16（木）21:00-\n🔗 https://t.co/tnyVDiAVRX",
+          "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「松葉-MATSUBA- Prelude Live『Needle Point #2 』」\n\n⟣date：8/31（月）\n⟣place :BLAZE GOTANDA\n⟣open/start：18:00/18:30\n⟣price：優先¥3,500/一般¥2,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【販売期間】\n7/16（木）21:00-\n🔗 https://t.co/tnyVDiAVRX"
+        },
+        "source_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「松葉-MATSUBA- Prelude Live『Needle Point #2 』」\n\n⟣date：8/31（月）\n⟣place :BLAZE GOTANDA\n⟣open/start：18:00/18:30\n⟣price：優先¥3,500/一般¥2,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【販売期間】\n7/16（木）21:00-\n🔗 https://t.co/XiEWalTCn5\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2094014360414998775",
+        "start_time": "18:30",
+        "ticket_application_deadline_at": null,
+        "ticket_application_start_at": "2026-07-16T21:00:00+09:00",
+        "ticket_sale_type": "不明",
+        "ticket_sales": [
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 3500,
+            "result_at": null,
+            "sale_type": "不明",
+            "source_post_id": "2094014360414998775",
+            "source_url": "https://x.com/info_myojou/status/2094014360414998775",
+            "start_at": "2026-07-16T21:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "優先",
+            "ticket_tier": "優先"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 2000,
+            "result_at": null,
+            "sale_type": "不明",
+            "source_post_id": "2094014360414998775",
+            "source_url": "https://x.com/info_myojou/status/2094014360414998775",
+            "start_at": "2026-07-16T21:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "http://t-dv.com/NeedlePoint2",
+        "venue": "BLAZE GOTANDA"
+      },
+      "raw": {
+        "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「松葉-MATSUBA- Prelude Live『Needle Point #2 』」\n\n⟣date：8/31（月）\n⟣place :BLAZE GOTANDA\n⟣open/start：18:00/18:30\n⟣price：優先¥3,500/一般¥2,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【販売期間】\n7/16（木）21:00-\n🔗 https://t.co/tnyVDiAVRX",
+        "attachments": {
+          "media_keys": [
+            "3_2094014354794713088"
+          ]
+        },
+        "created_at": "2026-08-30T10:48:23.000Z",
+        "edit_history_tweet_ids": [
+          "2094014360414998775"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/tnyVDiAVRX",
+              "end": 229,
+              "expanded_url": "https://x.com/info_myojou/status/2094014360414998775/photo/1",
+              "media_key": "3_2094014354794713088",
+              "start": 206,
+              "url": "https://t.co/tnyVDiAVRX"
+            }
+          ]
+        },
+        "full_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「松葉-MATSUBA- Prelude Live『Needle Point #2 』」\n\n⟣date：8/31（月）\n⟣place :BLAZE GOTANDA\n⟣open/start：18:00/18:30\n⟣price：優先¥3,500/一般¥2,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【販売期間】\n7/16（木）21:00-\n🔗 https://t.co/XiEWalTCn5\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2094014360414998775",
+        "media": [
+          {
+            "height": 2048,
+            "media_key": "3_2094014354794713088",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HQ9u9gwbkAA9L_I.jpg",
+            "width": 1447
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 238,
+                "start": 231,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "t-dv.com/NeedlePoint2",
+                "end": 229,
+                "expanded_url": "http://t-dv.com/NeedlePoint2",
+                "start": 206,
+                "url": "https://t.co/XiEWalTCn5"
+              }
+            ]
+          },
+          "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「松葉-MATSUBA- Prelude Live『Needle Point #2 』」\n\n⟣date：8/31（月）\n⟣place :BLAZE GOTANDA\n⟣open/start：18:00/18:30\n⟣price：優先¥3,500/一般¥2,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【販売期間】\n7/16（木）21:00-\n🔗 https://t.co/XiEWalTCn5\n\n#myojou"
+        },
+        "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「松葉-MATSUBA- Prelude Live『Needle Point #2 』」\n\n⟣date：8/31（月）\n⟣place :BLAZE GOTANDA\n⟣open/start：18:00/18:30\n⟣price：優先¥3,500/一般¥2,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【販売期間】\n7/16（木）21:00-\n🔗 https://t.co/tnyVDiAVRX",
+        "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「松葉-MATSUBA- Prelude Live『Needle Point #2 』」\n\n⟣date：8/31（月）\n⟣place :BLAZE GOTANDA\n⟣open/start：18:00/18:30\n⟣price：優先¥3,500/一般¥2,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【販売期間】\n7/16（木）21:00-\n🔗 https://t.co/tnyVDiAVRX"
+      },
+      "referenced_tweets": [],
+      "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「松葉-MATSUBA- Prelude Live『Needle Point #2 』」\n\n⟣date：8/31（月）\n⟣place :BLAZE GOTANDA\n⟣open/start：18:00/18:30\n⟣price：優先¥3,500/一般¥2,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【販売期間】\n7/16（木）21:00-\n🔗 https://t.co/XiEWalTCn5\n\n#myojou",
+      "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「松葉-MATSUBA- Prelude Live『Needle Point #2 』」\n\n⟣date：8/31（月）\n⟣place :BLAZE GOTANDA\n⟣open/start：18:00/18:30\n⟣price：優先¥3,500/一般¥2,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【販売期間】\n7/16（木）21:00-\n🔗 https://t.co/tnyVDiAVRX",
+      "url": "https://x.com/info_myojou/status/2094014360414998775"
+    },
+    {
+      "api_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n              HOKKAIDO IDOL PARTY\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「HOKKAIDO IDOL PARTY」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n日陽みう@myojou_miu https://t.co/Vpc0QqFotI",
+      "attachments": {
+        "media_keys": [
+          "3_2094013753004367872"
+        ]
+      },
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "profile/member introduction",
+        "source_kind": "other"
+      },
+      "created_at": "2026-08-30T10:45:59+00:00",
+      "entities": {
+        "mentions": [
+          {
+            "end": 181,
+            "id": "1981655668626165760",
+            "start": 169,
+            "username": "myojou_ruka"
+          },
+          {
+            "end": 198,
+            "id": "2009245855694675968",
+            "start": 187,
+            "username": "myojou_miu"
+          }
+        ],
+        "urls": [
+          {
+            "display_url": "pic.x.com/Vpc0QqFotI",
+            "end": 222,
+            "expanded_url": "https://x.com/info_myojou/status/2094013759249420482/photo/1",
+            "media_key": "3_2094013753004367872",
+            "start": 199,
+            "url": "https://t.co/Vpc0QqFotI"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2094013759249420482",
+      "media": [
+        {
+          "alt_text": "M1,僕彩色\nM2,夏、空模様\nM3,星景讃歌\nM4,yoakeno\nM5,アンチコンプリート\nM6,軌跡まで",
+          "height": 1108,
+          "media_key": "3_2094013753004367872",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HQ9uae6boAABmAj.jpg",
+          "width": 1477
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 287,
+              "start": 280,
+              "tag": "myojou"
+            }
+          ],
+          "mentions": [
+            {
+              "end": 181,
+              "id": "1981655668626165760",
+              "start": 169,
+              "username": "myojou_ruka"
+            },
+            {
+              "end": 198,
+              "id": "2009245855694675968",
+              "start": 187,
+              "username": "myojou_miu"
+            },
+            {
+              "end": 226,
+              "id": "1590652199407083520",
+              "start": 212,
+              "username": "myojou_cocone"
+            },
+            {
+              "end": 245,
+              "id": "1754991922807177216",
+              "start": 232,
+              "username": "myojou_shino"
+            },
+            {
+              "end": 262,
+              "id": "2009274765895450624",
+              "start": 251,
+              "username": "myojou_yun"
+            }
+          ]
+        },
+        "text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n              HOKKAIDO IDOL PARTY\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「HOKKAIDO IDOL PARTY」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n日陽みう@myojou_miu \n\n下段左から\n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n澪奈ゆん@myojou_yun \n\nSETLIST▶︎ALT\n\n #myojou"
+      },
+      "parsed_fields": null,
+      "raw": {
+        "api_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n              HOKKAIDO IDOL PARTY\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「HOKKAIDO IDOL PARTY」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n日陽みう@myojou_miu https://t.co/Vpc0QqFotI",
+        "attachments": {
+          "media_keys": [
+            "3_2094013753004367872"
+          ]
+        },
+        "created_at": "2026-08-30T10:45:59.000Z",
+        "edit_history_tweet_ids": [
+          "2094013759249420482"
+        ],
+        "entities": {
+          "mentions": [
+            {
+              "end": 181,
+              "id": "1981655668626165760",
+              "start": 169,
+              "username": "myojou_ruka"
+            },
+            {
+              "end": 198,
+              "id": "2009245855694675968",
+              "start": 187,
+              "username": "myojou_miu"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "pic.x.com/Vpc0QqFotI",
+              "end": 222,
+              "expanded_url": "https://x.com/info_myojou/status/2094013759249420482/photo/1",
+              "media_key": "3_2094013753004367872",
+              "start": 199,
+              "url": "https://t.co/Vpc0QqFotI"
+            }
+          ]
+        },
+        "full_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n              HOKKAIDO IDOL PARTY\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「HOKKAIDO IDOL PARTY」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n日陽みう@myojou_miu \n\n下段左から\n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n澪奈ゆん@myojou_yun \n\nSETLIST▶︎ALT\n\n #myojou",
+        "full_text_source": "note_tweet",
+        "id": "2094013759249420482",
+        "media": [
+          {
+            "alt_text": "M1,僕彩色\nM2,夏、空模様\nM3,星景讃歌\nM4,yoakeno\nM5,アンチコンプリート\nM6,軌跡まで",
+            "height": 1108,
+            "media_key": "3_2094013753004367872",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HQ9uae6boAABmAj.jpg",
+            "width": 1477
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 287,
+                "start": 280,
+                "tag": "myojou"
+              }
+            ],
+            "mentions": [
+              {
+                "end": 181,
+                "id": "1981655668626165760",
+                "start": 169,
+                "username": "myojou_ruka"
+              },
+              {
+                "end": 198,
+                "id": "2009245855694675968",
+                "start": 187,
+                "username": "myojou_miu"
+              },
+              {
+                "end": 226,
+                "id": "1590652199407083520",
+                "start": 212,
+                "username": "myojou_cocone"
+              },
+              {
+                "end": 245,
+                "id": "1754991922807177216",
+                "start": 232,
+                "username": "myojou_shino"
+              },
+              {
+                "end": 262,
+                "id": "2009274765895450624",
+                "start": 251,
+                "username": "myojou_yun"
+              }
+            ]
+          },
+          "text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n              HOKKAIDO IDOL PARTY\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「HOKKAIDO IDOL PARTY」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n日陽みう@myojou_miu \n\n下段左から\n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n澪奈ゆん@myojou_yun \n\nSETLIST▶︎ALT\n\n #myojou"
+        },
+        "text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n              HOKKAIDO IDOL PARTY\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「HOKKAIDO IDOL PARTY」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n日陽みう@myojou_miu https://t.co/Vpc0QqFotI",
+        "truncated_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n              HOKKAIDO IDOL PARTY\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「HOKKAIDO IDOL PARTY」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n日陽みう@myojou_miu https://t.co/Vpc0QqFotI"
+      },
+      "referenced_tweets": [],
+      "text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n              HOKKAIDO IDOL PARTY\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「HOKKAIDO IDOL PARTY」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n日陽みう@myojou_miu \n\n下段左から\n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n澪奈ゆん@myojou_yun \n\nSETLIST▶︎ALT\n\n #myojou",
+      "truncated_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n              HOKKAIDO IDOL PARTY\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「HOKKAIDO IDOL PARTY」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n日陽みう@myojou_miu https://t.co/Vpc0QqFotI",
+      "url": "https://x.com/info_myojou/status/2094013759249420482"
+    },
+    {
+      "api_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n                 URA A Villa DAY.2\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「URA A Villa DAY.2」ありがとうございました⋆˙⟡\nこのあとSound lab moleにて、16:40より出演いたします！ https://t.co/wjL9ZuXxdZ",
+      "attachments": {
+        "media_keys": [
+          "3_2093912826024976384"
+        ]
+      },
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "thank-you/recap post",
+        "source_kind": "other"
+      },
+      "created_at": "2026-08-30T04:05:03+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/wjL9ZuXxdZ",
+            "end": 217,
+            "expanded_url": "https://x.com/info_myojou/status/2093912859428159503/photo/1",
+            "media_key": "3_2093912826024976384",
+            "start": 194,
+            "url": "https://t.co/wjL9ZuXxdZ"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2093912859428159503",
+      "media": [
+        {
+          "alt_text": "M0,SE\nM1,夏、空模様\nM2,星景讃歌\nM3,蛍夏\nM4,HeartBeat\nM5,アンチコンプリート\nM6,CHRONOS",
+          "height": 3072,
+          "media_key": "3_2093912826024976384",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HQ8SnwnaYAAr5hT.jpg",
+          "width": 4096
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 301,
+              "start": 294,
+              "tag": "myojou"
+            }
+          ],
+          "mentions": [
+            {
+              "end": 218,
+              "id": "1590652199407083520",
+              "start": 204,
+              "username": "myojou_cocone"
+            },
+            {
+              "end": 237,
+              "id": "1754991922807177216",
+              "start": 224,
+              "username": "myojou_shino"
+            },
+            {
+              "end": 254,
+              "id": "2009274765895450624",
+              "start": 243,
+              "username": "myojou_yun"
+            },
+            {
+              "end": 271,
+              "id": "2009245855694675968",
+              "start": 260,
+              "username": "myojou_miu"
+            }
+          ]
+        },
+        "text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n                 URA A Villa DAY.2\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「URA A Villa DAY.2」ありがとうございました⋆˙⟡\nこのあとSound lab moleにて、16:40より出演いたします！\n\n左から\n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n澪奈ゆん@myojou_yun \n日陽みう@myojou_miu \n姫乃るか\n\nSETLIST▶︎ALT\n\n #myojou"
+      },
+      "parsed_fields": null,
+      "raw": {
+        "api_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n                 URA A Villa DAY.2\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「URA A Villa DAY.2」ありがとうございました⋆˙⟡\nこのあとSound lab moleにて、16:40より出演いたします！ https://t.co/wjL9ZuXxdZ",
+        "attachments": {
+          "media_keys": [
+            "3_2093912826024976384"
+          ]
+        },
+        "created_at": "2026-08-30T04:05:03.000Z",
+        "edit_history_tweet_ids": [
+          "2093912859428159503"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/wjL9ZuXxdZ",
+              "end": 217,
+              "expanded_url": "https://x.com/info_myojou/status/2093912859428159503/photo/1",
+              "media_key": "3_2093912826024976384",
+              "start": 194,
+              "url": "https://t.co/wjL9ZuXxdZ"
+            }
+          ]
+        },
+        "full_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n                 URA A Villa DAY.2\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「URA A Villa DAY.2」ありがとうございました⋆˙⟡\nこのあとSound lab moleにて、16:40より出演いたします！\n\n左から\n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n澪奈ゆん@myojou_yun \n日陽みう@myojou_miu \n姫乃るか\n\nSETLIST▶︎ALT\n\n #myojou",
+        "full_text_source": "note_tweet",
+        "id": "2093912859428159503",
+        "media": [
+          {
+            "alt_text": "M0,SE\nM1,夏、空模様\nM2,星景讃歌\nM3,蛍夏\nM4,HeartBeat\nM5,アンチコンプリート\nM6,CHRONOS",
+            "height": 3072,
+            "media_key": "3_2093912826024976384",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HQ8SnwnaYAAr5hT.jpg",
+            "width": 4096
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 301,
+                "start": 294,
+                "tag": "myojou"
+              }
+            ],
+            "mentions": [
+              {
+                "end": 218,
+                "id": "1590652199407083520",
+                "start": 204,
+                "username": "myojou_cocone"
+              },
+              {
+                "end": 237,
+                "id": "1754991922807177216",
+                "start": 224,
+                "username": "myojou_shino"
+              },
+              {
+                "end": 254,
+                "id": "2009274765895450624",
+                "start": 243,
+                "username": "myojou_yun"
+              },
+              {
+                "end": 271,
+                "id": "2009245855694675968",
+                "start": 260,
+                "username": "myojou_miu"
+              }
+            ]
+          },
+          "text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n                 URA A Villa DAY.2\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「URA A Villa DAY.2」ありがとうございました⋆˙⟡\nこのあとSound lab moleにて、16:40より出演いたします！\n\n左から\n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n澪奈ゆん@myojou_yun \n日陽みう@myojou_miu \n姫乃るか\n\nSETLIST▶︎ALT\n\n #myojou"
+        },
+        "text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n                 URA A Villa DAY.2\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「URA A Villa DAY.2」ありがとうございました⋆˙⟡\nこのあとSound lab moleにて、16:40より出演いたします！ https://t.co/wjL9ZuXxdZ",
+        "truncated_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n                 URA A Villa DAY.2\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「URA A Villa DAY.2」ありがとうございました⋆˙⟡\nこのあとSound lab moleにて、16:40より出演いたします！ https://t.co/wjL9ZuXxdZ"
+      },
+      "referenced_tweets": [],
+      "text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n                 URA A Villa DAY.2\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「URA A Villa DAY.2」ありがとうございました⋆˙⟡\nこのあとSound lab moleにて、16:40より出演いたします！\n\n左から\n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n澪奈ゆん@myojou_yun \n日陽みう@myojou_miu \n姫乃るか\n\nSETLIST▶︎ALT\n\n #myojou",
+      "truncated_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n                 URA A Villa DAY.2\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「URA A Villa DAY.2」ありがとうございました⋆˙⟡\nこのあとSound lab moleにて、16:40より出演いたします！ https://t.co/wjL9ZuXxdZ",
+      "url": "https://x.com/info_myojou/status/2093912859428159503"
+    },
+    {
+      "api_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「URA A Villa DAY.2」\n\n🎙10:50-11:15\n📸11:25-12:45 C（SYNC north ロビー）\n\n⟣date：8/30（日）\n⟣place : SYNC north\n⟣open/start：9:30/10:00\n⟣price：VIP¥8,000/一般¥4,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】 https://t.co/edD35sU9wI",
+      "attachments": {
+        "media_keys": [
+          "3_2093863993400279040",
+          "3_2093863993442275328"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "same_day_reminder"
+      },
+      "created_at": "2026-08-30T00:51:13+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/edD35sU9wI",
+            "end": 231,
+            "expanded_url": "https://x.com/info_myojou/status/2093864079861715320/photo/1",
+            "media_key": "3_2093863993400279040",
+            "start": 208,
+            "url": "https://t.co/edD35sU9wI"
+          },
+          {
+            "display_url": "pic.x.com/edD35sU9wI",
+            "end": 231,
+            "expanded_url": "https://x.com/info_myojou/status/2093864079861715320/photo/1",
+            "media_key": "3_2093863993442275328",
+            "start": 208,
+            "url": "https://t.co/edD35sU9wI"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2093864079861715320",
+      "media": [
+        {
+          "height": 2364,
+          "media_key": "3_2093863993400279040",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HQ7mNU6awAAiUdz.jpg",
+          "width": 1774
+        },
+        {
+          "height": 1772,
+          "media_key": "3_2093863993442275328",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HQ7mNVEbkAA9kMW.jpg",
+          "width": 2363
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "missing ticket deadline",
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 463,
+              "start": 456,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "t-dv.com/ura_a_villa2",
+              "end": 246,
+              "expanded_url": "http://t-dv.com/ura_a_villa2",
+              "start": 223,
+              "url": "https://t.co/elCEJkwJW4"
+            },
+            {
+              "display_url": "ticketdive.com/event/hip_830",
+              "end": 454,
+              "expanded_url": "http://ticketdive.com/event/hip_830",
+              "start": 431,
+              "url": "https://t.co/BWjQh2crgx"
+            }
+          ]
+        },
+        "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「URA A Villa DAY.2」\n\n🎙10:50-11:15\n📸11:25-12:45 C（SYNC north ロビー）\n\n⟣date：8/30（日）\n⟣place : SYNC north\n⟣open/start：9:30/10:00\n⟣price：VIP¥8,000/一般¥4,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n8/5(水)21:30-\n🔗 https://t.co/elCEJkwJW4\n\n「HOKKAIDO IDOL PARTY」\n\n🎙16:40-17:05\n📸終演後\n\n⟣date：8/30（日）\n⟣place : Sound lab mole\n⟣open/start：15:30/16:00\n⟣price：前方¥4,000 / 前売¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n8/20（木）22:00-\n🔗 https://t.co/BWjQh2crgx\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": "11:25-12:45",
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-08-30",
+        "event_dates": [
+          "2026-08-30"
+        ],
+        "event_name": "URA A Villa DAY.2",
+        "extraction_confidence": 0.95,
+        "general_ticket_price": 4000,
+        "lottery_result_at": null,
+        "myojou_performance_time": "10:50-11:15",
+        "notes": "ドリンク代: 各+1D\n⟣入場特典:明星カード(サインありチェキ)",
+        "open_time": "09:30",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "VIP",
+        "priority_ticket_price": 8000,
+        "same_day_ticket_price": null,
+        "source_kind": "same_day_reminder",
+        "source_post_id": "2093864079861715320",
+        "source_posted_at": "2026-08-30T00:51:13Z",
+        "source_raw": {
+          "api_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「URA A Villa DAY.2」\n\n🎙10:50-11:15\n📸11:25-12:45 C（SYNC north ロビー）\n\n⟣date：8/30（日）\n⟣place : SYNC north\n⟣open/start：9:30/10:00\n⟣price：VIP¥8,000/一般¥4,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】 https://t.co/edD35sU9wI",
+          "attachments": {
+            "media_keys": [
+              "3_2093863993400279040",
+              "3_2093863993442275328"
+            ]
+          },
+          "created_at": "2026-08-30T00:51:13.000Z",
+          "edit_history_tweet_ids": [
+            "2093864000996155512",
+            "2093864079861715320"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/edD35sU9wI",
+                "end": 231,
+                "expanded_url": "https://x.com/info_myojou/status/2093864079861715320/photo/1",
+                "media_key": "3_2093863993400279040",
+                "start": 208,
+                "url": "https://t.co/edD35sU9wI"
+              },
+              {
+                "display_url": "pic.x.com/edD35sU9wI",
+                "end": 231,
+                "expanded_url": "https://x.com/info_myojou/status/2093864079861715320/photo/1",
+                "media_key": "3_2093863993442275328",
+                "start": 208,
+                "url": "https://t.co/edD35sU9wI"
+              }
+            ]
+          },
+          "full_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「URA A Villa DAY.2」\n\n🎙10:50-11:15\n📸11:25-12:45 C（SYNC north ロビー）\n\n⟣date：8/30（日）\n⟣place : SYNC north\n⟣open/start：9:30/10:00\n⟣price：VIP¥8,000/一般¥4,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n8/5(水)21:30-\n🔗 https://t.co/elCEJkwJW4\n\n「HOKKAIDO IDOL PARTY」\n\n🎙16:40-17:05\n📸終演後\n\n⟣date：8/30（日）\n⟣place : Sound lab mole\n⟣open/start：15:30/16:00\n⟣price：前方¥4,000 / 前売¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n8/20（木）22:00-\n🔗 https://t.co/BWjQh2crgx\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2093864079861715320",
+          "media": [
+            {
+              "height": 2364,
+              "media_key": "3_2093863993400279040",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HQ7mNU6awAAiUdz.jpg",
+              "width": 1774
+            },
+            {
+              "height": 1772,
+              "media_key": "3_2093863993442275328",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HQ7mNVEbkAA9kMW.jpg",
+              "width": 2363
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 463,
+                  "start": 456,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "t-dv.com/ura_a_villa2",
+                  "end": 246,
+                  "expanded_url": "http://t-dv.com/ura_a_villa2",
+                  "start": 223,
+                  "url": "https://t.co/elCEJkwJW4"
+                },
+                {
+                  "display_url": "ticketdive.com/event/hip_830",
+                  "end": 454,
+                  "expanded_url": "http://ticketdive.com/event/hip_830",
+                  "start": 431,
+                  "url": "https://t.co/BWjQh2crgx"
+                }
+              ]
+            },
+            "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「URA A Villa DAY.2」\n\n🎙10:50-11:15\n📸11:25-12:45 C（SYNC north ロビー）\n\n⟣date：8/30（日）\n⟣place : SYNC north\n⟣open/start：9:30/10:00\n⟣price：VIP¥8,000/一般¥4,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n8/5(水)21:30-\n🔗 https://t.co/elCEJkwJW4\n\n「HOKKAIDO IDOL PARTY」\n\n🎙16:40-17:05\n📸終演後\n\n⟣date：8/30（日）\n⟣place : Sound lab mole\n⟣open/start：15:30/16:00\n⟣price：前方¥4,000 / 前売¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n8/20（木）22:00-\n🔗 https://t.co/BWjQh2crgx\n\n#myojou"
+          },
+          "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「URA A Villa DAY.2」\n\n🎙10:50-11:15\n📸11:25-12:45 C（SYNC north ロビー）\n\n⟣date：8/30（日）\n⟣place : SYNC north\n⟣open/start：9:30/10:00\n⟣price：VIP¥8,000/一般¥4,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】 https://t.co/edD35sU9wI",
+          "truncated_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「URA A Villa DAY.2」\n\n🎙10:50-11:15\n📸11:25-12:45 C（SYNC north ロビー）\n\n⟣date：8/30（日）\n⟣place : SYNC north\n⟣open/start：9:30/10:00\n⟣price：VIP¥8,000/一般¥4,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】 https://t.co/edD35sU9wI"
+        },
+        "source_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「URA A Villa DAY.2」\n\n🎙10:50-11:15\n📸11:25-12:45 C（SYNC north ロビー）\n\n⟣date：8/30（日）\n⟣place : SYNC north\n⟣open/start：9:30/10:00\n⟣price：VIP¥8,000/一般¥4,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n8/5(水)21:30-\n🔗 https://t.co/elCEJkwJW4\n\n「HOKKAIDO IDOL PARTY」\n\n🎙16:40-17:05\n📸終演後\n\n⟣date：8/30（日）\n⟣place : Sound lab mole\n⟣open/start：15:30/16:00\n⟣price：前方¥4,000 / 前売¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n8/20（木）22:00-\n🔗 https://t.co/BWjQh2crgx\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2093864079861715320",
+        "start_time": "10:00",
+        "ticket_application_deadline_at": null,
+        "ticket_application_start_at": "2026-08-05T21:30:00+09:00",
+        "ticket_sale_type": "一般",
+        "ticket_sales": [
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 8000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2093864079861715320",
+            "source_url": "https://x.com/info_myojou/status/2093864079861715320",
+            "start_at": "2026-08-05T21:30:00+09:00",
+            "status": "不明",
+            "ticket_name": "VIP",
+            "ticket_tier": "VIP"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 4000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2093864079861715320",
+            "source_url": "https://x.com/info_myojou/status/2093864079861715320",
+            "start_at": "2026-08-05T21:30:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 4000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2093864079861715320",
+            "source_url": "https://x.com/info_myojou/status/2093864079861715320",
+            "start_at": "2026-08-05T21:30:00+09:00",
+            "status": "不明",
+            "ticket_name": "前方",
+            "ticket_tier": "前方"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 8000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2093864079861715320",
+            "source_url": "https://x.com/info_myojou/status/2093864079861715320",
+            "start_at": "2026-08-20T22:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "VIP",
+            "ticket_tier": "VIP"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 4000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2093864079861715320",
+            "source_url": "https://x.com/info_myojou/status/2093864079861715320",
+            "start_at": "2026-08-20T22:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 4000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2093864079861715320",
+            "source_url": "https://x.com/info_myojou/status/2093864079861715320",
+            "start_at": "2026-08-20T22:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "前方",
+            "ticket_tier": "前方"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "http://t-dv.com/ura_a_villa2",
+        "venue": "SYNC north"
+      },
+      "raw": {
+        "api_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「URA A Villa DAY.2」\n\n🎙10:50-11:15\n📸11:25-12:45 C（SYNC north ロビー）\n\n⟣date：8/30（日）\n⟣place : SYNC north\n⟣open/start：9:30/10:00\n⟣price：VIP¥8,000/一般¥4,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】 https://t.co/edD35sU9wI",
+        "attachments": {
+          "media_keys": [
+            "3_2093863993400279040",
+            "3_2093863993442275328"
+          ]
+        },
+        "created_at": "2026-08-30T00:51:13.000Z",
+        "edit_history_tweet_ids": [
+          "2093864000996155512",
+          "2093864079861715320"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/edD35sU9wI",
+              "end": 231,
+              "expanded_url": "https://x.com/info_myojou/status/2093864079861715320/photo/1",
+              "media_key": "3_2093863993400279040",
+              "start": 208,
+              "url": "https://t.co/edD35sU9wI"
+            },
+            {
+              "display_url": "pic.x.com/edD35sU9wI",
+              "end": 231,
+              "expanded_url": "https://x.com/info_myojou/status/2093864079861715320/photo/1",
+              "media_key": "3_2093863993442275328",
+              "start": 208,
+              "url": "https://t.co/edD35sU9wI"
+            }
+          ]
+        },
+        "full_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「URA A Villa DAY.2」\n\n🎙10:50-11:15\n📸11:25-12:45 C（SYNC north ロビー）\n\n⟣date：8/30（日）\n⟣place : SYNC north\n⟣open/start：9:30/10:00\n⟣price：VIP¥8,000/一般¥4,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n8/5(水)21:30-\n🔗 https://t.co/elCEJkwJW4\n\n「HOKKAIDO IDOL PARTY」\n\n🎙16:40-17:05\n📸終演後\n\n⟣date：8/30（日）\n⟣place : Sound lab mole\n⟣open/start：15:30/16:00\n⟣price：前方¥4,000 / 前売¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n8/20（木）22:00-\n🔗 https://t.co/BWjQh2crgx\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2093864079861715320",
+        "media": [
+          {
+            "height": 2364,
+            "media_key": "3_2093863993400279040",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HQ7mNU6awAAiUdz.jpg",
+            "width": 1774
+          },
+          {
+            "height": 1772,
+            "media_key": "3_2093863993442275328",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HQ7mNVEbkAA9kMW.jpg",
+            "width": 2363
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 463,
+                "start": 456,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "t-dv.com/ura_a_villa2",
+                "end": 246,
+                "expanded_url": "http://t-dv.com/ura_a_villa2",
+                "start": 223,
+                "url": "https://t.co/elCEJkwJW4"
+              },
+              {
+                "display_url": "ticketdive.com/event/hip_830",
+                "end": 454,
+                "expanded_url": "http://ticketdive.com/event/hip_830",
+                "start": 431,
+                "url": "https://t.co/BWjQh2crgx"
+              }
+            ]
+          },
+          "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「URA A Villa DAY.2」\n\n🎙10:50-11:15\n📸11:25-12:45 C（SYNC north ロビー）\n\n⟣date：8/30（日）\n⟣place : SYNC north\n⟣open/start：9:30/10:00\n⟣price：VIP¥8,000/一般¥4,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n8/5(水)21:30-\n🔗 https://t.co/elCEJkwJW4\n\n「HOKKAIDO IDOL PARTY」\n\n🎙16:40-17:05\n📸終演後\n\n⟣date：8/30（日）\n⟣place : Sound lab mole\n⟣open/start：15:30/16:00\n⟣price：前方¥4,000 / 前売¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n8/20（木）22:00-\n🔗 https://t.co/BWjQh2crgx\n\n#myojou"
+        },
+        "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「URA A Villa DAY.2」\n\n🎙10:50-11:15\n📸11:25-12:45 C（SYNC north ロビー）\n\n⟣date：8/30（日）\n⟣place : SYNC north\n⟣open/start：9:30/10:00\n⟣price：VIP¥8,000/一般¥4,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】 https://t.co/edD35sU9wI",
+        "truncated_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「URA A Villa DAY.2」\n\n🎙10:50-11:15\n📸11:25-12:45 C（SYNC north ロビー）\n\n⟣date：8/30（日）\n⟣place : SYNC north\n⟣open/start：9:30/10:00\n⟣price：VIP¥8,000/一般¥4,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】 https://t.co/edD35sU9wI"
+      },
+      "referenced_tweets": [],
+      "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「URA A Villa DAY.2」\n\n🎙10:50-11:15\n📸11:25-12:45 C（SYNC north ロビー）\n\n⟣date：8/30（日）\n⟣place : SYNC north\n⟣open/start：9:30/10:00\n⟣price：VIP¥8,000/一般¥4,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n8/5(水)21:30-\n🔗 https://t.co/elCEJkwJW4\n\n「HOKKAIDO IDOL PARTY」\n\n🎙16:40-17:05\n📸終演後\n\n⟣date：8/30（日）\n⟣place : Sound lab mole\n⟣open/start：15:30/16:00\n⟣price：前方¥4,000 / 前売¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】\n8/20（木）22:00-\n🔗 https://t.co/BWjQh2crgx\n\n#myojou",
+      "truncated_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「URA A Villa DAY.2」\n\n🎙10:50-11:15\n📸11:25-12:45 C（SYNC north ロビー）\n\n⟣date：8/30（日）\n⟣place : SYNC north\n⟣open/start：9:30/10:00\n⟣price：VIP¥8,000/一般¥4,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【一般販売】 https://t.co/edD35sU9wI",
+      "url": "https://x.com/info_myojou/status/2093864079861715320"
+    },
+    {
       "api_text": "▶️LIVE DIGEST\nA Villa idol festival HOKKAIDO 2026\n\n「夏、空模様」\n\n #myojou https://t.co/uebiNfoRlu",
       "attachments": {
         "media_keys": [
@@ -170649,7 +171638,7 @@
     "backfill": true,
     "dry_run": true,
     "estimated_x_post_reads": 411,
-    "latest_post_id": "2093640548481675380",
+    "latest_post_id": "2094014360414998775",
     "max_pages": 10,
     "max_posts": 500,
     "max_results": 5,
@@ -170692,16 +171681,16 @@
       }
     ],
     "pages_fetched": 5,
-    "posts_fetched": 781,
+    "posts_fetched": 785,
     "rate_limit_headers": {
       "x-rate-limit-limit": "10000",
       "x-rate-limit-remaining": "9993",
       "x-rate-limit-reset": "1781108896"
     },
-    "total_posts": 781,
-    "updated_at": "2026-08-29T21:33:43.316425+00:00",
+    "total_posts": 785,
+    "updated_at": "2026-08-30T21:51:45.093171+00:00",
     "username": "info_myojou"
   },
   "source": "x_api",
-  "updated_at": "2026-08-29T21:33:43.316425+00:00"
+  "updated_at": "2026-08-30T21:51:45.093171+00:00"
 }
