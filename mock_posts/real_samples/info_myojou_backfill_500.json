@@ -2,6 +2,308 @@
   "captured_at": "2026-06-10T16:19:36.141820+00:00",
   "data": [
     {
+      "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                        YON PIECE \n     -ROMANCE DAWN 冒険の夜明け-\n          THANK YOU SOLD OUT!!!\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n2026年9月14日、\n全身全霊のmyojouを以て。 https://t.co/TS7nJ2oKot",
+      "attachments": {
+        "media_keys": [
+          "13_2094757027063160832"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "sold_out"
+      },
+      "created_at": "2026-09-01T12:00:37+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/TS7nJ2oKot",
+            "end": 194,
+            "expanded_url": "https://x.com/info_myojou/status/2094757317954896317/video/1",
+            "media_key": "13_2094757027063160832",
+            "start": 171,
+            "url": "https://t.co/TS7nJ2oKot"
+          }
+        ]
+      },
+      "full_text_source": "text",
+      "id": "2094757317954896317",
+      "media": [
+        {
+          "height": 2160,
+          "media_key": "13_2094757027063160832",
+          "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2094757027063160832/img/7WjRz1Ia3SAV-nyZ.jpg",
+          "type": "video",
+          "width": 3840
+        }
+      ],
+      "needs_review": true,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": null,
+      "parsed_fields": {
+        "benefit_event_time": null,
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-09-14",
+        "event_dates": [
+          "2026-09-14"
+        ],
+        "event_name": "YON PIECE -ROMANCE DAWN 冒険の夜明け",
+        "extraction_confidence": 0.6,
+        "general_ticket_price": null,
+        "lottery_result_at": null,
+        "myojou_performance_time": null,
+        "notes": null,
+        "open_time": null,
+        "payment_deadline_at": null,
+        "priority_ticket_name": null,
+        "priority_ticket_price": null,
+        "same_day_ticket_price": null,
+        "source_kind": "sold_out",
+        "source_post_id": "2094757317954896317",
+        "source_posted_at": "2026-09-01T12:00:37Z",
+        "source_raw": {
+          "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                        YON PIECE \n     -ROMANCE DAWN 冒険の夜明け-\n          THANK YOU SOLD OUT!!!\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n2026年9月14日、\n全身全霊のmyojouを以て。 https://t.co/TS7nJ2oKot",
+          "attachments": {
+            "media_keys": [
+              "13_2094757027063160832"
+            ]
+          },
+          "created_at": "2026-09-01T12:00:37.000Z",
+          "edit_history_tweet_ids": [
+            "2094757317954896317"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/TS7nJ2oKot",
+                "end": 194,
+                "expanded_url": "https://x.com/info_myojou/status/2094757317954896317/video/1",
+                "media_key": "13_2094757027063160832",
+                "start": 171,
+                "url": "https://t.co/TS7nJ2oKot"
+              }
+            ]
+          },
+          "full_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                        YON PIECE \n     -ROMANCE DAWN 冒険の夜明け-\n          THANK YOU SOLD OUT!!!\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n2026年9月14日、\n全身全霊のmyojouを以て。 https://t.co/TS7nJ2oKot",
+          "full_text_source": "text",
+          "id": "2094757317954896317",
+          "media": [
+            {
+              "height": 2160,
+              "media_key": "13_2094757027063160832",
+              "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2094757027063160832/img/7WjRz1Ia3SAV-nyZ.jpg",
+              "type": "video",
+              "width": 3840
+            }
+          ],
+          "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                        YON PIECE \n     -ROMANCE DAWN 冒険の夜明け-\n          THANK YOU SOLD OUT!!!\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n2026年9月14日、\n全身全霊のmyojouを以て。 https://t.co/TS7nJ2oKot",
+          "truncated_text": null
+        },
+        "source_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                        YON PIECE \n     -ROMANCE DAWN 冒険の夜明け-\n          THANK YOU SOLD OUT!!!\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n2026年9月14日、\n全身全霊のmyojouを以て。 https://t.co/TS7nJ2oKot",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2094757317954896317",
+        "start_time": null,
+        "ticket_application_deadline_at": null,
+        "ticket_application_start_at": null,
+        "ticket_sale_type": null,
+        "ticket_sales": [],
+        "ticket_status": "sold_out",
+        "ticket_url": null,
+        "venue": null
+      },
+      "raw": {
+        "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                        YON PIECE \n     -ROMANCE DAWN 冒険の夜明け-\n          THANK YOU SOLD OUT!!!\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n2026年9月14日、\n全身全霊のmyojouを以て。 https://t.co/TS7nJ2oKot",
+        "attachments": {
+          "media_keys": [
+            "13_2094757027063160832"
+          ]
+        },
+        "created_at": "2026-09-01T12:00:37.000Z",
+        "edit_history_tweet_ids": [
+          "2094757317954896317"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/TS7nJ2oKot",
+              "end": 194,
+              "expanded_url": "https://x.com/info_myojou/status/2094757317954896317/video/1",
+              "media_key": "13_2094757027063160832",
+              "start": 171,
+              "url": "https://t.co/TS7nJ2oKot"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                        YON PIECE \n     -ROMANCE DAWN 冒険の夜明け-\n          THANK YOU SOLD OUT!!!\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n2026年9月14日、\n全身全霊のmyojouを以て。 https://t.co/TS7nJ2oKot",
+        "full_text_source": "text",
+        "id": "2094757317954896317",
+        "media": [
+          {
+            "height": 2160,
+            "media_key": "13_2094757027063160832",
+            "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2094757027063160832/img/7WjRz1Ia3SAV-nyZ.jpg",
+            "type": "video",
+            "width": 3840
+          }
+        ],
+        "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                        YON PIECE \n     -ROMANCE DAWN 冒険の夜明け-\n          THANK YOU SOLD OUT!!!\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n2026年9月14日、\n全身全霊のmyojouを以て。 https://t.co/TS7nJ2oKot",
+        "truncated_text": null
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                        YON PIECE \n     -ROMANCE DAWN 冒険の夜明け-\n          THANK YOU SOLD OUT!!!\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n2026年9月14日、\n全身全霊のmyojouを以て。 https://t.co/TS7nJ2oKot",
+      "truncated_text": null,
+      "url": "https://x.com/info_myojou/status/2094757317954896317"
+    },
+    {
+      "api_text": "✮••┈┈┈┈┈┈┈┈┈┈••✮\n                  楽曲公開 \n                 \"Beyond\"\n✮••┈┈┈┈┈┈┈┈┈┈••✮\n\n2026.9.2より順次配信開始\n🔗 https://t.co/Um81qXeQb7\n\n #myojou https://t.co/Y4YOScj8dM",
+      "attachments": {
+        "media_keys": [
+          "13_2094749622229229568"
+        ]
+      },
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "strong non-event keyword without live structure",
+        "source_kind": "other"
+      },
+      "created_at": "2026-09-01T11:30:42+00:00",
+      "entities": {
+        "hashtags": [
+          {
+            "end": 137,
+            "start": 130,
+            "tag": "myojou"
+          }
+        ],
+        "urls": [
+          {
+            "description": "音楽配信サービスで myojou （ミョウジョウ）を聴く。",
+            "display_url": "tunecore.co.jp/artists?id=107…",
+            "end": 127,
+            "expanded_url": "https://www.tunecore.co.jp/artists?id=1078390",
+            "images": [
+              {
+                "height": 500,
+                "url": "https://pbs.twimg.com/news_img/2093379840141611008/wJgQvXFN?format=png&name=orig",
+                "width": 500
+              },
+              {
+                "height": 150,
+                "url": "https://pbs.twimg.com/news_img/2093379840141611008/wJgQvXFN?format=png&name=150x150",
+                "width": 150
+              }
+            ],
+            "start": 104,
+            "status": 200,
+            "title": "myojou",
+            "unwound_url": "https://www.tunecore.co.jp/artists?id=1078390",
+            "url": "https://t.co/Um81qXeQb7"
+          },
+          {
+            "display_url": "pic.x.com/Y4YOScj8dM",
+            "end": 161,
+            "expanded_url": "https://x.com/info_myojou/status/2094749786243203334/video/1",
+            "media_key": "13_2094749622229229568",
+            "start": 138,
+            "url": "https://t.co/Y4YOScj8dM"
+          }
+        ]
+      },
+      "full_text_source": "text",
+      "id": "2094749786243203334",
+      "media": [
+        {
+          "height": 1080,
+          "media_key": "13_2094749622229229568",
+          "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2094749622229229568/img/BBh_LsaDU3UwaVUR.jpg",
+          "type": "video",
+          "width": 1920
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "note_tweet": null,
+      "parsed_fields": null,
+      "raw": {
+        "api_text": "✮••┈┈┈┈┈┈┈┈┈┈••✮\n                  楽曲公開 \n                 \"Beyond\"\n✮••┈┈┈┈┈┈┈┈┈┈••✮\n\n2026.9.2より順次配信開始\n🔗 https://t.co/Um81qXeQb7\n\n #myojou https://t.co/Y4YOScj8dM",
+        "attachments": {
+          "media_keys": [
+            "13_2094749622229229568"
+          ]
+        },
+        "created_at": "2026-09-01T11:30:42.000Z",
+        "edit_history_tweet_ids": [
+          "2094749786243203334"
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "end": 137,
+              "start": 130,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "description": "音楽配信サービスで myojou （ミョウジョウ）を聴く。",
+              "display_url": "tunecore.co.jp/artists?id=107…",
+              "end": 127,
+              "expanded_url": "https://www.tunecore.co.jp/artists?id=1078390",
+              "images": [
+                {
+                  "height": 500,
+                  "url": "https://pbs.twimg.com/news_img/2093379840141611008/wJgQvXFN?format=png&name=orig",
+                  "width": 500
+                },
+                {
+                  "height": 150,
+                  "url": "https://pbs.twimg.com/news_img/2093379840141611008/wJgQvXFN?format=png&name=150x150",
+                  "width": 150
+                }
+              ],
+              "start": 104,
+              "status": 200,
+              "title": "myojou",
+              "unwound_url": "https://www.tunecore.co.jp/artists?id=1078390",
+              "url": "https://t.co/Um81qXeQb7"
+            },
+            {
+              "display_url": "pic.x.com/Y4YOScj8dM",
+              "end": 161,
+              "expanded_url": "https://x.com/info_myojou/status/2094749786243203334/video/1",
+              "media_key": "13_2094749622229229568",
+              "start": 138,
+              "url": "https://t.co/Y4YOScj8dM"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈┈┈┈┈┈┈••✮\n                  楽曲公開 \n                 \"Beyond\"\n✮••┈┈┈┈┈┈┈┈┈┈••✮\n\n2026.9.2より順次配信開始\n🔗 https://t.co/Um81qXeQb7\n\n #myojou https://t.co/Y4YOScj8dM",
+        "full_text_source": "text",
+        "id": "2094749786243203334",
+        "media": [
+          {
+            "height": 1080,
+            "media_key": "13_2094749622229229568",
+            "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2094749622229229568/img/BBh_LsaDU3UwaVUR.jpg",
+            "type": "video",
+            "width": 1920
+          }
+        ],
+        "text": "✮••┈┈┈┈┈┈┈┈┈┈••✮\n                  楽曲公開 \n                 \"Beyond\"\n✮••┈┈┈┈┈┈┈┈┈┈••✮\n\n2026.9.2より順次配信開始\n🔗 https://t.co/Um81qXeQb7\n\n #myojou https://t.co/Y4YOScj8dM",
+        "truncated_text": null
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈┈┈┈┈┈┈••✮\n                  楽曲公開 \n                 \"Beyond\"\n✮••┈┈┈┈┈┈┈┈┈┈••✮\n\n2026.9.2より順次配信開始\n🔗 https://t.co/Um81qXeQb7\n\n #myojou https://t.co/Y4YOScj8dM",
+      "truncated_text": null,
+      "url": "https://x.com/info_myojou/status/2094749786243203334"
+    },
+    {
       "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n     サンキュー！ #ミョージョーサマー\n              プレゼント企画 第2弾\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n全メンバーサイン入り「浴衣集合チェキ」を抽選で6名様にプレゼント！🎁 https://t.co/qfgLLzLmOu",
       "attachments": {
         "media_keys": [
@@ -173257,7 +173559,7 @@
     "backfill": true,
     "dry_run": true,
     "estimated_x_post_reads": 411,
-    "latest_post_id": "2094422634339680554",
+    "latest_post_id": "2094757317954896317",
     "max_pages": 10,
     "max_posts": 500,
     "max_results": 5,
@@ -173300,16 +173602,16 @@
       }
     ],
     "pages_fetched": 5,
-    "posts_fetched": 792,
+    "posts_fetched": 794,
     "rate_limit_headers": {
       "x-rate-limit-limit": "10000",
       "x-rate-limit-remaining": "9993",
       "x-rate-limit-reset": "1781108896"
     },
-    "total_posts": 792,
-    "updated_at": "2026-08-31T23:09:21.229220+00:00",
+    "total_posts": 794,
+    "updated_at": "2026-09-01T21:39:38.347001+00:00",
     "username": "info_myojou"
   },
   "source": "x_api",
-  "updated_at": "2026-08-31T23:09:21.229220+00:00"
+  "updated_at": "2026-09-01T21:39:38.347001+00:00"
 }
