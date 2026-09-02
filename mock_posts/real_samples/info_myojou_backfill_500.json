@@ -2,6 +2,108 @@
   "captured_at": "2026-06-10T16:19:36.141820+00:00",
   "data": [
     {
+      "api_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            ˚.⋆ラジオ配信˖°⋆\n        myojou天体観測 #20\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣2026.09.02 22:30 プレミア公開\n⟣ myojou公式YouTubeチャンネル\n🔗 https://t.co/rLt1OJDoiL\n\n #myojou",
+      "attachments": {},
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "radio/non-live",
+        "source_kind": "other"
+      },
+      "created_at": "2026-09-02T12:54:54+00:00",
+      "entities": {
+        "hashtags": [
+          {
+            "end": 171,
+            "start": 164,
+            "tag": "myojou"
+          }
+        ],
+        "urls": [
+          {
+            "description": "「6人の少女が夜明けの空に描くストーリー」 公式X : https://x.com/info_myojou公式TikTok : ...",
+            "display_url": "youtu.be/rzq5FIAlTUw?si…",
+            "end": 161,
+            "expanded_url": "https://youtu.be/rzq5FIAlTUw?si=MFcNvDk9R4_RrnF0",
+            "images": [
+              {
+                "height": 720,
+                "url": "https://pbs.twimg.com/news_img/2095133413099581440/FS4Llze4?format=jpg&name=orig",
+                "width": 1280
+              },
+              {
+                "height": 150,
+                "url": "https://pbs.twimg.com/news_img/2095133413099581440/FS4Llze4?format=jpg&name=150x150",
+                "width": 150
+              }
+            ],
+            "start": 138,
+            "status": 200,
+            "title": "myojou天体観測 #20",
+            "unwound_url": "https://www.youtube.com/watch?si=MFcNvDk9R4_RrnF0&v=rzq5FIAlTUw&feature=youtu.be",
+            "url": "https://t.co/rLt1OJDoiL"
+          }
+        ]
+      },
+      "full_text_source": "text",
+      "id": "2095133366714789941",
+      "media": [],
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "note_tweet": null,
+      "parsed_fields": null,
+      "raw": {
+        "api_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            ˚.⋆ラジオ配信˖°⋆\n        myojou天体観測 #20\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣2026.09.02 22:30 プレミア公開\n⟣ myojou公式YouTubeチャンネル\n🔗 https://t.co/rLt1OJDoiL\n\n #myojou",
+        "created_at": "2026-09-02T12:54:54.000Z",
+        "edit_history_tweet_ids": [
+          "2095133366714789941"
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "end": 171,
+              "start": 164,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "description": "「6人の少女が夜明けの空に描くストーリー」 公式X : https://x.com/info_myojou公式TikTok : ...",
+              "display_url": "youtu.be/rzq5FIAlTUw?si…",
+              "end": 161,
+              "expanded_url": "https://youtu.be/rzq5FIAlTUw?si=MFcNvDk9R4_RrnF0",
+              "images": [
+                {
+                  "height": 720,
+                  "url": "https://pbs.twimg.com/news_img/2095133413099581440/FS4Llze4?format=jpg&name=orig",
+                  "width": 1280
+                },
+                {
+                  "height": 150,
+                  "url": "https://pbs.twimg.com/news_img/2095133413099581440/FS4Llze4?format=jpg&name=150x150",
+                  "width": 150
+                }
+              ],
+              "start": 138,
+              "status": 200,
+              "title": "myojou天体観測 #20",
+              "unwound_url": "https://www.youtube.com/watch?si=MFcNvDk9R4_RrnF0&v=rzq5FIAlTUw&feature=youtu.be",
+              "url": "https://t.co/rLt1OJDoiL"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            ˚.⋆ラジオ配信˖°⋆\n        myojou天体観測 #20\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣2026.09.02 22:30 プレミア公開\n⟣ myojou公式YouTubeチャンネル\n🔗 https://t.co/rLt1OJDoiL\n\n #myojou",
+        "full_text_source": "text",
+        "id": "2095133366714789941",
+        "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            ˚.⋆ラジオ配信˖°⋆\n        myojou天体観測 #20\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣2026.09.02 22:30 プレミア公開\n⟣ myojou公式YouTubeチャンネル\n🔗 https://t.co/rLt1OJDoiL\n\n #myojou",
+        "truncated_text": null
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n            ˚.⋆ラジオ配信˖°⋆\n        myojou天体観測 #20\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣2026.09.02 22:30 プレミア公開\n⟣ myojou公式YouTubeチャンネル\n🔗 https://t.co/rLt1OJDoiL\n\n #myojou",
+      "truncated_text": null,
+      "url": "https://x.com/info_myojou/status/2095133366714789941"
+    },
+    {
       "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                        YON PIECE \n     -ROMANCE DAWN 冒険の夜明け-\n          THANK YOU SOLD OUT!!!\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n2026年9月14日、\n全身全霊のmyojouを以て。 https://t.co/TS7nJ2oKot",
       "attachments": {
         "media_keys": [
@@ -173559,7 +173661,7 @@
     "backfill": true,
     "dry_run": true,
     "estimated_x_post_reads": 411,
-    "latest_post_id": "2094757317954896317",
+    "latest_post_id": "2095133366714789941",
     "max_pages": 10,
     "max_posts": 500,
     "max_results": 5,
@@ -173602,16 +173704,16 @@
       }
     ],
     "pages_fetched": 5,
-    "posts_fetched": 794,
+    "posts_fetched": 795,
     "rate_limit_headers": {
       "x-rate-limit-limit": "10000",
       "x-rate-limit-remaining": "9993",
       "x-rate-limit-reset": "1781108896"
     },
-    "total_posts": 794,
-    "updated_at": "2026-09-01T21:39:38.347001+00:00",
+    "total_posts": 795,
+    "updated_at": "2026-09-02T21:38:32.992314+00:00",
     "username": "info_myojou"
   },
   "source": "x_api",
-  "updated_at": "2026-09-01T21:39:38.347001+00:00"
+  "updated_at": "2026-09-02T21:38:32.992314+00:00"
 }
