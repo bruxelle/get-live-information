@@ -2,6 +2,803 @@
   "captured_at": "2026-06-10T16:19:36.141820+00:00",
   "data": [
     {
+      "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「myojou autumn tour 2026 \"秋星\" in NAGOYA」\n\n⟣date：9/5\n⟣place : 新栄シャングリラ\n⟣open/start：12:00/12:30\n⟣price：VIP（会場限定ノベルティ付き）¥8,000/一般¥2,000（各+1D）\n\n【名古屋公演一般受付期間】\n8/18（火）21:00-9/4（金）23:59\n🔗 https://t.co/mJLV1ASEPU",
+      "attachments": {
+        "media_keys": [
+          "3_2095888750803030018",
+          "3_2095888750786359296",
+          "3_2095888750798884864"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "day_before_reminder"
+      },
+      "created_at": "2026-09-04T14:56:33+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/mJLV1ASEPU",
+            "end": 227,
+            "expanded_url": "https://x.com/info_myojou/status/2095888756293394942/photo/1",
+            "media_key": "3_2095888750803030018",
+            "start": 204,
+            "url": "https://t.co/mJLV1ASEPU"
+          },
+          {
+            "display_url": "pic.x.com/mJLV1ASEPU",
+            "end": 227,
+            "expanded_url": "https://x.com/info_myojou/status/2095888756293394942/photo/1",
+            "media_key": "3_2095888750786359296",
+            "start": 204,
+            "url": "https://t.co/mJLV1ASEPU"
+          },
+          {
+            "display_url": "pic.x.com/mJLV1ASEPU",
+            "end": 227,
+            "expanded_url": "https://x.com/info_myojou/status/2095888756293394942/photo/1",
+            "media_key": "3_2095888750798884864",
+            "start": 204,
+            "url": "https://t.co/mJLV1ASEPU"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2095888756293394942",
+      "media": [
+        {
+          "height": 2047,
+          "media_key": "3_2095888750803030018",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HRYXtuBaEAIlp4H.jpg",
+          "width": 1448
+        },
+        {
+          "height": 2047,
+          "media_key": "3_2095888750786359296",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HRYXtt9bsAAnHHc.jpg",
+          "width": 1448
+        },
+        {
+          "height": 2048,
+          "media_key": "3_2095888750798884864",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HRYXtuAa0AAHKV1.jpg",
+          "width": 1456
+        }
+      ],
+      "needs_review": true,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 465,
+              "start": 458,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "t-dv.com/myojou_0905",
+              "end": 227,
+              "expanded_url": "http://t-dv.com/myojou_0905",
+              "start": 204,
+              "url": "https://t.co/bXBTAvGQ8x"
+            },
+            {
+              "display_url": "tiget.net/events/506716",
+              "end": 456,
+              "expanded_url": "http://tiget.net/events/506716",
+              "start": 433,
+              "url": "https://t.co/SAcY59IBvr"
+            }
+          ]
+        },
+        "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「myojou autumn tour 2026 \"秋星\" in NAGOYA」\n\n⟣date：9/5\n⟣place : 新栄シャングリラ\n⟣open/start：12:00/12:30\n⟣price：VIP（会場限定ノベルティ付き）¥8,000/一般¥2,000（各+1D）\n\n【名古屋公演一般受付期間】\n8/18（火）21:00-9/4（金）23:59\n🔗 https://t.co/bXBTAvGQ8x\n\n「NAGOYA GIRLS GIRLS extra!!」\n\n🎙19:10-19:35\n📸19:45-20:55 A\n\n⟣date：9/5（土）\n⟣place : Zephyr Hall\n⟣open/start：9:45/10:00\n⟣price：前方¥6,000/一般 ¥3,000/当日各＋¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/21（火）20:00-\n🔗https://t.co/SAcY59IBvr\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": "19:45-20:55",
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-09-05",
+        "event_dates": [
+          "2026-09-05"
+        ],
+        "event_name": "myojou autumn tour 2026 \"秋星\" in NAGOYA",
+        "extraction_confidence": 0.95,
+        "general_ticket_price": 2000,
+        "lottery_result_at": null,
+        "myojou_performance_time": "19:10-19:35",
+        "notes": "ドリンク代: 各+1D\n⟣入場特典:明星カード(サインありチェキ)",
+        "open_time": "12:00",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "VIP(会場限定ノベルティ付き)",
+        "priority_ticket_price": 8000,
+        "same_day_ticket_price": 1000,
+        "source_kind": "day_before_reminder",
+        "source_post_id": "2095888756293394942",
+        "source_posted_at": "2026-09-04T14:56:33Z",
+        "source_raw": {
+          "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「myojou autumn tour 2026 \"秋星\" in NAGOYA」\n\n⟣date：9/5\n⟣place : 新栄シャングリラ\n⟣open/start：12:00/12:30\n⟣price：VIP（会場限定ノベルティ付き）¥8,000/一般¥2,000（各+1D）\n\n【名古屋公演一般受付期間】\n8/18（火）21:00-9/4（金）23:59\n🔗 https://t.co/mJLV1ASEPU",
+          "attachments": {
+            "media_keys": [
+              "3_2095888750803030018",
+              "3_2095888750786359296",
+              "3_2095888750798884864"
+            ]
+          },
+          "created_at": "2026-09-04T14:56:33.000Z",
+          "edit_history_tweet_ids": [
+            "2095888756293394942"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/mJLV1ASEPU",
+                "end": 227,
+                "expanded_url": "https://x.com/info_myojou/status/2095888756293394942/photo/1",
+                "media_key": "3_2095888750803030018",
+                "start": 204,
+                "url": "https://t.co/mJLV1ASEPU"
+              },
+              {
+                "display_url": "pic.x.com/mJLV1ASEPU",
+                "end": 227,
+                "expanded_url": "https://x.com/info_myojou/status/2095888756293394942/photo/1",
+                "media_key": "3_2095888750786359296",
+                "start": 204,
+                "url": "https://t.co/mJLV1ASEPU"
+              },
+              {
+                "display_url": "pic.x.com/mJLV1ASEPU",
+                "end": 227,
+                "expanded_url": "https://x.com/info_myojou/status/2095888756293394942/photo/1",
+                "media_key": "3_2095888750798884864",
+                "start": 204,
+                "url": "https://t.co/mJLV1ASEPU"
+              }
+            ]
+          },
+          "full_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「myojou autumn tour 2026 \"秋星\" in NAGOYA」\n\n⟣date：9/5\n⟣place : 新栄シャングリラ\n⟣open/start：12:00/12:30\n⟣price：VIP（会場限定ノベルティ付き）¥8,000/一般¥2,000（各+1D）\n\n【名古屋公演一般受付期間】\n8/18（火）21:00-9/4（金）23:59\n🔗 https://t.co/bXBTAvGQ8x\n\n「NAGOYA GIRLS GIRLS extra!!」\n\n🎙19:10-19:35\n📸19:45-20:55 A\n\n⟣date：9/5（土）\n⟣place : Zephyr Hall\n⟣open/start：9:45/10:00\n⟣price：前方¥6,000/一般 ¥3,000/当日各＋¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/21（火）20:00-\n🔗https://t.co/SAcY59IBvr\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2095888756293394942",
+          "media": [
+            {
+              "height": 2047,
+              "media_key": "3_2095888750803030018",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HRYXtuBaEAIlp4H.jpg",
+              "width": 1448
+            },
+            {
+              "height": 2047,
+              "media_key": "3_2095888750786359296",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HRYXtt9bsAAnHHc.jpg",
+              "width": 1448
+            },
+            {
+              "height": 2048,
+              "media_key": "3_2095888750798884864",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HRYXtuAa0AAHKV1.jpg",
+              "width": 1456
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 465,
+                  "start": 458,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "t-dv.com/myojou_0905",
+                  "end": 227,
+                  "expanded_url": "http://t-dv.com/myojou_0905",
+                  "start": 204,
+                  "url": "https://t.co/bXBTAvGQ8x"
+                },
+                {
+                  "display_url": "tiget.net/events/506716",
+                  "end": 456,
+                  "expanded_url": "http://tiget.net/events/506716",
+                  "start": 433,
+                  "url": "https://t.co/SAcY59IBvr"
+                }
+              ]
+            },
+            "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「myojou autumn tour 2026 \"秋星\" in NAGOYA」\n\n⟣date：9/5\n⟣place : 新栄シャングリラ\n⟣open/start：12:00/12:30\n⟣price：VIP（会場限定ノベルティ付き）¥8,000/一般¥2,000（各+1D）\n\n【名古屋公演一般受付期間】\n8/18（火）21:00-9/4（金）23:59\n🔗 https://t.co/bXBTAvGQ8x\n\n「NAGOYA GIRLS GIRLS extra!!」\n\n🎙19:10-19:35\n📸19:45-20:55 A\n\n⟣date：9/5（土）\n⟣place : Zephyr Hall\n⟣open/start：9:45/10:00\n⟣price：前方¥6,000/一般 ¥3,000/当日各＋¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/21（火）20:00-\n🔗https://t.co/SAcY59IBvr\n\n#myojou"
+          },
+          "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「myojou autumn tour 2026 \"秋星\" in NAGOYA」\n\n⟣date：9/5\n⟣place : 新栄シャングリラ\n⟣open/start：12:00/12:30\n⟣price：VIP（会場限定ノベルティ付き）¥8,000/一般¥2,000（各+1D）\n\n【名古屋公演一般受付期間】\n8/18（火）21:00-9/4（金）23:59\n🔗 https://t.co/mJLV1ASEPU",
+          "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「myojou autumn tour 2026 \"秋星\" in NAGOYA」\n\n⟣date：9/5\n⟣place : 新栄シャングリラ\n⟣open/start：12:00/12:30\n⟣price：VIP（会場限定ノベルティ付き）¥8,000/一般¥2,000（各+1D）\n\n【名古屋公演一般受付期間】\n8/18（火）21:00-9/4（金）23:59\n🔗 https://t.co/mJLV1ASEPU"
+        },
+        "source_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「myojou autumn tour 2026 \"秋星\" in NAGOYA」\n\n⟣date：9/5\n⟣place : 新栄シャングリラ\n⟣open/start：12:00/12:30\n⟣price：VIP（会場限定ノベルティ付き）¥8,000/一般¥2,000（各+1D）\n\n【名古屋公演一般受付期間】\n8/18（火）21:00-9/4（金）23:59\n🔗 https://t.co/bXBTAvGQ8x\n\n「NAGOYA GIRLS GIRLS extra!!」\n\n🎙19:10-19:35\n📸19:45-20:55 A\n\n⟣date：9/5（土）\n⟣place : Zephyr Hall\n⟣open/start：9:45/10:00\n⟣price：前方¥6,000/一般 ¥3,000/当日各＋¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/21（火）20:00-\n🔗https://t.co/SAcY59IBvr\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2095888756293394942",
+        "start_time": "12:30",
+        "ticket_application_deadline_at": "2026-09-04T23:59:00+09:00",
+        "ticket_application_start_at": "2026-08-18T21:00:00+09:00",
+        "ticket_sale_type": "一般",
+        "ticket_sales": [
+          {
+            "deadline_at": "2026-09-04T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 8000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2095888756293394942",
+            "source_url": "https://x.com/info_myojou/status/2095888756293394942",
+            "start_at": "2026-08-18T21:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "VIP",
+            "ticket_tier": "VIP"
+          },
+          {
+            "deadline_at": "2026-09-04T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 2000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2095888756293394942",
+            "source_url": "https://x.com/info_myojou/status/2095888756293394942",
+            "start_at": "2026-08-18T21:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          },
+          {
+            "deadline_at": "2026-09-04T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 6000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2095888756293394942",
+            "source_url": "https://x.com/info_myojou/status/2095888756293394942",
+            "start_at": "2026-08-18T21:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "前方",
+            "ticket_tier": "前方"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 8000,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2095888756293394942",
+            "source_url": "https://x.com/info_myojou/status/2095888756293394942",
+            "start_at": "2026-07-21T20:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "VIP",
+            "ticket_tier": "VIP"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 2000,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2095888756293394942",
+            "source_url": "https://x.com/info_myojou/status/2095888756293394942",
+            "start_at": "2026-07-21T20:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 6000,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2095888756293394942",
+            "source_url": "https://x.com/info_myojou/status/2095888756293394942",
+            "start_at": "2026-07-21T20:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "前方",
+            "ticket_tier": "前方"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 1000,
+            "result_at": null,
+            "sale_type": "当日券",
+            "source_post_id": "2095888756293394942",
+            "source_url": "https://x.com/info_myojou/status/2095888756293394942",
+            "start_at": null,
+            "status": "販売中",
+            "ticket_name": "当日券",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "http://t-dv.com/myojou_0905",
+        "venue": "新栄シャングリラ"
+      },
+      "raw": {
+        "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「myojou autumn tour 2026 \"秋星\" in NAGOYA」\n\n⟣date：9/5\n⟣place : 新栄シャングリラ\n⟣open/start：12:00/12:30\n⟣price：VIP（会場限定ノベルティ付き）¥8,000/一般¥2,000（各+1D）\n\n【名古屋公演一般受付期間】\n8/18（火）21:00-9/4（金）23:59\n🔗 https://t.co/mJLV1ASEPU",
+        "attachments": {
+          "media_keys": [
+            "3_2095888750803030018",
+            "3_2095888750786359296",
+            "3_2095888750798884864"
+          ]
+        },
+        "created_at": "2026-09-04T14:56:33.000Z",
+        "edit_history_tweet_ids": [
+          "2095888756293394942"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/mJLV1ASEPU",
+              "end": 227,
+              "expanded_url": "https://x.com/info_myojou/status/2095888756293394942/photo/1",
+              "media_key": "3_2095888750803030018",
+              "start": 204,
+              "url": "https://t.co/mJLV1ASEPU"
+            },
+            {
+              "display_url": "pic.x.com/mJLV1ASEPU",
+              "end": 227,
+              "expanded_url": "https://x.com/info_myojou/status/2095888756293394942/photo/1",
+              "media_key": "3_2095888750786359296",
+              "start": 204,
+              "url": "https://t.co/mJLV1ASEPU"
+            },
+            {
+              "display_url": "pic.x.com/mJLV1ASEPU",
+              "end": 227,
+              "expanded_url": "https://x.com/info_myojou/status/2095888756293394942/photo/1",
+              "media_key": "3_2095888750798884864",
+              "start": 204,
+              "url": "https://t.co/mJLV1ASEPU"
+            }
+          ]
+        },
+        "full_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「myojou autumn tour 2026 \"秋星\" in NAGOYA」\n\n⟣date：9/5\n⟣place : 新栄シャングリラ\n⟣open/start：12:00/12:30\n⟣price：VIP（会場限定ノベルティ付き）¥8,000/一般¥2,000（各+1D）\n\n【名古屋公演一般受付期間】\n8/18（火）21:00-9/4（金）23:59\n🔗 https://t.co/bXBTAvGQ8x\n\n「NAGOYA GIRLS GIRLS extra!!」\n\n🎙19:10-19:35\n📸19:45-20:55 A\n\n⟣date：9/5（土）\n⟣place : Zephyr Hall\n⟣open/start：9:45/10:00\n⟣price：前方¥6,000/一般 ¥3,000/当日各＋¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/21（火）20:00-\n🔗https://t.co/SAcY59IBvr\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2095888756293394942",
+        "media": [
+          {
+            "height": 2047,
+            "media_key": "3_2095888750803030018",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HRYXtuBaEAIlp4H.jpg",
+            "width": 1448
+          },
+          {
+            "height": 2047,
+            "media_key": "3_2095888750786359296",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HRYXtt9bsAAnHHc.jpg",
+            "width": 1448
+          },
+          {
+            "height": 2048,
+            "media_key": "3_2095888750798884864",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HRYXtuAa0AAHKV1.jpg",
+            "width": 1456
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 465,
+                "start": 458,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "t-dv.com/myojou_0905",
+                "end": 227,
+                "expanded_url": "http://t-dv.com/myojou_0905",
+                "start": 204,
+                "url": "https://t.co/bXBTAvGQ8x"
+              },
+              {
+                "display_url": "tiget.net/events/506716",
+                "end": 456,
+                "expanded_url": "http://tiget.net/events/506716",
+                "start": 433,
+                "url": "https://t.co/SAcY59IBvr"
+              }
+            ]
+          },
+          "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「myojou autumn tour 2026 \"秋星\" in NAGOYA」\n\n⟣date：9/5\n⟣place : 新栄シャングリラ\n⟣open/start：12:00/12:30\n⟣price：VIP（会場限定ノベルティ付き）¥8,000/一般¥2,000（各+1D）\n\n【名古屋公演一般受付期間】\n8/18（火）21:00-9/4（金）23:59\n🔗 https://t.co/bXBTAvGQ8x\n\n「NAGOYA GIRLS GIRLS extra!!」\n\n🎙19:10-19:35\n📸19:45-20:55 A\n\n⟣date：9/5（土）\n⟣place : Zephyr Hall\n⟣open/start：9:45/10:00\n⟣price：前方¥6,000/一般 ¥3,000/当日各＋¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/21（火）20:00-\n🔗https://t.co/SAcY59IBvr\n\n#myojou"
+        },
+        "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「myojou autumn tour 2026 \"秋星\" in NAGOYA」\n\n⟣date：9/5\n⟣place : 新栄シャングリラ\n⟣open/start：12:00/12:30\n⟣price：VIP（会場限定ノベルティ付き）¥8,000/一般¥2,000（各+1D）\n\n【名古屋公演一般受付期間】\n8/18（火）21:00-9/4（金）23:59\n🔗 https://t.co/mJLV1ASEPU",
+        "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「myojou autumn tour 2026 \"秋星\" in NAGOYA」\n\n⟣date：9/5\n⟣place : 新栄シャングリラ\n⟣open/start：12:00/12:30\n⟣price：VIP（会場限定ノベルティ付き）¥8,000/一般¥2,000（各+1D）\n\n【名古屋公演一般受付期間】\n8/18（火）21:00-9/4（金）23:59\n🔗 https://t.co/mJLV1ASEPU"
+      },
+      "referenced_tweets": [],
+      "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「myojou autumn tour 2026 \"秋星\" in NAGOYA」\n\n⟣date：9/5\n⟣place : 新栄シャングリラ\n⟣open/start：12:00/12:30\n⟣price：VIP（会場限定ノベルティ付き）¥8,000/一般¥2,000（各+1D）\n\n【名古屋公演一般受付期間】\n8/18（火）21:00-9/4（金）23:59\n🔗 https://t.co/bXBTAvGQ8x\n\n「NAGOYA GIRLS GIRLS extra!!」\n\n🎙19:10-19:35\n📸19:45-20:55 A\n\n⟣date：9/5（土）\n⟣place : Zephyr Hall\n⟣open/start：9:45/10:00\n⟣price：前方¥6,000/一般 ¥3,000/当日各＋¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/21（火）20:00-\n🔗https://t.co/SAcY59IBvr\n\n#myojou",
+      "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「myojou autumn tour 2026 \"秋星\" in NAGOYA」\n\n⟣date：9/5\n⟣place : 新栄シャングリラ\n⟣open/start：12:00/12:30\n⟣price：VIP（会場限定ノベルティ付き）¥8,000/一般¥2,000（各+1D）\n\n【名古屋公演一般受付期間】\n8/18（火）21:00-9/4（金）23:59\n🔗 https://t.co/mJLV1ASEPU",
+      "url": "https://x.com/info_myojou/status/2095888756293394942"
+    },
+    {
+      "api_text": "【薄倉りなに関するお知らせ】 https://t.co/Me7it18gGs",
+      "attachments": {
+        "media_keys": [
+          "3_2095844443215822848"
+        ]
+      },
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "profile/member introduction",
+        "source_kind": "other"
+      },
+      "created_at": "2026-09-04T12:00:30+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/Me7it18gGs",
+            "end": 38,
+            "expanded_url": "https://x.com/info_myojou/status/2095844448588664945/photo/1",
+            "media_key": "3_2095844443215822848",
+            "start": 15,
+            "url": "https://t.co/Me7it18gGs"
+          }
+        ]
+      },
+      "full_text_source": "text",
+      "id": "2095844448588664945",
+      "media": [
+        {
+          "height": 1683,
+          "media_key": "3_2095844443215822848",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HRXvarZbAAA_Lx2.jpg",
+          "width": 1190
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "note_tweet": null,
+      "parsed_fields": null,
+      "raw": {
+        "api_text": "【薄倉りなに関するお知らせ】 https://t.co/Me7it18gGs",
+        "attachments": {
+          "media_keys": [
+            "3_2095844443215822848"
+          ]
+        },
+        "created_at": "2026-09-04T12:00:30.000Z",
+        "edit_history_tweet_ids": [
+          "2095844448588664945"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/Me7it18gGs",
+              "end": 38,
+              "expanded_url": "https://x.com/info_myojou/status/2095844448588664945/photo/1",
+              "media_key": "3_2095844443215822848",
+              "start": 15,
+              "url": "https://t.co/Me7it18gGs"
+            }
+          ]
+        },
+        "full_text": "【薄倉りなに関するお知らせ】 https://t.co/Me7it18gGs",
+        "full_text_source": "text",
+        "id": "2095844448588664945",
+        "media": [
+          {
+            "height": 1683,
+            "media_key": "3_2095844443215822848",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HRXvarZbAAA_Lx2.jpg",
+            "width": 1190
+          }
+        ],
+        "text": "【薄倉りなに関するお知らせ】 https://t.co/Me7it18gGs",
+        "truncated_text": null
+      },
+      "referenced_tweets": [],
+      "text": "【薄倉りなに関するお知らせ】 https://t.co/Me7it18gGs",
+      "truncated_text": null,
+      "url": "https://x.com/info_myojou/status/2095844448588664945"
+    },
+    {
+      "api_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n                Devil ANTHEM. presents\n  「でびぱっぱ Road to 幕張イベントホール」\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：11/5（木）\n⟣place : Shibuya LOVEZ / Veats Shibuya\n⟣open/start：\nShibuya LOVEZ https://t.co/tKMe3mG9GI",
+      "attachments": {
+        "media_keys": [
+          "3_2095814873326530560"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "ticket_update"
+      },
+      "created_at": "2026-09-04T10:03:01+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/tKMe3mG9GI",
+            "end": 223,
+            "expanded_url": "https://x.com/info_myojou/status/2095814884701397221/photo/1",
+            "media_key": "3_2095814873326530560",
+            "start": 200,
+            "url": "https://t.co/tKMe3mG9GI"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2095814884701397221",
+      "media": [
+        {
+          "height": 2500,
+          "media_key": "3_2095814873326530560",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HRXUhe-bsAAx55E.jpg",
+          "width": 1725
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 412,
+              "start": 405,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "ticketvillage.jp/events/13876",
+              "end": 403,
+              "expanded_url": "https://ticketvillage.jp/events/13876",
+              "start": 380,
+              "url": "https://t.co/O7ztPbGfWi"
+            }
+          ]
+        },
+        "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n                Devil ANTHEM. presents\n  「でびぱっぱ Road to 幕張イベントホール」\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：11/5（木）\n⟣place : Shibuya LOVEZ / Veats Shibuya\n⟣open/start：\nShibuya LOVEZ 12:00（仮）/13:00（仮）\nVeats Shibuya 11:30（仮）/12:00（仮）\n⟣price：ぱっぱチケット(優先エリア）¥10,000 / 一般チケット(一般エリア)¥3,000(各+1D)※優先エリアはLOVEZのみの設置\n\n【先行抽選】\n9/4（金）19:00-9/21（月）23:59\n【一般先着】\n9/23（水）19:00-\n🔗 https://t.co/O7ztPbGfWi\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": null,
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-11-05",
+        "event_dates": [
+          "2026-11-05"
+        ],
+        "event_name": "でびぱっぱ Road to 幕張イベントホール",
+        "extraction_confidence": 0.8,
+        "general_ticket_price": 3000,
+        "lottery_result_at": null,
+        "myojou_performance_time": null,
+        "notes": "ドリンク代: 各+1D",
+        "open_time": null,
+        "payment_deadline_at": null,
+        "priority_ticket_name": "優先エリア)",
+        "priority_ticket_price": 10000,
+        "same_day_ticket_price": null,
+        "source_kind": "ticket_update",
+        "source_post_id": "2095814884701397221",
+        "source_posted_at": "2026-09-04T10:03:01Z",
+        "source_raw": {
+          "api_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n                Devil ANTHEM. presents\n  「でびぱっぱ Road to 幕張イベントホール」\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：11/5（木）\n⟣place : Shibuya LOVEZ / Veats Shibuya\n⟣open/start：\nShibuya LOVEZ https://t.co/tKMe3mG9GI",
+          "attachments": {
+            "media_keys": [
+              "3_2095814873326530560"
+            ]
+          },
+          "created_at": "2026-09-04T10:03:01.000Z",
+          "edit_history_tweet_ids": [
+            "2095814884701397221"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/tKMe3mG9GI",
+                "end": 223,
+                "expanded_url": "https://x.com/info_myojou/status/2095814884701397221/photo/1",
+                "media_key": "3_2095814873326530560",
+                "start": 200,
+                "url": "https://t.co/tKMe3mG9GI"
+              }
+            ]
+          },
+          "full_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n                Devil ANTHEM. presents\n  「でびぱっぱ Road to 幕張イベントホール」\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：11/5（木）\n⟣place : Shibuya LOVEZ / Veats Shibuya\n⟣open/start：\nShibuya LOVEZ 12:00（仮）/13:00（仮）\nVeats Shibuya 11:30（仮）/12:00（仮）\n⟣price：ぱっぱチケット(優先エリア）¥10,000 / 一般チケット(一般エリア)¥3,000(各+1D)※優先エリアはLOVEZのみの設置\n\n【先行抽選】\n9/4（金）19:00-9/21（月）23:59\n【一般先着】\n9/23（水）19:00-\n🔗 https://t.co/O7ztPbGfWi\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2095814884701397221",
+          "media": [
+            {
+              "height": 2500,
+              "media_key": "3_2095814873326530560",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HRXUhe-bsAAx55E.jpg",
+              "width": 1725
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 412,
+                  "start": 405,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "ticketvillage.jp/events/13876",
+                  "end": 403,
+                  "expanded_url": "https://ticketvillage.jp/events/13876",
+                  "start": 380,
+                  "url": "https://t.co/O7ztPbGfWi"
+                }
+              ]
+            },
+            "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n                Devil ANTHEM. presents\n  「でびぱっぱ Road to 幕張イベントホール」\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：11/5（木）\n⟣place : Shibuya LOVEZ / Veats Shibuya\n⟣open/start：\nShibuya LOVEZ 12:00（仮）/13:00（仮）\nVeats Shibuya 11:30（仮）/12:00（仮）\n⟣price：ぱっぱチケット(優先エリア）¥10,000 / 一般チケット(一般エリア)¥3,000(各+1D)※優先エリアはLOVEZのみの設置\n\n【先行抽選】\n9/4（金）19:00-9/21（月）23:59\n【一般先着】\n9/23（水）19:00-\n🔗 https://t.co/O7ztPbGfWi\n\n#myojou"
+          },
+          "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n                Devil ANTHEM. presents\n  「でびぱっぱ Road to 幕張イベントホール」\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：11/5（木）\n⟣place : Shibuya LOVEZ / Veats Shibuya\n⟣open/start：\nShibuya LOVEZ https://t.co/tKMe3mG9GI",
+          "truncated_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n                Devil ANTHEM. presents\n  「でびぱっぱ Road to 幕張イベントホール」\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：11/5（木）\n⟣place : Shibuya LOVEZ / Veats Shibuya\n⟣open/start：\nShibuya LOVEZ https://t.co/tKMe3mG9GI"
+        },
+        "source_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n                Devil ANTHEM. presents\n  「でびぱっぱ Road to 幕張イベントホール」\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：11/5（木）\n⟣place : Shibuya LOVEZ / Veats Shibuya\n⟣open/start：\nShibuya LOVEZ 12:00（仮）/13:00（仮）\nVeats Shibuya 11:30（仮）/12:00（仮）\n⟣price：ぱっぱチケット(優先エリア）¥10,000 / 一般チケット(一般エリア)¥3,000(各+1D)※優先エリアはLOVEZのみの設置\n\n【先行抽選】\n9/4（金）19:00-9/21（月）23:59\n【一般先着】\n9/23（水）19:00-\n🔗 https://t.co/O7ztPbGfWi\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2095814884701397221",
+        "start_time": null,
+        "ticket_application_deadline_at": "2026-09-21T23:59:00+09:00",
+        "ticket_application_start_at": "2026-09-04T19:00:00+09:00",
+        "ticket_sale_type": "抽選",
+        "ticket_sales": [
+          {
+            "deadline_at": "2026-09-21T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 10000,
+            "result_at": null,
+            "sale_type": "抽選",
+            "source_post_id": "2095814884701397221",
+            "source_url": "https://x.com/info_myojou/status/2095814884701397221",
+            "start_at": "2026-09-04T19:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "ぱっぱチケット",
+            "ticket_tier": "優先"
+          },
+          {
+            "deadline_at": "2026-09-21T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 3000,
+            "result_at": null,
+            "sale_type": "抽選",
+            "source_post_id": "2095814884701397221",
+            "source_url": "https://x.com/info_myojou/status/2095814884701397221",
+            "start_at": "2026-09-04T19:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般チケット",
+            "ticket_tier": "優先"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 10000,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2095814884701397221",
+            "source_url": "https://x.com/info_myojou/status/2095814884701397221",
+            "start_at": "2026-09-23T19:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "ぱっぱチケット",
+            "ticket_tier": "優先"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 3000,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2095814884701397221",
+            "source_url": "https://x.com/info_myojou/status/2095814884701397221",
+            "start_at": "2026-09-23T19:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般チケット",
+            "ticket_tier": "優先"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "https://ticketvillage.jp/events/13876",
+        "venue": "Shibuya LOVEZ / Veats Shibuya"
+      },
+      "raw": {
+        "api_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n                Devil ANTHEM. presents\n  「でびぱっぱ Road to 幕張イベントホール」\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：11/5（木）\n⟣place : Shibuya LOVEZ / Veats Shibuya\n⟣open/start：\nShibuya LOVEZ https://t.co/tKMe3mG9GI",
+        "attachments": {
+          "media_keys": [
+            "3_2095814873326530560"
+          ]
+        },
+        "created_at": "2026-09-04T10:03:01.000Z",
+        "edit_history_tweet_ids": [
+          "2095814884701397221"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/tKMe3mG9GI",
+              "end": 223,
+              "expanded_url": "https://x.com/info_myojou/status/2095814884701397221/photo/1",
+              "media_key": "3_2095814873326530560",
+              "start": 200,
+              "url": "https://t.co/tKMe3mG9GI"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n                Devil ANTHEM. presents\n  「でびぱっぱ Road to 幕張イベントホール」\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：11/5（木）\n⟣place : Shibuya LOVEZ / Veats Shibuya\n⟣open/start：\nShibuya LOVEZ 12:00（仮）/13:00（仮）\nVeats Shibuya 11:30（仮）/12:00（仮）\n⟣price：ぱっぱチケット(優先エリア）¥10,000 / 一般チケット(一般エリア)¥3,000(各+1D)※優先エリアはLOVEZのみの設置\n\n【先行抽選】\n9/4（金）19:00-9/21（月）23:59\n【一般先着】\n9/23（水）19:00-\n🔗 https://t.co/O7ztPbGfWi\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2095814884701397221",
+        "media": [
+          {
+            "height": 2500,
+            "media_key": "3_2095814873326530560",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HRXUhe-bsAAx55E.jpg",
+            "width": 1725
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 412,
+                "start": 405,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "ticketvillage.jp/events/13876",
+                "end": 403,
+                "expanded_url": "https://ticketvillage.jp/events/13876",
+                "start": 380,
+                "url": "https://t.co/O7ztPbGfWi"
+              }
+            ]
+          },
+          "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n                Devil ANTHEM. presents\n  「でびぱっぱ Road to 幕張イベントホール」\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：11/5（木）\n⟣place : Shibuya LOVEZ / Veats Shibuya\n⟣open/start：\nShibuya LOVEZ 12:00（仮）/13:00（仮）\nVeats Shibuya 11:30（仮）/12:00（仮）\n⟣price：ぱっぱチケット(優先エリア）¥10,000 / 一般チケット(一般エリア)¥3,000(各+1D)※優先エリアはLOVEZのみの設置\n\n【先行抽選】\n9/4（金）19:00-9/21（月）23:59\n【一般先着】\n9/23（水）19:00-\n🔗 https://t.co/O7ztPbGfWi\n\n#myojou"
+        },
+        "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n                Devil ANTHEM. presents\n  「でびぱっぱ Road to 幕張イベントホール」\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：11/5（木）\n⟣place : Shibuya LOVEZ / Veats Shibuya\n⟣open/start：\nShibuya LOVEZ https://t.co/tKMe3mG9GI",
+        "truncated_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n                Devil ANTHEM. presents\n  「でびぱっぱ Road to 幕張イベントホール」\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：11/5（木）\n⟣place : Shibuya LOVEZ / Veats Shibuya\n⟣open/start：\nShibuya LOVEZ https://t.co/tKMe3mG9GI"
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n                Devil ANTHEM. presents\n  「でびぱっぱ Road to 幕張イベントホール」\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：11/5（木）\n⟣place : Shibuya LOVEZ / Veats Shibuya\n⟣open/start：\nShibuya LOVEZ 12:00（仮）/13:00（仮）\nVeats Shibuya 11:30（仮）/12:00（仮）\n⟣price：ぱっぱチケット(優先エリア）¥10,000 / 一般チケット(一般エリア)¥3,000(各+1D)※優先エリアはLOVEZのみの設置\n\n【先行抽選】\n9/4（金）19:00-9/21（月）23:59\n【一般先着】\n9/23（水）19:00-\n🔗 https://t.co/O7ztPbGfWi\n\n#myojou",
+      "truncated_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n                Devil ANTHEM. presents\n  「でびぱっぱ Road to 幕張イベントホール」\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：11/5（木）\n⟣place : Shibuya LOVEZ / Veats Shibuya\n⟣open/start：\nShibuya LOVEZ https://t.co/tKMe3mG9GI",
+      "url": "https://x.com/info_myojou/status/2095814884701397221"
+    },
+    {
       "api_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n         myojou autumn tour 2026 \"秋星\"   \n           グッズ、名古屋ノベルティ公開\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣myojou autumn tour 2026\"秋星\"Tシャツ¥3,500 https://t.co/JZGhTVoZej",
       "attachments": {
         "media_keys": [
@@ -174247,7 +175044,7 @@
     "backfill": true,
     "dry_run": true,
     "estimated_x_post_reads": 411,
-    "latest_post_id": "2095466845340103110",
+    "latest_post_id": "2095888756293394942",
     "max_pages": 10,
     "max_posts": 500,
     "max_results": 5,
@@ -174290,16 +175087,16 @@
       }
     ],
     "pages_fetched": 5,
-    "posts_fetched": 797,
+    "posts_fetched": 800,
     "rate_limit_headers": {
       "x-rate-limit-limit": "10000",
       "x-rate-limit-remaining": "9993",
       "x-rate-limit-reset": "1781108896"
     },
-    "total_posts": 797,
-    "updated_at": "2026-09-03T21:36:11.478820+00:00",
+    "total_posts": 800,
+    "updated_at": "2026-09-04T21:18:40.587548+00:00",
     "username": "info_myojou"
   },
   "source": "x_api",
-  "updated_at": "2026-09-03T21:36:11.478820+00:00"
+  "updated_at": "2026-09-04T21:18:40.587548+00:00"
 }
