@@ -2,6 +2,1221 @@
   "captured_at": "2026-06-10T16:19:36.141820+00:00",
   "data": [
     {
+      "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「NAGOYA GIRLS GIRLS extra!!｣\n\n🎙17:40-18:05\n📸18:15-19:25 B\n\n⟣date：9/6（日）\n⟣place : Zephyr Hall\n⟣open/start：9:45/10:00\n⟣price：前方¥6,000/一般 ¥3,000/当日各＋¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】 https://t.co/40gDw2kJiW",
+      "attachments": {
+        "media_keys": [
+          "3_2096243883923648512"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "day_before_reminder"
+      },
+      "created_at": "2026-09-05T14:27:44+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/40gDw2kJiW",
+            "end": 235,
+            "expanded_url": "https://x.com/info_myojou/status/2096243890198335878/photo/1",
+            "media_key": "3_2096243883923648512",
+            "start": 212,
+            "url": "https://t.co/40gDw2kJiW"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2096243890198335878",
+      "media": [
+        {
+          "height": 2048,
+          "media_key": "3_2096243883923648512",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HRdatL_asAA146U.jpg",
+          "width": 1456
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 259,
+              "start": 252,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "tiget.net/events/506718",
+              "end": 250,
+              "expanded_url": "http://tiget.net/events/506718",
+              "start": 227,
+              "url": "https://t.co/pdhvKp7HC5"
+            }
+          ]
+        },
+        "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「NAGOYA GIRLS GIRLS extra!!｣\n\n🎙17:40-18:05\n📸18:15-19:25 B\n\n⟣date：9/6（日）\n⟣place : Zephyr Hall\n⟣open/start：9:45/10:00\n⟣price：前方¥6,000/一般 ¥3,000/当日各＋¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/21（火）20:00-\n🔗https://t.co/pdhvKp7HC5\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": "18:15-19:25",
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-09-06",
+        "event_dates": [
+          "2026-09-06"
+        ],
+        "event_name": null,
+        "extraction_confidence": 0.85,
+        "general_ticket_price": 3000,
+        "lottery_result_at": null,
+        "myojou_performance_time": "17:40-18:05",
+        "notes": "ドリンク代: 各+1D\n⟣入場特典:明星カード(サインありチェキ)",
+        "open_time": "09:45",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "前方",
+        "priority_ticket_price": 6000,
+        "same_day_ticket_price": 1000,
+        "source_kind": "day_before_reminder",
+        "source_post_id": "2096243890198335878",
+        "source_posted_at": "2026-09-05T14:27:44Z",
+        "source_raw": {
+          "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「NAGOYA GIRLS GIRLS extra!!｣\n\n🎙17:40-18:05\n📸18:15-19:25 B\n\n⟣date：9/6（日）\n⟣place : Zephyr Hall\n⟣open/start：9:45/10:00\n⟣price：前方¥6,000/一般 ¥3,000/当日各＋¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】 https://t.co/40gDw2kJiW",
+          "attachments": {
+            "media_keys": [
+              "3_2096243883923648512"
+            ]
+          },
+          "created_at": "2026-09-05T14:27:44.000Z",
+          "edit_history_tweet_ids": [
+            "2096243890198335878"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/40gDw2kJiW",
+                "end": 235,
+                "expanded_url": "https://x.com/info_myojou/status/2096243890198335878/photo/1",
+                "media_key": "3_2096243883923648512",
+                "start": 212,
+                "url": "https://t.co/40gDw2kJiW"
+              }
+            ]
+          },
+          "full_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「NAGOYA GIRLS GIRLS extra!!｣\n\n🎙17:40-18:05\n📸18:15-19:25 B\n\n⟣date：9/6（日）\n⟣place : Zephyr Hall\n⟣open/start：9:45/10:00\n⟣price：前方¥6,000/一般 ¥3,000/当日各＋¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/21（火）20:00-\n🔗https://t.co/pdhvKp7HC5\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2096243890198335878",
+          "media": [
+            {
+              "height": 2048,
+              "media_key": "3_2096243883923648512",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HRdatL_asAA146U.jpg",
+              "width": 1456
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 259,
+                  "start": 252,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "tiget.net/events/506718",
+                  "end": 250,
+                  "expanded_url": "http://tiget.net/events/506718",
+                  "start": 227,
+                  "url": "https://t.co/pdhvKp7HC5"
+                }
+              ]
+            },
+            "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「NAGOYA GIRLS GIRLS extra!!｣\n\n🎙17:40-18:05\n📸18:15-19:25 B\n\n⟣date：9/6（日）\n⟣place : Zephyr Hall\n⟣open/start：9:45/10:00\n⟣price：前方¥6,000/一般 ¥3,000/当日各＋¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/21（火）20:00-\n🔗https://t.co/pdhvKp7HC5\n\n#myojou"
+          },
+          "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「NAGOYA GIRLS GIRLS extra!!｣\n\n🎙17:40-18:05\n📸18:15-19:25 B\n\n⟣date：9/6（日）\n⟣place : Zephyr Hall\n⟣open/start：9:45/10:00\n⟣price：前方¥6,000/一般 ¥3,000/当日各＋¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】 https://t.co/40gDw2kJiW",
+          "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「NAGOYA GIRLS GIRLS extra!!｣\n\n🎙17:40-18:05\n📸18:15-19:25 B\n\n⟣date：9/6（日）\n⟣place : Zephyr Hall\n⟣open/start：9:45/10:00\n⟣price：前方¥6,000/一般 ¥3,000/当日各＋¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】 https://t.co/40gDw2kJiW"
+        },
+        "source_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「NAGOYA GIRLS GIRLS extra!!｣\n\n🎙17:40-18:05\n📸18:15-19:25 B\n\n⟣date：9/6（日）\n⟣place : Zephyr Hall\n⟣open/start：9:45/10:00\n⟣price：前方¥6,000/一般 ¥3,000/当日各＋¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/21（火）20:00-\n🔗https://t.co/pdhvKp7HC5\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2096243890198335878",
+        "start_time": "10:00",
+        "ticket_application_deadline_at": null,
+        "ticket_application_start_at": "2026-07-21T20:00:00+09:00",
+        "ticket_sale_type": "先着",
+        "ticket_sales": [
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 6000,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2096243890198335878",
+            "source_url": "https://x.com/info_myojou/status/2096243890198335878",
+            "start_at": "2026-07-21T20:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "前方",
+            "ticket_tier": "前方"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 3000,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2096243890198335878",
+            "source_url": "https://x.com/info_myojou/status/2096243890198335878",
+            "start_at": "2026-07-21T20:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 1000,
+            "result_at": null,
+            "sale_type": "当日券",
+            "source_post_id": "2096243890198335878",
+            "source_url": "https://x.com/info_myojou/status/2096243890198335878",
+            "start_at": null,
+            "status": "販売中",
+            "ticket_name": "当日券",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "http://tiget.net/events/506718",
+        "venue": "Zephyr Hall"
+      },
+      "raw": {
+        "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「NAGOYA GIRLS GIRLS extra!!｣\n\n🎙17:40-18:05\n📸18:15-19:25 B\n\n⟣date：9/6（日）\n⟣place : Zephyr Hall\n⟣open/start：9:45/10:00\n⟣price：前方¥6,000/一般 ¥3,000/当日各＋¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】 https://t.co/40gDw2kJiW",
+        "attachments": {
+          "media_keys": [
+            "3_2096243883923648512"
+          ]
+        },
+        "created_at": "2026-09-05T14:27:44.000Z",
+        "edit_history_tweet_ids": [
+          "2096243890198335878"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/40gDw2kJiW",
+              "end": 235,
+              "expanded_url": "https://x.com/info_myojou/status/2096243890198335878/photo/1",
+              "media_key": "3_2096243883923648512",
+              "start": 212,
+              "url": "https://t.co/40gDw2kJiW"
+            }
+          ]
+        },
+        "full_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「NAGOYA GIRLS GIRLS extra!!｣\n\n🎙17:40-18:05\n📸18:15-19:25 B\n\n⟣date：9/6（日）\n⟣place : Zephyr Hall\n⟣open/start：9:45/10:00\n⟣price：前方¥6,000/一般 ¥3,000/当日各＋¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/21（火）20:00-\n🔗https://t.co/pdhvKp7HC5\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2096243890198335878",
+        "media": [
+          {
+            "height": 2048,
+            "media_key": "3_2096243883923648512",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HRdatL_asAA146U.jpg",
+            "width": 1456
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 259,
+                "start": 252,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "tiget.net/events/506718",
+                "end": 250,
+                "expanded_url": "http://tiget.net/events/506718",
+                "start": 227,
+                "url": "https://t.co/pdhvKp7HC5"
+              }
+            ]
+          },
+          "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「NAGOYA GIRLS GIRLS extra!!｣\n\n🎙17:40-18:05\n📸18:15-19:25 B\n\n⟣date：9/6（日）\n⟣place : Zephyr Hall\n⟣open/start：9:45/10:00\n⟣price：前方¥6,000/一般 ¥3,000/当日各＋¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/21（火）20:00-\n🔗https://t.co/pdhvKp7HC5\n\n#myojou"
+        },
+        "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「NAGOYA GIRLS GIRLS extra!!｣\n\n🎙17:40-18:05\n📸18:15-19:25 B\n\n⟣date：9/6（日）\n⟣place : Zephyr Hall\n⟣open/start：9:45/10:00\n⟣price：前方¥6,000/一般 ¥3,000/当日各＋¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】 https://t.co/40gDw2kJiW",
+        "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「NAGOYA GIRLS GIRLS extra!!｣\n\n🎙17:40-18:05\n📸18:15-19:25 B\n\n⟣date：9/6（日）\n⟣place : Zephyr Hall\n⟣open/start：9:45/10:00\n⟣price：前方¥6,000/一般 ¥3,000/当日各＋¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】 https://t.co/40gDw2kJiW"
+      },
+      "referenced_tweets": [],
+      "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「NAGOYA GIRLS GIRLS extra!!｣\n\n🎙17:40-18:05\n📸18:15-19:25 B\n\n⟣date：9/6（日）\n⟣place : Zephyr Hall\n⟣open/start：9:45/10:00\n⟣price：前方¥6,000/一般 ¥3,000/当日各＋¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/21（火）20:00-\n🔗https://t.co/pdhvKp7HC5\n\n#myojou",
+      "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「NAGOYA GIRLS GIRLS extra!!｣\n\n🎙17:40-18:05\n📸18:15-19:25 B\n\n⟣date：9/6（日）\n⟣place : Zephyr Hall\n⟣open/start：9:45/10:00\n⟣price：前方¥6,000/一般 ¥3,000/当日各＋¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】 https://t.co/40gDw2kJiW",
+      "url": "https://x.com/info_myojou/status/2096243890198335878"
+    },
+    {
+      "api_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n         NAGOYA GIRLS GIRLS extra!!\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「NAGOYA GIRLS GIRLS extra!!」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka https://t.co/IvJKtTJAZQ",
+      "attachments": {
+        "media_keys": [
+          "3_2096243230329516032"
+        ]
+      },
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "profile/member introduction",
+        "source_kind": "other"
+      },
+      "created_at": "2026-09-05T14:25:09+00:00",
+      "entities": {
+        "mentions": [
+          {
+            "end": 188,
+            "id": "1981655668626165760",
+            "start": 176,
+            "username": "myojou_ruka"
+          }
+        ],
+        "urls": [
+          {
+            "display_url": "pic.x.com/IvJKtTJAZQ",
+            "end": 212,
+            "expanded_url": "https://x.com/info_myojou/status/2096243241998073955/photo/1",
+            "media_key": "3_2096243230329516032",
+            "start": 189,
+            "url": "https://t.co/IvJKtTJAZQ"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2096243241998073955",
+      "media": [
+        {
+          "alt_text": "M0,SE short\nM1,灯火\nM2,蛍夏\nM3,僕彩色\nM4,アンチコンプリート\nM5,夏、空模様\nM6,CHRONOS",
+          "height": 3072,
+          "media_key": "3_2096243230329516032",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HRdaHJKbsAAJre7.jpg",
+          "width": 4096
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 287,
+              "start": 280,
+              "tag": "myojou"
+            }
+          ],
+          "mentions": [
+            {
+              "end": 188,
+              "id": "1981655668626165760",
+              "start": 176,
+              "username": "myojou_ruka"
+            },
+            {
+              "end": 209,
+              "id": "1590652199407083520",
+              "start": 195,
+              "username": "myojou_cocone"
+            },
+            {
+              "end": 228,
+              "id": "1754991922807177216",
+              "start": 215,
+              "username": "myojou_shino"
+            },
+            {
+              "end": 245,
+              "id": "2009274765895450624",
+              "start": 234,
+              "username": "myojou_yun"
+            },
+            {
+              "end": 262,
+              "id": "2009245855694675968",
+              "start": 251,
+              "username": "myojou_miu"
+            }
+          ]
+        },
+        "text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n         NAGOYA GIRLS GIRLS extra!!\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「NAGOYA GIRLS GIRLS extra!!」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka \n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n澪奈ゆん@myojou_yun \n日陽みう@myojou_miu \n\nSETLIST▶︎ALT\n\n #myojou"
+      },
+      "parsed_fields": null,
+      "raw": {
+        "api_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n         NAGOYA GIRLS GIRLS extra!!\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「NAGOYA GIRLS GIRLS extra!!」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka https://t.co/IvJKtTJAZQ",
+        "attachments": {
+          "media_keys": [
+            "3_2096243230329516032"
+          ]
+        },
+        "created_at": "2026-09-05T14:25:09.000Z",
+        "edit_history_tweet_ids": [
+          "2096243241998073955"
+        ],
+        "entities": {
+          "mentions": [
+            {
+              "end": 188,
+              "id": "1981655668626165760",
+              "start": 176,
+              "username": "myojou_ruka"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "pic.x.com/IvJKtTJAZQ",
+              "end": 212,
+              "expanded_url": "https://x.com/info_myojou/status/2096243241998073955/photo/1",
+              "media_key": "3_2096243230329516032",
+              "start": 189,
+              "url": "https://t.co/IvJKtTJAZQ"
+            }
+          ]
+        },
+        "full_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n         NAGOYA GIRLS GIRLS extra!!\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「NAGOYA GIRLS GIRLS extra!!」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka \n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n澪奈ゆん@myojou_yun \n日陽みう@myojou_miu \n\nSETLIST▶︎ALT\n\n #myojou",
+        "full_text_source": "note_tweet",
+        "id": "2096243241998073955",
+        "media": [
+          {
+            "alt_text": "M0,SE short\nM1,灯火\nM2,蛍夏\nM3,僕彩色\nM4,アンチコンプリート\nM5,夏、空模様\nM6,CHRONOS",
+            "height": 3072,
+            "media_key": "3_2096243230329516032",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HRdaHJKbsAAJre7.jpg",
+            "width": 4096
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 287,
+                "start": 280,
+                "tag": "myojou"
+              }
+            ],
+            "mentions": [
+              {
+                "end": 188,
+                "id": "1981655668626165760",
+                "start": 176,
+                "username": "myojou_ruka"
+              },
+              {
+                "end": 209,
+                "id": "1590652199407083520",
+                "start": 195,
+                "username": "myojou_cocone"
+              },
+              {
+                "end": 228,
+                "id": "1754991922807177216",
+                "start": 215,
+                "username": "myojou_shino"
+              },
+              {
+                "end": 245,
+                "id": "2009274765895450624",
+                "start": 234,
+                "username": "myojou_yun"
+              },
+              {
+                "end": 262,
+                "id": "2009245855694675968",
+                "start": 251,
+                "username": "myojou_miu"
+              }
+            ]
+          },
+          "text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n         NAGOYA GIRLS GIRLS extra!!\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「NAGOYA GIRLS GIRLS extra!!」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka \n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n澪奈ゆん@myojou_yun \n日陽みう@myojou_miu \n\nSETLIST▶︎ALT\n\n #myojou"
+        },
+        "text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n         NAGOYA GIRLS GIRLS extra!!\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「NAGOYA GIRLS GIRLS extra!!」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka https://t.co/IvJKtTJAZQ",
+        "truncated_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n         NAGOYA GIRLS GIRLS extra!!\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「NAGOYA GIRLS GIRLS extra!!」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka https://t.co/IvJKtTJAZQ"
+      },
+      "referenced_tweets": [],
+      "text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n         NAGOYA GIRLS GIRLS extra!!\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「NAGOYA GIRLS GIRLS extra!!」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka \n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n澪奈ゆん@myojou_yun \n日陽みう@myojou_miu \n\nSETLIST▶︎ALT\n\n #myojou",
+      "truncated_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n         NAGOYA GIRLS GIRLS extra!!\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「NAGOYA GIRLS GIRLS extra!!」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka https://t.co/IvJKtTJAZQ",
+      "url": "https://x.com/info_myojou/status/2096243241998073955"
+    },
+    {
+      "api_text": "https://t.co/TWLZSCQYKi",
+      "attachments": {
+        "media_keys": [
+          "13_2096242683488636928"
+        ]
+      },
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "no live-event signal",
+        "source_kind": "other"
+      },
+      "created_at": "2026-09-05T14:23:38+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/TWLZSCQYKi",
+            "end": 23,
+            "expanded_url": "https://x.com/info_myojou/status/2096242858642883013/video/1",
+            "media_key": "13_2096242683488636928",
+            "start": 0,
+            "url": "https://t.co/TWLZSCQYKi"
+          }
+        ]
+      },
+      "full_text_source": "text",
+      "id": "2096242858642883013",
+      "media": [
+        {
+          "height": 720,
+          "media_key": "13_2096242683488636928",
+          "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2096242683488636928/img/cfUb4xDtYBnkQ6gk.jpg",
+          "type": "video",
+          "width": 1280
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "note_tweet": null,
+      "parsed_fields": null,
+      "raw": {
+        "api_text": "https://t.co/TWLZSCQYKi",
+        "attachments": {
+          "media_keys": [
+            "13_2096242683488636928"
+          ]
+        },
+        "created_at": "2026-09-05T14:23:38.000Z",
+        "edit_history_tweet_ids": [
+          "2096242858642883013"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/TWLZSCQYKi",
+              "end": 23,
+              "expanded_url": "https://x.com/info_myojou/status/2096242858642883013/video/1",
+              "media_key": "13_2096242683488636928",
+              "start": 0,
+              "url": "https://t.co/TWLZSCQYKi"
+            }
+          ]
+        },
+        "full_text": "https://t.co/TWLZSCQYKi",
+        "full_text_source": "text",
+        "id": "2096242858642883013",
+        "media": [
+          {
+            "height": 720,
+            "media_key": "13_2096242683488636928",
+            "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2096242683488636928/img/cfUb4xDtYBnkQ6gk.jpg",
+            "type": "video",
+            "width": 1280
+          }
+        ],
+        "text": "https://t.co/TWLZSCQYKi",
+        "truncated_text": null
+      },
+      "referenced_tweets": [],
+      "text": "https://t.co/TWLZSCQYKi",
+      "truncated_text": null,
+      "url": "https://x.com/info_myojou/status/2096242858642883013"
+    },
+    {
+      "api_text": "▶️LIVE DIGEST\nmyojou autumn tour 2026 \"秋星\" in NAGOYA\n\n「Beyond」\n\n#myojou https://t.co/Jy8IqAbOTf",
+      "attachments": {
+        "media_keys": [
+          "13_2096147293854674944"
+        ]
+      },
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "live digest recap",
+        "source_kind": "other"
+      },
+      "created_at": "2026-09-05T08:04:17+00:00",
+      "entities": {
+        "hashtags": [
+          {
+            "end": 71,
+            "start": 64,
+            "tag": "myojou"
+          }
+        ],
+        "urls": [
+          {
+            "display_url": "pic.x.com/Jy8IqAbOTf",
+            "end": 95,
+            "expanded_url": "https://x.com/info_myojou/status/2096147393779765476/video/1",
+            "media_key": "13_2096147293854674944",
+            "start": 72,
+            "url": "https://t.co/Jy8IqAbOTf"
+          }
+        ]
+      },
+      "full_text_source": "text",
+      "id": "2096147393779765476",
+      "media": [
+        {
+          "height": 720,
+          "media_key": "13_2096147293854674944",
+          "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2096147293854674944/img/pWUwPBEezjG2SysP.jpg",
+          "type": "video",
+          "width": 1280
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "note_tweet": null,
+      "parsed_fields": null,
+      "raw": {
+        "api_text": "▶️LIVE DIGEST\nmyojou autumn tour 2026 \"秋星\" in NAGOYA\n\n「Beyond」\n\n#myojou https://t.co/Jy8IqAbOTf",
+        "attachments": {
+          "media_keys": [
+            "13_2096147293854674944"
+          ]
+        },
+        "created_at": "2026-09-05T08:04:17.000Z",
+        "edit_history_tweet_ids": [
+          "2096147393779765476"
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "end": 71,
+              "start": 64,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "pic.x.com/Jy8IqAbOTf",
+              "end": 95,
+              "expanded_url": "https://x.com/info_myojou/status/2096147393779765476/video/1",
+              "media_key": "13_2096147293854674944",
+              "start": 72,
+              "url": "https://t.co/Jy8IqAbOTf"
+            }
+          ]
+        },
+        "full_text": "▶️LIVE DIGEST\nmyojou autumn tour 2026 \"秋星\" in NAGOYA\n\n「Beyond」\n\n#myojou https://t.co/Jy8IqAbOTf",
+        "full_text_source": "text",
+        "id": "2096147393779765476",
+        "media": [
+          {
+            "height": 720,
+            "media_key": "13_2096147293854674944",
+            "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2096147293854674944/img/pWUwPBEezjG2SysP.jpg",
+            "type": "video",
+            "width": 1280
+          }
+        ],
+        "text": "▶️LIVE DIGEST\nmyojou autumn tour 2026 \"秋星\" in NAGOYA\n\n「Beyond」\n\n#myojou https://t.co/Jy8IqAbOTf",
+        "truncated_text": null
+      },
+      "referenced_tweets": [],
+      "text": "▶️LIVE DIGEST\nmyojou autumn tour 2026 \"秋星\" in NAGOYA\n\n「Beyond」\n\n#myojou https://t.co/Jy8IqAbOTf",
+      "truncated_text": null,
+      "url": "https://x.com/info_myojou/status/2096147393779765476"
+    },
+    {
+      "api_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n           myojou autumn tour 2026 \n                \"秋星\" in NAGOYA\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「myojou autumn tour 2026 \"秋星\" in https://t.co/2P8ZkXJ54M",
+      "attachments": {
+        "media_keys": [
+          "3_2096126688019247104"
+        ]
+      },
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "thank-you/recap post",
+        "source_kind": "other"
+      },
+      "created_at": "2026-09-05T06:42:03+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/2P8ZkXJ54M",
+            "end": 211,
+            "expanded_url": "https://x.com/info_myojou/status/2096126698114748485/photo/1",
+            "media_key": "3_2096126688019247104",
+            "start": 188,
+            "url": "https://t.co/2P8ZkXJ54M"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2096126698114748485",
+      "media": [
+        {
+          "alt_text": "M0,SE -明夏-\nM1,yoakeno\nM2,夏、空模様\nM3,CHRONOS\nM4,HeartBeat\nM5,軌跡まで\nM6,Beyond\nM7,アンチコンプリート\nM8,蛍夏\nM9,幸せのかたすみ\nM10,星景讃歌\nEN1,CHRONOS\nEN,2アンチコンプリート",
+          "height": 1365,
+          "media_key": "3_2096126688019247104",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HRbwHfOacAAM_Lp.jpg",
+          "width": 2048
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 381,
+              "start": 374,
+              "tag": "myojou"
+            }
+          ],
+          "mentions": [
+            {
+              "end": 282,
+              "id": "1981655668626165760",
+              "start": 270,
+              "username": "myojou_ruka"
+            },
+            {
+              "end": 301,
+              "id": "1754991922807177216",
+              "start": 288,
+              "username": "myojou_shino"
+            },
+            {
+              "end": 318,
+              "id": "2009274765895450624",
+              "start": 307,
+              "username": "myojou_yun"
+            },
+            {
+              "end": 339,
+              "id": "1590652199407083520",
+              "start": 325,
+              "username": "myojou_cocone"
+            },
+            {
+              "end": 356,
+              "id": "2009245855694675968",
+              "start": 345,
+              "username": "myojou_miu"
+            }
+          ]
+        },
+        "text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n           myojou autumn tour 2026 \n                \"秋星\" in NAGOYA\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「myojou autumn tour 2026 \"秋星\" in NAGOYA」ありがとうございました⋆˙⟡\n\nこのあと19:10より、「NAGOYA GIRLS GIRLS extra!!」に出演いたします！\n\n左から\n姫乃るか@myojou_ruka \n真希しの@myojou_shino \n澪奈ゆん@myojou_yun \n栗原ここね@myojou_cocone \n日陽みう@myojou_miu \n\nSETLIST▶︎ALT\n\n #myojou"
+      },
+      "parsed_fields": null,
+      "raw": {
+        "api_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n           myojou autumn tour 2026 \n                \"秋星\" in NAGOYA\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「myojou autumn tour 2026 \"秋星\" in https://t.co/2P8ZkXJ54M",
+        "attachments": {
+          "media_keys": [
+            "3_2096126688019247104"
+          ]
+        },
+        "created_at": "2026-09-05T06:42:03.000Z",
+        "edit_history_tweet_ids": [
+          "2096126698114748485"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/2P8ZkXJ54M",
+              "end": 211,
+              "expanded_url": "https://x.com/info_myojou/status/2096126698114748485/photo/1",
+              "media_key": "3_2096126688019247104",
+              "start": 188,
+              "url": "https://t.co/2P8ZkXJ54M"
+            }
+          ]
+        },
+        "full_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n           myojou autumn tour 2026 \n                \"秋星\" in NAGOYA\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「myojou autumn tour 2026 \"秋星\" in NAGOYA」ありがとうございました⋆˙⟡\n\nこのあと19:10より、「NAGOYA GIRLS GIRLS extra!!」に出演いたします！\n\n左から\n姫乃るか@myojou_ruka \n真希しの@myojou_shino \n澪奈ゆん@myojou_yun \n栗原ここね@myojou_cocone \n日陽みう@myojou_miu \n\nSETLIST▶︎ALT\n\n #myojou",
+        "full_text_source": "note_tweet",
+        "id": "2096126698114748485",
+        "media": [
+          {
+            "alt_text": "M0,SE -明夏-\nM1,yoakeno\nM2,夏、空模様\nM3,CHRONOS\nM4,HeartBeat\nM5,軌跡まで\nM6,Beyond\nM7,アンチコンプリート\nM8,蛍夏\nM9,幸せのかたすみ\nM10,星景讃歌\nEN1,CHRONOS\nEN,2アンチコンプリート",
+            "height": 1365,
+            "media_key": "3_2096126688019247104",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HRbwHfOacAAM_Lp.jpg",
+            "width": 2048
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 381,
+                "start": 374,
+                "tag": "myojou"
+              }
+            ],
+            "mentions": [
+              {
+                "end": 282,
+                "id": "1981655668626165760",
+                "start": 270,
+                "username": "myojou_ruka"
+              },
+              {
+                "end": 301,
+                "id": "1754991922807177216",
+                "start": 288,
+                "username": "myojou_shino"
+              },
+              {
+                "end": 318,
+                "id": "2009274765895450624",
+                "start": 307,
+                "username": "myojou_yun"
+              },
+              {
+                "end": 339,
+                "id": "1590652199407083520",
+                "start": 325,
+                "username": "myojou_cocone"
+              },
+              {
+                "end": 356,
+                "id": "2009245855694675968",
+                "start": 345,
+                "username": "myojou_miu"
+              }
+            ]
+          },
+          "text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n           myojou autumn tour 2026 \n                \"秋星\" in NAGOYA\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「myojou autumn tour 2026 \"秋星\" in NAGOYA」ありがとうございました⋆˙⟡\n\nこのあと19:10より、「NAGOYA GIRLS GIRLS extra!!」に出演いたします！\n\n左から\n姫乃るか@myojou_ruka \n真希しの@myojou_shino \n澪奈ゆん@myojou_yun \n栗原ここね@myojou_cocone \n日陽みう@myojou_miu \n\nSETLIST▶︎ALT\n\n #myojou"
+        },
+        "text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n           myojou autumn tour 2026 \n                \"秋星\" in NAGOYA\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「myojou autumn tour 2026 \"秋星\" in https://t.co/2P8ZkXJ54M",
+        "truncated_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n           myojou autumn tour 2026 \n                \"秋星\" in NAGOYA\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「myojou autumn tour 2026 \"秋星\" in https://t.co/2P8ZkXJ54M"
+      },
+      "referenced_tweets": [],
+      "text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n           myojou autumn tour 2026 \n                \"秋星\" in NAGOYA\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「myojou autumn tour 2026 \"秋星\" in NAGOYA」ありがとうございました⋆˙⟡\n\nこのあと19:10より、「NAGOYA GIRLS GIRLS extra!!」に出演いたします！\n\n左から\n姫乃るか@myojou_ruka \n真希しの@myojou_shino \n澪奈ゆん@myojou_yun \n栗原ここね@myojou_cocone \n日陽みう@myojou_miu \n\nSETLIST▶︎ALT\n\n #myojou",
+      "truncated_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n           myojou autumn tour 2026 \n                \"秋星\" in NAGOYA\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「myojou autumn tour 2026 \"秋星\" in https://t.co/2P8ZkXJ54M",
+      "url": "https://x.com/info_myojou/status/2096126698114748485"
+    },
+    {
+      "api_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「myojou autumn tour 2026 \"秋星\" in NAGOYA」\n\n⟣date：9/5\n⟣place : 新栄シャングリラ\n⟣open/start：12:00/12:30\n⟣price：VIP（会場限定ノベルティ付き）SOLD OUT！/当日券一般¥3,000（各+1D）\n\n【名古屋公演一般受付期間】\n8/18（火）21:00-9/5（土）14:00 https://t.co/LN9KmlJ2OA",
+      "attachments": {
+        "media_keys": [
+          "3_2096023892829806592",
+          "3_2096023892838223872",
+          "3_2096023892829908992"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "sold_out"
+      },
+      "created_at": "2026-09-04T23:53:34+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/LN9KmlJ2OA",
+            "end": 231,
+            "expanded_url": "https://x.com/info_myojou/status/2096023900178313481/photo/1",
+            "media_key": "3_2096023892829806592",
+            "start": 208,
+            "url": "https://t.co/LN9KmlJ2OA"
+          },
+          {
+            "display_url": "pic.x.com/LN9KmlJ2OA",
+            "end": 231,
+            "expanded_url": "https://x.com/info_myojou/status/2096023900178313481/photo/1",
+            "media_key": "3_2096023892838223872",
+            "start": 208,
+            "url": "https://t.co/LN9KmlJ2OA"
+          },
+          {
+            "display_url": "pic.x.com/LN9KmlJ2OA",
+            "end": 231,
+            "expanded_url": "https://x.com/info_myojou/status/2096023900178313481/photo/1",
+            "media_key": "3_2096023892829908992",
+            "start": 208,
+            "url": "https://t.co/LN9KmlJ2OA"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2096023900178313481",
+      "media": [
+        {
+          "height": 2047,
+          "media_key": "3_2096023892829806592",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HRaSoBTaIAAmpWw.jpg",
+          "width": 1448
+        },
+        {
+          "height": 2047,
+          "media_key": "3_2096023892838223872",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HRaSoBVakAAbHdQ.jpg",
+          "width": 1448
+        },
+        {
+          "height": 2048,
+          "media_key": "3_2096023892829908992",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HRaSoBTbsAASoLA.jpg",
+          "width": 1456
+        }
+      ],
+      "needs_review": true,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 471,
+              "start": 464,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "t-dv.com/myojou_0905",
+              "end": 233,
+              "expanded_url": "http://t-dv.com/myojou_0905",
+              "start": 210,
+              "url": "https://t.co/bXBTAvGQ8x"
+            },
+            {
+              "display_url": "tiget.net/events/506716",
+              "end": 462,
+              "expanded_url": "http://tiget.net/events/506716",
+              "start": 439,
+              "url": "https://t.co/SAcY59IBvr"
+            }
+          ]
+        },
+        "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「myojou autumn tour 2026 \"秋星\" in NAGOYA」\n\n⟣date：9/5\n⟣place : 新栄シャングリラ\n⟣open/start：12:00/12:30\n⟣price：VIP（会場限定ノベルティ付き）SOLD OUT！/当日券一般¥3,000（各+1D）\n\n【名古屋公演一般受付期間】\n8/18（火）21:00-9/5（土）14:00\n🔗 https://t.co/bXBTAvGQ8x\n\n「NAGOYA GIRLS GIRLS extra!!」\n\n🎙19:10-19:35\n📸19:45-20:55 A\n\n⟣date：9/5（土）\n⟣place : Zephyr Hall\n⟣open/start：9:45/10:00\n⟣price：前方¥6,000/一般 ¥3,000/当日各＋¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/21（火）20:00-\n🔗https://t.co/SAcY59IBvr\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": "19:45-20:55",
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-09-05",
+        "event_dates": [
+          "2026-09-05"
+        ],
+        "event_name": "myojou autumn tour 2026 \"秋星\" in NAGOYA",
+        "extraction_confidence": 0.95,
+        "general_ticket_price": 3000,
+        "lottery_result_at": null,
+        "myojou_performance_time": "19:10-19:35",
+        "notes": null,
+        "open_time": "12:00",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "VIP(会場限定ノベルティ付き)SOLD OUT!/当日券一般",
+        "priority_ticket_price": 3000,
+        "same_day_ticket_price": 3000,
+        "source_kind": "sold_out",
+        "source_post_id": "2096023900178313481",
+        "source_posted_at": "2026-09-04T23:53:34Z",
+        "source_raw": {
+          "api_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「myojou autumn tour 2026 \"秋星\" in NAGOYA」\n\n⟣date：9/5\n⟣place : 新栄シャングリラ\n⟣open/start：12:00/12:30\n⟣price：VIP（会場限定ノベルティ付き）SOLD OUT！/当日券一般¥3,000（各+1D）\n\n【名古屋公演一般受付期間】\n8/18（火）21:00-9/5（土）14:00 https://t.co/LN9KmlJ2OA",
+          "attachments": {
+            "media_keys": [
+              "3_2096023892829806592",
+              "3_2096023892838223872",
+              "3_2096023892829908992"
+            ]
+          },
+          "created_at": "2026-09-04T23:53:34.000Z",
+          "edit_history_tweet_ids": [
+            "2096023900178313481"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/LN9KmlJ2OA",
+                "end": 231,
+                "expanded_url": "https://x.com/info_myojou/status/2096023900178313481/photo/1",
+                "media_key": "3_2096023892829806592",
+                "start": 208,
+                "url": "https://t.co/LN9KmlJ2OA"
+              },
+              {
+                "display_url": "pic.x.com/LN9KmlJ2OA",
+                "end": 231,
+                "expanded_url": "https://x.com/info_myojou/status/2096023900178313481/photo/1",
+                "media_key": "3_2096023892838223872",
+                "start": 208,
+                "url": "https://t.co/LN9KmlJ2OA"
+              },
+              {
+                "display_url": "pic.x.com/LN9KmlJ2OA",
+                "end": 231,
+                "expanded_url": "https://x.com/info_myojou/status/2096023900178313481/photo/1",
+                "media_key": "3_2096023892829908992",
+                "start": 208,
+                "url": "https://t.co/LN9KmlJ2OA"
+              }
+            ]
+          },
+          "full_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「myojou autumn tour 2026 \"秋星\" in NAGOYA」\n\n⟣date：9/5\n⟣place : 新栄シャングリラ\n⟣open/start：12:00/12:30\n⟣price：VIP（会場限定ノベルティ付き）SOLD OUT！/当日券一般¥3,000（各+1D）\n\n【名古屋公演一般受付期間】\n8/18（火）21:00-9/5（土）14:00\n🔗 https://t.co/bXBTAvGQ8x\n\n「NAGOYA GIRLS GIRLS extra!!」\n\n🎙19:10-19:35\n📸19:45-20:55 A\n\n⟣date：9/5（土）\n⟣place : Zephyr Hall\n⟣open/start：9:45/10:00\n⟣price：前方¥6,000/一般 ¥3,000/当日各＋¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/21（火）20:00-\n🔗https://t.co/SAcY59IBvr\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2096023900178313481",
+          "media": [
+            {
+              "height": 2047,
+              "media_key": "3_2096023892829806592",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HRaSoBTaIAAmpWw.jpg",
+              "width": 1448
+            },
+            {
+              "height": 2047,
+              "media_key": "3_2096023892838223872",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HRaSoBVakAAbHdQ.jpg",
+              "width": 1448
+            },
+            {
+              "height": 2048,
+              "media_key": "3_2096023892829908992",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HRaSoBTbsAASoLA.jpg",
+              "width": 1456
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 471,
+                  "start": 464,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "t-dv.com/myojou_0905",
+                  "end": 233,
+                  "expanded_url": "http://t-dv.com/myojou_0905",
+                  "start": 210,
+                  "url": "https://t.co/bXBTAvGQ8x"
+                },
+                {
+                  "display_url": "tiget.net/events/506716",
+                  "end": 462,
+                  "expanded_url": "http://tiget.net/events/506716",
+                  "start": 439,
+                  "url": "https://t.co/SAcY59IBvr"
+                }
+              ]
+            },
+            "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「myojou autumn tour 2026 \"秋星\" in NAGOYA」\n\n⟣date：9/5\n⟣place : 新栄シャングリラ\n⟣open/start：12:00/12:30\n⟣price：VIP（会場限定ノベルティ付き）SOLD OUT！/当日券一般¥3,000（各+1D）\n\n【名古屋公演一般受付期間】\n8/18（火）21:00-9/5（土）14:00\n🔗 https://t.co/bXBTAvGQ8x\n\n「NAGOYA GIRLS GIRLS extra!!」\n\n🎙19:10-19:35\n📸19:45-20:55 A\n\n⟣date：9/5（土）\n⟣place : Zephyr Hall\n⟣open/start：9:45/10:00\n⟣price：前方¥6,000/一般 ¥3,000/当日各＋¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/21（火）20:00-\n🔗https://t.co/SAcY59IBvr\n\n#myojou"
+          },
+          "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「myojou autumn tour 2026 \"秋星\" in NAGOYA」\n\n⟣date：9/5\n⟣place : 新栄シャングリラ\n⟣open/start：12:00/12:30\n⟣price：VIP（会場限定ノベルティ付き）SOLD OUT！/当日券一般¥3,000（各+1D）\n\n【名古屋公演一般受付期間】\n8/18（火）21:00-9/5（土）14:00 https://t.co/LN9KmlJ2OA",
+          "truncated_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「myojou autumn tour 2026 \"秋星\" in NAGOYA」\n\n⟣date：9/5\n⟣place : 新栄シャングリラ\n⟣open/start：12:00/12:30\n⟣price：VIP（会場限定ノベルティ付き）SOLD OUT！/当日券一般¥3,000（各+1D）\n\n【名古屋公演一般受付期間】\n8/18（火）21:00-9/5（土）14:00 https://t.co/LN9KmlJ2OA"
+        },
+        "source_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「myojou autumn tour 2026 \"秋星\" in NAGOYA」\n\n⟣date：9/5\n⟣place : 新栄シャングリラ\n⟣open/start：12:00/12:30\n⟣price：VIP（会場限定ノベルティ付き）SOLD OUT！/当日券一般¥3,000（各+1D）\n\n【名古屋公演一般受付期間】\n8/18（火）21:00-9/5（土）14:00\n🔗 https://t.co/bXBTAvGQ8x\n\n「NAGOYA GIRLS GIRLS extra!!」\n\n🎙19:10-19:35\n📸19:45-20:55 A\n\n⟣date：9/5（土）\n⟣place : Zephyr Hall\n⟣open/start：9:45/10:00\n⟣price：前方¥6,000/一般 ¥3,000/当日各＋¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/21（火）20:00-\n🔗https://t.co/SAcY59IBvr\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2096023900178313481",
+        "start_time": "12:30",
+        "ticket_application_deadline_at": "2026-09-05T14:00:00+09:00",
+        "ticket_application_start_at": "2026-08-18T21:00:00+09:00",
+        "ticket_sale_type": "当日券",
+        "ticket_sales": [
+          {
+            "deadline_at": "2026-09-05T14:00:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 6000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2096023900178313481",
+            "source_url": "https://x.com/info_myojou/status/2096023900178313481",
+            "start_at": "2026-08-18T21:00:00+09:00",
+            "status": "完売",
+            "ticket_name": "前方",
+            "ticket_tier": "前方"
+          },
+          {
+            "deadline_at": "2026-09-05T14:00:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 3000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2096023900178313481",
+            "source_url": "https://x.com/info_myojou/status/2096023900178313481",
+            "start_at": "2026-08-18T21:00:00+09:00",
+            "status": "完売",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 6000,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2096023900178313481",
+            "source_url": "https://x.com/info_myojou/status/2096023900178313481",
+            "start_at": "2026-07-21T20:00:00+09:00",
+            "status": "完売",
+            "ticket_name": "前方",
+            "ticket_tier": "前方"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 3000,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2096023900178313481",
+            "source_url": "https://x.com/info_myojou/status/2096023900178313481",
+            "start_at": "2026-07-21T20:00:00+09:00",
+            "status": "完売",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 3000,
+            "result_at": null,
+            "sale_type": "当日券",
+            "source_post_id": "2096023900178313481",
+            "source_url": "https://x.com/info_myojou/status/2096023900178313481",
+            "start_at": null,
+            "status": "完売",
+            "ticket_name": "VIP",
+            "ticket_tier": "VIP"
+          }
+        ],
+        "ticket_status": "sold_out",
+        "ticket_url": "http://t-dv.com/myojou_0905",
+        "venue": "新栄シャングリラ"
+      },
+      "raw": {
+        "api_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「myojou autumn tour 2026 \"秋星\" in NAGOYA」\n\n⟣date：9/5\n⟣place : 新栄シャングリラ\n⟣open/start：12:00/12:30\n⟣price：VIP（会場限定ノベルティ付き）SOLD OUT！/当日券一般¥3,000（各+1D）\n\n【名古屋公演一般受付期間】\n8/18（火）21:00-9/5（土）14:00 https://t.co/LN9KmlJ2OA",
+        "attachments": {
+          "media_keys": [
+            "3_2096023892829806592",
+            "3_2096023892838223872",
+            "3_2096023892829908992"
+          ]
+        },
+        "created_at": "2026-09-04T23:53:34.000Z",
+        "edit_history_tweet_ids": [
+          "2096023900178313481"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/LN9KmlJ2OA",
+              "end": 231,
+              "expanded_url": "https://x.com/info_myojou/status/2096023900178313481/photo/1",
+              "media_key": "3_2096023892829806592",
+              "start": 208,
+              "url": "https://t.co/LN9KmlJ2OA"
+            },
+            {
+              "display_url": "pic.x.com/LN9KmlJ2OA",
+              "end": 231,
+              "expanded_url": "https://x.com/info_myojou/status/2096023900178313481/photo/1",
+              "media_key": "3_2096023892838223872",
+              "start": 208,
+              "url": "https://t.co/LN9KmlJ2OA"
+            },
+            {
+              "display_url": "pic.x.com/LN9KmlJ2OA",
+              "end": 231,
+              "expanded_url": "https://x.com/info_myojou/status/2096023900178313481/photo/1",
+              "media_key": "3_2096023892829908992",
+              "start": 208,
+              "url": "https://t.co/LN9KmlJ2OA"
+            }
+          ]
+        },
+        "full_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「myojou autumn tour 2026 \"秋星\" in NAGOYA」\n\n⟣date：9/5\n⟣place : 新栄シャングリラ\n⟣open/start：12:00/12:30\n⟣price：VIP（会場限定ノベルティ付き）SOLD OUT！/当日券一般¥3,000（各+1D）\n\n【名古屋公演一般受付期間】\n8/18（火）21:00-9/5（土）14:00\n🔗 https://t.co/bXBTAvGQ8x\n\n「NAGOYA GIRLS GIRLS extra!!」\n\n🎙19:10-19:35\n📸19:45-20:55 A\n\n⟣date：9/5（土）\n⟣place : Zephyr Hall\n⟣open/start：9:45/10:00\n⟣price：前方¥6,000/一般 ¥3,000/当日各＋¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/21（火）20:00-\n🔗https://t.co/SAcY59IBvr\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2096023900178313481",
+        "media": [
+          {
+            "height": 2047,
+            "media_key": "3_2096023892829806592",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HRaSoBTaIAAmpWw.jpg",
+            "width": 1448
+          },
+          {
+            "height": 2047,
+            "media_key": "3_2096023892838223872",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HRaSoBVakAAbHdQ.jpg",
+            "width": 1448
+          },
+          {
+            "height": 2048,
+            "media_key": "3_2096023892829908992",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HRaSoBTbsAASoLA.jpg",
+            "width": 1456
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 471,
+                "start": 464,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "t-dv.com/myojou_0905",
+                "end": 233,
+                "expanded_url": "http://t-dv.com/myojou_0905",
+                "start": 210,
+                "url": "https://t.co/bXBTAvGQ8x"
+              },
+              {
+                "display_url": "tiget.net/events/506716",
+                "end": 462,
+                "expanded_url": "http://tiget.net/events/506716",
+                "start": 439,
+                "url": "https://t.co/SAcY59IBvr"
+              }
+            ]
+          },
+          "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「myojou autumn tour 2026 \"秋星\" in NAGOYA」\n\n⟣date：9/5\n⟣place : 新栄シャングリラ\n⟣open/start：12:00/12:30\n⟣price：VIP（会場限定ノベルティ付き）SOLD OUT！/当日券一般¥3,000（各+1D）\n\n【名古屋公演一般受付期間】\n8/18（火）21:00-9/5（土）14:00\n🔗 https://t.co/bXBTAvGQ8x\n\n「NAGOYA GIRLS GIRLS extra!!」\n\n🎙19:10-19:35\n📸19:45-20:55 A\n\n⟣date：9/5（土）\n⟣place : Zephyr Hall\n⟣open/start：9:45/10:00\n⟣price：前方¥6,000/一般 ¥3,000/当日各＋¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/21（火）20:00-\n🔗https://t.co/SAcY59IBvr\n\n#myojou"
+        },
+        "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「myojou autumn tour 2026 \"秋星\" in NAGOYA」\n\n⟣date：9/5\n⟣place : 新栄シャングリラ\n⟣open/start：12:00/12:30\n⟣price：VIP（会場限定ノベルティ付き）SOLD OUT！/当日券一般¥3,000（各+1D）\n\n【名古屋公演一般受付期間】\n8/18（火）21:00-9/5（土）14:00 https://t.co/LN9KmlJ2OA",
+        "truncated_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「myojou autumn tour 2026 \"秋星\" in NAGOYA」\n\n⟣date：9/5\n⟣place : 新栄シャングリラ\n⟣open/start：12:00/12:30\n⟣price：VIP（会場限定ノベルティ付き）SOLD OUT！/当日券一般¥3,000（各+1D）\n\n【名古屋公演一般受付期間】\n8/18（火）21:00-9/5（土）14:00 https://t.co/LN9KmlJ2OA"
+      },
+      "referenced_tweets": [],
+      "text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「myojou autumn tour 2026 \"秋星\" in NAGOYA」\n\n⟣date：9/5\n⟣place : 新栄シャングリラ\n⟣open/start：12:00/12:30\n⟣price：VIP（会場限定ノベルティ付き）SOLD OUT！/当日券一般¥3,000（各+1D）\n\n【名古屋公演一般受付期間】\n8/18（火）21:00-9/5（土）14:00\n🔗 https://t.co/bXBTAvGQ8x\n\n「NAGOYA GIRLS GIRLS extra!!」\n\n🎙19:10-19:35\n📸19:45-20:55 A\n\n⟣date：9/5（土）\n⟣place : Zephyr Hall\n⟣open/start：9:45/10:00\n⟣price：前方¥6,000/一般 ¥3,000/当日各＋¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/21（火）20:00-\n🔗https://t.co/SAcY59IBvr\n\n#myojou",
+      "truncated_text": "/／••✮\n今日のmyojou\n\\＼••✮\n\n「myojou autumn tour 2026 \"秋星\" in NAGOYA」\n\n⟣date：9/5\n⟣place : 新栄シャングリラ\n⟣open/start：12:00/12:30\n⟣price：VIP（会場限定ノベルティ付き）SOLD OUT！/当日券一般¥3,000（各+1D）\n\n【名古屋公演一般受付期間】\n8/18（火）21:00-9/5（土）14:00 https://t.co/LN9KmlJ2OA",
+      "url": "https://x.com/info_myojou/status/2096023900178313481"
+    },
+    {
       "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「myojou autumn tour 2026 \"秋星\" in NAGOYA」\n\n⟣date：9/5\n⟣place : 新栄シャングリラ\n⟣open/start：12:00/12:30\n⟣price：VIP（会場限定ノベルティ付き）¥8,000/一般¥2,000（各+1D）\n\n【名古屋公演一般受付期間】\n8/18（火）21:00-9/4（金）23:59\n🔗 https://t.co/mJLV1ASEPU",
       "attachments": {
         "media_keys": [
@@ -175044,7 +176259,7 @@
     "backfill": true,
     "dry_run": true,
     "estimated_x_post_reads": 411,
-    "latest_post_id": "2095888756293394942",
+    "latest_post_id": "2096243890198335878",
     "max_pages": 10,
     "max_posts": 500,
     "max_results": 5,
@@ -175087,16 +176302,16 @@
       }
     ],
     "pages_fetched": 5,
-    "posts_fetched": 800,
+    "posts_fetched": 806,
     "rate_limit_headers": {
       "x-rate-limit-limit": "10000",
       "x-rate-limit-remaining": "9993",
       "x-rate-limit-reset": "1781108896"
     },
-    "total_posts": 800,
-    "updated_at": "2026-09-04T21:18:40.587548+00:00",
+    "total_posts": 806,
+    "updated_at": "2026-09-05T21:00:38.352477+00:00",
     "username": "info_myojou"
   },
   "source": "x_api",
-  "updated_at": "2026-09-04T21:18:40.587548+00:00"
+  "updated_at": "2026-09-05T21:00:38.352477+00:00"
 }
