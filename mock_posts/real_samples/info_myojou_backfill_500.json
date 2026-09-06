@@ -2,6 +2,565 @@
   "captured_at": "2026-06-10T16:19:36.141820+00:00",
   "data": [
     {
+      "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「LadySteady supported by BUZZチケ」\n\n🎙16:45-17:10\n📸17:20-18:20\n\n⟣date：9/7（月）\n⟣place :Spotify O-EAST\n⟣open/start：14:30/15:00\n⟣price：前方¥8,000/一般 ¥3,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】 https://t.co/JZZhlKGkRV",
+      "attachments": {
+        "media_keys": [
+          "3_2096560040690008064"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "day_before_reminder"
+      },
+      "created_at": "2026-09-06T11:24:03+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/JZZhlKGkRV",
+            "end": 229,
+            "expanded_url": "https://x.com/info_myojou/status/2096560052983533617/photo/1",
+            "media_key": "3_2096560040690008064",
+            "start": 206,
+            "url": "https://t.co/JZZhlKGkRV"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2096560052983533617",
+      "media": [
+        {
+          "height": 2048,
+          "media_key": "3_2096560040690008064",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HRh6P7ubQAAday1.jpg",
+          "width": 1452
+        }
+      ],
+      "needs_review": true,
+      "needs_review_reasons": [
+        "ambiguous event match",
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 265,
+              "start": 258,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "buzz-ticket.com/e/ladysteady_0…",
+              "end": 256,
+              "expanded_url": "https://buzz-ticket.com/e/ladysteady_0907",
+              "start": 233,
+              "url": "https://t.co/KUaSDFoZEb"
+            }
+          ]
+        },
+        "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「LadySteady supported by BUZZチケ」\n\n🎙16:45-17:10\n📸17:20-18:20\n\n⟣date：9/7（月）\n⟣place :Spotify O-EAST\n⟣open/start：14:30/15:00\n⟣price：前方¥8,000/一般 ¥3,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/16（木）22:00-9/6（日）23:59\n🔗 https://t.co/KUaSDFoZEb\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": "17:20-18:20",
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-09-07",
+        "event_dates": [
+          "2026-09-07"
+        ],
+        "event_name": "LadySteady supported by BUZZチケ",
+        "extraction_confidence": 0.95,
+        "general_ticket_price": 3500,
+        "lottery_result_at": null,
+        "myojou_performance_time": "16:45-17:10",
+        "notes": "ドリンク代: 各+1D\n⟣入場特典:明星カード(サインありチェキ)",
+        "open_time": "14:30",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "前方",
+        "priority_ticket_price": 8000,
+        "same_day_ticket_price": null,
+        "source_kind": "day_before_reminder",
+        "source_post_id": "2096560052983533617",
+        "source_posted_at": "2026-09-06T11:24:03Z",
+        "source_raw": {
+          "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「LadySteady supported by BUZZチケ」\n\n🎙16:45-17:10\n📸17:20-18:20\n\n⟣date：9/7（月）\n⟣place :Spotify O-EAST\n⟣open/start：14:30/15:00\n⟣price：前方¥8,000/一般 ¥3,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】 https://t.co/JZZhlKGkRV",
+          "attachments": {
+            "media_keys": [
+              "3_2096560040690008064"
+            ]
+          },
+          "created_at": "2026-09-06T11:24:03.000Z",
+          "edit_history_tweet_ids": [
+            "2096560052983533617"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/JZZhlKGkRV",
+                "end": 229,
+                "expanded_url": "https://x.com/info_myojou/status/2096560052983533617/photo/1",
+                "media_key": "3_2096560040690008064",
+                "start": 206,
+                "url": "https://t.co/JZZhlKGkRV"
+              }
+            ]
+          },
+          "full_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「LadySteady supported by BUZZチケ」\n\n🎙16:45-17:10\n📸17:20-18:20\n\n⟣date：9/7（月）\n⟣place :Spotify O-EAST\n⟣open/start：14:30/15:00\n⟣price：前方¥8,000/一般 ¥3,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/16（木）22:00-9/6（日）23:59\n🔗 https://t.co/KUaSDFoZEb\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2096560052983533617",
+          "media": [
+            {
+              "height": 2048,
+              "media_key": "3_2096560040690008064",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HRh6P7ubQAAday1.jpg",
+              "width": 1452
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 265,
+                  "start": 258,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "buzz-ticket.com/e/ladysteady_0…",
+                  "end": 256,
+                  "expanded_url": "https://buzz-ticket.com/e/ladysteady_0907",
+                  "start": 233,
+                  "url": "https://t.co/KUaSDFoZEb"
+                }
+              ]
+            },
+            "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「LadySteady supported by BUZZチケ」\n\n🎙16:45-17:10\n📸17:20-18:20\n\n⟣date：9/7（月）\n⟣place :Spotify O-EAST\n⟣open/start：14:30/15:00\n⟣price：前方¥8,000/一般 ¥3,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/16（木）22:00-9/6（日）23:59\n🔗 https://t.co/KUaSDFoZEb\n\n#myojou"
+          },
+          "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「LadySteady supported by BUZZチケ」\n\n🎙16:45-17:10\n📸17:20-18:20\n\n⟣date：9/7（月）\n⟣place :Spotify O-EAST\n⟣open/start：14:30/15:00\n⟣price：前方¥8,000/一般 ¥3,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】 https://t.co/JZZhlKGkRV",
+          "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「LadySteady supported by BUZZチケ」\n\n🎙16:45-17:10\n📸17:20-18:20\n\n⟣date：9/7（月）\n⟣place :Spotify O-EAST\n⟣open/start：14:30/15:00\n⟣price：前方¥8,000/一般 ¥3,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】 https://t.co/JZZhlKGkRV"
+        },
+        "source_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「LadySteady supported by BUZZチケ」\n\n🎙16:45-17:10\n📸17:20-18:20\n\n⟣date：9/7（月）\n⟣place :Spotify O-EAST\n⟣open/start：14:30/15:00\n⟣price：前方¥8,000/一般 ¥3,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/16（木）22:00-9/6（日）23:59\n🔗 https://t.co/KUaSDFoZEb\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2096560052983533617",
+        "start_time": "15:00",
+        "ticket_application_deadline_at": "2026-09-06T23:59:00+09:00",
+        "ticket_application_start_at": "2026-07-16T22:00:00+09:00",
+        "ticket_sale_type": "先着",
+        "ticket_sales": [
+          {
+            "deadline_at": "2026-09-06T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 8000,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2096560052983533617",
+            "source_url": "https://x.com/info_myojou/status/2096560052983533617",
+            "start_at": "2026-07-16T22:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "前方",
+            "ticket_tier": "前方"
+          },
+          {
+            "deadline_at": "2026-09-06T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 3500,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2096560052983533617",
+            "source_url": "https://x.com/info_myojou/status/2096560052983533617",
+            "start_at": "2026-07-16T22:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": null,
+        "venue": "Spotify O-EAST"
+      },
+      "raw": {
+        "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「LadySteady supported by BUZZチケ」\n\n🎙16:45-17:10\n📸17:20-18:20\n\n⟣date：9/7（月）\n⟣place :Spotify O-EAST\n⟣open/start：14:30/15:00\n⟣price：前方¥8,000/一般 ¥3,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】 https://t.co/JZZhlKGkRV",
+        "attachments": {
+          "media_keys": [
+            "3_2096560040690008064"
+          ]
+        },
+        "created_at": "2026-09-06T11:24:03.000Z",
+        "edit_history_tweet_ids": [
+          "2096560052983533617"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/JZZhlKGkRV",
+              "end": 229,
+              "expanded_url": "https://x.com/info_myojou/status/2096560052983533617/photo/1",
+              "media_key": "3_2096560040690008064",
+              "start": 206,
+              "url": "https://t.co/JZZhlKGkRV"
+            }
+          ]
+        },
+        "full_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「LadySteady supported by BUZZチケ」\n\n🎙16:45-17:10\n📸17:20-18:20\n\n⟣date：9/7（月）\n⟣place :Spotify O-EAST\n⟣open/start：14:30/15:00\n⟣price：前方¥8,000/一般 ¥3,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/16（木）22:00-9/6（日）23:59\n🔗 https://t.co/KUaSDFoZEb\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2096560052983533617",
+        "media": [
+          {
+            "height": 2048,
+            "media_key": "3_2096560040690008064",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HRh6P7ubQAAday1.jpg",
+            "width": 1452
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 265,
+                "start": 258,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "buzz-ticket.com/e/ladysteady_0…",
+                "end": 256,
+                "expanded_url": "https://buzz-ticket.com/e/ladysteady_0907",
+                "start": 233,
+                "url": "https://t.co/KUaSDFoZEb"
+              }
+            ]
+          },
+          "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「LadySteady supported by BUZZチケ」\n\n🎙16:45-17:10\n📸17:20-18:20\n\n⟣date：9/7（月）\n⟣place :Spotify O-EAST\n⟣open/start：14:30/15:00\n⟣price：前方¥8,000/一般 ¥3,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/16（木）22:00-9/6（日）23:59\n🔗 https://t.co/KUaSDFoZEb\n\n#myojou"
+        },
+        "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「LadySteady supported by BUZZチケ」\n\n🎙16:45-17:10\n📸17:20-18:20\n\n⟣date：9/7（月）\n⟣place :Spotify O-EAST\n⟣open/start：14:30/15:00\n⟣price：前方¥8,000/一般 ¥3,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】 https://t.co/JZZhlKGkRV",
+        "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「LadySteady supported by BUZZチケ」\n\n🎙16:45-17:10\n📸17:20-18:20\n\n⟣date：9/7（月）\n⟣place :Spotify O-EAST\n⟣open/start：14:30/15:00\n⟣price：前方¥8,000/一般 ¥3,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】 https://t.co/JZZhlKGkRV"
+      },
+      "referenced_tweets": [],
+      "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「LadySteady supported by BUZZチケ」\n\n🎙16:45-17:10\n📸17:20-18:20\n\n⟣date：9/7（月）\n⟣place :Spotify O-EAST\n⟣open/start：14:30/15:00\n⟣price：前方¥8,000/一般 ¥3,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】\n7/16（木）22:00-9/6（日）23:59\n🔗 https://t.co/KUaSDFoZEb\n\n#myojou",
+      "truncated_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「LadySteady supported by BUZZチケ」\n\n🎙16:45-17:10\n📸17:20-18:20\n\n⟣date：9/7（月）\n⟣place :Spotify O-EAST\n⟣open/start：14:30/15:00\n⟣price：前方¥8,000/一般 ¥3,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】 https://t.co/JZZhlKGkRV",
+      "url": "https://x.com/info_myojou/status/2096560052983533617"
+    },
+    {
+      "api_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n         NAGOYA GIRLS GIRLS extra!!\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「NAGOYA GIRLS GIRLS extra!!」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka https://t.co/6WjYclpkwM",
+      "attachments": {
+        "media_keys": [
+          "3_2096555366264045568"
+        ]
+      },
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "profile/member introduction",
+        "source_kind": "other"
+      },
+      "created_at": "2026-09-06T11:05:28+00:00",
+      "entities": {
+        "mentions": [
+          {
+            "end": 190,
+            "id": "1981655668626165760",
+            "start": 178,
+            "username": "myojou_ruka"
+          }
+        ],
+        "urls": [
+          {
+            "display_url": "pic.x.com/6WjYclpkwM",
+            "end": 214,
+            "expanded_url": "https://x.com/info_myojou/status/2096555377257254971/photo/1",
+            "media_key": "3_2096555366264045568",
+            "start": 191,
+            "url": "https://t.co/6WjYclpkwM"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2096555377257254971",
+      "media": [
+        {
+          "alt_text": "M0,SE\nM1,HeartBeat\nM2,軌跡まで\nM3,夏、空模様\nM4,CHRONOS\nM5,アンチコンプリート\nM6,星景讃歌",
+          "height": 2160,
+          "media_key": "3_2096555366264045568",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HRh1_2IbgAAKRXx.jpg",
+          "width": 2880
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 296,
+              "start": 289,
+              "tag": "myojou"
+            }
+          ],
+          "mentions": [
+            {
+              "end": 190,
+              "id": "1981655668626165760",
+              "start": 178,
+              "username": "myojou_ruka"
+            },
+            {
+              "end": 207,
+              "id": "2009245855694675968",
+              "start": 196,
+              "username": "myojou_miu"
+            },
+            {
+              "end": 235,
+              "id": "1590652199407083520",
+              "start": 221,
+              "username": "myojou_cocone"
+            },
+            {
+              "end": 254,
+              "id": "1754991922807177216",
+              "start": 241,
+              "username": "myojou_shino"
+            },
+            {
+              "end": 271,
+              "id": "2009274765895450624",
+              "start": 260,
+              "username": "myojou_yun"
+            }
+          ]
+        },
+        "text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n         NAGOYA GIRLS GIRLS extra!!\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「NAGOYA GIRLS GIRLS extra!!」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n日陽みう@myojou_miu \n\n下段左から\n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n澪奈ゆん@myojou_yun \n\nSETLIST▶︎ALT\n\n #myojou"
+      },
+      "parsed_fields": null,
+      "raw": {
+        "api_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n         NAGOYA GIRLS GIRLS extra!!\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「NAGOYA GIRLS GIRLS extra!!」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka https://t.co/6WjYclpkwM",
+        "attachments": {
+          "media_keys": [
+            "3_2096555366264045568"
+          ]
+        },
+        "created_at": "2026-09-06T11:05:28.000Z",
+        "edit_history_tweet_ids": [
+          "2096555377257254971"
+        ],
+        "entities": {
+          "mentions": [
+            {
+              "end": 190,
+              "id": "1981655668626165760",
+              "start": 178,
+              "username": "myojou_ruka"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "pic.x.com/6WjYclpkwM",
+              "end": 214,
+              "expanded_url": "https://x.com/info_myojou/status/2096555377257254971/photo/1",
+              "media_key": "3_2096555366264045568",
+              "start": 191,
+              "url": "https://t.co/6WjYclpkwM"
+            }
+          ]
+        },
+        "full_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n         NAGOYA GIRLS GIRLS extra!!\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「NAGOYA GIRLS GIRLS extra!!」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n日陽みう@myojou_miu \n\n下段左から\n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n澪奈ゆん@myojou_yun \n\nSETLIST▶︎ALT\n\n #myojou",
+        "full_text_source": "note_tweet",
+        "id": "2096555377257254971",
+        "media": [
+          {
+            "alt_text": "M0,SE\nM1,HeartBeat\nM2,軌跡まで\nM3,夏、空模様\nM4,CHRONOS\nM5,アンチコンプリート\nM6,星景讃歌",
+            "height": 2160,
+            "media_key": "3_2096555366264045568",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HRh1_2IbgAAKRXx.jpg",
+            "width": 2880
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 296,
+                "start": 289,
+                "tag": "myojou"
+              }
+            ],
+            "mentions": [
+              {
+                "end": 190,
+                "id": "1981655668626165760",
+                "start": 178,
+                "username": "myojou_ruka"
+              },
+              {
+                "end": 207,
+                "id": "2009245855694675968",
+                "start": 196,
+                "username": "myojou_miu"
+              },
+              {
+                "end": 235,
+                "id": "1590652199407083520",
+                "start": 221,
+                "username": "myojou_cocone"
+              },
+              {
+                "end": 254,
+                "id": "1754991922807177216",
+                "start": 241,
+                "username": "myojou_shino"
+              },
+              {
+                "end": 271,
+                "id": "2009274765895450624",
+                "start": 260,
+                "username": "myojou_yun"
+              }
+            ]
+          },
+          "text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n         NAGOYA GIRLS GIRLS extra!!\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「NAGOYA GIRLS GIRLS extra!!」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n日陽みう@myojou_miu \n\n下段左から\n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n澪奈ゆん@myojou_yun \n\nSETLIST▶︎ALT\n\n #myojou"
+        },
+        "text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n         NAGOYA GIRLS GIRLS extra!!\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「NAGOYA GIRLS GIRLS extra!!」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka https://t.co/6WjYclpkwM",
+        "truncated_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n         NAGOYA GIRLS GIRLS extra!!\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「NAGOYA GIRLS GIRLS extra!!」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka https://t.co/6WjYclpkwM"
+      },
+      "referenced_tweets": [],
+      "text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n         NAGOYA GIRLS GIRLS extra!!\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「NAGOYA GIRLS GIRLS extra!!」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka \n日陽みう@myojou_miu \n\n下段左から\n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n澪奈ゆん@myojou_yun \n\nSETLIST▶︎ALT\n\n #myojou",
+      "truncated_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n         NAGOYA GIRLS GIRLS extra!!\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「NAGOYA GIRLS GIRLS extra!!」ありがとうございました⋆˙⟡\n\n上段左から\n姫乃るか@myojou_ruka https://t.co/6WjYclpkwM",
+      "url": "https://x.com/info_myojou/status/2096555377257254971"
+    },
+    {
+      "api_text": "【myojou oneman live\"明夏\"ナンバーくじオフ会について】\n\n大変お待たせしてしまい、申し訳ございません。\n\n本日myojou oneman live\"明夏\"ナンバーくじオフ会についてのご案内を、ご対象の方にメールにてお送りいたしました。",
+      "attachments": {},
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "same_day_reminder"
+      },
+      "created_at": "2026-09-06T10:16:23+00:00",
+      "entities": {},
+      "full_text_source": "note_tweet",
+      "id": "2096543023480164726",
+      "media": [],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "missing venue",
+        "missing ticket deadline",
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 180,
+              "start": 173,
+              "tag": "myojou"
+            }
+          ]
+        },
+        "text": "【myojou oneman live\"明夏\"ナンバーくじオフ会について】\n\n大変お待たせしてしまい、申し訳ございません。\n\n本日myojou oneman live\"明夏\"ナンバーくじオフ会についてのご案内を、ご対象の方にメールにてお送りいたしました。\n\nご対象者の方で、メールがお送りされていない方がいましたらDMにてお知らせください。\n\n #myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": null,
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-09-06",
+        "event_dates": [
+          "2026-09-06"
+        ],
+        "event_name": "【myojou oneman live\"明夏\"ナンバーくじオフ会について】",
+        "extraction_confidence": 0.65,
+        "general_ticket_price": null,
+        "lottery_result_at": null,
+        "myojou_performance_time": null,
+        "notes": null,
+        "open_time": null,
+        "payment_deadline_at": null,
+        "priority_ticket_name": null,
+        "priority_ticket_price": null,
+        "same_day_ticket_price": null,
+        "source_kind": "same_day_reminder",
+        "source_post_id": "2096543023480164726",
+        "source_posted_at": "2026-09-06T10:16:23Z",
+        "source_raw": {
+          "api_text": "【myojou oneman live\"明夏\"ナンバーくじオフ会について】\n\n大変お待たせしてしまい、申し訳ございません。\n\n本日myojou oneman live\"明夏\"ナンバーくじオフ会についてのご案内を、ご対象の方にメールにてお送りいたしました。",
+          "created_at": "2026-09-06T10:16:23.000Z",
+          "edit_history_tweet_ids": [
+            "2096543023480164726"
+          ],
+          "full_text": "【myojou oneman live\"明夏\"ナンバーくじオフ会について】\n\n大変お待たせしてしまい、申し訳ございません。\n\n本日myojou oneman live\"明夏\"ナンバーくじオフ会についてのご案内を、ご対象の方にメールにてお送りいたしました。\n\nご対象者の方で、メールがお送りされていない方がいましたらDMにてお知らせください。\n\n #myojou",
+          "full_text_source": "note_tweet",
+          "id": "2096543023480164726",
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 180,
+                  "start": 173,
+                  "tag": "myojou"
+                }
+              ]
+            },
+            "text": "【myojou oneman live\"明夏\"ナンバーくじオフ会について】\n\n大変お待たせしてしまい、申し訳ございません。\n\n本日myojou oneman live\"明夏\"ナンバーくじオフ会についてのご案内を、ご対象の方にメールにてお送りいたしました。\n\nご対象者の方で、メールがお送りされていない方がいましたらDMにてお知らせください。\n\n #myojou"
+          },
+          "text": "【myojou oneman live\"明夏\"ナンバーくじオフ会について】\n\n大変お待たせしてしまい、申し訳ございません。\n\n本日myojou oneman live\"明夏\"ナンバーくじオフ会についてのご案内を、ご対象の方にメールにてお送りいたしました。",
+          "truncated_text": "【myojou oneman live\"明夏\"ナンバーくじオフ会について】\n\n大変お待たせしてしまい、申し訳ございません。\n\n本日myojou oneman live\"明夏\"ナンバーくじオフ会についてのご案内を、ご対象の方にメールにてお送りいたしました。"
+        },
+        "source_text": "【myojou oneman live\"明夏\"ナンバーくじオフ会について】\n\n大変お待たせしてしまい、申し訳ございません。\n\n本日myojou oneman live\"明夏\"ナンバーくじオフ会についてのご案内を、ご対象の方にメールにてお送りいたしました。\n\nご対象者の方で、メールがお送りされていない方がいましたらDMにてお知らせください。\n\n #myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2096543023480164726",
+        "start_time": null,
+        "ticket_application_deadline_at": null,
+        "ticket_application_start_at": null,
+        "ticket_sale_type": null,
+        "ticket_sales": [],
+        "ticket_status": null,
+        "ticket_url": null,
+        "venue": null
+      },
+      "raw": {
+        "api_text": "【myojou oneman live\"明夏\"ナンバーくじオフ会について】\n\n大変お待たせしてしまい、申し訳ございません。\n\n本日myojou oneman live\"明夏\"ナンバーくじオフ会についてのご案内を、ご対象の方にメールにてお送りいたしました。",
+        "created_at": "2026-09-06T10:16:23.000Z",
+        "edit_history_tweet_ids": [
+          "2096543023480164726"
+        ],
+        "full_text": "【myojou oneman live\"明夏\"ナンバーくじオフ会について】\n\n大変お待たせしてしまい、申し訳ございません。\n\n本日myojou oneman live\"明夏\"ナンバーくじオフ会についてのご案内を、ご対象の方にメールにてお送りいたしました。\n\nご対象者の方で、メールがお送りされていない方がいましたらDMにてお知らせください。\n\n #myojou",
+        "full_text_source": "note_tweet",
+        "id": "2096543023480164726",
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 180,
+                "start": 173,
+                "tag": "myojou"
+              }
+            ]
+          },
+          "text": "【myojou oneman live\"明夏\"ナンバーくじオフ会について】\n\n大変お待たせしてしまい、申し訳ございません。\n\n本日myojou oneman live\"明夏\"ナンバーくじオフ会についてのご案内を、ご対象の方にメールにてお送りいたしました。\n\nご対象者の方で、メールがお送りされていない方がいましたらDMにてお知らせください。\n\n #myojou"
+        },
+        "text": "【myojou oneman live\"明夏\"ナンバーくじオフ会について】\n\n大変お待たせしてしまい、申し訳ございません。\n\n本日myojou oneman live\"明夏\"ナンバーくじオフ会についてのご案内を、ご対象の方にメールにてお送りいたしました。",
+        "truncated_text": "【myojou oneman live\"明夏\"ナンバーくじオフ会について】\n\n大変お待たせしてしまい、申し訳ございません。\n\n本日myojou oneman live\"明夏\"ナンバーくじオフ会についてのご案内を、ご対象の方にメールにてお送りいたしました。"
+      },
+      "referenced_tweets": [],
+      "text": "【myojou oneman live\"明夏\"ナンバーくじオフ会について】\n\n大変お待たせしてしまい、申し訳ございません。\n\n本日myojou oneman live\"明夏\"ナンバーくじオフ会についてのご案内を、ご対象の方にメールにてお送りいたしました。\n\nご対象者の方で、メールがお送りされていない方がいましたらDMにてお知らせください。\n\n #myojou",
+      "truncated_text": "【myojou oneman live\"明夏\"ナンバーくじオフ会について】\n\n大変お待たせしてしまい、申し訳ございません。\n\n本日myojou oneman live\"明夏\"ナンバーくじオフ会についてのご案内を、ご対象の方にメールにてお送りいたしました。",
+      "url": "https://x.com/info_myojou/status/2096543023480164726"
+    },
+    {
       "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「NAGOYA GIRLS GIRLS extra!!｣\n\n🎙17:40-18:05\n📸18:15-19:25 B\n\n⟣date：9/6（日）\n⟣place : Zephyr Hall\n⟣open/start：9:45/10:00\n⟣price：前方¥6,000/一般 ¥3,000/当日各＋¥1,000（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】 https://t.co/40gDw2kJiW",
       "attachments": {
         "media_keys": [
@@ -176259,7 +176818,7 @@
     "backfill": true,
     "dry_run": true,
     "estimated_x_post_reads": 411,
-    "latest_post_id": "2096243890198335878",
+    "latest_post_id": "2096560052983533617",
     "max_pages": 10,
     "max_posts": 500,
     "max_results": 5,
@@ -176302,16 +176861,16 @@
       }
     ],
     "pages_fetched": 5,
-    "posts_fetched": 806,
+    "posts_fetched": 809,
     "rate_limit_headers": {
       "x-rate-limit-limit": "10000",
       "x-rate-limit-remaining": "9993",
       "x-rate-limit-reset": "1781108896"
     },
-    "total_posts": 806,
-    "updated_at": "2026-09-05T21:00:38.352477+00:00",
+    "total_posts": 809,
+    "updated_at": "2026-09-06T21:08:50.778142+00:00",
     "username": "info_myojou"
   },
   "source": "x_api",
-  "updated_at": "2026-09-05T21:00:38.352477+00:00"
+  "updated_at": "2026-09-06T21:08:50.778142+00:00"
 }
