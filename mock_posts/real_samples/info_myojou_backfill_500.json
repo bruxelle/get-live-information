@@ -2,6 +2,1755 @@
   "captured_at": "2026-06-10T16:19:36.141820+00:00",
   "data": [
     {
+      "api_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n        TOKYO GIRLS GIRLS Halloween!!\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：10/25（日）\n⟣place :ステラボール\n⟣open/start：8:00/8:15\n⟣price：前方¥10,000/通常¥4,000/当日各+¥1,000（各+1D）\n\n【前方抽選受付】 https://t.co/7aTlei9p5w",
+      "attachments": {
+        "media_keys": [
+          "3_2096951080538279936"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "ticket_update"
+      },
+      "created_at": "2026-09-07T13:17:53+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/7aTlei9p5w",
+            "end": 219,
+            "expanded_url": "https://x.com/info_myojou/status/2096951089870553203/photo/1",
+            "media_key": "3_2096951080538279936",
+            "start": 196,
+            "url": "https://t.co/7aTlei9p5w"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2096951089870553203",
+      "media": [
+        {
+          "height": 4096,
+          "media_key": "3_2096951080538279936",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HRnd5crbEAAQcIF.jpg",
+          "width": 2920
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 281,
+              "start": 274,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "t-dv.com/tgg__1025",
+              "end": 272,
+              "expanded_url": "https://t-dv.com/tgg__1025",
+              "start": 249,
+              "url": "https://t.co/DMh0t61YZr"
+            }
+          ]
+        },
+        "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n        TOKYO GIRLS GIRLS Halloween!!\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：10/25（日）\n⟣place :ステラボール\n⟣open/start：8:00/8:15\n⟣price：前方¥10,000/通常¥4,000/当日各+¥1,000（各+1D）\n\n【前方抽選受付】\n 9/7(月) 20:00-9/13(日) 23:59\n【一般先着販売】\n9/14（月）20:00-\n🔗 https://t.co/DMh0t61YZr\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": null,
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-10-25",
+        "event_dates": [
+          "2026-10-25"
+        ],
+        "event_name": "TOKYO GIRLS GIRLS Halloween!!",
+        "extraction_confidence": 0.9,
+        "general_ticket_price": 4000,
+        "lottery_result_at": null,
+        "myojou_performance_time": null,
+        "notes": "ドリンク代: 各+1D",
+        "open_time": "08:00",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "前方",
+        "priority_ticket_price": 10000,
+        "same_day_ticket_price": 1000,
+        "source_kind": "ticket_update",
+        "source_post_id": "2096951089870553203",
+        "source_posted_at": "2026-09-07T13:17:53Z",
+        "source_raw": {
+          "api_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n        TOKYO GIRLS GIRLS Halloween!!\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：10/25（日）\n⟣place :ステラボール\n⟣open/start：8:00/8:15\n⟣price：前方¥10,000/通常¥4,000/当日各+¥1,000（各+1D）\n\n【前方抽選受付】 https://t.co/7aTlei9p5w",
+          "attachments": {
+            "media_keys": [
+              "3_2096951080538279936"
+            ]
+          },
+          "created_at": "2026-09-07T13:17:53.000Z",
+          "edit_history_tweet_ids": [
+            "2096951089870553203"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/7aTlei9p5w",
+                "end": 219,
+                "expanded_url": "https://x.com/info_myojou/status/2096951089870553203/photo/1",
+                "media_key": "3_2096951080538279936",
+                "start": 196,
+                "url": "https://t.co/7aTlei9p5w"
+              }
+            ]
+          },
+          "full_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n        TOKYO GIRLS GIRLS Halloween!!\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：10/25（日）\n⟣place :ステラボール\n⟣open/start：8:00/8:15\n⟣price：前方¥10,000/通常¥4,000/当日各+¥1,000（各+1D）\n\n【前方抽選受付】\n 9/7(月) 20:00-9/13(日) 23:59\n【一般先着販売】\n9/14（月）20:00-\n🔗 https://t.co/DMh0t61YZr\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2096951089870553203",
+          "media": [
+            {
+              "height": 4096,
+              "media_key": "3_2096951080538279936",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HRnd5crbEAAQcIF.jpg",
+              "width": 2920
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 281,
+                  "start": 274,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "t-dv.com/tgg__1025",
+                  "end": 272,
+                  "expanded_url": "https://t-dv.com/tgg__1025",
+                  "start": 249,
+                  "url": "https://t.co/DMh0t61YZr"
+                }
+              ]
+            },
+            "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n        TOKYO GIRLS GIRLS Halloween!!\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：10/25（日）\n⟣place :ステラボール\n⟣open/start：8:00/8:15\n⟣price：前方¥10,000/通常¥4,000/当日各+¥1,000（各+1D）\n\n【前方抽選受付】\n 9/7(月) 20:00-9/13(日) 23:59\n【一般先着販売】\n9/14（月）20:00-\n🔗 https://t.co/DMh0t61YZr\n\n#myojou"
+          },
+          "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n        TOKYO GIRLS GIRLS Halloween!!\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：10/25（日）\n⟣place :ステラボール\n⟣open/start：8:00/8:15\n⟣price：前方¥10,000/通常¥4,000/当日各+¥1,000（各+1D）\n\n【前方抽選受付】 https://t.co/7aTlei9p5w",
+          "truncated_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n        TOKYO GIRLS GIRLS Halloween!!\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：10/25（日）\n⟣place :ステラボール\n⟣open/start：8:00/8:15\n⟣price：前方¥10,000/通常¥4,000/当日各+¥1,000（各+1D）\n\n【前方抽選受付】 https://t.co/7aTlei9p5w"
+        },
+        "source_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n        TOKYO GIRLS GIRLS Halloween!!\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：10/25（日）\n⟣place :ステラボール\n⟣open/start：8:00/8:15\n⟣price：前方¥10,000/通常¥4,000/当日各+¥1,000（各+1D）\n\n【前方抽選受付】\n 9/7(月) 20:00-9/13(日) 23:59\n【一般先着販売】\n9/14（月）20:00-\n🔗 https://t.co/DMh0t61YZr\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2096951089870553203",
+        "start_time": "08:15",
+        "ticket_application_deadline_at": "2026-09-13T23:59:00+09:00",
+        "ticket_application_start_at": "2026-09-07T20:00:00+09:00",
+        "ticket_sale_type": "抽選",
+        "ticket_sales": [
+          {
+            "deadline_at": "2026-09-13T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 10000,
+            "result_at": null,
+            "sale_type": "抽選",
+            "source_post_id": "2096951089870553203",
+            "source_url": "https://x.com/info_myojou/status/2096951089870553203",
+            "start_at": "2026-09-07T20:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "前方",
+            "ticket_tier": "前方"
+          },
+          {
+            "deadline_at": "2026-09-13T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 4000,
+            "result_at": null,
+            "sale_type": "抽選",
+            "source_post_id": "2096951089870553203",
+            "source_url": "https://x.com/info_myojou/status/2096951089870553203",
+            "start_at": "2026-09-07T20:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 10000,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2096951089870553203",
+            "source_url": "https://x.com/info_myojou/status/2096951089870553203",
+            "start_at": "2026-09-14T20:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "前方",
+            "ticket_tier": "前方"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 4000,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2096951089870553203",
+            "source_url": "https://x.com/info_myojou/status/2096951089870553203",
+            "start_at": "2026-09-14T20:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 1000,
+            "result_at": null,
+            "sale_type": "当日券",
+            "source_post_id": "2096951089870553203",
+            "source_url": "https://x.com/info_myojou/status/2096951089870553203",
+            "start_at": null,
+            "status": "販売中",
+            "ticket_name": "当日券",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "https://t-dv.com/tgg__1025",
+        "venue": "ステラボール"
+      },
+      "raw": {
+        "api_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n        TOKYO GIRLS GIRLS Halloween!!\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：10/25（日）\n⟣place :ステラボール\n⟣open/start：8:00/8:15\n⟣price：前方¥10,000/通常¥4,000/当日各+¥1,000（各+1D）\n\n【前方抽選受付】 https://t.co/7aTlei9p5w",
+        "attachments": {
+          "media_keys": [
+            "3_2096951080538279936"
+          ]
+        },
+        "created_at": "2026-09-07T13:17:53.000Z",
+        "edit_history_tweet_ids": [
+          "2096951089870553203"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/7aTlei9p5w",
+              "end": 219,
+              "expanded_url": "https://x.com/info_myojou/status/2096951089870553203/photo/1",
+              "media_key": "3_2096951080538279936",
+              "start": 196,
+              "url": "https://t.co/7aTlei9p5w"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n        TOKYO GIRLS GIRLS Halloween!!\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：10/25（日）\n⟣place :ステラボール\n⟣open/start：8:00/8:15\n⟣price：前方¥10,000/通常¥4,000/当日各+¥1,000（各+1D）\n\n【前方抽選受付】\n 9/7(月) 20:00-9/13(日) 23:59\n【一般先着販売】\n9/14（月）20:00-\n🔗 https://t.co/DMh0t61YZr\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2096951089870553203",
+        "media": [
+          {
+            "height": 4096,
+            "media_key": "3_2096951080538279936",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HRnd5crbEAAQcIF.jpg",
+            "width": 2920
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 281,
+                "start": 274,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "t-dv.com/tgg__1025",
+                "end": 272,
+                "expanded_url": "https://t-dv.com/tgg__1025",
+                "start": 249,
+                "url": "https://t.co/DMh0t61YZr"
+              }
+            ]
+          },
+          "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n        TOKYO GIRLS GIRLS Halloween!!\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：10/25（日）\n⟣place :ステラボール\n⟣open/start：8:00/8:15\n⟣price：前方¥10,000/通常¥4,000/当日各+¥1,000（各+1D）\n\n【前方抽選受付】\n 9/7(月) 20:00-9/13(日) 23:59\n【一般先着販売】\n9/14（月）20:00-\n🔗 https://t.co/DMh0t61YZr\n\n#myojou"
+        },
+        "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n        TOKYO GIRLS GIRLS Halloween!!\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：10/25（日）\n⟣place :ステラボール\n⟣open/start：8:00/8:15\n⟣price：前方¥10,000/通常¥4,000/当日各+¥1,000（各+1D）\n\n【前方抽選受付】 https://t.co/7aTlei9p5w",
+        "truncated_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n        TOKYO GIRLS GIRLS Halloween!!\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：10/25（日）\n⟣place :ステラボール\n⟣open/start：8:00/8:15\n⟣price：前方¥10,000/通常¥4,000/当日各+¥1,000（各+1D）\n\n【前方抽選受付】 https://t.co/7aTlei9p5w"
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n        TOKYO GIRLS GIRLS Halloween!!\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：10/25（日）\n⟣place :ステラボール\n⟣open/start：8:00/8:15\n⟣price：前方¥10,000/通常¥4,000/当日各+¥1,000（各+1D）\n\n【前方抽選受付】\n 9/7(月) 20:00-9/13(日) 23:59\n【一般先着販売】\n9/14（月）20:00-\n🔗 https://t.co/DMh0t61YZr\n\n#myojou",
+      "truncated_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n        TOKYO GIRLS GIRLS Halloween!!\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：10/25（日）\n⟣place :ステラボール\n⟣open/start：8:00/8:15\n⟣price：前方¥10,000/通常¥4,000/当日各+¥1,000（各+1D）\n\n【前方抽選受付】 https://t.co/7aTlei9p5w",
+      "url": "https://x.com/info_myojou/status/2096951089870553203"
+    },
+    {
+      "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                        YON PIECE \n     -ROMANCE DAWN 冒険の夜明け-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙19:00-19:30\n📸20:30-22:00\n\n⟣date：9/14（月）\n⟣place : Spotify O-EAST\n⟣open/start：17:15/18:00\n⟣price：VIP¥5,000 https://t.co/I7nM5LHR6E https://t.co/BugXaG12dP",
+      "attachments": {
+        "media_keys": [
+          "3_2096950993909116928",
+          "3_2096950993846198272"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "sold_out"
+      },
+      "created_at": "2026-09-07T13:17:32+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/I7nM5LHR6E",
+            "end": 240,
+            "expanded_url": "https://x.com/info_myojou/status/2096950999063867468/photo/1",
+            "media_key": "3_2096950993909116928",
+            "start": 217,
+            "url": "https://t.co/I7nM5LHR6E"
+          },
+          {
+            "display_url": "pic.x.com/I7nM5LHR6E",
+            "end": 240,
+            "expanded_url": "https://x.com/info_myojou/status/2096950999063867468/photo/1",
+            "media_key": "3_2096950993846198272",
+            "start": 217,
+            "url": "https://t.co/I7nM5LHR6E"
+          },
+          {
+            "display_url": "x.com/info_myojou/st…",
+            "end": 264,
+            "expanded_url": "https://twitter.com/info_myojou/status/2096948916214518104",
+            "start": 241,
+            "url": "https://t.co/BugXaG12dP"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2096950999063867468",
+      "media": [
+        {
+          "alt_text": "myojouの全身全霊をここに。",
+          "height": 2048,
+          "media_key": "3_2096950993909116928",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HRnd0Z9a8AAje4E.jpg",
+          "width": 1449
+        },
+        {
+          "height": 1045,
+          "media_key": "3_2096950993846198272",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HRnd0Zua4AA9aEt.jpg",
+          "width": 1567
+        }
+      ],
+      "needs_review": true,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 350,
+              "start": 343,
+              "tag": "myojou"
+            },
+            {
+              "end": 355,
+              "start": 351,
+              "tag": "ヨンピ"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "t-dv.com/YON_PIECE",
+              "end": 341,
+              "expanded_url": "http://t-dv.com/YON_PIECE",
+              "start": 318,
+              "url": "https://t.co/wkbU9bkrAd"
+            }
+          ]
+        },
+        "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                        YON PIECE \n     -ROMANCE DAWN 冒険の夜明け-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙19:00-19:30\n📸20:30-22:00\n\n⟣date：9/14（月）\n⟣place : Spotify O-EAST\n⟣open/start：17:15/18:00\n⟣price：VIP¥5,000 / 一般¥500（各＋1D）\n⟣入場特典：イベント限定デザイン写メ券\n\n【一般販売期間】\n2026/8/19（水）22:00-2026/9/13（日）23:59\n※TICKET SOLDOUT🔥\n\n🔗 https://t.co/wkbU9bkrAd\n\n#myojou #ヨンピ"
+      },
+      "parsed_fields": {
+        "benefit_event_time": "20:30-22:00",
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-09-14",
+        "event_dates": [
+          "2026-09-14"
+        ],
+        "event_name": "YON PIECE -ROMANCE DAWN 冒険の夜明け",
+        "extraction_confidence": 0.95,
+        "general_ticket_price": 500,
+        "lottery_result_at": null,
+        "myojou_performance_time": "19:00-19:30",
+        "notes": null,
+        "open_time": "17:15",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "VIP",
+        "priority_ticket_price": 5000,
+        "same_day_ticket_price": null,
+        "source_kind": "sold_out",
+        "source_post_id": "2096950999063867468",
+        "source_posted_at": "2026-09-07T13:17:32Z",
+        "source_raw": {
+          "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                        YON PIECE \n     -ROMANCE DAWN 冒険の夜明け-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙19:00-19:30\n📸20:30-22:00\n\n⟣date：9/14（月）\n⟣place : Spotify O-EAST\n⟣open/start：17:15/18:00\n⟣price：VIP¥5,000 https://t.co/I7nM5LHR6E https://t.co/BugXaG12dP",
+          "attachments": {
+            "media_keys": [
+              "3_2096950993909116928",
+              "3_2096950993846198272"
+            ]
+          },
+          "created_at": "2026-09-07T13:17:32.000Z",
+          "edit_history_tweet_ids": [
+            "2096950999063867468"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/I7nM5LHR6E",
+                "end": 240,
+                "expanded_url": "https://x.com/info_myojou/status/2096950999063867468/photo/1",
+                "media_key": "3_2096950993909116928",
+                "start": 217,
+                "url": "https://t.co/I7nM5LHR6E"
+              },
+              {
+                "display_url": "pic.x.com/I7nM5LHR6E",
+                "end": 240,
+                "expanded_url": "https://x.com/info_myojou/status/2096950999063867468/photo/1",
+                "media_key": "3_2096950993846198272",
+                "start": 217,
+                "url": "https://t.co/I7nM5LHR6E"
+              },
+              {
+                "display_url": "x.com/info_myojou/st…",
+                "end": 264,
+                "expanded_url": "https://twitter.com/info_myojou/status/2096948916214518104",
+                "start": 241,
+                "url": "https://t.co/BugXaG12dP"
+              }
+            ]
+          },
+          "full_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                        YON PIECE \n     -ROMANCE DAWN 冒険の夜明け-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙19:00-19:30\n📸20:30-22:00\n\n⟣date：9/14（月）\n⟣place : Spotify O-EAST\n⟣open/start：17:15/18:00\n⟣price：VIP¥5,000 / 一般¥500（各＋1D）\n⟣入場特典：イベント限定デザイン写メ券\n\n【一般販売期間】\n2026/8/19（水）22:00-2026/9/13（日）23:59\n※TICKET SOLDOUT🔥\n\n🔗 https://t.co/wkbU9bkrAd\n\n#myojou #ヨンピ",
+          "full_text_source": "note_tweet",
+          "id": "2096950999063867468",
+          "media": [
+            {
+              "alt_text": "myojouの全身全霊をここに。",
+              "height": 2048,
+              "media_key": "3_2096950993909116928",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HRnd0Z9a8AAje4E.jpg",
+              "width": 1449
+            },
+            {
+              "height": 1045,
+              "media_key": "3_2096950993846198272",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HRnd0Zua4AA9aEt.jpg",
+              "width": 1567
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 350,
+                  "start": 343,
+                  "tag": "myojou"
+                },
+                {
+                  "end": 355,
+                  "start": 351,
+                  "tag": "ヨンピ"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "t-dv.com/YON_PIECE",
+                  "end": 341,
+                  "expanded_url": "http://t-dv.com/YON_PIECE",
+                  "start": 318,
+                  "url": "https://t.co/wkbU9bkrAd"
+                }
+              ]
+            },
+            "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                        YON PIECE \n     -ROMANCE DAWN 冒険の夜明け-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙19:00-19:30\n📸20:30-22:00\n\n⟣date：9/14（月）\n⟣place : Spotify O-EAST\n⟣open/start：17:15/18:00\n⟣price：VIP¥5,000 / 一般¥500（各＋1D）\n⟣入場特典：イベント限定デザイン写メ券\n\n【一般販売期間】\n2026/8/19（水）22:00-2026/9/13（日）23:59\n※TICKET SOLDOUT🔥\n\n🔗 https://t.co/wkbU9bkrAd\n\n#myojou #ヨンピ"
+          },
+          "referenced_tweets": [
+            {
+              "id": "2096948916214518104",
+              "type": "quoted"
+            }
+          ],
+          "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                        YON PIECE \n     -ROMANCE DAWN 冒険の夜明け-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙19:00-19:30\n📸20:30-22:00\n\n⟣date：9/14（月）\n⟣place : Spotify O-EAST\n⟣open/start：17:15/18:00\n⟣price：VIP¥5,000 https://t.co/I7nM5LHR6E https://t.co/BugXaG12dP",
+          "truncated_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                        YON PIECE \n     -ROMANCE DAWN 冒険の夜明け-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙19:00-19:30\n📸20:30-22:00\n\n⟣date：9/14（月）\n⟣place : Spotify O-EAST\n⟣open/start：17:15/18:00\n⟣price：VIP¥5,000 https://t.co/I7nM5LHR6E https://t.co/BugXaG12dP"
+        },
+        "source_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                        YON PIECE \n     -ROMANCE DAWN 冒険の夜明け-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙19:00-19:30\n📸20:30-22:00\n\n⟣date：9/14（月）\n⟣place : Spotify O-EAST\n⟣open/start：17:15/18:00\n⟣price：VIP¥5,000 / 一般¥500（各＋1D）\n⟣入場特典：イベント限定デザイン写メ券\n\n【一般販売期間】\n2026/8/19（水）22:00-2026/9/13（日）23:59\n※TICKET SOLDOUT🔥\n\n🔗 https://t.co/wkbU9bkrAd\n\n#myojou #ヨンピ",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2096950999063867468",
+        "start_time": "18:00",
+        "ticket_application_deadline_at": "2026-09-13T23:59:00+09:00",
+        "ticket_application_start_at": "2026-08-19T22:00:00+09:00",
+        "ticket_sale_type": "一般",
+        "ticket_sales": [
+          {
+            "deadline_at": "2026-09-13T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 5000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2096950999063867468",
+            "source_url": "https://x.com/info_myojou/status/2096950999063867468",
+            "start_at": "2026-08-19T22:00:00+09:00",
+            "status": "完売",
+            "ticket_name": "VIP",
+            "ticket_tier": "VIP"
+          },
+          {
+            "deadline_at": "2026-09-13T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 500,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2096950999063867468",
+            "source_url": "https://x.com/info_myojou/status/2096950999063867468",
+            "start_at": "2026-08-19T22:00:00+09:00",
+            "status": "完売",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": "sold_out",
+        "ticket_url": "http://t-dv.com/YON_PIECE",
+        "venue": "Spotify O-EAST"
+      },
+      "raw": {
+        "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                        YON PIECE \n     -ROMANCE DAWN 冒険の夜明け-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙19:00-19:30\n📸20:30-22:00\n\n⟣date：9/14（月）\n⟣place : Spotify O-EAST\n⟣open/start：17:15/18:00\n⟣price：VIP¥5,000 https://t.co/I7nM5LHR6E https://t.co/BugXaG12dP",
+        "attachments": {
+          "media_keys": [
+            "3_2096950993909116928",
+            "3_2096950993846198272"
+          ]
+        },
+        "created_at": "2026-09-07T13:17:32.000Z",
+        "edit_history_tweet_ids": [
+          "2096950999063867468"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/I7nM5LHR6E",
+              "end": 240,
+              "expanded_url": "https://x.com/info_myojou/status/2096950999063867468/photo/1",
+              "media_key": "3_2096950993909116928",
+              "start": 217,
+              "url": "https://t.co/I7nM5LHR6E"
+            },
+            {
+              "display_url": "pic.x.com/I7nM5LHR6E",
+              "end": 240,
+              "expanded_url": "https://x.com/info_myojou/status/2096950999063867468/photo/1",
+              "media_key": "3_2096950993846198272",
+              "start": 217,
+              "url": "https://t.co/I7nM5LHR6E"
+            },
+            {
+              "display_url": "x.com/info_myojou/st…",
+              "end": 264,
+              "expanded_url": "https://twitter.com/info_myojou/status/2096948916214518104",
+              "start": 241,
+              "url": "https://t.co/BugXaG12dP"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                        YON PIECE \n     -ROMANCE DAWN 冒険の夜明け-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙19:00-19:30\n📸20:30-22:00\n\n⟣date：9/14（月）\n⟣place : Spotify O-EAST\n⟣open/start：17:15/18:00\n⟣price：VIP¥5,000 / 一般¥500（各＋1D）\n⟣入場特典：イベント限定デザイン写メ券\n\n【一般販売期間】\n2026/8/19（水）22:00-2026/9/13（日）23:59\n※TICKET SOLDOUT🔥\n\n🔗 https://t.co/wkbU9bkrAd\n\n#myojou #ヨンピ",
+        "full_text_source": "note_tweet",
+        "id": "2096950999063867468",
+        "media": [
+          {
+            "alt_text": "myojouの全身全霊をここに。",
+            "height": 2048,
+            "media_key": "3_2096950993909116928",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HRnd0Z9a8AAje4E.jpg",
+            "width": 1449
+          },
+          {
+            "height": 1045,
+            "media_key": "3_2096950993846198272",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HRnd0Zua4AA9aEt.jpg",
+            "width": 1567
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 350,
+                "start": 343,
+                "tag": "myojou"
+              },
+              {
+                "end": 355,
+                "start": 351,
+                "tag": "ヨンピ"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "t-dv.com/YON_PIECE",
+                "end": 341,
+                "expanded_url": "http://t-dv.com/YON_PIECE",
+                "start": 318,
+                "url": "https://t.co/wkbU9bkrAd"
+              }
+            ]
+          },
+          "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                        YON PIECE \n     -ROMANCE DAWN 冒険の夜明け-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙19:00-19:30\n📸20:30-22:00\n\n⟣date：9/14（月）\n⟣place : Spotify O-EAST\n⟣open/start：17:15/18:00\n⟣price：VIP¥5,000 / 一般¥500（各＋1D）\n⟣入場特典：イベント限定デザイン写メ券\n\n【一般販売期間】\n2026/8/19（水）22:00-2026/9/13（日）23:59\n※TICKET SOLDOUT🔥\n\n🔗 https://t.co/wkbU9bkrAd\n\n#myojou #ヨンピ"
+        },
+        "referenced_tweets": [
+          {
+            "id": "2096948916214518104",
+            "type": "quoted"
+          }
+        ],
+        "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                        YON PIECE \n     -ROMANCE DAWN 冒険の夜明け-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙19:00-19:30\n📸20:30-22:00\n\n⟣date：9/14（月）\n⟣place : Spotify O-EAST\n⟣open/start：17:15/18:00\n⟣price：VIP¥5,000 https://t.co/I7nM5LHR6E https://t.co/BugXaG12dP",
+        "truncated_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                        YON PIECE \n     -ROMANCE DAWN 冒険の夜明け-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙19:00-19:30\n📸20:30-22:00\n\n⟣date：9/14（月）\n⟣place : Spotify O-EAST\n⟣open/start：17:15/18:00\n⟣price：VIP¥5,000 https://t.co/I7nM5LHR6E https://t.co/BugXaG12dP"
+      },
+      "referenced_tweets": [
+        {
+          "id": "2096948916214518104",
+          "type": "quoted"
+        }
+      ],
+      "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                        YON PIECE \n     -ROMANCE DAWN 冒険の夜明け-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙19:00-19:30\n📸20:30-22:00\n\n⟣date：9/14（月）\n⟣place : Spotify O-EAST\n⟣open/start：17:15/18:00\n⟣price：VIP¥5,000 / 一般¥500（各＋1D）\n⟣入場特典：イベント限定デザイン写メ券\n\n【一般販売期間】\n2026/8/19（水）22:00-2026/9/13（日）23:59\n※TICKET SOLDOUT🔥\n\n🔗 https://t.co/wkbU9bkrAd\n\n#myojou #ヨンピ",
+      "truncated_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                        YON PIECE \n     -ROMANCE DAWN 冒険の夜明け-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n🎙19:00-19:30\n📸20:30-22:00\n\n⟣date：9/14（月）\n⟣place : Spotify O-EAST\n⟣open/start：17:15/18:00\n⟣price：VIP¥5,000 https://t.co/I7nM5LHR6E https://t.co/BugXaG12dP",
+      "url": "https://x.com/info_myojou/status/2096950999063867468"
+    },
+    {
+      "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                        YON PIECE \n     -ROMANCE DAWN 冒険の夜明け-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n出演順解禁！\n出演については、動画をご覧ください✮\n\n#ヨンピ\n#myojou https://t.co/IN5yHAjAKA",
+      "attachments": {
+        "media_keys": [
+          "13_2096948568288555009"
+        ]
+      },
+      "classification": {
+        "classification": "needs_review",
+        "confidence": "low",
+        "reason": "event-like words but insufficient structured information",
+        "source_kind": "other"
+      },
+      "created_at": "2026-09-07T13:09:15+00:00",
+      "entities": {
+        "hashtags": [
+          {
+            "end": 142,
+            "start": 138,
+            "tag": "ヨンピ"
+          },
+          {
+            "end": 150,
+            "start": 143,
+            "tag": "myojou"
+          }
+        ],
+        "urls": [
+          {
+            "display_url": "pic.x.com/IN5yHAjAKA",
+            "end": 174,
+            "expanded_url": "https://x.com/info_myojou/status/2096948916214518104/video/1",
+            "media_key": "13_2096948568288555009",
+            "start": 151,
+            "url": "https://t.co/IN5yHAjAKA"
+          }
+        ]
+      },
+      "full_text_source": "text",
+      "id": "2096948916214518104",
+      "media": [
+        {
+          "height": 1080,
+          "media_key": "13_2096948568288555009",
+          "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2096948568288555009/img/X2YDvXG0LLsjxRqz.jpg",
+          "type": "video",
+          "width": 1920
+        }
+      ],
+      "needs_review": true,
+      "needs_review_reasons": [
+        "missing venue",
+        "missing ticket deadline",
+        "ambiguous event match",
+        "classification: event-like words but insufficient structured information"
+      ],
+      "note_tweet": null,
+      "parsed_fields": {
+        "benefit_event_time": null,
+        "classification": "needs_review",
+        "classification_confidence": "low",
+        "classification_reason": "event-like words but insufficient structured information",
+        "event_date": null,
+        "event_dates": [],
+        "event_name": "YON PIECE -ROMANCE DAWN 冒険の夜明け",
+        "extraction_confidence": 0.4,
+        "general_ticket_price": null,
+        "lottery_result_at": null,
+        "myojou_performance_time": null,
+        "notes": null,
+        "open_time": null,
+        "payment_deadline_at": null,
+        "priority_ticket_name": null,
+        "priority_ticket_price": null,
+        "same_day_ticket_price": null,
+        "source_kind": "other",
+        "source_post_id": "2096948916214518104",
+        "source_posted_at": "2026-09-07T13:09:15Z",
+        "source_raw": {
+          "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                        YON PIECE \n     -ROMANCE DAWN 冒険の夜明け-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n出演順解禁！\n出演については、動画をご覧ください✮\n\n#ヨンピ\n#myojou https://t.co/IN5yHAjAKA",
+          "attachments": {
+            "media_keys": [
+              "13_2096948568288555009"
+            ]
+          },
+          "created_at": "2026-09-07T13:09:15.000Z",
+          "edit_history_tweet_ids": [
+            "2096948916214518104"
+          ],
+          "entities": {
+            "hashtags": [
+              {
+                "end": 142,
+                "start": 138,
+                "tag": "ヨンピ"
+              },
+              {
+                "end": 150,
+                "start": 143,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "pic.x.com/IN5yHAjAKA",
+                "end": 174,
+                "expanded_url": "https://x.com/info_myojou/status/2096948916214518104/video/1",
+                "media_key": "13_2096948568288555009",
+                "start": 151,
+                "url": "https://t.co/IN5yHAjAKA"
+              }
+            ]
+          },
+          "full_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                        YON PIECE \n     -ROMANCE DAWN 冒険の夜明け-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n出演順解禁！\n出演については、動画をご覧ください✮\n\n#ヨンピ\n#myojou https://t.co/IN5yHAjAKA",
+          "full_text_source": "text",
+          "id": "2096948916214518104",
+          "media": [
+            {
+              "height": 1080,
+              "media_key": "13_2096948568288555009",
+              "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2096948568288555009/img/X2YDvXG0LLsjxRqz.jpg",
+              "type": "video",
+              "width": 1920
+            }
+          ],
+          "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                        YON PIECE \n     -ROMANCE DAWN 冒険の夜明け-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n出演順解禁！\n出演については、動画をご覧ください✮\n\n#ヨンピ\n#myojou https://t.co/IN5yHAjAKA",
+          "truncated_text": null
+        },
+        "source_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                        YON PIECE \n     -ROMANCE DAWN 冒険の夜明け-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n出演順解禁！\n出演については、動画をご覧ください✮\n\n#ヨンピ\n#myojou https://t.co/IN5yHAjAKA",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2096948916214518104",
+        "start_time": null,
+        "ticket_application_deadline_at": null,
+        "ticket_application_start_at": null,
+        "ticket_sale_type": null,
+        "ticket_sales": [],
+        "ticket_status": null,
+        "ticket_url": null,
+        "venue": null
+      },
+      "raw": {
+        "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                        YON PIECE \n     -ROMANCE DAWN 冒険の夜明け-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n出演順解禁！\n出演については、動画をご覧ください✮\n\n#ヨンピ\n#myojou https://t.co/IN5yHAjAKA",
+        "attachments": {
+          "media_keys": [
+            "13_2096948568288555009"
+          ]
+        },
+        "created_at": "2026-09-07T13:09:15.000Z",
+        "edit_history_tweet_ids": [
+          "2096948916214518104"
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "end": 142,
+              "start": 138,
+              "tag": "ヨンピ"
+            },
+            {
+              "end": 150,
+              "start": 143,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "pic.x.com/IN5yHAjAKA",
+              "end": 174,
+              "expanded_url": "https://x.com/info_myojou/status/2096948916214518104/video/1",
+              "media_key": "13_2096948568288555009",
+              "start": 151,
+              "url": "https://t.co/IN5yHAjAKA"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                        YON PIECE \n     -ROMANCE DAWN 冒険の夜明け-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n出演順解禁！\n出演については、動画をご覧ください✮\n\n#ヨンピ\n#myojou https://t.co/IN5yHAjAKA",
+        "full_text_source": "text",
+        "id": "2096948916214518104",
+        "media": [
+          {
+            "height": 1080,
+            "media_key": "13_2096948568288555009",
+            "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2096948568288555009/img/X2YDvXG0LLsjxRqz.jpg",
+            "type": "video",
+            "width": 1920
+          }
+        ],
+        "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                        YON PIECE \n     -ROMANCE DAWN 冒険の夜明け-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n出演順解禁！\n出演については、動画をご覧ください✮\n\n#ヨンピ\n#myojou https://t.co/IN5yHAjAKA",
+        "truncated_text": null
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n                        YON PIECE \n     -ROMANCE DAWN 冒険の夜明け-\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈••✮\n\n出演順解禁！\n出演については、動画をご覧ください✮\n\n#ヨンピ\n#myojou https://t.co/IN5yHAjAKA",
+      "truncated_text": null,
+      "url": "https://x.com/info_myojou/status/2096948916214518104"
+    },
+    {
+      "api_text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n 「碧の途中式 Debut Live『世界が僕を見つけた日』」\n\n🎙19:20-19:45\n📸20:30-21:50\n\n⟣date：9/9（水）\n⟣place :Veats Shibuya\n⟣open/start：18:00/18:30\n⟣price：Sチケット¥5,000/Aチケット¥0（各＋1D） https://t.co/B8lRNcQwyq",
+      "attachments": {
+        "media_keys": [
+          "3_2096944654956785664"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "initial_announcement"
+      },
+      "created_at": "2026-09-07T12:52:21+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/B8lRNcQwyq",
+            "end": 198,
+            "expanded_url": "https://x.com/info_myojou/status/2096944660455518280/photo/1",
+            "media_key": "3_2096944654956785664",
+            "start": 175,
+            "url": "https://t.co/B8lRNcQwyq"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2096944660455518280",
+      "media": [
+        {
+          "height": 1199,
+          "media_key": "3_2096944654956785664",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HRnYDbhacAAO8kD.jpg",
+          "width": 848
+        }
+      ],
+      "needs_review": true,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 263,
+              "start": 256,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "ticketdive.com/event/aoshiki_…",
+              "end": 254,
+              "expanded_url": "https://ticketdive.com/event/aoshiki_debut",
+              "start": 231,
+              "url": "https://t.co/f4992QXc0o"
+            }
+          ]
+        },
+        "text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n 「碧の途中式 Debut Live『世界が僕を見つけた日』」\n\n🎙19:20-19:45\n📸20:30-21:50\n\n⟣date：9/9（水）\n⟣place :Veats Shibuya\n⟣open/start：18:00/18:30\n⟣price：Sチケット¥5,000/Aチケット¥0（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）（Sチケットのみ配布）\n\n【一般販売】\n-9/8（火）23:59\n🔗 https://t.co/f4992QXc0o\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": "20:30-21:50",
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-09-09",
+        "event_dates": [
+          "2026-09-09"
+        ],
+        "event_name": "碧の途中式 Debut Live『世界が僕を見つけた日』",
+        "extraction_confidence": 0.95,
+        "general_ticket_price": 0,
+        "lottery_result_at": null,
+        "myojou_performance_time": "19:20-19:45",
+        "notes": "ドリンク代: 各+1D\n⟣入場特典:明星カード(サインありチェキ)(Sチケットのみ配布)",
+        "open_time": "18:00",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "Sチケット",
+        "priority_ticket_price": 5000,
+        "same_day_ticket_price": null,
+        "source_kind": "initial_announcement",
+        "source_post_id": "2096944660455518280",
+        "source_posted_at": "2026-09-07T12:52:21Z",
+        "source_raw": {
+          "api_text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n 「碧の途中式 Debut Live『世界が僕を見つけた日』」\n\n🎙19:20-19:45\n📸20:30-21:50\n\n⟣date：9/9（水）\n⟣place :Veats Shibuya\n⟣open/start：18:00/18:30\n⟣price：Sチケット¥5,000/Aチケット¥0（各＋1D） https://t.co/B8lRNcQwyq",
+          "attachments": {
+            "media_keys": [
+              "3_2096944654956785664"
+            ]
+          },
+          "created_at": "2026-09-07T12:52:21.000Z",
+          "edit_history_tweet_ids": [
+            "2096944660455518280"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/B8lRNcQwyq",
+                "end": 198,
+                "expanded_url": "https://x.com/info_myojou/status/2096944660455518280/photo/1",
+                "media_key": "3_2096944654956785664",
+                "start": 175,
+                "url": "https://t.co/B8lRNcQwyq"
+              }
+            ]
+          },
+          "full_text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n 「碧の途中式 Debut Live『世界が僕を見つけた日』」\n\n🎙19:20-19:45\n📸20:30-21:50\n\n⟣date：9/9（水）\n⟣place :Veats Shibuya\n⟣open/start：18:00/18:30\n⟣price：Sチケット¥5,000/Aチケット¥0（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）（Sチケットのみ配布）\n\n【一般販売】\n-9/8（火）23:59\n🔗 https://t.co/f4992QXc0o\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2096944660455518280",
+          "media": [
+            {
+              "height": 1199,
+              "media_key": "3_2096944654956785664",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HRnYDbhacAAO8kD.jpg",
+              "width": 848
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 263,
+                  "start": 256,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "ticketdive.com/event/aoshiki_…",
+                  "end": 254,
+                  "expanded_url": "https://ticketdive.com/event/aoshiki_debut",
+                  "start": 231,
+                  "url": "https://t.co/f4992QXc0o"
+                }
+              ]
+            },
+            "text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n 「碧の途中式 Debut Live『世界が僕を見つけた日』」\n\n🎙19:20-19:45\n📸20:30-21:50\n\n⟣date：9/9（水）\n⟣place :Veats Shibuya\n⟣open/start：18:00/18:30\n⟣price：Sチケット¥5,000/Aチケット¥0（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）（Sチケットのみ配布）\n\n【一般販売】\n-9/8（火）23:59\n🔗 https://t.co/f4992QXc0o\n\n#myojou"
+          },
+          "text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n 「碧の途中式 Debut Live『世界が僕を見つけた日』」\n\n🎙19:20-19:45\n📸20:30-21:50\n\n⟣date：9/9（水）\n⟣place :Veats Shibuya\n⟣open/start：18:00/18:30\n⟣price：Sチケット¥5,000/Aチケット¥0（各＋1D） https://t.co/B8lRNcQwyq",
+          "truncated_text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n 「碧の途中式 Debut Live『世界が僕を見つけた日』」\n\n🎙19:20-19:45\n📸20:30-21:50\n\n⟣date：9/9（水）\n⟣place :Veats Shibuya\n⟣open/start：18:00/18:30\n⟣price：Sチケット¥5,000/Aチケット¥0（各＋1D） https://t.co/B8lRNcQwyq"
+        },
+        "source_text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n 「碧の途中式 Debut Live『世界が僕を見つけた日』」\n\n🎙19:20-19:45\n📸20:30-21:50\n\n⟣date：9/9（水）\n⟣place :Veats Shibuya\n⟣open/start：18:00/18:30\n⟣price：Sチケット¥5,000/Aチケット¥0（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）（Sチケットのみ配布）\n\n【一般販売】\n-9/8（火）23:59\n🔗 https://t.co/f4992QXc0o\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2096944660455518280",
+        "start_time": "18:30",
+        "ticket_application_deadline_at": "2026-09-08T23:59:00+09:00",
+        "ticket_application_start_at": null,
+        "ticket_sale_type": "無料",
+        "ticket_sales": [
+          {
+            "deadline_at": "2026-09-08T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 0,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2096944660455518280",
+            "source_url": "https://x.com/info_myojou/status/2096944660455518280",
+            "start_at": null,
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          },
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 5000,
+            "result_at": null,
+            "sale_type": "無料",
+            "source_post_id": "2096944660455518280",
+            "source_url": "https://x.com/info_myojou/status/2096944660455518280",
+            "start_at": null,
+            "status": "不明",
+            "ticket_name": "Sチケット",
+            "ticket_tier": "不明"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "https://ticketdive.com/event/aoshiki_debut",
+        "venue": "Veats Shibuya"
+      },
+      "raw": {
+        "api_text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n 「碧の途中式 Debut Live『世界が僕を見つけた日』」\n\n🎙19:20-19:45\n📸20:30-21:50\n\n⟣date：9/9（水）\n⟣place :Veats Shibuya\n⟣open/start：18:00/18:30\n⟣price：Sチケット¥5,000/Aチケット¥0（各＋1D） https://t.co/B8lRNcQwyq",
+        "attachments": {
+          "media_keys": [
+            "3_2096944654956785664"
+          ]
+        },
+        "created_at": "2026-09-07T12:52:21.000Z",
+        "edit_history_tweet_ids": [
+          "2096944660455518280"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/B8lRNcQwyq",
+              "end": 198,
+              "expanded_url": "https://x.com/info_myojou/status/2096944660455518280/photo/1",
+              "media_key": "3_2096944654956785664",
+              "start": 175,
+              "url": "https://t.co/B8lRNcQwyq"
+            }
+          ]
+        },
+        "full_text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n 「碧の途中式 Debut Live『世界が僕を見つけた日』」\n\n🎙19:20-19:45\n📸20:30-21:50\n\n⟣date：9/9（水）\n⟣place :Veats Shibuya\n⟣open/start：18:00/18:30\n⟣price：Sチケット¥5,000/Aチケット¥0（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）（Sチケットのみ配布）\n\n【一般販売】\n-9/8（火）23:59\n🔗 https://t.co/f4992QXc0o\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2096944660455518280",
+        "media": [
+          {
+            "height": 1199,
+            "media_key": "3_2096944654956785664",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HRnYDbhacAAO8kD.jpg",
+            "width": 848
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 263,
+                "start": 256,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "ticketdive.com/event/aoshiki_…",
+                "end": 254,
+                "expanded_url": "https://ticketdive.com/event/aoshiki_debut",
+                "start": 231,
+                "url": "https://t.co/f4992QXc0o"
+              }
+            ]
+          },
+          "text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n 「碧の途中式 Debut Live『世界が僕を見つけた日』」\n\n🎙19:20-19:45\n📸20:30-21:50\n\n⟣date：9/9（水）\n⟣place :Veats Shibuya\n⟣open/start：18:00/18:30\n⟣price：Sチケット¥5,000/Aチケット¥0（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）（Sチケットのみ配布）\n\n【一般販売】\n-9/8（火）23:59\n🔗 https://t.co/f4992QXc0o\n\n#myojou"
+        },
+        "text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n 「碧の途中式 Debut Live『世界が僕を見つけた日』」\n\n🎙19:20-19:45\n📸20:30-21:50\n\n⟣date：9/9（水）\n⟣place :Veats Shibuya\n⟣open/start：18:00/18:30\n⟣price：Sチケット¥5,000/Aチケット¥0（各＋1D） https://t.co/B8lRNcQwyq",
+        "truncated_text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n 「碧の途中式 Debut Live『世界が僕を見つけた日』」\n\n🎙19:20-19:45\n📸20:30-21:50\n\n⟣date：9/9（水）\n⟣place :Veats Shibuya\n⟣open/start：18:00/18:30\n⟣price：Sチケット¥5,000/Aチケット¥0（各＋1D） https://t.co/B8lRNcQwyq"
+      },
+      "referenced_tweets": [],
+      "text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n 「碧の途中式 Debut Live『世界が僕を見つけた日』」\n\n🎙19:20-19:45\n📸20:30-21:50\n\n⟣date：9/9（水）\n⟣place :Veats Shibuya\n⟣open/start：18:00/18:30\n⟣price：Sチケット¥5,000/Aチケット¥0（各＋1D）\n⟣入場特典：明星カード（サインありチェキ）（Sチケットのみ配布）\n\n【一般販売】\n-9/8（火）23:59\n🔗 https://t.co/f4992QXc0o\n\n#myojou",
+      "truncated_text": "/／••✮\n𝐍𝐞𝐱𝐭 𝐋𝐢𝐯𝐞\n\\＼••✮\n\n 「碧の途中式 Debut Live『世界が僕を見つけた日』」\n\n🎙19:20-19:45\n📸20:30-21:50\n\n⟣date：9/9（水）\n⟣place :Veats Shibuya\n⟣open/start：18:00/18:30\n⟣price：Sチケット¥5,000/Aチケット¥0（各＋1D） https://t.co/B8lRNcQwyq",
+      "url": "https://x.com/info_myojou/status/2096944660455518280"
+    },
+    {
+      "api_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n              Ringwanderung presents \n                         SYNC EXTRA\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n🎙15:00-15:30\n📸15:50-17:00 A\n\n⟣date：10/3（土）\n⟣place : Veats Shibuya\n⟣open/start：14:30/15:00 https://t.co/JtAI2wJDS9",
+      "attachments": {
+        "media_keys": [
+          "3_2096939097898303489"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "ticket_update"
+      },
+      "created_at": "2026-09-07T12:30:19+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/JtAI2wJDS9",
+            "end": 240,
+            "expanded_url": "https://x.com/info_myojou/status/2096939118911803638/photo/1",
+            "media_key": "3_2096939097898303489",
+            "start": 217,
+            "url": "https://t.co/JtAI2wJDS9"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2096939118911803638",
+      "media": [
+        {
+          "height": 4076,
+          "media_key": "3_2096939097898303489",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HRnS_93bQAEmae7.jpg",
+          "width": 2891
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 312,
+              "start": 305,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "ticketdive.com/event/RWR_SYNC…",
+              "end": 303,
+              "expanded_url": "https://ticketdive.com/event/RWR_SYNC-EXTRA_20261003",
+              "start": 280,
+              "url": "https://t.co/gibqDXFiUx"
+            }
+          ]
+        },
+        "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n              Ringwanderung presents \n                         SYNC EXTRA\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n🎙15:00-15:30\n📸15:50-17:00 A\n\n⟣date：10/3（土）\n⟣place : Veats Shibuya\n⟣open/start：14:30/15:00\n⟣price：前売チケット¥3,500（各+1D）\n\n【先着販売期間】\n9/8（火）21:30-10/2（金）23:59\n🔗 https://t.co/gibqDXFiUx\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": "15:50-17:00",
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-10-03",
+        "event_dates": [
+          "2026-10-03"
+        ],
+        "event_name": "SYNC EXTRA",
+        "extraction_confidence": 0.95,
+        "general_ticket_price": 3500,
+        "lottery_result_at": null,
+        "myojou_performance_time": "15:00-15:30",
+        "notes": "ドリンク代: 各+1D",
+        "open_time": "14:30",
+        "payment_deadline_at": null,
+        "priority_ticket_name": null,
+        "priority_ticket_price": null,
+        "same_day_ticket_price": null,
+        "source_kind": "ticket_update",
+        "source_post_id": "2096939118911803638",
+        "source_posted_at": "2026-09-07T12:30:19Z",
+        "source_raw": {
+          "api_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n              Ringwanderung presents \n                         SYNC EXTRA\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n🎙15:00-15:30\n📸15:50-17:00 A\n\n⟣date：10/3（土）\n⟣place : Veats Shibuya\n⟣open/start：14:30/15:00 https://t.co/JtAI2wJDS9",
+          "attachments": {
+            "media_keys": [
+              "3_2096939097898303489"
+            ]
+          },
+          "created_at": "2026-09-07T12:30:19.000Z",
+          "edit_history_tweet_ids": [
+            "2096939118911803638"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/JtAI2wJDS9",
+                "end": 240,
+                "expanded_url": "https://x.com/info_myojou/status/2096939118911803638/photo/1",
+                "media_key": "3_2096939097898303489",
+                "start": 217,
+                "url": "https://t.co/JtAI2wJDS9"
+              }
+            ]
+          },
+          "full_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n              Ringwanderung presents \n                         SYNC EXTRA\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n🎙15:00-15:30\n📸15:50-17:00 A\n\n⟣date：10/3（土）\n⟣place : Veats Shibuya\n⟣open/start：14:30/15:00\n⟣price：前売チケット¥3,500（各+1D）\n\n【先着販売期間】\n9/8（火）21:30-10/2（金）23:59\n🔗 https://t.co/gibqDXFiUx\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2096939118911803638",
+          "media": [
+            {
+              "height": 4076,
+              "media_key": "3_2096939097898303489",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HRnS_93bQAEmae7.jpg",
+              "width": 2891
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 312,
+                  "start": 305,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "ticketdive.com/event/RWR_SYNC…",
+                  "end": 303,
+                  "expanded_url": "https://ticketdive.com/event/RWR_SYNC-EXTRA_20261003",
+                  "start": 280,
+                  "url": "https://t.co/gibqDXFiUx"
+                }
+              ]
+            },
+            "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n              Ringwanderung presents \n                         SYNC EXTRA\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n🎙15:00-15:30\n📸15:50-17:00 A\n\n⟣date：10/3（土）\n⟣place : Veats Shibuya\n⟣open/start：14:30/15:00\n⟣price：前売チケット¥3,500（各+1D）\n\n【先着販売期間】\n9/8（火）21:30-10/2（金）23:59\n🔗 https://t.co/gibqDXFiUx\n\n#myojou"
+          },
+          "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n              Ringwanderung presents \n                         SYNC EXTRA\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n🎙15:00-15:30\n📸15:50-17:00 A\n\n⟣date：10/3（土）\n⟣place : Veats Shibuya\n⟣open/start：14:30/15:00 https://t.co/JtAI2wJDS9",
+          "truncated_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n              Ringwanderung presents \n                         SYNC EXTRA\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n🎙15:00-15:30\n📸15:50-17:00 A\n\n⟣date：10/3（土）\n⟣place : Veats Shibuya\n⟣open/start：14:30/15:00 https://t.co/JtAI2wJDS9"
+        },
+        "source_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n              Ringwanderung presents \n                         SYNC EXTRA\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n🎙15:00-15:30\n📸15:50-17:00 A\n\n⟣date：10/3（土）\n⟣place : Veats Shibuya\n⟣open/start：14:30/15:00\n⟣price：前売チケット¥3,500（各+1D）\n\n【先着販売期間】\n9/8（火）21:30-10/2（金）23:59\n🔗 https://t.co/gibqDXFiUx\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2096939118911803638",
+        "start_time": "15:00",
+        "ticket_application_deadline_at": "2026-10-02T23:59:00+09:00",
+        "ticket_application_start_at": "2026-09-08T21:30:00+09:00",
+        "ticket_sale_type": "先着",
+        "ticket_sales": [
+          {
+            "deadline_at": "2026-10-02T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 3500,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2096939118911803638",
+            "source_url": "https://x.com/info_myojou/status/2096939118911803638",
+            "start_at": "2026-09-08T21:30:00+09:00",
+            "status": "不明",
+            "ticket_name": "前売チケット",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "https://ticketdive.com/event/RWR_SYNC-EXTRA_20261003",
+        "venue": "Veats Shibuya"
+      },
+      "raw": {
+        "api_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n              Ringwanderung presents \n                         SYNC EXTRA\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n🎙15:00-15:30\n📸15:50-17:00 A\n\n⟣date：10/3（土）\n⟣place : Veats Shibuya\n⟣open/start：14:30/15:00 https://t.co/JtAI2wJDS9",
+        "attachments": {
+          "media_keys": [
+            "3_2096939097898303489"
+          ]
+        },
+        "created_at": "2026-09-07T12:30:19.000Z",
+        "edit_history_tweet_ids": [
+          "2096939118911803638"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/JtAI2wJDS9",
+              "end": 240,
+              "expanded_url": "https://x.com/info_myojou/status/2096939118911803638/photo/1",
+              "media_key": "3_2096939097898303489",
+              "start": 217,
+              "url": "https://t.co/JtAI2wJDS9"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n              Ringwanderung presents \n                         SYNC EXTRA\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n🎙15:00-15:30\n📸15:50-17:00 A\n\n⟣date：10/3（土）\n⟣place : Veats Shibuya\n⟣open/start：14:30/15:00\n⟣price：前売チケット¥3,500（各+1D）\n\n【先着販売期間】\n9/8（火）21:30-10/2（金）23:59\n🔗 https://t.co/gibqDXFiUx\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2096939118911803638",
+        "media": [
+          {
+            "height": 4076,
+            "media_key": "3_2096939097898303489",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HRnS_93bQAEmae7.jpg",
+            "width": 2891
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 312,
+                "start": 305,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "ticketdive.com/event/RWR_SYNC…",
+                "end": 303,
+                "expanded_url": "https://ticketdive.com/event/RWR_SYNC-EXTRA_20261003",
+                "start": 280,
+                "url": "https://t.co/gibqDXFiUx"
+              }
+            ]
+          },
+          "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n              Ringwanderung presents \n                         SYNC EXTRA\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n🎙15:00-15:30\n📸15:50-17:00 A\n\n⟣date：10/3（土）\n⟣place : Veats Shibuya\n⟣open/start：14:30/15:00\n⟣price：前売チケット¥3,500（各+1D）\n\n【先着販売期間】\n9/8（火）21:30-10/2（金）23:59\n🔗 https://t.co/gibqDXFiUx\n\n#myojou"
+        },
+        "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n              Ringwanderung presents \n                         SYNC EXTRA\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n🎙15:00-15:30\n📸15:50-17:00 A\n\n⟣date：10/3（土）\n⟣place : Veats Shibuya\n⟣open/start：14:30/15:00 https://t.co/JtAI2wJDS9",
+        "truncated_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n              Ringwanderung presents \n                         SYNC EXTRA\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n🎙15:00-15:30\n📸15:50-17:00 A\n\n⟣date：10/3（土）\n⟣place : Veats Shibuya\n⟣open/start：14:30/15:00 https://t.co/JtAI2wJDS9"
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n              Ringwanderung presents \n                         SYNC EXTRA\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n🎙15:00-15:30\n📸15:50-17:00 A\n\n⟣date：10/3（土）\n⟣place : Veats Shibuya\n⟣open/start：14:30/15:00\n⟣price：前売チケット¥3,500（各+1D）\n\n【先着販売期間】\n9/8（火）21:30-10/2（金）23:59\n🔗 https://t.co/gibqDXFiUx\n\n#myojou",
+      "truncated_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n              Ringwanderung presents \n                         SYNC EXTRA\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n🎙15:00-15:30\n📸15:50-17:00 A\n\n⟣date：10/3（土）\n⟣place : Veats Shibuya\n⟣open/start：14:30/15:00 https://t.co/JtAI2wJDS9",
+      "url": "https://x.com/info_myojou/status/2096939118911803638"
+    },
+    {
+      "api_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n            Usukura Rina Graduation Event\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：9/12（土）\n⟣place : TIME SHARING 新宿5B（東京都新宿区歌舞伎町1-1-15 東信同和ビル5階）\n⟣start：\n1部16:00-18:00 私服 https://t.co/QNMG8hKQFQ",
+      "attachments": {
+        "media_keys": [
+          "3_2096934538769469440"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "other"
+      },
+      "created_at": "2026-09-07T12:16:25+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/QNMG8hKQFQ",
+            "end": 211,
+            "expanded_url": "https://x.com/info_myojou/status/2096935617750008056/photo/1",
+            "media_key": "3_2096934538769469440",
+            "start": 188,
+            "url": "https://t.co/QNMG8hKQFQ"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2096935617750008056",
+      "media": [
+        {
+          "height": 1754,
+          "media_key": "3_2096934538769469440",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HRnO2lyaEAAKzDH.jpg",
+          "width": 1240
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 378,
+              "start": 371,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "ticketdive.com/event/Rina_Gra…",
+              "end": 369,
+              "expanded_url": "https://ticketdive.com/event/Rina_Graduation",
+              "start": 346,
+              "url": "https://t.co/xmszWJNc3R"
+            }
+          ]
+        },
+        "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n            Usukura Rina Graduation Event\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：9/12（土）\n⟣place : TIME SHARING 新宿5B（東京都新宿区歌舞伎町1-1-15 東信同和ビル5階）\n⟣start：\n1部16:00-18:00 私服 （全メンバー）\n2部18:30-20:00 2nd衣装 （全メンバー）\n3部20:30-22:00 1st衣装（薄倉りなのみ）\n⟣price：各部整理券¥0\n\nレギュレーション\n特典券 ¥2,000\n囲み写メ券¥3,000（20:00より撮影開始予定、列切れ次第終了）\n\n【一般先着】\n9/7（月）22:00-\n🔗 https://t.co/xmszWJNc3R\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": null,
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-09-12",
+        "event_dates": [
+          "2026-09-12"
+        ],
+        "event_name": "Usukura Rina Graduation Event",
+        "extraction_confidence": 0.8,
+        "general_ticket_price": 0,
+        "lottery_result_at": null,
+        "myojou_performance_time": null,
+        "notes": null,
+        "open_time": null,
+        "payment_deadline_at": null,
+        "priority_ticket_name": null,
+        "priority_ticket_price": null,
+        "same_day_ticket_price": null,
+        "source_kind": "other",
+        "source_post_id": "2096935617750008056",
+        "source_posted_at": "2026-09-07T12:16:25Z",
+        "source_raw": {
+          "api_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n            Usukura Rina Graduation Event\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：9/12（土）\n⟣place : TIME SHARING 新宿5B（東京都新宿区歌舞伎町1-1-15 東信同和ビル5階）\n⟣start：\n1部16:00-18:00 私服 https://t.co/QNMG8hKQFQ",
+          "attachments": {
+            "media_keys": [
+              "3_2096934538769469440"
+            ]
+          },
+          "created_at": "2026-09-07T12:16:25.000Z",
+          "edit_history_tweet_ids": [
+            "2096934545010594203",
+            "2096935617750008056"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/QNMG8hKQFQ",
+                "end": 211,
+                "expanded_url": "https://x.com/info_myojou/status/2096935617750008056/photo/1",
+                "media_key": "3_2096934538769469440",
+                "start": 188,
+                "url": "https://t.co/QNMG8hKQFQ"
+              }
+            ]
+          },
+          "full_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n            Usukura Rina Graduation Event\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：9/12（土）\n⟣place : TIME SHARING 新宿5B（東京都新宿区歌舞伎町1-1-15 東信同和ビル5階）\n⟣start：\n1部16:00-18:00 私服 （全メンバー）\n2部18:30-20:00 2nd衣装 （全メンバー）\n3部20:30-22:00 1st衣装（薄倉りなのみ）\n⟣price：各部整理券¥0\n\nレギュレーション\n特典券 ¥2,000\n囲み写メ券¥3,000（20:00より撮影開始予定、列切れ次第終了）\n\n【一般先着】\n9/7（月）22:00-\n🔗 https://t.co/xmszWJNc3R\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2096935617750008056",
+          "media": [
+            {
+              "height": 1754,
+              "media_key": "3_2096934538769469440",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HRnO2lyaEAAKzDH.jpg",
+              "width": 1240
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 378,
+                  "start": 371,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "ticketdive.com/event/Rina_Gra…",
+                  "end": 369,
+                  "expanded_url": "https://ticketdive.com/event/Rina_Graduation",
+                  "start": 346,
+                  "url": "https://t.co/xmszWJNc3R"
+                }
+              ]
+            },
+            "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n            Usukura Rina Graduation Event\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：9/12（土）\n⟣place : TIME SHARING 新宿5B（東京都新宿区歌舞伎町1-1-15 東信同和ビル5階）\n⟣start：\n1部16:00-18:00 私服 （全メンバー）\n2部18:30-20:00 2nd衣装 （全メンバー）\n3部20:30-22:00 1st衣装（薄倉りなのみ）\n⟣price：各部整理券¥0\n\nレギュレーション\n特典券 ¥2,000\n囲み写メ券¥3,000（20:00より撮影開始予定、列切れ次第終了）\n\n【一般先着】\n9/7（月）22:00-\n🔗 https://t.co/xmszWJNc3R\n\n#myojou"
+          },
+          "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n            Usukura Rina Graduation Event\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：9/12（土）\n⟣place : TIME SHARING 新宿5B（東京都新宿区歌舞伎町1-1-15 東信同和ビル5階）\n⟣start：\n1部16:00-18:00 私服 https://t.co/QNMG8hKQFQ",
+          "truncated_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n            Usukura Rina Graduation Event\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：9/12（土）\n⟣place : TIME SHARING 新宿5B（東京都新宿区歌舞伎町1-1-15 東信同和ビル5階）\n⟣start：\n1部16:00-18:00 私服 https://t.co/QNMG8hKQFQ"
+        },
+        "source_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n            Usukura Rina Graduation Event\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：9/12（土）\n⟣place : TIME SHARING 新宿5B（東京都新宿区歌舞伎町1-1-15 東信同和ビル5階）\n⟣start：\n1部16:00-18:00 私服 （全メンバー）\n2部18:30-20:00 2nd衣装 （全メンバー）\n3部20:30-22:00 1st衣装（薄倉りなのみ）\n⟣price：各部整理券¥0\n\nレギュレーション\n特典券 ¥2,000\n囲み写メ券¥3,000（20:00より撮影開始予定、列切れ次第終了）\n\n【一般先着】\n9/7（月）22:00-\n🔗 https://t.co/xmszWJNc3R\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2096935617750008056",
+        "start_time": null,
+        "ticket_application_deadline_at": null,
+        "ticket_application_start_at": "2026-09-07T22:00:00+09:00",
+        "ticket_sale_type": "無料",
+        "ticket_sales": [
+          {
+            "deadline_at": null,
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 0,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2096935617750008056",
+            "source_url": "https://x.com/info_myojou/status/2096935617750008056",
+            "start_at": "2026-09-07T22:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "https://ticketdive.com/event/Rina_Graduation",
+        "venue": "TIME SHARING 新宿5B(東京都新宿区歌舞伎町1-1-15 東信同和ビル5階)"
+      },
+      "raw": {
+        "api_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n            Usukura Rina Graduation Event\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：9/12（土）\n⟣place : TIME SHARING 新宿5B（東京都新宿区歌舞伎町1-1-15 東信同和ビル5階）\n⟣start：\n1部16:00-18:00 私服 https://t.co/QNMG8hKQFQ",
+        "attachments": {
+          "media_keys": [
+            "3_2096934538769469440"
+          ]
+        },
+        "created_at": "2026-09-07T12:16:25.000Z",
+        "edit_history_tweet_ids": [
+          "2096934545010594203",
+          "2096935617750008056"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/QNMG8hKQFQ",
+              "end": 211,
+              "expanded_url": "https://x.com/info_myojou/status/2096935617750008056/photo/1",
+              "media_key": "3_2096934538769469440",
+              "start": 188,
+              "url": "https://t.co/QNMG8hKQFQ"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n            Usukura Rina Graduation Event\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：9/12（土）\n⟣place : TIME SHARING 新宿5B（東京都新宿区歌舞伎町1-1-15 東信同和ビル5階）\n⟣start：\n1部16:00-18:00 私服 （全メンバー）\n2部18:30-20:00 2nd衣装 （全メンバー）\n3部20:30-22:00 1st衣装（薄倉りなのみ）\n⟣price：各部整理券¥0\n\nレギュレーション\n特典券 ¥2,000\n囲み写メ券¥3,000（20:00より撮影開始予定、列切れ次第終了）\n\n【一般先着】\n9/7（月）22:00-\n🔗 https://t.co/xmszWJNc3R\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2096935617750008056",
+        "media": [
+          {
+            "height": 1754,
+            "media_key": "3_2096934538769469440",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HRnO2lyaEAAKzDH.jpg",
+            "width": 1240
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 378,
+                "start": 371,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "ticketdive.com/event/Rina_Gra…",
+                "end": 369,
+                "expanded_url": "https://ticketdive.com/event/Rina_Graduation",
+                "start": 346,
+                "url": "https://t.co/xmszWJNc3R"
+              }
+            ]
+          },
+          "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n            Usukura Rina Graduation Event\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：9/12（土）\n⟣place : TIME SHARING 新宿5B（東京都新宿区歌舞伎町1-1-15 東信同和ビル5階）\n⟣start：\n1部16:00-18:00 私服 （全メンバー）\n2部18:30-20:00 2nd衣装 （全メンバー）\n3部20:30-22:00 1st衣装（薄倉りなのみ）\n⟣price：各部整理券¥0\n\nレギュレーション\n特典券 ¥2,000\n囲み写メ券¥3,000（20:00より撮影開始予定、列切れ次第終了）\n\n【一般先着】\n9/7（月）22:00-\n🔗 https://t.co/xmszWJNc3R\n\n#myojou"
+        },
+        "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n            Usukura Rina Graduation Event\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：9/12（土）\n⟣place : TIME SHARING 新宿5B（東京都新宿区歌舞伎町1-1-15 東信同和ビル5階）\n⟣start：\n1部16:00-18:00 私服 https://t.co/QNMG8hKQFQ",
+        "truncated_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n            Usukura Rina Graduation Event\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：9/12（土）\n⟣place : TIME SHARING 新宿5B（東京都新宿区歌舞伎町1-1-15 東信同和ビル5階）\n⟣start：\n1部16:00-18:00 私服 https://t.co/QNMG8hKQFQ"
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n            Usukura Rina Graduation Event\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：9/12（土）\n⟣place : TIME SHARING 新宿5B（東京都新宿区歌舞伎町1-1-15 東信同和ビル5階）\n⟣start：\n1部16:00-18:00 私服 （全メンバー）\n2部18:30-20:00 2nd衣装 （全メンバー）\n3部20:30-22:00 1st衣装（薄倉りなのみ）\n⟣price：各部整理券¥0\n\nレギュレーション\n特典券 ¥2,000\n囲み写メ券¥3,000（20:00より撮影開始予定、列切れ次第終了）\n\n【一般先着】\n9/7（月）22:00-\n🔗 https://t.co/xmszWJNc3R\n\n#myojou",
+      "truncated_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n            Usukura Rina Graduation Event\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：9/12（土）\n⟣place : TIME SHARING 新宿5B（東京都新宿区歌舞伎町1-1-15 東信同和ビル5階）\n⟣start：\n1部16:00-18:00 私服 https://t.co/QNMG8hKQFQ",
+      "url": "https://x.com/info_myojou/status/2096935617750008056"
+    },
+    {
+      "api_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n  LadySteady supported by BUZZチケ\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「LadySteady supported by BUZZチケ」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka https://t.co/mWBMi2HY21",
+      "attachments": {
+        "media_keys": [
+          "3_2096902404772089856"
+        ]
+      },
+      "classification": {
+        "classification": "non_event",
+        "confidence": "high",
+        "reason": "profile/member introduction",
+        "source_kind": "other"
+      },
+      "created_at": "2026-09-07T10:04:29+00:00",
+      "entities": {
+        "mentions": [
+          {
+            "end": 189,
+            "id": "1981655668626165760",
+            "start": 177,
+            "username": "myojou_ruka"
+          }
+        ],
+        "urls": [
+          {
+            "display_url": "pic.x.com/mWBMi2HY21",
+            "end": 213,
+            "expanded_url": "https://x.com/info_myojou/status/2096902416151322737/photo/1",
+            "media_key": "3_2096902404772089856",
+            "start": 190,
+            "url": "https://t.co/mWBMi2HY21"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2096902416151322737",
+      "media": [
+        {
+          "alt_text": "M0,SE\nM1,CHRONOS\nM2,夏、空模様\nM3,HeartBeat\nM4,星景讃歌\nM5,幸せのかたすみ\nM6,アンチコンプリート",
+          "height": 3072,
+          "media_key": "3_2096902404772089856",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HRmxoJUaUAAo6Fj.jpg",
+          "width": 4096
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 288,
+              "start": 281,
+              "tag": "myojou"
+            }
+          ],
+          "mentions": [
+            {
+              "end": 189,
+              "id": "1981655668626165760",
+              "start": 177,
+              "username": "myojou_ruka"
+            },
+            {
+              "end": 210,
+              "id": "1590652199407083520",
+              "start": 196,
+              "username": "myojou_cocone"
+            },
+            {
+              "end": 229,
+              "id": "1754991922807177216",
+              "start": 216,
+              "username": "myojou_shino"
+            },
+            {
+              "end": 246,
+              "id": "2009274765895450624",
+              "start": 235,
+              "username": "myojou_yun"
+            },
+            {
+              "end": 263,
+              "id": "2009245855694675968",
+              "start": 252,
+              "username": "myojou_miu"
+            }
+          ]
+        },
+        "text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n  LadySteady supported by BUZZチケ\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「LadySteady supported by BUZZチケ」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka \n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n澪奈ゆん@myojou_yun \n日陽みう@myojou_miu \n\nSETLIST▶︎ALT\n\n #myojou"
+      },
+      "parsed_fields": null,
+      "raw": {
+        "api_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n  LadySteady supported by BUZZチケ\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「LadySteady supported by BUZZチケ」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka https://t.co/mWBMi2HY21",
+        "attachments": {
+          "media_keys": [
+            "3_2096902404772089856"
+          ]
+        },
+        "created_at": "2026-09-07T10:04:29.000Z",
+        "edit_history_tweet_ids": [
+          "2096902416151322737"
+        ],
+        "entities": {
+          "mentions": [
+            {
+              "end": 189,
+              "id": "1981655668626165760",
+              "start": 177,
+              "username": "myojou_ruka"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "pic.x.com/mWBMi2HY21",
+              "end": 213,
+              "expanded_url": "https://x.com/info_myojou/status/2096902416151322737/photo/1",
+              "media_key": "3_2096902404772089856",
+              "start": 190,
+              "url": "https://t.co/mWBMi2HY21"
+            }
+          ]
+        },
+        "full_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n  LadySteady supported by BUZZチケ\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「LadySteady supported by BUZZチケ」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka \n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n澪奈ゆん@myojou_yun \n日陽みう@myojou_miu \n\nSETLIST▶︎ALT\n\n #myojou",
+        "full_text_source": "note_tweet",
+        "id": "2096902416151322737",
+        "media": [
+          {
+            "alt_text": "M0,SE\nM1,CHRONOS\nM2,夏、空模様\nM3,HeartBeat\nM4,星景讃歌\nM5,幸せのかたすみ\nM6,アンチコンプリート",
+            "height": 3072,
+            "media_key": "3_2096902404772089856",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HRmxoJUaUAAo6Fj.jpg",
+            "width": 4096
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 288,
+                "start": 281,
+                "tag": "myojou"
+              }
+            ],
+            "mentions": [
+              {
+                "end": 189,
+                "id": "1981655668626165760",
+                "start": 177,
+                "username": "myojou_ruka"
+              },
+              {
+                "end": 210,
+                "id": "1590652199407083520",
+                "start": 196,
+                "username": "myojou_cocone"
+              },
+              {
+                "end": 229,
+                "id": "1754991922807177216",
+                "start": 216,
+                "username": "myojou_shino"
+              },
+              {
+                "end": 246,
+                "id": "2009274765895450624",
+                "start": 235,
+                "username": "myojou_yun"
+              },
+              {
+                "end": 263,
+                "id": "2009245855694675968",
+                "start": 252,
+                "username": "myojou_miu"
+              }
+            ]
+          },
+          "text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n  LadySteady supported by BUZZチケ\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「LadySteady supported by BUZZチケ」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka \n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n澪奈ゆん@myojou_yun \n日陽みう@myojou_miu \n\nSETLIST▶︎ALT\n\n #myojou"
+        },
+        "text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n  LadySteady supported by BUZZチケ\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「LadySteady supported by BUZZチケ」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka https://t.co/mWBMi2HY21",
+        "truncated_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n  LadySteady supported by BUZZチケ\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「LadySteady supported by BUZZチケ」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka https://t.co/mWBMi2HY21"
+      },
+      "referenced_tweets": [],
+      "text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n  LadySteady supported by BUZZチケ\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「LadySteady supported by BUZZチケ」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka \n栗原ここね@myojou_cocone \n真希しの@myojou_shino \n澪奈ゆん@myojou_yun \n日陽みう@myojou_miu \n\nSETLIST▶︎ALT\n\n #myojou",
+      "truncated_text": "✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n                       ⟡.·*.御礼.*·.⟡\n  LadySteady supported by BUZZチケ\n✯••┈┈┈┈┈┈••✯••┈┈┈┈┈┈••✯\n\n本日は「LadySteady supported by BUZZチケ」ありがとうございました⋆˙⟡\n\n左から\n姫乃るか@myojou_ruka https://t.co/mWBMi2HY21",
+      "url": "https://x.com/info_myojou/status/2096902416151322737"
+    },
+    {
       "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n「LadySteady supported by BUZZチケ」\n\n🎙16:45-17:10\n📸17:20-18:20\n\n⟣date：9/7（月）\n⟣place :Spotify O-EAST\n⟣open/start：14:30/15:00\n⟣price：前方¥8,000/一般 ¥3,500（各+1D）\n⟣入場特典：明星カード（サインありチェキ）\n\n【先着販売】 https://t.co/JZZhlKGkRV",
       "attachments": {
         "media_keys": [
@@ -176818,7 +178567,7 @@
     "backfill": true,
     "dry_run": true,
     "estimated_x_post_reads": 411,
-    "latest_post_id": "2096560052983533617",
+    "latest_post_id": "2096951089870553203",
     "max_pages": 10,
     "max_posts": 500,
     "max_results": 5,
@@ -176861,16 +178610,16 @@
       }
     ],
     "pages_fetched": 5,
-    "posts_fetched": 809,
+    "posts_fetched": 816,
     "rate_limit_headers": {
       "x-rate-limit-limit": "10000",
       "x-rate-limit-remaining": "9993",
       "x-rate-limit-reset": "1781108896"
     },
-    "total_posts": 809,
-    "updated_at": "2026-09-06T21:08:50.778142+00:00",
+    "total_posts": 816,
+    "updated_at": "2026-09-07T21:56:09.395650+00:00",
     "username": "info_myojou"
   },
   "source": "x_api",
-  "updated_at": "2026-09-06T21:08:50.778142+00:00"
+  "updated_at": "2026-09-07T21:56:09.395650+00:00"
 }
