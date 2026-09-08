@@ -2,6 +2,1358 @@
   "captured_at": "2026-06-10T16:19:36.141820+00:00",
   "data": [
     {
+      "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n 「碧の途中式 Debut Live『世界が僕を見つけた日』」\n\n🎙19:20-19:45\n📸20:30-21:50\n\n⟣date：9/9（水）\n⟣place :Veats Shibuya\n⟣open/start：18:00/18:30\n⟣price：SOLD OUT\n⟣入場特典：明星カード（サインありチェキ）（Sチケットのみ配布）\n\n#myojou https://t.co/NyyCx8QCfT",
+      "attachments": {
+        "media_keys": [
+          "3_2097328715680350208",
+          "3_2097328715726491648"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "sold_out"
+      },
+      "created_at": "2026-09-08T14:18:28+00:00",
+      "entities": {
+        "hashtags": [
+          {
+            "end": 199,
+            "start": 192,
+            "tag": "myojou"
+          }
+        ],
+        "urls": [
+          {
+            "display_url": "pic.x.com/NyyCx8QCfT",
+            "end": 223,
+            "expanded_url": "https://x.com/info_myojou/status/2097328720877101527/photo/1",
+            "media_key": "3_2097328715680350208",
+            "start": 200,
+            "url": "https://t.co/NyyCx8QCfT"
+          },
+          {
+            "display_url": "pic.x.com/NyyCx8QCfT",
+            "end": 223,
+            "expanded_url": "https://x.com/info_myojou/status/2097328720877101527/photo/1",
+            "media_key": "3_2097328715726491648",
+            "start": 200,
+            "url": "https://t.co/NyyCx8QCfT"
+          }
+        ]
+      },
+      "full_text_source": "text",
+      "id": "2097328720877101527",
+      "media": [
+        {
+          "height": 2435,
+          "media_key": "3_2097328715680350208",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HRs1WtNagAAmrE0.jpg",
+          "width": 1721
+        },
+        {
+          "height": 1199,
+          "media_key": "3_2097328715726491648",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HRs1WtYakAAIw4_.jpg",
+          "width": 848
+        }
+      ],
+      "needs_review": true,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": null,
+      "parsed_fields": {
+        "benefit_event_time": "20:30-21:50",
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-09-09",
+        "event_dates": [
+          "2026-09-09"
+        ],
+        "event_name": "碧の途中式 Debut Live『世界が僕を見つけた日』",
+        "extraction_confidence": 0.95,
+        "general_ticket_price": null,
+        "lottery_result_at": null,
+        "myojou_performance_time": "19:20-19:45",
+        "notes": null,
+        "open_time": "18:00",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "Sチケットのみ配布)",
+        "priority_ticket_price": null,
+        "same_day_ticket_price": null,
+        "source_kind": "sold_out",
+        "source_post_id": "2097328720877101527",
+        "source_posted_at": "2026-09-08T14:18:28Z",
+        "source_raw": {
+          "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n 「碧の途中式 Debut Live『世界が僕を見つけた日』」\n\n🎙19:20-19:45\n📸20:30-21:50\n\n⟣date：9/9（水）\n⟣place :Veats Shibuya\n⟣open/start：18:00/18:30\n⟣price：SOLD OUT\n⟣入場特典：明星カード（サインありチェキ）（Sチケットのみ配布）\n\n#myojou https://t.co/NyyCx8QCfT",
+          "attachments": {
+            "media_keys": [
+              "3_2097328715680350208",
+              "3_2097328715726491648"
+            ]
+          },
+          "created_at": "2026-09-08T14:18:28.000Z",
+          "edit_history_tweet_ids": [
+            "2097328720877101527"
+          ],
+          "entities": {
+            "hashtags": [
+              {
+                "end": 199,
+                "start": 192,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "pic.x.com/NyyCx8QCfT",
+                "end": 223,
+                "expanded_url": "https://x.com/info_myojou/status/2097328720877101527/photo/1",
+                "media_key": "3_2097328715680350208",
+                "start": 200,
+                "url": "https://t.co/NyyCx8QCfT"
+              },
+              {
+                "display_url": "pic.x.com/NyyCx8QCfT",
+                "end": 223,
+                "expanded_url": "https://x.com/info_myojou/status/2097328720877101527/photo/1",
+                "media_key": "3_2097328715726491648",
+                "start": 200,
+                "url": "https://t.co/NyyCx8QCfT"
+              }
+            ]
+          },
+          "full_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n 「碧の途中式 Debut Live『世界が僕を見つけた日』」\n\n🎙19:20-19:45\n📸20:30-21:50\n\n⟣date：9/9（水）\n⟣place :Veats Shibuya\n⟣open/start：18:00/18:30\n⟣price：SOLD OUT\n⟣入場特典：明星カード（サインありチェキ）（Sチケットのみ配布）\n\n#myojou https://t.co/NyyCx8QCfT",
+          "full_text_source": "text",
+          "id": "2097328720877101527",
+          "media": [
+            {
+              "height": 2435,
+              "media_key": "3_2097328715680350208",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HRs1WtNagAAmrE0.jpg",
+              "width": 1721
+            },
+            {
+              "height": 1199,
+              "media_key": "3_2097328715726491648",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HRs1WtYakAAIw4_.jpg",
+              "width": 848
+            }
+          ],
+          "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n 「碧の途中式 Debut Live『世界が僕を見つけた日』」\n\n🎙19:20-19:45\n📸20:30-21:50\n\n⟣date：9/9（水）\n⟣place :Veats Shibuya\n⟣open/start：18:00/18:30\n⟣price：SOLD OUT\n⟣入場特典：明星カード（サインありチェキ）（Sチケットのみ配布）\n\n#myojou https://t.co/NyyCx8QCfT",
+          "truncated_text": null
+        },
+        "source_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n 「碧の途中式 Debut Live『世界が僕を見つけた日』」\n\n🎙19:20-19:45\n📸20:30-21:50\n\n⟣date：9/9（水）\n⟣place :Veats Shibuya\n⟣open/start：18:00/18:30\n⟣price：SOLD OUT\n⟣入場特典：明星カード（サインありチェキ）（Sチケットのみ配布）\n\n#myojou https://t.co/NyyCx8QCfT",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2097328720877101527",
+        "start_time": "18:30",
+        "ticket_application_deadline_at": null,
+        "ticket_application_start_at": null,
+        "ticket_sale_type": null,
+        "ticket_sales": [],
+        "ticket_status": "sold_out",
+        "ticket_url": null,
+        "venue": "Veats Shibuya"
+      },
+      "raw": {
+        "api_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n 「碧の途中式 Debut Live『世界が僕を見つけた日』」\n\n🎙19:20-19:45\n📸20:30-21:50\n\n⟣date：9/9（水）\n⟣place :Veats Shibuya\n⟣open/start：18:00/18:30\n⟣price：SOLD OUT\n⟣入場特典：明星カード（サインありチェキ）（Sチケットのみ配布）\n\n#myojou https://t.co/NyyCx8QCfT",
+        "attachments": {
+          "media_keys": [
+            "3_2097328715680350208",
+            "3_2097328715726491648"
+          ]
+        },
+        "created_at": "2026-09-08T14:18:28.000Z",
+        "edit_history_tweet_ids": [
+          "2097328720877101527"
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "end": 199,
+              "start": 192,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "pic.x.com/NyyCx8QCfT",
+              "end": 223,
+              "expanded_url": "https://x.com/info_myojou/status/2097328720877101527/photo/1",
+              "media_key": "3_2097328715680350208",
+              "start": 200,
+              "url": "https://t.co/NyyCx8QCfT"
+            },
+            {
+              "display_url": "pic.x.com/NyyCx8QCfT",
+              "end": 223,
+              "expanded_url": "https://x.com/info_myojou/status/2097328720877101527/photo/1",
+              "media_key": "3_2097328715726491648",
+              "start": 200,
+              "url": "https://t.co/NyyCx8QCfT"
+            }
+          ]
+        },
+        "full_text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n 「碧の途中式 Debut Live『世界が僕を見つけた日』」\n\n🎙19:20-19:45\n📸20:30-21:50\n\n⟣date：9/9（水）\n⟣place :Veats Shibuya\n⟣open/start：18:00/18:30\n⟣price：SOLD OUT\n⟣入場特典：明星カード（サインありチェキ）（Sチケットのみ配布）\n\n#myojou https://t.co/NyyCx8QCfT",
+        "full_text_source": "text",
+        "id": "2097328720877101527",
+        "media": [
+          {
+            "height": 2435,
+            "media_key": "3_2097328715680350208",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HRs1WtNagAAmrE0.jpg",
+            "width": 1721
+          },
+          {
+            "height": 1199,
+            "media_key": "3_2097328715726491648",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HRs1WtYakAAIw4_.jpg",
+            "width": 848
+          }
+        ],
+        "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n 「碧の途中式 Debut Live『世界が僕を見つけた日』」\n\n🎙19:20-19:45\n📸20:30-21:50\n\n⟣date：9/9（水）\n⟣place :Veats Shibuya\n⟣open/start：18:00/18:30\n⟣price：SOLD OUT\n⟣入場特典：明星カード（サインありチェキ）（Sチケットのみ配布）\n\n#myojou https://t.co/NyyCx8QCfT",
+        "truncated_text": null
+      },
+      "referenced_tweets": [],
+      "text": "/／••✮\n明日のmyojou\n\\＼••✮\n\n 「碧の途中式 Debut Live『世界が僕を見つけた日』」\n\n🎙19:20-19:45\n📸20:30-21:50\n\n⟣date：9/9（水）\n⟣place :Veats Shibuya\n⟣open/start：18:00/18:30\n⟣price：SOLD OUT\n⟣入場特典：明星カード（サインありチェキ）（Sチケットのみ配布）\n\n#myojou https://t.co/NyyCx8QCfT",
+      "truncated_text": null,
+      "url": "https://x.com/info_myojou/status/2097328720877101527"
+    },
+    {
+      "api_text": "【チケットの再販売について】\n\n本公演につきまして、フライヤーに記載されている価格と、実際の販売価格に相違がございましたため、抽選にお申し込みいただいた方を一度キャンセルとさせていただきました。\n\n本日23:00より、正規の価格にて改めてチケット販売を開始しております。 https://t.co/qgB9TGxnDo",
+      "attachments": {},
+      "classification": {
+        "classification": "event",
+        "confidence": "medium",
+        "reason": "live keywords with partial structured information",
+        "source_kind": "same_day_reminder"
+      },
+      "created_at": "2026-09-08T14:13:51+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "x.com/info_myojou/st…",
+            "end": 159,
+            "expanded_url": "https://twitter.com/info_myojou/status/2097294713292468362",
+            "start": 136,
+            "url": "https://t.co/qgB9TGxnDo"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2097327559096885295",
+      "media": [],
+      "needs_review": true,
+      "needs_review_reasons": [
+        "ambiguous event match",
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 213,
+              "start": 206,
+              "tag": "myojou"
+            }
+          ]
+        },
+        "text": "【チケットの再販売について】\n\n本公演につきまして、フライヤーに記載されている価格と、実際の販売価格に相違がございましたため、抽選にお申し込みいただいた方を一度キャンセルとさせていただきました。\n\n本日23:00より、正規の価格にて改めてチケット販売を開始しております。\n\n23:00以前にチケットをご購入いただいた方につきましては、お手数をおかけいたしますが、再度ご購入くださいますようお願いいたします。\n\n #myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": null,
+        "classification": "event",
+        "classification_confidence": "medium",
+        "classification_reason": "live keywords with partial structured information",
+        "event_date": "2026-09-08",
+        "event_dates": [
+          "2026-09-08"
+        ],
+        "event_name": null,
+        "extraction_confidence": 0.45,
+        "general_ticket_price": null,
+        "lottery_result_at": null,
+        "myojou_performance_time": null,
+        "notes": null,
+        "open_time": null,
+        "payment_deadline_at": null,
+        "priority_ticket_name": null,
+        "priority_ticket_price": null,
+        "same_day_ticket_price": null,
+        "source_kind": "same_day_reminder",
+        "source_post_id": "2097327559096885295",
+        "source_posted_at": "2026-09-08T14:13:51Z",
+        "source_raw": {
+          "api_text": "【チケットの再販売について】\n\n本公演につきまして、フライヤーに記載されている価格と、実際の販売価格に相違がございましたため、抽選にお申し込みいただいた方を一度キャンセルとさせていただきました。\n\n本日23:00より、正規の価格にて改めてチケット販売を開始しております。 https://t.co/qgB9TGxnDo",
+          "created_at": "2026-09-08T14:13:51.000Z",
+          "edit_history_tweet_ids": [
+            "2097327559096885295"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "x.com/info_myojou/st…",
+                "end": 159,
+                "expanded_url": "https://twitter.com/info_myojou/status/2097294713292468362",
+                "start": 136,
+                "url": "https://t.co/qgB9TGxnDo"
+              }
+            ]
+          },
+          "full_text": "【チケットの再販売について】\n\n本公演につきまして、フライヤーに記載されている価格と、実際の販売価格に相違がございましたため、抽選にお申し込みいただいた方を一度キャンセルとさせていただきました。\n\n本日23:00より、正規の価格にて改めてチケット販売を開始しております。\n\n23:00以前にチケットをご購入いただいた方につきましては、お手数をおかけいたしますが、再度ご購入くださいますようお願いいたします。\n\n #myojou",
+          "full_text_source": "note_tweet",
+          "id": "2097327559096885295",
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 213,
+                  "start": 206,
+                  "tag": "myojou"
+                }
+              ]
+            },
+            "text": "【チケットの再販売について】\n\n本公演につきまして、フライヤーに記載されている価格と、実際の販売価格に相違がございましたため、抽選にお申し込みいただいた方を一度キャンセルとさせていただきました。\n\n本日23:00より、正規の価格にて改めてチケット販売を開始しております。\n\n23:00以前にチケットをご購入いただいた方につきましては、お手数をおかけいたしますが、再度ご購入くださいますようお願いいたします。\n\n #myojou"
+          },
+          "referenced_tweets": [
+            {
+              "id": "2097294713292468362",
+              "type": "quoted"
+            }
+          ],
+          "text": "【チケットの再販売について】\n\n本公演につきまして、フライヤーに記載されている価格と、実際の販売価格に相違がございましたため、抽選にお申し込みいただいた方を一度キャンセルとさせていただきました。\n\n本日23:00より、正規の価格にて改めてチケット販売を開始しております。 https://t.co/qgB9TGxnDo",
+          "truncated_text": "【チケットの再販売について】\n\n本公演につきまして、フライヤーに記載されている価格と、実際の販売価格に相違がございましたため、抽選にお申し込みいただいた方を一度キャンセルとさせていただきました。\n\n本日23:00より、正規の価格にて改めてチケット販売を開始しております。 https://t.co/qgB9TGxnDo"
+        },
+        "source_text": "【チケットの再販売について】\n\n本公演につきまして、フライヤーに記載されている価格と、実際の販売価格に相違がございましたため、抽選にお申し込みいただいた方を一度キャンセルとさせていただきました。\n\n本日23:00より、正規の価格にて改めてチケット販売を開始しております。\n\n23:00以前にチケットをご購入いただいた方につきましては、お手数をおかけいたしますが、再度ご購入くださいますようお願いいたします。\n\n #myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2097327559096885295",
+        "start_time": null,
+        "ticket_application_deadline_at": null,
+        "ticket_application_start_at": null,
+        "ticket_sale_type": "抽選",
+        "ticket_sales": [],
+        "ticket_status": null,
+        "ticket_url": null,
+        "venue": null
+      },
+      "raw": {
+        "api_text": "【チケットの再販売について】\n\n本公演につきまして、フライヤーに記載されている価格と、実際の販売価格に相違がございましたため、抽選にお申し込みいただいた方を一度キャンセルとさせていただきました。\n\n本日23:00より、正規の価格にて改めてチケット販売を開始しております。 https://t.co/qgB9TGxnDo",
+        "created_at": "2026-09-08T14:13:51.000Z",
+        "edit_history_tweet_ids": [
+          "2097327559096885295"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "x.com/info_myojou/st…",
+              "end": 159,
+              "expanded_url": "https://twitter.com/info_myojou/status/2097294713292468362",
+              "start": 136,
+              "url": "https://t.co/qgB9TGxnDo"
+            }
+          ]
+        },
+        "full_text": "【チケットの再販売について】\n\n本公演につきまして、フライヤーに記載されている価格と、実際の販売価格に相違がございましたため、抽選にお申し込みいただいた方を一度キャンセルとさせていただきました。\n\n本日23:00より、正規の価格にて改めてチケット販売を開始しております。\n\n23:00以前にチケットをご購入いただいた方につきましては、お手数をおかけいたしますが、再度ご購入くださいますようお願いいたします。\n\n #myojou",
+        "full_text_source": "note_tweet",
+        "id": "2097327559096885295",
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 213,
+                "start": 206,
+                "tag": "myojou"
+              }
+            ]
+          },
+          "text": "【チケットの再販売について】\n\n本公演につきまして、フライヤーに記載されている価格と、実際の販売価格に相違がございましたため、抽選にお申し込みいただいた方を一度キャンセルとさせていただきました。\n\n本日23:00より、正規の価格にて改めてチケット販売を開始しております。\n\n23:00以前にチケットをご購入いただいた方につきましては、お手数をおかけいたしますが、再度ご購入くださいますようお願いいたします。\n\n #myojou"
+        },
+        "referenced_tweets": [
+          {
+            "id": "2097294713292468362",
+            "type": "quoted"
+          }
+        ],
+        "text": "【チケットの再販売について】\n\n本公演につきまして、フライヤーに記載されている価格と、実際の販売価格に相違がございましたため、抽選にお申し込みいただいた方を一度キャンセルとさせていただきました。\n\n本日23:00より、正規の価格にて改めてチケット販売を開始しております。 https://t.co/qgB9TGxnDo",
+        "truncated_text": "【チケットの再販売について】\n\n本公演につきまして、フライヤーに記載されている価格と、実際の販売価格に相違がございましたため、抽選にお申し込みいただいた方を一度キャンセルとさせていただきました。\n\n本日23:00より、正規の価格にて改めてチケット販売を開始しております。 https://t.co/qgB9TGxnDo"
+      },
+      "referenced_tweets": [
+        {
+          "id": "2097294713292468362",
+          "type": "quoted"
+        }
+      ],
+      "text": "【チケットの再販売について】\n\n本公演につきまして、フライヤーに記載されている価格と、実際の販売価格に相違がございましたため、抽選にお申し込みいただいた方を一度キャンセルとさせていただきました。\n\n本日23:00より、正規の価格にて改めてチケット販売を開始しております。\n\n23:00以前にチケットをご購入いただいた方につきましては、お手数をおかけいたしますが、再度ご購入くださいますようお願いいたします。\n\n #myojou",
+      "truncated_text": "【チケットの再販売について】\n\n本公演につきまして、フライヤーに記載されている価格と、実際の販売価格に相違がございましたため、抽選にお申し込みいただいた方を一度キャンセルとさせていただきました。\n\n本日23:00より、正規の価格にて改めてチケット販売を開始しております。 https://t.co/qgB9TGxnDo",
+      "url": "https://x.com/info_myojou/status/2097327559096885295"
+    },
+    {
+      "api_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n              IDOL STORM\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣date：10/11（日）\n⟣place : CLUB QUATTRO\n⟣open/start：17:45/18:30\n⟣price：優先¥7,000/一般¥3,500（各+1D）\n\n【抽選販売】\n9/8（火）21:00-9/19（土）23:59\n【一般販売】 https://t.co/THcuPrlZD3",
+      "attachments": {
+        "media_keys": [
+          "3_2097294689619836928"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "ticket_update"
+      },
+      "created_at": "2026-09-08T12:03:20+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/THcuPrlZD3",
+            "end": 221,
+            "expanded_url": "https://x.com/info_myojou/status/2097294713292468362/photo/1",
+            "media_key": "3_2097294689619836928",
+            "start": 198,
+            "url": "https://t.co/THcuPrlZD3"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2097294713292468362",
+      "media": [
+        {
+          "height": 4096,
+          "media_key": "3_2097294689619836928",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HRsWaIQagAA0Upn.jpg",
+          "width": 2990
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 259,
+              "start": 252,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "t-dv.com/IDOLSTORM_1011",
+              "end": 250,
+              "expanded_url": "https://t-dv.com/IDOLSTORM_1011",
+              "start": 227,
+              "url": "https://t.co/mmT0UIc6Jf"
+            }
+          ]
+        },
+        "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n              IDOL STORM\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣date：10/11（日）\n⟣place : CLUB QUATTRO\n⟣open/start：17:45/18:30\n⟣price：優先¥7,000/一般¥3,500（各+1D）\n\n【抽選販売】\n9/8（火）21:00-9/19（土）23:59\n【一般販売】\n9/21（月）21:00-10/11（土）16:59\n🔗 https://t.co/mmT0UIc6Jf\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": null,
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-10-11",
+        "event_dates": [
+          "2026-10-11"
+        ],
+        "event_name": "IDOL STORM",
+        "extraction_confidence": 0.9,
+        "general_ticket_price": 3500,
+        "lottery_result_at": null,
+        "myojou_performance_time": null,
+        "notes": "ドリンク代: 各+1D",
+        "open_time": "17:45",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "優先",
+        "priority_ticket_price": 7000,
+        "same_day_ticket_price": null,
+        "source_kind": "ticket_update",
+        "source_post_id": "2097294713292468362",
+        "source_posted_at": "2026-09-08T12:03:20Z",
+        "source_raw": {
+          "api_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n              IDOL STORM\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣date：10/11（日）\n⟣place : CLUB QUATTRO\n⟣open/start：17:45/18:30\n⟣price：優先¥7,000/一般¥3,500（各+1D）\n\n【抽選販売】\n9/8（火）21:00-9/19（土）23:59\n【一般販売】 https://t.co/THcuPrlZD3",
+          "attachments": {
+            "media_keys": [
+              "3_2097294689619836928"
+            ]
+          },
+          "created_at": "2026-09-08T12:03:20.000Z",
+          "edit_history_tweet_ids": [
+            "2097294713292468362"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/THcuPrlZD3",
+                "end": 221,
+                "expanded_url": "https://x.com/info_myojou/status/2097294713292468362/photo/1",
+                "media_key": "3_2097294689619836928",
+                "start": 198,
+                "url": "https://t.co/THcuPrlZD3"
+              }
+            ]
+          },
+          "full_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n              IDOL STORM\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣date：10/11（日）\n⟣place : CLUB QUATTRO\n⟣open/start：17:45/18:30\n⟣price：優先¥7,000/一般¥3,500（各+1D）\n\n【抽選販売】\n9/8（火）21:00-9/19（土）23:59\n【一般販売】\n9/21（月）21:00-10/11（土）16:59\n🔗 https://t.co/mmT0UIc6Jf\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2097294713292468362",
+          "media": [
+            {
+              "height": 4096,
+              "media_key": "3_2097294689619836928",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HRsWaIQagAA0Upn.jpg",
+              "width": 2990
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 259,
+                  "start": 252,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "t-dv.com/IDOLSTORM_1011",
+                  "end": 250,
+                  "expanded_url": "https://t-dv.com/IDOLSTORM_1011",
+                  "start": 227,
+                  "url": "https://t.co/mmT0UIc6Jf"
+                }
+              ]
+            },
+            "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n              IDOL STORM\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣date：10/11（日）\n⟣place : CLUB QUATTRO\n⟣open/start：17:45/18:30\n⟣price：優先¥7,000/一般¥3,500（各+1D）\n\n【抽選販売】\n9/8（火）21:00-9/19（土）23:59\n【一般販売】\n9/21（月）21:00-10/11（土）16:59\n🔗 https://t.co/mmT0UIc6Jf\n\n#myojou"
+          },
+          "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n              IDOL STORM\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣date：10/11（日）\n⟣place : CLUB QUATTRO\n⟣open/start：17:45/18:30\n⟣price：優先¥7,000/一般¥3,500（各+1D）\n\n【抽選販売】\n9/8（火）21:00-9/19（土）23:59\n【一般販売】 https://t.co/THcuPrlZD3",
+          "truncated_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n              IDOL STORM\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣date：10/11（日）\n⟣place : CLUB QUATTRO\n⟣open/start：17:45/18:30\n⟣price：優先¥7,000/一般¥3,500（各+1D）\n\n【抽選販売】\n9/8（火）21:00-9/19（土）23:59\n【一般販売】 https://t.co/THcuPrlZD3"
+        },
+        "source_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n              IDOL STORM\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣date：10/11（日）\n⟣place : CLUB QUATTRO\n⟣open/start：17:45/18:30\n⟣price：優先¥7,000/一般¥3,500（各+1D）\n\n【抽選販売】\n9/8（火）21:00-9/19（土）23:59\n【一般販売】\n9/21（月）21:00-10/11（土）16:59\n🔗 https://t.co/mmT0UIc6Jf\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2097294713292468362",
+        "start_time": "18:30",
+        "ticket_application_deadline_at": "2026-09-19T23:59:00+09:00",
+        "ticket_application_start_at": "2026-09-08T21:00:00+09:00",
+        "ticket_sale_type": "一般",
+        "ticket_sales": [
+          {
+            "deadline_at": "2026-09-19T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 7000,
+            "result_at": null,
+            "sale_type": "抽選",
+            "source_post_id": "2097294713292468362",
+            "source_url": "https://x.com/info_myojou/status/2097294713292468362",
+            "start_at": "2026-09-08T21:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "優先",
+            "ticket_tier": "優先"
+          },
+          {
+            "deadline_at": "2026-09-19T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 3500,
+            "result_at": null,
+            "sale_type": "抽選",
+            "source_post_id": "2097294713292468362",
+            "source_url": "https://x.com/info_myojou/status/2097294713292468362",
+            "start_at": "2026-09-08T21:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          },
+          {
+            "deadline_at": "2026-10-11T16:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 7000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2097294713292468362",
+            "source_url": "https://x.com/info_myojou/status/2097294713292468362",
+            "start_at": "2026-09-21T21:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "優先",
+            "ticket_tier": "優先"
+          },
+          {
+            "deadline_at": "2026-10-11T16:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 3500,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2097294713292468362",
+            "source_url": "https://x.com/info_myojou/status/2097294713292468362",
+            "start_at": "2026-09-21T21:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "https://t-dv.com/IDOLSTORM_1011",
+        "venue": "CLUB QUATTRO"
+      },
+      "raw": {
+        "api_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n              IDOL STORM\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣date：10/11（日）\n⟣place : CLUB QUATTRO\n⟣open/start：17:45/18:30\n⟣price：優先¥7,000/一般¥3,500（各+1D）\n\n【抽選販売】\n9/8（火）21:00-9/19（土）23:59\n【一般販売】 https://t.co/THcuPrlZD3",
+        "attachments": {
+          "media_keys": [
+            "3_2097294689619836928"
+          ]
+        },
+        "created_at": "2026-09-08T12:03:20.000Z",
+        "edit_history_tweet_ids": [
+          "2097294713292468362"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/THcuPrlZD3",
+              "end": 221,
+              "expanded_url": "https://x.com/info_myojou/status/2097294713292468362/photo/1",
+              "media_key": "3_2097294689619836928",
+              "start": 198,
+              "url": "https://t.co/THcuPrlZD3"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n              IDOL STORM\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣date：10/11（日）\n⟣place : CLUB QUATTRO\n⟣open/start：17:45/18:30\n⟣price：優先¥7,000/一般¥3,500（各+1D）\n\n【抽選販売】\n9/8（火）21:00-9/19（土）23:59\n【一般販売】\n9/21（月）21:00-10/11（土）16:59\n🔗 https://t.co/mmT0UIc6Jf\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2097294713292468362",
+        "media": [
+          {
+            "height": 4096,
+            "media_key": "3_2097294689619836928",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HRsWaIQagAA0Upn.jpg",
+            "width": 2990
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 259,
+                "start": 252,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "t-dv.com/IDOLSTORM_1011",
+                "end": 250,
+                "expanded_url": "https://t-dv.com/IDOLSTORM_1011",
+                "start": 227,
+                "url": "https://t.co/mmT0UIc6Jf"
+              }
+            ]
+          },
+          "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n              IDOL STORM\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣date：10/11（日）\n⟣place : CLUB QUATTRO\n⟣open/start：17:45/18:30\n⟣price：優先¥7,000/一般¥3,500（各+1D）\n\n【抽選販売】\n9/8（火）21:00-9/19（土）23:59\n【一般販売】\n9/21（月）21:00-10/11（土）16:59\n🔗 https://t.co/mmT0UIc6Jf\n\n#myojou"
+        },
+        "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n              IDOL STORM\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣date：10/11（日）\n⟣place : CLUB QUATTRO\n⟣open/start：17:45/18:30\n⟣price：優先¥7,000/一般¥3,500（各+1D）\n\n【抽選販売】\n9/8（火）21:00-9/19（土）23:59\n【一般販売】 https://t.co/THcuPrlZD3",
+        "truncated_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n              IDOL STORM\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣date：10/11（日）\n⟣place : CLUB QUATTRO\n⟣open/start：17:45/18:30\n⟣price：優先¥7,000/一般¥3,500（各+1D）\n\n【抽選販売】\n9/8（火）21:00-9/19（土）23:59\n【一般販売】 https://t.co/THcuPrlZD3"
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n              IDOL STORM\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣date：10/11（日）\n⟣place : CLUB QUATTRO\n⟣open/start：17:45/18:30\n⟣price：優先¥7,000/一般¥3,500（各+1D）\n\n【抽選販売】\n9/8（火）21:00-9/19（土）23:59\n【一般販売】\n9/21（月）21:00-10/11（土）16:59\n🔗 https://t.co/mmT0UIc6Jf\n\n#myojou",
+      "truncated_text": "✮••┈┈┈┈••✮••┈┈┈┈••✮\n              IDOL STORM\n✮••┈┈┈┈••✮••┈┈┈┈••✮\n\n⟣date：10/11（日）\n⟣place : CLUB QUATTRO\n⟣open/start：17:45/18:30\n⟣price：優先¥7,000/一般¥3,500（各+1D）\n\n【抽選販売】\n9/8（火）21:00-9/19（土）23:59\n【一般販売】 https://t.co/THcuPrlZD3",
+      "url": "https://x.com/info_myojou/status/2097294713292468362"
+    },
+    {
+      "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n      myojou autumn tour 2026 \"秋星\"\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n仙台･甲府公演 本日22:00より抽選受付開始！\n\n⟣price：VIP¥8,000（会場限定ノベルティ付き）/一般¥2,000（各+1D）\n\n【仙台公演抽選受付期間】 https://t.co/fXxkddtG0Y",
+      "attachments": {
+        "media_keys": [
+          "3_2097279684555993088"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "same_day_reminder"
+      },
+      "created_at": "2026-09-08T11:03:43+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/fXxkddtG0Y",
+            "end": 194,
+            "expanded_url": "https://x.com/info_myojou/status/2097279713039528210/photo/1",
+            "media_key": "3_2097279684555993088",
+            "start": 171,
+            "url": "https://t.co/fXxkddtG0Y"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2097279713039528210",
+      "media": [
+        {
+          "height": 3508,
+          "media_key": "3_2097279684555993088",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HRsIwuCacAAgVbk.jpg",
+          "width": 2481
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 479,
+              "start": 472,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "t-dv.com/myojou_1004",
+              "end": 260,
+              "expanded_url": "http://t-dv.com/myojou_1004",
+              "start": 237,
+              "url": "https://t.co/Lqp24fRqv4"
+            },
+            {
+              "display_url": "t-dv.com/myojou_1012",
+              "end": 365,
+              "expanded_url": "http://t-dv.com/myojou_1012",
+              "start": 342,
+              "url": "https://t.co/QeWX2mGv6j"
+            },
+            {
+              "display_url": "t-dv.com/myojou_0920",
+              "end": 470,
+              "expanded_url": "http://t-dv.com/myojou_0920",
+              "start": 447,
+              "url": "https://t.co/5bJeZxHitY"
+            }
+          ]
+        },
+        "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n      myojou autumn tour 2026 \"秋星\"\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n仙台･甲府公演 本日22:00より抽選受付開始！\n\n⟣price：VIP¥8,000（会場限定ノベルティ付き）/一般¥2,000（各+1D）\n\n【仙台公演抽選受付期間】\n9/8（火）22:00-9/15（火）23:59\n【仙台公演一般受付期間】\n9/16（水）22:00-10/3（土）23:59\n🔗 https://t.co/Lqp24fRqv4\n\n【甲府公演抽選受付期間】\n9/8（火）22:00-9/15（火）23:59\n【甲府公演一般受付期間】\n9/16（水）22:00-10/11（日）23:59\n🔗 https://t.co/QeWX2mGv6j\n\n【大阪公演抽選受付期間】\n8/10（月）21:00-8/24（月）23:59\n【大阪公演一般受付期間】\n8/25（火）21:00-9/19（土）23:59\n🔗 https://t.co/5bJeZxHitY\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": null,
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-09-08",
+        "event_dates": [
+          "2026-09-08"
+        ],
+        "event_name": "myojou autumn tour 2026 \"秋星\"",
+        "extraction_confidence": 0.85,
+        "general_ticket_price": 2000,
+        "lottery_result_at": null,
+        "myojou_performance_time": null,
+        "notes": "ドリンク代: 各+1D",
+        "open_time": null,
+        "payment_deadline_at": null,
+        "priority_ticket_name": "VIP",
+        "priority_ticket_price": 8000,
+        "same_day_ticket_price": null,
+        "source_kind": "same_day_reminder",
+        "source_post_id": "2097279713039528210",
+        "source_posted_at": "2026-09-08T11:03:43Z",
+        "source_raw": {
+          "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n      myojou autumn tour 2026 \"秋星\"\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n仙台･甲府公演 本日22:00より抽選受付開始！\n\n⟣price：VIP¥8,000（会場限定ノベルティ付き）/一般¥2,000（各+1D）\n\n【仙台公演抽選受付期間】 https://t.co/fXxkddtG0Y",
+          "attachments": {
+            "media_keys": [
+              "3_2097279684555993088"
+            ]
+          },
+          "created_at": "2026-09-08T11:03:43.000Z",
+          "edit_history_tweet_ids": [
+            "2097279713039528210"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/fXxkddtG0Y",
+                "end": 194,
+                "expanded_url": "https://x.com/info_myojou/status/2097279713039528210/photo/1",
+                "media_key": "3_2097279684555993088",
+                "start": 171,
+                "url": "https://t.co/fXxkddtG0Y"
+              }
+            ]
+          },
+          "full_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n      myojou autumn tour 2026 \"秋星\"\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n仙台･甲府公演 本日22:00より抽選受付開始！\n\n⟣price：VIP¥8,000（会場限定ノベルティ付き）/一般¥2,000（各+1D）\n\n【仙台公演抽選受付期間】\n9/8（火）22:00-9/15（火）23:59\n【仙台公演一般受付期間】\n9/16（水）22:00-10/3（土）23:59\n🔗 https://t.co/Lqp24fRqv4\n\n【甲府公演抽選受付期間】\n9/8（火）22:00-9/15（火）23:59\n【甲府公演一般受付期間】\n9/16（水）22:00-10/11（日）23:59\n🔗 https://t.co/QeWX2mGv6j\n\n【大阪公演抽選受付期間】\n8/10（月）21:00-8/24（月）23:59\n【大阪公演一般受付期間】\n8/25（火）21:00-9/19（土）23:59\n🔗 https://t.co/5bJeZxHitY\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2097279713039528210",
+          "media": [
+            {
+              "height": 3508,
+              "media_key": "3_2097279684555993088",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HRsIwuCacAAgVbk.jpg",
+              "width": 2481
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 479,
+                  "start": 472,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "t-dv.com/myojou_1004",
+                  "end": 260,
+                  "expanded_url": "http://t-dv.com/myojou_1004",
+                  "start": 237,
+                  "url": "https://t.co/Lqp24fRqv4"
+                },
+                {
+                  "display_url": "t-dv.com/myojou_1012",
+                  "end": 365,
+                  "expanded_url": "http://t-dv.com/myojou_1012",
+                  "start": 342,
+                  "url": "https://t.co/QeWX2mGv6j"
+                },
+                {
+                  "display_url": "t-dv.com/myojou_0920",
+                  "end": 470,
+                  "expanded_url": "http://t-dv.com/myojou_0920",
+                  "start": 447,
+                  "url": "https://t.co/5bJeZxHitY"
+                }
+              ]
+            },
+            "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n      myojou autumn tour 2026 \"秋星\"\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n仙台･甲府公演 本日22:00より抽選受付開始！\n\n⟣price：VIP¥8,000（会場限定ノベルティ付き）/一般¥2,000（各+1D）\n\n【仙台公演抽選受付期間】\n9/8（火）22:00-9/15（火）23:59\n【仙台公演一般受付期間】\n9/16（水）22:00-10/3（土）23:59\n🔗 https://t.co/Lqp24fRqv4\n\n【甲府公演抽選受付期間】\n9/8（火）22:00-9/15（火）23:59\n【甲府公演一般受付期間】\n9/16（水）22:00-10/11（日）23:59\n🔗 https://t.co/QeWX2mGv6j\n\n【大阪公演抽選受付期間】\n8/10（月）21:00-8/24（月）23:59\n【大阪公演一般受付期間】\n8/25（火）21:00-9/19（土）23:59\n🔗 https://t.co/5bJeZxHitY\n\n#myojou"
+          },
+          "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n      myojou autumn tour 2026 \"秋星\"\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n仙台･甲府公演 本日22:00より抽選受付開始！\n\n⟣price：VIP¥8,000（会場限定ノベルティ付き）/一般¥2,000（各+1D）\n\n【仙台公演抽選受付期間】 https://t.co/fXxkddtG0Y",
+          "truncated_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n      myojou autumn tour 2026 \"秋星\"\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n仙台･甲府公演 本日22:00より抽選受付開始！\n\n⟣price：VIP¥8,000（会場限定ノベルティ付き）/一般¥2,000（各+1D）\n\n【仙台公演抽選受付期間】 https://t.co/fXxkddtG0Y"
+        },
+        "source_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n      myojou autumn tour 2026 \"秋星\"\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n仙台･甲府公演 本日22:00より抽選受付開始！\n\n⟣price：VIP¥8,000（会場限定ノベルティ付き）/一般¥2,000（各+1D）\n\n【仙台公演抽選受付期間】\n9/8（火）22:00-9/15（火）23:59\n【仙台公演一般受付期間】\n9/16（水）22:00-10/3（土）23:59\n🔗 https://t.co/Lqp24fRqv4\n\n【甲府公演抽選受付期間】\n9/8（火）22:00-9/15（火）23:59\n【甲府公演一般受付期間】\n9/16（水）22:00-10/11（日）23:59\n🔗 https://t.co/QeWX2mGv6j\n\n【大阪公演抽選受付期間】\n8/10（月）21:00-8/24（月）23:59\n【大阪公演一般受付期間】\n8/25（火）21:00-9/19（土）23:59\n🔗 https://t.co/5bJeZxHitY\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2097279713039528210",
+        "start_time": null,
+        "ticket_application_deadline_at": "2025-09-15T23:59:00+09:00",
+        "ticket_application_start_at": "2026-09-08T22:00:00+09:00",
+        "ticket_sale_type": "一般",
+        "ticket_sales": [
+          {
+            "deadline_at": "2025-09-15T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 8000,
+            "result_at": null,
+            "sale_type": "抽選",
+            "source_post_id": "2097279713039528210",
+            "source_url": "https://x.com/info_myojou/status/2097279713039528210",
+            "start_at": "2026-09-08T22:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "VIP",
+            "ticket_tier": "VIP"
+          },
+          {
+            "deadline_at": "2025-09-15T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 2000,
+            "result_at": null,
+            "sale_type": "抽選",
+            "source_post_id": "2097279713039528210",
+            "source_url": "https://x.com/info_myojou/status/2097279713039528210",
+            "start_at": "2026-09-08T22:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          },
+          {
+            "deadline_at": "2025-10-03T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 8000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2097279713039528210",
+            "source_url": "https://x.com/info_myojou/status/2097279713039528210",
+            "start_at": "2025-09-16T22:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "VIP",
+            "ticket_tier": "VIP"
+          },
+          {
+            "deadline_at": "2025-10-03T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 2000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2097279713039528210",
+            "source_url": "https://x.com/info_myojou/status/2097279713039528210",
+            "start_at": "2025-09-16T22:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          },
+          {
+            "deadline_at": "2025-10-11T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 8000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2097279713039528210",
+            "source_url": "https://x.com/info_myojou/status/2097279713039528210",
+            "start_at": "2025-09-16T22:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "VIP",
+            "ticket_tier": "VIP"
+          },
+          {
+            "deadline_at": "2025-10-11T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 2000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2097279713039528210",
+            "source_url": "https://x.com/info_myojou/status/2097279713039528210",
+            "start_at": "2025-09-16T22:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          },
+          {
+            "deadline_at": "2026-08-24T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 8000,
+            "result_at": null,
+            "sale_type": "抽選",
+            "source_post_id": "2097279713039528210",
+            "source_url": "https://x.com/info_myojou/status/2097279713039528210",
+            "start_at": "2026-08-10T21:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "VIP",
+            "ticket_tier": "VIP"
+          },
+          {
+            "deadline_at": "2026-08-24T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 2000,
+            "result_at": null,
+            "sale_type": "抽選",
+            "source_post_id": "2097279713039528210",
+            "source_url": "https://x.com/info_myojou/status/2097279713039528210",
+            "start_at": "2026-08-10T21:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          },
+          {
+            "deadline_at": "2025-09-19T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 8000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2097279713039528210",
+            "source_url": "https://x.com/info_myojou/status/2097279713039528210",
+            "start_at": "2026-08-25T21:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "VIP",
+            "ticket_tier": "VIP"
+          },
+          {
+            "deadline_at": "2025-09-19T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 2000,
+            "result_at": null,
+            "sale_type": "一般",
+            "source_post_id": "2097279713039528210",
+            "source_url": "https://x.com/info_myojou/status/2097279713039528210",
+            "start_at": "2026-08-25T21:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "http://t-dv.com/myojou_1004",
+        "venue": "限定ノベルティ付き)/一般¥2,000(各+1D)"
+      },
+      "raw": {
+        "api_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n      myojou autumn tour 2026 \"秋星\"\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n仙台･甲府公演 本日22:00より抽選受付開始！\n\n⟣price：VIP¥8,000（会場限定ノベルティ付き）/一般¥2,000（各+1D）\n\n【仙台公演抽選受付期間】 https://t.co/fXxkddtG0Y",
+        "attachments": {
+          "media_keys": [
+            "3_2097279684555993088"
+          ]
+        },
+        "created_at": "2026-09-08T11:03:43.000Z",
+        "edit_history_tweet_ids": [
+          "2097279713039528210"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/fXxkddtG0Y",
+              "end": 194,
+              "expanded_url": "https://x.com/info_myojou/status/2097279713039528210/photo/1",
+              "media_key": "3_2097279684555993088",
+              "start": 171,
+              "url": "https://t.co/fXxkddtG0Y"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n      myojou autumn tour 2026 \"秋星\"\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n仙台･甲府公演 本日22:00より抽選受付開始！\n\n⟣price：VIP¥8,000（会場限定ノベルティ付き）/一般¥2,000（各+1D）\n\n【仙台公演抽選受付期間】\n9/8（火）22:00-9/15（火）23:59\n【仙台公演一般受付期間】\n9/16（水）22:00-10/3（土）23:59\n🔗 https://t.co/Lqp24fRqv4\n\n【甲府公演抽選受付期間】\n9/8（火）22:00-9/15（火）23:59\n【甲府公演一般受付期間】\n9/16（水）22:00-10/11（日）23:59\n🔗 https://t.co/QeWX2mGv6j\n\n【大阪公演抽選受付期間】\n8/10（月）21:00-8/24（月）23:59\n【大阪公演一般受付期間】\n8/25（火）21:00-9/19（土）23:59\n🔗 https://t.co/5bJeZxHitY\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2097279713039528210",
+        "media": [
+          {
+            "height": 3508,
+            "media_key": "3_2097279684555993088",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HRsIwuCacAAgVbk.jpg",
+            "width": 2481
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 479,
+                "start": 472,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "t-dv.com/myojou_1004",
+                "end": 260,
+                "expanded_url": "http://t-dv.com/myojou_1004",
+                "start": 237,
+                "url": "https://t.co/Lqp24fRqv4"
+              },
+              {
+                "display_url": "t-dv.com/myojou_1012",
+                "end": 365,
+                "expanded_url": "http://t-dv.com/myojou_1012",
+                "start": 342,
+                "url": "https://t.co/QeWX2mGv6j"
+              },
+              {
+                "display_url": "t-dv.com/myojou_0920",
+                "end": 470,
+                "expanded_url": "http://t-dv.com/myojou_0920",
+                "start": 447,
+                "url": "https://t.co/5bJeZxHitY"
+              }
+            ]
+          },
+          "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n      myojou autumn tour 2026 \"秋星\"\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n仙台･甲府公演 本日22:00より抽選受付開始！\n\n⟣price：VIP¥8,000（会場限定ノベルティ付き）/一般¥2,000（各+1D）\n\n【仙台公演抽選受付期間】\n9/8（火）22:00-9/15（火）23:59\n【仙台公演一般受付期間】\n9/16（水）22:00-10/3（土）23:59\n🔗 https://t.co/Lqp24fRqv4\n\n【甲府公演抽選受付期間】\n9/8（火）22:00-9/15（火）23:59\n【甲府公演一般受付期間】\n9/16（水）22:00-10/11（日）23:59\n🔗 https://t.co/QeWX2mGv6j\n\n【大阪公演抽選受付期間】\n8/10（月）21:00-8/24（月）23:59\n【大阪公演一般受付期間】\n8/25（火）21:00-9/19（土）23:59\n🔗 https://t.co/5bJeZxHitY\n\n#myojou"
+        },
+        "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n      myojou autumn tour 2026 \"秋星\"\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n仙台･甲府公演 本日22:00より抽選受付開始！\n\n⟣price：VIP¥8,000（会場限定ノベルティ付き）/一般¥2,000（各+1D）\n\n【仙台公演抽選受付期間】 https://t.co/fXxkddtG0Y",
+        "truncated_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n      myojou autumn tour 2026 \"秋星\"\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n仙台･甲府公演 本日22:00より抽選受付開始！\n\n⟣price：VIP¥8,000（会場限定ノベルティ付き）/一般¥2,000（各+1D）\n\n【仙台公演抽選受付期間】 https://t.co/fXxkddtG0Y"
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n      myojou autumn tour 2026 \"秋星\"\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n仙台･甲府公演 本日22:00より抽選受付開始！\n\n⟣price：VIP¥8,000（会場限定ノベルティ付き）/一般¥2,000（各+1D）\n\n【仙台公演抽選受付期間】\n9/8（火）22:00-9/15（火）23:59\n【仙台公演一般受付期間】\n9/16（水）22:00-10/3（土）23:59\n🔗 https://t.co/Lqp24fRqv4\n\n【甲府公演抽選受付期間】\n9/8（火）22:00-9/15（火）23:59\n【甲府公演一般受付期間】\n9/16（水）22:00-10/11（日）23:59\n🔗 https://t.co/QeWX2mGv6j\n\n【大阪公演抽選受付期間】\n8/10（月）21:00-8/24（月）23:59\n【大阪公演一般受付期間】\n8/25（火）21:00-9/19（土）23:59\n🔗 https://t.co/5bJeZxHitY\n\n#myojou",
+      "truncated_text": "✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n      myojou autumn tour 2026 \"秋星\"\n✮••┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n仙台･甲府公演 本日22:00より抽選受付開始！\n\n⟣price：VIP¥8,000（会場限定ノベルティ付き）/一般¥2,000（各+1D）\n\n【仙台公演抽選受付期間】 https://t.co/fXxkddtG0Y",
+      "url": "https://x.com/info_myojou/status/2097279713039528210"
+    },
+    {
+      "api_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n                    文化放送presents\n 『idoLove You♫-On Stage QR-vol.2』\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n🎙12:50-13:10\n📸13:20-14:20  A\n\n⟣date：9/17（木）\n⟣place : ステラボール\n⟣open/start：9:30/10:00 https://t.co/AIk8lN2Orw",
+      "attachments": {
+        "media_keys": [
+          "3_2097258095517044736"
+        ]
+      },
+      "classification": {
+        "classification": "event",
+        "confidence": "high",
+        "reason": "live post has date and structured event fields",
+        "source_kind": "ticket_update"
+      },
+      "created_at": "2026-09-08T11:01:00+00:00",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/AIk8lN2Orw",
+            "end": 226,
+            "expanded_url": "https://x.com/info_myojou/status/2097279027568660629/photo/1",
+            "media_key": "3_2097258095517044736",
+            "start": 203,
+            "url": "https://t.co/AIk8lN2Orw"
+          }
+        ]
+      },
+      "full_text_source": "note_tweet",
+      "id": "2097279027568660629",
+      "media": [
+        {
+          "height": 2048,
+          "media_key": "3_2097258095517044736",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HRr1IEmbEAArkib.jpg",
+          "width": 1448
+        }
+      ],
+      "needs_review": false,
+      "needs_review_reasons": [
+        "classification: live post has date and structured event fields"
+      ],
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 397,
+              "start": 390,
+              "tag": "myojou"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "t-dv.com/idoLoveYou_0917",
+              "end": 388,
+              "expanded_url": "http://t-dv.com/idoLoveYou_0917",
+              "start": 365,
+              "url": "https://t.co/Go6neECjQR"
+            }
+          ]
+        },
+        "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n                    文化放送presents\n 『idoLove You♫-On Stage QR-vol.2』\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n🎙12:50-13:10\n📸13:20-14:20  A\n\n⟣date：9/17（木）\n⟣place : ステラボール\n⟣open/start：9:30/10:00\n⟣price：VIPチケット ¥8,000 （前方エリアあり）/ 一般チケット ¥3,000 （各＋1D）\n⟣入場特典 : 明星カード1枚(サインありチェキ)\n\n【一般チケット先着販売】\n8/19（水）20:00-9/16（水）23:59\n【VIPチケット先着販売】\n8/28（金）20:00-9/16（水）23:59\n🔗 https://t.co/Go6neECjQR\n\n#myojou"
+      },
+      "parsed_fields": {
+        "benefit_event_time": "13:20-14:20",
+        "classification": "event",
+        "classification_confidence": "high",
+        "classification_reason": "live post has date and structured event fields",
+        "event_date": "2026-09-17",
+        "event_dates": [
+          "2026-09-17"
+        ],
+        "event_name": "idoLove You♫-On Stage QR-vol.2",
+        "extraction_confidence": 0.95,
+        "general_ticket_price": 3000,
+        "lottery_result_at": null,
+        "myojou_performance_time": "12:50-13:10",
+        "notes": "ドリンク代: 各+1D\n⟣入場特典 : 明星カード1枚(サインありチェキ)",
+        "open_time": "09:30",
+        "payment_deadline_at": null,
+        "priority_ticket_name": "VIPチケット",
+        "priority_ticket_price": 8000,
+        "same_day_ticket_price": null,
+        "source_kind": "ticket_update",
+        "source_post_id": "2097279027568660629",
+        "source_posted_at": "2026-09-08T11:01:00Z",
+        "source_raw": {
+          "api_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n                    文化放送presents\n 『idoLove You♫-On Stage QR-vol.2』\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n🎙12:50-13:10\n📸13:20-14:20  A\n\n⟣date：9/17（木）\n⟣place : ステラボール\n⟣open/start：9:30/10:00 https://t.co/AIk8lN2Orw",
+          "attachments": {
+            "media_keys": [
+              "3_2097258095517044736"
+            ]
+          },
+          "created_at": "2026-09-08T11:01:00.000Z",
+          "edit_history_tweet_ids": [
+            "2097279027568660629"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/AIk8lN2Orw",
+                "end": 226,
+                "expanded_url": "https://x.com/info_myojou/status/2097279027568660629/photo/1",
+                "media_key": "3_2097258095517044736",
+                "start": 203,
+                "url": "https://t.co/AIk8lN2Orw"
+              }
+            ]
+          },
+          "full_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n                    文化放送presents\n 『idoLove You♫-On Stage QR-vol.2』\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n🎙12:50-13:10\n📸13:20-14:20  A\n\n⟣date：9/17（木）\n⟣place : ステラボール\n⟣open/start：9:30/10:00\n⟣price：VIPチケット ¥8,000 （前方エリアあり）/ 一般チケット ¥3,000 （各＋1D）\n⟣入場特典 : 明星カード1枚(サインありチェキ)\n\n【一般チケット先着販売】\n8/19（水）20:00-9/16（水）23:59\n【VIPチケット先着販売】\n8/28（金）20:00-9/16（水）23:59\n🔗 https://t.co/Go6neECjQR\n\n#myojou",
+          "full_text_source": "note_tweet",
+          "id": "2097279027568660629",
+          "media": [
+            {
+              "height": 2048,
+              "media_key": "3_2097258095517044736",
+              "type": "photo",
+              "url": "https://pbs.twimg.com/media/HRr1IEmbEAArkib.jpg",
+              "width": 1448
+            }
+          ],
+          "note_tweet": {
+            "entities": {
+              "hashtags": [
+                {
+                  "end": 397,
+                  "start": 390,
+                  "tag": "myojou"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "t-dv.com/idoLoveYou_0917",
+                  "end": 388,
+                  "expanded_url": "http://t-dv.com/idoLoveYou_0917",
+                  "start": 365,
+                  "url": "https://t.co/Go6neECjQR"
+                }
+              ]
+            },
+            "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n                    文化放送presents\n 『idoLove You♫-On Stage QR-vol.2』\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n🎙12:50-13:10\n📸13:20-14:20  A\n\n⟣date：9/17（木）\n⟣place : ステラボール\n⟣open/start：9:30/10:00\n⟣price：VIPチケット ¥8,000 （前方エリアあり）/ 一般チケット ¥3,000 （各＋1D）\n⟣入場特典 : 明星カード1枚(サインありチェキ)\n\n【一般チケット先着販売】\n8/19（水）20:00-9/16（水）23:59\n【VIPチケット先着販売】\n8/28（金）20:00-9/16（水）23:59\n🔗 https://t.co/Go6neECjQR\n\n#myojou"
+          },
+          "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n                    文化放送presents\n 『idoLove You♫-On Stage QR-vol.2』\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n🎙12:50-13:10\n📸13:20-14:20  A\n\n⟣date：9/17（木）\n⟣place : ステラボール\n⟣open/start：9:30/10:00 https://t.co/AIk8lN2Orw",
+          "truncated_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n                    文化放送presents\n 『idoLove You♫-On Stage QR-vol.2』\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n🎙12:50-13:10\n📸13:20-14:20  A\n\n⟣date：9/17（木）\n⟣place : ステラボール\n⟣open/start：9:30/10:00 https://t.co/AIk8lN2Orw"
+        },
+        "source_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n                    文化放送presents\n 『idoLove You♫-On Stage QR-vol.2』\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n🎙12:50-13:10\n📸13:20-14:20  A\n\n⟣date：9/17（木）\n⟣place : ステラボール\n⟣open/start：9:30/10:00\n⟣price：VIPチケット ¥8,000 （前方エリアあり）/ 一般チケット ¥3,000 （各＋1D）\n⟣入場特典 : 明星カード1枚(サインありチェキ)\n\n【一般チケット先着販売】\n8/19（水）20:00-9/16（水）23:59\n【VIPチケット先着販売】\n8/28（金）20:00-9/16（水）23:59\n🔗 https://t.co/Go6neECjQR\n\n#myojou",
+        "source_type": "x",
+        "source_url": "https://x.com/info_myojou/status/2097279027568660629",
+        "start_time": "10:00",
+        "ticket_application_deadline_at": "2026-09-16T23:59:00+09:00",
+        "ticket_application_start_at": "2026-08-19T20:00:00+09:00",
+        "ticket_sale_type": "先着",
+        "ticket_sales": [
+          {
+            "deadline_at": "2026-09-16T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 8000,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2097279027568660629",
+            "source_url": "https://x.com/info_myojou/status/2097279027568660629",
+            "start_at": "2026-08-19T20:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "VIPチケット",
+            "ticket_tier": "VIP"
+          },
+          {
+            "deadline_at": "2026-09-16T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 3000,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2097279027568660629",
+            "source_url": "https://x.com/info_myojou/status/2097279027568660629",
+            "start_at": "2026-08-19T20:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般チケット",
+            "ticket_tier": "一般"
+          },
+          {
+            "deadline_at": "2026-09-16T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 8000,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2097279027568660629",
+            "source_url": "https://x.com/info_myojou/status/2097279027568660629",
+            "start_at": "2026-08-28T20:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "VIPチケット",
+            "ticket_tier": "VIP"
+          },
+          {
+            "deadline_at": "2026-09-16T23:59:00+09:00",
+            "notes": null,
+            "payment_deadline_at": null,
+            "price": 3000,
+            "result_at": null,
+            "sale_type": "先着",
+            "source_post_id": "2097279027568660629",
+            "source_url": "https://x.com/info_myojou/status/2097279027568660629",
+            "start_at": "2026-08-28T20:00:00+09:00",
+            "status": "不明",
+            "ticket_name": "一般チケット",
+            "ticket_tier": "一般"
+          }
+        ],
+        "ticket_status": null,
+        "ticket_url": "http://t-dv.com/idoLoveYou_0917",
+        "venue": "ステラボール"
+      },
+      "raw": {
+        "api_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n                    文化放送presents\n 『idoLove You♫-On Stage QR-vol.2』\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n🎙12:50-13:10\n📸13:20-14:20  A\n\n⟣date：9/17（木）\n⟣place : ステラボール\n⟣open/start：9:30/10:00 https://t.co/AIk8lN2Orw",
+        "attachments": {
+          "media_keys": [
+            "3_2097258095517044736"
+          ]
+        },
+        "created_at": "2026-09-08T11:01:00.000Z",
+        "edit_history_tweet_ids": [
+          "2097279027568660629"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/AIk8lN2Orw",
+              "end": 226,
+              "expanded_url": "https://x.com/info_myojou/status/2097279027568660629/photo/1",
+              "media_key": "3_2097258095517044736",
+              "start": 203,
+              "url": "https://t.co/AIk8lN2Orw"
+            }
+          ]
+        },
+        "full_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n                    文化放送presents\n 『idoLove You♫-On Stage QR-vol.2』\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n🎙12:50-13:10\n📸13:20-14:20  A\n\n⟣date：9/17（木）\n⟣place : ステラボール\n⟣open/start：9:30/10:00\n⟣price：VIPチケット ¥8,000 （前方エリアあり）/ 一般チケット ¥3,000 （各＋1D）\n⟣入場特典 : 明星カード1枚(サインありチェキ)\n\n【一般チケット先着販売】\n8/19（水）20:00-9/16（水）23:59\n【VIPチケット先着販売】\n8/28（金）20:00-9/16（水）23:59\n🔗 https://t.co/Go6neECjQR\n\n#myojou",
+        "full_text_source": "note_tweet",
+        "id": "2097279027568660629",
+        "media": [
+          {
+            "height": 2048,
+            "media_key": "3_2097258095517044736",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HRr1IEmbEAArkib.jpg",
+            "width": 1448
+          }
+        ],
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 397,
+                "start": 390,
+                "tag": "myojou"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "t-dv.com/idoLoveYou_0917",
+                "end": 388,
+                "expanded_url": "http://t-dv.com/idoLoveYou_0917",
+                "start": 365,
+                "url": "https://t.co/Go6neECjQR"
+              }
+            ]
+          },
+          "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n                    文化放送presents\n 『idoLove You♫-On Stage QR-vol.2』\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n🎙12:50-13:10\n📸13:20-14:20  A\n\n⟣date：9/17（木）\n⟣place : ステラボール\n⟣open/start：9:30/10:00\n⟣price：VIPチケット ¥8,000 （前方エリアあり）/ 一般チケット ¥3,000 （各＋1D）\n⟣入場特典 : 明星カード1枚(サインありチェキ)\n\n【一般チケット先着販売】\n8/19（水）20:00-9/16（水）23:59\n【VIPチケット先着販売】\n8/28（金）20:00-9/16（水）23:59\n🔗 https://t.co/Go6neECjQR\n\n#myojou"
+        },
+        "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n                    文化放送presents\n 『idoLove You♫-On Stage QR-vol.2』\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n🎙12:50-13:10\n📸13:20-14:20  A\n\n⟣date：9/17（木）\n⟣place : ステラボール\n⟣open/start：9:30/10:00 https://t.co/AIk8lN2Orw",
+        "truncated_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n                    文化放送presents\n 『idoLove You♫-On Stage QR-vol.2』\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n🎙12:50-13:10\n📸13:20-14:20  A\n\n⟣date：9/17（木）\n⟣place : ステラボール\n⟣open/start：9:30/10:00 https://t.co/AIk8lN2Orw"
+      },
+      "referenced_tweets": [],
+      "text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n                    文化放送presents\n 『idoLove You♫-On Stage QR-vol.2』\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n🎙12:50-13:10\n📸13:20-14:20  A\n\n⟣date：9/17（木）\n⟣place : ステラボール\n⟣open/start：9:30/10:00\n⟣price：VIPチケット ¥8,000 （前方エリアあり）/ 一般チケット ¥3,000 （各＋1D）\n⟣入場特典 : 明星カード1枚(サインありチェキ)\n\n【一般チケット先着販売】\n8/19（水）20:00-9/16（水）23:59\n【VIPチケット先着販売】\n8/28（金）20:00-9/16（水）23:59\n🔗 https://t.co/Go6neECjQR\n\n#myojou",
+      "truncated_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n                    文化放送presents\n 『idoLove You♫-On Stage QR-vol.2』\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n🎙12:50-13:10\n📸13:20-14:20  A\n\n⟣date：9/17（木）\n⟣place : ステラボール\n⟣open/start：9:30/10:00 https://t.co/AIk8lN2Orw",
+      "url": "https://x.com/info_myojou/status/2097279027568660629"
+    },
+    {
       "api_text": "✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n        TOKYO GIRLS GIRLS Halloween!!\n✮••┈┈┈┈┈┈┈••✮••┈┈┈┈┈┈┈••✮\n\n⟣date：10/25（日）\n⟣place :ステラボール\n⟣open/start：8:00/8:15\n⟣price：前方¥10,000/通常¥4,000/当日各+¥1,000（各+1D）\n\n【前方抽選受付】 https://t.co/7aTlei9p5w",
       "attachments": {
         "media_keys": [
@@ -178567,7 +179919,7 @@
     "backfill": true,
     "dry_run": true,
     "estimated_x_post_reads": 411,
-    "latest_post_id": "2096951089870553203",
+    "latest_post_id": "2097328720877101527",
     "max_pages": 10,
     "max_posts": 500,
     "max_results": 5,
@@ -178610,16 +179962,16 @@
       }
     ],
     "pages_fetched": 5,
-    "posts_fetched": 816,
+    "posts_fetched": 821,
     "rate_limit_headers": {
       "x-rate-limit-limit": "10000",
       "x-rate-limit-remaining": "9993",
       "x-rate-limit-reset": "1781108896"
     },
-    "total_posts": 816,
-    "updated_at": "2026-09-07T21:56:09.395650+00:00",
+    "total_posts": 821,
+    "updated_at": "2026-09-08T21:41:56.866495+00:00",
     "username": "info_myojou"
   },
   "source": "x_api",
-  "updated_at": "2026-09-07T21:56:09.395650+00:00"
+  "updated_at": "2026-09-08T21:41:56.866495+00:00"
 }
